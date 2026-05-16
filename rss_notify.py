@@ -4,18 +4,6 @@ import hashlib
 import requests
 import feedparser
 
-requests.post(
-    "https://ntfy.sh/MARKET_NEWS",
-    data="GitHub Actions test successful".encode("utf-8"),
-    headers={
-        "Title": "Test Alert",
-        "Priority": "high",
-        "Tags": "white_check_mark",
-    },
-    timeout=10,
-)
-
-
 MARKET_TOPIC = "MARKET_NEWS"
 URGENT_TOPIC = "MARKET_URGENT"
 
