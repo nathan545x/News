@@ -1,0 +1,19 @@
+name: Multi-Source Trading Alerts
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+jobs:
+  alerts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run alert engine
+        run: python rss_notify.py
