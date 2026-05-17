@@ -23,7 +23,6 @@ SOURCE_WEIGHTS = {
     "CNBC": 1.15,
     "CoinDesk": 1.10,
     "GoogleNews": 1.15,
-
     "SEC": 1.60,
     "Fed": 1.60,
     "Treasury": 1.50,
@@ -34,6 +33,103 @@ SOURCE_WEIGHTS = {
     "OPEC": 1.50,
     "NATO": 1.40,
     "UN": 1.20,
+}
+
+TICKERS = {
+    "nvidia": "NVDA", "nvda": "NVDA",
+    "apple": "AAPL", "aapl": "AAPL",
+    "microsoft": "MSFT", "msft": "MSFT",
+    "amazon": "AMZN", "amzn": "AMZN",
+    "meta": "META",
+    "tesla": "TSLA", "tsla": "TSLA",
+    "google": "GOOGL", "alphabet": "GOOGL", "googl": "GOOGL",
+    "amd": "AMD",
+    "intel": "INTC", "intc": "INTC",
+    "broadcom": "AVGO", "avgo": "AVGO",
+    "tsmc": "TSM", "taiwan semiconductor": "TSM",
+    "asml": "ASML",
+    "arm": "ARM",
+    "palantir": "PLTR", "pltr": "PLTR",
+    "figma": "FIG",
+    "coinbase": "COIN", "coin": "COIN",
+    "microstrategy": "MSTR", "strategy": "MSTR", "mstr": "MSTR",
+    "bitcoin": "BTC", "btc": "BTC",
+    "ethereum": "ETH", "eth": "ETH",
+    "solana": "SOL", "sol": "SOL",
+    "xrp": "XRP",
+    "binance": "BNB", "bnb": "BNB",
+    "spacex": "SPACE-X",
+    "openai": "OPENAI",
+}
+
+REGIONS = {
+    "US": [
+        "united states", "u.s.", "us ", "america", "american",
+        "washington", "fed", "federal reserve", "treasury",
+        "sec", "nasdaq", "s&p", "wall street",
+    ],
+    "UK": [
+        "uk", "u.k.", "britain", "british", "london",
+        "boe", "bank of england", "gilts",
+    ],
+    "Europe": [
+        "europe", "european", "eurozone", "eu", "ecb",
+        "germany", "france", "italy", "spain", "brussels",
+    ],
+    "China": [
+        "china", "chinese", "beijing", "xi", "yuan", "pboc",
+    ],
+    "Taiwan": [
+        "taiwan", "taipei", "tsmc", "south china sea",
+    ],
+    "Japan": [
+        "japan", "japanese", "tokyo", "boj", "yen",
+    ],
+    "India": [
+        "india", "indian", "rbi", "mumbai", "rupee",
+    ],
+    "Middle East": [
+        "iran", "israel", "saudi", "gaza", "qatar",
+        "uae", "dubai", "hormuz", "red sea",
+    ],
+    "Russia/Ukraine": [
+        "russia", "russian", "ukraine", "ukrainian",
+        "putin", "zelensky", "zelenskiy",
+    ],
+    "Global": [
+        "global", "world", "international", "opec", "nato", "un ",
+    ],
+}
+
+ASSETS = {
+    "Equities": [
+        "stocks", "shares", "equities", "nasdaq", "s&p",
+        "dow", "earnings", "ipo",
+    ],
+    "Rates": [
+        "fed", "ecb", "boj", "boe", "rates", "rate cut",
+        "rate hike", "yield", "treasury", "bonds", "gilts",
+    ],
+    "FX": [
+        "dollar", "yen", "yuan", "euro", "pound", "rupee",
+        "currency", "fx",
+    ],
+    "Commodities": [
+        "oil", "crude", "gold", "copper", "uranium",
+        "lng", "gas", "commodities",
+    ],
+    "Crypto": [
+        "bitcoin", "btc", "ethereum", "eth", "crypto",
+        "stablecoin", "coinbase", "binance",
+    ],
+    "Credit": [
+        "credit", "debt", "default", "bankruptcy",
+        "bonds", "spreads",
+    ],
+    "Geopolitics": [
+        "sanctions", "war", "attack", "missile",
+        "nato", "tariffs", "export controls",
+    ],
 }
 
 FEEDS = [
@@ -186,6 +282,29 @@ def keyword_matches(text, keyword):
     pattern = rf"\b{re.escape(keyword.lower())}\b"
     return re.search(pattern, text) is not None
 
+def extract_from_map(text, mapping):
+    results = set()
+
+    for key, value in mapping.items():
+        if isinstance(value, list):
+            for term in value:
+                if keyword_matches(text, term):
+                    results.add(key)
+        else:
+            if keyword_matches(text, key):
+                results.add(value)
+
+    return sorted(results)
+
+def extract_tickers(text):
+    return extract_from_map(text, TICKERS)
+
+def extract_regions(text):
+    return extract_from_map(text, REGIONS)
+
+def extract_assets(text):
+    return extract_from_map(text, ASSETS)
+
 def cluster_key(title):
     words = re.findall(r"\w+", title.lower())
     words = [
@@ -212,9 +331,29 @@ def score_entry(source, entry):
         if keyword_matches(text, negative):
             score -= 10
 
+    tickers = extract_tickers(text)
+    regions = extract_regions(text)
+    assets = extract_assets(text)
+
+    if tickers:
+        score += min(len(tickers) * 2, 6)
+
+    if regions:
+        score += min(len(regions), 4)
+
+    if assets:
+        score += min(len(assets), 4)
+
     score *= SOURCE_WEIGHTS.get(source, 1.0)
 
-    return round(score, 1), sorted(matched_topics), matched_keywords
+    return (
+        round(score, 1),
+        sorted(matched_topics),
+        matched_keywords,
+        tickers,
+        regions,
+        assets,
+    )
 
 def item_id(source, category, entry):
     unique = (
@@ -273,7 +412,15 @@ def main():
                 new_seen.add(uid)
 
                 title = entry.get("title", "")
-                score, topics, keywords = score_entry(source, entry)
+
+                (
+                    score,
+                    topics,
+                    keywords,
+                    tickers,
+                    regions,
+                    assets,
+                ) = score_entry(source, entry)
 
                 if score < 2:
                     continue
@@ -288,6 +435,9 @@ def main():
                     "score": score,
                     "topics": topics,
                     "keywords": keywords,
+                    "tickers": tickers,
+                    "regions": regions,
+                    "assets": assets,
                     "time": now_iso(),
                 })
 
@@ -306,10 +456,29 @@ def main():
         )
 
         best = stories[0]
+
         total_score = best["score"] + (len(stories) - 1) * 3
         source_count = len({s["source"] for s in stories})
         urgent = total_score >= 14
         sources = sorted({s["source"] for s in stories})
+
+        all_tickers = sorted({
+            ticker
+            for story in stories
+            for ticker in story.get("tickers", [])
+        })
+
+        all_regions = sorted({
+            region
+            for story in stories
+            for region in story.get("regions", [])
+        })
+
+        all_assets = sorted({
+            asset
+            for story in stories
+            for asset in story.get("assets", [])
+        })
 
         alert = {
             "time": now_iso(),
@@ -319,6 +488,9 @@ def main():
             "source_count": source_count,
             "topics": best["topics"],
             "keywords": best["keywords"][:5],
+            "tickers": all_tickers[:10],
+            "regions": all_regions[:10],
+            "assets": all_assets[:10],
             "title": best["title"],
             "link": best["link"],
         }
@@ -345,10 +517,21 @@ def main():
     normal_count = 0
 
     for alert in new_alerts[:25]:
+        title_parts = []
+
+        if alert.get("tickers"):
+            title_parts.append("/".join(alert["tickers"][:3]))
+
+        if alert.get("regions"):
+            title_parts.append("/".join(alert["regions"][:2]))
+
+        if alert.get("topics"):
+            title_parts.append("/".join(alert["topics"][:2]))
+
         title = (
             f"[{', '.join(alert['sources'])}] "
-            f"{' | '.join(alert['topics'][:2])}"
-        )
+            f"{' · '.join(title_parts)}"
+        ).strip()
 
         if alert["source_count"] > 1:
             title += f" | {alert['source_count']} sources"
@@ -357,6 +540,9 @@ def main():
             f"{alert['title']}\n\n"
             f"Score: {alert['score']}\n"
             f"Topics: {', '.join(alert['topics'])}\n"
+            f"Tickers: {', '.join(alert['tickers'])}\n"
+            f"Regions: {', '.join(alert['regions'])}\n"
+            f"Assets: {', '.join(alert['assets'])}\n"
             f"Keywords: {', '.join(alert['keywords'])}\n\n"
             f"{alert['link']}"
         )
@@ -385,6 +571,9 @@ def main():
             "source_count": 1,
             "topics": ["system"],
             "keywords": ["online"],
+            "tickers": [],
+            "regions": [],
+            "assets": [],
             "title": "Market intelligence system online",
             "link": "https://github.com/nathan545x/News",
         }]
