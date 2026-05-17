@@ -3,21 +3,39 @@
 <head>
   <title>Market Intelligence</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <style>
+    :root {
+      --bg: #070b10;
+      --panel: #0f1721;
+      --panel-2: #121c28;
+      --border: #223246;
+      --text: #e8f0fa;
+      --muted: #8fa3b8;
+      --blue: #68a8ff;
+      --red: #ff5a66;
+      --green: #62d394;
+      --yellow: #f5c451;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0b0f14;
-      color: #e8eef5;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
     }
 
     header {
-      padding: 20px;
-      border-bottom: 1px solid #1e2936;
-      background: #111821;
+      padding: 18px 20px;
+      background: #0d141d;
+      border-bottom: 1px solid var(--border);
       position: sticky;
       top: 0;
-      z-index: 10;
+      z-index: 20;
     }
 
     h1 {
@@ -26,28 +44,86 @@
     }
 
     .sub {
-      color: #8fa3b8;
+      color: var(--muted);
       font-size: 13px;
       margin-top: 6px;
     }
 
+    .toolbar {
+      display: grid;
+      grid-template-columns: 1fr 160px 160px auto auto;
+      gap: 10px;
+      padding: 14px 20px;
+      background: #091018;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 82px;
+      z-index: 15;
+    }
+
+    input, select, button {
+      background: var(--panel);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 12px;
+      font-size: 14px;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    button.active {
+      border-color: var(--red);
+      color: #ffd1d5;
+      background: #31141a;
+    }
+
+    .stats {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      padding: 14px 20px 0;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .stat {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px 12px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .stat strong {
+      color: var(--text);
+    }
+
     .feed {
-      padding: 16px;
-      max-width: 900px;
+      padding: 16px 20px 40px;
+      max-width: 1100px;
       margin: auto;
     }
 
     .card {
-      background: #121a24;
-      border: 1px solid #223044;
-      border-radius: 14px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 16px;
       padding: 16px;
       margin-bottom: 14px;
+      animation: fadeIn 0.25s ease;
+    }
+
+    .card.compact {
+      padding: 11px 14px;
     }
 
     .urgent {
-      border-color: #ff4d4d;
-      box-shadow: 0 0 0 1px #ff4d4d33;
+      border-color: #ff5a66;
+      box-shadow: 0 0 0 1px #ff5a6633;
     }
 
     .meta {
@@ -59,26 +135,41 @@
     }
 
     .tag {
-      background: #233247;
-      color: #b7c7d8;
+      background: #1d2a3b;
+      color: #bcd0e5;
       padding: 4px 8px;
       border-radius: 999px;
     }
 
     .urgent-tag {
-      background: #4a1f25;
-      color: #ffb3b3;
+      background: #4a1e27;
+      color: #ffb8be;
+    }
+
+    .source-tag {
+      background: #172c46;
+      color: #9dccff;
+    }
+
+    .topic-tag {
+      background: #203022;
+      color: #a8e6b2;
     }
 
     .title {
       font-size: 17px;
-      font-weight: bold;
-      margin-bottom: 10px;
+      font-weight: 700;
       line-height: 1.35;
+      margin-bottom: 10px;
+    }
+
+    .compact .title {
+      font-size: 15px;
+      margin-bottom: 6px;
     }
 
     a {
-      color: #7ab7ff;
+      color: var(--blue);
       text-decoration: none;
     }
 
@@ -87,15 +178,63 @@
     }
 
     .small {
-      color: #8fa3b8;
+      color: var(--muted);
       font-size: 12px;
-      margin-top: 10px;
+      margin-top: 7px;
     }
 
     .empty {
-      color: #8fa3b8;
+      color: var(--muted);
       padding: 30px;
       text-align: center;
+    }
+
+    .trending {
+      padding: 12px 20px 0;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .trend-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .trend {
+      background: #17202d;
+      border: 1px solid var(--border);
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      color: #c8d8ea;
+      cursor: pointer;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(4px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 800px) {
+      .toolbar {
+        grid-template-columns: 1fr;
+        top: 78px;
+      }
+
+      header {
+        position: static;
+      }
+
+      .toolbar {
+        position: static;
+      }
     }
   </style>
 </head>
@@ -106,11 +245,42 @@
     <div class="sub" id="status">Loading alerts...</div>
   </header>
 
+  <section class="toolbar">
+    <input id="search" placeholder="Search headlines, sources, topics, keywords..." />
+
+    <select id="sourceFilter">
+      <option value="">All sources</option>
+    </select>
+
+    <select id="topicFilter">
+      <option value="">All topics</option>
+    </select>
+
+    <button id="urgentToggle">Urgent only</button>
+    <button id="compactToggle">Compact</button>
+  </section>
+
+  <section class="stats" id="stats"></section>
+
+  <section class="trending">
+    <div class="trend-row" id="trends"></div>
+  </section>
+
   <main class="feed" id="feed"></main>
 
   <script>
     const ALERTS_URL =
       "https://raw.githubusercontent.com/nathan545x/News/main/alerts.json";
+
+    let allAlerts = [];
+    let urgentOnly = false;
+    let compactMode = false;
+
+    const searchEl = document.getElementById("search");
+    const sourceFilter = document.getElementById("sourceFilter");
+    const topicFilter = document.getElementById("topicFilter");
+    const urgentToggle = document.getElementById("urgentToggle");
+    const compactToggle = document.getElementById("compactToggle");
 
     function timeAgo(iso) {
       const diff = Date.now() - new Date(iso).getTime();
@@ -125,47 +295,183 @@
       return Math.floor(hours / 24) + "d ago";
     }
 
-    function render(alerts) {
+    function uniqueValues(alerts, key) {
+      const set = new Set();
+
+      alerts.forEach(alert => {
+        const value = alert[key];
+
+        if (Array.isArray(value)) {
+          value.forEach(v => set.add(v));
+        } else if (value) {
+          set.add(value);
+        }
+      });
+
+      return [...set].sort();
+    }
+
+    function populateFilters(alerts) {
+      const currentSource = sourceFilter.value;
+      const currentTopic = topicFilter.value;
+
+      const sources = new Set();
+      const topics = new Set();
+
+      alerts.forEach(alert => {
+        (alert.sources || []).forEach(s => sources.add(s));
+        (alert.topics || []).forEach(t => topics.add(t));
+      });
+
+      sourceFilter.innerHTML =
+        `<option value="">All sources</option>` +
+        [...sources].sort().map(s =>
+          `<option value="${s}">${s}</option>`
+        ).join("");
+
+      topicFilter.innerHTML =
+        `<option value="">All topics</option>` +
+        [...topics].sort().map(t =>
+          `<option value="${t}">${t}</option>`
+        ).join("");
+
+      sourceFilter.value = currentSource;
+      topicFilter.value = currentTopic;
+    }
+
+    function buildText(alert) {
+      return [
+        alert.title,
+        ...(alert.sources || []),
+        ...(alert.topics || []),
+        ...(alert.keywords || [])
+      ].join(" ").toLowerCase();
+    }
+
+    function getFilteredAlerts() {
+      const query = searchEl.value.toLowerCase().trim();
+      const source = sourceFilter.value;
+      const topic = topicFilter.value;
+
+      return allAlerts.filter(alert => {
+        if (urgentOnly && !alert.urgent) return false;
+
+        if (source && !(alert.sources || []).includes(source)) {
+          return false;
+        }
+
+        if (topic && !(alert.topics || []).includes(topic)) {
+          return false;
+        }
+
+        if (query && !buildText(alert).includes(query)) {
+          return false;
+        }
+
+        return true;
+      });
+    }
+
+    function renderStats(alerts) {
+      const urgent = alerts.filter(a => a.urgent).length;
+      const sources = uniqueValues(alerts, "sources").length;
+      const topics = uniqueValues(alerts, "topics").length;
+      const avgScore = alerts.length
+        ? (alerts.reduce((sum, a) => sum + Number(a.score || 0), 0) / alerts.length).toFixed(1)
+        : 0;
+
+      document.getElementById("stats").innerHTML = `
+        <div class="stat"><strong>${alerts.length}</strong> visible</div>
+        <div class="stat"><strong>${urgent}</strong> urgent</div>
+        <div class="stat"><strong>${sources}</strong> sources</div>
+        <div class="stat"><strong>${topics}</strong> topics</div>
+        <div class="stat"><strong>${avgScore}</strong> avg score</div>
+      `;
+    }
+
+    function renderTrending(alerts) {
+      const counts = {};
+
+      alerts.forEach(alert => {
+        (alert.keywords || []).forEach(k => {
+          counts[k] = (counts[k] || 0) + 1;
+        });
+      });
+
+      const top = Object.entries(counts)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 12);
+
+      document.getElementById("trends").innerHTML = top.map(([word, count]) => `
+        <span class="trend" onclick="setSearch('${word}')">${word} · ${count}</span>
+      `).join("");
+    }
+
+    function setSearch(word) {
+      searchEl.value = word;
+      render();
+    }
+
+    function escapeHtml(value) {
+      return String(value || "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function render() {
+      const alerts = getFilteredAlerts();
       const feed = document.getElementById("feed");
       const status = document.getElementById("status");
 
+      renderStats(alerts);
+      renderTrending(alerts);
+
       status.textContent =
-        `${alerts.length} alerts · updated ${new Date().toLocaleTimeString()}`;
+        `${allAlerts.length} total alerts · ${alerts.length} shown · updated ${new Date().toLocaleTimeString()}`;
 
       if (!alerts.length) {
-        feed.innerHTML = `<div class="empty">No alerts yet.</div>`;
+        feed.innerHTML = `<div class="empty">No matching alerts.</div>`;
         return;
       }
 
       feed.innerHTML = alerts.map(alert => {
-        const urgent = alert.urgent ? "urgent" : "";
+        const urgentClass = alert.urgent ? "urgent" : "";
+        const compactClass = compactMode ? "compact" : "";
 
-        const sources = (alert.sources || []).join(", ");
-        const topics = (alert.topics || []).join(", ");
+        const sources = (alert.sources || []).map(s =>
+          `<span class="tag source-tag">${escapeHtml(s)}</span>`
+        ).join("");
+
+        const topics = (alert.topics || []).map(t =>
+          `<span class="tag topic-tag">${escapeHtml(t)}</span>`
+        ).join("");
+
         const keywords = (alert.keywords || []).join(", ");
 
         return `
-          <article class="card ${urgent}">
+          <article class="card ${urgentClass} ${compactClass}">
             <div class="meta">
               ${alert.urgent ? `<span class="tag urgent-tag">URGENT</span>` : ""}
-              <span class="tag">${sources}</span>
-              <span class="tag">Score ${alert.score}</span>
-              <span class="tag">${topics}</span>
+              ${sources}
+              <span class="tag">Score ${escapeHtml(alert.score)}</span>
+              ${topics}
             </div>
 
             <div class="title">
-              <a href="${alert.link}" target="_blank" rel="noopener">
-                ${alert.title}
+              <a href="${escapeHtml(alert.link)}" target="_blank" rel="noopener">
+                ${escapeHtml(alert.title)}
               </a>
             </div>
 
-            <div class="small">
-              Keywords: ${keywords || "none"}
-            </div>
-
-            <div class="small">
-              ${timeAgo(alert.time)}
-            </div>
+            ${compactMode ? "" : `
+              <div class="small">Keywords: ${escapeHtml(keywords || "none")}</div>
+              <div class="small">
+                ${timeAgo(alert.time)} · ${escapeHtml(alert.source_count || 1)} source(s)
+              </div>
+            `}
           </article>
         `;
       }).join("");
@@ -174,16 +480,39 @@
     async function loadAlerts() {
       try {
         const res = await fetch(ALERTS_URL + "?t=" + Date.now());
-        const alerts = await res.json();
-        render(alerts);
+        allAlerts = await res.json();
+
+        allAlerts.sort((a, b) => {
+          if (b.urgent !== a.urgent) return b.urgent - a.urgent;
+          return Number(b.score || 0) - Number(a.score || 0);
+        });
+
+        populateFilters(allAlerts);
+        render();
       } catch (err) {
         document.getElementById("feed").innerHTML =
           `<div class="empty">Failed to load alerts.</div>`;
       }
     }
 
+    searchEl.addEventListener("input", render);
+    sourceFilter.addEventListener("change", render);
+    topicFilter.addEventListener("change", render);
+
+    urgentToggle.addEventListener("click", () => {
+      urgentOnly = !urgentOnly;
+      urgentToggle.classList.toggle("active", urgentOnly);
+      render();
+    });
+
+    compactToggle.addEventListener("click", () => {
+      compactMode = !compactMode;
+      compactToggle.classList.toggle("active", compactMode);
+      render();
+    });
+
     loadAlerts();
-    setInterval(loadAlerts, 60000);
+    setInterval(loadAlerts, 15000);
   </script>
 </body>
 </html>
