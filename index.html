@@ -3,21 +3,187 @@
 <head>
   <title>Market Intelligence</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0f14;
+      color: #e8eef5;
+    }
+
+    header {
+      padding: 20px;
+      border-bottom: 1px solid #1e2936;
+      background: #111821;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 22px;
+    }
+
+    .sub {
+      color: #8fa3b8;
+      font-size: 13px;
+      margin-top: 6px;
+    }
+
+    .feed {
+      padding: 16px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background: #121a24;
+      border: 1px solid #223044;
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 14px;
+    }
+
+    .urgent {
+      border-color: #ff4d4d;
+      box-shadow: 0 0 0 1px #ff4d4d33;
+    }
+
+    .meta {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+      font-size: 12px;
+    }
+
+    .tag {
+      background: #233247;
+      color: #b7c7d8;
+      padding: 4px 8px;
+      border-radius: 999px;
+    }
+
+    .urgent-tag {
+      background: #4a1f25;
+      color: #ffb3b3;
+    }
+
+    .title {
+      font-size: 17px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      line-height: 1.35;
+    }
+
+    a {
+      color: #7ab7ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .small {
+      color: #8fa3b8;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+
+    .empty {
+      color: #8fa3b8;
+      padding: 30px;
+      text-align: center;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Market Intelligence Feed</h1>
-  <pre id="feed">Loading...</pre>
+  <header>
+    <h1>Market Intelligence</h1>
+    <div class="sub" id="status">Loading alerts...</div>
+  </header>
+
+  <main class="feed" id="feed"></main>
 
   <script>
-    fetch("https://raw.githubusercontent.com/nathan545x/News/main/alerts.json")
-      .then(r => r.json())
-      .then(data => {
-        document.getElementById("feed").textContent =
-          JSON.stringify(data, null, 2);
-      })
-      .catch(err => {
-        document.getElementById("feed").textContent = err;
-      });
+    const ALERTS_URL =
+      "https://raw.githubusercontent.com/nathan545x/News/main/alerts.json";
+
+    function timeAgo(iso) {
+      const diff = Date.now() - new Date(iso).getTime();
+      const mins = Math.floor(diff / 60000);
+
+      if (mins < 1) return "just now";
+      if (mins < 60) return mins + "m ago";
+
+      const hours = Math.floor(mins / 60);
+      if (hours < 24) return hours + "h ago";
+
+      return Math.floor(hours / 24) + "d ago";
+    }
+
+    function render(alerts) {
+      const feed = document.getElementById("feed");
+      const status = document.getElementById("status");
+
+      status.textContent =
+        `${alerts.length} alerts · updated ${new Date().toLocaleTimeString()}`;
+
+      if (!alerts.length) {
+        feed.innerHTML = `<div class="empty">No alerts yet.</div>`;
+        return;
+      }
+
+      feed.innerHTML = alerts.map(alert => {
+        const urgent = alert.urgent ? "urgent" : "";
+
+        const sources = (alert.sources || []).join(", ");
+        const topics = (alert.topics || []).join(", ");
+        const keywords = (alert.keywords || []).join(", ");
+
+        return `
+          <article class="card ${urgent}">
+            <div class="meta">
+              ${alert.urgent ? `<span class="tag urgent-tag">URGENT</span>` : ""}
+              <span class="tag">${sources}</span>
+              <span class="tag">Score ${alert.score}</span>
+              <span class="tag">${topics}</span>
+            </div>
+
+            <div class="title">
+              <a href="${alert.link}" target="_blank" rel="noopener">
+                ${alert.title}
+              </a>
+            </div>
+
+            <div class="small">
+              Keywords: ${keywords || "none"}
+            </div>
+
+            <div class="small">
+              ${timeAgo(alert.time)}
+            </div>
+          </article>
+        `;
+      }).join("");
+    }
+
+    async function loadAlerts() {
+      try {
+        const res = await fetch(ALERTS_URL + "?t=" + Date.now());
+        const alerts = await res.json();
+        render(alerts);
+      } catch (err) {
+        document.getElementById("feed").innerHTML =
+          `<div class="empty">Failed to load alerts.</div>`;
+      }
+    }
+
+    loadAlerts();
+    setInterval(loadAlerts, 60000);
   </script>
 </body>
 </html>
