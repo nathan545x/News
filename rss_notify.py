@@ -14,6 +14,7 @@ STATE_FILE = pathlib.Path("seen.json")
 ALERTS_FILE = pathlib.Path("alerts.json")
 
 MAX_ALERTS = 150
+FORCE_REPOPULATE = True
 
 SOURCE_WEIGHTS = {
     "Bloomberg": 1.35,
@@ -23,7 +24,6 @@ SOURCE_WEIGHTS = {
     "CNBC": 1.15,
     "CoinDesk": 1.10,
     "GoogleNews": 1.15,
-
     "SEC": 1.60,
     "Fed": 1.60,
     "Treasury": 1.50,
@@ -37,108 +37,44 @@ SOURCE_WEIGHTS = {
 }
 
 TICKERS = {
-    "nvidia": "NVDA",
-    "nvda": "NVDA",
-    "apple": "AAPL",
-    "aapl": "AAPL",
-    "microsoft": "MSFT",
-    "msft": "MSFT",
-    "amazon": "AMZN",
-    "amzn": "AMZN",
+    "nvidia": "NVDA", "nvda": "NVDA",
+    "apple": "AAPL", "aapl": "AAPL",
+    "microsoft": "MSFT", "msft": "MSFT",
+    "amazon": "AMZN", "amzn": "AMZN",
     "meta": "META",
-    "tesla": "TSLA",
-    "tsla": "TSLA",
-    "google": "GOOGL",
-    "alphabet": "GOOGL",
-    "googl": "GOOGL",
+    "tesla": "TSLA", "tsla": "TSLA",
+    "google": "GOOGL", "alphabet": "GOOGL", "googl": "GOOGL",
     "amd": "AMD",
     "intel": "INTC",
-    "intc": "INTC",
     "broadcom": "AVGO",
-    "avgo": "AVGO",
     "tsmc": "TSM",
     "asml": "ASML",
-    "palantir": "PLTR",
-    "pltr": "PLTR",
+    "palantir": "PLTR", "pltr": "PLTR",
     "coinbase": "COIN",
-    "coin": "COIN",
-    "microstrategy": "MSTR",
-    "mstr": "MSTR",
-    "bitcoin": "BTC",
-    "btc": "BTC",
-    "ethereum": "ETH",
-    "eth": "ETH",
+    "bitcoin": "BTC", "btc": "BTC",
+    "ethereum": "ETH", "eth": "ETH",
     "solana": "SOL",
     "xrp": "XRP",
 }
 
 REGIONS = {
-    "US": [
-        "fed", "treasury", "sec", "wall street",
-        "nasdaq", "s&p", "dow", "united states"
-    ],
-
-    "Europe": [
-        "ecb", "europe", "eurozone",
-        "germany", "france", "uk"
-    ],
-
-    "China": [
-        "china", "beijing", "pboc", "yuan"
-    ],
-
-    "Taiwan": [
-        "taiwan", "taipei", "south china sea"
-    ],
-
-    "Japan": [
-        "japan", "tokyo", "boj", "yen"
-    ],
-
-    "India": [
-        "india", "rbi", "rupee"
-    ],
-
-    "Middle East": [
-        "iran", "israel", "saudi",
-        "gaza", "hormuz", "red sea"
-    ],
-
-    "Russia/Ukraine": [
-        "russia", "ukraine", "putin"
-    ],
+    "US": ["fed", "treasury", "sec", "wall street", "nasdaq", "s&p", "dow", "united states"],
+    "Europe": ["ecb", "europe", "eurozone", "germany", "france", "uk"],
+    "China": ["china", "beijing", "pboc", "yuan"],
+    "Taiwan": ["taiwan", "taipei", "south china sea"],
+    "Japan": ["japan", "tokyo", "boj", "yen"],
+    "India": ["india", "rbi", "rupee"],
+    "Middle East": ["iran", "israel", "saudi", "gaza", "hormuz", "red sea"],
+    "Russia/Ukraine": ["russia", "ukraine", "putin"],
 }
 
 ASSETS = {
-    "Equities": [
-        "stocks", "shares", "equities",
-        "earnings", "ipo"
-    ],
-
-    "Rates": [
-        "rates", "yield", "treasury",
-        "bonds", "gilts"
-    ],
-
-    "FX": [
-        "dollar", "yen", "yuan",
-        "euro", "currency", "fx"
-    ],
-
-    "Commodities": [
-        "oil", "gold", "copper",
-        "gas", "lng", "uranium"
-    ],
-
-    "Crypto": [
-        "bitcoin", "ethereum",
-        "crypto", "stablecoin"
-    ],
-
-    "Geopolitics": [
-        "sanctions", "war",
-        "attack", "missile"
-    ],
+    "Equities": ["stocks", "shares", "equities", "earnings", "ipo"],
+    "Rates": ["rates", "yield", "treasury", "bonds", "gilts"],
+    "FX": ["dollar", "yen", "yuan", "euro", "currency", "fx"],
+    "Commodities": ["oil", "gold", "copper", "gas", "lng", "uranium"],
+    "Crypto": ["bitcoin", "ethereum", "crypto", "stablecoin"],
+    "Geopolitics": ["sanctions", "war", "attack", "missile"],
 }
 
 GOOGLE_NEWS_SOURCES = (
@@ -151,71 +87,30 @@ GOOGLE_NEWS_SOURCES = (
 )
 
 FEEDS = [
+    ("Bloomberg", "Markets", "https://feeds.bloomberg.com/markets/news.rss"),
+    ("Bloomberg", "Economics", "https://feeds.bloomberg.com/economics/news.rss"),
+    ("Bloomberg", "Technology", "https://feeds.bloomberg.com/technology/news.rss"),
+    ("Bloomberg", "Politics", "https://feeds.bloomberg.com/politics/news.rss"),
+    ("Bloomberg", "Crypto", "https://feeds.bloomberg.com/crypto/news.rss"),
 
-    # =====================================================
-    # DIRECT RSS
-    # =====================================================
+    ("Reuters", "World", "https://feeds.reuters.com/Reuters/worldNews"),
+    ("Reuters", "Business", "https://feeds.reuters.com/reuters/businessNews"),
+    ("Reuters", "Technology", "https://feeds.reuters.com/reuters/technologyNews"),
 
-    ("Bloomberg", "Markets",
-     "https://feeds.bloomberg.com/markets/news.rss"),
+    ("FT", "Markets", "https://www.ft.com/markets?format=rss"),
+    ("FT", "World", "https://www.ft.com/world?format=rss"),
+    ("FT", "Companies", "https://www.ft.com/companies?format=rss"),
 
-    ("Bloomberg", "Economics",
-     "https://feeds.bloomberg.com/economics/news.rss"),
+    ("WSJ", "World", "https://feeds.a.dj.com/rss/RSSWorldNews.xml"),
+    ("WSJ", "Markets", "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"),
+    ("WSJ", "Technology", "https://feeds.a.dj.com/rss/RSSTech.xml"),
 
-    ("Bloomberg", "Technology",
-     "https://feeds.bloomberg.com/technology/news.rss"),
+    ("CNBC", "Top News", "https://www.cnbc.com/id/100003114/device/rss/rss.html"),
+    ("CNBC", "World", "https://www.cnbc.com/id/100727362/device/rss/rss.html"),
+    ("CNBC", "Finance", "https://www.cnbc.com/id/10000664/device/rss/rss.html"),
+    ("CNBC", "Technology", "https://www.cnbc.com/id/19854910/device/rss/rss.html"),
 
-    ("Bloomberg", "Politics",
-     "https://feeds.bloomberg.com/politics/news.rss"),
-
-    ("Bloomberg", "Crypto",
-     "https://feeds.bloomberg.com/crypto/news.rss"),
-
-    ("Reuters", "World",
-     "https://feeds.reuters.com/Reuters/worldNews"),
-
-    ("Reuters", "Business",
-     "https://feeds.reuters.com/reuters/businessNews"),
-
-    ("Reuters", "Technology",
-     "https://feeds.reuters.com/reuters/technologyNews"),
-
-    ("FT", "Markets",
-     "https://www.ft.com/markets?format=rss"),
-
-    ("FT", "World",
-     "https://www.ft.com/world?format=rss"),
-
-    ("FT", "Companies",
-     "https://www.ft.com/companies?format=rss"),
-
-    ("WSJ", "World",
-     "https://feeds.a.dj.com/rss/RSSWorldNews.xml"),
-
-    ("WSJ", "Markets",
-     "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"),
-
-    ("WSJ", "Technology",
-     "https://feeds.a.dj.com/rss/RSSTech.xml"),
-
-    ("CNBC", "Top News",
-     "https://www.cnbc.com/id/100003114/device/rss/rss.html"),
-
-    ("CNBC", "World",
-     "https://www.cnbc.com/id/100727362/device/rss/rss.html"),
-
-    ("CNBC", "Finance",
-     "https://www.cnbc.com/id/10000664/device/rss/rss.html"),
-
-    ("CNBC", "Technology",
-     "https://www.cnbc.com/id/19854910/device/rss/rss.html"),
-
-    ("CoinDesk", "Crypto",
-     "https://www.coindesk.com/arc/outboundfeeds/rss/"),
-
-    # =====================================================
-    # GOOGLE NEWS FILTERED
-    # =====================================================
+    ("CoinDesk", "Crypto", "https://www.coindesk.com/arc/outboundfeeds/rss/"),
 
     ("GoogleNews", "Latest",
      f"https://news.google.com/rss/search?q={GOOGLE_NEWS_SOURCES}+when:24h&hl=en-US&gl=US&ceid=US:en"),
@@ -247,125 +142,52 @@ FEEDS = [
     ("GoogleNews", "Disruptions",
      f"https://news.google.com/rss/search?q={GOOGLE_NEWS_SOURCES}+(strike OR protest OR shutdown OR wildfire OR earthquake OR labor)&hl=en-US&gl=US&ceid=US:en"),
 
-    # =====================================================
-    # OFFICIAL SOURCES
-    # =====================================================
-
-    ("SEC", "Filings",
-     "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&output=atom"),
-
-    ("Fed", "Rates",
-     "https://www.federalreserve.gov/feeds/h15_data.htm"),
-
-    ("Treasury", "Auctions",
-     "https://www.treasurydirect.gov/rss/TAResults.xml"),
-
-    ("Treasury", "Offerings",
-     "https://www.treasurydirect.gov/rss/TAOfferingAnnouncement.xml"),
-
-    ("BOE", "News",
-     "https://www.bankofengland.co.uk/rss/news"),
-
-    ("ECB", "Press",
-     "https://www.ecb.europa.eu/rss/press.html"),
-
-    ("ECB", "Speeches",
-     "https://www.ecb.europa.eu/rss/speeches.html"),
-
-    ("BOJ", "Notices",
-     "https://www.boj.or.jp/en/rss/whatsnew.xml"),
-
-    ("IEA", "Energy",
-     "https://www.iea.org/rss/news.xml"),
-
-    ("OPEC", "News",
-     "https://www.opec.org/opec_web/en/rss/rss.xml"),
-
-    ("NATO", "News",
-     "https://www.nato.int/cps/en/natohq/rss.xml"),
-
-    ("UN", "World",
-     "https://news.un.org/feed/subscribe/en/news/all/rss.xml"),
+    ("SEC", "Filings", "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&output=atom"),
+    ("Fed", "Rates", "https://www.federalreserve.gov/feeds/h15_data.htm"),
+    ("Treasury", "Auctions", "https://www.treasurydirect.gov/rss/TAResults.xml"),
+    ("Treasury", "Offerings", "https://www.treasurydirect.gov/rss/TAOfferingAnnouncement.xml"),
+    ("BOE", "News", "https://www.bankofengland.co.uk/rss/news"),
+    ("ECB", "Press", "https://www.ecb.europa.eu/rss/press.html"),
+    ("ECB", "Speeches", "https://www.ecb.europa.eu/rss/speeches.html"),
+    ("BOJ", "Notices", "https://www.boj.or.jp/en/rss/whatsnew.xml"),
+    ("IEA", "Energy", "https://www.iea.org/rss/news.xml"),
+    ("OPEC", "News", "https://www.opec.org/opec_web/en/rss/rss.xml"),
+    ("NATO", "News", "https://www.nato.int/cps/en/natohq/rss.xml"),
+    ("UN", "World", "https://news.un.org/feed/subscribe/en/news/all/rss.xml"),
 ]
 
 TOPICS = {
     "macro": {
-        "fed": 10,
-        "fomc": 10,
-        "inflation": 9,
-        "cpi": 10,
-        "yield": 7,
-        "rates": 7,
-        "ecb": 10,
-        "boj": 9,
-        "pboc": 9,
+        "fed": 10, "fomc": 10, "inflation": 9, "cpi": 10,
+        "yield": 7, "rates": 7, "ecb": 10, "boj": 9, "pboc": 9,
     },
-
     "geopolitics": {
-        "china": 6,
-        "taiwan": 9,
-        "iran": 9,
-        "israel": 8,
-        "ukraine": 9,
-        "russia": 8,
-        "sanctions": 9,
-        "war": 10,
+        "china": 6, "taiwan": 9, "iran": 9, "israel": 8,
+        "ukraine": 9, "russia": 8, "sanctions": 9, "war": 10,
     },
-
     "markets": {
-        "stocks": 6,
-        "bonds": 6,
-        "oil": 8,
-        "gold": 6,
-        "earnings": 6,
+        "stocks": 6, "bonds": 6, "oil": 8, "gold": 6, "earnings": 6,
     },
-
     "ai": {
-        "nvidia": 8,
-        "openai": 7,
-        "ai": 6,
-        "semiconductor": 7,
-        "tsmc": 7,
-        "asml": 7,
+        "nvidia": 8, "openai": 7, "ai": 6,
+        "semiconductor": 7, "semiconductors": 7, "tsmc": 7, "asml": 7,
     },
-
     "crypto": {
-        "bitcoin": 8,
-        "ethereum": 7,
-        "crypto": 5,
-        "stablecoin": 5,
-        "etf": 5,
+        "bitcoin": 8, "ethereum": 7, "crypto": 5, "stablecoin": 5, "etf": 5,
     },
-
     "transport": {
-        "shipping": 5,
-        "port": 5,
-        "suez": 6,
-        "hormuz": 8,
-        "red sea": 7,
+        "shipping": 5, "port": 5, "ports": 5, "suez": 6, "hormuz": 8, "red sea": 7,
     },
-
     "disruptions": {
-        "strike": 4,
-        "shutdown": 5,
-        "protest": 4,
-        "outage": 5,
-        "cyberattack": 7,
+        "strike": 4, "shutdown": 5, "protest": 4, "outage": 5, "cyberattack": 7,
     },
 }
 
-NEGATIVE = [
-    "celebrity",
-    "fashion",
-    "wine",
-    "luxury",
-    "restaurant"
-]
+NEGATIVE = ["celebrity", "fashion", "wine", "luxury", "restaurant"]
 
 STOPWORDS = {
-    "the", "a", "an", "to", "of", "in",
-    "on", "for", "and", "after", "with",
-    "amid", "as", "by",
+    "the", "a", "an", "to", "of", "in", "on", "for",
+    "and", "after", "with", "amid", "as", "by",
 }
 
 def now_iso():
@@ -393,25 +215,17 @@ def get_alert_history():
     return data if isinstance(data, list) else []
 
 def save_alert_history(alerts):
-    alerts = sorted(
-        alerts,
-        key=lambda x: x.get("time", ""),
-        reverse=True,
-    )[:MAX_ALERTS]
-
+    alerts = sorted(alerts, key=lambda x: x.get("time", ""), reverse=True)[:MAX_ALERTS]
     save_json(ALERTS_FILE, alerts)
 
 def clean_text(value):
     return re.sub(r"\s+", " ", value.lower()).strip()
 
 def entry_text(entry):
-    return clean_text(
-        f"{entry.get('title', '')} {entry.get('summary', '')}"
-    )
+    return clean_text(f"{entry.get('title', '')} {entry.get('summary', '')}")
 
 def keyword_matches(text, keyword):
-    pattern = rf"\b{re.escape(keyword.lower())}\b"
-    return re.search(pattern, text) is not None
+    return re.search(rf"\b{re.escape(keyword.lower())}\b", text) is not None
 
 def extract_from_map(text, mapping):
     results = set()
@@ -438,12 +252,7 @@ def extract_assets(text):
 
 def cluster_key(title):
     words = re.findall(r"\w+", title.lower())
-
-    words = [
-        w for w in words
-        if w not in STOPWORDS and len(w) > 2
-    ]
-
+    words = [w for w in words if w not in STOPWORDS and len(w) > 2]
     return " ".join(sorted(words[:6]))
 
 def score_entry(source, entry):
@@ -479,11 +288,191 @@ def score_entry(source, entry):
 
     score *= SOURCE_WEIGHTS.get(source, 1.0)
 
-    return (
-        round(score, 1),
-        sorted(matched_topics),
-        matched_keywords,
-        tickers,
-        regions,
-        assets,
+    return round(score, 1), sorted(matched_topics), matched_keywords, tickers, regions, assets
+
+def item_id(source, category, entry):
+    unique = (
+        entry.get("id")
+        or entry.get("link")
+        or hashlib.md5(entry.get("title", "").encode()).hexdigest()
     )
+    return f"{source}:{category}:{unique}"
+
+def alert_id(alert):
+    raw = f"{alert.get('title', '')}:{alert.get('link', '')}"
+    return hashlib.md5(raw.encode()).hexdigest()
+
+def send_ntfy(title, body, topic, urgent=False):
+    requests.post(
+        f"https://ntfy.sh/{topic}",
+        data=body.encode("utf-8"),
+        headers={
+            "Title": title,
+            "Priority": "urgent" if urgent else "high",
+            "Tags": "rotating_light" if urgent else "newspaper",
+        },
+        timeout=10,
+    )
+
+def main():
+    seen = get_seen()
+    new_seen = set(seen)
+    history = get_alert_history()
+
+    history_ids = {
+        alert.get("id") for alert in history if alert.get("id")
+    }
+
+    clusters = defaultdict(list)
+
+    print(f"Loaded {len(seen)} seen items")
+    print(f"Loaded {len(history)} historical alerts")
+    print(f"FORCE_REPOPULATE={FORCE_REPOPULATE}")
+
+    for source, category, url in FEEDS:
+        try:
+            feed = feedparser.parse(url)
+            entries = feed.entries or []
+
+            print(f"{source} {category}: {len(entries)} entries")
+
+            scored_count = 0
+
+            for entry in entries[:25]:
+                uid = item_id(source, category, entry)
+
+                if uid in seen and not FORCE_REPOPULATE:
+                    continue
+
+                new_seen.add(uid)
+
+                title = entry.get("title", "")
+
+                score, topics, keywords, tickers, regions, assets = score_entry(source, entry)
+
+                if score < 0:
+                    continue
+
+                scored_count += 1
+
+                clusters[cluster_key(title)].append({
+                    "source": source,
+                    "category": category,
+                    "title": title,
+                    "link": entry.get("link", ""),
+                    "score": score,
+                    "topics": topics,
+                    "keywords": keywords,
+                    "tickers": tickers,
+                    "regions": regions,
+                    "assets": assets,
+                    "time": now_iso(),
+                })
+
+            print(f"{source} {category}: {scored_count} scored items")
+
+        except Exception as e:
+            print(f"Feed error: {source} {category}: {e}")
+
+    new_alerts = []
+
+    for cluster, stories in clusters.items():
+        stories = sorted(stories, key=lambda x: x["score"], reverse=True)
+        best = stories[0]
+
+        total_score = best["score"] + (len(stories) - 1) * 3
+        source_count = len({s["source"] for s in stories})
+        urgent = total_score >= 14
+        sources = sorted({s["source"] for s in stories})
+
+        alert = {
+            "time": now_iso(),
+            "urgent": urgent,
+            "score": total_score,
+            "sources": sources,
+            "source_count": source_count,
+            "topics": best["topics"],
+            "keywords": best["keywords"][:5],
+            "tickers": sorted({t for s in stories for t in s.get("tickers", [])})[:10],
+            "regions": sorted({r for s in stories for r in s.get("regions", [])})[:10],
+            "assets": sorted({a for s in stories for a in s.get("assets", [])})[:10],
+            "title": best["title"],
+            "link": best["link"],
+        }
+
+        alert["id"] = alert_id(alert)
+
+        if alert["id"] not in history_ids or FORCE_REPOPULATE:
+            new_alerts.append(alert)
+            history_ids.add(alert["id"])
+
+    new_alerts = sorted(new_alerts, key=lambda x: x["score"], reverse=True)
+
+    urgent_count = 0
+    normal_count = 0
+
+    for alert in new_alerts[:25]:
+        title_parts = []
+
+        if alert.get("tickers"):
+            title_parts.append("/".join(alert["tickers"][:3]))
+
+        if alert.get("regions"):
+            title_parts.append("/".join(alert["regions"][:2]))
+
+        if alert.get("topics"):
+            title_parts.append("/".join(alert["topics"][:2]))
+
+        title = f"[{', '.join(alert['sources'])}] {' · '.join(title_parts)}"
+
+        body = (
+            f"{alert['title']}\n\n"
+            f"Score: {alert['score']}\n"
+            f"Topics: {', '.join(alert['topics'])}\n"
+            f"Tickers: {', '.join(alert['tickers'])}\n"
+            f"Regions: {', '.join(alert['regions'])}\n"
+            f"Assets: {', '.join(alert['assets'])}\n"
+            f"Keywords: {', '.join(alert['keywords'])}\n\n"
+            f"{alert['link']}"
+        )
+
+        send_ntfy(
+            title,
+            body,
+            URGENT_TOPIC if alert["urgent"] else MARKET_TOPIC,
+            urgent=alert["urgent"],
+        )
+
+        if alert["urgent"]:
+            urgent_count += 1
+        else:
+            normal_count += 1
+
+    combined_history = new_alerts + history
+
+    if not combined_history:
+        combined_history = [{
+            "id": "system-online",
+            "time": now_iso(),
+            "urgent": False,
+            "score": 10,
+            "sources": ["SYSTEM"],
+            "source_count": 1,
+            "topics": ["system"],
+            "keywords": ["online"],
+            "tickers": [],
+            "regions": [],
+            "assets": [],
+            "title": "Market intelligence system online",
+            "link": "https://github.com/nathan545x/News",
+        }]
+
+    save_seen(new_seen)
+    save_alert_history(combined_history)
+
+    print(f"New alerts this run: {len(new_alerts)}")
+    print(f"Sent {normal_count} normal and {urgent_count} urgent alerts.")
+    print(f"Saved {min(len(combined_history), MAX_ALERTS)} alerts to alerts.json")
+
+if __name__ == "__main__":
+    main()
