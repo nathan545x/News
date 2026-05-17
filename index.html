@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Market Intelligence</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <h1>Market Intelligence Feed</h1>
+  <pre id="feed">Loading...</pre>
+
+  <script>
+    fetch("https://raw.githubusercontent.com/nathan545x/News/main/alerts.json")
+      .then(r => r.json())
+      .then(data => {
+        document.getElementById("feed").textContent =
+          JSON.stringify(data, null, 2);
+      })
+      .catch(err => {
+        document.getElementById("feed").textContent = err;
+      });
+  </script>
+</body>
+</html>
