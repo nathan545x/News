@@ -5,11 +5,15 @@ import requests
 import feedparser
 import re
 from collections import defaultdict
+from datetime import datetime, timezone
 
 MARKET_TOPIC = "MARKET_NEWS"
 URGENT_TOPIC = "MARKET_URGENT"
 
 STATE_FILE = pathlib.Path("seen.json")
+ALERTS_FILE = pathlib.Path("alerts.json")
+
+MAX_ALERTS = 20
 
 FEEDS = [
     # Bloomberg
@@ -65,7 +69,7 @@ TOPICS = {
 
     "geopolitics": {
         "taiwan": 9,
-        "china": 6,
+        "china": 5,
         "ukraine": 9,
         "russia": 8,
         "iran": 9,
@@ -138,11 +142,11 @@ TOPICS = {
 
 NEGATIVE = [
     "celebrity",
-    "wine",
     "fashion",
+    "wine",
     "luxury",
-    "restaurant",
     "travel",
+    "restaurant",
 ]
 
 STOPWORDS = {
@@ -150,27 +154,32 @@ STOPWORDS = {
     "for", "and", "after", "with", "amid",
 }
 
+def now_iso():
+    return datetime.now(timezone.utc).isoformat()
 
 def get_seen():
     if STATE_FILE.exists():
         return set(json.loads(STATE_FILE.read_text()))
     return set()
 
-
 def save_seen(seen):
-    STATE_FILE.write_text(json.dumps(sorted(list(seen)), indent=2))
+    STATE_FILE.write_text(
+        json.dumps(sorted(list(seen)), indent=2)
+    )
 
+def save_alerts(alerts):
+    ALERTS_FILE.write_text(
+        json.dumps(alerts, indent=2)
+    )
 
 def clean_text(text):
     return re.sub(r"\s+", " ", text.lower()).strip()
-
 
 def entry_text(entry):
     return clean_text(
         f"{entry.get('title', '')} "
         f"{entry.get('summary', '')}"
     )
-
 
 def cluster_key(title):
     words = re.findall(r"\w+", title.lower())
@@ -183,7 +192,6 @@ def cluster_key(title):
     words = sorted(words[:6])
 
     return " ".join(words)
-
 
 def score_entry(source, entry):
     text = entry_text(entry)
@@ -211,7 +219,6 @@ def score_entry(source, entry):
         matched_keywords,
     )
 
-
 def item_id(source, category, entry):
     unique = (
         entry.get("id")
@@ -222,7 +229,6 @@ def item_id(source, category, entry):
     )
 
     return f"{source}:{category}:{unique}"
-
 
 def send_ntfy(
     title,
@@ -249,7 +255,6 @@ def send_ntfy(
         timeout=10,
     )
 
-
 def main():
     seen = get_seen()
     new_seen = set(seen)
@@ -261,6 +266,7 @@ def main():
             feed = feedparser.parse(url)
 
             for entry in feed.entries[:20]:
+
                 uid = item_id(
                     source,
                     category,
@@ -292,6 +298,7 @@ def main():
                     "score": score,
                     "topics": topics,
                     "keywords": keywords,
+                    "time": now_iso(),
                 })
 
         except Exception as e:
@@ -300,6 +307,7 @@ def main():
     alerts = []
 
     for cluster, stories in clusters.items():
+
         stories = sorted(
             stories,
             key=lambda x: x["score"],
@@ -319,55 +327,63 @@ def main():
 
         urgent = total_score >= 18
 
-        sources = ", ".join(
-            sorted({
-                s["source"] for s in stories
-            })
-        )
-
-        title = best["title"]
-
-        header = (
-            f"[{sources}] "
-            f"{' | '.join(best['topics'][:2])}"
-        )
-
-        if source_count > 1:
-            header += f" | {source_count} sources"
-
-        body = (
-            f"{title}\n\n"
-            f"Score: {total_score}\n"
-            f"Topics: {', '.join(best['topics'])}\n"
-            f"Keywords: {', '.join(best['keywords'][:5])}\n\n"
-            f"{best['link']}"
-        )
-
-        alerts.append({
-            "urgent": urgent,
-            "header": header,
-            "body": body,
-            "score": total_score,
+        sources = sorted({
+            s["source"] for s in stories
         })
+
+        alert = {
+            "time": now_iso(),
+            "urgent": urgent,
+            "score": total_score,
+            "sources": sources,
+            "source_count": source_count,
+            "topics": best["topics"],
+            "keywords": best["keywords"][:5],
+            "title": best["title"],
+            "link": best["link"],
+        }
+
+        alerts.append(alert)
 
     alerts = sorted(
         alerts,
         key=lambda x: x["score"],
         reverse=True,
-    )
+    )[:MAX_ALERTS]
 
     if not STATE_FILE.exists():
         save_seen(new_seen)
+        save_alerts([])
         print("Initial setup complete.")
         return
 
     urgent_count = 0
     normal_count = 0
 
-    for alert in alerts[:15]:
+    for alert in alerts:
+
+        title = (
+            f"[{', '.join(alert['sources'])}] "
+            f"{' | '.join(alert['topics'][:2])}"
+        )
+
+        if alert["source_count"] > 1:
+            title += (
+                f" | "
+                f"{alert['source_count']} sources"
+            )
+
+        body = (
+            f"{alert['title']}\n\n"
+            f"Score: {alert['score']}\n"
+            f"Topics: {', '.join(alert['topics'])}\n"
+            f"Keywords: {', '.join(alert['keywords'])}\n\n"
+            f"{alert['link']}"
+        )
+
         send_ntfy(
-            alert["header"],
-            alert["body"],
+            title,
+            body,
             URGENT_TOPIC
             if alert["urgent"]
             else MARKET_TOPIC,
@@ -380,12 +396,14 @@ def main():
             normal_count += 1
 
     save_seen(new_seen)
+    save_alerts(alerts)
 
     print(
-        f"Sent {normal_count} normal "
-        f"and {urgent_count} urgent alerts."
+        f"Sent "
+        f"{normal_count} normal "
+        f"and "
+        f"{urgent_count} urgent alerts."
     )
-
 
 if __name__ == "__main__":
     main()
