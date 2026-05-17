@@ -70,11 +70,11 @@ REGIONS = {
 
 ASSETS = {
     "Equities": ["stocks", "shares", "equities", "earnings", "ipo"],
-    "Rates": ["rates", "yield", "treasury", "bonds", "gilts"],
+    "Rates": ["rates", "yield", "treasury", "bonds", "gilts", "fomc", "fed", "ecb", "boj"],
     "FX": ["dollar", "yen", "yuan", "euro", "currency", "fx"],
-    "Commodities": ["oil", "gold", "copper", "gas", "lng", "uranium"],
+    "Commodities": ["oil", "gold", "copper", "gas", "lng", "uranium", "opec"],
     "Crypto": ["bitcoin", "ethereum", "crypto", "stablecoin"],
-    "Geopolitics": ["sanctions", "war", "attack", "missile"],
+    "Geopolitics": ["sanctions", "war", "attack", "missile", "taiwan", "iran", "ukraine"],
 }
 
 GOOGLE_NEWS_SOURCES = (
@@ -160,13 +160,16 @@ TOPICS = {
     "macro": {
         "fed": 10, "fomc": 10, "inflation": 9, "cpi": 10,
         "yield": 7, "rates": 7, "ecb": 10, "boj": 9, "pboc": 9,
+        "rate cut": 10, "rate hike": 10, "treasury": 8,
     },
     "geopolitics": {
         "china": 6, "taiwan": 9, "iran": 9, "israel": 8,
         "ukraine": 9, "russia": 8, "sanctions": 9, "war": 10,
+        "attack": 9, "missile": 9, "nato": 8,
     },
     "markets": {
         "stocks": 6, "bonds": 6, "oil": 8, "gold": 6, "earnings": 6,
+        "commodities": 7, "dollar": 6,
     },
     "ai": {
         "nvidia": 8, "openai": 7, "ai": 6,
@@ -189,6 +192,58 @@ STOPWORDS = {
     "the", "a", "an", "to", "of", "in", "on", "for",
     "and", "after", "with", "amid", "as", "by",
 }
+
+MACRO_CALENDAR_EVENTS = [
+    {
+        "name": "FOMC / Fed Decision",
+        "keywords": ["fomc", "fed decision", "rate decision", "powell", "federal reserve"],
+        "region": "US",
+        "asset": "Rates",
+        "severity": "HIGH",
+    },
+    {
+        "name": "US CPI / Inflation",
+        "keywords": ["cpi", "consumer price index", "inflation data", "inflation"],
+        "region": "US",
+        "asset": "Rates",
+        "severity": "HIGH",
+    },
+    {
+        "name": "US Jobs / NFP",
+        "keywords": ["nonfarm payrolls", "payrolls", "jobs report", "unemployment"],
+        "region": "US",
+        "asset": "Rates",
+        "severity": "HIGH",
+    },
+    {
+        "name": "ECB Decision",
+        "keywords": ["ecb decision", "lagarde", "eurozone rates", "ecb"],
+        "region": "Europe",
+        "asset": "Rates",
+        "severity": "HIGH",
+    },
+    {
+        "name": "BOJ Decision",
+        "keywords": ["boj decision", "bank of japan", "yen rates", "boj"],
+        "region": "Japan",
+        "asset": "FX",
+        "severity": "HIGH",
+    },
+    {
+        "name": "Treasury Auction",
+        "keywords": ["treasury auction", "auction results", "bid-to-cover", "tail"],
+        "region": "US",
+        "asset": "Rates",
+        "severity": "MEDIUM",
+    },
+    {
+        "name": "OPEC / Oil Event",
+        "keywords": ["opec", "oil output", "crude production", "oil supply"],
+        "region": "Global",
+        "asset": "Commodities",
+        "severity": "HIGH",
+    },
+]
 
 def now_iso():
     return datetime.now(timezone.utc).isoformat()
@@ -229,7 +284,6 @@ def keyword_matches(text, keyword):
 
 def extract_from_map(text, mapping):
     results = set()
-
     for key, value in mapping.items():
         if isinstance(value, list):
             for term in value:
@@ -238,7 +292,6 @@ def extract_from_map(text, mapping):
         else:
             if keyword_matches(text, key):
                 results.add(value)
-
     return sorted(results)
 
 def extract_tickers(text):
@@ -249,6 +302,70 @@ def extract_regions(text):
 
 def extract_assets(text):
     return extract_from_map(text, ASSETS)
+
+def detect_macro_calendar(text):
+    matches = []
+    for event in MACRO_CALENDAR_EVENTS:
+        for keyword in event["keywords"]:
+            if keyword_matches(text, keyword):
+                matches.append(event)
+                break
+    return matches
+
+def get_severity(score, topics, regions, assets, keywords):
+    text_bits = set([x.lower() for x in topics + regions + assets + keywords])
+
+    critical_terms = {
+        "war", "attack", "missile", "iran", "taiwan",
+        "fomc", "cpi", "rate hike", "rate cut",
+        "sanctions", "oil", "opec", "cyberattack"
+    }
+
+    high_terms = {
+        "inflation", "fed", "ecb", "boj", "treasury",
+        "yield", "china", "ukraine", "bitcoin", "nvidia"
+    }
+
+    if score >= 28 or text_bits & critical_terms:
+        return "CRITICAL"
+
+    if score >= 18 or text_bits & high_terms:
+        return "HIGH"
+
+    if score >= 10:
+        return "MEDIUM"
+
+    return "LOW"
+
+def get_regime_tags(topics, regions, assets, keywords):
+    text = " ".join(topics + regions + assets + keywords).lower()
+    tags = []
+
+    if any(x in text for x in ["war", "attack", "missile", "sanctions", "iran", "taiwan", "ukraine"]):
+        tags.append("GEO-SHOCK")
+
+    if any(x in text for x in ["cpi", "inflation", "ppi", "oil", "opec"]):
+        tags.append("INFLATION")
+
+    if any(x in text for x in ["fed", "ecb", "boj", "rate hike", "rate cut", "yield", "treasury", "rates"]):
+        tags.append("RATES")
+
+    if any(x in text for x in ["stocks", "equities", "earnings", "nvidia", "ai"]):
+        tags.append("EQUITIES")
+
+    if any(x in text for x in ["bitcoin", "ethereum", "crypto", "stablecoin"]):
+        tags.append("CRYPTO")
+
+    if any(x in text for x in ["oil", "gold", "copper", "gas", "lng", "uranium"]):
+        tags.append("COMMODITIES")
+
+    if any(x in text for x in ["cyberattack", "outage", "breach", "ransomware"]):
+        tags.append("CYBER")
+
+    if not tags:
+        tags.append("GENERAL")
+
+    return tags
 
 def cluster_key(title):
     words = re.findall(r"\w+", title.lower())
@@ -276,19 +393,20 @@ def score_entry(source, entry):
     tickers = extract_tickers(text)
     regions = extract_regions(text)
     assets = extract_assets(text)
+    macro_calendar = detect_macro_calendar(text)
 
     if tickers:
         score += min(len(tickers) * 2, 6)
-
     if regions:
         score += min(len(regions), 4)
-
     if assets:
         score += min(len(assets), 4)
+    if macro_calendar:
+        score += 8
 
     score *= SOURCE_WEIGHTS.get(source, 1.0)
 
-    return round(score, 1), sorted(matched_topics), matched_keywords, tickers, regions, assets
+    return round(score, 1), sorted(matched_topics), matched_keywords, tickers, regions, assets, macro_calendar
 
 def item_id(source, category, entry):
     unique = (
@@ -319,10 +437,7 @@ def main():
     new_seen = set(seen)
     history = get_alert_history()
 
-    history_ids = {
-        alert.get("id") for alert in history if alert.get("id")
-    }
-
+    history_ids = {alert.get("id") for alert in history if alert.get("id")}
     clusters = defaultdict(list)
 
     print(f"Loaded {len(seen)} seen items")
@@ -335,7 +450,6 @@ def main():
             entries = feed.entries or []
 
             print(f"{source} {category}: {len(entries)} entries")
-
             scored_count = 0
 
             for entry in entries[:25]:
@@ -346,19 +460,17 @@ def main():
 
                 new_seen.add(uid)
 
-                title = entry.get("title", "")
-
-                score, topics, keywords, tickers, regions, assets = score_entry(source, entry)
+                score, topics, keywords, tickers, regions, assets, macro_calendar = score_entry(source, entry)
 
                 if score < 0:
                     continue
 
                 scored_count += 1
 
-                clusters[cluster_key(title)].append({
+                clusters[cluster_key(entry.get("title", ""))].append({
                     "source": source,
                     "category": category,
-                    "title": title,
+                    "title": entry.get("title", ""),
                     "link": entry.get("link", ""),
                     "score": score,
                     "topics": topics,
@@ -366,6 +478,7 @@ def main():
                     "tickers": tickers,
                     "regions": regions,
                     "assets": assets,
+                    "macro_calendar_matches": macro_calendar,
                     "time": now_iso(),
                 })
 
@@ -382,20 +495,35 @@ def main():
 
         total_score = best["score"] + (len(stories) - 1) * 3
         source_count = len({s["source"] for s in stories})
-        urgent = total_score >= 14
         sources = sorted({s["source"] for s in stories})
+
+        all_tickers = sorted({t for s in stories for t in s.get("tickers", [])})[:10]
+        all_regions = sorted({r for s in stories for r in s.get("regions", [])})[:10]
+        all_assets = sorted({a for s in stories for a in s.get("assets", [])})[:10]
+        all_macro_events = []
+        for s in stories:
+            for event in s.get("macro_calendar_matches", []):
+                if event not in all_macro_events:
+                    all_macro_events.append(event)
+
+        severity = get_severity(total_score, best["topics"], all_regions, all_assets, best["keywords"])
+        regime_tags = get_regime_tags(best["topics"], all_regions, all_assets, best["keywords"])
 
         alert = {
             "time": now_iso(),
-            "urgent": urgent,
+            "urgent": severity in ["HIGH", "CRITICAL"],
+            "severity": severity,
+            "regime_tags": regime_tags,
             "score": total_score,
             "sources": sources,
             "source_count": source_count,
             "topics": best["topics"],
             "keywords": best["keywords"][:5],
-            "tickers": sorted({t for s in stories for t in s.get("tickers", [])})[:10],
-            "regions": sorted({r for s in stories for r in s.get("regions", [])})[:10],
-            "assets": sorted({a for s in stories for a in s.get("assets", [])})[:10],
+            "tickers": all_tickers,
+            "regions": all_regions,
+            "assets": all_assets,
+            "macro_calendar": bool(all_macro_events),
+            "macro_events": all_macro_events,
             "title": best["title"],
             "link": best["link"],
         }
@@ -412,21 +540,12 @@ def main():
     normal_count = 0
 
     for alert in new_alerts[:25]:
-        title_parts = []
-
-        if alert.get("tickers"):
-            title_parts.append("/".join(alert["tickers"][:3]))
-
-        if alert.get("regions"):
-            title_parts.append("/".join(alert["regions"][:2]))
-
-        if alert.get("topics"):
-            title_parts.append("/".join(alert["topics"][:2]))
-
-        title = f"[{', '.join(alert['sources'])}] {' · '.join(title_parts)}"
+        title = f"[{alert['severity']}] {'/'.join(alert.get('regime_tags', [])[:2])}"
 
         body = (
             f"{alert['title']}\n\n"
+            f"Severity: {alert['severity']}\n"
+            f"Regime: {', '.join(alert['regime_tags'])}\n"
             f"Score: {alert['score']}\n"
             f"Topics: {', '.join(alert['topics'])}\n"
             f"Tickers: {', '.join(alert['tickers'])}\n"
@@ -455,6 +574,8 @@ def main():
             "id": "system-online",
             "time": now_iso(),
             "urgent": False,
+            "severity": "LOW",
+            "regime_tags": ["GENERAL"],
             "score": 10,
             "sources": ["SYSTEM"],
             "source_count": 1,
@@ -463,6 +584,8 @@ def main():
             "tickers": [],
             "regions": [],
             "assets": [],
+            "macro_calendar": False,
+            "macro_events": [],
             "title": "Market intelligence system online",
             "link": "https://github.com/nathan545x/News",
         }]
