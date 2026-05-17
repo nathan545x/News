@@ -382,6 +382,19 @@ def main():
 
     if not STATE_FILE.exists():
 
+if not alerts:
+    alerts.append({
+        "time": now_iso(),
+        "urgent": False,
+        "score": 10,
+        "sources": ["SYSTEM"],
+        "source_count": 1,
+        "topics": ["test"],
+        "keywords": ["test"],
+        "title": "Market intelligence system online",
+        "link": "https://github.com",
+    })
+        
         save_seen(new_seen)
         save_alerts([])
 
