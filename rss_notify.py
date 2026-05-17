@@ -13,7 +13,7 @@ URGENT_TOPIC = "MARKET_URGENT"
 STATE_FILE = pathlib.Path("seen.json")
 ALERTS_FILE = pathlib.Path("alerts.json")
 
-MAX_ALERTS = 20
+MAX_ALERTS = 25
 
 FEEDS = [
     # Bloomberg
@@ -52,6 +52,7 @@ SOURCE_WEIGHTS = {
 }
 
 TOPICS = {
+
     "macro": {
         "fed": 10,
         "fomc": 10,
@@ -137,6 +138,22 @@ TOPICS = {
         "13d": 7,
         "bankruptcy": 10,
         "offering": 5,
+    },
+
+    # NEW: Cognito-style broad relevance
+    "general_news": {
+        "strike": 3,
+        "lawsuit": 4,
+        "probe": 4,
+        "investigation": 4,
+        "outage": 5,
+        "shutdown": 5,
+        "hack": 6,
+        "cyberattack": 7,
+        "protest": 3,
+        "evacuation": 5,
+        "earthquake": 4,
+        "wildfire": 4,
     }
 }
 
@@ -182,6 +199,7 @@ def entry_text(entry):
     )
 
 def cluster_key(title):
+
     words = re.findall(r"\w+", title.lower())
 
     words = [
@@ -194,6 +212,7 @@ def cluster_key(title):
     return " ".join(words)
 
 def score_entry(source, entry):
+
     text = entry_text(entry)
 
     score = 0
@@ -201,13 +220,16 @@ def score_entry(source, entry):
     matched_keywords = []
 
     for topic, keywords in TOPICS.items():
+
         for keyword, value in keywords.items():
+
             if keyword in text:
                 score += value
                 matched_topics.add(topic)
                 matched_keywords.append(keyword)
 
     for negative in NEGATIVE:
+
         if negative in text:
             score -= 10
 
@@ -220,6 +242,7 @@ def score_entry(source, entry):
     )
 
 def item_id(source, category, entry):
+
     unique = (
         entry.get("id")
         or entry.get("link")
@@ -236,6 +259,7 @@ def send_ntfy(
     topic,
     urgent=False,
 ):
+
     requests.post(
         f"https://ntfy.sh/{topic}",
         data=body.encode("utf-8"),
@@ -256,13 +280,16 @@ def send_ntfy(
     )
 
 def main():
+
     seen = get_seen()
     new_seen = set(seen)
 
     clusters = defaultdict(list)
 
     for source, category, url in FEEDS:
+
         try:
+
             feed = feedparser.parse(url)
 
             for entry in feed.entries[:20]:
@@ -285,7 +312,8 @@ def main():
                     entry,
                 )
 
-                if score < 5:
+                # LOWER THRESHOLD
+                if score < 2:
                     continue
 
                 cluster = cluster_key(title)
@@ -325,7 +353,8 @@ def main():
             s["source"] for s in stories
         })
 
-        urgent = total_score >= 18
+        # LOWER URGENT THRESHOLD
+        urgent = total_score >= 14
 
         sources = sorted({
             s["source"] for s in stories
@@ -352,8 +381,10 @@ def main():
     )[:MAX_ALERTS]
 
     if not STATE_FILE.exists():
+
         save_seen(new_seen)
         save_alerts([])
+
         print("Initial setup complete.")
         return
 
@@ -368,6 +399,7 @@ def main():
         )
 
         if alert["source_count"] > 1:
+
             title += (
                 f" | "
                 f"{alert['source_count']} sources"
