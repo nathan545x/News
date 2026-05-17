@@ -3,6 +3,8 @@ import pathlib
 import hashlib
 import requests
 import feedparser
+import re
+from collections import defaultdict
 
 MARKET_TOPIC = "MARKET_NEWS"
 URGENT_TOPIC = "MARKET_URGENT"
@@ -16,128 +18,137 @@ FEEDS = [
     ("Bloomberg", "Technology", "https://feeds.bloomberg.com/technology/news.rss"),
     ("Bloomberg", "Politics", "https://feeds.bloomberg.com/politics/news.rss"),
     ("Bloomberg", "Crypto", "https://feeds.bloomberg.com/crypto/news.rss"),
-    ("Bloomberg", "Business", "https://feeds.bloomberg.com/business/news.rss"),
-    ("Bloomberg", "Green", "https://feeds.bloomberg.com/green/news.rss"),
 
     # Reuters
     ("Reuters", "World", "https://feeds.reuters.com/Reuters/worldNews"),
     ("Reuters", "Business", "https://feeds.reuters.com/reuters/businessNews"),
     ("Reuters", "Technology", "https://feeds.reuters.com/reuters/technologyNews"),
 
-    # Financial Times
+    # FT
     ("FT", "Markets", "https://www.ft.com/markets?format=rss"),
     ("FT", "World", "https://www.ft.com/world?format=rss"),
 
     # SEC
-    ("SEC", "Latest Filings", "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&output=atom"),
-
-    # Federal Reserve
-    ("Fed", "H15 Data", "https://www.federalreserve.gov/feeds/h15_data.htm"),
+    ("SEC", "Filings", "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&output=atom"),
 
     # Treasury
-    ("Treasury", "Auction Results", "https://www.treasurydirect.gov/rss/TAResults.xml"),
-    ("Treasury", "Offering Announcements", "https://www.treasurydirect.gov/rss/TAOfferingAnnouncement.xml"),
+    ("Treasury", "Auctions", "https://www.treasurydirect.gov/rss/TAResults.xml"),
 
     # Crypto
     ("CoinDesk", "Crypto", "https://www.coindesk.com/arc/outboundfeeds/rss/"),
 ]
 
-KEYWORDS = [
-    # Macro / Fed
-    "fed", "federal reserve", "powell",
-    "fomc", "beige book", "speech",
-    "cpi", "inflation", "ppi",
-    "yield", "treasury", "bond",
-    "rate cut", "rate hike",
-    "payrolls", "jobs", "gdp",
-    "recession",
+SOURCE_WEIGHTS = {
+    "Reuters": 1.4,
+    "Bloomberg": 1.3,
+    "FT": 1.2,
+    "SEC": 1.6,
+    "Treasury": 1.5,
+    "CoinDesk": 1.1,
+}
 
-    # Treasury auctions
-    "auction", "tail", "bid-to-cover",
+TOPICS = {
+    "macro": {
+        "fed": 10,
+        "fomc": 10,
+        "powell": 9,
+        "cpi": 10,
+        "inflation": 9,
+        "ppi": 8,
+        "yield": 7,
+        "treasury": 7,
+        "rate cut": 10,
+        "rate hike": 10,
+        "jobs": 7,
+        "recession": 8,
+    },
 
-    # AI / Tech
-    "nvidia", "nvda", "openai",
-    "microsoft", "msft",
-    "apple", "aapl",
-    "meta", "tesla", "tsla",
-    "semiconductor", "chips",
-    "asml", "tsmc",
+    "geopolitics": {
+        "taiwan": 9,
+        "china": 6,
+        "ukraine": 9,
+        "russia": 8,
+        "iran": 9,
+        "israel": 8,
+        "sanctions": 9,
+        "tariffs": 8,
+        "trade war": 8,
+        "war": 10,
+        "attack": 9,
+        "missile": 9,
+    },
 
-    # Geopolitics
-    "taiwan", "china",
-    "ukraine", "russia",
-    "iran", "israel",
-    "tariffs", "sanctions",
-    "trade war",
-    "south china sea",
+    "ai": {
+        "nvidia": 8,
+        "nvda": 8,
+        "openai": 7,
+        "semiconductor": 7,
+        "chips": 6,
+        "asml": 7,
+        "tsmc": 7,
+        "microsoft": 6,
+        "apple": 5,
+    },
 
-    # Commodities / Energy
-    "oil", "crude", "opec",
-    "lng", "uranium",
-    "gold", "copper",
-    "shipping", "red sea",
-    "hormuz", "suez",
+    "crypto": {
+        "bitcoin": 8,
+        "btc": 8,
+        "ethereum": 6,
+        "crypto": 5,
+        "etf": 5,
+        "coinbase": 5,
+        "binance": 5,
+    },
 
-    # Crypto
-    "bitcoin", "btc",
-    "ethereum", "crypto",
-    "etf", "stablecoin",
-    "coinbase", "binance",
+    "transport": {
+        "strike": 3,
+        "labor": 3,
+        "union": 3,
+        "shipping": 5,
+        "port": 5,
+        "rail": 4,
+        "transport": 4,
+        "supply chain": 6,
+        "lirr": 5,
+    },
 
-    # SEC / filings
-    "8-k", "form 4", "insider",
-    "s-1", "13d", "13g",
-    "offering", "bankruptcy",
-    "delisting", "material agreement",
+    "energy": {
+        "oil": 8,
+        "crude": 8,
+        "opec": 8,
+        "lng": 6,
+        "uranium": 6,
+        "gold": 5,
+        "copper": 5,
+        "red sea": 7,
+        "hormuz": 8,
+        "suez": 6,
+    },
 
-    # Deals
-    "earnings", "guidance",
-    "merger", "acquisition",
-    "ipo",
-]
+    "sec": {
+        "8-k": 8,
+        "form 4": 6,
+        "insider": 6,
+        "s-1": 7,
+        "13d": 7,
+        "bankruptcy": 10,
+        "offering": 5,
+    }
+}
 
-URGENT_KEYWORDS = [
-    # Fed / macro
-    "fed", "powell",
-    "fomc",
-    "cpi", "inflation",
-    "rate cut", "rate hike",
-
-    # Treasury / bonds
-    "auction", "tail",
-
-    # Geopolitics
-    "tariffs", "sanctions",
-    "war", "attack",
-    "missile",
-    "taiwan",
-    "iran", "israel",
-    "ukraine",
-
-    # Commodities
-    "oil", "opec",
-
-    # AI / mega-cap
-    "nvidia", "nvda",
-
-    # Crypto
-    "bitcoin", "btc",
-    "etf",
-
-    # SEC
-    "8-k",
-    "bankruptcy",
-    "s-1",
-]
-
-NEGATIVE_KEYWORDS = [
-    "wine",
-    "luxury",
-    "travel",
-    "fashion",
-    "restaurant",
+NEGATIVE = [
     "celebrity",
+    "wine",
+    "fashion",
+    "luxury",
+    "restaurant",
+    "travel",
 ]
+
+STOPWORDS = {
+    "the", "a", "an", "to", "of", "in", "on",
+    "for", "and", "after", "with", "amid",
+}
 
 
 def get_seen():
@@ -150,57 +161,80 @@ def save_seen(seen):
     STATE_FILE.write_text(json.dumps(sorted(list(seen)), indent=2))
 
 
+def clean_text(text):
+    return re.sub(r"\s+", " ", text.lower()).strip()
+
+
 def entry_text(entry):
-    return (
+    return clean_text(
         f"{entry.get('title', '')} "
         f"{entry.get('summary', '')}"
-    ).lower()
+    )
 
 
-def matched_keywords(entry, keywords):
-    text = entry_text(entry)
-    return [
-        k for k in keywords
-        if k.lower() in text
+def cluster_key(title):
+    words = re.findall(r"\w+", title.lower())
+
+    words = [
+        w for w in words
+        if w not in STOPWORDS and len(w) > 2
     ]
+
+    words = sorted(words[:6])
+
+    return " ".join(words)
+
+
+def score_entry(source, entry):
+    text = entry_text(entry)
+
+    score = 0
+    matched_topics = set()
+    matched_keywords = []
+
+    for topic, keywords in TOPICS.items():
+        for keyword, value in keywords.items():
+            if keyword in text:
+                score += value
+                matched_topics.add(topic)
+                matched_keywords.append(keyword)
+
+    for negative in NEGATIVE:
+        if negative in text:
+            score -= 10
+
+    score *= SOURCE_WEIGHTS.get(source, 1.0)
+
+    return (
+        round(score, 1),
+        list(matched_topics),
+        matched_keywords,
+    )
 
 
 def item_id(source, category, entry):
     unique = (
         entry.get("id")
         or entry.get("link")
-    )
-
-    if not unique:
-        unique = hashlib.md5(
+        or hashlib.md5(
             entry.get("title", "").encode()
         ).hexdigest()
+    )
 
     return f"{source}:{category}:{unique}"
 
 
-def send_ntfy(source, category, entry, urgent=False):
-    title = entry.get("title", "News Alert")
-    link = entry.get("link", "")
-
-    matches = matched_keywords(
-        entry,
-        URGENT_KEYWORDS if urgent else KEYWORDS
-    )
-
-    label = " | ".join(matches[:3])
-
-    topic = (
-        URGENT_TOPIC
-        if urgent
-        else MARKET_TOPIC
-    )
-
+def send_ntfy(
+    title,
+    body,
+    topic,
+    urgent=False,
+):
     requests.post(
         f"https://ntfy.sh/{topic}",
-        data=f"{title}\n\n{link}".encode("utf-8"),
+        data=body.encode("utf-8"),
         headers={
-            "Title": f"[{source} {category}] {label}",
+            "Title": title,
             "Priority": (
                 "urgent"
                 if urgent
@@ -209,9 +243,8 @@ def send_ntfy(source, category, entry, urgent=False):
             "Tags": (
                 "rotating_light"
                 if urgent
-                else "chart_with_upwards_trend"
+                else "newspaper"
             ),
-            "Click": link,
         },
         timeout=10,
     )
@@ -221,8 +254,7 @@ def main():
     seen = get_seen()
     new_seen = set(seen)
 
-    normal_items = []
-    urgent_items = []
+    clusters = defaultdict(list)
 
     for source, category, url in FEEDS:
         try:
@@ -240,66 +272,118 @@ def main():
 
                 new_seen.add(uid)
 
-                if matched_keywords(
+                title = entry.get("title", "")
+
+                score, topics, keywords = score_entry(
+                    source,
                     entry,
-                    NEGATIVE_KEYWORDS,
-                ):
+                )
+
+                if score < 5:
                     continue
 
-                if matched_keywords(
-                    entry,
-                    URGENT_KEYWORDS,
-                ):
-                    urgent_items.append(
-                        (source, category, entry)
-                    )
+                cluster = cluster_key(title)
 
-                elif matched_keywords(
-                    entry,
-                    KEYWORDS,
-                ):
-                    normal_items.append(
-                        (source, category, entry)
-                    )
+                clusters[cluster].append({
+                    "source": source,
+                    "category": category,
+                    "title": title,
+                    "link": entry.get("link", ""),
+                    "score": score,
+                    "topics": topics,
+                    "keywords": keywords,
+                })
 
         except Exception as e:
-            print(
-                f"Feed failed: "
-                f"{source} {category} "
-                f"{e}"
-            )
+            print(f"Feed error: {source} {e}")
+
+    alerts = []
+
+    for cluster, stories in clusters.items():
+        stories = sorted(
+            stories,
+            key=lambda x: x["score"],
+            reverse=True,
+        )
+
+        best = stories[0]
+
+        total_score = (
+            best["score"]
+            + (len(stories) - 1) * 3
+        )
+
+        source_count = len({
+            s["source"] for s in stories
+        })
+
+        urgent = total_score >= 18
+
+        sources = ", ".join(
+            sorted({
+                s["source"] for s in stories
+            })
+        )
+
+        title = best["title"]
+
+        header = (
+            f"[{sources}] "
+            f"{' | '.join(best['topics'][:2])}"
+        )
+
+        if source_count > 1:
+            header += f" | {source_count} sources"
+
+        body = (
+            f"{title}\n\n"
+            f"Score: {total_score}\n"
+            f"Topics: {', '.join(best['topics'])}\n"
+            f"Keywords: {', '.join(best['keywords'][:5])}\n\n"
+            f"{best['link']}"
+        )
+
+        alerts.append({
+            "urgent": urgent,
+            "header": header,
+            "body": body,
+            "score": total_score,
+        })
+
+    alerts = sorted(
+        alerts,
+        key=lambda x: x["score"],
+        reverse=True,
+    )
 
     if not STATE_FILE.exists():
         save_seen(new_seen)
-        print(
-            "Initial setup complete. "
-            "No alerts sent."
-        )
+        print("Initial setup complete.")
         return
 
-    for source, category, entry in normal_items:
+    urgent_count = 0
+    normal_count = 0
+
+    for alert in alerts[:15]:
         send_ntfy(
-            source,
-            category,
-            entry,
-            urgent=False,
+            alert["header"],
+            alert["body"],
+            URGENT_TOPIC
+            if alert["urgent"]
+            else MARKET_TOPIC,
+            urgent=alert["urgent"],
         )
 
-    for source, category, entry in urgent_items:
-        send_ntfy(
-            source,
-            category,
-            entry,
-            urgent=True,
-        )
+        if alert["urgent"]:
+            urgent_count += 1
+        else:
+            normal_count += 1
 
     save_seen(new_seen)
 
     print(
-        f"Sent "
-        f"{len(normal_items)} normal "
-        f"and "
-        f"{len(urgent_items)} urgent alerts."
+        f"Sent {normal_count} normal "
+        f"and {urgent_count} urgent alerts."
     )
 
 
