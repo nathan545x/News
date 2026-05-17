@@ -1,205 +1,155 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Market Intelligence</title>
+  <title>Market OS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <style>
     :root {
-      --bg: #070b10;
-      --panel: #0f1721;
-      --border: #223246;
-      --text: #e8f0fa;
-      --muted: #8fa3b8;
-      --blue: #68a8ff;
-      --red: #ff5a66;
-      --green: #62d394;
-      --purple: #b58cff;
+      --bg: #05070b;
+      --panel: #0c111a;
+      --panel2: #111827;
+      --border: #222c3d;
+      --text: #e7eefc;
+      --muted: #7f8ea3;
+      --blue: #65a7ff;
+      --red: #ff5061;
       --orange: #ffb86b;
+      --green: #65d98b;
+      --purple: #b58cff;
+      --yellow: #f6d365;
     }
 
     * { box-sizing: border-box; }
 
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
       background: var(--bg);
       color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
     }
 
     header {
-      padding: 18px 20px;
-      background: #0d141d;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 14px;
       border-bottom: 1px solid var(--border);
+      background: #090d14;
       position: sticky;
       top: 0;
       z-index: 20;
     }
 
     h1 {
+      font-size: 16px;
       margin: 0;
-      font-size: 22px;
+      letter-spacing: 0.08em;
+      color: #fff;
     }
 
-    .sub {
+    .status {
       color: var(--muted);
-      font-size: 13px;
-      margin-top: 6px;
+      font-size: 12px;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 260px 1fr 340px;
+      min-height: calc(100vh - 56px);
+    }
+
+    aside, .right {
+      border-right: 1px solid var(--border);
+      background: #070b11;
+      padding: 12px;
+    }
+
+    .right {
+      border-right: 0;
+      border-left: 1px solid var(--border);
+    }
+
+    main {
+      padding: 12px;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      margin-bottom: 12px;
+      overflow: hidden;
+    }
+
+    .panel-title {
+      padding: 9px 10px;
+      border-bottom: 1px solid var(--border);
+      font-weight: 700;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      color: #c4d5ef;
+      text-transform: uppercase;
+    }
+
+    .panel-body {
+      padding: 10px;
     }
 
     .toolbar {
       display: grid;
-      grid-template-columns: 1fr 140px 140px 140px 140px 140px auto auto;
-      gap: 10px;
-      padding: 14px 20px;
-      background: #091018;
-      border-bottom: 1px solid var(--border);
-      position: sticky;
-      top: 78px;
-      z-index: 15;
+      grid-template-columns: 1fr 120px 120px 120px 120px;
+      gap: 8px;
+      margin-bottom: 12px;
     }
 
     input, select, button {
-      background: var(--panel);
-      color: var(--text);
+      background: #0b121d;
       border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 10px 12px;
-      font-size: 14px;
+      color: var(--text);
+      border-radius: 8px;
+      padding: 9px 10px;
+      font-size: 12px;
     }
 
     button {
       cursor: pointer;
-      white-space: nowrap;
     }
 
     button.active {
+      background: #32161d;
       border-color: var(--red);
-      color: #ffd1d5;
-      background: #31141a;
-    }
-
-    .stats {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      padding: 14px 20px 0;
-      max-width: 1200px;
-      margin: auto;
-    }
-
-    .stat {
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 10px 12px;
-      font-size: 13px;
-      color: var(--muted);
-    }
-
-    .stat strong { color: var(--text); }
-
-    .trending {
-      padding: 12px 20px 0;
-      max-width: 1200px;
-      margin: auto;
-    }
-
-    .trend-row {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .trend {
-      background: #17202d;
-      border: 1px solid var(--border);
-      padding: 6px 10px;
-      border-radius: 999px;
-      font-size: 12px;
-      color: #c8d8ea;
-      cursor: pointer;
+      color: #ffc7cc;
     }
 
     .feed {
-      padding: 16px 20px 40px;
-      max-width: 1200px;
-      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
     }
 
-    .card {
+    .alert {
       background: var(--panel);
       border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 16px;
-      margin-bottom: 14px;
-      animation: fadeIn 0.25s ease;
+      border-radius: 10px;
+      padding: 10px;
     }
 
-    .card.compact {
-      padding: 11px 14px;
-    }
-
-    .urgent {
+    .alert.CRITICAL {
       border-color: var(--red);
-      box-shadow: 0 0 0 1px #ff5a6633;
+      box-shadow: 0 0 0 1px #ff506133;
     }
 
-    .meta {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      margin-bottom: 10px;
-      font-size: 12px;
+    .alert.HIGH {
+      border-color: #ff9c50;
     }
 
-    .tag {
-      background: #1d2a3b;
-      color: #bcd0e5;
-      padding: 4px 8px;
-      border-radius: 999px;
-    }
-
-    .urgent-tag {
-      background: #4a1e27;
-      color: #ffb8be;
-    }
-
-    .source-tag {
-      background: #172c46;
-      color: #9dccff;
-    }
-
-    .topic-tag {
-      background: #203022;
-      color: #a8e6b2;
-    }
-
-    .ticker-tag {
-      background: #30204a;
-      color: var(--purple);
-    }
-
-    .region-tag {
-      background: #403017;
-      color: var(--orange);
-    }
-
-    .asset-tag {
-      background: #173830;
-      color: var(--green);
-    }
-
-    .title {
-      font-size: 17px;
+    .headline {
+      font-size: 13px;
       font-weight: 700;
       line-height: 1.35;
-      margin-bottom: 10px;
-    }
-
-    .compact .title {
-      font-size: 15px;
-      margin-bottom: 6px;
+      margin: 6px 0;
     }
 
     a {
@@ -207,27 +157,82 @@
       text-decoration: none;
     }
 
-    a:hover { text-decoration: underline; }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-bottom: 5px;
+    }
+
+    .tag {
+      padding: 3px 6px;
+      border-radius: 999px;
+      background: #1b2636;
+      color: #bad0ea;
+      font-size: 11px;
+    }
+
+    .severity-CRITICAL { background: #4a1620; color: #ffb8c0; }
+    .severity-HIGH { background: #4a2a16; color: #ffd0a3; }
+    .severity-MEDIUM { background: #403814; color: #f6e29b; }
+    .severity-LOW { background: #1d2b22; color: #a8e6b2; }
+
+    .regime { background: #261d44; color: var(--purple); }
+    .ticker { background: #30204a; color: var(--purple); }
+    .region { background: #3a2a13; color: var(--orange); }
+    .asset { background: #14342b; color: var(--green); }
 
     .small {
       color: var(--muted);
+      font-size: 11px;
+      margin-top: 4px;
+    }
+
+    .metric {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #182234;
+      padding: 6px 0;
       font-size: 12px;
-      margin-top: 7px;
+    }
+
+    .metric:last-child {
+      border-bottom: 0;
+    }
+
+    .pill-row {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .calendar-item {
+      border-bottom: 1px solid #182234;
+      padding: 8px 0;
+    }
+
+    .calendar-item:last-child {
+      border-bottom: 0;
     }
 
     .empty {
       color: var(--muted);
-      padding: 30px;
+      padding: 18px;
       text-align: center;
     }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(4px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
+    @media (max-width: 1050px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
 
-    @media (max-width: 1000px) {
-      header, .toolbar { position: static; }
+      aside, .right {
+        border: 0;
+      }
 
       .toolbar {
         grid-template-columns: 1fr;
@@ -238,74 +243,81 @@
 
 <body>
   <header>
-    <h1>Market Intelligence</h1>
-    <div class="sub" id="status">Loading alerts...</div>
+    <h1>MARKET OS</h1>
+    <div class="status" id="status">Loading...</div>
   </header>
 
-  <section class="toolbar">
-    <input id="search" placeholder="Search headline, ticker, region, asset..." />
+  <div class="layout">
+    <aside>
+      <div class="panel">
+        <div class="panel-title">Macro Regime</div>
+        <div class="panel-body" id="regimePanel"></div>
+      </div>
 
-    <select id="sourceFilter">
-      <option value="">All sources</option>
-    </select>
+      <div class="panel">
+        <div class="panel-title">Market Snapshot</div>
+        <div class="panel-body" id="snapshotPanel"></div>
+      </div>
 
-    <select id="topicFilter">
-      <option value="">All topics</option>
-    </select>
+      <div class="panel">
+        <div class="panel-title">Top Regions</div>
+        <div class="panel-body" id="regionsPanel"></div>
+      </div>
+    </aside>
 
-    <select id="tickerFilter">
-      <option value="">All tickers</option>
-    </select>
+    <main>
+      <div class="toolbar">
+        <input id="search" placeholder="Search macro, region, asset, source..." />
 
-    <select id="regionFilter">
-      <option value="">All regions</option>
-    </select>
+        <select id="severityFilter">
+          <option value="">All severity</option>
+        </select>
 
-    <select id="assetFilter">
-      <option value="">All assets</option>
-    </select>
+        <select id="regimeFilter">
+          <option value="">All regimes</option>
+        </select>
 
-    <button id="urgentToggle">Urgent only</button>
-    <button id="compactToggle">Compact</button>
-  </section>
+        <select id="regionFilter">
+          <option value="">All regions</option>
+        </select>
 
-  <section class="stats" id="stats"></section>
+        <button id="urgentToggle">Urgent only</button>
+      </div>
 
-  <section class="trending">
-    <div class="trend-row" id="trends"></div>
-  </section>
+      <div class="feed" id="feed"></div>
+    </main>
 
-  <main class="feed" id="feed"></main>
+    <section class="right">
+      <div class="panel">
+        <div class="panel-title">Macro Calendar / Event Watch</div>
+        <div class="panel-body" id="calendarPanel"></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">Trending Tags</div>
+        <div class="panel-body">
+          <div class="pill-row" id="trendsPanel"></div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">Sources</div>
+        <div class="panel-body" id="sourcesPanel"></div>
+      </div>
+    </section>
+  </div>
 
   <script>
-    const ALERTS_URL =
-      "https://raw.githubusercontent.com/nathan545x/News/main/alerts.json";
+    const ALERTS_URL = "https://raw.githubusercontent.com/nathan545x/News/main/alerts.json";
 
     let allAlerts = [];
     let urgentOnly = false;
-    let compactMode = false;
 
     const searchEl = document.getElementById("search");
-    const sourceFilter = document.getElementById("sourceFilter");
-    const topicFilter = document.getElementById("topicFilter");
-    const tickerFilter = document.getElementById("tickerFilter");
+    const severityFilter = document.getElementById("severityFilter");
+    const regimeFilter = document.getElementById("regimeFilter");
     const regionFilter = document.getElementById("regionFilter");
-    const assetFilter = document.getElementById("assetFilter");
     const urgentToggle = document.getElementById("urgentToggle");
-    const compactToggle = document.getElementById("compactToggle");
-
-    function timeAgo(iso) {
-      const diff = Date.now() - new Date(iso).getTime();
-      const mins = Math.floor(diff / 60000);
-
-      if (mins < 1) return "just now";
-      if (mins < 60) return mins + "m ago";
-
-      const hours = Math.floor(mins / 60);
-      if (hours < 24) return hours + "h ago";
-
-      return Math.floor(hours / 24) + "d ago";
-    }
 
     function escapeHtml(value) {
       return String(value || "")
@@ -316,173 +328,204 @@
         .replaceAll("'", "&#039;");
     }
 
-    function valuesFrom(alerts, key) {
-      const set = new Set();
+    function timeAgo(iso) {
+      const diff = Date.now() - new Date(iso).getTime();
+      const mins = Math.floor(diff / 60000);
+      if (mins < 1) return "just now";
+      if (mins < 60) return mins + "m ago";
+      const hrs = Math.floor(mins / 60);
+      if (hrs < 24) return hrs + "h ago";
+      return Math.floor(hrs / 24) + "d ago";
+    }
 
-      alerts.forEach(alert => {
-        (alert[key] || []).forEach(v => set.add(v));
+    function countValues(alerts, key) {
+      const counts = {};
+      alerts.forEach(a => {
+        (a[key] || []).forEach(v => counts[v] = (counts[v] || 0) + 1);
       });
-
-      return [...set].sort();
+      return counts;
     }
 
-    function populateSelect(select, label, values, current) {
-      select.innerHTML =
-        `<option value="">${label}</option>` +
-        values.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join("");
-
-      select.value = current;
+    function values(alerts, key) {
+      return Object.keys(countValues(alerts, key)).sort();
     }
 
-    function populateFilters(alerts) {
-      const current = {
-        source: sourceFilter.value,
-        topic: topicFilter.value,
-        ticker: tickerFilter.value,
-        region: regionFilter.value,
-        asset: assetFilter.value,
-      };
-
-      populateSelect(sourceFilter, "All sources", valuesFrom(alerts, "sources"), current.source);
-      populateSelect(topicFilter, "All topics", valuesFrom(alerts, "topics"), current.topic);
-      populateSelect(tickerFilter, "All tickers", valuesFrom(alerts, "tickers"), current.ticker);
-      populateSelect(regionFilter, "All regions", valuesFrom(alerts, "regions"), current.region);
-      populateSelect(assetFilter, "All assets", valuesFrom(alerts, "assets"), current.asset);
+    function populateSelect(el, label, vals) {
+      const current = el.value;
+      el.innerHTML = `<option value="">${label}</option>` +
+        vals.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join("");
+      el.value = current;
     }
 
-    function buildText(alert) {
+    function populateFilters() {
+      populateSelect(severityFilter, "All severity", [...new Set(allAlerts.map(a => a.severity || "LOW"))].sort());
+      populateSelect(regimeFilter, "All regimes", values(allAlerts, "regime_tags"));
+      populateSelect(regionFilter, "All regions", values(allAlerts, "regions"));
+    }
+
+    function buildText(a) {
       return [
-        alert.title,
-        ...(alert.sources || []),
-        ...(alert.topics || []),
-        ...(alert.keywords || []),
-        ...(alert.tickers || []),
-        ...(alert.regions || []),
-        ...(alert.assets || [])
+        a.title,
+        a.severity,
+        ...(a.sources || []),
+        ...(a.regime_tags || []),
+        ...(a.topics || []),
+        ...(a.keywords || []),
+        ...(a.tickers || []),
+        ...(a.regions || []),
+        ...(a.assets || [])
       ].join(" ").toLowerCase();
     }
 
-    function getFilteredAlerts() {
-      const query = searchEl.value.toLowerCase().trim();
+    function filteredAlerts() {
+      const q = searchEl.value.toLowerCase().trim();
 
-      return allAlerts.filter(alert => {
-        if (urgentOnly && !alert.urgent) return false;
-
-        if (sourceFilter.value && !(alert.sources || []).includes(sourceFilter.value)) return false;
-        if (topicFilter.value && !(alert.topics || []).includes(topicFilter.value)) return false;
-        if (tickerFilter.value && !(alert.tickers || []).includes(tickerFilter.value)) return false;
-        if (regionFilter.value && !(alert.regions || []).includes(regionFilter.value)) return false;
-        if (assetFilter.value && !(alert.assets || []).includes(assetFilter.value)) return false;
-
-        if (query && !buildText(alert).includes(query)) return false;
-
+      return allAlerts.filter(a => {
+        if (urgentOnly && !a.urgent) return false;
+        if (severityFilter.value && a.severity !== severityFilter.value) return false;
+        if (regimeFilter.value && !(a.regime_tags || []).includes(regimeFilter.value)) return false;
+        if (regionFilter.value && !(a.regions || []).includes(regionFilter.value)) return false;
+        if (q && !buildText(a).includes(q)) return false;
         return true;
       });
     }
 
-    function renderStats(alerts) {
-      const urgent = alerts.filter(a => a.urgent).length;
-      const sources = valuesFrom(alerts, "sources").length;
-      const topics = valuesFrom(alerts, "topics").length;
-      const tickers = valuesFrom(alerts, "tickers").length;
-      const regions = valuesFrom(alerts, "regions").length;
-      const assets = valuesFrom(alerts, "assets").length;
-
-      const avgScore = alerts.length
-        ? (alerts.reduce((sum, a) => sum + Number(a.score || 0), 0) / alerts.length).toFixed(1)
-        : 0;
-
-      document.getElementById("stats").innerHTML = `
-        <div class="stat"><strong>${alerts.length}</strong> visible</div>
-        <div class="stat"><strong>${urgent}</strong> urgent</div>
-        <div class="stat"><strong>${sources}</strong> sources</div>
-        <div class="stat"><strong>${topics}</strong> topics</div>
-        <div class="stat"><strong>${tickers}</strong> tickers</div>
-        <div class="stat"><strong>${regions}</strong> regions</div>
-        <div class="stat"><strong>${assets}</strong> assets</div>
-        <div class="stat"><strong>${avgScore}</strong> avg score</div>
-      `;
+    function tag(v, cls = "") {
+      return `<span class="tag ${cls}">${escapeHtml(v)}</span>`;
     }
 
-    function renderTrending(alerts) {
-      const counts = {};
-
-      alerts.forEach(alert => {
-        [
-          ...(alert.keywords || []),
-          ...(alert.tickers || []),
-          ...(alert.regions || []),
-          ...(alert.assets || [])
-        ].forEach(k => {
-          counts[k] = (counts[k] || 0) + 1;
-        });
-      });
-
-      const top = Object.entries(counts)
-        .sort((a, b) => b[1] - a[1])
-        .slice(0, 16);
-
-      document.getElementById("trends").innerHTML = top.map(([word, count]) => `
-        <span class="trend" onclick="setSearch('${escapeHtml(word)}')">${escapeHtml(word)} · ${count}</span>
-      `).join("");
+    function tagList(values, cls = "") {
+      return (values || []).map(v => tag(v, cls)).join("");
     }
 
-    function setSearch(word) {
-      searchEl.value = word;
-      render();
-    }
-
-    function tags(values, cls) {
-      return (values || []).map(v =>
-        `<span class="tag ${cls}">${escapeHtml(v)}</span>`
-      ).join("");
-    }
-
-    function render() {
-      const alerts = getFilteredAlerts();
+    function renderFeed(alerts) {
       const feed = document.getElementById("feed");
-      const status = document.getElementById("status");
-
-      renderStats(alerts);
-      renderTrending(alerts);
-
-      status.textContent =
-        `${allAlerts.length} total alerts · ${alerts.length} shown · updated ${new Date().toLocaleTimeString()}`;
 
       if (!alerts.length) {
         feed.innerHTML = `<div class="empty">No matching alerts.</div>`;
         return;
       }
 
-      feed.innerHTML = alerts.map(alert => {
-        const urgentClass = alert.urgent ? "urgent" : "";
-        const compactClass = compactMode ? "compact" : "";
+      feed.innerHTML = alerts.map(a => `
+        <article class="alert ${escapeHtml(a.severity || "LOW")}">
+          <div class="tags">
+            ${tag(a.severity || "LOW", "severity-" + (a.severity || "LOW"))}
+            ${tagList(a.regime_tags, "regime")}
+            ${tagList(a.sources)}
+            ${tagList(a.tickers, "ticker")}
+            ${tagList(a.regions, "region")}
+            ${tagList(a.assets, "asset")}
+          </div>
 
-        return `
-          <article class="card ${urgentClass} ${compactClass}">
-            <div class="meta">
-              ${alert.urgent ? `<span class="tag urgent-tag">URGENT</span>` : ""}
-              ${tags(alert.sources, "source-tag")}
-              <span class="tag">Score ${escapeHtml(alert.score)}</span>
-              ${tags(alert.topics, "topic-tag")}
-              ${tags(alert.tickers, "ticker-tag")}
-              ${tags(alert.regions, "region-tag")}
-              ${tags(alert.assets, "asset-tag")}
-            </div>
+          <div class="headline">
+            <a href="${escapeHtml(a.link)}" target="_blank" rel="noopener">
+              ${escapeHtml(a.title)}
+            </a>
+          </div>
 
-            <div class="title">
-              <a href="${escapeHtml(alert.link)}" target="_blank" rel="noopener">
-                ${escapeHtml(alert.title)}
-              </a>
-            </div>
+          <div class="small">
+            Score ${escapeHtml(a.score)} · ${timeAgo(a.time)} · ${escapeHtml(a.source_count || 1)} source(s)
+          </div>
 
-            ${compactMode ? "" : `
-              <div class="small">Keywords: ${escapeHtml((alert.keywords || []).join(", ") || "none")}</div>
-              <div class="small">${timeAgo(alert.time)} · ${escapeHtml(alert.source_count || 1)} source(s)</div>
-            `}
-          </article>
-        `;
-      }).join("");
+          <div class="small">
+            Keywords: ${escapeHtml((a.keywords || []).join(", ") || "none")}
+          </div>
+        </article>
+      `).join("");
+    }
+
+    function renderRegime(alerts) {
+      const counts = countValues(alerts, "regime_tags");
+      const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+
+      document.getElementById("regimePanel").innerHTML = sorted.length
+        ? sorted.map(([k, v]) => `<div class="metric"><span>${escapeHtml(k)}</span><strong>${v}</strong></div>`).join("")
+        : `<div class="empty">No regime data.</div>`;
+    }
+
+    function renderSnapshot(alerts) {
+      const critical = alerts.filter(a => a.severity === "CRITICAL").length;
+      const high = alerts.filter(a => a.severity === "HIGH").length;
+      const macro = alerts.filter(a => (a.regime_tags || []).includes("RATES")).length;
+      const geo = alerts.filter(a => (a.regime_tags || []).includes("GEO-SHOCK")).length;
+
+      document.getElementById("snapshotPanel").innerHTML = `
+        <div class="metric"><span>Total alerts</span><strong>${alerts.length}</strong></div>
+        <div class="metric"><span>Critical</span><strong>${critical}</strong></div>
+        <div class="metric"><span>High</span><strong>${high}</strong></div>
+        <div class="metric"><span>Rates watch</span><strong>${macro}</strong></div>
+        <div class="metric"><span>Geo shock</span><strong>${geo}</strong></div>
+      `;
+    }
+
+    function renderRegions(alerts) {
+      const counts = countValues(alerts, "regions");
+      const top = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 8);
+
+      document.getElementById("regionsPanel").innerHTML = top.length
+        ? top.map(([k, v]) => `<div class="metric"><span>${escapeHtml(k)}</span><strong>${v}</strong></div>`).join("")
+        : `<div class="empty">No region data.</div>`;
+    }
+
+    function renderCalendar(alerts) {
+      const events = alerts.filter(a => a.macro_calendar || (a.macro_events || []).length);
+
+      document.getElementById("calendarPanel").innerHTML = events.length
+        ? events.slice(0, 12).map(a => `
+          <div class="calendar-item">
+            <div><strong>${escapeHtml(a.title)}</strong></div>
+            <div class="small">${escapeHtml((a.macro_events || []).map(e => e.name).join(", ") || "Macro watch")}</div>
+            <div class="small">${timeAgo(a.time)} · ${escapeHtml((a.regions || []).join(", "))}</div>
+          </div>
+        `).join("")
+        : `<div class="empty">No macro calendar events detected.</div>`;
+    }
+
+    function renderTrends(alerts) {
+      const counts = {};
+      alerts.forEach(a => {
+        [
+          ...(a.regime_tags || []),
+          ...(a.keywords || []),
+          ...(a.regions || []),
+          ...(a.assets || [])
+        ].forEach(k => counts[k] = (counts[k] || 0) + 1);
+      });
+
+      const top = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 20);
+
+      document.getElementById("trendsPanel").innerHTML = top
+        .map(([k, v]) => `<span class="tag" onclick="setSearch('${escapeHtml(k)}')">${escapeHtml(k)} · ${v}</span>`)
+        .join("");
+    }
+
+    function renderSources(alerts) {
+      const counts = countValues(alerts, "sources");
+      const top = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+
+      document.getElementById("sourcesPanel").innerHTML = top.length
+        ? top.map(([k, v]) => `<div class="metric"><span>${escapeHtml(k)}</span><strong>${v}</strong></div>`).join("")
+        : `<div class="empty">No source data.</div>`;
+    }
+
+    function setSearch(value) {
+      searchEl.value = value;
+      render();
+    }
+
+    function render() {
+      const alerts = filteredAlerts();
+
+      renderFeed(alerts);
+      renderRegime(allAlerts);
+      renderSnapshot(allAlerts);
+      renderRegions(allAlerts);
+      renderCalendar(allAlerts);
+      renderTrends(allAlerts);
+      renderSources(allAlerts);
+
+      document.getElementById("status").textContent =
+        `${allAlerts.length} alerts · ${alerts.length} shown · updated ${new Date().toLocaleTimeString()}`;
     }
 
     async function loadAlerts() {
@@ -491,34 +534,26 @@
         allAlerts = await res.json();
 
         allAlerts.sort((a, b) => {
-          if (b.urgent !== a.urgent) return b.urgent - a.urgent;
-          return Number(b.score || 0) - Number(a.score || 0);
+          const sev = { CRITICAL: 4, HIGH: 3, MEDIUM: 2, LOW: 1 };
+          return (sev[b.severity] || 0) - (sev[a.severity] || 0)
+            || Number(b.score || 0) - Number(a.score || 0);
         });
 
-        populateFilters(allAlerts);
+        populateFilters();
         render();
-      } catch (err) {
-        document.getElementById("feed").innerHTML =
-          `<div class="empty">Failed to load alerts.</div>`;
+      } catch (e) {
+        document.getElementById("feed").innerHTML = `<div class="empty">Failed to load alerts.</div>`;
       }
     }
 
     searchEl.addEventListener("input", render);
-    sourceFilter.addEventListener("change", render);
-    topicFilter.addEventListener("change", render);
-    tickerFilter.addEventListener("change", render);
+    severityFilter.addEventListener("change", render);
+    regimeFilter.addEventListener("change", render);
     regionFilter.addEventListener("change", render);
-    assetFilter.addEventListener("change", render);
 
     urgentToggle.addEventListener("click", () => {
       urgentOnly = !urgentOnly;
       urgentToggle.classList.toggle("active", urgentOnly);
-      render();
-    });
-
-    compactToggle.addEventListener("click", () => {
-      compactMode = !compactMode;
-      compactToggle.classList.toggle("active", compactMode);
       render();
     });
 
