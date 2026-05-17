@@ -14,7 +14,7 @@ STATE_FILE = pathlib.Path("seen.json")
 ALERTS_FILE = pathlib.Path("alerts.json")
 
 MAX_ALERTS = 150
-FORCE_REPOPULATE = True
+FORCE_REPOPULATE = False
 
 SOURCE_WEIGHTS = {
     "Bloomberg": 1.35,
