@@ -8,19 +8,17 @@
     :root {
       --bg: #070b10;
       --panel: #0f1721;
-      --panel-2: #121c28;
       --border: #223246;
       --text: #e8f0fa;
       --muted: #8fa3b8;
       --blue: #68a8ff;
       --red: #ff5a66;
       --green: #62d394;
-      --yellow: #f5c451;
+      --purple: #b58cff;
+      --orange: #ffb86b;
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
@@ -51,13 +49,13 @@
 
     .toolbar {
       display: grid;
-      grid-template-columns: 1fr 160px 160px auto auto;
+      grid-template-columns: 1fr 140px 140px 140px 140px 140px auto auto;
       gap: 10px;
       padding: 14px 20px;
       background: #091018;
       border-bottom: 1px solid var(--border);
       position: sticky;
-      top: 82px;
+      top: 78px;
       z-index: 15;
     }
 
@@ -72,6 +70,7 @@
 
     button {
       cursor: pointer;
+      white-space: nowrap;
     }
 
     button.active {
@@ -85,7 +84,7 @@
       gap: 10px;
       flex-wrap: wrap;
       padding: 14px 20px 0;
-      max-width: 1100px;
+      max-width: 1200px;
       margin: auto;
     }
 
@@ -98,13 +97,33 @@
       color: var(--muted);
     }
 
-    .stat strong {
-      color: var(--text);
+    .stat strong { color: var(--text); }
+
+    .trending {
+      padding: 12px 20px 0;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .trend-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .trend {
+      background: #17202d;
+      border: 1px solid var(--border);
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      color: #c8d8ea;
+      cursor: pointer;
     }
 
     .feed {
       padding: 16px 20px 40px;
-      max-width: 1100px;
+      max-width: 1200px;
       margin: auto;
     }
 
@@ -122,7 +141,7 @@
     }
 
     .urgent {
-      border-color: #ff5a66;
+      border-color: var(--red);
       box-shadow: 0 0 0 1px #ff5a6633;
     }
 
@@ -156,6 +175,21 @@
       color: #a8e6b2;
     }
 
+    .ticker-tag {
+      background: #30204a;
+      color: var(--purple);
+    }
+
+    .region-tag {
+      background: #403017;
+      color: var(--orange);
+    }
+
+    .asset-tag {
+      background: #173830;
+      color: var(--green);
+    }
+
     .title {
       font-size: 17px;
       font-weight: 700;
@@ -173,9 +207,7 @@
       text-decoration: none;
     }
 
-    a:hover {
-      text-decoration: underline;
-    }
+    a:hover { text-decoration: underline; }
 
     .small {
       color: var(--muted);
@@ -189,51 +221,16 @@
       text-align: center;
     }
 
-    .trending {
-      padding: 12px 20px 0;
-      max-width: 1100px;
-      margin: auto;
-    }
-
-    .trend-row {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .trend {
-      background: #17202d;
-      border: 1px solid var(--border);
-      padding: 6px 10px;
-      border-radius: 999px;
-      font-size: 12px;
-      color: #c8d8ea;
-      cursor: pointer;
-    }
-
     @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: translateY(4px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: 1000px) {
+      header, .toolbar { position: static; }
+
       .toolbar {
         grid-template-columns: 1fr;
-        top: 78px;
-      }
-
-      header {
-        position: static;
-      }
-
-      .toolbar {
-        position: static;
       }
     }
   </style>
@@ -246,7 +243,7 @@
   </header>
 
   <section class="toolbar">
-    <input id="search" placeholder="Search headlines, sources, topics, keywords..." />
+    <input id="search" placeholder="Search headline, ticker, region, asset..." />
 
     <select id="sourceFilter">
       <option value="">All sources</option>
@@ -254,6 +251,18 @@
 
     <select id="topicFilter">
       <option value="">All topics</option>
+    </select>
+
+    <select id="tickerFilter">
+      <option value="">All tickers</option>
+    </select>
+
+    <select id="regionFilter">
+      <option value="">All regions</option>
+    </select>
+
+    <select id="assetFilter">
+      <option value="">All assets</option>
     </select>
 
     <button id="urgentToggle">Urgent only</button>
@@ -279,6 +288,9 @@
     const searchEl = document.getElementById("search");
     const sourceFilter = document.getElementById("sourceFilter");
     const topicFilter = document.getElementById("topicFilter");
+    const tickerFilter = document.getElementById("tickerFilter");
+    const regionFilter = document.getElementById("regionFilter");
+    const assetFilter = document.getElementById("assetFilter");
     const urgentToggle = document.getElementById("urgentToggle");
     const compactToggle = document.getElementById("compactToggle");
 
@@ -295,48 +307,47 @@
       return Math.floor(hours / 24) + "d ago";
     }
 
-    function uniqueValues(alerts, key) {
+    function escapeHtml(value) {
+      return String(value || "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function valuesFrom(alerts, key) {
       const set = new Set();
 
       alerts.forEach(alert => {
-        const value = alert[key];
-
-        if (Array.isArray(value)) {
-          value.forEach(v => set.add(v));
-        } else if (value) {
-          set.add(value);
-        }
+        (alert[key] || []).forEach(v => set.add(v));
       });
 
       return [...set].sort();
     }
 
+    function populateSelect(select, label, values, current) {
+      select.innerHTML =
+        `<option value="">${label}</option>` +
+        values.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join("");
+
+      select.value = current;
+    }
+
     function populateFilters(alerts) {
-      const currentSource = sourceFilter.value;
-      const currentTopic = topicFilter.value;
+      const current = {
+        source: sourceFilter.value,
+        topic: topicFilter.value,
+        ticker: tickerFilter.value,
+        region: regionFilter.value,
+        asset: assetFilter.value,
+      };
 
-      const sources = new Set();
-      const topics = new Set();
-
-      alerts.forEach(alert => {
-        (alert.sources || []).forEach(s => sources.add(s));
-        (alert.topics || []).forEach(t => topics.add(t));
-      });
-
-      sourceFilter.innerHTML =
-        `<option value="">All sources</option>` +
-        [...sources].sort().map(s =>
-          `<option value="${s}">${s}</option>`
-        ).join("");
-
-      topicFilter.innerHTML =
-        `<option value="">All topics</option>` +
-        [...topics].sort().map(t =>
-          `<option value="${t}">${t}</option>`
-        ).join("");
-
-      sourceFilter.value = currentSource;
-      topicFilter.value = currentTopic;
+      populateSelect(sourceFilter, "All sources", valuesFrom(alerts, "sources"), current.source);
+      populateSelect(topicFilter, "All topics", valuesFrom(alerts, "topics"), current.topic);
+      populateSelect(tickerFilter, "All tickers", valuesFrom(alerts, "tickers"), current.ticker);
+      populateSelect(regionFilter, "All regions", valuesFrom(alerts, "regions"), current.region);
+      populateSelect(assetFilter, "All assets", valuesFrom(alerts, "assets"), current.asset);
     }
 
     function buildText(alert) {
@@ -344,29 +355,26 @@
         alert.title,
         ...(alert.sources || []),
         ...(alert.topics || []),
-        ...(alert.keywords || [])
+        ...(alert.keywords || []),
+        ...(alert.tickers || []),
+        ...(alert.regions || []),
+        ...(alert.assets || [])
       ].join(" ").toLowerCase();
     }
 
     function getFilteredAlerts() {
       const query = searchEl.value.toLowerCase().trim();
-      const source = sourceFilter.value;
-      const topic = topicFilter.value;
 
       return allAlerts.filter(alert => {
         if (urgentOnly && !alert.urgent) return false;
 
-        if (source && !(alert.sources || []).includes(source)) {
-          return false;
-        }
+        if (sourceFilter.value && !(alert.sources || []).includes(sourceFilter.value)) return false;
+        if (topicFilter.value && !(alert.topics || []).includes(topicFilter.value)) return false;
+        if (tickerFilter.value && !(alert.tickers || []).includes(tickerFilter.value)) return false;
+        if (regionFilter.value && !(alert.regions || []).includes(regionFilter.value)) return false;
+        if (assetFilter.value && !(alert.assets || []).includes(assetFilter.value)) return false;
 
-        if (topic && !(alert.topics || []).includes(topic)) {
-          return false;
-        }
-
-        if (query && !buildText(alert).includes(query)) {
-          return false;
-        }
+        if (query && !buildText(alert).includes(query)) return false;
 
         return true;
       });
@@ -374,8 +382,12 @@
 
     function renderStats(alerts) {
       const urgent = alerts.filter(a => a.urgent).length;
-      const sources = uniqueValues(alerts, "sources").length;
-      const topics = uniqueValues(alerts, "topics").length;
+      const sources = valuesFrom(alerts, "sources").length;
+      const topics = valuesFrom(alerts, "topics").length;
+      const tickers = valuesFrom(alerts, "tickers").length;
+      const regions = valuesFrom(alerts, "regions").length;
+      const assets = valuesFrom(alerts, "assets").length;
+
       const avgScore = alerts.length
         ? (alerts.reduce((sum, a) => sum + Number(a.score || 0), 0) / alerts.length).toFixed(1)
         : 0;
@@ -385,6 +397,9 @@
         <div class="stat"><strong>${urgent}</strong> urgent</div>
         <div class="stat"><strong>${sources}</strong> sources</div>
         <div class="stat"><strong>${topics}</strong> topics</div>
+        <div class="stat"><strong>${tickers}</strong> tickers</div>
+        <div class="stat"><strong>${regions}</strong> regions</div>
+        <div class="stat"><strong>${assets}</strong> assets</div>
         <div class="stat"><strong>${avgScore}</strong> avg score</div>
       `;
     }
@@ -393,17 +408,22 @@
       const counts = {};
 
       alerts.forEach(alert => {
-        (alert.keywords || []).forEach(k => {
+        [
+          ...(alert.keywords || []),
+          ...(alert.tickers || []),
+          ...(alert.regions || []),
+          ...(alert.assets || [])
+        ].forEach(k => {
           counts[k] = (counts[k] || 0) + 1;
         });
       });
 
       const top = Object.entries(counts)
         .sort((a, b) => b[1] - a[1])
-        .slice(0, 12);
+        .slice(0, 16);
 
       document.getElementById("trends").innerHTML = top.map(([word, count]) => `
-        <span class="trend" onclick="setSearch('${word}')">${word} · ${count}</span>
+        <span class="trend" onclick="setSearch('${escapeHtml(word)}')">${escapeHtml(word)} · ${count}</span>
       `).join("");
     }
 
@@ -412,13 +432,10 @@
       render();
     }
 
-    function escapeHtml(value) {
-      return String(value || "")
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#039;");
+    function tags(values, cls) {
+      return (values || []).map(v =>
+        `<span class="tag ${cls}">${escapeHtml(v)}</span>`
+      ).join("");
     }
 
     function render() {
@@ -441,23 +458,16 @@
         const urgentClass = alert.urgent ? "urgent" : "";
         const compactClass = compactMode ? "compact" : "";
 
-        const sources = (alert.sources || []).map(s =>
-          `<span class="tag source-tag">${escapeHtml(s)}</span>`
-        ).join("");
-
-        const topics = (alert.topics || []).map(t =>
-          `<span class="tag topic-tag">${escapeHtml(t)}</span>`
-        ).join("");
-
-        const keywords = (alert.keywords || []).join(", ");
-
         return `
           <article class="card ${urgentClass} ${compactClass}">
             <div class="meta">
               ${alert.urgent ? `<span class="tag urgent-tag">URGENT</span>` : ""}
-              ${sources}
+              ${tags(alert.sources, "source-tag")}
               <span class="tag">Score ${escapeHtml(alert.score)}</span>
-              ${topics}
+              ${tags(alert.topics, "topic-tag")}
+              ${tags(alert.tickers, "ticker-tag")}
+              ${tags(alert.regions, "region-tag")}
+              ${tags(alert.assets, "asset-tag")}
             </div>
 
             <div class="title">
@@ -467,10 +477,8 @@
             </div>
 
             ${compactMode ? "" : `
-              <div class="small">Keywords: ${escapeHtml(keywords || "none")}</div>
-              <div class="small">
-                ${timeAgo(alert.time)} · ${escapeHtml(alert.source_count || 1)} source(s)
-              </div>
+              <div class="small">Keywords: ${escapeHtml((alert.keywords || []).join(", ") || "none")}</div>
+              <div class="small">${timeAgo(alert.time)} · ${escapeHtml(alert.source_count || 1)} source(s)</div>
             `}
           </article>
         `;
@@ -498,6 +506,9 @@
     searchEl.addEventListener("input", render);
     sourceFilter.addEventListener("change", render);
     topicFilter.addEventListener("change", render);
+    tickerFilter.addEventListener("change", render);
+    regionFilter.addEventListener("change", render);
+    assetFilter.addEventListener("change", render);
 
     urgentToggle.addEventListener("click", () => {
       urgentOnly = !urgentOnly;
