@@ -22,7 +22,7 @@ def why_it_matters(regime):
             "Digital asset volatility and institutional crypto positioning changes.",
 
         "AI":
-            "AI and semiconductor developments impacting tech leadership and capex cycles.",
+            "AI and semiconductor developments impacting technology leadership and capex cycles.",
     }
 
     return MAP.get(
