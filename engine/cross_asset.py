@@ -1,4 +1,4 @@
-```python
+
 CROSS_ASSET_MAP = {
 
     "GEO-SHOCK": {
@@ -26,4 +26,4 @@ CROSS_ASSET_MAP = {
         "bearish": ["AIRLINES"],
     },
 }
-```
+
