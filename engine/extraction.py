@@ -14,6 +14,9 @@ TICKERS = {
     "gold": "XAU",
     "oil": "WTI",
     "brent": "BRENT",
+    "platinum": "PLATINUM",
+    "copper": "COPPER",
+    "silver": "SILVER",
 
     # Crypto
     "bitcoin": "BTC",
@@ -51,13 +54,17 @@ REGIONS = {
 
     "china": "CHINA",
     "iran": "MIDDLE_EAST",
+    "israel": "MIDDLE_EAST",
     "russia": "RUSSIA",
+    "ukraine": "UKRAINE",
 }
 
 ASSETS = {
 
     "oil": "COMMODITIES",
     "gold": "COMMODITIES",
+    "platinum": "COMMODITIES",
+    "copper": "COMMODITIES",
 
     "treasury": "RATES",
     "bund": "RATES",
@@ -72,6 +79,12 @@ ASSETS = {
     "yen": "FX",
     "sterling": "FX",
     "euro": "FX",
+
+    "shipping": "SHIPPING",
+    "freight": "SHIPPING",
+
+    "semiconductor": "AI",
+    "ai": "AI",
 }
 
 
