@@ -7,9 +7,10 @@ export default async function handler(req, res) {
         headers: {
           Accept: "application/vnd.github+json",
           Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+          "X-GitHub-Api-Version": "2022-11-28",
         },
         body: JSON.stringify({
-          ref: "main",
+          event_type: "run-rss",
         }),
       }
     );
@@ -23,9 +24,7 @@ export default async function handler(req, res) {
 
     return res.status(200).json({
       success: true,
-      message: "Workflow triggered",
     });
-
   } catch (err) {
     return res.status(500).json({
       success: false,
