@@ -1,28 +1,38 @@
 
 import json
 import hashlib
+
 from pathlib import Path
-from datetime import datetime
+
+from datetime import datetime, timedelta
 
 import feedparser
 
 from engine.feeds import RSS_FEEDS
 from engine.scoring import score_text
 from engine.regimes import detect_regime, classify_severity
+
 from engine.extraction import (
     extract_tickers,
     extract_regions,
     extract_assets,
 )
+
 from engine.source_weights import SOURCE_WEIGHTS
+
 from engine.clustering import cluster_alerts
+
 from engine.impact import market_impact
+
 from engine.ntfy import send_alert
+
 from engine.why import why_it_matters
 
 
 ALERTS_PATH = Path("alerts.json")
 SEEN_PATH = Path("seen.json")
+
+SEEN_EXPIRY_HOURS = 6
 
 
 def now():
@@ -34,45 +44,117 @@ def load_seen():
     if not SEEN_PATH.exists():
         return {}
 
-    return json.loads(SEEN_PATH.read_text())
+    try:
+        return json.loads(SEEN_PATH.read_text())
+
+    except:
+        return {}
 
 
 def save_seen(data):
-    SEEN_PATH.write_text(json.dumps(data, indent=2))
+
+    SEEN_PATH.write_text(
+        json.dumps(data, indent=2)
+    )
 
 
 def uid(title, link):
-    return hashlib.md5(f"{title}{link}".encode()).hexdigest()
+
+    return hashlib.md5(
+        f"{title}{link}".encode()
+    ).hexdigest()
+
+
+def cleanup_seen(seen):
+
+    cleaned = {}
+
+    for k, v in seen.items():
+
+        try:
+
+            dt = datetime.fromisoformat(
+                v.replace("Z", "")
+            )
+
+            if datetime.utcnow() - dt < timedelta(days=2):
+                cleaned[k] = v
+
+        except:
+            pass
+
+    return cleaned
+
+
+def recently_seen(seen, alert_uid):
+
+    last_seen = seen.get(alert_uid)
+
+    if not last_seen:
+        return False
+
+    try:
+
+        last_seen_dt = datetime.fromisoformat(
+            last_seen.replace("Z", "")
+        )
+
+        return (
+            datetime.utcnow() - last_seen_dt
+            < timedelta(hours=SEEN_EXPIRY_HOURS)
+        )
+
+    except:
+        return False
 
 
 def build_market_regime(alerts):
 
-    scores = {}
+    regime_scores = {}
 
     for alert in alerts:
 
         regime = alert["regime"]
 
-        scores[regime] = scores.get(regime, 0) + alert["score"]
+        regime_scores[regime] = (
+            regime_scores.get(regime, 0)
+            + alert["score"]
+        )
 
     dominant = "GENERAL"
 
-    if scores:
-        dominant = max(scores, key=scores.get)
+    if regime_scores:
+
+        dominant = max(
+            regime_scores,
+            key=regime_scores.get
+        )
 
     return {
+
         "regime": dominant,
+
         "dominant_driver": dominant,
+
         "secondary_driver": "GENERAL",
-        "signal_density": "HIGH" if len(alerts) > 20 else "LOW",
-        "critical_alerts": len([
-            x for x in alerts
-            if x["severity"] == "CRITICAL"
-        ]),
-        "high_alerts": len([
-            x for x in alerts
-            if x["severity"] == "HIGH"
-        ]),
+
+        "signal_density":
+            "HIGH"
+            if len(alerts) > 20
+            else "LOW",
+
+        "critical_alerts":
+            len([
+                x for x in alerts
+                if x["severity"] == "CRITICAL"
+            ]),
+
+        "high_alerts":
+            len([
+                x for x in alerts
+                if x["severity"] == "HIGH"
+            ]),
+
         "last_updated": now(),
     }
 
@@ -81,13 +163,23 @@ def main():
 
     seen = load_seen()
 
+    seen = cleanup_seen(seen)
+
     alerts = []
 
     for source, feeds in RSS_FEEDS.items():
 
-        for feed in feeds:
+        for feed_url in feeds:
 
-            parsed = feedparser.parse(feed)
+            try:
+
+                parsed = feedparser.parse(feed_url)
+
+            except Exception as e:
+
+                print("FEED ERROR:", source, e)
+
+                continue
 
             for entry in parsed.entries[:25]:
 
@@ -100,7 +192,7 @@ def main():
 
                 alert_uid = uid(title, link)
 
-                if alert_uid in seen:
+                if recently_seen(seen, alert_uid):
                     continue
 
                 text = f"{title} {summary}"
@@ -118,27 +210,41 @@ def main():
 
                 severity = classify_severity(score)
 
+                tickers = extract_tickers(text)
+
+                regions = extract_regions(text)
+
+                assets = extract_assets(text)
+
                 alert = {
 
                     "id": alert_uid,
 
                     "title": title,
+
                     "summary": summary,
+
                     "link": link,
 
                     "source": source,
 
                     "score": score,
+
                     "severity": severity,
+
                     "regime": regime,
 
-                    "tickers": extract_tickers(text),
-                    "regions": extract_regions(text),
-                    "assets": extract_assets(text),
+                    "tickers": tickers,
 
-                    "market_impact": market_impact(regime),
+                    "regions": regions,
 
-                    "why_it_matters": why_it_matters(regime),
+                    "assets": assets,
+
+                    "market_impact":
+                        market_impact(regime),
+
+                    "why_it_matters":
+                        why_it_matters(regime),
 
                     "published": now(),
                 }
@@ -151,27 +257,28 @@ def main():
 
     alerts = sorted(
         alerts,
-        key=lambda x: x["published"],
+        key=lambda x: x["score"],
         reverse=True
     )
 
-    top_signals = sorted(
-        alerts,
-        key=lambda x: x["score"],
-        reverse=True
-    )[:12]
+    top_signals = alerts[:12]
 
     payload = {
 
-        "terminal": "Institutional Macro Terminal",
+        "terminal":
+            "Institutional Macro Terminal",
 
-        "generated_at": now(),
+        "generated_at":
+            now(),
 
-        "market_regime": build_market_regime(alerts),
+        "market_regime":
+            build_market_regime(alerts),
 
-        "top_signals": top_signals,
+        "top_signals":
+            top_signals,
 
-        "alerts": alerts,
+        "alerts":
+            alerts,
     }
 
     ALERTS_PATH.write_text(
@@ -181,11 +288,15 @@ def main():
     save_seen(seen)
 
     for alert in alerts:
+
         send_alert(alert)
 
-    print(f"Generated {len(alerts)} alerts")
+    print(
+        f"Generated {len(alerts)} alerts"
+    )
 
 
 if __name__ == "__main__":
+
     main()
 
