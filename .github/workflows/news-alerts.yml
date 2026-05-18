@@ -8,41 +8,87 @@ permissions:
   contents: write
 
 jobs:
+
   run-rss:
+
     runs-on: ubuntu-latest
 
     steps:
 
-      - name: Checkout
+      # =====================================================
+      # CHECKOUT REPOSITORY
+      # =====================================================
+
+      - name: Checkout Repository
         uses: actions/checkout@v4
+
         with:
           fetch-depth: 0
 
+      # =====================================================
+      # PYTHON
+      # =====================================================
+
       - name: Setup Python
         uses: actions/setup-python@v5
+
         with:
-          python-version: '3.11'
+          python-version: "3.11"
+
+      # =====================================================
+      # INSTALL DEPENDENCIES
+      # =====================================================
 
       - name: Install Dependencies
+
         run: |
+
+          python -m pip install --upgrade pip
+
           pip install -r requirements.txt
 
-      - name: Run RSS Engine
+      # =====================================================
+      # RUN INSTITUTIONAL RSS ENGINE
+      # =====================================================
+
+      - name: Run Institutional RSS Engine
+
         env:
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+
+          NTFY_TOPIC_NEWS: ${{ secrets.NTFY_TOPIC_NEWS }}
+
+          NTFY_TOPIC_URGENT: ${{ secrets.NTFY_TOPIC_URGENT }}
+
         run: |
+
+          echo "NEWS TOPIC: $NTFY_TOPIC_NEWS"
+
+          echo "URGENT TOPIC: $NTFY_TOPIC_URGENT"
+
           python rss_notify.py
 
-      - name: Commit alerts.json
+      # =====================================================
+      # COMMIT GENERATED FILES
+      # =====================================================
+
+      - name: Commit alerts.json and seen.json
+
         run: |
 
           git config --global user.name github-actions
+
           git config --global user.email github-actions@github.com
 
           git add alerts.json seen.json
 
-          git diff --cached --quiet || git commit -m "update alerts"
+          git diff --cached --quiet || git commit -m "update macro alerts"
 
-      - name: Force Push Generated Files
+      # =====================================================
+      # PUSH GENERATED STATE
+      # =====================================================
+
+      - name: Push Generated Files
+
         run: |
+
           git push origin HEAD:main --force
