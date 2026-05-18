@@ -2,9 +2,9 @@ name: Macro RSS Pipeline
 
 on:
   workflow_dispatch:
-  repository_dispatch:
-  schedule:
-    - cron: '*/15 * * * *'
+
+permissions:
+  contents: write
 
 jobs:
   run-rss:
@@ -21,11 +21,9 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install feedparser requests
+          pip install requests feedparser
 
       - name: Run RSS Engine
-        env:
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: |
           python rss_notify.py
 
@@ -36,10 +34,10 @@ jobs:
 
           git add alerts.json seen.json
 
-          git diff --cached --quiet || git commit -m "update macro alerts"
+          git diff --cached --quiet || git commit -m "update alerts"
 
       - name: Push Changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          branch: master
