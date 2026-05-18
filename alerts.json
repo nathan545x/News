@@ -1,49 +1,121 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-05-18T15:45:06.440628Z",
+  "generated_at": "2026-05-18T15:46:17.459836Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "INFLATION",
+    "dominant_driver": "INFLATION",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 0,
-    "last_updated": "2026-05-18T15:45:06.440641Z"
+    "last_updated": "2026-05-18T15:46:17.459852Z"
   },
   "top_signals": [
     {
-      "id": "d9eba40d46f3bcc88937c6149138781d",
-      "title": "New bipartisan bill would let retirees use their 401(k) to make direct charitable donations",
-      "summary": "Under current law, qualified charitable distributions \u2014 which are available to people age 70 1/2 \u2014 can only be made from individual retirement accounts.",
-      "link": "https://www.cnbc.com/2026/05/18/401k-charitable-donations.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
+      "id": "47b0dd036a95a46d21ed5bc75e2cdfdf",
+      "title": "Extended Oil Shock Spells Higher, Sticky Inflation",
+      "summary": "The amount of inflation priced into 10-year Treasury yields is a little hard to square with what the market is saying about price rises in the near term. \nEither inflation is going to be high for a long time, and this is something that has changed in the past week or two, or 10-year yields have gone a little too far.\nYelena Shulyatyeva, Senior US Economist at The Conference Board, discusses inflation expectations and what happens if oil prices rise higher, for longer. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-05-18/extended-oil-shock-spells-higher-sticky-inflation-video",
+      "source": "Bloomberg",
+      "score": 41,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
+      "tickers": [
+        "TLT",
+        "WTI"
+      ],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "COMMODITIES",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI"
+        ],
+        "bearish": [
+          "BONDS"
+        ]
+      },
+      "why_it_matters": "Inflation expectations affecting rate path and global bond markets.",
+      "published": "2026-05-18T15:45:34.961874Z"
+    },
+    {
+      "id": "ac526ea9c6e24c300dbd439e5ea78671",
+      "title": "EU Selects EQT to Manage \u20ac5 Billion Technology Fund",
+      "summary": "EQT AB has won the mandate to manage a new European Union fund for investing in quantum computing, artificial intelligence and other deep tech companies, people familiar with the matter said.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-18/eu-selects-eqt-to-manage-5-billion-technology-fund",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-05-18T15:44:32.165603Z"
+      "published": "2026-05-18T15:45:34.961935Z"
     }
   ],
   "alerts": [
     {
-      "id": "d9eba40d46f3bcc88937c6149138781d",
-      "title": "New bipartisan bill would let retirees use their 401(k) to make direct charitable donations",
-      "summary": "Under current law, qualified charitable distributions \u2014 which are available to people age 70 1/2 \u2014 can only be made from individual retirement accounts.",
-      "link": "https://www.cnbc.com/2026/05/18/401k-charitable-donations.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
+      "id": "ac526ea9c6e24c300dbd439e5ea78671",
+      "title": "EU Selects EQT to Manage \u20ac5 Billion Technology Fund",
+      "summary": "EQT AB has won the mandate to manage a new European Union fund for investing in quantum computing, artificial intelligence and other deep tech companies, people familiar with the matter said.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-18/eu-selects-eqt-to-manage-5-billion-technology-fund",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-05-18T15:44:32.165603Z"
+      "published": "2026-05-18T15:45:34.961935Z"
+    },
+    {
+      "id": "47b0dd036a95a46d21ed5bc75e2cdfdf",
+      "title": "Extended Oil Shock Spells Higher, Sticky Inflation",
+      "summary": "The amount of inflation priced into 10-year Treasury yields is a little hard to square with what the market is saying about price rises in the near term. \nEither inflation is going to be high for a long time, and this is something that has changed in the past week or two, or 10-year yields have gone a little too far.\nYelena Shulyatyeva, Senior US Economist at The Conference Board, discusses inflation expectations and what happens if oil prices rise higher, for longer. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-05-18/extended-oil-shock-spells-higher-sticky-inflation-video",
+      "source": "Bloomberg",
+      "score": 41,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
+      "tickers": [
+        "TLT",
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI"
+        ],
+        "bearish": [
+          "BONDS"
+        ]
+      },
+      "why_it_matters": "Inflation expectations affecting rate path and global bond markets.",
+      "published": "2026-05-18T15:45:34.961874Z"
     }
   ]
 }
