@@ -1,288 +1,60 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Macro Market Intelligence Terminal</title>
+<title>Institutional Macro Terminal</title>
 <style>
-body{
-  margin:0;
-  background:#050505;
-  color:#d7dde5;
-  font-family:Consolas,monospace;
-}
-.header{
-  padding:14px;
-  border-bottom:1px solid #222;
-  background:#0b0f14;
-}
-.title{
-  color:#00ff88;
-  font-size:24px;
-  font-weight:bold;
-}
-.subtitle{
-  color:#777;
-  margin-top:4px;
-}
-.grid{
-  display:grid;
-  grid-template-columns:1fr 2fr;
-  gap:12px;
-  padding:12px;
-}
-.panel{
-  border:1px solid #222;
-  background:#0b0f14;
-}
-.panel-header{
-  padding:10px;
-  border-bottom:1px solid #222;
-  color:#00d5ff;
-  text-transform:uppercase;
-  font-size:12px;
-}
-.panel-body{
-  padding:10px;
-}
-.signal{
-  border:1px solid #1c1c1c;
-  padding:10px;
-  margin-bottom:8px;
-  background:#10151b;
-}
-.signal:hover{
-  border-color:#444;
-}
-.badge{
-  display:inline-block;
-  padding:4px 6px;
-  margin-right:4px;
-  font-size:10px;
-}
-.CRITICAL{background:#66111c;color:#ff334e;}
-.HIGH{background:#5c3511;color:#ff9f1c;}
-.MEDIUM{background:#5f4b14;color:#ffd166;}
-.LOW{background:#222;color:#aaa;}
-.regime{
-  background:#102331;
-  color:#00d5ff;
-}
-.headline{
-  margin-top:8px;
-  font-weight:bold;
-}
-.meta{
-  color:#777;
-  margin-top:6px;
-  font-size:11px;
-}
-.chips{
-  margin-top:8px;
-}
-.chip{
-  display:inline-block;
-  padding:3px 6px;
-  margin-right:4px;
-  background:#151515;
-  border:1px solid #333;
-  color:#00ff88;
-  font-size:10px;
-}
-.search{
-  width:100%;
-  background:#000;
-  border:1px solid #222;
-  color:#fff;
-  padding:10px;
-  margin-bottom:10px;
-}
-.regime-tape{
-  display:grid;
-  grid-template-columns:repeat(6,1fr);
-  gap:8px;
-  padding:12px;
-}
-.tape{
-  border:1px solid #222;
-  background:#0b0f14;
-  padding:10px;
-}
-.label{
-  color:#777;
-  font-size:10px;
-  text-transform:uppercase;
-}
-.value{
-  margin-top:6px;
-  font-size:14px;
-}
-@media(max-width:900px){
-  .grid,.regime-tape{
-    grid-template-columns:1fr;
-  }
-}
+body{background:#050505;color:#ddd;font-family:Consolas;margin:0}
+.header{padding:15px;background:#0b0f14;border-bottom:1px solid #222}
+.title{color:#00ff88;font-size:24px}
+.grid{display:grid;grid-template-columns:1fr 2fr;gap:10px;padding:10px}
+.panel{border:1px solid #222;background:#0b0f14}
+.panel h2{margin:0;padding:10px;border-bottom:1px solid #222;color:#00d5ff;font-size:12px}
+.card{padding:10px;border-bottom:1px solid #151515}
 </style>
 </head>
 <body>
 
 <div class="header">
-  <div class="title">MACRO MARKET INTELLIGENCE TERMINAL</div>
-  <div class="subtitle">Bloomberg / Cognito Style Macro Signal Engine</div>
-</div>
-
-<div class="regime-tape">
-  <div class="tape">
-    <div class="label">Regime</div>
-    <div id="regime" class="value">--</div>
-  </div>
-
-  <div class="tape">
-    <div class="label">Dominant Driver</div>
-    <div id="dominant" class="value">--</div>
-  </div>
-
-  <div class="tape">
-    <div class="label">Secondary</div>
-    <div id="secondary" class="value">--</div>
-  </div>
-
-  <div class="tape">
-    <div class="label">Density</div>
-    <div id="density" class="value">--</div>
-  </div>
-
-  <div class="tape">
-    <div class="label">Critical Alerts</div>
-    <div id="critical" class="value">--</div>
-  </div>
-
-  <div class="tape">
-    <div class="label">Updated</div>
-    <div id="updated" class="value">--</div>
-  </div>
+<div class="title">INSTITUTIONAL MACRO TERMINAL</div>
 </div>
 
 <div class="grid">
+<div class="panel">
+<h2>TOP SIGNALS</h2>
+<div id="top"></div>
+</div>
 
-  <div class="panel">
-    <div class="panel-header">Top Signals</div>
-    <div id="topSignals" class="panel-body"></div>
-  </div>
-
-  <div class="panel">
-    <div class="panel-header">Recent News</div>
-
-    <div class="panel-body">
-      <input id="search" class="search" placeholder="Search signals..." />
-      <div id="news"></div>
-    </div>
-  </div>
-
+<div class="panel">
+<h2>RECENT NEWS</h2>
+<div id="news"></div>
+</div>
 </div>
 
 <script>
+async function load(){
+ const r = await fetch('./alerts.json?v='+Date.now());
+ const d = await r.json();
 
-let ALL_ALERTS = [];
+ document.getElementById('top').innerHTML =
+   (d.top_signals || []).map(render).join('');
 
-async function loadAlerts(){
-  const res = await fetch('./alerts.json?v=' + Date.now());
-  const data = await res.json();
-
-  document.getElementById('regime').textContent =
-    data.market_regime?.regime || '--';
-
-  document.getElementById('dominant').textContent =
-    data.market_regime?.dominant_driver || '--';
-
-  document.getElementById('secondary').textContent =
-    data.market_regime?.secondary_driver || '--';
-
-  document.getElementById('density').textContent =
-    data.market_regime?.signal_density || '--';
-
-  document.getElementById('critical').textContent =
-    data.market_regime?.critical_alerts || '--';
-
-  document.getElementById('updated').textContent =
-    data.generated_at || '--';
-
-  ALL_ALERTS = data.alerts || [];
-
-  renderTopSignals(data.top_signals || []);
-  renderNews(ALL_ALERTS);
+ document.getElementById('news').innerHTML =
+   (d.alerts || []).map(render).join('');
 }
 
-function renderTopSignals(items){
-  const container = document.getElementById('topSignals');
-
-  container.innerHTML = items.map(item => `
-    <div class="signal">
-      <div>
-        <span class="badge ${item.severity}">${item.severity}</span>
-        <span class="badge regime">${item.regime}</span>
-      </div>
-
-      <div class="headline">
-        <a href="${item.link}" target="_blank">${item.title}</a>
-      </div>
-
-      <div class="meta">
-        ${item.source} · Score ${item.score}
-      </div>
-
-      <div class="chips">
-        ${(item.tickers || []).map(t =>
-          `<span class="chip">${t}</span>`
-        ).join('')}
-      </div>
-    </div>
-  `).join('');
+function render(x){
+ return `
+  <div class="card">
+   <div>${x.severity} | ${x.regime}</div>
+   <div><a href="${x.link}" target="_blank">${x.title}</a></div>
+   <div>${x.source} | Score ${x.score}</div>
+  </div>
+ `;
 }
 
-function renderNews(items){
-  const container = document.getElementById('news');
-
-  container.innerHTML = items.map(item => `
-    <div class="signal">
-
-      <div>
-        <span class="badge ${item.severity}">${item.severity}</span>
-        <span class="badge regime">${item.regime}</span>
-      </div>
-
-      <div class="headline">
-        <a href="${item.link}" target="_blank">${item.title}</a>
-      </div>
-
-      <div class="meta">
-        ${item.source} · ${item.published}
-      </div>
-
-      <div class="chips">
-        ${(item.tickers || []).map(t =>
-          `<span class="chip">${t}</span>`
-        ).join('')}
-      </div>
-
-    </div>
-  `).join('');
-}
-
-document.getElementById('search').addEventListener('input', e => {
-  const q = e.target.value.toLowerCase();
-
-  const filtered = ALL_ALERTS.filter(item =>
-    JSON.stringify(item).toLowerCase().includes(q)
-  );
-
-  renderNews(filtered);
-});
-
-loadAlerts();
-setInterval(loadAlerts, 60000);
-
+load();
+setInterval(load,60000);
 </script>
 
 </body>
