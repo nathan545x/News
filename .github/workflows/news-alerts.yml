@@ -1,42 +1,45 @@
-name: Macro Hub
+name: Macro RSS Pipeline
 
 on:
-  schedule:
-    - cron: "*/5 * * * *"
   workflow_dispatch:
-
-permissions:
-  contents: write
-
-concurrency:
-  group: market-intelligence
-  cancel-in-progress: false
+  repository_dispatch:
+  schedule:
+    - cron: '*/15 * * * *'
 
 jobs:
-  alerts:
+  run-rss:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          persist-credentials: true
-          fetch-depth: 0
+          python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install feedparser requests
-
-      - name: Run intelligence engine
-        run: python rss_notify.py
-
-      - name: Save alert state
+      - name: Install Dependencies
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          pip install feedparser requests
 
-          git status
-          git add seen.json alerts.json
-          git status
+      - name: Run RSS Engine
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          python rss_notify.py
 
-          git commit -m "Update alert state" || echo "No changes to commit"
-          git pull --rebase origin main
-          git push origin main
+      - name: Commit alerts.json
+        run: |
+          git config --global user.name github-actions
+          git config --global user.email github-actions@github.com
+
+          git add alerts.json seen.json
+
+          git diff --cached --quiet || git commit -m "update macro alerts"
+
+      - name: Push Changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
