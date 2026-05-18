@@ -87,10 +87,18 @@ def send_alert(alert):
         ""
     )
 
+    link = alert.get(
+        "link",
+        ""
+    )
+
     body = f"""
 {severity} | {regime}
 
 {title}
+
+Article:
+{link}
 
 Source: {source}
 Score: {score}
@@ -99,9 +107,9 @@ Why it matters:
 {why}
 """
 
-    # ==========================================
+    # =====================================================
     # STANDARD FLOW
-    # ==========================================
+    # =====================================================
 
     if severity in {
 
@@ -115,16 +123,16 @@ Why it matters:
 
             NEWS_TOPIC,
 
-            f"{severity} | {regime}",
+            f"{severity} | {source}",
 
             body,
 
             priority="3"
         )
 
-    # ==========================================
+    # =====================================================
     # URGENT FLOW
-    # ==========================================
+    # =====================================================
 
     if severity in {
 
@@ -140,6 +148,9 @@ Why it matters:
 
 {title}
 
+Article:
+{link}
+
 Source: {source}
 Score: {score}
 
@@ -151,7 +162,7 @@ Why it matters:
 
             URGENT_TOPIC,
 
-            f"🚨 {severity} MARKET ALERT",
+            f"🚨 {severity} | {source}",
 
             urgent_body,
 
