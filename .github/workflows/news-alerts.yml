@@ -1,3 +1,4 @@
+
 name: Macro RSS Pipeline
 
 on:
@@ -11,8 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -21,14 +25,17 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install requests feedparser
+          pip install -r requirements.txt
 
       - name: Run RSS Engine
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: |
           python rss_notify.py
 
       - name: Commit alerts.json
         run: |
+
           git config --global user.name github-actions
           git config --global user.email github-actions@github.com
 
@@ -36,9 +43,10 @@ jobs:
 
           git diff --cached --quiet || git commit -m "update alerts"
 
-      - name: Push Changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
+      - name: Pull latest changes
+        run: |
+          git pull origin master --rebase
 
+      - name: Push Changes
+        run: |
+          git push origin HEAD:master
