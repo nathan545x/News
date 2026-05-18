@@ -3,19 +3,13 @@ import json
 import hashlib
 
 from pathlib import Path
-
 from datetime import datetime, timedelta
 
 import feedparser
 
 from engine.feeds import RSS_FEEDS
-
 from engine.scoring import score_text
-
-from engine.regimes import (
-    detect_regime,
-    classify_severity
-)
+from engine.regimes import detect_regime, classify_severity
 
 from engine.extraction import (
     extract_tickers,
@@ -23,40 +17,21 @@ from engine.extraction import (
     extract_assets,
 )
 
-from engine.source_weights import (
-    SOURCE_WEIGHTS
-)
-
-from engine.clustering import (
-    cluster_alerts
-)
-
-from engine.impact import (
-    market_impact
-)
-
-from engine.ntfy import (
-    send_alert
-)
-
-from engine.why import (
-    why_it_matters
-)
+from engine.source_weights import SOURCE_WEIGHTS
+from engine.clustering import cluster_alerts
+from engine.impact import market_impact
+from engine.ntfy import send_alert
+from engine.why import why_it_matters
 
 
 ALERTS_PATH = Path("alerts.json")
-
 SEEN_PATH = Path("seen.json")
 
 SEEN_EXPIRY_HOURS = 6
 
 
 def now():
-
-    return (
-        datetime.utcnow().isoformat()
-        + "Z"
-    )
+    return datetime.utcnow().isoformat() + "Z"
 
 
 def load_seen():
@@ -65,13 +40,9 @@ def load_seen():
         return {}
 
     try:
-
-        return json.loads(
-            SEEN_PATH.read_text()
-        )
+        return json.loads(SEEN_PATH.read_text())
 
     except:
-
         return {}
 
 
@@ -101,10 +72,7 @@ def cleanup_seen(seen):
                 v.replace("Z", "")
             )
 
-            if (
-                datetime.utcnow() - dt
-                < timedelta(days=2)
-            ):
+            if datetime.utcnow() - dt < timedelta(days=2):
                 cleaned[k] = v
 
         except:
@@ -127,16 +95,11 @@ def recently_seen(seen, alert_uid):
         )
 
         return (
-
             datetime.utcnow() - last_seen_dt
-
-            < timedelta(
-                hours=SEEN_EXPIRY_HOURS
-            )
+            < timedelta(hours=SEEN_EXPIRY_HOURS)
         )
 
     except:
-
         return False
 
 
@@ -149,9 +112,7 @@ def build_market_regime(alerts):
         regime = alert["regime"]
 
         regime_scores[regime] = (
-
             regime_scores.get(regime, 0)
-
             + alert["score"]
         )
 
@@ -173,31 +134,20 @@ def build_market_regime(alerts):
         "secondary_driver": "GENERAL",
 
         "signal_density":
-
             "HIGH"
-
             if len(alerts) > 20
-
             else "LOW",
 
         "critical_alerts":
-
             len([
-
                 x for x in alerts
-
                 if x["severity"] == "CRITICAL"
-
             ]),
 
         "high_alerts":
-
             len([
-
                 x for x in alerts
-
                 if x["severity"] == "HIGH"
-
             ]),
 
         "last_updated": now(),
@@ -209,7 +159,6 @@ def main():
     print("\n========== RSS ENGINE START ==========\n")
 
     seen = load_seen()
-
     seen = cleanup_seen(seen)
 
     alerts = []
@@ -229,9 +178,7 @@ def main():
 
             try:
 
-                parsed = feedparser.parse(
-                    feed_url
-                )
+                parsed = feedparser.parse(feed_url)
 
             except Exception as e:
 
@@ -248,41 +195,19 @@ def main():
                 len(parsed.entries)
             )
 
-            for entry in parsed.entries[:25]:
+            for entry in parsed.entries[:8]:
 
-                title = entry.get(
-                    "title",
-                    ""
-                )
-
-                summary = entry.get(
-                    "summary",
-                    ""
-                )
-
-                link = entry.get(
-                    "link",
-                    ""
-                )
+                title = entry.get("title", "")
+                summary = entry.get("summary", "")
+                link = entry.get("link", "")
 
                 if not title:
                     continue
 
-                alert_uid = uid(
-                    title,
-                    link
-                )
+                alert_uid = uid(title, link)
 
-                # =====================================
-                # TEMP DEBUG
-                # DEDUPE DISABLED
-                # =====================================
-
-                # if recently_seen(
-                #     seen,
-                #     alert_uid
-                # ):
-                #     continue
+                if recently_seen(seen, alert_uid):
+                    continue
 
                 text = f"""
 {title}
@@ -290,38 +215,22 @@ def main():
 {summary}
 """
 
-                score, regime_scores = (
-                    score_text(text)
-                )
+                score, regime_scores = score_text(text)
 
-                source_weight = (
-                    SOURCE_WEIGHTS.get(
-                        source,
-                        SOURCE_WEIGHTS["DEFAULT"]
-                    )
+                source_weight = SOURCE_WEIGHTS.get(
+                    source,
+                    SOURCE_WEIGHTS["DEFAULT"]
                 )
 
                 score += source_weight
 
-                regime = detect_regime(
-                    regime_scores
-                )
+                regime = detect_regime(regime_scores)
 
-                severity = classify_severity(
-                    score
-                )
+                severity = classify_severity(score)
 
-                tickers = extract_tickers(
-                    text
-                )
-
-                regions = extract_regions(
-                    text
-                )
-
-                assets = extract_assets(
-                    text
-                )
+                tickers = extract_tickers(text)
+                regions = extract_regions(text)
+                assets = extract_assets(text)
 
                 alert = {
 
@@ -384,11 +293,8 @@ def main():
     )
 
     alerts = sorted(
-
         alerts,
-
         key=lambda x: x["score"],
-
         reverse=True
     )
 
@@ -413,11 +319,7 @@ def main():
     }
 
     ALERTS_PATH.write_text(
-
-        json.dumps(
-            payload,
-            indent=2
-        )
+        json.dumps(payload, indent=2)
     )
 
     save_seen(seen)
@@ -427,7 +329,7 @@ def main():
         len(alerts)
     )
 
-    for alert in alerts:
+    for alert in alerts[:25]:
 
         print(
             "\nSENDING ALERT:",
