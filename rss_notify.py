@@ -642,14 +642,10 @@ def main():
 
     all_alerts = new_alerts + existing_alerts
     all_alerts = sorted(
-        all_alerts,
-        key=lambda x: (
-            {"CRITICAL": 4, "HIGH": 3, "MEDIUM": 2, "LOW": 1}.get(x.get("severity"), 0),
-            x.get("score", 0),
-            x.get("published", ""),
-        ),
-        reverse=True,
-    )[:MAX_ALERTS]
+    all_alerts,
+    key=lambda x: x.get("published", x.get("collected_at", "")),
+    reverse=True,
+)[:MAX_ALERTS]
 
     payload = {
         "terminal": "Macro Market Intelligence",
