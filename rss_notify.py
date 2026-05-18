@@ -652,6 +652,17 @@ def main():
 TOP_SIGNAL_LIMIT = 12
 
 
+all_alerts = sorted(
+    all_alerts,
+    key=lambda x: x.get("published", x.get("collected_at", "")),
+    reverse=True,
+)[:MAX_ALERTS]
+
+
+# Top signals = highest impact first
+TOP_SIGNAL_LIMIT = 12
+
+
 top_signals = sorted(
     all_alerts,
     key=lambda x: (
@@ -686,6 +697,5 @@ print(f"Collected {len(raw_items)} raw items")
 print(f"Clustered {len(clustered)} alerts")
 print(f"New alerts: {len(new_alerts)}")
 print(f"Saved {len(all_alerts)} total alerts")
-
 if __name__ == "__main__":
     main()
