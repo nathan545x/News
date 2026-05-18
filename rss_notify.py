@@ -647,24 +647,45 @@ def main():
     reverse=True,
 )[:MAX_ALERTS]
 
-    payload = {
-        "terminal": "Macro Market Intelligence",
-        "generated_at": now_iso(),
-        "market_regime": build_market_regime(all_alerts),
-        "alerts": all_alerts,
-    }
 
-    save_json(ALERTS_PATH, payload)
-    save_json(SEEN_PATH, seen)
+# Top signals = highest impact first
+TOP_SIGNAL_LIMIT = 12
 
-    for alert in new_alerts:
-        send_ntfy(alert)
 
-    print(f"Collected {len(raw_items)} raw items")
-    print(f"Clustered {len(clustered)} alerts")
-    print(f"New alerts: {len(new_alerts)}")
-    print(f"Saved {len(all_alerts)} total alerts")
+top_signals = sorted(
+    all_alerts,
+    key=lambda x: (
+        {"CRITICAL": 4, "HIGH": 3, "MEDIUM": 2, "LOW": 1}.get(
+            x.get("severity"), 0
+        ),
+        x.get("source_count", 1),
+        x.get("score", 0),
+    ),
+    reverse=True,
+)[:TOP_SIGNAL_LIMIT]
 
+
+payload = {
+    "terminal": "Macro Market Intelligence",
+    "generated_at": now_iso(),
+    "market_regime": build_market_regime(all_alerts),
+    "top_signals": top_signals,
+    "alerts": all_alerts,
+}
+
+
+save_json(ALERTS_PATH, payload)
+save_json(SEEN_PATH, seen)
+
+
+for alert in new_alerts:
+    send_ntfy(alert)
+
+
+print(f"Collected {len(raw_items)} raw items")
+print(f"Clustered {len(clustered)} alerts")
+print(f"New alerts: {len(new_alerts)}")
+print(f"Saved {len(all_alerts)} total alerts")
 
 if __name__ == "__main__":
     main()
