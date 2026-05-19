@@ -1,155 +1,97 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-05-19T19:23:11.167205Z",
+  "generated_at": "2026-05-19T19:25:05.403061Z",
   "market_regime": {
-    "regime": "AI",
-    "dominant_driver": "AI",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-05-19T19:23:11.167217Z"
+    "critical_alerts": 1,
+    "high_alerts": 0,
+    "last_updated": "2026-05-19T19:25:05.403073Z"
   },
   "top_signals": [
     {
-      "id": "aade7cebfda8b71e0838a71aed4dd2e3",
-      "title": "US Stocks Resume Decline as Semiconductor Shares Trim Rebound",
-      "summary": "US stocks resumed their decline in Tuesday afternoon trading, falling for a third day as semiconductor shares pared an earlier rebound, with major stocks Nvidia Corp. and Micronr Technology Inc. retreating from session highs.",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-19/us-stock-futures-drop-as-semiconductor-stocks-slip-yields-climb",
-      "source": "Bloomberg",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "AI",
+      "id": "c052f487287c2e2d6824865b235e0ecd",
+      "title": "Japan, China lead foreign government retreat from U.S. Treasurys as Iran war fallout stokes currency fears",
+      "summary": "The sell-off came as the outbreak of the U.S.-Iran conflict and resulting surge in crude oil prices sent the yen and other Asian currencies tumbling.",
+      "link": "https://www.cnbc.com/2026/05/19/central-banks-offload-us-treasuries-china-holdings-at-18-year-low.html",
+      "source": "CNBC",
+      "score": 56,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "NVDA"
+        "JPY",
+        "TLT",
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "CHINA",
+        "JAPAN",
+        "MIDDLE_EAST"
+      ],
       "assets": [
-        "AI",
-        "EQUITIES"
+        "COMMODITIES",
+        "FX",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-05-19T19:22:25.610997Z"
-    },
-    {
-      "id": "d0a1ca097bad6941c8fb6ce10be65842",
-      "title": "S&amp;P\u2019s Mobility Unit Sells $2 Billion of Notes Pre-Spinoff",
-      "summary": "S&amp;P Global Inc.\u2019s mobility unit sold $2 billion of high-grade bonds Tuesday, ahead of its planned spinoff from the credit-rating company.",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-18/s-p-s-mobility-unit-to-sell-2-billion-of-notes-ahead-of-spinoff",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-05-19T19:22:25.611053Z"
-    },
-    {
-      "id": "8e5f452f4496b9b853e4923cc0d381fe",
-      "title": "Huawei zero-day attack behind last year\u2019s crash of Luxembourg's entire telecoms network",
-      "summary": "There is no evidence that the incident has recurred, but the flaw remains unexplained and has not been publicly acknowledged by the company.",
-      "link": "https://therecord.media/huawei-zero-day-behind-last-year-luxembourg-telecom-outage",
-      "source": "The Record",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-05-19T19:23:07.542441Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-19T19:24:25.715896Z"
     }
   ],
   "alerts": [
     {
-      "id": "aade7cebfda8b71e0838a71aed4dd2e3",
-      "title": "US Stocks Resume Decline as Semiconductor Shares Trim Rebound",
-      "summary": "US stocks resumed their decline in Tuesday afternoon trading, falling for a third day as semiconductor shares pared an earlier rebound, with major stocks Nvidia Corp. and Micronr Technology Inc. retreating from session highs.",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-19/us-stock-futures-drop-as-semiconductor-stocks-slip-yields-climb",
-      "source": "Bloomberg",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "AI",
+      "id": "c052f487287c2e2d6824865b235e0ecd",
+      "title": "Japan, China lead foreign government retreat from U.S. Treasurys as Iran war fallout stokes currency fears",
+      "summary": "The sell-off came as the outbreak of the U.S.-Iran conflict and resulting surge in crude oil prices sent the yen and other Asian currencies tumbling.",
+      "link": "https://www.cnbc.com/2026/05/19/central-banks-offload-us-treasuries-china-holdings-at-18-year-low.html",
+      "source": "CNBC",
+      "score": 56,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "NVDA"
+        "JPY",
+        "TLT",
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "CHINA",
+        "JAPAN",
+        "MIDDLE_EAST"
+      ],
       "assets": [
-        "AI",
-        "EQUITIES"
+        "COMMODITIES",
+        "FX",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-05-19T19:22:25.610997Z"
-    },
-    {
-      "id": "d0a1ca097bad6941c8fb6ce10be65842",
-      "title": "S&amp;P\u2019s Mobility Unit Sells $2 Billion of Notes Pre-Spinoff",
-      "summary": "S&amp;P Global Inc.\u2019s mobility unit sold $2 billion of high-grade bonds Tuesday, ahead of its planned spinoff from the credit-rating company.",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-18/s-p-s-mobility-unit-to-sell-2-billion-of-notes-ahead-of-spinoff",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-05-19T19:22:25.611053Z"
-    },
-    {
-      "id": "8e5f452f4496b9b853e4923cc0d381fe",
-      "title": "Huawei zero-day attack behind last year\u2019s crash of Luxembourg's entire telecoms network",
-      "summary": "There is no evidence that the incident has recurred, but the flaw remains unexplained and has not been publicly acknowledged by the company.",
-      "link": "https://therecord.media/huawei-zero-day-behind-last-year-luxembourg-telecom-outage",
-      "source": "The Record",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-05-19T19:23:07.542441Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-19T19:24:25.715896Z"
     }
   ]
 }
