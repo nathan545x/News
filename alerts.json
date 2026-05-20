@@ -1,73 +1,349 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-05-20T03:04:50.904333Z",
+  "generated_at": "2026-05-20T03:07:09.555035Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 1,
-    "last_updated": "2026-05-20T03:04:50.904346Z"
+    "last_updated": "2026-05-20T03:07:09.555049Z"
   },
   "top_signals": [
     {
-      "id": "30ba786900b89d0b0b4caa66e5c59965",
-      "title": "Japan\u2019s Super-Long Bonds See First Foreign Outflow Since 2024",
-      "summary": "Overseas investors sold more Japan\u2019s super-long government bonds than they bought for the first time in well over a year as the market grappled with concerns about inflation and increased fiscal spending.",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-20/japan-s-super-long-bonds-see-first-foreign-outflow-since-2024-mpdgo8go",
+      "id": "00290e4becba2cb9e233df66fd7ecfe5",
+      "title": "Katayama\u2019s Warnings, Bessent\u2019s BOJ Backing Still Leave Yen Weak",
+      "summary": "Japan\u2019s Finance Minister Satsuki Katayama\u2019s warnings and Treasury Secretary Scott Bessent\u2019s backing of the Bank of Japan to run policy \u201csuccessfully\u201d only briefly helped the yen as it continued to hover close to its weakest levels since last month\u2019s intervention.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-19/japan-s-finance-chief-pledges-bold-action-for-weak-yen-as-needed",
       "source": "Bloomberg",
-      "score": 16,
+      "score": 48,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "JPY",
+        "TLT"
+      ],
+      "regions": [
+        "JAPAN",
+        "UK"
+      ],
+      "assets": [
+        "FX",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-05-20T03:06:22.564688Z"
+    },
+    {
+      "id": "85a7eee56a8a93d3481843ba725d751e",
+      "title": "Morgan Stanley Japan head says BOJ hike key to strengthening yen",
+      "summary": "If the central bank fails to raise interest rates in June, that would have an impact on the bond and currency markets, Alberto Tamura said in an interview.",
+      "link": "https://www.japantimes.co.jp/business/2026/05/20/companies/morgan-stanley-boj-hike-key/",
+      "source": "Japan Times",
+      "score": 21,
       "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
+      "regime": "RATES",
+      "tickers": [
+        "JPY"
+      ],
       "regions": [
         "JAPAN"
       ],
-      "assets": [],
+      "assets": [
+        "AI",
+        "FX"
+      ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-05-20T03:04:19.698144Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-05-20T03:06:55.389347Z"
+    },
+    {
+      "id": "10c4dbc6ab66e5df817757f426a962f6",
+      "title": "EU lawmakers strike deal on US trade pact",
+      "summary": "Member states hope provisional agreement will help avert threat of higher tariffs",
+      "link": "https://www.ft.com/content/a08e5619-6bd2-4e2c-9393-c6dd7e8f2a17",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-20T03:06:25.995956Z"
+    },
+    {
+      "id": "3c38d8e3632866f12bfad9dd624a4dd0",
+      "title": "Magnitude 5.9 quake strikes Kagoshima",
+      "summary": "The quake's epicenter was off Okinawa's main island, striking at a depth of 50 kilometers at 11:46 a.m. There was no threat of a tsunami.",
+      "link": "https://www.japantimes.co.jp/news/2026/05/20/japan/kagoshima-earthquake/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-20T03:06:55.389173Z"
+    },
+    {
+      "id": "856b734c4e3a5f3fcaa9a7350468ee54",
+      "title": "Sherritt drops plan to dissolve Cuban assets",
+      "summary": "The announcement comes just days after Sherritt said it would be dissolving the 50/50 Moa joint venture.",
+      "link": "https://www.mining.com/sherritt-drops-plan-to-dissolve-cuban-assets/",
+      "source": "Mining.com",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-20T03:07:02.071681Z"
+    },
+    {
+      "id": "eae5381e96cef468526bd24de27d6da8",
+      "title": "DBJ to strengthen its investment operations",
+      "summary": "The state-backed lender announced a five-year medium-term management plan that includes supplying \u00a53 trillion in risk capital, including through investments.",
+      "link": "https://www.japantimes.co.jp/business/2026/05/20/companies/dbj-investment-operations/",
+      "source": "Japan Times",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-20T03:06:55.389229Z"
+    },
+    {
+      "id": "1e867a6b9809f3699d533915900a9387",
+      "title": "Spying scandal rocks soccer as Southampton expelled from world\u2019s richest match",
+      "summary": "Middlesbrough has now been reinstated \u200cand will \u200cface Hull City at Wembley on Saturday for the chance to win promotion to the Premier League.",
+      "link": "https://www.japantimes.co.jp/sports/2026/05/20/soccer/southampton-spying-playoff-final/",
+      "source": "Japan Times",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-20T03:06:55.389295Z"
     }
   ],
   "alerts": [
     {
-      "id": "30ba786900b89d0b0b4caa66e5c59965",
-      "title": "Japan\u2019s Super-Long Bonds See First Foreign Outflow Since 2024",
-      "summary": "Overseas investors sold more Japan\u2019s super-long government bonds than they bought for the first time in well over a year as the market grappled with concerns about inflation and increased fiscal spending.",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-20/japan-s-super-long-bonds-see-first-foreign-outflow-since-2024-mpdgo8go",
+      "id": "00290e4becba2cb9e233df66fd7ecfe5",
+      "title": "Katayama\u2019s Warnings, Bessent\u2019s BOJ Backing Still Leave Yen Weak",
+      "summary": "Japan\u2019s Finance Minister Satsuki Katayama\u2019s warnings and Treasury Secretary Scott Bessent\u2019s backing of the Bank of Japan to run policy \u201csuccessfully\u201d only briefly helped the yen as it continued to hover close to its weakest levels since last month\u2019s intervention.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-19/japan-s-finance-chief-pledges-bold-action-for-weak-yen-as-needed",
       "source": "Bloomberg",
-      "score": 16,
+      "score": 48,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "JPY",
+        "TLT"
+      ],
+      "regions": [
+        "JAPAN",
+        "UK"
+      ],
+      "assets": [
+        "FX",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-05-20T03:06:22.564688Z"
+    },
+    {
+      "id": "85a7eee56a8a93d3481843ba725d751e",
+      "title": "Morgan Stanley Japan head says BOJ hike key to strengthening yen",
+      "summary": "If the central bank fails to raise interest rates in June, that would have an impact on the bond and currency markets, Alberto Tamura said in an interview.",
+      "link": "https://www.japantimes.co.jp/business/2026/05/20/companies/morgan-stanley-boj-hike-key/",
+      "source": "Japan Times",
+      "score": 21,
       "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
+      "regime": "RATES",
+      "tickers": [
+        "JPY"
+      ],
       "regions": [
         "JAPAN"
       ],
-      "assets": [],
+      "assets": [
+        "AI",
+        "FX"
+      ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-05-20T03:04:19.698144Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-05-20T03:06:55.389347Z"
+    },
+    {
+      "id": "10c4dbc6ab66e5df817757f426a962f6",
+      "title": "EU lawmakers strike deal on US trade pact",
+      "summary": "Member states hope provisional agreement will help avert threat of higher tariffs",
+      "link": "https://www.ft.com/content/a08e5619-6bd2-4e2c-9393-c6dd7e8f2a17",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-20T03:06:25.995956Z"
+    },
+    {
+      "id": "3c38d8e3632866f12bfad9dd624a4dd0",
+      "title": "Magnitude 5.9 quake strikes Kagoshima",
+      "summary": "The quake's epicenter was off Okinawa's main island, striking at a depth of 50 kilometers at 11:46 a.m. There was no threat of a tsunami.",
+      "link": "https://www.japantimes.co.jp/news/2026/05/20/japan/kagoshima-earthquake/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-20T03:06:55.389173Z"
+    },
+    {
+      "id": "856b734c4e3a5f3fcaa9a7350468ee54",
+      "title": "Sherritt drops plan to dissolve Cuban assets",
+      "summary": "The announcement comes just days after Sherritt said it would be dissolving the 50/50 Moa joint venture.",
+      "link": "https://www.mining.com/sherritt-drops-plan-to-dissolve-cuban-assets/",
+      "source": "Mining.com",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-20T03:07:02.071681Z"
+    },
+    {
+      "id": "eae5381e96cef468526bd24de27d6da8",
+      "title": "DBJ to strengthen its investment operations",
+      "summary": "The state-backed lender announced a five-year medium-term management plan that includes supplying \u00a53 trillion in risk capital, including through investments.",
+      "link": "https://www.japantimes.co.jp/business/2026/05/20/companies/dbj-investment-operations/",
+      "source": "Japan Times",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-20T03:06:55.389229Z"
+    },
+    {
+      "id": "1e867a6b9809f3699d533915900a9387",
+      "title": "Spying scandal rocks soccer as Southampton expelled from world\u2019s richest match",
+      "summary": "Middlesbrough has now been reinstated \u200cand will \u200cface Hull City at Wembley on Saturday for the chance to win promotion to the Premier League.",
+      "link": "https://www.japantimes.co.jp/sports/2026/05/20/soccer/southampton-spying-playoff-final/",
+      "source": "Japan Times",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-20T03:06:55.389295Z"
     }
   ]
 }
