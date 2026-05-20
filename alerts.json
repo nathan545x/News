@@ -1,28 +1,62 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-05-20T15:45:02.279810Z",
+  "generated_at": "2026-05-20T15:47:00.727722Z",
   "market_regime": {
     "regime": "GEO-SHOCK",
     "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 1,
-    "last_updated": "2026-05-20T15:45:02.279824Z"
+    "last_updated": "2026-05-20T15:47:00.727733Z"
   },
   "top_signals": [
     {
-      "id": "19cfcf16c9203493b98396d218f425e5",
-      "title": "Treasuries Rally as Trump Cites \u2018Final Stages\u2019\u00a0of US-Iran Talks",
-      "summary": "Treasuries surged on investor optimism that the US and Iran were nearing a deal that could ease a rise in global energy prices.",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-20/treasuries-rally-as-trump-cites-final-stages-of-us-iran-talks",
+      "id": "ec8684946a56715f3190cd5c208ab115",
+      "title": "Gold Advances as Trump Says US in Final Stage of Talks with Iran",
+      "summary": "Gold advanced as optimism surrounding the US-Iran talks to end the Middle East conflict eased bets on higher interest rates for longer.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-19/gold-holds-losses-as-iran-impasse-keeps-rate-hike-bets-high",
       "source": "Bloomberg",
-      "score": 17,
+      "score": 39,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-20T15:46:24.449669Z"
+    },
+    {
+      "id": "dc527b4e8ec3c76d602a8e49094452bb",
+      "title": "Putin Leaves Beijing With Little Progress on Key Gas Pipeline",
+      "summary": "Russian President Vladimir Putin left Beijing with no sign of a breakthrough on a natural gas pipeline project with the potential to reshape global energy flows and geopolitics.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-20/putin-leaves-beijing-with-little-progress-on-key-gas-pipeline",
+      "source": "Bloomberg",
+      "score": 16,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "MIDDLE_EAST"
+        "RUSSIA"
       ],
       "assets": [],
       "market_impact": {
@@ -39,22 +73,99 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-05-20T15:44:25.386059Z"
+      "published": "2026-05-20T15:46:24.449744Z"
+    },
+    {
+      "id": "5627ba77db7e4756a5c6c2de639c30ff",
+      "title": "Grafana breach caused by missed token rotation after TanStack attack",
+      "summary": "The Grafana data breach was caused by a single GitHub workflow token that slipped through the rotation process following the TanStack npm supply-chain attack last week. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/grafana-breach-caused-by-missed-token-rotation-after-tanstack-attack/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-20T15:46:57.184160Z"
+    },
+    {
+      "id": "34093facd76c94bf83af0e3dd810c6d3",
+      "title": "U.S. Stocks Fall as Bond Selloff Deepens - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNSzNmYy1uUXgtZ1pQTktZWnR5ZmxpT2ZpTWxfV0FBbFBEMHR0LW85c2o4YkE5eDNVcWFINnFmdDk5MzlabUhzdFRhdk5rcENpTEZPVWhNNkpYWTZBWktNZlU1U3hsU003cVhvZ3ZRZVY2RDAyc1NwUGhlcDRJcm9GMXMxNnotenQwYmtuejRJV3QxWWpTRHVLYjEwcl8?oc=5\" target=\"_blank\">U.S. Stocks Fall as Bond Selloff Deepens</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSzNmYy1uUXgtZ1pQTktZWnR5ZmxpT2ZpTWxfV0FBbFBEMHR0LW85c2o4YkE5eDNVcWFINnFmdDk5MzlabUhzdFRhdk5rcENpTEZPVWhNNkpYWTZBWktNZlU1U3hsU003cVhvZ3ZRZVY2RDAyc1NwUGhlcDRJcm9GMXMxNnotenQwYmtuejRJV3QxWWpTRHVLYjEwcl8?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-20T15:47:00.052878Z"
     }
   ],
   "alerts": [
     {
-      "id": "19cfcf16c9203493b98396d218f425e5",
-      "title": "Treasuries Rally as Trump Cites \u2018Final Stages\u2019\u00a0of US-Iran Talks",
-      "summary": "Treasuries surged on investor optimism that the US and Iran were nearing a deal that could ease a rise in global energy prices.",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-20/treasuries-rally-as-trump-cites-final-stages-of-us-iran-talks",
+      "id": "ec8684946a56715f3190cd5c208ab115",
+      "title": "Gold Advances as Trump Says US in Final Stage of Talks with Iran",
+      "summary": "Gold advanced as optimism surrounding the US-Iran talks to end the Middle East conflict eased bets on higher interest rates for longer.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-19/gold-holds-losses-as-iran-impasse-keeps-rate-hike-bets-high",
       "source": "Bloomberg",
-      "score": 17,
+      "score": 39,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-20T15:46:24.449669Z"
+    },
+    {
+      "id": "dc527b4e8ec3c76d602a8e49094452bb",
+      "title": "Putin Leaves Beijing With Little Progress on Key Gas Pipeline",
+      "summary": "Russian President Vladimir Putin left Beijing with no sign of a breakthrough on a natural gas pipeline project with the potential to reshape global energy flows and geopolitics.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-20/putin-leaves-beijing-with-little-progress-on-key-gas-pipeline",
+      "source": "Bloomberg",
+      "score": 16,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "MIDDLE_EAST"
+        "RUSSIA"
       ],
       "assets": [],
       "market_impact": {
@@ -71,7 +182,50 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-05-20T15:44:25.386059Z"
+      "published": "2026-05-20T15:46:24.449744Z"
+    },
+    {
+      "id": "5627ba77db7e4756a5c6c2de639c30ff",
+      "title": "Grafana breach caused by missed token rotation after TanStack attack",
+      "summary": "The Grafana data breach was caused by a single GitHub workflow token that slipped through the rotation process following the TanStack npm supply-chain attack last week. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/grafana-breach-caused-by-missed-token-rotation-after-tanstack-attack/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-20T15:46:57.184160Z"
+    },
+    {
+      "id": "34093facd76c94bf83af0e3dd810c6d3",
+      "title": "U.S. Stocks Fall as Bond Selloff Deepens - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNSzNmYy1uUXgtZ1pQTktZWnR5ZmxpT2ZpTWxfV0FBbFBEMHR0LW85c2o4YkE5eDNVcWFINnFmdDk5MzlabUhzdFRhdk5rcENpTEZPVWhNNkpYWTZBWktNZlU1U3hsU003cVhvZ3ZRZVY2RDAyc1NwUGhlcDRJcm9GMXMxNnotenQwYmtuejRJV3QxWWpTRHVLYjEwcl8?oc=5\" target=\"_blank\">U.S. Stocks Fall as Bond Selloff Deepens</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSzNmYy1uUXgtZ1pQTktZWnR5ZmxpT2ZpTWxfV0FBbFBEMHR0LW85c2o4YkE5eDNVcWFINnFmdDk5MzlabUhzdFRhdk5rcENpTEZPVWhNNkpYWTZBWktNZlU1U3hsU003cVhvZ3ZRZVY2RDAyc1NwUGhlcDRJcm9GMXMxNnotenQwYmtuejRJV3QxWWpTRHVLYjEwcl8?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-20T15:47:00.052878Z"
     }
   ]
 }
