@@ -1,101 +1,189 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-05-21T03:14:51.126114Z",
+  "generated_at": "2026-05-21T03:17:11.552265Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 0,
-    "last_updated": "2026-05-21T03:14:51.126129Z"
+    "last_updated": "2026-05-21T03:17:11.552277Z"
   },
   "top_signals": [
     {
-      "id": "e287f11b8672a666f88f6876ea573eb0",
-      "title": "Koeda says BOJ should keep hiking rate at appropriate pace",
-      "summary": "Koeda was among those who voted with the majority in favor of holding settings steady at the last policy meeting on April 28.",
-      "link": "https://www.japantimes.co.jp/business/2026/05/21/economy/boj-member-rate-hike/",
-      "source": "Japan Times",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "RATES",
+      "id": "543ce81f8c315e919773cd4f496f5b57",
+      "title": "Goldman Says Global Oil Stockpiles Falling at Record Pace on War",
+      "summary": "Global stockpiles of crude oil and products are being drawn down at a record pace this month as the war in the Middle East drags on, curtailing supplies, according to Goldman Sachs Group Inc.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-21/goldman-says-global-oil-stockpiles-falling-at-record-pace-on-war",
+      "source": "Bloomberg",
+      "score": 46,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI",
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-21T03:16:23.175587Z"
+    },
+    {
+      "id": "a8913cac55e2ec9abca12c8c5dea49cd",
+      "title": "SEC\u2019s \u2018Crypto Mom\u2019 to join law school, signaling end of time at regulator",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"SEC\u2019s \u2018Crypto Mom\u2019 to join law school, signaling end of time at regulator\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9oaS1uZXctc2VjLWNyeXB0by10YXNrLWZvcmNlLWtleS1jaGFuZ2VzLXRvLXdhdGNoLWhlc3Rlci1wZWlyY2UuanBn.jpg\" /></p><p>Hester Peirce will become an associate professor at a Virginia law school some 18 months after her term at the SEC expired, leaving another empty seat in the agency\u2019s leadership.</p>",
+      "link": "https://cointelegraph.com/news/secs-hester-peirce-regent-law-faculty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "CRYPTO",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "BTC",
+          "ETH"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "USD"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-05-21T03:14:39.977406Z"
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-05-21T03:17:07.481212Z"
     },
     {
-      "id": "7e35309016dd6f316bff79573c852431",
-      "title": "Australia Jobless Rate Jumps to 4-1/2 Year High as RBA Bets Fade",
-      "summary": "Australia\u2019s unemployment rate climbed to the highest level since November 2021, suggesting the labor market is cooling faster than anticipated and prompting traders to dial back expectations for further interest-rate increases.",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-21/australian-unemployment-rate-surprisingly-jumps-to-4-5-in-april",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "id": "ff5306cae22ae14201815cb46d5107fb",
+      "title": "Ex-Japan Post worker arrested over alleged bribery case",
+      "summary": "Nobuyuki Yoneda allegedly received cash and other benefits from a contractor in exchange for facilitating a consignment contract to collect letters and other items from mailboxes.",
+      "link": "https://www.japantimes.co.jp/news/2026/05/21/japan/crime-legal/former-japan-post-staff-arrest/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
       "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-05-21T03:14:18.489685Z"
+      "regions": [
+        "JAPAN",
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-21T03:16:53.651592Z"
     }
   ],
   "alerts": [
     {
-      "id": "e287f11b8672a666f88f6876ea573eb0",
-      "title": "Koeda says BOJ should keep hiking rate at appropriate pace",
-      "summary": "Koeda was among those who voted with the majority in favor of holding settings steady at the last policy meeting on April 28.",
-      "link": "https://www.japantimes.co.jp/business/2026/05/21/economy/boj-member-rate-hike/",
-      "source": "Japan Times",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "RATES",
+      "id": "543ce81f8c315e919773cd4f496f5b57",
+      "title": "Goldman Says Global Oil Stockpiles Falling at Record Pace on War",
+      "summary": "Global stockpiles of crude oil and products are being drawn down at a record pace this month as the war in the Middle East drags on, curtailing supplies, according to Goldman Sachs Group Inc.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-21/goldman-says-global-oil-stockpiles-falling-at-record-pace-on-war",
+      "source": "Bloomberg",
+      "score": 46,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI",
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-21T03:16:23.175587Z"
+    },
+    {
+      "id": "a8913cac55e2ec9abca12c8c5dea49cd",
+      "title": "SEC\u2019s \u2018Crypto Mom\u2019 to join law school, signaling end of time at regulator",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"SEC\u2019s \u2018Crypto Mom\u2019 to join law school, signaling end of time at regulator\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9oaS1uZXctc2VjLWNyeXB0by10YXNrLWZvcmNlLWtleS1jaGFuZ2VzLXRvLXdhdGNoLWhlc3Rlci1wZWlyY2UuanBn.jpg\" /></p><p>Hester Peirce will become an associate professor at a Virginia law school some 18 months after her term at the SEC expired, leaving another empty seat in the agency\u2019s leadership.</p>",
+      "link": "https://cointelegraph.com/news/secs-hester-peirce-regent-law-faculty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "CRYPTO",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "BTC",
+          "ETH"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "USD"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-05-21T03:14:39.977406Z"
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-05-21T03:17:07.481212Z"
     },
     {
-      "id": "7e35309016dd6f316bff79573c852431",
-      "title": "Australia Jobless Rate Jumps to 4-1/2 Year High as RBA Bets Fade",
-      "summary": "Australia\u2019s unemployment rate climbed to the highest level since November 2021, suggesting the labor market is cooling faster than anticipated and prompting traders to dial back expectations for further interest-rate increases.",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-21/australian-unemployment-rate-surprisingly-jumps-to-4-5-in-april",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "id": "ff5306cae22ae14201815cb46d5107fb",
+      "title": "Ex-Japan Post worker arrested over alleged bribery case",
+      "summary": "Nobuyuki Yoneda allegedly received cash and other benefits from a contractor in exchange for facilitating a consignment contract to collect letters and other items from mailboxes.",
+      "link": "https://www.japantimes.co.jp/news/2026/05/21/japan/crime-legal/former-japan-post-staff-arrest/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
       "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-05-21T03:14:18.489685Z"
+      "regions": [
+        "JAPAN",
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-21T03:16:53.651592Z"
     }
   ]
 }
