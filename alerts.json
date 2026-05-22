@@ -1,69 +1,175 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-05-22T14:11:14.136060Z",
+  "generated_at": "2026-05-22T14:13:38.166022Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 1,
-    "last_updated": "2026-05-22T14:11:14.136072Z"
+    "last_updated": "2026-05-22T14:13:38.166042Z"
   },
   "top_signals": [
     {
-      "id": "5df04713cec99b6eef6888de825cd469",
-      "title": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
-      "summary": "Federal Reserve Board requests public comment on a proposal to establish a &quot;payment account,&quot; which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20260520a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
+      "id": "56d1f2ae640ec334019082ef6f537d76",
+      "title": "Consumer sentiment hits fresh record low in May as Iran war fuels inflation worries",
+      "summary": "Consumer sentiment has tumbled to a fresh record low in May as fears of higher prices grow due to the U.S.-Iran war and elevated oil prices.",
+      "link": "https://www.cnbc.com/2026/05/22/consumer-sentiment-hits-fresh-record-low-in-may-as-iran-war-fuels-inflation-worries.html",
+      "source": "CNBC",
+      "score": 39,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-22T14:12:27.744414Z"
+    },
+    {
+      "id": "2057a53dcb89ccc757e03a7b966412ee",
+      "title": "Editor's Choice: Nvidia and Asia's three chip giants cash in on AI gold rush",
+      "summary": "",
+      "link": "https://asia.nikkei.com/editor-s-picks/editor-in-chief-s-picks/editor-s-choice-nvidia-and-asia-s-three-chip-giants-cash-in-on-ai-gold-rush",
+      "source": "Nikkei Asia",
+      "score": 24,
       "severity": "HIGH",
-      "regime": "RATES",
+      "regime": "AI",
+      "tickers": [
+        "NVDA",
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-22T14:12:50.406077Z"
+    },
+    {
+      "id": "5a1b9bf43a09477f9d83172308824439",
+      "title": "Flight Firm CAE Says Defense Deals, Cost Cutting to Drive Profit Surge",
+      "summary": "Shares of CAE Inc. slipped the most since August after the flight simulator firm unveiled a plan to increase operating income by 30% or more by 2030 under a strategy that includes a greater focus on defense clients.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-21/flight-firm-cae-says-defense-deals-cost-cutting-to-drive-profit-surge",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-05-22T14:10:36.751290Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-22T14:12:24.359076Z"
     }
   ],
   "alerts": [
     {
-      "id": "5df04713cec99b6eef6888de825cd469",
-      "title": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
-      "summary": "Federal Reserve Board requests public comment on a proposal to establish a &quot;payment account,&quot; which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20260520a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
+      "id": "56d1f2ae640ec334019082ef6f537d76",
+      "title": "Consumer sentiment hits fresh record low in May as Iran war fuels inflation worries",
+      "summary": "Consumer sentiment has tumbled to a fresh record low in May as fears of higher prices grow due to the U.S.-Iran war and elevated oil prices.",
+      "link": "https://www.cnbc.com/2026/05/22/consumer-sentiment-hits-fresh-record-low-in-may-as-iran-war-fuels-inflation-worries.html",
+      "source": "CNBC",
+      "score": 39,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-22T14:12:27.744414Z"
+    },
+    {
+      "id": "2057a53dcb89ccc757e03a7b966412ee",
+      "title": "Editor's Choice: Nvidia and Asia's three chip giants cash in on AI gold rush",
+      "summary": "",
+      "link": "https://asia.nikkei.com/editor-s-picks/editor-in-chief-s-picks/editor-s-choice-nvidia-and-asia-s-three-chip-giants-cash-in-on-ai-gold-rush",
+      "source": "Nikkei Asia",
+      "score": 24,
       "severity": "HIGH",
-      "regime": "RATES",
+      "regime": "AI",
+      "tickers": [
+        "NVDA",
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-22T14:12:50.406077Z"
+    },
+    {
+      "id": "5a1b9bf43a09477f9d83172308824439",
+      "title": "Flight Firm CAE Says Defense Deals, Cost Cutting to Drive Profit Surge",
+      "summary": "Shares of CAE Inc. slipped the most since August after the flight simulator firm unveiled a plan to increase operating income by 30% or more by 2030 under a strategy that includes a greater focus on defense clients.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-21/flight-firm-cae-says-defense-deals-cost-cutting-to-drive-profit-surge",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-05-22T14:10:36.751290Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-22T14:12:24.359076Z"
     }
   ]
 }
