@@ -1,79 +1,285 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-05-23T06:32:59.938366Z",
+  "generated_at": "2026-05-23T06:35:03.623175Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "COMMODITIES",
+    "dominant_driver": "COMMODITIES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 1,
-    "last_updated": "2026-05-23T06:32:59.938377Z"
+    "last_updated": "2026-05-23T06:35:03.623189Z"
   },
   "top_signals": [
     {
-      "id": "734794eed487ff72b6e990d73a837a15",
-      "title": "Three months in, is Trump losing the Iran war? - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOb0xrTW5YOXpZTlM3YmFKQzVXNlN2UUtDOEc0dldIUkh3dExmSVU0NmtvbThyTGs4ZTJVeFl1VkFQekZqS0ItTFhDYVQ3X09hRzN2S2taT1FYNjhPakE4OWJxM3p1V1BHcUxBQ0FRanpsZU16anhHRGVlQmwyRGdVeXVlM3QxczNNUWZNVldZM1l2QVNfc0dJ?oc=5\" target=\"_blank\">Three months in, is Trump losing the Iran war?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb0xrTW5YOXpZTlM3YmFKQzVXNlN2UUtDOEc0dldIUkh3dExmSVU0NmtvbThyTGs4ZTJVeFl1VkFQekZqS0ItTFhDYVQ3X09hRzN2S2taT1FYNjhPakE4OWJxM3p1V1BHcUxBQ0FRanpsZU16anhHRGVlQmwyRGdVeXVlM3QxczNNUWZNVldZM1l2QVNfc0dJ?oc=5",
-      "source": "Google Macro",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST",
-        "UK"
+      "id": "7ff594481d60293752920e87a82220a3",
+      "title": "Pakistan to deploy paramilitary force to guard copper-gold belt",
+      "summary": "",
+      "link": "https://asia.nikkei.com/politics/defense/pakistan-to-deploy-paramilitary-force-to-guard-copper-gold-belt",
+      "source": "Nikkei Asia",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "COPPER",
+        "XAU"
       ],
-      "assets": [],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-05-23T06:34:46.970041Z"
+    },
+    {
+      "id": "6b0ca4ac375e3ca35f24037ee906ee0f",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" title=\"Known Exploited Vulnerabilities Catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-9082\" target=\"_blank\">CVE-2026-9082</a> Drupal Core SQL Injection Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/binding-operational-directive-22-01\">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a> established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the <a href=\"https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf\">BOD 22-01 Fact Sheet</a> for more information.</p>\n<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" title=\"Known Exploited Vulnerabilities Catalog\">KEV Catalog vulnerabilities</a> as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "SYSTEMIC",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
+          "JPY"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "BANKS",
+          "SPY"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-05-23T06:32:58.255270Z"
+      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
+      "published": "2026-05-23T06:35:00.866657Z"
+    },
+    {
+      "id": "87945f3a2fb204104cb812ff4120aae5",
+      "title": "NYSE Owner and OKX Seek to Launch Perpetual Futures Tied to Oil - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOS2N3U0lQRnhUOFZJeXZwOEhUTW0ydlFTbEViQ2NpVTBfZlNOT0JiMjM0dzJiY08wc2Ztd3lUaU9PZnFIcTNOOEotRF93aWlCYndjckVxb0ZCV196OG56a2dZLXdqajNOM05yNkduYXluNDdGQkhaVENJS1FvVWdBVkZZS1hJNWozUjR0OWxxZEpBN2dBcHNkcUtGYlNrS21qZ0ZnRHFMUVIyZjdBWWJ2aFhsN0s?oc=5\" target=\"_blank\">NYSE Owner and OKX Seek to Launch Perpetual Futures Tied to Oil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOS2N3U0lQRnhUOFZJeXZwOEhUTW0ydlFTbEViQ2NpVTBfZlNOT0JiMjM0dzJiY08wc2Ztd3lUaU9PZnFIcTNOOEotRF93aWlCYndjckVxb0ZCV196OG56a2dZLXdqajNOM05yNkduYXluNDdGQkhaVENJS1FvVWdBVkZZS1hJNWozUjR0OWxxZEpBN2dBcHNkcUtGYlNrS21qZ0ZnRHFMUVIyZjdBWWJ2aFhsN0s?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-05-23T06:35:01.437797Z"
+    },
+    {
+      "id": "862a2dcdd1e24240fe3bdccd92c5d820",
+      "title": "BrewDog co-founder to attempt comeback with \u2018Second Best\u2019 beer brand",
+      "summary": "James Watt to give shares to \u2018equity punks\u2019 who lost out in controversial entrepreneur\u2019s previous venture",
+      "link": "https://www.ft.com/content/cc479c63-1734-4411-b68f-680b6f3c31ab",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-23T06:34:23.028287Z"
+    },
+    {
+      "id": "b5db07a4cae191ed3696deed56f55a51",
+      "title": "Perpetua Resources gets\u00a0$2.9B EXIM\u00a0loan for Stibnite gold-antimony project in Idaho",
+      "summary": "Last year, the company began early works construction at the project, which was fast-tracked by the Trump administration.",
+      "link": "https://www.mining.com/perpetua-resources-gets-2-9b-exim-loan-for-stibnite-gold-antimony-project-in-idaho/",
+      "source": "Mining.com",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-05-23T06:34:56.876962Z"
     }
   ],
   "alerts": [
     {
-      "id": "734794eed487ff72b6e990d73a837a15",
-      "title": "Three months in, is Trump losing the Iran war? - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOb0xrTW5YOXpZTlM3YmFKQzVXNlN2UUtDOEc0dldIUkh3dExmSVU0NmtvbThyTGs4ZTJVeFl1VkFQekZqS0ItTFhDYVQ3X09hRzN2S2taT1FYNjhPakE4OWJxM3p1V1BHcUxBQ0FRanpsZU16anhHRGVlQmwyRGdVeXVlM3QxczNNUWZNVldZM1l2QVNfc0dJ?oc=5\" target=\"_blank\">Three months in, is Trump losing the Iran war?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb0xrTW5YOXpZTlM3YmFKQzVXNlN2UUtDOEc0dldIUkh3dExmSVU0NmtvbThyTGs4ZTJVeFl1VkFQekZqS0ItTFhDYVQ3X09hRzN2S2taT1FYNjhPakE4OWJxM3p1V1BHcUxBQ0FRanpsZU16anhHRGVlQmwyRGdVeXVlM3QxczNNUWZNVldZM1l2QVNfc0dJ?oc=5",
-      "source": "Google Macro",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST",
-        "UK"
+      "id": "7ff594481d60293752920e87a82220a3",
+      "title": "Pakistan to deploy paramilitary force to guard copper-gold belt",
+      "summary": "",
+      "link": "https://asia.nikkei.com/politics/defense/pakistan-to-deploy-paramilitary-force-to-guard-copper-gold-belt",
+      "source": "Nikkei Asia",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "COPPER",
+        "XAU"
       ],
-      "assets": [],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-05-23T06:34:46.970041Z"
+    },
+    {
+      "id": "6b0ca4ac375e3ca35f24037ee906ee0f",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" title=\"Known Exploited Vulnerabilities Catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-9082\" target=\"_blank\">CVE-2026-9082</a> Drupal Core SQL Injection Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/binding-operational-directive-22-01\">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a> established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the <a href=\"https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf\">BOD 22-01 Fact Sheet</a> for more information.</p>\n<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" title=\"Known Exploited Vulnerabilities Catalog\">KEV Catalog vulnerabilities</a> as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "SYSTEMIC",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
+          "JPY"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "BANKS",
+          "SPY"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-05-23T06:32:58.255270Z"
+      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
+      "published": "2026-05-23T06:35:00.866657Z"
+    },
+    {
+      "id": "87945f3a2fb204104cb812ff4120aae5",
+      "title": "NYSE Owner and OKX Seek to Launch Perpetual Futures Tied to Oil - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOS2N3U0lQRnhUOFZJeXZwOEhUTW0ydlFTbEViQ2NpVTBfZlNOT0JiMjM0dzJiY08wc2Ztd3lUaU9PZnFIcTNOOEotRF93aWlCYndjckVxb0ZCV196OG56a2dZLXdqajNOM05yNkduYXluNDdGQkhaVENJS1FvVWdBVkZZS1hJNWozUjR0OWxxZEpBN2dBcHNkcUtGYlNrS21qZ0ZnRHFMUVIyZjdBWWJ2aFhsN0s?oc=5\" target=\"_blank\">NYSE Owner and OKX Seek to Launch Perpetual Futures Tied to Oil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOS2N3U0lQRnhUOFZJeXZwOEhUTW0ydlFTbEViQ2NpVTBfZlNOT0JiMjM0dzJiY08wc2Ztd3lUaU9PZnFIcTNOOEotRF93aWlCYndjckVxb0ZCV196OG56a2dZLXdqajNOM05yNkduYXluNDdGQkhaVENJS1FvVWdBVkZZS1hJNWozUjR0OWxxZEpBN2dBcHNkcUtGYlNrS21qZ0ZnRHFMUVIyZjdBWWJ2aFhsN0s?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-05-23T06:35:01.437797Z"
+    },
+    {
+      "id": "862a2dcdd1e24240fe3bdccd92c5d820",
+      "title": "BrewDog co-founder to attempt comeback with \u2018Second Best\u2019 beer brand",
+      "summary": "James Watt to give shares to \u2018equity punks\u2019 who lost out in controversial entrepreneur\u2019s previous venture",
+      "link": "https://www.ft.com/content/cc479c63-1734-4411-b68f-680b6f3c31ab",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-23T06:34:23.028287Z"
+    },
+    {
+      "id": "b5db07a4cae191ed3696deed56f55a51",
+      "title": "Perpetua Resources gets\u00a0$2.9B EXIM\u00a0loan for Stibnite gold-antimony project in Idaho",
+      "summary": "Last year, the company began early works construction at the project, which was fast-tracked by the Trump administration.",
+      "link": "https://www.mining.com/perpetua-resources-gets-2-9b-exim-loan-for-stibnite-gold-antimony-project-in-idaho/",
+      "source": "Mining.com",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-05-23T06:34:56.876962Z"
     }
   ]
 }
