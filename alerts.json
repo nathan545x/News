@@ -1,15 +1,171 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-05-25T14:26:54.506437Z",
+  "generated_at": "2026-05-25T14:28:52.163911Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 0,
-    "last_updated": "2026-05-25T14:26:54.506465Z"
+    "last_updated": "2026-05-25T14:28:52.163927Z"
   },
-  "top_signals": [],
-  "alerts": []
+  "top_signals": [
+    {
+      "id": "27237e7cca7f087254f63ccdaf65e37a",
+      "title": "Japanese tanker Idemitsu Maru arrives in Aichi after exiting Strait of Hormuz",
+      "summary": "The oil tanker is the first to return to Japan through the strait since war broke out in Iran.",
+      "link": "https://www.japantimes.co.jp/news/2026/05/25/japan/society/idemitsu-oil-tanker/",
+      "source": "Japan Times",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "JAPAN",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-25T14:28:40.631258Z"
+    },
+    {
+      "id": "c9a20d803f2533f97b25c118f0a414f5",
+      "title": "Top Bauxite Producer Guinea to Unveil Export Controls in June",
+      "summary": "Guinea, the world\u2019s biggest bauxite producer, plans to announce reforms next month to control exports of the ore used in making aluminum as it bids to bolster prices.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-25/top-bauxite-producer-guinea-to-unveil-export-controls-in-june",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-25T14:28:19.835490Z"
+    },
+    {
+      "id": "5f04ca860cbe06ca87c92319d5787b2a",
+      "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
+      "summary": "A large-scale campaign is exploiting a critical SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers ClickFix attack flows. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-25T14:28:49.147291Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "27237e7cca7f087254f63ccdaf65e37a",
+      "title": "Japanese tanker Idemitsu Maru arrives in Aichi after exiting Strait of Hormuz",
+      "summary": "The oil tanker is the first to return to Japan through the strait since war broke out in Iran.",
+      "link": "https://www.japantimes.co.jp/news/2026/05/25/japan/society/idemitsu-oil-tanker/",
+      "source": "Japan Times",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "JAPAN",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-25T14:28:40.631258Z"
+    },
+    {
+      "id": "c9a20d803f2533f97b25c118f0a414f5",
+      "title": "Top Bauxite Producer Guinea to Unveil Export Controls in June",
+      "summary": "Guinea, the world\u2019s biggest bauxite producer, plans to announce reforms next month to control exports of the ore used in making aluminum as it bids to bolster prices.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-25/top-bauxite-producer-guinea-to-unveil-export-controls-in-june",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-25T14:28:19.835490Z"
+    },
+    {
+      "id": "5f04ca860cbe06ca87c92319d5787b2a",
+      "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
+      "summary": "A large-scale campaign is exploiting a critical SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers ClickFix attack flows. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-25T14:28:49.147291Z"
+    }
+  ]
 }
