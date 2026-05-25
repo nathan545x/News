@@ -1,255 +1,49 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-05-25T08:26:55.757852Z",
+  "generated_at": "2026-05-25T08:28:55.470637Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GENERAL",
+    "dominant_driver": "GENERAL",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 2,
+    "critical_alerts": 0,
     "high_alerts": 0,
-    "last_updated": "2026-05-25T08:26:55.757865Z"
+    "last_updated": "2026-05-25T08:28:55.470648Z"
   },
   "top_signals": [
     {
-      "id": "873e52c152fe0d229f362c3aca5c0c68",
-      "title": "ECB warns EU finance ministers that easing euro stablecoin rules would weaken banks: Reuters",
-      "summary": "<p>ECB President Christine Lagarde warned the changes would destabilize bank funding and weaken interest-rate transmission.</p>",
-      "link": "https://www.theblock.co/post/402427/ecb-warns-eu-finance-ministers-that-easing-euro-stablecoin-rules-would-weaken-banks-reuters?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 33,
-      "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-05-25T08:26:52.640902Z"
-    },
-    {
-      "id": "27237e7cca7f087254f63ccdaf65e37a",
-      "title": "Japanese tanker Idemitsu Maru arrives in Aichi after exiting Strait of Hormuz",
-      "summary": "The oil tanker is the first to return to Japan through the strait since war broke out in Iran.",
-      "link": "https://www.japantimes.co.jp/news/2026/05/25/japan/society/idemitsu-oil-tanker/",
-      "source": "Japan Times",
-      "score": 31,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "JAPAN",
-        "MIDDLE_EAST"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-05-25T08:26:43.941666Z"
-    },
-    {
-      "id": "53ccfa00182f7609bfbd4df42292447c",
-      "title": "What If the Strait of Hormuz Didn\u2019t Reopen? - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQMFo5bi1KNWZIREd4bXlMaDk0ZEpVcUNaZnBRaldCbFpFRHZHdDh1cEJiLVp3Z2Z1c0lIMW83WUp6N3p0MW9uTUpTVUtBMEx5SHNSMUFMa3ZscG8tYkZTSXNCSkZ1Ni14NnlfUS0tT3BOR1lLVHJPcE1CLVR3a2UzVmd1RzltaWJZQTcwdHU3a1lFZVJsQkM2YS1oUEZnV3RxQ3lQSlJhdHhrYnl3eHFzWXYzRW1RT3JRNElkb1ZTY3lFMHpJY3c?oc=5\" target=\"_blank\">What If the Strait of Hormuz Didn\u2019t Reopen?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMFo5bi1KNWZIREd4bXlMaDk0ZEpVcUNaZnBRaldCbFpFRHZHdDh1cEJiLVp3Z2Z1c0lIMW83WUp6N3p0MW9uTUpTVUtBMEx5SHNSMUFMa3ZscG8tYkZTSXNCSkZ1Ni14NnlfUS0tT3BOR1lLVHJPcE1CLVR3a2UzVmd1RzltaWJZQTcwdHU3a1lFZVJsQkM2YS1oUEZnV3RxQ3lQSlJhdHhrYnl3eHFzWXYzRW1RT3JRNElkb1ZTY3lFMHpJY3c?oc=5",
-      "source": "Google Macro",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-05-25T08:26:53.742330Z"
-    },
-    {
-      "id": "5f04ca860cbe06ca87c92319d5787b2a",
-      "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
-      "summary": "A large-scale campaign is exploiting a critical SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers ClickFix attack flows. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
-      "source": "BleepingComputer",
-      "score": 5,
+      "id": "ff7cac5bd3e0da285f51db9696240831",
+      "title": "Reddit stock drops almost 6% after Meta launches standalone app for online forums",
+      "summary": "Reddit shares fell after Meta released a standalone app for Facebook Groups called Forum.",
+      "link": "https://www.cnbc.com/2026/05/22/reddit-stock-drops-after-meta-launches-forum-app.html",
+      "source": "CNBC",
+      "score": 6,
       "severity": "LOW",
-      "regime": "AI",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-05-25T08:26:52.750015Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-25T08:28:26.724773Z"
     }
   ],
   "alerts": [
     {
-      "id": "873e52c152fe0d229f362c3aca5c0c68",
-      "title": "ECB warns EU finance ministers that easing euro stablecoin rules would weaken banks: Reuters",
-      "summary": "<p>ECB President Christine Lagarde warned the changes would destabilize bank funding and weaken interest-rate transmission.</p>",
-      "link": "https://www.theblock.co/post/402427/ecb-warns-eu-finance-ministers-that-easing-euro-stablecoin-rules-would-weaken-banks-reuters?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 33,
-      "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-05-25T08:26:52.640902Z"
-    },
-    {
-      "id": "27237e7cca7f087254f63ccdaf65e37a",
-      "title": "Japanese tanker Idemitsu Maru arrives in Aichi after exiting Strait of Hormuz",
-      "summary": "The oil tanker is the first to return to Japan through the strait since war broke out in Iran.",
-      "link": "https://www.japantimes.co.jp/news/2026/05/25/japan/society/idemitsu-oil-tanker/",
-      "source": "Japan Times",
-      "score": 31,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "JAPAN",
-        "MIDDLE_EAST"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-05-25T08:26:43.941666Z"
-    },
-    {
-      "id": "53ccfa00182f7609bfbd4df42292447c",
-      "title": "What If the Strait of Hormuz Didn\u2019t Reopen? - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQMFo5bi1KNWZIREd4bXlMaDk0ZEpVcUNaZnBRaldCbFpFRHZHdDh1cEJiLVp3Z2Z1c0lIMW83WUp6N3p0MW9uTUpTVUtBMEx5SHNSMUFMa3ZscG8tYkZTSXNCSkZ1Ni14NnlfUS0tT3BOR1lLVHJPcE1CLVR3a2UzVmd1RzltaWJZQTcwdHU3a1lFZVJsQkM2YS1oUEZnV3RxQ3lQSlJhdHhrYnl3eHFzWXYzRW1RT3JRNElkb1ZTY3lFMHpJY3c?oc=5\" target=\"_blank\">What If the Strait of Hormuz Didn\u2019t Reopen?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMFo5bi1KNWZIREd4bXlMaDk0ZEpVcUNaZnBRaldCbFpFRHZHdDh1cEJiLVp3Z2Z1c0lIMW83WUp6N3p0MW9uTUpTVUtBMEx5SHNSMUFMa3ZscG8tYkZTSXNCSkZ1Ni14NnlfUS0tT3BOR1lLVHJPcE1CLVR3a2UzVmd1RzltaWJZQTcwdHU3a1lFZVJsQkM2YS1oUEZnV3RxQ3lQSlJhdHhrYnl3eHFzWXYzRW1RT3JRNElkb1ZTY3lFMHpJY3c?oc=5",
-      "source": "Google Macro",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-05-25T08:26:53.742330Z"
-    },
-    {
-      "id": "5f04ca860cbe06ca87c92319d5787b2a",
-      "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
-      "summary": "A large-scale campaign is exploiting a critical SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers ClickFix attack flows. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
-      "source": "BleepingComputer",
-      "score": 5,
+      "id": "ff7cac5bd3e0da285f51db9696240831",
+      "title": "Reddit stock drops almost 6% after Meta launches standalone app for online forums",
+      "summary": "Reddit shares fell after Meta released a standalone app for Facebook Groups called Forum.",
+      "link": "https://www.cnbc.com/2026/05/22/reddit-stock-drops-after-meta-launches-forum-app.html",
+      "source": "CNBC",
+      "score": 6,
       "severity": "LOW",
-      "regime": "AI",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-05-25T08:26:52.750015Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-25T08:28:26.724773Z"
     }
   ]
 }
