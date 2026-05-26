@@ -1,79 +1,255 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-05-26T06:45:02.572603Z",
+  "generated_at": "2026-05-26T06:46:01.192680Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-05-26T06:45:02.572613Z"
+    "critical_alerts": 2,
+    "high_alerts": 0,
+    "last_updated": "2026-05-26T06:46:01.192695Z"
   },
   "top_signals": [
     {
-      "id": "26d0a0d05055d1b01e2a7376a4600e5c",
-      "title": "Hormuz Strikes Whipsaw Oil as Asia Braces for Summer Demand | Insight with Haslinda Amin 5/26/2026",
-      "summary": "Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent leaders spanning the worlds of business, finance, politics and culture. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-05-26/insight-with-haslinda-amin-5-26-2026-video",
+      "id": "11ede4e26798c59e23e420017f91fed5",
+      "title": "ECB Should Hike Interest Rates in June, Schnabel Says",
+      "summary": "The European Central Bank should raise interest rates next month even if there\u2019s a quick resolution to the conflict in the Middle East, according to Executive Board member Isabel Schnabel.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-26/ecb-should-hike-interest-rates-in-june-schnabel-tells-reuters",
       "source": "Bloomberg",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "score": 45,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "EUR"
       ],
-      "regions": [],
+      "regions": [
+        "EUROPE"
+      ],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-05-26T06:44:25.695646Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-05-26T06:45:26.488988Z"
+    },
+    {
+      "id": "73dd2e89bd4c4917398cd9afef174ac2",
+      "title": "RBI, Rating Firms Assess Iran War Risks on Indian Companies",
+      "summary": "The Reserve Bank of India has held discussions with local credit-rating companies to gauge potential stress among borrowers caused by the US-Iran war, according to people familiar with the matter.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-26/rbi-rating-firms-assess-iran-war-risks-on-indian-companies",
+      "source": "Bloomberg",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-26T06:45:26.489059Z"
+    },
+    {
+      "id": "822358433b55913579c737b655080eec",
+      "title": "QatarEnergy Extends LNG Force Majeure Into August",
+      "summary": "QatarEnergy said it would extend the force majeure on its exports of liquefied natural gas until the middle of August, Reuters has reported, citing Italy\u2019s Edison, which has a long-term supply deal with the Qatari company. Originally, the force majeure was set to run until early July. The declaration followed Iranian strikes on Qatar\u2019s LNG hub that caused extensive damage. In a notice to buyers, the state energy giant said in early March that the declaration follows its decision to halt LNG and associated production after Iranian strikes\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/QatarEnergy-Extends-LNG-Force-Majeure-Into-August.html",
+      "source": "OilPrice",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-26T06:45:56.313457Z"
+    },
+    {
+      "id": "d9c984782b83e5cd93b0baa9796dd3b6",
+      "title": "At $322 billion, the stablecoin market value exceeds the FX reserves of 95 nations",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/05/26/at-usd318-billion-the-stablecoin-market-value-exceeds-the-fx-reserves-of-95-nations",
+      "source": "CoinDesk",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-05-26T06:45:57.884366Z"
     }
   ],
   "alerts": [
     {
-      "id": "26d0a0d05055d1b01e2a7376a4600e5c",
-      "title": "Hormuz Strikes Whipsaw Oil as Asia Braces for Summer Demand | Insight with Haslinda Amin 5/26/2026",
-      "summary": "Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent leaders spanning the worlds of business, finance, politics and culture. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-05-26/insight-with-haslinda-amin-5-26-2026-video",
+      "id": "11ede4e26798c59e23e420017f91fed5",
+      "title": "ECB Should Hike Interest Rates in June, Schnabel Says",
+      "summary": "The European Central Bank should raise interest rates next month even if there\u2019s a quick resolution to the conflict in the Middle East, according to Executive Board member Isabel Schnabel.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-26/ecb-should-hike-interest-rates-in-june-schnabel-tells-reuters",
       "source": "Bloomberg",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "score": 45,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "EUR"
       ],
-      "regions": [],
+      "regions": [
+        "EUROPE"
+      ],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-05-26T06:44:25.695646Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-05-26T06:45:26.488988Z"
+    },
+    {
+      "id": "73dd2e89bd4c4917398cd9afef174ac2",
+      "title": "RBI, Rating Firms Assess Iran War Risks on Indian Companies",
+      "summary": "The Reserve Bank of India has held discussions with local credit-rating companies to gauge potential stress among borrowers caused by the US-Iran war, according to people familiar with the matter.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-26/rbi-rating-firms-assess-iran-war-risks-on-indian-companies",
+      "source": "Bloomberg",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-26T06:45:26.489059Z"
+    },
+    {
+      "id": "822358433b55913579c737b655080eec",
+      "title": "QatarEnergy Extends LNG Force Majeure Into August",
+      "summary": "QatarEnergy said it would extend the force majeure on its exports of liquefied natural gas until the middle of August, Reuters has reported, citing Italy\u2019s Edison, which has a long-term supply deal with the Qatari company. Originally, the force majeure was set to run until early July. The declaration followed Iranian strikes on Qatar\u2019s LNG hub that caused extensive damage. In a notice to buyers, the state energy giant said in early March that the declaration follows its decision to halt LNG and associated production after Iranian strikes\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/QatarEnergy-Extends-LNG-Force-Majeure-Into-August.html",
+      "source": "OilPrice",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-26T06:45:56.313457Z"
+    },
+    {
+      "id": "d9c984782b83e5cd93b0baa9796dd3b6",
+      "title": "At $322 billion, the stablecoin market value exceeds the FX reserves of 95 nations",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/05/26/at-usd318-billion-the-stablecoin-market-value-exceeds-the-fx-reserves-of-95-nations",
+      "source": "CoinDesk",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-05-26T06:45:57.884366Z"
     }
   ]
 }
