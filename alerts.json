@@ -1,35 +1,92 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-05-27T14:01:27.561261Z",
+  "generated_at": "2026-05-27T14:06:06.271385Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 3,
-    "high_alerts": 0,
-    "last_updated": "2026-05-27T14:01:27.561276Z"
+    "critical_alerts": 1,
+    "high_alerts": 4,
+    "last_updated": "2026-05-27T14:06:06.271403Z"
   },
   "top_signals": [
     {
-      "id": "68a36853d5c194b5f8408fc312efb1fc",
-      "title": "UK Petrol Prices Hit Highest Level Since 2022",
-      "summary": "Petrol prices in the UK have hit a new high since the Iran war began, as the price of oil jumped back up to $100 per barrel following fresh US strikes. The average price of a litre of petrol is now 159.43p in the UK, according to motoring services firm the RAC. This petrol price is the highest since December 2022, and 26.6p more expensive than on February 28, the day the US and Israel first launched strikes on Iran. Diesel prices, however, remain below their mid-April peak at 184.96p per litre, 6.58p lower than on April 15.\u00a0 Chancellor extends\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/UK-Petrol-Prices-Hit-Highest-Level-Since-2022.html",
-      "source": "OilPrice",
-      "score": 38,
+      "id": "4e79224b3b2ca101949b24babd127161",
+      "title": "Trump risks triggering financial crisis with Iran war, warns ECB",
+      "summary": "Vice-president Luis de Guindos says Washington\u2019s volatile trade policies and reduced co-operation also threaten stability",
+      "link": "https://www.ft.com/content/88ec90e1-2927-4cb0-afbf-2df1ca6d53fa",
+      "source": "Financial Times",
+      "score": 34,
       "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-27T14:05:30.990147Z"
+    },
+    {
+      "id": "50d8984e6e067ef57692a0519053ca33",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" title=\"Known Exploited Vulnerabilities Catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2025-34291\" target=\"_blank\">CVE-2025-34291</a> Langflow Origin Validation Error Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-34926\" target=\"_blank\">CVE-2026-34926</a> Trend Micro Apex One (On-Premise) Directory Traversal Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/binding-operational-directive-22-01\">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a> established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the <a href=\"https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf\">BOD 22-01 Fact Sheet</a> for more information.</p>\n<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" title=\"Known Exploited Vulnerabilities Catalog\">KEV Catalog vulnerabilities</a> as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/21/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "SYSTEMIC",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "JPY"
+        ],
+        "bearish": [
+          "BANKS",
+          "SPY"
+        ]
+      },
+      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
+      "published": "2026-05-27T14:06:03.403202Z"
+    },
+    {
+      "id": "80ff41b21499d3b891222069536aba4c",
+      "title": "Dutch authorities arrest men suspected of providing infrastructure for Russian cyber operations",
+      "summary": "Investigators seized more than 800 servers as they arrested two men suspected of violating European sanctions and assisting pro-Russian cyberattacks and disinformation campaigns.",
+      "link": "https://therecord.media/dutch-authorities-arrest-suspects-over-russian-cyber-operations",
+      "source": "The Record",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "WTI"
+        "EUR"
       ],
       "regions": [
-        "MIDDLE_EAST",
-        "UK"
+        "EUROPE",
+        "RUSSIA"
       ],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "FX"
       ],
       "market_impact": {
         "bullish": [
@@ -45,48 +102,79 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-05-27T14:01:20.862753Z"
+      "published": "2026-05-27T14:06:03.167381Z"
     },
     {
-      "id": "ba0c06643e0cbb10ce09f87ddbf6e310",
-      "title": "Cathay Pacific, Air China Cargo top up orders for Airbus A350 freighter",
-      "summary": "<p>Air China Cargo has exercised options for four additional Airbus A350 cargo jets. Airbus now has almost double the amount of orders for large, next-gen freighters as Boeing.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/air-china-cargo-tops-up-order-for-airbus-a350-freighter-aircraft\">Cathay Pacific, Air China Cargo top up orders for Airbus A350 freighter</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/air-china-cargo-tops-up-order-for-airbus-a350-freighter-aircraft",
-      "source": "FreightWaves",
-      "score": 28,
-      "severity": "CRITICAL",
-      "regime": "RATES",
+      "id": "ef084cac8212faddf7d8b45100b29a0a",
+      "title": "What's involved in talks to end the Iran war? - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOU0JJNi1CdXp2S1hIOXp2Z3hRQUprU2J4b0JtRF9aeFNOd0lwSnlCMkhQa3ZSbWJ0cHJCQWdzOEEybkRENGZFT0pIM2VWcjJVckFWZDNNLUpNUEhmNlZsUmFObExESzRyQ3FYSk53dGx6SUI1UUZoZ3VtcUh3QlJfMFhLa05sVzJS?oc=5\" target=\"_blank\">What's involved in talks to end the Iran war?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOU0JJNi1CdXp2S1hIOXp2Z3hRQUprU2J4b0JtRF9aeFNOd0lwSnlCMkhQa3ZSbWJ0cHJCQWdzOEEybkRENGZFT0pIM2VWcjJVckFWZDNNLUpNUEhmNlZsUmFObExESzRyQ3FYSk53dGx6SUI1UUZoZ3VtcUh3QlJfMFhLa05sVzJS?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "CHINA"
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-27T14:06:04.583716Z"
+    },
+    {
+      "id": "af5952aaea53db9fd82ac7c6905f4dcc",
+      "title": "Synthetic Biology, Drones, and AI: The Risks of Dual-Use Technologies",
+      "summary": "<p>Is it too late to stop criminals and American adversaries from exploiting AI to conduct cyberattacks or design novel pathogens? Has regulation kept pace with the threat civilian drones pose to critical infrastructure? AI researcher Lennart Heim, Army drone strategist Paul Lushenko, and CEO of Sentinel Bio Claire Qureshi join Jonathan to discuss the trade-offs between protecting the public and letting the private sector forge ahead. The conversation gets into synthetic DNA, the risk of drones at the FIFA World Cup, and whether the U.S. government should get early access to Silicon Valley&#8217;s newest large language models.Image: T. T. Paris</p>\n<p>The post <a href=\"https://warontherocks.com/cogs-of-war/synthetic-biology-drones-and-ai-the-risks-of-dual-use-technologies/\">Synthetic Biology, Drones, and AI: The Risks of Dual-Use Technologies</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/cogs-of-war/synthetic-biology-drones-and-ai-the-risks-of-dual-use-technologies/",
+      "source": "War on the Rocks",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "US"
       ],
       "assets": [
-        "AI",
-        "SHIPPING"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-05-27T14:01:22.194116Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-27T14:06:01.132954Z"
     },
     {
-      "id": "cc881ef026005d058a26989ffcbeefe7",
-      "title": "How did Jay Powell do at the Fed?",
-      "summary": "The outgoing chair has made some mistakes, but his decision to stand up to Trump was heroic",
-      "link": "https://www.ft.com/content/1ff5410e-99be-4560-8f5e-c72b52e5bb6c",
-      "source": "Financial Times",
-      "score": 25,
-      "severity": "CRITICAL",
-      "regime": "RATES",
+      "id": "cb972b4a60d1229d62624ffc657d2045",
+      "title": "Financial stability vulnerabilities remain elevated as geoeconomic shock unfolds",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260527~92140c5054.en.html",
+      "source": "ECB",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -94,69 +182,226 @@
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
+          "NVDA",
+          "SEMIS",
           "QQQ"
-        ]
+        ],
+        "bearish": []
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-05-27T14:00:50.766518Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-27T14:05:43.676024Z"
     },
     {
-      "id": "d219f925417865f956a4ad8c1312cd5c",
-      "title": "Transparency data: HM Treasury organisational charts",
-      "summary": "HM Treasury structure charts and organisational data.",
-      "link": "https://www.gov.uk/government/publications/hm-treasury-organisational-charts",
-      "source": "HM Treasury",
-      "score": 14,
+      "id": "4d8b9295acc88e866dbce9f62ec0b98c",
+      "title": "Samsung semiconductor workers' $400,000 bonus deal: 4 things to know",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/tech/semiconductors/samsung-semiconductor-workers-400-000-bonus-deal-4-things-to-know",
+      "source": "Nikkei Asia",
+      "score": 13,
       "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
-      ],
+      "regime": "AI",
+      "tickers": [],
       "regions": [],
       "assets": [
-        "RATES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-27T14:05:53.002853Z"
+    },
+    {
+      "id": "0073f8136dc5b283e2d32215502cfc3e",
+      "title": "Luis de Guindos: Financial Stability Review - May 2026",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260527~bc724e42c1.en.pdf",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-27T14:05:43.675983Z"
+    },
+    {
+      "id": "c467013143b66fa6ce7575cf55351e09",
+      "title": "DTCC plans to bring tokenized assets to Stellar in latest Wall Street blockchain push",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/05/27/dtcc-plans-to-bring-tokenized-assets-to-stellar-in-latest-wall-street-blockchain-push",
+      "source": "CoinDesk",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-27T14:06:01.979494Z"
+    },
+    {
+      "id": "27df8a6b7288383a735c468ee063708a",
+      "title": "Robinhood says AI-powered crypto trading coming after launching agentic stock trading beta",
+      "summary": "<p>The popular retail-focused trading platform is kicking off its agentic trading initiative with a beta launch limited to equities.</p>",
+      "link": "https://www.theblock.co/post/402729/robinhood-ai-powered-crypto-trading-launching-agentic-stock-trading-beta?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "USD"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-05-27T14:01:11.755424Z"
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-05-27T14:06:02.213275Z"
+    },
+    {
+      "id": "1b9e2fafca7a5bc5cb6434d9838a99c2",
+      "title": "Mastercard secures New York State Bitlicense as it continues to expand crypto services",
+      "summary": "<p>New York has now officially granted three Virtual Currency Business Activity Licenses (aka BitLicenses) in 2026.</p>",
+      "link": "https://www.theblock.co/post/402732/mastercard-secures-new-york-state-bitlicense-as-it-continues-to-expand-crypto-services?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-05-27T14:06:02.213225Z"
+    },
+    {
+      "id": "10a3ce0921e97975c1074948f0b1727d",
+      "title": "Skechers Introduces Skechers Razor 2 Football Boot",
+      "summary": "New silo joins SKX_2 boot in the Sunset Pack to be worn on the pitch by Harry Kane and more players during global football tournament",
+      "link": "https://www.cityam.com/skechers-introduces-skechers-razor-2-football-boot/",
+      "source": "CityAM",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-27T14:05:51.048164Z"
     }
   ],
   "alerts": [
     {
-      "id": "68a36853d5c194b5f8408fc312efb1fc",
-      "title": "UK Petrol Prices Hit Highest Level Since 2022",
-      "summary": "Petrol prices in the UK have hit a new high since the Iran war began, as the price of oil jumped back up to $100 per barrel following fresh US strikes. The average price of a litre of petrol is now 159.43p in the UK, according to motoring services firm the RAC. This petrol price is the highest since December 2022, and 26.6p more expensive than on February 28, the day the US and Israel first launched strikes on Iran. Diesel prices, however, remain below their mid-April peak at 184.96p per litre, 6.58p lower than on April 15.\u00a0 Chancellor extends\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/UK-Petrol-Prices-Hit-Highest-Level-Since-2022.html",
-      "source": "OilPrice",
-      "score": 38,
+      "id": "4e79224b3b2ca101949b24babd127161",
+      "title": "Trump risks triggering financial crisis with Iran war, warns ECB",
+      "summary": "Vice-president Luis de Guindos says Washington\u2019s volatile trade policies and reduced co-operation also threaten stability",
+      "link": "https://www.ft.com/content/88ec90e1-2927-4cb0-afbf-2df1ca6d53fa",
+      "source": "Financial Times",
+      "score": 34,
       "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-27T14:05:30.990147Z"
+    },
+    {
+      "id": "50d8984e6e067ef57692a0519053ca33",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" title=\"Known Exploited Vulnerabilities Catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2025-34291\" target=\"_blank\">CVE-2025-34291</a> Langflow Origin Validation Error Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-34926\" target=\"_blank\">CVE-2026-34926</a> Trend Micro Apex One (On-Premise) Directory Traversal Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/binding-operational-directive-22-01\">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a> established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the <a href=\"https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf\">BOD 22-01 Fact Sheet</a> for more information.</p>\n<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" title=\"Known Exploited Vulnerabilities Catalog\">KEV Catalog vulnerabilities</a> as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/21/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "SYSTEMIC",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "JPY"
+        ],
+        "bearish": [
+          "BANKS",
+          "SPY"
+        ]
+      },
+      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
+      "published": "2026-05-27T14:06:03.403202Z"
+    },
+    {
+      "id": "80ff41b21499d3b891222069536aba4c",
+      "title": "Dutch authorities arrest men suspected of providing infrastructure for Russian cyber operations",
+      "summary": "Investigators seized more than 800 servers as they arrested two men suspected of violating European sanctions and assisting pro-Russian cyberattacks and disinformation campaigns.",
+      "link": "https://therecord.media/dutch-authorities-arrest-suspects-over-russian-cyber-operations",
+      "source": "The Record",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "WTI"
+        "EUR"
       ],
       "regions": [
-        "MIDDLE_EAST",
-        "UK"
+        "EUROPE",
+        "RUSSIA"
       ],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "FX"
       ],
       "market_impact": {
         "bullish": [
@@ -172,48 +417,79 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-05-27T14:01:20.862753Z"
+      "published": "2026-05-27T14:06:03.167381Z"
     },
     {
-      "id": "ba0c06643e0cbb10ce09f87ddbf6e310",
-      "title": "Cathay Pacific, Air China Cargo top up orders for Airbus A350 freighter",
-      "summary": "<p>Air China Cargo has exercised options for four additional Airbus A350 cargo jets. Airbus now has almost double the amount of orders for large, next-gen freighters as Boeing.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/air-china-cargo-tops-up-order-for-airbus-a350-freighter-aircraft\">Cathay Pacific, Air China Cargo top up orders for Airbus A350 freighter</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/air-china-cargo-tops-up-order-for-airbus-a350-freighter-aircraft",
-      "source": "FreightWaves",
-      "score": 28,
-      "severity": "CRITICAL",
-      "regime": "RATES",
+      "id": "ef084cac8212faddf7d8b45100b29a0a",
+      "title": "What's involved in talks to end the Iran war? - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOU0JJNi1CdXp2S1hIOXp2Z3hRQUprU2J4b0JtRF9aeFNOd0lwSnlCMkhQa3ZSbWJ0cHJCQWdzOEEybkRENGZFT0pIM2VWcjJVckFWZDNNLUpNUEhmNlZsUmFObExESzRyQ3FYSk53dGx6SUI1UUZoZ3VtcUh3QlJfMFhLa05sVzJS?oc=5\" target=\"_blank\">What's involved in talks to end the Iran war?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOU0JJNi1CdXp2S1hIOXp2Z3hRQUprU2J4b0JtRF9aeFNOd0lwSnlCMkhQa3ZSbWJ0cHJCQWdzOEEybkRENGZFT0pIM2VWcjJVckFWZDNNLUpNUEhmNlZsUmFObExESzRyQ3FYSk53dGx6SUI1UUZoZ3VtcUh3QlJfMFhLa05sVzJS?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "CHINA"
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-27T14:06:04.583716Z"
+    },
+    {
+      "id": "af5952aaea53db9fd82ac7c6905f4dcc",
+      "title": "Synthetic Biology, Drones, and AI: The Risks of Dual-Use Technologies",
+      "summary": "<p>Is it too late to stop criminals and American adversaries from exploiting AI to conduct cyberattacks or design novel pathogens? Has regulation kept pace with the threat civilian drones pose to critical infrastructure? AI researcher Lennart Heim, Army drone strategist Paul Lushenko, and CEO of Sentinel Bio Claire Qureshi join Jonathan to discuss the trade-offs between protecting the public and letting the private sector forge ahead. The conversation gets into synthetic DNA, the risk of drones at the FIFA World Cup, and whether the U.S. government should get early access to Silicon Valley&#8217;s newest large language models.Image: T. T. Paris</p>\n<p>The post <a href=\"https://warontherocks.com/cogs-of-war/synthetic-biology-drones-and-ai-the-risks-of-dual-use-technologies/\">Synthetic Biology, Drones, and AI: The Risks of Dual-Use Technologies</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/cogs-of-war/synthetic-biology-drones-and-ai-the-risks-of-dual-use-technologies/",
+      "source": "War on the Rocks",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "US"
       ],
       "assets": [
-        "AI",
-        "SHIPPING"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-05-27T14:01:22.194116Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-27T14:06:01.132954Z"
     },
     {
-      "id": "cc881ef026005d058a26989ffcbeefe7",
-      "title": "How did Jay Powell do at the Fed?",
-      "summary": "The outgoing chair has made some mistakes, but his decision to stand up to Trump was heroic",
-      "link": "https://www.ft.com/content/1ff5410e-99be-4560-8f5e-c72b52e5bb6c",
-      "source": "Financial Times",
-      "score": 25,
-      "severity": "CRITICAL",
-      "regime": "RATES",
+      "id": "cb972b4a60d1229d62624ffc657d2045",
+      "title": "Financial stability vulnerabilities remain elevated as geoeconomic shock unfolds",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260527~92140c5054.en.html",
+      "source": "ECB",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -221,47 +497,163 @@
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
+          "NVDA",
+          "SEMIS",
           "QQQ"
-        ]
+        ],
+        "bearish": []
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-05-27T14:00:50.766518Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-27T14:05:43.676024Z"
     },
     {
-      "id": "d219f925417865f956a4ad8c1312cd5c",
-      "title": "Transparency data: HM Treasury organisational charts",
-      "summary": "HM Treasury structure charts and organisational data.",
-      "link": "https://www.gov.uk/government/publications/hm-treasury-organisational-charts",
-      "source": "HM Treasury",
-      "score": 14,
+      "id": "4d8b9295acc88e866dbce9f62ec0b98c",
+      "title": "Samsung semiconductor workers' $400,000 bonus deal: 4 things to know",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/tech/semiconductors/samsung-semiconductor-workers-400-000-bonus-deal-4-things-to-know",
+      "source": "Nikkei Asia",
+      "score": 13,
       "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
-      ],
+      "regime": "AI",
+      "tickers": [],
       "regions": [],
       "assets": [
-        "RATES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-27T14:05:53.002853Z"
+    },
+    {
+      "id": "0073f8136dc5b283e2d32215502cfc3e",
+      "title": "Luis de Guindos: Financial Stability Review - May 2026",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260527~bc724e42c1.en.pdf",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-27T14:05:43.675983Z"
+    },
+    {
+      "id": "c467013143b66fa6ce7575cf55351e09",
+      "title": "DTCC plans to bring tokenized assets to Stellar in latest Wall Street blockchain push",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/05/27/dtcc-plans-to-bring-tokenized-assets-to-stellar-in-latest-wall-street-blockchain-push",
+      "source": "CoinDesk",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-27T14:06:01.979494Z"
+    },
+    {
+      "id": "27df8a6b7288383a735c468ee063708a",
+      "title": "Robinhood says AI-powered crypto trading coming after launching agentic stock trading beta",
+      "summary": "<p>The popular retail-focused trading platform is kicking off its agentic trading initiative with a beta launch limited to equities.</p>",
+      "link": "https://www.theblock.co/post/402729/robinhood-ai-powered-crypto-trading-launching-agentic-stock-trading-beta?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "USD"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-05-27T14:01:11.755424Z"
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-05-27T14:06:02.213275Z"
+    },
+    {
+      "id": "1b9e2fafca7a5bc5cb6434d9838a99c2",
+      "title": "Mastercard secures New York State Bitlicense as it continues to expand crypto services",
+      "summary": "<p>New York has now officially granted three Virtual Currency Business Activity Licenses (aka BitLicenses) in 2026.</p>",
+      "link": "https://www.theblock.co/post/402732/mastercard-secures-new-york-state-bitlicense-as-it-continues-to-expand-crypto-services?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-05-27T14:06:02.213225Z"
+    },
+    {
+      "id": "10a3ce0921e97975c1074948f0b1727d",
+      "title": "Skechers Introduces Skechers Razor 2 Football Boot",
+      "summary": "New silo joins SKX_2 boot in the Sunset Pack to be worn on the pitch by Harry Kane and more players during global football tournament",
+      "link": "https://www.cityam.com/skechers-introduces-skechers-razor-2-football-boot/",
+      "source": "CityAM",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-27T14:05:51.048164Z"
+    },
+    {
+      "id": "274e0adc47850e969c4582434b53d50e",
+      "title": "Brussels set to open in-depth probe into JD.com\u2019s takeover of Ceconomy - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQYjZsOW8xSi02UGgwTkVRZEp1aXdEeVB4OUtkakpEbmVsZUYyeU9Ba09PZDBQOU9lUG11RUpYZWtmMFhyZEpCb3lrVl80VmVYa0JFUG5sMnl5RHVCRGJmYkpkUVZlaWJtWVhUS2JJM0ZTamFJLXdHWW5PUUdFREV5X2ZDa3o?oc=5\" target=\"_blank\">Brussels set to open in-depth probe into JD.com\u2019s takeover of Ceconomy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYjZsOW8xSi02UGgwTkVRZEp1aXdEeVB4OUtkakpEbmVsZUYyeU9Ba09PZDBQOU9lUG11RUpYZWtmMFhyZEpCb3lrVl80VmVYa0JFUG5sMnl5RHVCRGJmYkpkUVZlaWJtWVhUS2JJM0ZTamFJLXdHWW5PUUdFREV5X2ZDa3o?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-27T14:06:05.159211Z"
     }
   ]
 }
