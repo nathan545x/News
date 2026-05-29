@@ -1,33 +1,32 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-05-29T01:26:07.054798Z",
+  "generated_at": "2026-05-29T01:31:28.211607Z",
   "market_regime": {
     "regime": "GEO-SHOCK",
     "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-05-29T01:26:07.054808Z"
+    "high_alerts": 3,
+    "last_updated": "2026-05-29T01:31:28.211623Z"
   },
   "top_signals": [
     {
-      "id": "67fdf7d01151388c2260af9b85ad12a5",
-      "title": "Oil Edges Lower at Open on Tentative Deal to Extend Iran Truce - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQMnpSdDVManZQTW5NdmNKaVl3RW5zUXBIbWFPV1FXQnMzOUR1ZWhiNDNkdnNoUXJPWlJyRk01WEhGeklJbjBhcmlibjJ4Q0pHV29SYkIzVHlKVkpQOU9CWmdfcDJyM3gzUWY2Y0JmMXFXYWpRRWY2NXhmdDY3bllJSEE1WkFEWGEtWURkc3VmbGZKcnZ2eVA1QzVxT0p5eENETE5vREVQaTBTWmw3QUszLVN1WQ?oc=5\" target=\"_blank\">Oil Edges Lower at Open on Tentative Deal to Extend Iran Truce</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMnpSdDVManZQTW5NdmNKaVl3RW5zUXBIbWFPV1FXQnMzOUR1ZWhiNDNkdnNoUXJPWlJyRk01WEhGeklJbjBhcmlibjJ4Q0pHV29SYkIzVHlKVkpQOU9CWmdfcDJyM3gzUWY2Y0JmMXFXYWpRRWY2NXhmdDY3bllJSEE1WkFEWGEtWURkc3VmbGZKcnZ2eVA1QzVxT0p5eENETE5vREVQaTBTWmw3QUszLVN1WQ?oc=5",
-      "source": "Google Macro",
-      "score": 17,
+      "id": "bd4659f5e64e6da79cacc9d42b458fb8",
+      "title": "Russia conducting daily attacks on UK 'from seabed to cyberspace,' spy chief warns",
+      "summary": "Anne Keast-Butler, director of GCHQ, said Russia's actions have prompted the agency to defend subsea cables and energy pipelines in British waters, disrupt Russian networks smuggling sanctioned technology and countering \u201creckless sabotage and assassination attempts.\u201d",
+      "link": "https://therecord.media/russia-conducting-attacks-on-uk-gchq-briefing",
+      "source": "The Record",
+      "score": 22,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
-      "tickers": [
-        "WTI"
-      ],
+      "tickers": [],
       "regions": [
-        "MIDDLE_EAST"
+        "RUSSIA",
+        "UK"
       ],
       "assets": [
-        "COMMODITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -43,27 +42,222 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-05-29T01:26:04.885656Z"
+      "published": "2026-05-29T01:31:24.876948Z"
+    },
+    {
+      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
+      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
+      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
+      "source": "CISA",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-29T01:31:25.107307Z"
+    },
+    {
+      "id": "564e16257ea7964a1bbb001d2cda2289",
+      "title": "Rouble\u2019s strength piles pressure on Russian war economy - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNTVg1WFhja05FVEZJck85OWZyRlFQTzR6Mnk4aTQyQjNqTVhaNnEzLWVHQTNLV3NUakgxMTNabzBxSm90ZW10TVExdVhqSXVVemM5Z3hqcFQ3eUlpdWN3el9jQVVIWXdoZE1CTF9JX2V6eHkwV3p5dXBvTlIwWHpwWmZEazc?oc=5\" target=\"_blank\">Rouble\u2019s strength piles pressure on Russian war economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTVg1WFhja05FVEZJck85OWZyRlFQTzR6Mnk4aTQyQjNqTVhaNnEzLWVHQTNLV3NUakgxMTNabzBxSm90ZW10TVExdVhqSXVVemM5Z3hqcFQ3eUlpdWN3el9jQVVIWXdoZE1CTF9JX2V6eHkwV3p5dXBvTlIwWHpwWmZEazc?oc=5",
+      "source": "Google Macro",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-29T01:31:26.897784Z"
+    },
+    {
+      "id": "56b1c216959545a487db90e506f27397",
+      "title": "Musk\u2019s tweet undermines SpaceX\u2019s claims about Anthropic data centre deal",
+      "summary": "Billionaire says the arrangement, described in IPO filings as a three-year agreement, only lasts for 180 days",
+      "link": "https://www.ft.com/content/7df0906c-6d9b-4440-b94e-65af0a785f7b",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-29T01:30:40.871688Z"
+    },
+    {
+      "id": "c6eedba499a1ce3dd881e817f4709245",
+      "title": "What Everyone is Missing About North Korea\u2019s Reunification Strategy",
+      "summary": "<p>When news broke that North Korea had revised its constitution, analysts in the West and across the Korean Peninsula rushed to declare it the formal death of Korean reunification as a policy objective. The changes were hard to ignore. Pyongyang stripped all references to a unified Korean nation, codified a territorial clause treating the Republic of Korea as a separate foreign state, vested direct nuclear weapons authority in Kim Jong-un personally, and concentrated near-absolute executive power in the supreme leader alone. On the surface, it looked like the official burial of seven decades of unification ideology.That reading is seductive. It&#8217;s</p>\n<p>The post <a href=\"https://warontherocks.com/what-everyone-is-missing-about-north-koreas-reunification-strategy/\">What Everyone is Missing About North Korea\u2019s Reunification Strategy</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/what-everyone-is-missing-about-north-koreas-reunification-strategy/",
+      "source": "War on the Rocks",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-29T01:31:23.267940Z"
+    },
+    {
+      "id": "ca30fb7649dd4de97142c63636a70527",
+      "title": "EU to broaden import quotas and tariffs against China - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNS0w3N3NVYnVCU295U2t4SThEcVJyMjdOMDhmZWlxT2FiZ0N6cDQ3dDRxeF94ZEZWTTRIVktURDVMekZlaEUwandvSjdfNzFlQ3pTYXpBY05pRGoxMEFvalREeV94YTdhWE1JaHA1ZFBxdUFzR0lfZURPUkNVNVdpZG9WanA?oc=5\" target=\"_blank\">EU to broaden import quotas and tariffs against China</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS0w3N3NVYnVCU295U2t4SThEcVJyMjdOMDhmZWlxT2FiZ0N6cDQ3dDRxeF94ZEZWTTRIVktURDVMekZlaEUwandvSjdfNzFlQ3pTYXpBY05pRGoxMEFvalREeV94YTdhWE1JaHA1ZFBxdUFzR0lfZURPUkNVNVdpZG9WanA?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA",
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-29T01:31:26.897853Z"
+    },
+    {
+      "id": "132cda62d1433dde3a0452d472bde394",
+      "title": "Mosquitoes can learn to love common repellent, scientists find",
+      "summary": "The results were found \"under very specific conditions\" in the lab and do not \"call into question the effectiveness\" of the repellent DEET, the lead study author said.",
+      "link": "https://www.japantimes.co.jp/news/2026/05/29/world/science-health/mosquito-repellent-experiment/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-29T01:31:07.264974Z"
+    },
+    {
+      "id": "d7d7a982152820554dc5f9180d5b3da3",
+      "title": "Naomi Osaka says Serena Williams\u2019 rumored return would be \u2019entertaining\u2019",
+      "summary": "The 44-year-old has not played since a third-round loss at the 2022 U.S. Open.",
+      "link": "https://www.japantimes.co.jp/sports/2026/05/29/tennis/naomi-osaka-serena-return/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-29T01:31:07.265031Z"
     }
   ],
   "alerts": [
     {
-      "id": "67fdf7d01151388c2260af9b85ad12a5",
-      "title": "Oil Edges Lower at Open on Tentative Deal to Extend Iran Truce - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQMnpSdDVManZQTW5NdmNKaVl3RW5zUXBIbWFPV1FXQnMzOUR1ZWhiNDNkdnNoUXJPWlJyRk01WEhGeklJbjBhcmlibjJ4Q0pHV29SYkIzVHlKVkpQOU9CWmdfcDJyM3gzUWY2Y0JmMXFXYWpRRWY2NXhmdDY3bllJSEE1WkFEWGEtWURkc3VmbGZKcnZ2eVA1QzVxT0p5eENETE5vREVQaTBTWmw3QUszLVN1WQ?oc=5\" target=\"_blank\">Oil Edges Lower at Open on Tentative Deal to Extend Iran Truce</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMnpSdDVManZQTW5NdmNKaVl3RW5zUXBIbWFPV1FXQnMzOUR1ZWhiNDNkdnNoUXJPWlJyRk01WEhGeklJbjBhcmlibjJ4Q0pHV29SYkIzVHlKVkpQOU9CWmdfcDJyM3gzUWY2Y0JmMXFXYWpRRWY2NXhmdDY3bllJSEE1WkFEWGEtWURkc3VmbGZKcnZ2eVA1QzVxT0p5eENETE5vREVQaTBTWmw3QUszLVN1WQ?oc=5",
-      "source": "Google Macro",
-      "score": 17,
+      "id": "bd4659f5e64e6da79cacc9d42b458fb8",
+      "title": "Russia conducting daily attacks on UK 'from seabed to cyberspace,' spy chief warns",
+      "summary": "Anne Keast-Butler, director of GCHQ, said Russia's actions have prompted the agency to defend subsea cables and energy pipelines in British waters, disrupt Russian networks smuggling sanctioned technology and countering \u201creckless sabotage and assassination attempts.\u201d",
+      "link": "https://therecord.media/russia-conducting-attacks-on-uk-gchq-briefing",
+      "source": "The Record",
+      "score": 22,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
-      "tickers": [
-        "WTI"
-      ],
+      "tickers": [],
       "regions": [
-        "MIDDLE_EAST"
+        "RUSSIA",
+        "UK"
       ],
       "assets": [
-        "COMMODITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -79,7 +273,203 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-05-29T01:26:04.885656Z"
+      "published": "2026-05-29T01:31:24.876948Z"
+    },
+    {
+      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
+      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
+      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
+      "source": "CISA",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-29T01:31:25.107307Z"
+    },
+    {
+      "id": "564e16257ea7964a1bbb001d2cda2289",
+      "title": "Rouble\u2019s strength piles pressure on Russian war economy - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNTVg1WFhja05FVEZJck85OWZyRlFQTzR6Mnk4aTQyQjNqTVhaNnEzLWVHQTNLV3NUakgxMTNabzBxSm90ZW10TVExdVhqSXVVemM5Z3hqcFQ3eUlpdWN3el9jQVVIWXdoZE1CTF9JX2V6eHkwV3p5dXBvTlIwWHpwWmZEazc?oc=5\" target=\"_blank\">Rouble\u2019s strength piles pressure on Russian war economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTVg1WFhja05FVEZJck85OWZyRlFQTzR6Mnk4aTQyQjNqTVhaNnEzLWVHQTNLV3NUakgxMTNabzBxSm90ZW10TVExdVhqSXVVemM5Z3hqcFQ3eUlpdWN3el9jQVVIWXdoZE1CTF9JX2V6eHkwV3p5dXBvTlIwWHpwWmZEazc?oc=5",
+      "source": "Google Macro",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-29T01:31:26.897784Z"
+    },
+    {
+      "id": "56b1c216959545a487db90e506f27397",
+      "title": "Musk\u2019s tweet undermines SpaceX\u2019s claims about Anthropic data centre deal",
+      "summary": "Billionaire says the arrangement, described in IPO filings as a three-year agreement, only lasts for 180 days",
+      "link": "https://www.ft.com/content/7df0906c-6d9b-4440-b94e-65af0a785f7b",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-29T01:30:40.871688Z"
+    },
+    {
+      "id": "c6eedba499a1ce3dd881e817f4709245",
+      "title": "What Everyone is Missing About North Korea\u2019s Reunification Strategy",
+      "summary": "<p>When news broke that North Korea had revised its constitution, analysts in the West and across the Korean Peninsula rushed to declare it the formal death of Korean reunification as a policy objective. The changes were hard to ignore. Pyongyang stripped all references to a unified Korean nation, codified a territorial clause treating the Republic of Korea as a separate foreign state, vested direct nuclear weapons authority in Kim Jong-un personally, and concentrated near-absolute executive power in the supreme leader alone. On the surface, it looked like the official burial of seven decades of unification ideology.That reading is seductive. It&#8217;s</p>\n<p>The post <a href=\"https://warontherocks.com/what-everyone-is-missing-about-north-koreas-reunification-strategy/\">What Everyone is Missing About North Korea\u2019s Reunification Strategy</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/what-everyone-is-missing-about-north-koreas-reunification-strategy/",
+      "source": "War on the Rocks",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-29T01:31:23.267940Z"
+    },
+    {
+      "id": "ca30fb7649dd4de97142c63636a70527",
+      "title": "EU to broaden import quotas and tariffs against China - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNS0w3N3NVYnVCU295U2t4SThEcVJyMjdOMDhmZWlxT2FiZ0N6cDQ3dDRxeF94ZEZWTTRIVktURDVMekZlaEUwandvSjdfNzFlQ3pTYXpBY05pRGoxMEFvalREeV94YTdhWE1JaHA1ZFBxdUFzR0lfZURPUkNVNVdpZG9WanA?oc=5\" target=\"_blank\">EU to broaden import quotas and tariffs against China</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS0w3N3NVYnVCU295U2t4SThEcVJyMjdOMDhmZWlxT2FiZ0N6cDQ3dDRxeF94ZEZWTTRIVktURDVMekZlaEUwandvSjdfNzFlQ3pTYXpBY05pRGoxMEFvalREeV94YTdhWE1JaHA1ZFBxdUFzR0lfZURPUkNVNVdpZG9WanA?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA",
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-29T01:31:26.897853Z"
+    },
+    {
+      "id": "132cda62d1433dde3a0452d472bde394",
+      "title": "Mosquitoes can learn to love common repellent, scientists find",
+      "summary": "The results were found \"under very specific conditions\" in the lab and do not \"call into question the effectiveness\" of the repellent DEET, the lead study author said.",
+      "link": "https://www.japantimes.co.jp/news/2026/05/29/world/science-health/mosquito-repellent-experiment/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-29T01:31:07.264974Z"
+    },
+    {
+      "id": "d7d7a982152820554dc5f9180d5b3da3",
+      "title": "Naomi Osaka says Serena Williams\u2019 rumored return would be \u2019entertaining\u2019",
+      "summary": "The 44-year-old has not played since a third-round loss at the 2022 U.S. Open.",
+      "link": "https://www.japantimes.co.jp/sports/2026/05/29/tennis/naomi-osaka-serena-return/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-05-29T01:31:07.265031Z"
     }
   ]
 }
