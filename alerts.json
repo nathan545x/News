@@ -1,57 +1,104 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-05-31T12:56:00.526669Z",
+  "generated_at": "2026-05-31T13:01:25.392019Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 1,
-    "last_updated": "2026-05-31T12:56:00.526684Z"
+    "last_updated": "2026-05-31T13:01:25.392032Z"
   },
   "top_signals": [
     {
-      "id": "c908704daad99ab3aeb540f8974a2e79",
-      "title": "Jefferson, Global Economic Developments and the U.S. Economy",
-      "summary": "Speech At the 2026 Bank of Japan-Institute for Monetary and Economic Studies Conference, Tokyo, Japan",
-      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm",
-      "source": "Federal Reserve",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "34cac182fae97df34f8a24cd65069b6a",
+      "title": "Russia overspends on Putin\u2019s war in Ukraine by $28bn - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQLUk1SWFaZ2llNDlfRUdOZ21GVlpTX1hWcjJBTVVPaXp3Y0lmclZ6eUhnREhkZWdlTVJManE2aHBRT05lSzh5LWJMQnk0UC1rLURfRVVYLUc0WGZzZmpSX1ExeVJKLVdyU1ZNcTkxY1FBR0wzZW05NldrcTRmbnQ4aVlCMG0?oc=5\" target=\"_blank\">Russia overspends on Putin\u2019s war in Ukraine by $28bn</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQLUk1SWFaZ2llNDlfRUdOZ21GVlpTX1hWcjJBTVVPaXp3Y0lmclZ6eUhnREhkZWdlTVJManE2aHBRT05lSzh5LWJMQnk0UC1rLURfRVVYLUc0WGZzZmpSX1ExeVJKLVdyU1ZNcTkxY1FBR0wzZW05NldrcTRmbnQ4aVlCMG0?oc=5",
+      "source": "Google Macro",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
       ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-05-31T12:55:26.438564Z"
-    },
-    {
-      "id": "cacae2f01dc34356bf52fb57d1674c44",
-      "title": "Tokens or humans? The new corporate trade-off",
-      "summary": "AI is costing far more than companies expected, forcing CFOs into a new trade-off between tokens and humans and posing a risk the market hasn't priced in.",
-      "link": "https://www.cnbc.com/2026/05/29/-tokens-or-humans-the-new-corporate-trade-off.html",
-      "source": "CNBC",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
       "assets": [
         "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-31T13:01:24.218192Z"
+    },
+    {
+      "id": "920e2c869df727f6cfcf99d318d69e41",
+      "title": "Statement by President von der Leyen with Hungarian Prime Minister Magyar",
+      "summary": "European Commission Statement Brussels, 29 May 2026 Prime Minister Magyar, dear P\u00e9ter,\nA very warm welcome to Brussels. The 12 April will stay in our memory for a very long time. On that day, the Hungarian people...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1200",
+      "source": "European Commission",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR",
+        "JPY"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-31T13:01:05.554866Z"
+    },
+    {
+      "id": "608fae8ca9c231455e2ef647aafef217",
+      "title": "SoftBank pledges \u20ac75bn to build Europe\u2019s biggest AI facility in France",
+      "summary": "Masayoshi Son places France at the centre of his global AI ambitions",
+      "link": "https://www.ft.com/content/1022f9bd-5b6d-44a5-9303-c8b05b8c6463",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "FRANCE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
@@ -62,29 +109,115 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-05-31T12:55:26.183003Z"
+      "published": "2026-05-31T13:00:48.861248Z"
     },
     {
-      "id": "3edf31d00fdc40239f1d2acd815e36c7",
-      "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-      "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
+      "id": "833584b587a9ae5a0525e894e32ac6ae",
+      "title": "US general holds rare meeting with Cuban military officials near Guantanamo Bay",
+      "summary": "The meeting is the first in recent memory by a head of U.S. Southern Command and comes amid growing concerns in Cuba of a possible U.S. military attack.",
+      "link": "https://www.defensenews.com/news/your-military/2026/05/30/us-general-holds-rare-meeting-with-cuban-military-officials-near-guantanamo-bay/",
+      "source": "Defense News",
+      "score": 12,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-05-31T12:55:26.317434Z"
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-31T13:01:20.146305Z"
     },
     {
-      "id": "ac2ab3a1f85c498f6832a197f55ee69a",
-      "title": "Durex sales hit by China\u2019s condom crackdown - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQdHFtVnl6TV9hSkl5bG5QZ3ZrdVJoYVZ3TWpxblh0LTV3b2hfWmJDUnpNMkxnYnpHckljRWN0U0lZcG1vSHNWY3UwODFzd0V6N2o0WVllSDd0WDZuYWZlbmtBR0JwWEk1c2hzRzItNkMxZ0oydkZqbzQ5aC1zXzdEN1BKSEM?oc=5\" target=\"_blank\">Durex sales hit by China\u2019s condom crackdown</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdHFtVnl6TV9hSkl5bG5QZ3ZrdVJoYVZ3TWpxblh0LTV3b2hfWmJDUnpNMkxnYnpHckljRWN0U0lZcG1vSHNWY3UwODFzd0V6N2o0WVllSDd0WDZuYWZlbmtBR0JwWEk1c2hzRzItNkMxZ0oydkZqbzQ5aC1zXzdEN1BKSEM?oc=5",
+      "id": "c58e252d985547922e92fd62c59a5c55",
+      "title": "Bitcoin's wild days are over \u2014 and Trace Mayer says that's a good thing",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/05/28/dnp-trace-mayer-bitcoin-s-volatility-compression-is-a-sign-of-maturity-not-weakness",
+      "source": "CoinDesk",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-05-31T13:01:21.347171Z"
+    },
+    {
+      "id": "70fdc5557bf904e3fa1b33de4696c3c2",
+      "title": "Venezuelans Back Dollarization to Rein in 600% Inflation Rate - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQUHFYeGVZTGZjNC0wdFJXVHhOM203WUx1ZmlzVWs0akNqMktpRFhDazB0LWo4QlN6czBHSUxQYnl2Q3BmWmJVU044SnUzenJMYWJOODFGUFJZUTJ3cjh3VF9KVi1NVGVEeDFOWEVBNEZDMUlYUUY4M0RHZ1ZaSi16d1hwaXdsVTZXNWVDc3lxVFhzUUNLS2F6UzB3NUlaM0tYcFdfZ1pJMmtkUFRCOFBoNQ?oc=5\" target=\"_blank\">Venezuelans Back Dollarization to Rein in 600% Inflation Rate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUHFYeGVZTGZjNC0wdFJXVHhOM203WUx1ZmlzVWs0akNqMktpRFhDazB0LWo4QlN6czBHSUxQYnl2Q3BmWmJVU044SnUzenJMYWJOODFGUFJZUTJ3cjh3VF9KVi1NVGVEeDFOWEVBNEZDMUlYUUY4M0RHZ1ZaSi16d1hwaXdsVTZXNWVDc3lxVFhzUUNLS2F6UzB3NUlaM0tYcFdfZ1pJMmtkUFRCOFBoNQ?oc=5",
+      "source": "Google Macro",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-05-31T13:01:23.037615Z"
+    },
+    {
+      "id": "b336f95adbab808f1348740595a0bde4",
+      "title": "Japan's otaku culture takes off in Manila with CyberAgent festival",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/media-entertainment/japan-s-otaku-culture-takes-off-in-manila-with-cyberagent-festival",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-31T13:01:11.842150Z"
+    },
+    {
+      "id": "961788ba47afbd160740165b4a67f07c",
+      "title": "China\u2019s activewear boom puts spring in foreign brands\u2019 step - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPcU9EMkkzeDlpQkNaT0ljZzhfbVdtYi1hZnZ4WUpvYXdGaEpQNlRPVG9LcFY1T2xYNVhDa0sycVBsbTZqWXdsaFNCcGRIRXl0NV9odXY1QU1ZZy10SDJBRXVBZUw1dnRZMGJERFNXblFFUzU1U2pNRmE5V2kzYnFpQnVkQ1U?oc=5\" target=\"_blank\">China\u2019s activewear boom puts spring in foreign brands\u2019 step</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcU9EMkkzeDlpQkNaT0ljZzhfbVdtYi1hZnZ4WUpvYXdGaEpQNlRPVG9LcFY1T2xYNVhDa0sycVBsbTZqWXdsaFNCcGRIRXl0NV9odXY1QU1ZZy10SDJBRXVBZUw1dnRZMGJERFNXblFFUzU1U2pNRmE5V2kzYnFpQnVkQ1U?oc=5",
       "source": "Google Macro",
       "score": 7,
       "severity": "LOW",
@@ -108,51 +241,98 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-05-31T12:55:59.363896Z"
+      "published": "2026-05-31T13:01:24.218095Z"
     }
   ],
   "alerts": [
     {
-      "id": "c908704daad99ab3aeb540f8974a2e79",
-      "title": "Jefferson, Global Economic Developments and the U.S. Economy",
-      "summary": "Speech At the 2026 Bank of Japan-Institute for Monetary and Economic Studies Conference, Tokyo, Japan",
-      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm",
-      "source": "Federal Reserve",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "34cac182fae97df34f8a24cd65069b6a",
+      "title": "Russia overspends on Putin\u2019s war in Ukraine by $28bn - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQLUk1SWFaZ2llNDlfRUdOZ21GVlpTX1hWcjJBTVVPaXp3Y0lmclZ6eUhnREhkZWdlTVJManE2aHBRT05lSzh5LWJMQnk0UC1rLURfRVVYLUc0WGZzZmpSX1ExeVJKLVdyU1ZNcTkxY1FBR0wzZW05NldrcTRmbnQ4aVlCMG0?oc=5\" target=\"_blank\">Russia overspends on Putin\u2019s war in Ukraine by $28bn</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQLUk1SWFaZ2llNDlfRUdOZ21GVlpTX1hWcjJBTVVPaXp3Y0lmclZ6eUhnREhkZWdlTVJManE2aHBRT05lSzh5LWJMQnk0UC1rLURfRVVYLUc0WGZzZmpSX1ExeVJKLVdyU1ZNcTkxY1FBR0wzZW05NldrcTRmbnQ4aVlCMG0?oc=5",
+      "source": "Google Macro",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
       ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-05-31T12:55:26.438564Z"
-    },
-    {
-      "id": "cacae2f01dc34356bf52fb57d1674c44",
-      "title": "Tokens or humans? The new corporate trade-off",
-      "summary": "AI is costing far more than companies expected, forcing CFOs into a new trade-off between tokens and humans and posing a risk the market hasn't priced in.",
-      "link": "https://www.cnbc.com/2026/05/29/-tokens-or-humans-the-new-corporate-trade-off.html",
-      "source": "CNBC",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
       "assets": [
         "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-31T13:01:24.218192Z"
+    },
+    {
+      "id": "920e2c869df727f6cfcf99d318d69e41",
+      "title": "Statement by President von der Leyen with Hungarian Prime Minister Magyar",
+      "summary": "European Commission Statement Brussels, 29 May 2026 Prime Minister Magyar, dear P\u00e9ter,\nA very warm welcome to Brussels. The 12 April will stay in our memory for a very long time. On that day, the Hungarian people...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1200",
+      "source": "European Commission",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR",
+        "JPY"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-31T13:01:05.554866Z"
+    },
+    {
+      "id": "608fae8ca9c231455e2ef647aafef217",
+      "title": "SoftBank pledges \u20ac75bn to build Europe\u2019s biggest AI facility in France",
+      "summary": "Masayoshi Son places France at the centre of his global AI ambitions",
+      "link": "https://www.ft.com/content/1022f9bd-5b6d-44a5-9303-c8b05b8c6463",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "FRANCE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
@@ -163,29 +343,115 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-05-31T12:55:26.183003Z"
+      "published": "2026-05-31T13:00:48.861248Z"
     },
     {
-      "id": "3edf31d00fdc40239f1d2acd815e36c7",
-      "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-      "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
+      "id": "833584b587a9ae5a0525e894e32ac6ae",
+      "title": "US general holds rare meeting with Cuban military officials near Guantanamo Bay",
+      "summary": "The meeting is the first in recent memory by a head of U.S. Southern Command and comes amid growing concerns in Cuba of a possible U.S. military attack.",
+      "link": "https://www.defensenews.com/news/your-military/2026/05/30/us-general-holds-rare-meeting-with-cuban-military-officials-near-guantanamo-bay/",
+      "source": "Defense News",
+      "score": 12,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-05-31T12:55:26.317434Z"
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-05-31T13:01:20.146305Z"
     },
     {
-      "id": "ac2ab3a1f85c498f6832a197f55ee69a",
-      "title": "Durex sales hit by China\u2019s condom crackdown - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQdHFtVnl6TV9hSkl5bG5QZ3ZrdVJoYVZ3TWpxblh0LTV3b2hfWmJDUnpNMkxnYnpHckljRWN0U0lZcG1vSHNWY3UwODFzd0V6N2o0WVllSDd0WDZuYWZlbmtBR0JwWEk1c2hzRzItNkMxZ0oydkZqbzQ5aC1zXzdEN1BKSEM?oc=5\" target=\"_blank\">Durex sales hit by China\u2019s condom crackdown</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdHFtVnl6TV9hSkl5bG5QZ3ZrdVJoYVZ3TWpxblh0LTV3b2hfWmJDUnpNMkxnYnpHckljRWN0U0lZcG1vSHNWY3UwODFzd0V6N2o0WVllSDd0WDZuYWZlbmtBR0JwWEk1c2hzRzItNkMxZ0oydkZqbzQ5aC1zXzdEN1BKSEM?oc=5",
+      "id": "c58e252d985547922e92fd62c59a5c55",
+      "title": "Bitcoin's wild days are over \u2014 and Trace Mayer says that's a good thing",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/05/28/dnp-trace-mayer-bitcoin-s-volatility-compression-is-a-sign-of-maturity-not-weakness",
+      "source": "CoinDesk",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-05-31T13:01:21.347171Z"
+    },
+    {
+      "id": "70fdc5557bf904e3fa1b33de4696c3c2",
+      "title": "Venezuelans Back Dollarization to Rein in 600% Inflation Rate - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQUHFYeGVZTGZjNC0wdFJXVHhOM203WUx1ZmlzVWs0akNqMktpRFhDazB0LWo4QlN6czBHSUxQYnl2Q3BmWmJVU044SnUzenJMYWJOODFGUFJZUTJ3cjh3VF9KVi1NVGVEeDFOWEVBNEZDMUlYUUY4M0RHZ1ZaSi16d1hwaXdsVTZXNWVDc3lxVFhzUUNLS2F6UzB3NUlaM0tYcFdfZ1pJMmtkUFRCOFBoNQ?oc=5\" target=\"_blank\">Venezuelans Back Dollarization to Rein in 600% Inflation Rate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUHFYeGVZTGZjNC0wdFJXVHhOM203WUx1ZmlzVWs0akNqMktpRFhDazB0LWo4QlN6czBHSUxQYnl2Q3BmWmJVU044SnUzenJMYWJOODFGUFJZUTJ3cjh3VF9KVi1NVGVEeDFOWEVBNEZDMUlYUUY4M0RHZ1ZaSi16d1hwaXdsVTZXNWVDc3lxVFhzUUNLS2F6UzB3NUlaM0tYcFdfZ1pJMmtkUFRCOFBoNQ?oc=5",
+      "source": "Google Macro",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-05-31T13:01:23.037615Z"
+    },
+    {
+      "id": "b336f95adbab808f1348740595a0bde4",
+      "title": "Japan's otaku culture takes off in Manila with CyberAgent festival",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/media-entertainment/japan-s-otaku-culture-takes-off-in-manila-with-cyberagent-festival",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-05-31T13:01:11.842150Z"
+    },
+    {
+      "id": "961788ba47afbd160740165b4a67f07c",
+      "title": "China\u2019s activewear boom puts spring in foreign brands\u2019 step - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPcU9EMkkzeDlpQkNaT0ljZzhfbVdtYi1hZnZ4WUpvYXdGaEpQNlRPVG9LcFY1T2xYNVhDa0sycVBsbTZqWXdsaFNCcGRIRXl0NV9odXY1QU1ZZy10SDJBRXVBZUw1dnRZMGJERFNXblFFUzU1U2pNRmE5V2kzYnFpQnVkQ1U?oc=5\" target=\"_blank\">China\u2019s activewear boom puts spring in foreign brands\u2019 step</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcU9EMkkzeDlpQkNaT0ljZzhfbVdtYi1hZnZ4WUpvYXdGaEpQNlRPVG9LcFY1T2xYNVhDa0sycVBsbTZqWXdsaFNCcGRIRXl0NV9odXY1QU1ZZy10SDJBRXVBZUw1dnRZMGJERFNXblFFUzU1U2pNRmE5V2kzYnFpQnVkQ1U?oc=5",
       "source": "Google Macro",
       "score": 7,
       "severity": "LOW",
@@ -209,7 +475,7 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-05-31T12:55:59.363896Z"
+      "published": "2026-05-31T13:01:24.218095Z"
     }
   ]
 }
