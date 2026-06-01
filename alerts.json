@@ -1,54 +1,57 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-01T09:16:11.222245Z",
+  "generated_at": "2026-06-01T09:21:15.710743Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 0,
-    "last_updated": "2026-06-01T09:16:11.222258Z"
+    "last_updated": "2026-06-01T09:21:15.710758Z"
   },
   "top_signals": [
     {
-      "id": "7ad6b2e8fa6befab0d2e9ced0b3bacaf",
-      "title": "Edinburgh researchers license tech to extract gold and copper from electronic waste",
-      "summary": "Lithium Universe will deploy and sub\u2011license the technology globally as part of its expanding precious metals recycling strategy.",
-      "link": "https://www.mining.com/edinburgh-researchers-license-tech-to-extract-gold-and-copper-from-electronic-waste/",
-      "source": "Mining.com",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
+      "id": "d0bdb5942fddab742bc7d6db8a3ca9d3",
+      "title": "Oil prices climb over 3% as U.S.-Iran talks at impasse, Israel expands Lebanon offensive",
+      "summary": "Oil prices rose on Monday after Israel instructed troops to push deeper into Lebanon amid renewed clashes with the Iran-backed Hezbollah group.",
+      "link": "https://www.cnbc.com/2026/06/01/oil-prices-wti-brent-crude-israel-lebanon-hezbollah-iran-trump-us.html",
+      "source": "CNBC",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "COPPER",
-        "XAU"
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-01T09:16:05.254224Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-01T09:20:38.577566Z"
     },
     {
-      "id": "472683614a692fa13914fe7592a6b587",
-      "title": "Retail had a 'surprisingly robust' first quarter, but the real test is ahead as tax refunds dry up",
-      "summary": "The retail industry saw strong first-quarter sales and profits, but high tax refunds and buy now, pay later helped mask underlying consumer weakness.",
-      "link": "https://www.cnbc.com/2026/06/01/q1-2026-retail-earnings-tax-refunds-bnpl.html",
-      "source": "CNBC",
-      "score": 10,
+      "id": "8a3a8789e5ac16915acbba9fd03f6347",
+      "title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
+      "summary": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
+      "source": "Federal Reserve",
+      "score": 14,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
@@ -65,48 +68,94 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-01T09:15:39.532651Z"
+      "published": "2026-06-01T09:20:39.210134Z"
+    },
+    {
+      "id": "139ca8a975e2c22919719ea8a5da72ea",
+      "title": "Vietnam Touts IP Crackdown Results After US Launches New Probe",
+      "summary": "Vietnam\u2019s government touted the results of a sweeping crackdown on intellectual property violations after the US launched a fresh trade investigation, even as counterfeit items remain easily accessible across the country\u2019s street markets.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-01/vietnam-touts-ip-crackdown-results-after-us-launches-new-probe",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-01T09:20:34.023442Z"
+    },
+    {
+      "id": "d67480ea59c74883de084af56d1312fd",
+      "title": "Waller, Policy Risks Have Changed",
+      "summary": "Speech At The Centre for Central Banking Guest Lecture, Frankfurt School of Finance and Management, Frankfurt, Germany",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260522a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "GERMANY"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-01T09:20:39.380991Z"
     }
   ],
   "alerts": [
     {
-      "id": "7ad6b2e8fa6befab0d2e9ced0b3bacaf",
-      "title": "Edinburgh researchers license tech to extract gold and copper from electronic waste",
-      "summary": "Lithium Universe will deploy and sub\u2011license the technology globally as part of its expanding precious metals recycling strategy.",
-      "link": "https://www.mining.com/edinburgh-researchers-license-tech-to-extract-gold-and-copper-from-electronic-waste/",
-      "source": "Mining.com",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
+      "id": "d0bdb5942fddab742bc7d6db8a3ca9d3",
+      "title": "Oil prices climb over 3% as U.S.-Iran talks at impasse, Israel expands Lebanon offensive",
+      "summary": "Oil prices rose on Monday after Israel instructed troops to push deeper into Lebanon amid renewed clashes with the Iran-backed Hezbollah group.",
+      "link": "https://www.cnbc.com/2026/06/01/oil-prices-wti-brent-crude-israel-lebanon-hezbollah-iran-trump-us.html",
+      "source": "CNBC",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "COPPER",
-        "XAU"
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-01T09:16:05.254224Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-01T09:20:38.577566Z"
     },
     {
-      "id": "472683614a692fa13914fe7592a6b587",
-      "title": "Retail had a 'surprisingly robust' first quarter, but the real test is ahead as tax refunds dry up",
-      "summary": "The retail industry saw strong first-quarter sales and profits, but high tax refunds and buy now, pay later helped mask underlying consumer weakness.",
-      "link": "https://www.cnbc.com/2026/06/01/q1-2026-retail-earnings-tax-refunds-bnpl.html",
-      "source": "CNBC",
-      "score": 10,
+      "id": "8a3a8789e5ac16915acbba9fd03f6347",
+      "title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
+      "summary": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
+      "source": "Federal Reserve",
+      "score": 14,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
@@ -123,7 +172,50 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-01T09:15:39.532651Z"
+      "published": "2026-06-01T09:20:39.210134Z"
+    },
+    {
+      "id": "139ca8a975e2c22919719ea8a5da72ea",
+      "title": "Vietnam Touts IP Crackdown Results After US Launches New Probe",
+      "summary": "Vietnam\u2019s government touted the results of a sweeping crackdown on intellectual property violations after the US launched a fresh trade investigation, even as counterfeit items remain easily accessible across the country\u2019s street markets.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-01/vietnam-touts-ip-crackdown-results-after-us-launches-new-probe",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-01T09:20:34.023442Z"
+    },
+    {
+      "id": "d67480ea59c74883de084af56d1312fd",
+      "title": "Waller, Policy Risks Have Changed",
+      "summary": "Speech At The Centre for Central Banking Guest Lecture, Frankfurt School of Finance and Management, Frankfurt, Germany",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260522a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "GERMANY"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-01T09:20:39.380991Z"
     }
   ]
 }
