@@ -1,95 +1,409 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-01T05:56:10.109972Z",
+  "generated_at": "2026-06-01T06:01:19.752604Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "COMMODITIES",
+    "dominant_driver": "COMMODITIES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-06-01T05:56:10.109983Z"
+    "critical_alerts": 2,
+    "high_alerts": 3,
+    "last_updated": "2026-06-01T06:01:19.752619Z"
   },
   "top_signals": [
     {
-      "id": "349c0de09a1ed6e447ed00724f8e4c8f",
-      "title": "FTSE 100 Set to Fall and Miss Out on Tech Rally",
-      "summary": "",
-      "link": "https://www.bloomberg.com/news/live-blog/2026-06-01/ftse-100-live-pound-bonds-starmer-nvidia-oil-prices-what-s-moving-uk-markets-right-now-markets-today",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
+      "id": "768faea69894bde51b6d1784c4b0ce21",
+      "title": "ECB\u2019s Schnabel Sees Risk of Unanchored Inflation Views From War - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQSXAzdXc1YklhaVdWdnlLUFI3MWluNGpKMXQzdlN3TzhMVGp2Qm12Yk02VkdmbXcwM1pMNnd3WlJKZVlCR0JGbjlqSXBRY1NfNDFaWXliZDh1OFd3cFJfSXFPU3luRGtINHlUUXNOU3hlTV9rQVlZUF9qa0MxRGJWdTZLYzM5MG5HN2gyVGtzMHRhc0VRTFJOTDhMRjVfdmZVT3g5bjlYVGRQRTlrcEtQWlRYdzk?oc=5\" target=\"_blank\">ECB\u2019s Schnabel Sees Risk of Unanchored Inflation Views From War</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSXAzdXc1YklhaVdWdnlLUFI3MWluNGpKMXQzdlN3TzhMVGp2Qm12Yk02VkdmbXcwM1pMNnd3WlJKZVlCR0JGbjlqSXBRY1NfNDFaWXliZDh1OFd3cFJfSXFPU3luRGtINHlUUXNOU3hlTV9rQVlZUF9qa0MxRGJWdTZLYzM5MG5HN2gyVGtzMHRhc0VRTFJOTDhMRjVfdmZVT3g5bjlYVGRQRTlrcEtQWlRYdzk?oc=5",
+      "source": "Google Macro",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "JGB"
+      ],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-01T05:55:30.509586Z"
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-01T06:01:17.488616Z"
     },
     {
-      "id": "8753e350bec5fd4166f42dc00601f1b9",
-      "title": "The Right Way for Europe to Spend More on Defense",
-      "summary": "America should cofinance the continent\u2019s rearmament.",
-      "link": "https://www.foreignaffairs.com/united-states/right-way-europe-spend-more-defense",
-      "source": "Foreign Affairs",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "192dfb2eaaa9f7bd8bdfeb3855b741e4",
+      "title": "France Boards Another Tanker Tied to Russian Oil Trade",
+      "summary": "France\u2019s navy boarded another oil tanker on the high seas after it sailed from Russia, the latest move in a global crackdown on shadow-fleet vessels used to export sanctioned crude.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-01/france-boards-another-tanker-tied-to-russian-oil-trade",
+      "source": "Bloomberg",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "FRANCE",
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-01T06:00:45.397573Z"
+    },
+    {
+      "id": "601654478f03ba699e4eee7e446de149",
+      "title": "SoftBank plans 75 billion euros of AI investments in France, as Europe struggles to catch up with U.S. and China",
+      "summary": "The Japanese tech giant plans to develop and operate 5 GW of AI data center capacity in France, with an initial 3.1 GW of facilities in the country's north.",
+      "link": "https://www.cnbc.com/2026/05/31/softbank-to-build-up-ai-data-centers-in-france-with-major-investment.html",
+      "source": "CNBC",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "AI",
       "tickers": [
         "EUR"
       ],
       "regions": [
+        "CHINA",
         "EUROPE",
-        "US"
+        "FRANCE",
+        "JAPAN"
       ],
       "assets": [
+        "AI",
         "FX"
       ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-01T05:56:06.012048Z"
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-01T06:00:49.272897Z"
+    },
+    {
+      "id": "a51b7b48b8e65f80a178f90c91046386",
+      "title": "Israel Expands Operation in Lebanon",
+      "summary": "Israel expanded its ground assault in Lebanon with its broadest incursion into the country in a quarter-century as Hezbollah stepped up attacks on Israel\u2019s north. On Sunday, Defense Minister Israel Katz said the IDF had planted a flag on the historic Beaufort castle near Nabatieh, and that the expansion amounted to \u201ca permanent presence\u201d in the region. Bloomberg's Dana Khraiche reports. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-01/israel-expands-operation-in-lebanon-video",
+      "source": "Bloomberg",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-01T06:00:45.397506Z"
+    },
+    {
+      "id": "4a1821fe2e950476e6f1d45f4b4f0b1e",
+      "title": "Goldman Sachs Sees Oil Demand Destruction Offsetting Supply Shock Risks",
+      "summary": "Demand destruction resulting from higher prices will somewhat soften the blow from physically tighter oil markets, Goldman Sachs commodity analysts said in a note. \u201cWe see significant upside price risks from potentially more persistent Mideast supply losses but also meaningful price downside from weaker demand,\u201d the team said, as quoted by Bloomberg. \u201cActual end-use oil demand may have fallen more in response to higher prices than expected.\u201d The investment bank\u2019s analysts estimate that the extent of demand destruction\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Sees-Oil-Demand-Destruction-Offsetting-Supply-Shock-Risks.html",
+      "source": "OilPrice",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI",
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-01T06:01:14.319038Z"
+    },
+    {
+      "id": "dd71e0f3131133982a0e2a705fb15905",
+      "title": "European defense stocks are cooling off after the military spending boom. Here's what's next",
+      "summary": "Analysts see 2026 as a period of consolidation for the sector, as excitement over Europe's increased defense budget is replaced by company-specific drivers.",
+      "link": "https://www.cnbc.com/2026/05/30/defense-stocks-consolidation-rheinmetall-saab-renk.html",
+      "source": "CNBC",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "EQUITIES",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-01T06:00:49.272965Z"
     }
   ],
   "alerts": [
     {
-      "id": "349c0de09a1ed6e447ed00724f8e4c8f",
-      "title": "FTSE 100 Set to Fall and Miss Out on Tech Rally",
-      "summary": "",
-      "link": "https://www.bloomberg.com/news/live-blog/2026-06-01/ftse-100-live-pound-bonds-starmer-nvidia-oil-prices-what-s-moving-uk-markets-right-now-markets-today",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
+      "id": "768faea69894bde51b6d1784c4b0ce21",
+      "title": "ECB\u2019s Schnabel Sees Risk of Unanchored Inflation Views From War - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQSXAzdXc1YklhaVdWdnlLUFI3MWluNGpKMXQzdlN3TzhMVGp2Qm12Yk02VkdmbXcwM1pMNnd3WlJKZVlCR0JGbjlqSXBRY1NfNDFaWXliZDh1OFd3cFJfSXFPU3luRGtINHlUUXNOU3hlTV9rQVlZUF9qa0MxRGJWdTZLYzM5MG5HN2gyVGtzMHRhc0VRTFJOTDhMRjVfdmZVT3g5bjlYVGRQRTlrcEtQWlRYdzk?oc=5\" target=\"_blank\">ECB\u2019s Schnabel Sees Risk of Unanchored Inflation Views From War</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSXAzdXc1YklhaVdWdnlLUFI3MWluNGpKMXQzdlN3TzhMVGp2Qm12Yk02VkdmbXcwM1pMNnd3WlJKZVlCR0JGbjlqSXBRY1NfNDFaWXliZDh1OFd3cFJfSXFPU3luRGtINHlUUXNOU3hlTV9rQVlZUF9qa0MxRGJWdTZLYzM5MG5HN2gyVGtzMHRhc0VRTFJOTDhMRjVfdmZVT3g5bjlYVGRQRTlrcEtQWlRYdzk?oc=5",
+      "source": "Google Macro",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "JGB"
+      ],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-01T05:55:30.509586Z"
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-01T06:01:17.488616Z"
     },
     {
-      "id": "8753e350bec5fd4166f42dc00601f1b9",
-      "title": "The Right Way for Europe to Spend More on Defense",
-      "summary": "America should cofinance the continent\u2019s rearmament.",
-      "link": "https://www.foreignaffairs.com/united-states/right-way-europe-spend-more-defense",
-      "source": "Foreign Affairs",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "192dfb2eaaa9f7bd8bdfeb3855b741e4",
+      "title": "France Boards Another Tanker Tied to Russian Oil Trade",
+      "summary": "France\u2019s navy boarded another oil tanker on the high seas after it sailed from Russia, the latest move in a global crackdown on shadow-fleet vessels used to export sanctioned crude.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-01/france-boards-another-tanker-tied-to-russian-oil-trade",
+      "source": "Bloomberg",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "FRANCE",
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-01T06:00:45.397573Z"
+    },
+    {
+      "id": "601654478f03ba699e4eee7e446de149",
+      "title": "SoftBank plans 75 billion euros of AI investments in France, as Europe struggles to catch up with U.S. and China",
+      "summary": "The Japanese tech giant plans to develop and operate 5 GW of AI data center capacity in France, with an initial 3.1 GW of facilities in the country's north.",
+      "link": "https://www.cnbc.com/2026/05/31/softbank-to-build-up-ai-data-centers-in-france-with-major-investment.html",
+      "source": "CNBC",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "AI",
       "tickers": [
         "EUR"
       ],
       "regions": [
+        "CHINA",
         "EUROPE",
-        "US"
+        "FRANCE",
+        "JAPAN"
       ],
       "assets": [
+        "AI",
         "FX"
       ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-01T05:56:06.012048Z"
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-01T06:00:49.272897Z"
+    },
+    {
+      "id": "a51b7b48b8e65f80a178f90c91046386",
+      "title": "Israel Expands Operation in Lebanon",
+      "summary": "Israel expanded its ground assault in Lebanon with its broadest incursion into the country in a quarter-century as Hezbollah stepped up attacks on Israel\u2019s north. On Sunday, Defense Minister Israel Katz said the IDF had planted a flag on the historic Beaufort castle near Nabatieh, and that the expansion amounted to \u201ca permanent presence\u201d in the region. Bloomberg's Dana Khraiche reports. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-01/israel-expands-operation-in-lebanon-video",
+      "source": "Bloomberg",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-01T06:00:45.397506Z"
+    },
+    {
+      "id": "4a1821fe2e950476e6f1d45f4b4f0b1e",
+      "title": "Goldman Sachs Sees Oil Demand Destruction Offsetting Supply Shock Risks",
+      "summary": "Demand destruction resulting from higher prices will somewhat soften the blow from physically tighter oil markets, Goldman Sachs commodity analysts said in a note. \u201cWe see significant upside price risks from potentially more persistent Mideast supply losses but also meaningful price downside from weaker demand,\u201d the team said, as quoted by Bloomberg. \u201cActual end-use oil demand may have fallen more in response to higher prices than expected.\u201d The investment bank\u2019s analysts estimate that the extent of demand destruction\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Sees-Oil-Demand-Destruction-Offsetting-Supply-Shock-Risks.html",
+      "source": "OilPrice",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI",
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-01T06:01:14.319038Z"
+    },
+    {
+      "id": "dd71e0f3131133982a0e2a705fb15905",
+      "title": "European defense stocks are cooling off after the military spending boom. Here's what's next",
+      "summary": "Analysts see 2026 as a period of consolidation for the sector, as excitement over Europe's increased defense budget is replaced by company-specific drivers.",
+      "link": "https://www.cnbc.com/2026/05/30/defense-stocks-consolidation-rheinmetall-saab-renk.html",
+      "source": "CNBC",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "EQUITIES",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-01T06:00:49.272965Z"
     }
   ]
 }
