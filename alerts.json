@@ -1,31 +1,32 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-02T09:06:11.373000Z",
+  "generated_at": "2026-06-02T09:11:09.457269Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 3,
-    "high_alerts": 0,
-    "last_updated": "2026-06-02T09:06:11.373017Z"
+    "critical_alerts": 1,
+    "high_alerts": 3,
+    "last_updated": "2026-06-02T09:11:09.457288Z"
   },
   "top_signals": [
     {
-      "id": "8dc349335aef3cdaa28ff775c8ee6d7c",
-      "title": "Eurozone inflation rises to 3.2% in May as ECB prepares to raise rates",
-      "summary": "Middle East energy shock pushes price growth to highest level in nearly 3 years",
-      "link": "https://www.ft.com/content/9b7b03f2-c71e-4424-855d-f147a0a5d8e5",
-      "source": "Financial Times",
-      "score": 43,
+      "id": "8a11ca16c24264572407b1ede9756fed",
+      "title": "Euro-Zone Inflation Surpasses 3% for First Time Since 2023",
+      "summary": "Euro-area inflation topped 3% for the first time in more than 2 1/2 years, cementing expectations for an interest-rate hike when the European Central Bank meets next week.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-02/euro-zone-inflation-surpasses-3-for-first-time-since-2023",
+      "source": "Bloomberg",
+      "score": 32,
       "severity": "CRITICAL",
       "regime": "RATES",
       "tickers": [
         "EUR"
       ],
-      "regions": [],
+      "regions": [
+        "EUROPE"
+      ],
       "assets": [
-        "AI",
         "FX"
       ],
       "market_impact": {
@@ -40,26 +41,115 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-02T09:05:35.603015Z"
+      "published": "2026-06-02T09:10:35.421271Z"
     },
     {
-      "id": "5628d2007de10277cf041e48635b9523",
-      "title": "Trump claims Israel and Hizbollah agree ceasefire after Iran threats",
-      "summary": "President\u2019s comments come after Tehran said it was suspending peace talks with the US, sending oil prices higher",
-      "link": "https://www.ft.com/content/a4f1e36d-f3a5-4959-b227-133300f01be1",
-      "source": "Financial Times",
-      "score": 35,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "id": "6c7a3046eea15d262623b4bcd9ff330f",
+      "title": "Surging military spending boosts London-listed defence sales",
+      "summary": "<p> <img alt=\"Two London-listed manufacturers defence sales are surging \" src=\"https://www.cityam.com/wp-content/uploads/2026/05/GettyImages-2277572688-e1779792933763.jpg?w=1107\" /> </p>Two London-listed manufacturing contractors are reaping the benefits of a surge in defence spending as the period of geopolitical turmoil boosts sales across the sector. FTSE AIM-listed firm Gooch &#38; Housego\u2019s saw its profits before tax surge by nearly 16 per cent in the first half of the financial year, up to \u00a33.3bn, driven by <a href=\"https://www.cityam.com/surging-military-spending-boosts-london-listed-defence-sales/\">[...]</a>",
+      "link": "https://www.cityam.com/surging-military-spending-boosts-london-listed-defence-sales/",
+      "source": "CityAM",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
       "tickers": [
         "WTI"
       ],
       "regions": [
-        "MIDDLE_EAST"
+        "UK"
       ],
       "assets": [
         "AI",
         "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-02T09:10:56.724652Z"
+    },
+    {
+      "id": "c3095c95923ee1e464167aa5fa42f803",
+      "title": "ECB appoints three Directors General",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260529~2699fd8390.en.html",
+      "source": "ECB",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-02T09:10:49.468031Z"
+    },
+    {
+      "id": "62afe024aad874bddf791dbf8362cbb7",
+      "title": "There's Enough Hydrogen Underground to Power Earth for 170,000 Years",
+      "summary": "Green hydrogen has been hyped as a silver bullet solution to decarbonize hard-to-abate sectors like steelmaking and industrial shipping for decades now. It can be combusted at high heats like fossil fuels, but leaves behind nothing but water vapor when it burns, rather than world-heating greenhouse gas emissions. So why does green hydrogen still represent less than one percent of all hydrogen production in the United States? The simple answer is that producing green hydrogen is expensive, and usually an inefficient use of the clean energy resources\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Theres-Enough-Hydrogen-Underground-to-Power-Earth-for-170000-Years.html",
+      "source": "OilPrice",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "SILVER"
+      ],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-02T09:11:04.270702Z"
+    },
+    {
+      "id": "7a9fae6214d1fb7e61e5d934bc2ed632",
+      "title": "Ukraine Turns the Tide",
+      "summary": "Why a cease-fire is now a real possibility.",
+      "link": "https://www.foreignaffairs.com/ukraine/ukraine-war-turns-tide",
+      "source": "Foreign Affairs",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -75,24 +165,54 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-02T09:05:35.124275Z"
+      "published": "2026-06-02T09:11:05.627545Z"
     },
     {
-      "id": "6cee669cbf7c05487382be56dd9349e3",
-      "title": "Inflation hits 3.2% in the euro zone as Iran war pushes energy costs higher",
-      "summary": "",
-      "link": "https://www.cnbc.com/2026/06/02/inflation-euro-zone-iran-energy-costs.html",
-      "source": "CNBC",
-      "score": 31,
-      "severity": "CRITICAL",
+      "id": "2084795dc8443f6e5402c965e1c1608b",
+      "title": "Bitcoin price falls under $70K as crypto markets liquidate $800M",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin price falls under $70K as crypto markets liquidate $800M\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9iLW1hbi1ncm93dGgtZmFsbGluZy0xLmpwZw==.jpg\" /></p><p>Bitcoin fell to fresh two-month lows as BTC price weakness accelerated and analysis targeted its 200-day moving average trend line.</p>",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-falls-under-70k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-02T09:11:06.252650Z"
+    },
+    {
+      "id": "a24681e19c193ccfb88953c37d03903a",
+      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
+      "summary": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecurity story about how their hosting companies had assumed control over the technical infrastructure of Stark Industries Solutions, an Internet service provider sanctioned last year by the EU as a frequent staging ground for cyber mischief from Russia's intelligence agencies.",
+      "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+      "source": "KrebsOnSecurity",
+      "score": 12,
+      "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [
         "EUR"
       ],
       "regions": [
-        "MIDDLE_EAST"
+        "EUROPE",
+        "RUSSIA"
       ],
       "assets": [
+        "AI",
         "FX"
       ],
       "market_impact": {
@@ -109,47 +229,18 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-02T09:05:36.662953Z"
+      "published": "2026-06-02T09:11:06.547221Z"
     },
     {
-      "id": "f03caf7dfe81d32594f4eb88766ddda0",
-      "title": "India Bargains Hard in Key US, UK Trade Talks This Week",
-      "summary": "India is seeking to safeguard exporters\u2019 interests in trade negotiations with the US and UK this week, with implications for trade deals with two of its major partners.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-02/india-set-to-bargain-hard-in-trade-talks-with-us-uk-this-week",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "8eb27a111cb8dc175e7e7f1b4c0fdf57",
+      "title": "Blackstone closes its largest Asia private equity fund at over $13 billion",
+      "summary": "Blackstone raised $13.1 billion for its latest Asia private equity vehicle, marking the largest private equity fundraise the firm has done in the region.",
+      "link": "https://www.cnbc.com/2026/06/02/blackstone-largest-asia-private-equity-fund.html",
+      "source": "CNBC",
+      "score": 10,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-02T09:05:33.425525Z"
-    },
-    {
-      "id": "96bb756ad8de694bd1936b7db2b047e7",
-      "title": "UBS Offers First AT1 Bond Since Swiss Authorities Paused Reforms",
-      "summary": "UBS Group AG is set to raise Additional Tier 1 capital in US dollars, its first foray into the market since Switzerland paused plans to tighten rules on the riskiest type of bank debt.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-02/ubs-offers-first-at1-bond-since-swiss-authorities-paused-reforms",
-      "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [
-        "DXY"
-      ],
       "regions": [],
       "assets": [
         "AI"
@@ -163,43 +254,115 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-02T09:05:33.425584Z"
+      "published": "2026-06-02T09:10:39.038692Z"
     },
     {
-      "id": "482e33ffe299ca797f072c89c019623d",
-      "title": "Japan's Advantage Partners launches $1.8bn buyout fund",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/finance/japan-s-advantage-partners-launches-1.8bn-buyout-fund",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
+      "id": "dec1c8e88f7bbbc47e366be788ff362f",
+      "title": "Guidance: Preston guidance: April 2026",
+      "summary": "Preston factors (earnings and interest factors) are provided for employers.",
+      "link": "https://www.gov.uk/government/publications/preston-guidance-april-2026",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-02T09:05:56.200032Z"
+      "published": "2026-06-02T09:10:56.339102Z"
+    },
+    {
+      "id": "d4c5335d48992f43c3cbeebe4432c9d1",
+      "title": "CME\u2019s 24/7 crypto derivatives market sees $50 million in opening weekend trading",
+      "summary": "<p>CME Group said that its 24/7 crypto futures and options market saw over 7,200 contracts traded over the first weekend.</p>",
+      "link": "https://www.theblock.co/post/403304/cme-groups-crypto-derivatives-50-million?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-02T09:11:06.329829Z"
+    },
+    {
+      "id": "25cf19504b4c44d4c46cbef5abf86444",
+      "title": "Swiss Watch Exports Drop, Skewed by 2025 Rush Before US Tariffs",
+      "summary": "Swiss watch exports fell in April from a year earlier, when companies were rushing to get stock into the US ahead of higher tariffs.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-02/swiss-watch-exports-drop-skewed-by-2025-rush-before-us-tariffs",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-02T09:10:35.421341Z"
+    },
+    {
+      "id": "2c8b0c28971ee65393b5cb2ad49448c7",
+      "title": "How do you solve a problem like China? The EU has no answer - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNd3ZQblJxOTQ5V2k2S0x4ZFVNRm1QZ3AtSGY0dkNEV284S1FGZ21BMi1aQnU5d2tHcmJsUkVxRjRlR0NjSllNdTdYTHRPWVBxYl9fUmtyV01TSmpLa195Uk43Rmc4enFrc0NydUxrZ25QOC1fRDNqdWZpTktKaXdtRkQ2aWo?oc=5\" target=\"_blank\">How do you solve a problem like China? The EU has no answer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNd3ZQblJxOTQ5V2k2S0x4ZFVNRm1QZ3AtSGY0dkNEV284S1FGZ21BMi1aQnU5d2tHcmJsUkVxRjRlR0NjSllNdTdYTHRPWVBxYl9fUmtyV01TSmpLa195Uk43Rmc4enFrc0NydUxrZ25QOC1fRDNqdWZpTktKaXdtRkQ2aWo?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA",
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-02T09:11:08.386607Z"
     }
   ],
   "alerts": [
     {
-      "id": "8dc349335aef3cdaa28ff775c8ee6d7c",
-      "title": "Eurozone inflation rises to 3.2% in May as ECB prepares to raise rates",
-      "summary": "Middle East energy shock pushes price growth to highest level in nearly 3 years",
-      "link": "https://www.ft.com/content/9b7b03f2-c71e-4424-855d-f147a0a5d8e5",
-      "source": "Financial Times",
-      "score": 43,
+      "id": "8a11ca16c24264572407b1ede9756fed",
+      "title": "Euro-Zone Inflation Surpasses 3% for First Time Since 2023",
+      "summary": "Euro-area inflation topped 3% for the first time in more than 2 1/2 years, cementing expectations for an interest-rate hike when the European Central Bank meets next week.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-02/euro-zone-inflation-surpasses-3-for-first-time-since-2023",
+      "source": "Bloomberg",
+      "score": 32,
       "severity": "CRITICAL",
       "regime": "RATES",
       "tickers": [
         "EUR"
       ],
-      "regions": [],
+      "regions": [
+        "EUROPE"
+      ],
       "assets": [
-        "AI",
         "FX"
       ],
       "market_impact": {
@@ -214,26 +377,115 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-02T09:05:35.603015Z"
+      "published": "2026-06-02T09:10:35.421271Z"
     },
     {
-      "id": "5628d2007de10277cf041e48635b9523",
-      "title": "Trump claims Israel and Hizbollah agree ceasefire after Iran threats",
-      "summary": "President\u2019s comments come after Tehran said it was suspending peace talks with the US, sending oil prices higher",
-      "link": "https://www.ft.com/content/a4f1e36d-f3a5-4959-b227-133300f01be1",
-      "source": "Financial Times",
-      "score": 35,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "id": "6c7a3046eea15d262623b4bcd9ff330f",
+      "title": "Surging military spending boosts London-listed defence sales",
+      "summary": "<p> <img alt=\"Two London-listed manufacturers defence sales are surging \" src=\"https://www.cityam.com/wp-content/uploads/2026/05/GettyImages-2277572688-e1779792933763.jpg?w=1107\" /> </p>Two London-listed manufacturing contractors are reaping the benefits of a surge in defence spending as the period of geopolitical turmoil boosts sales across the sector. FTSE AIM-listed firm Gooch &#38; Housego\u2019s saw its profits before tax surge by nearly 16 per cent in the first half of the financial year, up to \u00a33.3bn, driven by <a href=\"https://www.cityam.com/surging-military-spending-boosts-london-listed-defence-sales/\">[...]</a>",
+      "link": "https://www.cityam.com/surging-military-spending-boosts-london-listed-defence-sales/",
+      "source": "CityAM",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
       "tickers": [
         "WTI"
       ],
       "regions": [
-        "MIDDLE_EAST"
+        "UK"
       ],
       "assets": [
         "AI",
         "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-02T09:10:56.724652Z"
+    },
+    {
+      "id": "c3095c95923ee1e464167aa5fa42f803",
+      "title": "ECB appoints three Directors General",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260529~2699fd8390.en.html",
+      "source": "ECB",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-02T09:10:49.468031Z"
+    },
+    {
+      "id": "62afe024aad874bddf791dbf8362cbb7",
+      "title": "There's Enough Hydrogen Underground to Power Earth for 170,000 Years",
+      "summary": "Green hydrogen has been hyped as a silver bullet solution to decarbonize hard-to-abate sectors like steelmaking and industrial shipping for decades now. It can be combusted at high heats like fossil fuels, but leaves behind nothing but water vapor when it burns, rather than world-heating greenhouse gas emissions. So why does green hydrogen still represent less than one percent of all hydrogen production in the United States? The simple answer is that producing green hydrogen is expensive, and usually an inefficient use of the clean energy resources\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Theres-Enough-Hydrogen-Underground-to-Power-Earth-for-170000-Years.html",
+      "source": "OilPrice",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "SILVER"
+      ],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-02T09:11:04.270702Z"
+    },
+    {
+      "id": "7a9fae6214d1fb7e61e5d934bc2ed632",
+      "title": "Ukraine Turns the Tide",
+      "summary": "Why a cease-fire is now a real possibility.",
+      "link": "https://www.foreignaffairs.com/ukraine/ukraine-war-turns-tide",
+      "source": "Foreign Affairs",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -249,24 +501,54 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-02T09:05:35.124275Z"
+      "published": "2026-06-02T09:11:05.627545Z"
     },
     {
-      "id": "6cee669cbf7c05487382be56dd9349e3",
-      "title": "Inflation hits 3.2% in the euro zone as Iran war pushes energy costs higher",
-      "summary": "",
-      "link": "https://www.cnbc.com/2026/06/02/inflation-euro-zone-iran-energy-costs.html",
-      "source": "CNBC",
-      "score": 31,
-      "severity": "CRITICAL",
+      "id": "2084795dc8443f6e5402c965e1c1608b",
+      "title": "Bitcoin price falls under $70K as crypto markets liquidate $800M",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin price falls under $70K as crypto markets liquidate $800M\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9iLW1hbi1ncm93dGgtZmFsbGluZy0xLmpwZw==.jpg\" /></p><p>Bitcoin fell to fresh two-month lows as BTC price weakness accelerated and analysis targeted its 200-day moving average trend line.</p>",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-falls-under-70k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-02T09:11:06.252650Z"
+    },
+    {
+      "id": "a24681e19c193ccfb88953c37d03903a",
+      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
+      "summary": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecurity story about how their hosting companies had assumed control over the technical infrastructure of Stark Industries Solutions, an Internet service provider sanctioned last year by the EU as a frequent staging ground for cyber mischief from Russia's intelligence agencies.",
+      "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+      "source": "KrebsOnSecurity",
+      "score": 12,
+      "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [
         "EUR"
       ],
       "regions": [
-        "MIDDLE_EAST"
+        "EUROPE",
+        "RUSSIA"
       ],
       "assets": [
+        "AI",
         "FX"
       ],
       "market_impact": {
@@ -283,16 +565,130 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-02T09:05:36.662953Z"
+      "published": "2026-06-02T09:11:06.547221Z"
     },
     {
-      "id": "f03caf7dfe81d32594f4eb88766ddda0",
-      "title": "India Bargains Hard in Key US, UK Trade Talks This Week",
-      "summary": "India is seeking to safeguard exporters\u2019 interests in trade negotiations with the US and UK this week, with implications for trade deals with two of its major partners.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-02/india-set-to-bargain-hard-in-trade-talks-with-us-uk-this-week",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "8eb27a111cb8dc175e7e7f1b4c0fdf57",
+      "title": "Blackstone closes its largest Asia private equity fund at over $13 billion",
+      "summary": "Blackstone raised $13.1 billion for its latest Asia private equity vehicle, marking the largest private equity fundraise the firm has done in the region.",
+      "link": "https://www.cnbc.com/2026/06/02/blackstone-largest-asia-private-equity-fund.html",
+      "source": "CNBC",
+      "score": 10,
       "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-02T09:10:39.038692Z"
+    },
+    {
+      "id": "dec1c8e88f7bbbc47e366be788ff362f",
+      "title": "Guidance: Preston guidance: April 2026",
+      "summary": "Preston factors (earnings and interest factors) are provided for employers.",
+      "link": "https://www.gov.uk/government/publications/preston-guidance-april-2026",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-02T09:10:56.339102Z"
+    },
+    {
+      "id": "d4c5335d48992f43c3cbeebe4432c9d1",
+      "title": "CME\u2019s 24/7 crypto derivatives market sees $50 million in opening weekend trading",
+      "summary": "<p>CME Group said that its 24/7 crypto futures and options market saw over 7,200 contracts traded over the first weekend.</p>",
+      "link": "https://www.theblock.co/post/403304/cme-groups-crypto-derivatives-50-million?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-02T09:11:06.329829Z"
+    },
+    {
+      "id": "25cf19504b4c44d4c46cbef5abf86444",
+      "title": "Swiss Watch Exports Drop, Skewed by 2025 Rush Before US Tariffs",
+      "summary": "Swiss watch exports fell in April from a year earlier, when companies were rushing to get stock into the US ahead of higher tariffs.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-02/swiss-watch-exports-drop-skewed-by-2025-rush-before-us-tariffs",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-02T09:10:35.421341Z"
+    },
+    {
+      "id": "2c8b0c28971ee65393b5cb2ad49448c7",
+      "title": "How do you solve a problem like China? The EU has no answer - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNd3ZQblJxOTQ5V2k2S0x4ZFVNRm1QZ3AtSGY0dkNEV284S1FGZ21BMi1aQnU5d2tHcmJsUkVxRjRlR0NjSllNdTdYTHRPWVBxYl9fUmtyV01TSmpLa195Uk43Rmc4enFrc0NydUxrZ25QOC1fRDNqdWZpTktKaXdtRkQ2aWo?oc=5\" target=\"_blank\">How do you solve a problem like China? The EU has no answer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNd3ZQblJxOTQ5V2k2S0x4ZFVNRm1QZ3AtSGY0dkNEV284S1FGZ21BMi1aQnU5d2tHcmJsUkVxRjRlR0NjSllNdTdYTHRPWVBxYl9fUmtyV01TSmpLa195Uk43Rmc4enFrc0NydUxrZ25QOC1fRDNqdWZpTktKaXdtRkQ2aWo?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA",
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-02T09:11:08.386607Z"
+    },
+    {
+      "id": "27cc5ae7db010a70ccbda76b98e5938a",
+      "title": "Lime trialled fast-food lane that let Deliveroo riders bypass speed limits",
+      "summary": "<p> <img alt=\"The trial formed part of Lime\u2019s push into the food delivery market\" src=\"https://www.cityam.com/wp-content/uploads/2025/02/Lime-1.jpg?w=1107\" /> </p>Lime has scrapped a trial that allowed Deliveroo riders to bypass speed restrictions on its rental e-bikes after questions were raised over the policy. The scheme, first reported by London Centric, gave riders using Lime\u2019s new Delivery Pass access to areas where ordinary users would automatically be slowed down by the company\u2019s &#8220;turtle mode&#8221; system. <a href=\"https://www.cityam.com/lime-trialled-fast-food-lane-that-let-deliveroo-riders-bypass-speed-limits/\">[...]</a>",
+      "link": "https://www.cityam.com/lime-trialled-fast-food-lane-that-let-deliveroo-riders-bypass-speed-limits/",
+      "source": "CityAM",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [
@@ -310,52 +706,23 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-02T09:05:33.425525Z"
+      "published": "2026-06-02T09:10:56.724453Z"
     },
     {
-      "id": "96bb756ad8de694bd1936b7db2b047e7",
-      "title": "UBS Offers First AT1 Bond Since Swiss Authorities Paused Reforms",
-      "summary": "UBS Group AG is set to raise Additional Tier 1 capital in US dollars, its first foray into the market since Switzerland paused plans to tighten rules on the riskiest type of bank debt.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-02/ubs-offers-first-at1-bond-since-swiss-authorities-paused-reforms",
-      "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [
-        "DXY"
-      ],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-02T09:05:33.425584Z"
-    },
-    {
-      "id": "482e33ffe299ca797f072c89c019623d",
-      "title": "Japan's Advantage Partners launches $1.8bn buyout fund",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/finance/japan-s-advantage-partners-launches-1.8bn-buyout-fund",
-      "source": "Nikkei Asia",
-      "score": 7,
+      "id": "13e71faf9045237c5802fe90caeefc9f",
+      "title": "Access Appoints Sally Johnson as New Chief Financial Officer",
+      "summary": "The Access Group has appointed Sally Johnson as its new Chief Financial Officer, effective 1 June 2026. Sally joins from Pearson plc, where she served as CFO for six years and brings more than 25 years of experience across strategic finance, M&#38;A, business transformation and investor relations in large and complex global organisations. This press <a href=\"https://www.cityam.com/access-appoints-sally-johnson-as-new-chief-financial-officer/\">[...]</a>",
+      "link": "https://www.cityam.com/access-appoints-sally-johnson-as-new-chief-financial-officer/",
+      "source": "CityAM",
+      "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-02T09:05:56.200032Z"
+      "published": "2026-06-02T09:10:56.724534Z"
     }
   ]
 }
