@@ -1,85 +1,377 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-02T22:16:10.784391Z",
+  "generated_at": "2026-06-02T22:21:11.533611Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 2,
     "high_alerts": 0,
-    "last_updated": "2026-06-02T22:16:10.784402Z"
+    "last_updated": "2026-06-02T22:21:11.533624Z"
   },
   "top_signals": [
     {
-      "id": "c4edddd52f4967247bc8aa99336c8e78",
-      "title": "Home Secretary condemns riots after UK rightwing leaders call for public \u2018rage\u2019",
-      "summary": "Nigel Farage urges probe into police handling of case after killer accused victim of racial abuse",
-      "link": "https://www.ft.com/content/1f9cf0bb-8e11-4808-a66b-08326d09d324",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
+      "id": "449edcb23beb5a1942499a69c7c22e58",
+      "title": "Asian Stocks Poised to Gain as AI Rally Extends: Markets Wrap",
+      "summary": "Asian stocks were set to track Wall Street higher as renewed enthusiasm for the artificial-intelligence trade drove the S&amp;P 500 to a ninth day of gains. Oil steadied as conflicting signals clouded the outlook for a US-Iran deal.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-02/asian-stocks-poised-to-gain-as-ai-rally-extends-markets-wrap",
+      "source": "Bloomberg",
+      "score": 36,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
       ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-02T22:15:35.372993Z"
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-02T22:20:32.870018Z"
     },
     {
-      "id": "6370c70df8c719fd696804cab3228563",
-      "title": "Critical Kirki flaw exploited to hijack WordPress admin accounts",
-      "summary": "Hackers are exploiting a critical privilege escalation vulnerability (CVE-2026-8206) in the Kirki plugin for WordPress to take over any user account, including those belonging to administrators. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-kirki-flaw-exploited-to-hijack-wordpress-admin-accounts/",
-      "source": "BleepingComputer",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "7c2d804eab3d2a6a40857bd7eb502c0d",
+      "title": "Russia claims foreign spy agencies hacked officials' phones",
+      "summary": "In a statement, Russia's Federal Security Service (FSB) said it had uncovered what it described as a \"large-scale operation\" involving malicious software installed on the mobile devices of senior Russian officials.",
+      "link": "https://therecord.media/russia-claims-foreign-spy-agencies-hacked-gov-officials",
+      "source": "The Record",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-02T22:21:07.842128Z"
+    },
+    {
+      "id": "f6bb42f87edf1c95aa6f335c47e5192b",
+      "title": "DNV Launches V2 of Steel Load Planner",
+      "summary": "Classification society DNV released version 2 of its Steel Load Planner (SLP V2.0) self-service application at the Posidonia trade fair this week. Steel coils are one of the staple minor-bulk cargoes, yet remain among the most demanding to plan\u2026",
+      "link": "https://www.marinelink.com/news/dnv-launches-v-steel-load-planner-539858",
+      "source": "MarineLink",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-02T22:21:05.940357Z"
+    },
+    {
+      "id": "7691ed46692d6d9bd56b230c81ebd36f",
+      "title": "Bitcoin faces an 'identity crisis' and DeFi devs need to stop acting like tech bros",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/06/02/bitcoin-faces-identity-crisis-as-defi-quietly-builds-its-breakthrough-point",
+      "source": "CoinDesk",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-02T22:21:07.309700Z"
+    },
+    {
+      "id": "60d8402ec2d4fe324fe36c374abf68fc",
+      "title": "SK Hynix ascends as new memory king with high-bandwidth AI chips",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/tech/semiconductors/sk-hynix-ascends-as-new-memory-king-with-high-bandwidth-ai-chips",
+      "source": "Nikkei Asia",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-02T22:20:56.423485Z"
+    },
+    {
+      "id": "8baa91fd1297a06368314d6707fcae78",
+      "title": "Putin's 'Davos' haunted by war and stagnation despite the swank of influencers - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVmtWbjRFcjdaVnZJZGRhM001Yk9ObEUzSjdqVG1tazdheUtQdGlHLVZMRnYwMTNlTTZyaUJRTEF0ZnJuZEM5bVp6VGxfQkRMNk9DcmYydDhjb29CUF8yTnpILWhGV3E0WW5nUHRucDJmYnFiOEMyUGtOQUtJZjFDbTgycW1XNTVJUndPNGU3MUZxcGJjSk05al9kVUtIN1lCdTdHWVJTbzNZdw?oc=5\" target=\"_blank\">Putin's 'Davos' haunted by war and stagnation despite the swank of influencers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVmtWbjRFcjdaVnZJZGRhM001Yk9ObEUzSjdqVG1tazdheUtQdGlHLVZMRnYwMTNlTTZyaUJRTEF0ZnJuZEM5bVp6VGxfQkRMNk9DcmYydDhjb29CUF8yTnpILWhGV3E0WW5nUHRucDJmYnFiOEMyUGtOQUtJZjFDbTgycW1XNTVJUndPNGU3MUZxcGJjSk05al9kVUtIN1lCdTdHWVJTbzNZdw?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-02T22:16:07.295602Z"
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-02T22:21:09.624885Z"
     }
   ],
   "alerts": [
     {
-      "id": "c4edddd52f4967247bc8aa99336c8e78",
-      "title": "Home Secretary condemns riots after UK rightwing leaders call for public \u2018rage\u2019",
-      "summary": "Nigel Farage urges probe into police handling of case after killer accused victim of racial abuse",
-      "link": "https://www.ft.com/content/1f9cf0bb-8e11-4808-a66b-08326d09d324",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
+      "id": "449edcb23beb5a1942499a69c7c22e58",
+      "title": "Asian Stocks Poised to Gain as AI Rally Extends: Markets Wrap",
+      "summary": "Asian stocks were set to track Wall Street higher as renewed enthusiasm for the artificial-intelligence trade drove the S&amp;P 500 to a ninth day of gains. Oil steadied as conflicting signals clouded the outlook for a US-Iran deal.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-02/asian-stocks-poised-to-gain-as-ai-rally-extends-markets-wrap",
+      "source": "Bloomberg",
+      "score": 36,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
       ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-02T22:15:35.372993Z"
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-02T22:20:32.870018Z"
     },
     {
-      "id": "6370c70df8c719fd696804cab3228563",
-      "title": "Critical Kirki flaw exploited to hijack WordPress admin accounts",
-      "summary": "Hackers are exploiting a critical privilege escalation vulnerability (CVE-2026-8206) in the Kirki plugin for WordPress to take over any user account, including those belonging to administrators. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-kirki-flaw-exploited-to-hijack-wordpress-admin-accounts/",
-      "source": "BleepingComputer",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "7c2d804eab3d2a6a40857bd7eb502c0d",
+      "title": "Russia claims foreign spy agencies hacked officials' phones",
+      "summary": "In a statement, Russia's Federal Security Service (FSB) said it had uncovered what it described as a \"large-scale operation\" involving malicious software installed on the mobile devices of senior Russian officials.",
+      "link": "https://therecord.media/russia-claims-foreign-spy-agencies-hacked-gov-officials",
+      "source": "The Record",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-02T22:21:07.842128Z"
+    },
+    {
+      "id": "f6bb42f87edf1c95aa6f335c47e5192b",
+      "title": "DNV Launches V2 of Steel Load Planner",
+      "summary": "Classification society DNV released version 2 of its Steel Load Planner (SLP V2.0) self-service application at the Posidonia trade fair this week. Steel coils are one of the staple minor-bulk cargoes, yet remain among the most demanding to plan\u2026",
+      "link": "https://www.marinelink.com/news/dnv-launches-v-steel-load-planner-539858",
+      "source": "MarineLink",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-02T22:21:05.940357Z"
+    },
+    {
+      "id": "7691ed46692d6d9bd56b230c81ebd36f",
+      "title": "Bitcoin faces an 'identity crisis' and DeFi devs need to stop acting like tech bros",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/06/02/bitcoin-faces-identity-crisis-as-defi-quietly-builds-its-breakthrough-point",
+      "source": "CoinDesk",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-02T22:21:07.309700Z"
+    },
+    {
+      "id": "60d8402ec2d4fe324fe36c374abf68fc",
+      "title": "SK Hynix ascends as new memory king with high-bandwidth AI chips",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/tech/semiconductors/sk-hynix-ascends-as-new-memory-king-with-high-bandwidth-ai-chips",
+      "source": "Nikkei Asia",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-02T22:20:56.423485Z"
+    },
+    {
+      "id": "8baa91fd1297a06368314d6707fcae78",
+      "title": "Putin's 'Davos' haunted by war and stagnation despite the swank of influencers - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVmtWbjRFcjdaVnZJZGRhM001Yk9ObEUzSjdqVG1tazdheUtQdGlHLVZMRnYwMTNlTTZyaUJRTEF0ZnJuZEM5bVp6VGxfQkRMNk9DcmYydDhjb29CUF8yTnpILWhGV3E0WW5nUHRucDJmYnFiOEMyUGtOQUtJZjFDbTgycW1XNTVJUndPNGU3MUZxcGJjSk05al9kVUtIN1lCdTdHWVJTbzNZdw?oc=5\" target=\"_blank\">Putin's 'Davos' haunted by war and stagnation despite the swank of influencers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVmtWbjRFcjdaVnZJZGRhM001Yk9ObEUzSjdqVG1tazdheUtQdGlHLVZMRnYwMTNlTTZyaUJRTEF0ZnJuZEM5bVp6VGxfQkRMNk9DcmYydDhjb29CUF8yTnpILWhGV3E0WW5nUHRucDJmYnFiOEMyUGtOQUtJZjFDbTgycW1XNTVJUndPNGU3MUZxcGJjSk05al9kVUtIN1lCdTdHWVJTbzNZdw?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-02T22:16:07.295602Z"
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-02T22:21:09.624885Z"
     }
   ]
 }
