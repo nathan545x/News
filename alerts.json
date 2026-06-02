@@ -1,99 +1,80 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-02T09:31:27.137221Z",
+  "generated_at": "2026-06-02T09:36:22.630857Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-06-02T09:31:27.137231Z"
+    "critical_alerts": 0,
+    "high_alerts": 1,
+    "last_updated": "2026-06-02T09:36:22.630870Z"
   },
   "top_signals": [
     {
-      "id": "3648d1ec2b97887c0945780bdcb77b91",
-      "title": "$90 Oil Could Lift India\u2019s Inflation to 4.8% and Slow GDP Growth",
-      "summary": "India\u2019s inflation is set to accelerate to 4.8% in the fiscal year 2027, if oil prices average $90 per barrel through March next year, Indian wealth and asset manager 360 ONE Capital said in a report on Tuesday. \u201cOur revised base case assumes de-escalation by mid-June, with crude oil averaging $90/bbl in FY27,\u201d the asset manager said, as carried by Indian media. Under this scenario, consumer prices are set to rise to 4.8% while GDP growth would moderate to 6.3% from 6.7% previously expected, according to 360 ONE Capital, which\u2026",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/90-Oil-Could-Lift-Indias-Inflation-to-48-and-Slow-GDP-Growth.html",
-      "source": "OilPrice",
-      "score": 26,
-      "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "id": "b5141f8ec73b675261131eeee7de093a",
+      "title": "Korean Firms Turn to Short-Term Funding as Bond Yields Climb",
+      "summary": "South Korean firms have increasingly turned to short-term financing as rising government bond yields drive up borrowing costs in the corporate debt market.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-02/korean-firms-turn-to-short-term-funding-as-bond-yields-climb",
+      "source": "Bloomberg",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-02T09:35:38.312533Z"
+    },
+    {
+      "id": "934aa43d8859ee2fefd4292de3648005",
+      "title": "Activist fund Elliott calls for sale of Australia\u2019s largest gold miner",
+      "summary": "US firm builds up stake in Northern Star Resources",
+      "link": "https://www.ft.com/content/befbf8d6-b566-4068-ae69-587ff849ccff",
+      "source": "Financial Times",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
       "tickers": [
-        "WTI"
+        "XAU"
       ],
       "regions": [],
       "assets": [
-        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "COMMODITIES"
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-02T09:31:20.357550Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-02T09:35:40.721365Z"
     },
     {
-      "id": "6be495fcd20021396b705826aa7fce03",
-      "title": "At least 16 injured as Tropical Storm Jangmi threatens Kyushu",
-      "summary": "The Meteorological Agency has warned of violent winds, high waves, storm surges, landslides, flooding and overflowing rivers in affected areas.",
-      "link": "https://www.japantimes.co.jp/news/2026/06/02/japan/storm-typhoon-jangmi/",
-      "source": "Japan Times",
-      "score": 11,
+      "id": "865618524f4d26276f8dd39cc6ae64ac",
+      "title": "Europe\u2019s Junk Firms Look to Cut Loan Costs in Hot Market",
+      "summary": "Borrowers are rushing to Europe\u2019s leveraged loan market at the start of the week to reprice debt, as they seek to capitalize on favorable credit conditions to cut their funding costs.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-01/europe-s-junk-firms-look-to-cut-loan-costs-in-hot-credit-market",
+      "source": "Bloomberg",
+      "score": 9,
       "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-02T09:31:13.829807Z"
-    },
-    {
-      "id": "bc3e093b89acccea3a5adbed77263530",
-      "title": "Chinese sports brand Li Ning partners with NBA star Steph Curry",
-      "summary": "",
-      "link": "https://asia.nikkei.com/spotlight/sports/chinese-sports-brand-li-ning-partners-with-nba-star-steph-curry",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-02T09:31:13.538252Z"
-    },
-    {
-      "id": "6ebc8ee11062fdb35a9107fe566bc30e",
-      "title": "Remarks by Commissioner Dombrovskis to the 2026 Government Borrowers Forum",
-      "summary": "European Commission Speech Brussels, 02 Jun 2026 Labr\u012bt, R\u012bga! \nGood morning from Brussels.\nI regret that I am unable to join you in Riga in person.\nBut I'm grateful that I can still contribute to this year's ...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1227",
-      "source": "European Commission",
-      "score": 1,
-      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [
         "EUR"
@@ -106,93 +87,99 @@
       ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-02T09:31:06.263183Z"
+      "published": "2026-06-02T09:35:38.312489Z"
+    },
+    {
+      "id": "3999ad828b96dee98c40980a12b31dad",
+      "title": "Spain arrests doxer leaking sensitive data of govt employees",
+      "summary": "The Spanish National Police has arrested an individual for leaking sensitive information related to members of various key state organizations, including the National Cybersecurity Institute (INCIBE). [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/spain-arrests-doxer-leaking-sensitive-data-of-govt-employees/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-02T09:36:19.077819Z"
     }
   ],
   "alerts": [
     {
-      "id": "3648d1ec2b97887c0945780bdcb77b91",
-      "title": "$90 Oil Could Lift India\u2019s Inflation to 4.8% and Slow GDP Growth",
-      "summary": "India\u2019s inflation is set to accelerate to 4.8% in the fiscal year 2027, if oil prices average $90 per barrel through March next year, Indian wealth and asset manager 360 ONE Capital said in a report on Tuesday. \u201cOur revised base case assumes de-escalation by mid-June, with crude oil averaging $90/bbl in FY27,\u201d the asset manager said, as carried by Indian media. Under this scenario, consumer prices are set to rise to 4.8% while GDP growth would moderate to 6.3% from 6.7% previously expected, according to 360 ONE Capital, which\u2026",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/90-Oil-Could-Lift-Indias-Inflation-to-48-and-Slow-GDP-Growth.html",
-      "source": "OilPrice",
-      "score": 26,
-      "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "id": "b5141f8ec73b675261131eeee7de093a",
+      "title": "Korean Firms Turn to Short-Term Funding as Bond Yields Climb",
+      "summary": "South Korean firms have increasingly turned to short-term financing as rising government bond yields drive up borrowing costs in the corporate debt market.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-02/korean-firms-turn-to-short-term-funding-as-bond-yields-climb",
+      "source": "Bloomberg",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-02T09:35:38.312533Z"
+    },
+    {
+      "id": "934aa43d8859ee2fefd4292de3648005",
+      "title": "Activist fund Elliott calls for sale of Australia\u2019s largest gold miner",
+      "summary": "US firm builds up stake in Northern Star Resources",
+      "link": "https://www.ft.com/content/befbf8d6-b566-4068-ae69-587ff849ccff",
+      "source": "Financial Times",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
       "tickers": [
-        "WTI"
+        "XAU"
       ],
       "regions": [],
       "assets": [
-        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "COMMODITIES"
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-02T09:31:20.357550Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-02T09:35:40.721365Z"
     },
     {
-      "id": "6be495fcd20021396b705826aa7fce03",
-      "title": "At least 16 injured as Tropical Storm Jangmi threatens Kyushu",
-      "summary": "The Meteorological Agency has warned of violent winds, high waves, storm surges, landslides, flooding and overflowing rivers in affected areas.",
-      "link": "https://www.japantimes.co.jp/news/2026/06/02/japan/storm-typhoon-jangmi/",
-      "source": "Japan Times",
-      "score": 11,
+      "id": "865618524f4d26276f8dd39cc6ae64ac",
+      "title": "Europe\u2019s Junk Firms Look to Cut Loan Costs in Hot Market",
+      "summary": "Borrowers are rushing to Europe\u2019s leveraged loan market at the start of the week to reprice debt, as they seek to capitalize on favorable credit conditions to cut their funding costs.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-01/europe-s-junk-firms-look-to-cut-loan-costs-in-hot-credit-market",
+      "source": "Bloomberg",
+      "score": 9,
       "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-02T09:31:13.829807Z"
-    },
-    {
-      "id": "bc3e093b89acccea3a5adbed77263530",
-      "title": "Chinese sports brand Li Ning partners with NBA star Steph Curry",
-      "summary": "",
-      "link": "https://asia.nikkei.com/spotlight/sports/chinese-sports-brand-li-ning-partners-with-nba-star-steph-curry",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-02T09:31:13.538252Z"
-    },
-    {
-      "id": "6ebc8ee11062fdb35a9107fe566bc30e",
-      "title": "Remarks by Commissioner Dombrovskis to the 2026 Government Borrowers Forum",
-      "summary": "European Commission Speech Brussels, 02 Jun 2026 Labr\u012bt, R\u012bga! \nGood morning from Brussels.\nI regret that I am unable to join you in Riga in person.\nBut I'm grateful that I can still contribute to this year's ...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1227",
-      "source": "European Commission",
-      "score": 1,
-      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [
         "EUR"
@@ -205,7 +192,32 @@
       ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-02T09:31:06.263183Z"
+      "published": "2026-06-02T09:35:38.312489Z"
+    },
+    {
+      "id": "3999ad828b96dee98c40980a12b31dad",
+      "title": "Spain arrests doxer leaking sensitive data of govt employees",
+      "summary": "The Spanish National Police has arrested an individual for leaking sensitive information related to members of various key state organizations, including the National Cybersecurity Institute (INCIBE). [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/spain-arrests-doxer-leaking-sensitive-data-of-govt-employees/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-02T09:36:19.077819Z"
     }
   ]
 }
