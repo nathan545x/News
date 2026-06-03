@@ -1,77 +1,121 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-03T17:11:51.801167Z",
+  "generated_at": "2026-06-03T17:16:23.872545Z",
   "market_regime": {
-    "regime": "AI",
-    "dominant_driver": "AI",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 2,
-    "last_updated": "2026-06-03T17:11:51.801181Z"
+    "critical_alerts": 2,
+    "high_alerts": 1,
+    "last_updated": "2026-06-03T17:16:23.872558Z"
   },
   "top_signals": [
     {
-      "id": "d39c18dc2394f5b6771467c619f2c10a",
-      "title": "Anthropic Picks Morgan Stanley, Goldman Sachs to Lead IPO",
-      "summary": "Anthropic PBC has lined up banks to lead work on its IPO, according to people familiar with the matter, as the artificial intelligence company races its rival OpenAI to be first to go public.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-03/anthropic-said-to-pick-morgan-stanley-goldman-sachs-to-lead-ipo",
+      "id": "1808e18266d39cd704eb528e504afc2a",
+      "title": "Yen Holds Near 160 Against Dollar After BOJ\u2019s Ueda Hints at Hike",
+      "summary": "The yen remained near the 160 level versus the dollar following remarks by Bank of Japan Governor Kazuo Ueda that make an interest rate hike this month sound likely but not certain.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-03/yen-slide-pauses-before-160-as-traders-eye-intervention-risk",
       "source": "Bloomberg",
-      "score": 24,
-      "severity": "HIGH",
-      "regime": "AI",
+      "score": 46,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "XAU"
+        "DXY",
+        "JPY"
       ],
-      "regions": [],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "DXY",
+          "JPY"
         ],
-        "bearish": []
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-03T17:10:40.756658Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-03T17:15:39.848020Z"
     },
     {
-      "id": "c12e293b075e0826ed058c4f4b321ea3",
-      "title": "Goldman\u2019s Minnis Sees AI as \u2018Generational\u2019 Force Driving Markets",
-      "summary": "The boom in artificial intelligence investment is a \u201cfundamental, generational\u201d phenomenon driving markets and filtering through to the economy at large, said Christina Minnis, global head of the alternatives origination group at Goldman Sachs Group Inc.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-03/goldman-s-minnis-sees-ai-as-generational-force-driving-markets",
-      "source": "Bloomberg",
-      "score": 24,
-      "severity": "HIGH",
-      "regime": "AI",
+      "id": "8761257a5c653091320a2d5be2e1ed61",
+      "title": "MISC Expands Presence in LCO\u2082 Shipping with Second Northern Lights Award",
+      "summary": "MISC Group, in partnership with Kawasaki Kisen Kaisha Ltd. (\u201cK LINE\u201d), has secured a second long-term Time Charter Party (\u201cTCP\u201d) from Northern Lights JV DA on 29 May 2026 for an additional newbuild Liquefied Carbon Dioxide (\u201cLCO\u2082\u201d) carrier supporting the expansion of Europe\u2019s first open-access carbon capture and storage (\u201cCCS\u201d) transport and storage infrastructure. The ...",
+      "link": "https://www.hellenicshippingnews.com/misc-expands-presence-in-lco%e2%82%82-shipping-with-second-northern-lights-award/",
+      "source": "Hellenic Shipping",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "XAU"
+        "EUR"
       ],
-      "regions": [],
+      "regions": [
+        "EUROPE"
+      ],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "FX",
+        "SHIPPING"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-03T17:10:40.756767Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-03T17:16:18.025529Z"
     },
     {
-      "id": "2e14bcb1b3800776093f3e2e05cfa89e",
-      "title": "Citizen CEO on How AI Is Rebuilding Banking",
-      "summary": "Citizens CEO Bruce Van Saun joined Bloomberg Open Interest to talk about how the bank transformed the collapse of First Republic into a booming private banking business worth over $16 billion in deposits. He also explains how AI is reshaping banking operations and why he believes consumers, businesses and private credit remain far more resilient than what many investors expect. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-03/citizen-ceo-on-how-ai-is-rebuilding-banking-video",
+      "id": "25221dc2447a2cd003380e796442b21c",
+      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
+      "summary": "Until this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files detailing how CISA builds, tests and deploys software internally, and that it represents one of the most egregious government data leaks in recent history.",
+      "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+      "source": "KrebsOnSecurity",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-03T17:16:20.421945Z"
+    },
+    {
+      "id": "f79aeee08b77ff8bb0cdeb9d1b6f664e",
+      "title": "SambaNova CEO on Making AI More Affordable",
+      "summary": "SambaNova CEO Rodrigo Liang joined Bloomberg Open Interest to talk about why inference is becoming the biggest cost challenge in enterprise AI. And he breaks down the new $3.5 billion AI cloud backed by Vista Equity Partners and Cambium Capital, revealing how a disaggregated architecture combining GPUs, CPUs, and specialized AI processors could dramatically lower costs and accelerate AI agent adoption. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-03/sambanova-ceo-on-making-ai-more-affordable-video",
       "source": "Bloomberg",
       "score": 13,
       "severity": "MEDIUM",
@@ -90,130 +134,165 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-03T17:10:40.756542Z"
+      "published": "2026-06-03T17:15:39.848113Z"
     },
     {
-      "id": "660095689418a6f352c35a9799d605c4",
-      "title": "Private Equity's Bet on Tennis",
-      "summary": "Tennis may be headed for its biggest transformation in years. EQT Managing Partner and CEO Per Franzen and ATP Chairman Andrea Gaudenzi join Bloomberg Open Interest to explain why private equity is betting on tennis, the sport's record-breaking growth, and the push to unite the ATP and WTA under one global commercial vision. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-03/private-equity-s-bet-on-tennis-video",
-      "source": "Bloomberg",
+      "id": "26487372999b726fb8cc358089487519",
+      "title": "Joint venture to recover Japan's copper scrap to cut foreign dependence",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/markets/commodities/joint-venture-to-recover-japan-s-copper-scrap-to-cut-foreign-dependence",
+      "source": "Nikkei Asia",
       "score": 13,
       "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
+      "regime": "COMMODITIES",
+      "tickers": [
+        "COPPER"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [
-        "AI"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
-        "bearish": []
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-03T17:10:40.756611Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-03T17:16:08.629052Z"
     },
     {
-      "id": "d2b5d3557aba84749a8cdbacbd2d691c",
-      "title": "Bloomberg Money: Where To Invest Now",
-      "summary": "Bloomberg.com subscribers were invited to celebrate the launch of Bloomberg Money, a new destination with news, insight and intelligence for navigating your financial life. Tom Keene and Scarlet Fu are your hosts. The event took place in New York on June 2.  (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-03/bloomberg-money-where-to-invest-now-video",
-      "source": "Bloomberg",
-      "score": 9,
+      "id": "432bbc1c8b7e6ea076e62eca1e0256a6",
+      "title": "Public asked to help select UK wildlife to appear on new banknote series",
+      "summary": "The public are being asked to give their views on a selection of wildlife, native to the UK, that will appear on the next series of banknotes in a consultation launched today.",
+      "link": "https://www.bankofengland.co.uk/news/2026/june/wildlife-new-banknote-series",
+      "source": "Bank of England",
+      "score": 10,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-03T17:10:40.756836Z"
-    },
-    {
-      "id": "fbb94c65a63b86b11e3e958a5e1b9be5",
-      "title": "Social Security benefit cuts could average $500 a month for retirees if trust fund runs dry, report finds",
-      "summary": "Social Security faces a looming depletion date for its retirement trust fund. A new report looks at how much benefit cuts Americans may see to their benefits.",
-      "link": "https://www.cnbc.com/2026/06/03/social-security-benefit-cuts-trust-fund-shortfall.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "US"
+        "UK"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-03T17:10:45.198483Z"
+      "published": "2026-06-03T17:16:00.735850Z"
     }
   ],
   "alerts": [
     {
-      "id": "d39c18dc2394f5b6771467c619f2c10a",
-      "title": "Anthropic Picks Morgan Stanley, Goldman Sachs to Lead IPO",
-      "summary": "Anthropic PBC has lined up banks to lead work on its IPO, according to people familiar with the matter, as the artificial intelligence company races its rival OpenAI to be first to go public.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-03/anthropic-said-to-pick-morgan-stanley-goldman-sachs-to-lead-ipo",
+      "id": "1808e18266d39cd704eb528e504afc2a",
+      "title": "Yen Holds Near 160 Against Dollar After BOJ\u2019s Ueda Hints at Hike",
+      "summary": "The yen remained near the 160 level versus the dollar following remarks by Bank of Japan Governor Kazuo Ueda that make an interest rate hike this month sound likely but not certain.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-03/yen-slide-pauses-before-160-as-traders-eye-intervention-risk",
       "source": "Bloomberg",
-      "score": 24,
-      "severity": "HIGH",
-      "regime": "AI",
+      "score": 46,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "XAU"
+        "DXY",
+        "JPY"
       ],
-      "regions": [],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "DXY",
+          "JPY"
         ],
-        "bearish": []
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-03T17:10:40.756658Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-03T17:15:39.848020Z"
     },
     {
-      "id": "c12e293b075e0826ed058c4f4b321ea3",
-      "title": "Goldman\u2019s Minnis Sees AI as \u2018Generational\u2019 Force Driving Markets",
-      "summary": "The boom in artificial intelligence investment is a \u201cfundamental, generational\u201d phenomenon driving markets and filtering through to the economy at large, said Christina Minnis, global head of the alternatives origination group at Goldman Sachs Group Inc.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-03/goldman-s-minnis-sees-ai-as-generational-force-driving-markets",
-      "source": "Bloomberg",
-      "score": 24,
-      "severity": "HIGH",
-      "regime": "AI",
+      "id": "8761257a5c653091320a2d5be2e1ed61",
+      "title": "MISC Expands Presence in LCO\u2082 Shipping with Second Northern Lights Award",
+      "summary": "MISC Group, in partnership with Kawasaki Kisen Kaisha Ltd. (\u201cK LINE\u201d), has secured a second long-term Time Charter Party (\u201cTCP\u201d) from Northern Lights JV DA on 29 May 2026 for an additional newbuild Liquefied Carbon Dioxide (\u201cLCO\u2082\u201d) carrier supporting the expansion of Europe\u2019s first open-access carbon capture and storage (\u201cCCS\u201d) transport and storage infrastructure. The ...",
+      "link": "https://www.hellenicshippingnews.com/misc-expands-presence-in-lco%e2%82%82-shipping-with-second-northern-lights-award/",
+      "source": "Hellenic Shipping",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "XAU"
+        "EUR"
       ],
-      "regions": [],
+      "regions": [
+        "EUROPE"
+      ],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "FX",
+        "SHIPPING"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-03T17:10:40.756767Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-03T17:16:18.025529Z"
     },
     {
-      "id": "2e14bcb1b3800776093f3e2e05cfa89e",
-      "title": "Citizen CEO on How AI Is Rebuilding Banking",
-      "summary": "Citizens CEO Bruce Van Saun joined Bloomberg Open Interest to talk about how the bank transformed the collapse of First Republic into a booming private banking business worth over $16 billion in deposits. He also explains how AI is reshaping banking operations and why he believes consumers, businesses and private credit remain far more resilient than what many investors expect. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-03/citizen-ceo-on-how-ai-is-rebuilding-banking-video",
+      "id": "25221dc2447a2cd003380e796442b21c",
+      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
+      "summary": "Until this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files detailing how CISA builds, tests and deploys software internally, and that it represents one of the most egregious government data leaks in recent history.",
+      "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+      "source": "KrebsOnSecurity",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-03T17:16:20.421945Z"
+    },
+    {
+      "id": "f79aeee08b77ff8bb0cdeb9d1b6f664e",
+      "title": "SambaNova CEO on Making AI More Affordable",
+      "summary": "SambaNova CEO Rodrigo Liang joined Bloomberg Open Interest to talk about why inference is becoming the biggest cost challenge in enterprise AI. And he breaks down the new $3.5 billion AI cloud backed by Vista Equity Partners and Cambium Capital, revealing how a disaggregated architecture combining GPUs, CPUs, and specialized AI processors could dramatically lower costs and accelerate AI agent adoption. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-03/sambanova-ceo-on-making-ai-more-affordable-video",
       "source": "Bloomberg",
       "score": 13,
       "severity": "MEDIUM",
@@ -232,66 +311,57 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-03T17:10:40.756542Z"
+      "published": "2026-06-03T17:15:39.848113Z"
     },
     {
-      "id": "660095689418a6f352c35a9799d605c4",
-      "title": "Private Equity's Bet on Tennis",
-      "summary": "Tennis may be headed for its biggest transformation in years. EQT Managing Partner and CEO Per Franzen and ATP Chairman Andrea Gaudenzi join Bloomberg Open Interest to explain why private equity is betting on tennis, the sport's record-breaking growth, and the push to unite the ATP and WTA under one global commercial vision. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-03/private-equity-s-bet-on-tennis-video",
-      "source": "Bloomberg",
+      "id": "26487372999b726fb8cc358089487519",
+      "title": "Joint venture to recover Japan's copper scrap to cut foreign dependence",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/markets/commodities/joint-venture-to-recover-japan-s-copper-scrap-to-cut-foreign-dependence",
+      "source": "Nikkei Asia",
       "score": 13,
       "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
+      "regime": "COMMODITIES",
+      "tickers": [
+        "COPPER"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [
-        "AI"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
-        "bearish": []
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-03T17:10:40.756611Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-03T17:16:08.629052Z"
     },
     {
-      "id": "d2b5d3557aba84749a8cdbacbd2d691c",
-      "title": "Bloomberg Money: Where To Invest Now",
-      "summary": "Bloomberg.com subscribers were invited to celebrate the launch of Bloomberg Money, a new destination with news, insight and intelligence for navigating your financial life. Tom Keene and Scarlet Fu are your hosts. The event took place in New York on June 2.  (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-03/bloomberg-money-where-to-invest-now-video",
-      "source": "Bloomberg",
-      "score": 9,
+      "id": "432bbc1c8b7e6ea076e62eca1e0256a6",
+      "title": "Public asked to help select UK wildlife to appear on new banknote series",
+      "summary": "The public are being asked to give their views on a selection of wildlife, native to the UK, that will appear on the next series of banknotes in a consultation launched today.",
+      "link": "https://www.bankofengland.co.uk/news/2026/june/wildlife-new-banknote-series",
+      "source": "Bank of England",
+      "score": 10,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-03T17:10:40.756836Z"
-    },
-    {
-      "id": "fbb94c65a63b86b11e3e958a5e1b9be5",
-      "title": "Social Security benefit cuts could average $500 a month for retirees if trust fund runs dry, report finds",
-      "summary": "Social Security faces a looming depletion date for its retirement trust fund. A new report looks at how much benefit cuts Americans may see to their benefits.",
-      "link": "https://www.cnbc.com/2026/06/03/social-security-benefit-cuts-trust-fund-shortfall.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "US"
+        "UK"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-03T17:10:45.198483Z"
+      "published": "2026-06-03T17:16:00.735850Z"
     }
   ]
 }
