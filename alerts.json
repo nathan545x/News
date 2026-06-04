@@ -1,26 +1,27 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-04T02:26:13.439439Z",
+  "generated_at": "2026-06-04T02:31:20.307323Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 2,
-    "high_alerts": 2,
-    "last_updated": "2026-06-04T02:26:13.439455Z"
+    "critical_alerts": 1,
+    "high_alerts": 1,
+    "last_updated": "2026-06-04T02:31:20.307341Z"
   },
   "top_signals": [
     {
-      "id": "22a6c5827b5e4dc9d186f1b69c9437d5",
-      "title": "CNBC Daily Open: Fresh Iran war worries halt stock rally",
-      "summary": "Oil prices rise and markets fall after Netanyahu tells CNBC Israel and U.S. prepared to attack Iran again if necessary.",
-      "link": "https://www.cnbc.com/2026/06/04/cnbc-daily-open-iran-war-worries-halt-stock-rally.html",
-      "source": "CNBC",
-      "score": 43,
+      "id": "d90749caae815b463aa4df6c8d4f689b",
+      "title": "Oil Prices Dip as Israel-Lebanon Ceasefire Revives Iran Deal Hopes",
+      "summary": "Oil prices were under pressure in early Asian trade on Thursday following the announcement of a ceasefire agreement between Israel and Lebanon. The agreement could ultimately help clear the way for a broader U.S.-Iran deal, which would eventually see the Strait of Hormuz reopen and provide some relief for an increasingly tight oil market. At the time of writing, Brent crude was trading at $96.60 per barrel, down 1.24% on the session, while West Texas Intermediate was down 1.10% at $94.96. The latest pullback follows a sharp rally at the start of\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Dip-as-Israel-Lebanon-Ceasefire-Revives-Iran-Deal-Hopes.html",
+      "source": "OilPrice",
+      "score": 28,
       "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
       "tickers": [
+        "BRENT",
         "WTI"
       ],
       "regions": [
@@ -44,104 +45,101 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-04T02:25:34.382316Z"
+      "published": "2026-06-04T02:31:09.380676Z"
     },
     {
-      "id": "6fb5eeeedf6b7041e36157bcda99997a",
-      "title": "The Bank, FCA and HM Treasury joint statement on Frontier AI models and cyber resilience",
-      "summary": "Statement from the Bank of England, Financial Conduct Authority and HM Treasury",
-      "link": "https://www.bankofengland.co.uk/news/2026/may/boe-fca-and-hm-treasury-joint-statement-on-frontier-ai-models-and-cyber-resilience",
-      "source": "Bank of England",
-      "score": 26,
-      "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [
-        "UK"
-      ],
+      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
+      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
+      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
+      "source": "CISA",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
       "assets": [
-        "AI",
-        "RATES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-04T02:25:49.555155Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-04T02:31:17.359129Z"
     },
     {
-      "id": "5709212e9e75645b2a8cd281193faff5",
-      "title": "FCA and Bank of England set out shared vision for\u202ftokenisation in UK\u202fwholesale markets",
-      "summary": "The Financial Conduct Authority and the Bank of England\u202fset out a shared vision and seek industry views on the future of UK wholesale markets",
-      "link": "https://www.bankofengland.co.uk/news/2026/may/fca-and-boe-set-out-shared-vision-for-tokenisation-in-uk-wholesale-markets",
-      "source": "Bank of England",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "UK"
+      "id": "3730114a086b110dbd534b0db127f16f",
+      "title": "Live Markets: Bitcoin crashes to $62,000 as billions of longs get liquidated",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/06/03/live-markets-bitcoin-crashes-to-usd62-000-as-billions-of-longs-get-liquidated",
+      "source": "CoinDesk",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
       ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-04T02:31:16.284277Z"
+    },
+    {
+      "id": "e9ad7f6a0c19f77ef529f2ab969598d4",
+      "title": "CISA warns of cyberattacks targeting fuel tank monitoring systems",
+      "summary": "CISA, the FBI, the NSA, the Department of Energy, and other US government partners are warning that hackers are targeting internet-exposed automatic tank gauge (ATG) systems used to monitor fuel and liquid storage tanks across various critical infrastructure sectors. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-04T02:25:49.555062Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-04T02:31:16.635240Z"
     },
     {
-      "id": "e2567522caa582d81121a2aed629cf45",
-      "title": "Minutes of the Market Participants Group meeting \u2013 7 May 2026",
-      "summary": "The Market Participants Group (MPG) is a senior-level forum for financial market participants to share their views on relevant themes and narratives in financial markets with members of the Bank of England\u2019s Monetary Policy Committee.",
-      "link": "https://www.bankofengland.co.uk/minutes/2026/may/market-participants-group-meeting-7-may-2026",
-      "source": "Bank of England",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-04T02:25:49.555222Z"
-    },
-    {
-      "id": "05bc48a1df7058d4d7d37015f4cd3062",
-      "title": "Logan: Fed May Need to Hike Interest Rates This Year to Confront Inflation - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQNEM3OVNrUXNCZFVjaDBBdlM5M0hMNnZjeTZyeWI3OUlpY1ltenlNRWdWaHpaV0o2ZnhxeUIyRlNrd0JPeHg5TDdINkNXcDN0OF9HNl9ZRWpUcHhtN2tmM0xUQjBsekhTSjcyNExiSm1QUWNaZzR5MllUOU1rSUpXRnU2SHY5d1FhVUZHbUI1N2FnM1FUY0N4NlU3eXdCTjB5U2ZlcTZTc1p0Y2NabkwzaURjdnFNQnN4NktXWS0tb0VETDB0?oc=5\" target=\"_blank\">Logan: Fed May Need to Hike Interest Rates This Year to Confront Inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNEM3OVNrUXNCZFVjaDBBdlM5M0hMNnZjeTZyeWI3OUlpY1ltenlNRWdWaHpaV0o2ZnhxeUIyRlNrd0JPeHg5TDdINkNXcDN0OF9HNl9ZRWpUcHhtN2tmM0xUQjBsekhTSjcyNExiSm1QUWNaZzR5MllUOU1rSUpXRnU2SHY5d1FhVUZHbUI1N2FnM1FUY0N4NlU3eXdCTjB5U2ZlcTZTc1p0Y2NabkwzaURjdnFNQnN4NktXWS0tb0VETDB0?oc=5",
-      "source": "Google Macro",
-      "score": 14,
+      "id": "4a5bd718d8f2eb09ac2a1784c2831c70",
+      "title": "Personal Income and Outlays, December 2025",
+      "summary": "Personal income increased $86.2 billion (0.3 percent at a monthly rate) in December, according to estimates released today by the U.S. Bureau of Economic Analysis. Disposable personal income (DPI)-personal income less personal current taxes-increased $75.7 billion (0.3 percent), and personal consumption expenditures (PCE) increased $91.0 billion (0.4 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $90.2 billion in December. Personal saving was $830.8 billion in December, and the personal saving rate-personal saving as a percentage of disposable personal income-was 3.6 percent.   <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025\">Full Text</a><!--Full Text Link-->",
+      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025",
+      "source": "BEA",
+      "score": 8,
       "severity": "MEDIUM",
       "regime": "INFLATION",
       "tickers": [],
@@ -159,64 +157,39 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-04T02:26:12.809677Z"
+      "published": "2026-06-04T02:30:53.003234Z"
     },
     {
-      "id": "b90d4bd91154960ac1606c70656c6a4b",
-      "title": "PRA announces ring-fence change to reduce costs",
-      "summary": "The Prudential Regulation Authority has today announced plans to consult on reforming rules around shared operational services for ring-fenced banks.",
-      "link": "https://www.bankofengland.co.uk/news/2026/may/pra-announces-ring-fence-change-to-reduce-costs",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "id": "bce93c6a88584d5fa8fec27755d0ee52",
+      "title": "Natural gas for power generation flat this summer, record high expected in 2027",
+      "summary": "We forecast natural gas consumption by the U.S. electric power sector this summer will remain near recent highs and set a record next summer in our May Short-Term Energy Outlook (STEO). Despite a 2% increase in overall U.S. electricity demand this summer, we expect natural gas-fired electricity generation to be similar to last summer, primarily because of forecast increased generation from renewables. In the May STEO, we forecast natural gas consumed by the U.S. electric power sector will average 43.7 billion cubic feet per day (Bcf/d) during the summer (June\u2013September), the same as in the summer of 2025, and 4% above the five-year summer average (2021\u20132025). We forecast natural gas consumption for power generation will increase 6% (2.4 Bcf/d) during the summer of 2027 to 46.1 Bcf/d, surpassing the previous record set in 2024 by 3%.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67725",
+      "source": "EIA",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-04T02:25:49.555111Z"
-    },
-    {
-      "id": "8e91f9c4f585416629e86604113d4ef7",
-      "title": "Minutes of the Meeting of the Court of Directors held on 12 February 2026",
-      "summary": "The Bank's Court of Directors acts as a unitary board, setting the organisation's strategy and budget and taking key decisions on resourcing and appointments. Required to meet a minimum seven times per year, it has five executive members from the Bank and up to nine non-executive members.",
-      "link": "https://www.bankofengland.co.uk/minutes/2026/may/court-minutes-12-february-2026",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-04T02:25:49.555280Z"
-    },
-    {
-      "id": "de7233e714f6403828c5256750550f11",
-      "title": "Rupiah Hits 18,000 Level With Markets on Guard for Intervention",
-      "summary": "The Indonesian rupiah weakened to the psychological level of 18,000 per dollar, putting investors on watch for a stronger response from the central bank.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-03/idr-usd-rupiah-near-18-000-level-has-markets-on-guard-for-intervention",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [
-        "DXY"
+      "assets": [
+        "AI"
       ],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-04T02:25:30.995665Z"
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-04T02:31:09.073640Z"
     },
     {
-      "id": "ebbefa5809410d531bafeaf53a353620",
-      "title": "FIFA bars fans from bringing water bottles into venues during World Cup",
-      "summary": "FIFA has banned fans from bringing refillable water bottles into World Cup venues in a last-minute policy change that will force thirsty supporters to pay for bottled water, The Athletic reported on Wednesday.",
-      "link": "https://www.japantimes.co.jp/sports/2026/06/04/soccer/world-cup/fifa-water-bottles-world-cup/",
-      "source": "Japan Times",
+      "id": "ba7913167148c46e13d63036f201c27a",
+      "title": "GDP (Advance Estimate), 4th Quarter and Year 2025",
+      "summary": "Real gross domestic product (GDP) increased at an annual rate of 1.4 percent in the fourth quarter of 2025 (October, November, and December), according to the advance estimate released today by the U.S. Bureau of Economic Analysis. In the third quarter, real GDP increased 4.4 percent. The contributors to the increase in real GDP in the fourth quarter were increases in consumer spending and investment. These movements were partly offset by decreases in government spending and exports. Imports, which are a subtraction in the calculation of GDP, decreased.     <!--Full Text Link--><a href=\"https://apps.bea.gov/rss/www.bea.gov/news/2026/gdp-advance-estimate-4th-quarter-and-year-2025\">Full Text</a><!--Full Text Link-->",
+      "link": "https://apps.bea.gov/rss/www.bea.gov/news/2026/gdp-advance-estimate-4th-quarter-and-year-2025",
+      "source": "BEA",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -225,20 +198,40 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-04T02:25:54.599093Z"
+      "published": "2026-06-04T02:30:53.003342Z"
+    },
+    {
+      "id": "ed143cbf570bd7e0f1c09d64e3aa890e",
+      "title": "The United States is a major energy exporter and importer, especially for petroleum",
+      "summary": "Total energy exports from the United States reached a record 31 quadrillion British thermal units (quads) in 2025, 2% more than the previous record set in 2024. U.S. energy imports were 21 quads, down 5% from 2024. Taken together, net trade\u2014total imports less total exports\u2014reached 11 quads of net exports in 2025, a record and 20% more net exports than the previous record set in 2024.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67724",
+      "source": "EIA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK",
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-04T02:31:09.073736Z"
     }
   ],
   "alerts": [
     {
-      "id": "22a6c5827b5e4dc9d186f1b69c9437d5",
-      "title": "CNBC Daily Open: Fresh Iran war worries halt stock rally",
-      "summary": "Oil prices rise and markets fall after Netanyahu tells CNBC Israel and U.S. prepared to attack Iran again if necessary.",
-      "link": "https://www.cnbc.com/2026/06/04/cnbc-daily-open-iran-war-worries-halt-stock-rally.html",
-      "source": "CNBC",
-      "score": 43,
+      "id": "d90749caae815b463aa4df6c8d4f689b",
+      "title": "Oil Prices Dip as Israel-Lebanon Ceasefire Revives Iran Deal Hopes",
+      "summary": "Oil prices were under pressure in early Asian trade on Thursday following the announcement of a ceasefire agreement between Israel and Lebanon. The agreement could ultimately help clear the way for a broader U.S.-Iran deal, which would eventually see the Strait of Hormuz reopen and provide some relief for an increasingly tight oil market. At the time of writing, Brent crude was trading at $96.60 per barrel, down 1.24% on the session, while West Texas Intermediate was down 1.10% at $94.96. The latest pullback follows a sharp rally at the start of\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Dip-as-Israel-Lebanon-Ceasefire-Revives-Iran-Deal-Hopes.html",
+      "source": "OilPrice",
+      "score": 28,
       "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
       "tickers": [
+        "BRENT",
         "WTI"
       ],
       "regions": [
@@ -262,104 +255,101 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-04T02:25:34.382316Z"
+      "published": "2026-06-04T02:31:09.380676Z"
     },
     {
-      "id": "6fb5eeeedf6b7041e36157bcda99997a",
-      "title": "The Bank, FCA and HM Treasury joint statement on Frontier AI models and cyber resilience",
-      "summary": "Statement from the Bank of England, Financial Conduct Authority and HM Treasury",
-      "link": "https://www.bankofengland.co.uk/news/2026/may/boe-fca-and-hm-treasury-joint-statement-on-frontier-ai-models-and-cyber-resilience",
-      "source": "Bank of England",
-      "score": 26,
-      "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [
-        "UK"
-      ],
+      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
+      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
+      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
+      "source": "CISA",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
       "assets": [
-        "AI",
-        "RATES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-04T02:25:49.555155Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-04T02:31:17.359129Z"
     },
     {
-      "id": "5709212e9e75645b2a8cd281193faff5",
-      "title": "FCA and Bank of England set out shared vision for\u202ftokenisation in UK\u202fwholesale markets",
-      "summary": "The Financial Conduct Authority and the Bank of England\u202fset out a shared vision and seek industry views on the future of UK wholesale markets",
-      "link": "https://www.bankofengland.co.uk/news/2026/may/fca-and-boe-set-out-shared-vision-for-tokenisation-in-uk-wholesale-markets",
-      "source": "Bank of England",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "UK"
+      "id": "3730114a086b110dbd534b0db127f16f",
+      "title": "Live Markets: Bitcoin crashes to $62,000 as billions of longs get liquidated",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/06/03/live-markets-bitcoin-crashes-to-usd62-000-as-billions-of-longs-get-liquidated",
+      "source": "CoinDesk",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
       ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-04T02:31:16.284277Z"
+    },
+    {
+      "id": "e9ad7f6a0c19f77ef529f2ab969598d4",
+      "title": "CISA warns of cyberattacks targeting fuel tank monitoring systems",
+      "summary": "CISA, the FBI, the NSA, the Department of Energy, and other US government partners are warning that hackers are targeting internet-exposed automatic tank gauge (ATG) systems used to monitor fuel and liquid storage tanks across various critical infrastructure sectors. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-04T02:25:49.555062Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-04T02:31:16.635240Z"
     },
     {
-      "id": "e2567522caa582d81121a2aed629cf45",
-      "title": "Minutes of the Market Participants Group meeting \u2013 7 May 2026",
-      "summary": "The Market Participants Group (MPG) is a senior-level forum for financial market participants to share their views on relevant themes and narratives in financial markets with members of the Bank of England\u2019s Monetary Policy Committee.",
-      "link": "https://www.bankofengland.co.uk/minutes/2026/may/market-participants-group-meeting-7-may-2026",
-      "source": "Bank of England",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-04T02:25:49.555222Z"
-    },
-    {
-      "id": "05bc48a1df7058d4d7d37015f4cd3062",
-      "title": "Logan: Fed May Need to Hike Interest Rates This Year to Confront Inflation - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQNEM3OVNrUXNCZFVjaDBBdlM5M0hMNnZjeTZyeWI3OUlpY1ltenlNRWdWaHpaV0o2ZnhxeUIyRlNrd0JPeHg5TDdINkNXcDN0OF9HNl9ZRWpUcHhtN2tmM0xUQjBsekhTSjcyNExiSm1QUWNaZzR5MllUOU1rSUpXRnU2SHY5d1FhVUZHbUI1N2FnM1FUY0N4NlU3eXdCTjB5U2ZlcTZTc1p0Y2NabkwzaURjdnFNQnN4NktXWS0tb0VETDB0?oc=5\" target=\"_blank\">Logan: Fed May Need to Hike Interest Rates This Year to Confront Inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNEM3OVNrUXNCZFVjaDBBdlM5M0hMNnZjeTZyeWI3OUlpY1ltenlNRWdWaHpaV0o2ZnhxeUIyRlNrd0JPeHg5TDdINkNXcDN0OF9HNl9ZRWpUcHhtN2tmM0xUQjBsekhTSjcyNExiSm1QUWNaZzR5MllUOU1rSUpXRnU2SHY5d1FhVUZHbUI1N2FnM1FUY0N4NlU3eXdCTjB5U2ZlcTZTc1p0Y2NabkwzaURjdnFNQnN4NktXWS0tb0VETDB0?oc=5",
-      "source": "Google Macro",
-      "score": 14,
+      "id": "4a5bd718d8f2eb09ac2a1784c2831c70",
+      "title": "Personal Income and Outlays, December 2025",
+      "summary": "Personal income increased $86.2 billion (0.3 percent at a monthly rate) in December, according to estimates released today by the U.S. Bureau of Economic Analysis. Disposable personal income (DPI)-personal income less personal current taxes-increased $75.7 billion (0.3 percent), and personal consumption expenditures (PCE) increased $91.0 billion (0.4 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $90.2 billion in December. Personal saving was $830.8 billion in December, and the personal saving rate-personal saving as a percentage of disposable personal income-was 3.6 percent.   <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025\">Full Text</a><!--Full Text Link-->",
+      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025",
+      "source": "BEA",
+      "score": 8,
       "severity": "MEDIUM",
       "regime": "INFLATION",
       "tickers": [],
@@ -377,64 +367,39 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-04T02:26:12.809677Z"
+      "published": "2026-06-04T02:30:53.003234Z"
     },
     {
-      "id": "b90d4bd91154960ac1606c70656c6a4b",
-      "title": "PRA announces ring-fence change to reduce costs",
-      "summary": "The Prudential Regulation Authority has today announced plans to consult on reforming rules around shared operational services for ring-fenced banks.",
-      "link": "https://www.bankofengland.co.uk/news/2026/may/pra-announces-ring-fence-change-to-reduce-costs",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "id": "bce93c6a88584d5fa8fec27755d0ee52",
+      "title": "Natural gas for power generation flat this summer, record high expected in 2027",
+      "summary": "We forecast natural gas consumption by the U.S. electric power sector this summer will remain near recent highs and set a record next summer in our May Short-Term Energy Outlook (STEO). Despite a 2% increase in overall U.S. electricity demand this summer, we expect natural gas-fired electricity generation to be similar to last summer, primarily because of forecast increased generation from renewables. In the May STEO, we forecast natural gas consumed by the U.S. electric power sector will average 43.7 billion cubic feet per day (Bcf/d) during the summer (June\u2013September), the same as in the summer of 2025, and 4% above the five-year summer average (2021\u20132025). We forecast natural gas consumption for power generation will increase 6% (2.4 Bcf/d) during the summer of 2027 to 46.1 Bcf/d, surpassing the previous record set in 2024 by 3%.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67725",
+      "source": "EIA",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-04T02:25:49.555111Z"
-    },
-    {
-      "id": "8e91f9c4f585416629e86604113d4ef7",
-      "title": "Minutes of the Meeting of the Court of Directors held on 12 February 2026",
-      "summary": "The Bank's Court of Directors acts as a unitary board, setting the organisation's strategy and budget and taking key decisions on resourcing and appointments. Required to meet a minimum seven times per year, it has five executive members from the Bank and up to nine non-executive members.",
-      "link": "https://www.bankofengland.co.uk/minutes/2026/may/court-minutes-12-february-2026",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-04T02:25:49.555280Z"
-    },
-    {
-      "id": "de7233e714f6403828c5256750550f11",
-      "title": "Rupiah Hits 18,000 Level With Markets on Guard for Intervention",
-      "summary": "The Indonesian rupiah weakened to the psychological level of 18,000 per dollar, putting investors on watch for a stronger response from the central bank.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-03/idr-usd-rupiah-near-18-000-level-has-markets-on-guard-for-intervention",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [
-        "DXY"
+      "assets": [
+        "AI"
       ],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-04T02:25:30.995665Z"
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-04T02:31:09.073640Z"
     },
     {
-      "id": "ebbefa5809410d531bafeaf53a353620",
-      "title": "FIFA bars fans from bringing water bottles into venues during World Cup",
-      "summary": "FIFA has banned fans from bringing refillable water bottles into World Cup venues in a last-minute policy change that will force thirsty supporters to pay for bottled water, The Athletic reported on Wednesday.",
-      "link": "https://www.japantimes.co.jp/sports/2026/06/04/soccer/world-cup/fifa-water-bottles-world-cup/",
-      "source": "Japan Times",
+      "id": "ba7913167148c46e13d63036f201c27a",
+      "title": "GDP (Advance Estimate), 4th Quarter and Year 2025",
+      "summary": "Real gross domestic product (GDP) increased at an annual rate of 1.4 percent in the fourth quarter of 2025 (October, November, and December), according to the advance estimate released today by the U.S. Bureau of Economic Analysis. In the third quarter, real GDP increased 4.4 percent. The contributors to the increase in real GDP in the fourth quarter were increases in consumer spending and investment. These movements were partly offset by decreases in government spending and exports. Imports, which are a subtraction in the calculation of GDP, decreased.     <!--Full Text Link--><a href=\"https://apps.bea.gov/rss/www.bea.gov/news/2026/gdp-advance-estimate-4th-quarter-and-year-2025\">Full Text</a><!--Full Text Link-->",
+      "link": "https://apps.bea.gov/rss/www.bea.gov/news/2026/gdp-advance-estimate-4th-quarter-and-year-2025",
+      "source": "BEA",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -443,7 +408,26 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-04T02:25:54.599093Z"
+      "published": "2026-06-04T02:30:53.003342Z"
+    },
+    {
+      "id": "ed143cbf570bd7e0f1c09d64e3aa890e",
+      "title": "The United States is a major energy exporter and importer, especially for petroleum",
+      "summary": "Total energy exports from the United States reached a record 31 quadrillion British thermal units (quads) in 2025, 2% more than the previous record set in 2024. U.S. energy imports were 21 quads, down 5% from 2024. Taken together, net trade\u2014total imports less total exports\u2014reached 11 quads of net exports in 2025, a record and 20% more net exports than the previous record set in 2024.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67724",
+      "source": "EIA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK",
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-04T02:31:09.073736Z"
     }
   ]
 }
