@@ -1,101 +1,27 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-05T14:41:13.477035Z",
+  "generated_at": "2026-06-05T14:46:24.301668Z",
   "market_regime": {
     "regime": "GEO-SHOCK",
     "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 2,
-    "last_updated": "2026-06-05T14:41:13.477053Z"
+    "critical_alerts": 0,
+    "high_alerts": 1,
+    "last_updated": "2026-06-05T14:46:24.301682Z"
   },
   "top_signals": [
     {
-      "id": "a8ab8ae6d0793dccde5ebae37910e97a",
-      "title": "Oil Falls as Traders Weigh Demand Destruction, Stalled Talks",
-      "summary": "Oil edged lower as traders assessed the extent of demand destruction against a backdrop of ongoing US-Iran peace talks, which have so far yielded little progress toward reopening the critical Strait of Hormuz.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-04/latest-oil-market-news-and-analysis-for-june-5",
-      "source": "Bloomberg",
-      "score": 39,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-05T14:40:37.542854Z"
-    },
-    {
-      "id": "c42f2f55e319a219eb4f9359ba11032d",
-      "title": "Norway Averts Offshore Strike as Workers and Industry Reach Deal",
-      "summary": "Norway has narrowly avoided a strike at offshore oil platforms after trade unions and oil companies reached an agreement on wages in the early hours on Friday. The potential strike over wages could have threatened smooth operations offshore Norway, Western Europe's top oil and gas producer, at a time when the world is scrambling for oil and gas supply amid the Middle East crisis. Almost 8% of oil and gas workers offshore Norway early this week threatened to go on a strike from June 5 if trade union negotiations with industry fail to reach an agreement\u2026",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Norway-Averts-Offshore-Strike-as-Workers-and-Industry-Reach-Deal.html",
-      "source": "OilPrice",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR",
-        "WTI"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-05T14:41:06.530111Z"
-    },
-    {
-      "id": "036ca528d03addec6e332886b8bcc9fd",
-      "title": "Canadian miner taps Brazil to carve China out of rare-earth supply chain",
-      "summary": "",
-      "link": "https://asia.nikkei.com/spotlight/supply-chain/canadian-miner-taps-brazil-to-carve-china-out-of-rare-earth-supply-chain",
-      "source": "Nikkei Asia",
-      "score": 17,
+      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
+      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
+      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
+      "source": "CISA",
+      "score": 21,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [
-        "CHINA"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -113,22 +39,49 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-05T14:40:59.761351Z"
+      "published": "2026-06-05T14:46:21.405250Z"
     },
     {
-      "id": "8c0d8f72f3a0e338438fc6a12d16b450",
-      "title": "Chip sell-off threatens Wall Street\u2019s winning streak",
-      "summary": "Tech stocks suffer two-day decline following disappointing results from semiconductor giant Broadcom",
-      "link": "https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603",
-      "source": "Financial Times",
+      "id": "05bc48a1df7058d4d7d37015f4cd3062",
+      "title": "Logan: Fed May Need to Hike Interest Rates This Year to Confront Inflation - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQNEM3OVNrUXNCZFVjaDBBdlM5M0hMNnZjeTZyeWI3OUlpY1ltenlNRWdWaHpaV0o2ZnhxeUIyRlNrd0JPeHg5TDdINkNXcDN0OF9HNl9ZRWpUcHhtN2tmM0xUQjBsekhTSjcyNExiSm1QUWNaZzR5MllUOU1rSUpXRnU2SHY5d1FhVUZHbUI1N2FnM1FUY0N4NlU3eXdCTjB5U2ZlcTZTc1p0Y2NabkwzaURjdnFNQnN4NktXWS0tb0VETDB0?oc=5\" target=\"_blank\">Logan: Fed May Need to Hike Interest Rates This Year to Confront Inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNEM3OVNrUXNCZFVjaDBBdlM5M0hMNnZjeTZyeWI3OUlpY1ltenlNRWdWaHpaV0o2ZnhxeUIyRlNrd0JPeHg5TDdINkNXcDN0OF9HNl9ZRWpUcHhtN2tmM0xUQjBsekhTSjcyNExiSm1QUWNaZzR5MllUOU1rSUpXRnU2SHY5d1FhVUZHbUI1N2FnM1FUY0N4NlU3eXdCTjB5U2ZlcTZTc1p0Y2NabkwzaURjdnFNQnN4NktXWS0tb0VETDB0?oc=5",
+      "source": "Google Macro",
       "score": 14,
       "severity": "MEDIUM",
-      "regime": "AI",
+      "regime": "INFLATION",
       "tickers": [],
       "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-05T14:46:23.663231Z"
+    },
+    {
+      "id": "533210c196257eef55c5216bc1de0497",
+      "title": "FirstFT: SpaceX lines up retail investors for record IPO allocation - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPb0E4R3RwUUptY3lrNWtoUkkyTXR3QVZCeXVkQWw5eFktTHFnNzQ2ZVBXdUV2Tm1rRm5IMVRUaFU1RDVZRkRGdUxieFZPR2s2NHdidnFqbkxpaHhIV21XcXhST1JCR1NuMlEwRnVMUVR2bFdDTC1VZ195bElMZkVwc0Uyd1c?oc=5\" target=\"_blank\">FirstFT: SpaceX lines up retail investors for record IPO allocation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPb0E4R3RwUUptY3lrNWtoUkkyTXR3QVZCeXVkQWw5eFktTHFnNzQ2ZVBXdUV2Tm1rRm5IMVRUaFU1RDVZRkRGdUxieFZPR2s2NHdidnFqbkxpaHhIV21XcXhST1JCR1NuMlEwRnVMUVR2bFdDTC1VZ195bElMZkVwc0Uyd1c?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [
-        "AI",
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -139,269 +92,21 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-05T14:40:40.218111Z"
-    },
-    {
-      "id": "f08fbc625baf83a290fa033a71602b67",
-      "title": "ArcBest raises Q2 outlook for LTL, asset-light units",
-      "summary": "<p>ArcBest raised operating income expectations for both of its business units.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/arcbest-raises-q2-outlook-for-ltl-asset-light-units\">ArcBest raises Q2 outlook for LTL, asset-light units</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/arcbest-raises-q2-outlook-for-ltl-asset-light-units",
-      "source": "FreightWaves",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-05T14:41:07.599017Z"
-    },
-    {
-      "id": "3d3c5f71eb25e3883fd10293c63ed859",
-      "title": "Canada Post parcel volumes decline 17.2% in Q1",
-      "summary": "<p>Canada Post is turning its attention to pricing and operational reforms aimed at restoring financial stability after unionized letter carriers ratified a new contract.</p>\n<p>The post <a href=\"https://www.freightwaves.com/postalmag/postal-news/canada-post-parcel-volumes-decline-17-2-in-q1/\">Canada Post parcel volumes decline 17.2% in Q1</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/postalmag/postal-news/canada-post-parcel-volumes-decline-17-2-in-q1/",
-      "source": "FreightWaves",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-05T14:41:07.599091Z"
-    },
-    {
-      "id": "e215db14d6e179828d4f4279c0dbd663",
-      "title": "Per\u00fa elige entre Fujimori y S\u00e1nchez en una votaci\u00f3n decisiva",
-      "summary": "Per\u00fa elige presidente este domingo en una votaci\u00f3n marcada por la polarizaci\u00f3n. Keiko Fujimori y Roberto S\u00e1nchez representan dos visiones opuestas sobre la econom\u00eda, la seguridad y el futuro del pa\u00eds. \u00bfQu\u00e9 est\u00e1 en juego? Te lo explicamos. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-05/peru-elige-entre-fujimori-y-sanchez-en-una-votacion-decisiva",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-05T14:40:37.542926Z"
-    },
-    {
-      "id": "16cdf0858038ed02abd7f86999b5e92d",
-      "title": "Veja os Assuntos que Marcaram a Semana no Brasil",
-      "summary": "Confira os assuntos que foram destaque da semana no Brasil com Patricia Xavier. Produ\u00e7\u00e3o de Barbara Nascimento e Raphael Almeida.  (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-05/veja-os-assuntos-que-marcaram-a-semana-no-brasil-video",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-05T14:40:37.542971Z"
-    },
-    {
-      "id": "0059124fa84cddcab9033ee46984e37e",
-      "title": "Fortune advances Nico cobalt-gold project as cash hurdle looms",
-      "summary": "The company expects full land and water authorizations in the Northwest Territories within two to three months.",
-      "link": "https://www.mining.com/fortune-advances-nico-cobalt-gold-project-as-cash-hurdle-looms/",
-      "source": "Mining.com",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "XAU"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-05T14:41:07.339941Z"
-    },
-    {
-      "id": "eb03c5eeda28736477262f295ba8aa64",
-      "title": "Solar silver thrifting not enough to curb demand",
-      "summary": "Silver demand has been consistently outpacing supply for the last six years, with the Silver Institute projecting a 46.3Moz deficit.",
-      "link": "https://www.mining.com/solar-thrifting-not-enough-to-curb-demand/",
-      "source": "Mining.com",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "SILVER"
-      ],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-05T14:41:07.339893Z"
-    },
-    {
-      "id": "a4ef342ce4d7a83f0f93e293a7bc1077",
-      "title": "Mining influencers\u00a0take\u00a0industry\u2019s image\u00a0battle to TikTok",
-      "summary": "The rise of mining influencers comes as the industry\u00a0struggles to attract younger workers\u00a0while\u00a0enrolments in geoscience programs\u00a0decline.",
-      "link": "https://www.mining.com/mining-influencers-take-industrys-image-battle-to-tiktok/",
-      "source": "Mining.com",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-05T14:41:07.340019Z"
+      "published": "2026-06-05T14:46:23.133935Z"
     }
   ],
   "alerts": [
     {
-      "id": "a8ab8ae6d0793dccde5ebae37910e97a",
-      "title": "Oil Falls as Traders Weigh Demand Destruction, Stalled Talks",
-      "summary": "Oil edged lower as traders assessed the extent of demand destruction against a backdrop of ongoing US-Iran peace talks, which have so far yielded little progress toward reopening the critical Strait of Hormuz.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-04/latest-oil-market-news-and-analysis-for-june-5",
-      "source": "Bloomberg",
-      "score": 39,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-05T14:40:37.542854Z"
-    },
-    {
-      "id": "c42f2f55e319a219eb4f9359ba11032d",
-      "title": "Norway Averts Offshore Strike as Workers and Industry Reach Deal",
-      "summary": "Norway has narrowly avoided a strike at offshore oil platforms after trade unions and oil companies reached an agreement on wages in the early hours on Friday. The potential strike over wages could have threatened smooth operations offshore Norway, Western Europe's top oil and gas producer, at a time when the world is scrambling for oil and gas supply amid the Middle East crisis. Almost 8% of oil and gas workers offshore Norway early this week threatened to go on a strike from June 5 if trade union negotiations with industry fail to reach an agreement\u2026",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Norway-Averts-Offshore-Strike-as-Workers-and-Industry-Reach-Deal.html",
-      "source": "OilPrice",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR",
-        "WTI"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-05T14:41:06.530111Z"
-    },
-    {
-      "id": "036ca528d03addec6e332886b8bcc9fd",
-      "title": "Canadian miner taps Brazil to carve China out of rare-earth supply chain",
-      "summary": "",
-      "link": "https://asia.nikkei.com/spotlight/supply-chain/canadian-miner-taps-brazil-to-carve-china-out-of-rare-earth-supply-chain",
-      "source": "Nikkei Asia",
-      "score": 17,
+      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
+      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
+      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
+      "source": "CISA",
+      "score": 21,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [
-        "CHINA"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -419,22 +124,49 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-05T14:40:59.761351Z"
+      "published": "2026-06-05T14:46:21.405250Z"
     },
     {
-      "id": "8c0d8f72f3a0e338438fc6a12d16b450",
-      "title": "Chip sell-off threatens Wall Street\u2019s winning streak",
-      "summary": "Tech stocks suffer two-day decline following disappointing results from semiconductor giant Broadcom",
-      "link": "https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603",
-      "source": "Financial Times",
+      "id": "05bc48a1df7058d4d7d37015f4cd3062",
+      "title": "Logan: Fed May Need to Hike Interest Rates This Year to Confront Inflation - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQNEM3OVNrUXNCZFVjaDBBdlM5M0hMNnZjeTZyeWI3OUlpY1ltenlNRWdWaHpaV0o2ZnhxeUIyRlNrd0JPeHg5TDdINkNXcDN0OF9HNl9ZRWpUcHhtN2tmM0xUQjBsekhTSjcyNExiSm1QUWNaZzR5MllUOU1rSUpXRnU2SHY5d1FhVUZHbUI1N2FnM1FUY0N4NlU3eXdCTjB5U2ZlcTZTc1p0Y2NabkwzaURjdnFNQnN4NktXWS0tb0VETDB0?oc=5\" target=\"_blank\">Logan: Fed May Need to Hike Interest Rates This Year to Confront Inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNEM3OVNrUXNCZFVjaDBBdlM5M0hMNnZjeTZyeWI3OUlpY1ltenlNRWdWaHpaV0o2ZnhxeUIyRlNrd0JPeHg5TDdINkNXcDN0OF9HNl9ZRWpUcHhtN2tmM0xUQjBsekhTSjcyNExiSm1QUWNaZzR5MllUOU1rSUpXRnU2SHY5d1FhVUZHbUI1N2FnM1FUY0N4NlU3eXdCTjB5U2ZlcTZTc1p0Y2NabkwzaURjdnFNQnN4NktXWS0tb0VETDB0?oc=5",
+      "source": "Google Macro",
       "score": 14,
       "severity": "MEDIUM",
-      "regime": "AI",
+      "regime": "INFLATION",
       "tickers": [],
       "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-05T14:46:23.663231Z"
+    },
+    {
+      "id": "533210c196257eef55c5216bc1de0497",
+      "title": "FirstFT: SpaceX lines up retail investors for record IPO allocation - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPb0E4R3RwUUptY3lrNWtoUkkyTXR3QVZCeXVkQWw5eFktTHFnNzQ2ZVBXdUV2Tm1rRm5IMVRUaFU1RDVZRkRGdUxieFZPR2s2NHdidnFqbkxpaHhIV21XcXhST1JCR1NuMlEwRnVMUVR2bFdDTC1VZ195bElMZkVwc0Uyd1c?oc=5\" target=\"_blank\">FirstFT: SpaceX lines up retail investors for record IPO allocation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPb0E4R3RwUUptY3lrNWtoUkkyTXR3QVZCeXVkQWw5eFktTHFnNzQ2ZVBXdUV2Tm1rRm5IMVRUaFU1RDVZRkRGdUxieFZPR2s2NHdidnFqbkxpaHhIV21XcXhST1JCR1NuMlEwRnVMUVR2bFdDTC1VZ195bElMZkVwc0Uyd1c?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [
-        "AI",
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -445,181 +177,7 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-05T14:40:40.218111Z"
-    },
-    {
-      "id": "f08fbc625baf83a290fa033a71602b67",
-      "title": "ArcBest raises Q2 outlook for LTL, asset-light units",
-      "summary": "<p>ArcBest raised operating income expectations for both of its business units.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/arcbest-raises-q2-outlook-for-ltl-asset-light-units\">ArcBest raises Q2 outlook for LTL, asset-light units</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/arcbest-raises-q2-outlook-for-ltl-asset-light-units",
-      "source": "FreightWaves",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-05T14:41:07.599017Z"
-    },
-    {
-      "id": "3d3c5f71eb25e3883fd10293c63ed859",
-      "title": "Canada Post parcel volumes decline 17.2% in Q1",
-      "summary": "<p>Canada Post is turning its attention to pricing and operational reforms aimed at restoring financial stability after unionized letter carriers ratified a new contract.</p>\n<p>The post <a href=\"https://www.freightwaves.com/postalmag/postal-news/canada-post-parcel-volumes-decline-17-2-in-q1/\">Canada Post parcel volumes decline 17.2% in Q1</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/postalmag/postal-news/canada-post-parcel-volumes-decline-17-2-in-q1/",
-      "source": "FreightWaves",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-05T14:41:07.599091Z"
-    },
-    {
-      "id": "e215db14d6e179828d4f4279c0dbd663",
-      "title": "Per\u00fa elige entre Fujimori y S\u00e1nchez en una votaci\u00f3n decisiva",
-      "summary": "Per\u00fa elige presidente este domingo en una votaci\u00f3n marcada por la polarizaci\u00f3n. Keiko Fujimori y Roberto S\u00e1nchez representan dos visiones opuestas sobre la econom\u00eda, la seguridad y el futuro del pa\u00eds. \u00bfQu\u00e9 est\u00e1 en juego? Te lo explicamos. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-05/peru-elige-entre-fujimori-y-sanchez-en-una-votacion-decisiva",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-05T14:40:37.542926Z"
-    },
-    {
-      "id": "16cdf0858038ed02abd7f86999b5e92d",
-      "title": "Veja os Assuntos que Marcaram a Semana no Brasil",
-      "summary": "Confira os assuntos que foram destaque da semana no Brasil com Patricia Xavier. Produ\u00e7\u00e3o de Barbara Nascimento e Raphael Almeida.  (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-05/veja-os-assuntos-que-marcaram-a-semana-no-brasil-video",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-05T14:40:37.542971Z"
-    },
-    {
-      "id": "0059124fa84cddcab9033ee46984e37e",
-      "title": "Fortune advances Nico cobalt-gold project as cash hurdle looms",
-      "summary": "The company expects full land and water authorizations in the Northwest Territories within two to three months.",
-      "link": "https://www.mining.com/fortune-advances-nico-cobalt-gold-project-as-cash-hurdle-looms/",
-      "source": "Mining.com",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "XAU"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-05T14:41:07.339941Z"
-    },
-    {
-      "id": "eb03c5eeda28736477262f295ba8aa64",
-      "title": "Solar silver thrifting not enough to curb demand",
-      "summary": "Silver demand has been consistently outpacing supply for the last six years, with the Silver Institute projecting a 46.3Moz deficit.",
-      "link": "https://www.mining.com/solar-thrifting-not-enough-to-curb-demand/",
-      "source": "Mining.com",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "SILVER"
-      ],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-05T14:41:07.339893Z"
-    },
-    {
-      "id": "a4ef342ce4d7a83f0f93e293a7bc1077",
-      "title": "Mining influencers\u00a0take\u00a0industry\u2019s image\u00a0battle to TikTok",
-      "summary": "The rise of mining influencers comes as the industry\u00a0struggles to attract younger workers\u00a0while\u00a0enrolments in geoscience programs\u00a0decline.",
-      "link": "https://www.mining.com/mining-influencers-take-industrys-image-battle-to-tiktok/",
-      "source": "Mining.com",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-05T14:41:07.340019Z"
+      "published": "2026-06-05T14:46:23.133935Z"
     }
   ]
 }
