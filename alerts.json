@@ -1,119 +1,337 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-06T13:06:06.821983Z",
+  "generated_at": "2026-06-06T13:11:13.485873Z",
   "market_regime": {
-    "regime": "AI",
-    "dominant_driver": "AI",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-06-06T13:06:06.821993Z"
+    "high_alerts": 1,
+    "last_updated": "2026-06-06T13:11:13.485885Z"
   },
   "top_signals": [
     {
-      "id": "af9942980645b46a7903d4bb262e6ab6",
-      "title": "Wall Street's 'fear gauge' punches back as the 'crash up' in chip stocks finally reverses",
-      "summary": "The monster rally in semiconductor stocks hit a wall on Friday, and the VIX at last caught up with other volatility metrics.",
-      "link": "https://www.cnbc.com/2026/06/06/wall-streets-fear-gauge-punches-back-as-the-crash-up-in-chip-stocks-finally-reverses.html",
-      "source": "CNBC",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "EQUITIES"
+      "id": "d5c6b0171458dadd3f95829d7bf1e3aa",
+      "title": "Nasdaq tumbles 4% as shares in chip and memory groups sink",
+      "summary": "Rising expectations of a Federal Reserve rate increase send US bond yields rising sharply",
+      "link": "https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603",
+      "source": "Financial Times",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "QQQ"
       ],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "DXY",
+          "JPY"
         ],
-        "bearish": []
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-06T13:05:34.270643Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-06T13:10:39.174136Z"
     },
     {
-      "id": "35996321db704bc59807d7d59cefe10f",
-      "title": "How \u2018Backrooms\u2019 producer Peter Chernin thinks Hollywood needs to change",
-      "summary": "Franchise fatigue could drive an entertainment industry sea change as the appetite for fresh ideas grows and younger audiences make up more box office sales.",
-      "link": "https://www.cnbc.com/2026/06/06/backrooms-peter-chernin-hollywood.html",
-      "source": "CNBC",
-      "score": 10,
+      "id": "6f7dab5e60853f856b5da82a201eccb7",
+      "title": "US forces board sanctioned tanker in Indian Ocean, Pentagon says",
+      "summary": "U.S. forces have intercepted multiple commercial and oil tankers in the Indian Ocean in recent months.",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/05/us-forces-board-sanctioned-tanker-in-indian-ocean-pentagon-says/",
+      "source": "Defense News",
+      "score": 14,
       "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
       "regions": [],
       "assets": [
-        "AI"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
-        "bearish": []
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-06T13:05:34.270705Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-06T13:11:08.839694Z"
+    },
+    {
+      "id": "f6681e5f23f4dae3cafeabfa1c568458",
+      "title": "Bond investors bet Colombia\u2019s \u2018Tiger\u2019 will slash public spending",
+      "summary": "Rightwing populist Abelardo de la Espriella goes into second-round presidential vote",
+      "link": "https://www.ft.com/content/62b6b2c4-5d7a-4992-94bb-2c7c080b7e55",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-06T13:10:39.174192Z"
+    },
+    {
+      "id": "d893fe91dc1b0d71d9c821b6a3350007",
+      "title": "Apple removes Russia\u2019s state-backed messaging app Max from its store",
+      "summary": "Russian authorities have promoted Max as a domestic alternative to foreign messaging platforms such as Telegram and WhatsApp.",
+      "link": "https://therecord.media/apple-removes-russian-app-max-from-app-store",
+      "source": "The Record",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-06T13:11:10.606836Z"
+    },
+    {
+      "id": "5aeeb0e232921a47942dcbeb616cb402",
+      "title": "PwC cuts partner payouts in China Evergrande fallout - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOWm9maFpoOG1XNC1XbEI0UTQ5SmFaNnlTVlZJS2hzRVZXNGU3OHJLaUxnMm4tRDJ4OFhKYlBqRXpibWRRLThZUjIyemxLTkdhdmlhaXd3aEJ4MzBLX3FVdHgwZmRZbjNxbVgwVGFxS1B6NWdUbjFJajBYcXR0VHBSUmdDWkY?oc=5\" target=\"_blank\">PwC cuts partner payouts in China Evergrande fallout</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWm9maFpoOG1XNC1XbEI0UTQ5SmFaNnlTVlZJS2hzRVZXNGU3OHJLaUxnMm4tRDJ4OFhKYlBqRXpibWRRLThZUjIyemxLTkdhdmlhaXd3aEJ4MzBLX3FVdHgwZmRZbjNxbVgwVGFxS1B6NWdUbjFJajBYcXR0VHBSUmdDWkY?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-06T13:11:12.381184Z"
+    },
+    {
+      "id": "b06a3d30a2575e9136b32a9f5b69843d",
+      "title": "Exclusive | JPMorgan, Citi and Big Banks Plan New Tokenized Deposit System to Answer Crypto - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN3RlYU90TlRuWjJna29BTkZQb1RpZk1xT3lma0k4V3VKYVFYUlN5UjZLTm5walRlRjdDTDB1Mmg4YUkzLUUzT1k1QXFyX3JCdEJNUElGUEZCRWZXZjFCeFFmcnVTLVg2TXdUZ3QxY3N3VE9pbThPc0hvRFJJZHZjcURqaXlVZjJ1RFpVdVd1bUo0c0k0UlhlVS1talhEWmRSbFhCVGY2ZjlpWGY4RkNFTWlZSGZVZEJ0czNZdEloLU0?oc=5\" target=\"_blank\">Exclusive | JPMorgan, Citi and Big Banks Plan New Tokenized Deposit System to Answer Crypto</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN3RlYU90TlRuWjJna29BTkZQb1RpZk1xT3lma0k4V3VKYVFYUlN5UjZLTm5walRlRjdDTDB1Mmg4YUkzLUUzT1k1QXFyX3JCdEJNUElGUEZCRWZXZjFCeFFmcnVTLVg2TXdUZ3QxY3N3VE9pbThPc0hvRFJJZHZjcURqaXlVZjJ1RFpVdVd1bUo0c0k0UlhlVS1talhEWmRSbFhCVGY2ZjlpWGY4RkNFTWlZSGZVZEJ0czNZdEloLU0?oc=5",
+      "source": "Google Macro",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-06T13:11:12.915534Z"
     }
   ],
   "alerts": [
     {
-      "id": "af9942980645b46a7903d4bb262e6ab6",
-      "title": "Wall Street's 'fear gauge' punches back as the 'crash up' in chip stocks finally reverses",
-      "summary": "The monster rally in semiconductor stocks hit a wall on Friday, and the VIX at last caught up with other volatility metrics.",
-      "link": "https://www.cnbc.com/2026/06/06/wall-streets-fear-gauge-punches-back-as-the-crash-up-in-chip-stocks-finally-reverses.html",
-      "source": "CNBC",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "EQUITIES"
+      "id": "d5c6b0171458dadd3f95829d7bf1e3aa",
+      "title": "Nasdaq tumbles 4% as shares in chip and memory groups sink",
+      "summary": "Rising expectations of a Federal Reserve rate increase send US bond yields rising sharply",
+      "link": "https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603",
+      "source": "Financial Times",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "QQQ"
       ],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "DXY",
+          "JPY"
         ],
-        "bearish": []
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-06T13:05:34.270643Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-06T13:10:39.174136Z"
     },
     {
-      "id": "35996321db704bc59807d7d59cefe10f",
-      "title": "How \u2018Backrooms\u2019 producer Peter Chernin thinks Hollywood needs to change",
-      "summary": "Franchise fatigue could drive an entertainment industry sea change as the appetite for fresh ideas grows and younger audiences make up more box office sales.",
-      "link": "https://www.cnbc.com/2026/06/06/backrooms-peter-chernin-hollywood.html",
-      "source": "CNBC",
-      "score": 10,
+      "id": "6f7dab5e60853f856b5da82a201eccb7",
+      "title": "US forces board sanctioned tanker in Indian Ocean, Pentagon says",
+      "summary": "U.S. forces have intercepted multiple commercial and oil tankers in the Indian Ocean in recent months.",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/05/us-forces-board-sanctioned-tanker-in-indian-ocean-pentagon-says/",
+      "source": "Defense News",
+      "score": 14,
       "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
       "regions": [],
       "assets": [
-        "AI"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
-        "bearish": []
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-06T13:05:34.270705Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-06T13:11:08.839694Z"
+    },
+    {
+      "id": "f6681e5f23f4dae3cafeabfa1c568458",
+      "title": "Bond investors bet Colombia\u2019s \u2018Tiger\u2019 will slash public spending",
+      "summary": "Rightwing populist Abelardo de la Espriella goes into second-round presidential vote",
+      "link": "https://www.ft.com/content/62b6b2c4-5d7a-4992-94bb-2c7c080b7e55",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-06T13:10:39.174192Z"
+    },
+    {
+      "id": "d893fe91dc1b0d71d9c821b6a3350007",
+      "title": "Apple removes Russia\u2019s state-backed messaging app Max from its store",
+      "summary": "Russian authorities have promoted Max as a domestic alternative to foreign messaging platforms such as Telegram and WhatsApp.",
+      "link": "https://therecord.media/apple-removes-russian-app-max-from-app-store",
+      "source": "The Record",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-06T13:11:10.606836Z"
+    },
+    {
+      "id": "5aeeb0e232921a47942dcbeb616cb402",
+      "title": "PwC cuts partner payouts in China Evergrande fallout - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOWm9maFpoOG1XNC1XbEI0UTQ5SmFaNnlTVlZJS2hzRVZXNGU3OHJLaUxnMm4tRDJ4OFhKYlBqRXpibWRRLThZUjIyemxLTkdhdmlhaXd3aEJ4MzBLX3FVdHgwZmRZbjNxbVgwVGFxS1B6NWdUbjFJajBYcXR0VHBSUmdDWkY?oc=5\" target=\"_blank\">PwC cuts partner payouts in China Evergrande fallout</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWm9maFpoOG1XNC1XbEI0UTQ5SmFaNnlTVlZJS2hzRVZXNGU3OHJLaUxnMm4tRDJ4OFhKYlBqRXpibWRRLThZUjIyemxLTkdhdmlhaXd3aEJ4MzBLX3FVdHgwZmRZbjNxbVgwVGFxS1B6NWdUbjFJajBYcXR0VHBSUmdDWkY?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-06T13:11:12.381184Z"
+    },
+    {
+      "id": "b06a3d30a2575e9136b32a9f5b69843d",
+      "title": "Exclusive | JPMorgan, Citi and Big Banks Plan New Tokenized Deposit System to Answer Crypto - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN3RlYU90TlRuWjJna29BTkZQb1RpZk1xT3lma0k4V3VKYVFYUlN5UjZLTm5walRlRjdDTDB1Mmg4YUkzLUUzT1k1QXFyX3JCdEJNUElGUEZCRWZXZjFCeFFmcnVTLVg2TXdUZ3QxY3N3VE9pbThPc0hvRFJJZHZjcURqaXlVZjJ1RFpVdVd1bUo0c0k0UlhlVS1talhEWmRSbFhCVGY2ZjlpWGY4RkNFTWlZSGZVZEJ0czNZdEloLU0?oc=5\" target=\"_blank\">Exclusive | JPMorgan, Citi and Big Banks Plan New Tokenized Deposit System to Answer Crypto</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN3RlYU90TlRuWjJna29BTkZQb1RpZk1xT3lma0k4V3VKYVFYUlN5UjZLTm5walRlRjdDTDB1Mmg4YUkzLUUzT1k1QXFyX3JCdEJNUElGUEZCRWZXZjFCeFFmcnVTLVg2TXdUZ3QxY3N3VE9pbThPc0hvRFJJZHZjcURqaXlVZjJ1RFpVdVd1bUo0c0k0UlhlVS1talhEWmRSbFhCVGY2ZjlpWGY4RkNFTWlZSGZVZEJ0czNZdEloLU0?oc=5",
+      "source": "Google Macro",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-06T13:11:12.915534Z"
     }
   ]
 }
