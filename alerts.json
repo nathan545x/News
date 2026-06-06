@@ -1,183 +1,29 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-06T14:51:23.615016Z",
+  "generated_at": "2026-06-06T14:56:10.743710Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "AI",
+    "dominant_driver": "AI",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 0,
-    "high_alerts": 2,
-    "last_updated": "2026-06-06T14:51:23.615030Z"
+    "high_alerts": 0,
+    "last_updated": "2026-06-06T14:56:10.743723Z"
   },
   "top_signals": [
     {
-      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
-      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
-      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
-      "source": "CISA",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-06T14:51:20.753986Z"
-    },
-    {
-      "id": "080a2b0c79526beacdcbe7c9483ce385",
-      "title": "Bowman, Opening Remarks",
-      "summary": "Speech At the Federal Reserve Bank of Kansas City 2026 Future of Banking Conference: Powering Progress, Protecting Trust, Kansas City, Missouri (via pre-recorded video)",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260514a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-06T14:50:40.005849Z"
-    },
-    {
-      "id": "05bc48a1df7058d4d7d37015f4cd3062",
-      "title": "Logan: Fed May Need to Hike Interest Rates This Year to Confront Inflation - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQNEM3OVNrUXNCZFVjaDBBdlM5M0hMNnZjeTZyeWI3OUlpY1ltenlNRWdWaHpaV0o2ZnhxeUIyRlNrd0JPeHg5TDdINkNXcDN0OF9HNl9ZRWpUcHhtN2tmM0xUQjBsekhTSjcyNExiSm1QUWNaZzR5MllUOU1rSUpXRnU2SHY5d1FhVUZHbUI1N2FnM1FUY0N4NlU3eXdCTjB5U2ZlcTZTc1p0Y2NabkwzaURjdnFNQnN4NktXWS0tb0VETDB0?oc=5\" target=\"_blank\">Logan: Fed May Need to Hike Interest Rates This Year to Confront Inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNEM3OVNrUXNCZFVjaDBBdlM5M0hMNnZjeTZyeWI3OUlpY1ltenlNRWdWaHpaV0o2ZnhxeUIyRlNrd0JPeHg5TDdINkNXcDN0OF9HNl9ZRWpUcHhtN2tmM0xUQjBsekhTSjcyNExiSm1QUWNaZzR5MllUOU1rSUpXRnU2SHY5d1FhVUZHbUI1N2FnM1FUY0N4NlU3eXdCTjB5U2ZlcTZTc1p0Y2NabkwzaURjdnFNQnN4NktXWS0tb0VETDB0?oc=5",
-      "source": "Google Macro",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-06T14:51:23.042599Z"
-    },
-    {
-      "id": "fe672baec0a1ec3f38985b8df9d6140c",
-      "title": "Pointed News Quiz | AI, Securities Fraud, Movies",
-      "summary": "David Gura, Christina Ruffini, and Lisa Mateo of \u201cBloomberg This Weekend\u201d play Pointed! Wager your points, leverage your bets and answer wisely. A new quiz is available to play each week on Bloomberg.com (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-06/pointed-news-quiz-ai-securities-fraud-movies-video",
-      "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-06T14:50:35.132959Z"
-    },
-    {
-      "id": "e24e76101aa02cae609e2e3cea3903fa",
-      "title": "Barr, Efficient and Effective Central Banking: Beyond the Balance Sheet",
-      "summary": "Speech At the Money Marketeers of New York University, New York, New York",
-      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260514a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-06T14:50:40.005800Z"
-    },
-    {
-      "id": "2a8b0d1dde4df023f491503703ce7094",
-      "title": "EU-Western Balkans Summit highlights enlargement as a strategic investment in Europe's peace, stability and security",
-      "summary": "European Commission Press release Tivat, 05 Jun 2026 Today, President of the European Commission Ursula von der Leyen, President of the European Council Ant\u00f3nio Costa and President of the European Parliament Roberta Metsola joined leaders from Member States and the six Western Balkan partners at the EU-Western Balkans Summit. The Summit was hosted by Montenegro in Tivat. Leaders took stock of the region's progress on its European path and discussed the priorities ahead.",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1275",
-      "source": "European Commission",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "EUR",
-        "JPY"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-06T14:51:02.011281Z"
-    },
-    {
-      "id": "4108c95f83906d4cd0f35297a4025df9",
-      "title": "Andy Burnham ducks \u2018fiscal rules exam\u2019 despite pledge to stick to them",
-      "summary": "<p> <img alt=\"A Burnham spokesperson told the newspaper that he supports the fiscal rules\" src=\"https://www.cityam.com/wp-content/uploads/2026/01/Andy-Burnham-Labour-e1769443630985.jpg?w=1107\" /> </p>Andy Burnham refused to explain Labour\u2019s fiscal rules on Friday, despite insisting he would stick to them if he entered Downing Street, raising questions over the economic strategy underpinning his growing leadership bid. The Greater Manchester Mayor, who has spent months positioning himself as Labour\u2019s most prominent alternative voice, was challenged to explain the government\u2019s <a href=\"https://www.cityam.com/andy-burnham-ducks-fiscal-rules-exam-despite-pledge-to-stick-to-them/\">[...]</a>",
-      "link": "https://www.cityam.com/andy-burnham-ducks-fiscal-rules-exam-despite-pledge-to-stick-to-them/",
+      "id": "fa8b24a24775a3de7d8c4d62b73981ec",
+      "title": "Peter Kyle vows state will take bigger stakes in Britain\u2019s next tech giants",
+      "summary": "<p> <img alt=\"&quot;You are going to start to see us take more risks,&quot; Kyle said\" src=\"https://www.cityam.com/wp-content/uploads/2026/01/peter-kyle.jpg?w=1107\" /> </p>The government is preparing to take larger stakes in Britain\u2019s fastest-growing companies as Peter Kyle ramps up Labour\u2019s efforts to turn the state into a more active backer of private enterprise. Ahead of London Tech Week, the business secretary said ministers would become more willing to deploy taxpayer money alongside private investors, arguing that government <a href=\"https://www.cityam.com/peter-kyle-vows-state-will-take-bigger-stakes-in-britains-next-tech-giants/\">[...]</a>",
+      "link": "https://www.cityam.com/peter-kyle-vows-state-will-take-bigger-stakes-in-britains-next-tech-giants/",
       "source": "CityAM",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [
         "AI"
       ],
@@ -190,177 +36,23 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-06T14:51:07.597750Z"
+      "published": "2026-06-06T14:55:51.358168Z"
     }
   ],
   "alerts": [
     {
-      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
-      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
-      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
-      "source": "CISA",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-06T14:51:20.753986Z"
-    },
-    {
-      "id": "080a2b0c79526beacdcbe7c9483ce385",
-      "title": "Bowman, Opening Remarks",
-      "summary": "Speech At the Federal Reserve Bank of Kansas City 2026 Future of Banking Conference: Powering Progress, Protecting Trust, Kansas City, Missouri (via pre-recorded video)",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260514a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-06T14:50:40.005849Z"
-    },
-    {
-      "id": "05bc48a1df7058d4d7d37015f4cd3062",
-      "title": "Logan: Fed May Need to Hike Interest Rates This Year to Confront Inflation - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQNEM3OVNrUXNCZFVjaDBBdlM5M0hMNnZjeTZyeWI3OUlpY1ltenlNRWdWaHpaV0o2ZnhxeUIyRlNrd0JPeHg5TDdINkNXcDN0OF9HNl9ZRWpUcHhtN2tmM0xUQjBsekhTSjcyNExiSm1QUWNaZzR5MllUOU1rSUpXRnU2SHY5d1FhVUZHbUI1N2FnM1FUY0N4NlU3eXdCTjB5U2ZlcTZTc1p0Y2NabkwzaURjdnFNQnN4NktXWS0tb0VETDB0?oc=5\" target=\"_blank\">Logan: Fed May Need to Hike Interest Rates This Year to Confront Inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNEM3OVNrUXNCZFVjaDBBdlM5M0hMNnZjeTZyeWI3OUlpY1ltenlNRWdWaHpaV0o2ZnhxeUIyRlNrd0JPeHg5TDdINkNXcDN0OF9HNl9ZRWpUcHhtN2tmM0xUQjBsekhTSjcyNExiSm1QUWNaZzR5MllUOU1rSUpXRnU2SHY5d1FhVUZHbUI1N2FnM1FUY0N4NlU3eXdCTjB5U2ZlcTZTc1p0Y2NabkwzaURjdnFNQnN4NktXWS0tb0VETDB0?oc=5",
-      "source": "Google Macro",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-06T14:51:23.042599Z"
-    },
-    {
-      "id": "fe672baec0a1ec3f38985b8df9d6140c",
-      "title": "Pointed News Quiz | AI, Securities Fraud, Movies",
-      "summary": "David Gura, Christina Ruffini, and Lisa Mateo of \u201cBloomberg This Weekend\u201d play Pointed! Wager your points, leverage your bets and answer wisely. A new quiz is available to play each week on Bloomberg.com (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-06/pointed-news-quiz-ai-securities-fraud-movies-video",
-      "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-06T14:50:35.132959Z"
-    },
-    {
-      "id": "e24e76101aa02cae609e2e3cea3903fa",
-      "title": "Barr, Efficient and Effective Central Banking: Beyond the Balance Sheet",
-      "summary": "Speech At the Money Marketeers of New York University, New York, New York",
-      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260514a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-06T14:50:40.005800Z"
-    },
-    {
-      "id": "2a8b0d1dde4df023f491503703ce7094",
-      "title": "EU-Western Balkans Summit highlights enlargement as a strategic investment in Europe's peace, stability and security",
-      "summary": "European Commission Press release Tivat, 05 Jun 2026 Today, President of the European Commission Ursula von der Leyen, President of the European Council Ant\u00f3nio Costa and President of the European Parliament Roberta Metsola joined leaders from Member States and the six Western Balkan partners at the EU-Western Balkans Summit. The Summit was hosted by Montenegro in Tivat. Leaders took stock of the region's progress on its European path and discussed the priorities ahead.",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1275",
-      "source": "European Commission",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "EUR",
-        "JPY"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-06T14:51:02.011281Z"
-    },
-    {
-      "id": "4108c95f83906d4cd0f35297a4025df9",
-      "title": "Andy Burnham ducks \u2018fiscal rules exam\u2019 despite pledge to stick to them",
-      "summary": "<p> <img alt=\"A Burnham spokesperson told the newspaper that he supports the fiscal rules\" src=\"https://www.cityam.com/wp-content/uploads/2026/01/Andy-Burnham-Labour-e1769443630985.jpg?w=1107\" /> </p>Andy Burnham refused to explain Labour\u2019s fiscal rules on Friday, despite insisting he would stick to them if he entered Downing Street, raising questions over the economic strategy underpinning his growing leadership bid. The Greater Manchester Mayor, who has spent months positioning himself as Labour\u2019s most prominent alternative voice, was challenged to explain the government\u2019s <a href=\"https://www.cityam.com/andy-burnham-ducks-fiscal-rules-exam-despite-pledge-to-stick-to-them/\">[...]</a>",
-      "link": "https://www.cityam.com/andy-burnham-ducks-fiscal-rules-exam-despite-pledge-to-stick-to-them/",
+      "id": "fa8b24a24775a3de7d8c4d62b73981ec",
+      "title": "Peter Kyle vows state will take bigger stakes in Britain\u2019s next tech giants",
+      "summary": "<p> <img alt=\"&quot;You are going to start to see us take more risks,&quot; Kyle said\" src=\"https://www.cityam.com/wp-content/uploads/2026/01/peter-kyle.jpg?w=1107\" /> </p>The government is preparing to take larger stakes in Britain\u2019s fastest-growing companies as Peter Kyle ramps up Labour\u2019s efforts to turn the state into a more active backer of private enterprise. Ahead of London Tech Week, the business secretary said ministers would become more willing to deploy taxpayer money alongside private investors, arguing that government <a href=\"https://www.cityam.com/peter-kyle-vows-state-will-take-bigger-stakes-in-britains-next-tech-giants/\">[...]</a>",
+      "link": "https://www.cityam.com/peter-kyle-vows-state-will-take-bigger-stakes-in-britains-next-tech-giants/",
       "source": "CityAM",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [
         "AI"
       ],
@@ -373,7 +65,7 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-06T14:51:07.597750Z"
+      "published": "2026-06-06T14:55:51.358168Z"
     }
   ]
 }
