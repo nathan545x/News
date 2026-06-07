@@ -1,32 +1,110 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-07T07:11:08.576144Z",
+  "generated_at": "2026-06-07T07:16:08.327861Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-06-07T07:11:08.576158Z"
+    "critical_alerts": 1,
+    "high_alerts": 0,
+    "last_updated": "2026-06-07T07:16:08.327873Z"
   },
   "top_signals": [
     {
-      "id": "6e76052a629d46804848363efdb03d50",
-      "title": "France to test its own AI-powered battlefield command in June NATO exercise",
-      "summary": "The French Army has developed its own large-language model for staff officers, called Berthier, named after Napoleon\u2019s chief of staff.",
-      "link": "https://www.defensenews.com/global/europe/2026/06/06/france-to-test-its-own-ai-powered-battlefield-command-in-june-nato-exercise/",
+      "id": "ed387018b6693e67dddc251b806f1476",
+      "title": "A Stock Trader\u2019s Guide to the Start of ECB Interest Rate Hikes",
+      "summary": "European stock traders will need to add a further variable to their investment strategies this week: how rising interest rates will affect each corner of the market.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-07/a-stock-trader-s-guide-to-the-start-of-ecb-interest-rate-hikes",
+      "source": "Bloomberg",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-07T07:15:35.764389Z"
+    },
+    {
+      "id": "6f7dab5e60853f856b5da82a201eccb7",
+      "title": "US forces board sanctioned tanker in Indian Ocean, Pentagon says",
+      "summary": "U.S. forces have intercepted multiple commercial and oil tankers in the Indian Ocean in recent months.",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/05/us-forces-board-sanctioned-tanker-in-indian-ocean-pentagon-says/",
       "source": "Defense News",
-      "score": 17,
-      "severity": "HIGH",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-07T07:16:03.845412Z"
+    },
+    {
+      "id": "fcb18fdeea02e96c6a2b6d35ed4d7757",
+      "title": "World\u2019s Hottest Market Has Korea Bulls Reaching for Protection",
+      "summary": "A wave of optimism over South Korean stocks is giving way to growing caution, as some investors hedge positions and pare back crowded trades on concerns that the rally has run too hot, too fast.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-07/world-s-hottest-market-korea-has-bulls-reaching-for-protection",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-07T07:15:35.764489Z"
+    },
+    {
+      "id": "d893fe91dc1b0d71d9c821b6a3350007",
+      "title": "Apple removes Russia\u2019s state-backed messaging app Max from its store",
+      "summary": "Russian authorities have promoted Max as a domestic alternative to foreign messaging platforms such as Telegram and WhatsApp.",
+      "link": "https://therecord.media/apple-removes-russian-app-max-from-app-store",
+      "source": "The Record",
+      "score": 8,
+      "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "FRANCE"
+        "RUSSIA"
       ],
-      "assets": [
-        "AI"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -41,96 +119,122 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-07T07:11:04.252464Z"
+      "published": "2026-06-07T07:16:05.484415Z"
     },
     {
-      "id": "af9942980645b46a7903d4bb262e6ab6",
-      "title": "Wall Street's 'fear gauge' punches back as the 'crash up' in chip stocks finally reverses",
-      "summary": "The monster rally in semiconductor stocks hit a wall on Friday, and the VIX at last caught up with other volatility metrics.",
-      "link": "https://www.cnbc.com/2026/06/06/wall-streets-fear-gauge-punches-back-as-the-crash-up-in-chip-stocks-finally-reverses.html",
-      "source": "CNBC",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-07T07:10:37.432489Z"
-    },
-    {
-      "id": "52c0528d4db64a06b9967f15c40c35b1",
-      "title": "Michael Saylor\u2019s rallying cry: Bitcoin needs four forces to win",
+      "id": "f076d0d06dffdede8d39c5f78a73ee20",
+      "title": "DAZN forgoes World Cup broadcast exclusivity to expand reach in Japan",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/06/06/michael-saylor-s-rallying-cry-bitcoin-needs-four-forces-to-win",
-      "source": "CoinDesk",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-06-07T07:11:05.182584Z"
-    },
-    {
-      "id": "2cc82fb8796512b9b308e24d3e0a7405",
-      "title": "A massive hiring wave reveals trading firms are no longer viewing Polymarket as a niche betting tool",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/06/06/a-massive-hiring-wave-reveals-trading-firms-are-no-longer-viewing-polymarket-as-a-niche-betting-tool",
-      "source": "CoinDesk",
-      "score": 6,
+      "link": "https://asia.nikkei.com/spotlight/sports/dazn-forgoes-world-cup-broadcast-exclusivity-to-expand-reach-in-japan",
+      "source": "Nikkei Asia",
+      "score": 7,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-07T07:11:05.182537Z"
+      "published": "2026-06-07T07:15:57.478524Z"
     }
   ],
   "alerts": [
     {
-      "id": "6e76052a629d46804848363efdb03d50",
-      "title": "France to test its own AI-powered battlefield command in June NATO exercise",
-      "summary": "The French Army has developed its own large-language model for staff officers, called Berthier, named after Napoleon\u2019s chief of staff.",
-      "link": "https://www.defensenews.com/global/europe/2026/06/06/france-to-test-its-own-ai-powered-battlefield-command-in-june-nato-exercise/",
+      "id": "ed387018b6693e67dddc251b806f1476",
+      "title": "A Stock Trader\u2019s Guide to the Start of ECB Interest Rate Hikes",
+      "summary": "European stock traders will need to add a further variable to their investment strategies this week: how rising interest rates will affect each corner of the market.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-07/a-stock-trader-s-guide-to-the-start-of-ecb-interest-rate-hikes",
+      "source": "Bloomberg",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-07T07:15:35.764389Z"
+    },
+    {
+      "id": "6f7dab5e60853f856b5da82a201eccb7",
+      "title": "US forces board sanctioned tanker in Indian Ocean, Pentagon says",
+      "summary": "U.S. forces have intercepted multiple commercial and oil tankers in the Indian Ocean in recent months.",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/05/us-forces-board-sanctioned-tanker-in-indian-ocean-pentagon-says/",
       "source": "Defense News",
-      "score": 17,
-      "severity": "HIGH",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-07T07:16:03.845412Z"
+    },
+    {
+      "id": "fcb18fdeea02e96c6a2b6d35ed4d7757",
+      "title": "World\u2019s Hottest Market Has Korea Bulls Reaching for Protection",
+      "summary": "A wave of optimism over South Korean stocks is giving way to growing caution, as some investors hedge positions and pare back crowded trades on concerns that the rally has run too hot, too fast.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-07/world-s-hottest-market-korea-has-bulls-reaching-for-protection",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-07T07:15:35.764489Z"
+    },
+    {
+      "id": "d893fe91dc1b0d71d9c821b6a3350007",
+      "title": "Apple removes Russia\u2019s state-backed messaging app Max from its store",
+      "summary": "Russian authorities have promoted Max as a domestic alternative to foreign messaging platforms such as Telegram and WhatsApp.",
+      "link": "https://therecord.media/apple-removes-russian-app-max-from-app-store",
+      "source": "The Record",
+      "score": 8,
+      "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "FRANCE"
+        "RUSSIA"
       ],
-      "assets": [
-        "AI"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -145,77 +249,25 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-07T07:11:04.252464Z"
+      "published": "2026-06-07T07:16:05.484415Z"
     },
     {
-      "id": "af9942980645b46a7903d4bb262e6ab6",
-      "title": "Wall Street's 'fear gauge' punches back as the 'crash up' in chip stocks finally reverses",
-      "summary": "The monster rally in semiconductor stocks hit a wall on Friday, and the VIX at last caught up with other volatility metrics.",
-      "link": "https://www.cnbc.com/2026/06/06/wall-streets-fear-gauge-punches-back-as-the-crash-up-in-chip-stocks-finally-reverses.html",
-      "source": "CNBC",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-07T07:10:37.432489Z"
-    },
-    {
-      "id": "52c0528d4db64a06b9967f15c40c35b1",
-      "title": "Michael Saylor\u2019s rallying cry: Bitcoin needs four forces to win",
+      "id": "f076d0d06dffdede8d39c5f78a73ee20",
+      "title": "DAZN forgoes World Cup broadcast exclusivity to expand reach in Japan",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/06/06/michael-saylor-s-rallying-cry-bitcoin-needs-four-forces-to-win",
-      "source": "CoinDesk",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-06-07T07:11:05.182584Z"
-    },
-    {
-      "id": "2cc82fb8796512b9b308e24d3e0a7405",
-      "title": "A massive hiring wave reveals trading firms are no longer viewing Polymarket as a niche betting tool",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/06/06/a-massive-hiring-wave-reveals-trading-firms-are-no-longer-viewing-polymarket-as-a-niche-betting-tool",
-      "source": "CoinDesk",
-      "score": 6,
+      "link": "https://asia.nikkei.com/spotlight/sports/dazn-forgoes-world-cup-broadcast-exclusivity-to-expand-reach-in-japan",
+      "source": "Nikkei Asia",
+      "score": 7,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-07T07:11:05.182537Z"
+      "published": "2026-06-07T07:15:57.478524Z"
     }
   ]
 }
