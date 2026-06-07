@@ -1,61 +1,96 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-07T23:01:35.581183Z",
+  "generated_at": "2026-06-07T23:06:04.737102Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
+    "critical_alerts": 2,
     "high_alerts": 3,
-    "last_updated": "2026-06-07T23:01:35.581196Z"
+    "last_updated": "2026-06-07T23:06:04.737120Z"
   },
   "top_signals": [
     {
-      "id": "793f3a7515d9ecb3afb215f4c98eaf26",
-      "title": "Japan\u2019s Stocks Set to Sink on Tech Selloff, Middle East Worries",
-      "summary": "Japanese stocks are set to fall, led by tech shares, after strong US jobs data fueled expectations that the Federal Reserve will keep rates higher for longer, sparking a selloff in AI-related shares on Wall Street.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-07/japan-s-stocks-set-to-sink-on-tech-selloff-middle-east-worries",
-      "source": "Bloomberg",
-      "score": 37,
+      "id": "b5888ac2100d7b26b33e5fbf84f2419d",
+      "title": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
+      "summary": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
+      "source": "Federal Reserve",
+      "score": 30,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [
-        "JAPAN"
+      "regions": [],
+      "assets": [
+        "AI"
       ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-07T23:05:34.283453Z"
+    },
+    {
+      "id": "0aac54bf8733275ac4fb93e93e3287a4",
+      "title": "Cramer\u2019s week ahead: Stocks face pressure from rates, oil, and a flood of new offerings",
+      "summary": "CNBC\u2019s Jim Cramer warned that rising interest rates, elevated oil prices, and a wave of AI-related stock offerings could continue to pressure the market.",
+      "link": "https://www.cnbc.com/2026/06/05/cramers-week-ahead-stocks-face-pressure-from-rates-oil-and-a-flood-of-new-offerings.html",
+      "source": "CNBC",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
       "assets": [
         "AI",
+        "COMMODITIES",
         "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-07T23:00:54.102616Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-07T23:05:34.028306Z"
     },
     {
-      "id": "9c05b19443042fe95ee60ae2ca29687e",
-      "title": "Shipping: Will El Ni\u00f1o Further Disrupt Cargo Flows?",
-      "summary": "This year\u2019s El Ni\u00f1o could bring more cargo flow shifts. In a recent weekly report, shipbroker Intermodal said that \u201cEl Ni\u00f1o is again becoming a factor for 2026, and its freight impact is likely to be felt mainly through Asian power demand, crop risk and trade-flow shifts. The latest probability set points to El Ni\u00f1o ...",
-      "link": "https://www.hellenicshippingnews.com/shipping-will-el-nino-further-disrupt-cargo-flows/",
-      "source": "Hellenic Shipping",
-      "score": 21,
+      "id": "51a503d02265f26d07fac85d651585cc",
+      "title": "Pricing the oil inventory drawdown",
+      "summary": "Could Brent crude hit $140 per barrel?",
+      "link": "https://www.ft.com/content/c9b5b0d3-e9f8-489f-b85a-835ded2837a6",
+      "source": "Financial Times",
+      "score": 16,
       "severity": "HIGH",
       "regime": "COMMODITIES",
-      "tickers": [],
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
       "regions": [],
       "assets": [
-        "AI",
-        "SHIPPING"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -69,109 +104,71 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-07T23:01:29.192915Z"
+      "published": "2026-06-07T23:05:32.929106Z"
     },
     {
-      "id": "859975bc210fdb60b657db54caf00b0f",
-      "title": "US troops, families adjust to new normal of Iran war - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPNnZsdGU2c1U4bVEtODZxTlpvd0x5VGNja3hYTHZSUVJjZGI2VG5XUEVkck1NdG5Rb0tTenNyYWJJa1BUVzlsVmpiM1lOWjhaMmM2a1lWOFZVcnh2MnhzMkM2YjV4ZVF0MmIzenE4MmFoaE9pQ014R1oxS2RXR0kzejZLUVNYQUZOdUxhLW13SWE3WEI2QUcyLUs4el96QnFiZzkweHROVERfRVdCVEx6ZA?oc=5\" target=\"_blank\">US troops, families adjust to new normal of Iran war</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNnZsdGU2c1U4bVEtODZxTlpvd0x5VGNja3hYTHZSUVJjZGI2VG5XUEVkck1NdG5Rb0tTenNyYWJJa1BUVzlsVmpiM1lOWjhaMmM2a1lWOFZVcnh2MnhzMkM2YjV4ZVF0MmIzenE4MmFoaE9pQ014R1oxS2RXR0kzejZLUVNYQUZOdUxhLW13SWE3WEI2QUcyLUs4el96QnFiZzkweHROVERfRVdCVEx6ZA?oc=5",
-      "source": "Google Macro",
-      "score": 19,
+      "id": "0e16fa85f03f0c38d6dd91d9552d82f4",
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank",
+      "summary": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260528a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
       "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-07T23:01:33.745677Z"
-    },
-    {
-      "id": "3cc239590ee0cdf7088831fcfce7a798",
-      "title": "Defence spending plan delay undermines UK credibility, MPs say",
-      "summary": "<p> <img alt=\"A group of MPs have critisised the delay and said it undermines UK credibility\" src=\"https://www.cityam.com/wp-content/uploads/2026/02/UK-defence-e1771504770613.jpg?w=1107\" /> </p>The delay in publishing Keir Starmer&#8217;s long-awaited plan on defence spending has undermined the UK&#8217;s credibility and left the country less safe, a parliamentary committee has warned. In a new report critisising the long delay in publishing Starmer&#8217;s Defence Investment Plan (DIP), the Public Accounts Committee said this &#8220;has undermined the UK government\u2019s credibility with <a href=\"https://www.cityam.com/defence-spending-plan-delay-undermines-uk-credibility-mps-say/\">[...]</a>",
-      "link": "https://www.cityam.com/defence-spending-plan-delay-undermines-uk-credibility-mps-say/",
-      "source": "CityAM",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-07T23:01:18.088196Z"
-    },
-    {
-      "id": "97b2069cb089c32b867ddd21669a2711",
-      "title": "BoC expected to hold rates through 2026, look past temporary inflation pressures - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOSHkwR182anpVNmtTS3A5cHVIN0wzWGZCYXFsamRaNzMwWTRfdFBNNENkelQ3eUVWbktGdUwyMjBaQnAtZV8tcnJqVnB4ZlVzRkstNXVoQ1o5UG04WEdDN0VYcWZzR2NBVExCZnhSaTdrU0I4eFF6S0lrbkZSa0R2VVdCSTJOc01Qb2tGeC0tMGIySWpmZm1HUC14V0stamVKajZpQ0lSbm1mWDVvYmdMWmpUWWZscFZSN3pmYWdsUFNCdUFQNXc?oc=5\" target=\"_blank\">BoC expected to hold rates through 2026, look past temporary inflation pressures</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSHkwR182anpVNmtTS3A5cHVIN0wzWGZCYXFsamRaNzMwWTRfdFBNNENkelQ3eUVWbktGdUwyMjBaQnAtZV8tcnJqVnB4ZlVzRkstNXVoQ1o5UG04WEdDN0VYcWZzR2NBVExCZnhSaTdrU0I4eFF6S0lrbkZSa0R2VVdCSTJOc01Qb2tGeC0tMGIySWpmZm1HUC14V0stamVKajZpQ0lSbm1mWDVvYmdMWmpUWWZscFZSN3pmYWdsUFNCdUFQNXc?oc=5",
-      "source": "Google Macro",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-07T23:01:33.745784Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-07T23:05:34.283379Z"
     },
     {
-      "id": "4a71c86c01911e6f6d6fae0bedb8989a",
-      "title": "Britain's Net Zero Policy Is Killing Its Chemical Industry",
-      "summary": "From ammonia to plastics, there can be no modern economy without a functioning chemicals industry, and Britain's is in peril, writes Sharon Todd The recent announcement of a \u00a3350m Critical Chemicals Resilience Fund from Chancellor Rachel Reeves is welcome but it is also an acknowledgement of an uncomfortable truth: the UK's chemicals sector is in trouble. Up and down the country energy intensive manufacturing is faltering. The Chancellor has also announced \u00a3120m for the ceramics sector, providing relief to another struggling sector.\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/Britains-Net-Zero-Policy-Is-Killing-Its-Chemical-Industry.html",
-      "source": "OilPrice",
-      "score": 5,
-      "severity": "LOW",
+      "id": "5df04713cec99b6eef6888de825cd469",
+      "title": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
+      "summary": "Federal Reserve Board requests public comment on a proposal to establish a &quot;payment account,&quot; which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20260520a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-07T23:05:34.283531Z"
+    },
+    {
+      "id": "e64b3a2e952c0d49d18a3c5b69099803",
+      "title": "Frank Elderson: Strengthening operational resilience for the age of AI",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260603~5b8e67f237.en.html",
+      "source": "ECB",
+      "score": 14,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -184,55 +181,140 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-07T23:01:28.317665Z"
+      "published": "2026-06-07T23:05:44.570833Z"
+    },
+    {
+      "id": "5f353049ba3f9dc0cb125ce891b4dd2b",
+      "title": "Directors\u2019 Deals: BP veteran hives off nearly \u00a32mn in shares ahead of Manifold brouhaha",
+      "summary": "The group has been struggling to convince the market that it now possesses greater strategic clarity",
+      "link": "https://www.ft.com/content/7c111b20-f3ab-4865-a1c5-baa3bd9c9755",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-07T23:05:32.929170Z"
+    },
+    {
+      "id": "69331070171a21d039a96eb8ef7bbad2",
+      "title": "Here are 3 forces that drove a whirlwind week for the stock market",
+      "summary": "An avalanche of selling on Friday crushed stocks. It was a dramatic reversal from record highs earlier in the week.",
+      "link": "https://www.cnbc.com/2026/06/06/here-are-3-forces-that-drove-a-whirlwind-week-for-the-stock-market.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-07T23:05:34.028223Z"
+    },
+    {
+      "id": "77203b83ccf95a5cb44b8273bc02f5d7",
+      "title": "Methanol Fuel Retrofit Developed for Inland and Coastal Marine",
+      "summary": "A dual fuel combustion system developed by Oak Ridge National Laboratory (ORNL) in collaboration with Caterpillar Inc. addresses the challenge of methanol ignition in diesel engines, with clear relevance for inland and coastal marine vessels.Methanol is typically produced from natural gas\u2026",
+      "link": "https://www.marinelink.com/news/methanol-fuel-retrofit-developed-inland-540021",
+      "source": "MarineLink",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-07T23:06:00.123702Z"
     }
   ],
   "alerts": [
     {
-      "id": "793f3a7515d9ecb3afb215f4c98eaf26",
-      "title": "Japan\u2019s Stocks Set to Sink on Tech Selloff, Middle East Worries",
-      "summary": "Japanese stocks are set to fall, led by tech shares, after strong US jobs data fueled expectations that the Federal Reserve will keep rates higher for longer, sparking a selloff in AI-related shares on Wall Street.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-07/japan-s-stocks-set-to-sink-on-tech-selloff-middle-east-worries",
-      "source": "Bloomberg",
-      "score": 37,
+      "id": "b5888ac2100d7b26b33e5fbf84f2419d",
+      "title": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
+      "summary": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
+      "source": "Federal Reserve",
+      "score": 30,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [
-        "JAPAN"
+      "regions": [],
+      "assets": [
+        "AI"
       ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-07T23:05:34.283453Z"
+    },
+    {
+      "id": "0aac54bf8733275ac4fb93e93e3287a4",
+      "title": "Cramer\u2019s week ahead: Stocks face pressure from rates, oil, and a flood of new offerings",
+      "summary": "CNBC\u2019s Jim Cramer warned that rising interest rates, elevated oil prices, and a wave of AI-related stock offerings could continue to pressure the market.",
+      "link": "https://www.cnbc.com/2026/06/05/cramers-week-ahead-stocks-face-pressure-from-rates-oil-and-a-flood-of-new-offerings.html",
+      "source": "CNBC",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
       "assets": [
         "AI",
+        "COMMODITIES",
         "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-07T23:00:54.102616Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-07T23:05:34.028306Z"
     },
     {
-      "id": "9c05b19443042fe95ee60ae2ca29687e",
-      "title": "Shipping: Will El Ni\u00f1o Further Disrupt Cargo Flows?",
-      "summary": "This year\u2019s El Ni\u00f1o could bring more cargo flow shifts. In a recent weekly report, shipbroker Intermodal said that \u201cEl Ni\u00f1o is again becoming a factor for 2026, and its freight impact is likely to be felt mainly through Asian power demand, crop risk and trade-flow shifts. The latest probability set points to El Ni\u00f1o ...",
-      "link": "https://www.hellenicshippingnews.com/shipping-will-el-nino-further-disrupt-cargo-flows/",
-      "source": "Hellenic Shipping",
-      "score": 21,
+      "id": "51a503d02265f26d07fac85d651585cc",
+      "title": "Pricing the oil inventory drawdown",
+      "summary": "Could Brent crude hit $140 per barrel?",
+      "link": "https://www.ft.com/content/c9b5b0d3-e9f8-489f-b85a-835ded2837a6",
+      "source": "Financial Times",
+      "score": 16,
       "severity": "HIGH",
       "regime": "COMMODITIES",
-      "tickers": [],
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
       "regions": [],
       "assets": [
-        "AI",
-        "SHIPPING"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -246,109 +328,71 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-07T23:01:29.192915Z"
+      "published": "2026-06-07T23:05:32.929106Z"
     },
     {
-      "id": "859975bc210fdb60b657db54caf00b0f",
-      "title": "US troops, families adjust to new normal of Iran war - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPNnZsdGU2c1U4bVEtODZxTlpvd0x5VGNja3hYTHZSUVJjZGI2VG5XUEVkck1NdG5Rb0tTenNyYWJJa1BUVzlsVmpiM1lOWjhaMmM2a1lWOFZVcnh2MnhzMkM2YjV4ZVF0MmIzenE4MmFoaE9pQ014R1oxS2RXR0kzejZLUVNYQUZOdUxhLW13SWE3WEI2QUcyLUs4el96QnFiZzkweHROVERfRVdCVEx6ZA?oc=5\" target=\"_blank\">US troops, families adjust to new normal of Iran war</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNnZsdGU2c1U4bVEtODZxTlpvd0x5VGNja3hYTHZSUVJjZGI2VG5XUEVkck1NdG5Rb0tTenNyYWJJa1BUVzlsVmpiM1lOWjhaMmM2a1lWOFZVcnh2MnhzMkM2YjV4ZVF0MmIzenE4MmFoaE9pQ014R1oxS2RXR0kzejZLUVNYQUZOdUxhLW13SWE3WEI2QUcyLUs4el96QnFiZzkweHROVERfRVdCVEx6ZA?oc=5",
-      "source": "Google Macro",
-      "score": 19,
+      "id": "0e16fa85f03f0c38d6dd91d9552d82f4",
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank",
+      "summary": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260528a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
       "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-07T23:01:33.745677Z"
-    },
-    {
-      "id": "3cc239590ee0cdf7088831fcfce7a798",
-      "title": "Defence spending plan delay undermines UK credibility, MPs say",
-      "summary": "<p> <img alt=\"A group of MPs have critisised the delay and said it undermines UK credibility\" src=\"https://www.cityam.com/wp-content/uploads/2026/02/UK-defence-e1771504770613.jpg?w=1107\" /> </p>The delay in publishing Keir Starmer&#8217;s long-awaited plan on defence spending has undermined the UK&#8217;s credibility and left the country less safe, a parliamentary committee has warned. In a new report critisising the long delay in publishing Starmer&#8217;s Defence Investment Plan (DIP), the Public Accounts Committee said this &#8220;has undermined the UK government\u2019s credibility with <a href=\"https://www.cityam.com/defence-spending-plan-delay-undermines-uk-credibility-mps-say/\">[...]</a>",
-      "link": "https://www.cityam.com/defence-spending-plan-delay-undermines-uk-credibility-mps-say/",
-      "source": "CityAM",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-07T23:01:18.088196Z"
-    },
-    {
-      "id": "97b2069cb089c32b867ddd21669a2711",
-      "title": "BoC expected to hold rates through 2026, look past temporary inflation pressures - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOSHkwR182anpVNmtTS3A5cHVIN0wzWGZCYXFsamRaNzMwWTRfdFBNNENkelQ3eUVWbktGdUwyMjBaQnAtZV8tcnJqVnB4ZlVzRkstNXVoQ1o5UG04WEdDN0VYcWZzR2NBVExCZnhSaTdrU0I4eFF6S0lrbkZSa0R2VVdCSTJOc01Qb2tGeC0tMGIySWpmZm1HUC14V0stamVKajZpQ0lSbm1mWDVvYmdMWmpUWWZscFZSN3pmYWdsUFNCdUFQNXc?oc=5\" target=\"_blank\">BoC expected to hold rates through 2026, look past temporary inflation pressures</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSHkwR182anpVNmtTS3A5cHVIN0wzWGZCYXFsamRaNzMwWTRfdFBNNENkelQ3eUVWbktGdUwyMjBaQnAtZV8tcnJqVnB4ZlVzRkstNXVoQ1o5UG04WEdDN0VYcWZzR2NBVExCZnhSaTdrU0I4eFF6S0lrbkZSa0R2VVdCSTJOc01Qb2tGeC0tMGIySWpmZm1HUC14V0stamVKajZpQ0lSbm1mWDVvYmdMWmpUWWZscFZSN3pmYWdsUFNCdUFQNXc?oc=5",
-      "source": "Google Macro",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-07T23:01:33.745784Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-07T23:05:34.283379Z"
     },
     {
-      "id": "4a71c86c01911e6f6d6fae0bedb8989a",
-      "title": "Britain's Net Zero Policy Is Killing Its Chemical Industry",
-      "summary": "From ammonia to plastics, there can be no modern economy without a functioning chemicals industry, and Britain's is in peril, writes Sharon Todd The recent announcement of a \u00a3350m Critical Chemicals Resilience Fund from Chancellor Rachel Reeves is welcome but it is also an acknowledgement of an uncomfortable truth: the UK's chemicals sector is in trouble. Up and down the country energy intensive manufacturing is faltering. The Chancellor has also announced \u00a3120m for the ceramics sector, providing relief to another struggling sector.\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/Britains-Net-Zero-Policy-Is-Killing-Its-Chemical-Industry.html",
-      "source": "OilPrice",
-      "score": 5,
-      "severity": "LOW",
+      "id": "5df04713cec99b6eef6888de825cd469",
+      "title": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
+      "summary": "Federal Reserve Board requests public comment on a proposal to establish a &quot;payment account,&quot; which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20260520a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-07T23:05:34.283531Z"
+    },
+    {
+      "id": "e64b3a2e952c0d49d18a3c5b69099803",
+      "title": "Frank Elderson: Strengthening operational resilience for the age of AI",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260603~5b8e67f237.en.html",
+      "source": "ECB",
+      "score": 14,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -361,7 +405,57 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-07T23:01:28.317665Z"
+      "published": "2026-06-07T23:05:44.570833Z"
+    },
+    {
+      "id": "5f353049ba3f9dc0cb125ce891b4dd2b",
+      "title": "Directors\u2019 Deals: BP veteran hives off nearly \u00a32mn in shares ahead of Manifold brouhaha",
+      "summary": "The group has been struggling to convince the market that it now possesses greater strategic clarity",
+      "link": "https://www.ft.com/content/7c111b20-f3ab-4865-a1c5-baa3bd9c9755",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-07T23:05:32.929170Z"
+    },
+    {
+      "id": "69331070171a21d039a96eb8ef7bbad2",
+      "title": "Here are 3 forces that drove a whirlwind week for the stock market",
+      "summary": "An avalanche of selling on Friday crushed stocks. It was a dramatic reversal from record highs earlier in the week.",
+      "link": "https://www.cnbc.com/2026/06/06/here-are-3-forces-that-drove-a-whirlwind-week-for-the-stock-market.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-07T23:05:34.028223Z"
+    },
+    {
+      "id": "77203b83ccf95a5cb44b8273bc02f5d7",
+      "title": "Methanol Fuel Retrofit Developed for Inland and Coastal Marine",
+      "summary": "A dual fuel combustion system developed by Oak Ridge National Laboratory (ORNL) in collaboration with Caterpillar Inc. addresses the challenge of methanol ignition in diesel engines, with clear relevance for inland and coastal marine vessels.Methanol is typically produced from natural gas\u2026",
+      "link": "https://www.marinelink.com/news/methanol-fuel-retrofit-developed-inland-540021",
+      "source": "MarineLink",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-07T23:06:00.123702Z"
     }
   ]
 }
