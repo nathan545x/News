@@ -1,34 +1,29 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-08T15:11:20.831924Z",
+  "generated_at": "2026-06-08T15:16:26.353342Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
-    "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 5,
-    "last_updated": "2026-06-08T15:11:20.831943Z"
+    "signal_density": "HIGH",
+    "critical_alerts": 0,
+    "high_alerts": 4,
+    "last_updated": "2026-06-08T15:16:26.353362Z"
   },
   "top_signals": [
     {
-      "id": "6fb5eeeedf6b7041e36157bcda99997a",
-      "title": "The Bank, FCA and HM Treasury joint statement on Frontier AI models and cyber resilience",
-      "summary": "Statement from the Bank of England, Financial Conduct Authority and HM Treasury",
-      "link": "https://www.bankofengland.co.uk/news/2026/may/boe-fca-and-hm-treasury-joint-statement-on-frontier-ai-models-and-cyber-resilience",
-      "source": "Bank of England",
-      "score": 26,
-      "severity": "CRITICAL",
+      "id": "5ab7e8fec35eb9d10bdbdd0b03e53962",
+      "title": "Etihad Airways CEO Says Carrier Is Discounting Tickets",
+      "summary": "Etihad Airways CEO Antonoaldo Neves speaks to Bloomberg's Guy Johnson at the International Air Transport Association (IATA) conference in Rio de Janeiro. He says the carrier is discounting tickets by keeping fares at a stable level despite the 70% jump in fuel costs. Neves also talks about securing delivery dates for new aircraft from Boeing and Airbus SE. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-08/etihad-airways-ceo-on-fuel-prices-asian-traffic-video",
+      "source": "Bloomberg",
+      "score": 21,
+      "severity": "HIGH",
       "regime": "RATES",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [
-        "UK"
-      ],
+      "tickers": [],
+      "regions": [],
       "assets": [
-        "AI",
-        "RATES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -42,21 +37,21 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-08T15:10:58.892380Z"
+      "published": "2026-06-08T15:15:42.433814Z"
     },
     {
-      "id": "56f00c6f39a9149dd284b5a042180433",
-      "title": "Warehouse cramming is about to begin \u2014 Freightonomics",
-      "summary": "<p>On this episode of Freightonomics, Zach Strickland and Anthony Smith talk about the need to cram for warehouse space with Zac Rogers from Colorado State University. </p>\n<p>The post <a href=\"https://www.freightwaves.com/news/warehouse-cramming-is-about-to-begin-freightonomics\">Warehouse cramming is about to begin \u2014 Freightonomics</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/warehouse-cramming-is-about-to-begin-freightonomics",
-      "source": "FreightWaves",
-      "score": 20,
+      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
+      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
+      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
+      "source": "CISA",
+      "score": 21,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [
-        "SHIPPING"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -72,42 +67,46 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-08T15:11:15.169888Z"
+      "published": "2026-06-08T15:16:23.245972Z"
     },
     {
-      "id": "5709212e9e75645b2a8cd281193faff5",
-      "title": "FCA and Bank of England set out shared vision for\u202ftokenisation in UK\u202fwholesale markets",
-      "summary": "The Financial Conduct Authority and the Bank of England\u202fset out a shared vision and seek industry views on the future of UK wholesale markets",
-      "link": "https://www.bankofengland.co.uk/news/2026/may/fca-and-boe-set-out-shared-vision-for-tokenisation-in-uk-wholesale-markets",
-      "source": "Bank of England",
-      "score": 18,
+      "id": "bb20fbdb7f732c52bce135dd7f76b38f",
+      "title": "Eldorado\u2019s McIlvenna Bay starts copper concentrate output",
+      "summary": "The operation is now ramping up toward its nameplate capacity of 4,900 tpd, with commercial production expected in Q3.",
+      "link": "https://www.mining.com/eldorados-mcilvenna-bay-starts-copper-concentrate-output/",
+      "source": "Mining.com",
+      "score": 17,
       "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "UK"
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "COPPER"
       ],
-      "assets": [],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-08T15:10:58.892287Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-08T15:16:14.972409Z"
     },
     {
-      "id": "20ce7c2e4e3a9ccff4cc59871ca39de4",
-      "title": "Congress moves toward approving $70 billion for ICE and CBP through Trump's presidency",
-      "summary": "The U.S. House is expected to vote this week on a $70 billion measure to fund Immigration and Customs Enforcement and Customs and Border Control after delay.",
-      "link": "https://www.cnbc.com/2026/06/08/ice-cbp-immigration-funding-bill-congress-trump.html",
-      "source": "CNBC",
+      "id": "5dea06b4378121a27da53079b206aee7",
+      "title": "Patch Tuesday, May 2026 Edition",
+      "summary": "Artificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding security vulnerabilities in human-made computer code. That reality is on full display this month with some of the more widely-used software makers -- including Apple, Google, Microsoft, Mozilla and Oracle -- fixing near record volumes of security bugs, and/or quickening the tempo of their patch releases.",
+      "link": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
+      "source": "KrebsOnSecurity",
       "score": 16,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
@@ -128,242 +127,134 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-08T15:10:44.650522Z"
+      "published": "2026-06-08T15:16:17.982771Z"
     },
     {
-      "id": "46fc48d7d927d4f006a634f4d4e8224f",
-      "title": "London Stock Exchange boss accuses FCA of \u2018playing fast and loose\u2019 as she warns government may have to \u2018step in\u2019",
-      "summary": "<p> <img alt=\"London Stock Exchange boss Julia Hoggett\" src=\"https://www.cityam.com/wp-content/uploads/2025/12/Julia-Hoggett.jpg?w=1107\" /> </p>The boss of the London Stock Exchange has taken aim at the financial watchdog over its plans to introduce greater market pricing transparency in signs of a major fallout between the two City institutions. Julia Hoggett, chief executive of the exchange, has accused the Financial Conduct Authority (FCA) of \u201cplaying fast and loose\u201d with the <a href=\"https://www.cityam.com/london-stock-exchange-boss-accuses-fca-of-playing-fast-and-loose-as-she-warns-government-may-have-to-step-in/\">[...]</a>",
-      "link": "https://www.cityam.com/london-stock-exchange-boss-accuses-fca-of-playing-fast-and-loose-as-she-warns-government-may-have-to-step-in/",
-      "source": "CityAM",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
+      "id": "c83ca1112b157debf76fd0bf00783f05",
+      "title": "Campbell's Earnings Beat; Eli Lilly Obesity Drug Results | Stock Movers",
+      "summary": "On this episode of Stock Movers with Alexis Christoforous:\n\n- Shares of The Campbell's Company (CPB) edged higher ahead of the US market open after the canned soup maker reported adjusted earnings per share for the third quarter that beat the average analyst estimate.\n- Eli Lilly (LLY) shares gained in the early session following obesity drug presentations at the American Diabetes Association conference. Citi analysts say their conviction on Lilly is firmly intact, given the company\u2019s incretin portfolio is \u201cnot built around singular blockbusters.\u201d \n- Shares of Marvell Technology (MRVL) and Flex (FLEX) are rising in premarket trading as the companies are set to replace Pool Corp. and Campbell\u2019s in S&amp;P 500 before the market open on June 22, S&amp;P Dow Jones Indices says in emailed statement. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-08/campbell-s-earnings-beat-eli-lilly-obesity-drug-results-video",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [],
       "regions": [
-        "UK"
+        "US"
       ],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-08T15:11:04.513761Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-08T15:15:42.433978Z"
     },
     {
-      "id": "2170f81242ac452634b3e9cecabd3cce",
-      "title": "Why the Northeast is quietly running out of diesel",
-      "summary": "<p>Diesel inventories on the East Coast are at record lows. Truckers are spooked by the vanishing stocks and soaring rates.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/why-the-northeast-is-quietly-running-out-of-diesel\">Why the Northeast is quietly running out of diesel</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/why-the-northeast-is-quietly-running-out-of-diesel",
-      "source": "FreightWaves",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "EQUITIES",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-08T15:11:15.169714Z"
-    },
-    {
-      "id": "8a8444002962b2b600c4e6f2ea24c7cc",
-      "title": "Exclusive: Central Freight Lines to shut down after 96 years",
-      "summary": "<p>A source familiar with the 96-year-old company said he is unsure whether CFL will file Chapter 7 or \u201cliquidate outside of bankruptcy,\u201d but that the LTL carrier has no plans to reorganize.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/exclusive-central-freight-lines-to-shut-down-after-96-years\">Exclusive: Central Freight Lines to shut down after 96 years</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/exclusive-central-freight-lines-to-shut-down-after-96-years",
-      "source": "FreightWaves",
-      "score": 14,
+      "id": "2c55913e001bb33152580cf7d59ea5e9",
+      "title": "IAG CEO on Consumer Market in Asia, Consolidation in Europe",
+      "summary": "International Airlines Group (IAG) CEO Luis Gallego speaks to Bloomberg at the International Air Transport Association (IATA) conference on the growing consumer market in Asia and consolidation in Europe. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-08/iag-ceo-on-asia-market-consolidation-in-europe-video",
+      "source": "Bloomberg",
+      "score": 13,
       "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-08T15:11:15.169805Z"
-    },
-    {
-      "id": "5b7edd847d7159690ce3154307cf1b68",
-      "title": "Seasonality pushing rejections and rates higher ahead of the Fourth",
-      "summary": "<p>This week\u2019s DHL Supply Chain Pricing Power Index: 75 (Carriers) Last week\u2019s DHL Supply Chain Pricing Power Index: 70 (Carriers)&#160; Three-month DHL Supply Chain Pricing Power Index Outlook: 70 (Carriers) The DHL Supply Chain Pricing Power Index uses the analytics and data in FreightWaves SONAR to analyze the market and estimate the negotiating power for [&#8230;]</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/seasonality-pushing-rejections-and-rates-higher-ahead-of-the-fourth\">Seasonality pushing rejections and rates higher ahead of the Fourth</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/seasonality-pushing-rejections-and-rates-higher-ahead-of-the-fourth",
-      "source": "FreightWaves",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-08T15:11:15.170005Z"
-    },
-    {
-      "id": "b90d4bd91154960ac1606c70656c6a4b",
-      "title": "PRA announces ring-fence change to reduce costs",
-      "summary": "The Prudential Regulation Authority has today announced plans to consult on reforming rules around shared operational services for ring-fenced banks.",
-      "link": "https://www.bankofengland.co.uk/news/2026/may/pra-announces-ring-fence-change-to-reduce-costs",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-08T15:10:58.892336Z"
-    },
-    {
-      "id": "8e595912186efce34daf6ce82cba8b72",
-      "title": "Slides from Huw Pill\u2019s fireside chat at NatWest",
-      "summary": "Slides by Huw Pill",
-      "link": "https://www.bankofengland.co.uk/speech/2026/may/slides-from-huw-pill-fireside-chat-at-natwest",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-08T15:10:59.041141Z"
-    },
-    {
-      "id": "576808d997b26f404db1f109a9f954cc",
-      "title": "Operational resilience in a rapidly changing world \u2212 speech by Liz Oakes",
-      "summary": "Given at the KPMG and Fitch Ratings London Banking Summit",
-      "link": "https://www.bankofengland.co.uk/speech/2026/may/liz-oakes-speech-and-panel-at-the-kpmg-and-fitch-ratings-london-banking-summit",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-08T15:10:59.041193Z"
-    },
-    {
-      "id": "59bb15c82d0ac395326ad09af1e65b3b",
-      "title": "The Importance of Choice in Payments \u2212 speech by Victoria Cleland",
-      "summary": "Given at Banknote Conference, Washington DC",
-      "link": "https://www.bankofengland.co.uk/speech/2026/may/victoria-cleland-fireside-chat-at-the-currency-research-banknote-conference",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-08T15:10:59.041233Z"
-    }
-  ],
-  "alerts": [
-    {
-      "id": "6fb5eeeedf6b7041e36157bcda99997a",
-      "title": "The Bank, FCA and HM Treasury joint statement on Frontier AI models and cyber resilience",
-      "summary": "Statement from the Bank of England, Financial Conduct Authority and HM Treasury",
-      "link": "https://www.bankofengland.co.uk/news/2026/may/boe-fca-and-hm-treasury-joint-statement-on-frontier-ai-models-and-cyber-resilience",
-      "source": "Bank of England",
-      "score": 26,
-      "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "AI",
       "tickers": [
-        "TLT"
+        "EUR"
       ],
       "regions": [
-        "UK"
+        "EUROPE"
       ],
       "assets": [
         "AI",
-        "RATES"
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
+          "NVDA",
+          "SEMIS",
           "QQQ"
-        ]
+        ],
+        "bearish": []
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-08T15:10:58.892380Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-08T15:15:42.434029Z"
     },
     {
-      "id": "56f00c6f39a9149dd284b5a042180433",
-      "title": "Warehouse cramming is about to begin \u2014 Freightonomics",
-      "summary": "<p>On this episode of Freightonomics, Zach Strickland and Anthony Smith talk about the need to cram for warehouse space with Zac Rogers from Colorado State University. </p>\n<p>The post <a href=\"https://www.freightwaves.com/news/warehouse-cramming-is-about-to-begin-freightonomics\">Warehouse cramming is about to begin \u2014 Freightonomics</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/warehouse-cramming-is-about-to-begin-freightonomics",
-      "source": "FreightWaves",
-      "score": 20,
-      "severity": "HIGH",
+      "id": "ad9f0b8774b3c709d0ed8c63b0690355",
+      "title": "19 dead, 12 missing after 7.8-magnitude quake hits southern Philippines",
+      "summary": "",
+      "link": "https://asia.nikkei.com/economy/natural-disasters/19-dead-12-missing-after-7.8-magnitude-quake-hits-southern-philippines",
+      "source": "Nikkei Asia",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-08T15:16:06.107265Z"
+    },
+    {
+      "id": "c27edb073e3db3bccdcb942d5169a48c",
+      "title": "GoGold approved to build $227M mine in Mexico",
+      "summary": "Los Ricos South is envisioned to be a 15-year mine with the capacity to produce of 80 million oz. of payable silver-equivalent.",
+      "link": "https://www.mining.com/gogold-approved-to-build-227m-mine-in-mexico/",
+      "source": "Mining.com",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "SILVER",
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-08T15:16:14.972346Z"
+    },
+    {
+      "id": "756e1ea92b1fdb35dfe9e5b965881b19",
+      "title": "SSI Integrates Third-Party Ship Models Into Its Software",
+      "summary": "SSI, a leader in software, services, and expertise for the business of shipbuilding, is helping shipyards build and convert assets more efficiently with integration of third-party ship models into its software platform.Shipyards can choose whether\u2026",
+      "link": "https://www.marinelink.com/news/ssi-integrates-thirdparty-ship-models-540052",
+      "source": "MarineLink",
+      "score": 11,
+      "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "SHIPPING"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -378,189 +269,14 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-08T15:11:15.169888Z"
+      "published": "2026-06-08T15:16:15.587578Z"
     },
     {
-      "id": "5709212e9e75645b2a8cd281193faff5",
-      "title": "FCA and Bank of England set out shared vision for\u202ftokenisation in UK\u202fwholesale markets",
-      "summary": "The Financial Conduct Authority and the Bank of England\u202fset out a shared vision and seek industry views on the future of UK wholesale markets",
-      "link": "https://www.bankofengland.co.uk/news/2026/may/fca-and-boe-set-out-shared-vision-for-tokenisation-in-uk-wholesale-markets",
-      "source": "Bank of England",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-08T15:10:58.892287Z"
-    },
-    {
-      "id": "20ce7c2e4e3a9ccff4cc59871ca39de4",
-      "title": "Congress moves toward approving $70 billion for ICE and CBP through Trump's presidency",
-      "summary": "The U.S. House is expected to vote this week on a $70 billion measure to fund Immigration and Customs Enforcement and Customs and Border Control after delay.",
-      "link": "https://www.cnbc.com/2026/06/08/ice-cbp-immigration-funding-bill-congress-trump.html",
-      "source": "CNBC",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-08T15:10:44.650522Z"
-    },
-    {
-      "id": "46fc48d7d927d4f006a634f4d4e8224f",
-      "title": "London Stock Exchange boss accuses FCA of \u2018playing fast and loose\u2019 as she warns government may have to \u2018step in\u2019",
-      "summary": "<p> <img alt=\"London Stock Exchange boss Julia Hoggett\" src=\"https://www.cityam.com/wp-content/uploads/2025/12/Julia-Hoggett.jpg?w=1107\" /> </p>The boss of the London Stock Exchange has taken aim at the financial watchdog over its plans to introduce greater market pricing transparency in signs of a major fallout between the two City institutions. Julia Hoggett, chief executive of the exchange, has accused the Financial Conduct Authority (FCA) of \u201cplaying fast and loose\u201d with the <a href=\"https://www.cityam.com/london-stock-exchange-boss-accuses-fca-of-playing-fast-and-loose-as-she-warns-government-may-have-to-step-in/\">[...]</a>",
-      "link": "https://www.cityam.com/london-stock-exchange-boss-accuses-fca-of-playing-fast-and-loose-as-she-warns-government-may-have-to-step-in/",
-      "source": "CityAM",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-08T15:11:04.513761Z"
-    },
-    {
-      "id": "2170f81242ac452634b3e9cecabd3cce",
-      "title": "Why the Northeast is quietly running out of diesel",
-      "summary": "<p>Diesel inventories on the East Coast are at record lows. Truckers are spooked by the vanishing stocks and soaring rates.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/why-the-northeast-is-quietly-running-out-of-diesel\">Why the Northeast is quietly running out of diesel</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/why-the-northeast-is-quietly-running-out-of-diesel",
-      "source": "FreightWaves",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "EQUITIES",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-08T15:11:15.169714Z"
-    },
-    {
-      "id": "8a8444002962b2b600c4e6f2ea24c7cc",
-      "title": "Exclusive: Central Freight Lines to shut down after 96 years",
-      "summary": "<p>A source familiar with the 96-year-old company said he is unsure whether CFL will file Chapter 7 or \u201cliquidate outside of bankruptcy,\u201d but that the LTL carrier has no plans to reorganize.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/exclusive-central-freight-lines-to-shut-down-after-96-years\">Exclusive: Central Freight Lines to shut down after 96 years</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/exclusive-central-freight-lines-to-shut-down-after-96-years",
-      "source": "FreightWaves",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-08T15:11:15.169805Z"
-    },
-    {
-      "id": "5b7edd847d7159690ce3154307cf1b68",
-      "title": "Seasonality pushing rejections and rates higher ahead of the Fourth",
-      "summary": "<p>This week\u2019s DHL Supply Chain Pricing Power Index: 75 (Carriers) Last week\u2019s DHL Supply Chain Pricing Power Index: 70 (Carriers)&#160; Three-month DHL Supply Chain Pricing Power Index Outlook: 70 (Carriers) The DHL Supply Chain Pricing Power Index uses the analytics and data in FreightWaves SONAR to analyze the market and estimate the negotiating power for [&#8230;]</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/seasonality-pushing-rejections-and-rates-higher-ahead-of-the-fourth\">Seasonality pushing rejections and rates higher ahead of the Fourth</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/seasonality-pushing-rejections-and-rates-higher-ahead-of-the-fourth",
-      "source": "FreightWaves",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-08T15:11:15.170005Z"
-    },
-    {
-      "id": "b90d4bd91154960ac1606c70656c6a4b",
-      "title": "PRA announces ring-fence change to reduce costs",
-      "summary": "The Prudential Regulation Authority has today announced plans to consult on reforming rules around shared operational services for ring-fenced banks.",
-      "link": "https://www.bankofengland.co.uk/news/2026/may/pra-announces-ring-fence-change-to-reduce-costs",
-      "source": "Bank of England",
+      "id": "e24e76101aa02cae609e2e3cea3903fa",
+      "title": "Barr, Efficient and Effective Central Banking: Beyond the Balance Sheet",
+      "summary": "Speech At the Money Marketeers of New York University, New York, New York",
+      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260514a.htm",
+      "source": "Federal Reserve",
       "score": 10,
       "severity": "MEDIUM",
       "regime": "GENERAL",
@@ -569,14 +285,14 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-08T15:10:58.892336Z"
+      "published": "2026-06-08T15:15:46.583578Z"
     },
     {
-      "id": "8e595912186efce34daf6ce82cba8b72",
-      "title": "Slides from Huw Pill\u2019s fireside chat at NatWest",
-      "summary": "Slides by Huw Pill",
-      "link": "https://www.bankofengland.co.uk/speech/2026/may/slides-from-huw-pill-fireside-chat-at-natwest",
-      "source": "Bank of England",
+      "id": "795a43cb2999c10ee445569c06ffd380",
+      "title": "Policy paper: Joint statement from the Specialised Committee on Financial Provisions, 4 June 2026",
+      "summary": "Joint statement following the twelfth meeting of the Financial Provisions Specialised Committee on 4 June 2026.",
+      "link": "https://www.gov.uk/government/publications/joint-statement-from-the-specialised-committee-on-financial-provisions-4-june-2026",
+      "source": "HM Treasury",
       "score": 10,
       "severity": "MEDIUM",
       "regime": "GENERAL",
@@ -585,124 +301,16 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-08T15:10:59.041141Z"
+      "published": "2026-06-08T15:16:01.624234Z"
     },
     {
-      "id": "576808d997b26f404db1f109a9f954cc",
-      "title": "Operational resilience in a rapidly changing world \u2212 speech by Liz Oakes",
-      "summary": "Given at the KPMG and Fitch Ratings London Banking Summit",
-      "link": "https://www.bankofengland.co.uk/speech/2026/may/liz-oakes-speech-and-panel-at-the-kpmg-and-fitch-ratings-london-banking-summit",
-      "source": "Bank of England",
+      "id": "d95974238d6437cfcba2ae4582b0a6c6",
+      "title": "Polish-Ukrainian startup develops radar to track elusive, low-flying drones",
+      "summary": "The technology aims to find small, low-flying drones, including those connected to operators via long, fiber-optic command wires.",
+      "link": "https://www.defensenews.com/global/europe/2026/06/08/polish-ukrainian-startup-develops-radar-to-track-elusive-low-flying-drones/",
+      "source": "Defense News",
       "score": 10,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-08T15:10:59.041193Z"
-    },
-    {
-      "id": "59bb15c82d0ac395326ad09af1e65b3b",
-      "title": "The Importance of Choice in Payments \u2212 speech by Victoria Cleland",
-      "summary": "Given at Banknote Conference, Washington DC",
-      "link": "https://www.bankofengland.co.uk/speech/2026/may/victoria-cleland-fireside-chat-at-the-currency-research-banknote-conference",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-08T15:10:59.041233Z"
-    },
-    {
-      "id": "7009ef563c3163d142f80dd384daef81",
-      "title": "Old exposures, new actors: implications for monetary policy of the UK\u2019s external imbalances \u2212 speech by Catherine L. Mann",
-      "summary": "Given at the London School of Economics and Political Science",
-      "link": "https://www.bankofengland.co.uk/speech/2026/may/catherine-l-mann-speech-at-the-london-school-of-economics",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-08T15:10:59.041286Z"
-    },
-    {
-      "id": "b1098549c02ffa0398bfcfc1ef271aca",
-      "title": "The \u2018ingenious strategy\u2019 behind most truckers\u2019 least favorite week of the year: International Roadcheck",
-      "summary": "<p>Inspection blitzes frustrate truck drivers. But economists found that the International Roadcheck Week boosts overall road safety.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/the-ingenious-strategy-behind-most-truck-drivers-least-favorite-week-of-the-year\">The &#8216;ingenious strategy&#8217; behind most truckers&#8217; least favorite week of the year: International Roadcheck</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/the-ingenious-strategy-behind-most-truck-drivers-least-favorite-week-of-the-year",
-      "source": "FreightWaves",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-08T15:11:15.169642Z"
-    },
-    {
-      "id": "c1daa876b37fa60159bf003127332d78",
-      "title": "Project44 acquires ClearMetal to strengthen predictive tools",
-      "summary": "<p>\u201cTheir team construct is fundamentally different. When you look at their data science, machine learning and computer science background, they are best in class.\u201d</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/project44-acquires-clearmetal-to-strengthen-predictive-tools\">Project44 acquires ClearMetal to strengthen predictive tools</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/project44-acquires-clearmetal-to-strengthen-predictive-tools",
-      "source": "FreightWaves",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-08T15:11:15.170092Z"
-    },
-    {
-      "id": "356954e273c673cb9bda6662467962fd",
-      "title": "London Tech Week day one: AI talk has come back down to earth",
-      "summary": "<p> <img alt=\"\" src=\"https://www.cityam.com/wp-content/uploads/2026/06/Keir-Starmer-at-London-Tech-Week-e1780930813772.jpg?w=1107\" /> </p>AI conversations are no longer about possibility, but infrastructure, writes Russ Shaw in day one of his London Tech Week diary.",
-      "link": "https://www.cityam.com/london-tech-week-day-one-ai-talk-has-come-back-down-to-earth/",
-      "source": "CityAM",
-      "score": 5,
-      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [
@@ -720,7 +328,533 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-08T15:11:04.513824Z"
+      "published": "2026-06-08T15:16:15.849973Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "5ab7e8fec35eb9d10bdbdd0b03e53962",
+      "title": "Etihad Airways CEO Says Carrier Is Discounting Tickets",
+      "summary": "Etihad Airways CEO Antonoaldo Neves speaks to Bloomberg's Guy Johnson at the International Air Transport Association (IATA) conference in Rio de Janeiro. He says the carrier is discounting tickets by keeping fares at a stable level despite the 70% jump in fuel costs. Neves also talks about securing delivery dates for new aircraft from Boeing and Airbus SE. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-08/etihad-airways-ceo-on-fuel-prices-asian-traffic-video",
+      "source": "Bloomberg",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-08T15:15:42.433814Z"
+    },
+    {
+      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
+      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
+      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
+      "source": "CISA",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-08T15:16:23.245972Z"
+    },
+    {
+      "id": "bb20fbdb7f732c52bce135dd7f76b38f",
+      "title": "Eldorado\u2019s McIlvenna Bay starts copper concentrate output",
+      "summary": "The operation is now ramping up toward its nameplate capacity of 4,900 tpd, with commercial production expected in Q3.",
+      "link": "https://www.mining.com/eldorados-mcilvenna-bay-starts-copper-concentrate-output/",
+      "source": "Mining.com",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "COPPER"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-08T15:16:14.972409Z"
+    },
+    {
+      "id": "5dea06b4378121a27da53079b206aee7",
+      "title": "Patch Tuesday, May 2026 Edition",
+      "summary": "Artificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding security vulnerabilities in human-made computer code. That reality is on full display this month with some of the more widely-used software makers -- including Apple, Google, Microsoft, Mozilla and Oracle -- fixing near record volumes of security bugs, and/or quickening the tempo of their patch releases.",
+      "link": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
+      "source": "KrebsOnSecurity",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-08T15:16:17.982771Z"
+    },
+    {
+      "id": "c83ca1112b157debf76fd0bf00783f05",
+      "title": "Campbell's Earnings Beat; Eli Lilly Obesity Drug Results | Stock Movers",
+      "summary": "On this episode of Stock Movers with Alexis Christoforous:\n\n- Shares of The Campbell's Company (CPB) edged higher ahead of the US market open after the canned soup maker reported adjusted earnings per share for the third quarter that beat the average analyst estimate.\n- Eli Lilly (LLY) shares gained in the early session following obesity drug presentations at the American Diabetes Association conference. Citi analysts say their conviction on Lilly is firmly intact, given the company\u2019s incretin portfolio is \u201cnot built around singular blockbusters.\u201d \n- Shares of Marvell Technology (MRVL) and Flex (FLEX) are rising in premarket trading as the companies are set to replace Pool Corp. and Campbell\u2019s in S&amp;P 500 before the market open on June 22, S&amp;P Dow Jones Indices says in emailed statement. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-08/campbell-s-earnings-beat-eli-lilly-obesity-drug-results-video",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-08T15:15:42.433978Z"
+    },
+    {
+      "id": "2c55913e001bb33152580cf7d59ea5e9",
+      "title": "IAG CEO on Consumer Market in Asia, Consolidation in Europe",
+      "summary": "International Airlines Group (IAG) CEO Luis Gallego speaks to Bloomberg at the International Air Transport Association (IATA) conference on the growing consumer market in Asia and consolidation in Europe. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-08/iag-ceo-on-asia-market-consolidation-in-europe-video",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-08T15:15:42.434029Z"
+    },
+    {
+      "id": "ad9f0b8774b3c709d0ed8c63b0690355",
+      "title": "19 dead, 12 missing after 7.8-magnitude quake hits southern Philippines",
+      "summary": "",
+      "link": "https://asia.nikkei.com/economy/natural-disasters/19-dead-12-missing-after-7.8-magnitude-quake-hits-southern-philippines",
+      "source": "Nikkei Asia",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-08T15:16:06.107265Z"
+    },
+    {
+      "id": "c27edb073e3db3bccdcb942d5169a48c",
+      "title": "GoGold approved to build $227M mine in Mexico",
+      "summary": "Los Ricos South is envisioned to be a 15-year mine with the capacity to produce of 80 million oz. of payable silver-equivalent.",
+      "link": "https://www.mining.com/gogold-approved-to-build-227m-mine-in-mexico/",
+      "source": "Mining.com",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "SILVER",
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-08T15:16:14.972346Z"
+    },
+    {
+      "id": "756e1ea92b1fdb35dfe9e5b965881b19",
+      "title": "SSI Integrates Third-Party Ship Models Into Its Software",
+      "summary": "SSI, a leader in software, services, and expertise for the business of shipbuilding, is helping shipyards build and convert assets more efficiently with integration of third-party ship models into its software platform.Shipyards can choose whether\u2026",
+      "link": "https://www.marinelink.com/news/ssi-integrates-thirdparty-ship-models-540052",
+      "source": "MarineLink",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-08T15:16:15.587578Z"
+    },
+    {
+      "id": "e24e76101aa02cae609e2e3cea3903fa",
+      "title": "Barr, Efficient and Effective Central Banking: Beyond the Balance Sheet",
+      "summary": "Speech At the Money Marketeers of New York University, New York, New York",
+      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260514a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-08T15:15:46.583578Z"
+    },
+    {
+      "id": "795a43cb2999c10ee445569c06ffd380",
+      "title": "Policy paper: Joint statement from the Specialised Committee on Financial Provisions, 4 June 2026",
+      "summary": "Joint statement following the twelfth meeting of the Financial Provisions Specialised Committee on 4 June 2026.",
+      "link": "https://www.gov.uk/government/publications/joint-statement-from-the-specialised-committee-on-financial-provisions-4-june-2026",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-08T15:16:01.624234Z"
+    },
+    {
+      "id": "d95974238d6437cfcba2ae4582b0a6c6",
+      "title": "Polish-Ukrainian startup develops radar to track elusive, low-flying drones",
+      "summary": "The technology aims to find small, low-flying drones, including those connected to operators via long, fiber-optic command wires.",
+      "link": "https://www.defensenews.com/global/europe/2026/06/08/polish-ukrainian-startup-develops-radar-to-track-elusive-low-flying-drones/",
+      "source": "Defense News",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-08T15:16:15.849973Z"
+    },
+    {
+      "id": "72fa924c9fcb90edce2d056d7dc481c2",
+      "title": "Big Oil Is Changing Its Mind About Venezuela: New Economy - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPYS02alh5LVN1ZUlSbEYza3Y4ZmF3X0prNXVoSkRhLWdrM1FMNXAwcDE5V2xHUFRXVC1MdVBzMXRLa1puQzZYRjVkTmRaanc0SUR2WThvbjViNDF2MFpuNGxpNWJPSFFnRHU1RG1lczdzdnNaSnB1NXIyT0dCLWEtVFpad3VseWJtQnFjZ0g5cUM4SlZnRFBvbHZFREo5MUNCWDhxUFFiSEo2QXc2ZEN3?oc=5\" target=\"_blank\">Big Oil Is Changing Its Mind About Venezuela: New Economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYS02alh5LVN1ZUlSbEYza3Y4ZmF3X0prNXVoSkRhLWdrM1FMNXAwcDE5V2xHUFRXVC1MdVBzMXRLa1puQzZYRjVkTmRaanc0SUR2WThvbjViNDF2MFpuNGxpNWJPSFFnRHU1RG1lczdzdnNaSnB1NXIyT0dCLWEtVFpad3VseWJtQnFjZ0g5cUM4SlZnRFBvbHZFREo5MUNCWDhxUFFiSEo2QXc2ZEN3?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-08T15:16:23.827741Z"
+    },
+    {
+      "id": "d8c23b3188a56bc6d29c7b87d05c0123",
+      "title": "Blackstone looks to sell $2bn of stakes in private investment funds",
+      "summary": "One of the biggest deals of its kind will test investor appetite for ageing private equity vehicles",
+      "link": "https://www.ft.com/content/98ccabf5-229f-4a47-b125-7c4538a6ee3f",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-08T15:15:44.674252Z"
+    },
+    {
+      "id": "bce93c6a88584d5fa8fec27755d0ee52",
+      "title": "Natural gas for power generation flat this summer, record high expected in 2027",
+      "summary": "We forecast natural gas consumption by the U.S. electric power sector this summer will remain near recent highs and set a record next summer in our May Short-Term Energy Outlook (STEO). Despite a 2% increase in overall U.S. electricity demand this summer, we expect natural gas-fired electricity generation to be similar to last summer, primarily because of forecast increased generation from renewables. In the May STEO, we forecast natural gas consumed by the U.S. electric power sector will average 43.7 billion cubic feet per day (Bcf/d) during the summer (June\u2013September), the same as in the summer of 2025, and 4% above the five-year summer average (2021\u20132025). We forecast natural gas consumption for power generation will increase 6% (2.4 Bcf/d) during the summer of 2027 to 46.1 Bcf/d, surpassing the previous record set in 2024 by 3%.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67725",
+      "source": "EIA",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-08T15:16:13.551952Z"
+    },
+    {
+      "id": "63db1f7dc467c22e83db3e171cc6942f",
+      "title": "Wallem-Managed Bulk Carrier Rescues Filipino Fishermen",
+      "summary": "Wallem Group, a global maritime partner, has released details of an incident in May when a ship under its management rescued two Filipino fishermen from their sinking boat.The bulk carrier was underway from Abbot Point, Australia to Cam Pha\u2026",
+      "link": "https://www.marinelink.com/news/wallemmanaged-bulk-carrier-rescues-540050",
+      "source": "MarineLink",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-08T15:16:15.587649Z"
+    },
+    {
+      "id": "ae92f899822dfd7416250f558a836fb5",
+      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
+      "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub account. The inquiry comes as CISA is still struggling to contain the breach and invalidate the leaked credentials.",
+      "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "source": "KrebsOnSecurity",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-08T15:16:17.982683Z"
+    },
+    {
+      "id": "c3c453b15020647657c20f0e364b1151",
+      "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
+      "summary": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks against other network operators in Brazil, KrebsOnSecurity has learned. The firm's chief executive says the malicious activity resulted from a security breach and was likely the work of a competitor trying to tarnish his company's public image.",
+      "link": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
+      "source": "KrebsOnSecurity",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-08T15:16:17.982906Z"
+    },
+    {
+      "id": "2e0c0628441ccb8b45d4b81188ccb6ce",
+      "title": "Keynote speech by Commissioner Albuquerque at EFRAG's annual conference: \u201c25 Years of EFRAG: Leading the Next Era of Corporate Reporting\u201d",
+      "summary": "European Commission Speech Brussels, 08 Jun 2026 Good afternoon, ladies and gentlemen.\nMy thanks for inviting me to take part in your anniversary event.\nLet me start by congratulating EFRAG on 25 years of shap...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1299",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-08T15:15:59.856418Z"
+    },
+    {
+      "id": "ed143cbf570bd7e0f1c09d64e3aa890e",
+      "title": "The United States is a major energy exporter and importer, especially for petroleum",
+      "summary": "Total energy exports from the United States reached a record 31 quadrillion British thermal units (quads) in 2025, 2% more than the previous record set in 2024. U.S. energy imports were 21 quads, down 5% from 2024. Taken together, net trade\u2014total imports less total exports\u2014reached 11 quads of net exports in 2025, a record and 20% more net exports than the previous record set in 2024.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67724",
+      "source": "EIA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK",
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-08T15:16:13.552045Z"
+    },
+    {
+      "id": "662f4b1d9386ab193a61b9570befdd90",
+      "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
+      "summary": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today, after a cybercrime group defaced the service's login page with a ransom demand that threatened to leak data from 275 million students and faculty across nearly 9,000 educational institutions.",
+      "link": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
+      "source": "KrebsOnSecurity",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-08T15:16:17.982837Z"
     }
   ]
 }
