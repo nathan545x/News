@@ -1,59 +1,88 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-08T08:11:13.606262Z",
+  "generated_at": "2026-06-08T08:16:20.765727Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-06-08T08:11:13.606274Z"
+    "critical_alerts": 1,
+    "high_alerts": 2,
+    "last_updated": "2026-06-08T08:16:20.765746Z"
   },
   "top_signals": [
     {
-      "id": "c908704daad99ab3aeb540f8974a2e79",
-      "title": "Jefferson, Global Economic Developments and the U.S. Economy",
-      "summary": "Speech At the 2026 Bank of Japan-Institute for Monetary and Economic Studies Conference, Tokyo, Japan",
-      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm",
-      "source": "Federal Reserve",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "2b8e4d799934add5a39a21ee87dd0c45",
+      "title": "Israel, Iran Exchange Missile Attacks",
+      "summary": "Israel said it struck several military targets in Iran, retaliating against missile attacks by Tehran despite President Donald Trump\u2019s call for Prime Minister Benjamin Netanyahu to refrain from hitting back. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-08/israel-iran-exchange-missile-attacks-video",
+      "source": "Bloomberg",
+      "score": 42,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "MIDDLE_EAST"
       ],
-      "assets": [],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-08T08:15:40.379213Z"
+    },
+    {
+      "id": "dd94b2afcbacb84d8c8c35cf5f025e7e",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary": "<p>CISA has added two new vulnerabilities to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul type=\"disc\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2022-0492\" target=\"_blank\">CVE-2022-0492</a> Linux Kernel Improper Authentication Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2025-48595\" target=\"_blank\">CVE-2025-48595</a> Android Framework Integer Overflow Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/binding-operational-directive-22-01\">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a> established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the&nbsp;<a href=\"https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf\">BOD 22-01 Fact Sheet</a> for more information.</p>\n<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a> as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "SYSTEMIC",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
           "JPY"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "BANKS",
+          "SPY"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-08T08:10:42.504653Z"
+      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
+      "published": "2026-06-08T08:16:17.763144Z"
     },
     {
-      "id": "0c0e3ab3b24c5896d5d613128c4867b1",
-      "title": "Brace for a Flood of Oil as Soon as the Strait of Hormuz Reopens - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPb0JKUkR1c1A5UUJJcE43MnViMHhGMVRiZm5Jd2pzRHdaYWZUaEJ1WmVocjNiMTJUaXRYa2RQeHFhQkRndjc5anVkQ1E1Y2N5Y1VrdVZDR251dHVKUUNqVUZBZldWYmJFd1pjMk5uSHpreGVfNHJFRl80X2lSYjJqc0EyZ0ExRkR2UHNpdzdEOHQzSG9DZGJNOTc5NnhiU3dkT0ZLVVRRTzBoWjFMNWZ5R1ZzTEZiN3ozY3c?oc=5\" target=\"_blank\">Brace for a Flood of Oil as Soon as the Strait of Hormuz Reopens</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb0JKUkR1c1A5UUJJcE43MnViMHhGMVRiZm5Jd2pzRHdaYWZUaEJ1WmVocjNiMTJUaXRYa2RQeHFhQkRndjc5anVkQ1E1Y2N5Y1VrdVZDR251dHVKUUNqVUZBZldWYmJFd1pjMk5uSHpreGVfNHJFRl80X2lSYjJqc0EyZ0ExRkR2UHNpdzdEOHQzSG9DZGJNOTc5NnhiU3dkT0ZLVVRRTzBoWjFMNWZ5R1ZzTEZiN3ozY3c?oc=5",
-      "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
+      "id": "cb440c0f70d24e9b1827674221382717",
+      "title": "Indonesia Asks Police to Probe Hundreds of Firms on Palm Prices",
+      "summary": "Indonesia\u2019s agriculture minister has asked police to investigate hundreds of palm oil companies that failed to pay farmers more as prices recovered from a slump driven by the country\u2019s new export policy.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-08/indonesia-asks-police-to-probe-hundreds-of-firms-on-palm-prices",
+      "source": "Bloomberg",
+      "score": 21,
+      "severity": "HIGH",
       "regime": "COMMODITIES",
       "tickers": [
         "WTI"
       ],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI",
         "COMMODITIES"
@@ -70,69 +99,197 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-08T08:11:11.344718Z"
+      "published": "2026-06-08T08:15:40.379290Z"
     },
     {
-      "id": "3edf31d00fdc40239f1d2acd815e36c7",
-      "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-      "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
+      "id": "2842083455d66b35aaa25a91dbc0c791",
+      "title": "Drahi Reaches \u20ac20 Billion Deal to Sell French Phone Carrier SFR",
+      "summary": "Billionaire Patrick Drahi has reached an agreement to sell French mobile carrier SFR to a consortium of rival telecommunications firms, in a deal that values the company \u20ac20.4 billion ($23.5 billion) and will test regulators\u2019 tolerance for consolidation.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-08/billionaire-drahi-strikes-20-billion-deal-to-sell-france-s-sfr",
+      "source": "Bloomberg",
+      "score": 13,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-08T08:15:40.379385Z"
+    },
+    {
+      "id": "294ecf41b74019fdeed2032fa1723967",
+      "title": "Revisiting The Importance of the Battle of Midway",
+      "summary": "<p>The Battle of Midway has assumed a place in American naval lore that has put it on par with other great battles in world naval history. What Salamis was for the Greeks, Trafalgar for the British Royal Navy, and Tsushima for the Japanese, the clash northwest of Midway Island on June 4, 1942, represents for the U.S. Navy. It was a moment of heroism, professional skill, and victory, which came to define how the Navy viewed itself for the rest of the 20th century and beyond.Unlike those other great battles, however, Midway was a decidedly modern naval operation. It involved</p>\n<p>The post <a href=\"https://warontherocks.com/revisiting-the-importance-of-the-battle-of-midway/\">Revisiting The Importance of the Battle of Midway</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/revisiting-the-importance-of-the-battle-of-midway/",
+      "source": "War on the Rocks",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "JAPAN",
+        "UK",
+        "US"
+      ],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-08T08:10:42.372355Z"
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-08T08:16:15.633864Z"
+    },
+    {
+      "id": "27b53879b7464fba349781e0d2a11680",
+      "title": "Bybit follows Kraken in offering tokenized SpaceX IPO access via xStocks",
+      "summary": "<p>The product is built on Payward's xStocks framework, the tokenized equities platform Kraken acquired through its purchase of Backed Finance in late 2025.</p>",
+      "link": "https://www.theblock.co/post/403893/bybit-follows-kraken-in-offering-tokenized-spacex-ipo-access-via-xstocks?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-08T08:16:16.952798Z"
+    },
+    {
+      "id": "c08d948988bfc821bc34ea1663daf297",
+      "title": "Strategy\u2019s Saylor signals BTC buy as preferred dividend pay date vote looms",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Strategy\u2019s Saylor signals BTC buy as preferred dividend pay date vote looms\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9hcnRpY2xlLWNvdmVycy0yMDgzMTUtc2F5bG9yLWRyb3BzLWFub3RoZXItd2VhbHRoLWNvZGUtc3RyYXRlZ3ktaGludHMtYXQtbWFzc2l2ZS1iaXRjb2luLWJ0Yy1hY2N1bXVsYXQuanBn.jpg\" /></p><p>Strategy\u2019s top execs took to social media on Sunday to tout its Bitcoin strategy while shareholders cast final votes on a proposal for twice-monthly preferred stock dividend payments.</p>",
+      "link": "https://cointelegraph.com/news/strategys-saylor-signals-btc-buy-as-preferred-dividend-pay-date-vote-looms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-08T08:16:16.786567Z"
     }
   ],
   "alerts": [
     {
-      "id": "c908704daad99ab3aeb540f8974a2e79",
-      "title": "Jefferson, Global Economic Developments and the U.S. Economy",
-      "summary": "Speech At the 2026 Bank of Japan-Institute for Monetary and Economic Studies Conference, Tokyo, Japan",
-      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm",
-      "source": "Federal Reserve",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "2b8e4d799934add5a39a21ee87dd0c45",
+      "title": "Israel, Iran Exchange Missile Attacks",
+      "summary": "Israel said it struck several military targets in Iran, retaliating against missile attacks by Tehran despite President Donald Trump\u2019s call for Prime Minister Benjamin Netanyahu to refrain from hitting back. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-08/israel-iran-exchange-missile-attacks-video",
+      "source": "Bloomberg",
+      "score": 42,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "MIDDLE_EAST"
       ],
-      "assets": [],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-08T08:15:40.379213Z"
+    },
+    {
+      "id": "dd94b2afcbacb84d8c8c35cf5f025e7e",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary": "<p>CISA has added two new vulnerabilities to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul type=\"disc\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2022-0492\" target=\"_blank\">CVE-2022-0492</a> Linux Kernel Improper Authentication Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2025-48595\" target=\"_blank\">CVE-2025-48595</a> Android Framework Integer Overflow Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/binding-operational-directive-22-01\">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a> established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the&nbsp;<a href=\"https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf\">BOD 22-01 Fact Sheet</a> for more information.</p>\n<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a> as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "SYSTEMIC",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
           "JPY"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "BANKS",
+          "SPY"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-08T08:10:42.504653Z"
+      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
+      "published": "2026-06-08T08:16:17.763144Z"
     },
     {
-      "id": "0c0e3ab3b24c5896d5d613128c4867b1",
-      "title": "Brace for a Flood of Oil as Soon as the Strait of Hormuz Reopens - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPb0JKUkR1c1A5UUJJcE43MnViMHhGMVRiZm5Jd2pzRHdaYWZUaEJ1WmVocjNiMTJUaXRYa2RQeHFhQkRndjc5anVkQ1E1Y2N5Y1VrdVZDR251dHVKUUNqVUZBZldWYmJFd1pjMk5uSHpreGVfNHJFRl80X2lSYjJqc0EyZ0ExRkR2UHNpdzdEOHQzSG9DZGJNOTc5NnhiU3dkT0ZLVVRRTzBoWjFMNWZ5R1ZzTEZiN3ozY3c?oc=5\" target=\"_blank\">Brace for a Flood of Oil as Soon as the Strait of Hormuz Reopens</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb0JKUkR1c1A5UUJJcE43MnViMHhGMVRiZm5Jd2pzRHdaYWZUaEJ1WmVocjNiMTJUaXRYa2RQeHFhQkRndjc5anVkQ1E1Y2N5Y1VrdVZDR251dHVKUUNqVUZBZldWYmJFd1pjMk5uSHpreGVfNHJFRl80X2lSYjJqc0EyZ0ExRkR2UHNpdzdEOHQzSG9DZGJNOTc5NnhiU3dkT0ZLVVRRTzBoWjFMNWZ5R1ZzTEZiN3ozY3c?oc=5",
-      "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
+      "id": "cb440c0f70d24e9b1827674221382717",
+      "title": "Indonesia Asks Police to Probe Hundreds of Firms on Palm Prices",
+      "summary": "Indonesia\u2019s agriculture minister has asked police to investigate hundreds of palm oil companies that failed to pay farmers more as prices recovered from a slump driven by the country\u2019s new export policy.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-08/indonesia-asks-police-to-probe-hundreds-of-firms-on-palm-prices",
+      "source": "Bloomberg",
+      "score": 21,
+      "severity": "HIGH",
       "regime": "COMMODITIES",
       "tickers": [
         "WTI"
       ],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI",
         "COMMODITIES"
@@ -149,23 +306,122 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-08T08:11:11.344718Z"
+      "published": "2026-06-08T08:15:40.379290Z"
     },
     {
-      "id": "3edf31d00fdc40239f1d2acd815e36c7",
-      "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-      "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
+      "id": "2842083455d66b35aaa25a91dbc0c791",
+      "title": "Drahi Reaches \u20ac20 Billion Deal to Sell French Phone Carrier SFR",
+      "summary": "Billionaire Patrick Drahi has reached an agreement to sell French mobile carrier SFR to a consortium of rival telecommunications firms, in a deal that values the company \u20ac20.4 billion ($23.5 billion) and will test regulators\u2019 tolerance for consolidation.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-08/billionaire-drahi-strikes-20-billion-deal-to-sell-france-s-sfr",
+      "source": "Bloomberg",
+      "score": 13,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-08T08:15:40.379385Z"
+    },
+    {
+      "id": "294ecf41b74019fdeed2032fa1723967",
+      "title": "Revisiting The Importance of the Battle of Midway",
+      "summary": "<p>The Battle of Midway has assumed a place in American naval lore that has put it on par with other great battles in world naval history. What Salamis was for the Greeks, Trafalgar for the British Royal Navy, and Tsushima for the Japanese, the clash northwest of Midway Island on June 4, 1942, represents for the U.S. Navy. It was a moment of heroism, professional skill, and victory, which came to define how the Navy viewed itself for the rest of the 20th century and beyond.Unlike those other great battles, however, Midway was a decidedly modern naval operation. It involved</p>\n<p>The post <a href=\"https://warontherocks.com/revisiting-the-importance-of-the-battle-of-midway/\">Revisiting The Importance of the Battle of Midway</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/revisiting-the-importance-of-the-battle-of-midway/",
+      "source": "War on the Rocks",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "JAPAN",
+        "UK",
+        "US"
+      ],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-08T08:10:42.372355Z"
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-08T08:16:15.633864Z"
+    },
+    {
+      "id": "27b53879b7464fba349781e0d2a11680",
+      "title": "Bybit follows Kraken in offering tokenized SpaceX IPO access via xStocks",
+      "summary": "<p>The product is built on Payward's xStocks framework, the tokenized equities platform Kraken acquired through its purchase of Backed Finance in late 2025.</p>",
+      "link": "https://www.theblock.co/post/403893/bybit-follows-kraken-in-offering-tokenized-spacex-ipo-access-via-xstocks?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-08T08:16:16.952798Z"
+    },
+    {
+      "id": "c08d948988bfc821bc34ea1663daf297",
+      "title": "Strategy\u2019s Saylor signals BTC buy as preferred dividend pay date vote looms",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Strategy\u2019s Saylor signals BTC buy as preferred dividend pay date vote looms\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9hcnRpY2xlLWNvdmVycy0yMDgzMTUtc2F5bG9yLWRyb3BzLWFub3RoZXItd2VhbHRoLWNvZGUtc3RyYXRlZ3ktaGludHMtYXQtbWFzc2l2ZS1iaXRjb2luLWJ0Yy1hY2N1bXVsYXQuanBn.jpg\" /></p><p>Strategy\u2019s top execs took to social media on Sunday to tout its Bitcoin strategy while shareholders cast final votes on a proposal for twice-monthly preferred stock dividend payments.</p>",
+      "link": "https://cointelegraph.com/news/strategys-saylor-signals-btc-buy-as-preferred-dividend-pay-date-vote-looms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-08T08:16:16.786567Z"
     }
   ]
 }
