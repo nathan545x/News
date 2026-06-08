@@ -1,27 +1,29 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-08T09:16:12.980525Z",
+  "generated_at": "2026-06-08T09:21:12.935262Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "INFLATION",
+    "dominant_driver": "INFLATION",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 0,
-    "high_alerts": 3,
-    "last_updated": "2026-06-08T09:16:12.980541Z"
+    "high_alerts": 5,
+    "last_updated": "2026-06-08T09:21:12.935278Z"
   },
   "top_signals": [
     {
-      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
-      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
-      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
-      "source": "CISA",
+      "id": "57c4dd069a812c5745e6e4ce7e719090",
+      "title": "Qatar Quietly Sends LNG Tanker Through Hormuz Despite Tensions",
+      "summary": "Another liquefied natural gas shipment from Qatar transited the Strait of Hormuz over the weekend, according to ship data, even as tension in the region threatens a broader peace deal between the US and Iran.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-08/qatar-quietly-sends-lng-tanker-through-hormuz-despite-tensions",
+      "source": "Bloomberg",
       "score": 21,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI"
       ],
@@ -39,80 +41,202 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-08T09:16:10.356791Z"
+      "published": "2026-06-08T09:20:39.166305Z"
     },
     {
-      "id": "35340aaed5d99f1f91930eebfa4ce673",
-      "title": "Research: UK official holdings of international reserves: May 2026",
-      "summary": "This release details movements in the international reserves of gold and assets held by the UK government.",
-      "link": "https://www.gov.uk/government/publications/uk-official-holdings-of-international-reserves-may-2026",
-      "source": "HM Treasury",
-      "score": 20,
+      "id": "d517068f46d4a4e135a1b319f28a3c60",
+      "title": "Bond Traders Bet on a CPI Surge That Bolsters Case for Fed Pivot - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOSXlnaHBqaEI1ZmI2RHpwQlBLdFN0Ym9LdE9WOFk1VnJzcUhEVmRnaFNVcnFtbmNHdHliM3FPdDJHMW1Vcmw1NzBKd2FjUjFyX2xCSl9QQlFTalQ4LVNQUDBXdWYtcUQyTy1MbzFBYjc5Y0VNZ1c5X2ViVUhuc3AwT3k1aG84aWNNZUxRSlBTeWZaLV9SeE5MUVhTMlhZWXRMZGtlR1A5MDNhdXJTSk9pai1KeDl2dw?oc=5\" target=\"_blank\">Bond Traders Bet on a CPI Surge That Bolsters Case for Fed Pivot</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSXlnaHBqaEI1ZmI2RHpwQlBLdFN0Ym9LdE9WOFk1VnJzcUhEVmRnaFNVcnFtbmNHdHliM3FPdDJHMW1Vcmw1NzBKd2FjUjFyX2xCSl9QQlFTalQ4LVNQUDBXdWYtcUQyTy1MbzFBYjc5Y0VNZ1c5X2ViVUhuc3AwT3k1aG84aWNNZUxRSlBTeWZaLV9SeE5MUVhTMlhZWXRMZGtlR1A5MDNhdXJTSk9pai1KeDl2dw?oc=5",
+      "source": "Google Macro",
+      "score": 19,
       "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "XAU"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-08T09:15:58.567605Z"
-    },
-    {
-      "id": "5dea06b4378121a27da53079b206aee7",
-      "title": "Patch Tuesday, May 2026 Edition",
-      "summary": "Artificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding security vulnerabilities in human-made computer code. That reality is on full display this month with some of the more widely-used software makers -- including Apple, Google, Microsoft, Mozilla and Oracle -- fixing near record volumes of security bugs, and/or quickening the tempo of their patch releases.",
-      "link": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
-      "source": "KrebsOnSecurity",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-08T09:16:09.973029Z"
-    },
-    {
-      "id": "ad9f0b8774b3c709d0ed8c63b0690355",
-      "title": "19 dead, 12 missing after 7.8-magnitude quake hits southern Philippines",
-      "summary": "",
-      "link": "https://asia.nikkei.com/economy/natural-disasters/19-dead-12-missing-after-7.8-magnitude-quake-hits-southern-philippines",
-      "source": "Nikkei Asia",
-      "score": 13,
-      "severity": "MEDIUM",
       "regime": "INFLATION",
       "tickers": [],
       "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-08T09:21:10.840625Z"
+    },
+    {
+      "id": "d5990031c96c576f4c04333e98831867",
+      "title": "Sanctioned tanker scrapping could offset large order book: operators",
+      "summary": "Whether a large newbuild order book would weigh on tanker rates could depend on the pace of shadow-fleet scrapping and evolving demand situations during the Hormuz shipping crisis, some ship operators said. Industry association BIMCO estimates the crude tanker order book size at nearly 25% of the existing fleet, the highest level since the 2008 ...",
+      "link": "https://www.hellenicshippingnews.com/sanctioned-tanker-scrapping-could-offset-large-order-book-operators/",
+      "source": "Hellenic Shipping",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-08T09:21:07.353500Z"
+    },
+    {
+      "id": "488e1fc02490e9a19e5f9876ef4a4b9c",
+      "title": "Carriers announce peak season surcharges on demand surge ahead of fresh US tariffs",
+      "summary": "Container shipping majors are out with peak season surcharges for mid-June and early-July, driven by soaring demand amid an early onset of peak season as US importers rush to get goods into the country before Section 301 tariffs take effect. The United States Trade Representative (USTR) on 2 June proposed tariffs on Canada, the EU ...",
+      "link": "https://www.hellenicshippingnews.com/carriers-announce-peak-season-surcharges-on-demand-surge-ahead-of-fresh-us-tariffs/",
+      "source": "Hellenic Shipping",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-08T09:21:07.353564Z"
+    },
+    {
+      "id": "696d4ec156af5171f85f3c95e5793833",
+      "title": "Spot bitcoin ETFs log $1.7 billion in weekly outflows, largest since February 2025",
+      "summary": "<p>The outflows were primarily driven by macroeconomic headlines, especially the stronger-than-expected U.S. jobs report, one analyst said.</p>",
+      "link": "https://www.theblock.co/post/403936/bitcoin-etfs-weekly-outflows-largest-since-2025?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-08T09:21:09.463217Z"
+    },
+    {
+      "id": "38e9772f5c6dfea4844140d80ac6699d",
+      "title": "Melina Travlos: \u201cGreek Owners Are Leading Fleet Renewal and Environmental Performance\u201d",
+      "summary": "The President of the UGS, Melina Travlos, addressed a wide range of questions of national, European and global interest. The highly anticipated Press Conference of the Union of Greek Shipowners (UGS), held within the framework of Posidonia 2026, brought the proceedings of the global gathering of the shipping community in Greece to a close. In ...",
+      "link": "https://www.hellenicshippingnews.com/melina-travlos-greek-owners-are-leading-fleet-renewal-and-environmental-performance/",
+      "source": "Hellenic Shipping",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-08T09:21:07.353437Z"
+    },
+    {
+      "id": "f2b2292a00c95678cfb9bd97bd741992",
+      "title": "Why Solar Power Is Booming Under Trump",
+      "summary": "Despite the Trump administration\u2019s pivot away from renewable energies, solar continues to dominate new energy additions in the United States. Newly released data from the Federal Energy Regulatory Commission (FERC) shows that at the close of last year, solar energy additions were the single largest form of new energy capacity installations for the 28th straight month, starting in September of 2023. In fact, in spite of a broad rollback of Biden-era clean energy incentives since Trump resumed office in January of last year, renewables represented\u2026",
+      "link": "https://oilprice.com/Alternative-Energy/Solar-Energy/Why-Solar-Power-Is-Booming-Under-Trump.html",
+      "source": "OilPrice",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-08T09:21:06.650773Z"
+    },
+    {
+      "id": "af58bc2f34956174d948dadb509d3c7d",
+      "title": "VLCCs: Market Relatively Flat Last Week",
+      "summary": "Clean LR2 The TC1 75kt MEG/Japan index dropped an incremental 6.39 points to WS510 this week. A voyage west also came down with the TC20 90kt MEG/UK-Continent index going from $10.16 million to $9.87 million. The TC15 80kt Mediterranean/East index came down a further $680,000 this week to $4.47 million with the corresponding TCE dropping ...",
+      "link": "https://www.hellenicshippingnews.com/vlccs-market-relatively-flat-last-week/",
+      "source": "Hellenic Shipping",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [
+        "JAPAN",
+        "UK"
+      ],
       "assets": [],
       "market_impact": {
         "bullish": [
@@ -126,188 +250,21 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-08T09:16:00.789191Z"
+      "published": "2026-06-08T09:21:07.353345Z"
     },
     {
-      "id": "2015443e48464b892c35bb9d15cc90c2",
-      "title": "HTX to delist Trump-linked USD1 after saying World Liberty Financial froze exchange-linked addresses",
-      "summary": "<p>The move follows World Liberty Financial's apparent freeze of HTX-linked on-chain addresses, citing UK sanctions compliance, per HTX. </p>",
-      "link": "https://www.theblock.co/post/403885/htx-to-delist-trump-linked-usd1-after-saying-world-liberty-financial-froze-exchange-linked-addresses?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "DXY"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-08T09:16:09.651640Z"
-    },
-    {
-      "id": "dbd55bea3797fd798413d9759aad6b85",
-      "title": "Bitcoin reclaims $63,000 in \u2018oversold relief rally\u2019; South Korea\u2019s KOSPI plunges 8%",
-      "summary": "<p>Presto's Min Jung told The Block that KOSPI's crash may have had some impact on bitcoin's recovery, but not substantially.</p>",
-      "link": "https://www.theblock.co/post/403919/bitcoin-recovers-63000-kospi-plunges?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-06-08T09:16:09.651504Z"
-    },
-    {
-      "id": "e24e76101aa02cae609e2e3cea3903fa",
-      "title": "Barr, Efficient and Effective Central Banking: Beyond the Balance Sheet",
-      "summary": "Speech At the Money Marketeers of New York University, New York, New York",
-      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260514a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-08T09:15:44.350880Z"
-    },
-    {
-      "id": "795a43cb2999c10ee445569c06ffd380",
-      "title": "Policy paper: Joint statement from the Specialised Committee on Financial Provisions, 4 June 2026",
-      "summary": "Joint statement following the twelfth meeting of the Financial Provisions Specialised Committee on 4 June 2026.",
-      "link": "https://www.gov.uk/government/publications/joint-statement-from-the-specialised-committee-on-financial-provisions-4-june-2026",
-      "source": "HM Treasury",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-08T09:15:58.567528Z"
-    },
-    {
-      "id": "72fa924c9fcb90edce2d056d7dc481c2",
-      "title": "Big Oil Is Changing Its Mind About Venezuela: New Economy - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPYS02alh5LVN1ZUlSbEYza3Y4ZmF3X0prNXVoSkRhLWdrM1FMNXAwcDE5V2xHUFRXVC1MdVBzMXRLa1puQzZYRjVkTmRaanc0SUR2WThvbjViNDF2MFpuNGxpNWJPSFFnRHU1RG1lczdzdnNaSnB1NXIyT0dCLWEtVFpad3VseWJtQnFjZ0g5cUM4SlZnRFBvbHZFREo5MUNCWDhxUFFiSEo2QXc2ZEN3?oc=5\" target=\"_blank\">Big Oil Is Changing Its Mind About Venezuela: New Economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYS02alh5LVN1ZUlSbEYza3Y4ZmF3X0prNXVoSkRhLWdrM1FMNXAwcDE5V2xHUFRXVC1MdVBzMXRLa1puQzZYRjVkTmRaanc0SUR2WThvbjViNDF2MFpuNGxpNWJPSFFnRHU1RG1lczdzdnNaSnB1NXIyT0dCLWEtVFpad3VseWJtQnFjZ0g5cUM4SlZnRFBvbHZFREo5MUNCWDhxUFFiSEo2QXc2ZEN3?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-08T09:16:10.896394Z"
-    },
-    {
-      "id": "d8c23b3188a56bc6d29c7b87d05c0123",
-      "title": "Blackstone looks to sell $2bn of stakes in private investment funds",
-      "summary": "One of the biggest deals of its kind will test investor appetite for ageing private equity vehicles",
-      "link": "https://www.ft.com/content/98ccabf5-229f-4a47-b125-7c4538a6ee3f",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-08T09:15:43.266487Z"
-    },
-    {
-      "id": "3c93063b13d94cde0c089cd76e4a7237",
-      "title": "Michael Saylor hints at fresh bitcoin buy with \u2018add more dots\u2019 post as Strategy sits $11.7 billion underwater",
-      "summary": "<p>The post lands a week after Strategy revealed its first bitcoin sale since 2022 and one day before voting closes on a STRC dividend amendment.</p>",
-      "link": "https://www.theblock.co/post/403900/michael-saylor-signals-fresh-bitcoin-buy-with-add-more-dots-post-as-strategy-sits-11-7-billion-underwater?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-06-08T09:16:09.651586Z"
-    },
-    {
-      "id": "bce93c6a88584d5fa8fec27755d0ee52",
-      "title": "Natural gas for power generation flat this summer, record high expected in 2027",
-      "summary": "We forecast natural gas consumption by the U.S. electric power sector this summer will remain near recent highs and set a record next summer in our May Short-Term Energy Outlook (STEO). Despite a 2% increase in overall U.S. electricity demand this summer, we expect natural gas-fired electricity generation to be similar to last summer, primarily because of forecast increased generation from renewables. In the May STEO, we forecast natural gas consumed by the U.S. electric power sector will average 43.7 billion cubic feet per day (Bcf/d) during the summer (June\u2013September), the same as in the summer of 2025, and 4% above the five-year summer average (2021\u20132025). We forecast natural gas consumption for power generation will increase 6% (2.4 Bcf/d) during the summer of 2027 to 46.1 Bcf/d, surpassing the previous record set in 2024 by 3%.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67725",
-      "source": "EIA",
+      "id": "dabd7aa11785a38cf59d46b29ab70dc1",
+      "title": "Greek shipowners work with Japan, Liberia on new IMO bunker rules",
+      "summary": "The Union of Greek Shipowners has reached out to Liberia and Japan to work on alternative proposals to the International Maritime Organization&#8217;s Net-Zero Framework, the group said June 5, also calling on the EU to make firmer commitments in rolling back its regulations on maritime greenhouse gas emissions. After the UN agency&#8217;s member states voted ...",
+      "link": "https://www.hellenicshippingnews.com/greek-shipowners-work-with-japan-liberia-on-new-imo-bunker-rules/",
+      "source": "Hellenic Shipping",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [
         "AI"
       ],
@@ -320,21 +277,67 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-08T09:16:06.239891Z"
+      "published": "2026-06-08T09:21:07.353216Z"
+    },
+    {
+      "id": "890120efdf5b90410ac2eb4dc5d58af1",
+      "title": "Geography-Washing: The NGO Shipbreaking Platform Finds Yet Another Country to Disapprove Of",
+      "summary": "The Usual Answer: Ban It There is a certain comfort in consistency, and the NGO Shipbreaking Platform offers it in abundance. Whatever the question, the answer is a ban. Whatever the progress, the verdict is insufficient. Whatever the country, the conclusion is the same: not good enough, please remove from the list. Their latest joint ...",
+      "link": "https://www.hellenicshippingnews.com/geography-washing-the-ngo-shipbreaking-platform-finds-yet-another-country-to-disapprove-of/",
+      "source": "Hellenic Shipping",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "BUND"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-08T09:21:07.353625Z"
+    },
+    {
+      "id": "3ea04d4d97e96aa10d89a3d38e44a52f",
+      "title": "Dry Bulk Market: Capesize Market Softening",
+      "summary": "Capesize The market closed the week on a softer footing, with the BCI 182 5TC easing from just under $50,000 at the start of the week to $44,374, reflecting a clear loss of momentum as the week progressed. Trading conditions were characterised by persistently thin liquidity, disrupted participation due to Posidonia, and generally subdued miner ...",
+      "link": "https://www.hellenicshippingnews.com/dry-bulk-market-capesize-market-softening/",
+      "source": "Hellenic Shipping",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-08T09:21:07.353285Z"
     }
   ],
   "alerts": [
     {
-      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
-      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
-      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
-      "source": "CISA",
+      "id": "57c4dd069a812c5745e6e4ce7e719090",
+      "title": "Qatar Quietly Sends LNG Tanker Through Hormuz Despite Tensions",
+      "summary": "Another liquefied natural gas shipment from Qatar transited the Strait of Hormuz over the weekend, according to ship data, even as tension in the region threatens a broader peace deal between the US and Iran.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-08/qatar-quietly-sends-lng-tanker-through-hormuz-despite-tensions",
+      "source": "Bloomberg",
       "score": 21,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI"
       ],
@@ -352,80 +355,202 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-08T09:16:10.356791Z"
+      "published": "2026-06-08T09:20:39.166305Z"
     },
     {
-      "id": "35340aaed5d99f1f91930eebfa4ce673",
-      "title": "Research: UK official holdings of international reserves: May 2026",
-      "summary": "This release details movements in the international reserves of gold and assets held by the UK government.",
-      "link": "https://www.gov.uk/government/publications/uk-official-holdings-of-international-reserves-may-2026",
-      "source": "HM Treasury",
-      "score": 20,
+      "id": "d517068f46d4a4e135a1b319f28a3c60",
+      "title": "Bond Traders Bet on a CPI Surge That Bolsters Case for Fed Pivot - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOSXlnaHBqaEI1ZmI2RHpwQlBLdFN0Ym9LdE9WOFk1VnJzcUhEVmRnaFNVcnFtbmNHdHliM3FPdDJHMW1Vcmw1NzBKd2FjUjFyX2xCSl9QQlFTalQ4LVNQUDBXdWYtcUQyTy1MbzFBYjc5Y0VNZ1c5X2ViVUhuc3AwT3k1aG84aWNNZUxRSlBTeWZaLV9SeE5MUVhTMlhZWXRMZGtlR1A5MDNhdXJTSk9pai1KeDl2dw?oc=5\" target=\"_blank\">Bond Traders Bet on a CPI Surge That Bolsters Case for Fed Pivot</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSXlnaHBqaEI1ZmI2RHpwQlBLdFN0Ym9LdE9WOFk1VnJzcUhEVmRnaFNVcnFtbmNHdHliM3FPdDJHMW1Vcmw1NzBKd2FjUjFyX2xCSl9QQlFTalQ4LVNQUDBXdWYtcUQyTy1MbzFBYjc5Y0VNZ1c5X2ViVUhuc3AwT3k1aG84aWNNZUxRSlBTeWZaLV9SeE5MUVhTMlhZWXRMZGtlR1A5MDNhdXJTSk9pai1KeDl2dw?oc=5",
+      "source": "Google Macro",
+      "score": 19,
       "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "XAU"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-08T09:15:58.567605Z"
-    },
-    {
-      "id": "5dea06b4378121a27da53079b206aee7",
-      "title": "Patch Tuesday, May 2026 Edition",
-      "summary": "Artificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding security vulnerabilities in human-made computer code. That reality is on full display this month with some of the more widely-used software makers -- including Apple, Google, Microsoft, Mozilla and Oracle -- fixing near record volumes of security bugs, and/or quickening the tempo of their patch releases.",
-      "link": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
-      "source": "KrebsOnSecurity",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-08T09:16:09.973029Z"
-    },
-    {
-      "id": "ad9f0b8774b3c709d0ed8c63b0690355",
-      "title": "19 dead, 12 missing after 7.8-magnitude quake hits southern Philippines",
-      "summary": "",
-      "link": "https://asia.nikkei.com/economy/natural-disasters/19-dead-12-missing-after-7.8-magnitude-quake-hits-southern-philippines",
-      "source": "Nikkei Asia",
-      "score": 13,
-      "severity": "MEDIUM",
       "regime": "INFLATION",
       "tickers": [],
       "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-08T09:21:10.840625Z"
+    },
+    {
+      "id": "d5990031c96c576f4c04333e98831867",
+      "title": "Sanctioned tanker scrapping could offset large order book: operators",
+      "summary": "Whether a large newbuild order book would weigh on tanker rates could depend on the pace of shadow-fleet scrapping and evolving demand situations during the Hormuz shipping crisis, some ship operators said. Industry association BIMCO estimates the crude tanker order book size at nearly 25% of the existing fleet, the highest level since the 2008 ...",
+      "link": "https://www.hellenicshippingnews.com/sanctioned-tanker-scrapping-could-offset-large-order-book-operators/",
+      "source": "Hellenic Shipping",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-08T09:21:07.353500Z"
+    },
+    {
+      "id": "488e1fc02490e9a19e5f9876ef4a4b9c",
+      "title": "Carriers announce peak season surcharges on demand surge ahead of fresh US tariffs",
+      "summary": "Container shipping majors are out with peak season surcharges for mid-June and early-July, driven by soaring demand amid an early onset of peak season as US importers rush to get goods into the country before Section 301 tariffs take effect. The United States Trade Representative (USTR) on 2 June proposed tariffs on Canada, the EU ...",
+      "link": "https://www.hellenicshippingnews.com/carriers-announce-peak-season-surcharges-on-demand-surge-ahead-of-fresh-us-tariffs/",
+      "source": "Hellenic Shipping",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-08T09:21:07.353564Z"
+    },
+    {
+      "id": "696d4ec156af5171f85f3c95e5793833",
+      "title": "Spot bitcoin ETFs log $1.7 billion in weekly outflows, largest since February 2025",
+      "summary": "<p>The outflows were primarily driven by macroeconomic headlines, especially the stronger-than-expected U.S. jobs report, one analyst said.</p>",
+      "link": "https://www.theblock.co/post/403936/bitcoin-etfs-weekly-outflows-largest-since-2025?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-08T09:21:09.463217Z"
+    },
+    {
+      "id": "38e9772f5c6dfea4844140d80ac6699d",
+      "title": "Melina Travlos: \u201cGreek Owners Are Leading Fleet Renewal and Environmental Performance\u201d",
+      "summary": "The President of the UGS, Melina Travlos, addressed a wide range of questions of national, European and global interest. The highly anticipated Press Conference of the Union of Greek Shipowners (UGS), held within the framework of Posidonia 2026, brought the proceedings of the global gathering of the shipping community in Greece to a close. In ...",
+      "link": "https://www.hellenicshippingnews.com/melina-travlos-greek-owners-are-leading-fleet-renewal-and-environmental-performance/",
+      "source": "Hellenic Shipping",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-08T09:21:07.353437Z"
+    },
+    {
+      "id": "f2b2292a00c95678cfb9bd97bd741992",
+      "title": "Why Solar Power Is Booming Under Trump",
+      "summary": "Despite the Trump administration\u2019s pivot away from renewable energies, solar continues to dominate new energy additions in the United States. Newly released data from the Federal Energy Regulatory Commission (FERC) shows that at the close of last year, solar energy additions were the single largest form of new energy capacity installations for the 28th straight month, starting in September of 2023. In fact, in spite of a broad rollback of Biden-era clean energy incentives since Trump resumed office in January of last year, renewables represented\u2026",
+      "link": "https://oilprice.com/Alternative-Energy/Solar-Energy/Why-Solar-Power-Is-Booming-Under-Trump.html",
+      "source": "OilPrice",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-08T09:21:06.650773Z"
+    },
+    {
+      "id": "af58bc2f34956174d948dadb509d3c7d",
+      "title": "VLCCs: Market Relatively Flat Last Week",
+      "summary": "Clean LR2 The TC1 75kt MEG/Japan index dropped an incremental 6.39 points to WS510 this week. A voyage west also came down with the TC20 90kt MEG/UK-Continent index going from $10.16 million to $9.87 million. The TC15 80kt Mediterranean/East index came down a further $680,000 this week to $4.47 million with the corresponding TCE dropping ...",
+      "link": "https://www.hellenicshippingnews.com/vlccs-market-relatively-flat-last-week/",
+      "source": "Hellenic Shipping",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [
+        "JAPAN",
+        "UK"
+      ],
       "assets": [],
       "market_impact": {
         "bullish": [
@@ -439,190 +564,51 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-08T09:16:00.789191Z"
+      "published": "2026-06-08T09:21:07.353345Z"
     },
     {
-      "id": "2015443e48464b892c35bb9d15cc90c2",
-      "title": "HTX to delist Trump-linked USD1 after saying World Liberty Financial froze exchange-linked addresses",
-      "summary": "<p>The move follows World Liberty Financial's apparent freeze of HTX-linked on-chain addresses, citing UK sanctions compliance, per HTX. </p>",
-      "link": "https://www.theblock.co/post/403885/htx-to-delist-trump-linked-usd1-after-saying-world-liberty-financial-froze-exchange-linked-addresses?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "DXY"
-      ],
+      "id": "dabd7aa11785a38cf59d46b29ab70dc1",
+      "title": "Greek shipowners work with Japan, Liberia on new IMO bunker rules",
+      "summary": "The Union of Greek Shipowners has reached out to Liberia and Japan to work on alternative proposals to the International Maritime Organization&#8217;s Net-Zero Framework, the group said June 5, also calling on the EU to make firmer commitments in rolling back its regulations on maritime greenhouse gas emissions. After the UN agency&#8217;s member states voted ...",
+      "link": "https://www.hellenicshippingnews.com/greek-shipowners-work-with-japan-liberia-on-new-imo-bunker-rules/",
+      "source": "Hellenic Shipping",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
       "regions": [
-        "UK"
+        "JAPAN"
       ],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-08T09:16:09.651640Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-08T09:21:07.353216Z"
     },
     {
-      "id": "dbd55bea3797fd798413d9759aad6b85",
-      "title": "Bitcoin reclaims $63,000 in \u2018oversold relief rally\u2019; South Korea\u2019s KOSPI plunges 8%",
-      "summary": "<p>Presto's Min Jung told The Block that KOSPI's crash may have had some impact on bitcoin's recovery, but not substantially.</p>",
-      "link": "https://www.theblock.co/post/403919/bitcoin-recovers-63000-kospi-plunges?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
+      "id": "890120efdf5b90410ac2eb4dc5d58af1",
+      "title": "Geography-Washing: The NGO Shipbreaking Platform Finds Yet Another Country to Disapprove Of",
+      "summary": "The Usual Answer: Ban It There is a certain comfort in consistency, and the NGO Shipbreaking Platform offers it in abundance. Whatever the question, the answer is a ban. Whatever the progress, the verdict is insufficient. Whatever the country, the conclusion is the same: not good enough, please remove from the list. Their latest joint ...",
+      "link": "https://www.hellenicshippingnews.com/geography-washing-the-ngo-shipbreaking-platform-finds-yet-another-country-to-disapprove-of/",
+      "source": "Hellenic Shipping",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
       "tickers": [
-        "BTC"
+        "BUND"
       ],
       "regions": [],
       "assets": [
         "AI",
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-06-08T09:16:09.651504Z"
-    },
-    {
-      "id": "e24e76101aa02cae609e2e3cea3903fa",
-      "title": "Barr, Efficient and Effective Central Banking: Beyond the Balance Sheet",
-      "summary": "Speech At the Money Marketeers of New York University, New York, New York",
-      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260514a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-08T09:15:44.350880Z"
-    },
-    {
-      "id": "795a43cb2999c10ee445569c06ffd380",
-      "title": "Policy paper: Joint statement from the Specialised Committee on Financial Provisions, 4 June 2026",
-      "summary": "Joint statement following the twelfth meeting of the Financial Provisions Specialised Committee on 4 June 2026.",
-      "link": "https://www.gov.uk/government/publications/joint-statement-from-the-specialised-committee-on-financial-provisions-4-june-2026",
-      "source": "HM Treasury",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-08T09:15:58.567528Z"
-    },
-    {
-      "id": "72fa924c9fcb90edce2d056d7dc481c2",
-      "title": "Big Oil Is Changing Its Mind About Venezuela: New Economy - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPYS02alh5LVN1ZUlSbEYza3Y4ZmF3X0prNXVoSkRhLWdrM1FMNXAwcDE5V2xHUFRXVC1MdVBzMXRLa1puQzZYRjVkTmRaanc0SUR2WThvbjViNDF2MFpuNGxpNWJPSFFnRHU1RG1lczdzdnNaSnB1NXIyT0dCLWEtVFpad3VseWJtQnFjZ0g5cUM4SlZnRFBvbHZFREo5MUNCWDhxUFFiSEo2QXc2ZEN3?oc=5\" target=\"_blank\">Big Oil Is Changing Its Mind About Venezuela: New Economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYS02alh5LVN1ZUlSbEYza3Y4ZmF3X0prNXVoSkRhLWdrM1FMNXAwcDE5V2xHUFRXVC1MdVBzMXRLa1puQzZYRjVkTmRaanc0SUR2WThvbjViNDF2MFpuNGxpNWJPSFFnRHU1RG1lczdzdnNaSnB1NXIyT0dCLWEtVFpad3VseWJtQnFjZ0g5cUM4SlZnRFBvbHZFREo5MUNCWDhxUFFiSEo2QXc2ZEN3?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-08T09:16:10.896394Z"
-    },
-    {
-      "id": "d8c23b3188a56bc6d29c7b87d05c0123",
-      "title": "Blackstone looks to sell $2bn of stakes in private investment funds",
-      "summary": "One of the biggest deals of its kind will test investor appetite for ageing private equity vehicles",
-      "link": "https://www.ft.com/content/98ccabf5-229f-4a47-b125-7c4538a6ee3f",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-08T09:15:43.266487Z"
-    },
-    {
-      "id": "3c93063b13d94cde0c089cd76e4a7237",
-      "title": "Michael Saylor hints at fresh bitcoin buy with \u2018add more dots\u2019 post as Strategy sits $11.7 billion underwater",
-      "summary": "<p>The post lands a week after Strategy revealed its first bitcoin sale since 2022 and one day before voting closes on a STRC dividend amendment.</p>",
-      "link": "https://www.theblock.co/post/403900/michael-saylor-signals-fresh-bitcoin-buy-with-add-more-dots-post-as-strategy-sits-11-7-billion-underwater?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-06-08T09:16:09.651586Z"
-    },
-    {
-      "id": "bce93c6a88584d5fa8fec27755d0ee52",
-      "title": "Natural gas for power generation flat this summer, record high expected in 2027",
-      "summary": "We forecast natural gas consumption by the U.S. electric power sector this summer will remain near recent highs and set a record next summer in our May Short-Term Energy Outlook (STEO). Despite a 2% increase in overall U.S. electricity demand this summer, we expect natural gas-fired electricity generation to be similar to last summer, primarily because of forecast increased generation from renewables. In the May STEO, we forecast natural gas consumed by the U.S. electric power sector will average 43.7 billion cubic feet per day (Bcf/d) during the summer (June\u2013September), the same as in the summer of 2025, and 4% above the five-year summer average (2021\u20132025). We forecast natural gas consumption for power generation will increase 6% (2.4 Bcf/d) during the summer of 2027 to 46.1 Bcf/d, surpassing the previous record set in 2024 by 3%.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67725",
-      "source": "EIA",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -633,94 +619,23 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-08T09:16:06.239891Z"
+      "published": "2026-06-08T09:21:07.353625Z"
     },
     {
-      "id": "ae92f899822dfd7416250f558a836fb5",
-      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
-      "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub account. The inquiry comes as CISA is still struggling to contain the breach and invalidate the leaked credentials.",
-      "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
-      "source": "KrebsOnSecurity",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-08T09:16:09.972947Z"
-    },
-    {
-      "id": "c3c453b15020647657c20f0e364b1151",
-      "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
-      "summary": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks against other network operators in Brazil, KrebsOnSecurity has learned. The firm's chief executive says the malicious activity resulted from a security breach and was likely the work of a competitor trying to tarnish his company's public image.",
-      "link": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
-      "source": "KrebsOnSecurity",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-08T09:16:09.973155Z"
-    },
-    {
-      "id": "ed143cbf570bd7e0f1c09d64e3aa890e",
-      "title": "The United States is a major energy exporter and importer, especially for petroleum",
-      "summary": "Total energy exports from the United States reached a record 31 quadrillion British thermal units (quads) in 2025, 2% more than the previous record set in 2024. U.S. energy imports were 21 quads, down 5% from 2024. Taken together, net trade\u2014total imports less total exports\u2014reached 11 quads of net exports in 2025, a record and 20% more net exports than the previous record set in 2024.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67724",
-      "source": "EIA",
+      "id": "3ea04d4d97e96aa10d89a3d38e44a52f",
+      "title": "Dry Bulk Market: Capesize Market Softening",
+      "summary": "Capesize The market closed the week on a softer footing, with the BCI 182 5TC easing from just under $50,000 at the start of the week to $44,374, reflecting a clear loss of momentum as the week progressed. Trading conditions were characterised by persistently thin liquidity, disrupted participation due to Posidonia, and generally subdued miner ...",
+      "link": "https://www.hellenicshippingnews.com/dry-bulk-market-capesize-market-softening/",
+      "source": "Hellenic Shipping",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [
-        "UK",
-        "US"
-      ],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-08T09:16:06.239982Z"
-    },
-    {
-      "id": "662f4b1d9386ab193a61b9570befdd90",
-      "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
-      "summary": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today, after a cybercrime group defaced the service's login page with a ransom demand that threatened to leak data from 275 million students and faculty across nearly 9,000 educational institutions.",
-      "link": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
-      "source": "KrebsOnSecurity",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "US"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-08T09:16:09.973091Z"
+      "published": "2026-06-08T09:21:07.353285Z"
     }
   ]
 }
