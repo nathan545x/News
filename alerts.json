@@ -1,60 +1,96 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-09T20:17:13.351455Z",
+  "generated_at": "2026-06-09T20:21:15.586562Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 2,
-    "last_updated": "2026-06-09T20:17:13.351470Z"
+    "critical_alerts": 2,
+    "high_alerts": 3,
+    "last_updated": "2026-06-09T20:21:15.586575Z"
   },
   "top_signals": [
     {
-      "id": "c1951d492830d1f3f09756d86b0cff02",
-      "title": "ECB announces main milestones for roll-out of Integrated Reporting Framework",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260608~6766ec7154.en.html",
-      "source": "ECB",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "af274baefefeaa92a35a8b713a89f3b6",
+      "title": "EU considers suspending rise in Russian oil price cap",
+      "summary": "Limit on Russian crude was set to increase from $44 a barrel to $70 following supply disruption due to Middle East war",
+      "link": "https://www.ft.com/content/a61e339d-7387-4f21-acb0-851732f2d6f5",
+      "source": "Financial Times",
+      "score": 51,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-09T20:20:42.362819Z"
+    },
+    {
+      "id": "a9c1748ef718b82d199ee5fd41b2c3c9",
+      "title": "After the Invasion: China Considers the Problem of Ruling Taiwan",
+      "summary": "<p>In August 2024, scholars at a Xiamen-based think tank published a paper urging Beijing to immediately establish a shadow Taiwan government on the Chinese mainland in preparation for a full takeover of the island. &#8220;It is imperative to prepare a plan for the comprehensive takeover of Taiwan after unification,&#8221; they said. The scholars were writing at a fraught moment for Beijing.Only months earlier, the anti-China Democratic Progressive Party had taken office after a third consecutive presidential election win. Unusually for a Chinese publication on such a sensitive topic, the paper made several frank admissions: that opposition to unification within Taiwan</p>\n<p>The post <a href=\"https://warontherocks.com/after-the-invasion-china-considers-the-problem-of-ruling-taiwan/\">After the Invasion: China Considers the Problem of Ruling Taiwan</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/after-the-invasion-china-considers-the-problem-of-ruling-taiwan/",
+      "source": "War on the Rocks",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "CHINA"
+      ],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-09T20:15:59.907155Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-09T20:21:11.225546Z"
     },
     {
-      "id": "6cecf9b0cc6c264767d8dd811529e3c4",
-      "title": "Statistical Notice 2026/05 - Implementation of Bank of England Statistics Taxonomy v1.3.1",
-      "summary": "Statistical Notices update the definitions and guidance contained in the Banking Statistics Yellow Folder",
-      "link": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-05",
-      "source": "Bank of England",
-      "score": 22,
+      "id": "c908704daad99ab3aeb540f8974a2e79",
+      "title": "Jefferson, Global Economic Developments and the U.S. Economy",
+      "summary": "Speech At the 2026 Bank of Japan-Institute for Monetary and Economic Studies Conference, Tokyo, Japan",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm",
+      "source": "Federal Reserve",
+      "score": 19,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
       "regions": [
-        "UK"
+        "JAPAN"
       ],
-      "assets": [
-        "AI"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -67,19 +103,21 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-09T20:16:05.764730Z"
+      "published": "2026-06-09T20:20:44.404084Z"
     },
     {
-      "id": "327cb820012ae596b40d304fc2fad696",
-      "title": "The Lawmakers Fighting to Modernize the Pentagon",
-      "summary": "<p>Congress rarely moves fast, but Reps. Rob Wittman and Pat Ryan are trying to change that. The two lawmakers founded the bipartisan House Defense Modernization Caucus in 2024 and have driven reforms through two consecutive defense authorization acts, targeting acquisitions and other bottlenecks. Jonathan sits down with both congressmen to discuss their initiatives, how a caucus without markup power actually moves legislation, and whether bipartisan cooperation on defense can last.Image: Sgt. 1st Class Rakeem Carter via DVIDS.</p>\n<p>The post <a href=\"https://warontherocks.com/cogs-of-war/the-lawmakers-fighting-to-modernize-the-pentagon/\">The Lawmakers Fighting to Modernize the Pentagon</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
-      "link": "https://warontherocks.com/cogs-of-war/the-lawmakers-fighting-to-modernize-the-pentagon/",
-      "source": "War on the Rocks",
-      "score": 11,
-      "severity": "MEDIUM",
+      "id": "9d8d267ae9d62debaa4f9c0a3ab3923f",
+      "title": "Rising fuel prices hit US farms as Iran war drags on - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQaEJuTERzUURfX2hORlJoVzlkUVc2TFhvV2xiWVZrc0d1TkJYMXRfbllmM21BNEw1Mno1cmE3cHZtQjdHX2xncldFbWNOeEFXbG9jaTNMeGJXcDVGQzF3d3FzT2hVM055OWFZbUVLX2xoX3VjVUptTEt1R0c3NjhNTk9sZFhfT3BKRGpXMTRMMUdMRklXbS1zWjU3SVM5Nzg?oc=5\" target=\"_blank\">Rising fuel prices hit US farms as Iran war drags on</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaEJuTERzUURfX2hORlJoVzlkUVc2TFhvV2xiWVZrc0d1TkJYMXRfbllmM21BNEw1Mno1cmE3cHZtQjdHX2xncldFbWNOeEFXbG9jaTNMeGJXcDVGQzF3d3FzT2hVM055OWFZbUVLX2xoX3VjVUptTEt1R0c3NjhNTk9sZFhfT3BKRGpXMTRMMUdMRklXbS1zWjU3SVM5Nzg?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [],
       "market_impact": {
         "bullish": [
@@ -95,44 +133,164 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-09T20:16:23.999789Z"
+      "published": "2026-06-09T20:21:13.892613Z"
     },
     {
-      "id": "8a87039546d41d752c34075d71ec7bdb",
-      "title": "Privacy push as StarkWare and Sui move toward compliance-ready confidential transfers",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Privacy push as StarkWare and Sui move toward compliance-ready confidential transfers\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9oaS10aGUtc2lnbmlmaWNhbmNlLW9mLXByaXZhY3ktaW4td2ViMy5qcGc=.jpg\" /></p><p>StarkWare and Sui roll out confidential transfer systems as Zama boosts compliance efforts and Zcash\u2019s Orchard bug highlights risks in shielded privacy models.</p>",
-      "link": "https://cointelegraph.com/news/privacy-starkware-sui-move-compliance-confidential-transfers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
+      "id": "4507816de81a6d5ffe527570a7d0f0ba",
+      "title": "California natural gas prices reach historic lows in early 2026",
+      "summary": "Monthly average natural gas spot prices in California reached record lows in the first five months of 2026, dropping to values last recorded in the nationwide low-price market of 2024. Record lows were recorded in Northern California's PG&amp;E Citygate and Southern California's SoCal Border Average; SoCal Citygate prices fell to near-record lows but remained higher than some 2024 prices. Several factors contribute to California's low prices, including above-average inventories and decreasing in-state demand for natural gas-fired electricity.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67744",
+      "source": "EIA",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
       "tickers": [],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "COMMODITIES"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-09T20:16:25.562414Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-09T20:21:09.783190Z"
     },
     {
-      "id": "b59b502c78d1bba24888b2f8181787f0",
-      "title": "A16z, Paradigm lead $175 million bet to move global credit markets onchain",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/06/09/a16z-paradigm-lead-usd175-million-bet-to-move-global-credit-markets-onchain",
-      "source": "CoinDesk",
+      "id": "253afef42a9a5b825e4582acb1325c1b",
+      "title": "Nasdaq slips in volatile trading as 2026 high-flyers pull back",
+      "summary": "Losses for AI-linked stocks overshadow gains across rest of market",
+      "link": "https://www.ft.com/content/13d4845a-f278-489b-ab89-a2e9e6a79ede",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "QQQ"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-09T20:20:42.362748Z"
+    },
+    {
+      "id": "3edf31d00fdc40239f1d2acd815e36c7",
+      "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
+      "source": "Federal Reserve",
       "score": 10,
       "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-09T20:20:44.253050Z"
+    },
+    {
+      "id": "712186e7e619d874493a783b423cc08b",
+      "title": "Oil market defies predictions of summer supply crunch - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQeU5TYmh3eWN0MmVMMUg1eVVVZjhCNEh0azRfOGROSnRfWm45V3ZTUGdiQnhjanVIVXF0SmNGemtsNjNoT2JmcVByOGoydkE4eWtrMWRUeDRnQV9JaUwzVWV3Yl85X2tVcGtmT0E3R1ZVVDV6OUtSSFB0ZFBWWGNoeXFzMEs?oc=5\" target=\"_blank\">Oil market defies predictions of summer supply crunch</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeU5TYmh3eWN0MmVMMUg1eVVVZjhCNEh0azRfOGROSnRfWm45V3ZTUGdiQnhjanVIVXF0SmNGemtsNjNoT2JmcVByOGoydkE4eWtrMWRUeDRnQV9JaUwzVWV3Yl85X2tVcGtmT0E3R1ZVVDV6OUtSSFB0ZFBWWGNoeXFzMEs?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-09T20:21:14.457599Z"
+    },
+    {
+      "id": "587c32bc0f6e9212fe4b091f64673026",
+      "title": "Pope Leo meets Trump foe Bad Bunny",
+      "summary": "Puerto Rican rapper has become a symbol of cultural resistance to US president",
+      "link": "https://www.ft.com/content/57f19d5c-0f6e-4302-8c03-1a19abb34dd3",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-09T20:20:42.719897Z"
+    },
+    {
+      "id": "9ebd13ed85d68d8782fb0ff0a202e0e7",
+      "title": "Hackers pose as women seeking romance to spy on Russian soldiers",
+      "summary": "The group, dubbed SiribClone by Russian cybersecurity firm F6, has been active since at least the summer of 2025 and has primarily targeted members of the Russian armed forces stationed in border regions and combat zones.",
+      "link": "https://therecord.media/hackers-pose-as-women-seeking-romance-russian-military",
+      "source": "The Record",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-09T20:21:12.592519Z"
+    },
+    {
+      "id": "004f60c95c1e9c728f8c726ae13733e8",
+      "title": "Energy Secretary Chris Wright says traffic in Strait of Hormuz is rising 'very meaningfully' - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE5DcEx2V0hMWWR2dmlMbHEzQXpKTWJLN09ubGxyTmlOTG14azJtbFRTM3Z2c3NTWXNnMVJRbkNaRHU1dU5ISVl0R2lMRmpxYWVlZWJJWXdpZHVHZ1NJakU1UDBEdWdVdGJRdHpIYWhYejBWR3RlVU5zNGg5Y9IBgAFBVV95cUxNSFhsa0lMbmFqTlg3NmpZNlpRa1NoZnJwZWZMWWZxWFhWWXZENF9ybEtteWhabk1HQ1Y5eFRtZE53QmpDLUtybGFlR3lQeklMT1ZmdnJ5bTRKUlBLelpMNFRLRTE1Sk9NOG1tWEF1azc5THBsbV9zY1hZODRVQ3hUbA?oc=5\" target=\"_blank\">Energy Secretary Chris Wright says traffic in Strait of Hormuz is rising 'very meaningfully'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DcEx2V0hMWWR2dmlMbHEzQXpKTWJLN09ubGxyTmlOTG14azJtbFRTM3Z2c3NTWXNnMVJRbkNaRHU1dU5ISVl0R2lMRmpxYWVlZWJJWXdpZHVHZ1NJakU1UDBEdWdVdGJRdHpIYWhYejBWR3RlVU5zNGg5Y9IBgAFBVV95cUxNSFhsa0lMbmFqTlg3NmpZNlpRa1NoZnJwZWZMWWZxWFhWWXZENF9ybEtteWhabk1HQ1Y5eFRtZE53QmpDLUtybGFlR3lQeklMT1ZmdnJ5bTRKUlBLelpMNFRLRTE1Sk9NOG1tWEF1azc5THBsbV9zY1hZODRVQ3hUbA?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -148,31 +306,15 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-09T20:16:25.408355Z"
+      "published": "2026-06-09T20:21:15.586540Z"
     },
     {
-      "id": "9855700c70e1f26426e3f0f2eee9d219",
-      "title": "Why are investors so jumpy?",
-      "summary": "What\u2019s driving market volatility?",
-      "link": "https://www.ft.com/content/e7b70df7-2632-4f7e-9462-c22b8e3a4e51",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T20:15:46.541491Z"
-    },
-    {
-      "id": "9ea19445afb9e93697428f50dc11a296",
-      "title": "Vinted boss sees 'fundamental' shift in consumer patterns, as secondhand firm notches $9 billion valuation",
-      "summary": "Vinted is seeing a structural shift in consumer behaviour as habits form around the resale economy, its marketplace CEO told CNBC.",
-      "link": "https://www.cnbc.com/2026/06/09/vinted-ceo-ipo-valuation-second-hand-fashion.html",
-      "source": "CNBC",
-      "score": 6,
+      "id": "53900a401dc49fd8a86c18e549747876",
+      "title": "Haleon to Invest $233.5 Million in India Plant Amid Push Into Emerging Markets - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPdnhKZTh2VHRmU3hNZmp2Z21aanlDWERXdXJoaEkyRUljbjI3VnlDWF9QazhfMlNCTkhOYUhIR2RGUjZOaXczYlpPRUNjMk1XR1hsVE1maFNxVWM4Qnk5bnBfWGZfTHVSOWpWckdGOHprbi0xcmltdFR4R1I4dlZTX25lZTRKNU9vb3RYa2FnUG9GWTdoS05nR0djWWlKM3VZTkswcXdicktjdTRJYkJoTDR6RU9jcndLR3hjenJRQQ?oc=5\" target=\"_blank\">Haleon to Invest $233.5 Million in India Plant Amid Push Into Emerging Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdnhKZTh2VHRmU3hNZmp2Z21aanlDWERXdXJoaEkyRUljbjI3VnlDWF9QazhfMlNCTkhOYUhIR2RGUjZOaXczYlpPRUNjMk1XR1hsVE1maFNxVWM4Qnk5bnBfWGZfTHVSOWpWckdGOHprbi0xcmltdFR4R1I4dlZTX25lZTRKNU9vb3RYa2FnUG9GWTdoS05nR0djWWlKM3VZTkswcXdicktjdTRJYkJoTDR6RU9jcndLR3hjenJRQQ?oc=5",
+      "source": "Google Macro",
+      "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
@@ -180,54 +322,90 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T20:15:48.408341Z"
+      "published": "2026-06-09T20:21:15.004537Z"
     }
   ],
   "alerts": [
     {
-      "id": "c1951d492830d1f3f09756d86b0cff02",
-      "title": "ECB announces main milestones for roll-out of Integrated Reporting Framework",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260608~6766ec7154.en.html",
-      "source": "ECB",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "af274baefefeaa92a35a8b713a89f3b6",
+      "title": "EU considers suspending rise in Russian oil price cap",
+      "summary": "Limit on Russian crude was set to increase from $44 a barrel to $70 following supply disruption due to Middle East war",
+      "link": "https://www.ft.com/content/a61e339d-7387-4f21-acb0-851732f2d6f5",
+      "source": "Financial Times",
+      "score": 51,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-09T20:20:42.362819Z"
+    },
+    {
+      "id": "a9c1748ef718b82d199ee5fd41b2c3c9",
+      "title": "After the Invasion: China Considers the Problem of Ruling Taiwan",
+      "summary": "<p>In August 2024, scholars at a Xiamen-based think tank published a paper urging Beijing to immediately establish a shadow Taiwan government on the Chinese mainland in preparation for a full takeover of the island. &#8220;It is imperative to prepare a plan for the comprehensive takeover of Taiwan after unification,&#8221; they said. The scholars were writing at a fraught moment for Beijing.Only months earlier, the anti-China Democratic Progressive Party had taken office after a third consecutive presidential election win. Unusually for a Chinese publication on such a sensitive topic, the paper made several frank admissions: that opposition to unification within Taiwan</p>\n<p>The post <a href=\"https://warontherocks.com/after-the-invasion-china-considers-the-problem-of-ruling-taiwan/\">After the Invasion: China Considers the Problem of Ruling Taiwan</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/after-the-invasion-china-considers-the-problem-of-ruling-taiwan/",
+      "source": "War on the Rocks",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "CHINA"
+      ],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-09T20:15:59.907155Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-09T20:21:11.225546Z"
     },
     {
-      "id": "6cecf9b0cc6c264767d8dd811529e3c4",
-      "title": "Statistical Notice 2026/05 - Implementation of Bank of England Statistics Taxonomy v1.3.1",
-      "summary": "Statistical Notices update the definitions and guidance contained in the Banking Statistics Yellow Folder",
-      "link": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-05",
-      "source": "Bank of England",
-      "score": 22,
+      "id": "c908704daad99ab3aeb540f8974a2e79",
+      "title": "Jefferson, Global Economic Developments and the U.S. Economy",
+      "summary": "Speech At the 2026 Bank of Japan-Institute for Monetary and Economic Studies Conference, Tokyo, Japan",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm",
+      "source": "Federal Reserve",
+      "score": 19,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
       "regions": [
-        "UK"
+        "JAPAN"
       ],
-      "assets": [
-        "AI"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -240,19 +418,21 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-09T20:16:05.764730Z"
+      "published": "2026-06-09T20:20:44.404084Z"
     },
     {
-      "id": "327cb820012ae596b40d304fc2fad696",
-      "title": "The Lawmakers Fighting to Modernize the Pentagon",
-      "summary": "<p>Congress rarely moves fast, but Reps. Rob Wittman and Pat Ryan are trying to change that. The two lawmakers founded the bipartisan House Defense Modernization Caucus in 2024 and have driven reforms through two consecutive defense authorization acts, targeting acquisitions and other bottlenecks. Jonathan sits down with both congressmen to discuss their initiatives, how a caucus without markup power actually moves legislation, and whether bipartisan cooperation on defense can last.Image: Sgt. 1st Class Rakeem Carter via DVIDS.</p>\n<p>The post <a href=\"https://warontherocks.com/cogs-of-war/the-lawmakers-fighting-to-modernize-the-pentagon/\">The Lawmakers Fighting to Modernize the Pentagon</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
-      "link": "https://warontherocks.com/cogs-of-war/the-lawmakers-fighting-to-modernize-the-pentagon/",
-      "source": "War on the Rocks",
-      "score": 11,
-      "severity": "MEDIUM",
+      "id": "9d8d267ae9d62debaa4f9c0a3ab3923f",
+      "title": "Rising fuel prices hit US farms as Iran war drags on - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQaEJuTERzUURfX2hORlJoVzlkUVc2TFhvV2xiWVZrc0d1TkJYMXRfbllmM21BNEw1Mno1cmE3cHZtQjdHX2xncldFbWNOeEFXbG9jaTNMeGJXcDVGQzF3d3FzT2hVM055OWFZbUVLX2xoX3VjVUptTEt1R0c3NjhNTk9sZFhfT3BKRGpXMTRMMUdMRklXbS1zWjU3SVM5Nzg?oc=5\" target=\"_blank\">Rising fuel prices hit US farms as Iran war drags on</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaEJuTERzUURfX2hORlJoVzlkUVc2TFhvV2xiWVZrc0d1TkJYMXRfbllmM21BNEw1Mno1cmE3cHZtQjdHX2xncldFbWNOeEFXbG9jaTNMeGJXcDVGQzF3d3FzT2hVM055OWFZbUVLX2xoX3VjVUptTEt1R0c3NjhNTk9sZFhfT3BKRGpXMTRMMUdMRklXbS1zWjU3SVM5Nzg?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [],
       "market_impact": {
         "bullish": [
@@ -268,44 +448,164 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-09T20:16:23.999789Z"
+      "published": "2026-06-09T20:21:13.892613Z"
     },
     {
-      "id": "8a87039546d41d752c34075d71ec7bdb",
-      "title": "Privacy push as StarkWare and Sui move toward compliance-ready confidential transfers",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Privacy push as StarkWare and Sui move toward compliance-ready confidential transfers\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9oaS10aGUtc2lnbmlmaWNhbmNlLW9mLXByaXZhY3ktaW4td2ViMy5qcGc=.jpg\" /></p><p>StarkWare and Sui roll out confidential transfer systems as Zama boosts compliance efforts and Zcash\u2019s Orchard bug highlights risks in shielded privacy models.</p>",
-      "link": "https://cointelegraph.com/news/privacy-starkware-sui-move-compliance-confidential-transfers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
+      "id": "4507816de81a6d5ffe527570a7d0f0ba",
+      "title": "California natural gas prices reach historic lows in early 2026",
+      "summary": "Monthly average natural gas spot prices in California reached record lows in the first five months of 2026, dropping to values last recorded in the nationwide low-price market of 2024. Record lows were recorded in Northern California's PG&amp;E Citygate and Southern California's SoCal Border Average; SoCal Citygate prices fell to near-record lows but remained higher than some 2024 prices. Several factors contribute to California's low prices, including above-average inventories and decreasing in-state demand for natural gas-fired electricity.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67744",
+      "source": "EIA",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
       "tickers": [],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "COMMODITIES"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-09T20:16:25.562414Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-09T20:21:09.783190Z"
     },
     {
-      "id": "b59b502c78d1bba24888b2f8181787f0",
-      "title": "A16z, Paradigm lead $175 million bet to move global credit markets onchain",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/06/09/a16z-paradigm-lead-usd175-million-bet-to-move-global-credit-markets-onchain",
-      "source": "CoinDesk",
+      "id": "253afef42a9a5b825e4582acb1325c1b",
+      "title": "Nasdaq slips in volatile trading as 2026 high-flyers pull back",
+      "summary": "Losses for AI-linked stocks overshadow gains across rest of market",
+      "link": "https://www.ft.com/content/13d4845a-f278-489b-ab89-a2e9e6a79ede",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "QQQ"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-09T20:20:42.362748Z"
+    },
+    {
+      "id": "3edf31d00fdc40239f1d2acd815e36c7",
+      "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
+      "source": "Federal Reserve",
       "score": 10,
       "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-09T20:20:44.253050Z"
+    },
+    {
+      "id": "712186e7e619d874493a783b423cc08b",
+      "title": "Oil market defies predictions of summer supply crunch - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQeU5TYmh3eWN0MmVMMUg1eVVVZjhCNEh0azRfOGROSnRfWm45V3ZTUGdiQnhjanVIVXF0SmNGemtsNjNoT2JmcVByOGoydkE4eWtrMWRUeDRnQV9JaUwzVWV3Yl85X2tVcGtmT0E3R1ZVVDV6OUtSSFB0ZFBWWGNoeXFzMEs?oc=5\" target=\"_blank\">Oil market defies predictions of summer supply crunch</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeU5TYmh3eWN0MmVMMUg1eVVVZjhCNEh0azRfOGROSnRfWm45V3ZTUGdiQnhjanVIVXF0SmNGemtsNjNoT2JmcVByOGoydkE4eWtrMWRUeDRnQV9JaUwzVWV3Yl85X2tVcGtmT0E3R1ZVVDV6OUtSSFB0ZFBWWGNoeXFzMEs?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-09T20:21:14.457599Z"
+    },
+    {
+      "id": "587c32bc0f6e9212fe4b091f64673026",
+      "title": "Pope Leo meets Trump foe Bad Bunny",
+      "summary": "Puerto Rican rapper has become a symbol of cultural resistance to US president",
+      "link": "https://www.ft.com/content/57f19d5c-0f6e-4302-8c03-1a19abb34dd3",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-09T20:20:42.719897Z"
+    },
+    {
+      "id": "9ebd13ed85d68d8782fb0ff0a202e0e7",
+      "title": "Hackers pose as women seeking romance to spy on Russian soldiers",
+      "summary": "The group, dubbed SiribClone by Russian cybersecurity firm F6, has been active since at least the summer of 2025 and has primarily targeted members of the Russian armed forces stationed in border regions and combat zones.",
+      "link": "https://therecord.media/hackers-pose-as-women-seeking-romance-russian-military",
+      "source": "The Record",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-09T20:21:12.592519Z"
+    },
+    {
+      "id": "004f60c95c1e9c728f8c726ae13733e8",
+      "title": "Energy Secretary Chris Wright says traffic in Strait of Hormuz is rising 'very meaningfully' - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE5DcEx2V0hMWWR2dmlMbHEzQXpKTWJLN09ubGxyTmlOTG14azJtbFRTM3Z2c3NTWXNnMVJRbkNaRHU1dU5ISVl0R2lMRmpxYWVlZWJJWXdpZHVHZ1NJakU1UDBEdWdVdGJRdHpIYWhYejBWR3RlVU5zNGg5Y9IBgAFBVV95cUxNSFhsa0lMbmFqTlg3NmpZNlpRa1NoZnJwZWZMWWZxWFhWWXZENF9ybEtteWhabk1HQ1Y5eFRtZE53QmpDLUtybGFlR3lQeklMT1ZmdnJ5bTRKUlBLelpMNFRLRTE1Sk9NOG1tWEF1azc5THBsbV9zY1hZODRVQ3hUbA?oc=5\" target=\"_blank\">Energy Secretary Chris Wright says traffic in Strait of Hormuz is rising 'very meaningfully'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DcEx2V0hMWWR2dmlMbHEzQXpKTWJLN09ubGxyTmlOTG14azJtbFRTM3Z2c3NTWXNnMVJRbkNaRHU1dU5ISVl0R2lMRmpxYWVlZWJJWXdpZHVHZ1NJakU1UDBEdWdVdGJRdHpIYWhYejBWR3RlVU5zNGg5Y9IBgAFBVV95cUxNSFhsa0lMbmFqTlg3NmpZNlpRa1NoZnJwZWZMWWZxWFhWWXZENF9ybEtteWhabk1HQ1Y5eFRtZE53QmpDLUtybGFlR3lQeklMT1ZmdnJ5bTRKUlBLelpMNFRLRTE1Sk9NOG1tWEF1azc5THBsbV9zY1hZODRVQ3hUbA?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -321,31 +621,15 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-09T20:16:25.408355Z"
+      "published": "2026-06-09T20:21:15.586540Z"
     },
     {
-      "id": "9855700c70e1f26426e3f0f2eee9d219",
-      "title": "Why are investors so jumpy?",
-      "summary": "What\u2019s driving market volatility?",
-      "link": "https://www.ft.com/content/e7b70df7-2632-4f7e-9462-c22b8e3a4e51",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T20:15:46.541491Z"
-    },
-    {
-      "id": "9ea19445afb9e93697428f50dc11a296",
-      "title": "Vinted boss sees 'fundamental' shift in consumer patterns, as secondhand firm notches $9 billion valuation",
-      "summary": "Vinted is seeing a structural shift in consumer behaviour as habits form around the resale economy, its marketplace CEO told CNBC.",
-      "link": "https://www.cnbc.com/2026/06/09/vinted-ceo-ipo-valuation-second-hand-fashion.html",
-      "source": "CNBC",
-      "score": 6,
+      "id": "53900a401dc49fd8a86c18e549747876",
+      "title": "Haleon to Invest $233.5 Million in India Plant Amid Push Into Emerging Markets - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPdnhKZTh2VHRmU3hNZmp2Z21aanlDWERXdXJoaEkyRUljbjI3VnlDWF9QazhfMlNCTkhOYUhIR2RGUjZOaXczYlpPRUNjMk1XR1hsVE1maFNxVWM4Qnk5bnBfWGZfTHVSOWpWckdGOHprbi0xcmltdFR4R1I4dlZTX25lZTRKNU9vb3RYa2FnUG9GWTdoS05nR0djWWlKM3VZTkswcXdicktjdTRJYkJoTDR6RU9jcndLR3hjenJRQQ?oc=5\" target=\"_blank\">Haleon to Invest $233.5 Million in India Plant Amid Push Into Emerging Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdnhKZTh2VHRmU3hNZmp2Z21aanlDWERXdXJoaEkyRUljbjI3VnlDWF9QazhfMlNCTkhOYUhIR2RGUjZOaXczYlpPRUNjMk1XR1hsVE1maFNxVWM4Qnk5bnBfWGZfTHVSOWpWckdGOHprbi0xcmltdFR4R1I4dlZTX25lZTRKNU9vb3RYa2FnUG9GWTdoS05nR0djWWlKM3VZTkswcXdicktjdTRJYkJoTDR6RU9jcndLR3hjenJRQQ?oc=5",
+      "source": "Google Macro",
+      "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
@@ -353,7 +637,25 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T20:15:48.408341Z"
+      "published": "2026-06-09T20:21:15.004537Z"
+    },
+    {
+      "id": "ff8d5db6d1ef610ff8765216337c2c12",
+      "title": "Strong Job Growth Weakens Stocks - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNVTRULWExaDdYU1huTzZXaFZKNHBpYWliYjBBejZGSzdCSTlPdXlWcEJsak9EQnp4UDY3Umk5T2JyOTFJSFl3UnN2NERpSDRwamoyMjUxZ0VTS25nUXI2V2FVQy1wT0RuQ1pCMXltNWFQWWxRU0o1Y3RHMlZRUGVWSDRB?oc=5\" target=\"_blank\">Strong Job Growth Weakens Stocks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVTRULWExaDdYU1huTzZXaFZKNHBpYWliYjBBejZGSzdCSTlPdXlWcEJsak9EQnp4UDY3Umk5T2JyOTFJSFl3UnN2NERpSDRwamoyMjUxZ0VTS25nUXI2V2FVQy1wT0RuQ1pCMXltNWFQWWxRU0o1Y3RHMlZRUGVWSDRB?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-09T20:21:15.004615Z"
     }
   ]
 }
