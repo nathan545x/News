@@ -1,60 +1,29 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-09T03:21:19.100036Z",
+  "generated_at": "2026-06-09T03:26:13.598345Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 3,
-    "last_updated": "2026-06-09T03:21:19.100052Z"
+    "critical_alerts": 0,
+    "high_alerts": 1,
+    "last_updated": "2026-06-09T03:26:13.598358Z"
   },
   "top_signals": [
     {
-      "id": "6fb5eeeedf6b7041e36157bcda99997a",
-      "title": "The Bank, FCA and HM Treasury joint statement on Frontier AI models and cyber resilience",
-      "summary": "Statement from the Bank of England, Financial Conduct Authority and HM Treasury",
-      "link": "https://www.bankofengland.co.uk/news/2026/may/boe-fca-and-hm-treasury-joint-statement-on-frontier-ai-models-and-cyber-resilience",
-      "source": "Bank of England",
-      "score": 26,
-      "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI",
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-09T03:21:02.605371Z"
-    },
-    {
-      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
-      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
-      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
-      "source": "CISA",
-      "score": 21,
+      "id": "cd18a1b374bbadbb970e10121c43d4ad",
+      "title": "China Coking Coal Slides After Report on Push to Maintain Output",
+      "summary": "Chinese coking coal futures extended declines following a local media report that authorities in Shaanxi asked miners to maintain output, after a deadly accident in neighboring Shanxi last month raised supply and safety concerns.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-09/china-coking-coal-slides-after-report-on-push-to-maintain-output",
+      "source": "Bloomberg",
+      "score": 19,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "CHINA"
+      ],
       "assets": [
         "AI"
       ],
@@ -72,242 +41,23 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-09T03:21:16.288001Z"
-    },
-    {
-      "id": "5709212e9e75645b2a8cd281193faff5",
-      "title": "FCA and Bank of England set out shared vision for\u202ftokenisation in UK\u202fwholesale markets",
-      "summary": "The Financial Conduct Authority and the Bank of England\u202fset out a shared vision and seek industry views on the future of UK wholesale markets",
-      "link": "https://www.bankofengland.co.uk/news/2026/may/fca-and-boe-set-out-shared-vision-for-tokenisation-in-uk-wholesale-markets",
-      "source": "Bank of England",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-09T03:21:02.605283Z"
-    },
-    {
-      "id": "1616a6cd5dfe825c32c402fcdb062c2a",
-      "title": "OpenAI confidentially files for IPO, prepping Wall Street for mega AI debut",
-      "summary": "OpenAI's confidential filing lands days before SpaceX is set to go public and a week after Anthropic announced its confidential disclosure with the SEC.",
-      "link": "https://www.cnbc.com/2026/06/08/openai-confidentially-files-for-ipo-prepping-wall-street-for-ai-debut.html",
-      "source": "CNBC",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-09T03:20:45.123207Z"
-    },
-    {
-      "id": "e24e76101aa02cae609e2e3cea3903fa",
-      "title": "Barr, Efficient and Effective Central Banking: Beyond the Balance Sheet",
-      "summary": "Speech At the Money Marketeers of New York University, New York, New York",
-      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260514a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T03:20:45.591396Z"
-    },
-    {
-      "id": "b90d4bd91154960ac1606c70656c6a4b",
-      "title": "PRA announces ring-fence change to reduce costs",
-      "summary": "The Prudential Regulation Authority has today announced plans to consult on reforming rules around shared operational services for ring-fenced banks.",
-      "link": "https://www.bankofengland.co.uk/news/2026/may/pra-announces-ring-fence-change-to-reduce-costs",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T03:21:02.605329Z"
-    },
-    {
-      "id": "8e595912186efce34daf6ce82cba8b72",
-      "title": "Slides from Huw Pill\u2019s fireside chat at NatWest",
-      "summary": "Slides by Huw Pill",
-      "link": "https://www.bankofengland.co.uk/speech/2026/may/slides-from-huw-pill-fireside-chat-at-natwest",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T03:21:02.823157Z"
-    },
-    {
-      "id": "576808d997b26f404db1f109a9f954cc",
-      "title": "Operational resilience in a rapidly changing world \u2212 speech by Liz Oakes",
-      "summary": "Given at the KPMG and Fitch Ratings London Banking Summit",
-      "link": "https://www.bankofengland.co.uk/speech/2026/may/liz-oakes-speech-and-panel-at-the-kpmg-and-fitch-ratings-london-banking-summit",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T03:21:02.823205Z"
-    },
-    {
-      "id": "59bb15c82d0ac395326ad09af1e65b3b",
-      "title": "The Importance of Choice in Payments \u2212 speech by Victoria Cleland",
-      "summary": "Given at Banknote Conference, Washington DC",
-      "link": "https://www.bankofengland.co.uk/speech/2026/may/victoria-cleland-fireside-chat-at-the-currency-research-banknote-conference",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T03:21:02.823243Z"
-    },
-    {
-      "id": "7009ef563c3163d142f80dd384daef81",
-      "title": "Old exposures, new actors: implications for monetary policy of the UK\u2019s external imbalances \u2212 speech by Catherine L. Mann",
-      "summary": "Given at the London School of Economics and Political Science",
-      "link": "https://www.bankofengland.co.uk/speech/2026/may/catherine-l-mann-speech-at-the-london-school-of-economics",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T03:21:02.823291Z"
-    },
-    {
-      "id": "795a43cb2999c10ee445569c06ffd380",
-      "title": "Policy paper: Joint statement from the Specialised Committee on Financial Provisions, 4 June 2026",
-      "summary": "Joint statement following the twelfth meeting of the Financial Provisions Specialised Committee on 4 June 2026.",
-      "link": "https://www.gov.uk/government/publications/joint-statement-from-the-specialised-committee-on-financial-provisions-4-june-2026",
-      "source": "HM Treasury",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T03:21:03.470068Z"
-    },
-    {
-      "id": "d8c23b3188a56bc6d29c7b87d05c0123",
-      "title": "Blackstone looks to sell $2bn of stakes in private investment funds",
-      "summary": "One of the biggest deals of its kind will test investor appetite for ageing private equity vehicles",
-      "link": "https://www.ft.com/content/98ccabf5-229f-4a47-b125-7c4538a6ee3f",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T03:20:43.842943Z"
+      "published": "2026-06-09T03:25:30.938146Z"
     }
   ],
   "alerts": [
     {
-      "id": "6fb5eeeedf6b7041e36157bcda99997a",
-      "title": "The Bank, FCA and HM Treasury joint statement on Frontier AI models and cyber resilience",
-      "summary": "Statement from the Bank of England, Financial Conduct Authority and HM Treasury",
-      "link": "https://www.bankofengland.co.uk/news/2026/may/boe-fca-and-hm-treasury-joint-statement-on-frontier-ai-models-and-cyber-resilience",
-      "source": "Bank of England",
-      "score": 26,
-      "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI",
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-09T03:21:02.605371Z"
-    },
-    {
-      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
-      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
-      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
-      "source": "CISA",
-      "score": 21,
+      "id": "cd18a1b374bbadbb970e10121c43d4ad",
+      "title": "China Coking Coal Slides After Report on Push to Maintain Output",
+      "summary": "Chinese coking coal futures extended declines following a local media report that authorities in Shaanxi asked miners to maintain output, after a deadly accident in neighboring Shanxi last month raised supply and safety concerns.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-09/china-coking-coal-slides-after-report-on-push-to-maintain-output",
+      "source": "Bloomberg",
+      "score": 19,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "CHINA"
+      ],
       "assets": [
         "AI"
       ],
@@ -325,217 +75,7 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-09T03:21:16.288001Z"
-    },
-    {
-      "id": "5709212e9e75645b2a8cd281193faff5",
-      "title": "FCA and Bank of England set out shared vision for\u202ftokenisation in UK\u202fwholesale markets",
-      "summary": "The Financial Conduct Authority and the Bank of England\u202fset out a shared vision and seek industry views on the future of UK wholesale markets",
-      "link": "https://www.bankofengland.co.uk/news/2026/may/fca-and-boe-set-out-shared-vision-for-tokenisation-in-uk-wholesale-markets",
-      "source": "Bank of England",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-09T03:21:02.605283Z"
-    },
-    {
-      "id": "1616a6cd5dfe825c32c402fcdb062c2a",
-      "title": "OpenAI confidentially files for IPO, prepping Wall Street for mega AI debut",
-      "summary": "OpenAI's confidential filing lands days before SpaceX is set to go public and a week after Anthropic announced its confidential disclosure with the SEC.",
-      "link": "https://www.cnbc.com/2026/06/08/openai-confidentially-files-for-ipo-prepping-wall-street-for-ai-debut.html",
-      "source": "CNBC",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-09T03:20:45.123207Z"
-    },
-    {
-      "id": "e24e76101aa02cae609e2e3cea3903fa",
-      "title": "Barr, Efficient and Effective Central Banking: Beyond the Balance Sheet",
-      "summary": "Speech At the Money Marketeers of New York University, New York, New York",
-      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260514a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T03:20:45.591396Z"
-    },
-    {
-      "id": "b90d4bd91154960ac1606c70656c6a4b",
-      "title": "PRA announces ring-fence change to reduce costs",
-      "summary": "The Prudential Regulation Authority has today announced plans to consult on reforming rules around shared operational services for ring-fenced banks.",
-      "link": "https://www.bankofengland.co.uk/news/2026/may/pra-announces-ring-fence-change-to-reduce-costs",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T03:21:02.605329Z"
-    },
-    {
-      "id": "8e595912186efce34daf6ce82cba8b72",
-      "title": "Slides from Huw Pill\u2019s fireside chat at NatWest",
-      "summary": "Slides by Huw Pill",
-      "link": "https://www.bankofengland.co.uk/speech/2026/may/slides-from-huw-pill-fireside-chat-at-natwest",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T03:21:02.823157Z"
-    },
-    {
-      "id": "576808d997b26f404db1f109a9f954cc",
-      "title": "Operational resilience in a rapidly changing world \u2212 speech by Liz Oakes",
-      "summary": "Given at the KPMG and Fitch Ratings London Banking Summit",
-      "link": "https://www.bankofengland.co.uk/speech/2026/may/liz-oakes-speech-and-panel-at-the-kpmg-and-fitch-ratings-london-banking-summit",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T03:21:02.823205Z"
-    },
-    {
-      "id": "59bb15c82d0ac395326ad09af1e65b3b",
-      "title": "The Importance of Choice in Payments \u2212 speech by Victoria Cleland",
-      "summary": "Given at Banknote Conference, Washington DC",
-      "link": "https://www.bankofengland.co.uk/speech/2026/may/victoria-cleland-fireside-chat-at-the-currency-research-banknote-conference",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T03:21:02.823243Z"
-    },
-    {
-      "id": "7009ef563c3163d142f80dd384daef81",
-      "title": "Old exposures, new actors: implications for monetary policy of the UK\u2019s external imbalances \u2212 speech by Catherine L. Mann",
-      "summary": "Given at the London School of Economics and Political Science",
-      "link": "https://www.bankofengland.co.uk/speech/2026/may/catherine-l-mann-speech-at-the-london-school-of-economics",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T03:21:02.823291Z"
-    },
-    {
-      "id": "795a43cb2999c10ee445569c06ffd380",
-      "title": "Policy paper: Joint statement from the Specialised Committee on Financial Provisions, 4 June 2026",
-      "summary": "Joint statement following the twelfth meeting of the Financial Provisions Specialised Committee on 4 June 2026.",
-      "link": "https://www.gov.uk/government/publications/joint-statement-from-the-specialised-committee-on-financial-provisions-4-june-2026",
-      "source": "HM Treasury",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T03:21:03.470068Z"
-    },
-    {
-      "id": "d8c23b3188a56bc6d29c7b87d05c0123",
-      "title": "Blackstone looks to sell $2bn of stakes in private investment funds",
-      "summary": "One of the biggest deals of its kind will test investor appetite for ageing private equity vehicles",
-      "link": "https://www.ft.com/content/98ccabf5-229f-4a47-b125-7c4538a6ee3f",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T03:20:43.842943Z"
-    },
-    {
-      "id": "2e0c0628441ccb8b45d4b81188ccb6ce",
-      "title": "Keynote speech by Commissioner Albuquerque at EFRAG's annual conference: \u201c25 Years of EFRAG: Leading the Next Era of Corporate Reporting\u201d",
-      "summary": "European Commission Speech Brussels, 08 Jun 2026 Good afternoon, ladies and gentlemen.\nMy thanks for inviting me to take part in your anniversary event.\nLet me start by congratulating EFRAG on 25 years of shap...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1299",
-      "source": "European Commission",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-09T03:21:01.877865Z"
+      "published": "2026-06-09T03:25:30.938146Z"
     }
   ]
 }
