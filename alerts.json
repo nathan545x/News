@@ -1,54 +1,29 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-10T21:51:52.670306Z",
+  "generated_at": "2026-06-10T21:56:24.769434Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 4,
-    "last_updated": "2026-06-10T21:51:52.670321Z"
+    "critical_alerts": 1,
+    "high_alerts": 1,
+    "last_updated": "2026-06-10T21:56:24.769450Z"
   },
   "top_signals": [
     {
-      "id": "a9db02130b98ccfe1c8a238bdc1c5baa",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-0257\" target=\"_blank\">CVE-2026-0257</a> Palo Alto Networks PAN-OS Authentication Bypass Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vectors for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/binding-operational-directive-22-01\">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a> established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the <a href=\"https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf\">BOD 22-01 Fact Sheet</a> for more information.</p>\n<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a> as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.&nbsp;</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "SYSTEMIC",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "JPY"
-        ],
-        "bearish": [
-          "BANKS",
-          "SPY"
-        ]
-      },
-      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
-      "published": "2026-06-10T21:51:49.518848Z"
-    },
-    {
-      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
-      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
-      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
-      "source": "CISA",
-      "score": 21,
-      "severity": "HIGH",
+      "id": "06005e088053f9f87d4970c27fdfe28d",
+      "title": "U.S. military begins strikes on 'multiple targets' in Iran at Trump's direction",
+      "summary": "President Donald Trump promised more attacks on Iran after strikes resumed this week. Earlier this week, he said a deal to end the war was near.",
+      "link": "https://www.cnbc.com/2026/06/10/trump-iran-war-attacks-deal.html",
+      "source": "CNBC",
+      "score": 34,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI"
       ],
@@ -66,134 +41,229 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-10T21:51:49.519589Z"
+      "published": "2026-06-10T21:55:39.415262Z"
     },
     {
-      "id": "e81648e6fe3038e5cdac47bb07e83e83",
-      "title": "Chinese Consumer Inflation Unexpectedly Stalls Despite Oil Shock - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNM1ltMzVuUWdxdUNXZXk3eFNvbVdkd0loNlVuRnZzUWwwWDE0V0tRLVBXUVVJbmVoZjduNXNFdWFMNVRlcldPc3RHUnFJYVdNMGlRNHFoQU5IM2d5d2RzTktFa2kyeS1WUUhJRF9WYjNxRGx6MHc3ODVmdjNtVFVnRFpCSzNBT3A3SXBDYnRkT2VwVjhISGJMcjd2Q2tqR3MzY1NFbTJpa1NsMjQ3aHBLcFhncFVHUQ?oc=5\" target=\"_blank\">Chinese Consumer Inflation Unexpectedly Stalls Despite Oil Shock</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM1ltMzVuUWdxdUNXZXk3eFNvbVdkd0loNlVuRnZzUWwwWDE0V0tRLVBXUVVJbmVoZjduNXNFdWFMNVRlcldPc3RHUnFJYVdNMGlRNHFoQU5IM2d5d2RzTktFa2kyeS1WUUhJRF9WYjNxRGx6MHc3ODVmdjNtVFVnRFpCSzNBT3A3SXBDYnRkT2VwVjhISGJMcjd2Q2tqR3MzY1NFbTJpa1NsMjQ3aHBLcFhncFVHUQ?oc=5",
-      "source": "Google Macro",
-      "score": 16,
+      "id": "e8c1c8d342a98b072070a40457ef60b0",
+      "title": "US launches new strikes on Iran after helicopter downed",
+      "summary": "The U.S. launched strikes against Iran on Tuesday after Trump said Tehran had shot down a U.S. Apache helicopter in the Strait of Hormuz.",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/09/us-launches-new-strikes-on-iran-after-helicopter-downed/",
+      "source": "Defense News",
+      "score": 18,
       "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
       ],
-      "regions": [],
       "assets": [
-        "COMMODITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-10T21:51:50.146047Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-10T21:56:20.074580Z"
     },
     {
-      "id": "12c5ed94e948eda4225a8a16574f0cc5",
-      "title": "Bond Trader Positioning Signals Fed Rate Hikes Are Coming Fast - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2lzcXRKdkFUeUNIdjdUUk1RT21WR1ZKdUhlYllFN214YTloWXYySVgtMXlUUG9sRi1BdG5NaDdMX1NfWkN0eE8wWHNXWk9xcW52VXhzZzk1UzR1R2lzXy1YaTdCR0NSTTFoY1FYYTU4YVNSSkFtM0tDblNFOXQ3emdBU3BKR0xpWTFEQ1lhX3J1S3pWclk5RWVhWXhERlRRb2ppa0F2bkVlbEZkYjg5WTNKMA?oc=5\" target=\"_blank\">Bond Trader Positioning Signals Fed Rate Hikes Are Coming Fast</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2lzcXRKdkFUeUNIdjdUUk1RT21WR1ZKdUhlYllFN214YTloWXYySVgtMXlUUG9sRi1BdG5NaDdMX1NfWkN0eE8wWHNXWk9xcW52VXhzZzk1UzR1R2lzXy1YaTdCR0NSTTFoY1FYYTU4YVNSSkFtM0tDblNFOXQ3emdBU3BKR0xpWTFEQ1lhX3J1S3pWclk5RWVhWXhERlRRb2ppa0F2bkVlbEZkYjg5WTNKMA?oc=5",
+      "id": "f0a7e0349fe13ebe9221bcbb0b91097e",
+      "title": "DIGITAL Ben Hylak",
+      "summary": "Ben Hylak, founder and CTO of AI monitor Raindrop, says that the ability for AI to fix its own mistakes is the last 'big problem to solve' for humanity and that his company's role is to help companies 'raise the floor' of how AI models work in their system. \nHylak, a former SpaceX and Apple engineer, also commented on the upcoming IPO, saying that SpaceX is one of the most 'mission driven' companies he's been a part of.  (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-10/fixing-ai-bugs-is-last-big-problem-to-solve-hylak-video",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-10T21:55:35.765022Z"
+    },
+    {
+      "id": "53edb07f3cfbdd328181a6253748cf77",
+      "title": "SpaceX primed for double-digit pop on first day, if 'perps' trading is any guide",
+      "summary": "Crypto traders are currently pricing the SpaceX pre-IPO perpetual future on Hyperliquid at $162, about 20% above the company's fixed IPO share price of $135.",
+      "link": "https://www.cnbc.com/2026/06/10/spacex-ipo-primed-for-double-digit-pop-on-first-day-perpetual-futures.html",
+      "source": "CNBC",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-10T21:55:39.563010Z"
+    },
+    {
+      "id": "c3a90cc770d58d7d19c3e8dbb1517b5a",
+      "title": "Here\u2019s that \u2018SpaceX\u2019s IPO is overvalued by 114%\u2019 research in full",
+      "summary": "Notes on a panhandle",
+      "link": "https://www.ft.com/content/57ff0d23-bb3e-440c-bdf6-78582bb288f8",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-10T21:55:37.881877Z"
+    },
+    {
+      "id": "4a5bd718d8f2eb09ac2a1784c2831c70",
+      "title": "Personal Income and Outlays, December 2025",
+      "summary": "Personal income increased $86.2 billion (0.3 percent at a monthly rate) in December, according to estimates released today by the U.S. Bureau of Economic Analysis. Disposable personal income (DPI)-personal income less personal current taxes-increased $75.7 billion (0.3 percent), and personal consumption expenditures (PCE) increased $91.0 billion (0.4 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $90.2 billion in December. Personal saving was $830.8 billion in December, and the personal saving rate-personal saving as a percentage of disposable personal income-was 3.6 percent.   <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025\">Full Text</a><!--Full Text Link-->",
+      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025",
+      "source": "BEA",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-10T21:55:49.807793Z"
+    },
+    {
+      "id": "b084cf5c4e3459848e2654a0068978fc",
+      "title": "Inflation Set to Continue Challenging Bond Markets - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPRUNIRUpvZVA1VkRKUl9BVk5fUlJsODltd01uOVpTX1RvUGtzSUU5azJVN0x1SEZQNVVfZHpPZ1pqbmRsTGk0UC1yYWdUWFVfbVQycmNseDdqLWZZSmo1aEhhRFNNNW5XS3E1U19sZjVtcHJnSWhsa09IMmRsampmY2VzU0dTcW1NVmpnNHlB?oc=5\" target=\"_blank\">Inflation Set to Continue Challenging Bond Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRUNIRUpvZVA1VkRKUl9BVk5fUlJsODltd01uOVpTX1RvUGtzSUU5azJVN0x1SEZQNVVfZHpPZ1pqbmRsTGk0UC1yYWdUWFVfbVQycmNseDdqLWZZSmo1aEhhRFNNNW5XS3E1U19sZjVtcHJnSWhsa09IMmRsampmY2VzU0dTcW1NVmpnNHlB?oc=5",
       "source": "Google Macro",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-10T21:56:24.187114Z"
+    },
+    {
+      "id": "0e096a683b0ba1d8bd420e13b7327723",
+      "title": "GM bets on sodium battery tech to challenge China dominance - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQaEp0dV9YYlZUdHhIRkRuZmxETUYyQ2NyMENNMDdYUjBGc2prX2llTE13NVNhWElTY0xFQ3IzeTBLdkhuNWtOV1dzWkk3T2h0ZXBLNHJQTHFRUTFLUzAzd3RaVXQ3Z2lqQXdiSHpBVUxnc3dXR3NlSVpIQzNpMnpCUXBqdzI?oc=5\" target=\"_blank\">GM bets on sodium battery tech to challenge China dominance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaEp0dV9YYlZUdHhIRkRuZmxETUYyQ2NyMENNMDdYUjBGc2prX2llTE13NVNhWElTY0xFQ3IzeTBLdkhuNWtOV1dzWkk3T2h0ZXBLNHJQTHFRUTFLUzAzd3RaVXQ3Z2lqQXdiSHpBVUxnc3dXR3NlSVpIQzNpMnpCUXBqdzI?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-10T21:56:23.649357Z"
+    },
+    {
+      "id": "9e095561f4788f39949cbb27a8d24e85",
+      "title": "Reform UK vows to raise VAT threshold\u00a0to \u00a3150,000",
+      "summary": "<p> <img alt=\"Nigel Farage, leader of Reform UK, has announced a tax cut for businesses.\" src=\"https://www.cityam.com/wp-content/uploads/2023/07/01H5PPKHGA22VFT716EX77TDVH-e1699461387243.jpg?w=1107\" /> </p>Reform UK has announced it would raise the VAT threshold for small businesses from \u00a390,000 to \u00a3150,000 despite long-running debates over the cost and benefits of reforming the tax.&#160; Reform announced on Wednesday it would create a \u201cfair deal for the White Van man\u201d by increasing the VAT registration threshold to \u00a3150,000.&#160; The party said <a href=\"https://www.cityam.com/reform-uk-vows-to-raise-vat-threshold-to-150000/\">[...]</a>",
+      "link": "https://www.cityam.com/reform-uk-vows-to-raise-vat-threshold-to-150000/",
+      "source": "CityAM",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
       "tickers": [],
       "regions": [
         "UK"
       ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-10T21:51:50.146122Z"
-    },
-    {
-      "id": "fbe60c1013eedfe25e4f570c58e282ce",
-      "title": "Indonesia hikes rates in surprise off-cycle move to prop up sinking rupiah - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNemdGSzNQOFdlajRhaFoxRVM2ejFMQ01sbmhuSGxPdFpNY0JZQWF3RmlCb2NYV0lqMDNBTE5tWHB0MFE2RnVrU3NnUF92VHB1MDdrRjczRGU4MERKalJUSF9NODRWVmx5bzJzT3BIY3JPa1hpeDBlVllieFdWeE53d0hnbDQyZll0MEt4cDJpYm05RU1LR0lWa0NGRUx1RTVQcGRTcm9lcjVpWGFLVGhRYUJkeHY?oc=5\" target=\"_blank\">Indonesia hikes rates in surprise off-cycle move to prop up sinking rupiah</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNemdGSzNQOFdlajRhaFoxRVM2ejFMQ01sbmhuSGxPdFpNY0JZQWF3RmlCb2NYV0lqMDNBTE5tWHB0MFE2RnVrU3NnUF92VHB1MDdrRjczRGU4MERKalJUSF9NODRWVmx5bzJzT3BIY3JPa1hpeDBlVllieFdWeE53d0hnbDQyZll0MEt4cDJpYm05RU1LR0lWa0NGRUx1RTVQcGRTcm9lcjVpWGFLVGhRYUJkeHY?oc=5",
-      "source": "Google Macro",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "JPY"
+      "assets": [
+        "AI"
       ],
-      "regions": [],
-      "assets": [],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
+          "NVDA",
+          "SEMIS",
           "QQQ"
-        ]
+        ],
+        "bearish": []
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-10T21:51:50.695313Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-10T21:55:57.834741Z"
     }
   ],
   "alerts": [
     {
-      "id": "a9db02130b98ccfe1c8a238bdc1c5baa",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-0257\" target=\"_blank\">CVE-2026-0257</a> Palo Alto Networks PAN-OS Authentication Bypass Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vectors for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/binding-operational-directive-22-01\">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a> established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the <a href=\"https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf\">BOD 22-01 Fact Sheet</a> for more information.</p>\n<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a> as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.&nbsp;</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "SYSTEMIC",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "JPY"
-        ],
-        "bearish": [
-          "BANKS",
-          "SPY"
-        ]
-      },
-      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
-      "published": "2026-06-10T21:51:49.518848Z"
-    },
-    {
-      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
-      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
-      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
-      "source": "CISA",
-      "score": 21,
-      "severity": "HIGH",
+      "id": "06005e088053f9f87d4970c27fdfe28d",
+      "title": "U.S. military begins strikes on 'multiple targets' in Iran at Trump's direction",
+      "summary": "President Donald Trump promised more attacks on Iran after strikes resumed this week. Earlier this week, he said a deal to end the war was near.",
+      "link": "https://www.cnbc.com/2026/06/10/trump-iran-war-attacks-deal.html",
+      "source": "CNBC",
+      "score": 34,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI"
       ],
@@ -211,93 +281,213 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-10T21:51:49.519589Z"
+      "published": "2026-06-10T21:55:39.415262Z"
     },
     {
-      "id": "e81648e6fe3038e5cdac47bb07e83e83",
-      "title": "Chinese Consumer Inflation Unexpectedly Stalls Despite Oil Shock - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNM1ltMzVuUWdxdUNXZXk3eFNvbVdkd0loNlVuRnZzUWwwWDE0V0tRLVBXUVVJbmVoZjduNXNFdWFMNVRlcldPc3RHUnFJYVdNMGlRNHFoQU5IM2d5d2RzTktFa2kyeS1WUUhJRF9WYjNxRGx6MHc3ODVmdjNtVFVnRFpCSzNBT3A3SXBDYnRkT2VwVjhISGJMcjd2Q2tqR3MzY1NFbTJpa1NsMjQ3aHBLcFhncFVHUQ?oc=5\" target=\"_blank\">Chinese Consumer Inflation Unexpectedly Stalls Despite Oil Shock</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM1ltMzVuUWdxdUNXZXk3eFNvbVdkd0loNlVuRnZzUWwwWDE0V0tRLVBXUVVJbmVoZjduNXNFdWFMNVRlcldPc3RHUnFJYVdNMGlRNHFoQU5IM2d5d2RzTktFa2kyeS1WUUhJRF9WYjNxRGx6MHc3ODVmdjNtVFVnRFpCSzNBT3A3SXBDYnRkT2VwVjhISGJMcjd2Q2tqR3MzY1NFbTJpa1NsMjQ3aHBLcFhncFVHUQ?oc=5",
-      "source": "Google Macro",
-      "score": 16,
+      "id": "e8c1c8d342a98b072070a40457ef60b0",
+      "title": "US launches new strikes on Iran after helicopter downed",
+      "summary": "The U.S. launched strikes against Iran on Tuesday after Trump said Tehran had shot down a U.S. Apache helicopter in the Strait of Hormuz.",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/09/us-launches-new-strikes-on-iran-after-helicopter-downed/",
+      "source": "Defense News",
+      "score": 18,
       "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
       ],
-      "regions": [],
       "assets": [
-        "COMMODITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-10T21:51:50.146047Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-10T21:56:20.074580Z"
     },
     {
-      "id": "12c5ed94e948eda4225a8a16574f0cc5",
-      "title": "Bond Trader Positioning Signals Fed Rate Hikes Are Coming Fast - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2lzcXRKdkFUeUNIdjdUUk1RT21WR1ZKdUhlYllFN214YTloWXYySVgtMXlUUG9sRi1BdG5NaDdMX1NfWkN0eE8wWHNXWk9xcW52VXhzZzk1UzR1R2lzXy1YaTdCR0NSTTFoY1FYYTU4YVNSSkFtM0tDblNFOXQ3emdBU3BKR0xpWTFEQ1lhX3J1S3pWclk5RWVhWXhERlRRb2ppa0F2bkVlbEZkYjg5WTNKMA?oc=5\" target=\"_blank\">Bond Trader Positioning Signals Fed Rate Hikes Are Coming Fast</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2lzcXRKdkFUeUNIdjdUUk1RT21WR1ZKdUhlYllFN214YTloWXYySVgtMXlUUG9sRi1BdG5NaDdMX1NfWkN0eE8wWHNXWk9xcW52VXhzZzk1UzR1R2lzXy1YaTdCR0NSTTFoY1FYYTU4YVNSSkFtM0tDblNFOXQ3emdBU3BKR0xpWTFEQ1lhX3J1S3pWclk5RWVhWXhERlRRb2ppa0F2bkVlbEZkYjg5WTNKMA?oc=5",
+      "id": "f0a7e0349fe13ebe9221bcbb0b91097e",
+      "title": "DIGITAL Ben Hylak",
+      "summary": "Ben Hylak, founder and CTO of AI monitor Raindrop, says that the ability for AI to fix its own mistakes is the last 'big problem to solve' for humanity and that his company's role is to help companies 'raise the floor' of how AI models work in their system. \nHylak, a former SpaceX and Apple engineer, also commented on the upcoming IPO, saying that SpaceX is one of the most 'mission driven' companies he's been a part of.  (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-10/fixing-ai-bugs-is-last-big-problem-to-solve-hylak-video",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-10T21:55:35.765022Z"
+    },
+    {
+      "id": "53edb07f3cfbdd328181a6253748cf77",
+      "title": "SpaceX primed for double-digit pop on first day, if 'perps' trading is any guide",
+      "summary": "Crypto traders are currently pricing the SpaceX pre-IPO perpetual future on Hyperliquid at $162, about 20% above the company's fixed IPO share price of $135.",
+      "link": "https://www.cnbc.com/2026/06/10/spacex-ipo-primed-for-double-digit-pop-on-first-day-perpetual-futures.html",
+      "source": "CNBC",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-10T21:55:39.563010Z"
+    },
+    {
+      "id": "c3a90cc770d58d7d19c3e8dbb1517b5a",
+      "title": "Here\u2019s that \u2018SpaceX\u2019s IPO is overvalued by 114%\u2019 research in full",
+      "summary": "Notes on a panhandle",
+      "link": "https://www.ft.com/content/57ff0d23-bb3e-440c-bdf6-78582bb288f8",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-10T21:55:37.881877Z"
+    },
+    {
+      "id": "4a5bd718d8f2eb09ac2a1784c2831c70",
+      "title": "Personal Income and Outlays, December 2025",
+      "summary": "Personal income increased $86.2 billion (0.3 percent at a monthly rate) in December, according to estimates released today by the U.S. Bureau of Economic Analysis. Disposable personal income (DPI)-personal income less personal current taxes-increased $75.7 billion (0.3 percent), and personal consumption expenditures (PCE) increased $91.0 billion (0.4 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $90.2 billion in December. Personal saving was $830.8 billion in December, and the personal saving rate-personal saving as a percentage of disposable personal income-was 3.6 percent.   <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025\">Full Text</a><!--Full Text Link-->",
+      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025",
+      "source": "BEA",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-10T21:55:49.807793Z"
+    },
+    {
+      "id": "b084cf5c4e3459848e2654a0068978fc",
+      "title": "Inflation Set to Continue Challenging Bond Markets - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPRUNIRUpvZVA1VkRKUl9BVk5fUlJsODltd01uOVpTX1RvUGtzSUU5azJVN0x1SEZQNVVfZHpPZ1pqbmRsTGk0UC1yYWdUWFVfbVQycmNseDdqLWZZSmo1aEhhRFNNNW5XS3E1U19sZjVtcHJnSWhsa09IMmRsampmY2VzU0dTcW1NVmpnNHlB?oc=5\" target=\"_blank\">Inflation Set to Continue Challenging Bond Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRUNIRUpvZVA1VkRKUl9BVk5fUlJsODltd01uOVpTX1RvUGtzSUU5azJVN0x1SEZQNVVfZHpPZ1pqbmRsTGk0UC1yYWdUWFVfbVQycmNseDdqLWZZSmo1aEhhRFNNNW5XS3E1U19sZjVtcHJnSWhsa09IMmRsampmY2VzU0dTcW1NVmpnNHlB?oc=5",
       "source": "Google Macro",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-10T21:56:24.187114Z"
+    },
+    {
+      "id": "0e096a683b0ba1d8bd420e13b7327723",
+      "title": "GM bets on sodium battery tech to challenge China dominance - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQaEp0dV9YYlZUdHhIRkRuZmxETUYyQ2NyMENNMDdYUjBGc2prX2llTE13NVNhWElTY0xFQ3IzeTBLdkhuNWtOV1dzWkk3T2h0ZXBLNHJQTHFRUTFLUzAzd3RaVXQ3Z2lqQXdiSHpBVUxnc3dXR3NlSVpIQzNpMnpCUXBqdzI?oc=5\" target=\"_blank\">GM bets on sodium battery tech to challenge China dominance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaEp0dV9YYlZUdHhIRkRuZmxETUYyQ2NyMENNMDdYUjBGc2prX2llTE13NVNhWElTY0xFQ3IzeTBLdkhuNWtOV1dzWkk3T2h0ZXBLNHJQTHFRUTFLUzAzd3RaVXQ3Z2lqQXdiSHpBVUxnc3dXR3NlSVpIQzNpMnpCUXBqdzI?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-10T21:56:23.649357Z"
+    },
+    {
+      "id": "9e095561f4788f39949cbb27a8d24e85",
+      "title": "Reform UK vows to raise VAT threshold\u00a0to \u00a3150,000",
+      "summary": "<p> <img alt=\"Nigel Farage, leader of Reform UK, has announced a tax cut for businesses.\" src=\"https://www.cityam.com/wp-content/uploads/2023/07/01H5PPKHGA22VFT716EX77TDVH-e1699461387243.jpg?w=1107\" /> </p>Reform UK has announced it would raise the VAT threshold for small businesses from \u00a390,000 to \u00a3150,000 despite long-running debates over the cost and benefits of reforming the tax.&#160; Reform announced on Wednesday it would create a \u201cfair deal for the White Van man\u201d by increasing the VAT registration threshold to \u00a3150,000.&#160; The party said <a href=\"https://www.cityam.com/reform-uk-vows-to-raise-vat-threshold-to-150000/\">[...]</a>",
+      "link": "https://www.cityam.com/reform-uk-vows-to-raise-vat-threshold-to-150000/",
+      "source": "CityAM",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
       "tickers": [],
       "regions": [
         "UK"
       ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-10T21:51:50.146122Z"
-    },
-    {
-      "id": "fbe60c1013eedfe25e4f570c58e282ce",
-      "title": "Indonesia hikes rates in surprise off-cycle move to prop up sinking rupiah - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNemdGSzNQOFdlajRhaFoxRVM2ejFMQ01sbmhuSGxPdFpNY0JZQWF3RmlCb2NYV0lqMDNBTE5tWHB0MFE2RnVrU3NnUF92VHB1MDdrRjczRGU4MERKalJUSF9NODRWVmx5bzJzT3BIY3JPa1hpeDBlVllieFdWeE53d0hnbDQyZll0MEt4cDJpYm05RU1LR0lWa0NGRUx1RTVQcGRTcm9lcjVpWGFLVGhRYUJkeHY?oc=5\" target=\"_blank\">Indonesia hikes rates in surprise off-cycle move to prop up sinking rupiah</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNemdGSzNQOFdlajRhaFoxRVM2ejFMQ01sbmhuSGxPdFpNY0JZQWF3RmlCb2NYV0lqMDNBTE5tWHB0MFE2RnVrU3NnUF92VHB1MDdrRjczRGU4MERKalJUSF9NODRWVmx5bzJzT3BIY3JPa1hpeDBlVllieFdWeE53d0hnbDQyZll0MEt4cDJpYm05RU1LR0lWa0NGRUx1RTVQcGRTcm9lcjVpWGFLVGhRYUJkeHY?oc=5",
-      "source": "Google Macro",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "JPY"
+      "assets": [
+        "AI"
       ],
-      "regions": [],
-      "assets": [],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
+          "NVDA",
+          "SEMIS",
           "QQQ"
-        ]
+        ],
+        "bearish": []
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-10T21:51:50.695313Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-10T21:55:57.834741Z"
     }
   ]
 }
