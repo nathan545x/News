@@ -1,199 +1,33 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-10T09:41:33.092834Z",
+  "generated_at": "2026-06-10T09:46:17.680044Z",
   "market_regime": {
     "regime": "GEO-SHOCK",
     "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 6,
-    "last_updated": "2026-06-10T09:41:33.092849Z"
+    "critical_alerts": 1,
+    "high_alerts": 0,
+    "last_updated": "2026-06-10T09:46:17.680054Z"
   },
   "top_signals": [
     {
-      "id": "a9db02130b98ccfe1c8a238bdc1c5baa",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-0257\" target=\"_blank\">CVE-2026-0257</a> Palo Alto Networks PAN-OS Authentication Bypass Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vectors for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/binding-operational-directive-22-01\">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a> established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the <a href=\"https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf\">BOD 22-01 Fact Sheet</a> for more information.</p>\n<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a> as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.&nbsp;</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "SYSTEMIC",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "JPY"
-        ],
-        "bearish": [
-          "BANKS",
-          "SPY"
-        ]
-      },
-      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
-      "published": "2026-06-10T09:41:29.824643Z"
-    },
-    {
-      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
-      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
-      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
-      "source": "CISA",
-      "score": 21,
-      "severity": "HIGH",
+      "id": "4c3df8556caa945ea68e3c18331a5cb2",
+      "title": "US and Iran exchange strikes after downing of American helicopter",
+      "summary": "Tehran says it targeted US military facilities in Jordan and Bahrain following latest barrage",
+      "link": "https://www.ft.com/content/ceb10e74-9ff1-4cf6-82e0-70161c6f1f09",
+      "source": "Financial Times",
+      "score": 26,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-10T09:41:29.825356Z"
-    },
-    {
-      "id": "2b57d26fc03f8479c8e51ef5b218b758",
-      "title": "Oracle Earnings Pose Next Test for Suddenly Shaky AI Stock Rally",
-      "summary": "The rally in artificial intelligence-related stocks is suddenly on shaky footing, and Oracle Corp.\u2019s earnings report after the close represents the group\u2019s next test.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-10/oracle-earnings-pose-next-test-for-suddenly-shaky-ai-stock-rally",
-      "source": "Bloomberg",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-10T09:40:44.669415Z"
-    },
-    {
-      "id": "a1c64feffd2e9d529d1b8f20e57f3572",
-      "title": "Treasury yields unmoved ahead of key inflation data releases",
-      "summary": "U.S. Treasury yields were unchanged on Wednesday morning ahead of critical inflation data releases.",
-      "link": "https://www.cnbc.com/2026/06/10/us-treasury-yields-inflation-data.html",
-      "source": "CNBC",
-      "score": 17,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-10T09:40:50.860737Z"
-    },
-    {
-      "id": "e81648e6fe3038e5cdac47bb07e83e83",
-      "title": "Chinese Consumer Inflation Unexpectedly Stalls Despite Oil Shock - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNM1ltMzVuUWdxdUNXZXk3eFNvbVdkd0loNlVuRnZzUWwwWDE0V0tRLVBXUVVJbmVoZjduNXNFdWFMNVRlcldPc3RHUnFJYVdNMGlRNHFoQU5IM2d5d2RzTktFa2kyeS1WUUhJRF9WYjNxRGx6MHc3ODVmdjNtVFVnRFpCSzNBT3A3SXBDYnRkT2VwVjhISGJMcjd2Q2tqR3MzY1NFbTJpa1NsMjQ3aHBLcFhncFVHUQ?oc=5\" target=\"_blank\">Chinese Consumer Inflation Unexpectedly Stalls Despite Oil Shock</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM1ltMzVuUWdxdUNXZXk3eFNvbVdkd0loNlVuRnZzUWwwWDE0V0tRLVBXUVVJbmVoZjduNXNFdWFMNVRlcldPc3RHUnFJYVdNMGlRNHFoQU5IM2d5d2RzTktFa2kyeS1WUUhJRF9WYjNxRGx6MHc3ODVmdjNtVFVnRFpCSzNBT3A3SXBDYnRkT2VwVjhISGJMcjd2Q2tqR3MzY1NFbTJpa1NsMjQ3aHBLcFhncFVHUQ?oc=5",
-      "source": "Google Macro",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-10T09:41:30.494554Z"
-    },
-    {
-      "id": "12c5ed94e948eda4225a8a16574f0cc5",
-      "title": "Bond Trader Positioning Signals Fed Rate Hikes Are Coming Fast - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2lzcXRKdkFUeUNIdjdUUk1RT21WR1ZKdUhlYllFN214YTloWXYySVgtMXlUUG9sRi1BdG5NaDdMX1NfWkN0eE8wWHNXWk9xcW52VXhzZzk1UzR1R2lzXy1YaTdCR0NSTTFoY1FYYTU4YVNSSkFtM0tDblNFOXQ3emdBU3BKR0xpWTFEQ1lhX3J1S3pWclk5RWVhWXhERlRRb2ppa0F2bkVlbEZkYjg5WTNKMA?oc=5\" target=\"_blank\">Bond Trader Positioning Signals Fed Rate Hikes Are Coming Fast</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2lzcXRKdkFUeUNIdjdUUk1RT21WR1ZKdUhlYllFN214YTloWXYySVgtMXlUUG9sRi1BdG5NaDdMX1NfWkN0eE8wWHNXWk9xcW52VXhzZzk1UzR1R2lzXy1YaTdCR0NSTTFoY1FYYTU4YVNSSkFtM0tDblNFOXQ3emdBU3BKR0xpWTFEQ1lhX3J1S3pWclk5RWVhWXhERlRRb2ppa0F2bkVlbEZkYjg5WTNKMA?oc=5",
-      "source": "Google Macro",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "RATES",
       "tickers": [],
       "regions": [
-        "UK"
+        "MIDDLE_EAST",
+        "US"
       ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-10T09:41:30.494634Z"
-    },
-    {
-      "id": "a5cc571d1f89dc3566abd91329221150",
-      "title": "ServiceNow discloses security incident exposing customer data",
-      "summary": "ServiceNow is warning about a security incident after attackers exploited an unauthenticated access flaw through a vulnerable API endpoint, allowing them to query data from customer instances. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
-      "source": "BleepingComputer",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -208,193 +42,27 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-10T09:41:28.241192Z"
+      "published": "2026-06-10T09:45:44.730945Z"
     }
   ],
   "alerts": [
     {
-      "id": "a9db02130b98ccfe1c8a238bdc1c5baa",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-0257\" target=\"_blank\">CVE-2026-0257</a> Palo Alto Networks PAN-OS Authentication Bypass Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vectors for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/binding-operational-directive-22-01\">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a> established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the <a href=\"https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf\">BOD 22-01 Fact Sheet</a> for more information.</p>\n<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a> as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.&nbsp;</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "SYSTEMIC",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "JPY"
-        ],
-        "bearish": [
-          "BANKS",
-          "SPY"
-        ]
-      },
-      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
-      "published": "2026-06-10T09:41:29.824643Z"
-    },
-    {
-      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
-      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
-      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
-      "source": "CISA",
-      "score": 21,
-      "severity": "HIGH",
+      "id": "4c3df8556caa945ea68e3c18331a5cb2",
+      "title": "US and Iran exchange strikes after downing of American helicopter",
+      "summary": "Tehran says it targeted US military facilities in Jordan and Bahrain following latest barrage",
+      "link": "https://www.ft.com/content/ceb10e74-9ff1-4cf6-82e0-70161c6f1f09",
+      "source": "Financial Times",
+      "score": 26,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-10T09:41:29.825356Z"
-    },
-    {
-      "id": "2b57d26fc03f8479c8e51ef5b218b758",
-      "title": "Oracle Earnings Pose Next Test for Suddenly Shaky AI Stock Rally",
-      "summary": "The rally in artificial intelligence-related stocks is suddenly on shaky footing, and Oracle Corp.\u2019s earnings report after the close represents the group\u2019s next test.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-10/oracle-earnings-pose-next-test-for-suddenly-shaky-ai-stock-rally",
-      "source": "Bloomberg",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-10T09:40:44.669415Z"
-    },
-    {
-      "id": "a1c64feffd2e9d529d1b8f20e57f3572",
-      "title": "Treasury yields unmoved ahead of key inflation data releases",
-      "summary": "U.S. Treasury yields were unchanged on Wednesday morning ahead of critical inflation data releases.",
-      "link": "https://www.cnbc.com/2026/06/10/us-treasury-yields-inflation-data.html",
-      "source": "CNBC",
-      "score": 17,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-10T09:40:50.860737Z"
-    },
-    {
-      "id": "e81648e6fe3038e5cdac47bb07e83e83",
-      "title": "Chinese Consumer Inflation Unexpectedly Stalls Despite Oil Shock - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNM1ltMzVuUWdxdUNXZXk3eFNvbVdkd0loNlVuRnZzUWwwWDE0V0tRLVBXUVVJbmVoZjduNXNFdWFMNVRlcldPc3RHUnFJYVdNMGlRNHFoQU5IM2d5d2RzTktFa2kyeS1WUUhJRF9WYjNxRGx6MHc3ODVmdjNtVFVnRFpCSzNBT3A3SXBDYnRkT2VwVjhISGJMcjd2Q2tqR3MzY1NFbTJpa1NsMjQ3aHBLcFhncFVHUQ?oc=5\" target=\"_blank\">Chinese Consumer Inflation Unexpectedly Stalls Despite Oil Shock</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM1ltMzVuUWdxdUNXZXk3eFNvbVdkd0loNlVuRnZzUWwwWDE0V0tRLVBXUVVJbmVoZjduNXNFdWFMNVRlcldPc3RHUnFJYVdNMGlRNHFoQU5IM2d5d2RzTktFa2kyeS1WUUhJRF9WYjNxRGx6MHc3ODVmdjNtVFVnRFpCSzNBT3A3SXBDYnRkT2VwVjhISGJMcjd2Q2tqR3MzY1NFbTJpa1NsMjQ3aHBLcFhncFVHUQ?oc=5",
-      "source": "Google Macro",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-10T09:41:30.494554Z"
-    },
-    {
-      "id": "12c5ed94e948eda4225a8a16574f0cc5",
-      "title": "Bond Trader Positioning Signals Fed Rate Hikes Are Coming Fast - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2lzcXRKdkFUeUNIdjdUUk1RT21WR1ZKdUhlYllFN214YTloWXYySVgtMXlUUG9sRi1BdG5NaDdMX1NfWkN0eE8wWHNXWk9xcW52VXhzZzk1UzR1R2lzXy1YaTdCR0NSTTFoY1FYYTU4YVNSSkFtM0tDblNFOXQ3emdBU3BKR0xpWTFEQ1lhX3J1S3pWclk5RWVhWXhERlRRb2ppa0F2bkVlbEZkYjg5WTNKMA?oc=5\" target=\"_blank\">Bond Trader Positioning Signals Fed Rate Hikes Are Coming Fast</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2lzcXRKdkFUeUNIdjdUUk1RT21WR1ZKdUhlYllFN214YTloWXYySVgtMXlUUG9sRi1BdG5NaDdMX1NfWkN0eE8wWHNXWk9xcW52VXhzZzk1UzR1R2lzXy1YaTdCR0NSTTFoY1FYYTU4YVNSSkFtM0tDblNFOXQ3emdBU3BKR0xpWTFEQ1lhX3J1S3pWclk5RWVhWXhERlRRb2ppa0F2bkVlbEZkYjg5WTNKMA?oc=5",
-      "source": "Google Macro",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "RATES",
       "tickers": [],
       "regions": [
-        "UK"
+        "MIDDLE_EAST",
+        "US"
       ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-10T09:41:30.494634Z"
-    },
-    {
-      "id": "a5cc571d1f89dc3566abd91329221150",
-      "title": "ServiceNow discloses security incident exposing customer data",
-      "summary": "ServiceNow is warning about a security incident after attackers exploited an unauthenticated access flaw through a vulnerable API endpoint, allowing them to query data from customer instances. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
-      "source": "BleepingComputer",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -409,7 +77,7 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-10T09:41:28.241192Z"
+      "published": "2026-06-10T09:45:44.730945Z"
     }
   ]
 }
