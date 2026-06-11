@@ -1,54 +1,100 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-11T03:56:19.605894Z",
+  "generated_at": "2026-06-11T04:01:30.951444Z",
   "market_regime": {
-    "regime": "SYSTEMIC",
-    "dominant_driver": "SYSTEMIC",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 2,
-    "last_updated": "2026-06-11T03:56:19.605906Z"
+    "critical_alerts": 3,
+    "high_alerts": 1,
+    "last_updated": "2026-06-11T04:01:30.951462Z"
   },
   "top_signals": [
     {
-      "id": "a9db02130b98ccfe1c8a238bdc1c5baa",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-0257\" target=\"_blank\">CVE-2026-0257</a> Palo Alto Networks PAN-OS Authentication Bypass Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vectors for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/binding-operational-directive-22-01\">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a> established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the <a href=\"https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf\">BOD 22-01 Fact Sheet</a> for more information.</p>\n<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a> as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.&nbsp;</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "SYSTEMIC",
-      "tickers": [],
-      "regions": [],
+      "id": "8a0d8c49aca2c8c49e750404a702b7bd",
+      "title": "Copper Falls to Three-Week Low on Flareup in US-Iran Fighting",
+      "summary": "Copper fell to a three-week low as fresh fighting in the Middle East raised concern around faster inflation, higher interest rates and slower economic growth.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-11/copper-falls-to-three-week-low-on-flareup-in-us-iran-fighting",
+      "source": "Bloomberg",
+      "score": 43,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "COPPER"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
           "XAU",
-          "JPY"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BANKS",
-          "SPY"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
-      "published": "2026-06-11T03:56:16.732498Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-11T04:00:51.429336Z"
     },
     {
-      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
-      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
-      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
-      "source": "CISA",
-      "score": 21,
-      "severity": "HIGH",
+      "id": "df7c403daa451ebce0a9e873b22741a7",
+      "title": "Oil jumps as U.S. strikes in Iran raise worries of extended disruption to energy flows",
+      "summary": "Oil prices jumped on Thursday after the United States launched a fresh round of military strikes against targets in Iran.",
+      "link": "https://www.cnbc.com/2026/06/11/brent-wti-oil-prices-us-launches-fresh-strikes-on-iran-.html",
+      "source": "CNBC",
+      "score": 32,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST",
+        "US"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-11T04:00:54.942020Z"
+    },
+    {
+      "id": "4f022bc89cd87a58325ebc702f46e647",
+      "title": "US Strikes Iran in Escalation Over Stalled Peace Talks",
+      "summary": "The US military launched strikes against \"multiple\" targets in Iran for the second straight day after President Donald Trump accused the country of dragging out talks on an interim peace deal. Bloomberg's Abeer Abu Omar breaks down the latest developments. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-11/us-strikes-iran-in-escalation-over-stalled-peace-talks-video",
+      "source": "Bloomberg",
+      "score": 27,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI"
       ],
@@ -66,46 +112,120 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-11T03:56:16.733076Z"
+      "published": "2026-06-11T04:00:51.429278Z"
     },
     {
-      "id": "4a5bd718d8f2eb09ac2a1784c2831c70",
-      "title": "Personal Income and Outlays, December 2025",
-      "summary": "Personal income increased $86.2 billion (0.3 percent at a monthly rate) in December, according to estimates released today by the U.S. Bureau of Economic Analysis. Disposable personal income (DPI)-personal income less personal current taxes-increased $75.7 billion (0.3 percent), and personal consumption expenditures (PCE) increased $91.0 billion (0.4 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $90.2 billion in December. Personal saving was $830.8 billion in December, and the personal saving rate-personal saving as a percentage of disposable personal income-was 3.6 percent.   <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025\">Full Text</a><!--Full Text Link-->",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025",
-      "source": "BEA",
-      "score": 8,
+      "id": "e8c1c8d342a98b072070a40457ef60b0",
+      "title": "US launches new strikes on Iran after helicopter downed",
+      "summary": "The U.S. launched strikes against Iran on Tuesday after Trump said Tehran had shot down a U.S. Apache helicopter in the Strait of Hormuz.",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/09/us-launches-new-strikes-on-iran-after-helicopter-downed/",
+      "source": "Defense News",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-11T04:01:26.135753Z"
+    },
+    {
+      "id": "53edb07f3cfbdd328181a6253748cf77",
+      "title": "SpaceX primed for double-digit pop on first day, if 'perps' trading is any guide",
+      "summary": "Crypto traders are currently pricing the SpaceX pre-IPO perpetual future on Hyperliquid at $162, about 20% above the company's fixed IPO share price of $135.",
+      "link": "https://www.cnbc.com/2026/06/10/spacex-ipo-primed-for-double-digit-pop-on-first-day-perpetual-futures.html",
+      "source": "CNBC",
+      "score": 11,
       "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "regime": "CRYPTO",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "BTC",
+          "ETH"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "USD"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-11T03:55:50.022795Z"
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-11T04:00:55.172420Z"
     },
     {
-      "id": "e05f1bb33a51ed7df9ea3019332c7ec0",
-      "title": "SpaceX is preparing for blast off, but will the mega IPO send investors into orbit?",
-      "summary": "<p> <img alt=\"The SpaceX IPO is hotly anticipated\" src=\"https://www.cityam.com/wp-content/uploads/2026/06/SpaceX-launch-May-2026-e1780575944586.jpg?w=1107\" /> </p>SpaceX is set to launch the largest retail allocation ever attempted in a megacap IPO as part of its hotly anticipated listing on the Nasdaq tomorrow, with around 30 per cent of shares reserved for retail investors. Bret Johnsen, SpaceX CFO, has said the unusually large allocation is a deliberate recognition of &#8220;folks that have <a href=\"https://www.cityam.com/spacex-is-preparing-for-blast-off-but-will-the-mega-ipo-send-shares-into-orbit/\">[...]</a>",
-      "link": "https://www.cityam.com/spacex-is-preparing-for-blast-off-but-will-the-mega-ipo-send-shares-into-orbit/",
+      "id": "c3a90cc770d58d7d19c3e8dbb1517b5a",
+      "title": "Here\u2019s that \u2018SpaceX\u2019s IPO is overvalued by 114%\u2019 research in full",
+      "summary": "Notes on a panhandle",
+      "link": "https://www.ft.com/content/57ff0d23-bb3e-440c-bdf6-78582bb288f8",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-11T04:00:53.469444Z"
+    },
+    {
+      "id": "0e096a683b0ba1d8bd420e13b7327723",
+      "title": "GM bets on sodium battery tech to challenge China dominance - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQaEp0dV9YYlZUdHhIRkRuZmxETUYyQ2NyMENNMDdYUjBGc2prX2llTE13NVNhWElTY0xFQ3IzeTBLdkhuNWtOV1dzWkk3T2h0ZXBLNHJQTHFRUTFLUzAzd3RaVXQ3Z2lqQXdiSHpBVUxnc3dXR3NlSVpIQzNpMnpCUXBqdzI?oc=5\" target=\"_blank\">GM bets on sodium battery tech to challenge China dominance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaEp0dV9YYlZUdHhIRkRuZmxETUYyQ2NyMENNMDdYUjBGc2prX2llTE13NVNhWElTY0xFQ3IzeTBLdkhuNWtOV1dzWkk3T2h0ZXBLNHJQTHFRUTFLUzAzd3RaVXQ3Z2lqQXdiSHpBVUxnc3dXR3NlSVpIQzNpMnpCUXBqdzI?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-11T04:01:29.745623Z"
+    },
+    {
+      "id": "d975d511c036237dbd3f967a0569eacc",
+      "title": "Mark Kleinman: BP might do well to plug credibility gap with Soames",
+      "summary": "<p> <img alt=\"Mark Kleinman is Sky News&#039; City Editor and writes a column for City AM\" src=\"https://www.cityam.com/wp-content/uploads/2024/07/Mark-Kleinman-3-1-1-2.webp?w=1107\" /> </p>Mark Kleinman is\u00a0Sky News\u2019\u00a0City Editor\u00a0and the man who gets the Square Mile talking in his City AM column BP might do well to plug credibility gap with Soames Now that the dust has begun to settle on Albert Manifold\u2019s ousting as BP chairman, the mutual recriminations between the company and its erstwhile leader have begun <a href=\"https://www.cityam.com/mark-kleinman-bp-might-do-well-to-plug-credibility-gap-with-soames/\">[...]</a>",
+      "link": "https://www.cityam.com/mark-kleinman-bp-might-do-well-to-plug-credibility-gap-with-soames/",
       "source": "CityAM",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
-      "tickers": [
-        "QQQ"
-      ],
+      "tickers": [],
       "regions": [],
       "assets": [
         "AI"
@@ -119,48 +239,94 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-11T03:56:00.264786Z"
+      "published": "2026-06-11T04:01:13.413079Z"
     }
   ],
   "alerts": [
     {
-      "id": "a9db02130b98ccfe1c8a238bdc1c5baa",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-0257\" target=\"_blank\">CVE-2026-0257</a> Palo Alto Networks PAN-OS Authentication Bypass Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vectors for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/binding-operational-directive-22-01\">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a> established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the <a href=\"https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf\">BOD 22-01 Fact Sheet</a> for more information.</p>\n<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a> as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.&nbsp;</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "SYSTEMIC",
-      "tickers": [],
-      "regions": [],
+      "id": "8a0d8c49aca2c8c49e750404a702b7bd",
+      "title": "Copper Falls to Three-Week Low on Flareup in US-Iran Fighting",
+      "summary": "Copper fell to a three-week low as fresh fighting in the Middle East raised concern around faster inflation, higher interest rates and slower economic growth.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-11/copper-falls-to-three-week-low-on-flareup-in-us-iran-fighting",
+      "source": "Bloomberg",
+      "score": 43,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "COPPER"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
           "XAU",
-          "JPY"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BANKS",
-          "SPY"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
-      "published": "2026-06-11T03:56:16.732498Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-11T04:00:51.429336Z"
     },
     {
-      "id": "e42e520fd5b1594b9fdd7eab5468de3e",
-      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
-      "summary": "<p>CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These recent incidents, including the GitHub compromise via a malicious Nx Console Visual Studio Code (VS Code) extension and the \u201cMegalodon\u201d supply chain intrusion campaign, demonstrate how cyber threat actors are abusing tools and processes that support enterprise, cloud, and DevOps environments\u2014specifically CI/CD pipelines, code extensions and workflows.&nbsp;</p>\n<p>Threat actors leveraged a prior compromise of Nx developer systems to compromise a GitHub employee\u2019s device&nbsp;through a poisoned third-party VS Code extension, resulting in unauthorized access and exfiltration of internal GitHub repositories. The malicious extension version (18.95.0) was distributed through VS Code\u2019s automatic update mechanism, meaning systems with Nx Console previously installed may have received the malicious build without developers taking any manual installation action. GitHub released a <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\">security advisory</a> on this activity, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48027\" target=\"_blank\">CVE-2026-48027</a> has been assigned to the malicious version of Nx Console and added to <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">CISA\u2019s Known Exploited Vulnerabilities (KEV) Catalog</a>.</p>\n<p>Additionally, in a campaign known as \u201cMegalodon,\u201d a cyber threat actor injected malicious GitHub Action workflows to harvest CI/CD secrets, cloud credentials, and tokens, impacting both development and deployment pipelines in public GitHub repositories.</p>\n<p>CISA urges organizations to implement the following recommendations to detect and remediate a potential compromise:</p>\n<ul>\n<li>Monitor and audit workflow files and contributor activity for suspicious pull requests and direct commits, particularly those authored by automated accounts.</li>\n<li>Revert unauthorized changes, especially from automated accounts, e.g., <code>build-bot</code>, <code>auto-ci</code>, <code>ci-bot</code>, <code>pipeline-bot</code> and especially those made after May 18, 2026.</li>\n</ul>\n<p>If your organization discovers a compromise resulting from previously compromised GitHub or Nx Console software, CISA recommends the following steps:</p>\n<ul type=\"square\">\n<li>Conduct a forensics review of CI/CD logs, cloud audit trails, and affected developer machines.&nbsp;</li>\n<li>Rotate/revoke all secrets including: all credentials, tokens, and secrets accessible to CI/CD pipelines, including API keys, cloud provider credentials (Amazon Web Services, Google Cloud Platform, Microsoft Azure), SSH keys, Docker/npm/PyPI/Vault/Terraform/Kubernetes tokens, GitHub/GitLab/Bitbucket tokens, and developer or pipeline secrets.&nbsp;</li>\n<li>Notify proper stakeholders if necessary.</li>\n</ul>\n<p>CISA recommends the following best practices for using package repos:</p>\n<ul type=\"square\">\n<li>Wait at least three hours before pulling a new package. This gives the software community time to identify suspicious or malicious packages before they are widely downloaded.&nbsp;</li>\n<li>Pin software to specific trusted versions. Pinning software prevents pulling a malicious or unscreened package during the build process.&nbsp;</li>\n<li>Only pull packages from known and trusted sources. Relying on known and trusted sources reduces the likelihood of downloading a package that has been maliciously forked.&nbsp;</li>\n</ul>\n<p>See the following resources for additional guidance on these compromises:</p>\n<ul type=\"square\">\n<li>GitHub: <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\" target=\"_blank\">Investigating unauthorized access to GitHub-owned repositories</a></li>\n<li>Nx:&nbsp;<a href=\"https://nx.dev/blog/nx-console-v18-95-0-postmortem\" target=\"_blank\">Postmortem: Nx Console v18.95.0 supply-chain compromise</a></li>\n<li>Ox Security: <a href=\"https://www.ox.security/blog/megalodon-cicd-malware-github/\" target=\"_blank\">Megalodon: CI/CD Malware Spreading Across GitHub Repositories</a></li>\n<li>StepSecurity: <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised#indicators-of-compromise\" target=\"_blank\">Nx Console VS Code Extension Compromised</a>&nbsp;</li>\n<li>SafeDep: <a href=\"https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/\" target=\"_blank\">Megalodon: Mass GitHub Repo Backdooring via CI Workflows</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.\u202f&nbsp;</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
-      "source": "CISA",
-      "score": 21,
-      "severity": "HIGH",
+      "id": "df7c403daa451ebce0a9e873b22741a7",
+      "title": "Oil jumps as U.S. strikes in Iran raise worries of extended disruption to energy flows",
+      "summary": "Oil prices jumped on Thursday after the United States launched a fresh round of military strikes against targets in Iran.",
+      "link": "https://www.cnbc.com/2026/06/11/brent-wti-oil-prices-us-launches-fresh-strikes-on-iran-.html",
+      "source": "CNBC",
+      "score": 32,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST",
+        "US"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-11T04:00:54.942020Z"
+    },
+    {
+      "id": "4f022bc89cd87a58325ebc702f46e647",
+      "title": "US Strikes Iran in Escalation Over Stalled Peace Talks",
+      "summary": "The US military launched strikes against \"multiple\" targets in Iran for the second straight day after President Donald Trump accused the country of dragging out talks on an interim peace deal. Bloomberg's Abeer Abu Omar breaks down the latest developments. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-11/us-strikes-iran-in-escalation-over-stalled-peace-talks-video",
+      "source": "Bloomberg",
+      "score": 27,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI"
       ],
@@ -178,46 +344,120 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-11T03:56:16.733076Z"
+      "published": "2026-06-11T04:00:51.429278Z"
     },
     {
-      "id": "4a5bd718d8f2eb09ac2a1784c2831c70",
-      "title": "Personal Income and Outlays, December 2025",
-      "summary": "Personal income increased $86.2 billion (0.3 percent at a monthly rate) in December, according to estimates released today by the U.S. Bureau of Economic Analysis. Disposable personal income (DPI)-personal income less personal current taxes-increased $75.7 billion (0.3 percent), and personal consumption expenditures (PCE) increased $91.0 billion (0.4 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $90.2 billion in December. Personal saving was $830.8 billion in December, and the personal saving rate-personal saving as a percentage of disposable personal income-was 3.6 percent.   <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025\">Full Text</a><!--Full Text Link-->",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025",
-      "source": "BEA",
-      "score": 8,
+      "id": "e8c1c8d342a98b072070a40457ef60b0",
+      "title": "US launches new strikes on Iran after helicopter downed",
+      "summary": "The U.S. launched strikes against Iran on Tuesday after Trump said Tehran had shot down a U.S. Apache helicopter in the Strait of Hormuz.",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/09/us-launches-new-strikes-on-iran-after-helicopter-downed/",
+      "source": "Defense News",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-11T04:01:26.135753Z"
+    },
+    {
+      "id": "53edb07f3cfbdd328181a6253748cf77",
+      "title": "SpaceX primed for double-digit pop on first day, if 'perps' trading is any guide",
+      "summary": "Crypto traders are currently pricing the SpaceX pre-IPO perpetual future on Hyperliquid at $162, about 20% above the company's fixed IPO share price of $135.",
+      "link": "https://www.cnbc.com/2026/06/10/spacex-ipo-primed-for-double-digit-pop-on-first-day-perpetual-futures.html",
+      "source": "CNBC",
+      "score": 11,
       "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "regime": "CRYPTO",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "BTC",
+          "ETH"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "USD"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-11T03:55:50.022795Z"
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-11T04:00:55.172420Z"
     },
     {
-      "id": "e05f1bb33a51ed7df9ea3019332c7ec0",
-      "title": "SpaceX is preparing for blast off, but will the mega IPO send investors into orbit?",
-      "summary": "<p> <img alt=\"The SpaceX IPO is hotly anticipated\" src=\"https://www.cityam.com/wp-content/uploads/2026/06/SpaceX-launch-May-2026-e1780575944586.jpg?w=1107\" /> </p>SpaceX is set to launch the largest retail allocation ever attempted in a megacap IPO as part of its hotly anticipated listing on the Nasdaq tomorrow, with around 30 per cent of shares reserved for retail investors. Bret Johnsen, SpaceX CFO, has said the unusually large allocation is a deliberate recognition of &#8220;folks that have <a href=\"https://www.cityam.com/spacex-is-preparing-for-blast-off-but-will-the-mega-ipo-send-shares-into-orbit/\">[...]</a>",
-      "link": "https://www.cityam.com/spacex-is-preparing-for-blast-off-but-will-the-mega-ipo-send-shares-into-orbit/",
+      "id": "c3a90cc770d58d7d19c3e8dbb1517b5a",
+      "title": "Here\u2019s that \u2018SpaceX\u2019s IPO is overvalued by 114%\u2019 research in full",
+      "summary": "Notes on a panhandle",
+      "link": "https://www.ft.com/content/57ff0d23-bb3e-440c-bdf6-78582bb288f8",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-11T04:00:53.469444Z"
+    },
+    {
+      "id": "0e096a683b0ba1d8bd420e13b7327723",
+      "title": "GM bets on sodium battery tech to challenge China dominance - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQaEp0dV9YYlZUdHhIRkRuZmxETUYyQ2NyMENNMDdYUjBGc2prX2llTE13NVNhWElTY0xFQ3IzeTBLdkhuNWtOV1dzWkk3T2h0ZXBLNHJQTHFRUTFLUzAzd3RaVXQ3Z2lqQXdiSHpBVUxnc3dXR3NlSVpIQzNpMnpCUXBqdzI?oc=5\" target=\"_blank\">GM bets on sodium battery tech to challenge China dominance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaEp0dV9YYlZUdHhIRkRuZmxETUYyQ2NyMENNMDdYUjBGc2prX2llTE13NVNhWElTY0xFQ3IzeTBLdkhuNWtOV1dzWkk3T2h0ZXBLNHJQTHFRUTFLUzAzd3RaVXQ3Z2lqQXdiSHpBVUxnc3dXR3NlSVpIQzNpMnpCUXBqdzI?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-11T04:01:29.745623Z"
+    },
+    {
+      "id": "d975d511c036237dbd3f967a0569eacc",
+      "title": "Mark Kleinman: BP might do well to plug credibility gap with Soames",
+      "summary": "<p> <img alt=\"Mark Kleinman is Sky News&#039; City Editor and writes a column for City AM\" src=\"https://www.cityam.com/wp-content/uploads/2024/07/Mark-Kleinman-3-1-1-2.webp?w=1107\" /> </p>Mark Kleinman is\u00a0Sky News\u2019\u00a0City Editor\u00a0and the man who gets the Square Mile talking in his City AM column BP might do well to plug credibility gap with Soames Now that the dust has begun to settle on Albert Manifold\u2019s ousting as BP chairman, the mutual recriminations between the company and its erstwhile leader have begun <a href=\"https://www.cityam.com/mark-kleinman-bp-might-do-well-to-plug-credibility-gap-with-soames/\">[...]</a>",
+      "link": "https://www.cityam.com/mark-kleinman-bp-might-do-well-to-plug-credibility-gap-with-soames/",
       "source": "CityAM",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
-      "tickers": [
-        "QQQ"
-      ],
+      "tickers": [],
       "regions": [],
       "assets": [
         "AI"
@@ -231,7 +471,7 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-11T03:56:00.264786Z"
+      "published": "2026-06-11T04:01:13.413079Z"
     }
   ]
 }
