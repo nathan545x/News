@@ -1,53 +1,519 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-12T01:31:29.644869Z",
+  "generated_at": "2026-06-12T01:36:13.556797Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-06-12T01:31:29.644879Z"
+    "critical_alerts": 1,
+    "high_alerts": 4,
+    "last_updated": "2026-06-12T01:36:13.556814Z"
   },
   "top_signals": [
     {
-      "id": "008700bf00b8538d857b1176ced87e2d",
-      "title": "Japan successfully launches H3 rocket",
-      "summary": "The successful launch is an important comeback for Japan as it seeks to restore confidence in the H3 series and demonstrate the rocket can support a wider range of missions.",
-      "link": "https://www.japantimes.co.jp/news/2026/06/12/japan/science-health/japan-h3-rocket-launch/",
-      "source": "Japan Times",
-      "score": 1,
+      "id": "805b15f114178d01921447071a03da3b",
+      "title": "Japan\u2019s Stocks Gain as Trump\u2019s Iran Deal Comments Lift Sentiment",
+      "summary": "Japanese equities rallied after US President Donald Trump signaled the US is close to signing a deal with Iran, fueling expectations that the Middle East conflict is nearing an end.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-11/japanese-stocks-set-to-rise-on-optimism-over-middle-east-war",
+      "source": "Bloomberg",
+      "score": 37,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "JAPAN",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-12T01:35:32.799977Z"
+    },
+    {
+      "id": "a1557c80bc8a3b1904d88357e7848ddb",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "summary": "<p>CISA has added three new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-7473\" target=\"_blank\">CVE-2026-7473</a> Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-11645\" target=\"_blank\">CVE-2026-11645</a> Google Chromium V8 Out-of-Bounds Read and Write Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-20245\" target=\"_blank\">CVE-2026-20245</a> Cisco Catalyst SD-WAN Manager Improper Encoding or Escaping of Output Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/binding-operational-directive-22-01\">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a> established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the <a href=\"https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf\">BOD 22-01 Fact Sheet</a> for more information.</p>\n<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a> as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/09/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "source": "CISA",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "SYSTEMIC",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "JPY"
+        ],
+        "bearish": [
+          "BANKS",
+          "SPY"
+        ]
+      },
+      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
+      "published": "2026-06-12T01:36:10.497734Z"
+    },
+    {
+      "id": "5795a4d4993565b768b8841693ab219a",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul type=\"disc\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2024-21182\" target=\"_blank\">CVE-2024-21182</a> Oracle WebLogic Server Unspecified Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vectors for malicious cyber actors and poses significant risks to the federal enterprise.&nbsp;</p>\n<p><a href=\"https://www.cisa.gov/binding-operational-directive-22-01\">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a>&nbsp;established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the&nbsp;<a href=\"https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf\">BOD 22-01 Fact Sheet</a> for more information.</p>\n<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a> as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "SYSTEMIC",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "JPY"
+        ],
+        "bearish": [
+          "BANKS",
+          "SPY"
+        ]
+      },
+      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
+      "published": "2026-06-12T01:36:10.497969Z"
+    },
+    {
+      "id": "2fa22d8ab8e97664c43972d19dd32dbe",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-10520\" target=\"_blank\">CVE-2026-10520</a> Ivanti Sentry OS Command Injection Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies, updating <a href=\"https://www.cisa.gov/news-events/directives/bod-22-01-reducing-significant-risk-known-exploited-vulnerabilities-revoked\">BOD 22-01</a>. BOD 26-04 reinforces the importance of the KEV catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA\u2019s Known Exploited Vulnerabilities (KEV) catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.</p>\n<p>While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV catalog vulnerabilities</a>. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities\">specified criteria</a>.</p>\n<p>Aware of an exploited vulnerability not currently listed in the KEV catalog? Submit for potential addition: <a href=\"https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w\" target=\"_blank\">KEV Nomination Form</a>. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/11/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-12T01:36:10.497482Z"
+    },
+    {
+      "id": "5010fad0d0301fc076d87b12be0d5496",
+      "title": "Chinese Region Promotes Coal Chemicals as Energy Security Fix",
+      "summary": "One of China\u2019s top coal-producing regions plans to expand use of the feedstock to manufacture chemicals, even as the practice poses a rising threat to the country\u2019s climate goals.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-12/chinese-region-promotes-coal-chemicals-as-energy-security-fix",
+      "source": "Bloomberg",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-12T01:35:32.800067Z"
+    },
+    {
+      "id": "2257f146b24c77478617824cfed060aa",
+      "title": "Morning Bid: Tech and war jitters sap confidence - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE10U1BOUUYza1FXSGo5RmpubUx3S1F0XzgxQzlMUHd2Z3pBM2dBbEpNczNiTzVqUUdtMmExQUVtdWNHY25nTVZjbWUyY2xqYXNYQUluZ0hOemJwVkI2OHRSVkdzZW1rbTM4aENyYkgwM3J6aFl6YWk0N3ZxWE94YUk?oc=5\" target=\"_blank\">Morning Bid: Tech and war jitters sap confidence</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10U1BOUUYza1FXSGo5RmpubUx3S1F0XzgxQzlMUHd2Z3pBM2dBbEpNczNiTzVqUUdtMmExQUVtdWNHY25nTVZjbWUyY2xqYXNYQUluZ0hOemJwVkI2OHRSVkdzZW1rbTM4aENyYkgwM3J6aFl6YWk0N3ZxWE94YUk?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-12T01:36:11.710450Z"
+    },
+    {
+      "id": "422f0e62af372b98c685675f388eb166",
+      "title": "SpaceX cuts retail IPO allocation to low 20% range, source says",
+      "summary": "The Elon Musk-led company plans to direct a percentage in the low 20s of the offering to retail buyers, according to a person familiar with the matter.",
+      "link": "https://www.cnbc.com/2026/06/11/spacex-cuts-retail-ipo-allocation-to-low-20percent-range-source-says.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-12T01:35:36.894240Z"
+    },
+    {
+      "id": "468ca42e1fe974456153acd9966906fd",
+      "title": "World Cup of disunity kicks off in Mexico",
+      "summary": "Mexican team beats South Africa in first game as the three hosts feud and fans fear US immigration crackdown",
+      "link": "https://www.ft.com/content/c929dbd2-4028-42e9-9634-62a8e76cf934",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-12T01:35:35.525499Z"
+    },
+    {
+      "id": "5f2e2d90b963622e97191aa572614985",
+      "title": "East Timor president says massive gas project development close to deal",
+      "summary": "",
+      "link": "https://asia.nikkei.com/spotlight/the-future-of-asia/future-of-asia-2026/east-timor-president-says-massive-gas-project-development-close-to-deal",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-12T01:35:58.909166Z"
+    },
+    {
+      "id": "ee9afda4a15fd82a845797f095e1ba8d",
+      "title": "US Navy stands up naval support activity in Western Australia",
+      "summary": "As part of the AUKUS security pact, NSA Stirling will provide support for personnel assigned to Submarine Rotational Force-West.",
+      "link": "https://www.defensenews.com/news/your-navy/2026/06/10/us-navy-stands-up-naval-support-activity-in-western-australia/",
+      "source": "Defense News",
+      "score": 6,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "UK"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-12T01:31:14.289006Z"
+      "published": "2026-06-12T01:36:07.455983Z"
     }
   ],
   "alerts": [
     {
-      "id": "008700bf00b8538d857b1176ced87e2d",
-      "title": "Japan successfully launches H3 rocket",
-      "summary": "The successful launch is an important comeback for Japan as it seeks to restore confidence in the H3 series and demonstrate the rocket can support a wider range of missions.",
-      "link": "https://www.japantimes.co.jp/news/2026/06/12/japan/science-health/japan-h3-rocket-launch/",
-      "source": "Japan Times",
-      "score": 1,
+      "id": "805b15f114178d01921447071a03da3b",
+      "title": "Japan\u2019s Stocks Gain as Trump\u2019s Iran Deal Comments Lift Sentiment",
+      "summary": "Japanese equities rallied after US President Donald Trump signaled the US is close to signing a deal with Iran, fueling expectations that the Middle East conflict is nearing an end.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-11/japanese-stocks-set-to-rise-on-optimism-over-middle-east-war",
+      "source": "Bloomberg",
+      "score": 37,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "JAPAN",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-12T01:35:32.799977Z"
+    },
+    {
+      "id": "a1557c80bc8a3b1904d88357e7848ddb",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "summary": "<p>CISA has added three new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-7473\" target=\"_blank\">CVE-2026-7473</a> Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-11645\" target=\"_blank\">CVE-2026-11645</a> Google Chromium V8 Out-of-Bounds Read and Write Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-20245\" target=\"_blank\">CVE-2026-20245</a> Cisco Catalyst SD-WAN Manager Improper Encoding or Escaping of Output Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/binding-operational-directive-22-01\">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a> established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the <a href=\"https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf\">BOD 22-01 Fact Sheet</a> for more information.</p>\n<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a> as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/09/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "source": "CISA",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "SYSTEMIC",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "JPY"
+        ],
+        "bearish": [
+          "BANKS",
+          "SPY"
+        ]
+      },
+      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
+      "published": "2026-06-12T01:36:10.497734Z"
+    },
+    {
+      "id": "5795a4d4993565b768b8841693ab219a",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul type=\"disc\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2024-21182\" target=\"_blank\">CVE-2024-21182</a> Oracle WebLogic Server Unspecified Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vectors for malicious cyber actors and poses significant risks to the federal enterprise.&nbsp;</p>\n<p><a href=\"https://www.cisa.gov/binding-operational-directive-22-01\">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a>&nbsp;established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the&nbsp;<a href=\"https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf\">BOD 22-01 Fact Sheet</a> for more information.</p>\n<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a> as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "SYSTEMIC",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "JPY"
+        ],
+        "bearish": [
+          "BANKS",
+          "SPY"
+        ]
+      },
+      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
+      "published": "2026-06-12T01:36:10.497969Z"
+    },
+    {
+      "id": "2fa22d8ab8e97664c43972d19dd32dbe",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-10520\" target=\"_blank\">CVE-2026-10520</a> Ivanti Sentry OS Command Injection Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies, updating <a href=\"https://www.cisa.gov/news-events/directives/bod-22-01-reducing-significant-risk-known-exploited-vulnerabilities-revoked\">BOD 22-01</a>. BOD 26-04 reinforces the importance of the KEV catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA\u2019s Known Exploited Vulnerabilities (KEV) catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.</p>\n<p>While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV catalog vulnerabilities</a>. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities\">specified criteria</a>.</p>\n<p>Aware of an exploited vulnerability not currently listed in the KEV catalog? Submit for potential addition: <a href=\"https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w\" target=\"_blank\">KEV Nomination Form</a>. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/11/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-12T01:36:10.497482Z"
+    },
+    {
+      "id": "5010fad0d0301fc076d87b12be0d5496",
+      "title": "Chinese Region Promotes Coal Chemicals as Energy Security Fix",
+      "summary": "One of China\u2019s top coal-producing regions plans to expand use of the feedstock to manufacture chemicals, even as the practice poses a rising threat to the country\u2019s climate goals.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-12/chinese-region-promotes-coal-chemicals-as-energy-security-fix",
+      "source": "Bloomberg",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-12T01:35:32.800067Z"
+    },
+    {
+      "id": "2257f146b24c77478617824cfed060aa",
+      "title": "Morning Bid: Tech and war jitters sap confidence - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE10U1BOUUYza1FXSGo5RmpubUx3S1F0XzgxQzlMUHd2Z3pBM2dBbEpNczNiTzVqUUdtMmExQUVtdWNHY25nTVZjbWUyY2xqYXNYQUluZ0hOemJwVkI2OHRSVkdzZW1rbTM4aENyYkgwM3J6aFl6YWk0N3ZxWE94YUk?oc=5\" target=\"_blank\">Morning Bid: Tech and war jitters sap confidence</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10U1BOUUYza1FXSGo5RmpubUx3S1F0XzgxQzlMUHd2Z3pBM2dBbEpNczNiTzVqUUdtMmExQUVtdWNHY25nTVZjbWUyY2xqYXNYQUluZ0hOemJwVkI2OHRSVkdzZW1rbTM4aENyYkgwM3J6aFl6YWk0N3ZxWE94YUk?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-12T01:36:11.710450Z"
+    },
+    {
+      "id": "422f0e62af372b98c685675f388eb166",
+      "title": "SpaceX cuts retail IPO allocation to low 20% range, source says",
+      "summary": "The Elon Musk-led company plans to direct a percentage in the low 20s of the offering to retail buyers, according to a person familiar with the matter.",
+      "link": "https://www.cnbc.com/2026/06/11/spacex-cuts-retail-ipo-allocation-to-low-20percent-range-source-says.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-12T01:35:36.894240Z"
+    },
+    {
+      "id": "468ca42e1fe974456153acd9966906fd",
+      "title": "World Cup of disunity kicks off in Mexico",
+      "summary": "Mexican team beats South Africa in first game as the three hosts feud and fans fear US immigration crackdown",
+      "link": "https://www.ft.com/content/c929dbd2-4028-42e9-9634-62a8e76cf934",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-12T01:35:35.525499Z"
+    },
+    {
+      "id": "5f2e2d90b963622e97191aa572614985",
+      "title": "East Timor president says massive gas project development close to deal",
+      "summary": "",
+      "link": "https://asia.nikkei.com/spotlight/the-future-of-asia/future-of-asia-2026/east-timor-president-says-massive-gas-project-development-close-to-deal",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-12T01:35:58.909166Z"
+    },
+    {
+      "id": "ee9afda4a15fd82a845797f095e1ba8d",
+      "title": "US Navy stands up naval support activity in Western Australia",
+      "summary": "As part of the AUKUS security pact, NSA Stirling will provide support for personnel assigned to Submarine Rotational Force-West.",
+      "link": "https://www.defensenews.com/news/your-navy/2026/06/10/us-navy-stands-up-naval-support-activity-in-western-australia/",
+      "source": "Defense News",
+      "score": 6,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "UK"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-12T01:31:14.289006Z"
+      "published": "2026-06-12T01:36:07.455983Z"
     }
   ]
 }
