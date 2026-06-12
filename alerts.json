@@ -1,130 +1,116 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-12T08:56:10.696751Z",
+  "generated_at": "2026-06-12T09:01:34.794005Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "SYSTEMIC",
+    "dominant_driver": "SYSTEMIC",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 2,
-    "high_alerts": 2,
-    "last_updated": "2026-06-12T08:56:10.696765Z"
+    "critical_alerts": 0,
+    "high_alerts": 3,
+    "last_updated": "2026-06-12T09:01:34.794021Z"
   },
   "top_signals": [
     {
-      "id": "a9f3cb48a14206f78b11dd37e7cec73e",
-      "title": "European Bonds Surge as Trump Touts Progress on Iran Peace Deal",
-      "summary": "European bonds rallied as oil prices slid on the renewed potential for a peace deal in the Middle East.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-12/european-bonds-surge-as-trump-touts-progress-on-iran-peace-deal",
-      "source": "Bloomberg",
-      "score": 34,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR",
-        "WTI"
-      ],
-      "regions": [
-        "EUROPE",
-        "MIDDLE_EAST"
-      ],
+      "id": "8603c4ecc04a970c83154c0a046e5091",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-42271\" target=\"_blank\">CVE-2026-42271</a> BerriAI LiteLLM Command Injection Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-50751\" target=\"_blank\">CVE-2026-50751</a> Check Point Security Gateway Improper Authentication Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/binding-operational-directive-22-01\">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a> established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the <a href=\"https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf\">BOD 22-01 Fact Sheet</a> for more information.</p>\n<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a> as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "SYSTEMIC",
+      "tickers": [],
+      "regions": [],
       "assets": [
-        "COMMODITIES",
-        "FX"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
           "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
+          "JPY"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "BANKS",
+          "SPY"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-12T08:55:32.819812Z"
+      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
+      "published": "2026-06-12T09:01:32.138240Z"
     },
     {
-      "id": "11481d34fdcc6b0da88ffdd704ff0d76",
-      "title": "Luxury stocks spike on proposed U.S.-Iran peace deal; LVMH up almost 5%",
-      "summary": "Luxury stocks have been hard hit by the Iran war, as the Middle East had been a fast-growing market for the otherwise largely muted sector.",
-      "link": "https://www.cnbc.com/2026/06/12/luxury-stocks-lvmh-hermes-burberry-iran-war-peace-deal.html",
-      "source": "CNBC",
-      "score": 33,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "id": "c908704daad99ab3aeb540f8974a2e79",
+      "title": "Jefferson, Global Economic Developments and the U.S. Economy",
+      "summary": "Speech At the 2026 Bank of Japan-Institute for Monetary and Economic Studies Conference, Tokyo, Japan",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm",
+      "source": "Federal Reserve",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [],
       "regions": [
-        "MIDDLE_EAST"
+        "JAPAN"
       ],
-      "assets": [
-        "EQUITIES"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
           "DXY",
-          "DEFENSE"
+          "JPY"
         ],
         "bearish": [
+          "TLT",
           "SPY",
-          "QQQ",
-          "AIRLINES"
+          "QQQ"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-12T08:55:36.199456Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-12T09:01:00.188655Z"
     },
     {
-      "id": "1a9afc04301b1de74b70d04f436eadb1",
-      "title": "Oil Extends Decline After Trump Says US Nearing Deal With Iran - Bloomberg",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNVi16azBPbHluSVVsbzhubW83N3pkQmp3dWtOa21aZWF3SHVraGJNWEdScjJyRXduMndVb3ZPMmxBMTFNTEFSZ1UxMDEwWUdLU0xRYnhXWWU0N214S2dJam5aT2JRbldTUUFreDhrTERPdjJRa1RCYVdTSnF6d0huRFZrTzNjLVhqblBKMVJrSEFlMVpqVzAwaDVGVW1NeUE?oc=5\" target=\"_blank\">Oil Extends Decline After Trump Says US Nearing Deal With Iran</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVi16azBPbHluSVVsbzhubW83N3pkQmp3dWtOa21aZWF3SHVraGJNWEdScjJyRXduMndVb3ZPMmxBMTFNTEFSZ1UxMDEwWUdLU0xRYnhXWWU0N214S2dJam5aT2JRbldTUUFreDhrTERPdjJRa1RCYVdTSnF6d0huRFZrTzNjLVhqblBKMVJrSEFlMVpqVzAwaDVGVW1NeUE?oc=5",
-      "source": "Google Macro",
-      "score": 17,
+      "id": "bcb6c55e62bb2dc9d382b4042c3a2011",
+      "title": "PeaceGold,\u00a0SigraFi\u00a0sign\u00a0responsible\u00a0artisanal\u00a0gold supply deal\u00a0in\u00a0DRC",
+      "summary": "PeaceGold\u00a0was set up in 2013 with local nonprofit Conflict Resolution\u00a0Center\u00a0to help formalize artisanal mining and reintegrate former combatants into regulated work.",
+      "link": "https://www.mining.com/peacegold-sigrafi-sign-responsible-artisanal-gold-supply-deal-in-drc/",
+      "source": "Mining.com",
+      "score": 19,
       "severity": "HIGH",
-      "regime": "GEO-SHOCK",
+      "regime": "COMMODITIES",
       "tickers": [
-        "WTI"
+        "XAU"
       ],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
+      "regions": [],
       "assets": [
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-12T08:56:08.465109Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-12T09:01:28.753500Z"
     },
     {
-      "id": "4507816de81a6d5ffe527570a7d0f0ba",
-      "title": "California natural gas prices reach historic lows in early 2026",
-      "summary": "Monthly average natural gas spot prices in California reached record lows in the first five months of 2026, dropping to values last recorded in the nationwide low-price market of 2024. Record lows were recorded in Northern California's PG&amp;E Citygate and Southern California's SoCal Border Average; SoCal Citygate prices fell to near-record lows but remained higher than some 2024 prices. Several factors contribute to California's low prices, including above-average inventories and decreasing in-state demand for natural gas-fired electricity.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67744",
-      "source": "EIA",
-      "score": 16,
-      "severity": "HIGH",
+      "id": "c28b9dff9cef5cade8b60009cc2f1461",
+      "title": "Revolut price tag \u2018just a stepping stone\u2019 to a trillion, says Fuse boss",
+      "summary": "<p> <img alt=\"Revolut was founded in 2015.\" src=\"https://www.cityam.com/wp-content/uploads/2026/03/revolutoffice323.jpeg.jpeg?w=1107\" /> </p>Revolut will become a trillion dollar company, one of its most high profile alumni has claimed, with any valuation on the road to that a mere \u201cstepping stone\u201d. The London-born fintech giant &#8211; which currently boasts a valuation of $75bn &#8211; is tipped to launch another secondary share sale in the second half of this <a href=\"https://www.cityam.com/revolut-price-tag-just-a-stepping-stone-to-a-trillion-says-fuse-boss/\">[...]</a>",
+      "link": "https://www.cityam.com/revolut-price-tag-just-a-stepping-stone-to-a-trillion-says-fuse-boss/",
+      "source": "CityAM",
+      "score": 11,
+      "severity": "MEDIUM",
       "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [
+        "UK"
+      ],
       "assets": [
         "AI"
       ],
@@ -140,186 +126,169 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-12T08:56:04.296242Z"
+      "published": "2026-06-12T09:01:19.647213Z"
     },
     {
-      "id": "7fa01f59de8ad32d2fb3f6a6ae8c5fc0",
-      "title": "Flutter to quit London in another blow to UK market",
-      "summary": "Sports betting company cites high costs and low trading levels in its decision",
-      "link": "https://www.ft.com/content/cd2cb99e-83a2-4ec4-a05c-aec76e3e838b",
-      "source": "Financial Times",
-      "score": 8,
+      "id": "6f4042bc9b5260ca259b307035b9a47d",
+      "title": "Ex-Andreessen Horowitz partner slams his old firm, other VCs for 'political infiltration' around AI",
+      "summary": "John O'Farrell, former partner at Andreessen Horowitz, says the PAC Leading the Future, backed by his old firm, is trying to \"intimidate politicians.\"",
+      "link": "https://www.cnbc.com/2026/06/11/ex-a16z-partner-slams-old-firm-othes-political-infiltration-in-ai.html",
+      "source": "CNBC",
+      "score": 10,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "regime": "AI",
       "tickers": [],
-      "regions": [
-        "UK"
+      "regions": [],
+      "assets": [
+        "AI"
       ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-12T08:55:35.264921Z"
-    },
-    {
-      "id": "509dfbef6cbc68bd5dbdd944c847355f",
-      "title": "UK economy contracted 0.1% in April - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxONHJDTkxVUWtCYkZRRG9MQ3JkQ1dMbUhwczhCRU5MYXNuLVFlVVFuaml0clp4RkhLTUU1OGNyYl9DUm1JY2xfVEk5elpoSVZUd0x2b3ZJb1ljNFBYcWRDa0NVQnpOREV0RjJtWEgxS0owUHBhc2VKaENtYy1hY0FEdzNrUUI?oc=5\" target=\"_blank\">UK economy contracted 0.1% in April</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONHJDTkxVUWtCYkZRRG9MQ3JkQ1dMbUhwczhCRU5MYXNuLVFlVVFuaml0clp4RkhLTUU1OGNyYl9DUm1JY2xfVEk5elpoSVZUd0x2b3ZJb1ljNFBYcWRDa0NVQnpOREV0RjJtWEgxS0owUHBhc2VKaENtYy1hY0FEdzNrUUI?oc=5",
-      "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
+          "NVDA",
+          "SEMIS",
           "QQQ"
-        ]
+        ],
+        "bearish": []
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-12T08:56:09.560519Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-12T09:00:59.785051Z"
     },
     {
-      "id": "268e0a1c5a39f5b769c49fe9394875a1",
-      "title": "Trump Regulator Proposes New Rules on What\u2019s Allowed on Prediction Markets - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNSk1kRVZ6eDdSNVBvckV2eWNKazEwazI3b21hc0xvN3FPNUFZdjFoUG1vOHJuME9XTWRYYVhyYmZsRkNQbV9RY1pTeF94Rjg3WDJNUnhpbG9BcEJXZHQ5Z0dvSmVjZTRZaG96UV9TRXo5X0swTjRxR0VFRG9MS2todEZfMjBMWVlmM19mazUzZ05fcVpkUWc?oc=5\" target=\"_blank\">Trump Regulator Proposes New Rules on What\u2019s Allowed on Prediction Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSk1kRVZ6eDdSNVBvckV2eWNKazEwazI3b21hc0xvN3FPNUFZdjFoUG1vOHJuME9XTWRYYVhyYmZsRkNQbV9RY1pTeF94Rjg3WDJNUnhpbG9BcEJXZHQ5Z0dvSmVjZTRZaG96UV9TRXo5X0swTjRxR0VFRG9MS2todEZfMjBMWVlmM19mazUzZ05fcVpkUWc?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
+      "id": "3edf31d00fdc40239f1d2acd815e36c7",
+      "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-12T08:56:10.082160Z"
+      "published": "2026-06-12T09:01:00.036197Z"
+    },
+    {
+      "id": "7839759b9968b70383b5b3cfccbf8310",
+      "title": "Chip Stocks Lead a Market Rebound - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxOd29CblpMLUxBX0pxMS1ENkEtcVNxWHFXZFVWN3pyVW50dW9aMG9IaVFmbFZ4eHVoOHFxQWJtUzZzemhoT3o2MnViYVVoc3JHSFBaNGZzbm5WWXhxSkRoYkR0VmU3dUpobWJnQ0VPM2VUSHFGS0t0RzdjYTZPSkp2WU9oWQ?oc=5\" target=\"_blank\">Chip Stocks Lead a Market Rebound</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOd29CblpMLUxBX0pxMS1ENkEtcVNxWHFXZFVWN3pyVW50dW9aMG9IaVFmbFZ4eHVoOHFxQWJtUzZzemhoT3o2MnViYVVoc3JHSFBaNGZzbm5WWXhxSkRoYkR0VmU3dUpobWJnQ0VPM2VUSHFGS0t0RzdjYTZPSkp2WU9oWQ?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-12T09:01:34.235816Z"
     }
   ],
   "alerts": [
     {
-      "id": "a9f3cb48a14206f78b11dd37e7cec73e",
-      "title": "European Bonds Surge as Trump Touts Progress on Iran Peace Deal",
-      "summary": "European bonds rallied as oil prices slid on the renewed potential for a peace deal in the Middle East.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-12/european-bonds-surge-as-trump-touts-progress-on-iran-peace-deal",
-      "source": "Bloomberg",
-      "score": 34,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR",
-        "WTI"
-      ],
-      "regions": [
-        "EUROPE",
-        "MIDDLE_EAST"
-      ],
+      "id": "8603c4ecc04a970c83154c0a046e5091",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-42271\" target=\"_blank\">CVE-2026-42271</a> BerriAI LiteLLM Command Injection Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-50751\" target=\"_blank\">CVE-2026-50751</a> Check Point Security Gateway Improper Authentication Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/binding-operational-directive-22-01\">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a> established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the <a href=\"https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf\">BOD 22-01 Fact Sheet</a> for more information.</p>\n<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a> as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "SYSTEMIC",
+      "tickers": [],
+      "regions": [],
       "assets": [
-        "COMMODITIES",
-        "FX"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
           "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
+          "JPY"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "BANKS",
+          "SPY"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-12T08:55:32.819812Z"
+      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
+      "published": "2026-06-12T09:01:32.138240Z"
     },
     {
-      "id": "11481d34fdcc6b0da88ffdd704ff0d76",
-      "title": "Luxury stocks spike on proposed U.S.-Iran peace deal; LVMH up almost 5%",
-      "summary": "Luxury stocks have been hard hit by the Iran war, as the Middle East had been a fast-growing market for the otherwise largely muted sector.",
-      "link": "https://www.cnbc.com/2026/06/12/luxury-stocks-lvmh-hermes-burberry-iran-war-peace-deal.html",
-      "source": "CNBC",
-      "score": 33,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "id": "c908704daad99ab3aeb540f8974a2e79",
+      "title": "Jefferson, Global Economic Developments and the U.S. Economy",
+      "summary": "Speech At the 2026 Bank of Japan-Institute for Monetary and Economic Studies Conference, Tokyo, Japan",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm",
+      "source": "Federal Reserve",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [],
       "regions": [
-        "MIDDLE_EAST"
+        "JAPAN"
       ],
-      "assets": [
-        "EQUITIES"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
           "DXY",
-          "DEFENSE"
+          "JPY"
         ],
         "bearish": [
+          "TLT",
           "SPY",
-          "QQQ",
-          "AIRLINES"
+          "QQQ"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-12T08:55:36.199456Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-12T09:01:00.188655Z"
     },
     {
-      "id": "1a9afc04301b1de74b70d04f436eadb1",
-      "title": "Oil Extends Decline After Trump Says US Nearing Deal With Iran - Bloomberg",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNVi16azBPbHluSVVsbzhubW83N3pkQmp3dWtOa21aZWF3SHVraGJNWEdScjJyRXduMndVb3ZPMmxBMTFNTEFSZ1UxMDEwWUdLU0xRYnhXWWU0N214S2dJam5aT2JRbldTUUFreDhrTERPdjJRa1RCYVdTSnF6d0huRFZrTzNjLVhqblBKMVJrSEFlMVpqVzAwaDVGVW1NeUE?oc=5\" target=\"_blank\">Oil Extends Decline After Trump Says US Nearing Deal With Iran</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVi16azBPbHluSVVsbzhubW83N3pkQmp3dWtOa21aZWF3SHVraGJNWEdScjJyRXduMndVb3ZPMmxBMTFNTEFSZ1UxMDEwWUdLU0xRYnhXWWU0N214S2dJam5aT2JRbldTUUFreDhrTERPdjJRa1RCYVdTSnF6d0huRFZrTzNjLVhqblBKMVJrSEFlMVpqVzAwaDVGVW1NeUE?oc=5",
-      "source": "Google Macro",
-      "score": 17,
+      "id": "bcb6c55e62bb2dc9d382b4042c3a2011",
+      "title": "PeaceGold,\u00a0SigraFi\u00a0sign\u00a0responsible\u00a0artisanal\u00a0gold supply deal\u00a0in\u00a0DRC",
+      "summary": "PeaceGold\u00a0was set up in 2013 with local nonprofit Conflict Resolution\u00a0Center\u00a0to help formalize artisanal mining and reintegrate former combatants into regulated work.",
+      "link": "https://www.mining.com/peacegold-sigrafi-sign-responsible-artisanal-gold-supply-deal-in-drc/",
+      "source": "Mining.com",
+      "score": 19,
       "severity": "HIGH",
-      "regime": "GEO-SHOCK",
+      "regime": "COMMODITIES",
       "tickers": [
-        "WTI"
+        "XAU"
       ],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
+      "regions": [],
       "assets": [
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-12T08:56:08.465109Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-12T09:01:28.753500Z"
     },
     {
-      "id": "4507816de81a6d5ffe527570a7d0f0ba",
-      "title": "California natural gas prices reach historic lows in early 2026",
-      "summary": "Monthly average natural gas spot prices in California reached record lows in the first five months of 2026, dropping to values last recorded in the nationwide low-price market of 2024. Record lows were recorded in Northern California's PG&amp;E Citygate and Southern California's SoCal Border Average; SoCal Citygate prices fell to near-record lows but remained higher than some 2024 prices. Several factors contribute to California's low prices, including above-average inventories and decreasing in-state demand for natural gas-fired electricity.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67744",
-      "source": "EIA",
-      "score": 16,
-      "severity": "HIGH",
+      "id": "c28b9dff9cef5cade8b60009cc2f1461",
+      "title": "Revolut price tag \u2018just a stepping stone\u2019 to a trillion, says Fuse boss",
+      "summary": "<p> <img alt=\"Revolut was founded in 2015.\" src=\"https://www.cityam.com/wp-content/uploads/2026/03/revolutoffice323.jpeg.jpeg?w=1107\" /> </p>Revolut will become a trillion dollar company, one of its most high profile alumni has claimed, with any valuation on the road to that a mere \u201cstepping stone\u201d. The London-born fintech giant &#8211; which currently boasts a valuation of $75bn &#8211; is tipped to launch another secondary share sale in the second half of this <a href=\"https://www.cityam.com/revolut-price-tag-just-a-stepping-stone-to-a-trillion-says-fuse-boss/\">[...]</a>",
+      "link": "https://www.cityam.com/revolut-price-tag-just-a-stepping-stone-to-a-trillion-says-fuse-boss/",
+      "source": "CityAM",
+      "score": 11,
+      "severity": "MEDIUM",
       "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [
+        "UK"
+      ],
       "assets": [
         "AI"
       ],
@@ -335,69 +304,66 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-12T08:56:04.296242Z"
+      "published": "2026-06-12T09:01:19.647213Z"
     },
     {
-      "id": "7fa01f59de8ad32d2fb3f6a6ae8c5fc0",
-      "title": "Flutter to quit London in another blow to UK market",
-      "summary": "Sports betting company cites high costs and low trading levels in its decision",
-      "link": "https://www.ft.com/content/cd2cb99e-83a2-4ec4-a05c-aec76e3e838b",
-      "source": "Financial Times",
-      "score": 8,
+      "id": "6f4042bc9b5260ca259b307035b9a47d",
+      "title": "Ex-Andreessen Horowitz partner slams his old firm, other VCs for 'political infiltration' around AI",
+      "summary": "John O'Farrell, former partner at Andreessen Horowitz, says the PAC Leading the Future, backed by his old firm, is trying to \"intimidate politicians.\"",
+      "link": "https://www.cnbc.com/2026/06/11/ex-a16z-partner-slams-old-firm-othes-political-infiltration-in-ai.html",
+      "source": "CNBC",
+      "score": 10,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "regime": "AI",
       "tickers": [],
-      "regions": [
-        "UK"
+      "regions": [],
+      "assets": [
+        "AI"
       ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-12T08:55:35.264921Z"
-    },
-    {
-      "id": "509dfbef6cbc68bd5dbdd944c847355f",
-      "title": "UK economy contracted 0.1% in April - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxONHJDTkxVUWtCYkZRRG9MQ3JkQ1dMbUhwczhCRU5MYXNuLVFlVVFuaml0clp4RkhLTUU1OGNyYl9DUm1JY2xfVEk5elpoSVZUd0x2b3ZJb1ljNFBYcWRDa0NVQnpOREV0RjJtWEgxS0owUHBhc2VKaENtYy1hY0FEdzNrUUI?oc=5\" target=\"_blank\">UK economy contracted 0.1% in April</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONHJDTkxVUWtCYkZRRG9MQ3JkQ1dMbUhwczhCRU5MYXNuLVFlVVFuaml0clp4RkhLTUU1OGNyYl9DUm1JY2xfVEk5elpoSVZUd0x2b3ZJb1ljNFBYcWRDa0NVQnpOREV0RjJtWEgxS0owUHBhc2VKaENtYy1hY0FEdzNrUUI?oc=5",
-      "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
+          "NVDA",
+          "SEMIS",
           "QQQ"
-        ]
+        ],
+        "bearish": []
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-12T08:56:09.560519Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-12T09:00:59.785051Z"
     },
     {
-      "id": "268e0a1c5a39f5b769c49fe9394875a1",
-      "title": "Trump Regulator Proposes New Rules on What\u2019s Allowed on Prediction Markets - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNSk1kRVZ6eDdSNVBvckV2eWNKazEwazI3b21hc0xvN3FPNUFZdjFoUG1vOHJuME9XTWRYYVhyYmZsRkNQbV9RY1pTeF94Rjg3WDJNUnhpbG9BcEJXZHQ5Z0dvSmVjZTRZaG96UV9TRXo5X0swTjRxR0VFRG9MS2todEZfMjBMWVlmM19mazUzZ05fcVpkUWc?oc=5\" target=\"_blank\">Trump Regulator Proposes New Rules on What\u2019s Allowed on Prediction Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSk1kRVZ6eDdSNVBvckV2eWNKazEwazI3b21hc0xvN3FPNUFZdjFoUG1vOHJuME9XTWRYYVhyYmZsRkNQbV9RY1pTeF94Rjg3WDJNUnhpbG9BcEJXZHQ5Z0dvSmVjZTRZaG96UV9TRXo5X0swTjRxR0VFRG9MS2todEZfMjBMWVlmM19mazUzZ05fcVpkUWc?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
+      "id": "3edf31d00fdc40239f1d2acd815e36c7",
+      "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-12T08:56:10.082160Z"
+      "published": "2026-06-12T09:01:00.036197Z"
+    },
+    {
+      "id": "7839759b9968b70383b5b3cfccbf8310",
+      "title": "Chip Stocks Lead a Market Rebound - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxOd29CblpMLUxBX0pxMS1ENkEtcVNxWHFXZFVWN3pyVW50dW9aMG9IaVFmbFZ4eHVoOHFxQWJtUzZzemhoT3o2MnViYVVoc3JHSFBaNGZzbm5WWXhxSkRoYkR0VmU3dUpobWJnQ0VPM2VUSHFGS0t0RzdjYTZPSkp2WU9oWQ?oc=5\" target=\"_blank\">Chip Stocks Lead a Market Rebound</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOd29CblpMLUxBX0pxMS1ENkEtcVNxWHFXZFVWN3pyVW50dW9aMG9IaVFmbFZ4eHVoOHFxQWJtUzZzemhoT3o2MnViYVVoc3JHSFBaNGZzbm5WWXhxSkRoYkR0VmU3dUpobWJnQ0VPM2VUSHFGS0t0RzdjYTZPSkp2WU9oWQ?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-12T09:01:34.235816Z"
     }
   ]
 }
