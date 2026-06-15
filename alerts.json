@@ -1,22 +1,366 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-15T00:06:14.452511Z",
+  "generated_at": "2026-06-15T00:11:23.358039Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-06-15T00:06:14.452524Z"
+    "critical_alerts": 2,
+    "high_alerts": 4,
+    "last_updated": "2026-06-15T00:11:23.358056Z"
   },
   "top_signals": [
     {
-      "id": "ec253cdde8a86093182c858a7358bfaa",
-      "title": "\u2018Can a machine do this job?\u2019 is the wrong question - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9zZ0lfUldxZ1MzTHBvT09RRlc0bXAxUjJzcVY0YTZpUUM2dVo1Y1RBWGJpN0x5eDR3cGttQ28wRmRHcldXM21WbjhzQWRFLWJOVjhIUm5ZZVh3NXJGVVNqa1VhUTl6Vy1WdWlSTjlBNk8?oc=5\" target=\"_blank\">\u2018Can a machine do this job?\u2019 is the wrong question</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9zZ0lfUldxZ1MzTHBvT09RRlc0bXAxUjJzcVY0YTZpUUM2dVo1Y1RBWGJpN0x5eDR3cGttQ28wRmRHcldXM21WbjhzQWRFLWJOVjhIUm5ZZVh3NXJGVVNqa1VhUTl6Vy1WdWlSTjlBNk8?oc=5",
-      "source": "Google Macro",
+      "id": "a6e50de6f66807cacb41b2cad6fc6a98",
+      "title": "Yen Short Bets Jump to Nine-Year High as Carry Trade Revives",
+      "summary": "Speculators have boosted their bets against the yen to a nine-year high, signaling the revival of the yen carry trade despite intervention risks and a potential rate hike by the Bank of Japan on Tuesday.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-14/yen-short-bets-jump-to-nine-year-high-as-carry-trade-revives",
+      "source": "Bloomberg",
+      "score": 45,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-15T00:10:47.239573Z"
+    },
+    {
+      "id": "c49653f5d1d02434d99fbc0ee23174be",
+      "title": "Japan, Korean Stocks Gain on Strait of Hormuz Reopening Hopes",
+      "summary": "Japanese and Korean stocks gained after oil prices fell as Donald Trump said the US and Iran will sign a peace deal later this week to reopen the Strait of Hormuz.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-14/japanese-stocks-set-to-rise-after-us-iran-peace-deal-reached",
+      "source": "Bloomberg",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "JAPAN",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-15T00:10:47.239500Z"
+    },
+    {
+      "id": "3a1a4041f344951c700aa9f8479086bc",
+      "title": "Bitcoin shoots higher on Iran peace deal, with Strait of Hormuz set to open",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/06/14/bitcoin-shoots-higher-on-iran-deal-with-strait-of-hormuz-set-to-open",
+      "source": "CoinDesk",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-15T00:11:19.594997Z"
+    },
+    {
+      "id": "dad8452839cd3d808f4f9ad84e0f3363",
+      "title": "China\u2019s gold market cools amid ETF outflows: report",
+      "summary": "Chinese gold exchange-traded funds recorded their first monthly outflows since August 2025.",
+      "link": "https://www.mining.com/chinas-gold-market-cools-amid-etf-outflows-report/",
+      "source": "Mining.com",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-15T00:11:17.144241Z"
+    },
+    {
+      "id": "f2790ae5ac0e97fa3ab8933585ae0dca",
+      "title": "Norsk Hydro hit by second aluminum supply crisis",
+      "summary": "The Norwegian multinational faces fresh delivery risks after Qatalum ended a key sales agreement amid ongoing Middle East turmoil.",
+      "link": "https://www.mining.com/norsk-hydro-hit-by-second-aluminum-supply-crisis/",
+      "source": "Mining.com",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-15T00:11:17.144279Z"
+    },
+    {
+      "id": "af038436771d36b0e1230056c3ddc277",
+      "title": "Op-Ed: Scripted to fail \u2014\u00a0Europe\u2019s critical minerals blind spot",
+      "summary": "If Europe finds itself struggling to secure the materials required for the energy transition, the narrative often tends toward simply being outmatched, writes Nicholas Vafeas.",
+      "link": "https://www.mining.com/op-ed-scripted-to-fail-europes-critical-minerals-blind-spot/",
+      "source": "Mining.com",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-15T00:11:17.144016Z"
+    },
+    {
+      "id": "56b2baba33848c92169d822c0f98318d",
+      "title": "A year after Meta tapped Alexandr Wang to build a new AI model, Zuckerberg has to sell it",
+      "summary": "Mark Zuckerberg's mega spending spree began a year ago, when he lured Alexandr Wang to oversee a new AI strategy. The results so far are underwhelming.",
+      "link": "https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-15T00:10:50.863887Z"
+    },
+    {
+      "id": "8546f403a4e1e7a9a39da6d234db4b4d",
+      "title": "JetBlue bets big on Fort Lauderdale, from a new airport lounge to an international gateway",
+      "summary": "JetBlue faces heavy competition from Miami International Airport, an American Airlines stronghold.",
+      "link": "https://www.cnbc.com/2026/06/14/jetblue-fort-lauderdale-airport.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-15T00:10:50.863947Z"
+    },
+    {
+      "id": "6611091d7c19463fe8b75e4c80ed0678",
+      "title": "Mining\u2019s next boom is off the map: Arctic ice, abyssal plains and asteroids",
+      "summary": "Depletion, lower ore grades and higher prices pushing miners to new frontiers. The Arctic is already drawing capital, deep-sea mining is moving into a regulatory fight, and space remains the long-dated option.",
+      "link": "https://www.mining.com/minings-next-boom-is-off-the-map-arctic-ice-abyssal-plains-and-asteroids/",
+      "source": "Mining.com",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-15T00:11:17.144120Z"
+    },
+    {
+      "id": "5e533b6ca561c8332c2dcb286dd24e30",
+      "title": "Triple Flag buys gold stream on Ravenswood mine for $440M",
+      "summary": "The Ravenswood mine is one of the 10 largest gold mines in Australia by ore reserves.",
+      "link": "https://www.mining.com/triple-flag-buys-gold-stream-on-ravenswood-mine-for-440m/",
+      "source": "Mining.com",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-15T00:11:17.144197Z"
+    },
+    {
+      "id": "1ec4cd65976f344b40f00ff5ae3823c2",
+      "title": "Silver stockpile drawdown risk is misunderstood",
+      "summary": "The drawdown has reinforced a broader narrative of tightening supply.",
+      "link": "https://www.mining.com/silver-stockpile-drawdown-risk-is-misunderstood/",
+      "source": "Mining.com",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "SILVER"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-15T00:11:17.144053Z"
+    },
+    {
+      "id": "bab44f02022e42a3cf4a0dcc567690a7",
+      "title": "Baffinland gets $110M loan, court-approved extension",
+      "summary": "The Ontario Superior Court of Justice gave Baffinland immediate access to $110 million.",
+      "link": "https://www.mining.com/baffinland-gets-110m-loan-court-approved-extension/",
+      "source": "Mining.com",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -25,16 +369,360 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-15T00:06:13.383301Z"
+      "published": "2026-06-15T00:11:17.143945Z"
     }
   ],
   "alerts": [
     {
-      "id": "ec253cdde8a86093182c858a7358bfaa",
-      "title": "\u2018Can a machine do this job?\u2019 is the wrong question - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9zZ0lfUldxZ1MzTHBvT09RRlc0bXAxUjJzcVY0YTZpUUM2dVo1Y1RBWGJpN0x5eDR3cGttQ28wRmRHcldXM21WbjhzQWRFLWJOVjhIUm5ZZVh3NXJGVVNqa1VhUTl6Vy1WdWlSTjlBNk8?oc=5\" target=\"_blank\">\u2018Can a machine do this job?\u2019 is the wrong question</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9zZ0lfUldxZ1MzTHBvT09RRlc0bXAxUjJzcVY0YTZpUUM2dVo1Y1RBWGJpN0x5eDR3cGttQ28wRmRHcldXM21WbjhzQWRFLWJOVjhIUm5ZZVh3NXJGVVNqa1VhUTl6Vy1WdWlSTjlBNk8?oc=5",
-      "source": "Google Macro",
+      "id": "a6e50de6f66807cacb41b2cad6fc6a98",
+      "title": "Yen Short Bets Jump to Nine-Year High as Carry Trade Revives",
+      "summary": "Speculators have boosted their bets against the yen to a nine-year high, signaling the revival of the yen carry trade despite intervention risks and a potential rate hike by the Bank of Japan on Tuesday.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-14/yen-short-bets-jump-to-nine-year-high-as-carry-trade-revives",
+      "source": "Bloomberg",
+      "score": 45,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-15T00:10:47.239573Z"
+    },
+    {
+      "id": "c49653f5d1d02434d99fbc0ee23174be",
+      "title": "Japan, Korean Stocks Gain on Strait of Hormuz Reopening Hopes",
+      "summary": "Japanese and Korean stocks gained after oil prices fell as Donald Trump said the US and Iran will sign a peace deal later this week to reopen the Strait of Hormuz.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-14/japanese-stocks-set-to-rise-after-us-iran-peace-deal-reached",
+      "source": "Bloomberg",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "JAPAN",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-15T00:10:47.239500Z"
+    },
+    {
+      "id": "3a1a4041f344951c700aa9f8479086bc",
+      "title": "Bitcoin shoots higher on Iran peace deal, with Strait of Hormuz set to open",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/06/14/bitcoin-shoots-higher-on-iran-deal-with-strait-of-hormuz-set-to-open",
+      "source": "CoinDesk",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-15T00:11:19.594997Z"
+    },
+    {
+      "id": "dad8452839cd3d808f4f9ad84e0f3363",
+      "title": "China\u2019s gold market cools amid ETF outflows: report",
+      "summary": "Chinese gold exchange-traded funds recorded their first monthly outflows since August 2025.",
+      "link": "https://www.mining.com/chinas-gold-market-cools-amid-etf-outflows-report/",
+      "source": "Mining.com",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-15T00:11:17.144241Z"
+    },
+    {
+      "id": "f2790ae5ac0e97fa3ab8933585ae0dca",
+      "title": "Norsk Hydro hit by second aluminum supply crisis",
+      "summary": "The Norwegian multinational faces fresh delivery risks after Qatalum ended a key sales agreement amid ongoing Middle East turmoil.",
+      "link": "https://www.mining.com/norsk-hydro-hit-by-second-aluminum-supply-crisis/",
+      "source": "Mining.com",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-15T00:11:17.144279Z"
+    },
+    {
+      "id": "af038436771d36b0e1230056c3ddc277",
+      "title": "Op-Ed: Scripted to fail \u2014\u00a0Europe\u2019s critical minerals blind spot",
+      "summary": "If Europe finds itself struggling to secure the materials required for the energy transition, the narrative often tends toward simply being outmatched, writes Nicholas Vafeas.",
+      "link": "https://www.mining.com/op-ed-scripted-to-fail-europes-critical-minerals-blind-spot/",
+      "source": "Mining.com",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-15T00:11:17.144016Z"
+    },
+    {
+      "id": "56b2baba33848c92169d822c0f98318d",
+      "title": "A year after Meta tapped Alexandr Wang to build a new AI model, Zuckerberg has to sell it",
+      "summary": "Mark Zuckerberg's mega spending spree began a year ago, when he lured Alexandr Wang to oversee a new AI strategy. The results so far are underwhelming.",
+      "link": "https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-15T00:10:50.863887Z"
+    },
+    {
+      "id": "8546f403a4e1e7a9a39da6d234db4b4d",
+      "title": "JetBlue bets big on Fort Lauderdale, from a new airport lounge to an international gateway",
+      "summary": "JetBlue faces heavy competition from Miami International Airport, an American Airlines stronghold.",
+      "link": "https://www.cnbc.com/2026/06/14/jetblue-fort-lauderdale-airport.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-15T00:10:50.863947Z"
+    },
+    {
+      "id": "6611091d7c19463fe8b75e4c80ed0678",
+      "title": "Mining\u2019s next boom is off the map: Arctic ice, abyssal plains and asteroids",
+      "summary": "Depletion, lower ore grades and higher prices pushing miners to new frontiers. The Arctic is already drawing capital, deep-sea mining is moving into a regulatory fight, and space remains the long-dated option.",
+      "link": "https://www.mining.com/minings-next-boom-is-off-the-map-arctic-ice-abyssal-plains-and-asteroids/",
+      "source": "Mining.com",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-15T00:11:17.144120Z"
+    },
+    {
+      "id": "5e533b6ca561c8332c2dcb286dd24e30",
+      "title": "Triple Flag buys gold stream on Ravenswood mine for $440M",
+      "summary": "The Ravenswood mine is one of the 10 largest gold mines in Australia by ore reserves.",
+      "link": "https://www.mining.com/triple-flag-buys-gold-stream-on-ravenswood-mine-for-440m/",
+      "source": "Mining.com",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-15T00:11:17.144197Z"
+    },
+    {
+      "id": "1ec4cd65976f344b40f00ff5ae3823c2",
+      "title": "Silver stockpile drawdown risk is misunderstood",
+      "summary": "The drawdown has reinforced a broader narrative of tightening supply.",
+      "link": "https://www.mining.com/silver-stockpile-drawdown-risk-is-misunderstood/",
+      "source": "Mining.com",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "SILVER"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-15T00:11:17.144053Z"
+    },
+    {
+      "id": "bab44f02022e42a3cf4a0dcc567690a7",
+      "title": "Baffinland gets $110M loan, court-approved extension",
+      "summary": "The Ontario Superior Court of Justice gave Baffinland immediate access to $110 million.",
+      "link": "https://www.mining.com/baffinland-gets-110m-loan-court-approved-extension/",
+      "source": "Mining.com",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -43,7 +731,23 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-15T00:06:13.383301Z"
+      "published": "2026-06-15T00:11:17.143945Z"
+    },
+    {
+      "id": "56b6fee437766d120045aec48b6b684a",
+      "title": "Hertha Metals targets rare earth magnet supply gap with Texas high-purity iron plant",
+      "summary": "Company plans to break ground this summer on a plant that will produce 10,000 tonnes per year of high-purity iron used in permanent magnets.",
+      "link": "https://www.mining.com/hertha-metals-targets-rare-earth-magnet-supply-gap-with-texas-high-purity-iron-plant/",
+      "source": "Mining.com",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-15T00:11:17.144161Z"
     }
   ]
 }
