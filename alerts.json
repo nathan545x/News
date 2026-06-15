@@ -1,58 +1,153 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-15T02:46:21.824502Z",
+  "generated_at": "2026-06-15T02:51:17.007142Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 1,
-    "last_updated": "2026-06-15T02:46:21.824518Z"
+    "critical_alerts": 0,
+    "high_alerts": 5,
+    "last_updated": "2026-06-15T02:51:17.007160Z"
   },
   "top_signals": [
     {
-      "id": "9129c6d8fabb8d4c5bb08793fa3e1562",
-      "title": "Policy paper: HM Treasury Market Engagement Group",
-      "summary": "A senior\u2011level forum for financial market participants to share their views on UK-related developments in financial markets, including gilts and sterling, and broader market themes with the Chancellor of the Exchequer.",
-      "link": "https://www.gov.uk/government/publications/hm-treasury-market-engagement-group",
-      "source": "HM Treasury",
-      "score": 33,
-      "severity": "CRITICAL",
-      "regime": "RATES",
+      "id": "0a07548667b2b7fa156a4ce1bf6a735d",
+      "title": "UK forces board sanctioned Russian shadow fleet oil tanker",
+      "summary": "The U.K.'s Ministry of Defence says the SMYRTOS was in the English Channel and will be held off the south coast during investigations.",
+      "link": "https://www.cnbc.com/2026/06/14/uk-forces-board-sanctioned-russian-shadow-fleet-oil-tanker.html",
+      "source": "CNBC",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
       "tickers": [
-        "GBP",
-        "TLT",
-        "UK_GILTS"
+        "WTI"
       ],
       "regions": [
+        "RUSSIA",
         "UK"
       ],
       "assets": [
-        "FX",
-        "RATES"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-15T02:46:08.955698Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-15T02:50:46.941955Z"
     },
     {
-      "id": "66135738466eca2c949737c4118824a5",
-      "title": "The Funding: Is the bitcoin bottom in? Crypto funds weigh in",
-      "summary": "<p>Crypto funds share their outlook on bitcoin, the biggest risks ahead, and where they see the best risk-reward opportunities today.</p>",
-      "link": "https://www.theblock.co/post/404714/bitcoin-bottom-crypto-funds-outlook?utm_source=rss&utm_medium=rss",
+      "id": "178ea876c4265552d6926d40f9e3b670",
+      "title": "Trump veers toward exit in Iran war but risks loom - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQcEZVelNtYmlvYmYzR3RtY1ViZ0EzNzU2LTdEcjctWGo0WnhBejRXVG5aVXNBT2VGQWdwWHhNdW90djhTV0VHN0FmcmZjZVJSYThHVzhPcTJ6TDlEdV9NSElZbk9fVWNEN3VlazRLeWtTaXEwb3Z4M1VMeTRTOGRCMWJ3MFByc1dmamxmVklVWVRYUQ?oc=5\" target=\"_blank\">Trump veers toward exit in Iran war but risks loom</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcEZVelNtYmlvYmYzR3RtY1ViZ0EzNzU2LTdEcjctWGo0WnhBejRXVG5aVXNBT2VGQWdwWHhNdW90djhTV0VHN0FmcmZjZVJSYThHVzhPcTJ6TDlEdV9NSElZbk9fVWNEN3VlazRLeWtTaXEwb3Z4M1VMeTRTOGRCMWJ3MFByc1dmamxmVklVWVRYUQ?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-15T02:51:15.395523Z"
+    },
+    {
+      "id": "46aa1aaa7474a2b80f31b10580596a44",
+      "title": "Gold gains over 1% after US, Iran reach peace deal - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQdDRBZ2VtTERRLW5oS1J0MVZvWlJBTkNiNFJpcGJ2RmM1bmYwQXMtMWI1dlFVb1ptZGpNYURkZ0VGaFRZeFNPZ3NMZkVRMzZTV2hfYTlXOFFQMUpDQ0c5bnFjeXR5bDlXYlRXVFlvR3NUNkRBNklJT2wwREhMN2I4aXhNMHp4SnBoS1lnR1NjaDhvcUl1R2pULW5PbE4?oc=5\" target=\"_blank\">Gold gains over 1% after US, Iran reach peace deal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdDRBZ2VtTERRLW5oS1J0MVZvWlJBTkNiNFJpcGJ2RmM1bmYwQXMtMWI1dlFVb1ptZGpNYURkZ0VGaFRZeFNPZ3NMZkVRMzZTV2hfYTlXOFFQMUpDQ0c5bnFjeXR5bDlXYlRXVFlvR3NUNkRBNklJT2wwREhMN2I4aXhNMHp4SnBoS1lnR1NjaDhvcUl1R2pULW5PbE4?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-15T02:51:15.395636Z"
+    },
+    {
+      "id": "b466093cc0608246946cf3de0411add3",
+      "title": "US-Iran Peace Deal May Keep Rally in India Stocks, Rupee Going",
+      "summary": "The rupee has emerged as Asia\u2019s best performer over the past month.",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-06-15/india-rupee-nifty-to-extend-gains-as-hormuz-set-to-open-on-us-iran-peace-deal",
+      "source": "Bloomberg",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-15T02:50:43.142983Z"
+    },
+    {
+      "id": "3e2cbafb3c4b9921274aff843b057e3d",
+      "title": "Bitcoin mining difficulty drops 10% in second-largest negative adjustment of 2026",
+      "summary": "<p>The cut hands surviving miners roughly 11% more bitcoin per unit of active hashrate, but all-in production economics remain underwater at current prices. </p>",
+      "link": "https://www.theblock.co/post/404702/bitcoin-mining-difficulty-drops-10-in-second-largest-negative-adjustment-of-2026?utm_source=rss&utm_medium=rss",
       "source": "The Block",
-      "score": 22,
+      "score": 16,
       "severity": "HIGH",
       "regime": "CRYPTO",
       "tickers": [
@@ -60,6 +155,7 @@
       ],
       "regions": [],
       "assets": [
+        "AI",
         "CRYPTO"
       ],
       "market_impact": {
@@ -72,96 +168,39 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-06-15T02:46:18.519742Z"
+      "published": "2026-06-15T02:51:13.666001Z"
     },
     {
-      "id": "8052bf698aa9408c8124802eea8e1f4e",
-      "title": "Frank Elderson: Interview with Het Financieele Dagblad",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260610~439aa97519.en.html",
-      "source": "ECB",
-      "score": 10,
+      "id": "33682fe9deece5ecfe244cef8ad5a82b",
+      "title": "Shipowners Seek Clarity on Hormuz Deal as 600 Vessels Eye Exit",
+      "summary": "A deal that could reopen the Strait of Hormuz within days has been met with caution among shipowners and traders, with many saying they would wait for more details in order to assess whether safe transits are possible after months of false starts.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-15/shipowners-seek-clarity-on-hormuz-deal-as-600-vessels-eye-exit",
+      "source": "Bloomberg",
+      "score": 13,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-15T02:46:02.082335Z"
-    },
-    {
-      "id": "b0c93e3601632f89c7e7514c7cf4278c",
-      "title": "Correspondence: DAO 04/26 Tax Arrangements",
-      "summary": "\u2018Dear Accounting Officer\u2019 letters provide advice on accountability, regularity, propriety, value for money and annual accounting exercises.",
-      "link": "https://www.gov.uk/government/publications/dao-0426-tax-arrangements",
-      "source": "HM Treasury",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-15T02:46:08.955754Z"
-    },
-    {
-      "id": "9e34f7544861cb9ba5d6cb4ce7f2b28a",
-      "title": "Japan\u2019s top bond-trading regional bank buys JGBs after decade break",
-      "summary": "Iyogin Holdings started testing the $7 trillion market in April with small purchases of superlong bonds, according to its CEO.",
-      "link": "https://www.japantimes.co.jp/business/2026/06/15/companies/japan-regional-bank-jgb-buying/",
-      "source": "Japan Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "JGB"
-      ],
-      "regions": [
-        "JAPAN"
-      ],
       "assets": [
-        "RATES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
+          "NVDA",
+          "SEMIS",
           "QQQ"
-        ]
+        ],
+        "bearish": []
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-15T02:46:11.986971Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-15T02:50:43.143061Z"
     },
     {
-      "id": "d45d52388c5b595fad7acc700244fd09",
-      "title": "Mizuho Bank to back Japan-South Korea firms' energy procurement projects",
-      "summary": "",
-      "link": "https://asia.nikkei.com/editor-s-picks/interview/mizuho-bank-to-back-japan-south-korea-firms-energy-procurement-projects2",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-15T02:46:11.783257Z"
-    },
-    {
-      "id": "e633d52e3b96bfc14119a58c895841cb",
-      "title": "The search for Osamu Dazai\u2019s memory in his hometown Mitaka",
-      "summary": "The novelist's hometown honors his memory, but with many buildings demolished, a pilgrimage is an exercise in imagination.",
-      "link": "https://www.japantimes.co.jp/culture/2026/06/15/books/osamu-dazai-mitaka-spots-to-visit/",
-      "source": "Japan Times",
+      "id": "1970f78a78dab7a7b6a3459258f43fda",
+      "title": "FBI disrupts massive AI-powered phishing service using a million URLs",
+      "summary": "In a coordinated effort, the FBI, working with Google and Black Lotus Labs, has dismantled a massive Chinese phishing-as-a-service operation called Outsider Enterprise with thousands of phishing websites used to steal credit card data and passwords. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
+      "source": "BleepingComputer",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
@@ -179,74 +218,163 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-15T02:46:11.986914Z"
+      "published": "2026-06-15T02:51:13.826072Z"
     },
     {
-      "id": "5e61325f88859b4dd06bccf6c4f10276",
-      "title": "Commission proposes \u20ac540 million in financial relief and other supports for farmers facing fertiliser crisis",
-      "summary": "European Commission Press release Brussels, 12 Jun 2026 Today, the European Commission presents measures to help farmers facing sharply rising fertiliser costs and to support Europe's food security, delivering on the recently announced Fertiliser Action Plan.",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1348",
-      "source": "European Commission",
+      "id": "fea442c0c4fa0543879221d4210efb9f",
+      "title": "Vekic beats Raducanu in Queen\u2019s Club final to end title drought",
+      "summary": "Raducanu was hoping to win her first title since her stunning U.S. Open victory as a teenage qualifier in 2021.",
+      "link": "https://www.japantimes.co.jp/sports/2026/06/15/tennis/vekic-raducanu-queens-club/",
+      "source": "Japan Times",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "FX"
-      ],
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-15T02:46:06.711532Z"
+      "published": "2026-06-15T02:51:04.427039Z"
     }
   ],
   "alerts": [
     {
-      "id": "9129c6d8fabb8d4c5bb08793fa3e1562",
-      "title": "Policy paper: HM Treasury Market Engagement Group",
-      "summary": "A senior\u2011level forum for financial market participants to share their views on UK-related developments in financial markets, including gilts and sterling, and broader market themes with the Chancellor of the Exchequer.",
-      "link": "https://www.gov.uk/government/publications/hm-treasury-market-engagement-group",
-      "source": "HM Treasury",
-      "score": 33,
-      "severity": "CRITICAL",
-      "regime": "RATES",
+      "id": "0a07548667b2b7fa156a4ce1bf6a735d",
+      "title": "UK forces board sanctioned Russian shadow fleet oil tanker",
+      "summary": "The U.K.'s Ministry of Defence says the SMYRTOS was in the English Channel and will be held off the south coast during investigations.",
+      "link": "https://www.cnbc.com/2026/06/14/uk-forces-board-sanctioned-russian-shadow-fleet-oil-tanker.html",
+      "source": "CNBC",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
       "tickers": [
-        "GBP",
-        "TLT",
-        "UK_GILTS"
+        "WTI"
       ],
       "regions": [
+        "RUSSIA",
         "UK"
       ],
       "assets": [
-        "FX",
-        "RATES"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-15T02:46:08.955698Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-15T02:50:46.941955Z"
     },
     {
-      "id": "66135738466eca2c949737c4118824a5",
-      "title": "The Funding: Is the bitcoin bottom in? Crypto funds weigh in",
-      "summary": "<p>Crypto funds share their outlook on bitcoin, the biggest risks ahead, and where they see the best risk-reward opportunities today.</p>",
-      "link": "https://www.theblock.co/post/404714/bitcoin-bottom-crypto-funds-outlook?utm_source=rss&utm_medium=rss",
+      "id": "178ea876c4265552d6926d40f9e3b670",
+      "title": "Trump veers toward exit in Iran war but risks loom - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQcEZVelNtYmlvYmYzR3RtY1ViZ0EzNzU2LTdEcjctWGo0WnhBejRXVG5aVXNBT2VGQWdwWHhNdW90djhTV0VHN0FmcmZjZVJSYThHVzhPcTJ6TDlEdV9NSElZbk9fVWNEN3VlazRLeWtTaXEwb3Z4M1VMeTRTOGRCMWJ3MFByc1dmamxmVklVWVRYUQ?oc=5\" target=\"_blank\">Trump veers toward exit in Iran war but risks loom</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcEZVelNtYmlvYmYzR3RtY1ViZ0EzNzU2LTdEcjctWGo0WnhBejRXVG5aVXNBT2VGQWdwWHhNdW90djhTV0VHN0FmcmZjZVJSYThHVzhPcTJ6TDlEdV9NSElZbk9fVWNEN3VlazRLeWtTaXEwb3Z4M1VMeTRTOGRCMWJ3MFByc1dmamxmVklVWVRYUQ?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-15T02:51:15.395523Z"
+    },
+    {
+      "id": "46aa1aaa7474a2b80f31b10580596a44",
+      "title": "Gold gains over 1% after US, Iran reach peace deal - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQdDRBZ2VtTERRLW5oS1J0MVZvWlJBTkNiNFJpcGJ2RmM1bmYwQXMtMWI1dlFVb1ptZGpNYURkZ0VGaFRZeFNPZ3NMZkVRMzZTV2hfYTlXOFFQMUpDQ0c5bnFjeXR5bDlXYlRXVFlvR3NUNkRBNklJT2wwREhMN2I4aXhNMHp4SnBoS1lnR1NjaDhvcUl1R2pULW5PbE4?oc=5\" target=\"_blank\">Gold gains over 1% after US, Iran reach peace deal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdDRBZ2VtTERRLW5oS1J0MVZvWlJBTkNiNFJpcGJ2RmM1bmYwQXMtMWI1dlFVb1ptZGpNYURkZ0VGaFRZeFNPZ3NMZkVRMzZTV2hfYTlXOFFQMUpDQ0c5bnFjeXR5bDlXYlRXVFlvR3NUNkRBNklJT2wwREhMN2I4aXhNMHp4SnBoS1lnR1NjaDhvcUl1R2pULW5PbE4?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-15T02:51:15.395636Z"
+    },
+    {
+      "id": "b466093cc0608246946cf3de0411add3",
+      "title": "US-Iran Peace Deal May Keep Rally in India Stocks, Rupee Going",
+      "summary": "The rupee has emerged as Asia\u2019s best performer over the past month.",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-06-15/india-rupee-nifty-to-extend-gains-as-hormuz-set-to-open-on-us-iran-peace-deal",
+      "source": "Bloomberg",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-15T02:50:43.142983Z"
+    },
+    {
+      "id": "3e2cbafb3c4b9921274aff843b057e3d",
+      "title": "Bitcoin mining difficulty drops 10% in second-largest negative adjustment of 2026",
+      "summary": "<p>The cut hands surviving miners roughly 11% more bitcoin per unit of active hashrate, but all-in production economics remain underwater at current prices. </p>",
+      "link": "https://www.theblock.co/post/404702/bitcoin-mining-difficulty-drops-10-in-second-largest-negative-adjustment-of-2026?utm_source=rss&utm_medium=rss",
       "source": "The Block",
-      "score": 22,
+      "score": 16,
       "severity": "HIGH",
       "regime": "CRYPTO",
       "tickers": [
@@ -254,6 +382,7 @@
       ],
       "regions": [],
       "assets": [
+        "AI",
         "CRYPTO"
       ],
       "market_impact": {
@@ -266,96 +395,39 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-06-15T02:46:18.519742Z"
+      "published": "2026-06-15T02:51:13.666001Z"
     },
     {
-      "id": "8052bf698aa9408c8124802eea8e1f4e",
-      "title": "Frank Elderson: Interview with Het Financieele Dagblad",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260610~439aa97519.en.html",
-      "source": "ECB",
-      "score": 10,
+      "id": "33682fe9deece5ecfe244cef8ad5a82b",
+      "title": "Shipowners Seek Clarity on Hormuz Deal as 600 Vessels Eye Exit",
+      "summary": "A deal that could reopen the Strait of Hormuz within days has been met with caution among shipowners and traders, with many saying they would wait for more details in order to assess whether safe transits are possible after months of false starts.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-15/shipowners-seek-clarity-on-hormuz-deal-as-600-vessels-eye-exit",
+      "source": "Bloomberg",
+      "score": 13,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-15T02:46:02.082335Z"
-    },
-    {
-      "id": "b0c93e3601632f89c7e7514c7cf4278c",
-      "title": "Correspondence: DAO 04/26 Tax Arrangements",
-      "summary": "\u2018Dear Accounting Officer\u2019 letters provide advice on accountability, regularity, propriety, value for money and annual accounting exercises.",
-      "link": "https://www.gov.uk/government/publications/dao-0426-tax-arrangements",
-      "source": "HM Treasury",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-15T02:46:08.955754Z"
-    },
-    {
-      "id": "9e34f7544861cb9ba5d6cb4ce7f2b28a",
-      "title": "Japan\u2019s top bond-trading regional bank buys JGBs after decade break",
-      "summary": "Iyogin Holdings started testing the $7 trillion market in April with small purchases of superlong bonds, according to its CEO.",
-      "link": "https://www.japantimes.co.jp/business/2026/06/15/companies/japan-regional-bank-jgb-buying/",
-      "source": "Japan Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "JGB"
-      ],
-      "regions": [
-        "JAPAN"
-      ],
       "assets": [
-        "RATES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
+          "NVDA",
+          "SEMIS",
           "QQQ"
-        ]
+        ],
+        "bearish": []
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-15T02:46:11.986971Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-15T02:50:43.143061Z"
     },
     {
-      "id": "d45d52388c5b595fad7acc700244fd09",
-      "title": "Mizuho Bank to back Japan-South Korea firms' energy procurement projects",
-      "summary": "",
-      "link": "https://asia.nikkei.com/editor-s-picks/interview/mizuho-bank-to-back-japan-south-korea-firms-energy-procurement-projects2",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-15T02:46:11.783257Z"
-    },
-    {
-      "id": "e633d52e3b96bfc14119a58c895841cb",
-      "title": "The search for Osamu Dazai\u2019s memory in his hometown Mitaka",
-      "summary": "The novelist's hometown honors his memory, but with many buildings demolished, a pilgrimage is an exercise in imagination.",
-      "link": "https://www.japantimes.co.jp/culture/2026/06/15/books/osamu-dazai-mitaka-spots-to-visit/",
-      "source": "Japan Times",
+      "id": "1970f78a78dab7a7b6a3459258f43fda",
+      "title": "FBI disrupts massive AI-powered phishing service using a million URLs",
+      "summary": "In a coordinated effort, the FBI, working with Google and Black Lotus Labs, has dismantled a massive Chinese phishing-as-a-service operation called Outsider Enterprise with thousands of phishing websites used to steal credit card data and passwords. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
+      "source": "BleepingComputer",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
@@ -373,29 +445,23 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-15T02:46:11.986914Z"
+      "published": "2026-06-15T02:51:13.826072Z"
     },
     {
-      "id": "5e61325f88859b4dd06bccf6c4f10276",
-      "title": "Commission proposes \u20ac540 million in financial relief and other supports for farmers facing fertiliser crisis",
-      "summary": "European Commission Press release Brussels, 12 Jun 2026 Today, the European Commission presents measures to help farmers facing sharply rising fertiliser costs and to support Europe's food security, delivering on the recently announced Fertiliser Action Plan.",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1348",
-      "source": "European Commission",
+      "id": "fea442c0c4fa0543879221d4210efb9f",
+      "title": "Vekic beats Raducanu in Queen\u2019s Club final to end title drought",
+      "summary": "Raducanu was hoping to win her first title since her stunning U.S. Open victory as a teenage qualifier in 2021.",
+      "link": "https://www.japantimes.co.jp/sports/2026/06/15/tennis/vekic-raducanu-queens-club/",
+      "source": "Japan Times",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "FX"
-      ],
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-15T02:46:06.711532Z"
+      "published": "2026-06-15T02:51:04.427039Z"
     }
   ]
 }
