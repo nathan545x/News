@@ -1,65 +1,125 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-16T20:11:43.875245Z",
+  "generated_at": "2026-06-16T20:16:36.032546Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
-    "high_alerts": 2,
-    "last_updated": "2026-06-16T20:11:43.875263Z"
+    "high_alerts": 0,
+    "last_updated": "2026-06-16T20:16:36.032562Z"
   },
   "top_signals": [
     {
-      "id": "3b8035f306040753568dab905e8d4b7d",
-      "title": "Nasdaq 100 Falls 2% as Chipmakers Halt Solid Run: Markets Wrap",
-      "summary": "A rally that sent the US stock benchmark to the brink of a record paused before the first Federal Reserve rate decision under Kevin Warsh, with a another slide in oil prices driving bond yields lower.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
-      "source": "Bloomberg",
-      "score": 39,
+      "id": "006b2b0d84cdb7a077328ac18e240447",
+      "title": "Trump signals he could send details of Iran deal to Congress",
+      "summary": "The peace deal announced Sunday is meeting lukewarm reactions from Congress, including some allies of President Donald Trump.",
+      "link": "https://www.cnbc.com/2026/06/16/trump-iran-deal-congress.html",
+      "source": "CNBC",
+      "score": 28,
       "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "QQQ",
-        "WTI"
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
       ],
-      "regions": [],
       "assets": [
-        "COMMODITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-16T20:10:57.492336Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-16T20:16:03.985380Z"
     },
     {
-      "id": "168bc58f67fdd89bd14e9c15adcfc1a5",
-      "title": "U.S. jet fuel production rises after prices doubled in March",
-      "summary": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and supply concerns, particularly in Europe and Asia, which previously imported much of their jet fuel supply from the Persian Gulf, have driven up jet fuel prices. Much of the increased U.S. jet fuel production is being exported, as domestic inventories remain above average.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67764",
-      "source": "EIA",
-      "score": 18,
-      "severity": "HIGH",
+      "id": "dc45c84f3663da654b0064b286c946d4",
+      "title": "SpaceX Overtakes Amazon in Value as Post-IPO Rally Reaches 49%",
+      "summary": "SpaceX jumped for a third straight day on Tuesday, overtaking Amazon.com Inc. in value to become the fifth-largest stock in the world.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-16/spacex-spcx-stock-set-for-more-than-50-jump-in-just-three-sessions",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-16T20:16:00.276107Z"
+    },
+    {
+      "id": "075545177f6d05591a1503f064d1e42c",
+      "title": "Carney offers Italy priority access to Canada\u2019s critical minerals",
+      "summary": "Canada and Italy deepen ties on critical minerals, defence and Ukraine support during G7 talks in France.",
+      "link": "https://www.mining.com/carney-offers-italy-priority-access-to-minerals/",
+      "source": "Mining.com",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "FRANCE",
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-16T20:16:29.893095Z"
+    },
+    {
+      "id": "4559b3a4c9bc422ed4e562a1596f35c0",
+      "title": "Poland bets on copper boom as Lumina eyes new mines",
+      "summary": "New projects could double Poland\u2019s copper output and strengthen ambitions to build a European metals hub.",
+      "link": "https://www.mining.com/poland-bets-on-copper-boom-as-lumina-eyes-new-mines/",
+      "source": "Mining.com",
+      "score": 7,
+      "severity": "LOW",
       "regime": "COMMODITIES",
       "tickers": [
-        "EUR",
-        "WTI"
+        "COPPER",
+        "EUR"
       ],
       "regions": [
         "EUROPE"
       ],
       "assets": [
-        "AI",
         "COMMODITIES",
         "FX"
       ],
@@ -75,277 +135,119 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-16T20:11:36.073930Z"
-    },
-    {
-      "id": "2ffaff7f218b1a33d803d13f0ee62b1f",
-      "title": "Bipartisan senators push Treasury to uphold states\u2019 authorities under the GENIUS Act",
-      "summary": "<p>A group of bipartisan senators pressed the Treasury Department to preserve states' ability to regulate stablecoins.</p>",
-      "link": "https://www.theblock.co/post/405018/bipartisan-senators-push-treasury-uphold-states-authorities-under-genius-act?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-16T20:11:39.966123Z"
-    },
-    {
-      "id": "5741169d0197099931432b4dc2c24ba6",
-      "title": "Truckload market\u2019s upswing ushers in driver pay hikes",
-      "summary": "<p>Some fleets are implementing pay raises for drivers early in the truckload market\u2019s recovery.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/truckload-markets-upswing-ushers-in-driver-pay-hikes\">Truckload market\u2019s upswing ushers in driver pay hikes</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/truckload-markets-upswing-ushers-in-driver-pay-hikes",
-      "source": "FreightWaves",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-16T20:11:37.192803Z"
-    },
-    {
-      "id": "6c8d56e38d3504ee54475b64bcd10208",
-      "title": "How Japan Could Co-Produce the Navy\u2019s Future Fleet",
-      "summary": "<p>America&#8217;s defense industrial base cannot build the Navy out of the threat it faces. Decades of industry consolidation, persistent resource shortages, and inconsistent demand signals have delayed the production of critical vessels and munitions. With production bottlenecks stacking up, the Navy may have no choice but to let its allies do some of the building.Both the National Defense Strategy and Navy Warfighting Instructions highlight how mobilizing allies can field more forces to the mutual benefit of the United States and its strategic partners. Likewise, the latest U.S. Navy Shipbuilding Plan stresses the importance of allied investment and production.The Trump administration</p>\n<p>The post <a href=\"https://warontherocks.com/cogs-of-war/how-japan-could-co-produce-the-navys-future-fleet/\">How Japan Could Co-Produce the Navy\u2019s Future Fleet</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
-      "link": "https://warontherocks.com/cogs-of-war/how-japan-could-co-produce-the-navys-future-fleet/",
-      "source": "War on the Rocks",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "JAPAN",
-        "US"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-16T20:11:38.594782Z"
-    },
-    {
-      "id": "7be5c8e79f0b44bf23c9c59f9ef305de",
-      "title": "Banknote imagery expert panel minutes \u2013 10 March 2026",
-      "summary": "Meeting held 10 March 2026",
-      "link": "https://www.bankofengland.co.uk/minutes/2026/march/banknote-expert-minutes-10-march",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-16T20:11:20.980760Z"
-    },
-    {
-      "id": "82acc20e7b7b224b2756266b74c063d2",
-      "title": "Banknote imagery expert panel minutes \u2013 15 April 2026",
-      "summary": "Meeting held 15 April 2026",
-      "link": "https://www.bankofengland.co.uk/minutes/2026/april/banknote-advisory-minutes-15-april",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-16T20:11:20.980798Z"
-    },
-    {
-      "id": "8766c6694a47040e4f43646c922f6e29",
-      "title": "Banknote imagery expert panel minutes \u2013 24 April 2026",
-      "summary": "Meeting held 24 April 2026",
-      "link": "https://www.bankofengland.co.uk/minutes/2026/april/banknote-expert-minutes-24-april",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-16T20:11:20.980827Z"
-    },
-    {
-      "id": "7b0c94d52a63ee786bd0151599535505",
-      "title": "Banknote imagery advisory group minutes \u2013 29 April 2026",
-      "summary": "Meeting held 29 April 2026",
-      "link": "https://www.bankofengland.co.uk/minutes/2026/april/banknote-advisory-minutes-29-april",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-16T20:11:20.980860Z"
-    },
-    {
-      "id": "00d1cbb708d6df324f89dd18ffaa2e23",
-      "title": "Trump says Iran deal to be public soon and will rule out nuclear weapon for Tehran - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQOE5uY1JidUpoS0Q1eDhUQ2RLMDJKSnppMV9RTkFQRGhqQ1ctT2VZMi16YUJIZjBzaFlWU2ZqOEdDZ3NvaUtUVXNHTWo1Q0xYcFItWHlZdVlrSVE5SDFOdmlfS1I3ZE5tZnlLVmVuQjNkbGhjN2pjZVdqVnZ2RTBia0xESzJqUDVqZV9hby1kbEZVTzM2WGktc2tLazFVVXVsVkJWVDNYT1h4RHkwampoMlZYWW5VbWM?oc=5\" target=\"_blank\">Trump says Iran deal to be public soon and will rule out nuclear weapon for Tehran</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOE5uY1JidUpoS0Q1eDhUQ2RLMDJKSnppMV9RTkFQRGhqQ1ctT2VZMi16YUJIZjBzaFlWU2ZqOEdDZ3NvaUtUVXNHTWo1Q0xYcFItWHlZdVlrSVE5SDFOdmlfS1I3ZE5tZnlLVmVuQjNkbGhjN2pjZVdqVnZ2RTBia0xESzJqUDVqZV9hby1kbEZVTzM2WGktc2tLazFVVXVsVkJWVDNYT1h4RHkwampoMlZYWW5VbWM?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-16T20:11:42.160691Z"
-    },
-    {
-      "id": "e64ec594ef8e07a2b317e48dd4de46b0",
-      "title": "The toll on Afghanistan of five years of Taliban rule",
-      "summary": "Afghans are asking the world: How long and to what extent must the Taliban continue internal repression and support for terrorism before the world recognizes the threat?",
-      "link": "https://www.japantimes.co.jp/commentary/2026/06/16/world/taliban-toll-on-afghanistan/",
-      "source": "Japan Times",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-16T20:11:25.328609Z"
-    },
-    {
-      "id": "57c927b3b2c82bd84a889b34c21935be",
-      "title": "Higher blending targets drive RIN prices close to record highs",
-      "summary": "Compliance credits for biomass-based diesel and ethanol have doubled in value since the start of this year. The credits, known as renewable identification numbers (RINs), have increased in price, mostly because of higher U.S. biofuel blending targets. The combination of high RIN prices and rising motor gasoline and diesel fuel prices has created an especially favorable market for producing and blending biofuels.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67765",
-      "source": "EIA",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-16T20:11:36.073846Z"
+      "published": "2026-06-16T20:16:29.893037Z"
     }
   ],
   "alerts": [
     {
-      "id": "3b8035f306040753568dab905e8d4b7d",
-      "title": "Nasdaq 100 Falls 2% as Chipmakers Halt Solid Run: Markets Wrap",
-      "summary": "A rally that sent the US stock benchmark to the brink of a record paused before the first Federal Reserve rate decision under Kevin Warsh, with a another slide in oil prices driving bond yields lower.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
-      "source": "Bloomberg",
-      "score": 39,
+      "id": "006b2b0d84cdb7a077328ac18e240447",
+      "title": "Trump signals he could send details of Iran deal to Congress",
+      "summary": "The peace deal announced Sunday is meeting lukewarm reactions from Congress, including some allies of President Donald Trump.",
+      "link": "https://www.cnbc.com/2026/06/16/trump-iran-deal-congress.html",
+      "source": "CNBC",
+      "score": 28,
       "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "QQQ",
-        "WTI"
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
       ],
-      "regions": [],
       "assets": [
-        "COMMODITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-16T20:10:57.492336Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-16T20:16:03.985380Z"
     },
     {
-      "id": "168bc58f67fdd89bd14e9c15adcfc1a5",
-      "title": "U.S. jet fuel production rises after prices doubled in March",
-      "summary": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and supply concerns, particularly in Europe and Asia, which previously imported much of their jet fuel supply from the Persian Gulf, have driven up jet fuel prices. Much of the increased U.S. jet fuel production is being exported, as domestic inventories remain above average.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67764",
-      "source": "EIA",
-      "score": 18,
-      "severity": "HIGH",
+      "id": "dc45c84f3663da654b0064b286c946d4",
+      "title": "SpaceX Overtakes Amazon in Value as Post-IPO Rally Reaches 49%",
+      "summary": "SpaceX jumped for a third straight day on Tuesday, overtaking Amazon.com Inc. in value to become the fifth-largest stock in the world.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-16/spacex-spcx-stock-set-for-more-than-50-jump-in-just-three-sessions",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-16T20:16:00.276107Z"
+    },
+    {
+      "id": "075545177f6d05591a1503f064d1e42c",
+      "title": "Carney offers Italy priority access to Canada\u2019s critical minerals",
+      "summary": "Canada and Italy deepen ties on critical minerals, defence and Ukraine support during G7 talks in France.",
+      "link": "https://www.mining.com/carney-offers-italy-priority-access-to-minerals/",
+      "source": "Mining.com",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "FRANCE",
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-16T20:16:29.893095Z"
+    },
+    {
+      "id": "4559b3a4c9bc422ed4e562a1596f35c0",
+      "title": "Poland bets on copper boom as Lumina eyes new mines",
+      "summary": "New projects could double Poland\u2019s copper output and strengthen ambitions to build a European metals hub.",
+      "link": "https://www.mining.com/poland-bets-on-copper-boom-as-lumina-eyes-new-mines/",
+      "source": "Mining.com",
+      "score": 7,
+      "severity": "LOW",
       "regime": "COMMODITIES",
       "tickers": [
-        "EUR",
-        "WTI"
+        "COPPER",
+        "EUR"
       ],
       "regions": [
         "EUROPE"
       ],
       "assets": [
-        "AI",
         "COMMODITIES",
         "FX"
       ],
@@ -361,241 +263,7 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-16T20:11:36.073930Z"
-    },
-    {
-      "id": "2ffaff7f218b1a33d803d13f0ee62b1f",
-      "title": "Bipartisan senators push Treasury to uphold states\u2019 authorities under the GENIUS Act",
-      "summary": "<p>A group of bipartisan senators pressed the Treasury Department to preserve states' ability to regulate stablecoins.</p>",
-      "link": "https://www.theblock.co/post/405018/bipartisan-senators-push-treasury-uphold-states-authorities-under-genius-act?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-16T20:11:39.966123Z"
-    },
-    {
-      "id": "5741169d0197099931432b4dc2c24ba6",
-      "title": "Truckload market\u2019s upswing ushers in driver pay hikes",
-      "summary": "<p>Some fleets are implementing pay raises for drivers early in the truckload market\u2019s recovery.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/truckload-markets-upswing-ushers-in-driver-pay-hikes\">Truckload market\u2019s upswing ushers in driver pay hikes</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/truckload-markets-upswing-ushers-in-driver-pay-hikes",
-      "source": "FreightWaves",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-16T20:11:37.192803Z"
-    },
-    {
-      "id": "6c8d56e38d3504ee54475b64bcd10208",
-      "title": "How Japan Could Co-Produce the Navy\u2019s Future Fleet",
-      "summary": "<p>America&#8217;s defense industrial base cannot build the Navy out of the threat it faces. Decades of industry consolidation, persistent resource shortages, and inconsistent demand signals have delayed the production of critical vessels and munitions. With production bottlenecks stacking up, the Navy may have no choice but to let its allies do some of the building.Both the National Defense Strategy and Navy Warfighting Instructions highlight how mobilizing allies can field more forces to the mutual benefit of the United States and its strategic partners. Likewise, the latest U.S. Navy Shipbuilding Plan stresses the importance of allied investment and production.The Trump administration</p>\n<p>The post <a href=\"https://warontherocks.com/cogs-of-war/how-japan-could-co-produce-the-navys-future-fleet/\">How Japan Could Co-Produce the Navy\u2019s Future Fleet</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
-      "link": "https://warontherocks.com/cogs-of-war/how-japan-could-co-produce-the-navys-future-fleet/",
-      "source": "War on the Rocks",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "JAPAN",
-        "US"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-16T20:11:38.594782Z"
-    },
-    {
-      "id": "7be5c8e79f0b44bf23c9c59f9ef305de",
-      "title": "Banknote imagery expert panel minutes \u2013 10 March 2026",
-      "summary": "Meeting held 10 March 2026",
-      "link": "https://www.bankofengland.co.uk/minutes/2026/march/banknote-expert-minutes-10-march",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-16T20:11:20.980760Z"
-    },
-    {
-      "id": "82acc20e7b7b224b2756266b74c063d2",
-      "title": "Banknote imagery expert panel minutes \u2013 15 April 2026",
-      "summary": "Meeting held 15 April 2026",
-      "link": "https://www.bankofengland.co.uk/minutes/2026/april/banknote-advisory-minutes-15-april",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-16T20:11:20.980798Z"
-    },
-    {
-      "id": "8766c6694a47040e4f43646c922f6e29",
-      "title": "Banknote imagery expert panel minutes \u2013 24 April 2026",
-      "summary": "Meeting held 24 April 2026",
-      "link": "https://www.bankofengland.co.uk/minutes/2026/april/banknote-expert-minutes-24-april",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-16T20:11:20.980827Z"
-    },
-    {
-      "id": "7b0c94d52a63ee786bd0151599535505",
-      "title": "Banknote imagery advisory group minutes \u2013 29 April 2026",
-      "summary": "Meeting held 29 April 2026",
-      "link": "https://www.bankofengland.co.uk/minutes/2026/april/banknote-advisory-minutes-29-april",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-16T20:11:20.980860Z"
-    },
-    {
-      "id": "00d1cbb708d6df324f89dd18ffaa2e23",
-      "title": "Trump says Iran deal to be public soon and will rule out nuclear weapon for Tehran - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQOE5uY1JidUpoS0Q1eDhUQ2RLMDJKSnppMV9RTkFQRGhqQ1ctT2VZMi16YUJIZjBzaFlWU2ZqOEdDZ3NvaUtUVXNHTWo1Q0xYcFItWHlZdVlrSVE5SDFOdmlfS1I3ZE5tZnlLVmVuQjNkbGhjN2pjZVdqVnZ2RTBia0xESzJqUDVqZV9hby1kbEZVTzM2WGktc2tLazFVVXVsVkJWVDNYT1h4RHkwampoMlZYWW5VbWM?oc=5\" target=\"_blank\">Trump says Iran deal to be public soon and will rule out nuclear weapon for Tehran</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOE5uY1JidUpoS0Q1eDhUQ2RLMDJKSnppMV9RTkFQRGhqQ1ctT2VZMi16YUJIZjBzaFlWU2ZqOEdDZ3NvaUtUVXNHTWo1Q0xYcFItWHlZdVlrSVE5SDFOdmlfS1I3ZE5tZnlLVmVuQjNkbGhjN2pjZVdqVnZ2RTBia0xESzJqUDVqZV9hby1kbEZVTzM2WGktc2tLazFVVXVsVkJWVDNYT1h4RHkwampoMlZYWW5VbWM?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-16T20:11:42.160691Z"
-    },
-    {
-      "id": "e64ec594ef8e07a2b317e48dd4de46b0",
-      "title": "The toll on Afghanistan of five years of Taliban rule",
-      "summary": "Afghans are asking the world: How long and to what extent must the Taliban continue internal repression and support for terrorism before the world recognizes the threat?",
-      "link": "https://www.japantimes.co.jp/commentary/2026/06/16/world/taliban-toll-on-afghanistan/",
-      "source": "Japan Times",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-16T20:11:25.328609Z"
-    },
-    {
-      "id": "57c927b3b2c82bd84a889b34c21935be",
-      "title": "Higher blending targets drive RIN prices close to record highs",
-      "summary": "Compliance credits for biomass-based diesel and ethanol have doubled in value since the start of this year. The credits, known as renewable identification numbers (RINs), have increased in price, mostly because of higher U.S. biofuel blending targets. The combination of high RIN prices and rising motor gasoline and diesel fuel prices has created an especially favorable market for producing and blending biofuels.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67765",
-      "source": "EIA",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-16T20:11:36.073846Z"
-    },
-    {
-      "id": "31deb2f8b50acf675d2e51eba92946c9",
-      "title": "How to Beat an Autocrat",
-      "summary": "The real lessons of Orban\u2019s defeat.",
-      "link": "https://www.foreignaffairs.com/hungary/how-beat-autocrat",
-      "source": "Foreign Affairs",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-16T20:11:38.754972Z"
+      "published": "2026-06-16T20:16:29.893037Z"
     }
   ]
 }
