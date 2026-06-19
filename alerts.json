@@ -1,34 +1,62 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-19T08:36:22.440096Z",
+  "generated_at": "2026-06-19T08:41:27.097578Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
+    "critical_alerts": 0,
     "high_alerts": 4,
-    "last_updated": "2026-06-19T08:36:22.440113Z"
+    "last_updated": "2026-06-19T08:41:27.097591Z"
   },
   "top_signals": [
     {
-      "id": "d54eb8bf254a8dfb07774d6fb04c6b22",
-      "title": "Lane Says It\u2019s Hard to Argue That ECB Shouldn\u2019t Have Hiked Rates",
-      "summary": "It\u2019s difficult to argue that the European Central Bank should have refrained from raising borrowing costs this month, according to Chief Economist Philip Lane.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-19/lane-says-it-s-hard-to-argue-that-ecb-shouldn-t-have-hiked-rates",
-      "source": "Bloomberg",
-      "score": 29,
-      "severity": "CRITICAL",
+      "id": "b662f09f3b0b00ada1a0e06a4bf472bb",
+      "title": "Apache going down near Oman a sign of air combat evolution, analysts warn",
+      "summary": "Experts say the U.S. Army Apache that went down near Oman offers a snapshot into how air assets must now contend with cheaper, rapidly evolving drones.",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/18/apache-going-down-near-oman-a-sign-of-air-combat-evolution-analysts-warn/",
+      "source": "Defense News",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-19T08:41:21.504838Z"
+    },
+    {
+      "id": "1e3cb7df0329591e476c3e0b31775689",
+      "title": "Transparency data: HMT workforce management information: May 2026",
+      "summary": "This document details monthly management information on staff numbers and paybill costs within HM Treasury and its agencies.",
+      "link": "https://www.gov.uk/government/publications/hmt-workforce-management-information-may-2026",
+      "source": "HM Treasury",
+      "score": 18,
+      "severity": "HIGH",
       "regime": "RATES",
       "tickers": [
-        "EUR"
+        "TLT"
       ],
-      "regions": [
-        "EUROPE"
-      ],
+      "regions": [],
       "assets": [
         "AI",
-        "FX"
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -42,141 +70,48 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-19T08:35:43.469690Z"
+      "published": "2026-06-19T08:41:09.971181Z"
     },
     {
-      "id": "601b49ea6df8371cb9231d6df77ea41c",
-      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260612~12de4776f6.en.html",
-      "source": "ECB",
-      "score": 18,
+      "id": "562c38545c16bad33906fb6b102946f6",
+      "title": "Waymo recalls about 3,900 robotaxis after some drove into 'freeway construction zones'",
+      "summary": "After some Waymo robotaxis drove into closed construction zones, the company implemented a recall to fix underlying software issues.",
+      "link": "https://www.cnbc.com/2026/06/18/waymo-nhtsa-voluntary-recall-robotaxis-entered-freeway-construction-zones.html",
+      "source": "CNBC",
+      "score": 16,
       "severity": "HIGH",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-19T08:36:00.205833Z"
-    },
-    {
-      "id": "168bc58f67fdd89bd14e9c15adcfc1a5",
-      "title": "U.S. jet fuel production rises after prices doubled in March",
-      "summary": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and supply concerns, particularly in Europe and Asia, which previously imported much of their jet fuel supply from the Persian Gulf, have driven up jet fuel prices. Much of the increased U.S. jet fuel production is being exported, as domestic inventories remain above average.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67764",
-      "source": "EIA",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "EUR",
-        "WTI"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-19T08:36:14.483188Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-19T08:40:53.280830Z"
     },
     {
-      "id": "25221dc2447a2cd003380e796442b21c",
-      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
-      "summary": "Until this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files detailing how CISA builds, tests and deploys software internally, and that it represents one of the most egregious government data leaks in recent history.",
-      "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
-      "source": "KrebsOnSecurity",
+      "id": "002ec368883208dde5e03f8537f6b4e3",
+      "title": "Eleven people taken to hospital following fire at Tokyo elementary school",
+      "summary": "The fire started around 11 a.m at Takinogawa Daisan Elementary School in Kita Ward.",
+      "link": "https://www.japantimes.co.jp/news/2026/06/19/japan/tokyo-elementary-school-fire/",
+      "source": "Japan Times",
       "score": 15,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-19T08:36:19.565846Z"
-    },
-    {
-      "id": "d3401d819bbee2ed6ac07f4b7865c58d",
-      "title": "Australian sugar producer works to restore operations as ransomware group claims attack",
-      "summary": "Mackay Sugar said it was \"working urgently\" to verify claims that a highly active ransomware group was behind a cyberattack that shut down harvesting and milling operations.",
-      "link": "https://therecord.media/mackay-sugar-cyberattack-claimed-gentlemen",
-      "source": "The Record",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-19T08:36:19.715265Z"
-    },
-    {
-      "id": "b092a5231ecc7e7b7a01ea28117d8584",
-      "title": "Hackers Used Meta\u2019s AI Support Bot to Seize Instagram Accounts",
-      "summary": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions began circulating on Telegram showing how to trick Meta's \"AI support assistant\" bot into resetting account passwords.",
-      "link": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
-      "source": "KrebsOnSecurity",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
       "regions": [
-        "MIDDLE_EAST"
+        "JAPAN"
       ],
       "assets": [
         "AI"
@@ -195,36 +130,20 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-19T08:36:19.565650Z"
+      "published": "2026-06-19T08:41:12.824679Z"
     },
     {
-      "id": "66589022a69aa48d666eaf0d99514216",
-      "title": "World Cup 2026\u2019s Dynamic Pricing Has Tickets Going One Way: Up",
-      "summary": "Before the World Cup started, fans raged over the cost of tickets &mdash; the highest ever for the tournament. Critics wondered whether prices would crash before kickoff, and if swathes of empty seats would embarrass FIFA\u2019s pricing strategy.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-19/fifa-world-cup-ticket-prices-hold-steady-hit-over-4-000-for-games",
-      "source": "Bloomberg",
-      "score": 9,
+      "id": "5759a5f6a3a59965026120d21c21ad75",
+      "title": "Chancellor backs former coalfield areas with new investment to end decline and encourage local talent",
+      "summary": "Communities in former coalfield areas of Britain will benefit from new jobs and business opportunities, as the Chancellor confirms investment in projects that support local talent and boost growth.",
+      "link": "https://www.gov.uk/government/news/chancellor-backs-former-coalfield-areas-with-new-investment-to-end-decline-and-encourage-local-talent",
+      "source": "HM Treasury",
+      "score": 14,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-19T08:35:43.469602Z"
-    },
-    {
-      "id": "ffe9c8f3b70508c0fdd0e130d8169508",
-      "title": "Alleged Kimwolf Botmaster \u2018Dort\u2019 Arrested, Charged in U.S. and Canada",
-      "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for use in a series of massive distributed denial-of-service (DDoS) attacks over the past six months. KrebsOnSecurity publicly named the suspect in February 2026 after the accused launched a volley of DDoS, doxing and swatting campaigns against this author and a security researcher. He now faces criminal hacking charges in both Canada and the United States.",
-      "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
-      "source": "KrebsOnSecurity",
-      "score": 5,
-      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [
-        "US"
+        "UK"
       ],
       "assets": [
         "AI"
@@ -238,60 +157,98 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-19T08:36:19.565772Z"
+      "published": "2026-06-19T08:41:09.971134Z"
     },
     {
-      "id": "bc392ea0a77cd1081f090dd1ec890fb1",
-      "title": "U.S. International Trade in Goods and Services, April 2026",
-      "summary": "The U.S. monthly international trade deficit decreased in April 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $56.6 billion in March (revised) to $55.9 billion in April, as exports increased more than imports. The goods deficit decreased $2.4 billion in April to $83.7 billion. The services surplus decreased $1.7 billion in April to $27.8 billion.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/us-international-trade-goods-and-services-april-2026\">Full Text</a><!--Full Text Link-->",
-      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-april-2026",
-      "source": "BEA",
-      "score": 1,
-      "severity": "LOW",
+      "id": "19d9e9b224164af0bef5e8af92573a9f",
+      "title": "Transparency data: OSCAR II \u2013 publishing data from the database: June 2026",
+      "summary": "The fourth and final quarterly OSCAR transparency release for 2025 to 2026.",
+      "link": "https://www.gov.uk/government/publications/oscar-ii-publishing-data-from-the-database-june-2026",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-19T08:35:59.410088Z"
+      "published": "2026-06-19T08:41:09.971249Z"
     },
     {
-      "id": "57c927b3b2c82bd84a889b34c21935be",
-      "title": "Higher blending targets drive RIN prices close to record highs",
-      "summary": "Compliance credits for biomass-based diesel and ethanol have doubled in value since the start of this year. The credits, known as renewable identification numbers (RINs), have increased in price, mostly because of higher U.S. biofuel blending targets. The combination of high RIN prices and rising motor gasoline and diesel fuel prices has created an especially favorable market for producing and blending biofuels.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67765",
-      "source": "EIA",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "2af2bde237361327bf6494539a826943",
+      "title": "Celsius\u2019 Mashinsky gets permanent trading ban in CFTC settlement",
+      "summary": "The US commodities watchdog has settled with Celsius founder Alex Mashinsky, ending the agency\u2019s first-ever case against a crypto lending platform.",
+      "link": "https://cointelegraph.com/news/cftc-permanently-bans-celsius-mashinsky-from-trading?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "source": "CoinTelegraph",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
       "tickers": [],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-19T08:36:14.483100Z"
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-19T08:41:22.931588Z"
     }
   ],
   "alerts": [
     {
-      "id": "d54eb8bf254a8dfb07774d6fb04c6b22",
-      "title": "Lane Says It\u2019s Hard to Argue That ECB Shouldn\u2019t Have Hiked Rates",
-      "summary": "It\u2019s difficult to argue that the European Central Bank should have refrained from raising borrowing costs this month, according to Chief Economist Philip Lane.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-19/lane-says-it-s-hard-to-argue-that-ecb-shouldn-t-have-hiked-rates",
-      "source": "Bloomberg",
-      "score": 29,
-      "severity": "CRITICAL",
+      "id": "b662f09f3b0b00ada1a0e06a4bf472bb",
+      "title": "Apache going down near Oman a sign of air combat evolution, analysts warn",
+      "summary": "Experts say the U.S. Army Apache that went down near Oman offers a snapshot into how air assets must now contend with cheaper, rapidly evolving drones.",
+      "link": "https://www.defensenews.com/news/your-military/2026/06/18/apache-going-down-near-oman-a-sign-of-air-combat-evolution-analysts-warn/",
+      "source": "Defense News",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-19T08:41:21.504838Z"
+    },
+    {
+      "id": "1e3cb7df0329591e476c3e0b31775689",
+      "title": "Transparency data: HMT workforce management information: May 2026",
+      "summary": "This document details monthly management information on staff numbers and paybill costs within HM Treasury and its agencies.",
+      "link": "https://www.gov.uk/government/publications/hmt-workforce-management-information-may-2026",
+      "source": "HM Treasury",
+      "score": 18,
+      "severity": "HIGH",
       "regime": "RATES",
       "tickers": [
-        "EUR"
+        "TLT"
       ],
-      "regions": [
-        "EUROPE"
-      ],
+      "regions": [],
       "assets": [
         "AI",
-        "FX"
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -305,141 +262,48 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-19T08:35:43.469690Z"
+      "published": "2026-06-19T08:41:09.971181Z"
     },
     {
-      "id": "601b49ea6df8371cb9231d6df77ea41c",
-      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260612~12de4776f6.en.html",
-      "source": "ECB",
-      "score": 18,
+      "id": "562c38545c16bad33906fb6b102946f6",
+      "title": "Waymo recalls about 3,900 robotaxis after some drove into 'freeway construction zones'",
+      "summary": "After some Waymo robotaxis drove into closed construction zones, the company implemented a recall to fix underlying software issues.",
+      "link": "https://www.cnbc.com/2026/06/18/waymo-nhtsa-voluntary-recall-robotaxis-entered-freeway-construction-zones.html",
+      "source": "CNBC",
+      "score": 16,
       "severity": "HIGH",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-19T08:36:00.205833Z"
-    },
-    {
-      "id": "168bc58f67fdd89bd14e9c15adcfc1a5",
-      "title": "U.S. jet fuel production rises after prices doubled in March",
-      "summary": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and supply concerns, particularly in Europe and Asia, which previously imported much of their jet fuel supply from the Persian Gulf, have driven up jet fuel prices. Much of the increased U.S. jet fuel production is being exported, as domestic inventories remain above average.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67764",
-      "source": "EIA",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "EUR",
-        "WTI"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-19T08:36:14.483188Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-19T08:40:53.280830Z"
     },
     {
-      "id": "25221dc2447a2cd003380e796442b21c",
-      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
-      "summary": "Until this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files detailing how CISA builds, tests and deploys software internally, and that it represents one of the most egregious government data leaks in recent history.",
-      "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
-      "source": "KrebsOnSecurity",
+      "id": "002ec368883208dde5e03f8537f6b4e3",
+      "title": "Eleven people taken to hospital following fire at Tokyo elementary school",
+      "summary": "The fire started around 11 a.m at Takinogawa Daisan Elementary School in Kita Ward.",
+      "link": "https://www.japantimes.co.jp/news/2026/06/19/japan/tokyo-elementary-school-fire/",
+      "source": "Japan Times",
       "score": 15,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-19T08:36:19.565846Z"
-    },
-    {
-      "id": "d3401d819bbee2ed6ac07f4b7865c58d",
-      "title": "Australian sugar producer works to restore operations as ransomware group claims attack",
-      "summary": "Mackay Sugar said it was \"working urgently\" to verify claims that a highly active ransomware group was behind a cyberattack that shut down harvesting and milling operations.",
-      "link": "https://therecord.media/mackay-sugar-cyberattack-claimed-gentlemen",
-      "source": "The Record",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-19T08:36:19.715265Z"
-    },
-    {
-      "id": "b092a5231ecc7e7b7a01ea28117d8584",
-      "title": "Hackers Used Meta\u2019s AI Support Bot to Seize Instagram Accounts",
-      "summary": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions began circulating on Telegram showing how to trick Meta's \"AI support assistant\" bot into resetting account passwords.",
-      "link": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
-      "source": "KrebsOnSecurity",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
       "regions": [
-        "MIDDLE_EAST"
+        "JAPAN"
       ],
       "assets": [
         "AI"
@@ -458,36 +322,20 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-19T08:36:19.565650Z"
+      "published": "2026-06-19T08:41:12.824679Z"
     },
     {
-      "id": "66589022a69aa48d666eaf0d99514216",
-      "title": "World Cup 2026\u2019s Dynamic Pricing Has Tickets Going One Way: Up",
-      "summary": "Before the World Cup started, fans raged over the cost of tickets &mdash; the highest ever for the tournament. Critics wondered whether prices would crash before kickoff, and if swathes of empty seats would embarrass FIFA\u2019s pricing strategy.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-19/fifa-world-cup-ticket-prices-hold-steady-hit-over-4-000-for-games",
-      "source": "Bloomberg",
-      "score": 9,
+      "id": "5759a5f6a3a59965026120d21c21ad75",
+      "title": "Chancellor backs former coalfield areas with new investment to end decline and encourage local talent",
+      "summary": "Communities in former coalfield areas of Britain will benefit from new jobs and business opportunities, as the Chancellor confirms investment in projects that support local talent and boost growth.",
+      "link": "https://www.gov.uk/government/news/chancellor-backs-former-coalfield-areas-with-new-investment-to-end-decline-and-encourage-local-talent",
+      "source": "HM Treasury",
+      "score": 14,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-19T08:35:43.469602Z"
-    },
-    {
-      "id": "ffe9c8f3b70508c0fdd0e130d8169508",
-      "title": "Alleged Kimwolf Botmaster \u2018Dort\u2019 Arrested, Charged in U.S. and Canada",
-      "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for use in a series of massive distributed denial-of-service (DDoS) attacks over the past six months. KrebsOnSecurity publicly named the suspect in February 2026 after the accused launched a volley of DDoS, doxing and swatting campaigns against this author and a security researcher. He now faces criminal hacking charges in both Canada and the United States.",
-      "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
-      "source": "KrebsOnSecurity",
-      "score": 5,
-      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [
-        "US"
+        "UK"
       ],
       "assets": [
         "AI"
@@ -501,39 +349,49 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-19T08:36:19.565772Z"
+      "published": "2026-06-19T08:41:09.971134Z"
     },
     {
-      "id": "bc392ea0a77cd1081f090dd1ec890fb1",
-      "title": "U.S. International Trade in Goods and Services, April 2026",
-      "summary": "The U.S. monthly international trade deficit decreased in April 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $56.6 billion in March (revised) to $55.9 billion in April, as exports increased more than imports. The goods deficit decreased $2.4 billion in April to $83.7 billion. The services surplus decreased $1.7 billion in April to $27.8 billion.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/us-international-trade-goods-and-services-april-2026\">Full Text</a><!--Full Text Link-->",
-      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-april-2026",
-      "source": "BEA",
-      "score": 1,
-      "severity": "LOW",
+      "id": "19d9e9b224164af0bef5e8af92573a9f",
+      "title": "Transparency data: OSCAR II \u2013 publishing data from the database: June 2026",
+      "summary": "The fourth and final quarterly OSCAR transparency release for 2025 to 2026.",
+      "link": "https://www.gov.uk/government/publications/oscar-ii-publishing-data-from-the-database-june-2026",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-19T08:35:59.410088Z"
+      "published": "2026-06-19T08:41:09.971249Z"
     },
     {
-      "id": "57c927b3b2c82bd84a889b34c21935be",
-      "title": "Higher blending targets drive RIN prices close to record highs",
-      "summary": "Compliance credits for biomass-based diesel and ethanol have doubled in value since the start of this year. The credits, known as renewable identification numbers (RINs), have increased in price, mostly because of higher U.S. biofuel blending targets. The combination of high RIN prices and rising motor gasoline and diesel fuel prices has created an especially favorable market for producing and blending biofuels.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67765",
-      "source": "EIA",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "2af2bde237361327bf6494539a826943",
+      "title": "Celsius\u2019 Mashinsky gets permanent trading ban in CFTC settlement",
+      "summary": "The US commodities watchdog has settled with Celsius founder Alex Mashinsky, ending the agency\u2019s first-ever case against a crypto lending platform.",
+      "link": "https://cointelegraph.com/news/cftc-permanently-bans-celsius-mashinsky-from-trading?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "source": "CoinTelegraph",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
       "tickers": [],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-19T08:36:14.483100Z"
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-19T08:41:22.931588Z"
     }
   ]
 }
