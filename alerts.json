@@ -1,37 +1,64 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-19T13:56:22.037822Z",
+  "generated_at": "2026-06-19T14:01:59.395543Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
-    "high_alerts": 1,
-    "last_updated": "2026-06-19T13:56:22.037838Z"
+    "high_alerts": 3,
+    "last_updated": "2026-06-19T14:01:59.395551Z"
   },
   "top_signals": [
     {
-      "id": "be3df461fb84965d9626346168f9d0a1",
-      "title": "Index-linked Treasury Stock",
-      "summary": "Index-linked treasury stocks are gilts issued by the UK Government. They pay out twice a year, with the amount indexed to the Retail Prices Index.",
-      "link": "https://www.bankofengland.co.uk/news/2026/june/index-linked-treasury-stock-jun-2026",
-      "source": "Bank of England",
-      "score": 32,
+      "id": "93cdf9c4514f3751cc67c2c39fd92faa",
+      "title": "Oil Markets Need More Than a Peace Deal to Recover",
+      "summary": "The Iran framework agreement gave an immediate boost to markets, with shares rising and oil prices dipping. But whether this translates into durable economic gains will largely depend on shipping in the Strait of Hormuz. There were signs of traffic beginning to revive on June 18 in the hours immediately after the US and Iranian presidents signed a memorandum of understanding to end the war, according to Windward, a maritime intelligence company. Speaking in an online briefing, Windward chief analyst Michelle Wiese Bockmann said 18 vessels had transited\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Oil-Markets-Need-More-Than-a-Peace-Deal-to-Recover.html",
+      "source": "OilPrice",
+      "score": 42,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "TLT",
-        "UK_GILTS"
+        "WTI"
       ],
       "regions": [
-        "UK"
+        "MIDDLE_EAST"
       ],
       "assets": [
         "AI",
-        "EQUITIES",
-        "RATES"
+        "COMMODITIES",
+        "SHIPPING"
       ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-19T14:01:52.205372Z"
+    },
+    {
+      "id": "3c9f430adbd7a16236620cb0788669e2",
+      "title": "ECB publishes consolidated banking data for end-December 2025",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260619~f097597c01.en.html",
+      "source": "ECB",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -44,20 +71,80 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-19T13:56:03.796898Z"
+      "published": "2026-06-19T14:01:29.287577Z"
     },
     {
-      "id": "db744f262d8d5c0253f2aed3d34a5476",
-      "title": "Russian central bank chief\u2019s absence stirs succession talk",
-      "summary": "Elvira Nabiullina was a no-show at several recent high-profile events, sparking speculation about a shake-up",
-      "link": "https://www.ft.com/content/1dbfdddb-cf7b-485d-b060-c81caebc00a3",
-      "source": "Financial Times",
+      "id": "3787a4007362a2203b70995abe5266b7",
+      "title": "Europe Gas Storages Get Little Reprieve From Iran Peace Deal",
+      "summary": "European natural gas prices have mostly fallen since a US-Iran peace accord started to take shape this week, but the drop has done little to improve the economics of storing fuel for winter as analysts continue to expect a tight market.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-19/europe-gas-slide-fails-to-boost-incentive-for-winter-stockpiling",
+      "source": "Bloomberg",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-19T14:01:12.799640Z"
+    },
+    {
+      "id": "f5214a073fa5754a46c96de8a974cda5",
+      "title": "Amazon investigating engineers who criticized AI data center expansion",
+      "summary": "Five Amazon employees testified at Seattle City Council meetings where officials sought feedback on a year-long data center new construction pause.",
+      "link": "https://www.cnbc.com/2026/06/18/amazon-engineers-ai-data-center-opposition.html",
+      "source": "CNBC",
       "score": 15,
       "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-19T14:01:17.347613Z"
+    },
+    {
+      "id": "8ae71e469a59d6f8cd7ae5545f22b811",
+      "title": "Trump hits back at critics as Iran peace deal fuels debate over U.S. concessions - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE02SGp4d3BVdUg2Y25xZkNvZjB5QW9GdUJaOXBIYTRzZGpCVW50RklveHE2Nk55TUF1VmZKMHNtYVctYzlvdWxzYW5MR2d6QXljYzJ4dG5nU3puVko4cEZoc0oteE9KMlJnTDJsWHE1WVU3a1FFejRTeU1fd9IBgAFBVV95cUxPWnE5RTF4M3dnY1I2WTYzRnA1bTVSRzdmV3ZpdU9HUU00SlNweDN3dkhTVk82ODZPdUM0N3ZQbzRyRHFmWEFheFlpVDE1czhJODgtOVN5YnRzZ3d1TXBfQnlIb09oQ1FTYnYyem5VYUlTUl9sS2pzbjhVdmZnNXRVVw?oc=5\" target=\"_blank\">Trump hits back at critics as Iran peace deal fuels debate over U.S. concessions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02SGp4d3BVdUg2Y25xZkNvZjB5QW9GdUJaOXBIYTRzZGpCVW50RklveHE2Nk55TUF1VmZKMHNtYVctYzlvdWxzYW5MR2d6QXljYzJ4dG5nU3puVko4cEZoc0oteE9KMlJnTDJsWHE1WVU3a1FFejRTeU1fd9IBgAFBVV95cUxPWnE5RTF4M3dnY1I2WTYzRnA1bTVSRzdmV3ZpdU9HUU00SlNweDN3dkhTVk82ODZPdUM0N3ZQbzRyRHFmWEFheFlpVDE1czhJODgtOVN5YnRzZ3d1TXBfQnlIb09oQ1FTYnYyem5VYUlTUl9sS2pzbjhVdmZnNXRVVw?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "RUSSIA"
+        "MIDDLE_EAST"
       ],
       "assets": [],
       "market_impact": {
@@ -74,122 +161,58 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-19T13:55:48.500090Z"
-    },
-    {
-      "id": "9db30c89abcdc2668914974a67b55e1e",
-      "title": "EU set to remove barriers to banks\u2019 cross-border capital flows",
-      "summary": "Draft report by European Commission aims to boost performance of lenders in bloc compared with US rivals",
-      "link": "https://www.ft.com/content/bec1c122-04d6-4eab-b69c-c33d874cfa5b",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-19T13:55:48.250893Z"
-    },
-    {
-      "id": "e00b435bd2dce8b8f8b8391b6242d0ce",
-      "title": "Opening speech by Commissioner Hansen at the DG AGRI and the European Investment Bank (EIB) event 'Boosting generational renewal in EU agriculture \u2013 improving access to finance for young farmers'",
-      "summary": "European Commission Speech Warsaw, 18 Jun 2026 \u00a0\n\u00a0\n\nMinister Krajewski,\u00a0\n\n\n\nVice-President Vigliotti,\u00a0\n\n\nRepresentatives of the European Investment Bank,\u00a0\n\n\nDear young farmers, bankers,\u00a0policymakers\u00a0and all ...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1387",
-      "source": "European Commission",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-19T13:56:03.585278Z"
-    },
-    {
-      "id": "9b522ba7aefc5362280831f777acd370",
-      "title": "Judge rejects Gatwick Airport bid to block new relaxed runway slot rules",
-      "summary": "<p> <img alt=\"Photo by HENRY NICHOLLS/AFP via Getty Images\" src=\"https://www.cityam.com/wp-content/uploads/2026/01/GatwrickAirport-e1768915647747.jpg?w=1107\" /> </p>A High Court judge has refused Gatwick&#8217;s request for an immediate emergency freeze to stop the new 70 per cent rule from starting today. The UK government temporarily reduced the &#8220;use it or lose it&#8221; slot usage requirement at major UK airports, including Gatwick Airport, from the standard 80 per cent to 70 per cent <a href=\"https://www.cityam.com/judge-rejects-gatwick-airport-bid-to-block-new-relaxed-runway-slot-rules/\">[...]</a>",
-      "link": "https://www.cityam.com/judge-rejects-gatwick-airport-bid-to-block-new-relaxed-runway-slot-rules/",
-      "source": "CityAM",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-19T13:56:04.996235Z"
+      "published": "2026-06-19T14:01:59.395530Z"
     }
   ],
   "alerts": [
     {
-      "id": "be3df461fb84965d9626346168f9d0a1",
-      "title": "Index-linked Treasury Stock",
-      "summary": "Index-linked treasury stocks are gilts issued by the UK Government. They pay out twice a year, with the amount indexed to the Retail Prices Index.",
-      "link": "https://www.bankofengland.co.uk/news/2026/june/index-linked-treasury-stock-jun-2026",
-      "source": "Bank of England",
-      "score": 32,
+      "id": "93cdf9c4514f3751cc67c2c39fd92faa",
+      "title": "Oil Markets Need More Than a Peace Deal to Recover",
+      "summary": "The Iran framework agreement gave an immediate boost to markets, with shares rising and oil prices dipping. But whether this translates into durable economic gains will largely depend on shipping in the Strait of Hormuz. There were signs of traffic beginning to revive on June 18 in the hours immediately after the US and Iranian presidents signed a memorandum of understanding to end the war, according to Windward, a maritime intelligence company. Speaking in an online briefing, Windward chief analyst Michelle Wiese Bockmann said 18 vessels had transited\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Oil-Markets-Need-More-Than-a-Peace-Deal-to-Recover.html",
+      "source": "OilPrice",
+      "score": 42,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "TLT",
-        "UK_GILTS"
+        "WTI"
       ],
       "regions": [
-        "UK"
+        "MIDDLE_EAST"
       ],
       "assets": [
         "AI",
-        "EQUITIES",
-        "RATES"
+        "COMMODITIES",
+        "SHIPPING"
       ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-19T14:01:52.205372Z"
+    },
+    {
+      "id": "3c9f430adbd7a16236620cb0788669e2",
+      "title": "ECB publishes consolidated banking data for end-December 2025",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260619~f097597c01.en.html",
+      "source": "ECB",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -202,20 +225,80 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-19T13:56:03.796898Z"
+      "published": "2026-06-19T14:01:29.287577Z"
     },
     {
-      "id": "db744f262d8d5c0253f2aed3d34a5476",
-      "title": "Russian central bank chief\u2019s absence stirs succession talk",
-      "summary": "Elvira Nabiullina was a no-show at several recent high-profile events, sparking speculation about a shake-up",
-      "link": "https://www.ft.com/content/1dbfdddb-cf7b-485d-b060-c81caebc00a3",
-      "source": "Financial Times",
+      "id": "3787a4007362a2203b70995abe5266b7",
+      "title": "Europe Gas Storages Get Little Reprieve From Iran Peace Deal",
+      "summary": "European natural gas prices have mostly fallen since a US-Iran peace accord started to take shape this week, but the drop has done little to improve the economics of storing fuel for winter as analysts continue to expect a tight market.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-19/europe-gas-slide-fails-to-boost-incentive-for-winter-stockpiling",
+      "source": "Bloomberg",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-19T14:01:12.799640Z"
+    },
+    {
+      "id": "f5214a073fa5754a46c96de8a974cda5",
+      "title": "Amazon investigating engineers who criticized AI data center expansion",
+      "summary": "Five Amazon employees testified at Seattle City Council meetings where officials sought feedback on a year-long data center new construction pause.",
+      "link": "https://www.cnbc.com/2026/06/18/amazon-engineers-ai-data-center-opposition.html",
+      "source": "CNBC",
       "score": 15,
       "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-19T14:01:17.347613Z"
+    },
+    {
+      "id": "8ae71e469a59d6f8cd7ae5545f22b811",
+      "title": "Trump hits back at critics as Iran peace deal fuels debate over U.S. concessions - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE02SGp4d3BVdUg2Y25xZkNvZjB5QW9GdUJaOXBIYTRzZGpCVW50RklveHE2Nk55TUF1VmZKMHNtYVctYzlvdWxzYW5MR2d6QXljYzJ4dG5nU3puVko4cEZoc0oteE9KMlJnTDJsWHE1WVU3a1FFejRTeU1fd9IBgAFBVV95cUxPWnE5RTF4M3dnY1I2WTYzRnA1bTVSRzdmV3ZpdU9HUU00SlNweDN3dkhTVk82ODZPdUM0N3ZQbzRyRHFmWEFheFlpVDE1czhJODgtOVN5YnRzZ3d1TXBfQnlIb09oQ1FTYnYyem5VYUlTUl9sS2pzbjhVdmZnNXRVVw?oc=5\" target=\"_blank\">Trump hits back at critics as Iran peace deal fuels debate over U.S. concessions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02SGp4d3BVdUg2Y25xZkNvZjB5QW9GdUJaOXBIYTRzZGpCVW50RklveHE2Nk55TUF1VmZKMHNtYVctYzlvdWxzYW5MR2d6QXljYzJ4dG5nU3puVko4cEZoc0oteE9KMlJnTDJsWHE1WVU3a1FFejRTeU1fd9IBgAFBVV95cUxPWnE5RTF4M3dnY1I2WTYzRnA1bTVSRzdmV3ZpdU9HUU00SlNweDN3dkhTVk82ODZPdUM0N3ZQbzRyRHFmWEFheFlpVDE1czhJODgtOVN5YnRzZ3d1TXBfQnlIb09oQ1FTYnYyem5VYUlTUl9sS2pzbjhVdmZnNXRVVw?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "RUSSIA"
+        "MIDDLE_EAST"
       ],
       "assets": [],
       "market_impact": {
@@ -232,98 +315,7 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-19T13:55:48.500090Z"
-    },
-    {
-      "id": "9db30c89abcdc2668914974a67b55e1e",
-      "title": "EU set to remove barriers to banks\u2019 cross-border capital flows",
-      "summary": "Draft report by European Commission aims to boost performance of lenders in bloc compared with US rivals",
-      "link": "https://www.ft.com/content/bec1c122-04d6-4eab-b69c-c33d874cfa5b",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-19T13:55:48.250893Z"
-    },
-    {
-      "id": "e00b435bd2dce8b8f8b8391b6242d0ce",
-      "title": "Opening speech by Commissioner Hansen at the DG AGRI and the European Investment Bank (EIB) event 'Boosting generational renewal in EU agriculture \u2013 improving access to finance for young farmers'",
-      "summary": "European Commission Speech Warsaw, 18 Jun 2026 \u00a0\n\u00a0\n\nMinister Krajewski,\u00a0\n\n\n\nVice-President Vigliotti,\u00a0\n\n\nRepresentatives of the European Investment Bank,\u00a0\n\n\nDear young farmers, bankers,\u00a0policymakers\u00a0and all ...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1387",
-      "source": "European Commission",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-19T13:56:03.585278Z"
-    },
-    {
-      "id": "9b522ba7aefc5362280831f777acd370",
-      "title": "Judge rejects Gatwick Airport bid to block new relaxed runway slot rules",
-      "summary": "<p> <img alt=\"Photo by HENRY NICHOLLS/AFP via Getty Images\" src=\"https://www.cityam.com/wp-content/uploads/2026/01/GatwrickAirport-e1768915647747.jpg?w=1107\" /> </p>A High Court judge has refused Gatwick&#8217;s request for an immediate emergency freeze to stop the new 70 per cent rule from starting today. The UK government temporarily reduced the &#8220;use it or lose it&#8221; slot usage requirement at major UK airports, including Gatwick Airport, from the standard 80 per cent to 70 per cent <a href=\"https://www.cityam.com/judge-rejects-gatwick-airport-bid-to-block-new-relaxed-runway-slot-rules/\">[...]</a>",
-      "link": "https://www.cityam.com/judge-rejects-gatwick-airport-bid-to-block-new-relaxed-runway-slot-rules/",
-      "source": "CityAM",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-19T13:56:04.996235Z"
+      "published": "2026-06-19T14:01:59.395530Z"
     }
   ]
 }
