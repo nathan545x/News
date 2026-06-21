@@ -1,67 +1,116 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-21T02:16:38.787561Z",
+  "generated_at": "2026-06-21T02:21:40.915367Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-06-21T02:16:38.787574Z"
+    "critical_alerts": 2,
+    "high_alerts": 2,
+    "last_updated": "2026-06-21T02:21:40.915384Z"
   },
   "top_signals": [
     {
-      "id": "98b3dd45266a3ad4738d8fc222c34af4",
-      "title": "Kuwait Starts Oil Output Hike, to Top 2 Million Barrels Soon - Bloomberg",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNTEY2VnRyUExTRW43bmRlUk0wMmpnaS1oOTlRRjI5dGU5U2puYUtVb3p1UTl2ck5CUWRZZDUtSUYwbG9SU2NrRjU4Q0otLVNHQ3M2WjdJX0h4UXRFbV9pT2UtOW9aVnpFYU5zWlY2ZTVITU9ybmRLR1lreFhMcUpWNklMaVZFOWF6WGNGZWdSNGNYdDliZi1QUGwtQ0xGc3BJb0JiZUpRQlE1Vk1RakMw?oc=5\" target=\"_blank\">Kuwait Starts Oil Output Hike, to Top 2 Million Barrels Soon</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTEY2VnRyUExTRW43bmRlUk0wMmpnaS1oOTlRRjI5dGU5U2puYUtVb3p1UTl2ck5CUWRZZDUtSUYwbG9SU2NrRjU4Q0otLVNHQ3M2WjdJX0h4UXRFbV9pT2UtOW9aVnpFYU5zWlY2ZTVITU9ybmRLR1lreFhMcUpWNklMaVZFOWF6WGNGZWdSNGNYdDliZi1QUGwtQ0xGc3BJb0JiZUpRQlE1Vk1RakMw?oc=5",
-      "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
+      "id": "be3df461fb84965d9626346168f9d0a1",
+      "title": "Index-linked Treasury Stock",
+      "summary": "Index-linked treasury stocks are gilts issued by the UK Government. They pay out twice a year, with the amount indexed to the Retail Prices Index.",
+      "link": "https://www.bankofengland.co.uk/news/2026/june/index-linked-treasury-stock-jun-2026",
+      "source": "Bank of England",
+      "score": 32,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "TLT",
+        "UK_GILTS"
       ],
       "regions": [
         "UK"
       ],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "EQUITIES",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-21T02:16:36.628082Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-21T02:21:20.437816Z"
     },
     {
-      "id": "9db30c89abcdc2668914974a67b55e1e",
-      "title": "EU set to remove barriers to banks\u2019 cross-border capital flows",
-      "summary": "Draft report by European Commission aims to boost performance of lenders in bloc compared with US rivals",
-      "link": "https://www.ft.com/content/bec1c122-04d6-4eab-b69c-c33d874cfa5b",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
+      "id": "801080090007a15644caf80cadf376ab",
+      "title": "Fed\u2019s Favorite Gauge Is Seen Showing Faster Inflation",
+      "summary": "The latest update to the Federal Reserve\u2019s favorite inflation gauge is unlikely to challenge a growing consensus at the US central bank around the need for interest-rate hikes this year.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-20/fed-s-favorite-gauge-is-seen-showing-faster-inflation",
+      "source": "Bloomberg",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-21T02:20:53.402367Z"
+    },
+    {
+      "id": "3c9f430adbd7a16236620cb0788669e2",
+      "title": "ECB publishes consolidated banking data for end-December 2025",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260619~f097597c01.en.html",
+      "source": "ECB",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-21T02:21:09.559686Z"
+    },
+    {
+      "id": "f5214a073fa5754a46c96de8a974cda5",
+      "title": "Amazon investigating engineers who criticized AI data center expansion",
+      "summary": "Five Amazon employees testified at Seattle City Council meetings where officials sought feedback on a year-long data center new construction pause.",
+      "link": "https://www.cnbc.com/2026/06/18/amazon-engineers-ai-data-center-opposition.html",
+      "source": "CNBC",
+      "score": 15,
+      "severity": "HIGH",
       "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
+      "tickers": [],
+      "regions": [],
       "assets": [
-        "AI",
-        "FX"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -72,61 +121,232 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-21T02:15:49.762331Z"
+      "published": "2026-06-21T02:20:56.821590Z"
+    },
+    {
+      "id": "e00b435bd2dce8b8f8b8391b6242d0ce",
+      "title": "Opening speech by Commissioner Hansen at the DG AGRI and the European Investment Bank (EIB) event 'Boosting generational renewal in EU agriculture \u2013 improving access to finance for young farmers'",
+      "summary": "European Commission Speech Warsaw, 18 Jun 2026 \u00a0\n\u00a0\n\nMinister Krajewski,\u00a0\n\n\n\nVice-President Vigliotti,\u00a0\n\n\nRepresentatives of the European Investment Bank,\u00a0\n\n\nDear young farmers, bankers,\u00a0policymakers\u00a0and all ...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1387",
+      "source": "European Commission",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-21T02:21:19.791526Z"
+    },
+    {
+      "id": "f9d9f03c36ea23aa4e2535bf35fd8775",
+      "title": "Correspondence: DAO 06/26 Protection of the UK's National Security Through Public Procurement",
+      "summary": "\u2018Dear Accounting Officer\u2019 letters provide advice on accountability, regularity, propriety, value for money and annual accounting exercises.",
+      "link": "https://www.gov.uk/government/publications/dao-0626-protection-of-the-uks-national-security-through-public-procurement",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-21T02:21:21.347910Z"
+    },
+    {
+      "id": "764330c06f63946f7cfd547145cc007f",
+      "title": "Largest wind farm in the United States slated to begin commercial operations",
+      "summary": "The SunZia Wind Project, the largest wind farm in the United States, is slated to begin commercial operations this month. The wind farm, located in New Mexico, has a total net summer generating capacity of 3,650 megawatts (MW) and is composed of 916 wind turbines. SunZia's capacity is more than three times larger than the next two largest wind farms, Alta Wind in Southern California (1,098 MW) and Great Prairie in northern Texas (1,027 MW). The SunZia Wind Project works with a high voltage transmission line to deliver the wind power generated to Arizona and California.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67766",
+      "source": "EIA",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-21T02:21:30.200524Z"
+    },
+    {
+      "id": "d92979d077efd491dfc0ddc10430d654",
+      "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
+      "summary": "Microsoft has attributed a recent Mastra AI supply chain attack that compromised more than 140 npm packages to the North Korean hacking group Sapphire Sleet, also known as BlueNoroff. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-21T02:21:32.767144Z"
+    },
+    {
+      "id": "ee8f1901099a157c6f8d75eadc858a4d",
+      "title": "Government to take on big tech in bid to boost British news",
+      "summary": "<p> <img alt=\"The plans follow this week&#039;s social media ban (Yui Mok/PA Wire)\n\" src=\"https://www.cityam.com/wp-content/uploads/2026/06/01KJCBVZ5PWZT29RX4PJCZR7AY.jpg?w=1097\" /> </p>The government is preparing to force social media platforms to boost the presence of British news providers to counter misinformation, in a move likely to ruffle the feathers of big tech firms. Ministers are preparing to consult on rules which would require platforms like YouTube and Meta to make UK news sites like the BBC, <a href=\"https://www.cityam.com/government-to-take-on-big-tech-in-bid-to-boost-british-news/\">[...]</a>",
+      "link": "https://www.cityam.com/government-to-take-on-big-tech-in-bid-to-boost-british-news/",
+      "source": "CityAM",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-21T02:21:22.271881Z"
     }
   ],
   "alerts": [
     {
-      "id": "98b3dd45266a3ad4738d8fc222c34af4",
-      "title": "Kuwait Starts Oil Output Hike, to Top 2 Million Barrels Soon - Bloomberg",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNTEY2VnRyUExTRW43bmRlUk0wMmpnaS1oOTlRRjI5dGU5U2puYUtVb3p1UTl2ck5CUWRZZDUtSUYwbG9SU2NrRjU4Q0otLVNHQ3M2WjdJX0h4UXRFbV9pT2UtOW9aVnpFYU5zWlY2ZTVITU9ybmRLR1lreFhMcUpWNklMaVZFOWF6WGNGZWdSNGNYdDliZi1QUGwtQ0xGc3BJb0JiZUpRQlE1Vk1RakMw?oc=5\" target=\"_blank\">Kuwait Starts Oil Output Hike, to Top 2 Million Barrels Soon</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTEY2VnRyUExTRW43bmRlUk0wMmpnaS1oOTlRRjI5dGU5U2puYUtVb3p1UTl2ck5CUWRZZDUtSUYwbG9SU2NrRjU4Q0otLVNHQ3M2WjdJX0h4UXRFbV9pT2UtOW9aVnpFYU5zWlY2ZTVITU9ybmRLR1lreFhMcUpWNklMaVZFOWF6WGNGZWdSNGNYdDliZi1QUGwtQ0xGc3BJb0JiZUpRQlE1Vk1RakMw?oc=5",
-      "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
+      "id": "be3df461fb84965d9626346168f9d0a1",
+      "title": "Index-linked Treasury Stock",
+      "summary": "Index-linked treasury stocks are gilts issued by the UK Government. They pay out twice a year, with the amount indexed to the Retail Prices Index.",
+      "link": "https://www.bankofengland.co.uk/news/2026/june/index-linked-treasury-stock-jun-2026",
+      "source": "Bank of England",
+      "score": 32,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "TLT",
+        "UK_GILTS"
       ],
       "regions": [
         "UK"
       ],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "EQUITIES",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-21T02:16:36.628082Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-21T02:21:20.437816Z"
     },
     {
-      "id": "9db30c89abcdc2668914974a67b55e1e",
-      "title": "EU set to remove barriers to banks\u2019 cross-border capital flows",
-      "summary": "Draft report by European Commission aims to boost performance of lenders in bloc compared with US rivals",
-      "link": "https://www.ft.com/content/bec1c122-04d6-4eab-b69c-c33d874cfa5b",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
+      "id": "801080090007a15644caf80cadf376ab",
+      "title": "Fed\u2019s Favorite Gauge Is Seen Showing Faster Inflation",
+      "summary": "The latest update to the Federal Reserve\u2019s favorite inflation gauge is unlikely to challenge a growing consensus at the US central bank around the need for interest-rate hikes this year.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-20/fed-s-favorite-gauge-is-seen-showing-faster-inflation",
+      "source": "Bloomberg",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-21T02:20:53.402367Z"
+    },
+    {
+      "id": "3c9f430adbd7a16236620cb0788669e2",
+      "title": "ECB publishes consolidated banking data for end-December 2025",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260619~f097597c01.en.html",
+      "source": "ECB",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-21T02:21:09.559686Z"
+    },
+    {
+      "id": "f5214a073fa5754a46c96de8a974cda5",
+      "title": "Amazon investigating engineers who criticized AI data center expansion",
+      "summary": "Five Amazon employees testified at Seattle City Council meetings where officials sought feedback on a year-long data center new construction pause.",
+      "link": "https://www.cnbc.com/2026/06/18/amazon-engineers-ai-data-center-opposition.html",
+      "source": "CNBC",
+      "score": 15,
+      "severity": "HIGH",
       "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
+      "tickers": [],
+      "regions": [],
       "assets": [
-        "AI",
-        "FX"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -137,7 +357,129 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-21T02:15:49.762331Z"
+      "published": "2026-06-21T02:20:56.821590Z"
+    },
+    {
+      "id": "e00b435bd2dce8b8f8b8391b6242d0ce",
+      "title": "Opening speech by Commissioner Hansen at the DG AGRI and the European Investment Bank (EIB) event 'Boosting generational renewal in EU agriculture \u2013 improving access to finance for young farmers'",
+      "summary": "European Commission Speech Warsaw, 18 Jun 2026 \u00a0\n\u00a0\n\nMinister Krajewski,\u00a0\n\n\n\nVice-President Vigliotti,\u00a0\n\n\nRepresentatives of the European Investment Bank,\u00a0\n\n\nDear young farmers, bankers,\u00a0policymakers\u00a0and all ...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1387",
+      "source": "European Commission",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-21T02:21:19.791526Z"
+    },
+    {
+      "id": "f9d9f03c36ea23aa4e2535bf35fd8775",
+      "title": "Correspondence: DAO 06/26 Protection of the UK's National Security Through Public Procurement",
+      "summary": "\u2018Dear Accounting Officer\u2019 letters provide advice on accountability, regularity, propriety, value for money and annual accounting exercises.",
+      "link": "https://www.gov.uk/government/publications/dao-0626-protection-of-the-uks-national-security-through-public-procurement",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-21T02:21:21.347910Z"
+    },
+    {
+      "id": "764330c06f63946f7cfd547145cc007f",
+      "title": "Largest wind farm in the United States slated to begin commercial operations",
+      "summary": "The SunZia Wind Project, the largest wind farm in the United States, is slated to begin commercial operations this month. The wind farm, located in New Mexico, has a total net summer generating capacity of 3,650 megawatts (MW) and is composed of 916 wind turbines. SunZia's capacity is more than three times larger than the next two largest wind farms, Alta Wind in Southern California (1,098 MW) and Great Prairie in northern Texas (1,027 MW). The SunZia Wind Project works with a high voltage transmission line to deliver the wind power generated to Arizona and California.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67766",
+      "source": "EIA",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-21T02:21:30.200524Z"
+    },
+    {
+      "id": "d92979d077efd491dfc0ddc10430d654",
+      "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
+      "summary": "Microsoft has attributed a recent Mastra AI supply chain attack that compromised more than 140 npm packages to the North Korean hacking group Sapphire Sleet, also known as BlueNoroff. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-21T02:21:32.767144Z"
+    },
+    {
+      "id": "ee8f1901099a157c6f8d75eadc858a4d",
+      "title": "Government to take on big tech in bid to boost British news",
+      "summary": "<p> <img alt=\"The plans follow this week&#039;s social media ban (Yui Mok/PA Wire)\n\" src=\"https://www.cityam.com/wp-content/uploads/2026/06/01KJCBVZ5PWZT29RX4PJCZR7AY.jpg?w=1097\" /> </p>The government is preparing to force social media platforms to boost the presence of British news providers to counter misinformation, in a move likely to ruffle the feathers of big tech firms. Ministers are preparing to consult on rules which would require platforms like YouTube and Meta to make UK news sites like the BBC, <a href=\"https://www.cityam.com/government-to-take-on-big-tech-in-bid-to-boost-british-news/\">[...]</a>",
+      "link": "https://www.cityam.com/government-to-take-on-big-tech-in-bid-to-boost-british-news/",
+      "source": "CityAM",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-21T02:21:22.271881Z"
     }
   ]
 }
