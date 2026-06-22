@@ -1,105 +1,447 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-22T01:19:09.326280Z",
+  "generated_at": "2026-06-22T01:21:38.852888Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-06-22T01:19:09.326294Z"
+    "critical_alerts": 2,
+    "high_alerts": 1,
+    "last_updated": "2026-06-22T01:21:38.852903Z"
   },
   "top_signals": [
     {
-      "id": "f2571f9ed742735fddd7d617dad8f291",
-      "title": "Aeva 4D LiDAR selected for Bendix Class 8 safety systems",
-      "summary": "<p>Bendix and Aeva bring 4D LiDAR to Class 8 collision mitigation via Fusion ADAS. Collaboration targets L2+ driver assistance in mass production for fleets</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/bendix-aeva-4d-lidar-class-8-collision-mitigation\">Aeva 4D LiDAR selected for Bendix Class 8 safety systems</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/bendix-aeva-4d-lidar-class-8-collision-mitigation",
-      "source": "FreightWaves",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
+      "id": "d9503128b91eea534c67e0cc7c4ccee9",
+      "title": "Oil Fluctuates as Traders Assess US-Iran Talks : Markets Wrap",
+      "summary": "Oil prices erased an early advance as investors navigated a rapidly shifting narrative in peace negotiations between the US and Iran.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-21/us-futures-slip-oil-climbs-on-renewed-iran-threat-markets-wrap",
+      "source": "Bloomberg",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
-        "SHIPPING"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-22T01:16:22.827528Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-22T01:20:55.844137Z"
     },
     {
-      "id": "51b5a0201ab854e3e83d8afcc684f6b6",
-      "title": "How STRC lost its par: The timeline behind Strategy's preferred-stock meltdown",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/06/20/how-strc-lost-its-par-the-timeline-behind-strategy-s-preferred-stock-meltdown",
-      "source": "CoinDesk",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "54d92d604897e0f692c9a1f6887e1f26",
+      "title": "CNBC Daily Open: Markets feeling that deja vu as Iran deal under strain, once again",
+      "summary": "Less than a week after the U.S. and Iran signed their \"memorandum of understanding\" aimed at ending the conflict, tensions have flared once again.",
+      "link": "https://www.cnbc.com/2026/06/22/cnbc-daily-open-iran-ceasefire-deal-trump-israel-lebanon.html",
+      "source": "CNBC",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-22T01:21:00.242690Z"
+    },
+    {
+      "id": "1a6e2f585671b1f74e8656cb7b56ec16",
+      "title": "Ethereum's biggest 'sandwich' bot drained of $7.5 million in ironic exploit",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/06/21/ethereum-s-biggest-sandwich-bot-drained-of-usd7-5-million-in-ironic-exploit",
+      "source": "CoinDesk",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "ETH"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-22T01:21:35.283911Z"
+    },
+    {
+      "id": "917cc84e4c128942c81ebaf9c87ae1d1",
+      "title": "Charles Schwab is working with Cboe to launch S&P 500 \u2018yes-or-no\u2019 binary options contracts: WSJ",
+      "summary": "<p>The binary contracts would mark the brokerage's first move into prediction-market-style products, a sector that Kalshi and Polymarket already dominate.</p>",
+      "link": "https://www.theblock.co/post/405454/charles-schwab-is-working-with-cboe-to-launch-sp-500-yes-or-no-binary-options-contracts-wsj?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "SPY"
+      ],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-22T01:16:45.724468Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-22T01:21:35.504098Z"
+    },
+    {
+      "id": "93b9c61b5148081ddd5a21b342936098",
+      "title": "With Lebanon ceasefire set, Trump envoy heads to Switzerland for U.S.-Iran talks - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNdGlIRzVkQXRyMi1KZ2xpUGFScEtiNlk2M2VjV0t2M0xsY1NYcFJfQXNxSTFDSXFjaXZmNDVMWkVvU00zX0tXTE80MXpFUlVUeE8xOW1USzJtTERYV09YRU4zbnRic1NwaG1WRHVRT2s2TTl4NkgxMjNVMEtsS0pyQl9ldURhQVkwTzdzcG5sajE3bzhSS1h5NWpoWDJZd05HdTFodHd6azZjN2JLT25xaA?oc=5\" target=\"_blank\">With Lebanon ceasefire set, Trump envoy heads to Switzerland for U.S.-Iran talks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdGlIRzVkQXRyMi1KZ2xpUGFScEtiNlk2M2VjV0t2M0xsY1NYcFJfQXNxSTFDSXFjaXZmNDVMWkVvU00zX0tXTE80MXpFUlVUeE8xOW1USzJtTERYV09YRU4zbnRic1NwaG1WRHVRT2s2TTl4NkgxMjNVMEtsS0pyQl9ldURhQVkwTzdzcG5sajE3bzhSS1h5NWpoWDJZd05HdTFodHd6azZjN2JLT25xaA?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-22T01:21:37.215008Z"
+    },
+    {
+      "id": "0555e3160b9f1d75efe52e7476209125",
+      "title": "President von der Leyen participates in G7 Summit in Evian to address global economic imbalances and ongoing crises",
+      "summary": "European Commission News Brussels, 18 Jun 2026 \nUrsula von der Leyen, President of the European Commission, was in Evian earlier this week to participate in the G7 leaders' meeting. Leaders had a packed agen...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_1386",
+      "source": "European Commission",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "EUR",
+        "JPY"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-22T01:21:19.603904Z"
+    },
+    {
+      "id": "cc72cc55fda4a83f41c5e7f348b04a64",
+      "title": "China\u2019s tribute system and the new world order - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9DOHRMNHIxaXI3STRnOUpYLW9CZFd1U0x4RXh5UmtrbmN0aExGM1N5eVBzNkhOUFZrQnl0NHVnN3pYSUFSa0tFQ3lmRERWakJHR2RkQXpYZkdMdFlHNXRkd3ctbFB4NU83S25HMjZreFk?oc=5\" target=\"_blank\">China\u2019s tribute system and the new world order</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9DOHRMNHIxaXI3STRnOUpYLW9CZFd1U0x4RXh5UmtrbmN0aExGM1N5eVBzNkhOUFZrQnl0NHVnN3pYSUFSa0tFQ3lmRERWakJHR2RkQXpYZkdMdFlHNXRkd3ctbFB4NU83S25HMjZreFk?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-22T01:21:37.765757Z"
     }
   ],
   "alerts": [
     {
-      "id": "f2571f9ed742735fddd7d617dad8f291",
-      "title": "Aeva 4D LiDAR selected for Bendix Class 8 safety systems",
-      "summary": "<p>Bendix and Aeva bring 4D LiDAR to Class 8 collision mitigation via Fusion ADAS. Collaboration targets L2+ driver assistance in mass production for fleets</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/bendix-aeva-4d-lidar-class-8-collision-mitigation\">Aeva 4D LiDAR selected for Bendix Class 8 safety systems</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/bendix-aeva-4d-lidar-class-8-collision-mitigation",
-      "source": "FreightWaves",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
+      "id": "d9503128b91eea534c67e0cc7c4ccee9",
+      "title": "Oil Fluctuates as Traders Assess US-Iran Talks : Markets Wrap",
+      "summary": "Oil prices erased an early advance as investors navigated a rapidly shifting narrative in peace negotiations between the US and Iran.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-21/us-futures-slip-oil-climbs-on-renewed-iran-threat-markets-wrap",
+      "source": "Bloomberg",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
-        "SHIPPING"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-22T01:16:22.827528Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-22T01:20:55.844137Z"
     },
     {
-      "id": "51b5a0201ab854e3e83d8afcc684f6b6",
-      "title": "How STRC lost its par: The timeline behind Strategy's preferred-stock meltdown",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/06/20/how-strc-lost-its-par-the-timeline-behind-strategy-s-preferred-stock-meltdown",
-      "source": "CoinDesk",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "54d92d604897e0f692c9a1f6887e1f26",
+      "title": "CNBC Daily Open: Markets feeling that deja vu as Iran deal under strain, once again",
+      "summary": "Less than a week after the U.S. and Iran signed their \"memorandum of understanding\" aimed at ending the conflict, tensions have flared once again.",
+      "link": "https://www.cnbc.com/2026/06/22/cnbc-daily-open-iran-ceasefire-deal-trump-israel-lebanon.html",
+      "source": "CNBC",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-22T01:21:00.242690Z"
+    },
+    {
+      "id": "1a6e2f585671b1f74e8656cb7b56ec16",
+      "title": "Ethereum's biggest 'sandwich' bot drained of $7.5 million in ironic exploit",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/06/21/ethereum-s-biggest-sandwich-bot-drained-of-usd7-5-million-in-ironic-exploit",
+      "source": "CoinDesk",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "ETH"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-22T01:21:35.283911Z"
+    },
+    {
+      "id": "917cc84e4c128942c81ebaf9c87ae1d1",
+      "title": "Charles Schwab is working with Cboe to launch S&P 500 \u2018yes-or-no\u2019 binary options contracts: WSJ",
+      "summary": "<p>The binary contracts would mark the brokerage's first move into prediction-market-style products, a sector that Kalshi and Polymarket already dominate.</p>",
+      "link": "https://www.theblock.co/post/405454/charles-schwab-is-working-with-cboe-to-launch-sp-500-yes-or-no-binary-options-contracts-wsj?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "SPY"
+      ],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-22T01:16:45.724468Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-22T01:21:35.504098Z"
+    },
+    {
+      "id": "93b9c61b5148081ddd5a21b342936098",
+      "title": "With Lebanon ceasefire set, Trump envoy heads to Switzerland for U.S.-Iran talks - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNdGlIRzVkQXRyMi1KZ2xpUGFScEtiNlk2M2VjV0t2M0xsY1NYcFJfQXNxSTFDSXFjaXZmNDVMWkVvU00zX0tXTE80MXpFUlVUeE8xOW1USzJtTERYV09YRU4zbnRic1NwaG1WRHVRT2s2TTl4NkgxMjNVMEtsS0pyQl9ldURhQVkwTzdzcG5sajE3bzhSS1h5NWpoWDJZd05HdTFodHd6azZjN2JLT25xaA?oc=5\" target=\"_blank\">With Lebanon ceasefire set, Trump envoy heads to Switzerland for U.S.-Iran talks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdGlIRzVkQXRyMi1KZ2xpUGFScEtiNlk2M2VjV0t2M0xsY1NYcFJfQXNxSTFDSXFjaXZmNDVMWkVvU00zX0tXTE80MXpFUlVUeE8xOW1USzJtTERYV09YRU4zbnRic1NwaG1WRHVRT2s2TTl4NkgxMjNVMEtsS0pyQl9ldURhQVkwTzdzcG5sajE3bzhSS1h5NWpoWDJZd05HdTFodHd6azZjN2JLT25xaA?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-22T01:21:37.215008Z"
+    },
+    {
+      "id": "0555e3160b9f1d75efe52e7476209125",
+      "title": "President von der Leyen participates in G7 Summit in Evian to address global economic imbalances and ongoing crises",
+      "summary": "European Commission News Brussels, 18 Jun 2026 \nUrsula von der Leyen, President of the European Commission, was in Evian earlier this week to participate in the G7 leaders' meeting. Leaders had a packed agen...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_1386",
+      "source": "European Commission",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "EUR",
+        "JPY"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-22T01:21:19.603904Z"
+    },
+    {
+      "id": "cc72cc55fda4a83f41c5e7f348b04a64",
+      "title": "China\u2019s tribute system and the new world order - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9DOHRMNHIxaXI3STRnOUpYLW9CZFd1U0x4RXh5UmtrbmN0aExGM1N5eVBzNkhOUFZrQnl0NHVnN3pYSUFSa0tFQ3lmRERWakJHR2RkQXpYZkdMdFlHNXRkd3ctbFB4NU83S25HMjZreFk?oc=5\" target=\"_blank\">China\u2019s tribute system and the new world order</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9DOHRMNHIxaXI3STRnOUpYLW9CZFd1U0x4RXh5UmtrbmN0aExGM1N5eVBzNkhOUFZrQnl0NHVnN3pYSUFSa0tFQ3lmRERWakJHR2RkQXpYZkdMdFlHNXRkd3ctbFB4NU83S25HMjZreFk?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-22T01:21:37.765757Z"
     }
   ]
 }
