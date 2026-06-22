@@ -1,101 +1,387 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-22T20:46:27.490909Z",
+  "generated_at": "2026-06-22T20:51:37.572262Z",
   "market_regime": {
-    "regime": "CRYPTO",
-    "dominant_driver": "CRYPTO",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-06-22T20:46:27.490921Z"
+    "critical_alerts": 1,
+    "high_alerts": 2,
+    "last_updated": "2026-06-22T20:51:37.572274Z"
   },
   "top_signals": [
     {
-      "id": "d106e72647ac814d50c15e93511e68b3",
-      "title": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
-      "summary": "The new unit arrives amid rapid growth in tokenized assets, with Franklin Templeton's onchain product suite expanding from roughly $768 million to more than $2.5 billion over the past year.",
-      "link": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "source": "CoinTelegraph",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
+      "id": "964bd7b035ac1edf85e5718190e90fef",
+      "title": "Emerging-Market Stocks Mark Fresh High as US-Iran Talks Progress, Oil Falls",
+      "summary": "Most emerging-market currencies slid Monday on the back of a stronger dollar as rising bets the Federal Reserve will hike rates this year sapped risk appetite, overshadowing the latest developments in the Middle East as the US and Iran make progress toward a peace deal.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-22/em-stocks-mark-fresh-high-as-us-iran-talks-progress-oil-falls",
+      "source": "Bloomberg",
+      "score": 50,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "DXY",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-22T20:51:02.011222Z"
+    },
+    {
+      "id": "a0776b03e7a93faa3d50f36137869b42",
+      "title": "Vance hails 'great progress' in U.S.-Iran talks despite 'threatening' and 'whining'",
+      "summary": "JD Vance said U.S.-Iran talks in Switzerland made progress, with Tehran agreeing to allow IAEA inspectors back into Iran.",
+      "link": "https://www.cnbc.com/2026/06/22/vance-iran-ceasefire-talks-iaea-inspectors.html",
+      "source": "CNBC",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "USD"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-06-22T20:46:23.848849Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-22T20:51:05.268936Z"
     },
     {
-      "id": "f4823d96bea08ac49177df97d4c79621",
-      "title": "Cuba passes \u2018urgent\u2019 reforms to liberalise economy under US pressure - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxONlhvalVQbThhRTFrenlNSzZkZmRZSHhBNzhNVGNGVnYtQWVHcXZuRXFPZlphVGQ3S04yblZQeW80SXhPLWtPc0t5THBacnpjN0FQQnc0b29vVWFiOFNaMTNmaE4xWDhUbnprNnRWR2ZxUTlnZ3g2TFVNOHA5cThidDJtMk0?oc=5\" target=\"_blank\">Cuba passes \u2018urgent\u2019 reforms to liberalise economy under US pressure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONlhvalVQbThhRTFrenlNSzZkZmRZSHhBNzhNVGNGVnYtQWVHcXZuRXFPZlphVGQ3S04yblZQeW80SXhPLWtPc0t5THBacnpjN0FQQnc0b29vVWFiOFNaMTNmaE4xWDhUbnprNnRWR2ZxUTlnZ3g2TFVNOHA5cThidDJtMk0?oc=5",
+      "id": "3d5fcd98945ce4dd90366d718aba9458",
+      "title": "Oil Glut Bets Are Back in Play as Crude Sinks After US-Iran Deal - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPUU9BclVjaUpGbENJNlFGaWhKd2M1SzE2czZRcGJza0RBZ2FQOHJ6LXdtejRDV25Ed1lkWTMwMzhQZlhVYm1reS1TcUoxenJQSHhHck15OHpiOUY2ZGlVVTl6Q0c4TXdYNFlpUVFndm5YQW9SX3NPaTI2UkEyejVpX3dFMWhTQ0wtWEhzQTBHVFBrTTRTNWloaFRRV0d1NDZOcXp6OHZPQ2lKcnExNjFVd1VESzZmZw?oc=5\" target=\"_blank\">Oil Glut Bets Are Back in Play as Crude Sinks After US-Iran Deal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUU9BclVjaUpGbENJNlFGaWhKd2M1SzE2czZRcGJza0RBZ2FQOHJ6LXdtejRDV25Ed1lkWTMwMzhQZlhVYm1reS1TcUoxenJQSHhHck15OHpiOUY2ZGlVVTl6Q0c4TXdYNFlpUVFndm5YQW9SX3NPaTI2UkEyejVpX3dFMWhTQ0wtWEhzQTBHVFBrTTRTNWloaFRRV0d1NDZOcXp6OHZPQ2lKcnExNjFVd1VESzZmZw?oc=5",
       "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-22T20:51:35.300526Z"
+    },
+    {
+      "id": "86b12cd5654e7a2121228ca3d6921497",
+      "title": "TerraLithium, BHE Renewables advance toward commercial-scale lithium extraction",
+      "summary": "The companies have achieved\u00a0production of lithium chloride using their DLE process at BHE Renewables\u2019 geothermal facility in California.",
+      "link": "https://www.mining.com/terralithium-bhe-renewables-advance-toward-commercial-scale-lithium-extraction/",
+      "source": "Mining.com",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-22T20:46:26.273997Z"
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-22T20:51:32.040341Z"
+    },
+    {
+      "id": "a05e9bf66d632c079af4468c595a677c",
+      "title": "Cogs of War Turns One",
+      "summary": "<p>A mentor of mine, a superb scholar, once told me that good defense analysis starts with a trade-off. The classic example is combined arms doctrine, which is the foundation of modern warfare. Infantry, armor, artillery, and aviation work together to offset each other&#8217;s weaknesses. Each brings a combination of mobility, firepower, or protection, though none individually has all three. Infantry has a lot of mobility, but little protection. Tanks have mobility and a lot of protection, but limited magazines. Artillery in the rear has nearly limitless firepower, but no protection. Aviation brings speed, reach, and firepower, but little staying power,</p>\n<p>The post <a href=\"https://warontherocks.com/cogs-of-war/cogs-of-war-turns-one/\">Cogs of War Turns One</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/cogs-of-war/cogs-of-war-turns-one/",
+      "source": "War on the Rocks",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-22T20:51:33.442893Z"
+    },
+    {
+      "id": "f41450afc2138511372b0aed538771d4",
+      "title": "Alan Greenspan, Who Led Fed During Boom Before 2008 Bust, Dies at 100 - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNWWp2bUgtY1ItcDRVWXduTy1FV1hZSUUzWkd1T3ZLTXJfNVBOVVlaMGxSXzJ0Zi1JRFdFQWs3VWdJTjMtZElDVFJjOW9WV0pHMEdQM0R2anhSclRnMlhzWkx2ZXJrTkcwM0R0WDhOalhqNlNIYUdFRUFTTWw3MkVyMncxYmpUNVc2RDhyVUM1YVpfSWJNYWg3QjBDQTNoSVl4bng0LVBadnFTVU1nYnM1NFlUQXI?oc=5\" target=\"_blank\">Alan Greenspan, Who Led Fed During Boom Before 2008 Bust, Dies at 100</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWWp2bUgtY1ItcDRVWXduTy1FV1hZSUUzWkd1T3ZLTXJfNVBOVVlaMGxSXzJ0Zi1JRFdFQWs3VWdJTjMtZElDVFJjOW9WV0pHMEdQM0R2anhSclRnMlhzWkx2ZXJrTkcwM0R0WDhOalhqNlNIYUdFRUFTTWw3MkVyMncxYmpUNVc2RDhyVUM1YVpfSWJNYWg3QjBDQTNoSVl4bng0LVBadnFTVU1nYnM1NFlUQXI?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-22T20:51:35.300443Z"
     }
   ],
   "alerts": [
     {
-      "id": "d106e72647ac814d50c15e93511e68b3",
-      "title": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
-      "summary": "The new unit arrives amid rapid growth in tokenized assets, with Franklin Templeton's onchain product suite expanding from roughly $768 million to more than $2.5 billion over the past year.",
-      "link": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "source": "CoinTelegraph",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
+      "id": "964bd7b035ac1edf85e5718190e90fef",
+      "title": "Emerging-Market Stocks Mark Fresh High as US-Iran Talks Progress, Oil Falls",
+      "summary": "Most emerging-market currencies slid Monday on the back of a stronger dollar as rising bets the Federal Reserve will hike rates this year sapped risk appetite, overshadowing the latest developments in the Middle East as the US and Iran make progress toward a peace deal.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-22/em-stocks-mark-fresh-high-as-us-iran-talks-progress-oil-falls",
+      "source": "Bloomberg",
+      "score": 50,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "DXY",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-22T20:51:02.011222Z"
+    },
+    {
+      "id": "a0776b03e7a93faa3d50f36137869b42",
+      "title": "Vance hails 'great progress' in U.S.-Iran talks despite 'threatening' and 'whining'",
+      "summary": "JD Vance said U.S.-Iran talks in Switzerland made progress, with Tehran agreeing to allow IAEA inspectors back into Iran.",
+      "link": "https://www.cnbc.com/2026/06/22/vance-iran-ceasefire-talks-iaea-inspectors.html",
+      "source": "CNBC",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "USD"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-06-22T20:46:23.848849Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-22T20:51:05.268936Z"
     },
     {
-      "id": "f4823d96bea08ac49177df97d4c79621",
-      "title": "Cuba passes \u2018urgent\u2019 reforms to liberalise economy under US pressure - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxONlhvalVQbThhRTFrenlNSzZkZmRZSHhBNzhNVGNGVnYtQWVHcXZuRXFPZlphVGQ3S04yblZQeW80SXhPLWtPc0t5THBacnpjN0FQQnc0b29vVWFiOFNaMTNmaE4xWDhUbnprNnRWR2ZxUTlnZ3g2TFVNOHA5cThidDJtMk0?oc=5\" target=\"_blank\">Cuba passes \u2018urgent\u2019 reforms to liberalise economy under US pressure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONlhvalVQbThhRTFrenlNSzZkZmRZSHhBNzhNVGNGVnYtQWVHcXZuRXFPZlphVGQ3S04yblZQeW80SXhPLWtPc0t5THBacnpjN0FQQnc0b29vVWFiOFNaMTNmaE4xWDhUbnprNnRWR2ZxUTlnZ3g2TFVNOHA5cThidDJtMk0?oc=5",
+      "id": "3d5fcd98945ce4dd90366d718aba9458",
+      "title": "Oil Glut Bets Are Back in Play as Crude Sinks After US-Iran Deal - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPUU9BclVjaUpGbENJNlFGaWhKd2M1SzE2czZRcGJza0RBZ2FQOHJ6LXdtejRDV25Ed1lkWTMwMzhQZlhVYm1reS1TcUoxenJQSHhHck15OHpiOUY2ZGlVVTl6Q0c4TXdYNFlpUVFndm5YQW9SX3NPaTI2UkEyejVpX3dFMWhTQ0wtWEhzQTBHVFBrTTRTNWloaFRRV0d1NDZOcXp6OHZPQ2lKcnExNjFVd1VESzZmZw?oc=5\" target=\"_blank\">Oil Glut Bets Are Back in Play as Crude Sinks After US-Iran Deal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUU9BclVjaUpGbENJNlFGaWhKd2M1SzE2czZRcGJza0RBZ2FQOHJ6LXdtejRDV25Ed1lkWTMwMzhQZlhVYm1reS1TcUoxenJQSHhHck15OHpiOUY2ZGlVVTl6Q0c4TXdYNFlpUVFndm5YQW9SX3NPaTI2UkEyejVpX3dFMWhTQ0wtWEhzQTBHVFBrTTRTNWloaFRRV0d1NDZOcXp6OHZPQ2lKcnExNjFVd1VESzZmZw?oc=5",
       "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-22T20:51:35.300526Z"
+    },
+    {
+      "id": "86b12cd5654e7a2121228ca3d6921497",
+      "title": "TerraLithium, BHE Renewables advance toward commercial-scale lithium extraction",
+      "summary": "The companies have achieved\u00a0production of lithium chloride using their DLE process at BHE Renewables\u2019 geothermal facility in California.",
+      "link": "https://www.mining.com/terralithium-bhe-renewables-advance-toward-commercial-scale-lithium-extraction/",
+      "source": "Mining.com",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-22T20:46:26.273997Z"
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-22T20:51:32.040341Z"
+    },
+    {
+      "id": "a05e9bf66d632c079af4468c595a677c",
+      "title": "Cogs of War Turns One",
+      "summary": "<p>A mentor of mine, a superb scholar, once told me that good defense analysis starts with a trade-off. The classic example is combined arms doctrine, which is the foundation of modern warfare. Infantry, armor, artillery, and aviation work together to offset each other&#8217;s weaknesses. Each brings a combination of mobility, firepower, or protection, though none individually has all three. Infantry has a lot of mobility, but little protection. Tanks have mobility and a lot of protection, but limited magazines. Artillery in the rear has nearly limitless firepower, but no protection. Aviation brings speed, reach, and firepower, but little staying power,</p>\n<p>The post <a href=\"https://warontherocks.com/cogs-of-war/cogs-of-war-turns-one/\">Cogs of War Turns One</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/cogs-of-war/cogs-of-war-turns-one/",
+      "source": "War on the Rocks",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-22T20:51:33.442893Z"
+    },
+    {
+      "id": "f41450afc2138511372b0aed538771d4",
+      "title": "Alan Greenspan, Who Led Fed During Boom Before 2008 Bust, Dies at 100 - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNWWp2bUgtY1ItcDRVWXduTy1FV1hZSUUzWkd1T3ZLTXJfNVBOVVlaMGxSXzJ0Zi1JRFdFQWs3VWdJTjMtZElDVFJjOW9WV0pHMEdQM0R2anhSclRnMlhzWkx2ZXJrTkcwM0R0WDhOalhqNlNIYUdFRUFTTWw3MkVyMncxYmpUNVc2RDhyVUM1YVpfSWJNYWg3QjBDQTNoSVl4bng0LVBadnFTVU1nYnM1NFlUQXI?oc=5\" target=\"_blank\">Alan Greenspan, Who Led Fed During Boom Before 2008 Bust, Dies at 100</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWWp2bUgtY1ItcDRVWXduTy1FV1hZSUUzWkd1T3ZLTXJfNVBOVVlaMGxSXzJ0Zi1JRFdFQWs3VWdJTjMtZElDVFJjOW9WV0pHMEdQM0R2anhSclRnMlhzWkx2ZXJrTkcwM0R0WDhOalhqNlNIYUdFRUFTTWw3MkVyMncxYmpUNVc2RDhyVUM1YVpfSWJNYWg3QjBDQTNoSVl4bng0LVBadnFTVU1nYnM1NFlUQXI?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-22T20:51:35.300443Z"
     }
   ]
 }
