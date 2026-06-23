@@ -1,107 +1,255 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-23T04:21:32.467286Z",
+  "generated_at": "2026-06-23T04:26:18.608593Z",
   "market_regime": {
-    "regime": "AI",
-    "dominant_driver": "AI",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-06-23T04:21:32.467299Z"
+    "critical_alerts": 1,
+    "high_alerts": 1,
+    "last_updated": "2026-06-23T04:26:18.608606Z"
   },
   "top_signals": [
     {
-      "id": "be967796632ee23c514bc29d9c5607d2",
-      "title": "Major German defense firm Rheinmetall eyes production base in Japan",
-      "summary": "A spokesperson said the company hopes to promote projects together with Japanese industry to open up opportunities for defense exports from Japan.",
-      "link": "https://www.japantimes.co.jp/business/2026/06/23/companies/rheinmetall-production-base-japan/",
-      "source": "Japan Times",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
+      "id": "268c97022228d097874af3658badc248",
+      "title": "Oil Holds Decline as Iran Waiver Signals Peace Talks Progress",
+      "summary": "Oil held a decline on signs of progress toward an agreement to end the Iran war, which included a US waiver allowing some sales of crude and fuels from the Islamic Republic.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-22/latest-oil-market-news-and-analysis-for-july-23",
+      "source": "Bloomberg",
+      "score": 39,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
       "regions": [
-        "JAPAN"
+        "MIDDLE_EAST"
       ],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-23T04:21:19.593220Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-23T04:25:45.612810Z"
     },
     {
-      "id": "e592bb3227f7b37dde9ae7bfbe18e472",
-      "title": "UK statistics agency admits fresh error over key jobs data - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOcUFOVlAydHBOcW9jbUhfSnFUdEEyeU5lOWFUOEZKX0pnWTJzcUd2bjZfdTBkME00RHZjWjZFUUw3WFlBSlhyeHFKSV9qdjN4ckNpY21ncEVrUDBTeHZNRkJiaDFxZnFXZUkzQ2xSYlJlLURGaHpfYlpsYkFjZldGaE5VWFY?oc=5\" target=\"_blank\">UK statistics agency admits fresh error over key jobs data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcUFOVlAydHBOcW9jbUhfSnFUdEEyeU5lOWFUOEZKX0pnWTJzcUd2bjZfdTBkME00RHZjWjZFUUw3WFlBSlhyeHFKSV9qdjN4ckNpY21ncEVrUDBTeHZNRkJiaDFxZnFXZUkzQ2xSYlJlLURGaHpfYlpsYkFjZldGaE5VWFY?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
+      "id": "9355171c13ca1777dd3535f666608cdd",
+      "title": "Asset Purchase Facility: Gilt Sales \u2013 Market Notice 19 June 2026",
+      "summary": "This Market Notice sets out the schedule for sales in Q3 2026 of gilts held in the Asset Purchase Facility (APF) for monetary policy purposes.",
+      "link": "https://www.bankofengland.co.uk/markets/market-notices/2026/june/apf-gilt-sales-market-notice-19-june-2026",
+      "source": "Bank of England",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "UK_GILTS"
       ],
+      "regions": [],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-23T04:26:03.298937Z"
+    },
+    {
+      "id": "0921e298b1a066d50d77821172d8361c",
+      "title": "Bitcoin funding rate hits 2-week high: Is $70K next?",
+      "summary": "Bitcoin\u2019s funding rate and orderbook setup signal investor optimism, but ETF outflows and macro red flags could limit BTC\u2019s short-term upside.",
+      "link": "https://cointelegraph.com/markets/bitcoin-funding-rate-hits-2-week-high-is-70k-next?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "source": "CoinTelegraph",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-23T04:26:15.243213Z"
+    },
+    {
+      "id": "82f618adb4fb59ebbb3c5750cbc88c63",
+      "title": "Trump signs executive orders setting 2031 deadline for post-quantum migration",
+      "summary": "<p>One order mandated that all federal high-value assets and systems transition to Post-Quantum Cryptography by the end of 2031.</p>",
+      "link": "https://www.theblock.co/post/405737/trump-executive-orders-quantum-computing?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-23T04:21:31.352174Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-23T04:26:15.323992Z"
     }
   ],
   "alerts": [
     {
-      "id": "be967796632ee23c514bc29d9c5607d2",
-      "title": "Major German defense firm Rheinmetall eyes production base in Japan",
-      "summary": "A spokesperson said the company hopes to promote projects together with Japanese industry to open up opportunities for defense exports from Japan.",
-      "link": "https://www.japantimes.co.jp/business/2026/06/23/companies/rheinmetall-production-base-japan/",
-      "source": "Japan Times",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
+      "id": "268c97022228d097874af3658badc248",
+      "title": "Oil Holds Decline as Iran Waiver Signals Peace Talks Progress",
+      "summary": "Oil held a decline on signs of progress toward an agreement to end the Iran war, which included a US waiver allowing some sales of crude and fuels from the Islamic Republic.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-22/latest-oil-market-news-and-analysis-for-july-23",
+      "source": "Bloomberg",
+      "score": 39,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
       "regions": [
-        "JAPAN"
+        "MIDDLE_EAST"
       ],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-23T04:21:19.593220Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-23T04:25:45.612810Z"
     },
     {
-      "id": "e592bb3227f7b37dde9ae7bfbe18e472",
-      "title": "UK statistics agency admits fresh error over key jobs data - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOcUFOVlAydHBOcW9jbUhfSnFUdEEyeU5lOWFUOEZKX0pnWTJzcUd2bjZfdTBkME00RHZjWjZFUUw3WFlBSlhyeHFKSV9qdjN4ckNpY21ncEVrUDBTeHZNRkJiaDFxZnFXZUkzQ2xSYlJlLURGaHpfYlpsYkFjZldGaE5VWFY?oc=5\" target=\"_blank\">UK statistics agency admits fresh error over key jobs data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcUFOVlAydHBOcW9jbUhfSnFUdEEyeU5lOWFUOEZKX0pnWTJzcUd2bjZfdTBkME00RHZjWjZFUUw3WFlBSlhyeHFKSV9qdjN4ckNpY21ncEVrUDBTeHZNRkJiaDFxZnFXZUkzQ2xSYlJlLURGaHpfYlpsYkFjZldGaE5VWFY?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
+      "id": "9355171c13ca1777dd3535f666608cdd",
+      "title": "Asset Purchase Facility: Gilt Sales \u2013 Market Notice 19 June 2026",
+      "summary": "This Market Notice sets out the schedule for sales in Q3 2026 of gilts held in the Asset Purchase Facility (APF) for monetary policy purposes.",
+      "link": "https://www.bankofengland.co.uk/markets/market-notices/2026/june/apf-gilt-sales-market-notice-19-june-2026",
+      "source": "Bank of England",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "UK_GILTS"
       ],
+      "regions": [],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-23T04:26:03.298937Z"
+    },
+    {
+      "id": "0921e298b1a066d50d77821172d8361c",
+      "title": "Bitcoin funding rate hits 2-week high: Is $70K next?",
+      "summary": "Bitcoin\u2019s funding rate and orderbook setup signal investor optimism, but ETF outflows and macro red flags could limit BTC\u2019s short-term upside.",
+      "link": "https://cointelegraph.com/markets/bitcoin-funding-rate-hits-2-week-high-is-70k-next?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "source": "CoinTelegraph",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-23T04:26:15.243213Z"
+    },
+    {
+      "id": "82f618adb4fb59ebbb3c5750cbc88c63",
+      "title": "Trump signs executive orders setting 2031 deadline for post-quantum migration",
+      "summary": "<p>One order mandated that all federal high-value assets and systems transition to Post-Quantum Cryptography by the end of 2031.</p>",
+      "link": "https://www.theblock.co/post/405737/trump-executive-orders-quantum-computing?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-23T04:21:31.352174Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-23T04:26:15.323992Z"
     }
   ]
 }
