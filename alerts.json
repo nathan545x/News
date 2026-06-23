@@ -1,29 +1,93 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-23T16:51:39.922349Z",
+  "generated_at": "2026-06-23T16:56:24.932699Z",
   "market_regime": {
     "regime": "GEO-SHOCK",
     "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 2,
-    "last_updated": "2026-06-23T16:51:39.922364Z"
+    "critical_alerts": 1,
+    "high_alerts": 1,
+    "last_updated": "2026-06-23T16:56:24.932713Z"
   },
   "top_signals": [
     {
-      "id": "be6733a0569ea2a0d431d9c0965da264",
-      "title": "Trump Call for Crop Sales to Iran Adds Cautious Hope for Farmers",
-      "summary": "President Donald Trump on Tuesday reiterated that funds from any unfrozen Iranian assets would be used in part for grain shipments, potentially providing a fresh market for American farmers.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-23/trump-call-for-crop-sales-to-iran-adds-cautious-hope-for-farmers",
+      "id": "9a1884d69850c321f1a14ac82c177d4a",
+      "title": "Treasuries Gain Before Auctions as Traders Trim Rate Hike Bets",
+      "summary": "Treasuries rose as a selloff in US stocks and further declines in oil prices curbed wagers on Federal Reserve interest-rate increases over the coming year.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-23/treasuries-gain-before-auctions-as-traders-trim-rate-hike-bets",
       "source": "Bloomberg",
-      "score": 21,
+      "score": 35,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-23T16:55:44.326069Z"
+    },
+    {
+      "id": "776f1c094dbaf30d2372000255485e4c",
+      "title": "More Vessels Pass Through Hormuz, Empty LNG Tankers Return",
+      "summary": "Three stranded supertankers passed through the Strait of Hormuz on Tuesday, while seven empty Qatar-linked liquefied natural gas tankers have entered in recent weeks in an early sign Gulf gas shipping may be resuming, ship-tracking data showed.Iranian\u2026",
+      "link": "https://www.marinelink.com/news/vessels-pass-hormuz-empty-lng-tankers-540566",
+      "source": "MarineLink",
+      "score": 24,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "MIDDLE_EAST",
-        "US"
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-23T16:56:20.187051Z"
+    },
+    {
+      "id": "c14ac8df9b92baba2622a4000db39475",
+      "title": "Evacuation Plan Underway for Vessel Stranded in Strait of Hormuz",
+      "summary": "An evacuation plan to enable hundreds of ships with some 11,000 seafarers stranded in the Gulf to sail through the Strait of Hormuz is underway after Iran and the U.S.",
+      "link": "https://www.marinelink.com/news/evacuation-plan-underway-vessel-stranded-540565",
+      "source": "MarineLink",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
       ],
       "assets": [
         "AI"
@@ -42,54 +106,87 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-23T16:51:04.762205Z"
-    },
-    {
-      "id": "da9da7e9eae9eecafaff72ce03d2476c",
-      "title": "Japan shipping industry sees safety as key to Hormuz navigation",
-      "summary": "All ships will likely resume navigation once hostilities have fully ended and details of mine removal operations are confirmed, Nippon Yusen chair Hitoshi Nagasawa added.",
-      "link": "https://www.japantimes.co.jp/business/2026/06/23/japan-shipping-industry-hormuz-safety/",
-      "source": "Japan Times",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
-      "assets": [
-        "AI",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-23T16:51:27.839062Z"
+      "published": "2026-06-23T16:56:20.187111Z"
     }
   ],
   "alerts": [
     {
-      "id": "be6733a0569ea2a0d431d9c0965da264",
-      "title": "Trump Call for Crop Sales to Iran Adds Cautious Hope for Farmers",
-      "summary": "President Donald Trump on Tuesday reiterated that funds from any unfrozen Iranian assets would be used in part for grain shipments, potentially providing a fresh market for American farmers.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-23/trump-call-for-crop-sales-to-iran-adds-cautious-hope-for-farmers",
+      "id": "9a1884d69850c321f1a14ac82c177d4a",
+      "title": "Treasuries Gain Before Auctions as Traders Trim Rate Hike Bets",
+      "summary": "Treasuries rose as a selloff in US stocks and further declines in oil prices curbed wagers on Federal Reserve interest-rate increases over the coming year.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-23/treasuries-gain-before-auctions-as-traders-trim-rate-hike-bets",
       "source": "Bloomberg",
-      "score": 21,
+      "score": 35,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-23T16:55:44.326069Z"
+    },
+    {
+      "id": "776f1c094dbaf30d2372000255485e4c",
+      "title": "More Vessels Pass Through Hormuz, Empty LNG Tankers Return",
+      "summary": "Three stranded supertankers passed through the Strait of Hormuz on Tuesday, while seven empty Qatar-linked liquefied natural gas tankers have entered in recent weeks in an early sign Gulf gas shipping may be resuming, ship-tracking data showed.Iranian\u2026",
+      "link": "https://www.marinelink.com/news/vessels-pass-hormuz-empty-lng-tankers-540566",
+      "source": "MarineLink",
+      "score": 24,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "MIDDLE_EAST",
-        "US"
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-23T16:56:20.187051Z"
+    },
+    {
+      "id": "c14ac8df9b92baba2622a4000db39475",
+      "title": "Evacuation Plan Underway for Vessel Stranded in Strait of Hormuz",
+      "summary": "An evacuation plan to enable hundreds of ships with some 11,000 seafarers stranded in the Gulf to sail through the Strait of Hormuz is underway after Iran and the U.S.",
+      "link": "https://www.marinelink.com/news/evacuation-plan-underway-vessel-stranded-540565",
+      "source": "MarineLink",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
       ],
       "assets": [
         "AI"
@@ -108,38 +205,7 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-23T16:51:04.762205Z"
-    },
-    {
-      "id": "da9da7e9eae9eecafaff72ce03d2476c",
-      "title": "Japan shipping industry sees safety as key to Hormuz navigation",
-      "summary": "All ships will likely resume navigation once hostilities have fully ended and details of mine removal operations are confirmed, Nippon Yusen chair Hitoshi Nagasawa added.",
-      "link": "https://www.japantimes.co.jp/business/2026/06/23/japan-shipping-industry-hormuz-safety/",
-      "source": "Japan Times",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
-      "assets": [
-        "AI",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-23T16:51:27.839062Z"
+      "published": "2026-06-23T16:56:20.187111Z"
     }
   ]
 }
