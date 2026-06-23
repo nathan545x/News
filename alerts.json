@@ -1,58 +1,125 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-23T13:11:50.326684Z",
+  "generated_at": "2026-06-23T13:17:22.951313Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "COMMODITIES",
+    "dominant_driver": "COMMODITIES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 3,
-    "last_updated": "2026-06-23T13:11:50.326698Z"
+    "critical_alerts": 2,
+    "high_alerts": 1,
+    "last_updated": "2026-06-23T13:17:22.951328Z"
   },
   "top_signals": [
     {
-      "id": "baa5e1996a8477d46b7511ef67f3acaa",
-      "title": "Christine Lagarde: Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260622~b060a27b78.en.html",
-      "source": "ECB",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "9c5c7c2f6194058d25532cc872664785",
+      "title": "Russian Oil Exports Hit 2026 High as Iran Waiver Threatens Sales",
+      "summary": "<p>Tumbling oil prices after the interim US-Iran peace deal are eating into Moscow\u2019s windfall&nbsp;</p>",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-23/russia-oil-exports-are-the-highest-this-year-but-face-competition-from-iran",
+      "source": "Bloomberg",
+      "score": 36,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "EUR"
+        "WTI"
       ],
       "regions": [
-        "EUROPE"
+        "MIDDLE_EAST",
+        "RUSSIA"
       ],
       "assets": [
         "AI",
-        "FX"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-23T13:11:19.932246Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-23T13:15:59.322739Z"
     },
     {
-      "id": "402ab124fd7379f9bbfb082b31e4ad3d",
-      "title": "Crypto Critic Nouriel Roubini Finds a Use for the Blockchain",
-      "summary": "Nouriel Roubini, the economist known for predicting the 2008 financial crisis and later for his sharp criticism of crypto, is putting one of his investment products on the blockchain.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-23/crypto-critic-nouriel-roubini-finds-a-use-for-the-blockchain",
+      "id": "8df7d98645368b65b132ea8da3fdcac7",
+      "title": "UAE's exit from OPEC+ reduced the group's share of crude oil production and capacity",
+      "summary": "On April 28, 2026, the United Arab Emirates (UAE) announced that it was leaving OPEC, effective on May 1. OPEC was formed in 1960 by Iraq, Iran, Kuwait, Saudi Arabia, and Venezuela, with the stated objective to \"coordinate and unify petroleum policies among Member Countries.\" OPEC is best known for its effect on global crude oil prices.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67804",
+      "source": "EIA",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-23T13:16:31.241905Z"
+    },
+    {
+      "id": "d48f91dfe97e6701d109954c94088e17",
+      "title": "Platinum Is Said Sole Remaining Bidder for Nestle Water Unit",
+      "summary": "Platinum Equity is the last remaining bidder for Nestle SA\u2019s water business after rival Clayton Dubilier &amp; Rice dropped out of the race, according to people familiar with the matter.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-23/platinum-is-said-sole-remaining-bidder-for-nestle-water-unit",
       "source": "Bloomberg",
-      "score": 18,
+      "score": 20,
       "severity": "HIGH",
-      "regime": "CRYPTO",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "PLATINUM"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-23T13:15:59.322898Z"
+    },
+    {
+      "id": "f791bc6ed2ce93c5003700d6e7e304f2",
+      "title": "Stada Weighs \u20ac6 Billion Takeover of CVC-Backed Cooper Consumer Health",
+      "summary": "Stada is exploring a potential purchase of Cooper Consumer Health from its private equity owners, people familiar with the matter said, as it hunts for acquisitions on the back of record profits.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-23/stada-weighs-6-billion-takeover-of-cvc-backed-cooper-consumer-health",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -60,170 +127,126 @@
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-06-23T13:11:03.268785Z"
-    },
-    {
-      "id": "3dc93ab1fac9e45fea88d52939c6985a",
-      "title": "Waller, Welcoming Remarks on the International Role of the U.S. Dollar",
-      "summary": "Speech At the Fifth Conference on the International Roles of the Dollar, Board of Governors of the Federal Reserve System, Washington, D.C.",
-      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260622a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [
-        "DXY"
-      ],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
+          "NVDA",
+          "SEMIS",
           "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-23T13:11:08.050553Z"
-    },
-    {
-      "id": "8ce1a77edc7083b31cd425a8b1e5cf8a",
-      "title": "Bitcoin may need to plunge 15% or more to mark bottom, according to this long-time indicator",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/06/23/bitcoin-may-need-to-plunge-15-or-more-to-mark-bottom-according-to-this-long-time-indicator",
-      "source": "CoinDesk",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
         ],
-        "bearish": [
-          "USD"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-06-23T13:11:46.113077Z"
-    },
-    {
-      "id": "0d75abc445194864254aacf976ddbad8",
-      "title": "Barr, Deregulating in a Financial Boom: What Could Go Wrong?",
-      "summary": "Speech At American University, Washington, D.C.",
-      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260606a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "US"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-23T13:11:08.050592Z"
-    },
-    {
-      "id": "d67480ea59c74883de084af56d1312fd",
-      "title": "Waller, Policy Risks Have Changed",
-      "summary": "Speech At The Centre for Central Banking Guest Lecture, Frankfurt School of Finance and Management, Frankfurt, Germany",
-      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260522a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "GERMANY"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-23T13:11:08.050646Z"
-    },
-    {
-      "id": "9ff66549b57d0cc91b7b870a6322bbeb",
-      "title": "Two Scattered Spider members plead guilty over cyberattack that crippled London transit",
-      "summary": "A 20-year-old and an 18-year-old admitted to infiltrating the network of Transport for London in 2024, disrupting public transportation services for months.",
-      "link": "https://therecord.media/guilty-plea-tfl-cyberattack-scattered-spider-members",
-      "source": "The Record",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-23T13:11:47.120162Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-23T13:15:59.322812Z"
     }
   ],
   "alerts": [
     {
-      "id": "baa5e1996a8477d46b7511ef67f3acaa",
-      "title": "Christine Lagarde: Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260622~b060a27b78.en.html",
-      "source": "ECB",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "9c5c7c2f6194058d25532cc872664785",
+      "title": "Russian Oil Exports Hit 2026 High as Iran Waiver Threatens Sales",
+      "summary": "<p>Tumbling oil prices after the interim US-Iran peace deal are eating into Moscow\u2019s windfall&nbsp;</p>",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-23/russia-oil-exports-are-the-highest-this-year-but-face-competition-from-iran",
+      "source": "Bloomberg",
+      "score": 36,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "EUR"
+        "WTI"
       ],
       "regions": [
-        "EUROPE"
+        "MIDDLE_EAST",
+        "RUSSIA"
       ],
       "assets": [
         "AI",
-        "FX"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-23T13:11:19.932246Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-23T13:15:59.322739Z"
     },
     {
-      "id": "402ab124fd7379f9bbfb082b31e4ad3d",
-      "title": "Crypto Critic Nouriel Roubini Finds a Use for the Blockchain",
-      "summary": "Nouriel Roubini, the economist known for predicting the 2008 financial crisis and later for his sharp criticism of crypto, is putting one of his investment products on the blockchain.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-23/crypto-critic-nouriel-roubini-finds-a-use-for-the-blockchain",
+      "id": "8df7d98645368b65b132ea8da3fdcac7",
+      "title": "UAE's exit from OPEC+ reduced the group's share of crude oil production and capacity",
+      "summary": "On April 28, 2026, the United Arab Emirates (UAE) announced that it was leaving OPEC, effective on May 1. OPEC was formed in 1960 by Iraq, Iran, Kuwait, Saudi Arabia, and Venezuela, with the stated objective to \"coordinate and unify petroleum policies among Member Countries.\" OPEC is best known for its effect on global crude oil prices.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67804",
+      "source": "EIA",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-23T13:16:31.241905Z"
+    },
+    {
+      "id": "d48f91dfe97e6701d109954c94088e17",
+      "title": "Platinum Is Said Sole Remaining Bidder for Nestle Water Unit",
+      "summary": "Platinum Equity is the last remaining bidder for Nestle SA\u2019s water business after rival Clayton Dubilier &amp; Rice dropped out of the race, according to people familiar with the matter.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-23/platinum-is-said-sole-remaining-bidder-for-nestle-water-unit",
       "source": "Bloomberg",
-      "score": 18,
+      "score": 20,
       "severity": "HIGH",
-      "regime": "CRYPTO",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "PLATINUM"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-23T13:15:59.322898Z"
+    },
+    {
+      "id": "f791bc6ed2ce93c5003700d6e7e304f2",
+      "title": "Stada Weighs \u20ac6 Billion Takeover of CVC-Backed Cooper Consumer Health",
+      "summary": "Stada is exploring a potential purchase of Cooper Consumer Health from its private equity owners, people familiar with the matter said, as it hunts for acquisitions on the back of record profits.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-23/stada-weighs-6-billion-takeover-of-cvc-backed-cooper-consumer-health",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -231,125 +254,14 @@
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-06-23T13:11:03.268785Z"
-    },
-    {
-      "id": "3dc93ab1fac9e45fea88d52939c6985a",
-      "title": "Waller, Welcoming Remarks on the International Role of the U.S. Dollar",
-      "summary": "Speech At the Fifth Conference on the International Roles of the Dollar, Board of Governors of the Federal Reserve System, Washington, D.C.",
-      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260622a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [
-        "DXY"
-      ],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
+          "NVDA",
+          "SEMIS",
           "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-23T13:11:08.050553Z"
-    },
-    {
-      "id": "8ce1a77edc7083b31cd425a8b1e5cf8a",
-      "title": "Bitcoin may need to plunge 15% or more to mark bottom, according to this long-time indicator",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/06/23/bitcoin-may-need-to-plunge-15-or-more-to-mark-bottom-according-to-this-long-time-indicator",
-      "source": "CoinDesk",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
         ],
-        "bearish": [
-          "USD"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-06-23T13:11:46.113077Z"
-    },
-    {
-      "id": "0d75abc445194864254aacf976ddbad8",
-      "title": "Barr, Deregulating in a Financial Boom: What Could Go Wrong?",
-      "summary": "Speech At American University, Washington, D.C.",
-      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260606a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "US"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-23T13:11:08.050592Z"
-    },
-    {
-      "id": "d67480ea59c74883de084af56d1312fd",
-      "title": "Waller, Policy Risks Have Changed",
-      "summary": "Speech At The Centre for Central Banking Guest Lecture, Frankfurt School of Finance and Management, Frankfurt, Germany",
-      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260522a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "GERMANY"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-23T13:11:08.050646Z"
-    },
-    {
-      "id": "9ff66549b57d0cc91b7b870a6322bbeb",
-      "title": "Two Scattered Spider members plead guilty over cyberattack that crippled London transit",
-      "summary": "A 20-year-old and an 18-year-old admitted to infiltrating the network of Transport for London in 2024, disrupting public transportation services for months.",
-      "link": "https://therecord.media/guilty-plea-tfl-cyberattack-scattered-spider-members",
-      "source": "The Record",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-23T13:11:47.120162Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-23T13:15:59.322812Z"
     }
   ]
 }
