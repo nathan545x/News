@@ -1,137 +1,86 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-23T02:41:27.277644Z",
+  "generated_at": "2026-06-23T02:46:23.900914Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
+    "critical_alerts": 0,
     "high_alerts": 1,
-    "last_updated": "2026-06-23T02:41:27.277662Z"
+    "last_updated": "2026-06-23T02:46:23.900926Z"
   },
   "top_signals": [
     {
-      "id": "be3df461fb84965d9626346168f9d0a1",
-      "title": "Index-linked Treasury Stock",
-      "summary": "Index-linked treasury stocks are gilts issued by the UK Government. They pay out twice a year, with the amount indexed to the Retail Prices Index.",
-      "link": "https://www.bankofengland.co.uk/news/2026/june/index-linked-treasury-stock-jun-2026",
-      "source": "Bank of England",
-      "score": 32,
-      "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "TLT",
-        "UK_GILTS"
-      ],
+      "id": "2de140cfec178a3cc211f8b23533b2f3",
+      "title": "CATL Debuts Battery Storage System Using New Sodium Technology",
+      "summary": "Contemporary Amperex Technology Co. Ltd. has launched a new sodium battery storage system, and expects to start delivering it to China in September.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-23/catl-debuts-battery-storage-system-using-new-sodium-technology",
+      "source": "Bloomberg",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
       "regions": [
-        "UK"
+        "CHINA"
       ],
-      "assets": [
-        "AI",
-        "EQUITIES",
-        "RATES"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-23T02:41:09.101105Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-23T02:45:49.979620Z"
     },
     {
-      "id": "3c9f430adbd7a16236620cb0788669e2",
-      "title": "ECB publishes consolidated banking data for end-December 2025",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260619~f097597c01.en.html",
-      "source": "ECB",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "744fc08f75175fcc28b8e72e796195a5",
+      "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
+      "summary": "A previously undocumented malware botnet named AryStinger has compromised more than 4,000 outdated routers to turn them into proxies for malicious traffic. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-23T02:41:04.236375Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-23T02:46:20.850691Z"
     },
     {
-      "id": "f9d9f03c36ea23aa4e2535bf35fd8775",
-      "title": "Correspondence: DAO 06/26 Protection of the UK's National Security Through Public Procurement",
-      "summary": "\u2018Dear Accounting Officer\u2019 letters provide advice on accountability, regularity, propriety, value for money and annual accounting exercises.",
-      "link": "https://www.gov.uk/government/publications/dao-0626-protection-of-the-uks-national-security-through-public-procurement",
-      "source": "HM Treasury",
+      "id": "67349a3058b77ceabf2cc976030da4dd",
+      "title": "UK PM Starmer resigns as Britain faces its seventh leader in 10 years",
+      "summary": "Keir Starmer said he will resign as U.K. prime minister and Labour leader, triggering a contest to choose his successor.",
+      "link": "https://www.cnbc.com/2026/06/22/keir-starmer-resigns-uk-prime-minister.html",
+      "source": "CNBC",
       "score": 10,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-23T02:41:10.645689Z"
-    },
-    {
-      "id": "b5c238113aa8c82060966a23dedaa2e1",
-      "title": "Sony plans its first dollar-bond sale in nearly three decades",
-      "summary": "Selling dollar-denominated debt is more attractive to Japanese companies since BOJ policy tightening has put its benchmark interest rate at the highest level since 1995.",
-      "link": "https://www.japantimes.co.jp/business/2026/06/23/companies/sony-dollar-bond-sale/",
-      "source": "Japan Times",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "DXY"
-      ],
-      "regions": [
-        "JAPAN"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-23T02:41:13.735820Z"
-    },
-    {
-      "id": "764330c06f63946f7cfd547145cc007f",
-      "title": "Largest wind farm in the United States slated to begin commercial operations",
-      "summary": "The SunZia Wind Project, the largest wind farm in the United States, is slated to begin commercial operations this month. The wind farm, located in New Mexico, has a total net summer generating capacity of 3,650 megawatts (MW) and is composed of 916 wind turbines. SunZia's capacity is more than three times larger than the next two largest wind farms, Alta Wind in Southern California (1,098 MW) and Great Prairie in northern Texas (1,027 MW). The SunZia Wind Project works with a high voltage transmission line to deliver the wind power generated to Arizona and California.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67766",
-      "source": "EIA",
-      "score": 5,
-      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [
-        "US"
+        "UK"
       ],
       "assets": [
         "AI"
@@ -145,150 +94,130 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-23T02:41:19.074642Z"
+      "published": "2026-06-23T02:45:53.736727Z"
     },
     {
-      "id": "0578a2c491ba65d1753dc4bf31599a51",
-      "title": "Dallas, Boston, New York New Jersey: Inside England\u2019s Fifa World Cup stadiums",
-      "summary": "<p> <img alt=\"England&#039;s World Cup matches take place in Dallas, Boston and New York New Jersey\" src=\"https://www.cityam.com/wp-content/uploads/2026/06/GettyImages-2278325435-e1782130825801.jpg?w=1107\" /> </p>With England travelling around the United States for their Fifa World Cup Group L matches, Matt Hardy asks experts about what makes them so special. England\u2019s opening victory at this year\u2019s Fifa World Cup came in an incredible indoor stadium in Texas. The AT&#38;T Stadium, known for the next six weeks as the Dallas Stadium, <a href=\"https://www.cityam.com/dallas-boston-new-york-new-jersey-inside-englands-fifa-world-cup-stadiums/\">[...]</a>",
-      "link": "https://www.cityam.com/dallas-boston-new-york-new-jersey-inside-englands-fifa-world-cup-stadiums/",
-      "source": "CityAM",
-      "score": 1,
-      "severity": "LOW",
+      "id": "8df81d6fa14d31d6d13533e11bce7f97",
+      "title": "Korean Stocks Fall More Than 4% From Record High on Tech Selloff",
+      "summary": "South Korean stocks tumbled as investors sold off chip heavyweights on renewed concerns that the rally has become overstretched.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-23/korean-stocks-fall-more-than-4-from-record-high-on-tech-selloff",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [
-        "UK",
-        "US"
+      "regions": [],
+      "assets": [
+        "EQUITIES"
       ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-23T02:45:49.979667Z"
+    },
+    {
+      "id": "ec0c54fdad21353ca9873fcf3ad723db",
+      "title": "AbbVie buys Apogee for $10.9bn to acquire inflammatory disease drug",
+      "summary": "Drugmaker\u2019s largest deal in more than half a decade comes amid surge of M&amp;A in sector",
+      "link": "https://www.ft.com/content/42b5d5d0-0797-43eb-920c-120f68d21f0a",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-23T02:41:11.160085Z"
+      "published": "2026-06-23T02:45:52.510700Z"
+    },
+    {
+      "id": "4d061b35dbe2a65b100ea5ad3dacbd23",
+      "title": "Foodpanda bike deliveries take off in Myanmar as fuel prices surge",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/transportation/foodpanda-bike-deliveries-take-off-in-myanmar-as-fuel-prices-surge",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-23T02:46:11.420830Z"
     }
   ],
   "alerts": [
     {
-      "id": "be3df461fb84965d9626346168f9d0a1",
-      "title": "Index-linked Treasury Stock",
-      "summary": "Index-linked treasury stocks are gilts issued by the UK Government. They pay out twice a year, with the amount indexed to the Retail Prices Index.",
-      "link": "https://www.bankofengland.co.uk/news/2026/june/index-linked-treasury-stock-jun-2026",
-      "source": "Bank of England",
-      "score": 32,
-      "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "TLT",
-        "UK_GILTS"
-      ],
+      "id": "2de140cfec178a3cc211f8b23533b2f3",
+      "title": "CATL Debuts Battery Storage System Using New Sodium Technology",
+      "summary": "Contemporary Amperex Technology Co. Ltd. has launched a new sodium battery storage system, and expects to start delivering it to China in September.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-23/catl-debuts-battery-storage-system-using-new-sodium-technology",
+      "source": "Bloomberg",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
       "regions": [
-        "UK"
+        "CHINA"
       ],
-      "assets": [
-        "AI",
-        "EQUITIES",
-        "RATES"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-23T02:41:09.101105Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-23T02:45:49.979620Z"
     },
     {
-      "id": "3c9f430adbd7a16236620cb0788669e2",
-      "title": "ECB publishes consolidated banking data for end-December 2025",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260619~f097597c01.en.html",
-      "source": "ECB",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "744fc08f75175fcc28b8e72e796195a5",
+      "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
+      "summary": "A previously undocumented malware botnet named AryStinger has compromised more than 4,000 outdated routers to turn them into proxies for malicious traffic. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-23T02:41:04.236375Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-23T02:46:20.850691Z"
     },
     {
-      "id": "f9d9f03c36ea23aa4e2535bf35fd8775",
-      "title": "Correspondence: DAO 06/26 Protection of the UK's National Security Through Public Procurement",
-      "summary": "\u2018Dear Accounting Officer\u2019 letters provide advice on accountability, regularity, propriety, value for money and annual accounting exercises.",
-      "link": "https://www.gov.uk/government/publications/dao-0626-protection-of-the-uks-national-security-through-public-procurement",
-      "source": "HM Treasury",
+      "id": "67349a3058b77ceabf2cc976030da4dd",
+      "title": "UK PM Starmer resigns as Britain faces its seventh leader in 10 years",
+      "summary": "Keir Starmer said he will resign as U.K. prime minister and Labour leader, triggering a contest to choose his successor.",
+      "link": "https://www.cnbc.com/2026/06/22/keir-starmer-resigns-uk-prime-minister.html",
+      "source": "CNBC",
       "score": 10,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-23T02:41:10.645689Z"
-    },
-    {
-      "id": "b5c238113aa8c82060966a23dedaa2e1",
-      "title": "Sony plans its first dollar-bond sale in nearly three decades",
-      "summary": "Selling dollar-denominated debt is more attractive to Japanese companies since BOJ policy tightening has put its benchmark interest rate at the highest level since 1995.",
-      "link": "https://www.japantimes.co.jp/business/2026/06/23/companies/sony-dollar-bond-sale/",
-      "source": "Japan Times",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "DXY"
-      ],
-      "regions": [
-        "JAPAN"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-23T02:41:13.735820Z"
-    },
-    {
-      "id": "764330c06f63946f7cfd547145cc007f",
-      "title": "Largest wind farm in the United States slated to begin commercial operations",
-      "summary": "The SunZia Wind Project, the largest wind farm in the United States, is slated to begin commercial operations this month. The wind farm, located in New Mexico, has a total net summer generating capacity of 3,650 megawatts (MW) and is composed of 916 wind turbines. SunZia's capacity is more than three times larger than the next two largest wind farms, Alta Wind in Southern California (1,098 MW) and Great Prairie in northern Texas (1,027 MW). The SunZia Wind Project works with a high voltage transmission line to deliver the wind power generated to Arizona and California.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67766",
-      "source": "EIA",
-      "score": 5,
-      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [
-        "US"
+        "UK"
       ],
       "assets": [
         "AI"
@@ -302,26 +231,57 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-23T02:41:19.074642Z"
+      "published": "2026-06-23T02:45:53.736727Z"
     },
     {
-      "id": "0578a2c491ba65d1753dc4bf31599a51",
-      "title": "Dallas, Boston, New York New Jersey: Inside England\u2019s Fifa World Cup stadiums",
-      "summary": "<p> <img alt=\"England&#039;s World Cup matches take place in Dallas, Boston and New York New Jersey\" src=\"https://www.cityam.com/wp-content/uploads/2026/06/GettyImages-2278325435-e1782130825801.jpg?w=1107\" /> </p>With England travelling around the United States for their Fifa World Cup Group L matches, Matt Hardy asks experts about what makes them so special. England\u2019s opening victory at this year\u2019s Fifa World Cup came in an incredible indoor stadium in Texas. The AT&#38;T Stadium, known for the next six weeks as the Dallas Stadium, <a href=\"https://www.cityam.com/dallas-boston-new-york-new-jersey-inside-englands-fifa-world-cup-stadiums/\">[...]</a>",
-      "link": "https://www.cityam.com/dallas-boston-new-york-new-jersey-inside-englands-fifa-world-cup-stadiums/",
-      "source": "CityAM",
-      "score": 1,
-      "severity": "LOW",
+      "id": "8df81d6fa14d31d6d13533e11bce7f97",
+      "title": "Korean Stocks Fall More Than 4% From Record High on Tech Selloff",
+      "summary": "South Korean stocks tumbled as investors sold off chip heavyweights on renewed concerns that the rally has become overstretched.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-23/korean-stocks-fall-more-than-4-from-record-high-on-tech-selloff",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [
-        "UK",
-        "US"
+      "regions": [],
+      "assets": [
+        "EQUITIES"
       ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-23T02:45:49.979667Z"
+    },
+    {
+      "id": "ec0c54fdad21353ca9873fcf3ad723db",
+      "title": "AbbVie buys Apogee for $10.9bn to acquire inflammatory disease drug",
+      "summary": "Drugmaker\u2019s largest deal in more than half a decade comes amid surge of M&amp;A in sector",
+      "link": "https://www.ft.com/content/42b5d5d0-0797-43eb-920c-120f68d21f0a",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-23T02:41:11.160085Z"
+      "published": "2026-06-23T02:45:52.510700Z"
+    },
+    {
+      "id": "4d061b35dbe2a65b100ea5ad3dacbd23",
+      "title": "Foodpanda bike deliveries take off in Myanmar as fuel prices surge",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/transportation/foodpanda-bike-deliveries-take-off-in-myanmar-as-fuel-prices-surge",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-23T02:46:11.420830Z"
     }
   ]
 }
