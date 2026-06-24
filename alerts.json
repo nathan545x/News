@@ -1,84 +1,121 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-24T08:46:27.336354Z",
+  "generated_at": "2026-06-24T08:51:35.841105Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-06-24T08:46:27.336366Z"
+    "critical_alerts": 2,
+    "high_alerts": 4,
+    "last_updated": "2026-06-24T08:51:35.841120Z"
   },
   "top_signals": [
     {
-      "id": "d533636f1f5615fc816a297c1ab17c4c",
-      "title": "Rail, ocean access backs new Americold cold chain facility at eastern Canada port",
-      "summary": "<p>U.S.-based Americold plants a flag in Canada as part of a rail-maritime cold chain integration with CPKC and DP World.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/rail-ocean-access-backs-new-americold-cold-chain-facility-at-eastern-canada-port\">Rail, ocean access backs new Americold cold chain facility at eastern Canada port</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/rail-ocean-access-backs-new-americold-cold-chain-facility-at-eastern-canada-port",
-      "source": "FreightWaves",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
+      "id": "be3df461fb84965d9626346168f9d0a1",
+      "title": "Index-linked Treasury Stock",
+      "summary": "Index-linked treasury stocks are gilts issued by the UK Government. They pay out twice a year, with the amount indexed to the Retail Prices Index.",
+      "link": "https://www.bankofengland.co.uk/news/2026/june/index-linked-treasury-stock-jun-2026",
+      "source": "Bank of England",
+      "score": 32,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "TLT",
+        "UK_GILTS"
+      ],
+      "regions": [
+        "UK"
+      ],
       "assets": [
         "AI",
-        "SHIPPING"
+        "EQUITIES",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-24T08:46:22.710700Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-24T08:51:22.843610Z"
     },
     {
-      "id": "c012325ddfff4bbcd306f3194b9cde0d",
-      "title": "Oil Tanker Booked in Gulf at 897% of Benchmark Freight Rate - Bloomberg",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOS2xlWW5XVTdIUUNYNUQ5TEJVNjRGUEtRaDdFaUZNaXVYQng2bnNZX19BYTdTZ0NnTlBHTndDRlZESzhxZkF3XzNOSXA5QUdPY3VXT1dzM0FrN3hjLU1WQWtwSDBZVUdENkcwcDJBTW13SnVMSEs1MHV6UjdnWThCNlQ1TzRIX0RwQmdNS0p4X3dsaG9taE1Ld1ZCWmc5Z19yQTdBZDRVZnFsMU8yTVE?oc=5\" target=\"_blank\">Oil Tanker Booked in Gulf at 897% of Benchmark Freight Rate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS2xlWW5XVTdIUUNYNUQ5TEJVNjRGUEtRaDdFaUZNaXVYQng2bnNZX19BYTdTZ0NnTlBHTndDRlZESzhxZkF3XzNOSXA5QUdPY3VXT1dzM0FrN3hjLU1WQWtwSDBZVUdENkcwcDJBTW13SnVMSEs1MHV6UjdnWThCNlQ1TzRIX0RwQmdNS0p4X3dsaG9taE1Ld1ZCWmc5Z19yQTdBZDRVZnFsMU8yTVE?oc=5",
-      "source": "Google Macro",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
+      "id": "3b48475050fab66ea0612f81cfbb4df8",
+      "title": "An off-grid power project gets a major proof of concept. What it means for GE Vernova",
+      "summary": "AI data centers powered by off-grid power plants took a major step forward this week, a good sign\u00a0for GE Vernova as industry challenges pile up.",
+      "link": "https://www.cnbc.com/2026/06/23/an-off-grid-power-project-gets-a-major-proof-of-concept-what-it-means-for-ge-vernova.html",
+      "source": "CNBC",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-24T08:51:07.356034Z"
+    },
+    {
+      "id": "64682ed3e14b5650bb2f7e72df71ff99",
+      "title": "Euro sinks to one-year low as falling oil prices ease pressure on ECB",
+      "summary": "Traders back away from bets on further interest rate rises as economy slows",
+      "link": "https://www.ft.com/content/b241ba6b-3025-4821-a90c-97bdaccb8fcb",
+      "source": "Financial Times",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [
+        "EUR",
         "WTI"
       ],
       "regions": [],
       "assets": [
         "COMMODITIES",
-        "SHIPPING"
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-24T08:46:25.318922Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-24T08:51:06.074291Z"
     },
     {
-      "id": "1e4a470d87a10b5050e7964874e9da14",
-      "title": "CATL Sees Its Sodium Batteries in at Least 10,000 EVs This Year",
-      "summary": "Contemporary Amperex Technology Co. Ltd. expects 10,000 to 20,000 electric vehicles to carry its sodium-ion batteries this year, a senior official for the Chinese company said.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-24/catl-sees-its-sodium-batteries-in-at-least-10-000-evs-this-year",
+      "id": "e960e381a9ac4687c75ebdfa5ff59fed",
+      "title": "SK Hynix Seeks $29 Billion With US Listing to Fund AI Boom",
+      "summary": "SK Hynix Inc. is looking to raise 45.45 trillion won ($29.4 billion) in a historic US listing, as companies along the artificial intelligence supply chain rush to increase capacity to meet memory chip demand.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-24/sk-hynix-looks-to-raise-29-4-billion-with-new-us-lising",
       "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
+      "score": 18,
+      "severity": "HIGH",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -94,58 +131,16 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-24T08:45:56.107219Z"
+      "published": "2026-06-24T08:51:03.920424Z"
     },
     {
-      "id": "7b4a986c82ac7a1ab72d0bc53bff2542",
-      "title": "Philip R. Lane: Introductory remarks",
+      "id": "3c9f430adbd7a16236620cb0788669e2",
+      "title": "ECB publishes consolidated banking data for end-December 2025",
       "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260623~c112a749e2.en.html",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260619~f097597c01.en.html",
       "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-24T08:46:08.813615Z"
-    },
-    {
-      "id": "ae40492399d0c70f43ef79cfad85b791",
-      "title": "Mark Cuban, Dallas Mavericks face appeal over dismissed Voyager crypto case",
-      "summary": "<p>Voyager investors appealed the dismissal of their claims against Mark Cuban and the Dallas Mavericks to the Eleventh Circuit. </p>",
-      "link": "https://www.theblock.co/post/405937/mark-cuban-dallas-mavericks-face-appeal-over-dismissed-voyager-crypto-case?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-06-24T08:46:24.327490Z"
-    },
-    {
-      "id": "111a7d353ddf5792c1f74a9a4b9cd546",
-      "title": "VIX owner Cboe jumps into prediction markets to build on zero-day options growth - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVnhaNXVENFJJbnhDT1piYlN4SlppdU9ZOXNnUTdRTkc5aXBWeERWNjQxQk5uendENmMtakxydHUxOHl6UXFhd0tmQzAtTjZWcmpNUnJ5VWVxV2ZYZ1dYbDY5LXdxc0Fsejl4aW9WenE5VlN5SkNWMlJLTlJQcmM0N2p4M3lieXpMX09EMjR0RTQ1TXdQU1hEbjVTcDE1Q0FHZUU4RHhTbEjSAa4BQVVfeXFMUDZEb1Q1RkF6R2F5TnprTkhycDNaRDhTT0Q0SGFyc1JiMFFsMlRyaWVRQUo0YUY1a0Izb1BWamtCdUt4d215RmtneG81eGRjWWZBUlQ5T0FSZThJb3BSU0hJeWJPQWRNSEQ2ZExyWGxIUFotZzd3U1Jod29ILWIwX2pBeFhBR1BIOC1pSDVIVlZpYm51cGprSjVLZ3ZMeThkek5UUlV2bXNJM0daN09R?oc=5\" target=\"_blank\">VIX owner Cboe jumps into prediction markets to build on zero-day options growth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVnhaNXVENFJJbnhDT1piYlN4SlppdU9ZOXNnUTdRTkc5aXBWeERWNjQxQk5uendENmMtakxydHUxOHl6UXFhd0tmQzAtTjZWcmpNUnJ5VWVxV2ZYZ1dYbDY5LXdxc0Fsejl4aW9WenE5VlN5SkNWMlJLTlJQcmM0N2p4M3lieXpMX09EMjR0RTQ1TXdQU1hEbjVTcDE1Q0FHZUU4RHhTbEjSAa4BQVVfeXFMUDZEb1Q1RkF6R2F5TnprTkhycDNaRDhTT0Q0SGFyc1JiMFFsMlRyaWVRQUo0YUY1a0Izb1BWamtCdUt4d215RmtneG81eGRjWWZBUlQ5T0FSZThJb3BSU0hJeWJPQWRNSEQ2ZExyWGxIUFotZzd3U1Jod29ILWIwX2pBeFhBR1BIOC1pSDVIVlZpYm51cGprSjVLZ3ZMeThkek5UUlV2bXNJM0daN09R?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
+      "score": 18,
+      "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
       "regions": [],
@@ -162,112 +157,206 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-24T08:46:27.336322Z"
+      "published": "2026-06-24T08:51:18.804041Z"
     },
     {
-      "id": "816ba648884d58684e900c582c26bbf8",
-      "title": "Three New York Democrats backed by Mamdani win House seat primaries; 2 incumbents lose",
-      "summary": "Two candidates backed by the Democratic Socialist of America won their primaries, a year after the DSA-backed Zohran Mamdani won New York mayor's race.",
-      "link": "https://www.cnbc.com/2026/06/24/mamdani-democrats-house-primary-lander-valdez-chevalier.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "3830bf730d9b446ffd6af81077801791",
+      "title": "Guidance: The U.S. and UK Economic Sanctions Authorities: A Comparative Overview",
+      "summary": "This guidance compares key aspects of U.S. and UK sanctions regimes.",
+      "link": "https://www.gov.uk/government/publications/the-us-and-uk-economic-sanctions-authorities-a-comparative-overview",
+      "source": "HM Treasury",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "US"
+        "UK"
       ],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-24T08:45:59.460485Z"
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-24T08:51:23.462427Z"
     },
     {
-      "id": "661fa8a08d4e03984ae371b035bc47be",
-      "title": "CFTC sues Kentucky after state\u2019s prediction market lawsuits",
-      "summary": "The Commodity Futures Trading Commission has sued Kentucky, now the ninth state the regulator is battling in its fight over prediction markets.",
-      "link": "https://cointelegraph.com/news/cftc-sues-kentucky-after-states-prediction-market-lawsuits?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "source": "CoinTelegraph",
-      "score": 1,
-      "severity": "LOW",
+      "id": "fb09704ad18b128f036fdc07d6f53d90",
+      "title": "Tankmaker KNDS kicks off process for listing in Frankfurt and Paris",
+      "summary": "IPO will test investor appetite for defence stocks and comes as region embarks on rearmament drive",
+      "link": "https://www.ft.com/content/40ac6d05-a5e6-48d3-ad21-451d0e884cbe",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-24T08:51:06.074353Z"
+    },
+    {
+      "id": "45c143caafe77e9b8a85508993758d68",
+      "title": "Burnham\u2019s first hire helps win over his doubters",
+      "summary": "James Purnell, set to be chief of staff, reassures Labour MPs about presumptive PM\u2019s management of the economy",
+      "link": "https://www.ft.com/content/aa5c94cb-038c-4d95-a160-be44130b8483",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-24T08:46:24.240426Z"
+      "published": "2026-06-24T08:51:06.301755Z"
+    },
+    {
+      "id": "764330c06f63946f7cfd547145cc007f",
+      "title": "Largest wind farm in the United States slated to begin commercial operations",
+      "summary": "The SunZia Wind Project, the largest wind farm in the United States, is slated to begin commercial operations this month. The wind farm, located in New Mexico, has a total net summer generating capacity of 3,650 megawatts (MW) and is composed of 916 wind turbines. SunZia's capacity is more than three times larger than the next two largest wind farms, Alta Wind in Southern California (1,098 MW) and Great Prairie in northern Texas (1,027 MW). The SunZia Wind Project works with a high voltage transmission line to deliver the wind power generated to Arizona and California.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67766",
+      "source": "EIA",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-24T08:51:30.601414Z"
     }
   ],
   "alerts": [
     {
-      "id": "d533636f1f5615fc816a297c1ab17c4c",
-      "title": "Rail, ocean access backs new Americold cold chain facility at eastern Canada port",
-      "summary": "<p>U.S.-based Americold plants a flag in Canada as part of a rail-maritime cold chain integration with CPKC and DP World.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/rail-ocean-access-backs-new-americold-cold-chain-facility-at-eastern-canada-port\">Rail, ocean access backs new Americold cold chain facility at eastern Canada port</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/rail-ocean-access-backs-new-americold-cold-chain-facility-at-eastern-canada-port",
-      "source": "FreightWaves",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
+      "id": "be3df461fb84965d9626346168f9d0a1",
+      "title": "Index-linked Treasury Stock",
+      "summary": "Index-linked treasury stocks are gilts issued by the UK Government. They pay out twice a year, with the amount indexed to the Retail Prices Index.",
+      "link": "https://www.bankofengland.co.uk/news/2026/june/index-linked-treasury-stock-jun-2026",
+      "source": "Bank of England",
+      "score": 32,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "TLT",
+        "UK_GILTS"
+      ],
+      "regions": [
+        "UK"
+      ],
       "assets": [
         "AI",
-        "SHIPPING"
+        "EQUITIES",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-24T08:46:22.710700Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-24T08:51:22.843610Z"
     },
     {
-      "id": "c012325ddfff4bbcd306f3194b9cde0d",
-      "title": "Oil Tanker Booked in Gulf at 897% of Benchmark Freight Rate - Bloomberg",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOS2xlWW5XVTdIUUNYNUQ5TEJVNjRGUEtRaDdFaUZNaXVYQng2bnNZX19BYTdTZ0NnTlBHTndDRlZESzhxZkF3XzNOSXA5QUdPY3VXT1dzM0FrN3hjLU1WQWtwSDBZVUdENkcwcDJBTW13SnVMSEs1MHV6UjdnWThCNlQ1TzRIX0RwQmdNS0p4X3dsaG9taE1Ld1ZCWmc5Z19yQTdBZDRVZnFsMU8yTVE?oc=5\" target=\"_blank\">Oil Tanker Booked in Gulf at 897% of Benchmark Freight Rate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS2xlWW5XVTdIUUNYNUQ5TEJVNjRGUEtRaDdFaUZNaXVYQng2bnNZX19BYTdTZ0NnTlBHTndDRlZESzhxZkF3XzNOSXA5QUdPY3VXT1dzM0FrN3hjLU1WQWtwSDBZVUdENkcwcDJBTW13SnVMSEs1MHV6UjdnWThCNlQ1TzRIX0RwQmdNS0p4X3dsaG9taE1Ld1ZCWmc5Z19yQTdBZDRVZnFsMU8yTVE?oc=5",
-      "source": "Google Macro",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
+      "id": "3b48475050fab66ea0612f81cfbb4df8",
+      "title": "An off-grid power project gets a major proof of concept. What it means for GE Vernova",
+      "summary": "AI data centers powered by off-grid power plants took a major step forward this week, a good sign\u00a0for GE Vernova as industry challenges pile up.",
+      "link": "https://www.cnbc.com/2026/06/23/an-off-grid-power-project-gets-a-major-proof-of-concept-what-it-means-for-ge-vernova.html",
+      "source": "CNBC",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-24T08:51:07.356034Z"
+    },
+    {
+      "id": "64682ed3e14b5650bb2f7e72df71ff99",
+      "title": "Euro sinks to one-year low as falling oil prices ease pressure on ECB",
+      "summary": "Traders back away from bets on further interest rate rises as economy slows",
+      "link": "https://www.ft.com/content/b241ba6b-3025-4821-a90c-97bdaccb8fcb",
+      "source": "Financial Times",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [
+        "EUR",
         "WTI"
       ],
       "regions": [],
       "assets": [
         "COMMODITIES",
-        "SHIPPING"
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-24T08:46:25.318922Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-24T08:51:06.074291Z"
     },
     {
-      "id": "1e4a470d87a10b5050e7964874e9da14",
-      "title": "CATL Sees Its Sodium Batteries in at Least 10,000 EVs This Year",
-      "summary": "Contemporary Amperex Technology Co. Ltd. expects 10,000 to 20,000 electric vehicles to carry its sodium-ion batteries this year, a senior official for the Chinese company said.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-24/catl-sees-its-sodium-batteries-in-at-least-10-000-evs-this-year",
+      "id": "e960e381a9ac4687c75ebdfa5ff59fed",
+      "title": "SK Hynix Seeks $29 Billion With US Listing to Fund AI Boom",
+      "summary": "SK Hynix Inc. is looking to raise 45.45 trillion won ($29.4 billion) in a historic US listing, as companies along the artificial intelligence supply chain rush to increase capacity to meet memory chip demand.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-24/sk-hynix-looks-to-raise-29-4-billion-with-new-us-lising",
       "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
+      "score": 18,
+      "severity": "HIGH",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -283,58 +372,16 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-24T08:45:56.107219Z"
+      "published": "2026-06-24T08:51:03.920424Z"
     },
     {
-      "id": "7b4a986c82ac7a1ab72d0bc53bff2542",
-      "title": "Philip R. Lane: Introductory remarks",
+      "id": "3c9f430adbd7a16236620cb0788669e2",
+      "title": "ECB publishes consolidated banking data for end-December 2025",
       "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260623~c112a749e2.en.html",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260619~f097597c01.en.html",
       "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-24T08:46:08.813615Z"
-    },
-    {
-      "id": "ae40492399d0c70f43ef79cfad85b791",
-      "title": "Mark Cuban, Dallas Mavericks face appeal over dismissed Voyager crypto case",
-      "summary": "<p>Voyager investors appealed the dismissal of their claims against Mark Cuban and the Dallas Mavericks to the Eleventh Circuit. </p>",
-      "link": "https://www.theblock.co/post/405937/mark-cuban-dallas-mavericks-face-appeal-over-dismissed-voyager-crypto-case?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-06-24T08:46:24.327490Z"
-    },
-    {
-      "id": "111a7d353ddf5792c1f74a9a4b9cd546",
-      "title": "VIX owner Cboe jumps into prediction markets to build on zero-day options growth - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVnhaNXVENFJJbnhDT1piYlN4SlppdU9ZOXNnUTdRTkc5aXBWeERWNjQxQk5uendENmMtakxydHUxOHl6UXFhd0tmQzAtTjZWcmpNUnJ5VWVxV2ZYZ1dYbDY5LXdxc0Fsejl4aW9WenE5VlN5SkNWMlJLTlJQcmM0N2p4M3lieXpMX09EMjR0RTQ1TXdQU1hEbjVTcDE1Q0FHZUU4RHhTbEjSAa4BQVVfeXFMUDZEb1Q1RkF6R2F5TnprTkhycDNaRDhTT0Q0SGFyc1JiMFFsMlRyaWVRQUo0YUY1a0Izb1BWamtCdUt4d215RmtneG81eGRjWWZBUlQ5T0FSZThJb3BSU0hJeWJPQWRNSEQ2ZExyWGxIUFotZzd3U1Jod29ILWIwX2pBeFhBR1BIOC1pSDVIVlZpYm51cGprSjVLZ3ZMeThkek5UUlV2bXNJM0daN09R?oc=5\" target=\"_blank\">VIX owner Cboe jumps into prediction markets to build on zero-day options growth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVnhaNXVENFJJbnhDT1piYlN4SlppdU9ZOXNnUTdRTkc5aXBWeERWNjQxQk5uendENmMtakxydHUxOHl6UXFhd0tmQzAtTjZWcmpNUnJ5VWVxV2ZYZ1dYbDY5LXdxc0Fsejl4aW9WenE5VlN5SkNWMlJLTlJQcmM0N2p4M3lieXpMX09EMjR0RTQ1TXdQU1hEbjVTcDE1Q0FHZUU4RHhTbEjSAa4BQVVfeXFMUDZEb1Q1RkF6R2F5TnprTkhycDNaRDhTT0Q0SGFyc1JiMFFsMlRyaWVRQUo0YUY1a0Izb1BWamtCdUt4d215RmtneG81eGRjWWZBUlQ5T0FSZThJb3BSU0hJeWJPQWRNSEQ2ZExyWGxIUFotZzd3U1Jod29ILWIwX2pBeFhBR1BIOC1pSDVIVlZpYm51cGprSjVLZ3ZMeThkek5UUlV2bXNJM0daN09R?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
+      "score": 18,
+      "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
       "regions": [],
@@ -351,41 +398,98 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-24T08:46:27.336322Z"
+      "published": "2026-06-24T08:51:18.804041Z"
     },
     {
-      "id": "816ba648884d58684e900c582c26bbf8",
-      "title": "Three New York Democrats backed by Mamdani win House seat primaries; 2 incumbents lose",
-      "summary": "Two candidates backed by the Democratic Socialist of America won their primaries, a year after the DSA-backed Zohran Mamdani won New York mayor's race.",
-      "link": "https://www.cnbc.com/2026/06/24/mamdani-democrats-house-primary-lander-valdez-chevalier.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "3830bf730d9b446ffd6af81077801791",
+      "title": "Guidance: The U.S. and UK Economic Sanctions Authorities: A Comparative Overview",
+      "summary": "This guidance compares key aspects of U.S. and UK sanctions regimes.",
+      "link": "https://www.gov.uk/government/publications/the-us-and-uk-economic-sanctions-authorities-a-comparative-overview",
+      "source": "HM Treasury",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "US"
+        "UK"
       ],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-24T08:45:59.460485Z"
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-24T08:51:23.462427Z"
     },
     {
-      "id": "661fa8a08d4e03984ae371b035bc47be",
-      "title": "CFTC sues Kentucky after state\u2019s prediction market lawsuits",
-      "summary": "The Commodity Futures Trading Commission has sued Kentucky, now the ninth state the regulator is battling in its fight over prediction markets.",
-      "link": "https://cointelegraph.com/news/cftc-sues-kentucky-after-states-prediction-market-lawsuits?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "source": "CoinTelegraph",
-      "score": 1,
-      "severity": "LOW",
+      "id": "fb09704ad18b128f036fdc07d6f53d90",
+      "title": "Tankmaker KNDS kicks off process for listing in Frankfurt and Paris",
+      "summary": "IPO will test investor appetite for defence stocks and comes as region embarks on rearmament drive",
+      "link": "https://www.ft.com/content/40ac6d05-a5e6-48d3-ad21-451d0e884cbe",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-24T08:51:06.074353Z"
+    },
+    {
+      "id": "45c143caafe77e9b8a85508993758d68",
+      "title": "Burnham\u2019s first hire helps win over his doubters",
+      "summary": "James Purnell, set to be chief of staff, reassures Labour MPs about presumptive PM\u2019s management of the economy",
+      "link": "https://www.ft.com/content/aa5c94cb-038c-4d95-a160-be44130b8483",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-24T08:46:24.240426Z"
+      "published": "2026-06-24T08:51:06.301755Z"
+    },
+    {
+      "id": "764330c06f63946f7cfd547145cc007f",
+      "title": "Largest wind farm in the United States slated to begin commercial operations",
+      "summary": "The SunZia Wind Project, the largest wind farm in the United States, is slated to begin commercial operations this month. The wind farm, located in New Mexico, has a total net summer generating capacity of 3,650 megawatts (MW) and is composed of 916 wind turbines. SunZia's capacity is more than three times larger than the next two largest wind farms, Alta Wind in Southern California (1,098 MW) and Great Prairie in northern Texas (1,027 MW). The SunZia Wind Project works with a high voltage transmission line to deliver the wind power generated to Arizona and California.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67766",
+      "source": "EIA",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-24T08:51:30.601414Z"
     }
   ]
 }
