@@ -1,194 +1,98 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-24T16:56:26.926074Z",
+  "generated_at": "2026-06-24T17:02:03.952103Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 2,
     "high_alerts": 3,
-    "last_updated": "2026-06-24T16:56:26.926084Z"
+    "last_updated": "2026-06-24T17:02:03.952120Z"
   },
   "top_signals": [
     {
-      "id": "23c5be4e409761d263889c327b349a47",
-      "title": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
-      "summary": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260611a.htm",
-      "source": "Federal Reserve",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "16492bd11cc9adb3c7dcaad32bf75789",
+      "title": "Gasoline Price Spike Adds to War\u2019s Economic Toll for Russians",
+      "summary": "Fuel prices in Russia jumped again, bolstering the case for central bank policy caution after Governor Elvira Nabiullina warned that lower output in the wake of Ukrainian strikes on refineries had become a new inflation risk.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-24/gasoline-price-spike-adds-to-war-s-economic-toll-for-russians",
+      "source": "Bloomberg",
+      "score": 37,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "RUSSIA",
+        "UK"
+      ],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-24T16:55:52.420463Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-24T17:01:25.733833Z"
     },
     {
-      "id": "c908704daad99ab3aeb540f8974a2e79",
-      "title": "Jefferson, Global Economic Developments and the U.S. Economy",
-      "summary": "Speech At the 2026 Bank of Japan-Institute for Monetary and Economic Studies Conference, Tokyo, Japan",
-      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm",
-      "source": "Federal Reserve",
+      "id": "0a7781fd8f231e1f08a0d07917a2910f",
+      "title": "Oil Declines as More Ships Cross Hormuz After Peace Talks",
+      "summary": "Oil fell as more tankers cross the Strait of Hormuz and signs of progress in US-Iran peace talks eased fears of an immediate supply crunch.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-23/latest-oil-market-news-and-analysis-for-june-24",
+      "source": "Bloomberg",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-24T17:01:25.733672Z"
+    },
+    {
+      "id": "f933c91ebdf6837b8a78701438ebe7e5",
+      "title": "ESPN's Linda Cohn Reflects on Historic SportsCenter Run",
+      "summary": "ESPN legend and sports broadcasting trailblazer Linda Cohn is stepping away from the anchor desk following a historic career that spanned more than 30 years.\n\nCohn joins Bloomberg Intelligence Radio to reflect on the journey that made her the longest-tenured SportsCenter anchor in the network's history. From anchoring thousands of shows to covering unforgettable moments in sports, Cohn discusses the passion that fueled her career, her favorite memories over the years, and why helping inspire the next generation of women in broadcasting means so much to her. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-24/espn-s-linda-cohn-reflects-on-historic-sportscenter-run-video",
+      "source": "Bloomberg",
       "score": 19,
       "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-24T16:55:52.524524Z"
-    },
-    {
-      "id": "a96d52b2483bd6be1da728e07c806594",
-      "title": "Defense stocks plummet on reports Germany is scrapping warships; Rheinmetall stock down 18% - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNV0ZqeWNCV2tOMWpPYk8xbUFjdV9hTVlHdWJDRXFWQVRETHZOOUJRczZ3YlNWc0hKVGlaQWh0X2dBeHcwM1h6QjdkT09yMlJ5SlY4ckhiN1J2ajF2dktKam5rZFd1VmRzVFFPMmxLWV9mTVpLakJzNXVFM1cxMHdGS2FRZEdKUFI1djZ0eWcwSnhlWHNx0gGaAUFVX3lxTFBFeWhhcTBEcU5NY0JmVVRPbzFSVW1KcjBfVDB2YUJGSzZMN1ZjT3JHZHZTZWIwRm5QdldLYkN6Mk4yQkFySjQ3WWl6blhmc1RNckR2c1JqWmtLSWE3Z092T0xnbENqOXI0aWlLSUlqNTZoSldnMkRMNnQ4R25DdEdpbWtvMlVacTVjTTJKeXZ5RmZrV25BcG1EYnc?oc=5\" target=\"_blank\">Defense stocks plummet on reports Germany is scrapping warships; Rheinmetall stock down 18%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV0ZqeWNCV2tOMWpPYk8xbUFjdV9hTVlHdWJDRXFWQVRETHZOOUJRczZ3YlNWc0hKVGlaQWh0X2dBeHcwM1h6QjdkT09yMlJ5SlY4ckhiN1J2ajF2dktKam5rZFd1VmRzVFFPMmxLWV9mTVpLakJzNXVFM1cxMHdGS2FRZEdKUFI1djZ0eWcwSnhlWHNx0gGaAUFVX3lxTFBFeWhhcTBEcU5NY0JmVVRPbzFSVW1KcjBfVDB2YUJGSzZMN1ZjT3JHZHZTZWIwRm5QdldLYkN6Mk4yQkFySjQ3WWl6blhmc1RNckR2c1JqWmtLSWE3Z092T0xnbENqOXI0aWlLSUlqNTZoSldnMkRMNnQ4R25DdEdpbWtvMlVacTVjTTJKeXZ5RmZrV25BcG1EYnc?oc=5",
-      "source": "Google Macro",
-      "score": 17,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "GERMANY"
-      ],
-      "assets": [
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-24T16:56:26.926046Z"
-    },
-    {
-      "id": "2a0bb0f1b0f4528674ed7e14d32933d3",
-      "title": "China satellite companies set sights on SpaceX, pushing to ramp up launches",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/aerospace-defense-industries/china-satellite-companies-set-sights-on-spacex-pushing-to-ramp-up-launches",
-      "source": "Nikkei Asia",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "CHINA"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-24T16:56:14.155614Z"
-    },
-    {
-      "id": "6ffdad1e8030391766c7a367f3dda8d7",
-      "title": "Brexit 10 years later: How the UK economy and politics changed, in charts",
-      "summary": "Ten years after the Brexit vote, CNBC compiled these charts show how the U.K. has changed across growth, immigration, sterling, trade and politics.",
-      "link": "https://www.cnbc.com/2026/06/23/brexit-10-years-uk-economy-politics-charts.html",
-      "source": "CNBC",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "GBP"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-24T16:55:52.253279Z"
-    },
-    {
-      "id": "3edf31d00fdc40239f1d2acd815e36c7",
-      "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-      "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-24T16:55:52.349404Z"
-    },
-    {
-      "id": "4c6a44f19ad45cab51a363e2556ed8a2",
-      "title": "Personal Income and Outlays, April 2026",
-      "summary": "Personal income decreased less than $0.1 billion (less than 0.1 percent at a monthly rate) in April, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-decreased $19.9 billion (0.1 percent), and personal consumption expenditures (PCE) increased $111.1 billion (0.5 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $114.0 billion in April. Personal saving was $611.7 billion in April, and the personal saving rate-personal saving as a percentage of DPI-was 2.6 percent.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026\">Full Text</a><!--Full Text Link-->",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026",
-      "source": "BEA",
-      "score": 8,
-      "severity": "MEDIUM",
       "regime": "INFLATION",
       "tickers": [],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -201,14 +105,178 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-24T16:56:02.146759Z"
+      "published": "2026-06-24T17:01:25.733766Z"
     },
     {
-      "id": "3f0318740e9ebcd25160be514eeffc9e",
-      "title": "GDP (Second Estimate) and Corporate Profits, 1st Quarter 2026",
-      "summary": "Real gross domestic product (GDP) increased at an annual rate of 1.6 percent in the first quarter of 2026 (January, February, and March), according to the second estimate released today by the U.S. Bureau of Economic Analysis. In the fourth quarter of 2025, real GDP increased 0.5 percent. The contributors to the increase in real GDP in the first quarter were exports, investment, consumer spending, and government spending. Imports, which are a subtraction in the calculation of GDP, increased.   <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-1st-quarter-2026\">Full Text</a><!--Full Text Link-->",
-      "link": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-1st-quarter-2026",
-      "source": "BEA",
+      "id": "c0ee9df4b54db4f5e67041988f0cb562",
+      "title": "Brent hits lowest since before start of Iran war as more tankers exit Hormuz - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNSjlBc1JxN0hPX3MwaDU1UDMyeEE1SG1tRS1ma1FpSENKVVdpVzY3eUNoeUJvdGtVVDZtRm84UG1jTjBwV0s0RTExRHZCczB3TnBYN05CSlJueGNLSU1zeUstS0U0NTBBa0NhUU00VE0wQWFWU0ZfWGtiT2tfeVBpdWV1NmZ3UlBvTmxwRXU3WlVPNGdDU3VWNXJMOWJfNWM1ZEtyNS1YV3JlY2xEeTZmczZsRmdrd1AzMVhZTEFVdw?oc=5\" target=\"_blank\">Brent hits lowest since before start of Iran war as more tankers exit Hormuz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSjlBc1JxN0hPX3MwaDU1UDMyeEE1SG1tRS1ma1FpSENKVVdpVzY3eUNoeUJvdGtVVDZtRm84UG1jTjBwV0s0RTExRHZCczB3TnBYN05CSlJueGNLSU1zeUstS0U0NTBBa0NhUU00VE0wQWFWU0ZfWGtiT2tfeVBpdWV1NmZ3UlBvTmxwRXU3WlVPNGdDU3VWNXJMOWJfNWM1ZEtyNS1YV3JlY2xEeTZmczZsRmdrd1AzMVhZTEFVdw?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-24T17:02:02.224996Z"
+    },
+    {
+      "id": "d4434446477edf235a54a61122bf8754",
+      "title": "Mainport Shipping Marks Geo Master Christening As Hybrid Survey Vessel Enters Operational Service",
+      "summary": "Hybrid survey and ROV support vessel enters operational service following christening in IJmuiden under long-term charter arrangement LEAD Mainport Shipping, the Cork-based Irish maritime company, today marks the christening of the Geo Master, a hybrid survey and ROV support vessel delivered by Neptune Marine and set to enter operational service under a long-term commercial charter ...",
+      "link": "https://www.hellenicshippingnews.com/mainport-shipping-marks-geo-master-christening-as-hybrid-survey-vessel-enters-operational-service/",
+      "source": "Hellenic Shipping",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-24T17:01:58.906695Z"
+    },
+    {
+      "id": "afdee4471339187eb1e9a2624f613844",
+      "title": "Bessent sees GDP growth booming again this year. Kalshi traders see little chance of that",
+      "summary": "Kalshi traders are not agreeing with Treasury Secretary Scott Bessent's prediction that the U.S. economy will have 3% growth this year.",
+      "link": "https://www.cnbc.com/2026/06/24/bessent-sees-gdp-growth-booming-this-year-kalshi-traders-see-little-chance-of-that.html",
+      "source": "CNBC",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-24T17:01:29.297750Z"
+    },
+    {
+      "id": "18afb3a59c7e21f3767606ce169341c3",
+      "title": "Deutsche Bank cuts Q3 gold price target by 22%",
+      "summary": "The German investment bank said it now sees gold averaging $4,300/oz. in the third quarter of this year.",
+      "link": "https://www.mining.com/deutsche-bank-cuts-q3-gold-price-target-by-22/",
+      "source": "Mining.com",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-24T17:01:58.268496Z"
+    },
+    {
+      "id": "a629c7e0af6022513fa6250181bf0c4a",
+      "title": "Hedge Fund Targets $500 Million for Trading El Ni\u00f1o Crop Risks",
+      "summary": "The growing threat posed by a so-called \u201csuper El Ni\u00f1o\u201d to global food supplies is spurring the creation of a new commodities fund.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-24/hedge-fund-targets-500-million-for-trading-el-nino-crop-risks",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-24T17:01:25.733913Z"
+    },
+    {
+      "id": "2d4e45474db301e639d38a4649fad2c7",
+      "title": "a16z CSX-backed Cambrian raises $6 million seed to build blockchain data oracle network",
+      "summary": "<p>Cambrian, a startup building blockchain data infrastructure for institutions and AI agents, raised $6 million in a seed funding round.</p>",
+      "link": "https://www.theblock.co/post/406028/a16z-csx-backed-cambrian-seed-round-blockchain-data-oracle-network?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-24T17:02:00.597940Z"
+    },
+    {
+      "id": "fea4888b9a2d4e6323f7be85d1ec3b72",
+      "title": "Canada Building West\u2019s First Grid-Scale SMR",
+      "summary": "Construction has begun on the Western world\u2019s first grid-scale Small Modular Reactor (SMR), though small is not what comes to mind, considering that the machine will fit on two soccer fields. According to AutoNotion, a 953-tonne slab of steel and concrete was lowered into a 35-meter shaft at Ontario\u2019s Darlington New Nuclear Project site, \u201cending a decade of talk\u201d about the new nuclear technology and ushering in a period of action. The slab is the base mat of the first BWRX-300 modular plant designed by GE Vernova \u2014\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Canada-Building-Wests-First-Grid-Scale-SMR.html",
+      "source": "OilPrice",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -217,188 +285,124 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-24T16:56:02.146655Z"
+      "published": "2026-06-24T17:01:57.396217Z"
+    },
+    {
+      "id": "7ec81e9e87298cdad2dbdfdebf89c88c",
+      "title": "Aclara Resources gets environmental OK for Chile rare earths project",
+      "summary": "It wraps up a process that has taken longer than four years for the project.",
+      "link": "https://www.mining.com/aclara-resources-gets-environmental-ok-for-chile-rare-earths-project/",
+      "source": "Mining.com",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-24T17:01:58.268452Z"
+    },
+    {
+      "id": "2c2c6d25aaaf88367d45b728a39fc05d",
+      "title": "Svanehoj appoints new President",
+      "summary": "Morten Christian Larsen will succeed S\u00f8ren Kringelholt Nielsen as President of Svanehoj. Having held several leadership roles across the company, Larsen has built deep insight into Svanehoj\u2019s global business in marine pumps and tank safety solutions. Svanehoj, a specialist in marine pumps and safety equipment for liquefied gases, will have a new Predient as of ...",
+      "link": "https://www.hellenicshippingnews.com/svanehoj-appoints-new-president/",
+      "source": "Hellenic Shipping",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-24T17:01:58.906789Z"
     }
   ],
   "alerts": [
     {
-      "id": "23c5be4e409761d263889c327b349a47",
-      "title": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
-      "summary": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260611a.htm",
-      "source": "Federal Reserve",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "16492bd11cc9adb3c7dcaad32bf75789",
+      "title": "Gasoline Price Spike Adds to War\u2019s Economic Toll for Russians",
+      "summary": "Fuel prices in Russia jumped again, bolstering the case for central bank policy caution after Governor Elvira Nabiullina warned that lower output in the wake of Ukrainian strikes on refineries had become a new inflation risk.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-24/gasoline-price-spike-adds-to-war-s-economic-toll-for-russians",
+      "source": "Bloomberg",
+      "score": 37,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "RUSSIA",
+        "UK"
+      ],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-24T16:55:52.420463Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-24T17:01:25.733833Z"
     },
     {
-      "id": "c908704daad99ab3aeb540f8974a2e79",
-      "title": "Jefferson, Global Economic Developments and the U.S. Economy",
-      "summary": "Speech At the 2026 Bank of Japan-Institute for Monetary and Economic Studies Conference, Tokyo, Japan",
-      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm",
-      "source": "Federal Reserve",
+      "id": "0a7781fd8f231e1f08a0d07917a2910f",
+      "title": "Oil Declines as More Ships Cross Hormuz After Peace Talks",
+      "summary": "Oil fell as more tankers cross the Strait of Hormuz and signs of progress in US-Iran peace talks eased fears of an immediate supply crunch.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-23/latest-oil-market-news-and-analysis-for-june-24",
+      "source": "Bloomberg",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-24T17:01:25.733672Z"
+    },
+    {
+      "id": "f933c91ebdf6837b8a78701438ebe7e5",
+      "title": "ESPN's Linda Cohn Reflects on Historic SportsCenter Run",
+      "summary": "ESPN legend and sports broadcasting trailblazer Linda Cohn is stepping away from the anchor desk following a historic career that spanned more than 30 years.\n\nCohn joins Bloomberg Intelligence Radio to reflect on the journey that made her the longest-tenured SportsCenter anchor in the network's history. From anchoring thousands of shows to covering unforgettable moments in sports, Cohn discusses the passion that fueled her career, her favorite memories over the years, and why helping inspire the next generation of women in broadcasting means so much to her. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-24/espn-s-linda-cohn-reflects-on-historic-sportscenter-run-video",
+      "source": "Bloomberg",
       "score": 19,
       "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-24T16:55:52.524524Z"
-    },
-    {
-      "id": "a96d52b2483bd6be1da728e07c806594",
-      "title": "Defense stocks plummet on reports Germany is scrapping warships; Rheinmetall stock down 18% - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNV0ZqeWNCV2tOMWpPYk8xbUFjdV9hTVlHdWJDRXFWQVRETHZOOUJRczZ3YlNWc0hKVGlaQWh0X2dBeHcwM1h6QjdkT09yMlJ5SlY4ckhiN1J2ajF2dktKam5rZFd1VmRzVFFPMmxLWV9mTVpLakJzNXVFM1cxMHdGS2FRZEdKUFI1djZ0eWcwSnhlWHNx0gGaAUFVX3lxTFBFeWhhcTBEcU5NY0JmVVRPbzFSVW1KcjBfVDB2YUJGSzZMN1ZjT3JHZHZTZWIwRm5QdldLYkN6Mk4yQkFySjQ3WWl6blhmc1RNckR2c1JqWmtLSWE3Z092T0xnbENqOXI0aWlLSUlqNTZoSldnMkRMNnQ4R25DdEdpbWtvMlVacTVjTTJKeXZ5RmZrV25BcG1EYnc?oc=5\" target=\"_blank\">Defense stocks plummet on reports Germany is scrapping warships; Rheinmetall stock down 18%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV0ZqeWNCV2tOMWpPYk8xbUFjdV9hTVlHdWJDRXFWQVRETHZOOUJRczZ3YlNWc0hKVGlaQWh0X2dBeHcwM1h6QjdkT09yMlJ5SlY4ckhiN1J2ajF2dktKam5rZFd1VmRzVFFPMmxLWV9mTVpLakJzNXVFM1cxMHdGS2FRZEdKUFI1djZ0eWcwSnhlWHNx0gGaAUFVX3lxTFBFeWhhcTBEcU5NY0JmVVRPbzFSVW1KcjBfVDB2YUJGSzZMN1ZjT3JHZHZTZWIwRm5QdldLYkN6Mk4yQkFySjQ3WWl6blhmc1RNckR2c1JqWmtLSWE3Z092T0xnbENqOXI0aWlLSUlqNTZoSldnMkRMNnQ4R25DdEdpbWtvMlVacTVjTTJKeXZ5RmZrV25BcG1EYnc?oc=5",
-      "source": "Google Macro",
-      "score": 17,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "GERMANY"
-      ],
-      "assets": [
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-24T16:56:26.926046Z"
-    },
-    {
-      "id": "2a0bb0f1b0f4528674ed7e14d32933d3",
-      "title": "China satellite companies set sights on SpaceX, pushing to ramp up launches",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/aerospace-defense-industries/china-satellite-companies-set-sights-on-spacex-pushing-to-ramp-up-launches",
-      "source": "Nikkei Asia",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "CHINA"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-06-24T16:56:14.155614Z"
-    },
-    {
-      "id": "6ffdad1e8030391766c7a367f3dda8d7",
-      "title": "Brexit 10 years later: How the UK economy and politics changed, in charts",
-      "summary": "Ten years after the Brexit vote, CNBC compiled these charts show how the U.K. has changed across growth, immigration, sterling, trade and politics.",
-      "link": "https://www.cnbc.com/2026/06/23/brexit-10-years-uk-economy-politics-charts.html",
-      "source": "CNBC",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "GBP"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-24T16:55:52.253279Z"
-    },
-    {
-      "id": "3edf31d00fdc40239f1d2acd815e36c7",
-      "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-      "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-24T16:55:52.349404Z"
-    },
-    {
-      "id": "4c6a44f19ad45cab51a363e2556ed8a2",
-      "title": "Personal Income and Outlays, April 2026",
-      "summary": "Personal income decreased less than $0.1 billion (less than 0.1 percent at a monthly rate) in April, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-decreased $19.9 billion (0.1 percent), and personal consumption expenditures (PCE) increased $111.1 billion (0.5 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $114.0 billion in April. Personal saving was $611.7 billion in April, and the personal saving rate-personal saving as a percentage of DPI-was 2.6 percent.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026\">Full Text</a><!--Full Text Link-->",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026",
-      "source": "BEA",
-      "score": 8,
-      "severity": "MEDIUM",
       "regime": "INFLATION",
       "tickers": [],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -411,14 +415,178 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-24T16:56:02.146759Z"
+      "published": "2026-06-24T17:01:25.733766Z"
     },
     {
-      "id": "3f0318740e9ebcd25160be514eeffc9e",
-      "title": "GDP (Second Estimate) and Corporate Profits, 1st Quarter 2026",
-      "summary": "Real gross domestic product (GDP) increased at an annual rate of 1.6 percent in the first quarter of 2026 (January, February, and March), according to the second estimate released today by the U.S. Bureau of Economic Analysis. In the fourth quarter of 2025, real GDP increased 0.5 percent. The contributors to the increase in real GDP in the first quarter were exports, investment, consumer spending, and government spending. Imports, which are a subtraction in the calculation of GDP, increased.   <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-1st-quarter-2026\">Full Text</a><!--Full Text Link-->",
-      "link": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-1st-quarter-2026",
-      "source": "BEA",
+      "id": "c0ee9df4b54db4f5e67041988f0cb562",
+      "title": "Brent hits lowest since before start of Iran war as more tankers exit Hormuz - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNSjlBc1JxN0hPX3MwaDU1UDMyeEE1SG1tRS1ma1FpSENKVVdpVzY3eUNoeUJvdGtVVDZtRm84UG1jTjBwV0s0RTExRHZCczB3TnBYN05CSlJueGNLSU1zeUstS0U0NTBBa0NhUU00VE0wQWFWU0ZfWGtiT2tfeVBpdWV1NmZ3UlBvTmxwRXU3WlVPNGdDU3VWNXJMOWJfNWM1ZEtyNS1YV3JlY2xEeTZmczZsRmdrd1AzMVhZTEFVdw?oc=5\" target=\"_blank\">Brent hits lowest since before start of Iran war as more tankers exit Hormuz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSjlBc1JxN0hPX3MwaDU1UDMyeEE1SG1tRS1ma1FpSENKVVdpVzY3eUNoeUJvdGtVVDZtRm84UG1jTjBwV0s0RTExRHZCczB3TnBYN05CSlJueGNLSU1zeUstS0U0NTBBa0NhUU00VE0wQWFWU0ZfWGtiT2tfeVBpdWV1NmZ3UlBvTmxwRXU3WlVPNGdDU3VWNXJMOWJfNWM1ZEtyNS1YV3JlY2xEeTZmczZsRmdrd1AzMVhZTEFVdw?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-24T17:02:02.224996Z"
+    },
+    {
+      "id": "d4434446477edf235a54a61122bf8754",
+      "title": "Mainport Shipping Marks Geo Master Christening As Hybrid Survey Vessel Enters Operational Service",
+      "summary": "Hybrid survey and ROV support vessel enters operational service following christening in IJmuiden under long-term charter arrangement LEAD Mainport Shipping, the Cork-based Irish maritime company, today marks the christening of the Geo Master, a hybrid survey and ROV support vessel delivered by Neptune Marine and set to enter operational service under a long-term commercial charter ...",
+      "link": "https://www.hellenicshippingnews.com/mainport-shipping-marks-geo-master-christening-as-hybrid-survey-vessel-enters-operational-service/",
+      "source": "Hellenic Shipping",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-06-24T17:01:58.906695Z"
+    },
+    {
+      "id": "afdee4471339187eb1e9a2624f613844",
+      "title": "Bessent sees GDP growth booming again this year. Kalshi traders see little chance of that",
+      "summary": "Kalshi traders are not agreeing with Treasury Secretary Scott Bessent's prediction that the U.S. economy will have 3% growth this year.",
+      "link": "https://www.cnbc.com/2026/06/24/bessent-sees-gdp-growth-booming-this-year-kalshi-traders-see-little-chance-of-that.html",
+      "source": "CNBC",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-24T17:01:29.297750Z"
+    },
+    {
+      "id": "18afb3a59c7e21f3767606ce169341c3",
+      "title": "Deutsche Bank cuts Q3 gold price target by 22%",
+      "summary": "The German investment bank said it now sees gold averaging $4,300/oz. in the third quarter of this year.",
+      "link": "https://www.mining.com/deutsche-bank-cuts-q3-gold-price-target-by-22/",
+      "source": "Mining.com",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-24T17:01:58.268496Z"
+    },
+    {
+      "id": "a629c7e0af6022513fa6250181bf0c4a",
+      "title": "Hedge Fund Targets $500 Million for Trading El Ni\u00f1o Crop Risks",
+      "summary": "The growing threat posed by a so-called \u201csuper El Ni\u00f1o\u201d to global food supplies is spurring the creation of a new commodities fund.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-24/hedge-fund-targets-500-million-for-trading-el-nino-crop-risks",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-24T17:01:25.733913Z"
+    },
+    {
+      "id": "2d4e45474db301e639d38a4649fad2c7",
+      "title": "a16z CSX-backed Cambrian raises $6 million seed to build blockchain data oracle network",
+      "summary": "<p>Cambrian, a startup building blockchain data infrastructure for institutions and AI agents, raised $6 million in a seed funding round.</p>",
+      "link": "https://www.theblock.co/post/406028/a16z-csx-backed-cambrian-seed-round-blockchain-data-oracle-network?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-24T17:02:00.597940Z"
+    },
+    {
+      "id": "fea4888b9a2d4e6323f7be85d1ec3b72",
+      "title": "Canada Building West\u2019s First Grid-Scale SMR",
+      "summary": "Construction has begun on the Western world\u2019s first grid-scale Small Modular Reactor (SMR), though small is not what comes to mind, considering that the machine will fit on two soccer fields. According to AutoNotion, a 953-tonne slab of steel and concrete was lowered into a 35-meter shaft at Ontario\u2019s Darlington New Nuclear Project site, \u201cending a decade of talk\u201d about the new nuclear technology and ushering in a period of action. The slab is the base mat of the first BWRX-300 modular plant designed by GE Vernova \u2014\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Canada-Building-Wests-First-Grid-Scale-SMR.html",
+      "source": "OilPrice",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -427,7 +595,55 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-24T16:56:02.146655Z"
+      "published": "2026-06-24T17:01:57.396217Z"
+    },
+    {
+      "id": "7ec81e9e87298cdad2dbdfdebf89c88c",
+      "title": "Aclara Resources gets environmental OK for Chile rare earths project",
+      "summary": "It wraps up a process that has taken longer than four years for the project.",
+      "link": "https://www.mining.com/aclara-resources-gets-environmental-ok-for-chile-rare-earths-project/",
+      "source": "Mining.com",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-24T17:01:58.268452Z"
+    },
+    {
+      "id": "2c2c6d25aaaf88367d45b728a39fc05d",
+      "title": "Svanehoj appoints new President",
+      "summary": "Morten Christian Larsen will succeed S\u00f8ren Kringelholt Nielsen as President of Svanehoj. Having held several leadership roles across the company, Larsen has built deep insight into Svanehoj\u2019s global business in marine pumps and tank safety solutions. Svanehoj, a specialist in marine pumps and safety equipment for liquefied gases, will have a new Predient as of ...",
+      "link": "https://www.hellenicshippingnews.com/svanehoj-appoints-new-president/",
+      "source": "Hellenic Shipping",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-24T17:01:58.906789Z"
+    },
+    {
+      "id": "3d34ed4c98fb9bbf92ef9890f6d4e721",
+      "title": "New Prime Minister, Same Problem",
+      "summary": "Why the consequences of Brexit can no longer be avoided.",
+      "link": "https://www.foreignaffairs.com/united-kingdom/new-prime-minister-same-problem",
+      "source": "Foreign Affairs",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-24T17:01:59.870775Z"
     }
   ]
 }
