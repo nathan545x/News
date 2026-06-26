@@ -1,73 +1,199 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-26T02:11:29.235820Z",
+  "generated_at": "2026-06-26T02:16:27.661285Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-06-26T02:11:29.235834Z"
+    "critical_alerts": 2,
+    "high_alerts": 4,
+    "last_updated": "2026-06-26T02:16:27.661300Z"
   },
   "top_signals": [
     {
-      "id": "f2a67025b4d2b20aa76bc519be64e1e2",
-      "title": "Ship struck in Strait of Hormuz as oil supertankers turn back again",
-      "summary": "The unidentified cargo ship was hit on its side and sustained damage to the bridge while it was sailing to the southeast of Oman, U.K. Maritime Trade Operations said.",
-      "link": "https://www.japantimes.co.jp/news/2026/06/26/world/hormuz-oil-tankers-turn-back/",
-      "source": "Japan Times",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
+      "id": "ea79b5ca6ef7bd2ed2dcf14ce3243da9",
+      "title": "Ship Struck in Hormuz as Oil Supertankers Turn Back Again",
+      "summary": "A ship was hit by an unidentified projectile in the Strait of Hormuz on Thursday in the first reported attack after an interim US-Iran peace deal, a significant setback to efforts to restore traffic through the vital energy thoroughfare.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-25/ships-appear-to-u-turn-while-trying-to-exit-hormuz-by-oman-route",
+      "source": "Bloomberg",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-26T02:11:17.253817Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-26T02:15:54.044840Z"
     },
     {
-      "id": "26a3bc7cbaa23c89a6359413a85c0e7f",
-      "title": "Chinese Energy Firm Pushes Fresh Debt Revamp After Payment Delay",
-      "summary": "Huachen Energy Co. plans to present a proposal to restructure its bonds, including $627 million in dollar-denominated notes, to investors as early as August, according to people familiar with the matter, as the Chinese power producer makes a fresh bid to ease liquidity pressure.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-26/chinese-energy-firm-pushes-fresh-debt-revamp-after-payment-delay",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [
-        "DXY"
+      "id": "1bbcbe776b3f642e8cd935dafdfa7b14",
+      "title": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
+      "summary": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm",
+      "source": "Federal Reserve",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
       ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-26T02:15:57.651985Z"
+    },
+    {
+      "id": "c716e16569b836ab74dece214a807351",
+      "title": "Bank of England launches policy statement and draft rules on regulating systemic stablecoins",
+      "summary": "The Bank of England has today published its policy statement and draft Code of Practice (rules) for systemic stablecoin issuers.",
+      "link": "https://www.bankofengland.co.uk/news/2026/june/boe-launches-policy-statement-and-draft-rules-on-regulating-systemic-stablecoins",
+      "source": "Bank of England",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-26T02:16:11.184224Z"
+    },
+    {
+      "id": "9fcbb1eab683986eb85c11b2d18cc742",
+      "title": "FIFA will allow rainbow flags at Egypt vs. Iran match at World Cup",
+      "summary": "Both countries' federations have stated objections to the so-called Pride Match.",
+      "link": "https://www.japantimes.co.jp/sports/2026/06/26/soccer/world-cup/iran-egypt-pride-fifa-flag/",
+      "source": "Japan Times",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-26T02:16:15.605250Z"
+    },
+    {
+      "id": "00ca1cea99ccad46c10f8671d911d6f9",
+      "title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
+      "summary": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-26T02:10:53.869853Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-26T02:15:57.651867Z"
     },
     {
-      "id": "54aa5169d9d1cdff423189fa4cf32d52",
-      "title": "Three youths jailed over fatal assault of college student in Hokkaido",
-      "summary": "The case involved a 20-year-old student being beaten to death by six people in a park in 2024.",
-      "link": "https://www.japantimes.co.jp/news/2026/06/26/japan/crime-legal/three-youths-jailed-hokkaido-murder/",
-      "source": "Japan Times",
-      "score": 5,
-      "severity": "LOW",
+      "id": "6342ce0bb2c63f50ad5884cde176bb71",
+      "title": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-26T02:15:57.651926Z"
+    },
+    {
+      "id": "26459d6b00a486655eabd382acdd01d6",
+      "title": "Apple posts worst day in over a year after MacBook and iPad price hikes",
+      "summary": "Tim Cook said last week that Apple would hike prices due to surging memory and storage costs.",
+      "link": "https://www.cnbc.com/2026/06/25/apple-macbook-ipad-price-hike-memory.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -83,67 +209,209 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-26T02:11:17.253753Z"
+      "published": "2026-06-26T02:15:57.407439Z"
+    },
+    {
+      "id": "6d478e73cac286469a9ae3512e80104b",
+      "title": "Exclusive | Relative Newcomer Banner Capital Lands Backing From GCM Grosvenor - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOTWtVRm0wc1lubXdWZkh3QmdObWRGYmVJQlk4VkxPaWlJZVJSZnpweG51emlRZk9heUxpNDY5eExWMkxHYVY5eXAwZDVSS1ppYVZ5WFBZU3Rrd0Q1bnFETk9NaFFscHZQTHNaV0JENTVIZVhJWVBuelpQalJ0UDExdWhBMXhFZHcxRk9LR3FPd1AwYktuR3dLTHdlcVFoRThWMWlOdHZ2am9vNEtablpsTWxNNA?oc=5\" target=\"_blank\">Exclusive | Relative Newcomer Banner Capital Lands Backing From GCM Grosvenor</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTWtVRm0wc1lubXdWZkh3QmdObWRGYmVJQlk4VkxPaWlJZVJSZnpweG51emlRZk9heUxpNDY5eExWMkxHYVY5eXAwZDVSS1ppYVZ5WFBZU3Rrd0Q1bnFETk9NaFFscHZQTHNaV0JENTVIZVhJWVBuelpQalJ0UDExdWhBMXhFZHcxRk9LR3FPd1AwYktuR3dLTHdlcVFoRThWMWlOdHZ2am9vNEtablpsTWxNNA?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-26T02:16:27.108117Z"
     }
   ],
   "alerts": [
     {
-      "id": "f2a67025b4d2b20aa76bc519be64e1e2",
-      "title": "Ship struck in Strait of Hormuz as oil supertankers turn back again",
-      "summary": "The unidentified cargo ship was hit on its side and sustained damage to the bridge while it was sailing to the southeast of Oman, U.K. Maritime Trade Operations said.",
-      "link": "https://www.japantimes.co.jp/news/2026/06/26/world/hormuz-oil-tankers-turn-back/",
-      "source": "Japan Times",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
+      "id": "ea79b5ca6ef7bd2ed2dcf14ce3243da9",
+      "title": "Ship Struck in Hormuz as Oil Supertankers Turn Back Again",
+      "summary": "A ship was hit by an unidentified projectile in the Strait of Hormuz on Thursday in the first reported attack after an interim US-Iran peace deal, a significant setback to efforts to restore traffic through the vital energy thoroughfare.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-25/ships-appear-to-u-turn-while-trying-to-exit-hormuz-by-oman-route",
+      "source": "Bloomberg",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-26T02:11:17.253817Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-26T02:15:54.044840Z"
     },
     {
-      "id": "26a3bc7cbaa23c89a6359413a85c0e7f",
-      "title": "Chinese Energy Firm Pushes Fresh Debt Revamp After Payment Delay",
-      "summary": "Huachen Energy Co. plans to present a proposal to restructure its bonds, including $627 million in dollar-denominated notes, to investors as early as August, according to people familiar with the matter, as the Chinese power producer makes a fresh bid to ease liquidity pressure.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-26/chinese-energy-firm-pushes-fresh-debt-revamp-after-payment-delay",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [
-        "DXY"
+      "id": "1bbcbe776b3f642e8cd935dafdfa7b14",
+      "title": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
+      "summary": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm",
+      "source": "Federal Reserve",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
       ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-26T02:15:57.651985Z"
+    },
+    {
+      "id": "c716e16569b836ab74dece214a807351",
+      "title": "Bank of England launches policy statement and draft rules on regulating systemic stablecoins",
+      "summary": "The Bank of England has today published its policy statement and draft Code of Practice (rules) for systemic stablecoin issuers.",
+      "link": "https://www.bankofengland.co.uk/news/2026/june/boe-launches-policy-statement-and-draft-rules-on-regulating-systemic-stablecoins",
+      "source": "Bank of England",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-26T02:16:11.184224Z"
+    },
+    {
+      "id": "9fcbb1eab683986eb85c11b2d18cc742",
+      "title": "FIFA will allow rainbow flags at Egypt vs. Iran match at World Cup",
+      "summary": "Both countries' federations have stated objections to the so-called Pride Match.",
+      "link": "https://www.japantimes.co.jp/sports/2026/06/26/soccer/world-cup/iran-egypt-pride-fifa-flag/",
+      "source": "Japan Times",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-26T02:16:15.605250Z"
+    },
+    {
+      "id": "00ca1cea99ccad46c10f8671d911d6f9",
+      "title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
+      "summary": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-26T02:10:53.869853Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-26T02:15:57.651867Z"
     },
     {
-      "id": "54aa5169d9d1cdff423189fa4cf32d52",
-      "title": "Three youths jailed over fatal assault of college student in Hokkaido",
-      "summary": "The case involved a 20-year-old student being beaten to death by six people in a park in 2024.",
-      "link": "https://www.japantimes.co.jp/news/2026/06/26/japan/crime-legal/three-youths-jailed-hokkaido-murder/",
-      "source": "Japan Times",
-      "score": 5,
-      "severity": "LOW",
+      "id": "6342ce0bb2c63f50ad5884cde176bb71",
+      "title": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-26T02:15:57.651926Z"
+    },
+    {
+      "id": "26459d6b00a486655eabd382acdd01d6",
+      "title": "Apple posts worst day in over a year after MacBook and iPad price hikes",
+      "summary": "Tim Cook said last week that Apple would hike prices due to surging memory and storage costs.",
+      "link": "https://www.cnbc.com/2026/06/25/apple-macbook-ipad-price-hike-memory.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -159,7 +427,23 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-26T02:11:17.253753Z"
+      "published": "2026-06-26T02:15:57.407439Z"
+    },
+    {
+      "id": "6d478e73cac286469a9ae3512e80104b",
+      "title": "Exclusive | Relative Newcomer Banner Capital Lands Backing From GCM Grosvenor - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOTWtVRm0wc1lubXdWZkh3QmdObWRGYmVJQlk4VkxPaWlJZVJSZnpweG51emlRZk9heUxpNDY5eExWMkxHYVY5eXAwZDVSS1ppYVZ5WFBZU3Rrd0Q1bnFETk9NaFFscHZQTHNaV0JENTVIZVhJWVBuelpQalJ0UDExdWhBMXhFZHcxRk9LR3FPd1AwYktuR3dLTHdlcVFoRThWMWlOdHZ2am9vNEtablpsTWxNNA?oc=5\" target=\"_blank\">Exclusive | Relative Newcomer Banner Capital Lands Backing From GCM Grosvenor</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTWtVRm0wc1lubXdWZkh3QmdObWRGYmVJQlk4VkxPaWlJZVJSZnpweG51emlRZk9heUxpNDY5eExWMkxHYVY5eXAwZDVSS1ppYVZ5WFBZU3Rrd0Q1bnFETk9NaFFscHZQTHNaV0JENTVIZVhJWVBuelpQalJ0UDExdWhBMXhFZHcxRk9LR3FPd1AwYktuR3dLTHdlcVFoRThWMWlOdHZ2am9vNEtablpsTWxNNA?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-26T02:16:27.108117Z"
     }
   ]
 }
