@@ -1,25 +1,59 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-26T08:41:36.272440Z",
+  "generated_at": "2026-06-26T08:46:33.112408Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-06-26T08:41:36.272451Z"
+    "critical_alerts": 2,
+    "high_alerts": 2,
+    "last_updated": "2026-06-26T08:46:33.112424Z"
   },
   "top_signals": [
     {
-      "id": "1aab1e31c48f53fb70ab1a1368f09f0d",
-      "title": "Brutal Week of Swings Leaves Korea\u2019s AI Stock Rally in Turmoil",
-      "summary": "South Korean stocks went from euphoria to anxiety in a gut-wrenching week that exposed just how fragile the AI rally has become.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-26/korean-stocks-slump-6-as-chipmakers-hit-by-renewed-sellolff",
+      "id": "6523cf7ad76406c5d47b2985534be940",
+      "title": "Ukraine\u2019s newest strike weapon drifts into Russia on the wind",
+      "summary": "The U.S. and Russia are fielding the same balloons used by Ukraine that bait air defenses and now launch missiles.",
+      "link": "https://www.defensenews.com/global/europe/2026/06/25/ukraines-newest-strike-weapon-drifts-into-russia-on-the-wind/",
+      "source": "Defense News",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-26T08:46:28.210986Z"
+    },
+    {
+      "id": "c554592b3c94c2ed62b9969677cd3b7d",
+      "title": "Tech Losses Drag Global Stocks Lower; Oil Retreats: Markets Wrap",
+      "summary": "Technology stocks once again pulled global indexes lower as renewed selling in semiconductor manufacturers and a possible delay to OpenAI\u2019s public debut hit sentiment. Oil resumed its slide.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-25/asia-stocks-set-for-choppy-open-on-tech-volatility-markets-wrap",
       "source": "Bloomberg",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "AI",
       "tickers": [
         "WTI"
       ],
@@ -31,61 +65,92 @@
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-26T08:40:58.559409Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-26T08:46:00.594097Z"
     },
     {
-      "id": "86334f76bd3135b07e05bcf9f1ec5f1f",
-      "title": "Gold Steadies Near $4,000 as Inflation Data Eases Rate-Hike Bets - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQZzZhWWVqZ0hINjRtMjRneE9PRHBlYWRENHNaU29MblZ4dWJKYUpRNC1VczUwazdkejBPV0ZDdS10TVRMWEpFaHpVQUQweVBTekNIT3p6N25GbFFfWWE2RkZLd25IWjZZeGxvNVlvcWkzZWE3OGs5b3JsSXl4UTZEQWxCLUQteHdXM3RzVmpEclhKS0hTLVlXY2tRUW94N2ZtVERicVRiSkJlcHNOTXhaNW13cmY?oc=5\" target=\"_blank\">Gold Steadies Near $4,000 as Inflation Data Eases Rate-Hike Bets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZzZhWWVqZ0hINjRtMjRneE9PRHBlYWRENHNaU29MblZ4dWJKYUpRNC1VczUwazdkejBPV0ZDdS10TVRMWEpFaHpVQUQweVBTekNIT3p6N25GbFFfWWE2RkZLd25IWjZZeGxvNVlvcWkzZWE3OGs5b3JsSXl4UTZEQWxCLUQteHdXM3RzVmpEclhKS0hTLVlXY2tRUW94N2ZtVERicVRiSkJlcHNOTXhaNW13cmY?oc=5",
+      "id": "f63ae2d2629bd8a6649020918301c044",
+      "title": "Crude shipments through Hormuz at highest since Iran war began - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNXzN6X1ZFMUJfYUd1aDU5U0RWUGpqMm5VbHMwbGZ6eF9RdERyNVEzY3FIMVBkZXlPUFhGRmJXekNzNzZmbEk5WVBwbm53dTRTQW1NNTJNVjcwN0xUYkJ2Z2NyTHljQ2ktVnBOWWZpUnNVR3JKM05OR0xQRlFlRWpHQ1hWR1hxWXV0YTNldGhZMTVCZXJJclBFOHhPMW9leEd3ZzdzZGVtLWFWRDQ4Ym9HSVl3UjJUbVdnZmpzQ1cxYmZzMWhkTjUtNw?oc=5\" target=\"_blank\">Crude shipments through Hormuz at highest since Iran war began</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNXzN6X1ZFMUJfYUd1aDU5U0RWUGpqMm5VbHMwbGZ6eF9RdERyNVEzY3FIMVBkZXlPUFhGRmJXekNzNzZmbEk5WVBwbm53dTRTQW1NNTJNVjcwN0xUYkJ2Z2NyTHljQ2ktVnBOWWZpUnNVR3JKM05OR0xQRlFlRWpHQ1hWR1hxWXV0YTNldGhZMTVCZXJJclBFOHhPMW9leEd3ZzdzZGVtLWFWRDQ4Ym9HSVl3UjJUbVdnZmpzQ1cxYmZzMWhkTjUtNw?oc=5",
       "source": "Google Macro",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-26T08:46:31.513862Z"
+    },
+    {
+      "id": "327873b93a299cc880fd981944204330",
+      "title": "Three \u2018cybercrime as a service\u2019 operations undercut by Microsoft, law enforcement",
+      "summary": "Microsoft touted its latest action against malware infrastructure as a new approach aimed at the full cybercrime \"supply chain.\" Europol said more than 300 servers were targeted.",
+      "link": "https://therecord.media/stealc-amadey-socgholish-malware-takedown-europol-microsoft",
+      "source": "The Record",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "XAU"
+        "EUR"
       ],
       "regions": [],
       "assets": [
-        "COMMODITIES"
+        "AI",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-26T08:41:34.122557Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-26T08:46:30.171117Z"
     },
     {
-      "id": "add4a02d308bee77bd1d115e299cbe19",
-      "title": "Red Lobster's Ultimate Endless Shrimp promotion described as a 'car crash for the company, lawsuit says",
-      "summary": "\"Thai Union doubled down on a campaign to squeeze out every drop of value that it could,\" creditors said",
-      "link": "https://www.cnbc.com/2026/06/26/red-lobsters-endless-shrimp-promotion-was-a-car-crash-lawsuit-says.html",
-      "source": "CNBC",
-      "score": 10,
+      "id": "87fcdb3d60991f47a0eadd285650929d",
+      "title": "US Stock Futures Resume Declines as AI Concerns Stall Tech Rally",
+      "summary": "US technology stocks were poised to drop, tracking sharp declines in Asian peers as investors remained skeptical about high artificial-intelligence valuations.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-26/us-stock-futures-resume-declines-as-ai-concerns-stall-tech-rally",
+      "source": "Bloomberg",
+      "score": 13,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
       "regions": [],
       "assets": [
-        "AI"
+        "AI",
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -96,19 +161,69 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-26T08:41:02.710986Z"
+      "published": "2026-06-26T08:46:00.594185Z"
+    },
+    {
+      "id": "1f514720cca27896499767a96ce7cdb2",
+      "title": "Apple stock gets slammed on bigger Mac, iPad price hikes. Why it can weather the storm",
+      "summary": "The stock had its worst session in more than a year as management made its first official move to pass higher memory costs onto consumers.",
+      "link": "https://www.cnbc.com/2026/06/25/apple-stock-gets-slammed-on-bigger-mac-ipad-price-hikes-why-it-can-weather-the-storm.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-26T08:46:03.910275Z"
     }
   ],
   "alerts": [
     {
-      "id": "1aab1e31c48f53fb70ab1a1368f09f0d",
-      "title": "Brutal Week of Swings Leaves Korea\u2019s AI Stock Rally in Turmoil",
-      "summary": "South Korean stocks went from euphoria to anxiety in a gut-wrenching week that exposed just how fragile the AI rally has become.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-26/korean-stocks-slump-6-as-chipmakers-hit-by-renewed-sellolff",
+      "id": "6523cf7ad76406c5d47b2985534be940",
+      "title": "Ukraine\u2019s newest strike weapon drifts into Russia on the wind",
+      "summary": "The U.S. and Russia are fielding the same balloons used by Ukraine that bait air defenses and now launch missiles.",
+      "link": "https://www.defensenews.com/global/europe/2026/06/25/ukraines-newest-strike-weapon-drifts-into-russia-on-the-wind/",
+      "source": "Defense News",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-26T08:46:28.210986Z"
+    },
+    {
+      "id": "c554592b3c94c2ed62b9969677cd3b7d",
+      "title": "Tech Losses Drag Global Stocks Lower; Oil Retreats: Markets Wrap",
+      "summary": "Technology stocks once again pulled global indexes lower as renewed selling in semiconductor manufacturers and a possible delay to OpenAI\u2019s public debut hit sentiment. Oil resumed its slide.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-25/asia-stocks-set-for-choppy-open-on-tech-volatility-markets-wrap",
       "source": "Bloomberg",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "AI",
       "tickers": [
         "WTI"
       ],
@@ -120,61 +235,92 @@
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-26T08:40:58.559409Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-26T08:46:00.594097Z"
     },
     {
-      "id": "86334f76bd3135b07e05bcf9f1ec5f1f",
-      "title": "Gold Steadies Near $4,000 as Inflation Data Eases Rate-Hike Bets - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQZzZhWWVqZ0hINjRtMjRneE9PRHBlYWRENHNaU29MblZ4dWJKYUpRNC1VczUwazdkejBPV0ZDdS10TVRMWEpFaHpVQUQweVBTekNIT3p6N25GbFFfWWE2RkZLd25IWjZZeGxvNVlvcWkzZWE3OGs5b3JsSXl4UTZEQWxCLUQteHdXM3RzVmpEclhKS0hTLVlXY2tRUW94N2ZtVERicVRiSkJlcHNOTXhaNW13cmY?oc=5\" target=\"_blank\">Gold Steadies Near $4,000 as Inflation Data Eases Rate-Hike Bets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZzZhWWVqZ0hINjRtMjRneE9PRHBlYWRENHNaU29MblZ4dWJKYUpRNC1VczUwazdkejBPV0ZDdS10TVRMWEpFaHpVQUQweVBTekNIT3p6N25GbFFfWWE2RkZLd25IWjZZeGxvNVlvcWkzZWE3OGs5b3JsSXl4UTZEQWxCLUQteHdXM3RzVmpEclhKS0hTLVlXY2tRUW94N2ZtVERicVRiSkJlcHNOTXhaNW13cmY?oc=5",
+      "id": "f63ae2d2629bd8a6649020918301c044",
+      "title": "Crude shipments through Hormuz at highest since Iran war began - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNXzN6X1ZFMUJfYUd1aDU5U0RWUGpqMm5VbHMwbGZ6eF9RdERyNVEzY3FIMVBkZXlPUFhGRmJXekNzNzZmbEk5WVBwbm53dTRTQW1NNTJNVjcwN0xUYkJ2Z2NyTHljQ2ktVnBOWWZpUnNVR3JKM05OR0xQRlFlRWpHQ1hWR1hxWXV0YTNldGhZMTVCZXJJclBFOHhPMW9leEd3ZzdzZGVtLWFWRDQ4Ym9HSVl3UjJUbVdnZmpzQ1cxYmZzMWhkTjUtNw?oc=5\" target=\"_blank\">Crude shipments through Hormuz at highest since Iran war began</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNXzN6X1ZFMUJfYUd1aDU5U0RWUGpqMm5VbHMwbGZ6eF9RdERyNVEzY3FIMVBkZXlPUFhGRmJXekNzNzZmbEk5WVBwbm53dTRTQW1NNTJNVjcwN0xUYkJ2Z2NyTHljQ2ktVnBOWWZpUnNVR3JKM05OR0xQRlFlRWpHQ1hWR1hxWXV0YTNldGhZMTVCZXJJclBFOHhPMW9leEd3ZzdzZGVtLWFWRDQ4Ym9HSVl3UjJUbVdnZmpzQ1cxYmZzMWhkTjUtNw?oc=5",
       "source": "Google Macro",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-26T08:46:31.513862Z"
+    },
+    {
+      "id": "327873b93a299cc880fd981944204330",
+      "title": "Three \u2018cybercrime as a service\u2019 operations undercut by Microsoft, law enforcement",
+      "summary": "Microsoft touted its latest action against malware infrastructure as a new approach aimed at the full cybercrime \"supply chain.\" Europol said more than 300 servers were targeted.",
+      "link": "https://therecord.media/stealc-amadey-socgholish-malware-takedown-europol-microsoft",
+      "source": "The Record",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "XAU"
+        "EUR"
       ],
       "regions": [],
       "assets": [
-        "COMMODITIES"
+        "AI",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-26T08:41:34.122557Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-26T08:46:30.171117Z"
     },
     {
-      "id": "add4a02d308bee77bd1d115e299cbe19",
-      "title": "Red Lobster's Ultimate Endless Shrimp promotion described as a 'car crash for the company, lawsuit says",
-      "summary": "\"Thai Union doubled down on a campaign to squeeze out every drop of value that it could,\" creditors said",
-      "link": "https://www.cnbc.com/2026/06/26/red-lobsters-endless-shrimp-promotion-was-a-car-crash-lawsuit-says.html",
-      "source": "CNBC",
-      "score": 10,
+      "id": "87fcdb3d60991f47a0eadd285650929d",
+      "title": "US Stock Futures Resume Declines as AI Concerns Stall Tech Rally",
+      "summary": "US technology stocks were poised to drop, tracking sharp declines in Asian peers as investors remained skeptical about high artificial-intelligence valuations.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-26/us-stock-futures-resume-declines-as-ai-concerns-stall-tech-rally",
+      "source": "Bloomberg",
+      "score": 13,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
       "regions": [],
       "assets": [
-        "AI"
+        "AI",
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -185,7 +331,23 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-26T08:41:02.710986Z"
+      "published": "2026-06-26T08:46:00.594185Z"
+    },
+    {
+      "id": "1f514720cca27896499767a96ce7cdb2",
+      "title": "Apple stock gets slammed on bigger Mac, iPad price hikes. Why it can weather the storm",
+      "summary": "The stock had its worst session in more than a year as management made its first official move to pass higher memory costs onto consumers.",
+      "link": "https://www.cnbc.com/2026/06/25/apple-stock-gets-slammed-on-bigger-mac-ipad-price-hikes-why-it-can-weather-the-storm.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-26T08:46:03.910275Z"
     }
   ]
 }
