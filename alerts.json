@@ -1,38 +1,176 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-26T21:58:25.878037Z",
+  "generated_at": "2026-06-26T22:04:20.301936Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-06-26T21:58:25.878049Z"
+    "critical_alerts": 1,
+    "high_alerts": 1,
+    "last_updated": "2026-06-26T22:04:20.301949Z"
   },
   "top_signals": [
     {
-      "id": "4583dd8faf1541799cfb71e826685698",
-      "title": "Markets, Economy Ignoring Policy Shocks: Skelly",
-      "summary": "Dan Skelly, managing director and head of the equity model portfolio team at Morgan Stanley Wealth Management, joins Lisa Mateo and Tom Keene on \"Bloomberg Money.\" (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-26/markets-economy-ignoring-policy-shocks-skelly-video",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "id": "5289811a6cf4ae95133e5bb1aa4f52c6",
+      "title": "US launches strikes on Iran after Tehran\u2019s attack on container ship",
+      "summary": "Washington says \u2018unwarranted aggression against commercial shipping\u2019 violated ceasefire between adversaries",
+      "link": "https://www.ft.com/content/f9a4ca8d-d29c-4a7d-8791-8999d84317ae",
+      "source": "Financial Times",
+      "score": 41,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-26T21:55:46.581243Z"
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-26T22:01:17.638291Z"
     },
     {
-      "id": "bc392ea0a77cd1081f090dd1ec890fb1",
-      "title": "U.S. International Trade in Goods and Services, April 2026",
-      "summary": "The U.S. monthly international trade deficit decreased in April 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $56.6 billion in March (revised) to $55.9 billion in April, as exports increased more than imports. The goods deficit decreased $2.4 billion in April to $83.7 billion. The services surplus decreased $1.7 billion in April to $27.8 billion.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/us-international-trade-goods-and-services-april-2026\">Full Text</a><!--Full Text Link-->",
-      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-april-2026",
-      "source": "BEA",
+      "id": "168bc58f67fdd89bd14e9c15adcfc1a5",
+      "title": "U.S. jet fuel production rises after prices doubled in March",
+      "summary": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and supply concerns, particularly in Europe and Asia, which previously imported much of their jet fuel supply from the Persian Gulf, have driven up jet fuel prices. Much of the increased U.S. jet fuel production is being exported, as domestic inventories remain above average.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67764",
+      "source": "EIA",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "EUR",
+        "WTI"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-26T22:01:46.853354Z"
+    },
+    {
+      "id": "060aa52f1eadf4869226c138a2f32af0",
+      "title": "The Billion-Dollar Debt Deals Exposing an Oil Giant",
+      "summary": "Last week, Angola's state oil company, Sociedade Nacional de Combust\u00edveis de Angola (Sonangol), secured a $2.65-billion financing deal with a consortium of international banks to fund the company's operating expenses and capital investments. The financing was heavily backed by a syndicate of foreign lenders including Soci\u00e9t\u00e9 G\u00e9n\u00e9rale, First Abu Dhabi Bank, Standard Bank of South Africa and Absa, while local Angolan banks, including Banco Fomento de Angola (BFA), Banco Millennium Atl\u00e2ntico and Banco Angolano\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/The-Billion-Dollar-Debt-Deals-Exposing-an-Oil-Giant.html",
+      "source": "OilPrice",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "DXY",
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-26T22:01:47.425921Z"
+    },
+    {
+      "id": "9debd7cd720f844849f0692088830021",
+      "title": "Revival Gold extends Joss depth in Idaho high-grade push",
+      "summary": "Joss sits outside Beartrack-Arnett\u2019s first-stage heap leach mine plan and could give Revival a higher-grade underground growth route.",
+      "link": "https://www.mining.com/revival-gold-extends-joss-depth-in-idaho-high-grade-push/",
+      "source": "Mining.com",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-26T22:01:48.521468Z"
+    },
+    {
+      "id": "ad2728ffae2d1a7187cac9973218208b",
+      "title": "Strong earthquake jolts Yamanashi and Kanagawa amid landslide fears",
+      "summary": "The magnitude 5.6 quake came as two tropical storms neared the main island of Honshu, with heavy rain falling in recent days and more to come over the weekend.",
+      "link": "https://www.japantimes.co.jp/news/2026/06/26/japan/yamanashi-strong-earthquake/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-26T22:01:41.851308Z"
+    },
+    {
+      "id": "57c927b3b2c82bd84a889b34c21935be",
+      "title": "Higher blending targets drive RIN prices close to record highs",
+      "summary": "Compliance credits for biomass-based diesel and ethanol have doubled in value since the start of this year. The credits, known as renewable identification numbers (RINs), have increased in price, mostly because of higher U.S. biofuel blending targets. The combination of high RIN prices and rising motor gasoline and diesel fuel prices has created an especially favorable market for producing and blending biofuels.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67765",
+      "source": "EIA",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -41,32 +179,170 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-26T21:55:58.550061Z"
+      "published": "2026-06-26T22:01:46.853270Z"
     }
   ],
   "alerts": [
     {
-      "id": "4583dd8faf1541799cfb71e826685698",
-      "title": "Markets, Economy Ignoring Policy Shocks: Skelly",
-      "summary": "Dan Skelly, managing director and head of the equity model portfolio team at Morgan Stanley Wealth Management, joins Lisa Mateo and Tom Keene on \"Bloomberg Money.\" (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-26/markets-economy-ignoring-policy-shocks-skelly-video",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "id": "5289811a6cf4ae95133e5bb1aa4f52c6",
+      "title": "US launches strikes on Iran after Tehran\u2019s attack on container ship",
+      "summary": "Washington says \u2018unwarranted aggression against commercial shipping\u2019 violated ceasefire between adversaries",
+      "link": "https://www.ft.com/content/f9a4ca8d-d29c-4a7d-8791-8999d84317ae",
+      "source": "Financial Times",
+      "score": 41,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-26T21:55:46.581243Z"
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-26T22:01:17.638291Z"
     },
     {
-      "id": "bc392ea0a77cd1081f090dd1ec890fb1",
-      "title": "U.S. International Trade in Goods and Services, April 2026",
-      "summary": "The U.S. monthly international trade deficit decreased in April 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $56.6 billion in March (revised) to $55.9 billion in April, as exports increased more than imports. The goods deficit decreased $2.4 billion in April to $83.7 billion. The services surplus decreased $1.7 billion in April to $27.8 billion.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/us-international-trade-goods-and-services-april-2026\">Full Text</a><!--Full Text Link-->",
-      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-april-2026",
-      "source": "BEA",
+      "id": "168bc58f67fdd89bd14e9c15adcfc1a5",
+      "title": "U.S. jet fuel production rises after prices doubled in March",
+      "summary": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and supply concerns, particularly in Europe and Asia, which previously imported much of their jet fuel supply from the Persian Gulf, have driven up jet fuel prices. Much of the increased U.S. jet fuel production is being exported, as domestic inventories remain above average.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67764",
+      "source": "EIA",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "EUR",
+        "WTI"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-26T22:01:46.853354Z"
+    },
+    {
+      "id": "060aa52f1eadf4869226c138a2f32af0",
+      "title": "The Billion-Dollar Debt Deals Exposing an Oil Giant",
+      "summary": "Last week, Angola's state oil company, Sociedade Nacional de Combust\u00edveis de Angola (Sonangol), secured a $2.65-billion financing deal with a consortium of international banks to fund the company's operating expenses and capital investments. The financing was heavily backed by a syndicate of foreign lenders including Soci\u00e9t\u00e9 G\u00e9n\u00e9rale, First Abu Dhabi Bank, Standard Bank of South Africa and Absa, while local Angolan banks, including Banco Fomento de Angola (BFA), Banco Millennium Atl\u00e2ntico and Banco Angolano\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/The-Billion-Dollar-Debt-Deals-Exposing-an-Oil-Giant.html",
+      "source": "OilPrice",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "DXY",
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-26T22:01:47.425921Z"
+    },
+    {
+      "id": "9debd7cd720f844849f0692088830021",
+      "title": "Revival Gold extends Joss depth in Idaho high-grade push",
+      "summary": "Joss sits outside Beartrack-Arnett\u2019s first-stage heap leach mine plan and could give Revival a higher-grade underground growth route.",
+      "link": "https://www.mining.com/revival-gold-extends-joss-depth-in-idaho-high-grade-push/",
+      "source": "Mining.com",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-26T22:01:48.521468Z"
+    },
+    {
+      "id": "ad2728ffae2d1a7187cac9973218208b",
+      "title": "Strong earthquake jolts Yamanashi and Kanagawa amid landslide fears",
+      "summary": "The magnitude 5.6 quake came as two tropical storms neared the main island of Honshu, with heavy rain falling in recent days and more to come over the weekend.",
+      "link": "https://www.japantimes.co.jp/news/2026/06/26/japan/yamanashi-strong-earthquake/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-26T22:01:41.851308Z"
+    },
+    {
+      "id": "57c927b3b2c82bd84a889b34c21935be",
+      "title": "Higher blending targets drive RIN prices close to record highs",
+      "summary": "Compliance credits for biomass-based diesel and ethanol have doubled in value since the start of this year. The credits, known as renewable identification numbers (RINs), have increased in price, mostly because of higher U.S. biofuel blending targets. The combination of high RIN prices and rising motor gasoline and diesel fuel prices has created an especially favorable market for producing and blending biofuels.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67765",
+      "source": "EIA",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -75,7 +351,7 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-26T21:55:58.550061Z"
+      "published": "2026-06-26T22:01:46.853270Z"
     }
   ]
 }
