@@ -1,58 +1,68 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-26T15:51:28.579752Z",
+  "generated_at": "2026-06-26T15:56:24.649340Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 1,
-    "last_updated": "2026-06-26T15:51:28.579767Z"
+    "last_updated": "2026-06-26T15:56:24.649356Z"
   },
   "top_signals": [
     {
-      "id": "807c6be552ec86396cac7e17a5d86c25",
-      "title": "Minneapolis Fed President Neel Kashkari says he expects a rate hike this year",
-      "summary": "",
-      "link": "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html",
-      "source": "CNBC",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
+      "id": "8716c23a09fcd4ccd496d7bd08ce81e3",
+      "title": "Wall Street Embraces the Dollar as Warsh\u2019s Fed Activates Bulls",
+      "summary": "Only a year ago, Wall Street banks couldn\u2019t come up with enough reasons to sell the dollar. Whether it was de-dollarization, \u201chedge America\u201d or the debasement trade, the dollar was doomed.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-25/wall-street-embraces-the-dollar-as-warsh-s-fed-activates-bulls",
+      "source": "Bloomberg",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [
+        "US"
+      ],
       "assets": [],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-26T15:51:00.490501Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-26T15:55:43.624622Z"
     },
     {
-      "id": "f19a6dac80d5a0bcc5d962c5f1012286",
-      "title": "Is Hindsight 20/20? Hormuz Oil Shock and Lessons Learned from 1973",
-      "summary": "While oil and gas are once again flowing through the Strait of Hormuz, the closure of the vital waterway for over 100 days could prove to be a turning point in global energy markets. The Arab oil embargo of 1973, a similarly disruptive supply shock\u2026",
-      "link": "https://www.marinelink.com/news/hindsight-hormuz-oil-shock-lessons-540695",
-      "source": "MarineLink",
-      "score": 13,
-      "severity": "MEDIUM",
+      "id": "168bc58f67fdd89bd14e9c15adcfc1a5",
+      "title": "U.S. jet fuel production rises after prices doubled in March",
+      "summary": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and supply concerns, particularly in Europe and Asia, which previously imported much of their jet fuel supply from the Persian Gulf, have driven up jet fuel prices. Much of the increased U.S. jet fuel production is being exported, as domestic inventories remain above average.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67764",
+      "source": "EIA",
+      "score": 18,
+      "severity": "HIGH",
       "regime": "COMMODITIES",
       "tickers": [
+        "EUR",
         "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "EUROPE"
+      ],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "COMMODITIES",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
@@ -66,82 +76,146 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-26T15:51:23.733029Z"
+      "published": "2026-06-26T15:56:17.481711Z"
     },
     {
-      "id": "9debd7cd720f844849f0692088830021",
-      "title": "Revival Gold extends Joss depth in Idaho high-grade push",
-      "summary": "Joss sits outside Beartrack-Arnett\u2019s first-stage heap leach mine plan and could give Revival a higher-grade underground growth route.",
-      "link": "https://www.mining.com/revival-gold-extends-joss-depth-in-idaho-high-grade-push/",
-      "source": "Mining.com",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "COMMODITIES",
+      "id": "edce45617e958d2bb74f3cb1ba851e1a",
+      "title": "SpaceX Index Era Sets Up Clash Among Shorts and Passive Billions",
+      "summary": "SpaceX\u2019s stock has started to lose momentum after its blockbuster market debut. But investors betting against Elon Musk\u2019s newest public company will soon face a different force: billions of dollars in mechanical buying as the stock enters major indexes.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-26/spacex-index-era-sets-up-clash-among-shorts-and-passive-billions",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [
-        "XAU"
+        "DXY"
       ],
       "regions": [],
       "assets": [
-        "COMMODITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-26T15:51:23.134479Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-26T15:55:43.624699Z"
+    },
+    {
+      "id": "5483bc4eef1ad56e05cb664f71157853",
+      "title": "PirloTV sports piracy network disrupted as 44 domains seized",
+      "summary": "A major sports piracy ring linked to the illegal PirloTV streaming platform has been disrupted in an action that targeted 44 domains. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/pirlotv-sports-piracy-network-disrupted-as-44-domains-seized/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-26T15:56:21.480761Z"
+    },
+    {
+      "id": "bc392ea0a77cd1081f090dd1ec890fb1",
+      "title": "U.S. International Trade in Goods and Services, April 2026",
+      "summary": "The U.S. monthly international trade deficit decreased in April 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $56.6 billion in March (revised) to $55.9 billion in April, as exports increased more than imports. The goods deficit decreased $2.4 billion in April to $83.7 billion. The services surplus decreased $1.7 billion in April to $27.8 billion.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/us-international-trade-goods-and-services-april-2026\">Full Text</a><!--Full Text Link-->",
+      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-april-2026",
+      "source": "BEA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-26T15:55:56.454101Z"
+    },
+    {
+      "id": "57c927b3b2c82bd84a889b34c21935be",
+      "title": "Higher blending targets drive RIN prices close to record highs",
+      "summary": "Compliance credits for biomass-based diesel and ethanol have doubled in value since the start of this year. The credits, known as renewable identification numbers (RINs), have increased in price, mostly because of higher U.S. biofuel blending targets. The combination of high RIN prices and rising motor gasoline and diesel fuel prices has created an especially favorable market for producing and blending biofuels.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67765",
+      "source": "EIA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-26T15:56:17.481588Z"
     }
   ],
   "alerts": [
     {
-      "id": "807c6be552ec86396cac7e17a5d86c25",
-      "title": "Minneapolis Fed President Neel Kashkari says he expects a rate hike this year",
-      "summary": "",
-      "link": "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html",
-      "source": "CNBC",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
+      "id": "8716c23a09fcd4ccd496d7bd08ce81e3",
+      "title": "Wall Street Embraces the Dollar as Warsh\u2019s Fed Activates Bulls",
+      "summary": "Only a year ago, Wall Street banks couldn\u2019t come up with enough reasons to sell the dollar. Whether it was de-dollarization, \u201chedge America\u201d or the debasement trade, the dollar was doomed.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-25/wall-street-embraces-the-dollar-as-warsh-s-fed-activates-bulls",
+      "source": "Bloomberg",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [
+        "US"
+      ],
       "assets": [],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-26T15:51:00.490501Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-26T15:55:43.624622Z"
     },
     {
-      "id": "f19a6dac80d5a0bcc5d962c5f1012286",
-      "title": "Is Hindsight 20/20? Hormuz Oil Shock and Lessons Learned from 1973",
-      "summary": "While oil and gas are once again flowing through the Strait of Hormuz, the closure of the vital waterway for over 100 days could prove to be a turning point in global energy markets. The Arab oil embargo of 1973, a similarly disruptive supply shock\u2026",
-      "link": "https://www.marinelink.com/news/hindsight-hormuz-oil-shock-lessons-540695",
-      "source": "MarineLink",
-      "score": 13,
-      "severity": "MEDIUM",
+      "id": "168bc58f67fdd89bd14e9c15adcfc1a5",
+      "title": "U.S. jet fuel production rises after prices doubled in March",
+      "summary": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and supply concerns, particularly in Europe and Asia, which previously imported much of their jet fuel supply from the Persian Gulf, have driven up jet fuel prices. Much of the increased U.S. jet fuel production is being exported, as domestic inventories remain above average.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67764",
+      "source": "EIA",
+      "score": 18,
+      "severity": "HIGH",
       "regime": "COMMODITIES",
       "tickers": [
+        "EUR",
         "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "EUROPE"
+      ],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "COMMODITIES",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
@@ -155,37 +229,91 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-26T15:51:23.733029Z"
+      "published": "2026-06-26T15:56:17.481711Z"
     },
     {
-      "id": "9debd7cd720f844849f0692088830021",
-      "title": "Revival Gold extends Joss depth in Idaho high-grade push",
-      "summary": "Joss sits outside Beartrack-Arnett\u2019s first-stage heap leach mine plan and could give Revival a higher-grade underground growth route.",
-      "link": "https://www.mining.com/revival-gold-extends-joss-depth-in-idaho-high-grade-push/",
-      "source": "Mining.com",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "COMMODITIES",
+      "id": "edce45617e958d2bb74f3cb1ba851e1a",
+      "title": "SpaceX Index Era Sets Up Clash Among Shorts and Passive Billions",
+      "summary": "SpaceX\u2019s stock has started to lose momentum after its blockbuster market debut. But investors betting against Elon Musk\u2019s newest public company will soon face a different force: billions of dollars in mechanical buying as the stock enters major indexes.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-26/spacex-index-era-sets-up-clash-among-shorts-and-passive-billions",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [
-        "XAU"
+        "DXY"
       ],
       "regions": [],
       "assets": [
-        "COMMODITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-06-26T15:51:23.134479Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-26T15:55:43.624699Z"
+    },
+    {
+      "id": "5483bc4eef1ad56e05cb664f71157853",
+      "title": "PirloTV sports piracy network disrupted as 44 domains seized",
+      "summary": "A major sports piracy ring linked to the illegal PirloTV streaming platform has been disrupted in an action that targeted 44 domains. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/pirlotv-sports-piracy-network-disrupted-as-44-domains-seized/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-26T15:56:21.480761Z"
+    },
+    {
+      "id": "bc392ea0a77cd1081f090dd1ec890fb1",
+      "title": "U.S. International Trade in Goods and Services, April 2026",
+      "summary": "The U.S. monthly international trade deficit decreased in April 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $56.6 billion in March (revised) to $55.9 billion in April, as exports increased more than imports. The goods deficit decreased $2.4 billion in April to $83.7 billion. The services surplus decreased $1.7 billion in April to $27.8 billion.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/us-international-trade-goods-and-services-april-2026\">Full Text</a><!--Full Text Link-->",
+      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-april-2026",
+      "source": "BEA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-26T15:55:56.454101Z"
+    },
+    {
+      "id": "57c927b3b2c82bd84a889b34c21935be",
+      "title": "Higher blending targets drive RIN prices close to record highs",
+      "summary": "Compliance credits for biomass-based diesel and ethanol have doubled in value since the start of this year. The credits, known as renewable identification numbers (RINs), have increased in price, mostly because of higher U.S. biofuel blending targets. The combination of high RIN prices and rising motor gasoline and diesel fuel prices has created an especially favorable market for producing and blending biofuels.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67765",
+      "source": "EIA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-26T15:56:17.481588Z"
     }
   ]
 }
