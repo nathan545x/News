@@ -1,30 +1,91 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-27T22:41:35.033044Z",
+  "generated_at": "2026-06-27T22:46:32.771956Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 2,
     "high_alerts": 1,
-    "last_updated": "2026-06-27T22:41:35.033057Z"
+    "last_updated": "2026-06-27T22:46:32.771967Z"
   },
   "top_signals": [
     {
-      "id": "f37fc37d63da131cbccd357ceb459093",
-      "title": "Javier Milei\u2019s top aide resigns over corruption scandal in Argentina",
-      "summary": "Allegations against cabinet chief Manuel Adorni have engulfed libertarian government for months",
-      "link": "https://www.ft.com/content/db091e41-ea8c-4aac-b76c-b303f799d191",
-      "source": "Financial Times",
-      "score": 18,
+      "id": "57959669c281c3a977d074b420b5f9e4",
+      "title": "ECB reports on progress towards euro adoption",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260624~ec1dcac037.en.html",
+      "source": "ECB",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-27T22:46:11.054326Z"
+    },
+    {
+      "id": "5e492a69405b8ec4a80c25ddcfaf0ca2",
+      "title": "The AI trade cooled and oil sank. A closer look at Wall Street's volatile week",
+      "summary": "Micron finished the week in the red despite a blockbuster earnings report. But falling oil prices was good news for the fight against inflation.",
+      "link": "https://www.cnbc.com/2026/06/27/the-ai-trade-cooled-and-oil-sank-a-closer-look-at-wall-streets-volatile-week.html",
+      "source": "CNBC",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-27T22:45:59.595360Z"
+    },
+    {
+      "id": "eb6f7740a2578ed309120102263187b2",
+      "title": "Federal Reserve Board issues enforcement action with former employee of Manufacturers and Traders Trust Company",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of Manufacturers and Traders Trust Company",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "AI"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -37,24 +98,85 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-27T22:40:55.180085Z"
+      "published": "2026-06-27T22:46:00.000672Z"
     }
   ],
   "alerts": [
     {
-      "id": "f37fc37d63da131cbccd357ceb459093",
-      "title": "Javier Milei\u2019s top aide resigns over corruption scandal in Argentina",
-      "summary": "Allegations against cabinet chief Manuel Adorni have engulfed libertarian government for months",
-      "link": "https://www.ft.com/content/db091e41-ea8c-4aac-b76c-b303f799d191",
-      "source": "Financial Times",
-      "score": 18,
+      "id": "57959669c281c3a977d074b420b5f9e4",
+      "title": "ECB reports on progress towards euro adoption",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260624~ec1dcac037.en.html",
+      "source": "ECB",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-27T22:46:11.054326Z"
+    },
+    {
+      "id": "5e492a69405b8ec4a80c25ddcfaf0ca2",
+      "title": "The AI trade cooled and oil sank. A closer look at Wall Street's volatile week",
+      "summary": "Micron finished the week in the red despite a blockbuster earnings report. But falling oil prices was good news for the fight against inflation.",
+      "link": "https://www.cnbc.com/2026/06/27/the-ai-trade-cooled-and-oil-sank-a-closer-look-at-wall-streets-volatile-week.html",
+      "source": "CNBC",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-27T22:45:59.595360Z"
+    },
+    {
+      "id": "eb6f7740a2578ed309120102263187b2",
+      "title": "Federal Reserve Board issues enforcement action with former employee of Manufacturers and Traders Trust Company",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of Manufacturers and Traders Trust Company",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "AI"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -67,7 +189,7 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-06-27T22:40:55.180085Z"
+      "published": "2026-06-27T22:46:00.000672Z"
     }
   ]
 }
