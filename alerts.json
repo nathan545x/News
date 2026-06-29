@@ -1,49 +1,871 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-29T12:51:23.815736Z",
+  "generated_at": "2026-06-29T12:56:18.898521Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "AI",
+    "dominant_driver": "AI",
     "secondary_driver": "GENERAL",
-    "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-06-29T12:51:23.815749Z"
+    "signal_density": "HIGH",
+    "critical_alerts": 1,
+    "high_alerts": 5,
+    "last_updated": "2026-06-29T12:56:18.898535Z"
   },
   "top_signals": [
     {
-      "id": "da04cb58ef0c76f4c6801a8be211cc22",
-      "title": "JPMorgan sees limited institutional demand for perpetual futures",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/06/29/jpmorgan-sees-limited-institutional-demand-for-perpetual-futures",
-      "source": "CoinDesk",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "8eab5fc8cae6d518a278fe6012b54b7e",
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia was down 16%.",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "AI",
+      "tickers": [
+        "NVDA",
+        "QQQ"
+      ],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-29T12:55:47.853455Z"
+    },
+    {
+      "id": "a0ac230db1d3e2c455f2b6afd68941b8",
+      "title": "Target Drops DEI Goals and Ends Program to Boost Black Suppliers",
+      "summary": "Once a stalwart supporter of Black and LGBTQ rights, the retailer joined corporate America\u2019s retreat from DEI initiatives.",
+      "link": "https://www.wsj.com/articles/target-drops-dei-goals-and-ends-program-to-boost-black-suppliers-77cb4c75?mod=pls_whats_news_us_business_f",
+      "source": "WSJ",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-29T12:55:48.029470Z"
+    },
+    {
+      "id": "7e17836dea5ea3d3ac217ceb62c8d4c6",
+      "title": "Comex Gold, Silver Settle Lower",
+      "summary": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions.",
+      "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "SILVER",
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-29T12:55:47.853499Z"
+    },
+    {
+      "id": "7fd22a101c29f364c4adef141598cf69",
+      "title": "DeepSeek Won't Sink U.S. AI Titans",
+      "summary": "Panic fueling the selloff of Nvidia, Broadcom and other tech giants is overblown.",
+      "link": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-29T12:55:47.853533Z"
+    },
+    {
+      "id": "18cf104cecca1d69f9e1e306d220e394",
+      "title": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
+      "summary": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek\u2019s new AI model hit U.S. tech stocks.",
+      "link": "https://www.wsj.com/articles/safe-haven-currencies-strengthen-amid-fears-over-global-tariffs-9964e17a?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "EQUITIES",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-29T12:55:47.853710Z"
+    },
+    {
+      "id": "557937d980947147ea2757f41ad27c24",
+      "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
+      "summary": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump\u2019s threats to impose tariffs and economic sanctions on Colombia.",
+      "link": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-29T12:51:20.394407Z"
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-29T12:55:47.853653Z"
+    },
+    {
+      "id": "9155f0f630519368016269c28b1cf890",
+      "title": "Building-Products Distributor QXO Launches Hostile Bid for Beacon",
+      "summary": "QXO is taking its offer directly to shareholders after being rebuffed on several occasions.",
+      "link": "https://www.wsj.com/articles/building-products-distributor-qxo-launching-hostile-bid-for-beacon-de024410?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-29T12:55:47.853779Z"
+    },
+    {
+      "id": "e0adc709dc1d2d5c46a37cb1528a04ad",
+      "title": "Financial Services Roundup: Market Talk",
+      "summary": "Gain insight on Experian, SoFi Technologies and more in the latest Market Talks covering Financial Services.",
+      "link": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-29T12:55:47.853590Z"
+    },
+    {
+      "id": "0b50e6e227d01c0a6b2708657bae057a",
+      "title": "Canada to Provide $720 Million to Canada Post to Avoid Insolvency at Mail Service",
+      "summary": "The Canadian government said it would provide extraordinary financing to Canada Post to avoid insolvency at the state-owned mail service.",
+      "link": "https://www.wsj.com/articles/canada-to-provide-720-million-to-canada-post-to-avoid-insolvency-at-mail-service-fc09a6b9?mod=pls_whats_news_us_business_f",
+      "source": "WSJ",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-29T12:55:48.029351Z"
+    },
+    {
+      "id": "70d3cf73b092ab5d256f7ea28a649d9c",
+      "title": "Amazon Willing to Discuss Quebec Shutdown With Canadian Officials",
+      "summary": "Amazon.com said it is open to talks with officials from the Canadian and Quebec governments about the decision to shut down operations in the country\u2019s French-speaking province, which would lead to 1,700 people losing their jobs.",
+      "link": "https://www.wsj.com/articles/amazon-willing-to-discuss-quebec-shutdown-with-canadian-officials-610e5f59?mod=pls_whats_news_us_business_f",
+      "source": "WSJ",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-29T12:55:48.029420Z"
+    },
+    {
+      "id": "676dc86589d79eba07c048b91540dbf8",
+      "title": "Auto & Transport Roundup: Market Talk",
+      "summary": "Read about CSX, Magna International, Alaska Air and more in the latest Market Talks covering the auto and transport sector.",
+      "link": "https://www.wsj.com/articles/auto-transport-roundup-market-talk-f1469058?mod=pls_whats_news_us_business_f",
+      "source": "WSJ",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-29T12:55:48.029595Z"
+    },
+    {
+      "id": "b97cb29d4062a1f2594304920a107bd2",
+      "title": "Tom Lee blames crypto weakness on quarter-end 'window dressing' as Bitmine adds another $43 million of ETH",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/06/29/tom-lee-blames-crypto-weakness-on-quarter-end-window-dressing-as-bitmine-adds-another-usd43-million-of-eth",
+      "source": "CoinDesk",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-29T12:56:15.672034Z"
     }
   ],
   "alerts": [
     {
-      "id": "da04cb58ef0c76f4c6801a8be211cc22",
-      "title": "JPMorgan sees limited institutional demand for perpetual futures",
+      "id": "8eab5fc8cae6d518a278fe6012b54b7e",
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia was down 16%.",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "AI",
+      "tickers": [
+        "NVDA",
+        "QQQ"
+      ],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-29T12:55:47.853455Z"
+    },
+    {
+      "id": "a0ac230db1d3e2c455f2b6afd68941b8",
+      "title": "Target Drops DEI Goals and Ends Program to Boost Black Suppliers",
+      "summary": "Once a stalwart supporter of Black and LGBTQ rights, the retailer joined corporate America\u2019s retreat from DEI initiatives.",
+      "link": "https://www.wsj.com/articles/target-drops-dei-goals-and-ends-program-to-boost-black-suppliers-77cb4c75?mod=pls_whats_news_us_business_f",
+      "source": "WSJ",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-29T12:55:48.029470Z"
+    },
+    {
+      "id": "7e17836dea5ea3d3ac217ceb62c8d4c6",
+      "title": "Comex Gold, Silver Settle Lower",
+      "summary": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions.",
+      "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "SILVER",
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-06-29T12:55:47.853499Z"
+    },
+    {
+      "id": "7fd22a101c29f364c4adef141598cf69",
+      "title": "DeepSeek Won't Sink U.S. AI Titans",
+      "summary": "Panic fueling the selloff of Nvidia, Broadcom and other tech giants is overblown.",
+      "link": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-29T12:55:47.853533Z"
+    },
+    {
+      "id": "18cf104cecca1d69f9e1e306d220e394",
+      "title": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
+      "summary": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek\u2019s new AI model hit U.S. tech stocks.",
+      "link": "https://www.wsj.com/articles/safe-haven-currencies-strengthen-amid-fears-over-global-tariffs-9964e17a?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "EQUITIES",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-29T12:55:47.853710Z"
+    },
+    {
+      "id": "557937d980947147ea2757f41ad27c24",
+      "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
+      "summary": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump\u2019s threats to impose tariffs and economic sanctions on Colombia.",
+      "link": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-29T12:55:47.853653Z"
+    },
+    {
+      "id": "9155f0f630519368016269c28b1cf890",
+      "title": "Building-Products Distributor QXO Launches Hostile Bid for Beacon",
+      "summary": "QXO is taking its offer directly to shareholders after being rebuffed on several occasions.",
+      "link": "https://www.wsj.com/articles/building-products-distributor-qxo-launching-hostile-bid-for-beacon-de024410?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-29T12:55:47.853779Z"
+    },
+    {
+      "id": "e0adc709dc1d2d5c46a37cb1528a04ad",
+      "title": "Financial Services Roundup: Market Talk",
+      "summary": "Gain insight on Experian, SoFi Technologies and more in the latest Market Talks covering Financial Services.",
+      "link": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-29T12:55:47.853590Z"
+    },
+    {
+      "id": "0b50e6e227d01c0a6b2708657bae057a",
+      "title": "Canada to Provide $720 Million to Canada Post to Avoid Insolvency at Mail Service",
+      "summary": "The Canadian government said it would provide extraordinary financing to Canada Post to avoid insolvency at the state-owned mail service.",
+      "link": "https://www.wsj.com/articles/canada-to-provide-720-million-to-canada-post-to-avoid-insolvency-at-mail-service-fc09a6b9?mod=pls_whats_news_us_business_f",
+      "source": "WSJ",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-29T12:55:48.029351Z"
+    },
+    {
+      "id": "70d3cf73b092ab5d256f7ea28a649d9c",
+      "title": "Amazon Willing to Discuss Quebec Shutdown With Canadian Officials",
+      "summary": "Amazon.com said it is open to talks with officials from the Canadian and Quebec governments about the decision to shut down operations in the country\u2019s French-speaking province, which would lead to 1,700 people losing their jobs.",
+      "link": "https://www.wsj.com/articles/amazon-willing-to-discuss-quebec-shutdown-with-canadian-officials-610e5f59?mod=pls_whats_news_us_business_f",
+      "source": "WSJ",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-29T12:55:48.029420Z"
+    },
+    {
+      "id": "676dc86589d79eba07c048b91540dbf8",
+      "title": "Auto & Transport Roundup: Market Talk",
+      "summary": "Read about CSX, Magna International, Alaska Air and more in the latest Market Talks covering the auto and transport sector.",
+      "link": "https://www.wsj.com/articles/auto-transport-roundup-market-talk-f1469058?mod=pls_whats_news_us_business_f",
+      "source": "WSJ",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-06-29T12:55:48.029595Z"
+    },
+    {
+      "id": "b97cb29d4062a1f2594304920a107bd2",
+      "title": "Tom Lee blames crypto weakness on quarter-end 'window dressing' as Bitmine adds another $43 million of ETH",
       "summary": "",
-      "link": "https://www.coindesk.com/business/2026/06/29/jpmorgan-sees-limited-institutional-demand-for-perpetual-futures",
+      "link": "https://www.coindesk.com/business/2026/06/29/tom-lee-blames-crypto-weakness-on-quarter-end-window-dressing-as-bitmine-adds-another-usd43-million-of-eth",
       "source": "CoinDesk",
-      "score": 6,
-      "severity": "LOW",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-29T12:56:15.672034Z"
+    },
+    {
+      "id": "ecc62260f815f35057c402b4f96d5218",
+      "title": "Tether's USDT jumps to 8.5% premium in India after crypto payment crackdown",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/06/29/usdt-jumps-to-8-5-premium-in-india-after-crypto-payment-crackdown",
+      "source": "CoinDesk",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-29T12:56:15.672084Z"
+    },
+    {
+      "id": "2333c06dcefe9526353dcf312d14e32e",
+      "title": "Vitalik Buterin says crypto\u2019s most powerful idea isn't nearly ready for use",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/06/29/vitalik-buterin-says-crypto-s-most-powerful-idea-is-still-nowhere-near-ready",
+      "source": "CoinDesk",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-29T12:56:15.672121Z"
+    },
+    {
+      "id": "d0ef250814b6790acbe0098b9a038a12",
+      "title": "UK\u2019s Bridgepoint buys real estate unit in $1.4bn bet on US property",
+      "summary": "Private capital group is looking beyond its traditional speciality in corporate buyouts",
+      "link": "https://www.ft.com/content/567ba6a4-809f-4e8e-a8f3-03855beb9a48",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-29T12:55:47.037398Z"
+    },
+    {
+      "id": "15fd6cc15736aa8e8e2b4f627f664c43",
+      "title": "How Citadel became an energy giant",
+      "summary": "Plus, Venezuela\u2019s huge debt pile, Japanese IPO slump and Constantin Br\u00e2ncu\u015fi in Berlin",
+      "link": "https://www.ft.com/content/0a2000cb-beb4-4535-bc30-5704d492fec9",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-29T12:55:47.037456Z"
+    },
+    {
+      "id": "b2b83872197f70dbd1a6942127db5257",
+      "title": "Natural Gas Falls on Shifting Weather Forecasts",
+      "summary": "U.S. natural gas futures fell after weekend updates took some of the chill out of early February weather forecasts.",
+      "link": "https://www.wsj.com/articles/u-s-natural-gas-futures-fall-on-shifting-weather-forecasts-1ef3e457?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 8,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-29T12:51:20.394407Z"
+      "published": "2026-06-29T12:55:47.853745Z"
+    },
+    {
+      "id": "3886cb2ef0ab3a4fcf036c92c2390cdb",
+      "title": "Wall Street Banks Prepare to Sell Billions of Dollars of X Loans",
+      "summary": "Banks are hoping to sell the X debt at around 90 to 95 cents on the dollar.",
+      "link": "https://www.wsj.com/articles/wall-street-banks-prepare-to-sell-billions-of-dollars-of-x-loans-c609beb1?mod=pls_whats_news_us_business_f",
+      "source": "WSJ",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-29T12:55:48.029301Z"
+    },
+    {
+      "id": "ba3baa5e323b47e5bee3ff22cdb3bd6e",
+      "title": "Energy & Utilities Roundup: Market Talk",
+      "summary": "Find insight on Cnooc, YTL Power International, Ampol, and more in the latest Market Talks covering energy and utilities.",
+      "link": "https://www.wsj.com/articles/energy-utilities-roundup-market-talk-08708375?mod=pls_whats_news_us_business_f",
+      "source": "WSJ",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-29T12:55:48.029506Z"
+    },
+    {
+      "id": "0e4839c9fcccfe32d2d7311f2efb90db",
+      "title": "Basic Materials Roundup: Market Talk",
+      "summary": "Find insight on CSX, Givaudan, Rio Tinto and more in the latest Market Talks covering basic materials.",
+      "link": "https://www.wsj.com/articles/basic-materials-roundup-market-talk-f817645e?mod=pls_whats_news_us_business_f",
+      "source": "WSJ",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-29T12:55:48.029538Z"
+    },
+    {
+      "id": "9a73c78d45aa584af618a964f7dcb814",
+      "title": "Financial Services Roundup: Market Talk",
+      "summary": "Find insight on Banca Monte dei Paschi di Siena\u2019s bid for Mediobanca, Travelers and more in the latest Market Talks covering financial services.",
+      "link": "https://www.wsj.com/articles/financial-services-roundup-market-talk-fb36548b?mod=pls_whats_news_us_business_f",
+      "source": "WSJ",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-29T12:55:48.029646Z"
+    },
+    {
+      "id": "ea3d76c5881a1d324fa679a79860a020",
+      "title": "Stocks making the biggest moves premarket: Comcast, Rocket Lab, Charter Communications & more - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNUDJRTDNib2hxS1Vrb0hHU3hSTWVqbUdJSEVUM0dsTWxyVUlBTmtXbHo2MnpsRmhNeWY3VUN1dUJ5N1NTTlAzMVdvSWIzcUliTTI2RjRTYTZ4Z1lzRjFUVmVhTUFKaUR2em1xT3RhOFBXYUJKZENvTzB3X0ZCT2Z5amhSczFTRlBYX2dJT3lDSnhnSnZuTUluQU1n?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: Comcast, Rocket Lab, Charter Communications & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUDJRTDNib2hxS1Vrb0hHU3hSTWVqbUdJSEVUM0dsTWxyVUlBTmtXbHo2MnpsRmhNeWY3VUN1dUJ5N1NTTlAzMVdvSWIzcUliTTI2RjRTYTZ4Z1lzRjFUVmVhTUFKaUR2em1xT3RhOFBXYUJKZENvTzB3X0ZCT2Z5amhSczFTRlBYX2dJT3lDSnhnSnZuTUluQU1n?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-06-29T12:56:18.898450Z"
     }
   ]
 }
