@@ -1,52 +1,203 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-06-30T23:26:30.986315Z",
+  "generated_at": "2026-06-30T23:31:45.864869Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 1,
-    "last_updated": "2026-06-30T23:26:30.986325Z"
+    "last_updated": "2026-06-30T23:31:45.864883Z"
   },
   "top_signals": [
     {
-      "id": "a501f88d5cd9d8381379d76da831683f",
-      "title": "Asian Stocks Set to Rise After Stellar Quarter: Markets Wrap",
-      "summary": "Asian equities were poised to rise Wednesday after capping their best quarter in nearly 17 years, as a rally in chipmakers and signs of US economic resilience fueled optimism about corporate earnings.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-30/asian-stocks-eye-gains-as-us-posts-stellar-quarter-markets-wrap",
-      "source": "Bloomberg",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "INFLATION",
+      "id": "e0ebfbdd62e94b691ccbb758eab3eb1b",
+      "title": "China-linked actors target more than technology as AI competition with U.S. intensifies",
+      "summary": "Cyberattacks from China-based entities are on the rise and not just targeting specific tech, analysts warn, as the U.S. AI race intensifies.",
+      "link": "https://www.cnbc.com/2026/07/01/china-ai-cyberattacks-startups-insider-risks-espionage.html",
+      "source": "CNBC",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "CHINA"
+      ],
       "assets": [
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-30T23:25:47.503705Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-30T23:31:08.059676Z"
     },
     {
-      "id": "12600dc1fde6eb7a3664e593146d9fe6",
-      "title": "Oaktree Capital-Backed ITG Raises $312.2 Million in US IPO",
-      "summary": "Digital infrastructure services firm ITG Inc. raised $312.2 million in a US initial public offering, pricing its shares below a marketed range.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-30/oaktree-capital-backed-itg-raises-312-2-million-in-us-ipo",
+      "id": "7872262a316c1907361d14dcd5cb7e2f",
+      "title": "Japan is raising visa fees by up to 400% for the first time in nearly 50 years. Here's why",
+      "summary": "A single entry visa will climb to 15,000 yen, from the 3,000 yen charged currently, while multiple entry visas will cost 30,000 yen, up from the 6,000 yen now.",
+      "link": "https://www.cnbc.com/2026/06/30/japan-visa-fees-fivefold-increase-tourism-yen-departure-tax.html",
+      "source": "CNBC",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-30T23:31:08.059726Z"
+    },
+    {
+      "id": "0c9e4beafd50ca1b3d27b6681c53b2c0",
+      "title": "Trump Reports at Least $1.4 Billion in Crypto Earnings",
+      "summary": "President Donald Trump reported earning at least $1.4 billion in 2025 from crypto and memecoin-related businesses, according to his latest annual financial disclosure.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-30/trump-reports-at-least-1-2-billion-in-crypto-earnings-for-2025",
       "source": "Bloomberg",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-30T23:31:03.911200Z"
+    },
+    {
+      "id": "20b0ab16d00b069ab9f7faf2c275ad0b",
+      "title": "Iran says it won\u2019t meet with U.S. envoys, clouding prospects for peace deal",
+      "summary": "Tehran also said the two \u200bsides must still sort out the terms of a ceasefire before addressing topics, such as its nuclear program.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/01/world/politics/iran-us-prospects-peace-deal/",
+      "source": "Japan Times",
       "score": 13,
       "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-30T23:31:31.601428Z"
+    },
+    {
+      "id": "ce71ced64ae7a6cf30f0e6808f3d22f7",
+      "title": "The Afghanistan Reckoning",
+      "summary": "Forever wars and the costs of collective forgetting.",
+      "link": "https://www.foreignaffairs.com/afghanistan/afghanistan-reckoning-carter-malkasian",
+      "source": "Foreign Affairs",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-30T23:31:40.682811Z"
+    },
+    {
+      "id": "f25d7ac551c5ae524876422ed6788132",
+      "title": "World Bank to phase out China lending - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOa19aWURaNVBrTm5Ja2ZsMzhUOFV3RmpNUERVZ1hWa2gxUmRkNWlfV09pSmtMQUdvb29EdmtWS0hSeThUVzdYcXZieldIRmhNTWxiYzVpV1NNMWdwZkN5dTRIWTN6Q0s4Z1RFNVM4dmZ6MmZYdnlHa2lUNkFMbEFabTdxX1c?oc=5\" target=\"_blank\">World Bank to phase out China lending</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa19aWURaNVBrTm5Ja2ZsMzhUOFV3RmpNUERVZ1hWa2gxUmRkNWlfV09pSmtMQUdvb29EdmtWS0hSeThUVzdYcXZieldIRmhNTWxiYzVpV1NNMWdwZkN5dTRIWTN6Q0s4Z1RFNVM4dmZ6MmZYdnlHa2lUNkFMbEFabTdxX1c?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-30T23:31:44.638779Z"
+    },
+    {
+      "id": "0846842c211456630c25d79c7bbbbbb6",
+      "title": "The real AI risk isn\u2019t job losses, it\u2019s who can see what",
+      "summary": "<p> <img alt=\"\" src=\"https://www.cityam.com/wp-content/uploads/2026/06/computers-e1782840439690.jpg?w=1107\" /> </p>Beyond the fearmongering, it\u2019s a more mundane AI threat that will be making waves in boardrooms, writes Paul Armstrong.",
+      "link": "https://www.cityam.com/the-real-ai-risk-isnt-job-losses-its-who-can-see-what/",
+      "source": "CityAM",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -62,62 +213,197 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-30T23:25:47.503793Z"
-    },
-    {
-      "id": "fefcbd3d3053fc7065122e27ac5c7415",
-      "title": "Seeing the whole picture: Closing notes from Kazakhstan",
-      "summary": "The final Ground View Kazakhstan dispatch explores why context, not just data, shapes the real investment story.",
-      "link": "https://www.mining.com/seeing-the-whole-picture-closing-notes-from-kazakhstan/",
-      "source": "Mining.com",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-30T23:26:22.967891Z"
+      "published": "2026-06-30T23:31:28.705086Z"
     }
   ],
   "alerts": [
     {
-      "id": "a501f88d5cd9d8381379d76da831683f",
-      "title": "Asian Stocks Set to Rise After Stellar Quarter: Markets Wrap",
-      "summary": "Asian equities were poised to rise Wednesday after capping their best quarter in nearly 17 years, as a rally in chipmakers and signs of US economic resilience fueled optimism about corporate earnings.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-30/asian-stocks-eye-gains-as-us-posts-stellar-quarter-markets-wrap",
-      "source": "Bloomberg",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "INFLATION",
+      "id": "e0ebfbdd62e94b691ccbb758eab3eb1b",
+      "title": "China-linked actors target more than technology as AI competition with U.S. intensifies",
+      "summary": "Cyberattacks from China-based entities are on the rise and not just targeting specific tech, analysts warn, as the U.S. AI race intensifies.",
+      "link": "https://www.cnbc.com/2026/07/01/china-ai-cyberattacks-startups-insider-risks-espionage.html",
+      "source": "CNBC",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "CHINA"
+      ],
       "assets": [
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-06-30T23:25:47.503705Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-30T23:31:08.059676Z"
     },
     {
-      "id": "12600dc1fde6eb7a3664e593146d9fe6",
-      "title": "Oaktree Capital-Backed ITG Raises $312.2 Million in US IPO",
-      "summary": "Digital infrastructure services firm ITG Inc. raised $312.2 million in a US initial public offering, pricing its shares below a marketed range.",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-30/oaktree-capital-backed-itg-raises-312-2-million-in-us-ipo",
+      "id": "7872262a316c1907361d14dcd5cb7e2f",
+      "title": "Japan is raising visa fees by up to 400% for the first time in nearly 50 years. Here's why",
+      "summary": "A single entry visa will climb to 15,000 yen, from the 3,000 yen charged currently, while multiple entry visas will cost 30,000 yen, up from the 6,000 yen now.",
+      "link": "https://www.cnbc.com/2026/06/30/japan-visa-fees-fivefold-increase-tourism-yen-departure-tax.html",
+      "source": "CNBC",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-06-30T23:31:08.059726Z"
+    },
+    {
+      "id": "0c9e4beafd50ca1b3d27b6681c53b2c0",
+      "title": "Trump Reports at Least $1.4 Billion in Crypto Earnings",
+      "summary": "President Donald Trump reported earning at least $1.4 billion in 2025 from crypto and memecoin-related businesses, according to his latest annual financial disclosure.",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-30/trump-reports-at-least-1-2-billion-in-crypto-earnings-for-2025",
       "source": "Bloomberg",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-06-30T23:31:03.911200Z"
+    },
+    {
+      "id": "20b0ab16d00b069ab9f7faf2c275ad0b",
+      "title": "Iran says it won\u2019t meet with U.S. envoys, clouding prospects for peace deal",
+      "summary": "Tehran also said the two \u200bsides must still sort out the terms of a ceasefire before addressing topics, such as its nuclear program.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/01/world/politics/iran-us-prospects-peace-deal/",
+      "source": "Japan Times",
       "score": 13,
       "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-30T23:31:31.601428Z"
+    },
+    {
+      "id": "ce71ced64ae7a6cf30f0e6808f3d22f7",
+      "title": "The Afghanistan Reckoning",
+      "summary": "Forever wars and the costs of collective forgetting.",
+      "link": "https://www.foreignaffairs.com/afghanistan/afghanistan-reckoning-carter-malkasian",
+      "source": "Foreign Affairs",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-30T23:31:40.682811Z"
+    },
+    {
+      "id": "f25d7ac551c5ae524876422ed6788132",
+      "title": "World Bank to phase out China lending - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOa19aWURaNVBrTm5Ja2ZsMzhUOFV3RmpNUERVZ1hWa2gxUmRkNWlfV09pSmtMQUdvb29EdmtWS0hSeThUVzdYcXZieldIRmhNTWxiYzVpV1NNMWdwZkN5dTRIWTN6Q0s4Z1RFNVM4dmZ6MmZYdnlHa2lUNkFMbEFabTdxX1c?oc=5\" target=\"_blank\">World Bank to phase out China lending</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa19aWURaNVBrTm5Ja2ZsMzhUOFV3RmpNUERVZ1hWa2gxUmRkNWlfV09pSmtMQUdvb29EdmtWS0hSeThUVzdYcXZieldIRmhNTWxiYzVpV1NNMWdwZkN5dTRIWTN6Q0s4Z1RFNVM4dmZ6MmZYdnlHa2lUNkFMbEFabTdxX1c?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-06-30T23:31:44.638779Z"
+    },
+    {
+      "id": "0846842c211456630c25d79c7bbbbbb6",
+      "title": "The real AI risk isn\u2019t job losses, it\u2019s who can see what",
+      "summary": "<p> <img alt=\"\" src=\"https://www.cityam.com/wp-content/uploads/2026/06/computers-e1782840439690.jpg?w=1107\" /> </p>Beyond the fearmongering, it\u2019s a more mundane AI threat that will be making waves in boardrooms, writes Paul Armstrong.",
+      "link": "https://www.cityam.com/the-real-ai-risk-isnt-job-losses-its-who-can-see-what/",
+      "source": "CityAM",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -133,23 +419,7 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-06-30T23:25:47.503793Z"
-    },
-    {
-      "id": "fefcbd3d3053fc7065122e27ac5c7415",
-      "title": "Seeing the whole picture: Closing notes from Kazakhstan",
-      "summary": "The final Ground View Kazakhstan dispatch explores why context, not just data, shapes the real investment story.",
-      "link": "https://www.mining.com/seeing-the-whole-picture-closing-notes-from-kazakhstan/",
-      "source": "Mining.com",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-06-30T23:26:22.967891Z"
+      "published": "2026-06-30T23:31:28.705086Z"
     }
   ]
 }
