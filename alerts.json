@@ -1,60 +1,99 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-01T05:41:30.709892Z",
+  "generated_at": "2026-07-01T05:46:41.750145Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 2,
-    "last_updated": "2026-07-01T05:41:30.709904Z"
+    "critical_alerts": 1,
+    "high_alerts": 1,
+    "last_updated": "2026-07-01T05:46:41.750157Z"
   },
   "top_signals": [
     {
-      "id": "6c9c765d613349d8bae2be73b6339da0",
-      "title": "Abu Dhabi Proposes New Offshore-Oil Pricing",
-      "summary": "Abu Dhabi National Oil Co., the UAE\u2019s biggest oil company, is proposing a new pricing methodology for the sale of crude supplies to term customers, opting for an approach that\u2019s more aligned with wider regional trading norms, according to people with direct knowledge of the matter. Bloomberg's Anthony di Paola reports. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-07-01/abu-dhabi-proposes-new-offshore-oil-pricing-video",
-      "source": "Bloomberg",
-      "score": 17,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "id": "a89a3d76d55a370e50d333b8080c4b98",
+      "title": "Japan spent $74 billion propping up the yen. Investors say the real battle is with the Fed",
+      "summary": "Yen intervention alone is unlikely to reverse losses while wide U.S.-Japan rate differentials keep supporting the dollar, said analysts.",
+      "link": "https://www.cnbc.com/2026/07/01/japan-yen-40-year-low-intervention-fed-boj-carry-trade.html",
+      "source": "CNBC",
+      "score": 39,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "DXY",
+        "JPY"
       ],
-      "regions": [],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [
-        "COMMODITIES"
+        "AI",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-01T05:40:47.571985Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-01T05:46:02.322421Z"
     },
     {
-      "id": "e0c0b1f7b2ccda5bb235f43cf9b74e86",
-      "title": "Director of \u201847 Ronin\u2019 who gambled Netflix funds on crypto gets 30 months",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Director of \u201847 Ronin\u2019 who gambled Netflix funds on crypto gets 30 months\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/arrest-police-crime-prison-jail-imprisonment-man-person2.jpg\" /></p><p>Carl Rinsch will serve two and a half years in prison for taking money meant for a Netflix show to buy Dogecoin, stocks and luxury goods.</p>",
-      "link": "https://cointelegraph.com/news/47-ronin-director-who-gambled-netflix-funds-on-crypto-gets-30-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 15,
+      "id": "efc5d0d235e050ffae38eb445a348247",
+      "title": "Japan\u2019s \u2018Mr Yen\u2019 keeps market guessing on currency intervention",
+      "summary": "Traders believe Japanese authorities have changed tactics after yen hit 40-year low against dollar",
+      "link": "https://www.ft.com/content/6752b294-812e-48ea-a1c4-404953ead4fb",
+      "source": "Financial Times",
+      "score": 19,
       "severity": "HIGH",
-      "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [],
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [
         "AI",
-        "EQUITIES"
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-01T05:46:00.734100Z"
+    },
+    {
+      "id": "cbeb15d98776756998a6327c2910bc29",
+      "title": "The job market is reaccelerating. Is the economy?",
+      "summary": "Plus the bitcoin clown car company crash",
+      "link": "https://www.ft.com/content/fa6c5f15-a19c-4c29-bb5e-f9d1b8dfa029",
+      "source": "Financial Times",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
       ],
       "market_impact": {
         "bullish": [
@@ -66,13 +105,38 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-07-01T05:41:27.105315Z"
+      "published": "2026-07-01T05:46:00.734038Z"
     },
     {
-      "id": "4b1c854de6b8fc41e25280623b3058eb",
+      "id": "ee0cc1a0bd685287930e84264e1701f2",
+      "title": "Indian IT firms ramp up acquisitions as AI reshapes growth",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/technology/indian-it-firms-ramp-up-acquisitions-as-ai-reshapes-growth",
+      "source": "Nikkei Asia",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-01T05:46:28.547779Z"
+    },
+    {
+      "id": "c4de76251336576fe81d3219e08e2ce4",
       "title": "Andy Burnham's first big fight could be with Wall Street investors",
       "summary": "Andy Burnham\u2019s determination to see greater public control over utilities could set him on a collision course with some big-name U.S. investors.",
-      "link": "https://www.cnbc.com/2026/07/01/thames-waters-andy-burnham-creditors-apollo-blackrock-privatization.html",
+      "link": "https://www.cnbc.com/2026/07/01/thames-water-andy-burnham-creditors-apollo-blackrock-privatization.html",
       "source": "CNBC",
       "score": 6,
       "severity": "LOW",
@@ -82,54 +146,93 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-01T05:40:51.725275Z"
+      "published": "2026-07-01T05:46:02.582925Z"
     }
   ],
   "alerts": [
     {
-      "id": "6c9c765d613349d8bae2be73b6339da0",
-      "title": "Abu Dhabi Proposes New Offshore-Oil Pricing",
-      "summary": "Abu Dhabi National Oil Co., the UAE\u2019s biggest oil company, is proposing a new pricing methodology for the sale of crude supplies to term customers, opting for an approach that\u2019s more aligned with wider regional trading norms, according to people with direct knowledge of the matter. Bloomberg's Anthony di Paola reports. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-07-01/abu-dhabi-proposes-new-offshore-oil-pricing-video",
-      "source": "Bloomberg",
-      "score": 17,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "id": "a89a3d76d55a370e50d333b8080c4b98",
+      "title": "Japan spent $74 billion propping up the yen. Investors say the real battle is with the Fed",
+      "summary": "Yen intervention alone is unlikely to reverse losses while wide U.S.-Japan rate differentials keep supporting the dollar, said analysts.",
+      "link": "https://www.cnbc.com/2026/07/01/japan-yen-40-year-low-intervention-fed-boj-carry-trade.html",
+      "source": "CNBC",
+      "score": 39,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "DXY",
+        "JPY"
       ],
-      "regions": [],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [
-        "COMMODITIES"
+        "AI",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-01T05:40:47.571985Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-01T05:46:02.322421Z"
     },
     {
-      "id": "e0c0b1f7b2ccda5bb235f43cf9b74e86",
-      "title": "Director of \u201847 Ronin\u2019 who gambled Netflix funds on crypto gets 30 months",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Director of \u201847 Ronin\u2019 who gambled Netflix funds on crypto gets 30 months\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/arrest-police-crime-prison-jail-imprisonment-man-person2.jpg\" /></p><p>Carl Rinsch will serve two and a half years in prison for taking money meant for a Netflix show to buy Dogecoin, stocks and luxury goods.</p>",
-      "link": "https://cointelegraph.com/news/47-ronin-director-who-gambled-netflix-funds-on-crypto-gets-30-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 15,
+      "id": "efc5d0d235e050ffae38eb445a348247",
+      "title": "Japan\u2019s \u2018Mr Yen\u2019 keeps market guessing on currency intervention",
+      "summary": "Traders believe Japanese authorities have changed tactics after yen hit 40-year low against dollar",
+      "link": "https://www.ft.com/content/6752b294-812e-48ea-a1c4-404953ead4fb",
+      "source": "Financial Times",
+      "score": 19,
       "severity": "HIGH",
-      "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [],
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [
         "AI",
-        "EQUITIES"
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-01T05:46:00.734100Z"
+    },
+    {
+      "id": "cbeb15d98776756998a6327c2910bc29",
+      "title": "The job market is reaccelerating. Is the economy?",
+      "summary": "Plus the bitcoin clown car company crash",
+      "link": "https://www.ft.com/content/fa6c5f15-a19c-4c29-bb5e-f9d1b8dfa029",
+      "source": "Financial Times",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
       ],
       "market_impact": {
         "bullish": [
@@ -141,13 +244,38 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-07-01T05:41:27.105315Z"
+      "published": "2026-07-01T05:46:00.734038Z"
     },
     {
-      "id": "4b1c854de6b8fc41e25280623b3058eb",
+      "id": "ee0cc1a0bd685287930e84264e1701f2",
+      "title": "Indian IT firms ramp up acquisitions as AI reshapes growth",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/technology/indian-it-firms-ramp-up-acquisitions-as-ai-reshapes-growth",
+      "source": "Nikkei Asia",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-01T05:46:28.547779Z"
+    },
+    {
+      "id": "c4de76251336576fe81d3219e08e2ce4",
       "title": "Andy Burnham's first big fight could be with Wall Street investors",
       "summary": "Andy Burnham\u2019s determination to see greater public control over utilities could set him on a collision course with some big-name U.S. investors.",
-      "link": "https://www.cnbc.com/2026/07/01/thames-waters-andy-burnham-creditors-apollo-blackrock-privatization.html",
+      "link": "https://www.cnbc.com/2026/07/01/thames-water-andy-burnham-creditors-apollo-blackrock-privatization.html",
       "source": "CNBC",
       "score": 6,
       "severity": "LOW",
@@ -157,7 +285,7 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-01T05:40:51.725275Z"
+      "published": "2026-07-01T05:46:02.582925Z"
     }
   ]
 }
