@@ -1,73 +1,385 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-01T02:41:30.005767Z",
+  "generated_at": "2026-07-01T02:46:36.999163Z",
   "market_regime": {
-    "regime": "CRYPTO",
-    "dominant_driver": "CRYPTO",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-07-01T02:41:30.005778Z"
+    "critical_alerts": 2,
+    "high_alerts": 1,
+    "last_updated": "2026-07-01T02:46:36.999178Z"
   },
   "top_signals": [
     {
-      "id": "8ba920bd31ad9f6d4f6bea6253a7bea8",
-      "title": "UK crypto investors sue Binance, Changpeng Zhao for $200M",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"UK crypto investors sue Binance, Changpeng Zhao for $200M\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hammerbinance.jpg\" /></p><p>One Binance customer said he lost the equivalent of more than $132,000 from the crypto exchange\u2019s derivatives offerings before restrictions were imposed on Binance.</p>",
-      "link": "https://cointelegraph.com/news/uk-crypto-investors-sue-binance-changpeng-zhao-for-potential-200m-payout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
+      "id": "afb028fd8e0b7bb10fc171f2dd5a606b",
+      "title": "Iran says it is selling oil at 20% premium as end of U.S. blockade sees 40 million barrels exported",
+      "summary": "The ceasefire prompted a surge in crude shipments through the Strait of Hormuz, where traffic had largely ground to a halt during the conflict.",
+      "link": "https://www.cnbc.com/2026/07/01/iran-us-mou-negotiation-war-oil-exports-strait-of-hormuz-.html",
+      "source": "CNBC",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-01T02:46:01.859644Z"
+    },
+    {
+      "id": "8df7d98645368b65b132ea8da3fdcac7",
+      "title": "UAE's exit from OPEC+ reduced the group's share of crude oil production and capacity",
+      "summary": "On April 28, 2026, the United Arab Emirates (UAE) announced that it was leaving OPEC, effective on May 1. OPEC was formed in 1960 by Iraq, Iran, Kuwait, Saudi Arabia, and Venezuela, with the stated objective to \"coordinate and unify petroleum policies among Member Countries.\" OPEC is best known for its effect on global crude oil prices.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67804",
+      "source": "EIA",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-01T02:46:29.609457Z"
+    },
+    {
+      "id": "586fb7ea1c929c884c25f060f438e9d8",
+      "title": "Record chip rally adds $2 trillion in combined value to Micron, Intel and AMD in second quarter",
+      "summary": "Wall Street poured into chipmakers not named Nvidia in the second quarter, as the artificial intelligence boom expanded to include more suppliers.",
+      "link": "https://www.cnbc.com/2026/06/30/ai-chip-rally-in-q2-adds-2-trillion-in-value-to-micron-intel-amd-.html",
+      "source": "CNBC",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-01T02:46:01.518617Z"
+    },
+    {
+      "id": "1da19721907241e424e9b7e6e6b34b7c",
+      "title": "Why is the yen so weak and what can Japan do about it?",
+      "summary": "The yen has tumbled past a 40-year low against the U.S. dollar, prompting the Japanese government to vow \"appropriate action at any time.\"",
+      "link": "https://www.japantimes.co.jp/business/2026/07/01/yen-weak-why/",
+      "source": "Japan Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-01T02:46:25.129832Z"
+    },
+    {
+      "id": "0fad079d56f4c1e7ad3adcd98647702a",
+      "title": "Palo Alto, CrowdStrike both have best quarter ever as AI threats bolster cyber demand",
+      "summary": "The cybersecurity leaders are leaning into identity security, a critical cyber segment, as AI agents outnumber humans",
+      "link": "https://www.cnbc.com/2026/06/30/palo-alto-crowdstrike-stock-ai-mythos.html",
+      "source": "CNBC",
       "score": 10,
       "severity": "MEDIUM",
-      "regime": "CRYPTO",
+      "regime": "AI",
       "tickers": [],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "USD"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-07-01T02:41:26.760451Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-01T02:46:01.518665Z"
+    },
+    {
+      "id": "bcfd15629491b76feb540ab93a7f46bf",
+      "title": "India Prop Traders Brace for RBI Funding Squeeze",
+      "summary": "Traders expect reduced returns from cash-futures arbitrage, options market making and index arbitrage.",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-07-01/new-rbi-rules-on-bank-guarantees-to-hit-local-prop-traders-hard",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-01T02:45:57.327015Z"
+    },
+    {
+      "id": "af4c6d52c086a20bf68a827c8d616935",
+      "title": "Supreme Court upholds birthright citizenship, blocks Trump order",
+      "summary": "President Donald Trump attended oral arguments in the case, underscoring his staunch opposition to granting automatic citizenship to many immigrants' babies.",
+      "link": "https://www.cnbc.com/2026/06/30/supreme-court-birthright-citizenship-ruling.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-01T02:46:01.518707Z"
     }
   ],
   "alerts": [
     {
-      "id": "8ba920bd31ad9f6d4f6bea6253a7bea8",
-      "title": "UK crypto investors sue Binance, Changpeng Zhao for $200M",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"UK crypto investors sue Binance, Changpeng Zhao for $200M\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hammerbinance.jpg\" /></p><p>One Binance customer said he lost the equivalent of more than $132,000 from the crypto exchange\u2019s derivatives offerings before restrictions were imposed on Binance.</p>",
-      "link": "https://cointelegraph.com/news/uk-crypto-investors-sue-binance-changpeng-zhao-for-potential-200m-payout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
+      "id": "afb028fd8e0b7bb10fc171f2dd5a606b",
+      "title": "Iran says it is selling oil at 20% premium as end of U.S. blockade sees 40 million barrels exported",
+      "summary": "The ceasefire prompted a surge in crude shipments through the Strait of Hormuz, where traffic had largely ground to a halt during the conflict.",
+      "link": "https://www.cnbc.com/2026/07/01/iran-us-mou-negotiation-war-oil-exports-strait-of-hormuz-.html",
+      "source": "CNBC",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-01T02:46:01.859644Z"
+    },
+    {
+      "id": "8df7d98645368b65b132ea8da3fdcac7",
+      "title": "UAE's exit from OPEC+ reduced the group's share of crude oil production and capacity",
+      "summary": "On April 28, 2026, the United Arab Emirates (UAE) announced that it was leaving OPEC, effective on May 1. OPEC was formed in 1960 by Iraq, Iran, Kuwait, Saudi Arabia, and Venezuela, with the stated objective to \"coordinate and unify petroleum policies among Member Countries.\" OPEC is best known for its effect on global crude oil prices.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67804",
+      "source": "EIA",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-01T02:46:29.609457Z"
+    },
+    {
+      "id": "586fb7ea1c929c884c25f060f438e9d8",
+      "title": "Record chip rally adds $2 trillion in combined value to Micron, Intel and AMD in second quarter",
+      "summary": "Wall Street poured into chipmakers not named Nvidia in the second quarter, as the artificial intelligence boom expanded to include more suppliers.",
+      "link": "https://www.cnbc.com/2026/06/30/ai-chip-rally-in-q2-adds-2-trillion-in-value-to-micron-intel-amd-.html",
+      "source": "CNBC",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-01T02:46:01.518617Z"
+    },
+    {
+      "id": "1da19721907241e424e9b7e6e6b34b7c",
+      "title": "Why is the yen so weak and what can Japan do about it?",
+      "summary": "The yen has tumbled past a 40-year low against the U.S. dollar, prompting the Japanese government to vow \"appropriate action at any time.\"",
+      "link": "https://www.japantimes.co.jp/business/2026/07/01/yen-weak-why/",
+      "source": "Japan Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-01T02:46:25.129832Z"
+    },
+    {
+      "id": "0fad079d56f4c1e7ad3adcd98647702a",
+      "title": "Palo Alto, CrowdStrike both have best quarter ever as AI threats bolster cyber demand",
+      "summary": "The cybersecurity leaders are leaning into identity security, a critical cyber segment, as AI agents outnumber humans",
+      "link": "https://www.cnbc.com/2026/06/30/palo-alto-crowdstrike-stock-ai-mythos.html",
+      "source": "CNBC",
       "score": 10,
       "severity": "MEDIUM",
-      "regime": "CRYPTO",
+      "regime": "AI",
       "tickers": [],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "USD"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-07-01T02:41:26.760451Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-01T02:46:01.518665Z"
+    },
+    {
+      "id": "bcfd15629491b76feb540ab93a7f46bf",
+      "title": "India Prop Traders Brace for RBI Funding Squeeze",
+      "summary": "Traders expect reduced returns from cash-futures arbitrage, options market making and index arbitrage.",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-07-01/new-rbi-rules-on-bank-guarantees-to-hit-local-prop-traders-hard",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-01T02:45:57.327015Z"
+    },
+    {
+      "id": "af4c6d52c086a20bf68a827c8d616935",
+      "title": "Supreme Court upholds birthright citizenship, blocks Trump order",
+      "summary": "President Donald Trump attended oral arguments in the case, underscoring his staunch opposition to granting automatic citizenship to many immigrants' babies.",
+      "link": "https://www.cnbc.com/2026/06/30/supreme-court-birthright-citizenship-ruling.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-01T02:46:01.518707Z"
     }
   ]
 }
