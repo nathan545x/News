@@ -1,30 +1,68 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-06T09:52:17.028320Z",
+  "generated_at": "2026-07-06T09:56:33.466035Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 6,
-    "last_updated": "2026-07-06T09:52:17.028333Z"
+    "critical_alerts": 2,
+    "high_alerts": 1,
+    "last_updated": "2026-07-06T09:56:33.466047Z"
   },
   "top_signals": [
     {
-      "id": "c716e16569b836ab74dece214a807351",
-      "title": "Bank of England launches policy statement and draft rules on regulating systemic stablecoins",
-      "summary": "The Bank of England has today published its policy statement and draft Code of Practice (rules) for systemic stablecoin issuers.",
-      "link": "https://www.bankofengland.co.uk/news/2026/june/boe-launches-policy-statement-and-draft-rules-on-regulating-systemic-stablecoins",
-      "source": "Bank of England",
-      "score": 24,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "UK"
+      "id": "235ce959f793c12ab6303ad2e16737ff",
+      "title": "The Tanker Tycoon Making Millions on Hormuz Shuttle Runs",
+      "summary": "Just a few weeks into the war, one of the Persian Gulf\u2019s top oil producers quietly began sneaking its crude out of the Strait of Hormuz. Before long, the covert project became so successful that the United Arab Emirates was already approaching its pre-war rate of flows through the waterway by the time the US and Iran signed their interim peace deal.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-05/the-supertanker-tycoon-making-millions-on-hormuz-shuttle-runs",
+      "source": "Bloomberg",
+      "score": 39,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
       ],
-      "assets": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-06T09:55:53.640960Z"
+    },
+    {
+      "id": "2a86ef1cbb6851aca3ebf2e15bf96c6e",
+      "title": "Gold Falls After Weekly Gain as Rate-Hike Concerns Recede",
+      "summary": "Gold dropped after posting its first weekly advance since May on weakening expectations that the US Federal Reserve will hike interest rates.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-05/gold-steadies-after-weekly-gain-as-rate-hike-worries-recede",
+      "source": "Bloomberg",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -37,17 +75,17 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-06T09:52:00.721727Z"
+      "published": "2026-07-06T09:55:53.640870Z"
     },
     {
-      "id": "11e0b41abc419c0ef590ee5af868173d",
-      "title": "Accredited official statistics: GDP deflators at market prices, and money GDP June 2026 (Quarterly National Accounts)",
-      "summary": "This document contains the latest gross domestic product (GDP) deflators. The GDP deflator can be viewed as a measure of general inflation in the domestic economy.",
-      "link": "https://www.gov.uk/government/statistics/gdp-deflators-at-market-prices-and-money-gdp-june-2026-quarterly-national-accounts",
-      "source": "HM Treasury",
-      "score": 21,
+      "id": "88804b720532736befd15dffadf89681",
+      "title": "Indonesia, Singapore Reaffirm Free Passage in Strait of Malacca",
+      "summary": "Indonesia and Singapore pledged anew to keep the Strait of Malacca open as Middle East tensions reignite concerns about the freedom of navigation in the world\u2019s most important waterways.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-06/indonesia-singapore-reaffirm-free-passage-in-strait-of-malacca",
+      "source": "Bloomberg",
+      "score": 22,
       "severity": "HIGH",
-      "regime": "INFLATION",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -57,284 +95,121 @@
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-07-06T09:52:02.568373Z"
-    },
-    {
-      "id": "f2af3851627da435d83915922270b295",
-      "title": "ECB Consumer Expectations Survey results \u2013 May 2026",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260626_1~60a21704a8.en.html",
-      "source": "ECB",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-06T09:51:57.098548Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-06T09:55:53.641022Z"
     },
     {
-      "id": "00ca1cea99ccad46c10f8671d911d6f9",
-      "title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
-      "summary": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-06T09:51:46.816265Z"
-    },
-    {
-      "id": "6342ce0bb2c63f50ad5884cde176bb71",
-      "title": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-06T09:51:46.816318Z"
-    },
-    {
-      "id": "c38648dfe6f3f49959e1d04ebadfce15",
-      "title": "From Macron to Modi, governments are rolling out the red carpet for AI giants",
-      "summary": "Macron and Modi are courting tech CEOs as France and India seek AI data center investment and cloud infrastructure.",
-      "link": "https://www.cnbc.com/2026/07/04/macron-modi-ai-infrastructure-tech-ceos.html",
-      "source": "CNBC",
-      "score": 15,
-      "severity": "HIGH",
+      "id": "f397aa57651542d9c1325eba8b322669",
+      "title": "Google loses final appeal to overturn \u20ac4.1 billion EU fine",
+      "summary": "Court of Justice of the European Union (CJEU) has dismissed Google's final appeal against a \u20ac4.1 billion ($4.7 billion) antitrust fine over the company's use of Android to promote its Chrome browser and search service. [...]",
+      "link": "https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "FRANCE"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-06T09:51:46.321750Z"
-    },
-    {
-      "id": "1b98698a674067f540fec49fe6d1032c",
-      "title": "Policy paper: National Payments Vision",
-      "summary": "The government has published the National Payments Vision, setting out its ambitions for the UK\u2019s payments sector to deliver world-leading payments and support the growth mission.",
-      "link": "https://www.gov.uk/government/publications/national-payments-vision",
-      "source": "HM Treasury",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-06T09:52:02.568311Z"
-    },
-    {
-      "id": "ffb5e89e0ffc57dfabceba9f519bd8fd",
-      "title": "Corporate report: Whole of Government Accounts 2025 to 2026: guidance for preparers",
-      "summary": "Guidance for central government and local government preparers for Whole of Government Accounts.",
-      "link": "https://www.gov.uk/government/publications/whole-of-government-accounts-2025-to-2026-guidance-for-preparers",
-      "source": "HM Treasury",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-06T09:52:02.568413Z"
-    },
-    {
-      "id": "ca851cf40c993bfdd04db9482088a714",
-      "title": "Anthropic moves to close loopholes that allow Chinese access to Claude - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOSU9qQVN5REsxUUQtTTBFSEhPbE0zeF9ZSFJ2UWJvRVBQb0oyMFBSX1gxaEF5RjVvV1ZPOTJVT1Jibkw2bVZFNG1lVEo1WUdRWE9OY0JYenhhZWFnVUhzRk1RM01POF9LMWhSa2pKWXltVFNsWm44REVRVHcxTkdMS0lmOEM?oc=5\" target=\"_blank\">Anthropic moves to close loopholes that allow Chinese access to Claude</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSU9qQVN5REsxUUQtTTBFSEhPbE0zeF9ZSFJ2UWJvRVBQb0oyMFBSX1gxaEF5RjVvV1ZPOTJVT1Jibkw2bVZFNG1lVEo1WUdRWE9OY0JYenhhZWFnVUhzRk1RM01POF9LMWhSa2pKWXltVFNsWm44REVRVHcxTkdMS0lmOEM?oc=5",
-      "source": "Google Macro",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "RATES",
       "tickers": [
-        "JPY"
+        "EUR"
       ],
-      "regions": [],
+      "regions": [
+        "EUROPE"
+      ],
       "assets": [
+        "AI",
         "FX"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
+          "NVDA",
+          "SEMIS",
           "QQQ"
-        ]
+        ],
+        "bearish": []
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-06T09:52:15.973777Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-06T09:56:30.041588Z"
     },
     {
-      "id": "51ba383df7c31694af25f4e236b5e95a",
-      "title": "Stock market live Wednesday: Fed says no hike soon, Dow falls, Nasdaq 10,000 - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZU0ctZ3g0X2ozSjlROWNhTVVzQlpaY2drWUZwb3JVSDBnU0ZMQTluYW14MDA1cWN4Q0VsRUNtLV9xanZQUVAwd1ZMZm1XUk5zUE9TNnc5emVKQzdZQ1E?oc=5\" target=\"_blank\">Stock market live Wednesday: Fed says no hike soon, Dow falls, Nasdaq 10,000</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZU0ctZ3g0X2ozSjlROWNhTVVzQlpaY2drWUZwb3JVSDBnU0ZMQTluYW14MDA1cWN4Q0VsRUNtLV9xanZQUVAwd1ZMZm1XUk5zUE9TNnc5emVKQzdZQ1E?oc=5",
-      "source": "Google Macro",
-      "score": 7,
+      "id": "fe331dcf5fc822e9a8837bd34e049532",
+      "title": "The 250-year history of U.S. energy consumption",
+      "summary": "Over the 250-year history of our nation, energy consumption has evolved from wood use in the 18th and 19th centuries to today's use of modern renewable, hydrocarbon, and nuclear technology. In 2025, total energy used in the United States was 96 quadrillion British thermal units (quads), up 2% from 2024, but below 2007's record 99 quads. Petroleum was the most-used energy source last year, followed closely by natural gas. Use of renewable, coal, and nuclear energy each made up about 9% of total energy use.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=",
+      "source": "EIA",
+      "score": 1,
       "severity": "LOW",
-      "regime": "RATES",
-      "tickers": [
-        "QQQ"
-      ],
+      "regime": "GENERAL",
+      "tickers": [],
       "regions": [
-        "UK"
+        "UK",
+        "US"
       ],
       "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-06T09:52:17.027962Z"
-    },
-    {
-      "id": "74f334b5e2d9e3d29ab6fcfd55e14a19",
-      "title": "England World Cup final run could see Brits spend extra \u00a3250m",
-      "summary": "<p> <img alt=\"A run to the Fifa World Cup final could see England fans generate an extra \u00a3250m\" src=\"https://www.cityam.com/wp-content/uploads/2026/07/GettyImages-2284249466-e1783330894858.jpg?w=1107\" /> </p>A run to the Fifa World Cup final could see England fans generate an extra \u00a3250m in retail and home-viewing spend. Data from Novuna Finance shared with City AM suggests that the nation could spend an additional \u00a375m-\u00a3150m should Thomas Tuchel\u2019s England side go on a knockout run, while reaching the coveted final \u2013 later <a href=\"https://www.cityam.com/england-world-cup-final-run-could-see-brits-spend-extra-250m/\">[...]</a>",
-      "link": "https://www.cityam.com/england-world-cup-final-run-could-see-brits-spend-extra-250m/",
-      "source": "CityAM",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-06T09:52:02.825340Z"
-    },
-    {
-      "id": "220a05f3c68bb9f2d88910a51ee72f1e",
-      "title": "AI stocks - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiRkFVX3lxTFAzVU1fcFVuaTJRMzJBUElVal9tUnBLcDNtMWFicEp2ODBmWVJhLUl3NnJwbXZtaW5rVmEwckctXzBvbFY4MGc?oc=5\" target=\"_blank\">AI stocks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAzVU1fcFVuaTJRMzJBUElVal9tUnBLcDNtMWFicEp2ODBmWVJhLUl3NnJwbXZtaW5rVmEwckctXzBvbFY4MGc?oc=5",
-      "source": "Google Macro",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-06T09:52:17.028311Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-06T09:56:26.787704Z"
     }
   ],
   "alerts": [
     {
-      "id": "c716e16569b836ab74dece214a807351",
-      "title": "Bank of England launches policy statement and draft rules on regulating systemic stablecoins",
-      "summary": "The Bank of England has today published its policy statement and draft Code of Practice (rules) for systemic stablecoin issuers.",
-      "link": "https://www.bankofengland.co.uk/news/2026/june/boe-launches-policy-statement-and-draft-rules-on-regulating-systemic-stablecoins",
-      "source": "Bank of England",
-      "score": 24,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "UK"
+      "id": "235ce959f793c12ab6303ad2e16737ff",
+      "title": "The Tanker Tycoon Making Millions on Hormuz Shuttle Runs",
+      "summary": "Just a few weeks into the war, one of the Persian Gulf\u2019s top oil producers quietly began sneaking its crude out of the Strait of Hormuz. Before long, the covert project became so successful that the United Arab Emirates was already approaching its pre-war rate of flows through the waterway by the time the US and Iran signed their interim peace deal.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-05/the-supertanker-tycoon-making-millions-on-hormuz-shuttle-runs",
+      "source": "Bloomberg",
+      "score": 39,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
       ],
-      "assets": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-06T09:55:53.640960Z"
+    },
+    {
+      "id": "2a86ef1cbb6851aca3ebf2e15bf96c6e",
+      "title": "Gold Falls After Weekly Gain as Rate-Hike Concerns Recede",
+      "summary": "Gold dropped after posting its first weekly advance since May on weakening expectations that the US Federal Reserve will hike interest rates.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-05/gold-steadies-after-weekly-gain-as-rate-hike-worries-recede",
+      "source": "Bloomberg",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -347,17 +222,17 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-06T09:52:00.721727Z"
+      "published": "2026-07-06T09:55:53.640870Z"
     },
     {
-      "id": "11e0b41abc419c0ef590ee5af868173d",
-      "title": "Accredited official statistics: GDP deflators at market prices, and money GDP June 2026 (Quarterly National Accounts)",
-      "summary": "This document contains the latest gross domestic product (GDP) deflators. The GDP deflator can be viewed as a measure of general inflation in the domestic economy.",
-      "link": "https://www.gov.uk/government/statistics/gdp-deflators-at-market-prices-and-money-gdp-june-2026-quarterly-national-accounts",
-      "source": "HM Treasury",
-      "score": 21,
+      "id": "88804b720532736befd15dffadf89681",
+      "title": "Indonesia, Singapore Reaffirm Free Passage in Strait of Malacca",
+      "summary": "Indonesia and Singapore pledged anew to keep the Strait of Malacca open as Middle East tensions reignite concerns about the freedom of navigation in the world\u2019s most important waterways.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-06/indonesia-singapore-reaffirm-free-passage-in-strait-of-malacca",
+      "source": "Bloomberg",
+      "score": 22,
       "severity": "HIGH",
-      "regime": "INFLATION",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -367,233 +242,39 @@
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-07-06T09:52:02.568373Z"
-    },
-    {
-      "id": "f2af3851627da435d83915922270b295",
-      "title": "ECB Consumer Expectations Survey results \u2013 May 2026",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260626_1~60a21704a8.en.html",
-      "source": "ECB",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-06T09:51:57.098548Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-06T09:55:53.641022Z"
     },
     {
-      "id": "00ca1cea99ccad46c10f8671d911d6f9",
-      "title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
-      "summary": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-06T09:51:46.816265Z"
-    },
-    {
-      "id": "6342ce0bb2c63f50ad5884cde176bb71",
-      "title": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-06T09:51:46.816318Z"
-    },
-    {
-      "id": "c38648dfe6f3f49959e1d04ebadfce15",
-      "title": "From Macron to Modi, governments are rolling out the red carpet for AI giants",
-      "summary": "Macron and Modi are courting tech CEOs as France and India seek AI data center investment and cloud infrastructure.",
-      "link": "https://www.cnbc.com/2026/07/04/macron-modi-ai-infrastructure-tech-ceos.html",
-      "source": "CNBC",
-      "score": 15,
-      "severity": "HIGH",
+      "id": "f397aa57651542d9c1325eba8b322669",
+      "title": "Google loses final appeal to overturn \u20ac4.1 billion EU fine",
+      "summary": "Court of Justice of the European Union (CJEU) has dismissed Google's final appeal against a \u20ac4.1 billion ($4.7 billion) antitrust fine over the company's use of Android to promote its Chrome browser and search service. [...]",
+      "link": "https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "FRANCE"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-06T09:51:46.321750Z"
-    },
-    {
-      "id": "1b98698a674067f540fec49fe6d1032c",
-      "title": "Policy paper: National Payments Vision",
-      "summary": "The government has published the National Payments Vision, setting out its ambitions for the UK\u2019s payments sector to deliver world-leading payments and support the growth mission.",
-      "link": "https://www.gov.uk/government/publications/national-payments-vision",
-      "source": "HM Treasury",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-06T09:52:02.568311Z"
-    },
-    {
-      "id": "ffb5e89e0ffc57dfabceba9f519bd8fd",
-      "title": "Corporate report: Whole of Government Accounts 2025 to 2026: guidance for preparers",
-      "summary": "Guidance for central government and local government preparers for Whole of Government Accounts.",
-      "link": "https://www.gov.uk/government/publications/whole-of-government-accounts-2025-to-2026-guidance-for-preparers",
-      "source": "HM Treasury",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-06T09:52:02.568413Z"
-    },
-    {
-      "id": "ca851cf40c993bfdd04db9482088a714",
-      "title": "Anthropic moves to close loopholes that allow Chinese access to Claude - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOSU9qQVN5REsxUUQtTTBFSEhPbE0zeF9ZSFJ2UWJvRVBQb0oyMFBSX1gxaEF5RjVvV1ZPOTJVT1Jibkw2bVZFNG1lVEo1WUdRWE9OY0JYenhhZWFnVUhzRk1RM01POF9LMWhSa2pKWXltVFNsWm44REVRVHcxTkdMS0lmOEM?oc=5\" target=\"_blank\">Anthropic moves to close loopholes that allow Chinese access to Claude</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSU9qQVN5REsxUUQtTTBFSEhPbE0zeF9ZSFJ2UWJvRVBQb0oyMFBSX1gxaEF5RjVvV1ZPOTJVT1Jibkw2bVZFNG1lVEo1WUdRWE9OY0JYenhhZWFnVUhzRk1RM01POF9LMWhSa2pKWXltVFNsWm44REVRVHcxTkdMS0lmOEM?oc=5",
-      "source": "Google Macro",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "RATES",
       "tickers": [
-        "JPY"
+        "EUR"
       ],
-      "regions": [],
+      "regions": [
+        "EUROPE"
+      ],
       "assets": [
+        "AI",
         "FX"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-06T09:52:15.973777Z"
-    },
-    {
-      "id": "51ba383df7c31694af25f4e236b5e95a",
-      "title": "Stock market live Wednesday: Fed says no hike soon, Dow falls, Nasdaq 10,000 - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZU0ctZ3g0X2ozSjlROWNhTVVzQlpaY2drWUZwb3JVSDBnU0ZMQTluYW14MDA1cWN4Q0VsRUNtLV9xanZQUVAwd1ZMZm1XUk5zUE9TNnc5emVKQzdZQ1E?oc=5\" target=\"_blank\">Stock market live Wednesday: Fed says no hike soon, Dow falls, Nasdaq 10,000</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZU0ctZ3g0X2ozSjlROWNhTVVzQlpaY2drWUZwb3JVSDBnU0ZMQTluYW14MDA1cWN4Q0VsRUNtLV9xanZQUVAwd1ZMZm1XUk5zUE9TNnc5emVKQzdZQ1E?oc=5",
-      "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "RATES",
-      "tickers": [
-        "QQQ"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-06T09:52:17.027962Z"
-    },
-    {
-      "id": "74f334b5e2d9e3d29ab6fcfd55e14a19",
-      "title": "England World Cup final run could see Brits spend extra \u00a3250m",
-      "summary": "<p> <img alt=\"A run to the Fifa World Cup final could see England fans generate an extra \u00a3250m\" src=\"https://www.cityam.com/wp-content/uploads/2026/07/GettyImages-2284249466-e1783330894858.jpg?w=1107\" /> </p>A run to the Fifa World Cup final could see England fans generate an extra \u00a3250m in retail and home-viewing spend. Data from Novuna Finance shared with City AM suggests that the nation could spend an additional \u00a375m-\u00a3150m should Thomas Tuchel\u2019s England side go on a knockout run, while reaching the coveted final \u2013 later <a href=\"https://www.cityam.com/england-world-cup-final-run-could-see-brits-spend-extra-250m/\">[...]</a>",
-      "link": "https://www.cityam.com/england-world-cup-final-run-could-see-brits-spend-extra-250m/",
-      "source": "CityAM",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
           "NVDA",
           "SEMIS",
           "QQQ"
@@ -601,145 +282,26 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-06T09:52:02.825340Z"
+      "published": "2026-07-06T09:56:30.041588Z"
     },
     {
-      "id": "220a05f3c68bb9f2d88910a51ee72f1e",
-      "title": "AI stocks - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiRkFVX3lxTFAzVU1fcFVuaTJRMzJBUElVal9tUnBLcDNtMWFicEp2ODBmWVJhLUl3NnJwbXZtaW5rVmEwckctXzBvbFY4MGc?oc=5\" target=\"_blank\">AI stocks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAzVU1fcFVuaTJRMzJBUElVal9tUnBLcDNtMWFicEp2ODBmWVJhLUl3NnJwbXZtaW5rVmEwckctXzBvbFY4MGc?oc=5",
-      "source": "Google Macro",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-06T09:52:17.028311Z"
-    },
-    {
-      "id": "1d9dff37c2f63a0248c5aea0ef22d942",
-      "title": "Stocks Log Worst Day in 2012, Dow Skids 200 - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQTHNDdzcwc3NacklDWWFHLTh0a2thelI1OTJHdnA1ZThfdVQwR2QxTGliZmMwUS1DR3R5VnAxMEs1YlAtZXFkUnFEal9xYVNXbWVLRkhOczZUMUh4OG56RUVfM0V2X0drU2s4SWlUSFNNdUkxZU85b0h0QlBlRUdmVHJTS2wyQQ?oc=5\" target=\"_blank\">Stocks Log Worst Day in 2012, Dow Skids 200</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTHNDdzcwc3NacklDWWFHLTh0a2thelI1OTJHdnA1ZThfdVQwR2QxTGliZmMwUS1DR3R5VnAxMEs1YlAtZXFkUnFEal9xYVNXbWVLRkhOczZUMUh4OG56RUVfM0V2X0drU2s4SWlUSFNNdUkxZU85b0h0QlBlRUdmVHJTS2wyQQ?oc=5",
-      "source": "Google Macro",
+      "id": "fe331dcf5fc822e9a8837bd34e049532",
+      "title": "The 250-year history of U.S. energy consumption",
+      "summary": "Over the 250-year history of our nation, energy consumption has evolved from wood use in the 18th and 19th centuries to today's use of modern renewable, hydrocarbon, and nuclear technology. In 2025, total energy used in the United States was 96 quadrillion British thermal units (quads), up 2% from 2024, but below 2007's record 99 quads. Petroleum was the most-used energy source last year, followed closely by natural gas. Use of renewable, coal, and nuclear energy each made up about 9% of total energy use.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=",
+      "source": "EIA",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "UK"
-      ],
-      "assets": [
-        "EQUITIES"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-06T09:52:17.027843Z"
-    },
-    {
-      "id": "2718cb9984d223c187b5be8cf9b03aa3",
-      "title": "Buffett's favorite quote on the dangers of gambling on stocks - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbnpVb2VZMUFPeUNnZ0I5d2s4Ul9DbnhBNUMwSlM2TmloSUl0MVQwVkk1Y0pLcEdsMlNhZnM2LWNaUXRCOFN4SVNlZHBDSWdlTGMtLTBTMUk1Zi1lYnBScHBJWkJTWTBJVF8tWXVaVkFUN3VCR0xibllQdkU2c0NrQTlpT21SNUN3cE92b0FfRGpQX3JnQ2l1WmpiS01EcmhqeVp2Z1luM25FUjg?oc=5\" target=\"_blank\">Buffett's favorite quote on the dangers of gambling on stocks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbnpVb2VZMUFPeUNnZ0I5d2s4Ul9DbnhBNUMwSlM2TmloSUl0MVQwVkk1Y0pLcEdsMlNhZnM2LWNaUXRCOFN4SVNlZHBDSWdlTGMtLTBTMUk1Zi1lYnBScHBJWkJTWTBJVF8tWXVaVkFUN3VCR0xibllQdkU2c0NrQTlpT21SNUN3cE92b0FfRGpQX3JnQ2l1WmpiS01EcmhqeVp2Z1luM25FUjg?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "EQUITIES"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-06T09:52:17.027908Z"
-    },
-    {
-      "id": "bcc8d9e47537b4ed8aa1924b4beaa53c",
-      "title": "Here's why holding individual stocks can come back to hurt you - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOam9aaUtwdGpmam9SYkdzcTdVTC10V21tclRMRVlLTlJJVFFBc3kxTTFaWU1sc0U0bzlENTdpY3R5RE9TU1VYaUhkUWRUN2hDcFAwQm1YUTFZcnhOX2lOUWc2ejFiQlNEMWZjd1VWZW55VTlldGxHTmlXRnprUm9ndkZ1OEl0MTYyQWN5TXlVU2JvazJIOFQtNUllNWg4N0XSAaQBQVVfeXFMUGUyYXdpWFBZaDJMOWcwS0ZFZnBWdHNpY3B4R3NWVU5pVnF4SXUwLU9wa3JsOF8ybkJrcTZDZ3B6WjdJOTVzQjM1Ry12TmF2VUJpSXlUYzhYWjl0cGt4VXJrUVFaV3FaNEFqSGJRbExTeWVkUXNJTnNZVnhxbnNkS2dLcUwzdk5TMmJxd1pVRFdpbzBDdjcxMkFMdjhHTFVyYjZQZ1g?oc=5\" target=\"_blank\">Here's why holding individual stocks can come back to hurt you</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOam9aaUtwdGpmam9SYkdzcTdVTC10V21tclRMRVlLTlJJVFFBc3kxTTFaWU1sc0U0bzlENTdpY3R5RE9TU1VYaUhkUWRUN2hDcFAwQm1YUTFZcnhOX2lOUWc2ejFiQlNEMWZjd1VWZW55VTlldGxHTmlXRnprUm9ndkZ1OEl0MTYyQWN5TXlVU2JvazJIOFQtNUllNWg4N0XSAaQBQVVfeXFMUGUyYXdpWFBZaDJMOWcwS0ZFZnBWdHNpY3B4R3NWVU5pVnF4SXUwLU9wa3JsOF8ybkJrcTZDZ3B6WjdJOTVzQjM1Ry12TmF2VUJpSXlUYzhYWjl0cGt4VXJrUVFaV3FaNEFqSGJRbExTeWVkUXNJTnNZVnhxbnNkS2dLcUwzdk5TMmJxd1pVRFdpbzBDdjcxMkFMdjhHTFVyYjZQZ1g?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "EQUITIES"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-06T09:52:17.028051Z"
-    },
-    {
-      "id": "ef09761b195699c6f103c5e8f470506d",
-      "title": "Investors are flocking to money markets at the highest rate since the financial crisis - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPTFRqaTdNcTdQODIwM0RfdVY0MFNKQ3FYQlpXRHhjeWVyRFdtWVI5OTVPRjZCNTVVYVdnS1hjOEIwb09uVFhXdXAzZzRpN1hEUlI1b1A5UFYxd3IxTVN0ZzRhYV9PUW11MjRvWG9FejRtTERJcWc2eEVRYU5tUzk5dFNKT0ZNQmpDMGU1MkhEYVFaVmFZT3FKSW5BdFllZlluVW5VQ9IBqgFBVV95cUxNMVpob1hSeVR5NjJvbTMtMW5sZ3FBNWdGZzFLMlNfZ1VjNHNzcDhyWGJxTTBqdVlMYmt5ejVhTDNJTjgxTVpnal9HMGRqdU42R0R0ZEppSDVzWk5RUUFuYmU0RUpZZ2RJb3paYm1jY1pldVE3MWQ2bU04OHh6QWhES2NNTmlqcDFmQ1lnd3NYSHY4dG05TU82WVdMN2xQaUZIX21DRDNMY3A3Zw?oc=5\" target=\"_blank\">Investors are flocking to money markets at the highest rate since the financial crisis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTFRqaTdNcTdQODIwM0RfdVY0MFNKQ3FYQlpXRHhjeWVyRFdtWVI5OTVPRjZCNTVVYVdnS1hjOEIwb09uVFhXdXAzZzRpN1hEUlI1b1A5UFYxd3IxTVN0ZzRhYV9PUW11MjRvWG9FejRtTERJcWc2eEVRYU5tUzk5dFNKT0ZNQmpDMGU1MkhEYVFaVmFZT3FKSW5BdFllZlluVW5VQ9IBqgFBVV95cUxNMVpob1hSeVR5NjJvbTMtMW5sZ3FBNWdGZzFLMlNfZ1VjNHNzcDhyWGJxTTBqdVlMYmt5ejVhTDNJTjgxTVpnal9HMGRqdU42R0R0ZEppSDVzWk5RUUFuYmU0RUpZZ2RJb3paYm1jY1pldVE3MWQ2bU04OHh6QWhES2NNTmlqcDFmQ1lnd3NYSHY4dG05TU82WVdMN2xQaUZIX21DRDNMY3A3Zw?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-06T09:52:17.028129Z"
-    },
-    {
-      "id": "db204f180e68812ae142dee8c78e6633",
-      "title": "Ray Dalio thinks the coronavirus' hit to global markets is probably exaggerated - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNMkVTVjkwUlBGRlUweWZSSUl3Q1BVYmg5S2JyQnQ5eGRza1ZvX1Y4TzdScG1JTURaT3YyV0lZLTJ3NWtud0xVWlVBXzVJNGpIRmJwcVNkVFpSVG9uOGMxX2pEMWgxeFBBM1lYakdxNm1uTHRNMmljOE9sZkRsRXVVcEdvUjJXOTVNa25XdnF2OEgxeTJZQVZsQ2N0Zk9uaHBXZWZUVVNpbU1XOUdqTGU5M3BhSzNWUdIBuwFBVV95cUxNNnlJeC13dk5CSlg2OTlWQjloQ3ZZUXRPZ3NhdVJWN0RHT0J4ZzlvM3FrclFMXy1FWk5uUlE2LWNnMC1rRUJhMk5PVngzNGRnN1Z5M3RjTWM5N2ZBSUJEYjhnc1hON0NBcjJ3VjR1YTZfX3lpQmt3Ynl3dHJFeGU3dkNOU0VyajQyVTZ6Q1hocFlOT3dqTFBNcEkxeDZJNDhZeUw1UktEN0J0LWc2Qmpncmo3NnRlMVBOUXJj?oc=5\" target=\"_blank\">Ray Dalio thinks the coronavirus' hit to global markets is probably exaggerated</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMkVTVjkwUlBGRlUweWZSSUl3Q1BVYmg5S2JyQnQ5eGRza1ZvX1Y4TzdScG1JTURaT3YyV0lZLTJ3NWtud0xVWlVBXzVJNGpIRmJwcVNkVFpSVG9uOGMxX2pEMWgxeFBBM1lYakdxNm1uTHRNMmljOE9sZkRsRXVVcEdvUjJXOTVNa25XdnF2OEgxeTJZQVZsQ2N0Zk9uaHBXZWZUVVNpbU1XOUdqTGU5M3BhSzNWUdIBuwFBVV95cUxNNnlJeC13dk5CSlg2OTlWQjloQ3ZZUXRPZ3NhdVJWN0RHT0J4ZzlvM3FrclFMXy1FWk5uUlE2LWNnMC1rRUJhMk5PVngzNGRnN1Z5M3RjTWM5N2ZBSUJEYjhnc1hON0NBcjJ3VjR1YTZfX3lpQmt3Ynl3dHJFeGU3dkNOU0VyajQyVTZ6Q1hocFlOT3dqTFBNcEkxeDZJNDhZeUw1UktEN0J0LWc2Qmpncmo3NnRlMVBOUXJj?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
+        "UK",
+        "US"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-06T09:52:17.028205Z"
-    },
-    {
-      "id": "a7cb21cb2d60bdc66ee2df9740416372",
-      "title": "Stocks close flat in wild session Friday that saw the S&P 500 briefly fall into a bear market - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNRUN2bGNIV09mYlE3V0ZtWkM0NzJ3OXlMQUJQVEkzOHNWejdRSmc3N3MxOVgxSVVjeVlIZVJUN20zRVFBZDdhOUFjd0ZiU1NRVmZ2S3Q2bVBzaG9fdE9OZlJWLW03NU1XTlZKQjBDUjh6ZmplcXhoM0hJdjZObjdzYVhB0gGHAUFVX3lxTE1ONnNBcFJfSGxrNXM0ZjRBSUF2cGFJckg5dVQzUGwtektHQmtDUHNLV2dwSEpKMUNISk83TmtpVFRXZ25uajlEX1NmQnpTTUpkRVBYY0JsblJTWGs5TkxYTmtnMmlvdkREVWJpWGpTcUZINGVpdXp6OUt5TFhRV091aHVEeHdCUQ?oc=5\" target=\"_blank\">Stocks close flat in wild session Friday that saw the S&amp;P 500 briefly fall into a bear market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRUN2bGNIV09mYlE3V0ZtWkM0NzJ3OXlMQUJQVEkzOHNWejdRSmc3N3MxOVgxSVVjeVlIZVJUN20zRVFBZDdhOUFjd0ZiU1NRVmZ2S3Q2bVBzaG9fdE9OZlJWLW03NU1XTlZKQjBDUjh6ZmplcXhoM0hJdjZObjdzYVhB0gGHAUFVX3lxTE1ONnNBcFJfSGxrNXM0ZjRBSUF2cGFJckg5dVQzUGwtektHQmtDUHNLV2dwSEpKMUNISk83TmtpVFRXZ25uajlEX1NmQnpTTUpkRVBYY0JsblJTWGs5TkxYTmtnMmlvdkREVWJpWGpTcUZINGVpdXp6OUt5TFhRV091aHVEeHdCUQ?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [
-        "SPY"
-      ],
-      "regions": [],
-      "assets": [
-        "EQUITIES"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-06T09:52:17.028273Z"
+      "published": "2026-07-06T09:56:26.787704Z"
     }
   ]
 }
