@@ -1,57 +1,86 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-06T07:21:48.083132Z",
+  "generated_at": "2026-07-06T07:26:26.249431Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 1,
-    "last_updated": "2026-07-06T07:21:48.083144Z"
+    "last_updated": "2026-07-06T07:26:26.249440Z"
   },
   "top_signals": [
     {
-      "id": "8a1f14bba0ac1981e05d954275922ab8",
-      "title": "Goldman Sachs Sees Yen at 165 per Dollar in 12 Months",
-      "summary": "Kamakshya Trivedi, head of global FX and interest rates at Goldman Sachs, discusses the firm's forecast for the yen which it has revised to\u00a0165\u00a0per dollar in a year\u2019s time from 155. \"I think the undervaluation that you're seeing on the yen is really historic,\" Trivedi tells Bloomberg Television. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-07-06/goldman-sachs-sees-yen-at-165-per-dollar-in-12-months-video",
+      "id": "f5b1b68ef22c06f8ac981c5ab9b88bdd",
+      "title": "EasyJet Hits Highest Since 2022 After Latest Castlelake Bid",
+      "summary": "EasyJet Plc agreed in principle to a takeover offer of more than \u00a35 billion from Castlelake LP, which swooped in as the UK budget carrier was reeling from soaring jet fuel prices and suppressed demand after the Iran war. The announcement sent shares soaring more than 11% on Monday.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-05/easyjet-agrees-to-castlelake-s-5-2-billion-takeover-offer",
       "source": "Bloomberg",
-      "score": 22,
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-06T07:25:51.870115Z"
+    },
+    {
+      "id": "835d1524ea108b8d105c921bfe411be0",
+      "title": "Oil Glut Fears Rise as Supply Recovery Outpaces Demand | Insight with Haslinda Amin 07/06/2026",
+      "summary": "Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent leaders spanning the worlds of business, finance, politics and culture. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-06/insight-with-haslinda-amin-7-6-2026-video",
+      "source": "Bloomberg",
+      "score": 21,
       "severity": "HIGH",
-      "regime": "RATES",
+      "regime": "COMMODITIES",
       "tickers": [
-        "DXY",
-        "JPY",
-        "XAU"
+        "WTI"
       ],
       "regions": [],
       "assets": [
-        "COMMODITIES",
-        "FX"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-06T07:21:16.033020Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-06T07:25:51.870207Z"
     },
     {
-      "id": "5307f230ed11a0c7193772657bd09b0d",
-      "title": "EasyJet shares soar 10% as budget airline agrees $7.3 billion Castlelake takeover",
-      "summary": "EasyJet shares surged in early dealmaking Monday after it agreed in principle to takeover bid from Castlelake.",
-      "link": "https://www.cnbc.com/2026/07/06/easyjet-ezj-stock-castlelake-takeover-bid.html",
-      "source": "CNBC",
-      "score": 10,
-      "severity": "MEDIUM",
+      "id": "3f67cb35aa856ac09b7ba57b12f7ac3c",
+      "title": "Experimental Ebola trial begins in Congo as death toll tops 500",
+      "summary": "The World Health Organization-sponsored trial will test the monoclonal antibody cocktail MBP134 and the antiviral remdesivir alongside optimized supportive care.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/06/world/science-health/ebola-trial-congo-death-500/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -67,51 +96,98 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-06T07:21:19.392367Z"
+      "published": "2026-07-06T07:26:14.459676Z"
+    },
+    {
+      "id": "fa41a1d7c5b7e311922a95fcf81bb727",
+      "title": "Jim Cramer: What caused the pre-holiday chip stock slump and what to do about it - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOcVpSVy01RjBkYmxSelBkUW9SVHlNU3NiWWQ1Z21kUHVQSmtDaVRqRW8xS281SXhnVmk2OFpzRjlaaDRjcnBQZHNURWE3X19FYWdYSjYwVkdiS2dLOHFZc0pqTmltSlUyazVraFN5VGU0UmR0dnF3QVNjMGFPMHpJcmpHUk9POUdIVkFLRWU4OGtILTg1b21uVzhzc01MMkxraTZxakhJNUF4Z0VOUHlkVjVvU2tVN0U?oc=5\" target=\"_blank\">Jim Cramer: What caused the pre-holiday chip stock slump and what to do about it</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcVpSVy01RjBkYmxSelBkUW9SVHlNU3NiWWQ1Z21kUHVQSmtDaVRqRW8xS281SXhnVmk2OFpzRjlaaDRjcnBQZHNURWE3X19FYWdYSjYwVkdiS2dLOHFZc0pqTmltSlUyazVraFN5VGU0UmR0dnF3QVNjMGFPMHpJcmpHUk9POUdIVkFLRWU4OGtILTg1b21uVzhzc01MMkxraTZxakhJNUF4Z0VOUHlkVjVvU2tVN0U?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-06T07:26:26.249406Z"
     }
   ],
   "alerts": [
     {
-      "id": "8a1f14bba0ac1981e05d954275922ab8",
-      "title": "Goldman Sachs Sees Yen at 165 per Dollar in 12 Months",
-      "summary": "Kamakshya Trivedi, head of global FX and interest rates at Goldman Sachs, discusses the firm's forecast for the yen which it has revised to\u00a0165\u00a0per dollar in a year\u2019s time from 155. \"I think the undervaluation that you're seeing on the yen is really historic,\" Trivedi tells Bloomberg Television. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-07-06/goldman-sachs-sees-yen-at-165-per-dollar-in-12-months-video",
+      "id": "f5b1b68ef22c06f8ac981c5ab9b88bdd",
+      "title": "EasyJet Hits Highest Since 2022 After Latest Castlelake Bid",
+      "summary": "EasyJet Plc agreed in principle to a takeover offer of more than \u00a35 billion from Castlelake LP, which swooped in as the UK budget carrier was reeling from soaring jet fuel prices and suppressed demand after the Iran war. The announcement sent shares soaring more than 11% on Monday.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-05/easyjet-agrees-to-castlelake-s-5-2-billion-takeover-offer",
       "source": "Bloomberg",
-      "score": 22,
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-06T07:25:51.870115Z"
+    },
+    {
+      "id": "835d1524ea108b8d105c921bfe411be0",
+      "title": "Oil Glut Fears Rise as Supply Recovery Outpaces Demand | Insight with Haslinda Amin 07/06/2026",
+      "summary": "Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent leaders spanning the worlds of business, finance, politics and culture. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-06/insight-with-haslinda-amin-7-6-2026-video",
+      "source": "Bloomberg",
+      "score": 21,
       "severity": "HIGH",
-      "regime": "RATES",
+      "regime": "COMMODITIES",
       "tickers": [
-        "DXY",
-        "JPY",
-        "XAU"
+        "WTI"
       ],
       "regions": [],
       "assets": [
-        "COMMODITIES",
-        "FX"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-06T07:21:16.033020Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-06T07:25:51.870207Z"
     },
     {
-      "id": "5307f230ed11a0c7193772657bd09b0d",
-      "title": "EasyJet shares soar 10% as budget airline agrees $7.3 billion Castlelake takeover",
-      "summary": "EasyJet shares surged in early dealmaking Monday after it agreed in principle to takeover bid from Castlelake.",
-      "link": "https://www.cnbc.com/2026/07/06/easyjet-ezj-stock-castlelake-takeover-bid.html",
-      "source": "CNBC",
-      "score": 10,
-      "severity": "MEDIUM",
+      "id": "3f67cb35aa856ac09b7ba57b12f7ac3c",
+      "title": "Experimental Ebola trial begins in Congo as death toll tops 500",
+      "summary": "The World Health Organization-sponsored trial will test the monoclonal antibody cocktail MBP134 and the antiviral remdesivir alongside optimized supportive care.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/06/world/science-health/ebola-trial-congo-death-500/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -127,7 +203,25 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-06T07:21:19.392367Z"
+      "published": "2026-07-06T07:26:14.459676Z"
+    },
+    {
+      "id": "fa41a1d7c5b7e311922a95fcf81bb727",
+      "title": "Jim Cramer: What caused the pre-holiday chip stock slump and what to do about it - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOcVpSVy01RjBkYmxSelBkUW9SVHlNU3NiWWQ1Z21kUHVQSmtDaVRqRW8xS281SXhnVmk2OFpzRjlaaDRjcnBQZHNURWE3X19FYWdYSjYwVkdiS2dLOHFZc0pqTmltSlUyazVraFN5VGU0UmR0dnF3QVNjMGFPMHpJcmpHUk9POUdIVkFLRWU4OGtILTg1b21uVzhzc01MMkxraTZxakhJNUF4Z0VOUHlkVjVvU2tVN0U?oc=5\" target=\"_blank\">Jim Cramer: What caused the pre-holiday chip stock slump and what to do about it</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcVpSVy01RjBkYmxSelBkUW9SVHlNU3NiWWQ1Z21kUHVQSmtDaVRqRW8xS281SXhnVmk2OFpzRjlaaDRjcnBQZHNURWE3X19FYWdYSjYwVkdiS2dLOHFZc0pqTmltSlUyazVraFN5VGU0UmR0dnF3QVNjMGFPMHpJcmpHUk9POUdIVkFLRWU4OGtILTg1b21uVzhzc01MMkxraTZxakhJNUF4Z0VOUHlkVjVvU2tVN0U?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-06T07:26:26.249406Z"
     }
   ]
 }
