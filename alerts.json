@@ -1,42 +1,89 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-07T00:51:48.852162Z",
+  "generated_at": "2026-07-07T00:56:39.594265Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-07-07T00:51:48.852174Z"
+    "high_alerts": 2,
+    "last_updated": "2026-07-07T00:56:39.594279Z"
   },
   "top_signals": [
     {
-      "id": "4c05b03c3045887a2e666a92668a846b",
-      "title": "Asian Stocks Fall on Tech Weakness, Samsung Slides: Markets Wrap",
-      "summary": "Asian equities dropped as technology shares came under renewed selling pressure, with Samsung Electronics Co. falling after its earnings report.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-06/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "id": "d3cdb7d8a37e9de1b1dd1dd1242d2ba0",
+      "title": "Russian strikes kill 24 in Kyiv region on eve of NATO summit",
+      "summary": "The attack hit just days after another Russian strike killed more than 30 people in the Ukrainian capital.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/07/world/politics/russia-strikes-kyiv-nato-summit/",
+      "source": "Japan Times",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
-      "assets": [
-        "EQUITIES"
+      "regions": [
+        "RUSSIA",
+        "UK"
       ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-07T00:51:17.529112Z"
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-07T00:56:18.018969Z"
     },
     {
-      "id": "3abd17b8dd50c3609a5d3a6fd066c03b",
-      "title": "Platner urged to drop Senate bid after assault allegations",
-      "summary": "Maine Democrat Graham Platner, who has rapidly lost support from Democrats following a sexual assault allegation, has one week to decide whether to drop out under state law.",
-      "link": "https://www.japantimes.co.jp/news/2026/07/07/world/politics/platner-maine-senate-assault/",
-      "source": "Japan Times",
-      "score": 5,
-      "severity": "LOW",
+      "id": "232fc9fcca3ddc0646d338068d530cf3",
+      "title": "Oil Steady After Three-Day Drop With Focus on Russia, Stockpiles - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOLS1HU0dfc1JkMUlNY3E5MF9EX1ladWwzZ3kzRG1YZzQ5eDUwX0dOMkNvTUZwcGhFd05fcFFxRzFNZG0tRFotYkNSREI1VldTeVQtTGFCXy10bmEzN21SQXlwUVgyOHhYVWdnbE42NGpMRnNfT1hST2VOUG1UcHVUR2VWemZUUFVXeTc0T0k0cnNGVnlnVWNJLWJpTklVdw?oc=5\" target=\"_blank\">Oil Steady After Three-Day Drop With Focus on Russia, Stockpiles</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLS1HU0dfc1JkMUlNY3E5MF9EX1ladWwzZ3kzRG1YZzQ5eDUwX0dOMkNvTUZwcGhFd05fcFFxRzFNZG0tRFotYkNSREI1VldTeVQtTGFCXy10bmEzN21SQXlwUVgyOHhYVWdnbE42NGpMRnNfT1hST2VOUG1UcHVUR2VWemZUUFVXeTc0T0k0cnNGVnlnVWNJLWJpTklVdw?oc=5",
+      "source": "Google Macro",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-07T00:56:37.243581Z"
+    },
+    {
+      "id": "d889938fe4a91e66c920e46603180a4b",
+      "title": "World Cup in photos: Balogun controversy looms over U.S.-Belgium match, Ronaldo bows out",
+      "summary": "The U.S. heads into its Round-of-16 World Cup match against Belgium with focus on Folarin Balogun after FIFA suspended his one-match red-card ban.",
+      "link": "https://www.cnbc.com/2026/07/07/world-cup-in-photos-balogun-and-us-belgium-match-ronaldo-bows-out.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -52,36 +99,83 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-07T00:51:39.298651Z"
+      "published": "2026-07-07T00:55:57.707970Z"
     }
   ],
   "alerts": [
     {
-      "id": "4c05b03c3045887a2e666a92668a846b",
-      "title": "Asian Stocks Fall on Tech Weakness, Samsung Slides: Markets Wrap",
-      "summary": "Asian equities dropped as technology shares came under renewed selling pressure, with Samsung Electronics Co. falling after its earnings report.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-06/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "id": "d3cdb7d8a37e9de1b1dd1dd1242d2ba0",
+      "title": "Russian strikes kill 24 in Kyiv region on eve of NATO summit",
+      "summary": "The attack hit just days after another Russian strike killed more than 30 people in the Ukrainian capital.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/07/world/politics/russia-strikes-kyiv-nato-summit/",
+      "source": "Japan Times",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
-      "assets": [
-        "EQUITIES"
+      "regions": [
+        "RUSSIA",
+        "UK"
       ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-07T00:51:17.529112Z"
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-07T00:56:18.018969Z"
     },
     {
-      "id": "3abd17b8dd50c3609a5d3a6fd066c03b",
-      "title": "Platner urged to drop Senate bid after assault allegations",
-      "summary": "Maine Democrat Graham Platner, who has rapidly lost support from Democrats following a sexual assault allegation, has one week to decide whether to drop out under state law.",
-      "link": "https://www.japantimes.co.jp/news/2026/07/07/world/politics/platner-maine-senate-assault/",
-      "source": "Japan Times",
-      "score": 5,
-      "severity": "LOW",
+      "id": "232fc9fcca3ddc0646d338068d530cf3",
+      "title": "Oil Steady After Three-Day Drop With Focus on Russia, Stockpiles - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOLS1HU0dfc1JkMUlNY3E5MF9EX1ladWwzZ3kzRG1YZzQ5eDUwX0dOMkNvTUZwcGhFd05fcFFxRzFNZG0tRFotYkNSREI1VldTeVQtTGFCXy10bmEzN21SQXlwUVgyOHhYVWdnbE42NGpMRnNfT1hST2VOUG1UcHVUR2VWemZUUFVXeTc0T0k0cnNGVnlnVWNJLWJpTklVdw?oc=5\" target=\"_blank\">Oil Steady After Three-Day Drop With Focus on Russia, Stockpiles</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLS1HU0dfc1JkMUlNY3E5MF9EX1ladWwzZ3kzRG1YZzQ5eDUwX0dOMkNvTUZwcGhFd05fcFFxRzFNZG0tRFotYkNSREI1VldTeVQtTGFCXy10bmEzN21SQXlwUVgyOHhYVWdnbE42NGpMRnNfT1hST2VOUG1UcHVUR2VWemZUUFVXeTc0T0k0cnNGVnlnVWNJLWJpTklVdw?oc=5",
+      "source": "Google Macro",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-07T00:56:37.243581Z"
+    },
+    {
+      "id": "d889938fe4a91e66c920e46603180a4b",
+      "title": "World Cup in photos: Balogun controversy looms over U.S.-Belgium match, Ronaldo bows out",
+      "summary": "The U.S. heads into its Round-of-16 World Cup match against Belgium with focus on Folarin Balogun after FIFA suspended his one-match red-card ban.",
+      "link": "https://www.cnbc.com/2026/07/07/world-cup-in-photos-balogun-and-us-belgium-match-ronaldo-bows-out.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -97,7 +191,7 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-07T00:51:39.298651Z"
+      "published": "2026-07-07T00:55:57.707970Z"
     }
   ]
 }
