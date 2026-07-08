@@ -1,32 +1,105 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-08T00:46:32.150009Z",
+  "generated_at": "2026-07-08T00:51:58.223064Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 1,
-    "last_updated": "2026-07-08T00:46:32.150016Z"
+    "last_updated": "2026-07-08T00:51:58.223073Z"
   },
   "top_signals": [
     {
-      "id": "594f8fb72f6265d7c9adcc90b01123a5",
-      "title": "Treasury Yields Little Changed as Markets Wait for Fed Minutes - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOSHRFbGJ2bGhxcWVhVE1fYWpQUWNWZldMeEd4ZWcwalNWeTRlV3RrdDI3OGlVR0c0LWQ1RE5OTkVxT0NLNk93dEhqZjI4UmIwSUVDQTdYd3BtZGdZRi1EZmRES04yVmc2N1JFU2laa2JXdHJQLWlvNDJ1S2tRYlZLYkFpNzZ3M3lPaHBTZkxVd2xjNF9COGZ6OHpTTDlha1E?oc=5\" target=\"_blank\">Treasury Yields Little Changed as Markets Wait for Fed Minutes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSHRFbGJ2bGhxcWVhVE1fYWpQUWNWZldMeEd4ZWcwalNWeTRlV3RrdDI3OGlVR0c0LWQ1RE5OTkVxT0NLNk93dEhqZjI4UmIwSUVDQTdYd3BtZGdZRi1EZmRES04yVmc2N1JFU2laa2JXdHJQLWlvNDJ1S2tRYlZLYkFpNzZ3M3lPaHBTZkxVd2xjNF9COGZ6OHpTTDlha1E?oc=5",
-      "source": "Google Macro",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "4bc65278e3300ef22d5cd41c8158979a",
+      "title": "Oil jumps as U.S. 'powerful strikes' against Iran risk unraveling fragile Mideast truce",
+      "summary": "Oil prices rose on Wednesday after the U.S. launched fresh strikes on Iran in retaliation for attacks on commercial vessels in the Strait of Hormuz.",
+      "link": "https://www.cnbc.com/2026/07/08/oil-prices-brent-wti-iran-us-hormuz.html",
+      "source": "CNBC",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "TLT"
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI",
-        "RATES"
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-08T00:51:24.690505Z"
+    },
+    {
+      "id": "eaee86e52a174b89160c5d641e6d3a90",
+      "title": "Oil jumps as U.S. strikes on Iran after Tehran targeted commercial ships risk fragile Mideast truce - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE1jeDRpOERtcVZVVzR6d2gyVzdlRzZwV0dnV25fcTBFTXNkUkJpV0ZJbG4xMUNPUTUteTFMakRJdC1ZX1I1LTBMOEw0MHBqUzdJbUt3dFJMRUw2MnBEUFdmTDJmLU1sdU1uczJxNjluZXhLaWJSXzhKZ1RYSG7SAYIBQVVfeXFMTThTc201Q3RfZWVMYUtkX21SaEJRWFhsNHBOWTE2WDZ5UEVFMHdrSURjYWtjckRhSDBZTEZPY1ctUUtwUy1QRUxrM1RHQlQyWXhsY0NBbEZjcXRZeDhKS0VRN0llU3MyOFhMNlBIazk5RHVtbVBjSmpCVEVjUmhfZG54dw?oc=5\" target=\"_blank\">Oil jumps as U.S. strikes on Iran after Tehran targeted commercial ships risk fragile Mideast truce</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jeDRpOERtcVZVVzR6d2gyVzdlRzZwV0dnV25fcTBFTXNkUkJpV0ZJbG4xMUNPUTUteTFMakRJdC1ZX1I1LTBMOEw0MHBqUzdJbUt3dFJMRUw2MnBEUFdmTDJmLU1sdU1uczJxNjluZXhLaWJSXzhKZ1RYSG7SAYIBQVVfeXFMTThTc201Q3RfZWVMYUtkX21SaEJRWFhsNHBOWTE2WDZ5UEVFMHdrSURjYWtjckRhSDBZTEZPY1ctUUtwUy1QRUxrM1RHQlQyWXhsY0NBbEZjcXRZeDhKS0VRN0llU3MyOFhMNlBIazk5RHVtbVBjSmpCVEVjUmhfZG54dw?oc=5",
+      "source": "Google Macro",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-08T00:51:58.223003Z"
+    },
+    {
+      "id": "a7a3ede1863eeb954d9cb3b5396ff0e8",
+      "title": "Yen shorts just hit a 19-year high. Gold did this last time",
+      "summary": "Hedge funds' crowded yen shorts and Japan's intervention, plus gold above $4,100, may trigger a metals market jolt.",
+      "link": "https://www.mining.com/yen-shorts-just-hit-a-19-year-high-gold-did-this-last-time/",
+      "source": "Mining.com",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "JPY",
+        "XAU"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "COMMODITIES",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
@@ -40,44 +113,154 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-08T00:46:31.523803Z"
+      "published": "2026-07-08T00:51:52.161776Z"
     },
     {
-      "id": "b3b73658e838ac6051e35615aa0417b8",
-      "title": "Stocks making the biggest moves premarket: Fiserv, Crinetics Pharmaceuticals, Micron & more - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQV2hxUGd1VkxmcUU3XzBOWWZIVHp0RHBwdndBbGNRTkFiNHBzZkhHdzY1eTJnMjlGeE5vanVON2ZlLVJhMWx5WDg4NzFUSGw2TXhjdTVMRmRsam5BOW0xNWVraXZQLWI1UTRlR2VUZVQzTnBaQm4zamZ5WFpPbXY0b3V5eWM0UXUtNEUzTGJGQ2ZWbFd2QVE?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: Fiserv, Crinetics Pharmaceuticals, Micron & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQV2hxUGd1VkxmcUU3XzBOWWZIVHp0RHBwdndBbGNRTkFiNHBzZkhHdzY1eTJnMjlGeE5vanVON2ZlLVJhMWx5WDg4NzFUSGw2TXhjdTVMRmRsam5BOW0xNWVraXZQLWI1UTRlR2VUZVQzTnBaQm4zamZ5WFpPbXY0b3V5eWM0UXUtNEUzTGJGQ2ZWbFd2QVE?oc=5",
+      "id": "1ff45b840ddbb89e03bbebee95cbfaf7",
+      "title": "Prince Harry's war with UK press is over, and he's lost - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOLXcybThVS1ZwdDRmV05KOFBFYjcyamVkS1BwOWJBbGZhcUl2d2RjVWZxNk04LWZXLWNCRUo2V0xTM1pBX2hhSUZEY3BTcWRPbW82a3laSU5hekp0S1N6OG5fUEdSclhhY21sTDNWdGVPeWp6VTlvZ3dkcEMzMEpuX1htN050NUdHQU5sRDFzb3JJamtVTU9ZYw?oc=5\" target=\"_blank\">Prince Harry's war with UK press is over, and he's lost</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLXcybThVS1ZwdDRmV05KOFBFYjcyamVkS1BwOWJBbGZhcUl2d2RjVWZxNk04LWZXLWNCRUo2V0xTM1pBX2hhSUZEY3BTcWRPbW82a3laSU5hekp0S1N6OG5fUEdSclhhY21sTDNWdGVPeWp6VTlvZ3dkcEMzMEpuX1htN050NUdHQU5sRDFzb3JJamtVTU9ZYw?oc=5",
       "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-08T00:51:56.476047Z"
+    },
+    {
+      "id": "61cf0715c1a61f58948055b98543d39a",
+      "title": "Mitch McConnell's health concerns grow amid 4th week in hospital with few details from aides",
+      "summary": "McConnell, the former longtime Senate leader who declined to seek an eighth term following a series of health scares, was admitted to the hospital on June 14.",
+      "link": "https://www.cnbc.com/2026/07/07/mitch-mcconnell-health-senate-gop.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
       "assets": [
-        "EQUITIES"
+        "AI"
       ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-08T00:46:32.149976Z"
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-08T00:51:24.470962Z"
     }
   ],
   "alerts": [
     {
-      "id": "594f8fb72f6265d7c9adcc90b01123a5",
-      "title": "Treasury Yields Little Changed as Markets Wait for Fed Minutes - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOSHRFbGJ2bGhxcWVhVE1fYWpQUWNWZldMeEd4ZWcwalNWeTRlV3RrdDI3OGlVR0c0LWQ1RE5OTkVxT0NLNk93dEhqZjI4UmIwSUVDQTdYd3BtZGdZRi1EZmRES04yVmc2N1JFU2laa2JXdHJQLWlvNDJ1S2tRYlZLYkFpNzZ3M3lPaHBTZkxVd2xjNF9COGZ6OHpTTDlha1E?oc=5\" target=\"_blank\">Treasury Yields Little Changed as Markets Wait for Fed Minutes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSHRFbGJ2bGhxcWVhVE1fYWpQUWNWZldMeEd4ZWcwalNWeTRlV3RrdDI3OGlVR0c0LWQ1RE5OTkVxT0NLNk93dEhqZjI4UmIwSUVDQTdYd3BtZGdZRi1EZmRES04yVmc2N1JFU2laa2JXdHJQLWlvNDJ1S2tRYlZLYkFpNzZ3M3lPaHBTZkxVd2xjNF9COGZ6OHpTTDlha1E?oc=5",
-      "source": "Google Macro",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "4bc65278e3300ef22d5cd41c8158979a",
+      "title": "Oil jumps as U.S. 'powerful strikes' against Iran risk unraveling fragile Mideast truce",
+      "summary": "Oil prices rose on Wednesday after the U.S. launched fresh strikes on Iran in retaliation for attacks on commercial vessels in the Strait of Hormuz.",
+      "link": "https://www.cnbc.com/2026/07/08/oil-prices-brent-wti-iran-us-hormuz.html",
+      "source": "CNBC",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "TLT"
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI",
-        "RATES"
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-08T00:51:24.690505Z"
+    },
+    {
+      "id": "eaee86e52a174b89160c5d641e6d3a90",
+      "title": "Oil jumps as U.S. strikes on Iran after Tehran targeted commercial ships risk fragile Mideast truce - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE1jeDRpOERtcVZVVzR6d2gyVzdlRzZwV0dnV25fcTBFTXNkUkJpV0ZJbG4xMUNPUTUteTFMakRJdC1ZX1I1LTBMOEw0MHBqUzdJbUt3dFJMRUw2MnBEUFdmTDJmLU1sdU1uczJxNjluZXhLaWJSXzhKZ1RYSG7SAYIBQVVfeXFMTThTc201Q3RfZWVMYUtkX21SaEJRWFhsNHBOWTE2WDZ5UEVFMHdrSURjYWtjckRhSDBZTEZPY1ctUUtwUy1QRUxrM1RHQlQyWXhsY0NBbEZjcXRZeDhKS0VRN0llU3MyOFhMNlBIazk5RHVtbVBjSmpCVEVjUmhfZG54dw?oc=5\" target=\"_blank\">Oil jumps as U.S. strikes on Iran after Tehran targeted commercial ships risk fragile Mideast truce</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jeDRpOERtcVZVVzR6d2gyVzdlRzZwV0dnV25fcTBFTXNkUkJpV0ZJbG4xMUNPUTUteTFMakRJdC1ZX1I1LTBMOEw0MHBqUzdJbUt3dFJMRUw2MnBEUFdmTDJmLU1sdU1uczJxNjluZXhLaWJSXzhKZ1RYSG7SAYIBQVVfeXFMTThTc201Q3RfZWVMYUtkX21SaEJRWFhsNHBOWTE2WDZ5UEVFMHdrSURjYWtjckRhSDBZTEZPY1ctUUtwUy1QRUxrM1RHQlQyWXhsY0NBbEZjcXRZeDhKS0VRN0llU3MyOFhMNlBIazk5RHVtbVBjSmpCVEVjUmhfZG54dw?oc=5",
+      "source": "Google Macro",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-08T00:51:58.223003Z"
+    },
+    {
+      "id": "a7a3ede1863eeb954d9cb3b5396ff0e8",
+      "title": "Yen shorts just hit a 19-year high. Gold did this last time",
+      "summary": "Hedge funds' crowded yen shorts and Japan's intervention, plus gold above $4,100, may trigger a metals market jolt.",
+      "link": "https://www.mining.com/yen-shorts-just-hit-a-19-year-high-gold-did-this-last-time/",
+      "source": "Mining.com",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "JPY",
+        "XAU"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "COMMODITIES",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
@@ -91,25 +274,62 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-08T00:46:31.523803Z"
+      "published": "2026-07-08T00:51:52.161776Z"
     },
     {
-      "id": "b3b73658e838ac6051e35615aa0417b8",
-      "title": "Stocks making the biggest moves premarket: Fiserv, Crinetics Pharmaceuticals, Micron & more - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQV2hxUGd1VkxmcUU3XzBOWWZIVHp0RHBwdndBbGNRTkFiNHBzZkhHdzY1eTJnMjlGeE5vanVON2ZlLVJhMWx5WDg4NzFUSGw2TXhjdTVMRmRsam5BOW0xNWVraXZQLWI1UTRlR2VUZVQzTnBaQm4zamZ5WFpPbXY0b3V5eWM0UXUtNEUzTGJGQ2ZWbFd2QVE?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: Fiserv, Crinetics Pharmaceuticals, Micron & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQV2hxUGd1VkxmcUU3XzBOWWZIVHp0RHBwdndBbGNRTkFiNHBzZkhHdzY1eTJnMjlGeE5vanVON2ZlLVJhMWx5WDg4NzFUSGw2TXhjdTVMRmRsam5BOW0xNWVraXZQLWI1UTRlR2VUZVQzTnBaQm4zamZ5WFpPbXY0b3V5eWM0UXUtNEUzTGJGQ2ZWbFd2QVE?oc=5",
+      "id": "1ff45b840ddbb89e03bbebee95cbfaf7",
+      "title": "Prince Harry's war with UK press is over, and he's lost - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOLXcybThVS1ZwdDRmV05KOFBFYjcyamVkS1BwOWJBbGZhcUl2d2RjVWZxNk04LWZXLWNCRUo2V0xTM1pBX2hhSUZEY3BTcWRPbW82a3laSU5hekp0S1N6OG5fUEdSclhhY21sTDNWdGVPeWp6VTlvZ3dkcEMzMEpuX1htN050NUdHQU5sRDFzb3JJamtVTU9ZYw?oc=5\" target=\"_blank\">Prince Harry's war with UK press is over, and he's lost</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLXcybThVS1ZwdDRmV05KOFBFYjcyamVkS1BwOWJBbGZhcUl2d2RjVWZxNk04LWZXLWNCRUo2V0xTM1pBX2hhSUZEY3BTcWRPbW82a3laSU5hekp0S1N6OG5fUEdSclhhY21sTDNWdGVPeWp6VTlvZ3dkcEMzMEpuX1htN050NUdHQU5sRDFzb3JJamtVTU9ZYw?oc=5",
       "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-08T00:51:56.476047Z"
+    },
+    {
+      "id": "61cf0715c1a61f58948055b98543d39a",
+      "title": "Mitch McConnell's health concerns grow amid 4th week in hospital with few details from aides",
+      "summary": "McConnell, the former longtime Senate leader who declined to seek an eighth term following a series of health scares, was admitted to the hospital on June 14.",
+      "link": "https://www.cnbc.com/2026/07/07/mitch-mcconnell-health-senate-gop.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
       "assets": [
-        "EQUITIES"
+        "AI"
       ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-08T00:46:32.149976Z"
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-08T00:51:24.470962Z"
     }
   ]
 }
