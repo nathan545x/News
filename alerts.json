@@ -1,15 +1,797 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-09T07:26:28.146182Z",
+  "generated_at": "2026-07-09T07:37:15.431299Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-07-09T07:26:28.146191Z"
+    "critical_alerts": 3,
+    "high_alerts": 5,
+    "last_updated": "2026-07-09T07:37:15.431336Z"
   },
-  "top_signals": [],
-  "alerts": []
+  "top_signals": [
+    {
+      "id": "f1ad7da13b229e30314dfc8d6bb650bc",
+      "title": "Global Stocks Bounce Back as Oil Contains Gains: Markets Wrap",
+      "summary": "Stocks bounced back from a brief geopolitical risk-off spell as oil halted gains after the US concluded a second day of strikes on Iran.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-08/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-09T07:36:34.622251Z"
+    },
+    {
+      "id": "5930f56075a2dac5c36647eb23299082",
+      "title": "Powell, Acceptance Remarks",
+      "summary": "Speech For the 2026 John F. Kennedy Profile in Courage Award, John F. Kennedy Library Foundation, Boston, Massachusetts",
+      "link": "https://www.federalreserve.gov/newsevents/speech/powell20260531a.htm",
+      "source": "Federal Reserve",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-09T07:36:37.933826Z"
+    },
+    {
+      "id": "f3fe9ad4a6914cd94cfec0aacb1f4a16",
+      "title": "European Gas Edges Lower as Traders Assess Middle East Flare-Up",
+      "summary": "European natural gas prices edged lower as traders evaluate the region\u2019s supply picture after fresh hostilities between the US and Iran.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-09/european-gas-edges-lower-as-traders-assess-middle-east-flare-up",
+      "source": "Bloomberg",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-09T07:36:34.622398Z"
+    },
+    {
+      "id": "fd108c7eaea562e91b09894ff3c8efe2",
+      "title": "Taiwan Dollar Hits 14-Month Low on Greenback Gains, Dividends",
+      "summary": "The Taiwan dollar fell to its weakest level since April 2025, erasing gains from last year\u2019s historic rally as dollar strength and record dividend payouts weighed on sentiment.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-09/taiwan-dollar-hits-14-month-low-on-greenback-gains-dividends",
+      "source": "Bloomberg",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-09T07:36:34.622342Z"
+    },
+    {
+      "id": "27d2c797a69cc50f10273f958933613c",
+      "title": "Gold Holds Decline as US Strikes on Iran Magnify Inflation Risks - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNWVlIa2lFSjc2Q3dHbVpod2ZIY3NXRjBDVThBWTNIbGE0SXBUbUVoLW10WHN6OHdkdXdnU1gwZ2JWUWpZUFo0Ync3X3VMeUVqRXpBTFpsczhYbDE3ZnM3R25DUFdDS1E1enlFTUdobXRrdXN3X296RDFOcUVZcEFVTmNJUkwwZWZRNlVWUmQwS3BfOExIVVEtNUhpRWhGQVRxNXo4S3liV1BPTndrOFZBMWd2b2xTZw?oc=5\" target=\"_blank\">Gold Holds Decline as US Strikes on Iran Magnify Inflation Risks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWVlIa2lFSjc2Q3dHbVpod2ZIY3NXRjBDVThBWTNIbGE0SXBUbUVoLW10WHN6OHdkdXdnU1gwZ2JWUWpZUFo0Ync3X3VMeUVqRXpBTFpsczhYbDE3ZnM3R25DUFdDS1E1enlFTUdobXRrdXN3X296RDFOcUVZcEFVTmNJUkwwZWZRNlVWUmQwS3BfOExIVVEtNUhpRWhGQVRxNXo4S3liV1BPTndrOFZBMWd2b2xTZw?oc=5",
+      "source": "Google Macro",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-09T07:37:13.227337Z"
+    },
+    {
+      "id": "c908704daad99ab3aeb540f8974a2e79",
+      "title": "Jefferson, Global Economic Developments and the U.S. Economy",
+      "summary": "Speech At the 2026 Bank of Japan-Institute for Monetary and Economic Studies Conference, Tokyo, Japan",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm",
+      "source": "Federal Reserve",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-09T07:36:37.933876Z"
+    },
+    {
+      "id": "751d29b26e4393c4af8f8e149b8f6505",
+      "title": "Gulf companies are set to reveal the unequal toll of Iran war - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeUlETmVrbERuN1NFblIwZmpYZmYzaUtwN0o3Y3huQ0pqNmNncHhqb1RPbUJqb1dtUDhWQ2JFemNYYjczQWVlak0zT0VqM3k3MC1qdWxoYVE1U3Q1QWJZVFBsa0NUNWdCNThGNVExVGFQbHlLSy1haGMzTnp1YTM3cGF0UTl4ems3UUthY29tUmF0UUNhY2RvZi1FU0lIdGVUMUs2M2hSSEs?oc=5\" target=\"_blank\">Gulf companies are set to reveal the unequal toll of Iran war</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeUlETmVrbERuN1NFblIwZmpYZmYzaUtwN0o3Y3huQ0pqNmNncHhqb1RPbUJqb1dtUDhWQ2JFemNYYjczQWVlak0zT0VqM3k3MC1qdWxoYVE1U3Q1QWJZVFBsa0NUNWdCNThGNVExVGFQbHlLSy1haGMzTnp1YTM3cGF0UTl4ems3UUthY29tUmF0UUNhY2RvZi1FU0lIdGVUMUs2M2hSSEs?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-09T07:37:13.777810Z"
+    },
+    {
+      "id": "e3cba53c5044d3569a553529b460f301",
+      "title": "Federal Reserve issues initial findings from its 2025 triennial payments study",
+      "summary": "Federal Reserve issues initial findings from its 2025 triennial payments study",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20260701a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-09T07:36:37.876010Z"
+    },
+    {
+      "id": "e69ad1781a27a41d1c851ad4cbcce0dd",
+      "title": "Russia fuel crisis spills over to Central Asia as drone strikes bite",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/energy/russia-fuel-crisis-spills-over-to-central-asia-as-drone-strikes-bite",
+      "source": "Nikkei Asia",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-09T07:37:01.556118Z"
+    },
+    {
+      "id": "1b82c20576aa83c4829f517100045e0a",
+      "title": "US Navy fears ballistic missile subs can be hit by drones, anti-tank rockets",
+      "summary": "The U.S. Navy is searching for better methods of protecting its missile subs, as well as the shore installations that support them.",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/07/07/us-navy-fears-ballistic-missile-subs-can-be-hit-by-drones-anti-tank-rockets/",
+      "source": "Defense News",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-09T07:37:10.926279Z"
+    },
+    {
+      "id": "51d500f483f7a466e6991cd485646aeb",
+      "title": "Victory for al-Qaeda\u2019s Affiliate in Mali Would be a Regional Catastrophe",
+      "summary": "<p>Mali is not Syria, and Jama&#8217;at Nusrat al-Islam wal-Muslimin is not Hay&#8217;at Tahrir al-Sham.While the fall of the Bashar al-Assad regime and the rise of the Ahmed al-Sharaa government in Damascus, Syria can be seen as a net positive for regional security in the Levant, a Jama&#8217;at Nusrat al-Islam wal-Muslimin victory in Mali would devastate the region.Unlike Hay&#8217;at Tahrir al-Sham, Jama&#8217;at Nusrat al-Islam wal-Muslimin is a horizontally integrated transnational coalition committed to dismantling existing international borders, with a rank and file too radical to accept an Islamic Emirate of Mali as a terminal goal. Iyad Ag Ghali, the leader of</p>\n<p>The post <a href=\"https://warontherocks.com/victory-for-al-qaedas-affiliate-in-mali-would-be-a-regional-catastrophe/\">Victory for al-Qaeda\u2019s Affiliate in Mali Would be a Regional Catastrophe</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/victory-for-al-qaedas-affiliate-in-mali-would-be-a-regional-catastrophe/",
+      "source": "War on the Rocks",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-09T07:37:11.415282Z"
+    },
+    {
+      "id": "3edf31d00fdc40239f1d2acd815e36c7",
+      "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-09T07:36:37.808449Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "f1ad7da13b229e30314dfc8d6bb650bc",
+      "title": "Global Stocks Bounce Back as Oil Contains Gains: Markets Wrap",
+      "summary": "Stocks bounced back from a brief geopolitical risk-off spell as oil halted gains after the US concluded a second day of strikes on Iran.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-08/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-09T07:36:34.622251Z"
+    },
+    {
+      "id": "5930f56075a2dac5c36647eb23299082",
+      "title": "Powell, Acceptance Remarks",
+      "summary": "Speech For the 2026 John F. Kennedy Profile in Courage Award, John F. Kennedy Library Foundation, Boston, Massachusetts",
+      "link": "https://www.federalreserve.gov/newsevents/speech/powell20260531a.htm",
+      "source": "Federal Reserve",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-09T07:36:37.933826Z"
+    },
+    {
+      "id": "f3fe9ad4a6914cd94cfec0aacb1f4a16",
+      "title": "European Gas Edges Lower as Traders Assess Middle East Flare-Up",
+      "summary": "European natural gas prices edged lower as traders evaluate the region\u2019s supply picture after fresh hostilities between the US and Iran.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-09/european-gas-edges-lower-as-traders-assess-middle-east-flare-up",
+      "source": "Bloomberg",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-09T07:36:34.622398Z"
+    },
+    {
+      "id": "fd108c7eaea562e91b09894ff3c8efe2",
+      "title": "Taiwan Dollar Hits 14-Month Low on Greenback Gains, Dividends",
+      "summary": "The Taiwan dollar fell to its weakest level since April 2025, erasing gains from last year\u2019s historic rally as dollar strength and record dividend payouts weighed on sentiment.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-09/taiwan-dollar-hits-14-month-low-on-greenback-gains-dividends",
+      "source": "Bloomberg",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-09T07:36:34.622342Z"
+    },
+    {
+      "id": "27d2c797a69cc50f10273f958933613c",
+      "title": "Gold Holds Decline as US Strikes on Iran Magnify Inflation Risks - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNWVlIa2lFSjc2Q3dHbVpod2ZIY3NXRjBDVThBWTNIbGE0SXBUbUVoLW10WHN6OHdkdXdnU1gwZ2JWUWpZUFo0Ync3X3VMeUVqRXpBTFpsczhYbDE3ZnM3R25DUFdDS1E1enlFTUdobXRrdXN3X296RDFOcUVZcEFVTmNJUkwwZWZRNlVWUmQwS3BfOExIVVEtNUhpRWhGQVRxNXo4S3liV1BPTndrOFZBMWd2b2xTZw?oc=5\" target=\"_blank\">Gold Holds Decline as US Strikes on Iran Magnify Inflation Risks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWVlIa2lFSjc2Q3dHbVpod2ZIY3NXRjBDVThBWTNIbGE0SXBUbUVoLW10WHN6OHdkdXdnU1gwZ2JWUWpZUFo0Ync3X3VMeUVqRXpBTFpsczhYbDE3ZnM3R25DUFdDS1E1enlFTUdobXRrdXN3X296RDFOcUVZcEFVTmNJUkwwZWZRNlVWUmQwS3BfOExIVVEtNUhpRWhGQVRxNXo4S3liV1BPTndrOFZBMWd2b2xTZw?oc=5",
+      "source": "Google Macro",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-09T07:37:13.227337Z"
+    },
+    {
+      "id": "c908704daad99ab3aeb540f8974a2e79",
+      "title": "Jefferson, Global Economic Developments and the U.S. Economy",
+      "summary": "Speech At the 2026 Bank of Japan-Institute for Monetary and Economic Studies Conference, Tokyo, Japan",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm",
+      "source": "Federal Reserve",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-09T07:36:37.933876Z"
+    },
+    {
+      "id": "751d29b26e4393c4af8f8e149b8f6505",
+      "title": "Gulf companies are set to reveal the unequal toll of Iran war - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeUlETmVrbERuN1NFblIwZmpYZmYzaUtwN0o3Y3huQ0pqNmNncHhqb1RPbUJqb1dtUDhWQ2JFemNYYjczQWVlak0zT0VqM3k3MC1qdWxoYVE1U3Q1QWJZVFBsa0NUNWdCNThGNVExVGFQbHlLSy1haGMzTnp1YTM3cGF0UTl4ems3UUthY29tUmF0UUNhY2RvZi1FU0lIdGVUMUs2M2hSSEs?oc=5\" target=\"_blank\">Gulf companies are set to reveal the unequal toll of Iran war</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeUlETmVrbERuN1NFblIwZmpYZmYzaUtwN0o3Y3huQ0pqNmNncHhqb1RPbUJqb1dtUDhWQ2JFemNYYjczQWVlak0zT0VqM3k3MC1qdWxoYVE1U3Q1QWJZVFBsa0NUNWdCNThGNVExVGFQbHlLSy1haGMzTnp1YTM3cGF0UTl4ems3UUthY29tUmF0UUNhY2RvZi1FU0lIdGVUMUs2M2hSSEs?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-09T07:37:13.777810Z"
+    },
+    {
+      "id": "e3cba53c5044d3569a553529b460f301",
+      "title": "Federal Reserve issues initial findings from its 2025 triennial payments study",
+      "summary": "Federal Reserve issues initial findings from its 2025 triennial payments study",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20260701a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-09T07:36:37.876010Z"
+    },
+    {
+      "id": "e69ad1781a27a41d1c851ad4cbcce0dd",
+      "title": "Russia fuel crisis spills over to Central Asia as drone strikes bite",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/energy/russia-fuel-crisis-spills-over-to-central-asia-as-drone-strikes-bite",
+      "source": "Nikkei Asia",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-09T07:37:01.556118Z"
+    },
+    {
+      "id": "1b82c20576aa83c4829f517100045e0a",
+      "title": "US Navy fears ballistic missile subs can be hit by drones, anti-tank rockets",
+      "summary": "The U.S. Navy is searching for better methods of protecting its missile subs, as well as the shore installations that support them.",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/07/07/us-navy-fears-ballistic-missile-subs-can-be-hit-by-drones-anti-tank-rockets/",
+      "source": "Defense News",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-09T07:37:10.926279Z"
+    },
+    {
+      "id": "51d500f483f7a466e6991cd485646aeb",
+      "title": "Victory for al-Qaeda\u2019s Affiliate in Mali Would be a Regional Catastrophe",
+      "summary": "<p>Mali is not Syria, and Jama&#8217;at Nusrat al-Islam wal-Muslimin is not Hay&#8217;at Tahrir al-Sham.While the fall of the Bashar al-Assad regime and the rise of the Ahmed al-Sharaa government in Damascus, Syria can be seen as a net positive for regional security in the Levant, a Jama&#8217;at Nusrat al-Islam wal-Muslimin victory in Mali would devastate the region.Unlike Hay&#8217;at Tahrir al-Sham, Jama&#8217;at Nusrat al-Islam wal-Muslimin is a horizontally integrated transnational coalition committed to dismantling existing international borders, with a rank and file too radical to accept an Islamic Emirate of Mali as a terminal goal. Iyad Ag Ghali, the leader of</p>\n<p>The post <a href=\"https://warontherocks.com/victory-for-al-qaedas-affiliate-in-mali-would-be-a-regional-catastrophe/\">Victory for al-Qaeda\u2019s Affiliate in Mali Would be a Regional Catastrophe</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/victory-for-al-qaedas-affiliate-in-mali-would-be-a-regional-catastrophe/",
+      "source": "War on the Rocks",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-09T07:37:11.415282Z"
+    },
+    {
+      "id": "3edf31d00fdc40239f1d2acd815e36c7",
+      "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-09T07:36:37.808449Z"
+    },
+    {
+      "id": "737a0285b943f2d9f1c6c3d78319ded8",
+      "title": "India's Skyroot says it can build a space rocket a month as launch nears",
+      "summary": "",
+      "link": "https://asia.nikkei.com/editor-s-picks/interview/india-s-skyroot-says-it-can-build-a-space-rocket-a-month-as-launch-nears",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-09T07:37:01.556047Z"
+    },
+    {
+      "id": "7aae11104178c2efc4eb5395cfd9d4bf",
+      "title": "AstraZeneca stock dives 9% after heart drug trial misses target",
+      "summary": "",
+      "link": "https://www.cnbc.com/2026/07/09/astrazeneca-stock-trial-heart-drug-pharma.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-09T07:36:37.467462Z"
+    },
+    {
+      "id": "e5e5a54340743a9a6d82caa5d5237267",
+      "title": "Cambodia wants to bring back tigers, but should it?",
+      "summary": "The plan would see India send several of its more than 3,600 tigers to southwestern Cambodia's Cardamom Mountains, a protected expanse of lush rainforest.",
+      "link": "https://www.japantimes.co.jp/environment/2026/07/09/wildlife/cambodia-tigers/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-09T07:37:02.146887Z"
+    },
+    {
+      "id": "6ff246cfb5ee7d283e8d4fe21adf1d02",
+      "title": "\u2018Princess Mononoke\u2019 comes alive in Super Kabuki staging",
+      "summary": "Kabuki, one of Japan's oldest performing art forms, and Studio Ghibli seek modern resonance in an everchanging landscape for arts.",
+      "link": "https://www.japantimes.co.jp/culture/2026/07/09/stage/ghibli-mononoke-kabuki-show/",
+      "source": "Japan Times",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN",
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-09T07:37:02.146946Z"
+    }
+  ]
 }
