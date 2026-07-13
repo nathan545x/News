@@ -1,49 +1,481 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-13T04:41:56.756052Z",
+  "generated_at": "2026-07-13T04:48:48.637626Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-07-13T04:41:56.756064Z"
+    "critical_alerts": 2,
+    "high_alerts": 3,
+    "last_updated": "2026-07-13T04:48:48.637641Z"
   },
   "top_signals": [
     {
-      "id": "ac5e9cfac448ef4a737169f5197e94bd",
-      "title": "Investors cut back bets on Asian chipmakers after blistering rally",
-      "summary": "TSMC, SK Hynix and Samsung Electronics together account for 29% of MSCI Emerging Markets index",
-      "link": "https://www.ft.com/content/734c23c8-73ed-4a4a-8150-49d12d891c30",
-      "source": "Financial Times",
-      "score": 8,
+      "id": "73fb0ea32f2204ef136a948b505c83b0",
+      "title": "AI, Iran War Risks Weigh on Indian IT Firms\u2019 Earnings Outlook",
+      "summary": "HCL Technologies Ltd., Wipro Ltd. and Tech Mahindra Ltd. are set to report earnings as their investor base increasingly questions the value of traditional IT services in the age of artificial intelligence.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-10/indian-it-firms-earnings-face-ai-middle-east-war-risks",
+      "source": "Bloomberg",
+      "score": 36,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-13T04:46:04.771222Z"
+    },
+    {
+      "id": "485abfde37b46c3c8d006b0b4692c216",
+      "title": "Bitcoin holds near $63,800 as war-driven selloff hits everything but crypto",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/07/13/bitcoin-holds-near-usd63-800-as-war-driven-selloff-hits-everything-but-crypto",
+      "source": "CoinDesk",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-13T04:48:45.243012Z"
+    },
+    {
+      "id": "458c5303a9a8ce70ced3ac5be12d284d",
+      "title": "The volatile AI trade marched higher, but oil kept Wall Street on edge last week",
+      "summary": "Chip stocks had a wild but strong week. Meta led our portfolio higher.",
+      "link": "https://www.cnbc.com/2026/07/11/the-volatile-ai-rally-marched-higher-but-oil-kept-wall-street-on-edge-last-week.html",
+      "source": "CNBC",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-13T04:46:08.439974Z"
+    },
+    {
+      "id": "750683e01ab89d20e36cc1dd9fcf38eb",
+      "title": "Christine Lagarde: Interview with Les \u00c9chos",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260702~c56db179c3.en.html",
+      "source": "ECB",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-13T04:46:18.826496Z"
+    },
+    {
+      "id": "de2b6124987fd05066614ab1535e961c",
+      "title": "Federal Reserve Board issues enforcement action with Small Business Bank and announces termination enforcement actions with BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp., and Community Bankshares, Inc.",
+      "summary": "Federal Reserve Board issues enforcement action with Small Business Bank and announces termination enforcement actions with BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp., and Community Bankshares, Inc.",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260702a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-13T04:46:08.656269Z"
+    },
+    {
+      "id": "2e0daf734179fef0893328f764e55919",
+      "title": "UK financial system strengthened with new safeguards for major technology providers",
+      "summary": "Government has designated four major global cloud services and technology providers as Critical Third Parties (CTPs).",
+      "link": "https://www.gov.uk/government/news/uk-financial-system-strengthened-with-new-safeguards-for-major-technology-providers",
+      "source": "HM Treasury",
+      "score": 10,
       "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T04:46:23.398700Z"
+    },
+    {
+      "id": "b71a907d0caab56aee2009b812b5e6a6",
+      "title": "A New Challenge for an African Oil Giant Is Building Trust - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOGtOTGxmQ01rZHlCUjI0YzRFcDhnVmYweTZYNlJnWTZkMmFBNmplVkozckJiVFRvX3JPbDFYZFFYa2NkSUZfMWEwLVJ6UkNKTkR0M2t4QUU0T3ZVNHFaSkpvWkllNGNtd3ZFOWtaSEdlTVFoZ0pPZ2s1YkZZbkM4cS1mc1hXUHN2Q19sMFloSEpicl9xUEVKXzZ4U3dvc2tfVGdVSDZ0MkRaME1oYTNMZ3ctSkJfUXFwQ21XaEdHWGg5QQ?oc=5\" target=\"_blank\">A New Challenge for an African Oil Giant Is Building Trust</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOGtOTGxmQ01rZHlCUjI0YzRFcDhnVmYweTZYNlJnWTZkMmFBNmplVkozckJiVFRvX3JPbDFYZFFYa2NkSUZfMWEwLVJ6UkNKTkR0M2t4QUU0T3ZVNHFaSkpvWkllNGNtd3ZFOWtaSEdlTVFoZ0pPZ2s1YkZZbkM4cS1mc1hXUHN2Q19sMFloSEpicl9xUEVKXzZ4U3dvc2tfVGdVSDZ0MkRaME1oYTNMZ3ctSkJfUXFwQ21XaEdHWGg5QQ?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-13T04:48:46.492549Z"
+    },
+    {
+      "id": "519679fe211d6827b1b312ff129e1044",
+      "title": "Speech by Commissioner Lahbib at the Health Emergency Preparedness and Response Authority (HERA) Implementation Dialogue",
+      "summary": "European Commission Speech Brussels, 10 Jul 2026 We are here because we all have something in common: we believe that health security is not the job of one institution or one sector. It is all our responsibili...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1588",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T04:46:22.513013Z"
+    },
+    {
+      "id": "a2b3f3c3f562232db3b2c1fe087f22d0",
+      "title": "Summit at Sea Level to Accelerate Coastal Resilience in Louisiana",
+      "summary": "The Louisiana Coastal Protection and Restoration Authority (CPRA), the Louisiana Department of Transportation and Development (DOTD), and the U.S. Army Corps of Engineers (USACE) have agreed to a joint commitment to overhaul bureaucratic processes\u2026",
+      "link": "https://www.marinelink.com/news/summit-sea-level-accelerate-coastal-541135",
+      "source": "MarineLink",
+      "score": 1,
+      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-13T04:41:26.231179Z"
+      "published": "2026-07-13T04:48:44.121938Z"
     }
   ],
   "alerts": [
     {
-      "id": "ac5e9cfac448ef4a737169f5197e94bd",
-      "title": "Investors cut back bets on Asian chipmakers after blistering rally",
-      "summary": "TSMC, SK Hynix and Samsung Electronics together account for 29% of MSCI Emerging Markets index",
-      "link": "https://www.ft.com/content/734c23c8-73ed-4a4a-8150-49d12d891c30",
-      "source": "Financial Times",
-      "score": 8,
+      "id": "73fb0ea32f2204ef136a948b505c83b0",
+      "title": "AI, Iran War Risks Weigh on Indian IT Firms\u2019 Earnings Outlook",
+      "summary": "HCL Technologies Ltd., Wipro Ltd. and Tech Mahindra Ltd. are set to report earnings as their investor base increasingly questions the value of traditional IT services in the age of artificial intelligence.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-10/indian-it-firms-earnings-face-ai-middle-east-war-risks",
+      "source": "Bloomberg",
+      "score": 36,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-13T04:46:04.771222Z"
+    },
+    {
+      "id": "485abfde37b46c3c8d006b0b4692c216",
+      "title": "Bitcoin holds near $63,800 as war-driven selloff hits everything but crypto",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/07/13/bitcoin-holds-near-usd63-800-as-war-driven-selloff-hits-everything-but-crypto",
+      "source": "CoinDesk",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-13T04:48:45.243012Z"
+    },
+    {
+      "id": "458c5303a9a8ce70ced3ac5be12d284d",
+      "title": "The volatile AI trade marched higher, but oil kept Wall Street on edge last week",
+      "summary": "Chip stocks had a wild but strong week. Meta led our portfolio higher.",
+      "link": "https://www.cnbc.com/2026/07/11/the-volatile-ai-rally-marched-higher-but-oil-kept-wall-street-on-edge-last-week.html",
+      "source": "CNBC",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-13T04:46:08.439974Z"
+    },
+    {
+      "id": "750683e01ab89d20e36cc1dd9fcf38eb",
+      "title": "Christine Lagarde: Interview with Les \u00c9chos",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260702~c56db179c3.en.html",
+      "source": "ECB",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-13T04:46:18.826496Z"
+    },
+    {
+      "id": "de2b6124987fd05066614ab1535e961c",
+      "title": "Federal Reserve Board issues enforcement action with Small Business Bank and announces termination enforcement actions with BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp., and Community Bankshares, Inc.",
+      "summary": "Federal Reserve Board issues enforcement action with Small Business Bank and announces termination enforcement actions with BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp., and Community Bankshares, Inc.",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260702a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-13T04:46:08.656269Z"
+    },
+    {
+      "id": "2e0daf734179fef0893328f764e55919",
+      "title": "UK financial system strengthened with new safeguards for major technology providers",
+      "summary": "Government has designated four major global cloud services and technology providers as Critical Third Parties (CTPs).",
+      "link": "https://www.gov.uk/government/news/uk-financial-system-strengthened-with-new-safeguards-for-major-technology-providers",
+      "source": "HM Treasury",
+      "score": 10,
       "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T04:46:23.398700Z"
+    },
+    {
+      "id": "b71a907d0caab56aee2009b812b5e6a6",
+      "title": "A New Challenge for an African Oil Giant Is Building Trust - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOGtOTGxmQ01rZHlCUjI0YzRFcDhnVmYweTZYNlJnWTZkMmFBNmplVkozckJiVFRvX3JPbDFYZFFYa2NkSUZfMWEwLVJ6UkNKTkR0M2t4QUU0T3ZVNHFaSkpvWkllNGNtd3ZFOWtaSEdlTVFoZ0pPZ2s1YkZZbkM4cS1mc1hXUHN2Q19sMFloSEpicl9xUEVKXzZ4U3dvc2tfVGdVSDZ0MkRaME1oYTNMZ3ctSkJfUXFwQ21XaEdHWGg5QQ?oc=5\" target=\"_blank\">A New Challenge for an African Oil Giant Is Building Trust</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOGtOTGxmQ01rZHlCUjI0YzRFcDhnVmYweTZYNlJnWTZkMmFBNmplVkozckJiVFRvX3JPbDFYZFFYa2NkSUZfMWEwLVJ6UkNKTkR0M2t4QUU0T3ZVNHFaSkpvWkllNGNtd3ZFOWtaSEdlTVFoZ0pPZ2s1YkZZbkM4cS1mc1hXUHN2Q19sMFloSEpicl9xUEVKXzZ4U3dvc2tfVGdVSDZ0MkRaME1oYTNMZ3ctSkJfUXFwQ21XaEdHWGg5QQ?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-13T04:48:46.492549Z"
+    },
+    {
+      "id": "519679fe211d6827b1b312ff129e1044",
+      "title": "Speech by Commissioner Lahbib at the Health Emergency Preparedness and Response Authority (HERA) Implementation Dialogue",
+      "summary": "European Commission Speech Brussels, 10 Jul 2026 We are here because we all have something in common: we believe that health security is not the job of one institution or one sector. It is all our responsibili...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1588",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T04:46:22.513013Z"
+    },
+    {
+      "id": "a2b3f3c3f562232db3b2c1fe087f22d0",
+      "title": "Summit at Sea Level to Accelerate Coastal Resilience in Louisiana",
+      "summary": "The Louisiana Coastal Protection and Restoration Authority (CPRA), the Louisiana Department of Transportation and Development (DOTD), and the U.S. Army Corps of Engineers (USACE) have agreed to a joint commitment to overhaul bureaucratic processes\u2026",
+      "link": "https://www.marinelink.com/news/summit-sea-level-accelerate-coastal-541135",
+      "source": "MarineLink",
+      "score": 1,
+      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-13T04:41:26.231179Z"
+      "published": "2026-07-13T04:48:44.121938Z"
     }
   ]
 }
