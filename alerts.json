@@ -1,55 +1,159 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-13T09:56:40.674200Z",
+  "generated_at": "2026-07-13T10:02:12.370512Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-07-13T09:56:40.674208Z"
+    "critical_alerts": 3,
+    "high_alerts": 3,
+    "last_updated": "2026-07-13T10:02:12.370529Z"
   },
   "top_signals": [
     {
-      "id": "190a29ba588f426127979fa90ac1dca9",
-      "title": "U.S. commercial crude oil inventories have decreased in June",
-      "summary": "For the week ending June 19, 2026, U.S. refineries processed 17.1 million barrels per day (b/d) of crude oil, down 81,000 b/d from the previous week, and they operated at 96.1% capacity utilization. Gasoline production averaged 9.5 million b/d, and distillate production increased to 5.2 million b/d.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67805",
-      "source": "EIA",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
+      "id": "d97f8eb17bf34ab94c169a9ece6710ad",
+      "title": "Treasury Two-Year Yields Rise to Highest Since 2025 as Oil Jumps",
+      "summary": "Treasury two-year yields climbed to their highest level since early 2025 as renewed tensions in Iran pushed up oil prices, fanning speculation that the Federal Reserve will need to raise interest rates to combat inflation.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-13/treasury-two-year-yield-rises-to-highest-since-2025-on-oil-gain",
+      "source": "Bloomberg",
+      "score": 46,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
+        "TLT",
         "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
-        "COMMODITIES"
+        "AI",
+        "COMMODITIES",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-13T09:56:32.453923Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-13T10:01:37.488847Z"
     },
     {
-      "id": "4b78ad6c8c7e07bd174292b9a4032593",
-      "title": "US Marines successfully test-fire new medium-range air defense system",
-      "summary": "U.S. Marines on Guam successfully fired the service's new Medium-Range Intercept Capability system during Exercise Valiant Shield.",
-      "link": "https://www.defensenews.com/news/your-military/2026/07/10/us-marines-successfully-test-fire-new-medium-range-air-defense-system/",
-      "source": "Defense News",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "AI",
+      "id": "760cbab12d6709061a08cd4698d39e9b",
+      "title": "Ukraine\u2019s drone swarms test Moscow air defences for second day",
+      "summary": "Kyiv intensifies deep-strike campaign against Russia after attacks on refineries sparked fuel crisis",
+      "link": "https://www.ft.com/content/4194d23f-4cce-4aaa-bf22-9bf4c953e04e",
+      "source": "Financial Times",
+      "score": 37,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-13T10:01:39.979245Z"
+    },
+    {
+      "id": "62b53c3509cf303fab3a7c68b1006bb8",
+      "title": "Treasury yields are little changed as U.S.-Iran ceasefire strained; investors await core inflation data",
+      "summary": "The yield on the 10-year U.S. Treasury note \u2014 the key benchmark for U.S. government borrowing \u2014 was broadly unchanged at 4.473%.",
+      "link": "https://www.cnbc.com/2026/07/13/treasury-yields-faltering-us-iran-ceasefire-bond-markets.html",
+      "source": "CNBC",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-13T10:01:41.416408Z"
+    },
+    {
+      "id": "89cc126e6e03964d834eb80169d7eafb",
+      "title": "Bank of England appoints Rhys Phillips as the new Chief Cashier",
+      "summary": "The Governor of the Bank of England, Andrew Bailey, has announced that\u202fRhys\u202fPhillips will be the next Chief Cashier and Director of Notes. He will take up the role on 19 October 2026.",
+      "link": "https://www.bankofengland.co.uk/news/2026/july/boe-appoints-rhys-phillips-as-the-new-chief-cashier",
+      "source": "Bank of England",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-13T10:01:58.579476Z"
+    },
+    {
+      "id": "97ca985b9ccd0e481affa6534eccecc3",
+      "title": "Johor landslide win boosts Malaysia's BN, raising pressure on Anwar",
+      "summary": "",
+      "link": "https://asia.nikkei.com/politics/johor-landslide-win-boosts-malaysia-s-bn-raising-pressure-on-anwar",
+      "source": "Nikkei Asia",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -57,110 +161,506 @@
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-13T09:56:35.381761Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-13T10:02:03.103203Z"
     },
     {
-      "id": "fe5c4a69219e5c8e824766bfb994f821",
-      "title": "U.S. refining capacity decreased during 2025",
-      "summary": "U.S. operable atmospheric distillation capacity, the primary measure of refinery capacity, totaled 18.2 million barrels per calendar day (b/cd) on January 1, 2026-down over 250,000 b/cd (about 1%) compared with January 1, 2025-according to our latest annual Refinery Capacity Report.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67807",
-      "source": "EIA",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "COMMODITIES",
+      "id": "489f7eb79d890669e3ff4b2b0788c6d4",
+      "title": "Japan\u2019s Lawson convenience store pilots stablecoin payments with JPYC: report",
+      "summary": "<p>This is part of a proof-of-concept involving telecommunications giant KDDI and crypto wallet firm HashPort.</p>",
+      "link": "https://www.theblock.co/post/407982/lawson-pilots-jpyc-stablecoin?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-13T10:02:08.584647Z"
+    },
+    {
+      "id": "67332b64eddec507cd0ce8c228e46520",
+      "title": "Minutes of the UK Money Markets Code Sub-Committee \u2013 June 2026",
+      "summary": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+      "link": "https://www.bankofengland.co.uk/minutes/2026/june/money-markets-committee-minutes-june-2026",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T10:01:58.579396Z"
+    },
+    {
+      "id": "bb74710650c4de77b6b63a4dd5419708",
+      "title": "Mixed signals, research findings, and policy judgements \u2212 speech by Catherine L. Mann",
+      "summary": "Given at the Natixis CIB Private Debt Forum",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/catherine-l-mann-fireside-chat-at-the-natixis-cib-conference-on-private-debt",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T10:01:58.794819Z"
+    },
+    {
+      "id": "91e3c39445631760d4be911041fb7057",
+      "title": "When the ducks are quacking, feed them",
+      "summary": "Memory mania redux",
+      "link": "https://www.ft.com/content/eb835b03-4528-4dd4-90fe-e8bf3e22891d",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T10:01:39.637347Z"
+    },
+    {
+      "id": "75b65b3c76d94cd8d5b3ac1a6ba6ef52",
+      "title": "Investors alarmed as Asian chipmakers take stranglehold on indices",
+      "summary": "TSMC, SK Hynix and Samsung Electronics together account for 29% of MSCI Emerging Markets index",
+      "link": "https://www.ft.com/content/734c23c8-73ed-4a4a-8150-49d12d891c30",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T10:01:39.637423Z"
+    },
+    {
+      "id": "d01a4e4e1c867e1db481dc9fb9528a4e",
+      "title": "Legal sector regulator in England and Wales has \u2018lost its way\u2019, review finds",
+      "summary": "Report into Legal Services Board follows a number of high-profile law firm collapses in recent years",
+      "link": "https://www.ft.com/content/f50a5d70-3160-4844-a6a2-179db3bb7d3c",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T10:01:39.979186Z"
+    },
+    {
+      "id": "dba4b0694ac9673812e9ca6cc915c334",
+      "title": "Personal Income and Outlays, May 2026",
+      "summary": "Personal income increased $181.6 billion (0.7 percent at a monthly rate) in May, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-increased $164.9 billion (0.7 percent), and personal consumption expenditures (PCE) increased $156.1 billion (0.7 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $159.9 billion in May. Personal saving was $704.2 billion in May, and the personal saving rate-personal saving as a percentage of DPI-was 3.0 percent.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026\">Full Text</a><!--Full Text Link-->",
+      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026",
+      "source": "BEA",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "COMMODITIES"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-13T09:56:32.453852Z"
-    },
-    {
-      "id": "2d2fefe9686d185b43d827e06209fe6e",
-      "title": "AI is entering a new phase \u2014 and these are the stocks investors should be watching - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxON29OTHVWRGZyajZnX1oydm1xanJiNThUS2tKTThHdlJsR0FfME8wYU1pZGtob200QW8zcU5OeDRhMWllWk5TTFc2RnMzdnJKLUlFamRiOU9mdm0zWWxFWmlIbUxrbWttMDIzVVZIbldXRXFCYmFmVE1Bc3ZxUURyUG5sNzk3cHpXLWhmM3RxTXN4dlRVVEVBSXJnN01HcktzaUhMclZCbUVYYmczTXRHNjB3Q2hEQjRz?oc=5\" target=\"_blank\">AI is entering a new phase \u2014 and these are the stocks investors should be watching</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON29OTHVWRGZyajZnX1oydm1xanJiNThUS2tKTThHdlJsR0FfME8wYU1pZGtob200QW8zcU5OeDRhMWllWk5TTFc2RnMzdnJKLUlFamRiOU9mdm0zWWxFWmlIbUxrbWttMDIzVVZIbldXRXFCYmFmVE1Bc3ZxUURyUG5sNzk3cHpXLWhmM3RxTXN4dlRVVEVBSXJnN01HcktzaUhMclZCbUVYYmczTXRHNjB3Q2hEQjRz?oc=5",
-      "source": "Google Macro",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-13T09:56:40.674179Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-07-13T10:01:52.953190Z"
     }
   ],
   "alerts": [
     {
-      "id": "190a29ba588f426127979fa90ac1dca9",
-      "title": "U.S. commercial crude oil inventories have decreased in June",
-      "summary": "For the week ending June 19, 2026, U.S. refineries processed 17.1 million barrels per day (b/d) of crude oil, down 81,000 b/d from the previous week, and they operated at 96.1% capacity utilization. Gasoline production averaged 9.5 million b/d, and distillate production increased to 5.2 million b/d.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67805",
-      "source": "EIA",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
+      "id": "d97f8eb17bf34ab94c169a9ece6710ad",
+      "title": "Treasury Two-Year Yields Rise to Highest Since 2025 as Oil Jumps",
+      "summary": "Treasury two-year yields climbed to their highest level since early 2025 as renewed tensions in Iran pushed up oil prices, fanning speculation that the Federal Reserve will need to raise interest rates to combat inflation.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-13/treasury-two-year-yield-rises-to-highest-since-2025-on-oil-gain",
+      "source": "Bloomberg",
+      "score": 46,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
+        "TLT",
         "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
-        "COMMODITIES"
+        "AI",
+        "COMMODITIES",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-13T09:56:32.453923Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-13T10:01:37.488847Z"
     },
     {
-      "id": "4b78ad6c8c7e07bd174292b9a4032593",
-      "title": "US Marines successfully test-fire new medium-range air defense system",
-      "summary": "U.S. Marines on Guam successfully fired the service's new Medium-Range Intercept Capability system during Exercise Valiant Shield.",
-      "link": "https://www.defensenews.com/news/your-military/2026/07/10/us-marines-successfully-test-fire-new-medium-range-air-defense-system/",
-      "source": "Defense News",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "AI",
+      "id": "760cbab12d6709061a08cd4698d39e9b",
+      "title": "Ukraine\u2019s drone swarms test Moscow air defences for second day",
+      "summary": "Kyiv intensifies deep-strike campaign against Russia after attacks on refineries sparked fuel crisis",
+      "link": "https://www.ft.com/content/4194d23f-4cce-4aaa-bf22-9bf4c953e04e",
+      "source": "Financial Times",
+      "score": 37,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-13T10:01:39.979245Z"
+    },
+    {
+      "id": "62b53c3509cf303fab3a7c68b1006bb8",
+      "title": "Treasury yields are little changed as U.S.-Iran ceasefire strained; investors await core inflation data",
+      "summary": "The yield on the 10-year U.S. Treasury note \u2014 the key benchmark for U.S. government borrowing \u2014 was broadly unchanged at 4.473%.",
+      "link": "https://www.cnbc.com/2026/07/13/treasury-yields-faltering-us-iran-ceasefire-bond-markets.html",
+      "source": "CNBC",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-13T10:01:41.416408Z"
+    },
+    {
+      "id": "89cc126e6e03964d834eb80169d7eafb",
+      "title": "Bank of England appoints Rhys Phillips as the new Chief Cashier",
+      "summary": "The Governor of the Bank of England, Andrew Bailey, has announced that\u202fRhys\u202fPhillips will be the next Chief Cashier and Director of Notes. He will take up the role on 19 October 2026.",
+      "link": "https://www.bankofengland.co.uk/news/2026/july/boe-appoints-rhys-phillips-as-the-new-chief-cashier",
+      "source": "Bank of England",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-13T10:01:58.579476Z"
+    },
+    {
+      "id": "97ca985b9ccd0e481affa6534eccecc3",
+      "title": "Johor landslide win boosts Malaysia's BN, raising pressure on Anwar",
+      "summary": "",
+      "link": "https://asia.nikkei.com/politics/johor-landslide-win-boosts-malaysia-s-bn-raising-pressure-on-anwar",
+      "source": "Nikkei Asia",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-13T10:02:03.103203Z"
+    },
+    {
+      "id": "489f7eb79d890669e3ff4b2b0788c6d4",
+      "title": "Japan\u2019s Lawson convenience store pilots stablecoin payments with JPYC: report",
+      "summary": "<p>This is part of a proof-of-concept involving telecommunications giant KDDI and crypto wallet firm HashPort.</p>",
+      "link": "https://www.theblock.co/post/407982/lawson-pilots-jpyc-stablecoin?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-13T10:02:08.584647Z"
+    },
+    {
+      "id": "67332b64eddec507cd0ce8c228e46520",
+      "title": "Minutes of the UK Money Markets Code Sub-Committee \u2013 June 2026",
+      "summary": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+      "link": "https://www.bankofengland.co.uk/minutes/2026/june/money-markets-committee-minutes-june-2026",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T10:01:58.579396Z"
+    },
+    {
+      "id": "bb74710650c4de77b6b63a4dd5419708",
+      "title": "Mixed signals, research findings, and policy judgements \u2212 speech by Catherine L. Mann",
+      "summary": "Given at the Natixis CIB Private Debt Forum",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/catherine-l-mann-fireside-chat-at-the-natixis-cib-conference-on-private-debt",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T10:01:58.794819Z"
+    },
+    {
+      "id": "91e3c39445631760d4be911041fb7057",
+      "title": "When the ducks are quacking, feed them",
+      "summary": "Memory mania redux",
+      "link": "https://www.ft.com/content/eb835b03-4528-4dd4-90fe-e8bf3e22891d",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T10:01:39.637347Z"
+    },
+    {
+      "id": "75b65b3c76d94cd8d5b3ac1a6ba6ef52",
+      "title": "Investors alarmed as Asian chipmakers take stranglehold on indices",
+      "summary": "TSMC, SK Hynix and Samsung Electronics together account for 29% of MSCI Emerging Markets index",
+      "link": "https://www.ft.com/content/734c23c8-73ed-4a4a-8150-49d12d891c30",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T10:01:39.637423Z"
+    },
+    {
+      "id": "d01a4e4e1c867e1db481dc9fb9528a4e",
+      "title": "Legal sector regulator in England and Wales has \u2018lost its way\u2019, review finds",
+      "summary": "Report into Legal Services Board follows a number of high-profile law firm collapses in recent years",
+      "link": "https://www.ft.com/content/f50a5d70-3160-4844-a6a2-179db3bb7d3c",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T10:01:39.979186Z"
+    },
+    {
+      "id": "dba4b0694ac9673812e9ca6cc915c334",
+      "title": "Personal Income and Outlays, May 2026",
+      "summary": "Personal income increased $181.6 billion (0.7 percent at a monthly rate) in May, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-increased $164.9 billion (0.7 percent), and personal consumption expenditures (PCE) increased $156.1 billion (0.7 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $159.9 billion in May. Personal saving was $704.2 billion in May, and the personal saving rate-personal saving as a percentage of DPI-was 3.0 percent.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026\">Full Text</a><!--Full Text Link-->",
+      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026",
+      "source": "BEA",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-07-13T10:01:52.953190Z"
+    },
+    {
+      "id": "db68843a7863b100174201ea28e4a73c",
+      "title": "EU steps up international support for Palestinians with major initiative for Gaza's early recovery and stronger international coordination",
+      "summary": "European Commission Press release Brussels, 13 Jul 2026 Today, the European Commission is convening the second meeting of the Palestine Donor Group (PDG), co-chaired by Commissioner for the Mediterranean Dubravka \u0160uica and Palestinian Authority's (PA) Prime Minister Mohammad Mustafa. 65 delegations gather in Brussels for the launch of a new Initiative for early recovery in Gaza and to discuss the Palestinian Authority's Reform Agenda.",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1567",
+      "source": "European Commission",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-13T10:01:58.155869Z"
+    },
+    {
+      "id": "7920032a19c1a20e52e886db9811a103",
+      "title": "A pension shift in Japan may hurt some foreign money managers",
+      "summary": "Finance Minister Satsuki Katayama said the \u200bgovernment aims to steer the country's vast state pension funds to \"substantially\" increase domestic asset investments.",
+      "link": "https://www.japantimes.co.jp/business/2026/07/13/pension-shift-foreign-money-managers/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "JAPAN",
+        "UK"
+      ],
       "assets": [
         "AI"
       ],
@@ -173,59 +673,39 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-13T09:56:35.381761Z"
+      "published": "2026-07-13T10:02:03.811579Z"
     },
     {
-      "id": "fe5c4a69219e5c8e824766bfb994f821",
-      "title": "U.S. refining capacity decreased during 2025",
-      "summary": "U.S. operable atmospheric distillation capacity, the primary measure of refinery capacity, totaled 18.2 million barrels per calendar day (b/cd) on January 1, 2026-down over 250,000 b/cd (about 1%) compared with January 1, 2025-according to our latest annual Refinery Capacity Report.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67807",
-      "source": "EIA",
-      "score": 6,
+      "id": "d6868a854147908e9b904c97489ba583",
+      "title": "GDP, (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 1st Quarter 2026",
+      "summary": "Real gross domestic product (GDP) increased at an annual rate of 2.1 percent in the first quarter of 2026 (January, February, and March), according to the third estimate released today by the U.S. Bureau of Economic Analysis. In the fourth quarter of 2025, real GDP increased 0.5 percent. The contributors to the increase in real GDP in the first quarter were increases in investment, exports, government spending, and consumer spending. Imports, which are a subtraction in the calculation of GDP, increased. At the state level, real GDP ranged from a 4.5 percent increase in Washington to a 1.6 percent decrease in South Dakota.   <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-1st\">Full Text</a><!--Full Text Link-->",
+      "link": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-1st",
+      "source": "BEA",
+      "score": 1,
       "severity": "LOW",
-      "regime": "COMMODITIES",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-13T09:56:32.453852Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T10:01:52.953307Z"
     },
     {
-      "id": "2d2fefe9686d185b43d827e06209fe6e",
-      "title": "AI is entering a new phase \u2014 and these are the stocks investors should be watching - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxON29OTHVWRGZyajZnX1oydm1xanJiNThUS2tKTThHdlJsR0FfME8wYU1pZGtob200QW8zcU5OeDRhMWllWk5TTFc2RnMzdnJKLUlFamRiOU9mdm0zWWxFWmlIbUxrbWttMDIzVVZIbldXRXFCYmFmVE1Bc3ZxUURyUG5sNzk3cHpXLWhmM3RxTXN4dlRVVEVBSXJnN01HcktzaUhMclZCbUVYYmczTXRHNjB3Q2hEQjRz?oc=5\" target=\"_blank\">AI is entering a new phase \u2014 and these are the stocks investors should be watching</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON29OTHVWRGZyajZnX1oydm1xanJiNThUS2tKTThHdlJsR0FfME8wYU1pZGtob200QW8zcU5OeDRhMWllWk5TTFc2RnMzdnJKLUlFamRiOU9mdm0zWWxFWmlIbUxrbWttMDIzVVZIbldXRXFCYmFmVE1Bc3ZxUURyUG5sNzk3cHpXLWhmM3RxTXN4dlRVVEVBSXJnN01HcktzaUhMclZCbUVYYmczTXRHNjB3Q2hEQjRz?oc=5",
-      "source": "Google Macro",
-      "score": 5,
+      "id": "812563dd3244559a171953c188fa3c60",
+      "title": "U.S. International Transactions and Investment Position, 1st Quarter 2026 and Annual Update",
+      "summary": "",
+      "link": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-1st-quarter-2026-and-annual-update",
+      "source": "BEA",
+      "score": 1,
       "severity": "LOW",
-      "regime": "AI",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "AI",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-13T09:56:40.674179Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T10:01:52.953337Z"
     }
   ]
 }
