@@ -1,34 +1,62 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-13T09:46:32.191334Z",
+  "generated_at": "2026-07-13T09:51:55.714701Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "COMMODITIES",
+    "dominant_driver": "COMMODITIES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
-    "high_alerts": 2,
-    "last_updated": "2026-07-13T09:46:32.191348Z"
+    "high_alerts": 1,
+    "last_updated": "2026-07-13T09:51:55.714716Z"
   },
   "top_signals": [
     {
-      "id": "74182a59892e75de27143426e6e30f51",
-      "title": "Chip Selloff Hits Stocks as Oil Gains Lift Yields: Markets Wrap",
-      "summary": "A selloff in South Korean chipmakers drove global technology stocks lower while oil and bond yields climbed after a weekend of attacks and counterstrikes in the Middle East.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-12/oil-climbs-us-futures-dip-on-fresh-iran-strikes-markets-wrap",
+      "id": "0e92ed8ec82ebfb907e3050089a98299",
+      "title": "Gold and Silver Drop as Mideast Strikes Heighten Rate-Hike Risks",
+      "summary": "Gold and silver tumbled after the US and Iran exchanged fresh strikes over the weekend, sending energy prices higher and once more raising the prospects for interest-rate hikes to combat inflation.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-12/gold-declines-as-renewed-us-iran-strikes-raise-rate-hike-bets",
       "source": "Bloomberg",
-      "score": 36,
+      "score": 47,
       "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "regime": "COMMODITIES",
       "tickers": [
-        "WTI"
+        "SILVER",
+        "XAU"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI",
-        "COMMODITIES",
-        "EQUITIES"
+        "COMMODITIES"
       ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-13T09:51:22.439798Z"
+    },
+    {
+      "id": "c15be07ee26ccaba60bb87b9e054d710",
+      "title": "EU moves towards social media ban for children under 13",
+      "summary": "Brussels will propose gradual access for different ages in response to concerns over child safety online",
+      "link": "https://www.ft.com/content/b3d94d79-e045-40bd-a1f3-4df0c365ce9a",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -43,115 +71,19 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-13T09:46:02.101031Z"
+      "published": "2026-07-13T09:51:24.461206Z"
     },
     {
-      "id": "2b8fee32b374314c39e3a1be2665705f",
-      "title": "Paradigm shifts vs bubbles: AI chips and bitcoin show powerful trends can still produce severe corrections",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/07/13/paradigm-shifts-vs-bubbles-ai-chips-and-bitcoin-show-powerful-trends-can-still-produce-severe-corrections",
-      "source": "CoinDesk",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-07-13T09:46:28.957400Z"
-    },
-    {
-      "id": "2b778aab63c0012d9b5c3777ae12a8c6",
-      "title": "Commission approves French State aid to support offshore wind energy",
-      "summary": "European Commission Press release Brussels, 13 Jul 2026 The European Commission has approved a \u20ac63 billion French scheme to support offshore wind energy in line with the objectives of the Clean Industrial Deal. This measure will contribute to the transition towards a net-zero economy. The scheme was approved under the Clean Industrial Deal State Aid Framework (CISAF) adopted by the Commission on\u00a025 June 2025.",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1577",
-      "source": "European Commission",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-13T09:46:20.028605Z"
-    },
-    {
-      "id": "db949cb53183c8244399a24cd61231b0",
-      "title": "Commission approves \u20ac2 billion Hungarian capital injection into development bank Magyar Fejleszt\u00e9si Bank",
-      "summary": "European Commission Press release Brussels, 13 Jul 2026 The European Commission has approved, under EU State aid rules, a capital injection worth \u20ac2 billion (HUF 760 billion) by Hungary into the development bank Magyar Fejleszt\u00e9si Bank (MFB). The measure will be funded by the Recovery and Resilience Facility ('RRF').",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1527",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-13T09:46:20.028691Z"
-    },
-    {
-      "id": "2725d3270d6fc466cc88c472be4c0b2a",
-      "title": "Moneybox boosts London\u2019s PISCES market in \u2018milestone\u2019 \u00a345m sale",
-      "summary": "<p> <img alt=\"Moneybox will use the PISCES framework\" src=\"https://www.cityam.com/wp-content/uploads/2026/05/BusAd_20251.jpeg?w=1107\" /> </p>&#160;Moneybox has granted London\u2019s novice private markets platform another major boost after confirming a \u00a345m employee share sale. The move has been hailed a \u201cmilestone transaction\u201d in the City\u2019s efforts to keep tech firms from looking for opportunities abroad. The fintech will use the London Stock Exchange\u2019s Private Intermittent Securities and Capital Exchange System (PISCES) <a href=\"https://www.cityam.com/moneybox-boosts-londons-pisces-market-in-milestone-45m-sale/\">[...]</a>",
-      "link": "https://www.cityam.com/moneybox-boosts-londons-pisces-market-in-milestone-45m-sale/",
-      "source": "CityAM",
-      "score": 5,
-      "severity": "LOW",
+      "id": "9204f73d65482f42294071aa99751bc6",
+      "title": "Elon Musk and Sam Altman spar on X after Apple files OpenAI lawsuit",
+      "summary": "Sam Altman insisted that Elon Musk was again obsessed with him because of an OpenAI model release earlier this week.",
+      "link": "https://www.cnbc.com/2026/07/12/elon-musk-and-sam-altman-spar-.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -164,51 +96,90 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-13T09:46:23.951127Z"
+      "published": "2026-07-13T09:51:25.187297Z"
     },
     {
-      "id": "451f83ae361b3ae14a280ef0c22cedba",
-      "title": "Magic circle Freshfields ousts equity partners amid US push",
-      "summary": "<p> <img alt=\"A pedestrian passes an entrance to the 100 Bishopsgate skyscraper in London, U.K., on Wednesday, April 7, 2021. The 37-storey skyscraper in the heart of the City is being put up for sale for 1.8 billion pounds ($2.5 billion), according to\u00a0the Telegraph.\u00a0Photographer: Chris J. Ratcliffe/Bloomberg via Getty Images\" src=\"https://www.cityam.com/wp-content/uploads/2026/07/Freshfields-e1783933255452.jpg?w=1107\" /> </p>Senior staff are bracing for a shake-up at magic circle law firm Freshfields, as partners have been forced out to boost growth and fund its US expansion. The City-based firm has ousted several equity partners in recent weeks across several European offices, including London, according to the Financial Times, as it focuses on growth. Speaking <a href=\"https://www.cityam.com/magic-circle-freshfields-ousts-equity-partners-amid-us-push/\">[...]</a>",
-      "link": "https://www.cityam.com/magic-circle-freshfields-ousts-equity-partners-amid-us-push/",
+      "id": "621d09dfcce68963172da6e9789f2ba0",
+      "title": "Top civil servant seeks judicial review over sacking in Mandelson scandal",
+      "summary": "Olly Robbins says Keir Starmer\u2019s actions were \u2018unlawful\u2019 and \u2018unreasonable\u2019",
+      "link": "https://www.ft.com/content/c185a47d-9888-450c-8505-c318e1e9085c",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T09:51:24.461261Z"
+    },
+    {
+      "id": "a0294a0a68d7073be7783b82476e9708",
+      "title": "Burberry  boss faces shareholder revolt over bumper \u00a39.4m pay package",
+      "summary": "<p> <img alt=\"Burberry wants to offer its boss nearly \u00a34m in performance-based share bonuses\" src=\"https://www.cityam.com/wp-content/uploads/2026/05/Burberry-1.jpg?w=1107\" /> </p>Burberry is bracing for a shareholder revolt over a new pay package which could hand the fashion house\u2019s boss nearly \u00a34m in extra bonuses. The British fashion house, known for its iconic trench coat and checked scarves, wants to change its bonus pay structure to allow it to hand chief executive Joshua Schulman a shares <a href=\"https://www.cityam.com/burberry-faces-revolt-over-4m-boss-bonus-package/\">[...]</a>",
+      "link": "https://www.cityam.com/burberry-faces-revolt-over-4m-boss-bonus-package/",
       "source": "CityAM",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
+      "tickers": [],
       "regions": [
-        "EUROPE",
         "UK"
       ],
-      "assets": [
-        "FX"
-      ],
+      "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-13T09:46:23.951285Z"
+      "published": "2026-07-13T09:51:46.389588Z"
     }
   ],
   "alerts": [
     {
-      "id": "74182a59892e75de27143426e6e30f51",
-      "title": "Chip Selloff Hits Stocks as Oil Gains Lift Yields: Markets Wrap",
-      "summary": "A selloff in South Korean chipmakers drove global technology stocks lower while oil and bond yields climbed after a weekend of attacks and counterstrikes in the Middle East.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-12/oil-climbs-us-futures-dip-on-fresh-iran-strikes-markets-wrap",
+      "id": "0e92ed8ec82ebfb907e3050089a98299",
+      "title": "Gold and Silver Drop as Mideast Strikes Heighten Rate-Hike Risks",
+      "summary": "Gold and silver tumbled after the US and Iran exchanged fresh strikes over the weekend, sending energy prices higher and once more raising the prospects for interest-rate hikes to combat inflation.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-12/gold-declines-as-renewed-us-iran-strikes-raise-rate-hike-bets",
       "source": "Bloomberg",
-      "score": 36,
+      "score": 47,
       "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "regime": "COMMODITIES",
       "tickers": [
-        "WTI"
+        "SILVER",
+        "XAU"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI",
-        "COMMODITIES",
-        "EQUITIES"
+        "COMMODITIES"
       ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-13T09:51:22.439798Z"
+    },
+    {
+      "id": "c15be07ee26ccaba60bb87b9e054d710",
+      "title": "EU moves towards social media ban for children under 13",
+      "summary": "Brussels will propose gradual access for different ages in response to concerns over child safety online",
+      "link": "https://www.ft.com/content/b3d94d79-e045-40bd-a1f3-4df0c365ce9a",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -223,115 +194,19 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-13T09:46:02.101031Z"
+      "published": "2026-07-13T09:51:24.461206Z"
     },
     {
-      "id": "2b8fee32b374314c39e3a1be2665705f",
-      "title": "Paradigm shifts vs bubbles: AI chips and bitcoin show powerful trends can still produce severe corrections",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/07/13/paradigm-shifts-vs-bubbles-ai-chips-and-bitcoin-show-powerful-trends-can-still-produce-severe-corrections",
-      "source": "CoinDesk",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-07-13T09:46:28.957400Z"
-    },
-    {
-      "id": "2b778aab63c0012d9b5c3777ae12a8c6",
-      "title": "Commission approves French State aid to support offshore wind energy",
-      "summary": "European Commission Press release Brussels, 13 Jul 2026 The European Commission has approved a \u20ac63 billion French scheme to support offshore wind energy in line with the objectives of the Clean Industrial Deal. This measure will contribute to the transition towards a net-zero economy. The scheme was approved under the Clean Industrial Deal State Aid Framework (CISAF) adopted by the Commission on\u00a025 June 2025.",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1577",
-      "source": "European Commission",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-13T09:46:20.028605Z"
-    },
-    {
-      "id": "db949cb53183c8244399a24cd61231b0",
-      "title": "Commission approves \u20ac2 billion Hungarian capital injection into development bank Magyar Fejleszt\u00e9si Bank",
-      "summary": "European Commission Press release Brussels, 13 Jul 2026 The European Commission has approved, under EU State aid rules, a capital injection worth \u20ac2 billion (HUF 760 billion) by Hungary into the development bank Magyar Fejleszt\u00e9si Bank (MFB). The measure will be funded by the Recovery and Resilience Facility ('RRF').",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1527",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-13T09:46:20.028691Z"
-    },
-    {
-      "id": "2725d3270d6fc466cc88c472be4c0b2a",
-      "title": "Moneybox boosts London\u2019s PISCES market in \u2018milestone\u2019 \u00a345m sale",
-      "summary": "<p> <img alt=\"Moneybox will use the PISCES framework\" src=\"https://www.cityam.com/wp-content/uploads/2026/05/BusAd_20251.jpeg?w=1107\" /> </p>&#160;Moneybox has granted London\u2019s novice private markets platform another major boost after confirming a \u00a345m employee share sale. The move has been hailed a \u201cmilestone transaction\u201d in the City\u2019s efforts to keep tech firms from looking for opportunities abroad. The fintech will use the London Stock Exchange\u2019s Private Intermittent Securities and Capital Exchange System (PISCES) <a href=\"https://www.cityam.com/moneybox-boosts-londons-pisces-market-in-milestone-45m-sale/\">[...]</a>",
-      "link": "https://www.cityam.com/moneybox-boosts-londons-pisces-market-in-milestone-45m-sale/",
-      "source": "CityAM",
-      "score": 5,
-      "severity": "LOW",
+      "id": "9204f73d65482f42294071aa99751bc6",
+      "title": "Elon Musk and Sam Altman spar on X after Apple files OpenAI lawsuit",
+      "summary": "Sam Altman insisted that Elon Musk was again obsessed with him because of an OpenAI model release earlier this week.",
+      "link": "https://www.cnbc.com/2026/07/12/elon-musk-and-sam-altman-spar-.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -344,30 +219,41 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-13T09:46:23.951127Z"
+      "published": "2026-07-13T09:51:25.187297Z"
     },
     {
-      "id": "451f83ae361b3ae14a280ef0c22cedba",
-      "title": "Magic circle Freshfields ousts equity partners amid US push",
-      "summary": "<p> <img alt=\"A pedestrian passes an entrance to the 100 Bishopsgate skyscraper in London, U.K., on Wednesday, April 7, 2021. The 37-storey skyscraper in the heart of the City is being put up for sale for 1.8 billion pounds ($2.5 billion), according to\u00a0the Telegraph.\u00a0Photographer: Chris J. Ratcliffe/Bloomberg via Getty Images\" src=\"https://www.cityam.com/wp-content/uploads/2026/07/Freshfields-e1783933255452.jpg?w=1107\" /> </p>Senior staff are bracing for a shake-up at magic circle law firm Freshfields, as partners have been forced out to boost growth and fund its US expansion. The City-based firm has ousted several equity partners in recent weeks across several European offices, including London, according to the Financial Times, as it focuses on growth. Speaking <a href=\"https://www.cityam.com/magic-circle-freshfields-ousts-equity-partners-amid-us-push/\">[...]</a>",
-      "link": "https://www.cityam.com/magic-circle-freshfields-ousts-equity-partners-amid-us-push/",
+      "id": "621d09dfcce68963172da6e9789f2ba0",
+      "title": "Top civil servant seeks judicial review over sacking in Mandelson scandal",
+      "summary": "Olly Robbins says Keir Starmer\u2019s actions were \u2018unlawful\u2019 and \u2018unreasonable\u2019",
+      "link": "https://www.ft.com/content/c185a47d-9888-450c-8505-c318e1e9085c",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T09:51:24.461261Z"
+    },
+    {
+      "id": "a0294a0a68d7073be7783b82476e9708",
+      "title": "Burberry  boss faces shareholder revolt over bumper \u00a39.4m pay package",
+      "summary": "<p> <img alt=\"Burberry wants to offer its boss nearly \u00a34m in performance-based share bonuses\" src=\"https://www.cityam.com/wp-content/uploads/2026/05/Burberry-1.jpg?w=1107\" /> </p>Burberry is bracing for a shareholder revolt over a new pay package which could hand the fashion house\u2019s boss nearly \u00a34m in extra bonuses. The British fashion house, known for its iconic trench coat and checked scarves, wants to change its bonus pay structure to allow it to hand chief executive Joshua Schulman a shares <a href=\"https://www.cityam.com/burberry-faces-revolt-over-4m-boss-bonus-package/\">[...]</a>",
+      "link": "https://www.cityam.com/burberry-faces-revolt-over-4m-boss-bonus-package/",
       "source": "CityAM",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
+      "tickers": [],
       "regions": [
-        "EUROPE",
         "UK"
       ],
-      "assets": [
-        "FX"
-      ],
+      "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-13T09:46:23.951285Z"
+      "published": "2026-07-13T09:51:46.389588Z"
     }
   ]
 }
