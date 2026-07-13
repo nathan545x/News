@@ -1,25 +1,25 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-13T17:11:55.166318Z",
+  "generated_at": "2026-07-13T17:16:39.952832Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
-    "high_alerts": 3,
-    "last_updated": "2026-07-13T17:11:55.166337Z"
+    "high_alerts": 5,
+    "last_updated": "2026-07-13T17:16:39.952847Z"
   },
   "top_signals": [
     {
-      "id": "6b238c1f23e72773a6b4709f9b6162a0",
-      "title": "Stocks, Bonds Fall as Oil Jump Fuels Fed-Hike Bets: Markets Wrap",
-      "summary": "A standoff between the US and Iran lifted oil prices, dragging down stocks and bonds after clashes over the Strait of Hormuz raised concerns about a disruption in energy supplies that could fuel inflation.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-12/oil-climbs-us-futures-dip-on-fresh-iran-strikes-markets-wrap",
-      "source": "Bloomberg",
-      "score": 42,
+      "id": "8df7d98645368b65b132ea8da3fdcac7",
+      "title": "UAE's exit from OPEC+ reduced the group's share of crude oil production and capacity",
+      "summary": "On April 28, 2026, the United Arab Emirates (UAE) announced that it was leaving OPEC, effective on May 1. OPEC was formed in 1960 by Iraq, Iran, Kuwait, Saudi Arabia, and Venezuela, with the stated objective to \"coordinate and unify petroleum policies among Member Countries.\" OPEC is best known for its effect on global crude oil prices.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67804",
+      "source": "EIA",
+      "score": 30,
       "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "regime": "COMMODITIES",
       "tickers": [
         "WTI"
       ],
@@ -28,32 +28,91 @@
       ],
       "assets": [
         "AI",
-        "COMMODITIES",
-        "EQUITIES"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-13T17:11:25.424132Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-13T17:16:32.548243Z"
     },
     {
-      "id": "4e69ccb0793afd66e9e90ff511a400be",
-      "title": "Fees for seas: a history of taxing waterways",
-      "summary": "From Ottoman sultans to Danish kings, Iran\u2019s toll system for Strait of Hormuz revives an old maritime fight",
-      "link": "https://www.ft.com/content/9a5294cf-0b64-4201-b88c-12ba586bb4fd",
-      "source": "Financial Times",
-      "score": 20,
+      "id": "cb7a8d803a15cc4b290493d823e86672",
+      "title": "UK financial regulators to begin overseeing Critical Third Parties announced by HM Treasury",
+      "summary": "The Bank of England, the Prudential Regulation Authority and the Financial Conduct Authority will start overseeing the first Critical Third Parties on Monday 13 July 2026, following designation by HM Treasury.",
+      "link": "https://www.bankofengland.co.uk/news/2026/july/uk-financial-regulators-to-begin-overseeing-critical-third-parties-announced-by-hmt",
+      "source": "Bank of England",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-13T17:16:28.440817Z"
+    },
+    {
+      "id": "ef68a1885df81632eea83800fecef312",
+      "title": "Statistical Notice 2026/07 -  Bank of England Levy: Notification Document Levy Year 2026/27",
+      "summary": "Statistical Notices update the definitions and guidance contained in the Banking Statistics Yellow Folder",
+      "link": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-07",
+      "source": "Bank of England",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-13T17:16:28.440904Z"
+    },
+    {
+      "id": "f66e87b356e4da193e961ba2d3836e28",
+      "title": "Sea drones strike Iranian port in combat first for US",
+      "summary": "U.S. Central Command utilized three Corsair unmanned surface vessels to strike a submarine and ship maintenance facility in Iran.",
+      "link": "https://www.defensenews.com/news/your-military/2026/07/13/sea-drones-strike-iranian-port-in-combat-first-for-us-navy/",
+      "source": "Defense News",
+      "score": 18,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
@@ -77,47 +136,52 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-13T17:11:27.664679Z"
+      "published": "2026-07-13T17:16:35.242878Z"
     },
     {
-      "id": "f88bfce7d229f6ad62350e34a9eab0ce",
-      "title": "Burnham will struggle to exorcise Labour\u2019s historic weakness",
-      "summary": "History shows us that the party will default to over-optimism and spending money that isn\u2019t there",
-      "link": "https://www.ft.com/content/1edf2521-59fe-4aa9-9a58-8b6c045e7a2a",
-      "source": "Financial Times",
-      "score": 19,
+      "id": "1fc51383cbff09505dc772cfe8a311c1",
+      "title": "Letter from the Governor to Joe Powell MP",
+      "summary": "Letter from the Governor",
+      "link": "https://www.bankofengland.co.uk/letter/2026/letter-from-the-governor-to-joe-powell",
+      "source": "Bank of England",
+      "score": 17,
       "severity": "HIGH",
-      "regime": "SYSTEMIC",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
-          "XAU",
+          "DXY",
           "JPY"
         ],
         "bearish": [
-          "BANKS",
-          "SPY"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
-      "published": "2026-07-13T17:11:27.664872Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-13T17:16:28.440860Z"
     },
     {
-      "id": "66d5e0fa27442e28cede37ca40029434",
-      "title": "The deceptive promises of America\u2019s democratic socialists",
-      "summary": "The way forward for the party is not to swing to the left",
-      "link": "https://www.ft.com/content/0772894f-efdf-4f03-862c-22f495e675d0",
-      "source": "Financial Times",
-      "score": 18,
+      "id": "46e2b5a128fdb292a89e13f528567422",
+      "title": "Oil Climbs, US Futures Dip on Fresh Iran Strikes: Markets Wrap - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOQlZnMENNcXpBaThQdm1BZlAwLXpEOUxXUzJGWTVCemJLY01QRmF6ejRmb2hpSllOUllwRUlJSnRkWlBWczlXTWxGdmozU2ZpdXVLMlVRR244WUFZa1ZYLXBKTXdpaGtVTFdsZjJadzg1U21fbC1qQ3Ixc25oejB2dzQ0aVlIRTlGY0g3SDdJVUtiYno2OVhIQ1VRTVpiWjVqRWFmZTdLRk41TUttTWt3Ng?oc=5\" target=\"_blank\">Oil Climbs, US Futures Dip on Fresh Iran Strikes: Markets Wrap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQlZnMENNcXpBaThQdm1BZlAwLXpEOUxXUzJGWTVCemJLY01QRmF6ejRmb2hpSllOUllwRUlJSnRkWlBWczlXTWxGdmozU2ZpdXVLMlVRR244WUFZa1ZYLXBKTXdpaGtVTFdsZjJadzg1U21fbC1qQ3Ixc25oejB2dzQ0aVlIRTlGY0g3SDdJVUtiYno2OVhIQ1VRTVpiWjVqRWFmZTdLRk41TUttTWt3Ng?oc=5",
+      "source": "Google Macro",
+      "score": 17,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "US"
+      "tickers": [
+        "WTI"
       ],
-      "assets": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -132,73 +196,53 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-13T17:11:27.664769Z"
+      "published": "2026-07-13T17:16:37.753202Z"
     },
     {
-      "id": "94d1c6257525550b8d0956b1c1064572",
-      "title": "UK Trade Tariff: duty suspensions and autonomous tariff quotas",
-      "summary": "Temporary duty suspensions and autonomous tariff quotas (ATQs) for importing goods into the UK.",
-      "link": "https://www.gov.uk/guidance/duty-suspensions-and-tariff-quotas",
-      "source": "HM Treasury",
-      "score": 10,
-      "severity": "MEDIUM",
+      "id": "60176aed3844c89ce40554437a716be2",
+      "title": "How to Save the UN From Irrelevance",
+      "summary": "Ending the peacekeeper\u2019s paralysis.",
+      "link": "https://www.foreignaffairs.com/ukraine/how-save-irrelevance",
+      "source": "Foreign Affairs",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T17:16:35.752977Z"
+    },
+    {
+      "id": "9d05747035669beb3942d5b9c9346b43",
+      "title": "Trump Is Remaking Latin America",
+      "summary": "The short-term results and the long-term risks of the \u201cDonroe Doctrine.\u201d",
+      "link": "https://www.foreignaffairs.com/americas/trump-remaking-latin-america",
+      "source": "Foreign Affairs",
+      "score": 1,
+      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "UK"
+        "US"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-13T17:11:44.388892Z"
-    },
-    {
-      "id": "b363658f0a566ec33fd8afd56ef2063e",
-      "title": "El Salvador\u2019s Bukele set to run for third term",
-      "summary": "Authoritarian leader wins party primary unopposed",
-      "link": "https://www.ft.com/content/9b5cd30a-b392-4238-b95a-8003d5c99687",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-13T17:11:27.664728Z"
-    },
-    {
-      "id": "40e59a22478ec559f303454a3256eb9b",
-      "title": "Why Mastercard is playing the polite guest in the UK",
-      "summary": "The card giant is considering making a strategic exit \u2014 by selling a majority stake in payments subsidiary Vocalink",
-      "link": "https://www.ft.com/content/51519ad0-8bf5-4a35-ad31-482b1d7a7957",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-13T17:11:27.664814Z"
+      "published": "2026-07-13T17:16:35.753027Z"
     }
   ],
   "alerts": [
     {
-      "id": "6b238c1f23e72773a6b4709f9b6162a0",
-      "title": "Stocks, Bonds Fall as Oil Jump Fuels Fed-Hike Bets: Markets Wrap",
-      "summary": "A standoff between the US and Iran lifted oil prices, dragging down stocks and bonds after clashes over the Strait of Hormuz raised concerns about a disruption in energy supplies that could fuel inflation.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-12/oil-climbs-us-futures-dip-on-fresh-iran-strikes-markets-wrap",
-      "source": "Bloomberg",
-      "score": 42,
+      "id": "8df7d98645368b65b132ea8da3fdcac7",
+      "title": "UAE's exit from OPEC+ reduced the group's share of crude oil production and capacity",
+      "summary": "On April 28, 2026, the United Arab Emirates (UAE) announced that it was leaving OPEC, effective on May 1. OPEC was formed in 1960 by Iraq, Iran, Kuwait, Saudi Arabia, and Venezuela, with the stated objective to \"coordinate and unify petroleum policies among Member Countries.\" OPEC is best known for its effect on global crude oil prices.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67804",
+      "source": "EIA",
+      "score": 30,
       "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "regime": "COMMODITIES",
       "tickers": [
         "WTI"
       ],
@@ -207,32 +251,91 @@
       ],
       "assets": [
         "AI",
-        "COMMODITIES",
-        "EQUITIES"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-13T17:11:25.424132Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-13T17:16:32.548243Z"
     },
     {
-      "id": "4e69ccb0793afd66e9e90ff511a400be",
-      "title": "Fees for seas: a history of taxing waterways",
-      "summary": "From Ottoman sultans to Danish kings, Iran\u2019s toll system for Strait of Hormuz revives an old maritime fight",
-      "link": "https://www.ft.com/content/9a5294cf-0b64-4201-b88c-12ba586bb4fd",
-      "source": "Financial Times",
-      "score": 20,
+      "id": "cb7a8d803a15cc4b290493d823e86672",
+      "title": "UK financial regulators to begin overseeing Critical Third Parties announced by HM Treasury",
+      "summary": "The Bank of England, the Prudential Regulation Authority and the Financial Conduct Authority will start overseeing the first Critical Third Parties on Monday 13 July 2026, following designation by HM Treasury.",
+      "link": "https://www.bankofengland.co.uk/news/2026/july/uk-financial-regulators-to-begin-overseeing-critical-third-parties-announced-by-hmt",
+      "source": "Bank of England",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-13T17:16:28.440817Z"
+    },
+    {
+      "id": "ef68a1885df81632eea83800fecef312",
+      "title": "Statistical Notice 2026/07 -  Bank of England Levy: Notification Document Levy Year 2026/27",
+      "summary": "Statistical Notices update the definitions and guidance contained in the Banking Statistics Yellow Folder",
+      "link": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-07",
+      "source": "Bank of England",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-13T17:16:28.440904Z"
+    },
+    {
+      "id": "f66e87b356e4da193e961ba2d3836e28",
+      "title": "Sea drones strike Iranian port in combat first for US",
+      "summary": "U.S. Central Command utilized three Corsair unmanned surface vessels to strike a submarine and ship maintenance facility in Iran.",
+      "link": "https://www.defensenews.com/news/your-military/2026/07/13/sea-drones-strike-iranian-port-in-combat-first-for-us-navy/",
+      "source": "Defense News",
+      "score": 18,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
@@ -256,47 +359,52 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-13T17:11:27.664679Z"
+      "published": "2026-07-13T17:16:35.242878Z"
     },
     {
-      "id": "f88bfce7d229f6ad62350e34a9eab0ce",
-      "title": "Burnham will struggle to exorcise Labour\u2019s historic weakness",
-      "summary": "History shows us that the party will default to over-optimism and spending money that isn\u2019t there",
-      "link": "https://www.ft.com/content/1edf2521-59fe-4aa9-9a58-8b6c045e7a2a",
-      "source": "Financial Times",
-      "score": 19,
+      "id": "1fc51383cbff09505dc772cfe8a311c1",
+      "title": "Letter from the Governor to Joe Powell MP",
+      "summary": "Letter from the Governor",
+      "link": "https://www.bankofengland.co.uk/letter/2026/letter-from-the-governor-to-joe-powell",
+      "source": "Bank of England",
+      "score": 17,
       "severity": "HIGH",
-      "regime": "SYSTEMIC",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
-          "XAU",
+          "DXY",
           "JPY"
         ],
         "bearish": [
-          "BANKS",
-          "SPY"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
-      "published": "2026-07-13T17:11:27.664872Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-13T17:16:28.440860Z"
     },
     {
-      "id": "66d5e0fa27442e28cede37ca40029434",
-      "title": "The deceptive promises of America\u2019s democratic socialists",
-      "summary": "The way forward for the party is not to swing to the left",
-      "link": "https://www.ft.com/content/0772894f-efdf-4f03-862c-22f495e675d0",
-      "source": "Financial Times",
-      "score": 18,
+      "id": "46e2b5a128fdb292a89e13f528567422",
+      "title": "Oil Climbs, US Futures Dip on Fresh Iran Strikes: Markets Wrap - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOQlZnMENNcXpBaThQdm1BZlAwLXpEOUxXUzJGWTVCemJLY01QRmF6ejRmb2hpSllOUllwRUlJSnRkWlBWczlXTWxGdmozU2ZpdXVLMlVRR244WUFZa1ZYLXBKTXdpaGtVTFdsZjJadzg1U21fbC1qQ3Ixc25oejB2dzQ0aVlIRTlGY0g3SDdJVUtiYno2OVhIQ1VRTVpiWjVqRWFmZTdLRk41TUttTWt3Ng?oc=5\" target=\"_blank\">Oil Climbs, US Futures Dip on Fresh Iran Strikes: Markets Wrap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQlZnMENNcXpBaThQdm1BZlAwLXpEOUxXUzJGWTVCemJLY01QRmF6ejRmb2hpSllOUllwRUlJSnRkWlBWczlXTWxGdmozU2ZpdXVLMlVRR244WUFZa1ZYLXBKTXdpaGtVTFdsZjJadzg1U21fbC1qQ3Ixc25oejB2dzQ0aVlIRTlGY0g3SDdJVUtiYno2OVhIQ1VRTVpiWjVqRWFmZTdLRk41TUttTWt3Ng?oc=5",
+      "source": "Google Macro",
+      "score": 17,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "US"
+      "tickers": [
+        "WTI"
       ],
-      "assets": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -311,61 +419,41 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-13T17:11:27.664769Z"
+      "published": "2026-07-13T17:16:37.753202Z"
     },
     {
-      "id": "94d1c6257525550b8d0956b1c1064572",
-      "title": "UK Trade Tariff: duty suspensions and autonomous tariff quotas",
-      "summary": "Temporary duty suspensions and autonomous tariff quotas (ATQs) for importing goods into the UK.",
-      "link": "https://www.gov.uk/guidance/duty-suspensions-and-tariff-quotas",
-      "source": "HM Treasury",
-      "score": 10,
-      "severity": "MEDIUM",
+      "id": "60176aed3844c89ce40554437a716be2",
+      "title": "How to Save the UN From Irrelevance",
+      "summary": "Ending the peacekeeper\u2019s paralysis.",
+      "link": "https://www.foreignaffairs.com/ukraine/how-save-irrelevance",
+      "source": "Foreign Affairs",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-13T17:16:35.752977Z"
+    },
+    {
+      "id": "9d05747035669beb3942d5b9c9346b43",
+      "title": "Trump Is Remaking Latin America",
+      "summary": "The short-term results and the long-term risks of the \u201cDonroe Doctrine.\u201d",
+      "link": "https://www.foreignaffairs.com/americas/trump-remaking-latin-america",
+      "source": "Foreign Affairs",
+      "score": 1,
+      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "UK"
+        "US"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-13T17:11:44.388892Z"
-    },
-    {
-      "id": "b363658f0a566ec33fd8afd56ef2063e",
-      "title": "El Salvador\u2019s Bukele set to run for third term",
-      "summary": "Authoritarian leader wins party primary unopposed",
-      "link": "https://www.ft.com/content/9b5cd30a-b392-4238-b95a-8003d5c99687",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-13T17:11:27.664728Z"
-    },
-    {
-      "id": "40e59a22478ec559f303454a3256eb9b",
-      "title": "Why Mastercard is playing the polite guest in the UK",
-      "summary": "The card giant is considering making a strategic exit \u2014 by selling a majority stake in payments subsidiary Vocalink",
-      "link": "https://www.ft.com/content/51519ad0-8bf5-4a35-ad31-482b1d7a7957",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-13T17:11:27.664814Z"
+      "published": "2026-07-13T17:16:35.753027Z"
     }
   ]
 }
