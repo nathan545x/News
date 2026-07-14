@@ -1,30 +1,31 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-14T23:32:07.402824Z",
+  "generated_at": "2026-07-14T23:36:37.703715Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-07-14T23:32:07.402834Z"
+    "critical_alerts": 1,
+    "high_alerts": 5,
+    "last_updated": "2026-07-14T23:36:37.703731Z"
   },
   "top_signals": [
     {
-      "id": "84e231374e701fe6e97b68b536e8f1de",
-      "title": "Dangote's Dollar Shift Reveals Nigeria's Bigger Oil Problem",
-      "summary": "Africa's biggest refinery has started pricing fuel in U.S. dollars because Nigeria can't supply enough Nigerian crude to keep it running. Dangote Petroleum Refinery, which can process 700,000 barrels of crude per day, said it is switching domestic gasoline, diesel, and jet fuel pricing to dollars after struggling to secure enough barrels through the government's naira-for-crude program. Gasoline is now priced at $0.779 per liter, diesel at $1.087, and jet fuel at $0.942. The refinery says it needs 13 to 15 crude cargoes every month. State-owned\u2026",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Dangotes-Dollar-Shift-Reveals-Nigerias-Bigger-Oil-Problem.html",
-      "source": "OilPrice",
-      "score": 13,
-      "severity": "MEDIUM",
+      "id": "8df7d98645368b65b132ea8da3fdcac7",
+      "title": "UAE's exit from OPEC+ reduced the group's share of crude oil production and capacity",
+      "summary": "On April 28, 2026, the United Arab Emirates (UAE) announced that it was leaving OPEC, effective on May 1. OPEC was formed in 1960 by Iraq, Iran, Kuwait, Saudi Arabia, and Venezuela, with the stated objective to \"coordinate and unify petroleum policies among Member Countries.\" OPEC is best known for its effect on global crude oil prices.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67804",
+      "source": "EIA",
+      "score": 30,
+      "severity": "CRITICAL",
       "regime": "COMMODITIES",
       "tickers": [
-        "DXY",
         "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI",
         "COMMODITIES"
@@ -41,20 +42,86 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-14T23:32:02.082707Z"
+      "published": "2026-07-14T23:36:29.865426Z"
     },
     {
-      "id": "42d2be9788004020eaef3d254603c0b0",
-      "title": "The Clarity Act isn't a ticket to sanctions evasion, actually",
-      "summary": "",
-      "link": "https://www.coindesk.com/opinion/2026/07/14/the-clarity-act-isn-t-a-ticket-to-sanctions-evasion-actually",
-      "source": "CoinDesk",
-      "score": 13,
-      "severity": "MEDIUM",
+      "id": "cb7a8d803a15cc4b290493d823e86672",
+      "title": "UK financial regulators to begin overseeing Critical Third Parties announced by HM Treasury",
+      "summary": "The Bank of England, the Prudential Regulation Authority and the Financial Conduct Authority will start overseeing the first Critical Third Parties on Monday 13 July 2026, following designation by HM Treasury.",
+      "link": "https://www.bankofengland.co.uk/news/2026/july/uk-financial-regulators-to-begin-overseeing-critical-third-parties-announced-by-hmt",
+      "source": "Bank of England",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-14T23:36:24.204829Z"
+    },
+    {
+      "id": "ef68a1885df81632eea83800fecef312",
+      "title": "Statistical Notice 2026/07 -  Bank of England Levy: Notification Document Levy Year 2026/27",
+      "summary": "Statistical Notices update the definitions and guidance contained in the Banking Statistics Yellow Folder",
+      "link": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-07",
+      "source": "Bank of England",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-14T23:36:24.204910Z"
+    },
+    {
+      "id": "f66e87b356e4da193e961ba2d3836e28",
+      "title": "Sea drones strike Iranian port in combat first for US",
+      "summary": "U.S. Central Command utilized three Corsair unmanned surface vessels to strike a submarine and ship maintenance facility in Iran.",
+      "link": "https://www.defensenews.com/news/your-military/2026/07/13/sea-drones-strike-iranian-port-in-combat-first-for-us-navy/",
+      "source": "Defense News",
+      "score": 18,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
-      "assets": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -69,26 +136,46 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-14T23:32:03.857483Z"
+      "published": "2026-07-14T23:36:32.655428Z"
     },
     {
-      "id": "6b5f4e57dfdc3e13315e3afd509f02ac",
-      "title": "UK government defers capital gains on certain crypto with \u2018no gain, no loss\u2019 approach",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"UK government defers capital gains on certain crypto with \u2018no gain, no loss\u2019 approach\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-crypto-capital-gains-tax-italy-vs-france-vs-germany.jpg\" /></p><p>The change in tax policy, expected to effect about 700,000 people in the UK, is tied to the disposal of crypto in lending and liquidity pools.</p>",
-      "link": "https://cointelegraph.com/news/uk-government-capital-gains-lending-liquidity-no-gain-no-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 10,
-      "severity": "MEDIUM",
+      "id": "1fc51383cbff09505dc772cfe8a311c1",
+      "title": "Letter from the Governor to Joe Powell MP",
+      "summary": "Letter from the Governor",
+      "link": "https://www.bankofengland.co.uk/letter/2026/letter-from-the-governor-to-joe-powell",
+      "source": "Bank of England",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-14T23:36:24.204868Z"
+    },
+    {
+      "id": "218744b27df87c5596f910efd49e5a48",
+      "title": "Binance bets on becoming a crypto 'super app' as stablecoins reshape growth",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/07/14/binance-bets-on-becoming-a-crypto-super-app-as-stablecoins-reshape-growth",
+      "source": "CoinDesk",
+      "score": 17,
+      "severity": "HIGH",
       "regime": "CRYPTO",
       "tickers": [],
-      "regions": [
-        "FRANCE",
-        "GERMANY",
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "BTC",
@@ -99,24 +186,121 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-07-14T23:32:03.965878Z"
+      "published": "2026-07-14T23:36:33.933780Z"
+    },
+    {
+      "id": "be73b28289762fb620087be59b5efc50",
+      "title": "CoinFund\u2019s David Pakman says crypto hasn\u2019t solved tokenomics",
+      "summary": "<p>During an interview on The Starting Block David Pakman suggested projects could pay contributors in stablecoins.</p>",
+      "link": "https://www.theblock.co/post/408285/coinfunds-david-pakman-says-crypto-hasnt-solved-tokenomics?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-14T23:36:34.223550Z"
+    },
+    {
+      "id": "138b079d8f65bfef648897dde2f8064b",
+      "title": "Commissioner's Roswall speech at the United Nations High-Level Meeting on Critical Energy Transition Minerals, New York",
+      "summary": "European Commission Speech New York, 14 Jul 2026 Thank you, Madam Deputy Secretary-General, Excellencies, ladies and gentlemen.\nLet me begin by thanking the United Nations for convening this important meeting ...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1620",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-14T23:36:23.209314Z"
+    },
+    {
+      "id": "60176aed3844c89ce40554437a716be2",
+      "title": "How to Save the UN From Irrelevance",
+      "summary": "Ending the peacekeeper\u2019s paralysis.",
+      "link": "https://www.foreignaffairs.com/ukraine/how-save-irrelevance",
+      "source": "Foreign Affairs",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-14T23:36:33.219592Z"
+    },
+    {
+      "id": "9d05747035669beb3942d5b9c9346b43",
+      "title": "Trump Is Remaking Latin America",
+      "summary": "The short-term results and the long-term risks of the \u201cDonroe Doctrine.\u201d",
+      "link": "https://www.foreignaffairs.com/americas/trump-remaking-latin-america",
+      "source": "Foreign Affairs",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-14T23:36:33.219639Z"
+    },
+    {
+      "id": "3fa6280737a98076c77bf9786660d633",
+      "title": "Finland issues wanted notice for hacker behind massive psychotherapy data breach",
+      "summary": "The defendant's lawyer told Finnish media that he does not know where his client is but believes Kivim\u00e4ki is outside Finland.",
+      "link": "https://therecord.media/finland-issues-wanted-notice-for-hacker-vastaamo-breach",
+      "source": "The Record",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-14T23:36:34.804359Z"
     }
   ],
   "alerts": [
     {
-      "id": "84e231374e701fe6e97b68b536e8f1de",
-      "title": "Dangote's Dollar Shift Reveals Nigeria's Bigger Oil Problem",
-      "summary": "Africa's biggest refinery has started pricing fuel in U.S. dollars because Nigeria can't supply enough Nigerian crude to keep it running. Dangote Petroleum Refinery, which can process 700,000 barrels of crude per day, said it is switching domestic gasoline, diesel, and jet fuel pricing to dollars after struggling to secure enough barrels through the government's naira-for-crude program. Gasoline is now priced at $0.779 per liter, diesel at $1.087, and jet fuel at $0.942. The refinery says it needs 13 to 15 crude cargoes every month. State-owned\u2026",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Dangotes-Dollar-Shift-Reveals-Nigerias-Bigger-Oil-Problem.html",
-      "source": "OilPrice",
-      "score": 13,
-      "severity": "MEDIUM",
+      "id": "8df7d98645368b65b132ea8da3fdcac7",
+      "title": "UAE's exit from OPEC+ reduced the group's share of crude oil production and capacity",
+      "summary": "On April 28, 2026, the United Arab Emirates (UAE) announced that it was leaving OPEC, effective on May 1. OPEC was formed in 1960 by Iraq, Iran, Kuwait, Saudi Arabia, and Venezuela, with the stated objective to \"coordinate and unify petroleum policies among Member Countries.\" OPEC is best known for its effect on global crude oil prices.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67804",
+      "source": "EIA",
+      "score": 30,
+      "severity": "CRITICAL",
       "regime": "COMMODITIES",
       "tickers": [
-        "DXY",
         "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI",
         "COMMODITIES"
@@ -133,20 +317,86 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-14T23:32:02.082707Z"
+      "published": "2026-07-14T23:36:29.865426Z"
     },
     {
-      "id": "42d2be9788004020eaef3d254603c0b0",
-      "title": "The Clarity Act isn't a ticket to sanctions evasion, actually",
-      "summary": "",
-      "link": "https://www.coindesk.com/opinion/2026/07/14/the-clarity-act-isn-t-a-ticket-to-sanctions-evasion-actually",
-      "source": "CoinDesk",
-      "score": 13,
-      "severity": "MEDIUM",
+      "id": "cb7a8d803a15cc4b290493d823e86672",
+      "title": "UK financial regulators to begin overseeing Critical Third Parties announced by HM Treasury",
+      "summary": "The Bank of England, the Prudential Regulation Authority and the Financial Conduct Authority will start overseeing the first Critical Third Parties on Monday 13 July 2026, following designation by HM Treasury.",
+      "link": "https://www.bankofengland.co.uk/news/2026/july/uk-financial-regulators-to-begin-overseeing-critical-third-parties-announced-by-hmt",
+      "source": "Bank of England",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-14T23:36:24.204829Z"
+    },
+    {
+      "id": "ef68a1885df81632eea83800fecef312",
+      "title": "Statistical Notice 2026/07 -  Bank of England Levy: Notification Document Levy Year 2026/27",
+      "summary": "Statistical Notices update the definitions and guidance contained in the Banking Statistics Yellow Folder",
+      "link": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-07",
+      "source": "Bank of England",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-14T23:36:24.204910Z"
+    },
+    {
+      "id": "f66e87b356e4da193e961ba2d3836e28",
+      "title": "Sea drones strike Iranian port in combat first for US",
+      "summary": "U.S. Central Command utilized three Corsair unmanned surface vessels to strike a submarine and ship maintenance facility in Iran.",
+      "link": "https://www.defensenews.com/news/your-military/2026/07/13/sea-drones-strike-iranian-port-in-combat-first-for-us-navy/",
+      "source": "Defense News",
+      "score": 18,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
-      "assets": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -161,26 +411,46 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-14T23:32:03.857483Z"
+      "published": "2026-07-14T23:36:32.655428Z"
     },
     {
-      "id": "6b5f4e57dfdc3e13315e3afd509f02ac",
-      "title": "UK government defers capital gains on certain crypto with \u2018no gain, no loss\u2019 approach",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"UK government defers capital gains on certain crypto with \u2018no gain, no loss\u2019 approach\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-crypto-capital-gains-tax-italy-vs-france-vs-germany.jpg\" /></p><p>The change in tax policy, expected to effect about 700,000 people in the UK, is tied to the disposal of crypto in lending and liquidity pools.</p>",
-      "link": "https://cointelegraph.com/news/uk-government-capital-gains-lending-liquidity-no-gain-no-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 10,
-      "severity": "MEDIUM",
+      "id": "1fc51383cbff09505dc772cfe8a311c1",
+      "title": "Letter from the Governor to Joe Powell MP",
+      "summary": "Letter from the Governor",
+      "link": "https://www.bankofengland.co.uk/letter/2026/letter-from-the-governor-to-joe-powell",
+      "source": "Bank of England",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-14T23:36:24.204868Z"
+    },
+    {
+      "id": "218744b27df87c5596f910efd49e5a48",
+      "title": "Binance bets on becoming a crypto 'super app' as stablecoins reshape growth",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/07/14/binance-bets-on-becoming-a-crypto-super-app-as-stablecoins-reshape-growth",
+      "source": "CoinDesk",
+      "score": 17,
+      "severity": "HIGH",
       "regime": "CRYPTO",
       "tickers": [],
-      "regions": [
-        "FRANCE",
-        "GERMANY",
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "BTC",
@@ -191,7 +461,103 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-07-14T23:32:03.965878Z"
+      "published": "2026-07-14T23:36:33.933780Z"
+    },
+    {
+      "id": "be73b28289762fb620087be59b5efc50",
+      "title": "CoinFund\u2019s David Pakman says crypto hasn\u2019t solved tokenomics",
+      "summary": "<p>During an interview on The Starting Block David Pakman suggested projects could pay contributors in stablecoins.</p>",
+      "link": "https://www.theblock.co/post/408285/coinfunds-david-pakman-says-crypto-hasnt-solved-tokenomics?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-14T23:36:34.223550Z"
+    },
+    {
+      "id": "138b079d8f65bfef648897dde2f8064b",
+      "title": "Commissioner's Roswall speech at the United Nations High-Level Meeting on Critical Energy Transition Minerals, New York",
+      "summary": "European Commission Speech New York, 14 Jul 2026 Thank you, Madam Deputy Secretary-General, Excellencies, ladies and gentlemen.\nLet me begin by thanking the United Nations for convening this important meeting ...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1620",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-14T23:36:23.209314Z"
+    },
+    {
+      "id": "60176aed3844c89ce40554437a716be2",
+      "title": "How to Save the UN From Irrelevance",
+      "summary": "Ending the peacekeeper\u2019s paralysis.",
+      "link": "https://www.foreignaffairs.com/ukraine/how-save-irrelevance",
+      "source": "Foreign Affairs",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-14T23:36:33.219592Z"
+    },
+    {
+      "id": "9d05747035669beb3942d5b9c9346b43",
+      "title": "Trump Is Remaking Latin America",
+      "summary": "The short-term results and the long-term risks of the \u201cDonroe Doctrine.\u201d",
+      "link": "https://www.foreignaffairs.com/americas/trump-remaking-latin-america",
+      "source": "Foreign Affairs",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-14T23:36:33.219639Z"
+    },
+    {
+      "id": "3fa6280737a98076c77bf9786660d633",
+      "title": "Finland issues wanted notice for hacker behind massive psychotherapy data breach",
+      "summary": "The defendant's lawyer told Finnish media that he does not know where his client is but believes Kivim\u00e4ki is outside Finland.",
+      "link": "https://therecord.media/finland-issues-wanted-notice-for-hacker-vastaamo-breach",
+      "source": "The Record",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-14T23:36:34.804359Z"
     }
   ]
 }
