@@ -1,51 +1,85 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-14T12:36:38.619951Z",
+  "generated_at": "2026-07-14T12:41:53.376084Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 4,
-    "high_alerts": 0,
-    "last_updated": "2026-07-14T12:36:38.619966Z"
+    "critical_alerts": 5,
+    "high_alerts": 2,
+    "last_updated": "2026-07-14T12:41:53.376098Z"
   },
   "top_signals": [
     {
-      "id": "9a59144ef31299378a03eff5544fcee8",
-      "title": "Stocks Rise and Bond Yields Fall After CPI Data: Markets Wrap",
-      "summary": "Stocks rose and bond yields fell after softer-than-estimated inflation data tempered concern about a resurgence in oil prices that could prompt the Federal Reserve to raise interest rates.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-13/oil-holds-gains-as-iran-stokes-inflation-worries-markets-wrap",
+      "id": "309eabf478132a59acac4a6bd16cf29a",
+      "title": "Markets Brace for CPI, Warsh Hearing & Bank Earnings | Bloomberg Brief 07/14/2026",
+      "summary": "Brent climbs above $87 a barrel after President Trump reimposed the naval blockade of Iranian ships. Markets await the latest US inflation data ahead of Federal Reserve Chair Kevin Warsh's testimony before Congress. Plus, five of the six largest US lenders report earnings before the opening bell. Abigail Watt of UBS previews CPI and Chair Warsh's testimony. Saul Martinez of HSBC looks ahead to bank earnings. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-14/bloomberg-brief-07-14-2026-video",
       "source": "Bloomberg",
-      "score": 48,
+      "score": 52,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "WTI"
+        "BRENT"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
-        "AI",
-        "COMMODITIES",
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-07-14T12:36:01.828429Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-14T12:41:21.960951Z"
     },
     {
-      "id": "77fca9c599839ba8ddab43aa5a03da87",
-      "title": "US CPI Falls for the First Time Since 2020, Core Gauge Unchanged",
+      "id": "5818dd9cfbbf21590d7e0ca51b8bcc4a",
+      "title": "US inflation fell more than expected to 3.5% in June as oil prices tumbled",
+      "summary": "Easing energy costs helped tame price surges spurred by Middle East war",
+      "link": "https://www.ft.com/content/cb3b2887-d805-402b-9c85-55e3b44d867b",
+      "source": "Financial Times",
+      "score": 42,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-14T12:41:23.980492Z"
+    },
+    {
+      "id": "54a119a6040ac6c7724f82f0ab1f4c52",
+      "title": "US CPI Falls for the First Time Since 2020, Core Gauge Flat",
       "summary": "US consumer prices declined in June for the first time in six years and a key gauge of underlying inflation was little changed, taking some pressure off the Federal Reserve to raise interest rates.",
       "link": "https://www.bloomberg.com/news/articles/2026-07-14/us-cpi-falls-for-the-first-time-since-2020-core-gauge-unchanged",
       "source": "Bloomberg",
@@ -69,42 +103,78 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-07-14T12:36:01.828490Z"
+      "published": "2026-07-14T12:41:21.960829Z"
     },
     {
-      "id": "c27da7adcdcff4662edeab5adb4a6ce9",
-      "title": "U.S. June CPI fell 0.4%, likely cooling move toward Fed rate hikes",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/07/14/u-s-june-cpi-fell-0-4-likely-cooling-move-toward-fed-rate-hikes",
-      "source": "CoinDesk",
-      "score": 38,
+      "id": "9d53b789daa75a4bc65d0a78f0b6b2df",
+      "title": "Trump Reinstates Hormuz Blockade After New Clashes With Iran",
+      "summary": "President Donald Trump said on Monday the United States was reinstating its blockade of Iranian\u00a0shipping\u00a0in the Gulf and would ensure the Strait of Hormuz stays open after the two sides exchanged more missile and drone attacks.The latest hostilities\u2026",
+      "link": "https://www.marinelink.com/news/trump-reinstates-hormuz-blockade-new-541177",
+      "source": "MarineLink",
+      "score": 32,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "US"
+      ],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-14T12:41:48.851411Z"
+    },
+    {
+      "id": "b8bb45bd0ef94ea5e0fbbfde916ad909",
+      "title": "Washington and Tehran send warnings by missile",
+      "summary": "The foes are in their most dangerous period of fighting since a fragile April truce. Many of their strikes are designed to send signals",
+      "link": "https://www.ft.com/content/42a27e37-9868-4465-9bde-8b5261088608",
+      "source": "Financial Times",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-14T12:36:34.525709Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-14T12:41:23.980538Z"
     },
     {
-      "id": "7ca3e16c21cbbba6ef383d2c55bb9bfe",
-      "title": "Warsh Says Fed Has \u2018No Tolerance\u2019 for Elevated Inflation",
-      "summary": "Federal Reserve Chairman Kevin Warsh said policymakers at the central bank have no tolerance for high inflation, reiterating a vow to tame price growth that has been elevated for five years.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-14/warsh-says-fed-has-no-tolerance-for-elevated-inflation",
-      "source": "Bloomberg",
-      "score": 36,
-      "severity": "CRITICAL",
+      "id": "7dd1af175b9a1d33b202a57ae203ef89",
+      "title": "SoftBank\u2019s Son ridicules AI critics for \u2018spitting upwards\u2019",
+      "summary": "Business leaders unwilling to embrace technology \u2018should play the role of spouse\u2019, says controversial investor",
+      "link": "https://www.ft.com/content/fc0d48f4-a2ce-45b1-a0ad-83a0a8409f00",
+      "source": "Financial Times",
+      "score": 22,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
@@ -125,71 +195,175 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-14T12:36:01.828551Z"
+      "published": "2026-07-14T12:41:24.321290Z"
     },
     {
-      "id": "938eb4a8e93fd096bd6e10c1649bbe6a",
-      "title": "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased",
-      "summary": "The consumer price index in June was expected to increase 3.8% from a year ago.",
-      "link": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
+      "id": "98dd40ede897f16aab891ab681a2d9ad",
+      "title": "Iran strikes, Lindsey Graham, Apple takes OpenAI to court and more in Morning Squawk",
+      "summary": "Here are five key things investors need to know to start the trading day.",
+      "link": "https://www.cnbc.com/2026/07/13/5-things-to-know-before-the-stock-market-opens.html",
       "source": "CNBC",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-14T12:41:25.006620Z"
+    },
+    {
+      "id": "0eb8474fea8761765c65fc61fc4b228c",
+      "title": "Minutes of the UK Money Markets Code Sub-Committee \u2013 June 2026",
+      "summary": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+      "link": "https://www.bankofengland.co.uk/minutes/2026/june/uk-money-markets-committee-minutes-june-2026",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-14T12:41:44.023320Z"
+    },
+    {
+      "id": "9a91f5b881917d9700339e745e5b6560",
+      "title": "China\u2019s monthly car exports surge past 1mn for first time - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNUVJHRHRST3VPUVZzMlNzVXlLbzl3emtkeUlmWDhxZFJSLV9WSV80Nmt2VEh1a2JNU0dnUFg1QW5pQktvV0NBZE1Fc0piZElPNlFBZFo0OUpybndpUWQ0Nzc1a3NvLTBuOWctRzJEQVlwMV80b2I5TW9HakdhSXk0UnRud1A?oc=5\" target=\"_blank\">China\u2019s monthly car exports surge past 1mn for first time</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUVJHRHRST3VPUVZzMlNzVXlLbzl3emtkeUlmWDhxZFJSLV9WSV80Nmt2VEh1a2JNU0dnUFg1QW5pQktvV0NBZE1Fc0piZElPNlFBZFo0OUpybndpUWQ0Nzc1a3NvLTBuOWctRzJEQVlwMV80b2I5TW9HakdhSXk0UnRud1A?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
       "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-07-14T12:36:05.861247Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-14T12:41:52.312939Z"
+    },
+    {
+      "id": "973c1329fbfaf3e28eac5517b55a756e",
+      "title": "TECH FILE: Spray-Based Immersion Cooling to Boost Battery Safety",
+      "summary": "The Korea Institute of Machinery and Materials (KIMM) has unveiled what it says is the\u00a0world's first spray-based immersion cooling technology for lithium-ion battery packs, a development that could improve thermal management and fire safety\u2026",
+      "link": "https://www.marinelink.com/news/tech-file-spraybased-immersion-cooling-541197",
+      "source": "MarineLink",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-14T12:41:48.851305Z"
     }
   ],
   "alerts": [
     {
-      "id": "9a59144ef31299378a03eff5544fcee8",
-      "title": "Stocks Rise and Bond Yields Fall After CPI Data: Markets Wrap",
-      "summary": "Stocks rose and bond yields fell after softer-than-estimated inflation data tempered concern about a resurgence in oil prices that could prompt the Federal Reserve to raise interest rates.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-13/oil-holds-gains-as-iran-stokes-inflation-worries-markets-wrap",
+      "id": "309eabf478132a59acac4a6bd16cf29a",
+      "title": "Markets Brace for CPI, Warsh Hearing & Bank Earnings | Bloomberg Brief 07/14/2026",
+      "summary": "Brent climbs above $87 a barrel after President Trump reimposed the naval blockade of Iranian ships. Markets await the latest US inflation data ahead of Federal Reserve Chair Kevin Warsh's testimony before Congress. Plus, five of the six largest US lenders report earnings before the opening bell. Abigail Watt of UBS previews CPI and Chair Warsh's testimony. Saul Martinez of HSBC looks ahead to bank earnings. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-14/bloomberg-brief-07-14-2026-video",
       "source": "Bloomberg",
-      "score": 48,
+      "score": 52,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "WTI"
+        "BRENT"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
-        "AI",
-        "COMMODITIES",
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-07-14T12:36:01.828429Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-14T12:41:21.960951Z"
     },
     {
-      "id": "77fca9c599839ba8ddab43aa5a03da87",
-      "title": "US CPI Falls for the First Time Since 2020, Core Gauge Unchanged",
+      "id": "5818dd9cfbbf21590d7e0ca51b8bcc4a",
+      "title": "US inflation fell more than expected to 3.5% in June as oil prices tumbled",
+      "summary": "Easing energy costs helped tame price surges spurred by Middle East war",
+      "link": "https://www.ft.com/content/cb3b2887-d805-402b-9c85-55e3b44d867b",
+      "source": "Financial Times",
+      "score": 42,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-14T12:41:23.980492Z"
+    },
+    {
+      "id": "54a119a6040ac6c7724f82f0ab1f4c52",
+      "title": "US CPI Falls for the First Time Since 2020, Core Gauge Flat",
       "summary": "US consumer prices declined in June for the first time in six years and a key gauge of underlying inflation was little changed, taking some pressure off the Federal Reserve to raise interest rates.",
       "link": "https://www.bloomberg.com/news/articles/2026-07-14/us-cpi-falls-for-the-first-time-since-2020-core-gauge-unchanged",
       "source": "Bloomberg",
@@ -213,42 +387,78 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-07-14T12:36:01.828490Z"
+      "published": "2026-07-14T12:41:21.960829Z"
     },
     {
-      "id": "c27da7adcdcff4662edeab5adb4a6ce9",
-      "title": "U.S. June CPI fell 0.4%, likely cooling move toward Fed rate hikes",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/07/14/u-s-june-cpi-fell-0-4-likely-cooling-move-toward-fed-rate-hikes",
-      "source": "CoinDesk",
-      "score": 38,
+      "id": "9d53b789daa75a4bc65d0a78f0b6b2df",
+      "title": "Trump Reinstates Hormuz Blockade After New Clashes With Iran",
+      "summary": "President Donald Trump said on Monday the United States was reinstating its blockade of Iranian\u00a0shipping\u00a0in the Gulf and would ensure the Strait of Hormuz stays open after the two sides exchanged more missile and drone attacks.The latest hostilities\u2026",
+      "link": "https://www.marinelink.com/news/trump-reinstates-hormuz-blockade-new-541177",
+      "source": "MarineLink",
+      "score": 32,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "US"
+      ],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-14T12:41:48.851411Z"
+    },
+    {
+      "id": "b8bb45bd0ef94ea5e0fbbfde916ad909",
+      "title": "Washington and Tehran send warnings by missile",
+      "summary": "The foes are in their most dangerous period of fighting since a fragile April truce. Many of their strikes are designed to send signals",
+      "link": "https://www.ft.com/content/42a27e37-9868-4465-9bde-8b5261088608",
+      "source": "Financial Times",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-14T12:36:34.525709Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-14T12:41:23.980538Z"
     },
     {
-      "id": "7ca3e16c21cbbba6ef383d2c55bb9bfe",
-      "title": "Warsh Says Fed Has \u2018No Tolerance\u2019 for Elevated Inflation",
-      "summary": "Federal Reserve Chairman Kevin Warsh said policymakers at the central bank have no tolerance for high inflation, reiterating a vow to tame price growth that has been elevated for five years.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-14/warsh-says-fed-has-no-tolerance-for-elevated-inflation",
-      "source": "Bloomberg",
-      "score": 36,
-      "severity": "CRITICAL",
+      "id": "7dd1af175b9a1d33b202a57ae203ef89",
+      "title": "SoftBank\u2019s Son ridicules AI critics for \u2018spitting upwards\u2019",
+      "summary": "Business leaders unwilling to embrace technology \u2018should play the role of spouse\u2019, says controversial investor",
+      "link": "https://www.ft.com/content/fc0d48f4-a2ce-45b1-a0ad-83a0a8409f00",
+      "source": "Financial Times",
+      "score": 22,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
@@ -269,33 +479,103 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-14T12:36:01.828551Z"
+      "published": "2026-07-14T12:41:24.321290Z"
     },
     {
-      "id": "938eb4a8e93fd096bd6e10c1649bbe6a",
-      "title": "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased",
-      "summary": "The consumer price index in June was expected to increase 3.8% from a year ago.",
-      "link": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
+      "id": "98dd40ede897f16aab891ab681a2d9ad",
+      "title": "Iran strikes, Lindsey Graham, Apple takes OpenAI to court and more in Morning Squawk",
+      "summary": "Here are five key things investors need to know to start the trading day.",
+      "link": "https://www.cnbc.com/2026/07/13/5-things-to-know-before-the-stock-market-opens.html",
       "source": "CNBC",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-14T12:41:25.006620Z"
+    },
+    {
+      "id": "0eb8474fea8761765c65fc61fc4b228c",
+      "title": "Minutes of the UK Money Markets Code Sub-Committee \u2013 June 2026",
+      "summary": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+      "link": "https://www.bankofengland.co.uk/minutes/2026/june/uk-money-markets-committee-minutes-june-2026",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-14T12:41:44.023320Z"
+    },
+    {
+      "id": "9a91f5b881917d9700339e745e5b6560",
+      "title": "China\u2019s monthly car exports surge past 1mn for first time - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNUVJHRHRST3VPUVZzMlNzVXlLbzl3emtkeUlmWDhxZFJSLV9WSV80Nmt2VEh1a2JNU0dnUFg1QW5pQktvV0NBZE1Fc0piZElPNlFBZFo0OUpybndpUWQ0Nzc1a3NvLTBuOWctRzJEQVlwMV80b2I5TW9HakdhSXk0UnRud1A?oc=5\" target=\"_blank\">China\u2019s monthly car exports surge past 1mn for first time</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUVJHRHRST3VPUVZzMlNzVXlLbzl3emtkeUlmWDhxZFJSLV9WSV80Nmt2VEh1a2JNU0dnUFg1QW5pQktvV0NBZE1Fc0piZElPNlFBZFo0OUpybndpUWQ0Nzc1a3NvLTBuOWctRzJEQVlwMV80b2I5TW9HakdhSXk0UnRud1A?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
       "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-07-14T12:36:05.861247Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-14T12:41:52.312939Z"
+    },
+    {
+      "id": "973c1329fbfaf3e28eac5517b55a756e",
+      "title": "TECH FILE: Spray-Based Immersion Cooling to Boost Battery Safety",
+      "summary": "The Korea Institute of Machinery and Materials (KIMM) has unveiled what it says is the\u00a0world's first spray-based immersion cooling technology for lithium-ion battery packs, a development that could improve thermal management and fire safety\u2026",
+      "link": "https://www.marinelink.com/news/tech-file-spraybased-immersion-cooling-541197",
+      "source": "MarineLink",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-14T12:41:48.851305Z"
     }
   ]
 }
