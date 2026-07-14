@@ -1,25 +1,25 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-14T16:56:34.244833Z",
+  "generated_at": "2026-07-14T17:02:19.431498Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-07-14T16:56:34.244845Z"
+    "critical_alerts": 1,
+    "high_alerts": 1,
+    "last_updated": "2026-07-14T17:02:19.431510Z"
   },
   "top_signals": [
     {
-      "id": "ed20074cf9ecc6fcec8aea5ed93e3152",
-      "title": "Hackers steal Lidl customer data from external service provider",
-      "summary": "The retailer said the incident did not affect its online shopping platform itself but involved a separately stored customer database maintained by a third-party provider. According to notifications sent to Lidl's German, Belgian and Dutch customers on Friday, the attackers briefly accessed the file and exfiltrated part of its contents.",
-      "link": "https://therecord.media/hackers-steal-lidl-customer-data",
-      "source": "The Record",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "id": "b8e6ea012e204f18b3f4cbfe04bf21fb",
+      "title": "Warsh does not hint at July tightening in Congress testimony",
+      "summary": "Fed chair suggests inflation was his main concern but stopped short of signalling imminent tightening",
+      "link": "https://www.ft.com/content/60c4ed49-216f-4f90-9bf9-94f305296f02",
+      "source": "Financial Times",
+      "score": 35,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -29,27 +29,33 @@
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-07-14T16:56:30.910060Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-14T17:01:46.727206Z"
     },
     {
-      "id": "0dd7ca336ffff04c1be7dddc936dc40b",
-      "title": "Manufacturing woes hamper US 155-mm ammo production",
-      "summary": "Manufacturing problems are dashing the U.S. Army\u2019s plans to boost production of urgently needed 155-mm howitzer shells, a government watchdog said.",
-      "link": "https://www.defensenews.com/news/your-military/2026/07/14/manufacturing-woes-hamper-us-155-mm-ammo-production/",
-      "source": "Defense News",
-      "score": 10,
-      "severity": "MEDIUM",
+      "id": "d6a1b94c0b4d816da103c794bad27107",
+      "title": "U.S. trade official says 'very few' Nvidia H200 AI chips have been shipped to China",
+      "summary": "The remark is a sign that H200 shipments to China have restarted, potentially boosting Nvidia's sales even higher.",
+      "link": "https://www.cnbc.com/2026/07/14/nvidia-h200-ai-chips-china.html",
+      "source": "CNBC",
+      "score": 23,
+      "severity": "HIGH",
       "regime": "AI",
-      "tickers": [],
-      "regions": [],
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [
+        "CHINA"
+      ],
       "assets": [
         "AI"
       ],
@@ -62,14 +68,58 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-14T16:56:28.510533Z"
+      "published": "2026-07-14T17:01:47.480994Z"
     },
     {
-      "id": "d4810516608f36015bbfec59a5432ecb",
-      "title": "Careless smoker accused of causing fatal Osaka fire in 2025",
-      "summary": "The police called for prosecutors to indict the man on charges of gross negligence resulting in an accidental fire.",
-      "link": "https://www.japantimes.co.jp/news/2026/07/14/japan/crime-legal/osaka-fire-careless-smoker/",
-      "source": "Japan Times",
+      "id": "427604389c52c349016cf42a6a1730db",
+      "title": "Social Security cost-of-living adjustment estimate for 2027 falls as inflation cools",
+      "summary": "New estimates show Social Security's annual cost-of-living adjustment for 2027 may be between 3.7% to 3.8%. Here's what to know.",
+      "link": "https://www.cnbc.com/2026/07/14/social-security-cola-in-2027-cooling-inflation-lowers-estimate.html",
+      "source": "CNBC",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-07-14T17:01:47.481062Z"
+    },
+    {
+      "id": "85f6d76d5b7dec48f4ead44b100c44aa",
+      "title": "Mizuho downgrades Circle to underperform, cuts price target to $50 on Open USD threat",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/07/14/mizuho-downgrades-circle-to-underperform-cuts-price-target-to-usd50-on-open-usd-threat",
+      "source": "CoinDesk",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-14T17:02:15.745728Z"
+    },
+    {
+      "id": "9b63327ec471954ecf1cb7e183caddef",
+      "title": "Trump Backs Off 20% Fee Idea for Hormuz",
+      "summary": "U.S.",
+      "link": "https://www.marinelink.com/news/trump-backs-off-fee-idea-hormuz-541211",
+      "source": "MarineLink",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -78,35 +128,19 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-14T16:56:24.830430Z"
-    },
-    {
-      "id": "62f7daaeaec05883b9f613db0b441cfe",
-      "title": "Microsoft starts testing cleaner Windows Search without ads",
-      "summary": "Microsoft is now testing a cleaner and faster version of Windows Search that should prioritize relevant results over ads and promotional content. [...]",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-testing-cleaner-windows-search-without-ads/",
-      "source": "BleepingComputer",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-14T16:56:30.397239Z"
+      "published": "2026-07-14T17:02:14.526944Z"
     }
   ],
   "alerts": [
     {
-      "id": "ed20074cf9ecc6fcec8aea5ed93e3152",
-      "title": "Hackers steal Lidl customer data from external service provider",
-      "summary": "The retailer said the incident did not affect its online shopping platform itself but involved a separately stored customer database maintained by a third-party provider. According to notifications sent to Lidl's German, Belgian and Dutch customers on Friday, the attackers briefly accessed the file and exfiltrated part of its contents.",
-      "link": "https://therecord.media/hackers-steal-lidl-customer-data",
-      "source": "The Record",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "id": "b8e6ea012e204f18b3f4cbfe04bf21fb",
+      "title": "Warsh does not hint at July tightening in Congress testimony",
+      "summary": "Fed chair suggests inflation was his main concern but stopped short of signalling imminent tightening",
+      "link": "https://www.ft.com/content/60c4ed49-216f-4f90-9bf9-94f305296f02",
+      "source": "Financial Times",
+      "score": 35,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -116,27 +150,33 @@
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-07-14T16:56:30.910060Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-14T17:01:46.727206Z"
     },
     {
-      "id": "0dd7ca336ffff04c1be7dddc936dc40b",
-      "title": "Manufacturing woes hamper US 155-mm ammo production",
-      "summary": "Manufacturing problems are dashing the U.S. Army\u2019s plans to boost production of urgently needed 155-mm howitzer shells, a government watchdog said.",
-      "link": "https://www.defensenews.com/news/your-military/2026/07/14/manufacturing-woes-hamper-us-155-mm-ammo-production/",
-      "source": "Defense News",
-      "score": 10,
-      "severity": "MEDIUM",
+      "id": "d6a1b94c0b4d816da103c794bad27107",
+      "title": "U.S. trade official says 'very few' Nvidia H200 AI chips have been shipped to China",
+      "summary": "The remark is a sign that H200 shipments to China have restarted, potentially boosting Nvidia's sales even higher.",
+      "link": "https://www.cnbc.com/2026/07/14/nvidia-h200-ai-chips-china.html",
+      "source": "CNBC",
+      "score": 23,
+      "severity": "HIGH",
       "regime": "AI",
-      "tickers": [],
-      "regions": [],
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [
+        "CHINA"
+      ],
       "assets": [
         "AI"
       ],
@@ -149,14 +189,58 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-14T16:56:28.510533Z"
+      "published": "2026-07-14T17:01:47.480994Z"
     },
     {
-      "id": "d4810516608f36015bbfec59a5432ecb",
-      "title": "Careless smoker accused of causing fatal Osaka fire in 2025",
-      "summary": "The police called for prosecutors to indict the man on charges of gross negligence resulting in an accidental fire.",
-      "link": "https://www.japantimes.co.jp/news/2026/07/14/japan/crime-legal/osaka-fire-careless-smoker/",
-      "source": "Japan Times",
+      "id": "427604389c52c349016cf42a6a1730db",
+      "title": "Social Security cost-of-living adjustment estimate for 2027 falls as inflation cools",
+      "summary": "New estimates show Social Security's annual cost-of-living adjustment for 2027 may be between 3.7% to 3.8%. Here's what to know.",
+      "link": "https://www.cnbc.com/2026/07/14/social-security-cola-in-2027-cooling-inflation-lowers-estimate.html",
+      "source": "CNBC",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-07-14T17:01:47.481062Z"
+    },
+    {
+      "id": "85f6d76d5b7dec48f4ead44b100c44aa",
+      "title": "Mizuho downgrades Circle to underperform, cuts price target to $50 on Open USD threat",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/07/14/mizuho-downgrades-circle-to-underperform-cuts-price-target-to-usd50-on-open-usd-threat",
+      "source": "CoinDesk",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-14T17:02:15.745728Z"
+    },
+    {
+      "id": "9b63327ec471954ecf1cb7e183caddef",
+      "title": "Trump Backs Off 20% Fee Idea for Hormuz",
+      "summary": "U.S.",
+      "link": "https://www.marinelink.com/news/trump-backs-off-fee-idea-hormuz-541211",
+      "source": "MarineLink",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -165,23 +249,7 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-14T16:56:24.830430Z"
-    },
-    {
-      "id": "62f7daaeaec05883b9f613db0b441cfe",
-      "title": "Microsoft starts testing cleaner Windows Search without ads",
-      "summary": "Microsoft is now testing a cleaner and faster version of Windows Search that should prioritize relevant results over ads and promotional content. [...]",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-testing-cleaner-windows-search-without-ads/",
-      "source": "BleepingComputer",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-14T16:56:30.397239Z"
+      "published": "2026-07-14T17:02:14.526944Z"
     }
   ]
 }
