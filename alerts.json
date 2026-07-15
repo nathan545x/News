@@ -1,19 +1,113 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-15T11:32:14.777197Z",
+  "generated_at": "2026-07-15T11:36:34.805857Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-07-15T11:32:14.777209Z"
+    "critical_alerts": 2,
+    "high_alerts": 1,
+    "last_updated": "2026-07-15T11:36:34.805871Z"
   },
   "top_signals": [
     {
-      "id": "7b08e60669e0979d74e4d120c40aea4a",
-      "title": "Morgan Stanley posts record revenue and profit as equities trading surged 69%",
+      "id": "cd5ff8cbace76aa4839fe5ce31b9d17d",
+      "title": "Renewed Hormuz hostilities drive ECB rates rethink amid \u2018extremely volatile\u2019 outlook",
+      "summary": "Several consecutive days of strikes exchanged between the U.S. and Iran have cast uncertainty on the European Central Bank's interest rate decision next week.",
+      "link": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html",
+      "source": "CNBC",
+      "score": 34,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-15T11:36:02.737800Z"
+    },
+    {
+      "id": "0489afda0b79685128c7d219523357c3",
+      "title": "Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/07/15/bitcoin-tops-usd64-000-as-cooling-u-s-inflation-guts-the-fed-rate-hike-trade",
+      "source": "CoinDesk",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-07-15T11:36:31.062198Z"
+    },
+    {
+      "id": "75381991d14472aaa3679d6402b76c1a",
+      "title": "Amazon courts China sellers with US customs-friendly warehouses",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/retail/amazon-courts-china-sellers-with-us-customs-friendly-warehouses",
+      "source": "Nikkei Asia",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-15T11:36:25.274567Z"
+    },
+    {
+      "id": "fabffd1d48e155db7f37f74c0e96a31a",
+      "title": "Morgan Stanley posts record revenue and profit as equities trading surges 69%",
       "summary": "Morgan Stanley is expected to benefit from higher trading and investment banking revenue in the quarter, as rivals JPMorgan Chase and Goldman Sachs have shown.",
       "link": "https://www.cnbc.com/2026/07/15/morgan-stanley-ms-earnings-q2-2026-.html",
       "source": "CNBC",
@@ -40,134 +134,107 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-15T11:31:41.442118Z"
-    },
-    {
-      "id": "72c4cafcb5c1eb1e115a99fd666097dd",
-      "title": "Corporate report: Consolidated Fund account 2025 to 2026",
-      "summary": "The Consolidated Fund accounts for 2025 to 2026 have been published.",
-      "link": "https://www.gov.uk/government/publications/consolidated-fund-account-2025-to-2026",
-      "source": "HM Treasury",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-15T11:31:59.929833Z"
-    },
-    {
-      "id": "72687ce5c51608048e8732c805273f16",
-      "title": "FCA boss takes aim at motor finance lenders and claims firms",
-      "summary": "<p> <img alt=\"The FCA&#039;s motor finance redress scheme is facing legal challenges.\" src=\"https://www.cityam.com/wp-content/uploads/2024/07/cars-1.jpeg?w=1107\" /> </p>The boss of the City watchdog has taken a fresh swipe at the parties opposing the regulator\u2019s motor finance redress scheme.&#160; Nikhil Rathi, chief executive of the Financial Conduct Authority (FCA), told the Treasury Committee that he was \u201cconcerned about the integrity of the claims management market\u201d and took a shot at lenders for trying <a href=\"https://www.cityam.com/fca-boss-takes-aim-at-motor-finance-lenders-and-claims-firms/\">[...]</a>",
-      "link": "https://www.cityam.com/fca-boss-takes-aim-at-motor-finance-lenders-and-claims-firms/",
-      "source": "CityAM",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-15T11:32:00.914716Z"
-    },
-    {
-      "id": "ec6c3ab6d4671217bfbd7b5aa8bfef08",
-      "title": "Houthis fire missiles at Saudi Arabia, breaking years of calm - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxQV2Q4MUdSUXZ0ZWdUWnM4SFNoV0lqYlBHTy1PMURKeFA1TS02RWRjbVZDYzJTY29obkdIa29MV2Y1WjZta2c5TXRzTEdNRjc3alR0MGtNV3QzUXpoanJyLWQ4VHV4NlM2WloyaWZaenV1Y1hqUjY1dHNaaXRiWnoxdmxLYWtyNURVQlRfblZjaFBYTmdXNDVVVFFlM1BWS3M2SzFOcm5MakVrYWNwM01aT0s2UThnckpQRDlSUjdqRjlMaWM4eTJtRG5JZU9FQQ?oc=5\" target=\"_blank\">Houthis fire missiles at Saudi Arabia, breaking years of calm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQV2Q4MUdSUXZ0ZWdUWnM4SFNoV0lqYlBHTy1PMURKeFA1TS02RWRjbVZDYzJTY29obkdIa29MV2Y1WjZta2c5TXRzTEdNRjc3alR0MGtNV3QzUXpoanJyLWQ4VHV4NlM2WloyaWZaenV1Y1hqUjY1dHNaaXRiWnoxdmxLYWtyNURVQlRfblZjaFBYTmdXNDVVVFFlM1BWS3M2SzFOcm5MakVrYWNwM01aT0s2UThnckpQRDlSUjdqRjlMaWM4eTJtRG5JZU9FQQ?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-15T11:32:13.162622Z"
-    },
-    {
-      "id": "2d05b2e0ab64970910b2bbc14b8cb265",
-      "title": "PayPal jumps 20% in premarket on report of Stripe, Advent $53 billion takeover offer",
-      "summary": "Stripe\u00a0and\u00a0Advent\u00a0International have reportedly made a joint\u00a0offer\u00a0to acquire\u00a0PayPal\u00a0Holdings Inc\u00a0for $60.50 per share, in a deal that would value the payments company at\u00a0more\u00a0than\u00a0$53\u00a0billion.",
-      "link": "https://www.cnbc.com/2026/07/15/stripe-advent-offer-to-buy-paypal-for-more-than-53-billion-reuters.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-15T11:31:41.442186Z"
-    },
-    {
-      "id": "287d0762549923acdc78baea35a90bd8",
-      "title": "Remarks by Commissioner Dombrovskis at the press conference following the General Affairs Council",
-      "summary": "European Commission Statement Brussels, 14 Jul 2026 Thank you, Minister. Good afternoon, everyone.\nToday, we had an important first meeting of the General Affairs Council under the Irish Presidency.\nI would like ...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1612",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-15T11:31:58.029012Z"
+      "published": "2026-07-15T11:36:02.434860Z"
     }
   ],
   "alerts": [
     {
-      "id": "7b08e60669e0979d74e4d120c40aea4a",
-      "title": "Morgan Stanley posts record revenue and profit as equities trading surged 69%",
+      "id": "cd5ff8cbace76aa4839fe5ce31b9d17d",
+      "title": "Renewed Hormuz hostilities drive ECB rates rethink amid \u2018extremely volatile\u2019 outlook",
+      "summary": "Several consecutive days of strikes exchanged between the U.S. and Iran have cast uncertainty on the European Central Bank's interest rate decision next week.",
+      "link": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html",
+      "source": "CNBC",
+      "score": 34,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-15T11:36:02.737800Z"
+    },
+    {
+      "id": "0489afda0b79685128c7d219523357c3",
+      "title": "Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/07/15/bitcoin-tops-usd64-000-as-cooling-u-s-inflation-guts-the-fed-rate-hike-trade",
+      "source": "CoinDesk",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-07-15T11:36:31.062198Z"
+    },
+    {
+      "id": "75381991d14472aaa3679d6402b76c1a",
+      "title": "Amazon courts China sellers with US customs-friendly warehouses",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/retail/amazon-courts-china-sellers-with-us-customs-friendly-warehouses",
+      "source": "Nikkei Asia",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-15T11:36:25.274567Z"
+    },
+    {
+      "id": "fabffd1d48e155db7f37f74c0e96a31a",
+      "title": "Morgan Stanley posts record revenue and profit as equities trading surges 69%",
       "summary": "Morgan Stanley is expected to benefit from higher trading and investment banking revenue in the quarter, as rivals JPMorgan Chase and Goldman Sachs have shown.",
       "link": "https://www.cnbc.com/2026/07/15/morgan-stanley-ms-earnings-q2-2026-.html",
       "source": "CNBC",
@@ -194,128 +261,7 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-15T11:31:41.442118Z"
-    },
-    {
-      "id": "72c4cafcb5c1eb1e115a99fd666097dd",
-      "title": "Corporate report: Consolidated Fund account 2025 to 2026",
-      "summary": "The Consolidated Fund accounts for 2025 to 2026 have been published.",
-      "link": "https://www.gov.uk/government/publications/consolidated-fund-account-2025-to-2026",
-      "source": "HM Treasury",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-15T11:31:59.929833Z"
-    },
-    {
-      "id": "72687ce5c51608048e8732c805273f16",
-      "title": "FCA boss takes aim at motor finance lenders and claims firms",
-      "summary": "<p> <img alt=\"The FCA&#039;s motor finance redress scheme is facing legal challenges.\" src=\"https://www.cityam.com/wp-content/uploads/2024/07/cars-1.jpeg?w=1107\" /> </p>The boss of the City watchdog has taken a fresh swipe at the parties opposing the regulator\u2019s motor finance redress scheme.&#160; Nikhil Rathi, chief executive of the Financial Conduct Authority (FCA), told the Treasury Committee that he was \u201cconcerned about the integrity of the claims management market\u201d and took a shot at lenders for trying <a href=\"https://www.cityam.com/fca-boss-takes-aim-at-motor-finance-lenders-and-claims-firms/\">[...]</a>",
-      "link": "https://www.cityam.com/fca-boss-takes-aim-at-motor-finance-lenders-and-claims-firms/",
-      "source": "CityAM",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-15T11:32:00.914716Z"
-    },
-    {
-      "id": "ec6c3ab6d4671217bfbd7b5aa8bfef08",
-      "title": "Houthis fire missiles at Saudi Arabia, breaking years of calm - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxQV2Q4MUdSUXZ0ZWdUWnM4SFNoV0lqYlBHTy1PMURKeFA1TS02RWRjbVZDYzJTY29obkdIa29MV2Y1WjZta2c5TXRzTEdNRjc3alR0MGtNV3QzUXpoanJyLWQ4VHV4NlM2WloyaWZaenV1Y1hqUjY1dHNaaXRiWnoxdmxLYWtyNURVQlRfblZjaFBYTmdXNDVVVFFlM1BWS3M2SzFOcm5MakVrYWNwM01aT0s2UThnckpQRDlSUjdqRjlMaWM4eTJtRG5JZU9FQQ?oc=5\" target=\"_blank\">Houthis fire missiles at Saudi Arabia, breaking years of calm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQV2Q4MUdSUXZ0ZWdUWnM4SFNoV0lqYlBHTy1PMURKeFA1TS02RWRjbVZDYzJTY29obkdIa29MV2Y1WjZta2c5TXRzTEdNRjc3alR0MGtNV3QzUXpoanJyLWQ4VHV4NlM2WloyaWZaenV1Y1hqUjY1dHNaaXRiWnoxdmxLYWtyNURVQlRfblZjaFBYTmdXNDVVVFFlM1BWS3M2SzFOcm5MakVrYWNwM01aT0s2UThnckpQRDlSUjdqRjlMaWM4eTJtRG5JZU9FQQ?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-15T11:32:13.162622Z"
-    },
-    {
-      "id": "2d05b2e0ab64970910b2bbc14b8cb265",
-      "title": "PayPal jumps 20% in premarket on report of Stripe, Advent $53 billion takeover offer",
-      "summary": "Stripe\u00a0and\u00a0Advent\u00a0International have reportedly made a joint\u00a0offer\u00a0to acquire\u00a0PayPal\u00a0Holdings Inc\u00a0for $60.50 per share, in a deal that would value the payments company at\u00a0more\u00a0than\u00a0$53\u00a0billion.",
-      "link": "https://www.cnbc.com/2026/07/15/stripe-advent-offer-to-buy-paypal-for-more-than-53-billion-reuters.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-15T11:31:41.442186Z"
-    },
-    {
-      "id": "287d0762549923acdc78baea35a90bd8",
-      "title": "Remarks by Commissioner Dombrovskis at the press conference following the General Affairs Council",
-      "summary": "European Commission Statement Brussels, 14 Jul 2026 Thank you, Minister. Good afternoon, everyone.\nToday, we had an important first meeting of the General Affairs Council under the Irish Presidency.\nI would like ...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1612",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-15T11:31:58.029012Z"
+      "published": "2026-07-15T11:36:02.434860Z"
     }
   ]
 }
