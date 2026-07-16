@@ -1,49 +1,283 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-16T12:51:57.021848Z",
+  "generated_at": "2026-07-16T12:56:36.555298Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 2,
     "high_alerts": 0,
-    "last_updated": "2026-07-16T12:51:57.021860Z"
+    "last_updated": "2026-07-16T12:56:36.555307Z"
   },
   "top_signals": [
     {
-      "id": "b75bb81537afa508d675d0297fe2c7ff",
-      "title": "Dune research finds 85% of concentrated DeFi liquidity is underutilized, with $150M in annual fees foregone",
-      "summary": "<p>Dune research commissioned by 1inch finds 85% of concentrated DeFi liquidity underutilized, with $150M in annual fees forgone.</p>",
-      "link": "https://www.theblock.co/post/408591/dune-research-finds-85-of-concentrated-defi-liquidity-is-underutilized-with-150m-in-annual-fees-foregone?utm_source=rss&utm_medium=rss",
+      "id": "eeab49dd5c7aa0df07c4be5e5ddd7d59",
+      "title": "US will not win Iran war from the air, Trump\u2019s ex-defence chief warns",
+      "summary": "Mark Esper tells FT more bombing will not change Tehran\u2019s behaviour, as president vows to step up attacks",
+      "link": "https://www.ft.com/content/80245363-32d8-4fe6-805f-c4e3dec6279c",
+      "source": "Financial Times",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-16T12:56:03.110006Z"
+    },
+    {
+      "id": "32dc58bdca866f50765765ead5530580",
+      "title": "Treasury yields rise, as oil resumes climb on mounting U.S.-Iran tensions",
+      "summary": "Treasury yields rise, as oil resumes climb on mounting U.S.-Iran tensions",
+      "link": "https://www.cnbc.com/2026/07/16/us-treasury-yields-wall-street-inflation-employment-data.html",
+      "source": "CNBC",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "TLT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-16T12:56:05.164083Z"
+    },
+    {
+      "id": "34295f81c721d370dd3fd4413a2f9847",
+      "title": "Bitcoin whale moves $383 million in BTC after 8 years of dormancy: onchain data",
+      "summary": "<p>A bitcoin OG wallet transferred 5,908 BTC to a new address on Wednesday, according to Lookonchain, citing Arkham data.</p>",
+      "link": "https://www.theblock.co/post/408570/bitcoin-whale-moves-8-years?utm_source=rss&utm_medium=rss",
       "source": "The Block",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-16T12:56:32.579951Z"
+    },
+    {
+      "id": "0eb8474fea8761765c65fc61fc4b228c",
+      "title": "Minutes of the UK Money Markets Code Sub-Committee \u2013 June 2026",
+      "summary": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+      "link": "https://www.bankofengland.co.uk/minutes/2026/june/uk-money-markets-committee-minutes-june-2026",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-16T12:56:23.087098Z"
+    },
+    {
+      "id": "afd7d9fb5a3dbb8d7ef53209799cc16d",
+      "title": "Stocks making the biggest moves premarket: BlackRock, PayPal, ASML, Morgan Stanley & more - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPRWxmQ1Y5RXhKNzVic1d1TDA0XzRZRW50a0UtUG9tMUlMS1o0Y0VIVlRnTVd2MWtWeWFleXdqaW9NLTA0amFzdFdBNGxveHR5WWFaUjdPZEwyM1kzbmdOYXNrcndFaWtNUnJ2T2FXbDI5ZDJfSzVvSGZkRmwxNVJuNjI5TmVkMkxfY19RYmQtYmxwckFrWVF3?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: BlackRock, PayPal, ASML, Morgan Stanley & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRWxmQ1Y5RXhKNzVic1d1TDA0XzRZRW50a0UtUG9tMUlMS1o0Y0VIVlRnTVd2MWtWeWFleXdqaW9NLTA0amFzdFdBNGxveHR5WWFaUjdPZEwyM1kzbmdOYXNrcndFaWtNUnJ2T2FXbDI5ZDJfSzVvSGZkRmwxNVJuNjI5TmVkMkxfY19RYmQtYmxwckFrWVF3?oc=5",
+      "source": "Google Macro",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "EQUITIES"
+      ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-16T12:51:53.677330Z"
+      "published": "2026-07-16T12:56:36.555282Z"
     }
   ],
   "alerts": [
     {
-      "id": "b75bb81537afa508d675d0297fe2c7ff",
-      "title": "Dune research finds 85% of concentrated DeFi liquidity is underutilized, with $150M in annual fees foregone",
-      "summary": "<p>Dune research commissioned by 1inch finds 85% of concentrated DeFi liquidity underutilized, with $150M in annual fees forgone.</p>",
-      "link": "https://www.theblock.co/post/408591/dune-research-finds-85-of-concentrated-defi-liquidity-is-underutilized-with-150m-in-annual-fees-foregone?utm_source=rss&utm_medium=rss",
+      "id": "eeab49dd5c7aa0df07c4be5e5ddd7d59",
+      "title": "US will not win Iran war from the air, Trump\u2019s ex-defence chief warns",
+      "summary": "Mark Esper tells FT more bombing will not change Tehran\u2019s behaviour, as president vows to step up attacks",
+      "link": "https://www.ft.com/content/80245363-32d8-4fe6-805f-c4e3dec6279c",
+      "source": "Financial Times",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-16T12:56:03.110006Z"
+    },
+    {
+      "id": "32dc58bdca866f50765765ead5530580",
+      "title": "Treasury yields rise, as oil resumes climb on mounting U.S.-Iran tensions",
+      "summary": "Treasury yields rise, as oil resumes climb on mounting U.S.-Iran tensions",
+      "link": "https://www.cnbc.com/2026/07/16/us-treasury-yields-wall-street-inflation-employment-data.html",
+      "source": "CNBC",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "TLT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-16T12:56:05.164083Z"
+    },
+    {
+      "id": "34295f81c721d370dd3fd4413a2f9847",
+      "title": "Bitcoin whale moves $383 million in BTC after 8 years of dormancy: onchain data",
+      "summary": "<p>A bitcoin OG wallet transferred 5,908 BTC to a new address on Wednesday, according to Lookonchain, citing Arkham data.</p>",
+      "link": "https://www.theblock.co/post/408570/bitcoin-whale-moves-8-years?utm_source=rss&utm_medium=rss",
       "source": "The Block",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-16T12:56:32.579951Z"
+    },
+    {
+      "id": "0eb8474fea8761765c65fc61fc4b228c",
+      "title": "Minutes of the UK Money Markets Code Sub-Committee \u2013 June 2026",
+      "summary": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+      "link": "https://www.bankofengland.co.uk/minutes/2026/june/uk-money-markets-committee-minutes-june-2026",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-16T12:56:23.087098Z"
+    },
+    {
+      "id": "afd7d9fb5a3dbb8d7ef53209799cc16d",
+      "title": "Stocks making the biggest moves premarket: BlackRock, PayPal, ASML, Morgan Stanley & more - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPRWxmQ1Y5RXhKNzVic1d1TDA0XzRZRW50a0UtUG9tMUlMS1o0Y0VIVlRnTVd2MWtWeWFleXdqaW9NLTA0amFzdFdBNGxveHR5WWFaUjdPZEwyM1kzbmdOYXNrcndFaWtNUnJ2T2FXbDI5ZDJfSzVvSGZkRmwxNVJuNjI5TmVkMkxfY19RYmQtYmxwckFrWVF3?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: BlackRock, PayPal, ASML, Morgan Stanley & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRWxmQ1Y5RXhKNzVic1d1TDA0XzRZRW50a0UtUG9tMUlMS1o0Y0VIVlRnTVd2MWtWeWFleXdqaW9NLTA0amFzdFdBNGxveHR5WWFaUjdPZEwyM1kzbmdOYXNrcndFaWtNUnJ2T2FXbDI5ZDJfSzVvSGZkRmwxNVJuNjI5TmVkMkxfY19RYmQtYmxwckFrWVF3?oc=5",
+      "source": "Google Macro",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "EQUITIES"
+      ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-16T12:51:53.677330Z"
+      "published": "2026-07-16T12:56:36.555282Z"
     }
   ]
 }
