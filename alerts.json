@@ -1,53 +1,133 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-17T07:36:28.126581Z",
+  "generated_at": "2026-07-17T07:41:53.704051Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 3,
-    "last_updated": "2026-07-17T07:36:28.126597Z"
+    "last_updated": "2026-07-17T07:41:53.704064Z"
   },
   "top_signals": [
     {
-      "id": "966a079babc8f0af7a49d145dbb59cb4",
-      "title": "Global tech stocks fall as AI trade goes into reverse",
-      "summary": "Index of US semiconductor stocks on track for its worst week since last year\u2019s \u2018liberation day\u2019 rout",
-      "link": "https://www.ft.com/content/79a15abd-5892-4f1c-b038-b09a1ceecabb?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
+      "id": "ecd6c35f8f86bba7deb47c933cc87e7e",
+      "title": "FTSE 100 Live: Stocks rise despite IEA warning of \u2018critical\u2019 oil issue",
+      "summary": "<p> <img alt=\"Oil prices have kept the pressure on global markets.\" src=\"https://www.cityam.com/wp-content/uploads/2026/03/An-oil-terminal-in-the-North-Sea.jpg?w=1107\" /> </p>Welcome back to the City AM liveblog. Oil is on track to gain around 12 per cent for the week after the continued escalation of strikes between the US and Iran. Brent crude &#8211; the international benchmark for oil &#8211; is holding steady around the $85 per barrel mark after US&#8217; multiple strike offensives against <a href=\"https://www.cityam.com/ftse-100-live-stocks-to-drop-after-iea-warns-of-critical-oil-issue/\">[...]</a>",
+      "link": "https://www.cityam.com/ftse-100-live-stocks-to-drop-after-iea-warns-of-critical-oil-issue/",
+      "source": "CityAM",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI",
+        "COMMODITIES",
         "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-17T07:36:01.061657Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-17T07:41:42.793613Z"
     },
     {
-      "id": "a51bc19ff9fb3fe6a86f5abf58bb2a80",
-      "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
-      "summary": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
+      "id": "4e21d68aa94706f352ceccd7c24759b3",
+      "title": "The Peace That Redistributes War: What Camp David Reveals About Lebanon and Iran",
+      "summary": "<p>Nothing reveals truths more effectively than patterns. If you can identify a pattern, you can see what actions conceal, what statements leave unsaid, and what agreements postpone. Peace treaties and the negotiations surrounding them are rarely analyzed in this way, even though they may exhibit patterns that recur across different circumstances. Consequently, there is often a simplification in understanding the pressures, incentives, and constraints shaping each step and each party&#8217;s choices, an exaggeration in linking the various warring factions into a single understanding without seeing the gaps, or a disregard for realities that might prevent us from truly understanding the</p>\n<p>The post <a href=\"https://warontherocks.com/the-peace-that-redistributes-war-what-camp-david-reveals-about-lebanon-and-iran/\">The Peace That Redistributes War: What Camp David Reveals About Lebanon and Iran</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/the-peace-that-redistributes-war-what-camp-david-reveals-about-lebanon-and-iran/",
+      "source": "War on the Rocks",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-17T07:41:49.196014Z"
+    },
+    {
+      "id": "9f5f4f01c9cd1460c2eccc1ccb1c0dee",
+      "title": "Bioplastic use rising in Japan amid naphtha woes",
+      "summary": "The \"naphtha shock\" exposed the risk of relying on Middle East crude oil for industrial and daily goods materials.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/17/japan/bioplastics-naphtha-crisis/",
+      "source": "Japan Times",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-17T07:41:44.931826Z"
+    },
+    {
+      "id": "cec49b2750b2030c277167026fb9627d",
+      "title": "Policy paper: Meeting minutes - February 2026",
+      "summary": "Minutes from Chancellor of the Exchequer Rachel Reeves' meeting with the Governor of the Bank of England discussing the Bank\u2019s latest Financial Stability Report.",
+      "link": "https://www.gov.uk/government/publications/meeting-minutes-february-2026",
+      "source": "HM Treasury",
+      "score": 18,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [],
       "market_impact": {
         "bullish": [
@@ -61,43 +141,17 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-17T07:36:02.642616Z"
+      "published": "2026-07-17T07:41:41.732960Z"
     },
     {
-      "id": "a655913170f801cc32214a85d2745735",
-      "title": "Bowman, Responsible Innovation and Financial Inclusion",
-      "summary": "Speech At \u201cNext-Gen Financial Inclusion,\u201d the third annual Financial Inclusion Conference hosted by the Federal Reserve Board, Washington, D.C. (via pre-recorded video)",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-17T07:36:02.766630Z"
-    },
-    {
-      "id": "180da15fa4b03b00efe38d6e83c2b789",
-      "title": "Amundi to Book \u20ac300 Million Gain From IPO of Indian Venture",
-      "summary": "Amundi SA says it expects to book net capital gain of around \u20ac300 million ($343 million) from the initial public offering of its asset management joint venture in India.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-17/amundi-to-book-300-million-gain-from-ipo-of-indian-venture",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "2067307b88203e63fea6cfbf11474aa0",
+      "title": "Bollinger Shipyards Opens Maritime Training Center in Mississippi",
+      "summary": "Bollinger Shipyards has opened a 7,200-square-foot workforce training center at its Gulfport, Mississippi, facility to expand skilled trades training for the U.S. shipbuilding industry.The facility was developed in partnership with the U.S.",
+      "link": "https://www.marinelink.com/news/bollinger-shipyards-opens-maritime-541282",
+      "source": "MarineLink",
+      "score": 11,
       "severity": "MEDIUM",
-      "regime": "AI",
+      "regime": "INFLATION",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -105,70 +159,153 @@
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "COMMODITIES"
         ],
-        "bearish": []
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-17T07:35:59.015074Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-07-17T07:41:48.605491Z"
     },
     {
-      "id": "84620616cd3f27787e71952f7b0d86db",
-      "title": "Paschi Casts Doubts On Intesa Bid, Urges Studying BPM Plan",
-      "summary": "Banca Monte dei Paschi di Siena SpA expressed a number of concerns over a takeover bid by Intesa Sanpaolo SpA while highlighting perceived benefits in a broad, rival pitch presented by Banco BPM SpA.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-16/paschi-casts-doubts-over-intesa-bid-suggests-studying-bpm-plan",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
+      "id": "5b35a944e2e585b9ef5227b65f0f12c8",
+      "title": "W\u00e4rtsil\u00e4 to Supply Engine, Propulsion for Two New Gas Carriers",
+      "summary": "W\u00e4rtsil\u00e4 will supply its W\u00e4rtsil\u00e4 25 Ammonia auxiliary engine, together with a NOx reducer (SCR) and gas valve unit (GVU), for two new 51,350 m3 capacity midsize LPG/liquid ammonia carrier vessels. The engine will support reduced emissions and operational efficiency\u2026",
+      "link": "https://www.marinelink.com/news/wrtsil-supply-engine-propulsion-two-new-541284",
+      "source": "MarineLink",
+      "score": 1,
+      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-17T07:35:59.014994Z"
+      "published": "2026-07-17T07:41:48.605430Z"
     }
   ],
   "alerts": [
     {
-      "id": "966a079babc8f0af7a49d145dbb59cb4",
-      "title": "Global tech stocks fall as AI trade goes into reverse",
-      "summary": "Index of US semiconductor stocks on track for its worst week since last year\u2019s \u2018liberation day\u2019 rout",
-      "link": "https://www.ft.com/content/79a15abd-5892-4f1c-b038-b09a1ceecabb?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
+      "id": "ecd6c35f8f86bba7deb47c933cc87e7e",
+      "title": "FTSE 100 Live: Stocks rise despite IEA warning of \u2018critical\u2019 oil issue",
+      "summary": "<p> <img alt=\"Oil prices have kept the pressure on global markets.\" src=\"https://www.cityam.com/wp-content/uploads/2026/03/An-oil-terminal-in-the-North-Sea.jpg?w=1107\" /> </p>Welcome back to the City AM liveblog. Oil is on track to gain around 12 per cent for the week after the continued escalation of strikes between the US and Iran. Brent crude &#8211; the international benchmark for oil &#8211; is holding steady around the $85 per barrel mark after US&#8217; multiple strike offensives against <a href=\"https://www.cityam.com/ftse-100-live-stocks-to-drop-after-iea-warns-of-critical-oil-issue/\">[...]</a>",
+      "link": "https://www.cityam.com/ftse-100-live-stocks-to-drop-after-iea-warns-of-critical-oil-issue/",
+      "source": "CityAM",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI",
+        "COMMODITIES",
         "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-17T07:36:01.061657Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-17T07:41:42.793613Z"
     },
     {
-      "id": "a51bc19ff9fb3fe6a86f5abf58bb2a80",
-      "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
-      "summary": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
+      "id": "4e21d68aa94706f352ceccd7c24759b3",
+      "title": "The Peace That Redistributes War: What Camp David Reveals About Lebanon and Iran",
+      "summary": "<p>Nothing reveals truths more effectively than patterns. If you can identify a pattern, you can see what actions conceal, what statements leave unsaid, and what agreements postpone. Peace treaties and the negotiations surrounding them are rarely analyzed in this way, even though they may exhibit patterns that recur across different circumstances. Consequently, there is often a simplification in understanding the pressures, incentives, and constraints shaping each step and each party&#8217;s choices, an exaggeration in linking the various warring factions into a single understanding without seeing the gaps, or a disregard for realities that might prevent us from truly understanding the</p>\n<p>The post <a href=\"https://warontherocks.com/the-peace-that-redistributes-war-what-camp-david-reveals-about-lebanon-and-iran/\">The Peace That Redistributes War: What Camp David Reveals About Lebanon and Iran</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/the-peace-that-redistributes-war-what-camp-david-reveals-about-lebanon-and-iran/",
+      "source": "War on the Rocks",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-17T07:41:49.196014Z"
+    },
+    {
+      "id": "9f5f4f01c9cd1460c2eccc1ccb1c0dee",
+      "title": "Bioplastic use rising in Japan amid naphtha woes",
+      "summary": "The \"naphtha shock\" exposed the risk of relying on Middle East crude oil for industrial and daily goods materials.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/17/japan/bioplastics-naphtha-crisis/",
+      "source": "Japan Times",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-17T07:41:44.931826Z"
+    },
+    {
+      "id": "cec49b2750b2030c277167026fb9627d",
+      "title": "Policy paper: Meeting minutes - February 2026",
+      "summary": "Minutes from Chancellor of the Exchequer Rachel Reeves' meeting with the Governor of the Bank of England discussing the Bank\u2019s latest Financial Stability Report.",
+      "link": "https://www.gov.uk/government/publications/meeting-minutes-february-2026",
+      "source": "HM Treasury",
+      "score": 18,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [],
       "market_impact": {
         "bullish": [
@@ -182,43 +319,17 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-17T07:36:02.642616Z"
+      "published": "2026-07-17T07:41:41.732960Z"
     },
     {
-      "id": "a655913170f801cc32214a85d2745735",
-      "title": "Bowman, Responsible Innovation and Financial Inclusion",
-      "summary": "Speech At \u201cNext-Gen Financial Inclusion,\u201d the third annual Financial Inclusion Conference hosted by the Federal Reserve Board, Washington, D.C. (via pre-recorded video)",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-17T07:36:02.766630Z"
-    },
-    {
-      "id": "180da15fa4b03b00efe38d6e83c2b789",
-      "title": "Amundi to Book \u20ac300 Million Gain From IPO of Indian Venture",
-      "summary": "Amundi SA says it expects to book net capital gain of around \u20ac300 million ($343 million) from the initial public offering of its asset management joint venture in India.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-17/amundi-to-book-300-million-gain-from-ipo-of-indian-venture",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "2067307b88203e63fea6cfbf11474aa0",
+      "title": "Bollinger Shipyards Opens Maritime Training Center in Mississippi",
+      "summary": "Bollinger Shipyards has opened a 7,200-square-foot workforce training center at its Gulfport, Mississippi, facility to expand skilled trades training for the U.S. shipbuilding industry.The facility was developed in partnership with the U.S.",
+      "link": "https://www.marinelink.com/news/bollinger-shipyards-opens-maritime-541282",
+      "source": "MarineLink",
+      "score": 11,
       "severity": "MEDIUM",
-      "regime": "AI",
+      "regime": "INFLATION",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -226,30 +337,33 @@
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "COMMODITIES"
         ],
-        "bearish": []
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-17T07:35:59.015074Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-07-17T07:41:48.605491Z"
     },
     {
-      "id": "84620616cd3f27787e71952f7b0d86db",
-      "title": "Paschi Casts Doubts On Intesa Bid, Urges Studying BPM Plan",
-      "summary": "Banca Monte dei Paschi di Siena SpA expressed a number of concerns over a takeover bid by Intesa Sanpaolo SpA while highlighting perceived benefits in a broad, rival pitch presented by Banco BPM SpA.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-16/paschi-casts-doubts-over-intesa-bid-suggests-studying-bpm-plan",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
+      "id": "5b35a944e2e585b9ef5227b65f0f12c8",
+      "title": "W\u00e4rtsil\u00e4 to Supply Engine, Propulsion for Two New Gas Carriers",
+      "summary": "W\u00e4rtsil\u00e4 will supply its W\u00e4rtsil\u00e4 25 Ammonia auxiliary engine, together with a NOx reducer (SCR) and gas valve unit (GVU), for two new 51,350 m3 capacity midsize LPG/liquid ammonia carrier vessels. The engine will support reduced emissions and operational efficiency\u2026",
+      "link": "https://www.marinelink.com/news/wrtsil-supply-engine-propulsion-two-new-541284",
+      "source": "MarineLink",
+      "score": 1,
+      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-17T07:35:59.014994Z"
+      "published": "2026-07-17T07:41:48.605430Z"
     }
   ]
 }
