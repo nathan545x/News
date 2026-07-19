@@ -1,24 +1,206 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-19T17:06:33.879873Z",
+  "generated_at": "2026-07-19T17:11:40.777876Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "AI",
+    "dominant_driver": "AI",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 3,
-    "last_updated": "2026-07-19T17:06:33.879886Z"
+    "critical_alerts": 2,
+    "high_alerts": 4,
+    "last_updated": "2026-07-19T17:11:40.777893Z"
   },
   "top_signals": [
     {
-      "id": "3a6b23e9c8467c5d350ec202744b2d11",
-      "title": "Federal Reserve issues FOMC statement",
-      "summary": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-      "source": "Federal Reserve",
-      "score": 23,
+      "id": "e58b439b7e7359f71ab1f88e0072eeca",
+      "title": "Bond Traders Take Warsh at Word, See Inflation Fight Continuing",
+      "summary": "Bond traders and Federal Reserve Chairman Kevin Warsh are in agreement on a crucial point: The central bank\u2019s fight against inflation still seems far from over.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-19/bond-traders-take-warsh-at-word-see-inflation-fight-continuing",
+      "source": "Bloomberg",
+      "score": 36,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-19T17:11:05.345676Z"
+    },
+    {
+      "id": "8eab5fc8cae6d518a278fe6012b54b7e",
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia was down 16%.",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "AI",
+      "tickers": [
+        "NVDA",
+        "QQQ"
+      ],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-19T17:11:08.784415Z"
+    },
+    {
+      "id": "7e17836dea5ea3d3ac217ceb62c8d4c6",
+      "title": "Comex Gold, Silver Settle Lower",
+      "summary": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions.",
+      "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 19,
       "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "SILVER",
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-19T17:11:08.784460Z"
+    },
+    {
+      "id": "7fd22a101c29f364c4adef141598cf69",
+      "title": "DeepSeek Won't Sink U.S. AI Titans",
+      "summary": "Panic fueling the selloff of Nvidia, Broadcom and other tech giants is overblown.",
+      "link": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-19T17:11:08.784494Z"
+    },
+    {
+      "id": "18cf104cecca1d69f9e1e306d220e394",
+      "title": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
+      "summary": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek\u2019s new AI model hit U.S. tech stocks.",
+      "link": "https://www.wsj.com/articles/safe-haven-currencies-strengthen-amid-fears-over-global-tariffs-9964e17a?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "EQUITIES",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-19T17:11:08.784649Z"
+    },
+    {
+      "id": "557937d980947147ea2757f41ad27c24",
+      "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
+      "summary": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump\u2019s threats to impose tariffs and economic sanctions on Colombia.",
+      "link": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-19T17:11:08.784595Z"
+    },
+    {
+      "id": "9155f0f630519368016269c28b1cf890",
+      "title": "Building-Products Distributor QXO Launches Hostile Bid for Beacon",
+      "summary": "QXO is taking its offer directly to shareholders after being rebuffed on several occasions.",
+      "link": "https://www.wsj.com/articles/building-products-distributor-qxo-launching-hostile-bid-for-beacon-de024410?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 14,
+      "severity": "MEDIUM",
       "regime": "RATES",
       "tickers": [],
       "regions": [],
@@ -35,67 +217,15 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-19T17:06:00.876650Z"
+      "published": "2026-07-19T17:11:08.784722Z"
     },
     {
-      "id": "26c80fdd6220f5c64f34d46e01894940",
-      "title": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
-      "summary": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-19T17:06:00.876619Z"
-    },
-    {
-      "id": "ac23526487114bdf861b2b0837e7ed08",
-      "title": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
-      "summary": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-19T17:06:01.033434Z"
-    },
-    {
-      "id": "f25cdf6f165d49b6cbe764c3374b9033",
-      "title": "The AI rotation stole the spotlight from a strong start to earnings season",
-      "summary": "The AI trade dominated the market once again this week, upstaging an impressive start to the second-quarter earnings season.",
-      "link": "https://www.cnbc.com/2026/07/18/the-ai-rotation-stole-the-spotlight-from-a-strong-start-to-earnings-season-.html",
-      "source": "CNBC",
-      "score": 10,
+      "id": "e0adc709dc1d2d5c46a37cb1528a04ad",
+      "title": "Financial Services Roundup: Market Talk",
+      "summary": "Gain insight on Experian, SoFi Technologies and more in the latest Market Talks covering Financial Services.",
+      "link": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 12,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
@@ -112,36 +242,216 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-19T17:06:00.476904Z"
+      "published": "2026-07-19T17:11:08.784531Z"
     },
     {
-      "id": "43e6a750e32a845578863a89df2c9a78",
-      "title": "Bowman, Modernizing Financial Regulation",
-      "summary": "Speech At a Bank Policy Institute London Conference, London, United Kingdom",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260713a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
+      "id": "b2b83872197f70dbd1a6942127db5257",
+      "title": "Natural Gas Falls on Shifting Weather Forecasts",
+      "summary": "U.S. natural gas futures fell after weekend updates took some of the chill out of early February weather forecasts.",
+      "link": "https://www.wsj.com/articles/u-s-natural-gas-futures-fall-on-shifting-weather-forecasts-1ef3e457?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 8,
       "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-19T17:06:01.177846Z"
+      "published": "2026-07-19T17:11:08.784687Z"
     }
   ],
   "alerts": [
     {
-      "id": "3a6b23e9c8467c5d350ec202744b2d11",
-      "title": "Federal Reserve issues FOMC statement",
-      "summary": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-      "source": "Federal Reserve",
-      "score": 23,
+      "id": "e58b439b7e7359f71ab1f88e0072eeca",
+      "title": "Bond Traders Take Warsh at Word, See Inflation Fight Continuing",
+      "summary": "Bond traders and Federal Reserve Chairman Kevin Warsh are in agreement on a crucial point: The central bank\u2019s fight against inflation still seems far from over.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-19/bond-traders-take-warsh-at-word-see-inflation-fight-continuing",
+      "source": "Bloomberg",
+      "score": 36,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-19T17:11:05.345676Z"
+    },
+    {
+      "id": "8eab5fc8cae6d518a278fe6012b54b7e",
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia was down 16%.",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "AI",
+      "tickers": [
+        "NVDA",
+        "QQQ"
+      ],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-19T17:11:08.784415Z"
+    },
+    {
+      "id": "7e17836dea5ea3d3ac217ceb62c8d4c6",
+      "title": "Comex Gold, Silver Settle Lower",
+      "summary": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions.",
+      "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 19,
       "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "SILVER",
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-19T17:11:08.784460Z"
+    },
+    {
+      "id": "7fd22a101c29f364c4adef141598cf69",
+      "title": "DeepSeek Won't Sink U.S. AI Titans",
+      "summary": "Panic fueling the selloff of Nvidia, Broadcom and other tech giants is overblown.",
+      "link": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-19T17:11:08.784494Z"
+    },
+    {
+      "id": "18cf104cecca1d69f9e1e306d220e394",
+      "title": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
+      "summary": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek\u2019s new AI model hit U.S. tech stocks.",
+      "link": "https://www.wsj.com/articles/safe-haven-currencies-strengthen-amid-fears-over-global-tariffs-9964e17a?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "EQUITIES",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-19T17:11:08.784649Z"
+    },
+    {
+      "id": "557937d980947147ea2757f41ad27c24",
+      "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
+      "summary": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump\u2019s threats to impose tariffs and economic sanctions on Colombia.",
+      "link": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-19T17:11:08.784595Z"
+    },
+    {
+      "id": "9155f0f630519368016269c28b1cf890",
+      "title": "Building-Products Distributor QXO Launches Hostile Bid for Beacon",
+      "summary": "QXO is taking its offer directly to shareholders after being rebuffed on several occasions.",
+      "link": "https://www.wsj.com/articles/building-products-distributor-qxo-launching-hostile-bid-for-beacon-de024410?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 14,
+      "severity": "MEDIUM",
       "regime": "RATES",
       "tickers": [],
       "regions": [],
@@ -158,67 +468,15 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-19T17:06:00.876650Z"
+      "published": "2026-07-19T17:11:08.784722Z"
     },
     {
-      "id": "26c80fdd6220f5c64f34d46e01894940",
-      "title": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
-      "summary": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-19T17:06:00.876619Z"
-    },
-    {
-      "id": "ac23526487114bdf861b2b0837e7ed08",
-      "title": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
-      "summary": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-19T17:06:01.033434Z"
-    },
-    {
-      "id": "f25cdf6f165d49b6cbe764c3374b9033",
-      "title": "The AI rotation stole the spotlight from a strong start to earnings season",
-      "summary": "The AI trade dominated the market once again this week, upstaging an impressive start to the second-quarter earnings season.",
-      "link": "https://www.cnbc.com/2026/07/18/the-ai-rotation-stole-the-spotlight-from-a-strong-start-to-earnings-season-.html",
-      "source": "CNBC",
-      "score": 10,
+      "id": "e0adc709dc1d2d5c46a37cb1528a04ad",
+      "title": "Financial Services Roundup: Market Talk",
+      "summary": "Gain insight on Experian, SoFi Technologies and more in the latest Market Talks covering Financial Services.",
+      "link": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 12,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
@@ -235,25 +493,23 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-19T17:06:00.476904Z"
+      "published": "2026-07-19T17:11:08.784531Z"
     },
     {
-      "id": "43e6a750e32a845578863a89df2c9a78",
-      "title": "Bowman, Modernizing Financial Regulation",
-      "summary": "Speech At a Bank Policy Institute London Conference, London, United Kingdom",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260713a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
+      "id": "b2b83872197f70dbd1a6942127db5257",
+      "title": "Natural Gas Falls on Shifting Weather Forecasts",
+      "summary": "U.S. natural gas futures fell after weekend updates took some of the chill out of early February weather forecasts.",
+      "link": "https://www.wsj.com/articles/u-s-natural-gas-futures-fall-on-shifting-weather-forecasts-1ef3e457?mod=rss_markets_main",
+      "source": "WSJ",
+      "score": 8,
       "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-19T17:06:01.177846Z"
+      "published": "2026-07-19T17:11:08.784687Z"
     }
   ]
 }
