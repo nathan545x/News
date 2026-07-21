@@ -1,31 +1,58 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-21T14:51:41.783733Z",
+  "generated_at": "2026-07-21T14:56:46.139728Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 3,
     "high_alerts": 1,
-    "last_updated": "2026-07-21T14:51:41.783745Z"
+    "last_updated": "2026-07-21T14:56:46.139739Z"
   },
   "top_signals": [
     {
-      "id": "28bd76244ae57922c26ea71cf83697fd",
-      "title": "ADNOC Approves $6.2 Billion Gas Project in Abu Dhabi",
-      "summary": "Abu Dhabi\u2019s national oil company ADNOC on Tuesday announced a $6.2 billion final investment decision to develop the Umm Shaif Gas Cap project in Abu Dhabi as part of its strategy to grow its global gas portfolio. ADNOC will develop the project alongside its international partners\u2014France\u2019s TotalEnergies, Italy\u2019s Eni, and China National Petroleum Corporation (CNPC). The final investment decision (FID) includes three engineering, procurement, and construction (EPC) packages totaling $5.1 billion for large-scale offshore infrastructure\u2026",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Approves-62-Billion-Gas-Project-in-Abu-Dhabi.html",
-      "source": "OilPrice",
-      "score": 19,
-      "severity": "HIGH",
+      "id": "38a14dcee4ae62fa474c2b80972d6e3b",
+      "title": "Bitcoin Rallies After Bessent Says Clarity Act at \u20181-Yard Line\u2019",
+      "summary": "Crypto markets are stirring after months of listless trading on signs that Washington is moving toward a clearer rulebook for digital assets.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-21/bitcoin-rallies-after-bessent-says-clarity-act-at-1-yard-line",
+      "source": "Bloomberg",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-21T14:56:12.832895Z"
+    },
+    {
+      "id": "98be39f91ff7dedf8e39c8f5e43b47f5",
+      "title": "India\u2019s Refiners Come\u00a0to the Rescue of Russia\u2019s Oil Exporters",
+      "summary": "<p>Deliveries of Russian crude oil to India so far this month&nbsp;remain near June\u2019s record&nbsp;</p>",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-21/india-s-refiners-come-to-the-rescue-of-russia-s-oil-exporters",
+      "source": "Bloomberg",
+      "score": 28,
+      "severity": "CRITICAL",
       "regime": "COMMODITIES",
       "tickers": [
         "WTI"
       ],
       "regions": [
-        "CHINA",
-        "FRANCE"
+        "RUSSIA"
       ],
       "assets": [
         "AI",
@@ -43,14 +70,207 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-21T14:51:36.415972Z"
+      "published": "2026-07-21T14:56:12.832952Z"
     },
     {
-      "id": "8c4fc3de3d07f9a64123dbe4a6b0de46",
-      "title": "Hepburn and Sons Invest $18m into Corporate Headquarters in Innovation Park, VA",
-      "summary": "Hepburn and Sons LLC\u2019s plans to invest $18 million in constructing a three-story, approximately 27,000 square foot corporate headquarters adjacent to NOVA LIVE in Innovation Park, which will support 80 new high-quality jobs. The BOCS approved\u2026",
-      "link": "https://www.marinelink.com/news/hepburn-sons-invest-m-corporate-541381",
-      "source": "MarineLink",
+      "id": "69d047e32406b29c66dc807e61fbf767",
+      "title": "U.S. strikes Iran and Houthis threaten Saudi Arabia shipping as mediators push 10-day ceasefire",
+      "summary": "The latest cycle of strikes comes amid reports that regional mediators have presented Washington and Tehran with a proposal for a 10-day ceasefire.",
+      "link": "https://www.cnbc.com/2026/07/21/us-iran-war-trump-hormuz-houthis.html",
+      "source": "CNBC",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-21T14:56:16.017562Z"
+    },
+    {
+      "id": "b22b6915cc0319b01f2824958d9a2b0a",
+      "title": "IEA Warns Mideast Hostilities Are Increasing Oil Supply Concerns - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQTWxhQXJkUTZ5OTVfeUw1SklNc2Rmdmc5WjRISGlnX2kxRTlORXJkeEpJZ19Sb3NLWWNGM0xRak9JNUx5ekQtVThRZHlwM3NqUlNxdVJwS3pqRElybG9xR2RCT0ZzbDgzTlJ1TEJkMklmblhVVzluNXlCWFk1aFl1YlNMR1BncXNzc0o4R1BQWDFQT3BUQUVoaHppbE5Xdi0wQ09pWTV1VTA5N3VVcElLdl9INlMtZw?oc=5\" target=\"_blank\">IEA Warns Mideast Hostilities Are Increasing Oil Supply Concerns</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTWxhQXJkUTZ5OTVfeUw1SklNc2Rmdmc5WjRISGlnX2kxRTlORXJkeEpJZ19Sb3NLWWNGM0xRak9JNUx5ekQtVThRZHlwM3NqUlNxdVJwS3pqRElybG9xR2RCT0ZzbDgzTlJ1TEJkMklmblhVVzluNXlCWFk1aFl1YlNMR1BncXNzc0o4R1BQWDFQT3BUQUVoaHppbE5Xdi0wQ09pWTV1VTA5N3VVcElLdl9INlMtZw?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-21T14:56:43.988349Z"
+    },
+    {
+      "id": "5a74e0afc49a3172853b275bd16132f5",
+      "title": "These dividend-paying data center power plays are on Goldman\u2019s latest top 10 list - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPSEl2UDhud0MzTDJ5SXhTejgxTEkwT3ZHR3E1elZ3cURwdng2RlduTGp2R1JoRVYwZXZSUFJmTUtwUlZqNFpjc2sxTVFldW5vMnF5LVlDd1p3R1VEeGVWZFB5bEFDNjhkaU9LdjVlSjB4S2JBZHYxYVB1TTJlTHJSOWsxU0NhSm9pRXhTbHVVQ2ZNdVdLaFAydVYzYmJqaDRFVHAwUnBzVQ?oc=5\" target=\"_blank\">These dividend-paying data center power plays are on Goldman\u2019s latest top 10 list</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSEl2UDhud0MzTDJ5SXhTejgxTEkwT3ZHR3E1elZ3cURwdng2RlduTGp2R1JoRVYwZXZSUFJmTUtwUlZqNFpjc2sxTVFldW5vMnF5LVlDd1p3R1VEeGVWZFB5bEFDNjhkaU9LdjVlSjB4S2JBZHYxYVB1TTJlTHJSOWsxU0NhSm9pRXhTbHVVQ2ZNdVdLaFAydVYzYmJqaDRFVHAwUnBzVQ?oc=5",
+      "source": "Google Macro",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-21T14:56:46.139712Z"
+    },
+    {
+      "id": "ca2d67fe8f185c9f0e87f0f224fb18c9",
+      "title": "The factory on the front line of Europe\u2019s economic battle with China - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPS0xSTG01OFAzakMzNmloenVPMGRWTkRCaXR6UlM2cTBZTlNjOVVibEtHRnV3aUFmRTV1OFZORld3TFNUX2pwR0FmbmZZc3U2Q2JYX2ROQ1pRZXlxMnBldTY5MVo0M1B1S1BmUTRQVlFKbFZrYk5BSmVMa0h0QXQ0UG13Q0U?oc=5\" target=\"_blank\">The factory on the front line of Europe\u2019s economic battle with China</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS0xSTG01OFAzakMzNmloenVPMGRWTkRCaXR6UlM2cTBZTlNjOVVibEtHRnV3aUFmRTV1OFZORld3TFNUX2pwR0FmbmZZc3U2Q2JYX2ROQ1pRZXlxMnBldTY5MVo0M1B1S1BmUTRQVlFKbFZrYk5BSmVMa0h0QXQ0UG13Q0U?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "CHINA",
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-21T14:56:45.103062Z"
+    },
+    {
+      "id": "81891013e21b058108f0b4330581f7c8",
+      "title": "All eyes are on John Healey, the UK's new finance minister. Here\u2019s what\u2019s at stake",
+      "summary": "J.P. Morgan boss Jamie Dimon, who backed Healey's predecessor, has waded into the U.K.'s political debate.",
+      "link": "https://www.cnbc.com/2026/07/21/andy-burnham-john-healey-chancellor-gilts-jamie-dimon.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-21T14:56:16.252246Z"
+    },
+    {
+      "id": "3979828ff8a84939918b88b0949bebd0",
+      "title": "From depot to detonation: the case for a unified logistics picture",
+      "summary": "\"We have the technology for that comprehensive, near real-time common operating picture (COP), we just need to link it,\" writes LMI's Robert Yon.",
+      "link": "https://www.defensenews.com/opinion/2026/07/21/from-depot-to-detonation-the-case-for-a-unified-logistics-picture/",
+      "source": "Defense News",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-21T14:56:41.150226Z"
+    },
+    {
+      "id": "b0d49b56b60529a0263cdf475d4ab052",
+      "title": "US Treasury's Bessent tells Fox Business 50% Canada tariffs are 'reciprocity' - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxPd3NPZnZtM1NHTDVITDRZRW9jT2pJejFHVWZCd3BUS1habkFqU056U0tJV0Q2bGVPelYtV3Y1aUVaRExOUVpzT2h3cjR2b2s1Z1NuemxWeTJOT2xpcGFzdlJ3TFZHcmtWWmt4bEJLcU83aGtSYlc3ZDRqVGhtQ2xvQkpJRXZDU3ozYTA0ZHY5ZmF2T1dyWTdvQkRPeEswcWZCN2RuclJTSF9QekpidktGaGF3cWZqd3B6eFBuanlqR1NQWmVOUmN3Ulp5Qm5pWUMtMzhyejl3?oc=5\" target=\"_blank\">US Treasury's Bessent tells Fox Business 50% Canada tariffs are 'reciprocity'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPd3NPZnZtM1NHTDVITDRZRW9jT2pJejFHVWZCd3BUS1habkFqU056U0tJV0Q2bGVPelYtV3Y1aUVaRExOUVpzT2h3cjR2b2s1Z1NuemxWeTJOT2xpcGFzdlJ3TFZHcmtWWmt4bEJLcU83aGtSYlc3ZDRqVGhtQ2xvQkpJRXZDU3ozYTA0ZHY5ZmF2T1dyWTdvQkRPeEswcWZCN2RuclJTSF9QekpidktGaGF3cWZqd3B6eFBuanlqR1NQWmVOUmN3Ulp5Qm5pWUMtMzhyejl3?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-21T14:56:44.621190Z"
+    },
+    {
+      "id": "1e7553ad9b83ec8dd024800389739d11",
+      "title": "U.S. International Trade in Goods and Services, May 2026",
+      "summary": "The U.S. goods and services trade deficit increased in May 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $54.6 billion in April (revised) to $77.6 billion in May, as exports decreased and imports increased. The goods deficit increased $23.6 billion in May to $106.5 billion. The services surplus increased $0.6 billion in May to $28.9 billion.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/us-international-trade-goods-and-services-may-2026\">Full Text</a><!--Full Text Link-->",
+      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-may-2026",
+      "source": "BEA",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -59,25 +279,70 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-21T14:51:37.228245Z"
+      "published": "2026-07-21T14:56:27.312006Z"
+    },
+    {
+      "id": "5bd4bc2f3ee153d16f2decc5e49c2cc7",
+      "title": "Stocks making the biggest moves premarket: General Motors, 3M, Novartis, Nebius & more - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQQmxxbm5FR3dLQkc4Vks5dHFrSUxVT3NDMmZaZWsydWs1WG5JWklvR1VibkpCcU1mYVMzLUJyLU9UWGxPQk1zM3h0S0dDZHpDMno1Z3FYWnJoY2I5TXhDSVVDV1N4dGMzSDVySG5ZZzZVQTJCU1c4aHhIVmpIdVJVVWNuSXV1cm1EcWh2dGxxQkdfTzFVc0NDNndR?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: General Motors, 3M, Novartis, Nebius & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQmxxbm5FR3dLQkc4Vks5dHFrSUxVT3NDMmZaZWsydWs1WG5JWklvR1VibkpCcU1mYVMzLUJyLU9UWGxPQk1zM3h0S0dDZHpDMno1Z3FYWnJoY2I5TXhDSVVDV1N4dGMzSDVySG5ZZzZVQTJCU1c4aHhIVmpIdVJVVWNuSXV1cm1EcWh2dGxxQkdfTzFVc0NDNndR?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-21T14:56:46.139593Z"
     }
   ],
   "alerts": [
     {
-      "id": "28bd76244ae57922c26ea71cf83697fd",
-      "title": "ADNOC Approves $6.2 Billion Gas Project in Abu Dhabi",
-      "summary": "Abu Dhabi\u2019s national oil company ADNOC on Tuesday announced a $6.2 billion final investment decision to develop the Umm Shaif Gas Cap project in Abu Dhabi as part of its strategy to grow its global gas portfolio. ADNOC will develop the project alongside its international partners\u2014France\u2019s TotalEnergies, Italy\u2019s Eni, and China National Petroleum Corporation (CNPC). The final investment decision (FID) includes three engineering, procurement, and construction (EPC) packages totaling $5.1 billion for large-scale offshore infrastructure\u2026",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Approves-62-Billion-Gas-Project-in-Abu-Dhabi.html",
-      "source": "OilPrice",
-      "score": 19,
-      "severity": "HIGH",
+      "id": "38a14dcee4ae62fa474c2b80972d6e3b",
+      "title": "Bitcoin Rallies After Bessent Says Clarity Act at \u20181-Yard Line\u2019",
+      "summary": "Crypto markets are stirring after months of listless trading on signs that Washington is moving toward a clearer rulebook for digital assets.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-21/bitcoin-rallies-after-bessent-says-clarity-act-at-1-yard-line",
+      "source": "Bloomberg",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-21T14:56:12.832895Z"
+    },
+    {
+      "id": "98be39f91ff7dedf8e39c8f5e43b47f5",
+      "title": "India\u2019s Refiners Come\u00a0to the Rescue of Russia\u2019s Oil Exporters",
+      "summary": "<p>Deliveries of Russian crude oil to India so far this month&nbsp;remain near June\u2019s record&nbsp;</p>",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-21/india-s-refiners-come-to-the-rescue-of-russia-s-oil-exporters",
+      "source": "Bloomberg",
+      "score": 28,
+      "severity": "CRITICAL",
       "regime": "COMMODITIES",
       "tickers": [
         "WTI"
       ],
       "regions": [
-        "CHINA",
-        "FRANCE"
+        "RUSSIA"
       ],
       "assets": [
         "AI",
@@ -95,14 +360,207 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-21T14:51:36.415972Z"
+      "published": "2026-07-21T14:56:12.832952Z"
     },
     {
-      "id": "8c4fc3de3d07f9a64123dbe4a6b0de46",
-      "title": "Hepburn and Sons Invest $18m into Corporate Headquarters in Innovation Park, VA",
-      "summary": "Hepburn and Sons LLC\u2019s plans to invest $18 million in constructing a three-story, approximately 27,000 square foot corporate headquarters adjacent to NOVA LIVE in Innovation Park, which will support 80 new high-quality jobs. The BOCS approved\u2026",
-      "link": "https://www.marinelink.com/news/hepburn-sons-invest-m-corporate-541381",
-      "source": "MarineLink",
+      "id": "69d047e32406b29c66dc807e61fbf767",
+      "title": "U.S. strikes Iran and Houthis threaten Saudi Arabia shipping as mediators push 10-day ceasefire",
+      "summary": "The latest cycle of strikes comes amid reports that regional mediators have presented Washington and Tehran with a proposal for a 10-day ceasefire.",
+      "link": "https://www.cnbc.com/2026/07/21/us-iran-war-trump-hormuz-houthis.html",
+      "source": "CNBC",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-21T14:56:16.017562Z"
+    },
+    {
+      "id": "b22b6915cc0319b01f2824958d9a2b0a",
+      "title": "IEA Warns Mideast Hostilities Are Increasing Oil Supply Concerns - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQTWxhQXJkUTZ5OTVfeUw1SklNc2Rmdmc5WjRISGlnX2kxRTlORXJkeEpJZ19Sb3NLWWNGM0xRak9JNUx5ekQtVThRZHlwM3NqUlNxdVJwS3pqRElybG9xR2RCT0ZzbDgzTlJ1TEJkMklmblhVVzluNXlCWFk1aFl1YlNMR1BncXNzc0o4R1BQWDFQT3BUQUVoaHppbE5Xdi0wQ09pWTV1VTA5N3VVcElLdl9INlMtZw?oc=5\" target=\"_blank\">IEA Warns Mideast Hostilities Are Increasing Oil Supply Concerns</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTWxhQXJkUTZ5OTVfeUw1SklNc2Rmdmc5WjRISGlnX2kxRTlORXJkeEpJZ19Sb3NLWWNGM0xRak9JNUx5ekQtVThRZHlwM3NqUlNxdVJwS3pqRElybG9xR2RCT0ZzbDgzTlJ1TEJkMklmblhVVzluNXlCWFk1aFl1YlNMR1BncXNzc0o4R1BQWDFQT3BUQUVoaHppbE5Xdi0wQ09pWTV1VTA5N3VVcElLdl9INlMtZw?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-21T14:56:43.988349Z"
+    },
+    {
+      "id": "5a74e0afc49a3172853b275bd16132f5",
+      "title": "These dividend-paying data center power plays are on Goldman\u2019s latest top 10 list - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPSEl2UDhud0MzTDJ5SXhTejgxTEkwT3ZHR3E1elZ3cURwdng2RlduTGp2R1JoRVYwZXZSUFJmTUtwUlZqNFpjc2sxTVFldW5vMnF5LVlDd1p3R1VEeGVWZFB5bEFDNjhkaU9LdjVlSjB4S2JBZHYxYVB1TTJlTHJSOWsxU0NhSm9pRXhTbHVVQ2ZNdVdLaFAydVYzYmJqaDRFVHAwUnBzVQ?oc=5\" target=\"_blank\">These dividend-paying data center power plays are on Goldman\u2019s latest top 10 list</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSEl2UDhud0MzTDJ5SXhTejgxTEkwT3ZHR3E1elZ3cURwdng2RlduTGp2R1JoRVYwZXZSUFJmTUtwUlZqNFpjc2sxTVFldW5vMnF5LVlDd1p3R1VEeGVWZFB5bEFDNjhkaU9LdjVlSjB4S2JBZHYxYVB1TTJlTHJSOWsxU0NhSm9pRXhTbHVVQ2ZNdVdLaFAydVYzYmJqaDRFVHAwUnBzVQ?oc=5",
+      "source": "Google Macro",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-21T14:56:46.139712Z"
+    },
+    {
+      "id": "ca2d67fe8f185c9f0e87f0f224fb18c9",
+      "title": "The factory on the front line of Europe\u2019s economic battle with China - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPS0xSTG01OFAzakMzNmloenVPMGRWTkRCaXR6UlM2cTBZTlNjOVVibEtHRnV3aUFmRTV1OFZORld3TFNUX2pwR0FmbmZZc3U2Q2JYX2ROQ1pRZXlxMnBldTY5MVo0M1B1S1BmUTRQVlFKbFZrYk5BSmVMa0h0QXQ0UG13Q0U?oc=5\" target=\"_blank\">The factory on the front line of Europe\u2019s economic battle with China</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS0xSTG01OFAzakMzNmloenVPMGRWTkRCaXR6UlM2cTBZTlNjOVVibEtHRnV3aUFmRTV1OFZORld3TFNUX2pwR0FmbmZZc3U2Q2JYX2ROQ1pRZXlxMnBldTY5MVo0M1B1S1BmUTRQVlFKbFZrYk5BSmVMa0h0QXQ0UG13Q0U?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "CHINA",
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-21T14:56:45.103062Z"
+    },
+    {
+      "id": "81891013e21b058108f0b4330581f7c8",
+      "title": "All eyes are on John Healey, the UK's new finance minister. Here\u2019s what\u2019s at stake",
+      "summary": "J.P. Morgan boss Jamie Dimon, who backed Healey's predecessor, has waded into the U.K.'s political debate.",
+      "link": "https://www.cnbc.com/2026/07/21/andy-burnham-john-healey-chancellor-gilts-jamie-dimon.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-21T14:56:16.252246Z"
+    },
+    {
+      "id": "3979828ff8a84939918b88b0949bebd0",
+      "title": "From depot to detonation: the case for a unified logistics picture",
+      "summary": "\"We have the technology for that comprehensive, near real-time common operating picture (COP), we just need to link it,\" writes LMI's Robert Yon.",
+      "link": "https://www.defensenews.com/opinion/2026/07/21/from-depot-to-detonation-the-case-for-a-unified-logistics-picture/",
+      "source": "Defense News",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-21T14:56:41.150226Z"
+    },
+    {
+      "id": "b0d49b56b60529a0263cdf475d4ab052",
+      "title": "US Treasury's Bessent tells Fox Business 50% Canada tariffs are 'reciprocity' - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxPd3NPZnZtM1NHTDVITDRZRW9jT2pJejFHVWZCd3BUS1habkFqU056U0tJV0Q2bGVPelYtV3Y1aUVaRExOUVpzT2h3cjR2b2s1Z1NuemxWeTJOT2xpcGFzdlJ3TFZHcmtWWmt4bEJLcU83aGtSYlc3ZDRqVGhtQ2xvQkpJRXZDU3ozYTA0ZHY5ZmF2T1dyWTdvQkRPeEswcWZCN2RuclJTSF9QekpidktGaGF3cWZqd3B6eFBuanlqR1NQWmVOUmN3Ulp5Qm5pWUMtMzhyejl3?oc=5\" target=\"_blank\">US Treasury's Bessent tells Fox Business 50% Canada tariffs are 'reciprocity'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPd3NPZnZtM1NHTDVITDRZRW9jT2pJejFHVWZCd3BUS1habkFqU056U0tJV0Q2bGVPelYtV3Y1aUVaRExOUVpzT2h3cjR2b2s1Z1NuemxWeTJOT2xpcGFzdlJ3TFZHcmtWWmt4bEJLcU83aGtSYlc3ZDRqVGhtQ2xvQkpJRXZDU3ozYTA0ZHY5ZmF2T1dyWTdvQkRPeEswcWZCN2RuclJTSF9QekpidktGaGF3cWZqd3B6eFBuanlqR1NQWmVOUmN3Ulp5Qm5pWUMtMzhyejl3?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-21T14:56:44.621190Z"
+    },
+    {
+      "id": "1e7553ad9b83ec8dd024800389739d11",
+      "title": "U.S. International Trade in Goods and Services, May 2026",
+      "summary": "The U.S. goods and services trade deficit increased in May 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $54.6 billion in April (revised) to $77.6 billion in May, as exports decreased and imports increased. The goods deficit increased $23.6 billion in May to $106.5 billion. The services surplus increased $0.6 billion in May to $28.9 billion.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/us-international-trade-goods-and-services-may-2026\">Full Text</a><!--Full Text Link-->",
+      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-may-2026",
+      "source": "BEA",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -111,7 +569,25 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-21T14:51:37.228245Z"
+      "published": "2026-07-21T14:56:27.312006Z"
+    },
+    {
+      "id": "5bd4bc2f3ee153d16f2decc5e49c2cc7",
+      "title": "Stocks making the biggest moves premarket: General Motors, 3M, Novartis, Nebius & more - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQQmxxbm5FR3dLQkc4Vks5dHFrSUxVT3NDMmZaZWsydWs1WG5JWklvR1VibkpCcU1mYVMzLUJyLU9UWGxPQk1zM3h0S0dDZHpDMno1Z3FYWnJoY2I5TXhDSVVDV1N4dGMzSDVySG5ZZzZVQTJCU1c4aHhIVmpIdVJVVWNuSXV1cm1EcWh2dGxxQkdfTzFVc0NDNndR?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: General Motors, 3M, Novartis, Nebius & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQmxxbm5FR3dLQkc4Vks5dHFrSUxVT3NDMmZaZWsydWs1WG5JWklvR1VibkpCcU1mYVMzLUJyLU9UWGxPQk1zM3h0S0dDZHpDMno1Z3FYWnJoY2I5TXhDSVVDV1N4dGMzSDVySG5ZZzZVQTJCU1c4aHhIVmpIdVJVVWNuSXV1cm1EcWh2dGxxQkdfTzFVc0NDNndR?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-21T14:56:46.139593Z"
     }
   ]
 }
