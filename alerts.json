@@ -1,58 +1,29 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-22T08:06:39.921090Z",
+  "generated_at": "2026-07-22T08:11:35.183208Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 2,
     "high_alerts": 4,
-    "last_updated": "2026-07-22T08:06:39.921102Z"
+    "last_updated": "2026-07-22T08:11:35.183225Z"
   },
   "top_signals": [
     {
-      "id": "6d8f8aa1b71eb0efdea69490a6170b95",
-      "title": "PHP/USD: Philippine Peso Declines to Match Record Low on Higher Oil Prices",
-      "summary": "The Philippine central bank intervened in the foreign-exchange market to support the peso, which fell to a record low.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-22/php-usd-philippine-peso-declines-to-match-record-low-on-higher-oil-prices",
-      "source": "Bloomberg",
-      "score": 23,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "DXY",
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-22T08:06:03.710288Z"
-    },
-    {
-      "id": "91e9ceccdb380c868883ca5dba608399",
-      "title": "Norway's Oil Output Beats Forecasts as Hormuz Traffic Stays Near Crisis Lows",
-      "summary": "Norway's crude oil production beat official forecasts in June as offshore fields returned from seasonal maintenance, delivering a stronger-than-expected increase in supply at a time when global markets remain focused on disruptions to Middle Eastern exports. According to preliminary figures released Tuesday by the Norwegian Offshore Directorate (SODIR), Norway's crude oil production averaged 1.827 million barrels per day (bpd) in June, exceeding the agency's official forecast while rising sharply from 1.677 million bpd in the same month last year.\u2026",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Norways-Oil-Output-Beats-Forecasts-as-Hormuz-Traffic-Stays-Near-Crisis-Lows.html",
-      "source": "OilPrice",
-      "score": 22,
-      "severity": "HIGH",
+      "id": "4c7ffc7cad1f371e7d3e1abec2578034",
+      "title": "Oil rises to highest level in six weeks as Middle East war escalates",
+      "summary": "Goldman Sachs warns Brent crude price could jump to $120 if Strait of Hormuz remains \u2018disrupted\u2019",
+      "link": "https://www.ft.com/content/90facd68-4df7-40c2-9383-e989a02fbe51?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 45,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
       "tickers": [
-        "WTI"
+        "BRENT",
+        "WTI",
+        "XAU"
       ],
       "regions": [],
       "assets": [
@@ -73,11 +44,73 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-22T08:06:34.421299Z"
+      "published": "2026-07-22T08:11:06.380927Z"
     },
     {
-      "id": "90103320171cf9ee166d0435a0e2fb3d",
-      "title": "FTSE 100 Live: Stocks edge up; inflation eases in boost for Healey",
+      "id": "93e58393f185a8751bc755f57f44d09e",
+      "title": "Oil prices jump 4% as Rubio says Iran 'not serious' about peace talks",
+      "summary": "Oil prices rose as hopes for a ceasefire in the Middle East faded.",
+      "link": "https://www.cnbc.com/2026/07/22/oil-prices-iran-war-macro-rubio-brent-wti.html",
+      "source": "CNBC",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-22T08:11:07.636829Z"
+    },
+    {
+      "id": "213de8ff52937f767e3646b4b69099c5",
+      "title": "Bitcoin rally faces key test at $68,000 as 'summer slumber' grips crypto, analysts say",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/07/21/bitcoin-rally-faces-key-test-at-usd68-000-as-summer-slumber-grips-crypto-analysts-say",
+      "source": "CoinDesk",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-22T08:11:31.980945Z"
+    },
+    {
+      "id": "25b35f34af5619ab58938d149addaa6a",
+      "title": "FTSE 100 Live: Stocks rise; inflation eases in boost for Healey",
       "summary": "<p> <img alt=\"June&#039;s inflation figure will be revealed on Wednesday (Stefan Rousseau/PA Wire)\" src=\"https://www.cityam.com/wp-content/uploads/2026/07/Healey-1.jpg?w=1107\" /> </p>Welcome back to the City AM FTSE 100 liveblog. It&#8217;s Wednesday and new Chancellor John Healey secured an early boost after the Office for National Statistics (ONS) revealed that inflation slowed in June. Headline CPI inflation dipped from 2.8 per cent in May to 2.6 per cent in June. Grant Fitzner, chief economist at the <a href=\"https://www.cityam.com/ftse-100-live-stocks-to-rise-inflation-to-ease-in-boost-for-healey/\">[...]</a>",
       "link": "https://www.cityam.com/ftse-100-live-stocks-to-rise-inflation-to-ease-in-boost-for-healey/",
       "source": "CityAM",
@@ -101,28 +134,24 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-07-22T08:06:29.247704Z"
+      "published": "2026-07-22T08:11:25.335488Z"
     },
     {
-      "id": "4255600d38ce50255bf1ed5cbeaee116",
-      "title": "Satsuma shareholders approve bitcoin treasury liquidation and London delisting",
-      "summary": "<p>The vote comes less than a year after UK-based Satsuma Technology raised $218 million to pursue its bitcoin strategy.</p>",
-      "link": "https://www.theblock.co/post/409155/satsuma-shareholders-approve-bitcoin-treasury-liquidation-london-delisting?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 15,
+      "id": "793cba61818bef403b16aa08df3be52c",
+      "title": "Bitcoin ETFs extend inflow streak to six days with $203M added",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin ETFs extend inflow streak to six days with $203M added\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-etf-infrastructure-investment-1.jpg\" /></p><p>US spot Bitcoin ETFs extended their inflow streak to six sessions, bringing in about $930 million while remaining down $4.84 billion on a net basis year to date.</p>",
+      "link": "https://cointelegraph.com/news/bitcoin-etfs-203-million-inflow-streak-six-days?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 16,
       "severity": "HIGH",
       "regime": "CRYPTO",
       "tickers": [
-        "BTC",
-        "TLT"
+        "BTC"
       ],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI",
-        "CRYPTO",
-        "RATES"
+        "CRYPTO"
       ],
       "market_impact": {
         "bullish": [
@@ -134,16 +163,78 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-07-22T08:06:36.667061Z"
+      "published": "2026-07-22T08:11:32.087084Z"
     },
     {
-      "id": "4dfacb164e118463c643e77bbc980000",
-      "title": "Diplomacy shifts faster than clean energy supply chains can be built",
-      "summary": "",
-      "link": "https://asia.nikkei.com/opinion/diplomacy-shifts-faster-than-clean-energy-supply-chains-can-be-built",
-      "source": "Nikkei Asia",
-      "score": 11,
+      "id": "693f025838b9f9b7ed5976339f4fd7d7",
+      "title": "Closing the Identity Gaps in Critical Infrastructure Security",
+      "summary": "Critical infrastructure attacks often begin with stolen credentials, compromised devices, or trusted accounts. Specops Software explains why Zero Trust should verify both user identities and device trust before granting access to critical systems. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-22T08:11:32.266740Z"
+    },
+    {
+      "id": "27b6bc7946d7cbc8b2f5c30855448d91",
+      "title": "Japan\u2019s electricity price hits highest in over 3 years on triple blow",
+      "summary": "With a triple whammy of blistering heat, yen weakness and escalating fuel costs, the nationwide day-ahead spot price surged to \u00a524.78 a kilowatt-hour on Wednesday.",
+      "link": "https://www.japantimes.co.jp/business/2026/07/22/japan-electricity-price-highest/",
+      "source": "Japan Times",
+      "score": 8,
       "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-22T08:11:28.046121Z"
+    },
+    {
+      "id": "47755fa638ffd1728c896e91e4bc5ce2",
+      "title": "Critical SharePoint RCE flaw exploited to steal machine keys",
+      "summary": "Hackers are actively exploiting the critical CVE-2026-50522 vulnerability in Microsoft SharePoint to steal machine keys and maintain access even after affected servers are patched. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -159,131 +250,23 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-22T08:06:31.470971Z"
-    },
-    {
-      "id": "aa392add8cf945cd5e5582544680e672",
-      "title": "Germany to study French cooperation offer on SAMP/T air-defense system",
-      "summary": "German government leaders will study an offer by French President Emmanuel Macron to cooperate on the French-Italian SAMP/T air defense system.",
-      "link": "https://www.defensenews.com/global/europe/2026/07/21/germany-to-study-french-cooperation-offer-on-sampt-air-defense-system/",
-      "source": "Defense News",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "GERMANY"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-22T08:06:35.444940Z"
-    },
-    {
-      "id": "23622049b41324fe7f8197a3af8955a7",
-      "title": "Arc Joins the Maritime Battery Forum to Expand Electric Propulsion Solutions to Commercial Vessels",
-      "summary": "The Maritime Battery Forum (MBF) has welcomed Arc, a U.S.-based marine technology company developing integrated electric and hybrid-electric propulsion systems, as the newest member of its global community of maritime battery enablers. Arc designs its battery systems\u2026",
-      "link": "https://www.marinelink.com/news/arc-joins-maritime-battery-forum-expand-541391",
-      "source": "MarineLink",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-22T08:06:35.320669Z"
-    },
-    {
-      "id": "6db6386ab96030c2208a792255648854",
-      "title": "Brazil faces unforgiving economics after election - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9uUlI3eE9sVkJKdWRlVm8wV1Q1UWFhXzVLc1Fac3cyNHVSZjZqTTN0bVFhOUJTVGtzNDhyUVRHNWM3MVFsSWlXa0ZnczFZdUwzREM4S2hIVy05Z2d6QkQ4Qk5WQnJCRTdHQ1dSZ3UxM3Q?oc=5\" target=\"_blank\">Brazil faces unforgiving economics after election</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uUlI3eE9sVkJKdWRlVm8wV1Q1UWFhXzVLc1Fac3cyNHVSZjZqTTN0bVFhOUJTVGtzNDhyUVRHNWM3MVFsSWlXa0ZnczFZdUwzREM4S2hIVy05Z2d6QkQ4Qk5WQnJCRTdHQ1dSZ3UxM3Q?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-22T08:06:38.858990Z"
-    },
-    {
-      "id": "fe27ba1a3cd042dba10ec78c5e175fbb",
-      "title": "Stocks making the biggest moves midday: Coinbase, Micron, Nebius, Hasbro, Utz Brands & more - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQM2p5bzJ1RG1qcnc2bThQb0Y4UDNFX1FqZTJpZWZ6NkRJSUlNbWxaX0dZMlpqVVpkRnpwUDl4ZkphQUVvbkl0V1EwSk5DZEFraGVUMnpXV2ZnR3ZzZDZ3bUJXMWdYUkNjUGNJaGRaZGFnbHIwaTB5UV80Y3VZdWppZzVDQm5WOHV4UFJ4VEV5cExINkpSdDFVWmhadUs?oc=5\" target=\"_blank\">Stocks making the biggest moves midday: Coinbase, Micron, Nebius, Hasbro, Utz Brands & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM2p5bzJ1RG1qcnc2bThQb0Y4UDNFX1FqZTJpZWZ6NkRJSUlNbWxaX0dZMlpqVVpkRnpwUDl4ZkphQUVvbkl0V1EwSk5DZEFraGVUMnpXV2ZnR3ZzZDZ3bUJXMWdYUkNjUGNJaGRaZGFnbHIwaTB5UV80Y3VZdWppZzVDQm5WOHV4UFJ4VEV5cExINkpSdDFVWmhadUs?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "EQUITIES"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-22T08:06:39.921075Z"
+      "published": "2026-07-22T08:11:32.266666Z"
     }
   ],
   "alerts": [
     {
-      "id": "6d8f8aa1b71eb0efdea69490a6170b95",
-      "title": "PHP/USD: Philippine Peso Declines to Match Record Low on Higher Oil Prices",
-      "summary": "The Philippine central bank intervened in the foreign-exchange market to support the peso, which fell to a record low.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-22/php-usd-philippine-peso-declines-to-match-record-low-on-higher-oil-prices",
-      "source": "Bloomberg",
-      "score": 23,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "DXY",
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-22T08:06:03.710288Z"
-    },
-    {
-      "id": "91e9ceccdb380c868883ca5dba608399",
-      "title": "Norway's Oil Output Beats Forecasts as Hormuz Traffic Stays Near Crisis Lows",
-      "summary": "Norway's crude oil production beat official forecasts in June as offshore fields returned from seasonal maintenance, delivering a stronger-than-expected increase in supply at a time when global markets remain focused on disruptions to Middle Eastern exports. According to preliminary figures released Tuesday by the Norwegian Offshore Directorate (SODIR), Norway's crude oil production averaged 1.827 million barrels per day (bpd) in June, exceeding the agency's official forecast while rising sharply from 1.677 million bpd in the same month last year.\u2026",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Norways-Oil-Output-Beats-Forecasts-as-Hormuz-Traffic-Stays-Near-Crisis-Lows.html",
-      "source": "OilPrice",
-      "score": 22,
-      "severity": "HIGH",
+      "id": "4c7ffc7cad1f371e7d3e1abec2578034",
+      "title": "Oil rises to highest level in six weeks as Middle East war escalates",
+      "summary": "Goldman Sachs warns Brent crude price could jump to $120 if Strait of Hormuz remains \u2018disrupted\u2019",
+      "link": "https://www.ft.com/content/90facd68-4df7-40c2-9383-e989a02fbe51?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 45,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
       "tickers": [
-        "WTI"
+        "BRENT",
+        "WTI",
+        "XAU"
       ],
       "regions": [],
       "assets": [
@@ -304,11 +287,73 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-22T08:06:34.421299Z"
+      "published": "2026-07-22T08:11:06.380927Z"
     },
     {
-      "id": "90103320171cf9ee166d0435a0e2fb3d",
-      "title": "FTSE 100 Live: Stocks edge up; inflation eases in boost for Healey",
+      "id": "93e58393f185a8751bc755f57f44d09e",
+      "title": "Oil prices jump 4% as Rubio says Iran 'not serious' about peace talks",
+      "summary": "Oil prices rose as hopes for a ceasefire in the Middle East faded.",
+      "link": "https://www.cnbc.com/2026/07/22/oil-prices-iran-war-macro-rubio-brent-wti.html",
+      "source": "CNBC",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-22T08:11:07.636829Z"
+    },
+    {
+      "id": "213de8ff52937f767e3646b4b69099c5",
+      "title": "Bitcoin rally faces key test at $68,000 as 'summer slumber' grips crypto, analysts say",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/07/21/bitcoin-rally-faces-key-test-at-usd68-000-as-summer-slumber-grips-crypto-analysts-say",
+      "source": "CoinDesk",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-22T08:11:31.980945Z"
+    },
+    {
+      "id": "25b35f34af5619ab58938d149addaa6a",
+      "title": "FTSE 100 Live: Stocks rise; inflation eases in boost for Healey",
       "summary": "<p> <img alt=\"June&#039;s inflation figure will be revealed on Wednesday (Stefan Rousseau/PA Wire)\" src=\"https://www.cityam.com/wp-content/uploads/2026/07/Healey-1.jpg?w=1107\" /> </p>Welcome back to the City AM FTSE 100 liveblog. It&#8217;s Wednesday and new Chancellor John Healey secured an early boost after the Office for National Statistics (ONS) revealed that inflation slowed in June. Headline CPI inflation dipped from 2.8 per cent in May to 2.6 per cent in June. Grant Fitzner, chief economist at the <a href=\"https://www.cityam.com/ftse-100-live-stocks-to-rise-inflation-to-ease-in-boost-for-healey/\">[...]</a>",
       "link": "https://www.cityam.com/ftse-100-live-stocks-to-rise-inflation-to-ease-in-boost-for-healey/",
       "source": "CityAM",
@@ -332,28 +377,24 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-07-22T08:06:29.247704Z"
+      "published": "2026-07-22T08:11:25.335488Z"
     },
     {
-      "id": "4255600d38ce50255bf1ed5cbeaee116",
-      "title": "Satsuma shareholders approve bitcoin treasury liquidation and London delisting",
-      "summary": "<p>The vote comes less than a year after UK-based Satsuma Technology raised $218 million to pursue its bitcoin strategy.</p>",
-      "link": "https://www.theblock.co/post/409155/satsuma-shareholders-approve-bitcoin-treasury-liquidation-london-delisting?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 15,
+      "id": "793cba61818bef403b16aa08df3be52c",
+      "title": "Bitcoin ETFs extend inflow streak to six days with $203M added",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin ETFs extend inflow streak to six days with $203M added\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-etf-infrastructure-investment-1.jpg\" /></p><p>US spot Bitcoin ETFs extended their inflow streak to six sessions, bringing in about $930 million while remaining down $4.84 billion on a net basis year to date.</p>",
+      "link": "https://cointelegraph.com/news/bitcoin-etfs-203-million-inflow-streak-six-days?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 16,
       "severity": "HIGH",
       "regime": "CRYPTO",
       "tickers": [
-        "BTC",
-        "TLT"
+        "BTC"
       ],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI",
-        "CRYPTO",
-        "RATES"
+        "CRYPTO"
       ],
       "market_impact": {
         "bullish": [
@@ -365,16 +406,78 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-07-22T08:06:36.667061Z"
+      "published": "2026-07-22T08:11:32.087084Z"
     },
     {
-      "id": "4dfacb164e118463c643e77bbc980000",
-      "title": "Diplomacy shifts faster than clean energy supply chains can be built",
-      "summary": "",
-      "link": "https://asia.nikkei.com/opinion/diplomacy-shifts-faster-than-clean-energy-supply-chains-can-be-built",
-      "source": "Nikkei Asia",
-      "score": 11,
+      "id": "693f025838b9f9b7ed5976339f4fd7d7",
+      "title": "Closing the Identity Gaps in Critical Infrastructure Security",
+      "summary": "Critical infrastructure attacks often begin with stolen credentials, compromised devices, or trusted accounts. Specops Software explains why Zero Trust should verify both user identities and device trust before granting access to critical systems. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-22T08:11:32.266740Z"
+    },
+    {
+      "id": "27b6bc7946d7cbc8b2f5c30855448d91",
+      "title": "Japan\u2019s electricity price hits highest in over 3 years on triple blow",
+      "summary": "With a triple whammy of blistering heat, yen weakness and escalating fuel costs, the nationwide day-ahead spot price surged to \u00a524.78 a kilowatt-hour on Wednesday.",
+      "link": "https://www.japantimes.co.jp/business/2026/07/22/japan-electricity-price-highest/",
+      "source": "Japan Times",
+      "score": 8,
       "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-22T08:11:28.046121Z"
+    },
+    {
+      "id": "47755fa638ffd1728c896e91e4bc5ce2",
+      "title": "Critical SharePoint RCE flaw exploited to steal machine keys",
+      "summary": "Hackers are actively exploiting the critical CVE-2026-50522 vulnerability in Microsoft SharePoint to steal machine keys and maintain access even after affected servers are patched. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -390,86 +493,7 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-22T08:06:31.470971Z"
-    },
-    {
-      "id": "aa392add8cf945cd5e5582544680e672",
-      "title": "Germany to study French cooperation offer on SAMP/T air-defense system",
-      "summary": "German government leaders will study an offer by French President Emmanuel Macron to cooperate on the French-Italian SAMP/T air defense system.",
-      "link": "https://www.defensenews.com/global/europe/2026/07/21/germany-to-study-french-cooperation-offer-on-sampt-air-defense-system/",
-      "source": "Defense News",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "GERMANY"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-22T08:06:35.444940Z"
-    },
-    {
-      "id": "23622049b41324fe7f8197a3af8955a7",
-      "title": "Arc Joins the Maritime Battery Forum to Expand Electric Propulsion Solutions to Commercial Vessels",
-      "summary": "The Maritime Battery Forum (MBF) has welcomed Arc, a U.S.-based marine technology company developing integrated electric and hybrid-electric propulsion systems, as the newest member of its global community of maritime battery enablers. Arc designs its battery systems\u2026",
-      "link": "https://www.marinelink.com/news/arc-joins-maritime-battery-forum-expand-541391",
-      "source": "MarineLink",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-22T08:06:35.320669Z"
-    },
-    {
-      "id": "6db6386ab96030c2208a792255648854",
-      "title": "Brazil faces unforgiving economics after election - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9uUlI3eE9sVkJKdWRlVm8wV1Q1UWFhXzVLc1Fac3cyNHVSZjZqTTN0bVFhOUJTVGtzNDhyUVRHNWM3MVFsSWlXa0ZnczFZdUwzREM4S2hIVy05Z2d6QkQ4Qk5WQnJCRTdHQ1dSZ3UxM3Q?oc=5\" target=\"_blank\">Brazil faces unforgiving economics after election</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uUlI3eE9sVkJKdWRlVm8wV1Q1UWFhXzVLc1Fac3cyNHVSZjZqTTN0bVFhOUJTVGtzNDhyUVRHNWM3MVFsSWlXa0ZnczFZdUwzREM4S2hIVy05Z2d6QkQ4Qk5WQnJCRTdHQ1dSZ3UxM3Q?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-22T08:06:38.858990Z"
-    },
-    {
-      "id": "fe27ba1a3cd042dba10ec78c5e175fbb",
-      "title": "Stocks making the biggest moves midday: Coinbase, Micron, Nebius, Hasbro, Utz Brands & more - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQM2p5bzJ1RG1qcnc2bThQb0Y4UDNFX1FqZTJpZWZ6NkRJSUlNbWxaX0dZMlpqVVpkRnpwUDl4ZkphQUVvbkl0V1EwSk5DZEFraGVUMnpXV2ZnR3ZzZDZ3bUJXMWdYUkNjUGNJaGRaZGFnbHIwaTB5UV80Y3VZdWppZzVDQm5WOHV4UFJ4VEV5cExINkpSdDFVWmhadUs?oc=5\" target=\"_blank\">Stocks making the biggest moves midday: Coinbase, Micron, Nebius, Hasbro, Utz Brands & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM2p5bzJ1RG1qcnc2bThQb0Y4UDNFX1FqZTJpZWZ6NkRJSUlNbWxaX0dZMlpqVVpkRnpwUDl4ZkphQUVvbkl0V1EwSk5DZEFraGVUMnpXV2ZnR3ZzZDZ3bUJXMWdYUkNjUGNJaGRaZGFnbHIwaTB5UV80Y3VZdWppZzVDQm5WOHV4UFJ4VEV5cExINkpSdDFVWmhadUs?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "EQUITIES"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-22T08:06:39.921075Z"
+      "published": "2026-07-22T08:11:32.266666Z"
     }
   ]
 }
