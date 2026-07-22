@@ -1,77 +1,373 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-22T17:11:35.931311Z",
+  "generated_at": "2026-07-22T17:16:37.197573Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-07-22T17:11:35.931324Z"
+    "critical_alerts": 1,
+    "high_alerts": 2,
+    "last_updated": "2026-07-22T17:16:37.197597Z"
   },
   "top_signals": [
     {
-      "id": "a4d14845d0a92c979adc6baa972a198c",
-      "title": "US fund managers shy away from 'significantly undervalued' yen",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/markets/currencies/us-fund-managers-shy-away-from-significantly-undervalued-yen",
-      "source": "Nikkei Asia",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "RATES",
+      "id": "7ba0cb121c6c105993ad83227960ff83",
+      "title": "Oil Jumps Nearly 4% as Houthis Threaten Red Sea Blockade",
+      "summary": "Oil prices jumped by nearly 4% early on Wednesday as concerns about crude supply from the Middle East intensify with threats to shipping at both chokepoints in the region, the Strait of Hormuz and the Bab el-Mandeb Strait. Brent Crude prices jumped by 3.75% to trade at $94.42, following reports that the Iran-aligned Houthis are ready to attempt the closure of Bab el-Mandeb, which would choke supply from the Saudi port of Yanbu on the Red Sea. The U.S. benchmark, WTI Crude, was rising by 3.69% to trade at $87.45 per barrel. Saudi Arabia has managed\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-Nearly-4-as-Houthis-Threaten-Red-Sea-Blockade.html",
+      "source": "OilPrice",
+      "score": 49,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "JPY"
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-22T17:16:31.398562Z"
+    },
+    {
+      "id": "c85d8e180e4a8a8c94a58e31701555c5",
+      "title": "The Iran Cease-Fire Was Doomed to Fail",
+      "summary": "Why transactionalism won\u2019t deliver peace in the Middle East.",
+      "link": "https://www.foreignaffairs.com/iran/iran-cease-fire-was-doomed-fail",
+      "source": "Foreign Affairs",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-22T17:16:32.706345Z"
+    },
+    {
+      "id": "48f2e8142d4f23561a19c8e9725da4d3",
+      "title": "Trump's push for American-made AI chips hits TSMC's margins",
+      "summary": "The Taiwan-based chipmaker has announced $200 billion in investment into U.S. manufacturing since Trump returned to power in 2025.",
+      "link": "https://www.cnbc.com/2026/07/22/trump-pressure-ai-chips-us-tsmc-margins.html",
+      "source": "CNBC",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-22T17:16:05.794374Z"
+    },
+    {
+      "id": "168e9bcc0aa0c5a41aa18baeb70e965e",
+      "title": "Alphabet Earnings Need to Show Cloud Growth as AI Spending Soars",
+      "summary": "With AI spending skyrocketing, investors are looking for Alphabet Inc.\u2019s earnings to show strong growth in its cloud-computing business, which would demonstrate a clear return on the company\u2019s investments.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-22/alphabet-earnings-need-to-show-cloud-growth-as-ai-spending-soars",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-22T17:16:02.437207Z"
+    },
+    {
+      "id": "3a8ab733e218fc5ba2a0606bd6290d52",
+      "title": "When China Gets Its Own Mythos",
+      "summary": "Preparing for an AI cyber crisis.",
+      "link": "https://www.foreignaffairs.com/china/when-china-gets-its-own-mythos",
+      "source": "Foreign Affairs",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-22T17:16:32.706290Z"
+    },
+    {
+      "id": "de27e9a1661598574536dd8b12e01a43",
+      "title": "Piero Cipollone: The cooperative spirit at the heart of the digital euro",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260717~b6a156dc40.en.html",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
       ],
       "regions": [],
       "assets": [
         "FX"
       ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-22T17:11:28.175784Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-22T17:16:17.342360Z"
     }
   ],
   "alerts": [
     {
-      "id": "a4d14845d0a92c979adc6baa972a198c",
-      "title": "US fund managers shy away from 'significantly undervalued' yen",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/markets/currencies/us-fund-managers-shy-away-from-significantly-undervalued-yen",
-      "source": "Nikkei Asia",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "RATES",
+      "id": "7ba0cb121c6c105993ad83227960ff83",
+      "title": "Oil Jumps Nearly 4% as Houthis Threaten Red Sea Blockade",
+      "summary": "Oil prices jumped by nearly 4% early on Wednesday as concerns about crude supply from the Middle East intensify with threats to shipping at both chokepoints in the region, the Strait of Hormuz and the Bab el-Mandeb Strait. Brent Crude prices jumped by 3.75% to trade at $94.42, following reports that the Iran-aligned Houthis are ready to attempt the closure of Bab el-Mandeb, which would choke supply from the Saudi port of Yanbu on the Red Sea. The U.S. benchmark, WTI Crude, was rising by 3.69% to trade at $87.45 per barrel. Saudi Arabia has managed\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-Nearly-4-as-Houthis-Threaten-Red-Sea-Blockade.html",
+      "source": "OilPrice",
+      "score": 49,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "JPY"
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-22T17:16:31.398562Z"
+    },
+    {
+      "id": "c85d8e180e4a8a8c94a58e31701555c5",
+      "title": "The Iran Cease-Fire Was Doomed to Fail",
+      "summary": "Why transactionalism won\u2019t deliver peace in the Middle East.",
+      "link": "https://www.foreignaffairs.com/iran/iran-cease-fire-was-doomed-fail",
+      "source": "Foreign Affairs",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-22T17:16:32.706345Z"
+    },
+    {
+      "id": "48f2e8142d4f23561a19c8e9725da4d3",
+      "title": "Trump's push for American-made AI chips hits TSMC's margins",
+      "summary": "The Taiwan-based chipmaker has announced $200 billion in investment into U.S. manufacturing since Trump returned to power in 2025.",
+      "link": "https://www.cnbc.com/2026/07/22/trump-pressure-ai-chips-us-tsmc-margins.html",
+      "source": "CNBC",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-22T17:16:05.794374Z"
+    },
+    {
+      "id": "168e9bcc0aa0c5a41aa18baeb70e965e",
+      "title": "Alphabet Earnings Need to Show Cloud Growth as AI Spending Soars",
+      "summary": "With AI spending skyrocketing, investors are looking for Alphabet Inc.\u2019s earnings to show strong growth in its cloud-computing business, which would demonstrate a clear return on the company\u2019s investments.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-22/alphabet-earnings-need-to-show-cloud-growth-as-ai-spending-soars",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-22T17:16:02.437207Z"
+    },
+    {
+      "id": "3a8ab733e218fc5ba2a0606bd6290d52",
+      "title": "When China Gets Its Own Mythos",
+      "summary": "Preparing for an AI cyber crisis.",
+      "link": "https://www.foreignaffairs.com/china/when-china-gets-its-own-mythos",
+      "source": "Foreign Affairs",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-22T17:16:32.706290Z"
+    },
+    {
+      "id": "de27e9a1661598574536dd8b12e01a43",
+      "title": "Piero Cipollone: The cooperative spirit at the heart of the digital euro",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260717~b6a156dc40.en.html",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
       ],
       "regions": [],
       "assets": [
         "FX"
       ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-22T17:11:28.175784Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-22T17:16:17.342360Z"
     }
   ]
 }
