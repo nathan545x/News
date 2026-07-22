@@ -1,76 +1,207 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-22T08:51:29.617280Z",
+  "generated_at": "2026-07-22T08:56:29.008111Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 2,
-    "last_updated": "2026-07-22T08:51:29.617291Z"
+    "critical_alerts": 2,
+    "high_alerts": 1,
+    "last_updated": "2026-07-22T08:56:29.008127Z"
   },
   "top_signals": [
     {
-      "id": "a51bc19ff9fb3fe6a86f5abf58bb2a80",
-      "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
-      "summary": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-22T08:51:05.829082Z"
-    },
-    {
-      "id": "a655913170f801cc32214a85d2745735",
-      "title": "Bowman, Responsible Innovation and Financial Inclusion",
-      "summary": "Speech At \u201cNext-Gen Financial Inclusion,\u201d the third annual Financial Inclusion Conference hosted by the Federal Reserve Board, Washington, D.C. (via pre-recorded video)",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-22T08:51:05.949121Z"
-    },
-    {
-      "id": "168e9bcc0aa0c5a41aa18baeb70e965e",
-      "title": "Alphabet Earnings Need to Show Cloud Growth as AI Spending Soars",
-      "summary": "With AI spending skyrocketing, investors are looking for Alphabet Inc.\u2019s earnings to show strong growth in its cloud-computing business, which would demonstrate a clear return on the company\u2019s investments.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-22/alphabet-earnings-need-to-show-cloud-growth-as-ai-spending-soars",
+      "id": "4544ee3cddf5e39e5aaa15ba579fa848",
+      "title": "Yen Rebounds From Four-Decade Low as BOJ May Hike Rates Faster",
+      "summary": "The yen weakened past 163 per dollar for the first time since 1986 before recovering some ground on the prospect of faster interest-rate hikes from the Bank of Japan.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-21/yen-slides-past-163-mark-to-fresh-four-decade-low-against-dollar",
       "source": "Bloomberg",
-      "score": 13,
+      "score": 42,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-22T08:55:59.414987Z"
+    },
+    {
+      "id": "7486ea852c586054246b7b6ffb0ae655",
+      "title": "Funds\u2019 Bullish Wagers on European Gas Jump the Most Since War",
+      "summary": "Investment funds and other speculators boosted their net-long positions in European gas by the most since the first week of the Iran war, signaling a strong conviction that prices still have room to rise as the conflict darkens the supply outlook ahead of winter.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-22/funds-bullish-wagers-on-european-gas-jump-the-most-since-war",
+      "source": "Bloomberg",
+      "score": 34,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-22T08:55:59.415095Z"
+    },
+    {
+      "id": "61f052edfdb98ef5ac4393e073cf06f1",
+      "title": "Microsoft Patches a Record 570 Security Flaws",
+      "summary": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant fixed in its record-smashing Patch Tuesday release last month. Microsoft attributed the burgeoning patch counts to vulnerability discoveries aided by artificial intelligence.",
+      "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+      "source": "KrebsOnSecurity",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-22T08:56:26.090863Z"
+    },
+    {
+      "id": "037f6f889bf46af94decbb46a0bcbcda",
+      "title": "Speech by Commissioner Kubilius at the IRIS\u00b2 - Polish contribution Agreement Signature Ceremony",
+      "summary": "European Commission Speech Warsaw, 21 Jul 2026 Dear\u00a0Minister Kierwi\u0144ski,\nDear\u00a0Secretary of State Szyma\u0144ski,\nExcellencies,\nLadies and gentlemen,\nMy dear Polish friends,\nI have come to Poland\u00a0to celebrate\u00a0a\u00a0su...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1665",
+      "source": "European Commission",
+      "score": 11,
       "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-22T08:56:17.161228Z"
+    },
+    {
+      "id": "2d384bff1cef0ac0e90629634c2d6555",
+      "title": "Pakistan launches crypto investigation unit to crack down on digital asset crimes: report",
+      "summary": "<p>FIA's Muhammad Athar Waheed suggested that other major agencies form dedicated teams to tackle digital asset crimes.</p>",
+      "link": "https://www.theblock.co/post/409180/pakistan-crypto-investigation-unit?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-22T08:56:25.607797Z"
+    },
+    {
+      "id": "2d096f53c80845099275a08056ed2949",
+      "title": "Japan swelters as weather breaks \u2018brutally hot\u2019 threshold",
+      "summary": "The weather \u200cagency issued heat stroke \u200balerts for much of the country, forecasting a second straight day of \"kokushobi\" \u2014 literally \u2060meaning brutally hot day.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/22/japan/japan-brutal-heat/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-22T08:56:21.425035Z"
+    },
+    {
+      "id": "8f89febcf818d5358d23cfc2eb5ad655",
+      "title": "Canton developer Digital Asset raises additional $10 million at same $2 billion equity valuation",
+      "summary": "<p>Canton Network developer Digital Asset has raised an additional $10 million from Shinhan Financial Group and SC Ventures.</p>",
+      "link": "https://www.theblock.co/post/409168/canton-digital-asset-additional-10-million-funding-same-2-billion-equity-valuation-expanding-round-365-million?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -86,88 +217,201 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-22T08:51:02.896783Z"
-    },
-    {
-      "id": "59bd9b4bed57502e0dbd7e9d76e06c76",
-      "title": "Activities of U.S. Affiliates of Foreign Multinational Enterprises, 2024",
-      "summary": "Majority-owned U.S. affiliates of foreign multinational enterprises employed 8.57 million workers in the United States in 2024, a 0.2 percent increase from 8.56 million workers in 2023, according to statistics on U.S. affiliate operations and finances released today by the U.S. Bureau of Economic Analysis.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/activities-us-affiliates-foreign-multinational-enterprises-2024\">Full Text</a><!--Full Text Link-->",
-      "link": "https://www.bea.gov/news/2026/activities-us-affiliates-foreign-multinational-enterprises-2024",
-      "source": "BEA",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "US"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-22T08:51:14.476510Z"
+      "published": "2026-07-22T08:56:25.607864Z"
     }
   ],
   "alerts": [
     {
-      "id": "a51bc19ff9fb3fe6a86f5abf58bb2a80",
-      "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
-      "summary": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-22T08:51:05.829082Z"
-    },
-    {
-      "id": "a655913170f801cc32214a85d2745735",
-      "title": "Bowman, Responsible Innovation and Financial Inclusion",
-      "summary": "Speech At \u201cNext-Gen Financial Inclusion,\u201d the third annual Financial Inclusion Conference hosted by the Federal Reserve Board, Washington, D.C. (via pre-recorded video)",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-22T08:51:05.949121Z"
-    },
-    {
-      "id": "168e9bcc0aa0c5a41aa18baeb70e965e",
-      "title": "Alphabet Earnings Need to Show Cloud Growth as AI Spending Soars",
-      "summary": "With AI spending skyrocketing, investors are looking for Alphabet Inc.\u2019s earnings to show strong growth in its cloud-computing business, which would demonstrate a clear return on the company\u2019s investments.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-22/alphabet-earnings-need-to-show-cloud-growth-as-ai-spending-soars",
+      "id": "4544ee3cddf5e39e5aaa15ba579fa848",
+      "title": "Yen Rebounds From Four-Decade Low as BOJ May Hike Rates Faster",
+      "summary": "The yen weakened past 163 per dollar for the first time since 1986 before recovering some ground on the prospect of faster interest-rate hikes from the Bank of Japan.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-21/yen-slides-past-163-mark-to-fresh-four-decade-low-against-dollar",
       "source": "Bloomberg",
-      "score": 13,
+      "score": 42,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-22T08:55:59.414987Z"
+    },
+    {
+      "id": "7486ea852c586054246b7b6ffb0ae655",
+      "title": "Funds\u2019 Bullish Wagers on European Gas Jump the Most Since War",
+      "summary": "Investment funds and other speculators boosted their net-long positions in European gas by the most since the first week of the Iran war, signaling a strong conviction that prices still have room to rise as the conflict darkens the supply outlook ahead of winter.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-22/funds-bullish-wagers-on-european-gas-jump-the-most-since-war",
+      "source": "Bloomberg",
+      "score": 34,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-22T08:55:59.415095Z"
+    },
+    {
+      "id": "61f052edfdb98ef5ac4393e073cf06f1",
+      "title": "Microsoft Patches a Record 570 Security Flaws",
+      "summary": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant fixed in its record-smashing Patch Tuesday release last month. Microsoft attributed the burgeoning patch counts to vulnerability discoveries aided by artificial intelligence.",
+      "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+      "source": "KrebsOnSecurity",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-22T08:56:26.090863Z"
+    },
+    {
+      "id": "037f6f889bf46af94decbb46a0bcbcda",
+      "title": "Speech by Commissioner Kubilius at the IRIS\u00b2 - Polish contribution Agreement Signature Ceremony",
+      "summary": "European Commission Speech Warsaw, 21 Jul 2026 Dear\u00a0Minister Kierwi\u0144ski,\nDear\u00a0Secretary of State Szyma\u0144ski,\nExcellencies,\nLadies and gentlemen,\nMy dear Polish friends,\nI have come to Poland\u00a0to celebrate\u00a0a\u00a0su...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1665",
+      "source": "European Commission",
+      "score": 11,
       "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-22T08:56:17.161228Z"
+    },
+    {
+      "id": "2d384bff1cef0ac0e90629634c2d6555",
+      "title": "Pakistan launches crypto investigation unit to crack down on digital asset crimes: report",
+      "summary": "<p>FIA's Muhammad Athar Waheed suggested that other major agencies form dedicated teams to tackle digital asset crimes.</p>",
+      "link": "https://www.theblock.co/post/409180/pakistan-crypto-investigation-unit?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-22T08:56:25.607797Z"
+    },
+    {
+      "id": "2d096f53c80845099275a08056ed2949",
+      "title": "Japan swelters as weather breaks \u2018brutally hot\u2019 threshold",
+      "summary": "The weather \u200cagency issued heat stroke \u200balerts for much of the country, forecasting a second straight day of \"kokushobi\" \u2014 literally \u2060meaning brutally hot day.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/22/japan/japan-brutal-heat/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-22T08:56:21.425035Z"
+    },
+    {
+      "id": "8f89febcf818d5358d23cfc2eb5ad655",
+      "title": "Canton developer Digital Asset raises additional $10 million at same $2 billion equity valuation",
+      "summary": "<p>Canton Network developer Digital Asset has raised an additional $10 million from Shinhan Financial Group and SC Ventures.</p>",
+      "link": "https://www.theblock.co/post/409168/canton-digital-asset-additional-10-million-funding-same-2-billion-equity-valuation-expanding-round-365-million?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -183,25 +427,7 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-22T08:51:02.896783Z"
-    },
-    {
-      "id": "59bd9b4bed57502e0dbd7e9d76e06c76",
-      "title": "Activities of U.S. Affiliates of Foreign Multinational Enterprises, 2024",
-      "summary": "Majority-owned U.S. affiliates of foreign multinational enterprises employed 8.57 million workers in the United States in 2024, a 0.2 percent increase from 8.56 million workers in 2023, according to statistics on U.S. affiliate operations and finances released today by the U.S. Bureau of Economic Analysis.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/activities-us-affiliates-foreign-multinational-enterprises-2024\">Full Text</a><!--Full Text Link-->",
-      "link": "https://www.bea.gov/news/2026/activities-us-affiliates-foreign-multinational-enterprises-2024",
-      "source": "BEA",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "US"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-22T08:51:14.476510Z"
+      "published": "2026-07-22T08:56:25.607864Z"
     }
   ]
 }
