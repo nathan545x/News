@@ -1,32 +1,62 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-23T00:16:36.787617Z",
+  "generated_at": "2026-07-23T00:21:54.181487Z",
   "market_regime": {
     "regime": "GEO-SHOCK",
     "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-07-23T00:16:36.787628Z"
+    "critical_alerts": 2,
+    "high_alerts": 3,
+    "last_updated": "2026-07-23T00:21:54.181502Z"
   },
   "top_signals": [
     {
-      "id": "74184133c4ae3ebdf5a52ee3f4d7617e",
-      "title": "China\u2019s High-Profile Funds Ditch Consumer Stocks to Chase AI",
-      "summary": "Some high-profile Chinese funds heavily invested in consumer names are pivoting to AI stocks, a bet that may boost returns but also leaves them more vulnerable to the sector\u2019s volatility.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-22/china-s-high-profile-funds-ditch-consumer-stocks-to-chase-ai",
+      "id": "2b2540af700e58d61bb0b98fd8e86ace",
+      "title": "Asian Shares Rise as Chipmakers Gain, Oil Climbs: Markets Wrap",
+      "summary": "Asian shares advanced as regional chipmakers gained on expectations they will benefit from the billions spent on the artificial intelligence buildout. Oil extended its rally.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-22/stock-market-today-dow-s-p-live-updates",
       "source": "Bloomberg",
-      "score": 19,
-      "severity": "HIGH",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "AI",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-23T00:21:10.036661Z"
+    },
+    {
+      "id": "68e192d7f50308c9de858ea79812de44",
+      "title": "Oil extends gains as Trump threatens strikes on critical Iranian infrastructure",
+      "summary": "Oil prices rose after U.S. President Donald Trump threatened to bomb Iranian infrastructure in response to any attacks on ships transiting the Strait of Hormuz.",
+      "link": "https://www.cnbc.com/2026/07/23/oil-prices-today-wti-brent-trump-iran-hormuz.html",
+      "source": "CNBC",
+      "score": 26,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
-      "tickers": [],
+      "tickers": [
+        "WTI"
+      ],
       "regions": [
-        "CHINA"
+        "MIDDLE_EAST"
       ],
       "assets": [
         "AI",
-        "EQUITIES"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -42,26 +72,234 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-23T00:16:04.525911Z"
+      "published": "2026-07-23T00:21:14.623844Z"
+    },
+    {
+      "id": "294eac0ab723d34fd014f38a64d17da6",
+      "title": "JPY/USD: Why Is Japan Yen So Weak? Can Government Intervention Help Currency?",
+      "summary": "The yen\u2019s weakness has become a growing issue for Japan\u2019s policymakers, given its role in driving up import prices and household living costs.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-22/jpy-usd-why-is-japan-yen-so-weak-can-government-intervention-help-currency",
+      "source": "Bloomberg",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-23T00:21:10.036731Z"
+    },
+    {
+      "id": "e58aeaccfb0c7b307d1b8d16b5ff767e",
+      "title": "War in Iran has cost the US $37.5 billion so far, Pentagon says - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcGhIUDY1XzFtb1pDNmE1ME9sMjVXRXJPMXBxelpQZlJlcDd5eEIySWxObnlCY1BiR1lNRnVLWEt0M005NTRCcUtWRU5oZmROVmZJMW91aE9nVWNGUmF0V2J0dHZSci1mM2c4NFE4c01pblBucXJfSW5lVWJUeE95VGNjbl9OOFBVQnZsTFBmeDRvMGxIeEpfVWlUbE96SWxXSGNHM1o5aTNzV2c?oc=5\" target=\"_blank\">War in Iran has cost the US $37.5 billion so far, Pentagon says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcGhIUDY1XzFtb1pDNmE1ME9sMjVXRXJPMXBxelpQZlJlcDd5eEIySWxObnlCY1BiR1lNRnVLWEt0M005NTRCcUtWRU5oZmROVmZJMW91aE9nVWNGUmF0V2J0dHZSci1mM2c4NFE4c01pblBucXJfSW5lVWJUeE95VGNjbl9OOFBVQnZsTFBmeDRvMGxIeEpfVWlUbE96SWxXSGNHM1o5aTNzV2c?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-23T00:21:52.531536Z"
+    },
+    {
+      "id": "98d6d99c19d7e4077392be0b4ce34be3",
+      "title": "Warsh\u2019s balance sheet consultants",
+      "summary": "Plus, tariffs force trading down, not price cuts",
+      "link": "https://www.ft.com/content/ee2a0a8e-3698-4fdf-9616-807dcdc8ae12?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-23T00:21:12.856786Z"
+    },
+    {
+      "id": "7dccbf256aec922e7ebc2979d1a69d53",
+      "title": "Tesla\u2019s profits plunge as Musk\u2019s carmaker uses deep discounts to boost sales",
+      "summary": "Capital expenditures more than doubled as company accelerates pivot to AI and robots",
+      "link": "https://www.ft.com/content/dc5e629b-562c-41e3-8b89-350af6960adc?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-23T00:21:13.152484Z"
+    },
+    {
+      "id": "c324cac24c88881451677622eaee6b0c",
+      "title": "Who will win the war of neo-mercantilists? - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOM29CTFpMdmpSbThIOVpva0ZycXdCTGlBRVl6T1k0N1V5RjEyYzZrbWxUTTRWQXFLalZIVDlTN2tiNW5PMnRBbVRtYkJJY0p4MUJNTnZWaFpTUnRmTENmUG1SWkgzZzZlQmp5d0djVUU4TkZJclRsVER4dFlZQm5GSWh2TjU?oc=5\" target=\"_blank\">Who will win the war of neo-mercantilists?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOM29CTFpMdmpSbThIOVpva0ZycXdCTGlBRVl6T1k0N1V5RjEyYzZrbWxUTTRWQXFLalZIVDlTN2tiNW5PMnRBbVRtYkJJY0p4MUJNTnZWaFpTUnRmTENmUG1SWkgzZzZlQmp5d0djVUU4TkZJclRsVER4dFlZQm5GSWh2TjU?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-23T00:21:53.046197Z"
+    },
+    {
+      "id": "8b6025b99cc392b317fbd604bbb27bc3",
+      "title": "Customs Modernisation",
+      "summary": "We welcome views on the future of international trade and the impacts of digitalised and modernised practices on the UK customs regime.",
+      "link": "https://www.gov.uk/government/calls-for-evidence/customs-modernisation",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-23T00:21:34.347158Z"
+    },
+    {
+      "id": "9df0fda51ac170f3628cfa81565e4f8c",
+      "title": "Accredited official statistics: Public sector finances bulletin",
+      "summary": "The public sector finances statistical bulletin.",
+      "link": "https://www.gov.uk/government/statistics/public-sector-finances-bulletin",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-23T00:21:34.347196Z"
     }
   ],
   "alerts": [
     {
-      "id": "74184133c4ae3ebdf5a52ee3f4d7617e",
-      "title": "China\u2019s High-Profile Funds Ditch Consumer Stocks to Chase AI",
-      "summary": "Some high-profile Chinese funds heavily invested in consumer names are pivoting to AI stocks, a bet that may boost returns but also leaves them more vulnerable to the sector\u2019s volatility.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-22/china-s-high-profile-funds-ditch-consumer-stocks-to-chase-ai",
+      "id": "2b2540af700e58d61bb0b98fd8e86ace",
+      "title": "Asian Shares Rise as Chipmakers Gain, Oil Climbs: Markets Wrap",
+      "summary": "Asian shares advanced as regional chipmakers gained on expectations they will benefit from the billions spent on the artificial intelligence buildout. Oil extended its rally.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-22/stock-market-today-dow-s-p-live-updates",
       "source": "Bloomberg",
-      "score": 19,
-      "severity": "HIGH",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "AI",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-23T00:21:10.036661Z"
+    },
+    {
+      "id": "68e192d7f50308c9de858ea79812de44",
+      "title": "Oil extends gains as Trump threatens strikes on critical Iranian infrastructure",
+      "summary": "Oil prices rose after U.S. President Donald Trump threatened to bomb Iranian infrastructure in response to any attacks on ships transiting the Strait of Hormuz.",
+      "link": "https://www.cnbc.com/2026/07/23/oil-prices-today-wti-brent-trump-iran-hormuz.html",
+      "source": "CNBC",
+      "score": 26,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
-      "tickers": [],
+      "tickers": [
+        "WTI"
+      ],
       "regions": [
-        "CHINA"
+        "MIDDLE_EAST"
       ],
       "assets": [
         "AI",
-        "EQUITIES"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -77,7 +315,185 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-23T00:16:04.525911Z"
+      "published": "2026-07-23T00:21:14.623844Z"
+    },
+    {
+      "id": "294eac0ab723d34fd014f38a64d17da6",
+      "title": "JPY/USD: Why Is Japan Yen So Weak? Can Government Intervention Help Currency?",
+      "summary": "The yen\u2019s weakness has become a growing issue for Japan\u2019s policymakers, given its role in driving up import prices and household living costs.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-22/jpy-usd-why-is-japan-yen-so-weak-can-government-intervention-help-currency",
+      "source": "Bloomberg",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-23T00:21:10.036731Z"
+    },
+    {
+      "id": "e58aeaccfb0c7b307d1b8d16b5ff767e",
+      "title": "War in Iran has cost the US $37.5 billion so far, Pentagon says - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcGhIUDY1XzFtb1pDNmE1ME9sMjVXRXJPMXBxelpQZlJlcDd5eEIySWxObnlCY1BiR1lNRnVLWEt0M005NTRCcUtWRU5oZmROVmZJMW91aE9nVWNGUmF0V2J0dHZSci1mM2c4NFE4c01pblBucXJfSW5lVWJUeE95VGNjbl9OOFBVQnZsTFBmeDRvMGxIeEpfVWlUbE96SWxXSGNHM1o5aTNzV2c?oc=5\" target=\"_blank\">War in Iran has cost the US $37.5 billion so far, Pentagon says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcGhIUDY1XzFtb1pDNmE1ME9sMjVXRXJPMXBxelpQZlJlcDd5eEIySWxObnlCY1BiR1lNRnVLWEt0M005NTRCcUtWRU5oZmROVmZJMW91aE9nVWNGUmF0V2J0dHZSci1mM2c4NFE4c01pblBucXJfSW5lVWJUeE95VGNjbl9OOFBVQnZsTFBmeDRvMGxIeEpfVWlUbE96SWxXSGNHM1o5aTNzV2c?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-23T00:21:52.531536Z"
+    },
+    {
+      "id": "98d6d99c19d7e4077392be0b4ce34be3",
+      "title": "Warsh\u2019s balance sheet consultants",
+      "summary": "Plus, tariffs force trading down, not price cuts",
+      "link": "https://www.ft.com/content/ee2a0a8e-3698-4fdf-9616-807dcdc8ae12?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-23T00:21:12.856786Z"
+    },
+    {
+      "id": "7dccbf256aec922e7ebc2979d1a69d53",
+      "title": "Tesla\u2019s profits plunge as Musk\u2019s carmaker uses deep discounts to boost sales",
+      "summary": "Capital expenditures more than doubled as company accelerates pivot to AI and robots",
+      "link": "https://www.ft.com/content/dc5e629b-562c-41e3-8b89-350af6960adc?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-23T00:21:13.152484Z"
+    },
+    {
+      "id": "c324cac24c88881451677622eaee6b0c",
+      "title": "Who will win the war of neo-mercantilists? - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOM29CTFpMdmpSbThIOVpva0ZycXdCTGlBRVl6T1k0N1V5RjEyYzZrbWxUTTRWQXFLalZIVDlTN2tiNW5PMnRBbVRtYkJJY0p4MUJNTnZWaFpTUnRmTENmUG1SWkgzZzZlQmp5d0djVUU4TkZJclRsVER4dFlZQm5GSWh2TjU?oc=5\" target=\"_blank\">Who will win the war of neo-mercantilists?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOM29CTFpMdmpSbThIOVpva0ZycXdCTGlBRVl6T1k0N1V5RjEyYzZrbWxUTTRWQXFLalZIVDlTN2tiNW5PMnRBbVRtYkJJY0p4MUJNTnZWaFpTUnRmTENmUG1SWkgzZzZlQmp5d0djVUU4TkZJclRsVER4dFlZQm5GSWh2TjU?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-23T00:21:53.046197Z"
+    },
+    {
+      "id": "8b6025b99cc392b317fbd604bbb27bc3",
+      "title": "Customs Modernisation",
+      "summary": "We welcome views on the future of international trade and the impacts of digitalised and modernised practices on the UK customs regime.",
+      "link": "https://www.gov.uk/government/calls-for-evidence/customs-modernisation",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-23T00:21:34.347158Z"
+    },
+    {
+      "id": "9df0fda51ac170f3628cfa81565e4f8c",
+      "title": "Accredited official statistics: Public sector finances bulletin",
+      "summary": "The public sector finances statistical bulletin.",
+      "link": "https://www.gov.uk/government/statistics/public-sector-finances-bulletin",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-23T00:21:34.347196Z"
     }
   ]
 }
