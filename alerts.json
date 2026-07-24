@@ -1,33 +1,174 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-24T02:31:49.584931Z",
+  "generated_at": "2026-07-24T02:36:34.048366Z",
   "market_regime": {
     "regime": "GEO-SHOCK",
     "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 2,
-    "last_updated": "2026-07-24T02:31:49.584945Z"
+    "critical_alerts": 1,
+    "high_alerts": 3,
+    "last_updated": "2026-07-24T02:36:34.048385Z"
   },
   "top_signals": [
     {
-      "id": "0932e5d35ee182687a682ef246c0e7cf",
-      "title": "Yen nears 164 as oil prices hit $100 per barrel",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/markets/currencies/yen-nears-164-as-oil-prices-hit-100-per-barrel",
-      "source": "Nikkei Asia",
+      "id": "1ea0ef73dd7e10e9e307be32f4dfc283",
+      "title": "Japan\u2019s inflation picks up, keeping BOJ on path for rate hikes",
+      "summary": "Consumer prices excluding fresh food rose 1.6% in June from a year earlier.",
+      "link": "https://www.japantimes.co.jp/business/2026/07/24/economy/japan-inflation-picks-up-june/",
+      "source": "Japan Times",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-24T02:36:26.645587Z"
+    },
+    {
+      "id": "b6aebd31f19a9523ae80abd07f94a0de",
+      "title": "Petroleum markets responded to disruptions in the Middle East in the second quarter",
+      "summary": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to higher and more volatile crude oil prices through most of the quarter. The disruptions also resulted in international buyers seeking alternative supply sources for petroleum products, driving up U.S. refinery margins, production, and exports.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67865",
+      "source": "EIA",
       "score": 22,
       "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "JPY",
         "WTI"
       ],
       "regions": [],
       "assets": [
-        "COMMODITIES",
-        "FX"
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-24T02:36:27.956223Z"
+    },
+    {
+      "id": "0ab0fe10311b5a11b71614f47c9fc5c5",
+      "title": "Greece to buy $4 billion air defense system from Israel",
+      "summary": "Greece has approved the purchase of a multi-layer air defense system worth up to \u20ac3.5 billion ($4 billion) from Israel.",
+      "link": "https://www.defensenews.com/global/europe/2026/07/23/greece-to-buy-4-billion-air-defence-system-from-israel/",
+      "source": "Defense News",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-24T02:36:29.555080Z"
+    },
+    {
+      "id": "3053a24738c38c54aeb0adb9e2dfc0bb",
+      "title": "Bowman, Opening Remarks on Sound Practices for Artificial Intelligence",
+      "summary": "Speech At the Financial Stability Board Virtual Outreach Event",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260707a.htm",
+      "source": "Federal Reserve",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-24T02:36:05.543824Z"
+    },
+    {
+      "id": "8016fa0f00d51a371216220cb8318080",
+      "title": "Running on empty: Climate risks and the fragility of global energy and food supply chains \u2212 speech by Swati Dhingra",
+      "summary": "Given at the World Resources Institute, London",
+      "link": "https://www.bankofengland.co.uk/speech/2026/june/swati-dhingra-panel-at-the-world-resources-institute-workshop",
+      "source": "Bank of England",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-24T02:36:24.136758Z"
+    },
+    {
+      "id": "fd0c6c8a7f7e3345f1d9c989633b4a9d",
+      "title": "What are tank bottoms?",
+      "summary": "Crude oil inventories held at storage facilities in Cushing, Oklahoma, fell below 20 million barrels during the week ending June 19 until the week ending July 10, according to our Weekly Petroleum Status Report.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67866",
+      "source": "EIA",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -41,48 +182,20 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-24T02:31:41.853359Z"
+      "published": "2026-07-24T02:36:27.956116Z"
     },
     {
-      "id": "b7687f5c0519323a3ba3bc48213c99df",
-      "title": "U.S. to see higher generic drug prices thanks to tariffs, CEO of leading India pharma firm warns",
-      "summary": "CEO of Indian pharma company Dr Reddy's has warned that Trump's proposed tariffs on generic drugs will make them more expensive for patients.",
-      "link": "https://www.cnbc.com/2026/07/24/us-to-see-higher-generic-drug-prices-on-tariffs-indian-pharma-ceo.html",
-      "source": "CNBC",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-24T02:31:20.365485Z"
-    },
-    {
-      "id": "2ba0317cf26b0a5cf27c923724c6242a",
-      "title": "The US needs a new Manhattan Project for fusion energy",
-      "summary": "If we are to outpace China and own the future of this technology, we must fund it properly",
-      "link": "https://www.ft.com/content/822f5326-d93b-4b9d-b43f-58113da909b1",
-      "source": "Financial Times",
-      "score": 14,
+      "id": "97c7853761c0328d86b0840f550e1ee3",
+      "title": "Rebuilding America\u2019s Critical Minerals Base",
+      "summary": "<p>There&#8217;s a clear consensus that America hollowed out its critical minerals base. How to rebuild it is less settled. Alex Grant of Magrathea Metals and Wes Spurlock of Principal Mineral join Jonathan to discuss the processing technology, labor force, and how government can catalyze private capital investment in the sector rather than replace it.Image: U.S. Nuclear Regulatory Commission via Wikimedia Commons.</p>\n<p>The post <a href=\"https://warontherocks.com/cogs-of-war/rebuilding-americas-critical-minerals-base/\">Rebuilding America&#8217;s Critical Minerals Base</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/cogs-of-war/rebuilding-americas-critical-minerals-base/",
+      "source": "War on the Rocks",
+      "score": 11,
       "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "CHINA"
+        "US"
       ],
       "assets": [],
       "market_impact": {
@@ -99,97 +212,256 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-24T02:31:18.792913Z"
+      "published": "2026-07-24T02:36:30.052030Z"
     },
     {
-      "id": "0a76d226d1195987a71f93e5de00219c",
-      "title": "Manipal Health Seeks to Raise Up to $960 Million in India IPO",
-      "summary": "Manipal Health Enterprises Ltd. is seeking to raise as much as 92.7 billion rupees ($960 million) in an initial public offering, continuing a run of sizable share sales in India.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-24/manipal-health-seeks-to-raise-up-to-960-million-in-india-ipo",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "f504e87499edd553ac6b28c202db999f",
+      "title": "July 2026 euro area bank lending survey",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260721~44ee50f75c.en.html",
+      "source": "ECB",
+      "score": 10,
       "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
       "regions": [],
       "assets": [
-        "AI"
+        "FX"
       ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-24T02:31:17.309380Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T02:36:17.750829Z"
     },
     {
-      "id": "ba1b020448608cdd745afec1b17494e7",
-      "title": "Japan pulls rare earths from Pacific seabed in drilling test",
+      "id": "b8335a29665d4943c5587294dc8135ba",
+      "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
       "summary": "",
-      "link": "https://asia.nikkei.com/business/markets/commodities/japan-pulls-rare-earths-from-pacific-seabed-in-drilling-test",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260720~cafc3874a7.en.html",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T02:36:17.750864Z"
+    },
+    {
+      "id": "0eb8474fea8761765c65fc61fc4b228c",
+      "title": "Minutes of the UK Money Markets Code Sub-Committee \u2013 June 2026",
+      "summary": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+      "link": "https://www.bankofengland.co.uk/minutes/2026/june/uk-money-markets-committee-minutes-june-2026",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "UK"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-24T02:31:41.853321Z"
+      "published": "2026-07-24T02:36:23.921224Z"
     },
     {
-      "id": "305652fea1a3f5c13379836e535147ad",
-      "title": "Fight for King of the Mountains jersey heating up at Tour de France",
-      "summary": "Tadej Pogacar is the current leader in the race.",
-      "link": "https://www.japantimes.co.jp/sports/2026/07/24/more-sports/tour-de-france-king-of-the-mountains/",
-      "source": "Japan Times",
-      "score": 5,
+      "id": "01ea7945b20706c7a9d97ee80dbbc63c",
+      "title": "A sea change in regulatory investigations and enforcement \u2212 speech by David Chaplin",
+      "summary": "Given at the 5th Conference on Financial Law and Regulation, University of Leeds School of Law, 24 June 2026",
+      "link": "https://www.bankofengland.co.uk/speech/2026/june/david-chaplin-speech-given-at-the-financial-law-and-regulation-conference",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T02:36:24.136705Z"
+    },
+    {
+      "id": "565c9b69f056000a0d6df7d6d38efdd5",
+      "title": "New Foreign Direct Investment in the United States, 2025",
+      "summary": "Expenditures by foreign direct investors to acquire, establish, or expand U.S. businesses totaled $232.2 billion in 2025, according to preliminary statistics released today by the U.S. Bureau of Economic Analysis. Expenditures increased $76.8 billion, or 49.5 percent, from 2024 levels.  As in previous years, acquisitions of existing U.S. businesses accounted for most of the expenditures. Acquisition expenditures in 2025 were $218.4 billion, expenditures to establish new U.S. businesses were $4.6 billion, and expenditures to expand existing foreign-owned businesses were $9.2 billion. Planned total expenditures, which include both first-year and planned future expenditures, were $284.5 billion.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/new-foreign-direct-investment-united-states-2025\">Full Text</a><!--Full Text Link-->",
+      "link": "https://www.bea.gov/news/2026/new-foreign-direct-investment-united-states-2025",
+      "source": "BEA",
+      "score": 1,
       "severity": "LOW",
-      "regime": "AI",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "FRANCE"
+        "US"
       ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-24T02:31:42.034143Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T02:36:16.836022Z"
     }
   ],
   "alerts": [
     {
-      "id": "0932e5d35ee182687a682ef246c0e7cf",
-      "title": "Yen nears 164 as oil prices hit $100 per barrel",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/markets/currencies/yen-nears-164-as-oil-prices-hit-100-per-barrel",
-      "source": "Nikkei Asia",
+      "id": "1ea0ef73dd7e10e9e307be32f4dfc283",
+      "title": "Japan\u2019s inflation picks up, keeping BOJ on path for rate hikes",
+      "summary": "Consumer prices excluding fresh food rose 1.6% in June from a year earlier.",
+      "link": "https://www.japantimes.co.jp/business/2026/07/24/economy/japan-inflation-picks-up-june/",
+      "source": "Japan Times",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-24T02:36:26.645587Z"
+    },
+    {
+      "id": "b6aebd31f19a9523ae80abd07f94a0de",
+      "title": "Petroleum markets responded to disruptions in the Middle East in the second quarter",
+      "summary": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to higher and more volatile crude oil prices through most of the quarter. The disruptions also resulted in international buyers seeking alternative supply sources for petroleum products, driving up U.S. refinery margins, production, and exports.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67865",
+      "source": "EIA",
       "score": 22,
       "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "JPY",
         "WTI"
       ],
       "regions": [],
       "assets": [
-        "COMMODITIES",
-        "FX"
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-24T02:36:27.956223Z"
+    },
+    {
+      "id": "0ab0fe10311b5a11b71614f47c9fc5c5",
+      "title": "Greece to buy $4 billion air defense system from Israel",
+      "summary": "Greece has approved the purchase of a multi-layer air defense system worth up to \u20ac3.5 billion ($4 billion) from Israel.",
+      "link": "https://www.defensenews.com/global/europe/2026/07/23/greece-to-buy-4-billion-air-defence-system-from-israel/",
+      "source": "Defense News",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-24T02:36:29.555080Z"
+    },
+    {
+      "id": "3053a24738c38c54aeb0adb9e2dfc0bb",
+      "title": "Bowman, Opening Remarks on Sound Practices for Artificial Intelligence",
+      "summary": "Speech At the Financial Stability Board Virtual Outreach Event",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260707a.htm",
+      "source": "Federal Reserve",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-24T02:36:05.543824Z"
+    },
+    {
+      "id": "8016fa0f00d51a371216220cb8318080",
+      "title": "Running on empty: Climate risks and the fragility of global energy and food supply chains \u2212 speech by Swati Dhingra",
+      "summary": "Given at the World Resources Institute, London",
+      "link": "https://www.bankofengland.co.uk/speech/2026/june/swati-dhingra-panel-at-the-world-resources-institute-workshop",
+      "source": "Bank of England",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-24T02:36:24.136758Z"
+    },
+    {
+      "id": "fd0c6c8a7f7e3345f1d9c989633b4a9d",
+      "title": "What are tank bottoms?",
+      "summary": "Crude oil inventories held at storage facilities in Cushing, Oklahoma, fell below 20 million barrels during the week ending June 19 until the week ending July 10, according to our Weekly Petroleum Status Report.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67866",
+      "source": "EIA",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -203,48 +475,20 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-24T02:31:41.853359Z"
+      "published": "2026-07-24T02:36:27.956116Z"
     },
     {
-      "id": "b7687f5c0519323a3ba3bc48213c99df",
-      "title": "U.S. to see higher generic drug prices thanks to tariffs, CEO of leading India pharma firm warns",
-      "summary": "CEO of Indian pharma company Dr Reddy's has warned that Trump's proposed tariffs on generic drugs will make them more expensive for patients.",
-      "link": "https://www.cnbc.com/2026/07/24/us-to-see-higher-generic-drug-prices-on-tariffs-indian-pharma-ceo.html",
-      "source": "CNBC",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-24T02:31:20.365485Z"
-    },
-    {
-      "id": "2ba0317cf26b0a5cf27c923724c6242a",
-      "title": "The US needs a new Manhattan Project for fusion energy",
-      "summary": "If we are to outpace China and own the future of this technology, we must fund it properly",
-      "link": "https://www.ft.com/content/822f5326-d93b-4b9d-b43f-58113da909b1",
-      "source": "Financial Times",
-      "score": 14,
+      "id": "97c7853761c0328d86b0840f550e1ee3",
+      "title": "Rebuilding America\u2019s Critical Minerals Base",
+      "summary": "<p>There&#8217;s a clear consensus that America hollowed out its critical minerals base. How to rebuild it is less settled. Alex Grant of Magrathea Metals and Wes Spurlock of Principal Mineral join Jonathan to discuss the processing technology, labor force, and how government can catalyze private capital investment in the sector rather than replace it.Image: U.S. Nuclear Regulatory Commission via Wikimedia Commons.</p>\n<p>The post <a href=\"https://warontherocks.com/cogs-of-war/rebuilding-americas-critical-minerals-base/\">Rebuilding America&#8217;s Critical Minerals Base</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/cogs-of-war/rebuilding-americas-critical-minerals-base/",
+      "source": "War on the Rocks",
+      "score": 11,
       "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "CHINA"
+        "US"
       ],
       "assets": [],
       "market_impact": {
@@ -261,77 +505,111 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-24T02:31:18.792913Z"
+      "published": "2026-07-24T02:36:30.052030Z"
     },
     {
-      "id": "0a76d226d1195987a71f93e5de00219c",
-      "title": "Manipal Health Seeks to Raise Up to $960 Million in India IPO",
-      "summary": "Manipal Health Enterprises Ltd. is seeking to raise as much as 92.7 billion rupees ($960 million) in an initial public offering, continuing a run of sizable share sales in India.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-24/manipal-health-seeks-to-raise-up-to-960-million-in-india-ipo",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "f504e87499edd553ac6b28c202db999f",
+      "title": "July 2026 euro area bank lending survey",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260721~44ee50f75c.en.html",
+      "source": "ECB",
+      "score": 10,
       "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
       "regions": [],
       "assets": [
-        "AI"
+        "FX"
       ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-24T02:31:17.309380Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T02:36:17.750829Z"
     },
     {
-      "id": "ba1b020448608cdd745afec1b17494e7",
-      "title": "Japan pulls rare earths from Pacific seabed in drilling test",
+      "id": "b8335a29665d4943c5587294dc8135ba",
+      "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
       "summary": "",
-      "link": "https://asia.nikkei.com/business/markets/commodities/japan-pulls-rare-earths-from-pacific-seabed-in-drilling-test",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260720~cafc3874a7.en.html",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T02:36:17.750864Z"
+    },
+    {
+      "id": "0eb8474fea8761765c65fc61fc4b228c",
+      "title": "Minutes of the UK Money Markets Code Sub-Committee \u2013 June 2026",
+      "summary": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+      "link": "https://www.bankofengland.co.uk/minutes/2026/june/uk-money-markets-committee-minutes-june-2026",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "UK"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-24T02:31:41.853321Z"
+      "published": "2026-07-24T02:36:23.921224Z"
     },
     {
-      "id": "305652fea1a3f5c13379836e535147ad",
-      "title": "Fight for King of the Mountains jersey heating up at Tour de France",
-      "summary": "Tadej Pogacar is the current leader in the race.",
-      "link": "https://www.japantimes.co.jp/sports/2026/07/24/more-sports/tour-de-france-king-of-the-mountains/",
-      "source": "Japan Times",
-      "score": 5,
+      "id": "01ea7945b20706c7a9d97ee80dbbc63c",
+      "title": "A sea change in regulatory investigations and enforcement \u2212 speech by David Chaplin",
+      "summary": "Given at the 5th Conference on Financial Law and Regulation, University of Leeds School of Law, 24 June 2026",
+      "link": "https://www.bankofengland.co.uk/speech/2026/june/david-chaplin-speech-given-at-the-financial-law-and-regulation-conference",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T02:36:24.136705Z"
+    },
+    {
+      "id": "565c9b69f056000a0d6df7d6d38efdd5",
+      "title": "New Foreign Direct Investment in the United States, 2025",
+      "summary": "Expenditures by foreign direct investors to acquire, establish, or expand U.S. businesses totaled $232.2 billion in 2025, according to preliminary statistics released today by the U.S. Bureau of Economic Analysis. Expenditures increased $76.8 billion, or 49.5 percent, from 2024 levels.  As in previous years, acquisitions of existing U.S. businesses accounted for most of the expenditures. Acquisition expenditures in 2025 were $218.4 billion, expenditures to establish new U.S. businesses were $4.6 billion, and expenditures to expand existing foreign-owned businesses were $9.2 billion. Planned total expenditures, which include both first-year and planned future expenditures, were $284.5 billion.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/new-foreign-direct-investment-united-states-2025\">Full Text</a><!--Full Text Link-->",
+      "link": "https://www.bea.gov/news/2026/new-foreign-direct-investment-united-states-2025",
+      "source": "BEA",
+      "score": 1,
       "severity": "LOW",
-      "regime": "AI",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "FRANCE"
+        "US"
       ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-24T02:31:42.034143Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T02:36:16.836022Z"
+    },
+    {
+      "id": "356649b406157c2b9722f0b3f5800a82",
+      "title": "Global liquefied natural gas trade volumes reached record high in 2025",
+      "summary": "Global liquefied natural gas (LNG) trade volumes increased 5.4% to a record 56.3 billion cubic feet per day last year (Bcf/d), driven largely by U.S. LNG export capacity expanding to meet growing demand, according to a recent report from the International Group of Liquefied Natural Gas Importers (GIIGNL). Global LNG trade has slowed this year following the closure of the key export route for Qatar, the world's second-largest LNG exporter.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67864",
+      "source": "EIA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T02:36:27.956299Z"
     }
   ]
 }
