@@ -1,47 +1,111 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-24T02:26:26.736838Z",
+  "generated_at": "2026-07-24T02:31:49.584931Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-07-24T02:26:26.736852Z"
+    "high_alerts": 2,
+    "last_updated": "2026-07-24T02:31:49.584945Z"
   },
   "top_signals": [
     {
-      "id": "4658d1051e4edb5f0526645687fbda2d",
-      "title": "ECB reveals shortlisted designs for new banknotes and launches public survey",
+      "id": "0932e5d35ee182687a682ef246c0e7cf",
+      "title": "Yen nears 164 as oil prices hit $100 per barrel",
       "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260723~c2d43f9170.en.html",
-      "source": "ECB",
-      "score": 18,
+      "link": "https://asia.nikkei.com/business/markets/currencies/yen-nears-164-as-oil-prices-hit-100-per-barrel",
+      "source": "Nikkei Asia",
+      "score": 22,
       "severity": "HIGH",
-      "regime": "RATES",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "JPY",
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-24T02:31:41.853359Z"
+    },
+    {
+      "id": "b7687f5c0519323a3ba3bc48213c99df",
+      "title": "U.S. to see higher generic drug prices thanks to tariffs, CEO of leading India pharma firm warns",
+      "summary": "CEO of Indian pharma company Dr Reddy's has warned that Trump's proposed tariffs on generic drugs will make them more expensive for patients.",
+      "link": "https://www.cnbc.com/2026/07/24/us-to-see-higher-generic-drug-prices-on-tariffs-indian-pharma-ceo.html",
+      "source": "CNBC",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-24T02:26:11.675223Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-24T02:31:20.365485Z"
     },
     {
-      "id": "1866068be7662605ea98830f1e4dce09",
-      "title": "Chinese Stock Turnover Shrinks as Sentiment Cools on Tech Sector",
-      "summary": "Chinese daily stock turnover dropped to the lowest level in over three months, as investors shun the nation\u2019s technology sector.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-24/chinese-stock-turnover-shrinks-as-sentiment-cools-on-tech-sector",
+      "id": "2ba0317cf26b0a5cf27c923724c6242a",
+      "title": "The US needs a new Manhattan Project for fusion energy",
+      "summary": "If we are to outpace China and own the future of this technology, we must fund it properly",
+      "link": "https://www.ft.com/content/822f5326-d93b-4b9d-b43f-58113da909b1",
+      "source": "Financial Times",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-24T02:31:18.792913Z"
+    },
+    {
+      "id": "0a76d226d1195987a71f93e5de00219c",
+      "title": "Manipal Health Seeks to Raise Up to $960 Million in India IPO",
+      "summary": "Manipal Health Enterprises Ltd. is seeking to raise as much as 92.7 billion rupees ($960 million) in an initial public offering, continuing a run of sizable share sales in India.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-24/manipal-health-seeks-to-raise-up-to-960-million-in-india-ipo",
       "source": "Bloomberg",
       "score": 13,
       "severity": "MEDIUM",
@@ -60,35 +124,39 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-24T02:25:57.687923Z"
+      "published": "2026-07-24T02:31:17.309380Z"
     },
     {
-      "id": "643fed3ba6e2cae4a82c6458db0aac91",
-      "title": "Clarity Act expected to miss its window before Congress' summer break, leadership says",
+      "id": "ba1b020448608cdd745afec1b17494e7",
+      "title": "Japan pulls rare earths from Pacific seabed in drilling test",
       "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/07/23/clarity-act-expected-to-miss-its-window-before-congress-summer-break-leadership-says",
-      "source": "CoinDesk",
-      "score": 6,
+      "link": "https://asia.nikkei.com/business/markets/commodities/japan-pulls-rare-earths-from-pacific-seabed-in-drilling-test",
+      "source": "Nikkei Asia",
+      "score": 7,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-24T02:26:23.255371Z"
+      "published": "2026-07-24T02:31:41.853321Z"
     },
     {
-      "id": "775c198dfc2988ed100df40f8eb22a0a",
-      "title": "Canada to consider retaliating against latest Trump tariffs, Carney says - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNDNkU0dIZmxfd2NRS3BrX1g3cE9OLURoYTlLODdXNTA0QmxFOFRNdGlpbDViS1hQMWgzNnp1YW15ZmNpNU1BNjAxc3JjRWJUMVdiV1JBdUpob0RfQ2t4ZHd2R29rd0lIQmg2b1NXOHgxUTVsX0JEeE5pclZsQ0NxYkZDa3p6bFVLR0NJRXR4MzZmNGFUa01rNEZROWhYZHdoNWtXamNjb1RNaDA?oc=5\" target=\"_blank\">Canada to consider retaliating against latest Trump tariffs, Carney says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNDNkU0dIZmxfd2NRS3BrX1g3cE9OLURoYTlLODdXNTA0QmxFOFRNdGlpbDViS1hQMWgzNnp1YW15ZmNpNU1BNjAxc3JjRWJUMVdiV1JBdUpob0RfQ2t4ZHd2R29rd0lIQmg2b1NXOHgxUTVsX0JEeE5pclZsQ0NxYkZDa3p6bFVLR0NJRXR4MzZmNGFUa01rNEZROWhYZHdoNWtXamNjb1RNaDA?oc=5",
-      "source": "Google Macro",
+      "id": "305652fea1a3f5c13379836e535147ad",
+      "title": "Fight for King of the Mountains jersey heating up at Tour de France",
+      "summary": "Tadej Pogacar is the current leader in the race.",
+      "link": "https://www.japantimes.co.jp/sports/2026/07/24/more-sports/tour-de-france-king-of-the-mountains/",
+      "source": "Japan Times",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "FRANCE"
+      ],
       "assets": [
         "AI"
       ],
@@ -101,41 +169,105 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-24T02:26:25.069477Z"
+      "published": "2026-07-24T02:31:42.034143Z"
     }
   ],
   "alerts": [
     {
-      "id": "4658d1051e4edb5f0526645687fbda2d",
-      "title": "ECB reveals shortlisted designs for new banknotes and launches public survey",
+      "id": "0932e5d35ee182687a682ef246c0e7cf",
+      "title": "Yen nears 164 as oil prices hit $100 per barrel",
       "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260723~c2d43f9170.en.html",
-      "source": "ECB",
-      "score": 18,
+      "link": "https://asia.nikkei.com/business/markets/currencies/yen-nears-164-as-oil-prices-hit-100-per-barrel",
+      "source": "Nikkei Asia",
+      "score": 22,
       "severity": "HIGH",
-      "regime": "RATES",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "JPY",
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-24T02:31:41.853359Z"
+    },
+    {
+      "id": "b7687f5c0519323a3ba3bc48213c99df",
+      "title": "U.S. to see higher generic drug prices thanks to tariffs, CEO of leading India pharma firm warns",
+      "summary": "CEO of Indian pharma company Dr Reddy's has warned that Trump's proposed tariffs on generic drugs will make them more expensive for patients.",
+      "link": "https://www.cnbc.com/2026/07/24/us-to-see-higher-generic-drug-prices-on-tariffs-indian-pharma-ceo.html",
+      "source": "CNBC",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-24T02:26:11.675223Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-24T02:31:20.365485Z"
     },
     {
-      "id": "1866068be7662605ea98830f1e4dce09",
-      "title": "Chinese Stock Turnover Shrinks as Sentiment Cools on Tech Sector",
-      "summary": "Chinese daily stock turnover dropped to the lowest level in over three months, as investors shun the nation\u2019s technology sector.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-24/chinese-stock-turnover-shrinks-as-sentiment-cools-on-tech-sector",
+      "id": "2ba0317cf26b0a5cf27c923724c6242a",
+      "title": "The US needs a new Manhattan Project for fusion energy",
+      "summary": "If we are to outpace China and own the future of this technology, we must fund it properly",
+      "link": "https://www.ft.com/content/822f5326-d93b-4b9d-b43f-58113da909b1",
+      "source": "Financial Times",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-24T02:31:18.792913Z"
+    },
+    {
+      "id": "0a76d226d1195987a71f93e5de00219c",
+      "title": "Manipal Health Seeks to Raise Up to $960 Million in India IPO",
+      "summary": "Manipal Health Enterprises Ltd. is seeking to raise as much as 92.7 billion rupees ($960 million) in an initial public offering, continuing a run of sizable share sales in India.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-24/manipal-health-seeks-to-raise-up-to-960-million-in-india-ipo",
       "source": "Bloomberg",
       "score": 13,
       "severity": "MEDIUM",
@@ -154,35 +286,39 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-24T02:25:57.687923Z"
+      "published": "2026-07-24T02:31:17.309380Z"
     },
     {
-      "id": "643fed3ba6e2cae4a82c6458db0aac91",
-      "title": "Clarity Act expected to miss its window before Congress' summer break, leadership says",
+      "id": "ba1b020448608cdd745afec1b17494e7",
+      "title": "Japan pulls rare earths from Pacific seabed in drilling test",
       "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/07/23/clarity-act-expected-to-miss-its-window-before-congress-summer-break-leadership-says",
-      "source": "CoinDesk",
-      "score": 6,
+      "link": "https://asia.nikkei.com/business/markets/commodities/japan-pulls-rare-earths-from-pacific-seabed-in-drilling-test",
+      "source": "Nikkei Asia",
+      "score": 7,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-24T02:26:23.255371Z"
+      "published": "2026-07-24T02:31:41.853321Z"
     },
     {
-      "id": "775c198dfc2988ed100df40f8eb22a0a",
-      "title": "Canada to consider retaliating against latest Trump tariffs, Carney says - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNDNkU0dIZmxfd2NRS3BrX1g3cE9OLURoYTlLODdXNTA0QmxFOFRNdGlpbDViS1hQMWgzNnp1YW15ZmNpNU1BNjAxc3JjRWJUMVdiV1JBdUpob0RfQ2t4ZHd2R29rd0lIQmg2b1NXOHgxUTVsX0JEeE5pclZsQ0NxYkZDa3p6bFVLR0NJRXR4MzZmNGFUa01rNEZROWhYZHdoNWtXamNjb1RNaDA?oc=5\" target=\"_blank\">Canada to consider retaliating against latest Trump tariffs, Carney says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNDNkU0dIZmxfd2NRS3BrX1g3cE9OLURoYTlLODdXNTA0QmxFOFRNdGlpbDViS1hQMWgzNnp1YW15ZmNpNU1BNjAxc3JjRWJUMVdiV1JBdUpob0RfQ2t4ZHd2R29rd0lIQmg2b1NXOHgxUTVsX0JEeE5pclZsQ0NxYkZDa3p6bFVLR0NJRXR4MzZmNGFUa01rNEZROWhYZHdoNWtXamNjb1RNaDA?oc=5",
-      "source": "Google Macro",
+      "id": "305652fea1a3f5c13379836e535147ad",
+      "title": "Fight for King of the Mountains jersey heating up at Tour de France",
+      "summary": "Tadej Pogacar is the current leader in the race.",
+      "link": "https://www.japantimes.co.jp/sports/2026/07/24/more-sports/tour-de-france-king-of-the-mountains/",
+      "source": "Japan Times",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "FRANCE"
+      ],
       "assets": [
         "AI"
       ],
@@ -195,7 +331,7 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-24T02:26:25.069477Z"
+      "published": "2026-07-24T02:31:42.034143Z"
     }
   ]
 }
