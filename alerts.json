@@ -1,33 +1,68 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-24T03:56:38.455444Z",
+  "generated_at": "2026-07-24T04:02:02.437447Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-07-24T03:56:38.455455Z"
+    "critical_alerts": 1,
+    "high_alerts": 2,
+    "last_updated": "2026-07-24T04:02:02.437464Z"
   },
   "top_signals": [
     {
-      "id": "b7cebf0bc32ef5358632b6106ca4f03f",
-      "title": "Yen nears 164 and yields rise as oil prices hit $100 per barrel",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/markets/currencies/yen-nears-164-and-yields-rise-as-oil-prices-hit-100-per-barrel",
-      "source": "Nikkei Asia",
-      "score": 22,
+      "id": "f2e5945715a9e6ba5d5b93361e420447",
+      "title": "OPEC+ Set to Raise Output Again\u2014Even as Members Can't Pump It",
+      "summary": "OPEC+ is expected to approve another production target increase when eight key producers meet on August 2, extending a months-long campaign to unwind voluntary supply cuts that have existed largely on paper since the Iran war upended Gulf exports. Reuters reported Thursday that Saudi Arabia, Russia, Iraq, Kuwait, Algeria, Kazakhstan, and Oman are expected to raise their combined September production target by another 188,000 barrels per day, matching the increases announced for June, July, and August. The problem is that quotas have been rising\u2026",
+      "link": "https://oilprice.com/Energy/Crude-Oil/OPEC-Set-to-Raise-Output-AgainEven-as-Members-Cant-Pump-It.html",
+      "source": "OilPrice",
+      "score": 39,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-24T04:01:55.130691Z"
+    },
+    {
+      "id": "47f2c95481446a9e3a82b3ed1b95e654",
+      "title": "The United States produced more crude oil than any other country in 2025",
+      "summary": "The United States remained the world's largest crude oil producer in 2025, according to our International Energy Statistics database, extending a streak that began in 2018 when the United States overtook Russia to become the world's leading producer.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67844",
+      "source": "EIA",
+      "score": 20,
       "severity": "HIGH",
       "regime": "COMMODITIES",
       "tickers": [
-        "JPY",
         "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "RUSSIA",
+        "US"
+      ],
       "assets": [
-        "COMMODITIES",
-        "FX"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -41,27 +76,290 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-24T03:56:29.579473Z"
+      "published": "2026-07-24T04:01:54.508090Z"
+    },
+    {
+      "id": "cdf5c4288375f24dfaf9a28f9b42524b",
+      "title": "A beginner\u2019s guide to appeasing the bond market \u2013 and why it matters",
+      "summary": "<p> <img alt=\"Bringing borrowing costs will be integral to Healey&#039;s success\" src=\"https://www.cityam.com/wp-content/uploads/2026/07/Chancellor-Healey-will-need-to-keep-the-bond-market-happy.jpg?w=1107\" /> </p>Britain&#8217;s enormous debt pile means the bond market now has the power to decide the fate of a government. Ali Lyon spoke to gilt investors to see how our new Chancellor can keep them happy. When John Healey was last in the Treasury, the world was a very different place. Britain&#8217;s economy was growing at <a href=\"https://www.cityam.com/a-beginners-guide-to-appeasing-the-bond-market-for-a-new-chancellor/\">[...]</a>",
+      "link": "https://www.cityam.com/a-beginners-guide-to-appeasing-the-bond-market-for-a-new-chancellor/",
+      "source": "CityAM",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "TLT",
+        "UK_GILTS"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-24T04:01:50.756085Z"
+    },
+    {
+      "id": "a1d5d9c33d2a50e3478929a9c62d661d",
+      "title": "U.S. exports of crude oil and petroleum products reached record in April",
+      "summary": "U.S. petroleum exports reached a record in April as disruptions to international crude oil and refined product flows through the Strait of Hormuz increased global demand for U.S. exports. Exports increased to 13.6 million barrels per day (b/d) in April, 15% more than the previous record set in March.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67825",
+      "source": "EIA",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-24T04:01:54.508155Z"
+    },
+    {
+      "id": "9f433473e13ea4618a5efa7dd16f512f",
+      "title": "Cheaper travel for millions with a third off fares",
+      "summary": "Millions of people will\u00a0save a\u00a0third\u00a0on\u00a0bus travel as Prime Minister Andy Burnham announces a cap on single bus tickets at \u00a32 during his first week in office.",
+      "link": "https://www.gov.uk/government/news/cheaper-travel-for-millions-with-a-third-off-fares",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T04:01:49.244867Z"
+    },
+    {
+      "id": "fe10194db725ab9e6a422b96ecbd9dd7",
+      "title": "Saracens and Harlequins embracing athletics and hockey smart move for rugby",
+      "summary": "<p> <img alt=\"Harlequins and Saracens swapping rugby for athletics and hockey\" src=\"https://www.cityam.com/wp-content/uploads/2026/07/Stoop-Hockey-e1784730531824.webp?w=1107\" /> </p>Despite this weekend appearing to be the first in an eternity without top-flight rugby, the reality is that across England we have never had so little of it. Take Harlequins or Saracens, the two Prem Rugby clubs in London, and recent fixture announcements lay bare the underlying reason as to why so many teams make <a href=\"https://www.cityam.com/saracens-and-harlequins-embracing-athletics-and-hockey-smart-move-for-rugby/\">[...]</a>",
+      "link": "https://www.cityam.com/saracens-and-harlequins-embracing-athletics-and-hockey-smart-move-for-rugby/",
+      "source": "CityAM",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-07-24T04:01:50.755963Z"
+    },
+    {
+      "id": "199520baa09b4ca2a0f9f629cd7b3b0e",
+      "title": "Trump rebuilds tariff wall with new rates on 60 countries",
+      "summary": "",
+      "link": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/trump-rebuilds-tariff-wall-with-new-rates-on-60-countries",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T04:01:52.227091Z"
+    },
+    {
+      "id": "b59b65ca376cb214ac01d09e49aa531c",
+      "title": "Intel posts fastest revenue growth in 15 years on rising CPU demand",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/tech/semiconductors/intel-posts-fastest-revenue-growth-in-15-years-on-rising-cpu-demand",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T04:01:52.227125Z"
+    },
+    {
+      "id": "6a03c5ad5808c23a00305fdb41b8df07",
+      "title": "Gemini sent $10M in Bitcoin to Trump PAC after joint motion with CFTC",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Gemini sent $10M in Bitcoin to Trump PAC after joint motion with CFTC\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/winklevoss-trump.jpg\" /></p><p>The Bitcoin donation can be used to support Donald Trump as a New York court considers whether to reverse a $5 million settlement between the CFTC and Gemini. </p>",
+      "link": "https://cointelegraph.com/news/gemini-winklevoss-bitcoin-donald-trump-pac-cftc-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-24T04:01:58.024703Z"
+    },
+    {
+      "id": "c2a8edc4bfcf58bc434895b4f78e7c77",
+      "title": "Commission greenlights Sweden's payment request for \u20ac1.47 billion under NextGenerationEU",
+      "summary": "European Commission Press release Brussels, 23 Jul 2026 Today, the European Commission positively assessed Sweden's second payment request for \u20ac1.47 billion under the\u202fRecovery and Resilience Facility, the centrepiece of\u202fNextGenerationEU.",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1674",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T04:01:47.201367Z"
+    },
+    {
+      "id": "e8da70fd58ad9a2cfc13677c0e0eeb45",
+      "title": "Housebuilder hits a wall: How did Vistry become the UK\u2019s most shorted stock?",
+      "summary": "<p> <img alt=\"Vistry reported a \u00a330m first-half loss earlier this month\" src=\"https://www.cityam.com/wp-content/uploads/2026/07/Vistry_8c64cd.jpg?w=1107\" /> </p>Vistry, the &#8220;nation&#8217;s favourite housebuilder,&#8221; has become the UK&#8217;s most shorted stock. From a shift to a bold new model to hopes that it can fuel Burnham&#8217;s housing vision, Felix Armstrong unpicks the firm&#8217;s recent history Back in 2024, Vistry boss Greg Fitzgerald was brimming with optimism. The housebuilder\u2019s ambitious switch from a private market <a href=\"https://www.cityam.com/how-did-vistry-become-the-uks-most-shorted-stock/\">[...]</a>",
+      "link": "https://www.cityam.com/how-did-vistry-become-the-uks-most-shorted-stock/",
+      "source": "CityAM",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T04:01:50.756190Z"
+    },
+    {
+      "id": "269bc6323086fd564110c20666a71f9a",
+      "title": "The 250-year history of U.S. energy consumption",
+      "summary": "Over the 250-year history of our nation, energy consumption has evolved from wood use in the 18th and 19th centuries to today's use of modern renewable, hydrocarbon, and nuclear technology. In 2025, total energy used in the United States was 96 quadrillion British thermal units (quads), up 2% from 2024, but below 2007's record 99 quads. Petroleum was the most-used energy source last year, followed closely by natural gas. Use of renewable, coal, and nuclear energy each made up about 9% of total energy use.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67824",
+      "source": "EIA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK",
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T04:01:54.508230Z"
     }
   ],
   "alerts": [
     {
-      "id": "b7cebf0bc32ef5358632b6106ca4f03f",
-      "title": "Yen nears 164 and yields rise as oil prices hit $100 per barrel",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/markets/currencies/yen-nears-164-and-yields-rise-as-oil-prices-hit-100-per-barrel",
-      "source": "Nikkei Asia",
-      "score": 22,
+      "id": "f2e5945715a9e6ba5d5b93361e420447",
+      "title": "OPEC+ Set to Raise Output Again\u2014Even as Members Can't Pump It",
+      "summary": "OPEC+ is expected to approve another production target increase when eight key producers meet on August 2, extending a months-long campaign to unwind voluntary supply cuts that have existed largely on paper since the Iran war upended Gulf exports. Reuters reported Thursday that Saudi Arabia, Russia, Iraq, Kuwait, Algeria, Kazakhstan, and Oman are expected to raise their combined September production target by another 188,000 barrels per day, matching the increases announced for June, July, and August. The problem is that quotas have been rising\u2026",
+      "link": "https://oilprice.com/Energy/Crude-Oil/OPEC-Set-to-Raise-Output-AgainEven-as-Members-Cant-Pump-It.html",
+      "source": "OilPrice",
+      "score": 39,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-24T04:01:55.130691Z"
+    },
+    {
+      "id": "47f2c95481446a9e3a82b3ed1b95e654",
+      "title": "The United States produced more crude oil than any other country in 2025",
+      "summary": "The United States remained the world's largest crude oil producer in 2025, according to our International Energy Statistics database, extending a streak that began in 2018 when the United States overtook Russia to become the world's leading producer.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67844",
+      "source": "EIA",
+      "score": 20,
       "severity": "HIGH",
       "regime": "COMMODITIES",
       "tickers": [
-        "JPY",
         "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "RUSSIA",
+        "US"
+      ],
       "assets": [
-        "COMMODITIES",
-        "FX"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -75,7 +373,235 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-24T03:56:29.579473Z"
+      "published": "2026-07-24T04:01:54.508090Z"
+    },
+    {
+      "id": "cdf5c4288375f24dfaf9a28f9b42524b",
+      "title": "A beginner\u2019s guide to appeasing the bond market \u2013 and why it matters",
+      "summary": "<p> <img alt=\"Bringing borrowing costs will be integral to Healey&#039;s success\" src=\"https://www.cityam.com/wp-content/uploads/2026/07/Chancellor-Healey-will-need-to-keep-the-bond-market-happy.jpg?w=1107\" /> </p>Britain&#8217;s enormous debt pile means the bond market now has the power to decide the fate of a government. Ali Lyon spoke to gilt investors to see how our new Chancellor can keep them happy. When John Healey was last in the Treasury, the world was a very different place. Britain&#8217;s economy was growing at <a href=\"https://www.cityam.com/a-beginners-guide-to-appeasing-the-bond-market-for-a-new-chancellor/\">[...]</a>",
+      "link": "https://www.cityam.com/a-beginners-guide-to-appeasing-the-bond-market-for-a-new-chancellor/",
+      "source": "CityAM",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "TLT",
+        "UK_GILTS"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-24T04:01:50.756085Z"
+    },
+    {
+      "id": "a1d5d9c33d2a50e3478929a9c62d661d",
+      "title": "U.S. exports of crude oil and petroleum products reached record in April",
+      "summary": "U.S. petroleum exports reached a record in April as disruptions to international crude oil and refined product flows through the Strait of Hormuz increased global demand for U.S. exports. Exports increased to 13.6 million barrels per day (b/d) in April, 15% more than the previous record set in March.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67825",
+      "source": "EIA",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-24T04:01:54.508155Z"
+    },
+    {
+      "id": "9f433473e13ea4618a5efa7dd16f512f",
+      "title": "Cheaper travel for millions with a third off fares",
+      "summary": "Millions of people will\u00a0save a\u00a0third\u00a0on\u00a0bus travel as Prime Minister Andy Burnham announces a cap on single bus tickets at \u00a32 during his first week in office.",
+      "link": "https://www.gov.uk/government/news/cheaper-travel-for-millions-with-a-third-off-fares",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T04:01:49.244867Z"
+    },
+    {
+      "id": "fe10194db725ab9e6a422b96ecbd9dd7",
+      "title": "Saracens and Harlequins embracing athletics and hockey smart move for rugby",
+      "summary": "<p> <img alt=\"Harlequins and Saracens swapping rugby for athletics and hockey\" src=\"https://www.cityam.com/wp-content/uploads/2026/07/Stoop-Hockey-e1784730531824.webp?w=1107\" /> </p>Despite this weekend appearing to be the first in an eternity without top-flight rugby, the reality is that across England we have never had so little of it. Take Harlequins or Saracens, the two Prem Rugby clubs in London, and recent fixture announcements lay bare the underlying reason as to why so many teams make <a href=\"https://www.cityam.com/saracens-and-harlequins-embracing-athletics-and-hockey-smart-move-for-rugby/\">[...]</a>",
+      "link": "https://www.cityam.com/saracens-and-harlequins-embracing-athletics-and-hockey-smart-move-for-rugby/",
+      "source": "CityAM",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-07-24T04:01:50.755963Z"
+    },
+    {
+      "id": "199520baa09b4ca2a0f9f629cd7b3b0e",
+      "title": "Trump rebuilds tariff wall with new rates on 60 countries",
+      "summary": "",
+      "link": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/trump-rebuilds-tariff-wall-with-new-rates-on-60-countries",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T04:01:52.227091Z"
+    },
+    {
+      "id": "b59b65ca376cb214ac01d09e49aa531c",
+      "title": "Intel posts fastest revenue growth in 15 years on rising CPU demand",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/tech/semiconductors/intel-posts-fastest-revenue-growth-in-15-years-on-rising-cpu-demand",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T04:01:52.227125Z"
+    },
+    {
+      "id": "6a03c5ad5808c23a00305fdb41b8df07",
+      "title": "Gemini sent $10M in Bitcoin to Trump PAC after joint motion with CFTC",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Gemini sent $10M in Bitcoin to Trump PAC after joint motion with CFTC\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/winklevoss-trump.jpg\" /></p><p>The Bitcoin donation can be used to support Donald Trump as a New York court considers whether to reverse a $5 million settlement between the CFTC and Gemini. </p>",
+      "link": "https://cointelegraph.com/news/gemini-winklevoss-bitcoin-donald-trump-pac-cftc-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-24T04:01:58.024703Z"
+    },
+    {
+      "id": "c2a8edc4bfcf58bc434895b4f78e7c77",
+      "title": "Commission greenlights Sweden's payment request for \u20ac1.47 billion under NextGenerationEU",
+      "summary": "European Commission Press release Brussels, 23 Jul 2026 Today, the European Commission positively assessed Sweden's second payment request for \u20ac1.47 billion under the\u202fRecovery and Resilience Facility, the centrepiece of\u202fNextGenerationEU.",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1674",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T04:01:47.201367Z"
+    },
+    {
+      "id": "e8da70fd58ad9a2cfc13677c0e0eeb45",
+      "title": "Housebuilder hits a wall: How did Vistry become the UK\u2019s most shorted stock?",
+      "summary": "<p> <img alt=\"Vistry reported a \u00a330m first-half loss earlier this month\" src=\"https://www.cityam.com/wp-content/uploads/2026/07/Vistry_8c64cd.jpg?w=1107\" /> </p>Vistry, the &#8220;nation&#8217;s favourite housebuilder,&#8221; has become the UK&#8217;s most shorted stock. From a shift to a bold new model to hopes that it can fuel Burnham&#8217;s housing vision, Felix Armstrong unpicks the firm&#8217;s recent history Back in 2024, Vistry boss Greg Fitzgerald was brimming with optimism. The housebuilder\u2019s ambitious switch from a private market <a href=\"https://www.cityam.com/how-did-vistry-become-the-uks-most-shorted-stock/\">[...]</a>",
+      "link": "https://www.cityam.com/how-did-vistry-become-the-uks-most-shorted-stock/",
+      "source": "CityAM",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T04:01:50.756190Z"
+    },
+    {
+      "id": "269bc6323086fd564110c20666a71f9a",
+      "title": "The 250-year history of U.S. energy consumption",
+      "summary": "Over the 250-year history of our nation, energy consumption has evolved from wood use in the 18th and 19th centuries to today's use of modern renewable, hydrocarbon, and nuclear technology. In 2025, total energy used in the United States was 96 quadrillion British thermal units (quads), up 2% from 2024, but below 2007's record 99 quads. Petroleum was the most-used energy source last year, followed closely by natural gas. Use of renewable, coal, and nuclear energy each made up about 9% of total energy use.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67824",
+      "source": "EIA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK",
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-24T04:01:54.508230Z"
     }
   ]
 }
