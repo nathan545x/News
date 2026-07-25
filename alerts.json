@@ -1,113 +1,185 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-25T00:26:31.710272Z",
+  "generated_at": "2026-07-25T00:31:54.725730Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 2,
     "high_alerts": 0,
-    "last_updated": "2026-07-25T00:26:31.710278Z"
+    "last_updated": "2026-07-25T00:31:54.725743Z"
   },
   "top_signals": [
     {
-      "id": "e3fc731e883afe54debafecc0fb6d46e",
-      "title": "No safety buffer left in the oil market, says Ninepoint's Eric Nuttall - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPNldVNk5yZ0tqOXpvZEFfTzFNbE9LcG5HbjJmRVAtVW10RS1LU1BrZnl0R2pEamxHNE9zQkpNYkdtVFBNY2JvRzF2WURYSlRMdW9tOEhOR08wbUdybXVya09YUGpFYXVGcmNNbzVUSi03QWVxWlZZNGJwdkVEaEIzLXBBbkpyOHdEWmxVX1p3VVlKeTdMem42M1ktSVpMeTlGQlVhdWJKaEh4ektFdjVrMg?oc=5\" target=\"_blank\">No safety buffer left in the oil market, says Ninepoint's Eric Nuttall</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNldVNk5yZ0tqOXpvZEFfTzFNbE9LcG5HbjJmRVAtVW10RS1LU1BrZnl0R2pEamxHNE9zQkpNYkdtVFBNY2JvRzF2WURYSlRMdW9tOEhOR08wbUdybXVya09YUGpFYXVGcmNNbzVUSi03QWVxWlZZNGJwdkVEaEIzLXBBbkpyOHdEWmxVX1p3VVlKeTdMem42M1ktSVpMeTlGQlVhdWJKaEh4ektFdjVrMg?oc=5",
+      "id": "1fe8410e0bd638dc95da68eb5dc85365",
+      "title": "US warns against excessive yen volatility, calls for BOJ rate hikes - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOS2JaOTNXdm1iOUY5UFIxZ0FUSEEzX0h3LXZMUXMtV3I4cXpYNGNKd2JTbjFsWVQ0NHNyN05MVk0wd1VPekc5NWF4ZXNDZ3lYSTB0aWpNTGsySmFua3ZFMWVWQklCMXZHLWFjaGpyYlJKYmJ2enVPbUh0SC1OOWhUbDU0cEEzZzFUWkdZZGxwUGU1aThKWWNkSGZGcnI2VzU0emxZaE02QTA1ZE9lejM5aHR4cUNscGJk?oc=5\" target=\"_blank\">US warns against excessive yen volatility, calls for BOJ rate hikes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOS2JaOTNXdm1iOUY5UFIxZ0FUSEEzX0h3LXZMUXMtV3I4cXpYNGNKd2JTbjFsWVQ0NHNyN05MVk0wd1VPekc5NWF4ZXNDZ3lYSTB0aWpNTGsySmFua3ZFMWVWQklCMXZHLWFjaGpyYlJKYmJ2enVPbUh0SC1OOWhUbDU0cEEzZzFUWkdZZGxwUGU1aThKWWNkSGZGcnI2VzU0emxZaE02QTA1ZE9lejM5aHR4cUNscGJk?oc=5",
       "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
+      "score": 39,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "JPY"
       ],
       "regions": [],
       "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-25T00:31:53.049809Z"
+    },
+    {
+      "id": "14fadd4c15501538617477f346e87750",
+      "title": "Renewable jet fuel producer Neste swings to profit after Iran war sends prices soaring",
+      "summary": "Airlines and industrial buyers look for supplies safe from continuing turmoil",
+      "link": "https://www.ft.com/content/718ec1f0-5e05-48b7-9c99-ab28b6f9b055?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 38,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-25T00:26:31.710262Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-25T00:31:16.289210Z"
     },
     {
-      "id": "c046e8ab77dda5e333a297903b7136a5",
-      "title": "Japan\u2019s 100-year-old symphonic orchestra celebrates its milestone",
-      "summary": "The NHK Symphony Orchestra is celebrating its 100-year anniversary with an unwavering commitment to classical music, as well as new programs such as Pokemon concerts.",
-      "link": "https://www.japantimes.co.jp/culture/2026/07/25/music/tokyo-symphony-orchestra-nhk/",
-      "source": "Japan Times",
-      "score": 1,
-      "severity": "LOW",
+      "id": "b7323782d733c9533db22116c8d81a9f",
+      "title": "South East Water secures \u00a3200mn liquidity boost",
+      "summary": "Cash-strapped British utility says financing will be used to help future bond issuance",
+      "link": "https://www.ft.com/content/21d95258-2734-4a8a-91f7-6bbd02d21385?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "UK"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-25T00:26:23.697689Z"
+      "published": "2026-07-25T00:31:16.289160Z"
     }
   ],
   "alerts": [
     {
-      "id": "e3fc731e883afe54debafecc0fb6d46e",
-      "title": "No safety buffer left in the oil market, says Ninepoint's Eric Nuttall - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPNldVNk5yZ0tqOXpvZEFfTzFNbE9LcG5HbjJmRVAtVW10RS1LU1BrZnl0R2pEamxHNE9zQkpNYkdtVFBNY2JvRzF2WURYSlRMdW9tOEhOR08wbUdybXVya09YUGpFYXVGcmNNbzVUSi03QWVxWlZZNGJwdkVEaEIzLXBBbkpyOHdEWmxVX1p3VVlKeTdMem42M1ktSVpMeTlGQlVhdWJKaEh4ektFdjVrMg?oc=5\" target=\"_blank\">No safety buffer left in the oil market, says Ninepoint's Eric Nuttall</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNldVNk5yZ0tqOXpvZEFfTzFNbE9LcG5HbjJmRVAtVW10RS1LU1BrZnl0R2pEamxHNE9zQkpNYkdtVFBNY2JvRzF2WURYSlRMdW9tOEhOR08wbUdybXVya09YUGpFYXVGcmNNbzVUSi03QWVxWlZZNGJwdkVEaEIzLXBBbkpyOHdEWmxVX1p3VVlKeTdMem42M1ktSVpMeTlGQlVhdWJKaEh4ektFdjVrMg?oc=5",
+      "id": "1fe8410e0bd638dc95da68eb5dc85365",
+      "title": "US warns against excessive yen volatility, calls for BOJ rate hikes - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOS2JaOTNXdm1iOUY5UFIxZ0FUSEEzX0h3LXZMUXMtV3I4cXpYNGNKd2JTbjFsWVQ0NHNyN05MVk0wd1VPekc5NWF4ZXNDZ3lYSTB0aWpNTGsySmFua3ZFMWVWQklCMXZHLWFjaGpyYlJKYmJ2enVPbUh0SC1OOWhUbDU0cEEzZzFUWkdZZGxwUGU1aThKWWNkSGZGcnI2VzU0emxZaE02QTA1ZE9lejM5aHR4cUNscGJk?oc=5\" target=\"_blank\">US warns against excessive yen volatility, calls for BOJ rate hikes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOS2JaOTNXdm1iOUY5UFIxZ0FUSEEzX0h3LXZMUXMtV3I4cXpYNGNKd2JTbjFsWVQ0NHNyN05MVk0wd1VPekc5NWF4ZXNDZ3lYSTB0aWpNTGsySmFua3ZFMWVWQklCMXZHLWFjaGpyYlJKYmJ2enVPbUh0SC1OOWhUbDU0cEEzZzFUWkdZZGxwUGU1aThKWWNkSGZGcnI2VzU0emxZaE02QTA1ZE9lejM5aHR4cUNscGJk?oc=5",
       "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
+      "score": 39,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "JPY"
       ],
       "regions": [],
       "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-25T00:31:53.049809Z"
+    },
+    {
+      "id": "14fadd4c15501538617477f346e87750",
+      "title": "Renewable jet fuel producer Neste swings to profit after Iran war sends prices soaring",
+      "summary": "Airlines and industrial buyers look for supplies safe from continuing turmoil",
+      "link": "https://www.ft.com/content/718ec1f0-5e05-48b7-9c99-ab28b6f9b055?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 38,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-25T00:26:31.710262Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-25T00:31:16.289210Z"
     },
     {
-      "id": "c046e8ab77dda5e333a297903b7136a5",
-      "title": "Japan\u2019s 100-year-old symphonic orchestra celebrates its milestone",
-      "summary": "The NHK Symphony Orchestra is celebrating its 100-year anniversary with an unwavering commitment to classical music, as well as new programs such as Pokemon concerts.",
-      "link": "https://www.japantimes.co.jp/culture/2026/07/25/music/tokyo-symphony-orchestra-nhk/",
-      "source": "Japan Times",
-      "score": 1,
-      "severity": "LOW",
+      "id": "b7323782d733c9533db22116c8d81a9f",
+      "title": "South East Water secures \u00a3200mn liquidity boost",
+      "summary": "Cash-strapped British utility says financing will be used to help future bond issuance",
+      "link": "https://www.ft.com/content/21d95258-2734-4a8a-91f7-6bbd02d21385?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "UK"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-25T00:26:23.697689Z"
+      "published": "2026-07-25T00:31:16.289160Z"
     }
   ]
 }
