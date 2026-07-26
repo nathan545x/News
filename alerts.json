@@ -1,51 +1,64 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-26T20:56:44.692647Z",
+  "generated_at": "2026-07-26T21:01:56.152034Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-07-26T20:56:44.692661Z"
+    "critical_alerts": 2,
+    "high_alerts": 1,
+    "last_updated": "2026-07-26T21:01:56.152051Z"
   },
   "top_signals": [
     {
-      "id": "8016fa0f00d51a371216220cb8318080",
-      "title": "Running on empty: Climate risks and the fragility of global energy and food supply chains \u2212 speech by Swati Dhingra",
-      "summary": "Given at the World Resources Institute, London",
-      "link": "https://www.bankofengland.co.uk/speech/2026/june/swati-dhingra-panel-at-the-world-resources-institute-workshop",
-      "source": "Bank of England",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
+      "id": "b6b7c0bb515a273c61376c0a45e2813d",
+      "title": "U.S. Jet Fuel Costs Soar as Iran War Hits Airlines Again",
+      "summary": "U.S. airlines are grappling with soaring jet fuel costs again after the return of hostilities in the Middle East shattered the three-week-long U.S.-Iran \u2018deal to make a deal\u2019 and sent Brent crude oil prices soaring past $100 per barrel again. The U.S. jet fuel market has been tightening since March, although there haven\u2019t been concerns about any shortages in America, unlike in Europe, which in April was supposed to run out of stockpiles within six weeks. Europe didn\u2019t see shortages, but the global markets tightened, and\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/US-Jet-Fuel-Costs-Soar-as-Iran-War-Hits-Airlines-Again.html",
+      "source": "OilPrice",
+      "score": 40,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "EUR",
+        "WTI"
+      ],
       "regions": [
-        "UK"
+        "EUROPE",
+        "MIDDLE_EAST",
+        "US"
       ],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-26T20:56:29.800793Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-26T21:01:50.597241Z"
     },
     {
-      "id": "5b164e440978fffc5defbe2b844105b0",
-      "title": "Wall Street Bulls Are Staring Down $100 Oil, Tariffs, AI Angst - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNRkQ4VFo1YXZqNTJtNmt5a2lnTVlrS0VCUEpteGNYZ0hlVnExYnotZW15QXNfa04wN0lKZDZTVUF5SUpXaHpuU2RwRVJnSEdSVkNiSkk4QVZBOVRxWFhZcndTdGxzZGZERU15OExId2FraVZ5b2JuRm1ST2VFX3dMY1d5YXNtQmJwaUpGWTZfSEVZZUZQLUxRMVZ3WE45UGVGUmdxQ0M0UW9wd2g3ekdR?oc=5\" target=\"_blank\">Wall Street Bulls Are Staring Down $100 Oil, Tariffs, AI Angst</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRkQ4VFo1YXZqNTJtNmt5a2lnTVlrS0VCUEpteGNYZ0hlVnExYnotZW15QXNfa04wN0lKZDZTVUF5SUpXaHpuU2RwRVJnSEdSVkNiSkk4QVZBOVRxWFhZcndTdGxzZGZERU15OExId2FraVZ5b2JuRm1ST2VFX3dMY1d5YXNtQmJwaUpGWTZfSEVZZUZQLUxRMVZ3WE45UGVGUmdxQ0M0UW9wd2g3ekdR?oc=5",
-      "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
+      "id": "35bf118a9965be9f81c75fce36538d35",
+      "title": "Tanker Market: Freight Rates Increasing Again",
+      "summary": "A renewed increase of transit times is adding to global oil flows, leading to higher tanker rates. In its latest weekly report, shipbroker Gibson said that \u201cwith the Houthis declaring a full naval blockade specifically against Saudi Arabia on 20 July and threatening any vessel calling at Saudi ports, the southern Red Sea faces heightened ...",
+      "link": "https://www.hellenicshippingnews.com/tanker-market-freight-rates-increasing-again/",
+      "source": "Hellenic Shipping",
+      "score": 26,
+      "severity": "CRITICAL",
       "regime": "COMMODITIES",
       "tickers": [
         "WTI"
@@ -53,7 +66,8 @@
       "regions": [],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "COMMODITIES",
+        "SHIPPING"
       ],
       "market_impact": {
         "bullish": [
@@ -67,78 +81,105 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-26T20:56:41.900462Z"
+      "published": "2026-07-26T21:01:51.123416Z"
     },
     {
-      "id": "0eb8474fea8761765c65fc61fc4b228c",
-      "title": "Minutes of the UK Money Markets Code Sub-Committee \u2013 June 2026",
-      "summary": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
-      "link": "https://www.bankofengland.co.uk/minutes/2026/june/uk-money-markets-committee-minutes-june-2026",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-26T20:56:29.473163Z"
-    },
-    {
-      "id": "01ea7945b20706c7a9d97ee80dbbc63c",
-      "title": "A sea change in regulatory investigations and enforcement \u2212 speech by David Chaplin",
-      "summary": "Given at the 5th Conference on Financial Law and Regulation, University of Leeds School of Law, 24 June 2026",
-      "link": "https://www.bankofengland.co.uk/speech/2026/june/david-chaplin-speech-given-at-the-financial-law-and-regulation-conference",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-26T20:56:29.800737Z"
-    },
-    {
-      "id": "e53726cf6963aae5896a5482ebefcfe3",
-      "title": "Saudi Oil Can Still Get Out \u2014 But It Won\u2019t Be Cheap or Easy - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOdnFXRlNQbVFWbDlKS0hxcmNUajRJNWM4cWVQM0paMS1BcnlDNXYtZnFOT1NDSWlTaEY3dzYwQ2JkY3g2Zk8wbWxJRGEybUwxdF9jT2prUGx2MWprWHUwOHBUSllQcGN1NjV2NDRzTHExcHFsRVBaYU41cUw1enk4N2h5a19oeDQ0QmxaRXhfZmxfZURVYWdiSkRzRFcyTktxSy00NGlPZUdnTk9lS1FkYQ?oc=5\" target=\"_blank\">Saudi Oil Can Still Get Out \u2014 But It Won\u2019t Be Cheap or Easy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdnFXRlNQbVFWbDlKS0hxcmNUajRJNWM4cWVQM0paMS1BcnlDNXYtZnFOT1NDSWlTaEY3dzYwQ2JkY3g2Zk8wbWxJRGEybUwxdF9jT2prUGx2MWprWHUwOHBUSllQcGN1NjV2NDRzTHExcHFsRVBaYU41cUw1enk4N2h5a19oeDQ0QmxaRXhfZmxfZURVYWdiSkRzRFcyTktxSy00NGlPZUdnTk9lS1FkYQ?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
+      "id": "c4a8613a5069e206e57d0cb5308459ab",
+      "title": "BOJ early rate rise bets increase as yen reaches multidecade low",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/markets/trading-asia/boj-early-rate-rise-bets-increase-as-yen-reaches-multidecade-low",
+      "source": "Nikkei Asia",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "JPY"
       ],
       "regions": [],
       "assets": [
-        "COMMODITIES"
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-26T20:56:41.900361Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-26T21:01:48.059481Z"
     },
     {
-      "id": "cf22e6948813149c0a70ea7de64c44b1",
-      "title": "BitMart to wind down trading platform as global CEO says he was not consulted",
-      "summary": "<p>BitMart's global CEO said the firm told him on July 24 that his employment was ending and that he learned of the closure when it went public.</p>",
-      "link": "https://www.theblock.co/post/409670/bitmart-to-wind-down-trading-platform-as-global-ceo-says-he-was-not-consulted?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
+      "id": "245ba658619abe75bde9eebf4a39d26d",
+      "title": "Aging bulkers: Balancing costs and performance \u2013 With the right investments, age is just a number",
+      "summary": "With Posidonia 2026 recently having ended, the importance of tankers and bulkers in Greece, and worldwide, is clear. But, as these fleets age, how can ship owners and operators enhance fuel efficiency, manage costs, and achieve regulatory compliance \u2013 as well as extending uptime, earnings potential and asset life. As the shipping industry navigates even ...",
+      "link": "https://www.hellenicshippingnews.com/aging-bulkers-balancing-costs-and-performance-with-the-right-investments-age-is-just-a-number/",
+      "source": "Hellenic Shipping",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-07-26T21:01:51.123625Z"
+    },
+    {
+      "id": "01d3c797e8b526d5ec36825668651da8",
+      "title": "Selective Enforcement: Saudi Crude Keeps Moving Under the Houthi Blockade",
+      "summary": "On July 20, Houthi-aligned forces announced a full naval blockade of Saudi Arabia, framed as retaliation for Saudi strikes on Sanaa airport. The declaration named Saudi, Israeli, and U.S.-linked tonnage as targets. Within days, Houthi channels claimed strikes on two Saudi tankers. One is corroborated: UKMTO logged a projectile strike on the products tanker Encelia ...",
+      "link": "https://www.hellenicshippingnews.com/selective-enforcement-saudi-crude-keeps-moving-under-the-houthi-blockade/",
+      "source": "Hellenic Shipping",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-26T21:01:51.123689Z"
+    },
+    {
+      "id": "87dd5cf2dcb393ea1e9e869c51148ed3",
+      "title": "Australia\u2019s Clean Energy Boom Is Gathering Speed",
+      "summary": "Australia has big renewable energy ambitions and is well on its way to shifting dependence away from coal to cleaner alternatives. Having long depended on coal, the government now aims to establish a more diverse energy mix to ensure that Australia can be energy self-sufficient in the years to come, while supporting a green transition. This aim is being reflected by market forces, as energy companies invest heavily in a diverse range of energy sources. Australia is home to an extensive ageing coal fleet, meaning the government must decide whether\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Australias-Clean-Energy-Boom-Is-Gathering-Speed.html",
+      "source": "OilPrice",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
@@ -156,63 +197,188 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-26T20:56:40.361332Z"
+      "published": "2026-07-26T21:01:50.597378Z"
     },
     {
-      "id": "6a671e5e9e53dd5e5d608ecb32f03e2e",
-      "title": "Eel draws long lines on Day of Ox despite scorching heat in Tokyo",
-      "summary": "Japanese people traditionally eat grilled eel on the midsummer Day of the Ox, believing it helps replenish energy and endure the summer heat.",
-      "link": "https://www.japantimes.co.jp/news/2026/07/26/japan/day-of-ox-eels/",
-      "source": "Japan Times",
+      "id": "a6e4ed6f2d14a9741903aa923b3ac85f",
+      "title": "Dry Bulk Market: Capesizes Gaining Momentum",
+      "summary": "Capesize The market regained momentum over the course of the week, recovering from a subdued opening to finish on a significantly firmer footing as confidence returned across both the Pacific and Atlantic basins. Early weakness was driven by limited activity and a lack of fresh enquiry, leaving owners under pressure and voyage rates drifting lower. ...",
+      "link": "https://www.hellenicshippingnews.com/dry-bulk-market-capesizes-gaining-momentum/",
+      "source": "Hellenic Shipping",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-26T21:01:51.123486Z"
+    },
+    {
+      "id": "fbcff0b93dcc8a0ed17bd9621542de5a",
+      "title": "Tankers: VLCC Market Keeps Grinding Higher",
+      "summary": "Clean LR2 The TC1 75kt MEG/Japan index continued to move up this week by 48 points to WS499. A voyage west rose in value again over this week with the TC20 90kt MEG/UK-Continent index going from $8.80 million to $9.44 million. In Europe the TC15 80kt Mediterranean/East index also moved in a positive direction to ...",
+      "link": "https://www.hellenicshippingnews.com/tankers-vlcc-market-keeps-grinding-higher/",
+      "source": "Hellenic Shipping",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "JAPAN",
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-26T21:01:51.123540Z"
+    },
+    {
+      "id": "2eb5f04e0100f73d043d231511215681",
+      "title": "Star Asia Shipbroking Weekly Market Report \u2013 WEEK 30",
+      "summary": "This week, US tariffs once again took centre stage as the US will collect duties of between 10% and 12.5% on imports from most major &#160; Source: Star Asia Shipbroking",
+      "link": "https://www.hellenicshippingnews.com/star-asia-shipbroking-weekly-market-report-week-30-5/",
+      "source": "Hellenic Shipping",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-26T21:01:51.123738Z"
+    },
+    {
+      "id": "8918312b517e0e805751d0c70b3c3c76",
+      "title": "Biofuel Bunker Snapshot: Conventional fuel gains lift B30 prices",
+      "summary": "Europe Rotterdam\u2019s B30-VLSFO (POMEME) price has gained $28/mt in the last week, possibly supported by an $18/mt increase in the Dutch port\u2019s conventional VLSFO price over the same period. The port&#8217;s B30-LSMGO (POMEME) price has increased $70/mt during the week, while the port\u2019s conventional LSMGO price has seen a sharper $104/mt increase. Consequently, the B30-LSMGO ...",
+      "link": "https://www.hellenicshippingnews.com/biofuel-bunker-snapshot-conventional-fuel-gains-lift-b30-prices/",
+      "source": "Hellenic Shipping",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-26T21:01:51.123911Z"
+    },
+    {
+      "id": "b20639ac6465e78d82fdbe4536013e1a",
+      "title": "How to Build a Reliable Data Management System",
+      "summary": "Last month I joined a panel at Commodity Trading Week Americas 2026 titled \u201cData-Driven Trading: Strengthening Your Data Management Framework.\u201d Throughout the discussion, one point kept resurfacing: data quality isn\u2019t just about the commodity itself, and this is one of the key differentiators between commodity and financial trading. Data for commodity trading needs to observe ...",
+      "link": "https://www.hellenicshippingnews.com/how-to-build-a-reliable-data-management-system/",
+      "source": "Hellenic Shipping",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "US"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-26T20:56:35.063680Z"
+      "published": "2026-07-26T21:01:51.123836Z"
     }
   ],
   "alerts": [
     {
-      "id": "8016fa0f00d51a371216220cb8318080",
-      "title": "Running on empty: Climate risks and the fragility of global energy and food supply chains \u2212 speech by Swati Dhingra",
-      "summary": "Given at the World Resources Institute, London",
-      "link": "https://www.bankofengland.co.uk/speech/2026/june/swati-dhingra-panel-at-the-world-resources-institute-workshop",
-      "source": "Bank of England",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
+      "id": "b6b7c0bb515a273c61376c0a45e2813d",
+      "title": "U.S. Jet Fuel Costs Soar as Iran War Hits Airlines Again",
+      "summary": "U.S. airlines are grappling with soaring jet fuel costs again after the return of hostilities in the Middle East shattered the three-week-long U.S.-Iran \u2018deal to make a deal\u2019 and sent Brent crude oil prices soaring past $100 per barrel again. The U.S. jet fuel market has been tightening since March, although there haven\u2019t been concerns about any shortages in America, unlike in Europe, which in April was supposed to run out of stockpiles within six weeks. Europe didn\u2019t see shortages, but the global markets tightened, and\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/US-Jet-Fuel-Costs-Soar-as-Iran-War-Hits-Airlines-Again.html",
+      "source": "OilPrice",
+      "score": 40,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "EUR",
+        "WTI"
+      ],
       "regions": [
-        "UK"
+        "EUROPE",
+        "MIDDLE_EAST",
+        "US"
       ],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-26T20:56:29.800793Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-26T21:01:50.597241Z"
     },
     {
-      "id": "5b164e440978fffc5defbe2b844105b0",
-      "title": "Wall Street Bulls Are Staring Down $100 Oil, Tariffs, AI Angst - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNRkQ4VFo1YXZqNTJtNmt5a2lnTVlrS0VCUEpteGNYZ0hlVnExYnotZW15QXNfa04wN0lKZDZTVUF5SUpXaHpuU2RwRVJnSEdSVkNiSkk4QVZBOVRxWFhZcndTdGxzZGZERU15OExId2FraVZ5b2JuRm1ST2VFX3dMY1d5YXNtQmJwaUpGWTZfSEVZZUZQLUxRMVZ3WE45UGVGUmdxQ0M0UW9wd2g3ekdR?oc=5\" target=\"_blank\">Wall Street Bulls Are Staring Down $100 Oil, Tariffs, AI Angst</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRkQ4VFo1YXZqNTJtNmt5a2lnTVlrS0VCUEpteGNYZ0hlVnExYnotZW15QXNfa04wN0lKZDZTVUF5SUpXaHpuU2RwRVJnSEdSVkNiSkk4QVZBOVRxWFhZcndTdGxzZGZERU15OExId2FraVZ5b2JuRm1ST2VFX3dMY1d5YXNtQmJwaUpGWTZfSEVZZUZQLUxRMVZ3WE45UGVGUmdxQ0M0UW9wd2g3ekdR?oc=5",
-      "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
+      "id": "35bf118a9965be9f81c75fce36538d35",
+      "title": "Tanker Market: Freight Rates Increasing Again",
+      "summary": "A renewed increase of transit times is adding to global oil flows, leading to higher tanker rates. In its latest weekly report, shipbroker Gibson said that \u201cwith the Houthis declaring a full naval blockade specifically against Saudi Arabia on 20 July and threatening any vessel calling at Saudi ports, the southern Red Sea faces heightened ...",
+      "link": "https://www.hellenicshippingnews.com/tanker-market-freight-rates-increasing-again/",
+      "source": "Hellenic Shipping",
+      "score": 26,
+      "severity": "CRITICAL",
       "regime": "COMMODITIES",
       "tickers": [
         "WTI"
@@ -220,7 +386,8 @@
       "regions": [],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "COMMODITIES",
+        "SHIPPING"
       ],
       "market_impact": {
         "bullish": [
@@ -234,78 +401,105 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-26T20:56:41.900462Z"
+      "published": "2026-07-26T21:01:51.123416Z"
     },
     {
-      "id": "0eb8474fea8761765c65fc61fc4b228c",
-      "title": "Minutes of the UK Money Markets Code Sub-Committee \u2013 June 2026",
-      "summary": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
-      "link": "https://www.bankofengland.co.uk/minutes/2026/june/uk-money-markets-committee-minutes-june-2026",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-26T20:56:29.473163Z"
-    },
-    {
-      "id": "01ea7945b20706c7a9d97ee80dbbc63c",
-      "title": "A sea change in regulatory investigations and enforcement \u2212 speech by David Chaplin",
-      "summary": "Given at the 5th Conference on Financial Law and Regulation, University of Leeds School of Law, 24 June 2026",
-      "link": "https://www.bankofengland.co.uk/speech/2026/june/david-chaplin-speech-given-at-the-financial-law-and-regulation-conference",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-26T20:56:29.800737Z"
-    },
-    {
-      "id": "e53726cf6963aae5896a5482ebefcfe3",
-      "title": "Saudi Oil Can Still Get Out \u2014 But It Won\u2019t Be Cheap or Easy - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOdnFXRlNQbVFWbDlKS0hxcmNUajRJNWM4cWVQM0paMS1BcnlDNXYtZnFOT1NDSWlTaEY3dzYwQ2JkY3g2Zk8wbWxJRGEybUwxdF9jT2prUGx2MWprWHUwOHBUSllQcGN1NjV2NDRzTHExcHFsRVBaYU41cUw1enk4N2h5a19oeDQ0QmxaRXhfZmxfZURVYWdiSkRzRFcyTktxSy00NGlPZUdnTk9lS1FkYQ?oc=5\" target=\"_blank\">Saudi Oil Can Still Get Out \u2014 But It Won\u2019t Be Cheap or Easy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdnFXRlNQbVFWbDlKS0hxcmNUajRJNWM4cWVQM0paMS1BcnlDNXYtZnFOT1NDSWlTaEY3dzYwQ2JkY3g2Zk8wbWxJRGEybUwxdF9jT2prUGx2MWprWHUwOHBUSllQcGN1NjV2NDRzTHExcHFsRVBaYU41cUw1enk4N2h5a19oeDQ0QmxaRXhfZmxfZURVYWdiSkRzRFcyTktxSy00NGlPZUdnTk9lS1FkYQ?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
+      "id": "c4a8613a5069e206e57d0cb5308459ab",
+      "title": "BOJ early rate rise bets increase as yen reaches multidecade low",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/markets/trading-asia/boj-early-rate-rise-bets-increase-as-yen-reaches-multidecade-low",
+      "source": "Nikkei Asia",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "JPY"
       ],
       "regions": [],
       "assets": [
-        "COMMODITIES"
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-26T20:56:41.900361Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-26T21:01:48.059481Z"
     },
     {
-      "id": "cf22e6948813149c0a70ea7de64c44b1",
-      "title": "BitMart to wind down trading platform as global CEO says he was not consulted",
-      "summary": "<p>BitMart's global CEO said the firm told him on July 24 that his employment was ending and that he learned of the closure when it went public.</p>",
-      "link": "https://www.theblock.co/post/409670/bitmart-to-wind-down-trading-platform-as-global-ceo-says-he-was-not-consulted?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
+      "id": "245ba658619abe75bde9eebf4a39d26d",
+      "title": "Aging bulkers: Balancing costs and performance \u2013 With the right investments, age is just a number",
+      "summary": "With Posidonia 2026 recently having ended, the importance of tankers and bulkers in Greece, and worldwide, is clear. But, as these fleets age, how can ship owners and operators enhance fuel efficiency, manage costs, and achieve regulatory compliance \u2013 as well as extending uptime, earnings potential and asset life. As the shipping industry navigates even ...",
+      "link": "https://www.hellenicshippingnews.com/aging-bulkers-balancing-costs-and-performance-with-the-right-investments-age-is-just-a-number/",
+      "source": "Hellenic Shipping",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-07-26T21:01:51.123625Z"
+    },
+    {
+      "id": "01d3c797e8b526d5ec36825668651da8",
+      "title": "Selective Enforcement: Saudi Crude Keeps Moving Under the Houthi Blockade",
+      "summary": "On July 20, Houthi-aligned forces announced a full naval blockade of Saudi Arabia, framed as retaliation for Saudi strikes on Sanaa airport. The declaration named Saudi, Israeli, and U.S.-linked tonnage as targets. Within days, Houthi channels claimed strikes on two Saudi tankers. One is corroborated: UKMTO logged a projectile strike on the products tanker Encelia ...",
+      "link": "https://www.hellenicshippingnews.com/selective-enforcement-saudi-crude-keeps-moving-under-the-houthi-blockade/",
+      "source": "Hellenic Shipping",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-26T21:01:51.123689Z"
+    },
+    {
+      "id": "87dd5cf2dcb393ea1e9e869c51148ed3",
+      "title": "Australia\u2019s Clean Energy Boom Is Gathering Speed",
+      "summary": "Australia has big renewable energy ambitions and is well on its way to shifting dependence away from coal to cleaner alternatives. Having long depended on coal, the government now aims to establish a more diverse energy mix to ensure that Australia can be energy self-sufficient in the years to come, while supporting a green transition. This aim is being reflected by market forces, as energy companies invest heavily in a diverse range of energy sources. Australia is home to an extensive ageing coal fleet, meaning the government must decide whether\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Australias-Clean-Energy-Boom-Is-Gathering-Speed.html",
+      "source": "OilPrice",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
@@ -323,25 +517,137 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-26T20:56:40.361332Z"
+      "published": "2026-07-26T21:01:50.597378Z"
     },
     {
-      "id": "6a671e5e9e53dd5e5d608ecb32f03e2e",
-      "title": "Eel draws long lines on Day of Ox despite scorching heat in Tokyo",
-      "summary": "Japanese people traditionally eat grilled eel on the midsummer Day of the Ox, believing it helps replenish energy and endure the summer heat.",
-      "link": "https://www.japantimes.co.jp/news/2026/07/26/japan/day-of-ox-eels/",
-      "source": "Japan Times",
+      "id": "a6e4ed6f2d14a9741903aa923b3ac85f",
+      "title": "Dry Bulk Market: Capesizes Gaining Momentum",
+      "summary": "Capesize The market regained momentum over the course of the week, recovering from a subdued opening to finish on a significantly firmer footing as confidence returned across both the Pacific and Atlantic basins. Early weakness was driven by limited activity and a lack of fresh enquiry, leaving owners under pressure and voyage rates drifting lower. ...",
+      "link": "https://www.hellenicshippingnews.com/dry-bulk-market-capesizes-gaining-momentum/",
+      "source": "Hellenic Shipping",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-26T21:01:51.123486Z"
+    },
+    {
+      "id": "fbcff0b93dcc8a0ed17bd9621542de5a",
+      "title": "Tankers: VLCC Market Keeps Grinding Higher",
+      "summary": "Clean LR2 The TC1 75kt MEG/Japan index continued to move up this week by 48 points to WS499. A voyage west rose in value again over this week with the TC20 90kt MEG/UK-Continent index going from $8.80 million to $9.44 million. In Europe the TC15 80kt Mediterranean/East index also moved in a positive direction to ...",
+      "link": "https://www.hellenicshippingnews.com/tankers-vlcc-market-keeps-grinding-higher/",
+      "source": "Hellenic Shipping",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "JAPAN",
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-26T21:01:51.123540Z"
+    },
+    {
+      "id": "2eb5f04e0100f73d043d231511215681",
+      "title": "Star Asia Shipbroking Weekly Market Report \u2013 WEEK 30",
+      "summary": "This week, US tariffs once again took centre stage as the US will collect duties of between 10% and 12.5% on imports from most major &#160; Source: Star Asia Shipbroking",
+      "link": "https://www.hellenicshippingnews.com/star-asia-shipbroking-weekly-market-report-week-30-5/",
+      "source": "Hellenic Shipping",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-26T21:01:51.123738Z"
+    },
+    {
+      "id": "8918312b517e0e805751d0c70b3c3c76",
+      "title": "Biofuel Bunker Snapshot: Conventional fuel gains lift B30 prices",
+      "summary": "Europe Rotterdam\u2019s B30-VLSFO (POMEME) price has gained $28/mt in the last week, possibly supported by an $18/mt increase in the Dutch port\u2019s conventional VLSFO price over the same period. The port&#8217;s B30-LSMGO (POMEME) price has increased $70/mt during the week, while the port\u2019s conventional LSMGO price has seen a sharper $104/mt increase. Consequently, the B30-LSMGO ...",
+      "link": "https://www.hellenicshippingnews.com/biofuel-bunker-snapshot-conventional-fuel-gains-lift-b30-prices/",
+      "source": "Hellenic Shipping",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-26T21:01:51.123911Z"
+    },
+    {
+      "id": "b20639ac6465e78d82fdbe4536013e1a",
+      "title": "How to Build a Reliable Data Management System",
+      "summary": "Last month I joined a panel at Commodity Trading Week Americas 2026 titled \u201cData-Driven Trading: Strengthening Your Data Management Framework.\u201d Throughout the discussion, one point kept resurfacing: data quality isn\u2019t just about the commodity itself, and this is one of the key differentiators between commodity and financial trading. Data for commodity trading needs to observe ...",
+      "link": "https://www.hellenicshippingnews.com/how-to-build-a-reliable-data-management-system/",
+      "source": "Hellenic Shipping",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "US"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-26T20:56:35.063680Z"
+      "published": "2026-07-26T21:01:51.123836Z"
     }
   ]
 }
