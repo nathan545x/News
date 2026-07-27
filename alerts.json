@@ -1,15 +1,363 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-27T01:31:45.601072Z",
+  "generated_at": "2026-07-27T01:36:44.284669Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-07-27T01:31:45.601081Z"
+    "critical_alerts": 1,
+    "high_alerts": 1,
+    "last_updated": "2026-07-27T01:36:44.284686Z"
   },
-  "top_signals": [],
-  "alerts": []
+  "top_signals": [
+    {
+      "id": "294efdb4a4e929aadc5738a3993e1bef",
+      "title": "Oil Declines, Bonds Rally as US-Iran Tensions Ease: Markets Wrap",
+      "summary": "Oil dropped and bonds climbed as the US and Iran refrained from retaliatory strikes, easing concerns over potential disruptions to Middle East energy supplies after a recent escalation in the conflict.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-26/oil-tumbles-as-us-and-iran-pause-military-strikes-markets-wrap",
+      "source": "Bloomberg",
+      "score": 45,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-27T01:36:02.769058Z"
+    },
+    {
+      "id": "6de5b0589a5aa4ff359bb4b6f1f0b40e",
+      "title": "Energia Costa Azul, Mexico's second LNG terminal, shipped first cargo",
+      "summary": "Energia Costa Azul, the second liquefied natural gas (LNG) export facility in Mexico, shipped its initial cargo from Phase 1 of the terminal on July 8, according to the project developer. The completion of the project adds 0.4 billion cubic feet per day (Bcf/d) of nominal export capacity from a single train, tripling Mexico's LNG export capacity. The facility is the first terminal in Mexico and the second in North America, following LNG Canada, to be located on the Pacific Coast, boosting North American export capacity there to 2.2 Bcf/d. The Pacific Coast location allows for shorter shipping routes to importers in Asia.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67884",
+      "source": "EIA",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-07-27T01:36:33.226601Z"
+    },
+    {
+      "id": "4e8bace859c3767fc5cb8e44f02a3e65",
+      "title": "Asian private credit fundraising sinks to 12-year low amid bankruptcy fears",
+      "summary": "Just five Asia-based funds closed in first half as investors favour large US managers",
+      "link": "https://www.ft.com/content/b52ce5ba-6493-4c0c-9395-c227b9937a71?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-27T01:36:06.252158Z"
+    },
+    {
+      "id": "8d24111fd85002a928da02fecfefa80f",
+      "title": "Bank Indonesia governor resigns for 'personal reasons'",
+      "summary": "",
+      "link": "https://asia.nikkei.com/politics/bank-indonesia-governor-resigns-for-personal-reasons",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-27T01:36:31.383505Z"
+    },
+    {
+      "id": "7bd59e1e2e639d1d6aed214eeee58a06",
+      "title": "Shiba Inu surges 36% as South Korean traders fuel mystery rally",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/07/26/shiba-inu-surges-36-as-south-korean-traders-fuel-mystery-rally",
+      "source": "CoinDesk",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-27T01:36:40.140918Z"
+    },
+    {
+      "id": "81797941823363a8b52d760f6d276396",
+      "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
+      "summary": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-27T01:36:40.609794Z"
+    },
+    {
+      "id": "1b21cb3b515c5e8cdebba03fbb282a71",
+      "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
+      "summary": "A threat actor used the open-source Hermes AI agent in unattended \"YOLO\" mode to automate post-exploitation activity during an alleged breach of Thailand's Ministry of Finance. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-27T01:36:40.609877Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "294efdb4a4e929aadc5738a3993e1bef",
+      "title": "Oil Declines, Bonds Rally as US-Iran Tensions Ease: Markets Wrap",
+      "summary": "Oil dropped and bonds climbed as the US and Iran refrained from retaliatory strikes, easing concerns over potential disruptions to Middle East energy supplies after a recent escalation in the conflict.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-26/oil-tumbles-as-us-and-iran-pause-military-strikes-markets-wrap",
+      "source": "Bloomberg",
+      "score": 45,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-27T01:36:02.769058Z"
+    },
+    {
+      "id": "6de5b0589a5aa4ff359bb4b6f1f0b40e",
+      "title": "Energia Costa Azul, Mexico's second LNG terminal, shipped first cargo",
+      "summary": "Energia Costa Azul, the second liquefied natural gas (LNG) export facility in Mexico, shipped its initial cargo from Phase 1 of the terminal on July 8, according to the project developer. The completion of the project adds 0.4 billion cubic feet per day (Bcf/d) of nominal export capacity from a single train, tripling Mexico's LNG export capacity. The facility is the first terminal in Mexico and the second in North America, following LNG Canada, to be located on the Pacific Coast, boosting North American export capacity there to 2.2 Bcf/d. The Pacific Coast location allows for shorter shipping routes to importers in Asia.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67884",
+      "source": "EIA",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-07-27T01:36:33.226601Z"
+    },
+    {
+      "id": "4e8bace859c3767fc5cb8e44f02a3e65",
+      "title": "Asian private credit fundraising sinks to 12-year low amid bankruptcy fears",
+      "summary": "Just five Asia-based funds closed in first half as investors favour large US managers",
+      "link": "https://www.ft.com/content/b52ce5ba-6493-4c0c-9395-c227b9937a71?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-27T01:36:06.252158Z"
+    },
+    {
+      "id": "8d24111fd85002a928da02fecfefa80f",
+      "title": "Bank Indonesia governor resigns for 'personal reasons'",
+      "summary": "",
+      "link": "https://asia.nikkei.com/politics/bank-indonesia-governor-resigns-for-personal-reasons",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-27T01:36:31.383505Z"
+    },
+    {
+      "id": "7bd59e1e2e639d1d6aed214eeee58a06",
+      "title": "Shiba Inu surges 36% as South Korean traders fuel mystery rally",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/07/26/shiba-inu-surges-36-as-south-korean-traders-fuel-mystery-rally",
+      "source": "CoinDesk",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-27T01:36:40.140918Z"
+    },
+    {
+      "id": "81797941823363a8b52d760f6d276396",
+      "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
+      "summary": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-27T01:36:40.609794Z"
+    },
+    {
+      "id": "1b21cb3b515c5e8cdebba03fbb282a71",
+      "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
+      "summary": "A threat actor used the open-source Hermes AI agent in unattended \"YOLO\" mode to automate post-exploitation activity during an alleged breach of Thailand's Ministry of Finance. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-27T01:36:40.609877Z"
+    }
+  ]
 }
