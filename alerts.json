@@ -1,65 +1,193 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-27T04:51:48.875001Z",
+  "generated_at": "2026-07-27T04:56:45.007880Z",
   "market_regime": {
-    "regime": "CRYPTO",
-    "dominant_driver": "CRYPTO",
+    "regime": "COMMODITIES",
+    "dominant_driver": "COMMODITIES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 2,
     "high_alerts": 0,
-    "last_updated": "2026-07-27T04:51:48.875011Z"
+    "last_updated": "2026-07-27T04:56:45.007888Z"
   },
   "top_signals": [
     {
-      "id": "a4f96d0912c820a35e288944bd16831f",
-      "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
-      "summary": "Steam discussion forums are being abused in ClickFix attacks that pretend to be fixes for game and computer problems but actually infect devices with cryptominers. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
-      "source": "BleepingComputer",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
+      "id": "7d85120ed2e03999bcb632c1e371c9a3",
+      "title": "Oil Drops, Bonds Rally as US-Iran Tensions Ease: Markets Wrap",
+      "summary": "Oil fell and bonds gained with stocks and gold as the US and Iran refrained from further strikes, triggering a relief rally across markets. The dollar weakened.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-26/oil-tumbles-as-us-and-iran-pause-military-strikes-markets-wrap",
+      "source": "Bloomberg",
+      "score": 35,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "DXY",
+        "WTI",
+        "XAU"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "USD"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-07-27T04:51:45.454538Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-27T04:56:08.722258Z"
+    },
+    {
+      "id": "1ffa15435fcc5073f8bd46640c795556",
+      "title": "Ukraine's Zelenskiy: Russia wants to bring in 30,000 North Korean troops to conflict - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYVE3WVotb1k5eTA4eHhrSEtCWkVJM2xUU3lob3R5OGpPUFZnV0NRUTByU1cwTHJCUi0wYTdVSmVHU1V6TzMydk1EVjBZSVp4aldTLWdaVURyYUM1YmN1U0YtcU9RcDZ5Tm1Jc1hPdGNfZ3dUX19vNXhoV2JWekZaS01WRjBMbUotWHFwLTBTVXVyQXhSbjdBaTAwamJiMkFtZ3E1SV9tc0RZckNIZ3JjS2taS1JfclhQSG5WWUtwS3R1bEFLdE5LY3g4WWdjZjlk?oc=5\" target=\"_blank\">Ukraine's Zelenskiy: Russia wants to bring in 30,000 North Korean troops to conflict</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYVE3WVotb1k5eTA4eHhrSEtCWkVJM2xUU3lob3R5OGpPUFZnV0NRUTByU1cwTHJCUi0wYTdVSmVHU1V6TzMydk1EVjBZSVp4aldTLWdaVURyYUM1YmN1U0YtcU9RcDZ5Tm1Jc1hPdGNfZ3dUX19vNXhoV2JWekZaS01WRjBMbUotWHFwLTBTVXVyQXhSbjdBaTAwamJiMkFtZ3E1SV9tc0RZckNIZ3JjS2taS1JfclhQSG5WWUtwS3R1bEFLdE5LY3g4WWdjZjlk?oc=5",
+      "source": "Google Macro",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-27T04:56:43.234059Z"
+    },
+    {
+      "id": "a929a3e350d2f5e2bf809ccbb31cb35b",
+      "title": "Jim Cramer: Here's the tech stock to buy in a market losing patience with tech - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQM2hRZEFwTDcyNnlsOUgzc1FMa0NiUWRZX3ktT19EYlpybDJJdW16WlhvNEhfbVpSdjVNQW1NYklrNFBfV3Y3TEYwR3BMU2hueTVQcWtucTJYSlhETUtkNjBseWhZdkpMR2NUck9oQWlVNDlYZmJaZE1TZll1MWxVcGlYWUg2SDhKUkxzeWZiQldRMkxSVkhXRk1NbXhaREZ5V2pycHpaN2dDODlXSXlRLS1FYw?oc=5\" target=\"_blank\">Jim Cramer: Here's the tech stock to buy in a market losing patience with tech</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM2hRZEFwTDcyNnlsOUgzc1FMa0NiUWRZX3ktT19EYlpybDJJdW16WlhvNEhfbVpSdjVNQW1NYklrNFBfV3Y3TEYwR3BMU2hueTVQcWtucTJYSlhETUtkNjBseWhZdkpMR2NUck9oQWlVNDlYZmJaZE1TZll1MWxVcGlYWUg2SDhKUkxzeWZiQldRMkxSVkhXRk1NbXhaREZ5V2pycHpaN2dDODlXSXlRLS1FYw?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-27T04:56:45.007868Z"
     }
   ],
   "alerts": [
     {
-      "id": "a4f96d0912c820a35e288944bd16831f",
-      "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
-      "summary": "Steam discussion forums are being abused in ClickFix attacks that pretend to be fixes for game and computer problems but actually infect devices with cryptominers. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
-      "source": "BleepingComputer",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
+      "id": "7d85120ed2e03999bcb632c1e371c9a3",
+      "title": "Oil Drops, Bonds Rally as US-Iran Tensions Ease: Markets Wrap",
+      "summary": "Oil fell and bonds gained with stocks and gold as the US and Iran refrained from further strikes, triggering a relief rally across markets. The dollar weakened.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-26/oil-tumbles-as-us-and-iran-pause-military-strikes-markets-wrap",
+      "source": "Bloomberg",
+      "score": 35,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "DXY",
+        "WTI",
+        "XAU"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "USD"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-07-27T04:51:45.454538Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-27T04:56:08.722258Z"
+    },
+    {
+      "id": "1ffa15435fcc5073f8bd46640c795556",
+      "title": "Ukraine's Zelenskiy: Russia wants to bring in 30,000 North Korean troops to conflict - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYVE3WVotb1k5eTA4eHhrSEtCWkVJM2xUU3lob3R5OGpPUFZnV0NRUTByU1cwTHJCUi0wYTdVSmVHU1V6TzMydk1EVjBZSVp4aldTLWdaVURyYUM1YmN1U0YtcU9RcDZ5Tm1Jc1hPdGNfZ3dUX19vNXhoV2JWekZaS01WRjBMbUotWHFwLTBTVXVyQXhSbjdBaTAwamJiMkFtZ3E1SV9tc0RZckNIZ3JjS2taS1JfclhQSG5WWUtwS3R1bEFLdE5LY3g4WWdjZjlk?oc=5\" target=\"_blank\">Ukraine's Zelenskiy: Russia wants to bring in 30,000 North Korean troops to conflict</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYVE3WVotb1k5eTA4eHhrSEtCWkVJM2xUU3lob3R5OGpPUFZnV0NRUTByU1cwTHJCUi0wYTdVSmVHU1V6TzMydk1EVjBZSVp4aldTLWdaVURyYUM1YmN1U0YtcU9RcDZ5Tm1Jc1hPdGNfZ3dUX19vNXhoV2JWekZaS01WRjBMbUotWHFwLTBTVXVyQXhSbjdBaTAwamJiMkFtZ3E1SV9tc0RZckNIZ3JjS2taS1JfclhQSG5WWUtwS3R1bEFLdE5LY3g4WWdjZjlk?oc=5",
+      "source": "Google Macro",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-27T04:56:43.234059Z"
+    },
+    {
+      "id": "a929a3e350d2f5e2bf809ccbb31cb35b",
+      "title": "Jim Cramer: Here's the tech stock to buy in a market losing patience with tech - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQM2hRZEFwTDcyNnlsOUgzc1FMa0NiUWRZX3ktT19EYlpybDJJdW16WlhvNEhfbVpSdjVNQW1NYklrNFBfV3Y3TEYwR3BMU2hueTVQcWtucTJYSlhETUtkNjBseWhZdkpMR2NUck9oQWlVNDlYZmJaZE1TZll1MWxVcGlYWUg2SDhKUkxzeWZiQldRMkxSVkhXRk1NbXhaREZ5V2pycHpaN2dDODlXSXlRLS1FYw?oc=5\" target=\"_blank\">Jim Cramer: Here's the tech stock to buy in a market losing patience with tech</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM2hRZEFwTDcyNnlsOUgzc1FMa0NiUWRZX3ktT19EYlpybDJJdW16WlhvNEhfbVpSdjVNQW1NYklrNFBfV3Y3TEYwR3BMU2hueTVQcWtucTJYSlhETUtkNjBseWhZdkpMR2NUck9oQWlVNDlYZmJaZE1TZll1MWxVcGlYWUg2SDhKUkxzeWZiQldRMkxSVkhXRk1NbXhaREZ5V2pycHpaN2dDODlXSXlRLS1FYw?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-27T04:56:45.007868Z"
     }
   ]
 }
