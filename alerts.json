@@ -1,49 +1,247 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-27T22:51:42.031560Z",
+  "generated_at": "2026-07-27T22:56:40.747602Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-07-27T22:51:42.031572Z"
+    "critical_alerts": 1,
+    "high_alerts": 1,
+    "last_updated": "2026-07-27T22:56:40.747616Z"
   },
   "top_signals": [
     {
-      "id": "e8c6aede343f88e35da964eb1c232c64",
-      "title": "Arista patches VeloCloud Orchestrator zero-day exploited in attacks",
-      "summary": "Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "ba563a5c530b060a663f65f02df08200",
+      "title": "Citadel Securities Sees Warsh Delivering Surprise Fed Rate Hike - Bloomberg",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxONUZ1eU9IbkxOS3M3ckVSeFJIVDZ0eFI0Mm1RX2ZGSW9HdGlMUnNrYjlOSVcxRDkxZGlIeGV3WUlEbG1xVlpuaHprUEZGZFVzdkp1MzV6N0NmR2xWckpReVltRGNwNlh5ZFRCa09XdERHQlhVSEhKeUtJcll0VmV2ZzYtV3lCMHZ1bF90THNzUWtmSHlJOHBpbFJmbTB1c2E4NEpwMVpyQ2dOWWZZdTNpVXhXWjQ?oc=5\" target=\"_blank\">Citadel Securities Sees Warsh Delivering Surprise Fed Rate Hike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONUZ1eU9IbkxOS3M3ckVSeFJIVDZ0eFI0Mm1RX2ZGSW9HdGlMUnNrYjlOSVcxRDkxZGlIeGV3WUlEbG1xVlpuaHprUEZGZFVzdkp1MzV6N0NmR2xWckpReVltRGNwNlh5ZFRCa09XdERHQlhVSEhKeUtJcll0VmV2ZzYtV3lCMHZ1bF90THNzUWtmSHlJOHBpbFJmbTB1c2E4NEpwMVpyQ2dOWWZZdTNpVXhXWjQ?oc=5",
+      "source": "Google Macro",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-27T22:51:38.665295Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-27T22:56:38.544152Z"
+    },
+    {
+      "id": "beb77b7be915c77b071a1509b7d97c8e",
+      "title": "Kraken parent Payward acquires Magic Labs\u2019 wallet business",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Kraken parent Payward acquires Magic Labs\u2019 wallet business\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/piece-unite-blockchain-cube.jpg\" /></p><p>The deal brings wallet technology to Payward\u2019s enterprise platform, potentially reducing the number of infrastructure providers businesses need to integrate with.\n</p>",
+      "link": "https://cointelegraph.com/news/kraken-parent-payward-acquires-magic-labs-wallet-business?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-27T22:56:37.398615Z"
+    },
+    {
+      "id": "b4b54acb4ec0571264ee2e3c124be023",
+      "title": "Why Trump's new tariff blitz is very different this time around",
+      "summary": "President Trump on Friday launched a fresh round of tariffs targeting 60 trading partners, including the European Union, China and the U.K.",
+      "link": "https://www.cnbc.com/2026/07/27/donald-trump-tariffs-trade-war-iran.html",
+      "source": "CNBC",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "CHINA",
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-27T22:56:10.335196Z"
+    },
+    {
+      "id": "9e72e4ecdcf035b982eb4591f93d0064",
+      "title": "Digital asset trading platform Uphold cuts 17% of global headcount as crypto winter bites",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/07/27/digital-asset-trading-platform-uphold-cuts-17-of-global-headcount-as-crypto-winter-bites",
+      "source": "CoinDesk",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-27T22:56:37.285588Z"
     }
   ],
   "alerts": [
     {
-      "id": "e8c6aede343f88e35da964eb1c232c64",
-      "title": "Arista patches VeloCloud Orchestrator zero-day exploited in attacks",
-      "summary": "Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "ba563a5c530b060a663f65f02df08200",
+      "title": "Citadel Securities Sees Warsh Delivering Surprise Fed Rate Hike - Bloomberg",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxONUZ1eU9IbkxOS3M3ckVSeFJIVDZ0eFI0Mm1RX2ZGSW9HdGlMUnNrYjlOSVcxRDkxZGlIeGV3WUlEbG1xVlpuaHprUEZGZFVzdkp1MzV6N0NmR2xWckpReVltRGNwNlh5ZFRCa09XdERHQlhVSEhKeUtJcll0VmV2ZzYtV3lCMHZ1bF90THNzUWtmSHlJOHBpbFJmbTB1c2E4NEpwMVpyQ2dOWWZZdTNpVXhXWjQ?oc=5\" target=\"_blank\">Citadel Securities Sees Warsh Delivering Surprise Fed Rate Hike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONUZ1eU9IbkxOS3M3ckVSeFJIVDZ0eFI0Mm1RX2ZGSW9HdGlMUnNrYjlOSVcxRDkxZGlIeGV3WUlEbG1xVlpuaHprUEZGZFVzdkp1MzV6N0NmR2xWckpReVltRGNwNlh5ZFRCa09XdERHQlhVSEhKeUtJcll0VmV2ZzYtV3lCMHZ1bF90THNzUWtmSHlJOHBpbFJmbTB1c2E4NEpwMVpyQ2dOWWZZdTNpVXhXWjQ?oc=5",
+      "source": "Google Macro",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-27T22:51:38.665295Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-27T22:56:38.544152Z"
+    },
+    {
+      "id": "beb77b7be915c77b071a1509b7d97c8e",
+      "title": "Kraken parent Payward acquires Magic Labs\u2019 wallet business",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Kraken parent Payward acquires Magic Labs\u2019 wallet business\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/piece-unite-blockchain-cube.jpg\" /></p><p>The deal brings wallet technology to Payward\u2019s enterprise platform, potentially reducing the number of infrastructure providers businesses need to integrate with.\n</p>",
+      "link": "https://cointelegraph.com/news/kraken-parent-payward-acquires-magic-labs-wallet-business?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-27T22:56:37.398615Z"
+    },
+    {
+      "id": "b4b54acb4ec0571264ee2e3c124be023",
+      "title": "Why Trump's new tariff blitz is very different this time around",
+      "summary": "President Trump on Friday launched a fresh round of tariffs targeting 60 trading partners, including the European Union, China and the U.K.",
+      "link": "https://www.cnbc.com/2026/07/27/donald-trump-tariffs-trade-war-iran.html",
+      "source": "CNBC",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "CHINA",
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-27T22:56:10.335196Z"
+    },
+    {
+      "id": "9e72e4ecdcf035b982eb4591f93d0064",
+      "title": "Digital asset trading platform Uphold cuts 17% of global headcount as crypto winter bites",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/07/27/digital-asset-trading-platform-uphold-cuts-17-of-global-headcount-as-crypto-winter-bites",
+      "source": "CoinDesk",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-27T22:56:37.285588Z"
     }
   ]
 }
