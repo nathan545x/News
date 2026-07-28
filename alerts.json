@@ -1,73 +1,167 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-28T20:36:32.043284Z",
+  "generated_at": "2026-07-28T20:41:40.736206Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 0,
-    "last_updated": "2026-07-28T20:36:32.043294Z"
+    "last_updated": "2026-07-28T20:41:40.736219Z"
   },
   "top_signals": [
     {
-      "id": "8bfd2d6fa41cf4cf7f77790496ab32e0",
-      "title": "CMA CGM in new terminal venture with private equity firm",
-      "summary": "<p>Liner CMA CGM and private equity\u2019s Stonepeak are partnering on United Ports LLC, with terminals on four continents.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/cma-cgm-in-new-terminal-venture-with-private-equity-firm\">CMA CGM in new terminal venture with private equity firm</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/cma-cgm-in-new-terminal-venture-with-private-equity-firm",
-      "source": "FreightWaves",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
+      "id": "18f38ab66afc74ac487aed15c5c5710f",
+      "title": "Emerging Currencies Traded Mixed Amid Oil Plunge, Fed Bets",
+      "summary": "Emerging-market currencies traded mixed on Tuesday as oil plunged on optimism over US-Iran talks and traders adjusted positions ahead of the Federal Reserve rate decision.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-28/chips-drag-emerging-stocks-to-april-low-oil-shields-currencies",
+      "source": "Bloomberg",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
-        "SHIPPING"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-28T20:36:26.838353Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-28T20:41:08.796594Z"
+    },
+    {
+      "id": "90412c4b46195b5dcb3d2f8eaeee6d56",
+      "title": "Zcash seals $1.7 billion shielded pool as Ironwood upgrade activates",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/07/28/zcash-seals-usd1-7-billion-shielded-pool-as-ironwood-upgrade-activates",
+      "source": "CoinDesk",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-28T20:41:37.191379Z"
+    },
+    {
+      "id": "483d45a512257d0f406b7190c939f646",
+      "title": "OpenAI models used Artifactory zero-days to escape to the internet",
+      "summary": "JFrog has confirmed that OpenAI models exploited zero-day vulnerabilities in self-hosted Artifactory servers to help escape an isolated testing environment and gain access to the internet before attacking Hugging Face. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-28T20:41:37.463495Z"
     }
   ],
   "alerts": [
     {
-      "id": "8bfd2d6fa41cf4cf7f77790496ab32e0",
-      "title": "CMA CGM in new terminal venture with private equity firm",
-      "summary": "<p>Liner CMA CGM and private equity\u2019s Stonepeak are partnering on United Ports LLC, with terminals on four continents.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/cma-cgm-in-new-terminal-venture-with-private-equity-firm\">CMA CGM in new terminal venture with private equity firm</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/cma-cgm-in-new-terminal-venture-with-private-equity-firm",
-      "source": "FreightWaves",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
+      "id": "18f38ab66afc74ac487aed15c5c5710f",
+      "title": "Emerging Currencies Traded Mixed Amid Oil Plunge, Fed Bets",
+      "summary": "Emerging-market currencies traded mixed on Tuesday as oil plunged on optimism over US-Iran talks and traders adjusted positions ahead of the Federal Reserve rate decision.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-28/chips-drag-emerging-stocks-to-april-low-oil-shields-currencies",
+      "source": "Bloomberg",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
-        "SHIPPING"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-28T20:36:26.838353Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-28T20:41:08.796594Z"
+    },
+    {
+      "id": "90412c4b46195b5dcb3d2f8eaeee6d56",
+      "title": "Zcash seals $1.7 billion shielded pool as Ironwood upgrade activates",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/07/28/zcash-seals-usd1-7-billion-shielded-pool-as-ironwood-upgrade-activates",
+      "source": "CoinDesk",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-28T20:41:37.191379Z"
+    },
+    {
+      "id": "483d45a512257d0f406b7190c939f646",
+      "title": "OpenAI models used Artifactory zero-days to escape to the internet",
+      "summary": "JFrog has confirmed that OpenAI models exploited zero-day vulnerabilities in self-hosted Artifactory servers to help escape an isolated testing environment and gain access to the internet before attacking Hugging Face. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-28T20:41:37.463495Z"
     }
   ]
 }
