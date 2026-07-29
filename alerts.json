@@ -1,36 +1,55 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-29T00:11:38.633219Z",
+  "generated_at": "2026-07-29T00:16:47.660051Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "AI",
+    "dominant_driver": "AI",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 2,
-    "high_alerts": 0,
-    "last_updated": "2026-07-29T00:11:38.633233Z"
+    "critical_alerts": 0,
+    "high_alerts": 1,
+    "last_updated": "2026-07-29T00:16:47.660064Z"
   },
   "top_signals": [
     {
-      "id": "e3fc90099eff23df572ab29f8ada386e",
-      "title": "Oil Gains After Iran Attacks, Asian Stocks Advance: Markets Wrap",
-      "summary": "Crude oil climbed after fighting erupted in the Middle East, ending several days of calm and renewing concerns over disruptions to energy supplies. Stocks in Asia gained.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-28/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 38,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "id": "9f9ccfc1cd6c9cd161c93389c5c228b9",
+      "title": "Apple touches $5 trillion market cap for first time",
+      "summary": "The jockeying between Apple and Nvidia reflects a debate about the future of AI that has preoccupied investors this summer.",
+      "link": "https://www.cnbc.com/2026/07/28/apple-touches-5-trillion-market-cap-for-first-time-.html",
+      "source": "CNBC",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "AI",
       "tickers": [
-        "WTI"
+        "NVDA"
       ],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
+      "regions": [],
       "assets": [
-        "AI",
-        "COMMODITIES",
-        "EQUITIES"
+        "AI"
       ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-29T00:16:13.450803Z"
+    },
+    {
+      "id": "6eb596219c1c4bfc557d82cd57fa443c",
+      "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
+      "summary": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -45,88 +64,15 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-29T00:11:10.712378Z"
+      "published": "2026-07-29T00:16:44.275623Z"
     },
     {
-      "id": "0ef24e4c0702e2b50f1d60566f056941",
-      "title": "Gold Holds Decline as Traders Assess Prospects for Fed Rate Hike",
-      "summary": "Gold held a decline ahead of a finely balanced interest-rate decision by the US Federal Reserve due later Wednesday, while tensions persisted in the Middle East.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-28/gold-edges-lower-as-traders-assess-prospects-for-fed-rate-hike",
-      "source": "Bloomberg",
-      "score": 38,
-      "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "XAU"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-29T00:11:10.712444Z"
-    },
-    {
-      "id": "f1585180a4f447518e7aba2cf8572098",
-      "title": "Ares\u2019 next big private capital deal looks deceptively close to home",
-      "summary": "While it\u2019s already common to find private equity and credit under the same roof, any tie-up will prove a test of culture",
-      "link": "https://www.ft.com/content/20432705-d873-46eb-9b65-b5ae547b1585?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-29T00:11:12.373390Z"
-    },
-    {
-      "id": "23ccf10cb3ce0f4a27f5a5416735d997",
-      "title": "NXP Semiconductors Second-Quarter Profit, Revenue Climb on Growth Across End Markets - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQaVlLSFJhbEhDVDFpQVpHYjRTandrejllMHZIR0VYWmhFQk1yZV9jT0ZsYWFhZG5vbWN5TUJnUUZ1b1RnRl9jX1ROSXRvNUFRVW40dFhwMWNud0pwYjZ5bm5OajhXUF9pT2JRc1FnWk53a0Jqay1KcWlXUm1mSThYMVJhVVlBUkJyUWxiaF9HQkgzbXMyUjRVNFpqTHlHVzhYOGduTU84ZkNjeE5tQ1dwdG9BTWJUUTRQN3JUQ0NocFJ1dGZJYWNfWlFn?oc=5\" target=\"_blank\">NXP Semiconductors Second-Quarter Profit, Revenue Climb on Growth Across End Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaVlLSFJhbEhDVDFpQVpHYjRTandrejllMHZIR0VYWmhFQk1yZV9jT0ZsYWFhZG5vbWN5TUJnUUZ1b1RnRl9jX1ROSXRvNUFRVW40dFhwMWNud0pwYjZ5bm5OajhXUF9pT2JRc1FnWk53a0Jqay1KcWlXUm1mSThYMVJhVVlBUkJyUWxiaF9HQkgzbXMyUjRVNFpqTHlHVzhYOGduTU84ZkNjeE5tQ1dwdG9BTWJUUTRQN3JUQ0NocFJ1dGZJYWNfWlFn?oc=5",
-      "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-29T00:11:38.068735Z"
-    },
-    {
-      "id": "5413750fabc63b8e5ec0fdf2e387906c",
-      "title": "Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off",
-      "summary": "Alphabet's free cash flow has turned negative, and the company lifted its capital spending forecast. Slower-growing cloud rivals report this week.",
-      "link": "https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html",
-      "source": "CNBC",
-      "score": 6,
+      "id": "ff1f5767e1849cdf8ebe3e9997dd5511",
+      "title": "Fujimori sworn in, giving Peru shot to break cycle of chaos",
+      "summary": "She becomes the ninth president in a decade where every leader since the 1990s has been impeached, imprisoned or targeted in criminal investigations.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/29/world/politics/fujimori-sworn-in-peru/",
+      "source": "Japan Times",
+      "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
@@ -134,30 +80,49 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-29T00:11:13.508793Z"
+      "published": "2026-07-29T00:16:38.196622Z"
     }
   ],
   "alerts": [
     {
-      "id": "e3fc90099eff23df572ab29f8ada386e",
-      "title": "Oil Gains After Iran Attacks, Asian Stocks Advance: Markets Wrap",
-      "summary": "Crude oil climbed after fighting erupted in the Middle East, ending several days of calm and renewing concerns over disruptions to energy supplies. Stocks in Asia gained.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-28/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 38,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "id": "9f9ccfc1cd6c9cd161c93389c5c228b9",
+      "title": "Apple touches $5 trillion market cap for first time",
+      "summary": "The jockeying between Apple and Nvidia reflects a debate about the future of AI that has preoccupied investors this summer.",
+      "link": "https://www.cnbc.com/2026/07/28/apple-touches-5-trillion-market-cap-for-first-time-.html",
+      "source": "CNBC",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "AI",
       "tickers": [
-        "WTI"
+        "NVDA"
       ],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
+      "regions": [],
       "assets": [
-        "AI",
-        "COMMODITIES",
-        "EQUITIES"
+        "AI"
       ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-29T00:16:13.450803Z"
+    },
+    {
+      "id": "6eb596219c1c4bfc557d82cd57fa443c",
+      "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
+      "summary": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -172,88 +137,15 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-29T00:11:10.712378Z"
+      "published": "2026-07-29T00:16:44.275623Z"
     },
     {
-      "id": "0ef24e4c0702e2b50f1d60566f056941",
-      "title": "Gold Holds Decline as Traders Assess Prospects for Fed Rate Hike",
-      "summary": "Gold held a decline ahead of a finely balanced interest-rate decision by the US Federal Reserve due later Wednesday, while tensions persisted in the Middle East.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-28/gold-edges-lower-as-traders-assess-prospects-for-fed-rate-hike",
-      "source": "Bloomberg",
-      "score": 38,
-      "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "XAU"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-29T00:11:10.712444Z"
-    },
-    {
-      "id": "f1585180a4f447518e7aba2cf8572098",
-      "title": "Ares\u2019 next big private capital deal looks deceptively close to home",
-      "summary": "While it\u2019s already common to find private equity and credit under the same roof, any tie-up will prove a test of culture",
-      "link": "https://www.ft.com/content/20432705-d873-46eb-9b65-b5ae547b1585?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-29T00:11:12.373390Z"
-    },
-    {
-      "id": "23ccf10cb3ce0f4a27f5a5416735d997",
-      "title": "NXP Semiconductors Second-Quarter Profit, Revenue Climb on Growth Across End Markets - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQaVlLSFJhbEhDVDFpQVpHYjRTandrejllMHZIR0VYWmhFQk1yZV9jT0ZsYWFhZG5vbWN5TUJnUUZ1b1RnRl9jX1ROSXRvNUFRVW40dFhwMWNud0pwYjZ5bm5OajhXUF9pT2JRc1FnWk53a0Jqay1KcWlXUm1mSThYMVJhVVlBUkJyUWxiaF9HQkgzbXMyUjRVNFpqTHlHVzhYOGduTU84ZkNjeE5tQ1dwdG9BTWJUUTRQN3JUQ0NocFJ1dGZJYWNfWlFn?oc=5\" target=\"_blank\">NXP Semiconductors Second-Quarter Profit, Revenue Climb on Growth Across End Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaVlLSFJhbEhDVDFpQVpHYjRTandrejllMHZIR0VYWmhFQk1yZV9jT0ZsYWFhZG5vbWN5TUJnUUZ1b1RnRl9jX1ROSXRvNUFRVW40dFhwMWNud0pwYjZ5bm5OajhXUF9pT2JRc1FnWk53a0Jqay1KcWlXUm1mSThYMVJhVVlBUkJyUWxiaF9HQkgzbXMyUjRVNFpqTHlHVzhYOGduTU84ZkNjeE5tQ1dwdG9BTWJUUTRQN3JUQ0NocFJ1dGZJYWNfWlFn?oc=5",
-      "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-29T00:11:38.068735Z"
-    },
-    {
-      "id": "5413750fabc63b8e5ec0fdf2e387906c",
-      "title": "Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off",
-      "summary": "Alphabet's free cash flow has turned negative, and the company lifted its capital spending forecast. Slower-growing cloud rivals report this week.",
-      "link": "https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html",
-      "source": "CNBC",
-      "score": 6,
+      "id": "ff1f5767e1849cdf8ebe3e9997dd5511",
+      "title": "Fujimori sworn in, giving Peru shot to break cycle of chaos",
+      "summary": "She becomes the ninth president in a decade where every leader since the 1990s has been impeached, imprisoned or targeted in criminal investigations.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/29/world/politics/fujimori-sworn-in-peru/",
+      "source": "Japan Times",
+      "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
@@ -261,7 +153,7 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-29T00:11:13.508793Z"
+      "published": "2026-07-29T00:16:38.196622Z"
     }
   ]
 }
