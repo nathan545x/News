@@ -1,56 +1,130 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-30T15:02:05.769336Z",
+  "generated_at": "2026-07-30T15:06:49.987114Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 2,
-    "last_updated": "2026-07-30T15:02:05.769349Z"
+    "critical_alerts": 2,
+    "high_alerts": 4,
+    "last_updated": "2026-07-30T15:06:49.987131Z"
   },
   "top_signals": [
     {
-      "id": "87d83391bf5126c9932ecfb30ad52a3b",
-      "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
-      "summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
+      "id": "d274142dd1d239be418cfd0306c2cec6",
+      "title": "Toyota sales fall for fifth month on Iran turmoil and China",
+      "summary": "Soaring oil and raw-material costs, along with disrupted supply routes, are squeezing global manufacturers as the conflict in the Middle East drags on.",
+      "link": "https://www.japantimes.co.jp/business/2026/07/30/companies/toyota-sales-fall-june/",
+      "source": "Japan Times",
+      "score": 39,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "CHINA",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-30T15:06:39.598243Z"
+    },
+    {
+      "id": "ccde6543d36d6e9d4f1e6ea46a616225",
+      "title": "Oil Climbs as US Resumes Military Strikes on Iran",
+      "summary": "Oil prices rose for a second day on Thursday as renewed attacks between the United States and Iran disrupted oil flows through key shipping routes.Brent futures LCOc1 rose $1.06, or 1.17%, to $91.80 a barrel as of 0812 GMT after touching a low of $89.02 in the session.U.S.",
+      "link": "https://www.marinelink.com/news/oil-climbs-us-resumes-military-strikes-541626",
+      "source": "MarineLink",
+      "score": 34,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST",
+        "US"
+      ],
+      "assets": [
+        "COMMODITIES",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-30T15:06:43.070301Z"
+    },
+    {
+      "id": "6c243ef5674dbfbc4f22cc0162801185",
+      "title": "Declining PCE inflation in June likely to be reversed in July",
+      "summary": "Higher energy prices this month will send the inflation gauge back up",
+      "link": "https://www.ft.com/content/fd75ca61-c9db-41c8-97d3-80069c25beb6",
+      "source": "Financial Times",
+      "score": 22,
       "severity": "HIGH",
-      "regime": "RATES",
+      "regime": "INFLATION",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "XAU",
+          "WTI",
+          "COMMODITIES"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-30T15:01:36.643509Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-07-30T15:06:15.343341Z"
     },
     {
-      "id": "e5d40d43fb5ffd82fa4448e98c020852",
-      "title": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank",
-      "summary": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730b.htm",
-      "source": "Federal Reserve",
-      "score": 16,
+      "id": "e9fece4a8455124a94ec0954f6c5704b",
+      "title": "China threatens retaliation against U.S. humanoid robot ban, says it 'severely damages' relations",
+      "summary": "China's Commerce Ministry said Thursday the U.S. Federal Communications Commission has repeatedly ignored Beijing's restrained stance.",
+      "link": "https://www.cnbc.com/2026/07/30/china-us-robot-humanoid-ban-trump-visit.html",
+      "source": "CNBC",
+      "score": 22,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
       "regions": [
-        "UK"
+        "CHINA"
       ],
-      "assets": [],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -63,20 +137,589 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-30T15:01:36.643562Z"
+      "published": "2026-07-30T15:06:16.599275Z"
+    },
+    {
+      "id": "cb7a8d803a15cc4b290493d823e86672",
+      "title": "UK financial regulators to begin overseeing Critical Third Parties announced by HM Treasury",
+      "summary": "The Bank of England, the Prudential Regulation Authority and the Financial Conduct Authority will start overseeing the first Critical Third Parties on Monday 13 July 2026, following designation by HM Treasury.",
+      "link": "https://www.bankofengland.co.uk/news/2026/july/uk-financial-regulators-to-begin-overseeing-critical-third-parties-announced-by-hmt",
+      "source": "Bank of England",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-30T15:06:32.883845Z"
+    },
+    {
+      "id": "0baa6c9d6176281fa04f8ee1ce15cdd1",
+      "title": "DR Congo\u2019s cobalt boom carries an unwanted cargo: uranium",
+      "summary": "Radioactive ores have become a proliferation risk in the land that supplied material for second world war atomic bombs",
+      "link": "https://www.ft.com/content/77815def-6f50-4adf-8ba3-3643de7bf8ab?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-30T15:06:14.691952Z"
+    },
+    {
+      "id": "846e6ccc030ab88124e504074b072c8d",
+      "title": "Crypto for Advisors: Is the Clarity Act dead?",
+      "summary": "",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/07/30/crypto-for-advisors-is-the-clarity-act-dead",
+      "source": "CoinDesk",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-30T15:06:45.254264Z"
+    },
+    {
+      "id": "32394f7caf41eb96a1c00c396f2ddaf1",
+      "title": "Winner of US-China AI rivalry falls 2% in Hong Kong debut - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOT09ibkRONlcyTHowd2ZuSVptLVRCNTM2TUw0SXl3V2NuWWVZbmRpdWJudXIwb3hPcGkxeGpHXzhFSC1GVlpWd01pMWs0aWpxWVp0LU9qY211RXlCaEQ3bnFHTjlndWZldnRwTVlueWtCVmZaQ1Ewbl9Mb1pYMWpVQV9iby0?oc=5\" target=\"_blank\">Winner of US-China AI rivalry falls 2% in Hong Kong debut</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT09ibkRONlcyTHowd2ZuSVptLVRCNTM2TUw0SXl3V2NuWWVZbmRpdWJudXIwb3hPcGkxeGpHXzhFSC1GVlpWd01pMWs0aWpxWVp0LU9qY211RXlCaEQ3bnFHTjlndWZldnRwTVlueWtCVmZaQ1Ewbl9Mb1pYMWpVQV9iby0?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-30T15:06:48.841745Z"
+    },
+    {
+      "id": "42470275ebc761868a6a9303e83c7ace",
+      "title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
+      "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-30T15:06:17.046117Z"
+    },
+    {
+      "id": "5f8be597e75c6522356bf6491c878ad3",
+      "title": "Fake staking site drains $8.5 million in XRP from dozens of investors promising easy yield",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/07/30/fake-staking-site-drains-usd8-5-million-in-xrp-from-dozens-of-investors-promising-easy-yield",
+      "source": "CoinDesk",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-30T15:06:45.254333Z"
+    },
+    {
+      "id": "c1bf8c55f3d34e8f527a07fc9872e793",
+      "title": "Turkey Sees Ongoing Oil Flow From Iraq as Pipeline Talks Proceed - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNTlcwZmstbEtEWWRnby02YTVwMW5VUlQ3MXJkcWYwZF80ZEpsZ2RuemZVWW11OVVTSUNZY1pqTEptUHhaT1NYeUYzNlZia1RZeEJ2VHJyMHFnNFVheXY5cnJIYUZ6NlEyV1NlTDhXUEFqOXp1M0VlWUZua0lyUElGTGdhcW5UU0tScWtJWVpZREJ3bWZ3bnFpVVZJRndjbjNPUkxyZF9rRTZlYUxXTDZVQzBNWlBIZw?oc=5\" target=\"_blank\">Turkey Sees Ongoing Oil Flow From Iraq as Pipeline Talks Proceed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTlcwZmstbEtEWWRnby02YTVwMW5VUlQ3MXJkcWYwZF80ZEpsZ2RuemZVWW11OVVTSUNZY1pqTEptUHhaT1NYeUYzNlZia1RZeEJ2VHJyMHFnNFVheXY5cnJIYUZ6NlEyV1NlTDhXUEFqOXp1M0VlWUZua0lyUElGTGdhcW5UU0tScWtJWVpZREJ3bWZ3bnFpVVZJRndjbjNPUkxyZF9rRTZlYUxXTDZVQzBNWlBIZw?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-30T15:06:47.468542Z"
+    },
+    {
+      "id": "4963aa870027b2ef01d74e63037a4f55",
+      "title": "He helped China repress Uyghurs. He says he\u2019s a victim, too.",
+      "summary": "Former police officer Zhang Yabo described Xinjiang as a giant prison that imprisoned not only countless innocent Uyghurs \"but also the souls of those ordered to enforce it.\"",
+      "link": "https://www.japantimes.co.jp/news/2026/07/30/asia-pacific/politics/china-uyghurs-victim/",
+      "source": "Japan Times",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-30T15:06:39.598192Z"
     }
   ],
   "alerts": [
     {
-      "id": "87d83391bf5126c9932ecfb30ad52a3b",
-      "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
-      "summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
+      "id": "d274142dd1d239be418cfd0306c2cec6",
+      "title": "Toyota sales fall for fifth month on Iran turmoil and China",
+      "summary": "Soaring oil and raw-material costs, along with disrupted supply routes, are squeezing global manufacturers as the conflict in the Middle East drags on.",
+      "link": "https://www.japantimes.co.jp/business/2026/07/30/companies/toyota-sales-fall-june/",
+      "source": "Japan Times",
+      "score": 39,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "CHINA",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-30T15:06:39.598243Z"
+    },
+    {
+      "id": "ccde6543d36d6e9d4f1e6ea46a616225",
+      "title": "Oil Climbs as US Resumes Military Strikes on Iran",
+      "summary": "Oil prices rose for a second day on Thursday as renewed attacks between the United States and Iran disrupted oil flows through key shipping routes.Brent futures LCOc1 rose $1.06, or 1.17%, to $91.80 a barrel as of 0812 GMT after touching a low of $89.02 in the session.U.S.",
+      "link": "https://www.marinelink.com/news/oil-climbs-us-resumes-military-strikes-541626",
+      "source": "MarineLink",
+      "score": 34,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST",
+        "US"
+      ],
+      "assets": [
+        "COMMODITIES",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-30T15:06:43.070301Z"
+    },
+    {
+      "id": "6c243ef5674dbfbc4f22cc0162801185",
+      "title": "Declining PCE inflation in June likely to be reversed in July",
+      "summary": "Higher energy prices this month will send the inflation gauge back up",
+      "link": "https://www.ft.com/content/fd75ca61-c9db-41c8-97d3-80069c25beb6",
+      "source": "Financial Times",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-07-30T15:06:15.343341Z"
+    },
+    {
+      "id": "e9fece4a8455124a94ec0954f6c5704b",
+      "title": "China threatens retaliation against U.S. humanoid robot ban, says it 'severely damages' relations",
+      "summary": "China's Commerce Ministry said Thursday the U.S. Federal Communications Commission has repeatedly ignored Beijing's restrained stance.",
+      "link": "https://www.cnbc.com/2026/07/30/china-us-robot-humanoid-ban-trump-visit.html",
+      "source": "CNBC",
+      "score": 22,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-30T15:06:16.599275Z"
+    },
+    {
+      "id": "cb7a8d803a15cc4b290493d823e86672",
+      "title": "UK financial regulators to begin overseeing Critical Third Parties announced by HM Treasury",
+      "summary": "The Bank of England, the Prudential Regulation Authority and the Financial Conduct Authority will start overseeing the first Critical Third Parties on Monday 13 July 2026, following designation by HM Treasury.",
+      "link": "https://www.bankofengland.co.uk/news/2026/july/uk-financial-regulators-to-begin-overseeing-critical-third-parties-announced-by-hmt",
+      "source": "Bank of England",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-30T15:06:32.883845Z"
+    },
+    {
+      "id": "0baa6c9d6176281fa04f8ee1ce15cdd1",
+      "title": "DR Congo\u2019s cobalt boom carries an unwanted cargo: uranium",
+      "summary": "Radioactive ores have become a proliferation risk in the land that supplied material for second world war atomic bombs",
+      "link": "https://www.ft.com/content/77815def-6f50-4adf-8ba3-3643de7bf8ab?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-30T15:06:14.691952Z"
+    },
+    {
+      "id": "846e6ccc030ab88124e504074b072c8d",
+      "title": "Crypto for Advisors: Is the Clarity Act dead?",
+      "summary": "",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/07/30/crypto-for-advisors-is-the-clarity-act-dead",
+      "source": "CoinDesk",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-30T15:06:45.254264Z"
+    },
+    {
+      "id": "32394f7caf41eb96a1c00c396f2ddaf1",
+      "title": "Winner of US-China AI rivalry falls 2% in Hong Kong debut - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOT09ibkRONlcyTHowd2ZuSVptLVRCNTM2TUw0SXl3V2NuWWVZbmRpdWJudXIwb3hPcGkxeGpHXzhFSC1GVlpWd01pMWs0aWpxWVp0LU9qY211RXlCaEQ3bnFHTjlndWZldnRwTVlueWtCVmZaQ1Ewbl9Mb1pYMWpVQV9iby0?oc=5\" target=\"_blank\">Winner of US-China AI rivalry falls 2% in Hong Kong debut</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT09ibkRONlcyTHowd2ZuSVptLVRCNTM2TUw0SXl3V2NuWWVZbmRpdWJudXIwb3hPcGkxeGpHXzhFSC1GVlpWd01pMWs0aWpxWVp0LU9qY211RXlCaEQ3bnFHTjlndWZldnRwTVlueWtCVmZaQ1Ewbl9Mb1pYMWpVQV9iby0?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-30T15:06:48.841745Z"
+    },
+    {
+      "id": "42470275ebc761868a6a9303e83c7ace",
+      "title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
+      "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-30T15:06:17.046117Z"
+    },
+    {
+      "id": "5f8be597e75c6522356bf6491c878ad3",
+      "title": "Fake staking site drains $8.5 million in XRP from dozens of investors promising easy yield",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/07/30/fake-staking-site-drains-usd8-5-million-in-xrp-from-dozens-of-investors-promising-easy-yield",
+      "source": "CoinDesk",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-30T15:06:45.254333Z"
+    },
+    {
+      "id": "c1bf8c55f3d34e8f527a07fc9872e793",
+      "title": "Turkey Sees Ongoing Oil Flow From Iraq as Pipeline Talks Proceed - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNTlcwZmstbEtEWWRnby02YTVwMW5VUlQ3MXJkcWYwZF80ZEpsZ2RuemZVWW11OVVTSUNZY1pqTEptUHhaT1NYeUYzNlZia1RZeEJ2VHJyMHFnNFVheXY5cnJIYUZ6NlEyV1NlTDhXUEFqOXp1M0VlWUZua0lyUElGTGdhcW5UU0tScWtJWVpZREJ3bWZ3bnFpVVZJRndjbjNPUkxyZF9rRTZlYUxXTDZVQzBNWlBIZw?oc=5\" target=\"_blank\">Turkey Sees Ongoing Oil Flow From Iraq as Pipeline Talks Proceed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTlcwZmstbEtEWWRnby02YTVwMW5VUlQ3MXJkcWYwZF80ZEpsZ2RuemZVWW11OVVTSUNZY1pqTEptUHhaT1NYeUYzNlZia1RZeEJ2VHJyMHFnNFVheXY5cnJIYUZ6NlEyV1NlTDhXUEFqOXp1M0VlWUZua0lyUElGTGdhcW5UU0tScWtJWVpZREJ3bWZ3bnFpVVZJRndjbjNPUkxyZF9rRTZlYUxXTDZVQzBNWlBIZw?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-30T15:06:47.468542Z"
+    },
+    {
+      "id": "4963aa870027b2ef01d74e63037a4f55",
+      "title": "He helped China repress Uyghurs. He says he\u2019s a victim, too.",
+      "summary": "Former police officer Zhang Yabo described Xinjiang as a giant prison that imprisoned not only countless innocent Uyghurs \"but also the souls of those ordered to enforce it.\"",
+      "link": "https://www.japantimes.co.jp/news/2026/07/30/asia-pacific/politics/china-uyghurs-victim/",
+      "source": "Japan Times",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-30T15:06:39.598192Z"
+    },
+    {
+      "id": "c7edf90dcc7fcf22e22042bafe63cdc5",
+      "title": "Nasdaq 100 Enters Correction, S&P 500 Falls After Fed Decision - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ2VxaTRfR2tmSlZWLVE2TDBaT1RmbmdoVk5ldzl5Q2NDX21xaXNqam1xakNlamRNTXNGaUUydkprMEZLWk5kQzRJWXJtcy1HbGhIc0FaS21qUU9iLXZOcmQ2YUdmTGgtbWVtOXV6TXUxYjlOTVVocWFmZ01oY2QxNUFsWURjcEFTN3ZOSHRnOWFYZHo1dmYta2xobzVCd0RYS1lLSHp0bDJ6R3RRYkU4OWpaMA?oc=5\" target=\"_blank\">Nasdaq 100 Enters Correction, S&amp;P 500 Falls After Fed Decision</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ2VxaTRfR2tmSlZWLVE2TDBaT1RmbmdoVk5ldzl5Q2NDX21xaXNqam1xakNlamRNTXNGaUUydkprMEZLWk5kQzRJWXJtcy1HbGhIc0FaS21qUU9iLXZOcmQ2YUdmTGgtbWVtOXV6TXUxYjlOTVVocWFmZ01oY2QxNUFsWURjcEFTN3ZOSHRnOWFYZHo1dmYta2xobzVCd0RYS1lLSHp0bDJ6R3RRYkU4OWpaMA?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "RATES",
+      "tickers": [
+        "QQQ",
+        "SPY"
+      ],
       "regions": [],
       "assets": [],
       "market_impact": {
@@ -91,16 +734,16 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-30T15:01:36.643509Z"
+      "published": "2026-07-30T15:06:47.468620Z"
     },
     {
-      "id": "e5d40d43fb5ffd82fa4448e98c020852",
-      "title": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank",
-      "summary": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730b.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
+      "id": "8b7603e099bb0204f269a53d85644c60",
+      "title": "VIEW Fed holds rates steady as three policymakers dissent for a hike - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPcTZRdS1qU1NyM2NYeEoyTVBCdUFERzRDa3ZmelhwYkstWUNlMkc3S2tsUXRHcnhOUnAzMDdHXzY3TXdWa3JFbTE4TWZBeEJBSlRWSWFzSnZxX1VBVTE4ZklGV1JJSlJVTXNyN2VJMV9WWWJ0alNfeFZMZWNYTnJrVUk1SG5rczF0ekk1NXhRZFZQSE40RGx2UGROWlE1YVR3aWZUaVRxbw?oc=5\" target=\"_blank\">VIEW Fed holds rates steady as three policymakers dissent for a hike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcTZRdS1qU1NyM2NYeEoyTVBCdUFERzRDa3ZmelhwYkstWUNlMkc3S2tsUXRHcnhOUnAzMDdHXzY3TXdWa3JFbTE4TWZBeEJBSlRWSWFzSnZxX1VBVTE4ZklGV1JJSlJVTXNyN2VJMV9WWWJ0alNfeFZMZWNYTnJrVUk1SG5rczF0ekk1NXhRZFZQSE40RGx2UGROWlE1YVR3aWZUaVRxbw?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
       "regime": "RATES",
       "tickers": [],
       "regions": [
@@ -119,7 +762,82 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-30T15:01:36.643562Z"
+      "published": "2026-07-30T15:06:48.200374Z"
+    },
+    {
+      "id": "544a407186fc5cb80c42ffb4ecb94434",
+      "title": "New York imports more electricity from Canada after high-voltage transmission line opens",
+      "summary": "On July 3, 2026, the New York Independent System Operator (NYISO) imported 52 gigawatthours (GWh) of electricity from Canada, the most traded between the two areas since January 2025. Some of the imported electricity flowed along the new Champlain Hudson Power Express (CHPE) transmission line between Quebec, Canada, and New York City, which officially reached commercial operations in May after three years of construction.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67867",
+      "source": "EIA",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-30T15:06:41.172018Z"
+    },
+    {
+      "id": "0912b9b62512cc22dfda0e33b231d484",
+      "title": "Australia sues Telegram over alleged failures to remove terror content",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Australia sues Telegram over alleged failures to remove terror content\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-ton-court-case-overview-of-latest-events.jpg\" /></p><p>Telegram faces Australian court proceedings after eSafety alleged the platform failed to detect and remove extremist material shared by users.</p>",
+      "link": "https://cointelegraph.com/news/australia-telegram-alleged-failures-terror-content?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-30T15:06:45.415375Z"
+    },
+    {
+      "id": "8427934cf231343fa956be7fa9340f18",
+      "title": "Anthropic confirms Claude is down worldwide",
+      "summary": "Claude is down for some users, with Anthropic confirming elevated errors across multiple AI models.\u00a0The disruption is causing requests to fail with a \"529 Overloaded\" message, including in Claude and tools that rely on its API. [...]",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-30T15:06:45.785257Z"
     }
   ]
 }
