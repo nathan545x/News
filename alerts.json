@@ -1,49 +1,515 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-31T13:11:39.718959Z",
+  "generated_at": "2026-07-31T13:16:39.401023Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-07-31T13:11:39.718971Z"
+    "critical_alerts": 1,
+    "high_alerts": 2,
+    "last_updated": "2026-07-31T13:16:39.401048Z"
   },
   "top_signals": [
     {
-      "id": "c9125ddb3e442619db3e236cf9cf28ce",
-      "title": "Osaka police arrest two men over illegal e-bike conversions",
-      "summary": "The two men were suspected of fitting e-bikes with throttles that made them run twice as fast without the need to pedal.",
-      "link": "https://www.japantimes.co.jp/news/2026/07/31/japan/crime-legal/men-arrest-bike-conversions/",
-      "source": "Japan Times",
-      "score": 1,
-      "severity": "LOW",
+      "id": "de32ad19e7144f8b871838bd9399e782",
+      "title": "Why Bill Dudley Thinks Warsh's Approach to Fed Policy Is Flawed",
+      "summary": "Bill Dudley, a Bloomberg Opinion columnist and former president of the Federal Reserve Bank of New York, reacts to Fed Chairman Kevin Warsh's news conference following the central bank's decision to leave interest rates unchanged.  Speaking on \"Bloomberg Surveillance,\" Dudley says Warsh's silence was \"quite deafening\" and markets are showing there's a loss of credibility in the Fed. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-31/why-bill-dudley-thinks-warsh-s-policy-approach-is-flawed-video",
+      "source": "Bloomberg",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-31T13:16:10.075871Z"
+    },
+    {
+      "id": "a2a81f4e40df6ddb658e8f1200993eb7",
+      "title": "Deadly storms and a global supply squeeze are sending copper prices soaring",
+      "summary": "Deadly storms in Chile have disrupted mining operations, further straining supply and potentially driving prices higher, strategists say.",
+      "link": "https://www.cnbc.com/2026/07/31/copper-prices-chile-storms-mines-ai.html",
+      "source": "CNBC",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "COPPER"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-31T13:16:13.618194Z"
+    },
+    {
+      "id": "8bf844f8eed7a9c9c14872d62c75c45b",
+      "title": "How Leopold Aschenbrenner, the \u2018golden child\u2019 of the AI trade, was laid low",
+      "summary": "The $20bn hedge fund manager\u2019s wild ride ended with a call to Ken Griffin",
+      "link": "https://www.ft.com/content/620bd668-d112-412d-aa52-22489b128d55?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-31T13:16:12.003532Z"
+    },
+    {
+      "id": "53e80c7f61ca13f6a073a7742c76ea81",
+      "title": "Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests",
+      "summary": "One of Anthropic's Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on 15 real systems and stole credentials from a security vendor. It was one of three incidents affecting real companies. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-31T13:16:36.144458Z"
+    },
+    {
+      "id": "d956d802fb6afa1a6932426ab353a4f5",
+      "title": "Dwindling cash and soaring memory costs: Tech's AI buildout has ballooning price tag",
+      "summary": "Amazon, Alphabet and Tesla all reported negative cash flow in the latest quarter, while Meta's cash generation plummeted by 91%.",
+      "link": "https://www.cnbc.com/2026/07/31/tech-earnings-cash-memory-ai.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-31T13:16:13.439391Z"
+    },
+    {
+      "id": "22ee3db40312eebd8bac4274c5226891",
+      "title": "Novo Nordisk shares dive after heart medicine fails trial, dealing another blow to its  pipeline",
+      "summary": "The experimental medicine ziltivekimab didn't translate into a statistically meaningful reduction in major cardiovascular adverse events, Novo said Friday.",
+      "link": "https://www.cnbc.com/2026/07/31/novo-nordisk-trial-results.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-31T13:16:13.439470Z"
+    },
+    {
+      "id": "6ab4824da0b3b1e25c35055f191afa98",
+      "title": "We're raising our Apple price target, seeing plenty of good despite the memory crunch knocks",
+      "summary": "It was a good but not great quarter as Apple worked to mitigate the memory shortage, which impacted the reported quarter and guidance.",
+      "link": "https://www.cnbc.com/2026/07/30/were-raising-our-apple-price-target-seeing-plenty-of-good-despite-memory-crunch.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-31T13:16:13.520954Z"
+    },
+    {
+      "id": "8e25bf50cebc38224cb4229a53d7482d",
+      "title": "Minutes of the Meeting of the Court of Directors held on 4 June 2026",
+      "summary": "The Bank's Court of Directors acts as a unitary board, setting the organisation's strategy and budget and taking key decisions on resourcing and appointments. Required to meet a minimum seven times per year, it has five executive members from the Bank and up to nine non-executive members.",
+      "link": "https://www.bankofengland.co.uk/minutes/2026/july/court-minutes-4-june-2026",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-31T13:11:32.644078Z"
+      "published": "2026-07-31T13:16:28.025307Z"
+    },
+    {
+      "id": "71e11da080efd5b34a237f1c5e654338",
+      "title": "The dark arts of securitisation",
+      "summary": "(It\u2019s not actually magic)",
+      "link": "https://www.ft.com/content/5f3930b9-e7ce-4b87-878f-74cf7f16f642",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-31T13:16:12.314880Z"
+    },
+    {
+      "id": "4673352f0d84eea58711aaaf3fc7c5de",
+      "title": "Insurers are \u2018actively evaluating\u2019 new catastrophe risks as Europe burns",
+      "summary": "Insurers, reinsurers and brokers don't see the latest bouts of extreme heat as a temporary shock, but as a long-term trend.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/31/world/europe-fires-insurance-risk/",
+      "source": "Japan Times",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-31T13:16:31.844296Z"
     }
   ],
   "alerts": [
     {
-      "id": "c9125ddb3e442619db3e236cf9cf28ce",
-      "title": "Osaka police arrest two men over illegal e-bike conversions",
-      "summary": "The two men were suspected of fitting e-bikes with throttles that made them run twice as fast without the need to pedal.",
-      "link": "https://www.japantimes.co.jp/news/2026/07/31/japan/crime-legal/men-arrest-bike-conversions/",
-      "source": "Japan Times",
-      "score": 1,
-      "severity": "LOW",
+      "id": "de32ad19e7144f8b871838bd9399e782",
+      "title": "Why Bill Dudley Thinks Warsh's Approach to Fed Policy Is Flawed",
+      "summary": "Bill Dudley, a Bloomberg Opinion columnist and former president of the Federal Reserve Bank of New York, reacts to Fed Chairman Kevin Warsh's news conference following the central bank's decision to leave interest rates unchanged.  Speaking on \"Bloomberg Surveillance,\" Dudley says Warsh's silence was \"quite deafening\" and markets are showing there's a loss of credibility in the Fed. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-31/why-bill-dudley-thinks-warsh-s-policy-approach-is-flawed-video",
+      "source": "Bloomberg",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-31T13:16:10.075871Z"
+    },
+    {
+      "id": "a2a81f4e40df6ddb658e8f1200993eb7",
+      "title": "Deadly storms and a global supply squeeze are sending copper prices soaring",
+      "summary": "Deadly storms in Chile have disrupted mining operations, further straining supply and potentially driving prices higher, strategists say.",
+      "link": "https://www.cnbc.com/2026/07/31/copper-prices-chile-storms-mines-ai.html",
+      "source": "CNBC",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "COPPER"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-31T13:16:13.618194Z"
+    },
+    {
+      "id": "8bf844f8eed7a9c9c14872d62c75c45b",
+      "title": "How Leopold Aschenbrenner, the \u2018golden child\u2019 of the AI trade, was laid low",
+      "summary": "The $20bn hedge fund manager\u2019s wild ride ended with a call to Ken Griffin",
+      "link": "https://www.ft.com/content/620bd668-d112-412d-aa52-22489b128d55?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-31T13:16:12.003532Z"
+    },
+    {
+      "id": "53e80c7f61ca13f6a073a7742c76ea81",
+      "title": "Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests",
+      "summary": "One of Anthropic's Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on 15 real systems and stole credentials from a security vendor. It was one of three incidents affecting real companies. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-31T13:16:36.144458Z"
+    },
+    {
+      "id": "d956d802fb6afa1a6932426ab353a4f5",
+      "title": "Dwindling cash and soaring memory costs: Tech's AI buildout has ballooning price tag",
+      "summary": "Amazon, Alphabet and Tesla all reported negative cash flow in the latest quarter, while Meta's cash generation plummeted by 91%.",
+      "link": "https://www.cnbc.com/2026/07/31/tech-earnings-cash-memory-ai.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-31T13:16:13.439391Z"
+    },
+    {
+      "id": "22ee3db40312eebd8bac4274c5226891",
+      "title": "Novo Nordisk shares dive after heart medicine fails trial, dealing another blow to its  pipeline",
+      "summary": "The experimental medicine ziltivekimab didn't translate into a statistically meaningful reduction in major cardiovascular adverse events, Novo said Friday.",
+      "link": "https://www.cnbc.com/2026/07/31/novo-nordisk-trial-results.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-31T13:16:13.439470Z"
+    },
+    {
+      "id": "6ab4824da0b3b1e25c35055f191afa98",
+      "title": "We're raising our Apple price target, seeing plenty of good despite the memory crunch knocks",
+      "summary": "It was a good but not great quarter as Apple worked to mitigate the memory shortage, which impacted the reported quarter and guidance.",
+      "link": "https://www.cnbc.com/2026/07/30/were-raising-our-apple-price-target-seeing-plenty-of-good-despite-memory-crunch.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-31T13:16:13.520954Z"
+    },
+    {
+      "id": "8e25bf50cebc38224cb4229a53d7482d",
+      "title": "Minutes of the Meeting of the Court of Directors held on 4 June 2026",
+      "summary": "The Bank's Court of Directors acts as a unitary board, setting the organisation's strategy and budget and taking key decisions on resourcing and appointments. Required to meet a minimum seven times per year, it has five executive members from the Bank and up to nine non-executive members.",
+      "link": "https://www.bankofengland.co.uk/minutes/2026/july/court-minutes-4-june-2026",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-31T13:11:32.644078Z"
+      "published": "2026-07-31T13:16:28.025307Z"
+    },
+    {
+      "id": "71e11da080efd5b34a237f1c5e654338",
+      "title": "The dark arts of securitisation",
+      "summary": "(It\u2019s not actually magic)",
+      "link": "https://www.ft.com/content/5f3930b9-e7ce-4b87-878f-74cf7f16f642",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-31T13:16:12.314880Z"
+    },
+    {
+      "id": "4673352f0d84eea58711aaaf3fc7c5de",
+      "title": "Insurers are \u2018actively evaluating\u2019 new catastrophe risks as Europe burns",
+      "summary": "Insurers, reinsurers and brokers don't see the latest bouts of extreme heat as a temporary shock, but as a long-term trend.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/31/world/europe-fires-insurance-risk/",
+      "source": "Japan Times",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-31T13:16:31.844296Z"
     }
   ]
 }
