@@ -1,92 +1,118 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-31T14:36:37.164165Z",
+  "generated_at": "2026-07-31T14:41:53.185060Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 1,
-    "last_updated": "2026-07-31T14:36:37.164180Z"
+    "critical_alerts": 0,
+    "high_alerts": 2,
+    "last_updated": "2026-07-31T14:41:53.185075Z"
   },
   "top_signals": [
     {
-      "id": "a5edd4f1fce32e9743ce761a09b9f4e8",
-      "title": "Oil prices rise after Iran says it attacked two tankers transiting Strait of Hormuz",
-      "summary": "Commonwealth Bank of Australia said in a note on Friday that stronger oil flows through the Strait of Hormuz had eased market concerns after U.S.-Iran strikes earlier this week.",
-      "link": "https://www.cnbc.com/2026/07/31/oil-prices-today-brent-wti-hormuz-trump-iran-.html",
-      "source": "CNBC",
-      "score": 26,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "id": "a710053900ad30f813cf4e80576450d1",
+      "title": "Yen pares intervention gains as Asian tech shares surge",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/markets/currencies/yen-pares-intervention-gains-as-asian-tech-shares-surge",
+      "source": "Nikkei Asia",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "JPY"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-31T14:41:44.441312Z"
+    },
+    {
+      "id": "7e9177bd3c0e56676d258212531b3d26",
+      "title": "Stablecoin Reserve Requirements Explained",
+      "summary": "<p>A stablecoin is a digital asset designed to maintain a steady value by pegging its price to another asset, most commonly a fiat currency like the U.S. dollar. Stablecoin reserve requirements are the rules determining the assets an issuer must hold to back up every stablecoin it puts into circulation.\u00a0 Major jurisdictions with stablecoin reserve [&hellip;]</p>",
+      "link": "https://www.theblock.co/learn/410234/stablecoin-reserve-requirements-explained?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-31T14:41:49.512758Z"
+    },
+    {
+      "id": "aab49edb03826a1a7bf6f25e76c5da47",
+      "title": "Commercial crude oil inventories increased by 2.0 million barrels",
+      "summary": "For the week ending July 17, 2026, commercial crude oil inventories (excluding the Strategic Petroleum Reserve) increased 2.0 million barrels to 411.7 million barrels, 6% below the previous five-year (2021\u20132025) average. Gasoline inventories increased 0.8 million barrels, 7% below the five-year average. Distillate inventories increased 1.4 million barrels, 10% below the five-year average. Propane/propylene inventories increased 6.3 million barrels, 34% above the five-year average. Total commercial petroleum inventories increased by 11.6 million barrels for the week.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67868",
+      "source": "EIA",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
       "tickers": [
         "WTI"
       ],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
+      "regions": [],
       "assets": [
-        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-31T14:36:09.793931Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-31T14:41:46.442336Z"
     },
     {
-      "id": "f3b4aaf718ed919705f8369ee25449ef",
-      "title": "Chipmakers Rise at End of Dizzying July for Stocks: Markets Wrap",
-      "summary": "Another wave of buying lifted beaten-down chipmakers in the final stretch of a month that saw an unwinding of strategies that have powered the stock rally from war-driven lows.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-30/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-31T14:36:06.546394Z"
-    },
-    {
-      "id": "13c763b46739c08d39ace20ca33cbb71",
-      "title": "Reddit Shares Plunge by Record on Dearth of New AI Deals",
-      "summary": "Reddit Inc. shares suffered their worst intraday drop ever after the social media company failed to announce any new data licensing agreements in its latest earnings report, disappointing investors who are hoping to see a shift in revenue streams.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-30/reddit-projects-strong-third-quarter-sales-growth",
-      "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
+      "id": "6d3f02b7b173bac4174cb0a2e504e837",
+      "title": "Japan launches National Intelligence Bureau in bid to streamline intelligence",
+      "summary": "For Prime Minister Sanae Takaichi, who has sought to modernize Japan's intelligence system, the upgrade represents a political win and the foundation for a broader overhaul.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/31/japan/politics/new-intel-bureau-launched/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [
         "AI"
       ],
@@ -99,112 +125,128 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-31T14:36:06.546478Z"
+      "published": "2026-07-31T14:41:44.726116Z"
     },
     {
-      "id": "711dc8bed09a49222a46e2234b9a9f9a",
-      "title": "Ethereum\u2019s 43-day staking queue isn\u2019t a clean demand signal, Sygnum says",
-      "summary": "<p>Sygnum's Thomas Brunner says Ethereum\u2019s 43-day staking queue reflects mechanics, not just fresh demand from investors.</p>",
-      "link": "https://www.theblock.co/post/410285/ethereum-43-day-staking-queue-isnt-clean-demand-signal-sygnum?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 6,
+      "id": "d9fc8dfbba2bf539e8afca5d4b9ec9ec",
+      "title": "Kumamoto showing early signs of quake recovery as transportation routes resume",
+      "summary": "Shinkansen lines, flights and highways began resuming operations Friday, suggesting the damage to infrastructure was not as devastating as the 2016 temblor.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/31/japan/kumamoto-quake-recovery-signs/",
+      "source": "Japan Times",
+      "score": 1,
       "severity": "LOW",
-      "regime": "CRYPTO",
-      "tickers": [
-        "ETH"
-      ],
+      "regime": "GENERAL",
+      "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-07-31T14:36:33.685748Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-31T14:41:44.726071Z"
     }
   ],
   "alerts": [
     {
-      "id": "a5edd4f1fce32e9743ce761a09b9f4e8",
-      "title": "Oil prices rise after Iran says it attacked two tankers transiting Strait of Hormuz",
-      "summary": "Commonwealth Bank of Australia said in a note on Friday that stronger oil flows through the Strait of Hormuz had eased market concerns after U.S.-Iran strikes earlier this week.",
-      "link": "https://www.cnbc.com/2026/07/31/oil-prices-today-brent-wti-hormuz-trump-iran-.html",
-      "source": "CNBC",
-      "score": 26,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "id": "a710053900ad30f813cf4e80576450d1",
+      "title": "Yen pares intervention gains as Asian tech shares surge",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/markets/currencies/yen-pares-intervention-gains-as-asian-tech-shares-surge",
+      "source": "Nikkei Asia",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "JPY"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-31T14:41:44.441312Z"
+    },
+    {
+      "id": "7e9177bd3c0e56676d258212531b3d26",
+      "title": "Stablecoin Reserve Requirements Explained",
+      "summary": "<p>A stablecoin is a digital asset designed to maintain a steady value by pegging its price to another asset, most commonly a fiat currency like the U.S. dollar. Stablecoin reserve requirements are the rules determining the assets an issuer must hold to back up every stablecoin it puts into circulation.\u00a0 Major jurisdictions with stablecoin reserve [&hellip;]</p>",
+      "link": "https://www.theblock.co/learn/410234/stablecoin-reserve-requirements-explained?utm_source=rss&utm_medium=rss",
+      "source": "The Block",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-07-31T14:41:49.512758Z"
+    },
+    {
+      "id": "aab49edb03826a1a7bf6f25e76c5da47",
+      "title": "Commercial crude oil inventories increased by 2.0 million barrels",
+      "summary": "For the week ending July 17, 2026, commercial crude oil inventories (excluding the Strategic Petroleum Reserve) increased 2.0 million barrels to 411.7 million barrels, 6% below the previous five-year (2021\u20132025) average. Gasoline inventories increased 0.8 million barrels, 7% below the five-year average. Distillate inventories increased 1.4 million barrels, 10% below the five-year average. Propane/propylene inventories increased 6.3 million barrels, 34% above the five-year average. Total commercial petroleum inventories increased by 11.6 million barrels for the week.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67868",
+      "source": "EIA",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
       "tickers": [
         "WTI"
       ],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
+      "regions": [],
       "assets": [
-        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-31T14:36:09.793931Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-31T14:41:46.442336Z"
     },
     {
-      "id": "f3b4aaf718ed919705f8369ee25449ef",
-      "title": "Chipmakers Rise at End of Dizzying July for Stocks: Markets Wrap",
-      "summary": "Another wave of buying lifted beaten-down chipmakers in the final stretch of a month that saw an unwinding of strategies that have powered the stock rally from war-driven lows.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-30/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-31T14:36:06.546394Z"
-    },
-    {
-      "id": "13c763b46739c08d39ace20ca33cbb71",
-      "title": "Reddit Shares Plunge by Record on Dearth of New AI Deals",
-      "summary": "Reddit Inc. shares suffered their worst intraday drop ever after the social media company failed to announce any new data licensing agreements in its latest earnings report, disappointing investors who are hoping to see a shift in revenue streams.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-30/reddit-projects-strong-third-quarter-sales-growth",
-      "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
+      "id": "6d3f02b7b173bac4174cb0a2e504e837",
+      "title": "Japan launches National Intelligence Bureau in bid to streamline intelligence",
+      "summary": "For Prime Minister Sanae Takaichi, who has sought to modernize Japan's intelligence system, the upgrade represents a political win and the foundation for a broader overhaul.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/31/japan/politics/new-intel-bureau-launched/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [
         "AI"
       ],
@@ -217,33 +259,23 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-31T14:36:06.546478Z"
+      "published": "2026-07-31T14:41:44.726116Z"
     },
     {
-      "id": "711dc8bed09a49222a46e2234b9a9f9a",
-      "title": "Ethereum\u2019s 43-day staking queue isn\u2019t a clean demand signal, Sygnum says",
-      "summary": "<p>Sygnum's Thomas Brunner says Ethereum\u2019s 43-day staking queue reflects mechanics, not just fresh demand from investors.</p>",
-      "link": "https://www.theblock.co/post/410285/ethereum-43-day-staking-queue-isnt-clean-demand-signal-sygnum?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 6,
+      "id": "d9fc8dfbba2bf539e8afca5d4b9ec9ec",
+      "title": "Kumamoto showing early signs of quake recovery as transportation routes resume",
+      "summary": "Shinkansen lines, flights and highways began resuming operations Friday, suggesting the damage to infrastructure was not as devastating as the 2016 temblor.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/31/japan/kumamoto-quake-recovery-signs/",
+      "source": "Japan Times",
+      "score": 1,
       "severity": "LOW",
-      "regime": "CRYPTO",
-      "tickers": [
-        "ETH"
-      ],
+      "regime": "GENERAL",
+      "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-07-31T14:36:33.685748Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-31T14:41:44.726071Z"
     }
   ]
 }
