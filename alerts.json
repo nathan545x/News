@@ -1,33 +1,92 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-31T01:06:48.361781Z",
+  "generated_at": "2026-07-31T01:11:52.970715Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 2,
-    "high_alerts": 0,
-    "last_updated": "2026-07-31T01:06:48.361801Z"
+    "critical_alerts": 1,
+    "high_alerts": 1,
+    "last_updated": "2026-07-31T01:11:52.970728Z"
   },
   "top_signals": [
     {
-      "id": "392f8d8bd11a0a65eea3b2d415377bb1",
-      "title": "CNBC Daily Open: Potential Iran tariffs, data centers and tech comments",
-      "summary": "U.S. President\u00a0Donald Trump wants Congress to add tariffs on Iran to a\u00a0sanctions bill\u00a0against Russia and Tehran that has bipartisan support.",
-      "link": "https://www.cnbc.com/2026/07/31/cnbc-daily-open-potential-iran-tariffs-data-centers-and-tech-talk.html",
-      "source": "CNBC",
-      "score": 37,
+      "id": "f171b8cf411a89fca5c9f3b895bf66f6",
+      "title": "Japan Declines to Confirm Yen Intervention, Hints at US Support",
+      "summary": "Japan\u2019s authorities refrained from confirming that they intervened in the foreign-exchange market during overnight trading after the yen\u2019s sharp rally, while also hinting at some support from overseas counterparts including US officials.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-31/japan-declines-to-confirm-yen-intervention-hints-at-us-support",
+      "source": "Bloomberg",
+      "score": 30,
       "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
+      "regime": "RATES",
+      "tickers": [
+        "JPY"
+      ],
       "regions": [
-        "MIDDLE_EAST",
-        "RUSSIA"
+        "JAPAN"
       ],
       "assets": [
-        "AI"
+        "AI",
+        "FX"
       ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-31T01:11:12.291800Z"
+    },
+    {
+      "id": "8bf844f8eed7a9c9c14872d62c75c45b",
+      "title": "How Leopold Aschenbrenner, the \u2018golden child\u2019 of the AI trade, was laid low",
+      "summary": "The $20bn hedge fund manager\u2019s wild ride ended with a call to Ken Griffin",
+      "link": "https://www.ft.com/content/620bd668-d112-412d-aa52-22489b128d55?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-31T01:11:14.130454Z"
+    },
+    {
+      "id": "53e80c7f61ca13f6a073a7742c76ea81",
+      "title": "Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests",
+      "summary": "One of Anthropic's Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on 15 real systems and stole credentials from a security vendor. It was one of three incidents affecting real companies. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -42,131 +101,86 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-31T01:06:16.494907Z"
-    },
-    {
-      "id": "f5a41d68121aaa82c88fab6b5e08f1cd",
-      "title": "Gulf Oil Exports Struggle to Recover Despite Higher Hormuz Traffic",
-      "summary": "Shipping traffic through the Strait of Hormuz slightly increased as US-Iran negotiations remained ongoing in an effort to restore peace after the memorandum of understanding collapsed amid two weeks of tit-for-tat strikes, according to Pakistan's Foreign Ministry spokesperson Tahir Andrabi, who provided no further details. Still, the security situation in the Gulf deteriorated overnight after the US launched a new wave of strikes on Iran following attacks on US forces in Jordan. Additionally, reports emerged that a US-owned LNG vessel was struck\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/Gulf-Oil-Exports-Struggle-to-Recover-Despite-Higher-Hormuz-Traffic.html",
-      "source": "OilPrice",
-      "score": 32,
-      "severity": "CRITICAL",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-31T01:06:42.292649Z"
-    },
-    {
-      "id": "c8b59d63b9277c4ef86dc20b5493cdd7",
-      "title": "They Watched the Family Business Get Rolled Up. Then They Built the Version They Wanted to Work For.",
-      "summary": "<p>A Business That Did Not Exist Yet In 1997, if a fleet needed a repair, the truck went to a shop. That was the entire menu. That was the year Bob Dickinson started what became Dickinson Fleet Services out of a small operation in Indianapolis, and his grandsons Kyle and Kevin Coltrain grew up around [&#8230;]</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/they-watched-the-family-business-get-rolled-up-then-they-built-the-version-they-wanted-to-work-for\">They Watched the Family Business Get Rolled Up. Then They Built the Version They Wanted to Work For.</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/they-watched-the-family-business-get-rolled-up-then-they-built-the-version-they-wanted-to-work-for",
-      "source": "FreightWaves",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-31T01:06:42.870696Z"
-    },
-    {
-      "id": "6ab4824da0b3b1e25c35055f191afa98",
-      "title": "We're raising our Apple price target, seeing plenty of good despite the memory crunch knocks",
-      "summary": "It was a good but not great quarter as Apple worked to mitigate the memory shortage, which impacted the reported quarter and guidance.",
-      "link": "https://www.cnbc.com/2026/07/30/were-raising-our-apple-price-target-seeing-plenty-of-good-despite-memory-crunch.html",
-      "source": "CNBC",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-31T01:06:16.232317Z"
-    },
-    {
-      "id": "8e25bf50cebc38224cb4229a53d7482d",
-      "title": "Minutes of the Meeting of the Court of Directors held on 4 June 2026",
-      "summary": "The Bank's Court of Directors acts as a unitary board, setting the organisation's strategy and budget and taking key decisions on resourcing and appointments. Required to meet a minimum seven times per year, it has five executive members from the Bank and up to nine non-executive members.",
-      "link": "https://www.bankofengland.co.uk/minutes/2026/july/court-minutes-4-june-2026",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-31T01:06:34.531979Z"
+      "published": "2026-07-31T01:11:49.839583Z"
     }
   ],
   "alerts": [
     {
-      "id": "392f8d8bd11a0a65eea3b2d415377bb1",
-      "title": "CNBC Daily Open: Potential Iran tariffs, data centers and tech comments",
-      "summary": "U.S. President\u00a0Donald Trump wants Congress to add tariffs on Iran to a\u00a0sanctions bill\u00a0against Russia and Tehran that has bipartisan support.",
-      "link": "https://www.cnbc.com/2026/07/31/cnbc-daily-open-potential-iran-tariffs-data-centers-and-tech-talk.html",
-      "source": "CNBC",
-      "score": 37,
+      "id": "f171b8cf411a89fca5c9f3b895bf66f6",
+      "title": "Japan Declines to Confirm Yen Intervention, Hints at US Support",
+      "summary": "Japan\u2019s authorities refrained from confirming that they intervened in the foreign-exchange market during overnight trading after the yen\u2019s sharp rally, while also hinting at some support from overseas counterparts including US officials.",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-31/japan-declines-to-confirm-yen-intervention-hints-at-us-support",
+      "source": "Bloomberg",
+      "score": 30,
       "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
+      "regime": "RATES",
+      "tickers": [
+        "JPY"
+      ],
       "regions": [
-        "MIDDLE_EAST",
-        "RUSSIA"
+        "JAPAN"
       ],
       "assets": [
-        "AI"
+        "AI",
+        "FX"
       ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-07-31T01:11:12.291800Z"
+    },
+    {
+      "id": "8bf844f8eed7a9c9c14872d62c75c45b",
+      "title": "How Leopold Aschenbrenner, the \u2018golden child\u2019 of the AI trade, was laid low",
+      "summary": "The $20bn hedge fund manager\u2019s wild ride ended with a call to Ken Griffin",
+      "link": "https://www.ft.com/content/620bd668-d112-412d-aa52-22489b128d55?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-31T01:11:14.130454Z"
+    },
+    {
+      "id": "53e80c7f61ca13f6a073a7742c76ea81",
+      "title": "Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests",
+      "summary": "One of Anthropic's Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on 15 real systems and stole credentials from a security vendor. It was one of three incidents affecting real companies. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -181,111 +195,7 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-07-31T01:06:16.494907Z"
-    },
-    {
-      "id": "f5a41d68121aaa82c88fab6b5e08f1cd",
-      "title": "Gulf Oil Exports Struggle to Recover Despite Higher Hormuz Traffic",
-      "summary": "Shipping traffic through the Strait of Hormuz slightly increased as US-Iran negotiations remained ongoing in an effort to restore peace after the memorandum of understanding collapsed amid two weeks of tit-for-tat strikes, according to Pakistan's Foreign Ministry spokesperson Tahir Andrabi, who provided no further details. Still, the security situation in the Gulf deteriorated overnight after the US launched a new wave of strikes on Iran following attacks on US forces in Jordan. Additionally, reports emerged that a US-owned LNG vessel was struck\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/Gulf-Oil-Exports-Struggle-to-Recover-Despite-Higher-Hormuz-Traffic.html",
-      "source": "OilPrice",
-      "score": 32,
-      "severity": "CRITICAL",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-31T01:06:42.292649Z"
-    },
-    {
-      "id": "c8b59d63b9277c4ef86dc20b5493cdd7",
-      "title": "They Watched the Family Business Get Rolled Up. Then They Built the Version They Wanted to Work For.",
-      "summary": "<p>A Business That Did Not Exist Yet In 1997, if a fleet needed a repair, the truck went to a shop. That was the entire menu. That was the year Bob Dickinson started what became Dickinson Fleet Services out of a small operation in Indianapolis, and his grandsons Kyle and Kevin Coltrain grew up around [&#8230;]</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/they-watched-the-family-business-get-rolled-up-then-they-built-the-version-they-wanted-to-work-for\">They Watched the Family Business Get Rolled Up. Then They Built the Version They Wanted to Work For.</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/they-watched-the-family-business-get-rolled-up-then-they-built-the-version-they-wanted-to-work-for",
-      "source": "FreightWaves",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-07-31T01:06:42.870696Z"
-    },
-    {
-      "id": "6ab4824da0b3b1e25c35055f191afa98",
-      "title": "We're raising our Apple price target, seeing plenty of good despite the memory crunch knocks",
-      "summary": "It was a good but not great quarter as Apple worked to mitigate the memory shortage, which impacted the reported quarter and guidance.",
-      "link": "https://www.cnbc.com/2026/07/30/were-raising-our-apple-price-target-seeing-plenty-of-good-despite-memory-crunch.html",
-      "source": "CNBC",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-31T01:06:16.232317Z"
-    },
-    {
-      "id": "8e25bf50cebc38224cb4229a53d7482d",
-      "title": "Minutes of the Meeting of the Court of Directors held on 4 June 2026",
-      "summary": "The Bank's Court of Directors acts as a unitary board, setting the organisation's strategy and budget and taking key decisions on resourcing and appointments. Required to meet a minimum seven times per year, it has five executive members from the Bank and up to nine non-executive members.",
-      "link": "https://www.bankofengland.co.uk/minutes/2026/july/court-minutes-4-june-2026",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-31T01:06:34.531979Z"
+      "published": "2026-07-31T01:11:49.839583Z"
     }
   ]
 }
