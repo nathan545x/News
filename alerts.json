@@ -1,36 +1,28 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-07-31T12:21:54.318061Z",
+  "generated_at": "2026-07-31T12:26:38.244441Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-07-31T12:21:54.318069Z"
+    "critical_alerts": 0,
+    "high_alerts": 4,
+    "last_updated": "2026-07-31T12:26:38.244459Z"
   },
   "top_signals": [
     {
-      "id": "9c6cb00a47a2188865a530a8fa6c90c3",
-      "title": "Chip Rebound, Amazon Results Bolster Stock Rally | Bloomberg Brief 07/31/26",
-      "summary": "US equity futures gain after chipmakers including Samsung and SK Hynix rebounded and Amazon posted strong earnings. The Bank of Japan keeps its policy rate unchanged following a currency intervention, which strengthened the yen against the dollar. Jane Foley of Rabobank discusses this week's central bank rate decisions. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-07-31/bloomberg-brief-07-31-26-video",
-      "source": "Bloomberg",
-      "score": 29,
-      "severity": "CRITICAL",
+      "id": "060917bc73bfa966b3724ede5e753a4e",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
       "regime": "RATES",
-      "tickers": [
-        "DXY",
-        "JPY"
-      ],
-      "regions": [
-        "JAPAN"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -43,15 +35,107 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-31T12:21:11.530536Z"
+      "published": "2026-07-31T12:26:10.580157Z"
     },
     {
-      "id": "f6063fc8ccd4c5a13f181be599909f26",
-      "title": "Maruti Suzuki\u2019s Profit Disappoints as High Input Costs Bite",
-      "summary": "Maruti Suzuki India Ltd.\u2019s profit again missed analysts\u2019 estimates as rising commodity costs offset a robust revenue growth and healthy jump in exports.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-31/maruti-suzuki-misses-profit-estimate-as-higher-input-costs-bite",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "a6187373b620593ae93b014259874951",
+      "title": "Caspian Oil Pipeline Shuts Down Again After Black Sea Drone Attack",
+      "summary": "The Caspian Pipeline Consortium has shut down again, following Ukrainian drone attacks on two tankers at the Russian Black Sea port of Novorossiysk, Reuters reported, citing the company operating the pipeline. According to the operator of the pipeline, the drone attacks hit two tankers loading at Novorossiysk, causing fire on one of them. Following the release of the news, five tankers bound for Novorossiysk redirected to Turkey and Spain, or changed their status to \u201cfor orders\u201d, Reuters reported. This is the third shutdown of the CPC\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Caspian-Oil-Pipeline-Shuts-Down-Again-After-Black-Sea-Drone-Attack.html",
+      "source": "OilPrice",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "RUSSIA",
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-31T12:26:32.751566Z"
+    },
+    {
+      "id": "55cbf47195a03d6d9cbda6216979adf1",
+      "title": "How Wall Street\u2019s litigators finally became superstar lawyers",
+      "summary": "Gibson Dunn\u2019s move on a group of Wachtell litigation partners has expanded the law firms\u2019 talent war beyond dealmakers",
+      "link": "https://www.ft.com/content/1023c8a4-fbb9-45ee-84ef-71b5fd48a1dd?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-31T12:26:09.315895Z"
+    },
+    {
+      "id": "9677a1785e1845a3f41dff2e7ab7832e",
+      "title": "Amazon links Debug, Chalk NPM supply-chain attacks to North Korean hackers",
+      "summary": "Amazon linked multiple high-profile open-source software supply chain attacks targeting the Node Package Manager (npm) ecosystem to North Korean hackers. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-31T12:26:35.132135Z"
+    },
+    {
+      "id": "672acf6338246753e05e48c17921ee66",
+      "title": "The role of research in Prudential Regulation \u2212 speech by David Bailey",
+      "summary": "Given at IFABS 2026 London",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/david-bailey-speech-at-the-international-finance-and-banking-society-conference",
+      "source": "Bank of England",
+      "score": 14,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
@@ -70,16 +154,16 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-31T12:21:11.530445Z"
+      "published": "2026-07-31T12:26:27.106233Z"
     },
     {
-      "id": "50ee42c6b5e1ddcda2e39a742e33d6ee",
-      "title": "Anthropic says its AI hacked real-world companies in three incidents",
-      "summary": "Claude maker Anthropic said its AI models escaped test environments and breached networks at three companies on the open internet.",
-      "link": "https://therecord.media/anthropic-ai-hacked-three-real-companies",
-      "source": "The Record",
-      "score": 5,
-      "severity": "LOW",
+      "id": "1cd5e0b33eb3a7b39433331fa8c98ec2",
+      "title": "EV prices aren't following the 'law of used cars,' analyst says \u2014 what it means for buyers and sellers",
+      "summary": "The prices for used electric vehicles have risen this year, which is unusual, experts said. Affordability and high gas prices help explain why, they said.",
+      "link": "https://www.cnbc.com/2026/07/31/used-ev-prices.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -95,48 +179,101 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-31T12:21:51.635406Z"
+      "published": "2026-07-31T12:26:10.191752Z"
     },
     {
-      "id": "cbf909932261e1effaa4d2cfa582215b",
-      "title": "Stocks making the biggest moves premarket: Replimune, Chevron, Apple, Amazon, Moderna & more - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPYXN0ejlpRGNGQXd2dTYyb2w2cW5VV0VfaEI4QXpUYnhWWF9RZEdSMlJSclNhZE50VnY5M0ZkOU5BRWJkNDVTZ3pIVjRCZ2NqQm1rVk5ZcEJNa0E3WHY4dTI4bUVBRDdfN2JGdGNLLUoxdkx4c3B4cS0zZmpSYmpDZXhCal9YU09BV2xkQmhSWTBZNnQwYkxHWnBQNkt2Y09fZ2NGNw?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: Replimune, Chevron, Apple, Amazon, Moderna & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYXN0ejlpRGNGQXd2dTYyb2w2cW5VV0VfaEI4QXpUYnhWWF9RZEdSMlJSclNhZE50VnY5M0ZkOU5BRWJkNDVTZ3pIVjRCZ2NqQm1rVk5ZcEJNa0E3WHY4dTI4bUVBRDdfN2JGdGNLLUoxdkx4c3B4cS0zZmpSYmpDZXhCal9YU09BV2xkQmhSWTBZNnQwYkxHWnBQNkt2Y09fZ2NGNw?oc=5",
-      "source": "Google Macro",
+      "id": "54ca4e3432dc8a2c0043751e5f083692",
+      "title": "Testing times require time for testing \u2212 speech by Ruth Smith",
+      "summary": "Given at UK Finance",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/ruth-smith-speech-at-uk-finance",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-31T12:26:27.106282Z"
+    },
+    {
+      "id": "fe45705ea56a2bccaac0b99ffa2af4bc",
+      "title": "BP puts its UK North Sea business up for sale",
+      "summary": "Decision to market assets comes after talks with Ithaca Energy",
+      "link": "https://www.ft.com/content/420ea1bc-6f85-4065-ad76-61e685aa1de2?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-31T12:26:09.037720Z"
+    },
+    {
+      "id": "2d9961ffea6d2d93e804db0ee80bf9b1",
+      "title": "Cyber extortionists steal data from UK Department for Education",
+      "summary": "Cybercriminals are attempting to extort Britain\u2019s Department for Education (DfE) after compromising what the hackers said was more than 600,000 pieces of data allegedly including names, email addresses and phone numbers.",
+      "link": "https://therecord.media/united-kingdom-ransomware-education",
+      "source": "The Record",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-31T12:26:35.501136Z"
+    },
+    {
+      "id": "d3373ed4bc77401f8079966a8de23665",
+      "title": "Osaka police arrest two Vietnamese men over illegal e-bike conversions",
+      "summary": "The two men were suspected of fitting e-bikes with throttles that made them run twice as fast without the need to pedal.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/31/japan/crime-legal/vietnamese-arrest-bike-conversions/",
+      "source": "Japan Times",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "EQUITIES"
-      ],
+      "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-31T12:21:54.318012Z"
+      "published": "2026-07-31T12:26:30.552182Z"
     }
   ],
   "alerts": [
     {
-      "id": "9c6cb00a47a2188865a530a8fa6c90c3",
-      "title": "Chip Rebound, Amazon Results Bolster Stock Rally | Bloomberg Brief 07/31/26",
-      "summary": "US equity futures gain after chipmakers including Samsung and SK Hynix rebounded and Amazon posted strong earnings. The Bank of Japan keeps its policy rate unchanged following a currency intervention, which strengthened the yen against the dollar. Jane Foley of Rabobank discusses this week's central bank rate decisions. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-07-31/bloomberg-brief-07-31-26-video",
-      "source": "Bloomberg",
-      "score": 29,
-      "severity": "CRITICAL",
+      "id": "060917bc73bfa966b3724ede5e753a4e",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
       "regime": "RATES",
-      "tickers": [
-        "DXY",
-        "JPY"
-      ],
-      "regions": [
-        "JAPAN"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -149,15 +286,107 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-07-31T12:21:11.530536Z"
+      "published": "2026-07-31T12:26:10.580157Z"
     },
     {
-      "id": "f6063fc8ccd4c5a13f181be599909f26",
-      "title": "Maruti Suzuki\u2019s Profit Disappoints as High Input Costs Bite",
-      "summary": "Maruti Suzuki India Ltd.\u2019s profit again missed analysts\u2019 estimates as rising commodity costs offset a robust revenue growth and healthy jump in exports.",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-31/maruti-suzuki-misses-profit-estimate-as-higher-input-costs-bite",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "a6187373b620593ae93b014259874951",
+      "title": "Caspian Oil Pipeline Shuts Down Again After Black Sea Drone Attack",
+      "summary": "The Caspian Pipeline Consortium has shut down again, following Ukrainian drone attacks on two tankers at the Russian Black Sea port of Novorossiysk, Reuters reported, citing the company operating the pipeline. According to the operator of the pipeline, the drone attacks hit two tankers loading at Novorossiysk, causing fire on one of them. Following the release of the news, five tankers bound for Novorossiysk redirected to Turkey and Spain, or changed their status to \u201cfor orders\u201d, Reuters reported. This is the third shutdown of the CPC\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Caspian-Oil-Pipeline-Shuts-Down-Again-After-Black-Sea-Drone-Attack.html",
+      "source": "OilPrice",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "RUSSIA",
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-07-31T12:26:32.751566Z"
+    },
+    {
+      "id": "55cbf47195a03d6d9cbda6216979adf1",
+      "title": "How Wall Street\u2019s litigators finally became superstar lawyers",
+      "summary": "Gibson Dunn\u2019s move on a group of Wachtell litigation partners has expanded the law firms\u2019 talent war beyond dealmakers",
+      "link": "https://www.ft.com/content/1023c8a4-fbb9-45ee-84ef-71b5fd48a1dd?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-31T12:26:09.315895Z"
+    },
+    {
+      "id": "9677a1785e1845a3f41dff2e7ab7832e",
+      "title": "Amazon links Debug, Chalk NPM supply-chain attacks to North Korean hackers",
+      "summary": "Amazon linked multiple high-profile open-source software supply chain attacks targeting the Node Package Manager (npm) ecosystem to North Korean hackers. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-07-31T12:26:35.132135Z"
+    },
+    {
+      "id": "672acf6338246753e05e48c17921ee66",
+      "title": "The role of research in Prudential Regulation \u2212 speech by David Bailey",
+      "summary": "Given at IFABS 2026 London",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/david-bailey-speech-at-the-international-finance-and-banking-society-conference",
+      "source": "Bank of England",
+      "score": 14,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
@@ -176,16 +405,16 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-31T12:21:11.530445Z"
+      "published": "2026-07-31T12:26:27.106233Z"
     },
     {
-      "id": "50ee42c6b5e1ddcda2e39a742e33d6ee",
-      "title": "Anthropic says its AI hacked real-world companies in three incidents",
-      "summary": "Claude maker Anthropic said its AI models escaped test environments and breached networks at three companies on the open internet.",
-      "link": "https://therecord.media/anthropic-ai-hacked-three-real-companies",
-      "source": "The Record",
-      "score": 5,
-      "severity": "LOW",
+      "id": "1cd5e0b33eb3a7b39433331fa8c98ec2",
+      "title": "EV prices aren't following the 'law of used cars,' analyst says \u2014 what it means for buyers and sellers",
+      "summary": "The prices for used electric vehicles have risen this year, which is unusual, experts said. Affordability and high gas prices help explain why, they said.",
+      "link": "https://www.cnbc.com/2026/07/31/used-ev-prices.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -201,25 +430,86 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-07-31T12:21:51.635406Z"
+      "published": "2026-07-31T12:26:10.191752Z"
     },
     {
-      "id": "cbf909932261e1effaa4d2cfa582215b",
-      "title": "Stocks making the biggest moves premarket: Replimune, Chevron, Apple, Amazon, Moderna & more - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPYXN0ejlpRGNGQXd2dTYyb2w2cW5VV0VfaEI4QXpUYnhWWF9RZEdSMlJSclNhZE50VnY5M0ZkOU5BRWJkNDVTZ3pIVjRCZ2NqQm1rVk5ZcEJNa0E3WHY4dTI4bUVBRDdfN2JGdGNLLUoxdkx4c3B4cS0zZmpSYmpDZXhCal9YU09BV2xkQmhSWTBZNnQwYkxHWnBQNkt2Y09fZ2NGNw?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: Replimune, Chevron, Apple, Amazon, Moderna & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYXN0ejlpRGNGQXd2dTYyb2w2cW5VV0VfaEI4QXpUYnhWWF9RZEdSMlJSclNhZE50VnY5M0ZkOU5BRWJkNDVTZ3pIVjRCZ2NqQm1rVk5ZcEJNa0E3WHY4dTI4bUVBRDdfN2JGdGNLLUoxdkx4c3B4cS0zZmpSYmpDZXhCal9YU09BV2xkQmhSWTBZNnQwYkxHWnBQNkt2Y09fZ2NGNw?oc=5",
-      "source": "Google Macro",
+      "id": "54ca4e3432dc8a2c0043751e5f083692",
+      "title": "Testing times require time for testing \u2212 speech by Ruth Smith",
+      "summary": "Given at UK Finance",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/ruth-smith-speech-at-uk-finance",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-31T12:26:27.106282Z"
+    },
+    {
+      "id": "fe45705ea56a2bccaac0b99ffa2af4bc",
+      "title": "BP puts its UK North Sea business up for sale",
+      "summary": "Decision to market assets comes after talks with Ithaca Energy",
+      "link": "https://www.ft.com/content/420ea1bc-6f85-4065-ad76-61e685aa1de2?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-07-31T12:26:09.037720Z"
+    },
+    {
+      "id": "2d9961ffea6d2d93e804db0ee80bf9b1",
+      "title": "Cyber extortionists steal data from UK Department for Education",
+      "summary": "Cybercriminals are attempting to extort Britain\u2019s Department for Education (DfE) after compromising what the hackers said was more than 600,000 pieces of data allegedly including names, email addresses and phone numbers.",
+      "link": "https://therecord.media/united-kingdom-ransomware-education",
+      "source": "The Record",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-07-31T12:26:35.501136Z"
+    },
+    {
+      "id": "d3373ed4bc77401f8079966a8de23665",
+      "title": "Osaka police arrest two Vietnamese men over illegal e-bike conversions",
+      "summary": "The two men were suspected of fitting e-bikes with throttles that made them run twice as fast without the need to pedal.",
+      "link": "https://www.japantimes.co.jp/news/2026/07/31/japan/crime-legal/vietnamese-arrest-bike-conversions/",
+      "source": "Japan Times",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "EQUITIES"
-      ],
+      "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-07-31T12:21:54.318012Z"
+      "published": "2026-07-31T12:26:30.552182Z"
     }
   ]
 }
