@@ -1,29 +1,59 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-02T14:31:59.654325Z",
+  "generated_at": "2026-08-02T14:36:42.379182Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 0,
-    "last_updated": "2026-08-02T14:31:59.654340Z"
+    "last_updated": "2026-08-02T14:36:42.379195Z"
   },
   "top_signals": [
     {
-      "id": "06239948d3c9f02ea8e727947eca160d",
-      "title": "Budget to move \u201cpower and money out of Westminster, and into every postcode around Britain\u201d.",
-      "summary": "Today (Friday 31 July), the Chancellor has confirmed that the date of the Budget will be Wednesday 28 October.",
-      "link": "https://www.gov.uk/government/news/budget-to-move-power-and-money-out-of-westminster-and-into-every-postcode-around-britain",
-      "source": "HM Treasury",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "AI",
+      "id": "3d5028cdb848a2bf5f65cc747bae8d8a",
+      "title": "Trump says he cancelled Iran strikes at request of Middle East nations",
+      "summary": "US president claims \u2018perimeters of a deal\u2019 to end conflict have been agreed days after he threatened to attack",
+      "link": "https://www.ft.com/content/9cb84920-075e-4fa4-b1cb-dfc55d5845f4?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 36,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "UK"
+        "MIDDLE_EAST"
       ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-02T14:36:10.525374Z"
+    },
+    {
+      "id": "25c219df96dd78f33bb1d9bc4c7f2799",
+      "title": "Rails patches critical Active Storage flaw with RCE potential",
+      "summary": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -36,77 +66,53 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-02T14:31:45.064159Z"
-    },
-    {
-      "id": "2b2d11cbcaa5ecaaef4eb6e1e8bbb1bb",
-      "title": "Digital euro app to incorporate highest accessibility standards",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260730~3b3bfbb565.en.html",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-02T14:31:39.851710Z"
-    },
-    {
-      "id": "fac1e88097e7de861efce1688e1d88e6",
-      "title": "Hungary braced for power cuts amid extreme drought",
-      "summary": "Record-low water levels on Danube force country\u2019s first shutdown of nuclear power plant",
-      "link": "https://www.ft.com/content/a4539dc2-dcb0-4b57-9a78-c32cb1f9eda1?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-02T14:31:27.081507Z"
-    },
-    {
-      "id": "9e1175e336541f2c8c0591d4f42d769a",
-      "title": "Alphabet, Amazon and Microsoft added nearly $1.5 trillion in combined value this week",
-      "summary": "Amazon, Microsoft and Google added hundreds of billions of dollars to their market caps, while Apple and Meta saw their market valuations fall.",
-      "link": "https://www.cnbc.com/2026/07/31/apple-aapl-amazon-amzn-stock-today.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [
-        "DXY"
-      ],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-02T14:31:28.219156Z"
+      "published": "2026-08-02T14:36:39.301614Z"
     }
   ],
   "alerts": [
     {
-      "id": "06239948d3c9f02ea8e727947eca160d",
-      "title": "Budget to move \u201cpower and money out of Westminster, and into every postcode around Britain\u201d.",
-      "summary": "Today (Friday 31 July), the Chancellor has confirmed that the date of the Budget will be Wednesday 28 October.",
-      "link": "https://www.gov.uk/government/news/budget-to-move-power-and-money-out-of-westminster-and-into-every-postcode-around-britain",
-      "source": "HM Treasury",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "AI",
+      "id": "3d5028cdb848a2bf5f65cc747bae8d8a",
+      "title": "Trump says he cancelled Iran strikes at request of Middle East nations",
+      "summary": "US president claims \u2018perimeters of a deal\u2019 to end conflict have been agreed days after he threatened to attack",
+      "link": "https://www.ft.com/content/9cb84920-075e-4fa4-b1cb-dfc55d5845f4?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 36,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "UK"
+        "MIDDLE_EAST"
       ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-02T14:36:10.525374Z"
+    },
+    {
+      "id": "25c219df96dd78f33bb1d9bc4c7f2799",
+      "title": "Rails patches critical Active Storage flaw with RCE potential",
+      "summary": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -119,61 +125,7 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-02T14:31:45.064159Z"
-    },
-    {
-      "id": "2b2d11cbcaa5ecaaef4eb6e1e8bbb1bb",
-      "title": "Digital euro app to incorporate highest accessibility standards",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260730~3b3bfbb565.en.html",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-02T14:31:39.851710Z"
-    },
-    {
-      "id": "fac1e88097e7de861efce1688e1d88e6",
-      "title": "Hungary braced for power cuts amid extreme drought",
-      "summary": "Record-low water levels on Danube force country\u2019s first shutdown of nuclear power plant",
-      "link": "https://www.ft.com/content/a4539dc2-dcb0-4b57-9a78-c32cb1f9eda1?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-02T14:31:27.081507Z"
-    },
-    {
-      "id": "9e1175e336541f2c8c0591d4f42d769a",
-      "title": "Alphabet, Amazon and Microsoft added nearly $1.5 trillion in combined value this week",
-      "summary": "Amazon, Microsoft and Google added hundreds of billions of dollars to their market caps, while Apple and Meta saw their market valuations fall.",
-      "link": "https://www.cnbc.com/2026/07/31/apple-aapl-amazon-amzn-stock-today.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [
-        "DXY"
-      ],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-02T14:31:28.219156Z"
+      "published": "2026-08-02T14:36:39.301614Z"
     }
   ]
 }
