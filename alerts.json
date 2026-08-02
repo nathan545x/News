@@ -1,93 +1,101 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-02T23:11:53.324254Z",
+  "generated_at": "2026-08-02T23:17:24.071628Z",
   "market_regime": {
-    "regime": "SYSTEMIC",
-    "dominant_driver": "SYSTEMIC",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-08-02T23:11:53.324268Z"
+    "critical_alerts": 0,
+    "high_alerts": 3,
+    "last_updated": "2026-08-02T23:17:24.071643Z"
   },
   "top_signals": [
     {
-      "id": "9942a91b712ebf519489d34bfe3193cd",
-      "title": "Record Vaca Muerta Output Fails to Lift Argentina\u2019s Wider Economy",
-      "summary": "Argentina\u2019s Vaca Muerta is booming as the key shale province outside the United States has seen record oil and near-record natural gas production in recent months. Vaca Muerta\u2019s fortunes, however, appear to be confined so far to the area in which the shale patch is located, the province of Neuqu\u00e9n in the western region of Patagonia. The rest of Argentina continues to struggle with sluggish growth, high inflation, weak consumer spending, and business and mortgage defaults, all the while South America\u2019s second-largest economy\u2026",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Record-Vaca-Muerta-Output-Fails-to-Lift-Argentinas-Wider-Economy.html",
-      "source": "OilPrice",
-      "score": 31,
-      "severity": "CRITICAL",
-      "regime": "SYSTEMIC",
+      "id": "78b15e01209021739fd2b91306f22e26",
+      "title": "Bessent Says More Steps Possible on Yen as Trump Praises Japan",
+      "summary": "US Treasury Scott Bessent said that the US stepped in to help fight \u201cdisorderly\u201d movements in the yen and is ready to keep helping Japan, while President Donald Trump said the currency-market intervention was a sign of friendship with Tokyo.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-02/trump-says-yen-intervention-is-signal-of-friendship-with-japan",
+      "source": "Bloomberg",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "JPY",
+        "TLT"
       ],
       "regions": [
-        "US"
+        "JAPAN"
       ],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "FX",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-02T23:16:12.822324Z"
+    },
+    {
+      "id": "bd998dc62db1f16fb85f5ae95a1ff1d2",
+      "title": "Trump says Iran talks to begin Monday after scrapping attack",
+      "summary": "The U.S. president said that the Saudi crown prince told him over the weekend that he preferred continued talks to the planned strikes.",
+      "link": "https://www.japantimes.co.jp/news/2026/08/03/world/politics/trump-iran-strikes-hormuz-deal/",
+      "source": "Japan Times",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
       ],
       "market_impact": {
         "bullish": [
           "XAU",
-          "JPY"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BANKS",
-          "SPY"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
-      "published": "2026-08-02T23:11:46.258797Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-02T23:16:37.593354Z"
     },
     {
-      "id": "bf2915fc28a7574a27ae6ee768d1f659",
-      "title": "PRA consults on updated guidance for friendly society amalgamations and transfers",
-      "summary": "The proposals would provide more detail on the PRA\u2019s approach to Part VIII transactions, helping firms plan amalgamations and transfers more efficiently.",
-      "link": "https://www.bankofengland.co.uk/news/2026/july/pra-consults-on-updated-guidance-for-friendly-society-amalgamations-and-transfers",
-      "source": "Bank of England",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
+      "id": "7bdbf53bd608b1f065a8fb5760f8897d",
+      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+      "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.",
+      "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+      "source": "KrebsOnSecurity",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "DXY"
+      ],
       "regions": [],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-02T23:11:38.694876Z"
-    },
-    {
-      "id": "b8e86ebc7c9760d26cdc682691cb7520",
-      "title": "Finland's Sand Battery Cuts Emissions 70% Without a Single Rare Earth",
-      "summary": "Europe is falling far behind on energy storage installation exactly when it\u2019s most needed. The continent\u2019s energy security is under significant threat as it contends with its third energy crisis in four years thanks to the region\u2019s over-reliance on imported fossil fuels. While the European Union has made major inroads toward adding solar and wind capacity to help diversify the bloc\u2019s energy mix, energy storage capacities have lagged behind, creating new vulnerabilities for the grid and for energy markets alike. \u201cWithout\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/Finlands-Sand-Battery-Cuts-Emissions-70-Without-a-Single-Rare-Earth.html",
-      "source": "OilPrice",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
           "XAU",
           "WTI",
           "DXY",
@@ -100,201 +108,123 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-02T23:11:46.258923Z"
+      "published": "2026-08-02T23:17:16.188398Z"
     },
     {
-      "id": "84812daa6b7129961c009ec3fabd65a3",
-      "title": "Guidance: Orange Book",
-      "summary": "This guidance establishes the concept of risk management.",
-      "link": "https://www.gov.uk/government/publications/orange-book",
-      "source": "HM Treasury",
+      "id": "99669d78db00a9ef1e17a56701392c22",
+      "title": "FCA crypto crackdown will \u2018wipe out\u2019 bad actors, says Coinbase boss",
+      "summary": "<p> <img alt=\"Coinbase has welcomed the FCA crackdown\" src=\"https://www.cityam.com/wp-content/uploads/2023/06/GettyImages-1238185137-e1721901649290.jpg?w=1107\" /> </p>The financial watchdog\u2019s clampdown on digital assets will remove bad actors and attract more customers, The UK boss of one of the world\u2019s largest crypto platforms has said. Keith Grose, UK chief executive of Coinbase, said the rules outlined by the Financial Conduct Authority (FCA) earlier this month will \u201cwipe out\u201d firms who do not <a href=\"https://www.cityam.com/fca-crypto-crackdown-will-wipe-out-bad-actors-says-coinbase-boss/\">[...]</a>",
+      "link": "https://www.cityam.com/fca-crypto-crackdown-will-wipe-out-bad-actors-says-coinbase-boss/",
+      "source": "CityAM",
       "score": 10,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-02T23:11:39.892081Z"
-    },
-    {
-      "id": "bcc06b8d6016a7e67cb8ad4c5d5f32ce",
-      "title": "The Ambiguity Spiral in Iran",
-      "summary": "How Trump\u2019s lack of clarity leads to escalation.",
-      "link": "https://www.foreignaffairs.com/united-states/ambiguity-spiral-iran",
-      "source": "Foreign Affairs",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
+      "regime": "CRYPTO",
       "tickers": [],
       "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-02T23:11:48.383135Z"
-    },
-    {
-      "id": "a96a249699781c94f2095e2fe5dcd20f",
-      "title": "Why a Weaker Russia Keeps Fighting",
-      "summary": "Putin sees little need to negotiate.",
-      "link": "https://www.foreignaffairs.com/ukraine/why-weaker-russia-keeps-fighting",
-      "source": "Foreign Affairs",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "RUSSIA"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-02T23:11:48.383173Z"
-    },
-    {
-      "id": "6e26df996d68a3787db55766b901e189",
-      "title": "Tokenized stock trading surged 288% in July, but one QQQ token drove most of it",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/01/tokenized-stock-trading-surged-288-in-july-but-one-qqq-token-drove-most-of-it",
-      "source": "CoinDesk",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-02T23:11:48.956594Z"
-    },
-    {
-      "id": "2635c7ddadbd1491606a7af684118e37",
-      "title": "Helicopter collision shows perils of fighting Europe\u2019s wildfires",
-      "summary": "Video footage showed one helicopter strike the other from above, sending it crashing in flames to the ground.",
-      "link": "https://www.japantimes.co.jp/news/2026/08/03/world/helicopter-collision-europe-wildfires/",
-      "source": "Japan Times",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
+        "UK"
       ],
       "assets": [
-        "FX"
+        "AI"
       ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-02T23:11:44.141880Z"
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-08-02T23:16:34.872929Z"
     }
   ],
   "alerts": [
     {
-      "id": "9942a91b712ebf519489d34bfe3193cd",
-      "title": "Record Vaca Muerta Output Fails to Lift Argentina\u2019s Wider Economy",
-      "summary": "Argentina\u2019s Vaca Muerta is booming as the key shale province outside the United States has seen record oil and near-record natural gas production in recent months. Vaca Muerta\u2019s fortunes, however, appear to be confined so far to the area in which the shale patch is located, the province of Neuqu\u00e9n in the western region of Patagonia. The rest of Argentina continues to struggle with sluggish growth, high inflation, weak consumer spending, and business and mortgage defaults, all the while South America\u2019s second-largest economy\u2026",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Record-Vaca-Muerta-Output-Fails-to-Lift-Argentinas-Wider-Economy.html",
-      "source": "OilPrice",
-      "score": 31,
-      "severity": "CRITICAL",
-      "regime": "SYSTEMIC",
+      "id": "78b15e01209021739fd2b91306f22e26",
+      "title": "Bessent Says More Steps Possible on Yen as Trump Praises Japan",
+      "summary": "US Treasury Scott Bessent said that the US stepped in to help fight \u201cdisorderly\u201d movements in the yen and is ready to keep helping Japan, while President Donald Trump said the currency-market intervention was a sign of friendship with Tokyo.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-02/trump-says-yen-intervention-is-signal-of-friendship-with-japan",
+      "source": "Bloomberg",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "JPY",
+        "TLT"
       ],
       "regions": [
-        "US"
+        "JAPAN"
       ],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "FX",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-02T23:16:12.822324Z"
+    },
+    {
+      "id": "bd998dc62db1f16fb85f5ae95a1ff1d2",
+      "title": "Trump says Iran talks to begin Monday after scrapping attack",
+      "summary": "The U.S. president said that the Saudi crown prince told him over the weekend that he preferred continued talks to the planned strikes.",
+      "link": "https://www.japantimes.co.jp/news/2026/08/03/world/politics/trump-iran-strikes-hormuz-deal/",
+      "source": "Japan Times",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
       ],
       "market_impact": {
         "bullish": [
           "XAU",
-          "JPY"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BANKS",
-          "SPY"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
-      "published": "2026-08-02T23:11:46.258797Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-02T23:16:37.593354Z"
     },
     {
-      "id": "bf2915fc28a7574a27ae6ee768d1f659",
-      "title": "PRA consults on updated guidance for friendly society amalgamations and transfers",
-      "summary": "The proposals would provide more detail on the PRA\u2019s approach to Part VIII transactions, helping firms plan amalgamations and transfers more efficiently.",
-      "link": "https://www.bankofengland.co.uk/news/2026/july/pra-consults-on-updated-guidance-for-friendly-society-amalgamations-and-transfers",
-      "source": "Bank of England",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
+      "id": "7bdbf53bd608b1f065a8fb5760f8897d",
+      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+      "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.",
+      "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+      "source": "KrebsOnSecurity",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "DXY"
+      ],
       "regions": [],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-02T23:11:38.694876Z"
-    },
-    {
-      "id": "b8e86ebc7c9760d26cdc682691cb7520",
-      "title": "Finland's Sand Battery Cuts Emissions 70% Without a Single Rare Earth",
-      "summary": "Europe is falling far behind on energy storage installation exactly when it\u2019s most needed. The continent\u2019s energy security is under significant threat as it contends with its third energy crisis in four years thanks to the region\u2019s over-reliance on imported fossil fuels. While the European Union has made major inroads toward adding solar and wind capacity to help diversify the bloc\u2019s energy mix, energy storage capacities have lagged behind, creating new vulnerabilities for the grid and for energy markets alike. \u201cWithout\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/Finlands-Sand-Battery-Cuts-Emissions-70-Without-a-Single-Rare-Earth.html",
-      "source": "OilPrice",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
           "XAU",
           "WTI",
           "DXY",
@@ -307,121 +237,35 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-02T23:11:46.258923Z"
+      "published": "2026-08-02T23:17:16.188398Z"
     },
     {
-      "id": "84812daa6b7129961c009ec3fabd65a3",
-      "title": "Guidance: Orange Book",
-      "summary": "This guidance establishes the concept of risk management.",
-      "link": "https://www.gov.uk/government/publications/orange-book",
-      "source": "HM Treasury",
+      "id": "99669d78db00a9ef1e17a56701392c22",
+      "title": "FCA crypto crackdown will \u2018wipe out\u2019 bad actors, says Coinbase boss",
+      "summary": "<p> <img alt=\"Coinbase has welcomed the FCA crackdown\" src=\"https://www.cityam.com/wp-content/uploads/2023/06/GettyImages-1238185137-e1721901649290.jpg?w=1107\" /> </p>The financial watchdog\u2019s clampdown on digital assets will remove bad actors and attract more customers, The UK boss of one of the world\u2019s largest crypto platforms has said. Keith Grose, UK chief executive of Coinbase, said the rules outlined by the Financial Conduct Authority (FCA) earlier this month will \u201cwipe out\u201d firms who do not <a href=\"https://www.cityam.com/fca-crypto-crackdown-will-wipe-out-bad-actors-says-coinbase-boss/\">[...]</a>",
+      "link": "https://www.cityam.com/fca-crypto-crackdown-will-wipe-out-bad-actors-says-coinbase-boss/",
+      "source": "CityAM",
       "score": 10,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-02T23:11:39.892081Z"
-    },
-    {
-      "id": "bcc06b8d6016a7e67cb8ad4c5d5f32ce",
-      "title": "The Ambiguity Spiral in Iran",
-      "summary": "How Trump\u2019s lack of clarity leads to escalation.",
-      "link": "https://www.foreignaffairs.com/united-states/ambiguity-spiral-iran",
-      "source": "Foreign Affairs",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
+      "regime": "CRYPTO",
       "tickers": [],
       "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-02T23:11:48.383135Z"
-    },
-    {
-      "id": "a96a249699781c94f2095e2fe5dcd20f",
-      "title": "Why a Weaker Russia Keeps Fighting",
-      "summary": "Putin sees little need to negotiate.",
-      "link": "https://www.foreignaffairs.com/ukraine/why-weaker-russia-keeps-fighting",
-      "source": "Foreign Affairs",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "RUSSIA"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-02T23:11:48.383173Z"
-    },
-    {
-      "id": "6e26df996d68a3787db55766b901e189",
-      "title": "Tokenized stock trading surged 288% in July, but one QQQ token drove most of it",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/01/tokenized-stock-trading-surged-288-in-july-but-one-qqq-token-drove-most-of-it",
-      "source": "CoinDesk",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-02T23:11:48.956594Z"
-    },
-    {
-      "id": "2635c7ddadbd1491606a7af684118e37",
-      "title": "Helicopter collision shows perils of fighting Europe\u2019s wildfires",
-      "summary": "Video footage showed one helicopter strike the other from above, sending it crashing in flames to the ground.",
-      "link": "https://www.japantimes.co.jp/news/2026/08/03/world/helicopter-collision-europe-wildfires/",
-      "source": "Japan Times",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
+        "UK"
       ],
       "assets": [
-        "FX"
+        "AI"
       ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-02T23:11:44.141880Z"
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-08-02T23:16:34.872929Z"
     }
   ]
 }
