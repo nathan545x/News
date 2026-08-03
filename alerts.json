@@ -1,24 +1,77 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-03T02:31:54.398385Z",
+  "generated_at": "2026-08-03T02:37:22.165733Z",
   "market_regime": {
-    "regime": "AI",
-    "dominant_driver": "AI",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 0,
-    "last_updated": "2026-08-03T02:31:54.398404Z"
+    "last_updated": "2026-08-03T02:37:22.165745Z"
   },
   "top_signals": [
     {
-      "id": "490dd56f9285115d0caff56598ed1084",
-      "title": "Fanuc Shares Dive Most in 40 Years After Procurement Fears Hit",
-      "summary": "Fanuc Corp. shares plunged the most in four decades after the maker of factory robots raised its profit outlook by less than expected, heightening fears about soaring prices of materials.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-03/fanuc-shares-dive-most-in-40-years-after-procurement-fears-hit",
-      "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
+      "id": "4349f4f300edb5c2d81bc544de99068b",
+      "title": "Oil drops over 4% as Middle East tensions ebb on diplomatic efforts",
+      "summary": "Oil prices fell on Monday as investors pared geopolitical risk premiums after U.S. President Donald Trump said he had called off a planned strike on Iran.",
+      "link": "https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html",
+      "source": "CNBC",
+      "score": 35,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-03T02:36:22.257282Z"
+    },
+    {
+      "id": "9e1175e336541f2c8c0591d4f42d769a",
+      "title": "Alphabet, Amazon and Microsoft added nearly $1.5 trillion in combined value this week",
+      "summary": "Amazon, Microsoft and Google added hundreds of billions of dollars to their market caps, while Apple and Meta saw their market valuations fall.",
+      "link": "https://www.cnbc.com/2026/07/31/apple-aapl-amazon-amzn-stock-today.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-03T02:36:22.404362Z"
+    },
+    {
+      "id": "25c219df96dd78f33bb1d9bc4c7f2799",
+      "title": "Rails patches critical Active Storage flaw with RCE potential",
+      "summary": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -34,95 +87,71 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-03T02:31:25.552645Z"
-    },
-    {
-      "id": "d5b9e3fdc5aa5680b0a48bfe8b5b6232",
-      "title": "Japan vows to intervene again with US over yen if needed - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOa1BZYkpxbTJJTU4xdUtjeGluTTBtZm9CZjRlSjAtQ2oxcEg3NWt0eG5HVzlqX0dlZHJDc2FvU3VTTlNCQ1ZrVzB5UWtOSnNpZGZKMl9MXzlUN2ZycFdDcXZhTTY2Vk9aLWsya0VzZnFUSVRCSDBfMmdHUFRCR1pCSUVaaVc?oc=5\" target=\"_blank\">Japan vows to intervene again with US over yen if needed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa1BZYkpxbTJJTU4xdUtjeGluTTBtZm9CZjRlSjAtQ2oxcEg3NWt0eG5HVzlqX0dlZHJDc2FvU3VTTlNCQ1ZrVzB5UWtOSnNpZGZKMl9MXzlUN2ZycFdDcXZhTTY2Vk9aLWsya0VzZnFUSVRCSDBfMmdHUFRCR1pCSUVaaVc?oc=5",
-      "source": "Google Macro",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "JPY"
-      ],
-      "regions": [
-        "JAPAN"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-03T02:31:53.311040Z"
-    },
-    {
-      "id": "531a6a2526e7315f8da2bc122a0baa73",
-      "title": "Opinion | Warsh Makes Markets Do Their Job - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX21EYkRDVWVvSGxEUnF6UzFtWkpFaHliSzVaNHVkd3lYamlJY1c4OWRkNTJmYW9xRS0yNXlaajFnd3paa19jTVJoaDdjUFZUcUdHRnFPbmFyMVUtakpqMkx4d0RhTDZPczJnSkdrbWdrX0hhNVZwSnNITG1IZGtKOGlvRFFPSW1a?oc=5\" target=\"_blank\">Opinion | Warsh Makes Markets Do Their Job</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX21EYkRDVWVvSGxEUnF6UzFtWkpFaHliSzVaNHVkd3lYamlJY1c4OWRkNTJmYW9xRS0yNXlaajFnd3paa19jTVJoaDdjUFZUcUdHRnFPbmFyMVUtakpqMkx4d0RhTDZPczJnSkdrbWdrX0hhNVZwSnNITG1IZGtKOGlvRFFPSW1a?oc=5",
-      "source": "Google Macro",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-03T02:31:53.844279Z"
-    },
-    {
-      "id": "97bc2daca1b8947190b37ba09a5e2100",
-      "title": "The \u2018Unsettled\u2019 Vibe That\u2019s Creeping Through the Markets - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNYVd3Z2JybC1WRlRMOEg0QV9XQ3BOY2lfb0NaUzM1LUdBN28wLWNYbEdGY2xfZWxueVYwZFFueThnWVQybmt5aWtSRTF0M3dUdTJJa1g0UU15UTJYTjhlbnE5dGZhaElSOVhyZ3NUbDBNbWZUVzRvNmM4cjhLUG1pTXVPaFBncnI2NnV5Rw?oc=5\" target=\"_blank\">The \u2018Unsettled\u2019 Vibe That\u2019s Creeping Through the Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYVd3Z2JybC1WRlRMOEg0QV9XQ3BOY2lfb0NaUzM1LUdBN28wLWNYbEdGY2xfZWxueVYwZFFueThnWVQybmt5aWtSRTF0M3dUdTJJa1g0UU15UTJYTjhlbnE5dGZhaElSOVhyZ3NUbDBNbWZUVzRvNmM4cjhLUG1pTXVPaFBncnI2NnV5Rw?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-03T02:31:53.844370Z"
+      "published": "2026-08-03T02:37:19.143619Z"
     }
   ],
   "alerts": [
     {
-      "id": "490dd56f9285115d0caff56598ed1084",
-      "title": "Fanuc Shares Dive Most in 40 Years After Procurement Fears Hit",
-      "summary": "Fanuc Corp. shares plunged the most in four decades after the maker of factory robots raised its profit outlook by less than expected, heightening fears about soaring prices of materials.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-03/fanuc-shares-dive-most-in-40-years-after-procurement-fears-hit",
-      "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
+      "id": "4349f4f300edb5c2d81bc544de99068b",
+      "title": "Oil drops over 4% as Middle East tensions ebb on diplomatic efforts",
+      "summary": "Oil prices fell on Monday as investors pared geopolitical risk premiums after U.S. President Donald Trump said he had called off a planned strike on Iran.",
+      "link": "https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html",
+      "source": "CNBC",
+      "score": 35,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-03T02:36:22.257282Z"
+    },
+    {
+      "id": "9e1175e336541f2c8c0591d4f42d769a",
+      "title": "Alphabet, Amazon and Microsoft added nearly $1.5 trillion in combined value this week",
+      "summary": "Amazon, Microsoft and Google added hundreds of billions of dollars to their market caps, while Apple and Meta saw their market valuations fall.",
+      "link": "https://www.cnbc.com/2026/07/31/apple-aapl-amazon-amzn-stock-today.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-03T02:36:22.404362Z"
+    },
+    {
+      "id": "25c219df96dd78f33bb1d9bc4c7f2799",
+      "title": "Rails patches critical Active Storage flaw with RCE potential",
+      "summary": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -138,84 +167,7 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-03T02:31:25.552645Z"
-    },
-    {
-      "id": "d5b9e3fdc5aa5680b0a48bfe8b5b6232",
-      "title": "Japan vows to intervene again with US over yen if needed - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOa1BZYkpxbTJJTU4xdUtjeGluTTBtZm9CZjRlSjAtQ2oxcEg3NWt0eG5HVzlqX0dlZHJDc2FvU3VTTlNCQ1ZrVzB5UWtOSnNpZGZKMl9MXzlUN2ZycFdDcXZhTTY2Vk9aLWsya0VzZnFUSVRCSDBfMmdHUFRCR1pCSUVaaVc?oc=5\" target=\"_blank\">Japan vows to intervene again with US over yen if needed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa1BZYkpxbTJJTU4xdUtjeGluTTBtZm9CZjRlSjAtQ2oxcEg3NWt0eG5HVzlqX0dlZHJDc2FvU3VTTlNCQ1ZrVzB5UWtOSnNpZGZKMl9MXzlUN2ZycFdDcXZhTTY2Vk9aLWsya0VzZnFUSVRCSDBfMmdHUFRCR1pCSUVaaVc?oc=5",
-      "source": "Google Macro",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "JPY"
-      ],
-      "regions": [
-        "JAPAN"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-03T02:31:53.311040Z"
-    },
-    {
-      "id": "531a6a2526e7315f8da2bc122a0baa73",
-      "title": "Opinion | Warsh Makes Markets Do Their Job - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX21EYkRDVWVvSGxEUnF6UzFtWkpFaHliSzVaNHVkd3lYamlJY1c4OWRkNTJmYW9xRS0yNXlaajFnd3paa19jTVJoaDdjUFZUcUdHRnFPbmFyMVUtakpqMkx4d0RhTDZPczJnSkdrbWdrX0hhNVZwSnNITG1IZGtKOGlvRFFPSW1a?oc=5\" target=\"_blank\">Opinion | Warsh Makes Markets Do Their Job</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX21EYkRDVWVvSGxEUnF6UzFtWkpFaHliSzVaNHVkd3lYamlJY1c4OWRkNTJmYW9xRS0yNXlaajFnd3paa19jTVJoaDdjUFZUcUdHRnFPbmFyMVUtakpqMkx4d0RhTDZPczJnSkdrbWdrX0hhNVZwSnNITG1IZGtKOGlvRFFPSW1a?oc=5",
-      "source": "Google Macro",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-03T02:31:53.844279Z"
-    },
-    {
-      "id": "97bc2daca1b8947190b37ba09a5e2100",
-      "title": "The \u2018Unsettled\u2019 Vibe That\u2019s Creeping Through the Markets - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNYVd3Z2JybC1WRlRMOEg0QV9XQ3BOY2lfb0NaUzM1LUdBN28wLWNYbEdGY2xfZWxueVYwZFFueThnWVQybmt5aWtSRTF0M3dUdTJJa1g0UU15UTJYTjhlbnE5dGZhaElSOVhyZ3NUbDBNbWZUVzRvNmM4cjhLUG1pTXVPaFBncnI2NnV5Rw?oc=5\" target=\"_blank\">The \u2018Unsettled\u2019 Vibe That\u2019s Creeping Through the Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYVd3Z2JybC1WRlRMOEg0QV9XQ3BOY2lfb0NaUzM1LUdBN28wLWNYbEdGY2xfZWxueVYwZFFueThnWVQybmt5aWtSRTF0M3dUdTJJa1g0UU15UTJYTjhlbnE5dGZhaElSOVhyZ3NUbDBNbWZUVzRvNmM4cjhLUG1pTXVPaFBncnI2NnV5Rw?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-03T02:31:53.844370Z"
+      "published": "2026-08-03T02:37:19.143619Z"
     }
   ]
 }
