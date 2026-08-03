@@ -1,34 +1,67 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-03T01:11:51.129586Z",
+  "generated_at": "2026-08-03T01:16:53.674969Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 1,
-    "last_updated": "2026-08-03T01:11:51.129600Z"
+    "last_updated": "2026-08-03T01:16:53.674983Z"
   },
   "top_signals": [
     {
-      "id": "8e8b224782a992d33a282b6df8aa4714",
-      "title": "Japan vows to intervene again with US over yen if needed",
-      "summary": "Finance minister Satsuki Katayama confirms joint action with Washington to counter \u2018disorderly movements\u2019",
-      "link": "https://www.ft.com/content/5de204a4-4db6-458c-aa9a-324e6bd5e766?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 19,
+      "id": "fda67cf3396cb3398febab59a7f48ce4",
+      "title": "CNBC Daily Open: Markets exhale as Trump steps back, OPEC+ steps up",
+      "summary": "Trump's canceled strike on Iran and an OPEC+ output hike drained the war premium from oil over the weekend, sending crude lower and stock futures higher.",
+      "link": "https://www.cnbc.com/2026/08/03/trump-ceasefire-nuclear-deal-strait-of-hormuz-opec-oil-output-.html",
+      "source": "CNBC",
+      "score": 45,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-03T01:16:19.815376Z"
+    },
+    {
+      "id": "54d0862e6be72e1a58ce56101557c264",
+      "title": "Yen Traders Brace for Intervention as Trump Backs Japan",
+      "summary": "The yen advanced sharply on Monday amid high alert in markets for more intervention after Japan and the US confirmed that they had conducted coordinated operations last week. Oxford Economics Head of Asia Economics Louise Loo shares what we know about the developments. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-03/yen-traders-brace-for-intervention-as-trump-backs-japan-video",
+      "source": "Bloomberg",
+      "score": 16,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [
         "JPY"
       ],
       "regions": [
-        "JAPAN",
-        "UK"
+        "JAPAN"
       ],
       "assets": [
-        "AI",
         "FX"
       ],
       "market_impact": {
@@ -43,114 +76,109 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-03T01:11:20.206819Z"
+      "published": "2026-08-03T01:16:16.434005Z"
     },
     {
-      "id": "f046c971ea9c53784f83240be1399aae",
-      "title": "Tim Cook's last dance, oil majors earnings, IPO avoidance and more in Morning Squawk",
-      "summary": "Here are five key things investors need to know to start the trading day.",
-      "link": "https://www.cnbc.com/2026/07/31/5-things-to-know-before-the-stock-market-opens.html",
-      "source": "CNBC",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-03T01:11:20.976406Z"
-    },
-    {
-      "id": "d5f0a683391da699b000c9d0043bf436",
-      "title": "Korean Stocks Drop as Chipmakers Reverse Friday\u2019s Record Gains",
-      "summary": "South Korean stocks slipped, as heavyweight chipmakers faced selloffs after Friday\u2019s record gains while investors cut back leverage-backed trades.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-03/korean-stocks-drop-as-chipmakers-reverse-friday-s-record-gains",
-      "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-03T01:11:17.834712Z"
-    },
-    {
-      "id": "29062b6aea0af01ff97fdf947c29f695",
-      "title": "The Controversial Space Mirrors Designed to Boost Solar Power",
-      "summary": "In line with greater funding for renewable energy and cleantech in recent years, several companies have sought to use innovative technologies and techniques to enhance clean energy production. Tech and energy startups from around the world have raised funds to test out a wide range of technologies aimed at accelerating the deployment of renewable energy capacity and enhancing the stability of certain energy sources, such as solar power. The California-based startup Reflect Orbital was recently granted permission from the United States Federal Communications\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/The-Controversial-Space-Mirrors-Designed-to-Boost-Solar-Power.html",
-      "source": "OilPrice",
+      "id": "6c20743bdf2146a683db686782a68e39",
+      "title": "EXCLUSIVE: Chinese military researchers tap US AI models to train defence systems - reuters.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQRlZKM1E4OTlVQnVjUUs0ZEVFY2hxZHNvd2VHb0dabWZnbFZKTjJzemRrUkJsNS14blJPcDlmREZMbzdXekNqcWdSVnpQSG82YndnMUJ5TElaNlRBYkRWMlVfU2dWTWdDY1kxa2ZjNnhtQko1Nnd3QkZ1eUhIMVI1MU1wVjFTZ1N4WHE2UnBzVHp0QzBjMzI4RWlnVkVWMmVvTkxWeExNZUlFeE52WHhsdFZJSXlfNld4RFdjMVNNQQ?oc=5\" target=\"_blank\">EXCLUSIVE: Chinese military researchers tap US AI models to train defence systems</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">reuters.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRlZKM1E4OTlVQnVjUUs0ZEVFY2hxZHNvd2VHb0dabWZnbFZKTjJzemRrUkJsNS14blJPcDlmREZMbzdXekNqcWdSVnpQSG82YndnMUJ5TElaNlRBYkRWMlVfU2dWTWdDY1kxa2ZjNnhtQko1Nnd3QkZ1eUhIMVI1MU1wVjFTZ1N4WHE2UnBzVHp0QzBjMzI4RWlnVkVWMmVvTkxWeExNZUlFeE52WHhsdFZJSXlfNld4RFdjMVNNQQ?oc=5",
+      "source": "Google Macro",
       "score": 11,
       "severity": "MEDIUM",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "US"
+        "UK"
       ],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-03T01:11:45.218966Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-03T01:16:52.100600Z"
+    },
+    {
+      "id": "236c2784b10b2cb2da50f1e9c97a94f5",
+      "title": "Lucrative Arb Trade Challenged in India\u2019s Closing Price Overhaul",
+      "summary": "India\u2019s equity-market close is about to align with major global peers. For arbitrage funds, that could come at a cost.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-03/lucrative-arb-trade-challenged-in-india-s-closing-price-overhaul",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-03T01:16:16.434074Z"
     }
   ],
   "alerts": [
     {
-      "id": "8e8b224782a992d33a282b6df8aa4714",
-      "title": "Japan vows to intervene again with US over yen if needed",
-      "summary": "Finance minister Satsuki Katayama confirms joint action with Washington to counter \u2018disorderly movements\u2019",
-      "link": "https://www.ft.com/content/5de204a4-4db6-458c-aa9a-324e6bd5e766?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 19,
+      "id": "fda67cf3396cb3398febab59a7f48ce4",
+      "title": "CNBC Daily Open: Markets exhale as Trump steps back, OPEC+ steps up",
+      "summary": "Trump's canceled strike on Iran and an OPEC+ output hike drained the war premium from oil over the weekend, sending crude lower and stock futures higher.",
+      "link": "https://www.cnbc.com/2026/08/03/trump-ceasefire-nuclear-deal-strait-of-hormuz-opec-oil-output-.html",
+      "source": "CNBC",
+      "score": 45,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-03T01:16:19.815376Z"
+    },
+    {
+      "id": "54d0862e6be72e1a58ce56101557c264",
+      "title": "Yen Traders Brace for Intervention as Trump Backs Japan",
+      "summary": "The yen advanced sharply on Monday amid high alert in markets for more intervention after Japan and the US confirmed that they had conducted coordinated operations last week. Oxford Economics Head of Asia Economics Louise Loo shares what we know about the developments. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-03/yen-traders-brace-for-intervention-as-trump-backs-japan-video",
+      "source": "Bloomberg",
+      "score": 16,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [
         "JPY"
       ],
       "regions": [
-        "JAPAN",
-        "UK"
+        "JAPAN"
       ],
       "assets": [
-        "AI",
         "FX"
       ],
       "market_impact": {
@@ -165,93 +193,55 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-03T01:11:20.206819Z"
+      "published": "2026-08-03T01:16:16.434005Z"
     },
     {
-      "id": "f046c971ea9c53784f83240be1399aae",
-      "title": "Tim Cook's last dance, oil majors earnings, IPO avoidance and more in Morning Squawk",
-      "summary": "Here are five key things investors need to know to start the trading day.",
-      "link": "https://www.cnbc.com/2026/07/31/5-things-to-know-before-the-stock-market-opens.html",
-      "source": "CNBC",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-03T01:11:20.976406Z"
-    },
-    {
-      "id": "d5f0a683391da699b000c9d0043bf436",
-      "title": "Korean Stocks Drop as Chipmakers Reverse Friday\u2019s Record Gains",
-      "summary": "South Korean stocks slipped, as heavyweight chipmakers faced selloffs after Friday\u2019s record gains while investors cut back leverage-backed trades.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-03/korean-stocks-drop-as-chipmakers-reverse-friday-s-record-gains",
-      "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-03T01:11:17.834712Z"
-    },
-    {
-      "id": "29062b6aea0af01ff97fdf947c29f695",
-      "title": "The Controversial Space Mirrors Designed to Boost Solar Power",
-      "summary": "In line with greater funding for renewable energy and cleantech in recent years, several companies have sought to use innovative technologies and techniques to enhance clean energy production. Tech and energy startups from around the world have raised funds to test out a wide range of technologies aimed at accelerating the deployment of renewable energy capacity and enhancing the stability of certain energy sources, such as solar power. The California-based startup Reflect Orbital was recently granted permission from the United States Federal Communications\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/The-Controversial-Space-Mirrors-Designed-to-Boost-Solar-Power.html",
-      "source": "OilPrice",
+      "id": "6c20743bdf2146a683db686782a68e39",
+      "title": "EXCLUSIVE: Chinese military researchers tap US AI models to train defence systems - reuters.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQRlZKM1E4OTlVQnVjUUs0ZEVFY2hxZHNvd2VHb0dabWZnbFZKTjJzemRrUkJsNS14blJPcDlmREZMbzdXekNqcWdSVnpQSG82YndnMUJ5TElaNlRBYkRWMlVfU2dWTWdDY1kxa2ZjNnhtQko1Nnd3QkZ1eUhIMVI1MU1wVjFTZ1N4WHE2UnBzVHp0QzBjMzI4RWlnVkVWMmVvTkxWeExNZUlFeE52WHhsdFZJSXlfNld4RFdjMVNNQQ?oc=5\" target=\"_blank\">EXCLUSIVE: Chinese military researchers tap US AI models to train defence systems</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">reuters.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRlZKM1E4OTlVQnVjUUs0ZEVFY2hxZHNvd2VHb0dabWZnbFZKTjJzemRrUkJsNS14blJPcDlmREZMbzdXekNqcWdSVnpQSG82YndnMUJ5TElaNlRBYkRWMlVfU2dWTWdDY1kxa2ZjNnhtQko1Nnd3QkZ1eUhIMVI1MU1wVjFTZ1N4WHE2UnBzVHp0QzBjMzI4RWlnVkVWMmVvTkxWeExNZUlFeE52WHhsdFZJSXlfNld4RFdjMVNNQQ?oc=5",
+      "source": "Google Macro",
       "score": 11,
       "severity": "MEDIUM",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "US"
+        "UK"
       ],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-03T01:11:45.218966Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-03T01:16:52.100600Z"
+    },
+    {
+      "id": "236c2784b10b2cb2da50f1e9c97a94f5",
+      "title": "Lucrative Arb Trade Challenged in India\u2019s Closing Price Overhaul",
+      "summary": "India\u2019s equity-market close is about to align with major global peers. For arbitrage funds, that could come at a cost.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-03/lucrative-arb-trade-challenged-in-india-s-closing-price-overhaul",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-03T01:16:16.434074Z"
     }
   ]
 }
