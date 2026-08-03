@@ -1,549 +1,171 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-03T11:21:52.905412Z",
+  "generated_at": "2026-08-03T11:26:50.608767Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 2,
-    "high_alerts": 3,
-    "last_updated": "2026-08-03T11:21:52.905429Z"
+    "critical_alerts": 0,
+    "high_alerts": 1,
+    "last_updated": "2026-08-03T11:26:50.608782Z"
   },
   "top_signals": [
     {
-      "id": "4cc777887e5bd107cc5e603fb66d0705",
-      "title": "Oil slides after Trump says talks with Iran will resume",
-      "summary": "Tehran says a deal with Oman to reopen Strait of Hormuz to shipping was close",
-      "link": "https://www.ft.com/content/c9bd508c-2915-4b34-a5a5-553bff9548a5?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 39,
-      "severity": "CRITICAL",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-03T11:21:19.474595Z"
-    },
-    {
-      "id": "3281711f2eb33bcaeb384e23fdac067d",
-      "title": "Solo Bitcoin miner nets $200,000 as Coldcard hardware wallet drains rocks sentiment",
-      "summary": "",
-      "link": "https://www.coindesk.com/daybook-us/2026/08/03/solo-bitcoin-miner-nets-usd200-000-as-coldcard-hardware-wallet-drains-rocks-sentiment",
-      "source": "CoinDesk",
-      "score": 26,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-03T11:21:48.886549Z"
-    },
-    {
-      "id": "a009ce0bc86a6e7bf36c4ce97c6b0f2b",
-      "title": "Palantir Is Stuck in Worst-of-Both-Worlds Bind With AI, Software",
-      "summary": "It\u2019s been a sobering stretch for Palantir Technologies Inc. shareholders, who have watched their once high-flying positions lose more than 40% of their value since the stock hit a peak in November.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-03/palantir-is-stuck-in-worst-of-both-worlds-bind-with-ai-software",
-      "source": "Bloomberg",
-      "score": 23,
+      "id": "8267eb1c311ea8a2bf751ae3588a45e3",
+      "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
       "severity": "HIGH",
-      "regime": "GEO-SHOCK",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "AI"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
           "DXY",
-          "DEFENSE"
+          "JPY"
         ],
         "bearish": [
+          "TLT",
           "SPY",
-          "QQQ",
-          "AIRLINES"
+          "QQQ"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-03T11:21:16.705532Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-03T11:26:18.801225Z"
     },
     {
-      "id": "4863526faa9cb740394894b7889df2e5",
-      "title": "Caterpillar Faces Earnings Test After AI Selloff Punished Stock",
-      "summary": "Caterpillar Inc.\u2019s stock is limping into the earnings report after losing nearly a quarter of its value, setting the results up as a test for investors to see if enthusiasm about the company being an artificial intelligence play has gone too far.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-03/caterpillar-faces-earnings-test-after-ai-selloff-punished-stock",
-      "source": "Bloomberg",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-03T11:21:16.705605Z"
-    },
-    {
-      "id": "7bdbf53bd608b1f065a8fb5760f8897d",
-      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-      "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.",
-      "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
-      "source": "KrebsOnSecurity",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "DXY"
-      ],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-03T11:21:49.529633Z"
-    },
-    {
-      "id": "bf2915fc28a7574a27ae6ee768d1f659",
-      "title": "PRA consults on updated guidance for friendly society amalgamations and transfers",
-      "summary": "The proposals would provide more detail on the PRA\u2019s approach to Part VIII transactions, helping firms plan amalgamations and transfers more efficiently.",
-      "link": "https://www.bankofengland.co.uk/news/2026/july/pra-consults-on-updated-guidance-for-friendly-society-amalgamations-and-transfers",
-      "source": "Bank of England",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-03T11:21:40.080849Z"
-    },
-    {
-      "id": "d79ead3af782d0f98e28cec33c4a69b7",
-      "title": "SpaceX\u2019s staggered lock-up release prolongs the pain",
-      "summary": "The biggest IPO wanted to avoid a cliff edge of insider selling but now has 12 months of uncertainty",
-      "link": "https://www.ft.com/content/6a8c1d6c-63c7-4d3d-8882-eb5c67b2f9e1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-03T11:21:19.115625Z"
-    },
-    {
-      "id": "82d1cd27b5daee9fffff3df3be752d50",
-      "title": "Anthropic, OpenAI among firms facing new scrutiny under EU AI Act enforcement powers",
-      "summary": "The European Commission can demand to inspect AI models, restrict market access and fine providers up to 15 million euros or 3% of turnover.",
-      "link": "https://www.cnbc.com/2026/08/03/eu-ai-act-enforcement-powers.html",
+      "id": "19c9bcc6a51d2489ddd0f51840d9d515",
+      "title": "What the market is saying about the U.S. intervention to prop up the yen",
+      "summary": "Following the joint involvement the yen now sits at \u00a5157 to the dollar, down from just above \u00a5163, which represented its lowest level in four decades.",
+      "link": "https://www.cnbc.com/2026/08/03/yen-us-intervention-japan-market-currency.html",
       "source": "CNBC",
-      "score": 10,
+      "score": 13,
       "severity": "MEDIUM",
-      "regime": "AI",
+      "regime": "RATES",
       "tickers": [
-        "EUR"
+        "DXY",
+        "JPY"
       ],
-      "regions": [
-        "EUROPE"
-      ],
+      "regions": [],
       "assets": [
-        "AI",
         "FX"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "DXY",
+          "JPY"
         ],
-        "bearish": []
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-03T11:21:20.809232Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-03T11:26:18.319101Z"
     },
     {
-      "id": "84812daa6b7129961c009ec3fabd65a3",
-      "title": "Guidance: Orange Book",
-      "summary": "This guidance establishes the concept of risk management.",
-      "link": "https://www.gov.uk/government/publications/orange-book",
-      "source": "HM Treasury",
+      "id": "1e4a5bf6473f4f7450e52e9c18b1cd71",
+      "title": "Philip R. Lane: Outlook for the euro area economy",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260724~d484b483b9.en.pdf",
+      "source": "ECB",
       "score": 10,
       "severity": "MEDIUM",
       "regime": "GENERAL",
-      "tickers": [],
+      "tickers": [
+        "EUR"
+      ],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "FX"
+      ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-03T11:21:41.226938Z"
-    },
-    {
-      "id": "25bc110bd2cf16a30f2ef9a2d20b0862",
-      "title": "A second act for high-yield bonds",
-      "summary": "The \u2018junk\u2019 label has been left where it belongs \u2014 in a different era",
-      "link": "https://www.ft.com/content/39f08da6-22cb-4c96-a800-379d105bd46e?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-03T11:21:19.115694Z"
+      "published": "2026-08-03T11:26:29.488777Z"
     }
   ],
   "alerts": [
     {
-      "id": "4cc777887e5bd107cc5e603fb66d0705",
-      "title": "Oil slides after Trump says talks with Iran will resume",
-      "summary": "Tehran says a deal with Oman to reopen Strait of Hormuz to shipping was close",
-      "link": "https://www.ft.com/content/c9bd508c-2915-4b34-a5a5-553bff9548a5?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 39,
-      "severity": "CRITICAL",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-03T11:21:19.474595Z"
-    },
-    {
-      "id": "3281711f2eb33bcaeb384e23fdac067d",
-      "title": "Solo Bitcoin miner nets $200,000 as Coldcard hardware wallet drains rocks sentiment",
-      "summary": "",
-      "link": "https://www.coindesk.com/daybook-us/2026/08/03/solo-bitcoin-miner-nets-usd200-000-as-coldcard-hardware-wallet-drains-rocks-sentiment",
-      "source": "CoinDesk",
-      "score": 26,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-03T11:21:48.886549Z"
-    },
-    {
-      "id": "a009ce0bc86a6e7bf36c4ce97c6b0f2b",
-      "title": "Palantir Is Stuck in Worst-of-Both-Worlds Bind With AI, Software",
-      "summary": "It\u2019s been a sobering stretch for Palantir Technologies Inc. shareholders, who have watched their once high-flying positions lose more than 40% of their value since the stock hit a peak in November.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-03/palantir-is-stuck-in-worst-of-both-worlds-bind-with-ai-software",
-      "source": "Bloomberg",
-      "score": 23,
+      "id": "8267eb1c311ea8a2bf751ae3588a45e3",
+      "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
       "severity": "HIGH",
-      "regime": "GEO-SHOCK",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "AI"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
           "DXY",
-          "DEFENSE"
+          "JPY"
         ],
         "bearish": [
+          "TLT",
           "SPY",
-          "QQQ",
-          "AIRLINES"
+          "QQQ"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-03T11:21:16.705532Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-03T11:26:18.801225Z"
     },
     {
-      "id": "4863526faa9cb740394894b7889df2e5",
-      "title": "Caterpillar Faces Earnings Test After AI Selloff Punished Stock",
-      "summary": "Caterpillar Inc.\u2019s stock is limping into the earnings report after losing nearly a quarter of its value, setting the results up as a test for investors to see if enthusiasm about the company being an artificial intelligence play has gone too far.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-03/caterpillar-faces-earnings-test-after-ai-selloff-punished-stock",
-      "source": "Bloomberg",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-03T11:21:16.705605Z"
-    },
-    {
-      "id": "7bdbf53bd608b1f065a8fb5760f8897d",
-      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-      "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.",
-      "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
-      "source": "KrebsOnSecurity",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "DXY"
-      ],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-03T11:21:49.529633Z"
-    },
-    {
-      "id": "bf2915fc28a7574a27ae6ee768d1f659",
-      "title": "PRA consults on updated guidance for friendly society amalgamations and transfers",
-      "summary": "The proposals would provide more detail on the PRA\u2019s approach to Part VIII transactions, helping firms plan amalgamations and transfers more efficiently.",
-      "link": "https://www.bankofengland.co.uk/news/2026/july/pra-consults-on-updated-guidance-for-friendly-society-amalgamations-and-transfers",
-      "source": "Bank of England",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-03T11:21:40.080849Z"
-    },
-    {
-      "id": "d79ead3af782d0f98e28cec33c4a69b7",
-      "title": "SpaceX\u2019s staggered lock-up release prolongs the pain",
-      "summary": "The biggest IPO wanted to avoid a cliff edge of insider selling but now has 12 months of uncertainty",
-      "link": "https://www.ft.com/content/6a8c1d6c-63c7-4d3d-8882-eb5c67b2f9e1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-03T11:21:19.115625Z"
-    },
-    {
-      "id": "82d1cd27b5daee9fffff3df3be752d50",
-      "title": "Anthropic, OpenAI among firms facing new scrutiny under EU AI Act enforcement powers",
-      "summary": "The European Commission can demand to inspect AI models, restrict market access and fine providers up to 15 million euros or 3% of turnover.",
-      "link": "https://www.cnbc.com/2026/08/03/eu-ai-act-enforcement-powers.html",
+      "id": "19c9bcc6a51d2489ddd0f51840d9d515",
+      "title": "What the market is saying about the U.S. intervention to prop up the yen",
+      "summary": "Following the joint involvement the yen now sits at \u00a5157 to the dollar, down from just above \u00a5163, which represented its lowest level in four decades.",
+      "link": "https://www.cnbc.com/2026/08/03/yen-us-intervention-japan-market-currency.html",
       "source": "CNBC",
-      "score": 10,
+      "score": 13,
       "severity": "MEDIUM",
-      "regime": "AI",
+      "regime": "RATES",
       "tickers": [
-        "EUR"
+        "DXY",
+        "JPY"
       ],
-      "regions": [
-        "EUROPE"
-      ],
+      "regions": [],
       "assets": [
-        "AI",
         "FX"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "DXY",
+          "JPY"
         ],
-        "bearish": []
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-03T11:21:20.809232Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-03T11:26:18.319101Z"
     },
     {
-      "id": "84812daa6b7129961c009ec3fabd65a3",
-      "title": "Guidance: Orange Book",
-      "summary": "This guidance establishes the concept of risk management.",
-      "link": "https://www.gov.uk/government/publications/orange-book",
-      "source": "HM Treasury",
+      "id": "1e4a5bf6473f4f7450e52e9c18b1cd71",
+      "title": "Philip R. Lane: Outlook for the euro area economy",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260724~d484b483b9.en.pdf",
+      "source": "ECB",
       "score": 10,
       "severity": "MEDIUM",
       "regime": "GENERAL",
-      "tickers": [],
+      "tickers": [
+        "EUR"
+      ],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "FX"
+      ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-03T11:21:41.226938Z"
-    },
-    {
-      "id": "25bc110bd2cf16a30f2ef9a2d20b0862",
-      "title": "A second act for high-yield bonds",
-      "summary": "The \u2018junk\u2019 label has been left where it belongs \u2014 in a different era",
-      "link": "https://www.ft.com/content/39f08da6-22cb-4c96-a800-379d105bd46e?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-03T11:21:19.115694Z"
+      "published": "2026-08-03T11:26:29.488777Z"
     }
   ]
 }
