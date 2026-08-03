@@ -1,36 +1,64 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-03T03:11:51.956361Z",
+  "generated_at": "2026-08-03T03:16:42.723801Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-08-03T03:11:51.956368Z"
+    "critical_alerts": 0,
+    "high_alerts": 1,
+    "last_updated": "2026-08-03T03:16:42.723812Z"
   },
   "top_signals": [
     {
-      "id": "8ca2e00915da9829cd2fedb46328ff60",
-      "title": "Suriname's $26 Billion Oil Bet Is Finally Paying Off",
-      "summary": "Middle East turmoil, centered on the U.S. war with Iran, is playing havoc with world energy markets. An ongoing dispute over access to the Strait of Hormuz, through which a fifth of world oil and natural gas supply is shipped, is causing prices to surge. This is a boon for South America's oil industry, particularly Suriname's emerging petroleum boom, which was delayed by conflicting drilling results and seismic data. The former Dutch colony is on the cusp of becoming South America's next major oil-producing nation. Since 2019, Suriname's government\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/Surinames-26-Billion-Oil-Bet-Is-Finally-Paying-Off.html",
-      "source": "OilPrice",
-      "score": 47,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "id": "af6daf162315f05d9f9fce40826d87a6",
+      "title": "Why Bonds Are at Center of US-Japan Intervention on Yen",
+      "summary": "The US is protecting its own bond market from spillovers by coordinating interventions with Japan, including liquidity mechanisms, explains State Street Investment Management Senior Fixed Income Strategist Masahiko Loo. He also explains why the next key level to watch is 155 yen per US dollar. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-03/why-bonds-are-at-center-of-us-japan-intervention-on-yen-video",
+      "source": "Bloomberg",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "DXY",
+        "JPY"
       ],
       "regions": [
-        "MIDDLE_EAST",
-        "US"
+        "JAPAN"
       ],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "FX"
       ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-03T03:16:13.421384Z"
+    },
+    {
+      "id": "897b5a2d569ff206ed372fe79083ffe9",
+      "title": "China draws \u2018red lines\u2019 around its economic model ahead of EU and U.S. trade talks",
+      "summary": "The West frames China's policies as mercantilist and opposing global trade \u200brules, saying its priority for producers over households pushes cheaper goods into global markets.",
+      "link": "https://www.japantimes.co.jp/news/2026/08/03/world/politics/china-red-lines-eu-us-trade-talks/",
+      "source": "Japan Times",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -45,105 +73,58 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-03T03:11:46.363977Z"
-    },
-    {
-      "id": "aab49edb03826a1a7bf6f25e76c5da47",
-      "title": "Commercial crude oil inventories increased by 2.0 million barrels",
-      "summary": "For the week ending July 17, 2026, commercial crude oil inventories (excluding the Strategic Petroleum Reserve) increased 2.0 million barrels to 411.7 million barrels, 6% below the previous five-year (2021\u20132025) average. Gasoline inventories increased 0.8 million barrels, 7% below the five-year average. Distillate inventories increased 1.4 million barrels, 10% below the five-year average. Propane/propylene inventories increased 6.3 million barrels, 34% above the five-year average. Total commercial petroleum inventories increased by 11.6 million barrels for the week.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67868",
-      "source": "EIA",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-03T03:11:45.698797Z"
-    },
-    {
-      "id": "ff76a00e09b658b910a994a00a23d201",
-      "title": "Looking at just the odds isn\u2019t enough. How traders gain an edge on prediction markets - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbHVQQVBfaHdNbUhPSHVUT0JPcFJEYWwyWUwxUFd3Vm8wQ3NJem1faFdiVmNpOUpDdC1Db09uYzgyT3c0d0RJMnZxTjByX182bUFTSDg2MFFhYVU1UU9FcHNENEtaTS1pX182a2ZRZHowX1V5ejFITHBuV3R1cWtBbnhtWk9vemQtNUVtMm1OMFdsRm5NYXZhc3BjUFN5dW9ubDI4cUVkQnFuZ9IBrwFBVV95cUxOdE5TN041clZnaDJiNXM2eU5VVWZlQUpSbXRPUFh2MmFDT1ltRmZzU2JTQ2JJLWVCR2YxNk0xR3BwVXhpdUhHTFRlZ1Z5d2p1RDBmOWFkcVlZU1BHbzU5OGxUdmxzNFNLTVlGVl9lSHZHQVpkVDJXWVRBbHRseGVVcDhMX2EwUU9HSHZ4YWE0NEpuTU5oX0NGOExSX2pqakd3ZFZYRWhLRlZHLW1JczVF?oc=5\" target=\"_blank\">Looking at just the odds isn\u2019t enough. How traders gain an edge on prediction markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbHVQQVBfaHdNbUhPSHVUT0JPcFJEYWwyWUwxUFd3Vm8wQ3NJem1faFdiVmNpOUpDdC1Db09uYzgyT3c0d0RJMnZxTjByX182bUFTSDg2MFFhYVU1UU9FcHNENEtaTS1pX182a2ZRZHowX1V5ejFITHBuV3R1cWtBbnhtWk9vemQtNUVtMm1OMFdsRm5NYXZhc3BjUFN5dW9ubDI4cUVkQnFuZ9IBrwFBVV95cUxOdE5TN041clZnaDJiNXM2eU5VVWZlQUpSbXRPUFh2MmFDT1ltRmZzU2JTQ2JJLWVCR2YxNk0xR3BwVXhpdUhHTFRlZ1Z5d2p1RDBmOWFkcVlZU1BHbzU5OGxUdmxzNFNLTVlGVl9lSHZHQVpkVDJXWVRBbHRseGVVcDhMX2EwUU9HSHZ4YWE0NEpuTU5oX0NGOExSX2pqakd3ZFZYRWhLRlZHLW1JczVF?oc=5",
-      "source": "Google Macro",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-03T03:11:51.956352Z"
-    },
-    {
-      "id": "975612953a6b2cd49b0e4453f5de3257",
-      "title": "Nasdaq-100 just had worst month since March 2025. These stocks held up - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUnp0Mi1NNjlCdjhOem5IMUtFbFFSenZkVEhxZkJtSW52cnR6WGpHdWx6bWI2aWhZOXBERWk0eUIxNWMxQnhiUTdDZ05sYVpoN1p6a0xQcllKRzNBT2NDdnJfRjM5Y0t6OE9lSEh5LVlTMUpyU1Y5OEMwbWhCdHpaMUhqWklUWjVyRDE2UmdUWlJZLXRzSnJvaW5GVWFkT0E5RDJZY0ZobHZIQQ?oc=5\" target=\"_blank\">Nasdaq-100 just had worst month since March 2025. These stocks held up</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUnp0Mi1NNjlCdjhOem5IMUtFbFFSenZkVEhxZkJtSW52cnR6WGpHdWx6bWI2aWhZOXBERWk0eUIxNWMxQnhiUTdDZ05sYVpoN1p6a0xQcllKRzNBT2NDdnJfRjM5Y0t6OE9lSEh5LVlTMUpyU1Y5OEMwbWhCdHpaMUhqWklUWjVyRDE2UmdUWlJZLXRzSnJvaW5GVWFkT0E5RDJZY0ZobHZIQQ?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [
-        "QQQ"
-      ],
-      "regions": [],
-      "assets": [
-        "EQUITIES"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-03T03:11:51.956234Z"
+      "published": "2026-08-03T03:16:35.500429Z"
     }
   ],
   "alerts": [
     {
-      "id": "8ca2e00915da9829cd2fedb46328ff60",
-      "title": "Suriname's $26 Billion Oil Bet Is Finally Paying Off",
-      "summary": "Middle East turmoil, centered on the U.S. war with Iran, is playing havoc with world energy markets. An ongoing dispute over access to the Strait of Hormuz, through which a fifth of world oil and natural gas supply is shipped, is causing prices to surge. This is a boon for South America's oil industry, particularly Suriname's emerging petroleum boom, which was delayed by conflicting drilling results and seismic data. The former Dutch colony is on the cusp of becoming South America's next major oil-producing nation. Since 2019, Suriname's government\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/Surinames-26-Billion-Oil-Bet-Is-Finally-Paying-Off.html",
-      "source": "OilPrice",
-      "score": 47,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "id": "af6daf162315f05d9f9fce40826d87a6",
+      "title": "Why Bonds Are at Center of US-Japan Intervention on Yen",
+      "summary": "The US is protecting its own bond market from spillovers by coordinating interventions with Japan, including liquidity mechanisms, explains State Street Investment Management Senior Fixed Income Strategist Masahiko Loo. He also explains why the next key level to watch is 155 yen per US dollar. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-03/why-bonds-are-at-center-of-us-japan-intervention-on-yen-video",
+      "source": "Bloomberg",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "DXY",
+        "JPY"
       ],
       "regions": [
-        "MIDDLE_EAST",
-        "US"
+        "JAPAN"
       ],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "FX"
       ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-03T03:16:13.421384Z"
+    },
+    {
+      "id": "897b5a2d569ff206ed372fe79083ffe9",
+      "title": "China draws \u2018red lines\u2019 around its economic model ahead of EU and U.S. trade talks",
+      "summary": "The West frames China's policies as mercantilist and opposing global trade \u200brules, saying its priority for producers over households pushes cheaper goods into global markets.",
+      "link": "https://www.japantimes.co.jp/news/2026/08/03/world/politics/china-red-lines-eu-us-trade-talks/",
+      "source": "Japan Times",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -158,82 +139,7 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-03T03:11:46.363977Z"
-    },
-    {
-      "id": "aab49edb03826a1a7bf6f25e76c5da47",
-      "title": "Commercial crude oil inventories increased by 2.0 million barrels",
-      "summary": "For the week ending July 17, 2026, commercial crude oil inventories (excluding the Strategic Petroleum Reserve) increased 2.0 million barrels to 411.7 million barrels, 6% below the previous five-year (2021\u20132025) average. Gasoline inventories increased 0.8 million barrels, 7% below the five-year average. Distillate inventories increased 1.4 million barrels, 10% below the five-year average. Propane/propylene inventories increased 6.3 million barrels, 34% above the five-year average. Total commercial petroleum inventories increased by 11.6 million barrels for the week.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67868",
-      "source": "EIA",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-03T03:11:45.698797Z"
-    },
-    {
-      "id": "ff76a00e09b658b910a994a00a23d201",
-      "title": "Looking at just the odds isn\u2019t enough. How traders gain an edge on prediction markets - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbHVQQVBfaHdNbUhPSHVUT0JPcFJEYWwyWUwxUFd3Vm8wQ3NJem1faFdiVmNpOUpDdC1Db09uYzgyT3c0d0RJMnZxTjByX182bUFTSDg2MFFhYVU1UU9FcHNENEtaTS1pX182a2ZRZHowX1V5ejFITHBuV3R1cWtBbnhtWk9vemQtNUVtMm1OMFdsRm5NYXZhc3BjUFN5dW9ubDI4cUVkQnFuZ9IBrwFBVV95cUxOdE5TN041clZnaDJiNXM2eU5VVWZlQUpSbXRPUFh2MmFDT1ltRmZzU2JTQ2JJLWVCR2YxNk0xR3BwVXhpdUhHTFRlZ1Z5d2p1RDBmOWFkcVlZU1BHbzU5OGxUdmxzNFNLTVlGVl9lSHZHQVpkVDJXWVRBbHRseGVVcDhMX2EwUU9HSHZ4YWE0NEpuTU5oX0NGOExSX2pqakd3ZFZYRWhLRlZHLW1JczVF?oc=5\" target=\"_blank\">Looking at just the odds isn\u2019t enough. How traders gain an edge on prediction markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbHVQQVBfaHdNbUhPSHVUT0JPcFJEYWwyWUwxUFd3Vm8wQ3NJem1faFdiVmNpOUpDdC1Db09uYzgyT3c0d0RJMnZxTjByX182bUFTSDg2MFFhYVU1UU9FcHNENEtaTS1pX182a2ZRZHowX1V5ejFITHBuV3R1cWtBbnhtWk9vemQtNUVtMm1OMFdsRm5NYXZhc3BjUFN5dW9ubDI4cUVkQnFuZ9IBrwFBVV95cUxOdE5TN041clZnaDJiNXM2eU5VVWZlQUpSbXRPUFh2MmFDT1ltRmZzU2JTQ2JJLWVCR2YxNk0xR3BwVXhpdUhHTFRlZ1Z5d2p1RDBmOWFkcVlZU1BHbzU5OGxUdmxzNFNLTVlGVl9lSHZHQVpkVDJXWVRBbHRseGVVcDhMX2EwUU9HSHZ4YWE0NEpuTU5oX0NGOExSX2pqakd3ZFZYRWhLRlZHLW1JczVF?oc=5",
-      "source": "Google Macro",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-03T03:11:51.956352Z"
-    },
-    {
-      "id": "975612953a6b2cd49b0e4453f5de3257",
-      "title": "Nasdaq-100 just had worst month since March 2025. These stocks held up - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUnp0Mi1NNjlCdjhOem5IMUtFbFFSenZkVEhxZkJtSW52cnR6WGpHdWx6bWI2aWhZOXBERWk0eUIxNWMxQnhiUTdDZ05sYVpoN1p6a0xQcllKRzNBT2NDdnJfRjM5Y0t6OE9lSEh5LVlTMUpyU1Y5OEMwbWhCdHpaMUhqWklUWjVyRDE2UmdUWlJZLXRzSnJvaW5GVWFkT0E5RDJZY0ZobHZIQQ?oc=5\" target=\"_blank\">Nasdaq-100 just had worst month since March 2025. These stocks held up</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUnp0Mi1NNjlCdjhOem5IMUtFbFFSenZkVEhxZkJtSW52cnR6WGpHdWx6bWI2aWhZOXBERWk0eUIxNWMxQnhiUTdDZ05sYVpoN1p6a0xQcllKRzNBT2NDdnJfRjM5Y0t6OE9lSEh5LVlTMUpyU1Y5OEMwbWhCdHpaMUhqWklUWjVyRDE2UmdUWlJZLXRzSnJvaW5GVWFkT0E5RDJZY0ZobHZIQQ?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [
-        "QQQ"
-      ],
-      "regions": [],
-      "assets": [
-        "EQUITIES"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-03T03:11:51.956234Z"
+      "published": "2026-08-03T03:16:35.500429Z"
     }
   ]
 }
