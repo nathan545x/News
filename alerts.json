@@ -1,33 +1,122 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-05T20:52:08.243692Z",
+  "generated_at": "2026-08-05T20:56:57.610541Z",
   "market_regime": {
     "regime": "RATES",
     "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-08-05T20:52:08.243705Z"
+    "critical_alerts": 3,
+    "high_alerts": 7,
+    "last_updated": "2026-08-05T20:56:57.610564Z"
   },
   "top_signals": [
     {
-      "id": "037e5ac1e14671cda9f74edc9f1716e2",
-      "title": "Gold Jumps Most Since February on Hormuz, Technical Breakout",
-      "summary": "Gold jumped the most since February as prospects for a deal to reopen the Strait of Hormuz reduced expectations for Federal Reserve rate hikes, while a break above a key technical resistance level fueled additional buying.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-04/gold-holds-steady-as-progress-on-hormuz-trims-rate-hike-bets",
-      "source": "Bloomberg",
-      "score": 33,
+      "id": "d17c0ff97b9d81401e75f53bbf2ea171",
+      "title": "Gulf Oil Exports Stabilize in July",
+      "summary": "Gulf countries' crude oil and condensate exports were largely steady in July and remained about 40% below pre-war levels, shipping data showed, with signs of a slowdown emerging in the second half of the month as fighting in the region intensified\u2026",
+      "link": "https://www.marinelink.com/news/gulf-oil-exports-stabilize-july-541822",
+      "source": "MarineLink",
+      "score": 34,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "COMMODITIES",
       "tickers": [
-        "XAU"
+        "WTI"
       ],
       "regions": [],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "COMMODITIES",
+        "SHIPPING"
       ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-05T20:56:51.719465Z"
+    },
+    {
+      "id": "0e2d7ac7180005852602e785b8f841c1",
+      "title": "Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?",
+      "summary": "Speech At \u201cNext-Gen Financial Inclusion,\u201d the third annual Financial Inclusion Conference hosted by the Federal Reserve Board",
+      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260714a.htm",
+      "source": "Federal Reserve",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-05T20:56:25.217664Z"
+    },
+    {
+      "id": "7480e7be0c539c0736bf7e491c05fc26",
+      "title": "Trump says Iran will be \u2018hit very hard\u2019 if Hormuz Strait not open soon as oil prices fall",
+      "summary": "Donald Trump said the Strait of Hormuz would open &#8220;very soon&#8221; or Iran would be &#8220;hit very hard&#8221; as oil prices fell to a three-week low amid hopes of a deal. The US president was speaking to Fox News after Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both said talks had progressed ...",
+      "link": "https://www.hellenicshippingnews.com/trump-says-iran-will-be-hit-very-hard-if-hormuz-strait-not-open-soon-as-oil-prices-fall/",
+      "source": "Hellenic Shipping",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "TLT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-05T20:56:51.367935Z"
+    },
+    {
+      "id": "3ed043fbe3b7b6a6a8a75d73f22dbf8c",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -40,23 +129,79 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-05T20:51:31.806904Z"
+      "published": "2026-08-05T20:56:25.045001Z"
     },
     {
-      "id": "9d7d4bf15416f406dbf29b261a58b01b",
-      "title": "Investors Remain Skeptical About the Yen After U.S. Intervention - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPZlRiTmx5QnRZZFRGMFRvLWpUY1FvTzZYWllPNTZxWTJUWllSdUkwSVl3NUExc2RXRWNlMjNrWFo0SDY2SHY3eURzc2lpZjlHUG9zalV1Ti1YbkUtU280OV9aZkdaNmhJa1V0SzBxSFJpdWxJb0ktcGtNMUE3dVNHV3pHejJsNUlWNXFHRHlxQzYwczg?oc=5\" target=\"_blank\">Investors Remain Skeptical About the Yen After U.S. Intervention</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZlRiTmx5QnRZZFRGMFRvLWpUY1FvTzZYWllPNTZxWTJUWllSdUkwSVl3NUExc2RXRWNlMjNrWFo0SDY2SHY3eURzc2lpZjlHUG9zalV1Ti1YbkUtU280OV9aZkdaNmhJa1V0SzBxSFJpdWxJb0ktcGtNMUE3dVNHV3pHejJsNUlWNXFHRHlxQzYwczg?oc=5",
+      "id": "5383713a3924db2c538ac7bf9b43c060",
+      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+      "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-05T20:56:25.045059Z"
+    },
+    {
+      "id": "717ff741b1566523f9ed214669ba0edd",
+      "title": "Oil Holds Two-Day Drop on Signs of Progress Toward Hormuz Deal - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPSldwSGlqM2UyQkNEWXNUbVNLNGUxZ2xMVUsxVFR3TmI0TElkazcwWnhLbFByNE05OWhNbU93MWNGQUZYNGkyYi1qWTNmZEV0M1MyMVY1ZWZiQ2szbDlIQlJJVm5OalNYbnhiOVVDYk01bzRUTmc3VFVtNGVGUmctejBrSUZQY3F1a1ROMjJJN0RFaHFpZjlUZzlHZGY?oc=5\" target=\"_blank\">Oil Holds Two-Day Drop on Signs of Progress Toward Hormuz Deal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSldwSGlqM2UyQkNEWXNUbVNLNGUxZ2xMVUsxVFR3TmI0TElkazcwWnhLbFByNE05OWhNbU93MWNGQUZYNGkyYi1qWTNmZEV0M1MyMVY1ZWZiQ2szbDlIQlJJVm5OalNYbnhiOVVDYk01bzRUTmc3VFVtNGVGUmctejBrSUZQY3F1a1ROMjJJN0RFaHFpZjlUZzlHZGY?oc=5",
       "source": "Google Macro",
-      "score": 12,
-      "severity": "MEDIUM",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-05T20:56:55.405880Z"
+    },
+    {
+      "id": "5cb1e2617843395790946c01eaf4680c",
+      "title": "Bessent Seeks Fed\u2019s Aid to Defend Yen in Unusual Public Call - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVnhtampoT0ZVbHRLQ3lySDc1VktQLVc4SU9Xak40V2doS3ZxeUtqVi14bVVKNTdoNkNTWmNsNjAxNElaNmQtWGFGXzZLelJ6Z0FTeWlWMkVWVlRkN09DMVRXTzdnYWg4ZDVfdVY2NlNzSnJWLUNncTYyRHNUVDBQTXcwUGZYWVMxaUhEaDJNYWh5SjZ0cVVtRTBkVklnSXJoeFJGSEZnUDdFUQ?oc=5\" target=\"_blank\">Bessent Seeks Fed\u2019s Aid to Defend Yen in Unusual Public Call</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVnhtampoT0ZVbHRLQ3lySDc1VktQLVc4SU9Xak40V2doS3ZxeUtqVi14bVVKNTdoNkNTWmNsNjAxNElaNmQtWGFGXzZLelJ6Z0FTeWlWMkVWVlRkN09DMVRXTzdnYWg4ZDVfdVY2NlNzSnJWLUNncTYyRHNUVDBQTXcwUGZYWVMxaUhEaDJNYWh5SjZ0cVVtRTBkVklnSXJoeFJGSEZnUDdFUQ?oc=5",
+      "source": "Google Macro",
+      "score": 18,
+      "severity": "HIGH",
       "regime": "RATES",
       "tickers": [
         "JPY"
       ],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI",
         "FX"
@@ -73,56 +218,238 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-05T20:52:07.704830Z"
+      "published": "2026-08-05T20:56:55.405980Z"
     },
     {
-      "id": "2aece132047eb5d4d3d6b7d7bdf53e3d",
-      "title": "Block\u2019s bitcoin gross profit falls 31% after Cash App fee cuts as shares reverse initial gains",
-      "summary": "<p>Block raised its 2026 gross profit forecast to $12.51 billion after posting record adjusted operating income.</p>",
-      "link": "https://www.theblock.co/post/410923/blocks-bitcoin-gross-profit-falls-31-cash-app-fee-cuts-shares-reverse-initial-gains?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
+      "id": "156cdb8abd580cd9c62fd5beb1c32229",
+      "title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+      "summary": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank &quot;insiders&quot;\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-05T20:56:25.139064Z"
+    },
+    {
+      "id": "8026c436f8bf95a6d48505787562f16e",
+      "title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
+      "summary": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-05T20:56:25.139119Z"
+    },
+    {
+      "id": "987eef5ad64af12e1e80d9ca682ba6a7",
+      "title": "Shipping Companies Release Joint Letter Regarding Strait of Hormuz Fees",
+      "summary": "An international group of shipping trade associations has sent a letter to UN Secretary General, Ant\u00f3nio Guterres and IMO Secretary General, Arsenio Dominguez, calling for no compulsory tolls or charges to be introduced in the Strait of Hormuz and beyond.",
+      "link": "https://www.marinelink.com/news/shipping-companies-release-joint-letter-541826",
+      "source": "MarineLink",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
       "regions": [],
       "assets": [
         "AI",
-        "CRYPTO"
+        "SHIPPING"
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "XAU",
+          "WTI",
+          "COMMODITIES"
         ],
         "bearish": [
-          "USD"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-08-05T20:52:01.481454Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-08-05T20:56:51.719396Z"
+    },
+    {
+      "id": "e875b4664fa30b525598db9fd09194a1",
+      "title": "CME, FanDuel Venture Falters As Prediction Startups Race Ahead",
+      "summary": "CME Group Inc. and FanDuel are scaling back a joint effort to take on prediction market startups after failing to gain traction in a booming industry that has quickly come to represent a threat to both Wall Street exchanges and traditional sportsbooks.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-05/cme-fanduel-venture-falters-as-prediction-startups-race-ahead",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-05T20:56:19.720322Z"
+    },
+    {
+      "id": "2f57704360c54ef203dcf0527352aebe",
+      "title": "Jefferson, Navigating Economic Shocks: A Monetary Policymaker\u2019s Perspective",
+      "summary": "Speech At the Stanford Institute for Economic Policy Research, Stanford University, Stanford, California",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260716a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-05T20:56:25.217557Z"
     }
   ],
   "alerts": [
     {
-      "id": "037e5ac1e14671cda9f74edc9f1716e2",
-      "title": "Gold Jumps Most Since February on Hormuz, Technical Breakout",
-      "summary": "Gold jumped the most since February as prospects for a deal to reopen the Strait of Hormuz reduced expectations for Federal Reserve rate hikes, while a break above a key technical resistance level fueled additional buying.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-04/gold-holds-steady-as-progress-on-hormuz-trims-rate-hike-bets",
-      "source": "Bloomberg",
-      "score": 33,
+      "id": "d17c0ff97b9d81401e75f53bbf2ea171",
+      "title": "Gulf Oil Exports Stabilize in July",
+      "summary": "Gulf countries' crude oil and condensate exports were largely steady in July and remained about 40% below pre-war levels, shipping data showed, with signs of a slowdown emerging in the second half of the month as fighting in the region intensified\u2026",
+      "link": "https://www.marinelink.com/news/gulf-oil-exports-stabilize-july-541822",
+      "source": "MarineLink",
+      "score": 34,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "COMMODITIES",
       "tickers": [
-        "XAU"
+        "WTI"
       ],
       "regions": [],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "COMMODITIES",
+        "SHIPPING"
       ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-05T20:56:51.719465Z"
+    },
+    {
+      "id": "0e2d7ac7180005852602e785b8f841c1",
+      "title": "Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?",
+      "summary": "Speech At \u201cNext-Gen Financial Inclusion,\u201d the third annual Financial Inclusion Conference hosted by the Federal Reserve Board",
+      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260714a.htm",
+      "source": "Federal Reserve",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-05T20:56:25.217664Z"
+    },
+    {
+      "id": "7480e7be0c539c0736bf7e491c05fc26",
+      "title": "Trump says Iran will be \u2018hit very hard\u2019 if Hormuz Strait not open soon as oil prices fall",
+      "summary": "Donald Trump said the Strait of Hormuz would open &#8220;very soon&#8221; or Iran would be &#8220;hit very hard&#8221; as oil prices fell to a three-week low amid hopes of a deal. The US president was speaking to Fox News after Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both said talks had progressed ...",
+      "link": "https://www.hellenicshippingnews.com/trump-says-iran-will-be-hit-very-hard-if-hormuz-strait-not-open-soon-as-oil-prices-fall/",
+      "source": "Hellenic Shipping",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "TLT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-05T20:56:51.367935Z"
+    },
+    {
+      "id": "3ed043fbe3b7b6a6a8a75d73f22dbf8c",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -135,23 +462,79 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-05T20:51:31.806904Z"
+      "published": "2026-08-05T20:56:25.045001Z"
     },
     {
-      "id": "9d7d4bf15416f406dbf29b261a58b01b",
-      "title": "Investors Remain Skeptical About the Yen After U.S. Intervention - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPZlRiTmx5QnRZZFRGMFRvLWpUY1FvTzZYWllPNTZxWTJUWllSdUkwSVl3NUExc2RXRWNlMjNrWFo0SDY2SHY3eURzc2lpZjlHUG9zalV1Ti1YbkUtU280OV9aZkdaNmhJa1V0SzBxSFJpdWxJb0ktcGtNMUE3dVNHV3pHejJsNUlWNXFHRHlxQzYwczg?oc=5\" target=\"_blank\">Investors Remain Skeptical About the Yen After U.S. Intervention</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZlRiTmx5QnRZZFRGMFRvLWpUY1FvTzZYWllPNTZxWTJUWllSdUkwSVl3NUExc2RXRWNlMjNrWFo0SDY2SHY3eURzc2lpZjlHUG9zalV1Ti1YbkUtU280OV9aZkdaNmhJa1V0SzBxSFJpdWxJb0ktcGtNMUE3dVNHV3pHejJsNUlWNXFHRHlxQzYwczg?oc=5",
+      "id": "5383713a3924db2c538ac7bf9b43c060",
+      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+      "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-05T20:56:25.045059Z"
+    },
+    {
+      "id": "717ff741b1566523f9ed214669ba0edd",
+      "title": "Oil Holds Two-Day Drop on Signs of Progress Toward Hormuz Deal - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPSldwSGlqM2UyQkNEWXNUbVNLNGUxZ2xMVUsxVFR3TmI0TElkazcwWnhLbFByNE05OWhNbU93MWNGQUZYNGkyYi1qWTNmZEV0M1MyMVY1ZWZiQ2szbDlIQlJJVm5OalNYbnhiOVVDYk01bzRUTmc3VFVtNGVGUmctejBrSUZQY3F1a1ROMjJJN0RFaHFpZjlUZzlHZGY?oc=5\" target=\"_blank\">Oil Holds Two-Day Drop on Signs of Progress Toward Hormuz Deal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSldwSGlqM2UyQkNEWXNUbVNLNGUxZ2xMVUsxVFR3TmI0TElkazcwWnhLbFByNE05OWhNbU93MWNGQUZYNGkyYi1qWTNmZEV0M1MyMVY1ZWZiQ2szbDlIQlJJVm5OalNYbnhiOVVDYk01bzRUTmc3VFVtNGVGUmctejBrSUZQY3F1a1ROMjJJN0RFaHFpZjlUZzlHZGY?oc=5",
       "source": "Google Macro",
-      "score": 12,
-      "severity": "MEDIUM",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-05T20:56:55.405880Z"
+    },
+    {
+      "id": "5cb1e2617843395790946c01eaf4680c",
+      "title": "Bessent Seeks Fed\u2019s Aid to Defend Yen in Unusual Public Call - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVnhtampoT0ZVbHRLQ3lySDc1VktQLVc4SU9Xak40V2doS3ZxeUtqVi14bVVKNTdoNkNTWmNsNjAxNElaNmQtWGFGXzZLelJ6Z0FTeWlWMkVWVlRkN09DMVRXTzdnYWg4ZDVfdVY2NlNzSnJWLUNncTYyRHNUVDBQTXcwUGZYWVMxaUhEaDJNYWh5SjZ0cVVtRTBkVklnSXJoeFJGSEZnUDdFUQ?oc=5\" target=\"_blank\">Bessent Seeks Fed\u2019s Aid to Defend Yen in Unusual Public Call</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVnhtampoT0ZVbHRLQ3lySDc1VktQLVc4SU9Xak40V2doS3ZxeUtqVi14bVVKNTdoNkNTWmNsNjAxNElaNmQtWGFGXzZLelJ6Z0FTeWlWMkVWVlRkN09DMVRXTzdnYWg4ZDVfdVY2NlNzSnJWLUNncTYyRHNUVDBQTXcwUGZYWVMxaUhEaDJNYWh5SjZ0cVVtRTBkVklnSXJoeFJGSEZnUDdFUQ?oc=5",
+      "source": "Google Macro",
+      "score": 18,
+      "severity": "HIGH",
       "regime": "RATES",
       "tickers": [
         "JPY"
       ],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI",
         "FX"
@@ -168,36 +551,222 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-05T20:52:07.704830Z"
+      "published": "2026-08-05T20:56:55.405980Z"
     },
     {
-      "id": "2aece132047eb5d4d3d6b7d7bdf53e3d",
-      "title": "Block\u2019s bitcoin gross profit falls 31% after Cash App fee cuts as shares reverse initial gains",
-      "summary": "<p>Block raised its 2026 gross profit forecast to $12.51 billion after posting record adjusted operating income.</p>",
-      "link": "https://www.theblock.co/post/410923/blocks-bitcoin-gross-profit-falls-31-cash-app-fee-cuts-shares-reverse-initial-gains?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
+      "id": "156cdb8abd580cd9c62fd5beb1c32229",
+      "title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+      "summary": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank &quot;insiders&quot;\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-05T20:56:25.139064Z"
+    },
+    {
+      "id": "8026c436f8bf95a6d48505787562f16e",
+      "title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
+      "summary": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-05T20:56:25.139119Z"
+    },
+    {
+      "id": "987eef5ad64af12e1e80d9ca682ba6a7",
+      "title": "Shipping Companies Release Joint Letter Regarding Strait of Hormuz Fees",
+      "summary": "An international group of shipping trade associations has sent a letter to UN Secretary General, Ant\u00f3nio Guterres and IMO Secretary General, Arsenio Dominguez, calling for no compulsory tolls or charges to be introduced in the Strait of Hormuz and beyond.",
+      "link": "https://www.marinelink.com/news/shipping-companies-release-joint-letter-541826",
+      "source": "MarineLink",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
       "regions": [],
       "assets": [
         "AI",
-        "CRYPTO"
+        "SHIPPING"
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "XAU",
+          "WTI",
+          "COMMODITIES"
         ],
         "bearish": [
-          "USD"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-08-05T20:52:01.481454Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-08-05T20:56:51.719396Z"
+    },
+    {
+      "id": "e875b4664fa30b525598db9fd09194a1",
+      "title": "CME, FanDuel Venture Falters As Prediction Startups Race Ahead",
+      "summary": "CME Group Inc. and FanDuel are scaling back a joint effort to take on prediction market startups after failing to gain traction in a booming industry that has quickly come to represent a threat to both Wall Street exchanges and traditional sportsbooks.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-05/cme-fanduel-venture-falters-as-prediction-startups-race-ahead",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-05T20:56:19.720322Z"
+    },
+    {
+      "id": "2f57704360c54ef203dcf0527352aebe",
+      "title": "Jefferson, Navigating Economic Shocks: A Monetary Policymaker\u2019s Perspective",
+      "summary": "Speech At the Stanford Institute for Economic Policy Research, Stanford University, Stanford, California",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260716a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-05T20:56:25.217557Z"
+    },
+    {
+      "id": "1771d639c16b4ccaa1cf7575e4eb4799",
+      "title": "Cook, Economic Outlook",
+      "summary": "Speech At The Exchequer Club of Washington D.C., Washington, D.C.",
+      "link": "https://www.federalreserve.gov/newsevents/speech/cook20260715a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-05T20:56:25.217597Z"
+    },
+    {
+      "id": "9d40236c18888590fe341530ebf6112e",
+      "title": "Waller, Monetary Policy at a Crossroads",
+      "summary": "Speech At the New York Association for Business Economics, New York, New York",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260713a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-05T20:56:25.217697Z"
+    },
+    {
+      "id": "a452fdbdd14c7a5bcf09a565f0bbc2e6",
+      "title": "Trump admin refunds $100 billion in 'liberation day' tariffs",
+      "summary": "The Trump administration has taken steps to effectively re-create the IEEPA tariff regime using other legal authorities. They already face court challenges.",
+      "link": "https://www.cnbc.com/2026/08/05/trump-tariffs-refunds-ieepa-lawsuit.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-05T20:56:24.197138Z"
+    },
+    {
+      "id": "ecd3763f978f6125df754ad52455eb61",
+      "title": "Hybrid sales rise while battery electric sales remain lower after tax credit expiration",
+      "summary": "In the second quarter of 2026 (2Q26), 24% of new light-duty vehicles sold in the United States were hybrid electric, battery electric, or plug-in hybrid electric vehicles, up from 22% in 2Q25. Between 2Q25 and 2Q26, hybrid electric vehicles continued to gain market share, reaching a record 16% of light-duty vehicle sales. The market shares of battery electric and plug-in hybrid electric vehicles decreased, according to estimates from Omdia. In 2Q26, battery electric vehicle sales were 6% of new light-duty vehicles sold, down from 7% in 2Q25; plug-in hybrid electric vehicle sales fell from 1.9% to 1.4% over the same period.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67885",
+      "source": "EIA",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-05T20:56:49.872711Z"
+    },
+    {
+      "id": "f9de446bf4efd70259119238060c0524",
+      "title": "Gulf Hypoxic Zone Found to Be Smaller Than Expected",
+      "summary": "NOAA-supported scientists announced\u00a0that this year\u2019s Gulf of America hypoxic zone is approximately 1,332 square miles, making it the 2nd smallest zone on record in 40 years of measurement. Hypoxic areas, also called \u201cdead zones,\u201d are areas with little to no oxygen in the water\u2026",
+      "link": "https://www.marinelink.com/news/gulf-hypoxic-zone-found-smaller-expected-541827",
+      "source": "MarineLink",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-05T20:56:51.719329Z"
     }
   ]
 }
