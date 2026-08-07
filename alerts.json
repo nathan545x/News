@@ -1,81 +1,421 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-07T15:16:50.432401Z",
+  "generated_at": "2026-08-07T15:22:09.937659Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-08-07T15:16:50.432415Z"
+    "critical_alerts": 1,
+    "high_alerts": 2,
+    "last_updated": "2026-08-07T15:22:09.937671Z"
   },
   "top_signals": [
     {
-      "id": "3422b5af0e0b6e294aead9eb8f607778",
-      "title": "DR Congo launches probe into uranium-contaminated cobalt exports",
-      "summary": "Government measures triggered by FT and Lighthouse Reports investigation",
-      "link": "https://www.ft.com/content/7c028aa0-cb64-4f71-9605-f63b83df7af4?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
+      "id": "a11f8e3cd04f90afecdc6d19104d1298",
+      "title": "Dollar Falls to Lowest Level Since May as Rate Hike in Doubt",
+      "summary": "The dollar fell Friday after soft US labor data reduced expectations that the Federal Reserve will raise interest rates in the near term.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-07/dollar-falls-to-lowest-level-since-may-as-rate-hike-in-doubt",
+      "source": "Bloomberg",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "DXY"
+      ],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-07T15:16:23.371251Z"
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-07T15:21:33.088059Z"
     },
     {
-      "id": "127c2979e9b6b9786a474edc072e342b",
-      "title": "\u2018Applesauce\u2019: Michigan judge denies Coinbase bid to block state enforcement of sports event contracts",
-      "summary": "<p>\"Coinbase's averments are, in a word, applesauce,\" U.S. District Judge Shalina Kumar wrote in Thursday's ruling.</p>",
-      "link": "https://www.theblock.co/post/411128/michigan-judge-denies-coinbase-bid-prediction-markets?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 1,
-      "severity": "LOW",
+      "id": "b87ba92d859368afc0324692b95ec952",
+      "title": "Yen Jumps on US Data as Traders Watch for Intervention Clues",
+      "summary": "The yen surged against a weaker dollar after an unexpectedly soft US payrolls report on Friday, offering the latest fodder for speculation that authorities could intervene in the Japanese currency again.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-07/yen-surrenders-nearly-half-its-gains-from-us-japan-intervention",
+      "source": "Bloomberg",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-07T15:21:33.087906Z"
+    },
+    {
+      "id": "88ec45062065b7d510474894ed68ce5a",
+      "title": "Crypto Biz: Crypto\u2019s biggest business is starting to look a lot like banking",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Crypto Biz: Crypto\u2019s biggest business is starting to look a lot like banking\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/banks-road-crypto-1.jpg\" /></p><p>Crypto business is converging with banking as stablecoin reserves, tokenized funds, Treasury income and balance sheet management become key profit drivers.</p>",
+      "link": "https://cointelegraph.com/news/crypto-biz-crypto-business-converges-traditional-banking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-08-07T15:22:06.229577Z"
+    },
+    {
+      "id": "c7243a99a1253d42d63d924083c2ec31",
+      "title": "China overtakes US to lead global R&D spending, hitting $615bn",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/science/china-overtakes-us-to-lead-global-r-d-spending-hitting-615bn",
+      "source": "Nikkei Asia",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-07T15:22:00.501890Z"
+    },
+    {
+      "id": "22638703bbc0ef317657485804e34ba3",
+      "title": "How a Sardine Gets From the Ocean to a Can",
+      "summary": "Just a decade ago, tinned fish was hardly a premium product. Most Americans likely associated cans of tuna with thrift. But that has changed a lot in recent years. The category took off during Covid and now shoppers are shelling out for high end brands like Fishwife. Today\u2019s guest Becca Millstein started the company in 2020, positioning it as a distinct, artisanal product, more akin to one might find in European grocery stores. In addition to the sheer challenges of scaling, the nature of the bu",
+      "link": "https://www.bloomberg.com/news/audio/2026-08-07/how-a-sardine-gets-from-the-ocean-to-a-can",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "US"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-07T15:21:33.088017Z"
+    },
+    {
+      "id": "85a4d7522749ccd5c432d1a38eb1750d",
+      "title": "EXCLUSIVE: Iran threatens to hit Gulf states if US launches new strikes - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPajFnaXk0anVrT2IwaV9XMDBma0pMQU53ZF9LRUJiT01nWjJsdG5FZXhwUjNtZFp2Yy1NV3Q4dFRIeUxzV1pCWk9RMVVZNk1UbWxxMFdiNEdNTG5KSVBVWTRCaWFJSFNlT3RiMFF6RWtqN2pnRThTUU9GaHNfelhwV3RZTXdfMzJwUk1aVlFXZ0FBNk1qWFFmd2xIRWNVWVpmQl9DSkE2NnhMaXlJZ2FFeQ?oc=5\" target=\"_blank\">EXCLUSIVE: Iran threatens to hit Gulf states if US launches new strikes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPajFnaXk0anVrT2IwaV9XMDBma0pMQU53ZF9LRUJiT01nWjJsdG5FZXhwUjNtZFp2Yy1NV3Q4dFRIeUxzV1pCWk9RMVVZNk1UbWxxMFdiNEdNTG5KSVBVWTRCaWFJSFNlT3RiMFF6RWtqN2pnRThTUU9GaHNfelhwV3RZTXdfMzJwUk1aVlFXZ0FBNk1qWFFmd2xIRWNVWVpmQl9DSkE2NnhMaXlJZ2FFeQ?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-07T15:22:08.170669Z"
+    },
+    {
+      "id": "46e556b1d9aeaed327d3f900f58f1a52",
+      "title": "US Treasuries Rally as Soft Jobs Data Trims Fed Rate-Hike Bets - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPMDVId3lWa1F5ZmhrTGwxa1pNX1hCNERSNzJHUi1LYVFqM24zYWpnVnE4TjBnOGFVOWs5YVcxSTFVakl0NzBEM0d5aFJKWmd0RUxNWEpUYVVTX2VEVEV0ZC1aazB0VEF3ZUhFdTZ5NHQwTm9zcUdteHlWdERvOHFUcnE2ekh5VWQxN0RvdzZHTjkyZWtQSEV6LWFleXVhMlZXQm16TnVQLW9Xemp5M2dzMGV6dw?oc=5\" target=\"_blank\">US Treasuries Rally as Soft Jobs Data Trims Fed Rate-Hike Bets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMDVId3lWa1F5ZmhrTGwxa1pNX1hCNERSNzJHUi1LYVFqM24zYWpnVnE4TjBnOGFVOWs5YVcxSTFVakl0NzBEM0d5aFJKWmd0RUxNWEpUYVVTX2VEVEV0ZC1aazB0VEF3ZUhFdTZ5NHQwTm9zcUdteHlWdERvOHFUcnE2ekh5VWQxN0RvdzZHTjkyZWtQSEV6LWFleXVhMlZXQm16TnVQLW9Xemp5M2dzMGV6dw?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-07T15:16:46.861435Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-07T15:22:07.602504Z"
     }
   ],
   "alerts": [
     {
-      "id": "3422b5af0e0b6e294aead9eb8f607778",
-      "title": "DR Congo launches probe into uranium-contaminated cobalt exports",
-      "summary": "Government measures triggered by FT and Lighthouse Reports investigation",
-      "link": "https://www.ft.com/content/7c028aa0-cb64-4f71-9605-f63b83df7af4?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
+      "id": "a11f8e3cd04f90afecdc6d19104d1298",
+      "title": "Dollar Falls to Lowest Level Since May as Rate Hike in Doubt",
+      "summary": "The dollar fell Friday after soft US labor data reduced expectations that the Federal Reserve will raise interest rates in the near term.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-07/dollar-falls-to-lowest-level-since-may-as-rate-hike-in-doubt",
+      "source": "Bloomberg",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "DXY"
+      ],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-07T15:16:23.371251Z"
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-07T15:21:33.088059Z"
     },
     {
-      "id": "127c2979e9b6b9786a474edc072e342b",
-      "title": "\u2018Applesauce\u2019: Michigan judge denies Coinbase bid to block state enforcement of sports event contracts",
-      "summary": "<p>\"Coinbase's averments are, in a word, applesauce,\" U.S. District Judge Shalina Kumar wrote in Thursday's ruling.</p>",
-      "link": "https://www.theblock.co/post/411128/michigan-judge-denies-coinbase-bid-prediction-markets?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 1,
-      "severity": "LOW",
+      "id": "b87ba92d859368afc0324692b95ec952",
+      "title": "Yen Jumps on US Data as Traders Watch for Intervention Clues",
+      "summary": "The yen surged against a weaker dollar after an unexpectedly soft US payrolls report on Friday, offering the latest fodder for speculation that authorities could intervene in the Japanese currency again.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-07/yen-surrenders-nearly-half-its-gains-from-us-japan-intervention",
+      "source": "Bloomberg",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-07T15:21:33.087906Z"
+    },
+    {
+      "id": "88ec45062065b7d510474894ed68ce5a",
+      "title": "Crypto Biz: Crypto\u2019s biggest business is starting to look a lot like banking",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Crypto Biz: Crypto\u2019s biggest business is starting to look a lot like banking\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/banks-road-crypto-1.jpg\" /></p><p>Crypto business is converging with banking as stablecoin reserves, tokenized funds, Treasury income and balance sheet management become key profit drivers.</p>",
+      "link": "https://cointelegraph.com/news/crypto-biz-crypto-business-converges-traditional-banking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-08-07T15:22:06.229577Z"
+    },
+    {
+      "id": "c7243a99a1253d42d63d924083c2ec31",
+      "title": "China overtakes US to lead global R&D spending, hitting $615bn",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/science/china-overtakes-us-to-lead-global-r-d-spending-hitting-615bn",
+      "source": "Nikkei Asia",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-07T15:22:00.501890Z"
+    },
+    {
+      "id": "22638703bbc0ef317657485804e34ba3",
+      "title": "How a Sardine Gets From the Ocean to a Can",
+      "summary": "Just a decade ago, tinned fish was hardly a premium product. Most Americans likely associated cans of tuna with thrift. But that has changed a lot in recent years. The category took off during Covid and now shoppers are shelling out for high end brands like Fishwife. Today\u2019s guest Becca Millstein started the company in 2020, positioning it as a distinct, artisanal product, more akin to one might find in European grocery stores. In addition to the sheer challenges of scaling, the nature of the bu",
+      "link": "https://www.bloomberg.com/news/audio/2026-08-07/how-a-sardine-gets-from-the-ocean-to-a-can",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "US"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-07T15:21:33.088017Z"
+    },
+    {
+      "id": "85a4d7522749ccd5c432d1a38eb1750d",
+      "title": "EXCLUSIVE: Iran threatens to hit Gulf states if US launches new strikes - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPajFnaXk0anVrT2IwaV9XMDBma0pMQU53ZF9LRUJiT01nWjJsdG5FZXhwUjNtZFp2Yy1NV3Q4dFRIeUxzV1pCWk9RMVVZNk1UbWxxMFdiNEdNTG5KSVBVWTRCaWFJSFNlT3RiMFF6RWtqN2pnRThTUU9GaHNfelhwV3RZTXdfMzJwUk1aVlFXZ0FBNk1qWFFmd2xIRWNVWVpmQl9DSkE2NnhMaXlJZ2FFeQ?oc=5\" target=\"_blank\">EXCLUSIVE: Iran threatens to hit Gulf states if US launches new strikes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPajFnaXk0anVrT2IwaV9XMDBma0pMQU53ZF9LRUJiT01nWjJsdG5FZXhwUjNtZFp2Yy1NV3Q4dFRIeUxzV1pCWk9RMVVZNk1UbWxxMFdiNEdNTG5KSVBVWTRCaWFJSFNlT3RiMFF6RWtqN2pnRThTUU9GaHNfelhwV3RZTXdfMzJwUk1aVlFXZ0FBNk1qWFFmd2xIRWNVWVpmQl9DSkE2NnhMaXlJZ2FFeQ?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-07T15:22:08.170669Z"
+    },
+    {
+      "id": "46e556b1d9aeaed327d3f900f58f1a52",
+      "title": "US Treasuries Rally as Soft Jobs Data Trims Fed Rate-Hike Bets - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPMDVId3lWa1F5ZmhrTGwxa1pNX1hCNERSNzJHUi1LYVFqM24zYWpnVnE4TjBnOGFVOWs5YVcxSTFVakl0NzBEM0d5aFJKWmd0RUxNWEpUYVVTX2VEVEV0ZC1aazB0VEF3ZUhFdTZ5NHQwTm9zcUdteHlWdERvOHFUcnE2ekh5VWQxN0RvdzZHTjkyZWtQSEV6LWFleXVhMlZXQm16TnVQLW9Xemp5M2dzMGV6dw?oc=5\" target=\"_blank\">US Treasuries Rally as Soft Jobs Data Trims Fed Rate-Hike Bets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMDVId3lWa1F5ZmhrTGwxa1pNX1hCNERSNzJHUi1LYVFqM24zYWpnVnE4TjBnOGFVOWs5YVcxSTFVakl0NzBEM0d5aFJKWmd0RUxNWEpUYVVTX2VEVEV0ZC1aazB0VEF3ZUhFdTZ5NHQwTm9zcUdteHlWdERvOHFUcnE2ekh5VWQxN0RvdzZHTjkyZWtQSEV6LWFleXVhMlZXQm16TnVQLW9Xemp5M2dzMGV6dw?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-07T15:16:46.861435Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-07T15:22:07.602504Z"
     }
   ]
 }
