@@ -1,79 +1,607 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-07T05:21:44.200743Z",
+  "generated_at": "2026-08-07T05:27:33.131852Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-08-07T05:21:44.200756Z"
+    "high_alerts": 4,
+    "last_updated": "2026-08-07T05:27:33.131864Z"
   },
   "top_signals": [
     {
-      "id": "c00b59187c7fe7e0a8060741292b1f57",
-      "title": "Gold Set for Best Week Since January on Support From Dip-Buyers",
-      "summary": "Gold was on track for its biggest gain in more than six months as dip-buyers supported prices above a key technical level while looking past flare-ups in the Strait of Hormuz that risked adding to energy-led inflation.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-06/gold-steady-as-traders-assess-impact-of-hormuz-flare-up-on-rates",
-      "source": "Bloomberg",
-      "score": 26,
+      "id": "df3cbb29c6eebfdf4752e5cbfaaaa107",
+      "title": "Oil rises after Iran publishes draft plan to ban U.S. ships from Strait of Hormuz",
+      "summary": "News of Iran's restrictive draft plan for the\u00a0Strait of Hormuz sent oil prices higher, renewing concerns over supply disruptions.",
+      "link": "https://www.cnbc.com/2026/08/07/oil-rises-supply-fears-iran-draft-plan-strait-hormuz.html",
+      "source": "CNBC",
+      "score": 35,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "COMMODITIES",
       "tickers": [
-        "XAU"
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "COMMODITIES"
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-07T05:21:14.856350Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-07T05:26:29.291170Z"
+    },
+    {
+      "id": "48124525e72fbd544e95475a004a0f1e",
+      "title": "JPMorgan's Jamie Dimon warns of high leverage: 'Somebody will disrupt the market'",
+      "summary": "JPMorgan Chief Executive Officer Jamie Dimon warned that leverage across financial markets remains elevated, adding that investors should be mindful that hidden borrowing could amplify market disruptions.",
+      "link": "https://www.cnbc.com/2026/08/06/jpmorgan-jamie-dimon-leverage-market-disruption.html",
+      "source": "CNBC",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-07T05:26:29.655369Z"
+    },
+    {
+      "id": "a51bc19ff9fb3fe6a86f5abf58bb2a80",
+      "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "summary": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-07T05:26:29.846011Z"
+    },
+    {
+      "id": "a655913170f801cc32214a85d2745735",
+      "title": "Bowman, Responsible Innovation and Financial Inclusion",
+      "summary": "Speech At \u201cNext-Gen Financial Inclusion,\u201d the third annual Financial Inclusion Conference hosted by the Federal Reserve Board, Washington, D.C. (via pre-recorded video)",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-07T05:26:30.118192Z"
+    },
+    {
+      "id": "45fb12354f958d893a91a66268e871bd",
+      "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
+      "summary": "Maksim Silnikau, the creator and administrator of the Ransom Cartel ransomware operation, was sentenced to 16 years in prison for his role in ransomware attacks against at least 18 companies worldwide. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-07T05:27:29.589230Z"
+    },
+    {
+      "id": "a0ea98939ea04eece6ad66ffcb110886",
+      "title": "The curious case of the Japanese government bond yields",
+      "summary": "Maybe not as high as you think",
+      "link": "https://www.ft.com/content/22a6bce7-ccec-4e7d-a31b-ca8d67b1bcb6",
+      "source": "Financial Times",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-07T05:26:27.830367Z"
+    },
+    {
+      "id": "0a36f0e1800cb15b55ba1a8d183bb36e",
+      "title": "Shares in Australia's Atlassian surge 33% as sales growth quells AI fears",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/markets/shares-in-australia-s-atlassian-surge-33-as-sales-growth-quells-ai-fears",
+      "source": "Nikkei Asia",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-07T05:26:52.998793Z"
+    },
+    {
+      "id": "d46868c173eb96ddbe020f50f2a2bc8f",
+      "title": "Results of the June 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_3~c0b45e246f.en.html",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-07T05:26:41.442527Z"
+    },
+    {
+      "id": "dd1784e538e9f48b8f115b64aab5c03f",
+      "title": "Cyberattack on North Carolina Ports \u2018contained\u2019 as Coast Guard, state officials investigate",
+      "summary": "North Carolina Ports is recovering from a cyberattack after its IT system was \u201chacked by an outside actor or group,\u201d requiring a switch to manual processing of operations.",
+      "link": "https://therecord.media/cyberattack-north-carolina-ports",
+      "source": "The Record",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-07T05:27:29.985997Z"
+    },
+    {
+      "id": "0bba100812740296eae6f7787e210176",
+      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&#038;T customers.",
+      "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "source": "KrebsOnSecurity",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-07T05:27:29.809483Z"
+    },
+    {
+      "id": "98f47fbd7dc29957a337728c40589078",
+      "title": "FirstFT: US law firms weigh stake sale to private equity - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQVjFoLWN3ZEJUVUdaSk04Nzhkc2M4SnlabDVycmZjUWRBZ2pBSl9Zei1NY2FBRUxfYmx2YkFDeWtKMklnSG5Dd2tlcG5MX2NEdURxRG8tSVJTUU45bjJCaHJJRWJKOUF4bjRFYzZmM09RajgydEROTXowUVk4dC1KOGJGOUY?oc=5\" target=\"_blank\">FirstFT: US law firms weigh stake sale to private equity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVjFoLWN3ZEJUVUdaSk04Nzhkc2M4SnlabDVycmZjUWRBZ2pBSl9Zei1NY2FBRUxfYmx2YkFDeWtKMklnSG5Dd2tlcG5MX2NEdURxRG8tSVJTUU45bjJCaHJJRWJKOUF4bjRFYzZmM09RajgydEROTXowUVk4dC1KOGJGOUY?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-07T05:27:31.985472Z"
+    },
+    {
+      "id": "7b080839365879fa2ce8c514e8d721bf",
+      "title": "Jim Cramer highlights 5 investing themes \u2014 and the stocks to buy for each - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxPa0M3YXhGbEQ1a2owUHBYMHpPX1FkYzhYNjVnRWRLNWRUb19aVHg0dkt6NWw1NXlPSU5WNExwMUV3TG00TmhrV3dtTEJLQmF4OW5vNUNQb2FINGJ5UkdUSkFuSnJHeWVDMzF4ZzJKTURLUll1czNWVHlkNVUzRjU3RFR4WlRVYk3SAYwBQVVfeXFMTlRmdmppRkx3N093a09OaHhBQkNDU25GREtvejFfaktNQkVhamZVUDlneWwxQ05PUXN4S2I2VHhMaGNtVFRoVzM2TEwxM0V0SjE1NE91V1I1RWZsZVNwVFRGY3hIbHZqTTVQMFJOb1g4Y2ttaUxZSkxpTVlVbWVLX3NvNGFyQVQ2bzVLcHk?oc=5\" target=\"_blank\">Jim Cramer highlights 5 investing themes \u2014 and the stocks to buy for each</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPa0M3YXhGbEQ1a2owUHBYMHpPX1FkYzhYNjVnRWRLNWRUb19aVHg0dkt6NWw1NXlPSU5WNExwMUV3TG00TmhrV3dtTEJLQmF4OW5vNUNQb2FINGJ5UkdUSkFuSnJHeWVDMzF4ZzJKTURLUll1czNWVHlkNVUzRjU3RFR4WlRVYk3SAYwBQVVfeXFMTlRmdmppRkx3N093a09OaHhBQkNDU25GREtvejFfaktNQkVhamZVUDlneWwxQ05PUXN4S2I2VHhMaGNtVFRoVzM2TEwxM0V0SjE1NE91V1I1RWZsZVNwVFRGY3hIbHZqTTVQMFJOb1g4Y2ttaUxZSkxpTVlVbWVLX3NvNGFyQVQ2bzVLcHk?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-07T05:27:33.131806Z"
     }
   ],
   "alerts": [
     {
-      "id": "c00b59187c7fe7e0a8060741292b1f57",
-      "title": "Gold Set for Best Week Since January on Support From Dip-Buyers",
-      "summary": "Gold was on track for its biggest gain in more than six months as dip-buyers supported prices above a key technical level while looking past flare-ups in the Strait of Hormuz that risked adding to energy-led inflation.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-06/gold-steady-as-traders-assess-impact-of-hormuz-flare-up-on-rates",
-      "source": "Bloomberg",
-      "score": 26,
+      "id": "df3cbb29c6eebfdf4752e5cbfaaaa107",
+      "title": "Oil rises after Iran publishes draft plan to ban U.S. ships from Strait of Hormuz",
+      "summary": "News of Iran's restrictive draft plan for the\u00a0Strait of Hormuz sent oil prices higher, renewing concerns over supply disruptions.",
+      "link": "https://www.cnbc.com/2026/08/07/oil-rises-supply-fears-iran-draft-plan-strait-hormuz.html",
+      "source": "CNBC",
+      "score": 35,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "COMMODITIES",
       "tickers": [
-        "XAU"
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "COMMODITIES"
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-07T05:21:14.856350Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-07T05:26:29.291170Z"
+    },
+    {
+      "id": "48124525e72fbd544e95475a004a0f1e",
+      "title": "JPMorgan's Jamie Dimon warns of high leverage: 'Somebody will disrupt the market'",
+      "summary": "JPMorgan Chief Executive Officer Jamie Dimon warned that leverage across financial markets remains elevated, adding that investors should be mindful that hidden borrowing could amplify market disruptions.",
+      "link": "https://www.cnbc.com/2026/08/06/jpmorgan-jamie-dimon-leverage-market-disruption.html",
+      "source": "CNBC",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-07T05:26:29.655369Z"
+    },
+    {
+      "id": "a51bc19ff9fb3fe6a86f5abf58bb2a80",
+      "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "summary": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-07T05:26:29.846011Z"
+    },
+    {
+      "id": "a655913170f801cc32214a85d2745735",
+      "title": "Bowman, Responsible Innovation and Financial Inclusion",
+      "summary": "Speech At \u201cNext-Gen Financial Inclusion,\u201d the third annual Financial Inclusion Conference hosted by the Federal Reserve Board, Washington, D.C. (via pre-recorded video)",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-07T05:26:30.118192Z"
+    },
+    {
+      "id": "45fb12354f958d893a91a66268e871bd",
+      "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
+      "summary": "Maksim Silnikau, the creator and administrator of the Ransom Cartel ransomware operation, was sentenced to 16 years in prison for his role in ransomware attacks against at least 18 companies worldwide. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-07T05:27:29.589230Z"
+    },
+    {
+      "id": "a0ea98939ea04eece6ad66ffcb110886",
+      "title": "The curious case of the Japanese government bond yields",
+      "summary": "Maybe not as high as you think",
+      "link": "https://www.ft.com/content/22a6bce7-ccec-4e7d-a31b-ca8d67b1bcb6",
+      "source": "Financial Times",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-07T05:26:27.830367Z"
+    },
+    {
+      "id": "0a36f0e1800cb15b55ba1a8d183bb36e",
+      "title": "Shares in Australia's Atlassian surge 33% as sales growth quells AI fears",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/markets/shares-in-australia-s-atlassian-surge-33-as-sales-growth-quells-ai-fears",
+      "source": "Nikkei Asia",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-07T05:26:52.998793Z"
+    },
+    {
+      "id": "d46868c173eb96ddbe020f50f2a2bc8f",
+      "title": "Results of the June 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_3~c0b45e246f.en.html",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-07T05:26:41.442527Z"
+    },
+    {
+      "id": "dd1784e538e9f48b8f115b64aab5c03f",
+      "title": "Cyberattack on North Carolina Ports \u2018contained\u2019 as Coast Guard, state officials investigate",
+      "summary": "North Carolina Ports is recovering from a cyberattack after its IT system was \u201chacked by an outside actor or group,\u201d requiring a switch to manual processing of operations.",
+      "link": "https://therecord.media/cyberattack-north-carolina-ports",
+      "source": "The Record",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-07T05:27:29.985997Z"
+    },
+    {
+      "id": "0bba100812740296eae6f7787e210176",
+      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&#038;T customers.",
+      "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "source": "KrebsOnSecurity",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-07T05:27:29.809483Z"
+    },
+    {
+      "id": "98f47fbd7dc29957a337728c40589078",
+      "title": "FirstFT: US law firms weigh stake sale to private equity - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQVjFoLWN3ZEJUVUdaSk04Nzhkc2M4SnlabDVycmZjUWRBZ2pBSl9Zei1NY2FBRUxfYmx2YkFDeWtKMklnSG5Dd2tlcG5MX2NEdURxRG8tSVJTUU45bjJCaHJJRWJKOUF4bjRFYzZmM09RajgydEROTXowUVk4dC1KOGJGOUY?oc=5\" target=\"_blank\">FirstFT: US law firms weigh stake sale to private equity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVjFoLWN3ZEJUVUdaSk04Nzhkc2M4SnlabDVycmZjUWRBZ2pBSl9Zei1NY2FBRUxfYmx2YkFDeWtKMklnSG5Dd2tlcG5MX2NEdURxRG8tSVJTUU45bjJCaHJJRWJKOUF4bjRFYzZmM09RajgydEROTXowUVk4dC1KOGJGOUY?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-07T05:27:31.985472Z"
+    },
+    {
+      "id": "7b080839365879fa2ce8c514e8d721bf",
+      "title": "Jim Cramer highlights 5 investing themes \u2014 and the stocks to buy for each - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxPa0M3YXhGbEQ1a2owUHBYMHpPX1FkYzhYNjVnRWRLNWRUb19aVHg0dkt6NWw1NXlPSU5WNExwMUV3TG00TmhrV3dtTEJLQmF4OW5vNUNQb2FINGJ5UkdUSkFuSnJHeWVDMzF4ZzJKTURLUll1czNWVHlkNVUzRjU3RFR4WlRVYk3SAYwBQVVfeXFMTlRmdmppRkx3N093a09OaHhBQkNDU25GREtvejFfaktNQkVhamZVUDlneWwxQ05PUXN4S2I2VHhMaGNtVFRoVzM2TEwxM0V0SjE1NE91V1I1RWZsZVNwVFRGY3hIbHZqTTVQMFJOb1g4Y2ttaUxZSkxpTVlVbWVLX3NvNGFyQVQ2bzVLcHk?oc=5\" target=\"_blank\">Jim Cramer highlights 5 investing themes \u2014 and the stocks to buy for each</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPa0M3YXhGbEQ1a2owUHBYMHpPX1FkYzhYNjVnRWRLNWRUb19aVHg0dkt6NWw1NXlPSU5WNExwMUV3TG00TmhrV3dtTEJLQmF4OW5vNUNQb2FINGJ5UkdUSkFuSnJHeWVDMzF4ZzJKTURLUll1czNWVHlkNVUzRjU3RFR4WlRVYk3SAYwBQVVfeXFMTlRmdmppRkx3N093a09OaHhBQkNDU25GREtvejFfaktNQkVhamZVUDlneWwxQ05PUXN4S2I2VHhMaGNtVFRoVzM2TEwxM0V0SjE1NE91V1I1RWZsZVNwVFRGY3hIbHZqTTVQMFJOb1g4Y2ttaUxZSkxpTVlVbWVLX3NvNGFyQVQ2bzVLcHk?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-07T05:27:33.131806Z"
     }
   ]
 }
