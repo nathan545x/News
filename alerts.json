@@ -1,32 +1,68 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-10T16:26:56.770890Z",
+  "generated_at": "2026-08-10T16:32:12.446856Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "COMMODITIES",
+    "dominant_driver": "COMMODITIES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 1,
-    "last_updated": "2026-08-10T16:26:56.770903Z"
+    "critical_alerts": 2,
+    "high_alerts": 5,
+    "last_updated": "2026-08-10T16:32:12.446872Z"
   },
   "top_signals": [
     {
-      "id": "a3219344c5fe0345947bc7910ec97d82",
-      "title": "US Stocks \u2018Directionless\u2019 as Chipmaker Earnings, CPI to Set Pace",
-      "summary": "US stocks were looking for direction after a strong earnings week as investors continue to navigate the uncertain path of interest rates and war in Iran. The market is gearing up for the final stretch of corporate earnings, with chipmakers set to provide confirmation for the long-winded debate over valuations.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-10/us-futures-drop-as-focus-turns-on-chipmaker-earnings-inflation",
-      "source": "Bloomberg",
-      "score": 39,
+      "id": "78ccdab511c6ff8032f2b7e5c3d74973",
+      "title": "Ukrainian drone strike on oil-refining city in central Russia kills 13",
+      "summary": "Death toll one of highest in a single attack by Kyiv since 2022",
+      "link": "https://www.ft.com/content/ad0602c3-224f-422c-b052-ff96e2f9054c?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 32,
       "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
       "regions": [
-        "MIDDLE_EAST"
+        "RUSSIA",
+        "UK"
       ],
       "assets": [
         "AI",
-        "EQUITIES"
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-10T16:31:35.836233Z"
+    },
+    {
+      "id": "ee099fcacbf70da1a0905032d2a2de53",
+      "title": "Egypt and Libya Near $1 Billion Oil Pipeline Deal",
+      "summary": "Egypt and Libya are reportedly nearing a deal to build an 800-kilometer oil pipeline connecting Tobruk with Alexandria, creating a direct route for growing Libyan crude production to reach Egyptian refineries as the war with Iran disrupts Egypt\u2019s traditional Gulf supplies. The proposed pipeline would cost more than $1 billion, according to a government official who spoke to Asharq Bloomberg on condition of anonymity. The two countries are now studying financing, implementation and the pipeline\u2019s final capacity, which would be determined\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Egypt-and-Libya-Near-1-Billion-Oil-Pipeline-Deal.html",
+      "source": "OilPrice",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -42,53 +78,19 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-10T16:26:25.624694Z"
+      "published": "2026-08-10T16:32:05.112161Z"
     },
     {
-      "id": "8ef75bbf00e60a1086c2703259a974d2",
-      "title": "H100 becomes Europe\u2019s No. 2 Bitcoin treasury after 2,455 BTC deal",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"H100 becomes Europe\u2019s No. 2 Bitcoin treasury after 2,455 BTC deal\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-heres-how-chamber-of-digital-commerce-wants-to-make-crypto-market-great2.jpg\" /></p><p>Sweden\u2019s H100 more than tripled its Bitcoin holdings to 3,506 BTC after completing an acquisition involving 2,455 BTC.</p>",
-      "link": "https://cointelegraph.com/news/sweden-h100-bitcoin-treasury-btc-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 16,
+      "id": "9cc84cfe7da7c62c95032576f7217589",
+      "title": "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
+      "summary": "TSMC makes chips for Big Tech customers like Nvidia and Google, so the firm's financial figures are closely watched as a sign of AI semiconductor demand.",
+      "link": "https://www.cnbc.com/2026/08/10/tsmc-revenue-surge-ai-chip-big-tech.html",
+      "source": "CNBC",
+      "score": 23,
       "severity": "HIGH",
-      "regime": "CRYPTO",
+      "regime": "AI",
       "tickers": [
-        "BTC",
-        "EUR",
-        "TLT"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "CRYPTO",
-        "FX",
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-08-10T16:26:53.333389Z"
-    },
-    {
-      "id": "b2da3683f1782273215cd4dd83c18505",
-      "title": "Vitalik Buterin puts privacy and quantum resistance front and center in Ethereum\u2019s latest roadmap",
-      "summary": "<p>Buterin previously said the upgrades included in Lean Ethereum will form the protocol's \u201cthird major iteration.\u201d</p>",
-      "link": "https://www.theblock.co/news/ecosystems/2026-08-10-vitalik-buterin-privacy-quantum-resistance-front-and-center-ethereum-latest-roadmap-411298?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [
-        "ETH"
+        "NVDA"
       ],
       "regions": [],
       "assets": [
@@ -96,34 +98,318 @@
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-10T16:31:38.121916Z"
+    },
+    {
+      "id": "5d484f335ce23a542e7dcad17a54d9df",
+      "title": "Oil Extends Gain as Oman-Iran Accord on Hormuz Remains Elusive - bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQUVhxRFdpcGMxbDZxcUJSN2ozQ0RrVGFfUTQ1TjlkUDVjbmRQQW9fTVNyM2lTT044cUdjcm11ek1IdEZVYWpvWEhpZzl4UXAzVl9kQTN3S3ZQY0paNVJyTGVhUWxXTy1SWlRvTUZ0Y2E0VXlaMC1RdGdfZThGZlIxdzlLTW1DUVloaTQ5QjBYTVd3S2FPdHplWE9tUzZEQQ?oc=5\" target=\"_blank\">Oil Extends Gain as Oman-Iran Accord on Hormuz Remains Elusive</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUVhxRFdpcGMxbDZxcUJSN2ozQ0RrVGFfUTQ1TjlkUDVjbmRQQW9fTVNyM2lTT044cUdjcm11ek1IdEZVYWpvWEhpZzl4UXAzVl9kQTN3S3ZQY0paNVJyTGVhUWxXTy1SWlRvTUZ0Y2E0VXlaMC1RdGdfZThGZlIxdzlLTW1DUVloaTQ5QjBYTVd3S2FPdHplWE9tUzZEQQ?oc=5",
+      "source": "Google Macro",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "USD"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-08-10T16:26:53.399543Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-10T16:32:09.971766Z"
+    },
+    {
+      "id": "bcd24d9b8367cbfe753c5c231eaae035",
+      "title": "Oil Extends Gains as Hormuz Deal Remains Elusive: Markets Wrap - bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPcE9CeWQ3UUhJR3ZMYjlnV1JmT0ZYV3NLWUc2UG82SnNwS0ZtelczaFNDa25xaDB1cG5FTWdfdl8yVEFLOUc0RnBCbjBkTURvcEs3SUloSHRaemE0c0gxbTdtZlNvT2lnY1dQSTctWVY2V1E1RHZZZEhTUDNIRUs4bFFIUWNtWTdkRklJdWZvcWJiS1pN?oc=5\" target=\"_blank\">Oil Extends Gains as Hormuz Deal Remains Elusive: Markets Wrap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcE9CeWQ3UUhJR3ZMYjlnV1JmT0ZYV3NLWUc2UG82SnNwS0ZtelczaFNDa25xaDB1cG5FTWdfdl8yVEFLOUc0RnBCbjBkTURvcEs3SUloSHRaemE0c0gxbTdtZlNvT2lnY1dQSTctWVY2V1E1RHZZZEhTUDNIRUs4bFFIUWNtWTdkRklJdWZvcWJiS1pN?oc=5",
+      "source": "Google Macro",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-10T16:32:09.971633Z"
+    },
+    {
+      "id": "93d3414f6e27ffc1f09922e09b6b1bcb",
+      "title": "Russia Says 13 Killed in Ukraine Attack on Tatarstan Energy Hub - bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOZjg3WUtuWjJla1M4ZHVMd1o0QU5oRzFQWHBFMUpFNGJwWURyNlBTM29KcVBiNnBxYUJwOTFhMEd4U2JEODJJQkdONXQxS1c4U2ZNOXA0Q2ZqXzNCNWszVl9wTnloUmxWQ3d5RE9zTTJEbDRfTVJZdVdYYThjdm5ZYm9iZ1J5bnNReG1TaGFMOGtVaHFjU2lpZEE3a25yX3ZGV1cwNjVNQmdncHBtRXp3ZjVSZXY?oc=5\" target=\"_blank\">Russia Says 13 Killed in Ukraine Attack on Tatarstan Energy Hub</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZjg3WUtuWjJla1M4ZHVMd1o0QU5oRzFQWHBFMUpFNGJwWURyNlBTM29KcVBiNnBxYUJwOTFhMEd4U2JEODJJQkdONXQxS1c4U2ZNOXA0Q2ZqXzNCNWszVl9wTnloUmxWQ3d5RE9zTTJEbDRfTVJZdVdYYThjdm5ZYm9iZ1J5bnNReG1TaGFMOGtVaHFjU2lpZEE3a25yX3ZGV1cwNjVNQmdncHBtRXp3ZjVSZXY?oc=5",
+      "source": "Google Macro",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-10T16:32:09.971700Z"
+    },
+    {
+      "id": "b0ab45a854723ac594714462c659c9fa",
+      "title": "Barrick and Newmont gold mining truce clears way for IPO",
+      "summary": "Disagreement between top miners over Nevada joint venture had served as block to spin-off",
+      "link": "https://www.ft.com/content/0cc564c0-b69f-4e67-ac5d-15147ee31ac1?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-10T16:31:36.245845Z"
+    },
+    {
+      "id": "9607eed7555cb2e8e7efee89902d8ab0",
+      "title": "Wheat Climbs With USDA Seen Tightening Global Grain Supply",
+      "summary": "Wheat was higher as traders braced for the US Department of Agriculture\u2019s monthly supply demand report that\u2019s expected to show declining domestic and world grain supplies.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-10/wheat-hits-highest-week-supply-disruptions-black-sea",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-10T16:31:33.693019Z"
+    },
+    {
+      "id": "febfee90233948cd79fbd82eac69463a",
+      "title": "Reform vows to deport all foreign prisoners from British jails",
+      "summary": "Pledge comes as Andy Burnham faces criticism over government\u2019s early-release scheme",
+      "link": "https://www.ft.com/content/5fb02f66-1faa-41e4-97f7-b791501da41d?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-10T16:31:36.562770Z"
+    },
+    {
+      "id": "8a4748055bf8502cb75b1a8bccd9065b",
+      "title": "The Other Way to Reduce Government Debt",
+      "summary": "Financial repression.",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-08-10/the-other-way-to-reduce-government-debt",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-10T16:31:33.693054Z"
+    },
+    {
+      "id": "a04e18a8df0c58e210702b06d625f37c",
+      "title": "Revolut wins French banking licence",
+      "summary": "Authorisation from regulator accelerates UK-headquartered fintech\u2019s European expansion plans",
+      "link": "https://www.ft.com/content/1f5e2807-5110-47bc-baf1-757c7b675cb0?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "UK"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-10T16:31:36.245896Z"
+    },
+    {
+      "id": "a4673728489d5138dd3312f07973c358",
+      "title": "Egypt Headline Inflation Quickens for the First Time Since March - bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNT3FjRkNKS2Jmb01iei1ZUDZyZmNTem4wUFBVeE5zZTd2dWh5UVBmVVlpS3V1NmVEQ0J3Z1BGWVlIRjVKN1FILTZRRkRfMjhQcGJVVnl6YUJNbWxtakdNQ21BZkJCS2ZuVUd6Wk45QVdmSTlLcE1TeU1odDdRaTRvY0tZVEN1S0RmNjk1RVNkYkNUSkZ5cXJVZ29DUTZGeFV0V3VUbXJsUEROM0s0b216R2l6ZmxfZw?oc=5\" target=\"_blank\">Egypt Headline Inflation Quickens for the First Time Since March</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT3FjRkNKS2Jmb01iei1ZUDZyZmNTem4wUFBVeE5zZTd2dWh5UVBmVVlpS3V1NmVEQ0J3Z1BGWVlIRjVKN1FILTZRRkRfMjhQcGJVVnl6YUJNbWxtakdNQ21BZkJCS2ZuVUd6Wk45QVdmSTlLcE1TeU1odDdRaTRvY0tZVEN1S0RmNjk1RVNkYkNUSkZ5cXJVZ29DUTZGeFV0V3VUbXJsUEROM0s0b216R2l6ZmxfZw?oc=5",
+      "source": "Google Macro",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-08-10T16:32:09.971825Z"
     }
   ],
   "alerts": [
     {
-      "id": "a3219344c5fe0345947bc7910ec97d82",
-      "title": "US Stocks \u2018Directionless\u2019 as Chipmaker Earnings, CPI to Set Pace",
-      "summary": "US stocks were looking for direction after a strong earnings week as investors continue to navigate the uncertain path of interest rates and war in Iran. The market is gearing up for the final stretch of corporate earnings, with chipmakers set to provide confirmation for the long-winded debate over valuations.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-10/us-futures-drop-as-focus-turns-on-chipmaker-earnings-inflation",
-      "source": "Bloomberg",
-      "score": 39,
+      "id": "78ccdab511c6ff8032f2b7e5c3d74973",
+      "title": "Ukrainian drone strike on oil-refining city in central Russia kills 13",
+      "summary": "Death toll one of highest in a single attack by Kyiv since 2022",
+      "link": "https://www.ft.com/content/ad0602c3-224f-422c-b052-ff96e2f9054c?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 32,
       "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
       "regions": [
-        "MIDDLE_EAST"
+        "RUSSIA",
+        "UK"
       ],
       "assets": [
         "AI",
-        "EQUITIES"
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-10T16:31:35.836233Z"
+    },
+    {
+      "id": "ee099fcacbf70da1a0905032d2a2de53",
+      "title": "Egypt and Libya Near $1 Billion Oil Pipeline Deal",
+      "summary": "Egypt and Libya are reportedly nearing a deal to build an 800-kilometer oil pipeline connecting Tobruk with Alexandria, creating a direct route for growing Libyan crude production to reach Egyptian refineries as the war with Iran disrupts Egypt\u2019s traditional Gulf supplies. The proposed pipeline would cost more than $1 billion, according to a government official who spoke to Asharq Bloomberg on condition of anonymity. The two countries are now studying financing, implementation and the pipeline\u2019s final capacity, which would be determined\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Egypt-and-Libya-Near-1-Billion-Oil-Pipeline-Deal.html",
+      "source": "OilPrice",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -139,53 +425,19 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-10T16:26:25.624694Z"
+      "published": "2026-08-10T16:32:05.112161Z"
     },
     {
-      "id": "8ef75bbf00e60a1086c2703259a974d2",
-      "title": "H100 becomes Europe\u2019s No. 2 Bitcoin treasury after 2,455 BTC deal",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"H100 becomes Europe\u2019s No. 2 Bitcoin treasury after 2,455 BTC deal\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-heres-how-chamber-of-digital-commerce-wants-to-make-crypto-market-great2.jpg\" /></p><p>Sweden\u2019s H100 more than tripled its Bitcoin holdings to 3,506 BTC after completing an acquisition involving 2,455 BTC.</p>",
-      "link": "https://cointelegraph.com/news/sweden-h100-bitcoin-treasury-btc-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 16,
+      "id": "9cc84cfe7da7c62c95032576f7217589",
+      "title": "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
+      "summary": "TSMC makes chips for Big Tech customers like Nvidia and Google, so the firm's financial figures are closely watched as a sign of AI semiconductor demand.",
+      "link": "https://www.cnbc.com/2026/08/10/tsmc-revenue-surge-ai-chip-big-tech.html",
+      "source": "CNBC",
+      "score": 23,
       "severity": "HIGH",
-      "regime": "CRYPTO",
+      "regime": "AI",
       "tickers": [
-        "BTC",
-        "EUR",
-        "TLT"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "CRYPTO",
-        "FX",
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-08-10T16:26:53.333389Z"
-    },
-    {
-      "id": "b2da3683f1782273215cd4dd83c18505",
-      "title": "Vitalik Buterin puts privacy and quantum resistance front and center in Ethereum\u2019s latest roadmap",
-      "summary": "<p>Buterin previously said the upgrades included in Lean Ethereum will form the protocol's \u201cthird major iteration.\u201d</p>",
-      "link": "https://www.theblock.co/news/ecosystems/2026-08-10-vitalik-buterin-privacy-quantum-resistance-front-and-center-ethereum-latest-roadmap-411298?utm_source=rss&utm_medium=rss",
-      "source": "The Block",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [
-        "ETH"
+        "NVDA"
       ],
       "regions": [],
       "assets": [
@@ -193,15 +445,351 @@
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-10T16:31:38.121916Z"
+    },
+    {
+      "id": "5d484f335ce23a542e7dcad17a54d9df",
+      "title": "Oil Extends Gain as Oman-Iran Accord on Hormuz Remains Elusive - bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQUVhxRFdpcGMxbDZxcUJSN2ozQ0RrVGFfUTQ1TjlkUDVjbmRQQW9fTVNyM2lTT044cUdjcm11ek1IdEZVYWpvWEhpZzl4UXAzVl9kQTN3S3ZQY0paNVJyTGVhUWxXTy1SWlRvTUZ0Y2E0VXlaMC1RdGdfZThGZlIxdzlLTW1DUVloaTQ5QjBYTVd3S2FPdHplWE9tUzZEQQ?oc=5\" target=\"_blank\">Oil Extends Gain as Oman-Iran Accord on Hormuz Remains Elusive</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUVhxRFdpcGMxbDZxcUJSN2ozQ0RrVGFfUTQ1TjlkUDVjbmRQQW9fTVNyM2lTT044cUdjcm11ek1IdEZVYWpvWEhpZzl4UXAzVl9kQTN3S3ZQY0paNVJyTGVhUWxXTy1SWlRvTUZ0Y2E0VXlaMC1RdGdfZThGZlIxdzlLTW1DUVloaTQ5QjBYTVd3S2FPdHplWE9tUzZEQQ?oc=5",
+      "source": "Google Macro",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "USD"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-08-10T16:26:53.399543Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-10T16:32:09.971766Z"
+    },
+    {
+      "id": "bcd24d9b8367cbfe753c5c231eaae035",
+      "title": "Oil Extends Gains as Hormuz Deal Remains Elusive: Markets Wrap - bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPcE9CeWQ3UUhJR3ZMYjlnV1JmT0ZYV3NLWUc2UG82SnNwS0ZtelczaFNDa25xaDB1cG5FTWdfdl8yVEFLOUc0RnBCbjBkTURvcEs3SUloSHRaemE0c0gxbTdtZlNvT2lnY1dQSTctWVY2V1E1RHZZZEhTUDNIRUs4bFFIUWNtWTdkRklJdWZvcWJiS1pN?oc=5\" target=\"_blank\">Oil Extends Gains as Hormuz Deal Remains Elusive: Markets Wrap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcE9CeWQ3UUhJR3ZMYjlnV1JmT0ZYV3NLWUc2UG82SnNwS0ZtelczaFNDa25xaDB1cG5FTWdfdl8yVEFLOUc0RnBCbjBkTURvcEs3SUloSHRaemE0c0gxbTdtZlNvT2lnY1dQSTctWVY2V1E1RHZZZEhTUDNIRUs4bFFIUWNtWTdkRklJdWZvcWJiS1pN?oc=5",
+      "source": "Google Macro",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-10T16:32:09.971633Z"
+    },
+    {
+      "id": "93d3414f6e27ffc1f09922e09b6b1bcb",
+      "title": "Russia Says 13 Killed in Ukraine Attack on Tatarstan Energy Hub - bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOZjg3WUtuWjJla1M4ZHVMd1o0QU5oRzFQWHBFMUpFNGJwWURyNlBTM29KcVBiNnBxYUJwOTFhMEd4U2JEODJJQkdONXQxS1c4U2ZNOXA0Q2ZqXzNCNWszVl9wTnloUmxWQ3d5RE9zTTJEbDRfTVJZdVdYYThjdm5ZYm9iZ1J5bnNReG1TaGFMOGtVaHFjU2lpZEE3a25yX3ZGV1cwNjVNQmdncHBtRXp3ZjVSZXY?oc=5\" target=\"_blank\">Russia Says 13 Killed in Ukraine Attack on Tatarstan Energy Hub</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZjg3WUtuWjJla1M4ZHVMd1o0QU5oRzFQWHBFMUpFNGJwWURyNlBTM29KcVBiNnBxYUJwOTFhMEd4U2JEODJJQkdONXQxS1c4U2ZNOXA0Q2ZqXzNCNWszVl9wTnloUmxWQ3d5RE9zTTJEbDRfTVJZdVdYYThjdm5ZYm9iZ1J5bnNReG1TaGFMOGtVaHFjU2lpZEE3a25yX3ZGV1cwNjVNQmdncHBtRXp3ZjVSZXY?oc=5",
+      "source": "Google Macro",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-10T16:32:09.971700Z"
+    },
+    {
+      "id": "b0ab45a854723ac594714462c659c9fa",
+      "title": "Barrick and Newmont gold mining truce clears way for IPO",
+      "summary": "Disagreement between top miners over Nevada joint venture had served as block to spin-off",
+      "link": "https://www.ft.com/content/0cc564c0-b69f-4e67-ac5d-15147ee31ac1?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-10T16:31:36.245845Z"
+    },
+    {
+      "id": "9607eed7555cb2e8e7efee89902d8ab0",
+      "title": "Wheat Climbs With USDA Seen Tightening Global Grain Supply",
+      "summary": "Wheat was higher as traders braced for the US Department of Agriculture\u2019s monthly supply demand report that\u2019s expected to show declining domestic and world grain supplies.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-10/wheat-hits-highest-week-supply-disruptions-black-sea",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-10T16:31:33.693019Z"
+    },
+    {
+      "id": "febfee90233948cd79fbd82eac69463a",
+      "title": "Reform vows to deport all foreign prisoners from British jails",
+      "summary": "Pledge comes as Andy Burnham faces criticism over government\u2019s early-release scheme",
+      "link": "https://www.ft.com/content/5fb02f66-1faa-41e4-97f7-b791501da41d?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-10T16:31:36.562770Z"
+    },
+    {
+      "id": "8a4748055bf8502cb75b1a8bccd9065b",
+      "title": "The Other Way to Reduce Government Debt",
+      "summary": "Financial repression.",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-08-10/the-other-way-to-reduce-government-debt",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-10T16:31:33.693054Z"
+    },
+    {
+      "id": "a04e18a8df0c58e210702b06d625f37c",
+      "title": "Revolut wins French banking licence",
+      "summary": "Authorisation from regulator accelerates UK-headquartered fintech\u2019s European expansion plans",
+      "link": "https://www.ft.com/content/1f5e2807-5110-47bc-baf1-757c7b675cb0?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "UK"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-10T16:31:36.245896Z"
+    },
+    {
+      "id": "a4673728489d5138dd3312f07973c358",
+      "title": "Egypt Headline Inflation Quickens for the First Time Since March - bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNT3FjRkNKS2Jmb01iei1ZUDZyZmNTem4wUFBVeE5zZTd2dWh5UVBmVVlpS3V1NmVEQ0J3Z1BGWVlIRjVKN1FILTZRRkRfMjhQcGJVVnl6YUJNbWxtakdNQ21BZkJCS2ZuVUd6Wk45QVdmSTlLcE1TeU1odDdRaTRvY0tZVEN1S0RmNjk1RVNkYkNUSkZ5cXJVZ29DUTZGeFV0V3VUbXJsUEROM0s0b216R2l6ZmxfZw?oc=5\" target=\"_blank\">Egypt Headline Inflation Quickens for the First Time Since March</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT3FjRkNKS2Jmb01iei1ZUDZyZmNTem4wUFBVeE5zZTd2dWh5UVBmVVlpS3V1NmVEQ0J3Z1BGWVlIRjVKN1FILTZRRkRfMjhQcGJVVnl6YUJNbWxtakdNQ21BZkJCS2ZuVUd6Wk45QVdmSTlLcE1TeU1odDdRaTRvY0tZVEN1S0RmNjk1RVNkYkNUSkZ5cXJVZ29DUTZGeFV0V3VUbXJsUEROM0s0b216R2l6ZmxfZw?oc=5",
+      "source": "Google Macro",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-08-10T16:32:09.971825Z"
+    },
+    {
+      "id": "f87572b39f5723b41c101d37555f72be",
+      "title": "Data from cyberattack on Japan frozen food supplier posted online",
+      "summary": "",
+      "link": "https://asia.nikkei.com/spotlight/cybersecurity/data-from-cyberattack-on-japan-frozen-food-supplier-posted-online",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-10T16:32:02.374669Z"
+    },
+    {
+      "id": "1a9368412c772092fff4543074708745",
+      "title": "Daily News 07 / 08 / 2026",
+      "summary": "European Commission Daily news Brussels, 07 Aug 2026 Commission disburses \u20ac2.32 billion to Portugal under NextGenerationEU \nToday, the European Commission disbursed \u20ac2.32 billion (net of pre-financing) to Portugal...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1727",
+      "source": "European Commission",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-10T16:31:57.459291Z"
+    },
+    {
+      "id": "ee48162d70d04a0daf57ca2de714be89",
+      "title": "Statement by Executive Vice-President M\u00eenzatu on a proposal for a European Day in Remembrance of Victims of Accidents at Work ahead of the 70 year commemoration of the Marcinelle tragedy",
+      "summary": "European Commission Statement Brussels, 07 Aug 2026 Seventy years ago, on 8 August 1956, 262 workers of 12 nationalities, many of which from Italy, died in a fire at the Bois du Cazier coal mine in Marcinelle, Belgium. Most had come to Belgium in search of work and a better future. They never returned home.",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1725",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-10T16:31:57.459382Z"
+    },
+    {
+      "id": "cfa7745287a6f44757e5affcfd0e71e6",
+      "title": "Saudi Says Fire at Aramco Refinery in Jazan Was Extinguished - bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOR005Q2RVZFgxYU12d0ZqT3Zqd0JHeXZ3Y1NjT0JZVnNSQlZ1VXpTSENxZEJ4UVVNUzlhU2ptbms0QngydVZZOWZDZlhhR2ZwUlp1a18wOVR1NGhNZzNucnR1dHZNM3hCSUwyaDJ6ZkRtUnFzRWhQbFFFYW5qWHRZdWdoaGJneW12a3EtemdXM2k0X2VuVnJaMzJMeFE0V2FiN3FuSDlGNngwQkRlLXFiVWVYVTJ1NXR3cTd0SQ?oc=5\" target=\"_blank\">Saudi Says Fire at Aramco Refinery in Jazan Was Extinguished</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOR005Q2RVZFgxYU12d0ZqT3Zqd0JHeXZ3Y1NjT0JZVnNSQlZ1VXpTSENxZEJ4UVVNUzlhU2ptbms0QngydVZZOWZDZlhhR2ZwUlp1a18wOVR1NGhNZzNucnR1dHZNM3hCSUwyaDJ6ZkRtUnFzRWhQbFFFYW5qWHRZdWdoaGJneW12a3EtemdXM2k0X2VuVnJaMzJMeFE0V2FiN3FuSDlGNngwQkRlLXFiVWVYVTJ1NXR3cTd0SQ?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-10T16:32:09.971896Z"
     }
   ]
 }
