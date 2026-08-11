@@ -1,50 +1,86 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-11T20:32:22.382867Z",
+  "generated_at": "2026-08-11T20:36:54.044067Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "INFLATION",
+    "dominant_driver": "INFLATION",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-08-11T20:32:22.382879Z"
+    "critical_alerts": 1,
+    "high_alerts": 0,
+    "last_updated": "2026-08-11T20:36:54.044080Z"
   },
   "top_signals": [
     {
-      "id": "1b6efe49b06e1e9611732e21d613be3a",
-      "title": "ECB and Frankfurt Radio Symphony invite the public to Europa Open Air concert on 20 August 2026",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260811~47cd3ee040.en.html",
-      "source": "ECB",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "d225a233bf12b7b402b0d544c6e84015",
+      "title": "Bitcoin slips toward $64,000 as traders await Wednesday\u2019s inflation test",
+      "summary": "Bitcoin eased toward $64,000 before Wednesday's US CPI report, with analysts split on whether the stall breaks higher or reverses.",
+      "link": "https://www.theblock.co/news/markets/2026-08-11-bitcoin-slips-toward-64000-as-traders-await-wednesdays-inflation-test-411418",
+      "source": "The Block",
+      "score": 36,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-08-11T20:36:50.832056Z"
+    },
+    {
+      "id": "6c62bbabc3b0c77b7b2e39015f476d44",
+      "title": "China tightens grip on Europe\u2019s car supply chain - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQN09BaTMzUlFyUjU0aWlHY1pIWldsU3NrTDFNWm1SYVh6NFdFNEdrM1llWFRlTnV1V08wczg4QUZYMGFKcmY1UHMtS0RSM1B6N1hSa29SSzJIZDM4MFpmclkxNU8tQ2VQNG9ZOVdoY1pkRkc2OWFzaEU0dUx4akM2Mm1ZQTk?oc=5\" target=\"_blank\">China tightens grip on Europe\u2019s car supply chain</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQN09BaTMzUlFyUjU0aWlHY1pIWldsU3NrTDFNWm1SYVh6NFdFNEdrM1llWFRlTnV1V08wczg4QUZYMGFKcmY1UHMtS0RSM1B6N1hSa29SSzJIZDM4MFpmclkxNU8tQ2VQNG9ZOVdoY1pkRkc2OWFzaEU0dUx4akM2Mm1ZQTk?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "EUR"
       ],
-      "regions": [],
+      "regions": [
+        "CHINA",
+        "EUROPE"
+      ],
       "assets": [
         "AI",
         "FX"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-11T20:32:03.031392Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-11T20:36:53.059674Z"
     },
     {
-      "id": "06e980d6bcb03711ea1b1d69c27eeae5",
-      "title": "CoreWeave stock pops 11% as revenue doubles on accelerating AI infrastructure demand",
+      "id": "a35621982c32d163ecf997c668434232",
+      "title": "CoreWeave stock pops 10% as revenue doubles on accelerating AI infrastructure demand",
       "summary": "CoreWeave's revenue is surging as the AI boom continues, but the company is also sitting on $35 billion in debt.",
       "link": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
       "source": "CNBC",
@@ -65,44 +101,105 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-11T20:31:49.791477Z"
+      "published": "2026-08-11T20:36:10.220568Z"
+    },
+    {
+      "id": "abb8590f3818cf7e268ff0d5ced42ba9",
+      "title": "GM reaches up to $4.5 billion parts deal designed to avoid supply chain troubles",
+      "summary": "The deal follows years of global automotive supply chain issues for GM and other companies.",
+      "link": "https://www.cnbc.com/2026/08/11/gm-makes-4point5-billion-parts-deal-to-bolster-supply-chain.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-11T20:36:10.220623Z"
     }
   ],
   "alerts": [
     {
-      "id": "1b6efe49b06e1e9611732e21d613be3a",
-      "title": "ECB and Frankfurt Radio Symphony invite the public to Europa Open Air concert on 20 August 2026",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260811~47cd3ee040.en.html",
-      "source": "ECB",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "d225a233bf12b7b402b0d544c6e84015",
+      "title": "Bitcoin slips toward $64,000 as traders await Wednesday\u2019s inflation test",
+      "summary": "Bitcoin eased toward $64,000 before Wednesday's US CPI report, with analysts split on whether the stall breaks higher or reverses.",
+      "link": "https://www.theblock.co/news/markets/2026-08-11-bitcoin-slips-toward-64000-as-traders-await-wednesdays-inflation-test-411418",
+      "source": "The Block",
+      "score": 36,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-08-11T20:36:50.832056Z"
+    },
+    {
+      "id": "6c62bbabc3b0c77b7b2e39015f476d44",
+      "title": "China tightens grip on Europe\u2019s car supply chain - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQN09BaTMzUlFyUjU0aWlHY1pIWldsU3NrTDFNWm1SYVh6NFdFNEdrM1llWFRlTnV1V08wczg4QUZYMGFKcmY1UHMtS0RSM1B6N1hSa29SSzJIZDM4MFpmclkxNU8tQ2VQNG9ZOVdoY1pkRkc2OWFzaEU0dUx4akM2Mm1ZQTk?oc=5\" target=\"_blank\">China tightens grip on Europe\u2019s car supply chain</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQN09BaTMzUlFyUjU0aWlHY1pIWldsU3NrTDFNWm1SYVh6NFdFNEdrM1llWFRlTnV1V08wczg4QUZYMGFKcmY1UHMtS0RSM1B6N1hSa29SSzJIZDM4MFpmclkxNU8tQ2VQNG9ZOVdoY1pkRkc2OWFzaEU0dUx4akM2Mm1ZQTk?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "EUR"
       ],
-      "regions": [],
+      "regions": [
+        "CHINA",
+        "EUROPE"
+      ],
       "assets": [
         "AI",
         "FX"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-11T20:32:03.031392Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-11T20:36:53.059674Z"
     },
     {
-      "id": "06e980d6bcb03711ea1b1d69c27eeae5",
-      "title": "CoreWeave stock pops 11% as revenue doubles on accelerating AI infrastructure demand",
+      "id": "a35621982c32d163ecf997c668434232",
+      "title": "CoreWeave stock pops 10% as revenue doubles on accelerating AI infrastructure demand",
       "summary": "CoreWeave's revenue is surging as the AI boom continues, but the company is also sitting on $35 billion in debt.",
       "link": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
       "source": "CNBC",
@@ -123,7 +220,32 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-11T20:31:49.791477Z"
+      "published": "2026-08-11T20:36:10.220568Z"
+    },
+    {
+      "id": "abb8590f3818cf7e268ff0d5ced42ba9",
+      "title": "GM reaches up to $4.5 billion parts deal designed to avoid supply chain troubles",
+      "summary": "The deal follows years of global automotive supply chain issues for GM and other companies.",
+      "link": "https://www.cnbc.com/2026/08/11/gm-makes-4point5-billion-parts-deal-to-bolster-supply-chain.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-11T20:36:10.220623Z"
     }
   ]
 }
