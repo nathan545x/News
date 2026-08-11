@@ -1,33 +1,36 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-11T08:41:52.014445Z",
+  "generated_at": "2026-08-11T08:47:05.132459Z",
   "market_regime": {
     "regime": "GEO-SHOCK",
     "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
+    "critical_alerts": 2,
     "high_alerts": 1,
-    "last_updated": "2026-08-11T08:41:52.014459Z"
+    "last_updated": "2026-08-11T08:47:05.132477Z"
   },
   "top_signals": [
     {
-      "id": "f44fc1e4a135d6853c951600ff97265f",
-      "title": "Zelenskyy warns Putin is preparing for escalation by bringing in North Korean military equipment",
-      "summary": "His comments come shortly after deadly Russian attacks on cities across Ukraine overnight.",
-      "link": "https://www.cnbc.com/2026/08/11/ukraine-war-zelenskyy-russia-putin-north-korea.html",
+      "id": "b6510be3c341c13048498b61800dfa71",
+      "title": "Treasury yields up as oil prices jump and investors await inflation data",
+      "summary": "U.S. Treasury yields edged higher Tuesday as investors await July's inflation data print amid ongoing Iran tensions.",
+      "link": "https://www.cnbc.com/2026/08/11/treasury-yields-up-as-oil-prices-jump-investors-await-inflation-data-.html",
       "source": "CNBC",
-      "score": 41,
+      "score": 37,
       "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
-      "tickers": [],
+      "tickers": [
+        "TLT",
+        "WTI"
+      ],
       "regions": [
-        "RUSSIA",
-        "UK",
-        "UKRAINE"
+        "MIDDLE_EAST"
       ],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -43,22 +46,25 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-11T08:41:23.496944Z"
+      "published": "2026-08-11T08:46:34.827298Z"
     },
     {
-      "id": "5898ce7a26ba3e7b1a76fcb3e3a95e4b",
-      "title": "India Equity Fund Flows Ease in July as Small Caps Stay Hot",
-      "summary": "Flows into Indian equity funds moderated in July even as investors continued to pour money into small- and mid-cap strategies amid global headwinds including a spike in oil prices.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-11/india-equity-fund-flows-ease-in-july-as-small-caps-stay-hot",
-      "source": "Bloomberg",
-      "score": 17,
-      "severity": "HIGH",
+      "id": "20f5da3db59cc4c846dd2188a8497f20",
+      "title": "Guidance: OFSI General licence INT/2025/5635700",
+      "summary": "Details for OFSI General licence INT/2025/5635700, Russian Oil Exempt Projects",
+      "link": "https://www.gov.uk/government/publications/ofsi-general-licence-int20255635700",
+      "source": "HM Treasury",
+      "score": 29,
+      "severity": "CRITICAL",
       "regime": "COMMODITIES",
       "tickers": [
         "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "RUSSIA"
+      ],
       "assets": [
+        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
@@ -73,27 +79,258 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-11T08:41:20.282315Z"
+      "published": "2026-08-11T08:46:53.329773Z"
+    },
+    {
+      "id": "159909f65346c98531118c63862e9170",
+      "title": "ECB publishes consolidated banking data for end-March 2026",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260807~58eb5109ce.en.html",
+      "source": "ECB",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-11T08:46:46.231309Z"
+    },
+    {
+      "id": "672acf6338246753e05e48c17921ee66",
+      "title": "The role of research in Prudential Regulation \u2212 speech by David Bailey",
+      "summary": "Given at IFABS 2026 London",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/david-bailey-speech-at-the-international-finance-and-banking-society-conference",
+      "source": "Bank of England",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-11T08:46:52.375174Z"
+    },
+    {
+      "id": "9d908186470ee9fce1684155704cc4ce",
+      "title": "U.S. Treasury chief\u2019s \u2018whatever it takes\u2019 vow to help yen masks limited firepower",
+      "summary": "Japan's currency slid as much as 1% Monday to past \u00a5159 per dollar, wiping out half the rally triggered by the July 31 U.S.-Japan intervention.",
+      "link": "https://www.japantimes.co.jp/business/2026/08/11/bessent-yen-limited-firepower/",
+      "source": "Japan Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY",
+        "TLT"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "FX",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-11T08:46:57.643368Z"
+    },
+    {
+      "id": "745cb210d2936117aa7503e2173acef3",
+      "title": "Trump speaks up for Infantino at last as Fifa boss fights world football rebellion",
+      "summary": "<p> <img alt=\"Fifa previously denied that Infantino had sought support from Trump during this crisis\" src=\"https://www.cityam.com/wp-content/uploads/2026/08/GettyImages-2289201736-1.jpg?w=1107\" /> </p>US president Donald Trump has belatedly come to the aid of Gianni Infantino, saying it would be \u201ca terrible mistake\u201d to replace the under-fire Fifa boss. Infantino is fighting to save his job after three of Fifa\u2019s four biggest confederations declared they had lost trust in him over plans to sell off stakes in a <a href=\"https://www.cityam.com/trump-speaks-up-for-infantino-at-last-as-fifa-boss-fights-world-football-rebellion/\">[...]</a>",
+      "link": "https://www.cityam.com/trump-speaks-up-for-infantino-at-last-as-fifa-boss-fights-world-football-rebellion/",
+      "source": "CityAM",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-11T08:46:56.168806Z"
+    },
+    {
+      "id": "abb98059d60e6d597af166d772ed542e",
+      "title": "CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs",
+      "summary": "CISA has confirmed that ransomware gangs have begun exploiting two recently patched SonicWall SMA1000 vulnerabilities, including a maximum-severity server-side request forgery (SSRF) flaw. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-11T08:47:02.027244Z"
+    },
+    {
+      "id": "3edf31d00fdc40239f1d2acd815e36c7",
+      "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-11T08:46:35.221772Z"
+    },
+    {
+      "id": "f0c21d1ab25141c7696fa18d1c4df9ee",
+      "title": "It\u2019s all about the role of money - speech by Nathana\u00ebl Benjamin",
+      "summary": "Given at OMFIF Economic and Monetary Policy Institute",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/nathanael-benjamin-speech-at-omfif",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-11T08:46:52.375119Z"
+    },
+    {
+      "id": "54ca4e3432dc8a2c0043751e5f083692",
+      "title": "Testing times require time for testing \u2212 speech by Ruth Smith",
+      "summary": "Given at UK Finance",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/ruth-smith-speech-at-uk-finance",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-11T08:46:52.375218Z"
+    },
+    {
+      "id": "ffb5e89e0ffc57dfabceba9f519bd8fd",
+      "title": "Corporate report: Whole of Government Accounts 2025 to 2026: guidance for preparers",
+      "summary": "Guidance for central government and local government preparers for Whole of Government Accounts.",
+      "link": "https://www.gov.uk/government/publications/whole-of-government-accounts-2025-to-2026-guidance-for-preparers",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-11T08:46:53.329842Z"
+    },
+    {
+      "id": "16b4ab41458b246d08bdf0234e46c0e2",
+      "title": "The U.S.-Canada natural gas and electricity trade value rose in 2025",
+      "summary": "Although the total value of energy trade between the United States and Canada fell by 11% in 2025 to an estimated $137 billion, according to data from the U.S. Census Bureau, the trade value of natural gas and electricity between the two countries increased slightly primarily because of increased natural gas prices and trade volume.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=",
+      "source": "EIA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-11T08:46:59.382923Z"
     }
   ],
   "alerts": [
     {
-      "id": "f44fc1e4a135d6853c951600ff97265f",
-      "title": "Zelenskyy warns Putin is preparing for escalation by bringing in North Korean military equipment",
-      "summary": "His comments come shortly after deadly Russian attacks on cities across Ukraine overnight.",
-      "link": "https://www.cnbc.com/2026/08/11/ukraine-war-zelenskyy-russia-putin-north-korea.html",
+      "id": "b6510be3c341c13048498b61800dfa71",
+      "title": "Treasury yields up as oil prices jump and investors await inflation data",
+      "summary": "U.S. Treasury yields edged higher Tuesday as investors await July's inflation data print amid ongoing Iran tensions.",
+      "link": "https://www.cnbc.com/2026/08/11/treasury-yields-up-as-oil-prices-jump-investors-await-inflation-data-.html",
       "source": "CNBC",
-      "score": 41,
+      "score": 37,
       "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
-      "tickers": [],
+      "tickers": [
+        "TLT",
+        "WTI"
+      ],
       "regions": [
-        "RUSSIA",
-        "UK",
-        "UKRAINE"
+        "MIDDLE_EAST"
       ],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -109,22 +346,25 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-11T08:41:23.496944Z"
+      "published": "2026-08-11T08:46:34.827298Z"
     },
     {
-      "id": "5898ce7a26ba3e7b1a76fcb3e3a95e4b",
-      "title": "India Equity Fund Flows Ease in July as Small Caps Stay Hot",
-      "summary": "Flows into Indian equity funds moderated in July even as investors continued to pour money into small- and mid-cap strategies amid global headwinds including a spike in oil prices.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-11/india-equity-fund-flows-ease-in-july-as-small-caps-stay-hot",
-      "source": "Bloomberg",
-      "score": 17,
-      "severity": "HIGH",
+      "id": "20f5da3db59cc4c846dd2188a8497f20",
+      "title": "Guidance: OFSI General licence INT/2025/5635700",
+      "summary": "Details for OFSI General licence INT/2025/5635700, Russian Oil Exempt Projects",
+      "link": "https://www.gov.uk/government/publications/ofsi-general-licence-int20255635700",
+      "source": "HM Treasury",
+      "score": 29,
+      "severity": "CRITICAL",
       "regime": "COMMODITIES",
       "tickers": [
         "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "RUSSIA"
+      ],
       "assets": [
+        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
@@ -139,7 +379,253 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-11T08:41:20.282315Z"
+      "published": "2026-08-11T08:46:53.329773Z"
+    },
+    {
+      "id": "159909f65346c98531118c63862e9170",
+      "title": "ECB publishes consolidated banking data for end-March 2026",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260807~58eb5109ce.en.html",
+      "source": "ECB",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-11T08:46:46.231309Z"
+    },
+    {
+      "id": "672acf6338246753e05e48c17921ee66",
+      "title": "The role of research in Prudential Regulation \u2212 speech by David Bailey",
+      "summary": "Given at IFABS 2026 London",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/david-bailey-speech-at-the-international-finance-and-banking-society-conference",
+      "source": "Bank of England",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-11T08:46:52.375174Z"
+    },
+    {
+      "id": "9d908186470ee9fce1684155704cc4ce",
+      "title": "U.S. Treasury chief\u2019s \u2018whatever it takes\u2019 vow to help yen masks limited firepower",
+      "summary": "Japan's currency slid as much as 1% Monday to past \u00a5159 per dollar, wiping out half the rally triggered by the July 31 U.S.-Japan intervention.",
+      "link": "https://www.japantimes.co.jp/business/2026/08/11/bessent-yen-limited-firepower/",
+      "source": "Japan Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY",
+        "TLT"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "FX",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-11T08:46:57.643368Z"
+    },
+    {
+      "id": "745cb210d2936117aa7503e2173acef3",
+      "title": "Trump speaks up for Infantino at last as Fifa boss fights world football rebellion",
+      "summary": "<p> <img alt=\"Fifa previously denied that Infantino had sought support from Trump during this crisis\" src=\"https://www.cityam.com/wp-content/uploads/2026/08/GettyImages-2289201736-1.jpg?w=1107\" /> </p>US president Donald Trump has belatedly come to the aid of Gianni Infantino, saying it would be \u201ca terrible mistake\u201d to replace the under-fire Fifa boss. Infantino is fighting to save his job after three of Fifa\u2019s four biggest confederations declared they had lost trust in him over plans to sell off stakes in a <a href=\"https://www.cityam.com/trump-speaks-up-for-infantino-at-last-as-fifa-boss-fights-world-football-rebellion/\">[...]</a>",
+      "link": "https://www.cityam.com/trump-speaks-up-for-infantino-at-last-as-fifa-boss-fights-world-football-rebellion/",
+      "source": "CityAM",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-11T08:46:56.168806Z"
+    },
+    {
+      "id": "abb98059d60e6d597af166d772ed542e",
+      "title": "CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs",
+      "summary": "CISA has confirmed that ransomware gangs have begun exploiting two recently patched SonicWall SMA1000 vulnerabilities, including a maximum-severity server-side request forgery (SSRF) flaw. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-11T08:47:02.027244Z"
+    },
+    {
+      "id": "3edf31d00fdc40239f1d2acd815e36c7",
+      "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-11T08:46:35.221772Z"
+    },
+    {
+      "id": "f0c21d1ab25141c7696fa18d1c4df9ee",
+      "title": "It\u2019s all about the role of money - speech by Nathana\u00ebl Benjamin",
+      "summary": "Given at OMFIF Economic and Monetary Policy Institute",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/nathanael-benjamin-speech-at-omfif",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-11T08:46:52.375119Z"
+    },
+    {
+      "id": "54ca4e3432dc8a2c0043751e5f083692",
+      "title": "Testing times require time for testing \u2212 speech by Ruth Smith",
+      "summary": "Given at UK Finance",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/ruth-smith-speech-at-uk-finance",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-11T08:46:52.375218Z"
+    },
+    {
+      "id": "ffb5e89e0ffc57dfabceba9f519bd8fd",
+      "title": "Corporate report: Whole of Government Accounts 2025 to 2026: guidance for preparers",
+      "summary": "Guidance for central government and local government preparers for Whole of Government Accounts.",
+      "link": "https://www.gov.uk/government/publications/whole-of-government-accounts-2025-to-2026-guidance-for-preparers",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-11T08:46:53.329842Z"
+    },
+    {
+      "id": "16b4ab41458b246d08bdf0234e46c0e2",
+      "title": "The U.S.-Canada natural gas and electricity trade value rose in 2025",
+      "summary": "Although the total value of energy trade between the United States and Canada fell by 11% in 2025 to an estimated $137 billion, according to data from the U.S. Census Bureau, the trade value of natural gas and electricity between the two countries increased slightly primarily because of increased natural gas prices and trade volume.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=",
+      "source": "EIA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-11T08:46:59.382923Z"
+    },
+    {
+      "id": "0f705da183c2ae6eacde38fd5d801ea1",
+      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+      "summary": "Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for the public transport network in the Greater London area. The duo were key members of a prolific cybercrime group known as Scattered Spider, and their guilty pleas came on the first day of what was expected to be a six-week trial.",
+      "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+      "source": "KrebsOnSecurity",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-11T08:47:02.215500Z"
     }
   ]
 }
