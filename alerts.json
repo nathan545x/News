@@ -1,69 +1,291 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-11T00:16:52.833889Z",
+  "generated_at": "2026-08-11T00:22:05.930283Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-08-11T00:16:52.833900Z"
+    "high_alerts": 2,
+    "last_updated": "2026-08-11T00:22:05.930294Z"
   },
   "top_signals": [
     {
-      "id": "325d2768983ed357895096d51166575c",
-      "title": "Colombia Inflation Unexpectedly Slows, Easing Pressure on Rates",
-      "summary": "Colombia\u2019s inflation rate cooled last month, offering some relief to the central bank after policymakers recently surprised investors by keeping borrowing costs unchanged.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-10/colombia-inflation-unexpectedly-slows-easing-pressure-on-rates",
-      "source": "Bloomberg",
+      "id": "cbef6e8615950577a65dfd82cb994ed7",
+      "title": "Yen sinks as effect of US-Japan intervention fades",
+      "summary": "Currency gives up roughly half its gains from joint action with investors citing lack of \u2018unified voice\u2019 among central banks",
+      "link": "https://www.ft.com/content/47d2ab3c-0423-49ed-89ca-68683761ed98?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-11T00:21:33.477469Z"
+    },
+    {
+      "id": "1c0eeb483c85bcf2aece1d35da9e964a",
+      "title": "Strategy sells 1,690 bitcoin, raises $653 million from MSTR shares",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/08/10/strategy-sells-1-690-bitcoin-raises-usd653-million-from-mstr-shares",
+      "source": "CoinDesk",
       "score": 16,
       "severity": "HIGH",
-      "regime": "INFLATION",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-08-11T00:22:02.010011Z"
+    },
+    {
+      "id": "8a35e12cb1ea85e6cdc4b13838570602",
+      "title": "Don't let a Wall Street analyst's downgrade of Apple scare you out of the stock",
+      "summary": "Jefferies analyst Edison Lee cited supply chain checks.",
+      "link": "https://www.cnbc.com/2026/08/10/dont-let-a-wall-street-analysts-downgrade-of-apple-scare-you-out-of-the-stock.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-11T00:21:34.971295Z"
+    },
+    {
+      "id": "82e9af8a3d46b6d0f95cb7654a2a93e0",
+      "title": "US Army exploring 50mm cannon to destroy drones",
+      "summary": "The U.S. Army is looking for companies that can provide a 50mm cannon and ammunition capable of destroying a broad range of drones.",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/08/10/us-army-exploring-50mm-cannon-to-destroy-drones/",
+      "source": "Defense News",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-11T00:16:11.872351Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-11T00:22:00.584855Z"
+    },
+    {
+      "id": "0948527eda0289a0826544dcdee530f4",
+      "title": "LexisNexis shuts down services after suspicious activity on servers",
+      "summary": "LexisNexis took its Diligence, Metabase API, and Newsdesk services offline as part of its response to unusual activity on servers hosted and managed by an unnamed third-party vendor. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/",
+      "source": "BleepingComputer",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-11T00:22:02.291274Z"
+    },
+    {
+      "id": "f1551899cb4edc46c14e5a880bcf25a0",
+      "title": "Stocks making the biggest moves midday: NetApp, Intel, Apple, Doximity, Verisk Analytics & more - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOdGZLdkVFSUdDeER4ay1qUjN1UnN6T1NjNS10alduTjBVM0IxLV9ERmcwcGJLcEFsZHprdEkzMnRXNXM1Rnp3V0dKdlhkb0RKODRsaFNUeGFlWlZUSzRLaE44WTVxU25sNkplQnQxTkJmOWZ2NWdVLTAyUUZEMWhWT1BBRHJ6czYtSmppRThtSUFqWVFWNTRTUU5FSVR2VFBVMFE?oc=5\" target=\"_blank\">Stocks making the biggest moves midday: NetApp, Intel, Apple, Doximity, Verisk Analytics & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdGZLdkVFSUdDeER4ay1qUjN1UnN6T1NjNS10alduTjBVM0IxLV9ERmcwcGJLcEFsZHprdEkzMnRXNXM1Rnp3V0dKdlhkb0RKODRsaFNUeGFlWlZUSzRLaE44WTVxU25sNkplQnQxTkJmOWZ2NWdVLTAyUUZEMWhWT1BBRHJ6czYtSmppRThtSUFqWVFWNTRTUU5FSVR2VFBVMFE?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-11T00:22:05.930188Z"
     }
   ],
   "alerts": [
     {
-      "id": "325d2768983ed357895096d51166575c",
-      "title": "Colombia Inflation Unexpectedly Slows, Easing Pressure on Rates",
-      "summary": "Colombia\u2019s inflation rate cooled last month, offering some relief to the central bank after policymakers recently surprised investors by keeping borrowing costs unchanged.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-10/colombia-inflation-unexpectedly-slows-easing-pressure-on-rates",
-      "source": "Bloomberg",
+      "id": "cbef6e8615950577a65dfd82cb994ed7",
+      "title": "Yen sinks as effect of US-Japan intervention fades",
+      "summary": "Currency gives up roughly half its gains from joint action with investors citing lack of \u2018unified voice\u2019 among central banks",
+      "link": "https://www.ft.com/content/47d2ab3c-0423-49ed-89ca-68683761ed98?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-11T00:21:33.477469Z"
+    },
+    {
+      "id": "1c0eeb483c85bcf2aece1d35da9e964a",
+      "title": "Strategy sells 1,690 bitcoin, raises $653 million from MSTR shares",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/08/10/strategy-sells-1-690-bitcoin-raises-usd653-million-from-mstr-shares",
+      "source": "CoinDesk",
       "score": 16,
       "severity": "HIGH",
-      "regime": "INFLATION",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-08-11T00:22:02.010011Z"
+    },
+    {
+      "id": "8a35e12cb1ea85e6cdc4b13838570602",
+      "title": "Don't let a Wall Street analyst's downgrade of Apple scare you out of the stock",
+      "summary": "Jefferies analyst Edison Lee cited supply chain checks.",
+      "link": "https://www.cnbc.com/2026/08/10/dont-let-a-wall-street-analysts-downgrade-of-apple-scare-you-out-of-the-stock.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-11T00:21:34.971295Z"
+    },
+    {
+      "id": "82e9af8a3d46b6d0f95cb7654a2a93e0",
+      "title": "US Army exploring 50mm cannon to destroy drones",
+      "summary": "The U.S. Army is looking for companies that can provide a 50mm cannon and ammunition capable of destroying a broad range of drones.",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/08/10/us-army-exploring-50mm-cannon-to-destroy-drones/",
+      "source": "Defense News",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-11T00:16:11.872351Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-11T00:22:00.584855Z"
+    },
+    {
+      "id": "0948527eda0289a0826544dcdee530f4",
+      "title": "LexisNexis shuts down services after suspicious activity on servers",
+      "summary": "LexisNexis took its Diligence, Metabase API, and Newsdesk services offline as part of its response to unusual activity on servers hosted and managed by an unnamed third-party vendor. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/",
+      "source": "BleepingComputer",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-11T00:22:02.291274Z"
+    },
+    {
+      "id": "f1551899cb4edc46c14e5a880bcf25a0",
+      "title": "Stocks making the biggest moves midday: NetApp, Intel, Apple, Doximity, Verisk Analytics & more - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOdGZLdkVFSUdDeER4ay1qUjN1UnN6T1NjNS10alduTjBVM0IxLV9ERmcwcGJLcEFsZHprdEkzMnRXNXM1Rnp3V0dKdlhkb0RKODRsaFNUeGFlWlZUSzRLaE44WTVxU25sNkplQnQxTkJmOWZ2NWdVLTAyUUZEMWhWT1BBRHJ6czYtSmppRThtSUFqWVFWNTRTUU5FSVR2VFBVMFE?oc=5\" target=\"_blank\">Stocks making the biggest moves midday: NetApp, Intel, Apple, Doximity, Verisk Analytics & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdGZLdkVFSUdDeER4ay1qUjN1UnN6T1NjNS10alduTjBVM0IxLV9ERmcwcGJLcEFsZHprdEkzMnRXNXM1Rnp3V0dKdlhkb0RKODRsaFNUeGFlWlZUSzRLaE44WTVxU25sNkplQnQxTkJmOWZ2NWdVLTAyUUZEMWhWT1BBRHJ6czYtSmppRThtSUFqWVFWNTRTUU5FSVR2VFBVMFE?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-11T00:22:05.930188Z"
     }
   ]
 }
