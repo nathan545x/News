@@ -1,107 +1,63 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-12T15:37:12.258911Z",
+  "generated_at": "2026-08-12T15:42:26.303180Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
-    "high_alerts": 1,
-    "last_updated": "2026-08-12T15:37:12.258929Z"
+    "high_alerts": 6,
+    "last_updated": "2026-08-12T15:42:26.303194Z"
   },
   "top_signals": [
     {
-      "id": "959733fbfa7de931b78220891324a0d7",
-      "title": "US Core Inflation Comes in Subdued, Easing Pressure on Fed",
-      "summary": "Underlying US inflation was subdued in July, likely easing pressure on the Federal Reserve to raise interest rates.\nMarta Norton, Chief Investment Strategist at Empower, reacts to the CPI data. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-12/us-core-inflation-comes-in-subdued-easing-fed-pressure-video",
-      "source": "Bloomberg",
-      "score": 34,
+      "id": "3ccb13a47f6f17d4adbdb673b905d58d",
+      "title": "China's crude oil imports fell in the second quarter",
+      "summary": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait of Hormuz. China's lower imports reduced global demand, softening the upward price effects from the disrupted supply through the strait.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67905",
+      "source": "EIA",
+      "score": 29,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "CHINA"
+      ],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-12T15:36:22.071630Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-12T15:42:19.221346Z"
     },
     {
-      "id": "060917bc73bfa966b3724ede5e753a4e",
-      "title": "Federal Reserve issues FOMC statement",
-      "summary": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-      "source": "Federal Reserve",
+      "id": "f555b37f450743fa3a888038dcbcb501",
+      "title": "Iranian factions squabble over war aims as supreme leader maintains low profile",
+      "summary": "The absence from public life of Iranian Supreme Leader Mojtaba Khamenei has left a vacuum in which disputes between political factions have seeped into the open.",
+      "link": "https://www.japantimes.co.jp/news/2026/08/12/world/politics/khamenei-absence-iranian-factions/",
+      "source": "Japan Times",
       "score": 23,
       "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-12T15:36:27.031180Z"
-    },
-    {
-      "id": "370fb7bc7eb7171b825159bec29b4354",
-      "title": "Tencent Q2 results beat estimates on robust AI-enhanced advertising",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/technology/tencent-q2-results-beat-estimates-on-robust-ai-enhanced-advertising",
-      "source": "Nikkei Asia",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-12T15:36:50.052871Z"
-    },
-    {
-      "id": "e5a74796a3d23ee08412e5493a2061c0",
-      "title": "Ban on military-style clothing does not apply to active-duty members, Yasukuni clarifies",
-      "summary": "The shrine said that it has seen an increase in visitors wearing military attire without any affiliation or qualification.",
-      "link": "https://www.japantimes.co.jp/news/2026/08/12/japan/society/yasukuni-cosplay-ban/",
-      "source": "Japan Times",
-      "score": 11,
-      "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "UK"
+        "MIDDLE_EAST"
       ],
       "assets": [
         "AI"
@@ -120,149 +76,348 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-12T15:36:50.802046Z"
+      "published": "2026-08-12T15:42:16.694461Z"
     },
     {
-      "id": "c8fd31ad71d02648e33b758ac11ad599",
-      "title": "Cook, Outlook for the U.S. and Alaskan Economies",
-      "summary": "Speech At the 2026 Economic Luncheon of the Anchorage Economic Development Corporation, Anchorage, Alaska",
-      "link": "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "id": "56f00c6f39a9149dd284b5a042180433",
+      "title": "Warehouse cramming is about to begin \u2014 Freightonomics",
+      "summary": "<p>On this episode of Freightonomics, Zach Strickland and Anthony Smith talk about the need to cram for warehouse space with Zac Rogers from Colorado State University. </p>\n<p>The post <a href=\"https://www.freightwaves.com/news/warehouse-cramming-is-about-to-begin-freightonomics\">Warehouse cramming is about to begin \u2014 Freightonomics</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/warehouse-cramming-is-about-to-begin-freightonomics",
+      "source": "FreightWaves",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-12T15:36:27.298224Z"
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-12T15:42:20.522526Z"
     },
     {
-      "id": "689f3bf21367cc8047baab24dedfb826",
-      "title": "Josh Kushner, Bob Iger Buy LA Lakers for Over $12 Billion",
-      "summary": "Josh Kushner\u00a0and\u00a0Bob Iger\u00a0are buying the Los Angeles Lakers basketball team for a record-breaking price of more than $12 billion, according to people familiar with the matter.\nRandall Williams, Bloomberg Business of Sports Reporter, discusses the deal. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-12/josh-kushner-bob-iger-buy-la-lakers-for-over-12b-video",
+      "id": "fdeaab90e60a0dddbe3bf3e98ddc0454",
+      "title": "Oil prices little changed after Red Sea, Gulf of Oman vessel attacks - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE1DUGtHWXRCMkh5Y0hKaHl1MTYxYThUT210WjBqdmVrUlEyTFc3RkRuc2hFeF9qSjRIaTB2RnM0MXAteTZmMFBUdXNDUEZkUFlld1pYbkhRMVpObWNOb244UEZKUTNXQW5aVkZGMmdIdEMyek9zQ3ZBQ2Nrb9IBgAFBVV95cUxPdi1sWGRJdmJPTzVFSGMwM3JPTV9hWTBveUQ3cGlTVElHd2JfWU02TXYxWks2ZmFoWkhWRlplT19faF9GcWdyNG1mRndYTjc1a0dHYUp1REdfRHJxWTFzWm95VzNGbjNNdzZ3RW1ZNHlBT2pmLWdtX25RLTM3RllnSQ?oc=5\" target=\"_blank\">Oil prices little changed after Red Sea, Gulf of Oman vessel attacks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1DUGtHWXRCMkh5Y0hKaHl1MTYxYThUT210WjBqdmVrUlEyTFc3RkRuc2hFeF9qSjRIaTB2RnM0MXAteTZmMFBUdXNDUEZkUFlld1pYbkhRMVpObWNOb244UEZKUTNXQW5aVkZGMmdIdEMyek9zQ3ZBQ2Nrb9IBgAFBVV95cUxPdi1sWGRJdmJPTzVFSGMwM3JPTV9hWTBveUQ3cGlTVElHd2JfWU02TXYxWks2ZmFoWkhWRlplT19faF9GcWdyNG1mRndYTjc1a0dHYUp1REdfRHJxWTFzWm95VzNGbjNNdzZ3RW1ZNHlBT2pmLWdtX25RLTM3RllnSQ?oc=5",
+      "source": "Google Macro",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-12T15:42:26.303140Z"
+    },
+    {
+      "id": "94b994f65a850bd9dbfc9d1454a0e5d8",
+      "title": "Firefly CEO Says Launch Demand Is Surging",
+      "summary": "Firefly Aerospace CEO Jason Kim says launch capacity is tighter than ever as commercial and government demand accelerates. He joins Bloomberg Open Interest to break down the expanded Lockheed Martin partnership, Firefly\u2019s growing lunar and Golden Dome businesses, and how the company is ramping Alpha rocket production to dramatically increase launch cadence. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-12/firefly-ceo-says-launch-demand-is-surging-video",
       "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-12T15:36:22.071553Z"
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-12T15:41:49.954725Z"
     },
     {
-      "id": "1129709f584863819949c493ce1af8ca",
-      "title": "Indonesian banks face tighter liquidity after strong profits",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/finance/indonesian-banks-face-tighter-liquidity-after-strong-profits",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "2170f81242ac452634b3e9cecabd3cce",
+      "title": "Why the Northeast is quietly running out of diesel",
+      "summary": "<p>Diesel inventories on the East Coast are at record lows. Truckers are spooked by the vanishing stocks and soaring rates.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/why-the-northeast-is-quietly-running-out-of-diesel\">Why the Northeast is quietly running out of diesel</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/why-the-northeast-is-quietly-running-out-of-diesel",
+      "source": "FreightWaves",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
       "tickers": [],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-12T15:36:50.052935Z"
+      "assets": [
+        "EQUITIES",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-12T15:42:20.522362Z"
+    },
+    {
+      "id": "c86c5d35ed2d2f92a52203707be4e793",
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
+      "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "source": "KrebsOnSecurity",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-12T15:42:23.234156Z"
+    },
+    {
+      "id": "8a8444002962b2b600c4e6f2ea24c7cc",
+      "title": "Exclusive: Central Freight Lines to shut down after 96 years",
+      "summary": "<p>A source familiar with the 96-year-old company said he is unsure whether CFL will file Chapter 7 or \u201cliquidate outside of bankruptcy,\u201d but that the LTL carrier has no plans to reorganize.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/exclusive-central-freight-lines-to-shut-down-after-96-years\">Exclusive: Central Freight Lines to shut down after 96 years</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/exclusive-central-freight-lines-to-shut-down-after-96-years",
+      "source": "FreightWaves",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-12T15:42:20.522448Z"
+    },
+    {
+      "id": "5b7edd847d7159690ce3154307cf1b68",
+      "title": "Seasonality pushing rejections and rates higher ahead of the Fourth",
+      "summary": "<p>This week\u2019s DHL Supply Chain Pricing Power Index: 75 (Carriers) Last week\u2019s DHL Supply Chain Pricing Power Index: 70 (Carriers)&#160; Three-month DHL Supply Chain Pricing Power Index Outlook: 70 (Carriers) The DHL Supply Chain Pricing Power Index uses the analytics and data in FreightWaves SONAR to analyze the market and estimate the negotiating power for [&#8230;]</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/seasonality-pushing-rejections-and-rates-higher-ahead-of-the-fourth\">Seasonality pushing rejections and rates higher ahead of the Fourth</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/seasonality-pushing-rejections-and-rates-higher-ahead-of-the-fourth",
+      "source": "FreightWaves",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-12T15:42:20.522633Z"
+    },
+    {
+      "id": "cb26a5bb25e582fc76e03a1ad5e356ba",
+      "title": "The west has given China the keys to the medicine cabinet - ft.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE5TQmR1TGljYlA4Y1Q0RU03S0xYSm9DNzdKXzF4eGN6YVpNYXk5RldNYTRkLUYyWkJGbDU2alFRVUN6ZmxTaU5mTlI0bjBUemFQMmpHWkluZDJzRDFMTHpnc2pVWXpJNzdNVDZ4aU9tQng?oc=5\" target=\"_blank\">The west has given China the keys to the medicine cabinet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ft.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5TQmR1TGljYlA4Y1Q0RU03S0xYSm9DNzdKXzF4eGN6YVpNYXk5RldNYTRkLUYyWkJGbDU2alFRVUN6ZmxTaU5mTlI0bjBUemFQMmpHWkluZDJzRDFMTHpnc2pVWXpJNzdNVDZ4aU9tQng?oc=5",
+      "source": "Google Macro",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "JGB"
+      ],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-12T15:42:25.279508Z"
+    },
+    {
+      "id": "dec831500911747e70a294430c7ab6d9",
+      "title": "Lightbridge CEO\u00a0 Says Nuclear Fuel Is Accelerating",
+      "summary": "Lightbridge CEO Seth Grae says the company\u2019s advanced nuclear fuel is progressing faster than expected as testing continues at Idaho National Laboratory. He joins Bloomberg Open Interest to explain why early results look promising, how the fuel could boost output from existing reactors, and why surging US nuclear support could accelerate commercialization. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-12/lightbridge-ceo-says-nuclear-fuel-is-accelerating-video",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-12T15:41:49.954616Z"
+    },
+    {
+      "id": "2e6c56b2aaf17e1700bb27fced6c9a5c",
+      "title": "How a bad trade pushed a US mortgage giant into a $2bn lifeline",
+      "summary": "Billionaire finance executive and Phoenix Suns owner Mat Ishbia forged a last-minute deal with Oaktree",
+      "link": "https://www.ft.com/content/20f44f32-6566-4373-b6d8-9551be58d762?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-12T15:41:51.913241Z"
     }
   ],
   "alerts": [
     {
-      "id": "959733fbfa7de931b78220891324a0d7",
-      "title": "US Core Inflation Comes in Subdued, Easing Pressure on Fed",
-      "summary": "Underlying US inflation was subdued in July, likely easing pressure on the Federal Reserve to raise interest rates.\nMarta Norton, Chief Investment Strategist at Empower, reacts to the CPI data. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-12/us-core-inflation-comes-in-subdued-easing-fed-pressure-video",
-      "source": "Bloomberg",
-      "score": 34,
+      "id": "3ccb13a47f6f17d4adbdb673b905d58d",
+      "title": "China's crude oil imports fell in the second quarter",
+      "summary": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait of Hormuz. China's lower imports reduced global demand, softening the upward price effects from the disrupted supply through the strait.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67905",
+      "source": "EIA",
+      "score": 29,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "CHINA"
+      ],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-12T15:36:22.071630Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-12T15:42:19.221346Z"
     },
     {
-      "id": "060917bc73bfa966b3724ede5e753a4e",
-      "title": "Federal Reserve issues FOMC statement",
-      "summary": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-      "source": "Federal Reserve",
+      "id": "f555b37f450743fa3a888038dcbcb501",
+      "title": "Iranian factions squabble over war aims as supreme leader maintains low profile",
+      "summary": "The absence from public life of Iranian Supreme Leader Mojtaba Khamenei has left a vacuum in which disputes between political factions have seeped into the open.",
+      "link": "https://www.japantimes.co.jp/news/2026/08/12/world/politics/khamenei-absence-iranian-factions/",
+      "source": "Japan Times",
       "score": 23,
       "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-12T15:36:27.031180Z"
-    },
-    {
-      "id": "370fb7bc7eb7171b825159bec29b4354",
-      "title": "Tencent Q2 results beat estimates on robust AI-enhanced advertising",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/technology/tencent-q2-results-beat-estimates-on-robust-ai-enhanced-advertising",
-      "source": "Nikkei Asia",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-12T15:36:50.052871Z"
-    },
-    {
-      "id": "e5a74796a3d23ee08412e5493a2061c0",
-      "title": "Ban on military-style clothing does not apply to active-duty members, Yasukuni clarifies",
-      "summary": "The shrine said that it has seen an increase in visitors wearing military attire without any affiliation or qualification.",
-      "link": "https://www.japantimes.co.jp/news/2026/08/12/japan/society/yasukuni-cosplay-ban/",
-      "source": "Japan Times",
-      "score": 11,
-      "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "UK"
+        "MIDDLE_EAST"
       ],
       "assets": [
         "AI"
@@ -281,47 +436,470 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-12T15:36:50.802046Z"
+      "published": "2026-08-12T15:42:16.694461Z"
     },
     {
-      "id": "c8fd31ad71d02648e33b758ac11ad599",
-      "title": "Cook, Outlook for the U.S. and Alaskan Economies",
-      "summary": "Speech At the 2026 Economic Luncheon of the Anchorage Economic Development Corporation, Anchorage, Alaska",
-      "link": "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm",
-      "source": "Federal Reserve",
+      "id": "56f00c6f39a9149dd284b5a042180433",
+      "title": "Warehouse cramming is about to begin \u2014 Freightonomics",
+      "summary": "<p>On this episode of Freightonomics, Zach Strickland and Anthony Smith talk about the need to cram for warehouse space with Zac Rogers from Colorado State University. </p>\n<p>The post <a href=\"https://www.freightwaves.com/news/warehouse-cramming-is-about-to-begin-freightonomics\">Warehouse cramming is about to begin \u2014 Freightonomics</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/warehouse-cramming-is-about-to-begin-freightonomics",
+      "source": "FreightWaves",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-12T15:42:20.522526Z"
+    },
+    {
+      "id": "fdeaab90e60a0dddbe3bf3e98ddc0454",
+      "title": "Oil prices little changed after Red Sea, Gulf of Oman vessel attacks - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE1DUGtHWXRCMkh5Y0hKaHl1MTYxYThUT210WjBqdmVrUlEyTFc3RkRuc2hFeF9qSjRIaTB2RnM0MXAteTZmMFBUdXNDUEZkUFlld1pYbkhRMVpObWNOb244UEZKUTNXQW5aVkZGMmdIdEMyek9zQ3ZBQ2Nrb9IBgAFBVV95cUxPdi1sWGRJdmJPTzVFSGMwM3JPTV9hWTBveUQ3cGlTVElHd2JfWU02TXYxWks2ZmFoWkhWRlplT19faF9GcWdyNG1mRndYTjc1a0dHYUp1REdfRHJxWTFzWm95VzNGbjNNdzZ3RW1ZNHlBT2pmLWdtX25RLTM3RllnSQ?oc=5\" target=\"_blank\">Oil prices little changed after Red Sea, Gulf of Oman vessel attacks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1DUGtHWXRCMkh5Y0hKaHl1MTYxYThUT210WjBqdmVrUlEyTFc3RkRuc2hFeF9qSjRIaTB2RnM0MXAteTZmMFBUdXNDUEZkUFlld1pYbkhRMVpObWNOb244UEZKUTNXQW5aVkZGMmdIdEMyek9zQ3ZBQ2Nrb9IBgAFBVV95cUxPdi1sWGRJdmJPTzVFSGMwM3JPTV9hWTBveUQ3cGlTVElHd2JfWU02TXYxWks2ZmFoWkhWRlplT19faF9GcWdyNG1mRndYTjc1a0dHYUp1REdfRHJxWTFzWm95VzNGbjNNdzZ3RW1ZNHlBT2pmLWdtX25RLTM3RllnSQ?oc=5",
+      "source": "Google Macro",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-12T15:42:26.303140Z"
+    },
+    {
+      "id": "94b994f65a850bd9dbfc9d1454a0e5d8",
+      "title": "Firefly CEO Says Launch Demand Is Surging",
+      "summary": "Firefly Aerospace CEO Jason Kim says launch capacity is tighter than ever as commercial and government demand accelerates. He joins Bloomberg Open Interest to break down the expanded Lockheed Martin partnership, Firefly\u2019s growing lunar and Golden Dome businesses, and how the company is ramping Alpha rocket production to dramatically increase launch cadence. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-12/firefly-ceo-says-launch-demand-is-surging-video",
+      "source": "Bloomberg",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-12T15:41:49.954725Z"
+    },
+    {
+      "id": "2170f81242ac452634b3e9cecabd3cce",
+      "title": "Why the Northeast is quietly running out of diesel",
+      "summary": "<p>Diesel inventories on the East Coast are at record lows. Truckers are spooked by the vanishing stocks and soaring rates.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/why-the-northeast-is-quietly-running-out-of-diesel\">Why the Northeast is quietly running out of diesel</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/why-the-northeast-is-quietly-running-out-of-diesel",
+      "source": "FreightWaves",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-12T15:42:20.522362Z"
+    },
+    {
+      "id": "c86c5d35ed2d2f92a52203707be4e793",
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
+      "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "source": "KrebsOnSecurity",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-12T15:42:23.234156Z"
+    },
+    {
+      "id": "8a8444002962b2b600c4e6f2ea24c7cc",
+      "title": "Exclusive: Central Freight Lines to shut down after 96 years",
+      "summary": "<p>A source familiar with the 96-year-old company said he is unsure whether CFL will file Chapter 7 or \u201cliquidate outside of bankruptcy,\u201d but that the LTL carrier has no plans to reorganize.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/exclusive-central-freight-lines-to-shut-down-after-96-years\">Exclusive: Central Freight Lines to shut down after 96 years</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/exclusive-central-freight-lines-to-shut-down-after-96-years",
+      "source": "FreightWaves",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-12T15:42:20.522448Z"
+    },
+    {
+      "id": "5b7edd847d7159690ce3154307cf1b68",
+      "title": "Seasonality pushing rejections and rates higher ahead of the Fourth",
+      "summary": "<p>This week\u2019s DHL Supply Chain Pricing Power Index: 75 (Carriers) Last week\u2019s DHL Supply Chain Pricing Power Index: 70 (Carriers)&#160; Three-month DHL Supply Chain Pricing Power Index Outlook: 70 (Carriers) The DHL Supply Chain Pricing Power Index uses the analytics and data in FreightWaves SONAR to analyze the market and estimate the negotiating power for [&#8230;]</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/seasonality-pushing-rejections-and-rates-higher-ahead-of-the-fourth\">Seasonality pushing rejections and rates higher ahead of the Fourth</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/seasonality-pushing-rejections-and-rates-higher-ahead-of-the-fourth",
+      "source": "FreightWaves",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-12T15:42:20.522633Z"
+    },
+    {
+      "id": "cb26a5bb25e582fc76e03a1ad5e356ba",
+      "title": "The west has given China the keys to the medicine cabinet - ft.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE5TQmR1TGljYlA4Y1Q0RU03S0xYSm9DNzdKXzF4eGN6YVpNYXk5RldNYTRkLUYyWkJGbDU2alFRVUN6ZmxTaU5mTlI0bjBUemFQMmpHWkluZDJzRDFMTHpnc2pVWXpJNzdNVDZ4aU9tQng?oc=5\" target=\"_blank\">The west has given China the keys to the medicine cabinet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ft.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5TQmR1TGljYlA4Y1Q0RU03S0xYSm9DNzdKXzF4eGN6YVpNYXk5RldNYTRkLUYyWkJGbDU2alFRVUN6ZmxTaU5mTlI0bjBUemFQMmpHWkluZDJzRDFMTHpnc2pVWXpJNzdNVDZ4aU9tQng?oc=5",
+      "source": "Google Macro",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "JGB"
+      ],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-12T15:42:25.279508Z"
+    },
+    {
+      "id": "dec831500911747e70a294430c7ab6d9",
+      "title": "Lightbridge CEO\u00a0 Says Nuclear Fuel Is Accelerating",
+      "summary": "Lightbridge CEO Seth Grae says the company\u2019s advanced nuclear fuel is progressing faster than expected as testing continues at Idaho National Laboratory. He joins Bloomberg Open Interest to explain why early results look promising, how the fuel could boost output from existing reactors, and why surging US nuclear support could accelerate commercialization. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-12/lightbridge-ceo-says-nuclear-fuel-is-accelerating-video",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-12T15:41:49.954616Z"
+    },
+    {
+      "id": "2e6c56b2aaf17e1700bb27fced6c9a5c",
+      "title": "How a bad trade pushed a US mortgage giant into a $2bn lifeline",
+      "summary": "Billionaire finance executive and Phoenix Suns owner Mat Ishbia forged a last-minute deal with Oaktree",
+      "link": "https://www.ft.com/content/20f44f32-6566-4373-b6d8-9551be58d762?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-12T15:41:51.913241Z"
+    },
+    {
+      "id": "b1098549c02ffa0398bfcfc1ef271aca",
+      "title": "The \u2018ingenious strategy\u2019 behind most truckers\u2019 least favorite week of the year: International Roadcheck",
+      "summary": "<p>Inspection blitzes frustrate truck drivers. But economists found that the International Roadcheck Week boosts overall road safety.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/the-ingenious-strategy-behind-most-truck-drivers-least-favorite-week-of-the-year\">The &#8216;ingenious strategy&#8217; behind most truckers&#8217; least favorite week of the year: International Roadcheck</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/the-ingenious-strategy-behind-most-truck-drivers-least-favorite-week-of-the-year",
+      "source": "FreightWaves",
       "score": 10,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "regime": "COMMODITIES",
       "tickers": [],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-12T15:36:27.298224Z"
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-12T15:42:20.522296Z"
     },
     {
-      "id": "689f3bf21367cc8047baab24dedfb826",
-      "title": "Josh Kushner, Bob Iger Buy LA Lakers for Over $12 Billion",
-      "summary": "Josh Kushner\u00a0and\u00a0Bob Iger\u00a0are buying the Los Angeles Lakers basketball team for a record-breaking price of more than $12 billion, according to people familiar with the matter.\nRandall Williams, Bloomberg Business of Sports Reporter, discusses the deal. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-12/josh-kushner-bob-iger-buy-la-lakers-for-over-12b-video",
-      "source": "Bloomberg",
+      "id": "c1daa876b37fa60159bf003127332d78",
+      "title": "Project44 acquires ClearMetal to strengthen predictive tools",
+      "summary": "<p>\u201cTheir team construct is fundamentally different. When you look at their data science, machine learning and computer science background, they are best in class.\u201d</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/project44-acquires-clearmetal-to-strengthen-predictive-tools\">Project44 acquires ClearMetal to strengthen predictive tools</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/project44-acquires-clearmetal-to-strengthen-predictive-tools",
+      "source": "FreightWaves",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-12T15:42:20.522735Z"
+    },
+    {
+      "id": "1d165f7064397f4c0b17e8a2bc4a5c12",
+      "title": "Iran says no progress on reviving interim peace deal with US - reuters.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOel9GN09UcjUyQ2FnMF90ZWhiaFFEazlXcDM1aDZLbExtREZQLXFmOFgtTU92YWZxM19udFlOTkNHRjM1aFl1Qk0xcDhTSTB1ZnR0YnBxSW9xLXhRTHRoeXFtbW9nSy1IeGIzQkVOelJrNlRHQUg2dUJPZVM3T085QTFpbmtCT3JzQ29FNlV5bjhrUGdaSG1kRy1VUWR3dmxiU2RsZC0tMDdWNW56ZHFpTWVB?oc=5\" target=\"_blank\">Iran says no progress on reviving interim peace deal with US</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">reuters.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOel9GN09UcjUyQ2FnMF90ZWhiaFFEazlXcDM1aDZLbExtREZQLXFmOFgtTU92YWZxM19udFlOTkNHRjM1aFl1Qk0xcDhTSTB1ZnR0YnBxSW9xLXhRTHRoeXFtbW9nSy1IeGIzQkVOelJrNlRHQUg2dUJPZVM3T085QTFpbmtCT3JzQ29FNlV5bjhrUGdaSG1kRy1VUWR3dmxiU2RsZC0tMDdWNW56ZHFpTWVB?oc=5",
+      "source": "Google Macro",
       "score": 9,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-12T15:42:24.719451Z"
+    },
+    {
+      "id": "e34a49271fb22e6ed04f6a48408a5128",
+      "title": "Personal Income and Outlays, June 2026",
+      "summary": "Personal income increased $54.9 billion (0.2 percent at a monthly rate) in June, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-increased $48.3 billion (0.2 percent), and personal consumption expenditures (PCE) increased $65.2 billion (0.3 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $70.0 billion in June. Personal saving was $646.1 billion in June, and the personal saving rate-personal saving as a percentage of DPI-was 2.7 percent.<!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026\">Full Text</a><!--Full Text Link-->",
+      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026",
+      "source": "BEA",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-12T15:36:22.071553Z"
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-08-12T15:42:05.185420Z"
     },
     {
-      "id": "1129709f584863819949c493ce1af8ca",
-      "title": "Indonesian banks face tighter liquidity after strong profits",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/finance/indonesian-banks-face-tighter-liquidity-after-strong-profits",
-      "source": "Nikkei Asia",
-      "score": 7,
+      "id": "5c57fb3692f14f9b8577d975db17b8b8",
+      "title": "London IPO candidate Utmost sees inflows slide",
+      "summary": "<p> <img alt=\"Utmost inflows fell\" src=\"https://www.cityam.com/wp-content/uploads/2026/08/GettyImages-2284475838-e1785851354767.jpg?w=1107\" /> </p>A wealth firm expected to IPO in London later this year has posted a fall in inflows as a boost generated by last year\u2019s UK government tax shake up tailed off. Utmost, owned by private equity firms Oaktree Capital and Brookfield, recorded \u00a34.4bn of inflows in the first half of the year, down from \u00a35.3bn <a href=\"https://www.cityam.com/london-ipo-candidate-utmost-sees-inflows-slide/\">[...]</a>",
+      "link": "https://www.cityam.com/london-ipo-candidate-utmost-sees-inflows-slide/",
+      "source": "CityAM",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-12T15:42:14.529532Z"
+    },
+    {
+      "id": "4fc5484d20048b9d49b4caf24f50b88a",
+      "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
+      "summary": "North Korean hackers have been exploiting a Windows zero-day vulnerability (CVE-2026-68820) to target defense-sector companies as part of the Operation Dream Job campaign. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-12T15:42:23.014202Z"
+    },
+    {
+      "id": "7184f02fce8c2590241105c4db511ade",
+      "title": "GDP (Advance Estimate), 2nd Quarter 2026",
+      "summary": "Real gross domestic product (GDP) increased at an annual rate of 1.5 percent in the second quarter of 2026 (April, May, and June), according to the advance estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the first quarter, real GDP increased 2.1 percent. The contributors to the increase in real GDP in the second quarter were increases in consumer spending, investment, and exports that were partly offset by a decrease in government spending. Imports, which are a subtraction in the calculation of GDP, increased.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026\">Full Text</a><!--Full Text Link-->",
+      "link": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026",
+      "source": "BEA",
+      "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
@@ -329,7 +907,23 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-12T15:36:50.052935Z"
+      "published": "2026-08-12T15:42:05.185315Z"
+    },
+    {
+      "id": "99ac4c4eaed8e4466af1f9ba9ab9d37c",
+      "title": "Hourly peak load in ERCOT set a new record, exceeding 91 GW on July 22",
+      "summary": "Hourly peak load in the Electric Reliability Council of Texas (ERCOT), the regional transmission organization serving most of Texas, reached a record 91.1 gigawatts (GW) on July 22, 2026, according to data reported to us for our Hourly Electric Grid Monitor.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67906",
+      "source": "EIA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-12T15:42:19.221279Z"
     }
   ]
 }
