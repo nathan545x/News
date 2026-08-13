@@ -1,28 +1,227 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-13T15:42:09.493803Z",
+  "generated_at": "2026-08-13T15:47:08.480344Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-08-13T15:42:09.493819Z"
+    "critical_alerts": 1,
+    "high_alerts": 2,
+    "last_updated": "2026-08-13T15:47:08.480355Z"
   },
   "top_signals": [
     {
-      "id": "f6ae8052e08a2a38d9e093c042f48b66",
-      "title": "Why Romantasy May Soon Be a Billion-Dollar Business",
-      "summary": "Romantasy has grown from a BookTok-driven obsession to a nearly billion-dollar business, powered by a largely female fandom scooping up special editions, merchandise, event tickets, audiobooks and more. The genre's rise is reshaping publishing and drawing retailers, creators and now Hollywood into one of the book industry\u2019s most powerful new markets. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-12/why-romantasy-may-soon-be-a-billion-dollar-business",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "00ea95695a83ad0ffc442f9411241668",
+      "title": "Oil prices fall as investors weigh falling demand against Middle East tensions",
+      "summary": "Oil futures retreated early Wednesday morning after prices rose overnight.",
+      "link": "https://www.cnbc.com/2026/08/13/oil-spill-near-oman-worries-over-supply-.html",
+      "source": "CNBC",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-13T15:46:33.954923Z"
+    },
+    {
+      "id": "060917bc73bfa966b3724ede5e753a4e",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-13T15:46:34.314680Z"
+    },
+    {
+      "id": "ac3bc2448b7ea58933f9150ce16ed7b6",
+      "title": "Israeli settlers besiege Palestinian homes",
+      "summary": "Incident in occupied West Bank is part of a broader campaign to push Palestinians off land",
+      "link": "https://www.ft.com/content/e7aee58f-a068-468d-b584-49807b413016?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-13T15:46:32.951628Z"
+    },
+    {
+      "id": "73b787cca28dc9b6f8d07307e93c646d",
+      "title": "Retail parks are the real threat to the British high street",
+      "summary": "Outdoor commercial complexes are hot property, with supermarkets, stores and discount chains elbowing for room",
+      "link": "https://www.ft.com/content/36ec3c60-43b4-4c94-9a7b-8b5dba798ee8",
+      "source": "Financial Times",
+      "score": 12,
       "severity": "MEDIUM",
       "regime": "AI",
-      "tickers": [
-        "DXY"
+      "tickers": [],
+      "regions": [
+        "UK"
       ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-13T15:46:32.951586Z"
+    },
+    {
+      "id": "8d9fa72889fbc3b5806c3193ef036512",
+      "title": "Daily News 13 / 08 / 2026",
+      "summary": "European Commission Daily news Brussels, 13 Aug 2026 EU steps up humanitarian aid for Myanmar by \u20ac10.5 million as conflict claims more than 100,000 lives \nThe European Union is providing an additional \u20ac10.5 millio...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1734",
+      "source": "European Commission",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-13T15:46:54.362772Z"
+    },
+    {
+      "id": "c8fd31ad71d02648e33b758ac11ad599",
+      "title": "Cook, Outlook for the U.S. and Alaskan Economies",
+      "summary": "Speech At the 2026 Economic Luncheon of the Anchorage Economic Development Corporation, Anchorage, Alaska",
+      "link": "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-13T15:46:34.513887Z"
+    },
+    {
+      "id": "894e7605b592bc767380e29a88f1ec49",
+      "title": "Oil Surges With No Hormuz Deal in Sight - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxOT0Eza0pRZU5EUEZRdGlNUkJBRE45NllJa0VCXzc3YVI2UVVaYnB0YjZsZUtub01jMk0zNXo0UWQ0dUVEQjRlZnZKYnVadE9fZkdUZkg4OHJfcVlVVDJPdGh3eDZJa1Fjdm9vT2Foc0s2ZjNDdjlnejVVa3RfcjQwU1g4Unp6ZzdUQ2ZnWXRCdw?oc=5\" target=\"_blank\">Oil Surges With No Hormuz Deal in Sight</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOT0Eza0pRZU5EUEZRdGlNUkJBRE45NllJa0VCXzc3YVI2UVVaYnB0YjZsZUtub01jMk0zNXo0UWQ0dUVEQjRlZnZKYnVadE9fZkdUZkg4OHJfcVlVVDJPdGh3eDZJa1Fjdm9vT2Foc0s2ZjNDdjlnejVVa3RfcjQwU1g4Unp6ZzdUQ2ZnWXRCdw?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-13T15:47:07.736398Z"
+    },
+    {
+      "id": "0f2a3ad893edec298602ea559d2cada0",
+      "title": "Autonomy Offshore: Uncrewed Systems Move from Trials to Critical Operations",
+      "summary": "When maritime autonomy is discussed, the image is often a large cargo ship crossing an ocean without a crew. That remains a longer-term regulatory and technical challenge. The more immediate commercial market is developing elsewhere \u2013 smaller\u2026",
+      "link": "https://www.marinelink.com/news/autonomy-offshore-uncrewed-systems-move-542080",
+      "source": "MarineLink",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
       "regions": [],
       "assets": [
         "AI"
@@ -36,94 +235,248 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-13T15:41:32.341973Z"
+      "published": "2026-08-13T15:47:02.274454Z"
     },
     {
-      "id": "a3c4607d3378f53743fdce35167575ea",
-      "title": "Ballast Water Tech: ERMA FIRST\u2019s Portfolio for Shipping's Next Chapter",
-      "summary": "As the ballast water treatment market matures, ERMA FIRST is betting that the future belongs not to a single technology, but to engineering flexibility, lifecycle support and operational excellence.There was a time, not all that long ago, when\u2026",
-      "link": "https://www.marinelink.com/news/ballast-water-tech-erma-firsts-portfolio-542079",
-      "source": "MarineLink",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-13T15:42:03.700929Z"
-    },
-    {
-      "id": "d584486e8c6ec2b0eac522771215624f",
-      "title": "US Stock Futures Rise as Tech Rally Resumes Before Key CPI Data - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQTFBHX0cweC01ZEJkTEdBVEpRdTlTT1JTdWlpTXM5NHA1UEY1X0NReWtZU2otQzFLLTYwOW9QWXNRMV8xN3NVazhmc2ZsTVZGbTRJVm9sMmNXbkh0UkhORGZpWWQ0THRfX1JaTmdsNnNya1RBSGdfQ3Q1V0NReGpIdko2UGhqUGJ3NzNXdE95WTVjZGRHMk9ibzVvclJiNmFRQ2U3dE9ZcFlDRTg5MXB3dFJRN20?oc=5\" target=\"_blank\">US Stock Futures Rise as Tech Rally Resumes Before Key CPI Data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTFBHX0cweC01ZEJkTEdBVEpRdTlTT1JTdWlpTXM5NHA1UEY1X0NReWtZU2otQzFLLTYwOW9QWXNRMV8xN3NVazhmc2ZsTVZGbTRJVm9sMmNXbkh0UkhORGZpWWQ0THRfX1JaTmdsNnNya1RBSGdfQ3Q1V0NReGpIdko2UGhqUGJ3NzNXdE95WTVjZGRHMk9ibzVvclJiNmFRQ2U3dE9ZcFlDRTg5MXB3dFJRN20?oc=5",
+      "id": "c792c0bbe029f70da9fd9fe66b527fb3",
+      "title": "CNBC Daily Open: Markets look past soaring U.S. budget deficit - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQYTZwQjRyYVRNekwwSjVucE53ZVlMeFFCMnBXVG80WkxxQ3E2X01aaFVZRUtyclNDOXE3R29kTVZrTkFrWXhoQmRENFpTWlA1MXZTVUtoZkJTT2ZqbTRoWFZhSUIxUzdldUN0dDlPWktkVW5NSGhDOUNMblRhUlpiTE5VdnRkbmhVRENOX1RSTXZlSXRqRkpRRUdsNVBJZ9IBowFBVV95cUxOTmcxM0VBbXFHRXVzVGFqX0VMNmVLUkFtWG82TzY1TXNSd1B0Zm9UOUdwcklYRHg2bHYwSnJEcFdDWE95cjFCS1BBYkZjNVA3ZXZhWjY1Y04tVXZNSzhZU1VkSy1pV3hqRDVzb2pyVWI3a3hVVVBtUUtYSlFDcDZ5eFVKTXFEVVY0OUYtM1dFa3ZUZWs0ZkoyZ2ZlVkhxMEpBdXVR?oc=5\" target=\"_blank\">CNBC Daily Open: Markets look past soaring U.S. budget deficit</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYTZwQjRyYVRNekwwSjVucE53ZVlMeFFCMnBXVG80WkxxQ3E2X01aaFVZRUtyclNDOXE3R29kTVZrTkFrWXhoQmRENFpTWlA1MXZTVUtoZkJTT2ZqbTRoWFZhSUIxUzdldUN0dDlPWktkVW5NSGhDOUNMblRhUlpiTE5VdnRkbmhVRENOX1RSTXZlSXRqRkpRRUdsNVBJZ9IBowFBVV95cUxOTmcxM0VBbXFHRXVzVGFqX0VMNmVLUkFtWG82TzY1TXNSd1B0Zm9UOUdwcklYRHg2bHYwSnJEcFdDWE95cjFCS1BBYkZjNVA3ZXZhWjY1Y04tVXZNSzhZU1VkSy1pV3hqRDVzb2pyVWI3a3hVVVBtUUtYSlFDcDZ5eFVKTXFEVVY0OUYtM1dFa3ZUZWs0ZkoyZ2ZlVkhxMEpBdXVR?oc=5",
       "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
       "tickers": [],
       "regions": [
         "UK"
       ],
-      "assets": [],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-13T15:42:07.156903Z"
-    },
-    {
-      "id": "6c3ac6e31608d572473bd25dc6d1de75",
-      "title": "Tencent to become top shareholder of Manus in unwinding of Meta deal",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/business-deals/tencent-to-become-top-shareholder-of-manus-in-unwinding-of-meta-deal",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-13T15:41:59.109227Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-13T15:47:08.480324Z"
     }
   ],
   "alerts": [
     {
-      "id": "f6ae8052e08a2a38d9e093c042f48b66",
-      "title": "Why Romantasy May Soon Be a Billion-Dollar Business",
-      "summary": "Romantasy has grown from a BookTok-driven obsession to a nearly billion-dollar business, powered by a largely female fandom scooping up special editions, merchandise, event tickets, audiobooks and more. The genre's rise is reshaping publishing and drawing retailers, creators and now Hollywood into one of the book industry\u2019s most powerful new markets. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-12/why-romantasy-may-soon-be-a-billion-dollar-business",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "00ea95695a83ad0ffc442f9411241668",
+      "title": "Oil prices fall as investors weigh falling demand against Middle East tensions",
+      "summary": "Oil futures retreated early Wednesday morning after prices rose overnight.",
+      "link": "https://www.cnbc.com/2026/08/13/oil-spill-near-oman-worries-over-supply-.html",
+      "source": "CNBC",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-13T15:46:33.954923Z"
+    },
+    {
+      "id": "060917bc73bfa966b3724ede5e753a4e",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-13T15:46:34.314680Z"
+    },
+    {
+      "id": "ac3bc2448b7ea58933f9150ce16ed7b6",
+      "title": "Israeli settlers besiege Palestinian homes",
+      "summary": "Incident in occupied West Bank is part of a broader campaign to push Palestinians off land",
+      "link": "https://www.ft.com/content/e7aee58f-a068-468d-b584-49807b413016?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-13T15:46:32.951628Z"
+    },
+    {
+      "id": "73b787cca28dc9b6f8d07307e93c646d",
+      "title": "Retail parks are the real threat to the British high street",
+      "summary": "Outdoor commercial complexes are hot property, with supermarkets, stores and discount chains elbowing for room",
+      "link": "https://www.ft.com/content/36ec3c60-43b4-4c94-9a7b-8b5dba798ee8",
+      "source": "Financial Times",
+      "score": 12,
       "severity": "MEDIUM",
       "regime": "AI",
-      "tickers": [
-        "DXY"
+      "tickers": [],
+      "regions": [
+        "UK"
       ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-13T15:46:32.951586Z"
+    },
+    {
+      "id": "8d9fa72889fbc3b5806c3193ef036512",
+      "title": "Daily News 13 / 08 / 2026",
+      "summary": "European Commission Daily news Brussels, 13 Aug 2026 EU steps up humanitarian aid for Myanmar by \u20ac10.5 million as conflict claims more than 100,000 lives \nThe European Union is providing an additional \u20ac10.5 millio...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1734",
+      "source": "European Commission",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-13T15:46:54.362772Z"
+    },
+    {
+      "id": "c8fd31ad71d02648e33b758ac11ad599",
+      "title": "Cook, Outlook for the U.S. and Alaskan Economies",
+      "summary": "Speech At the 2026 Economic Luncheon of the Anchorage Economic Development Corporation, Anchorage, Alaska",
+      "link": "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-13T15:46:34.513887Z"
+    },
+    {
+      "id": "894e7605b592bc767380e29a88f1ec49",
+      "title": "Oil Surges With No Hormuz Deal in Sight - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxOT0Eza0pRZU5EUEZRdGlNUkJBRE45NllJa0VCXzc3YVI2UVVaYnB0YjZsZUtub01jMk0zNXo0UWQ0dUVEQjRlZnZKYnVadE9fZkdUZkg4OHJfcVlVVDJPdGh3eDZJa1Fjdm9vT2Foc0s2ZjNDdjlnejVVa3RfcjQwU1g4Unp6ZzdUQ2ZnWXRCdw?oc=5\" target=\"_blank\">Oil Surges With No Hormuz Deal in Sight</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOT0Eza0pRZU5EUEZRdGlNUkJBRE45NllJa0VCXzc3YVI2UVVaYnB0YjZsZUtub01jMk0zNXo0UWQ0dUVEQjRlZnZKYnVadE9fZkdUZkg4OHJfcVlVVDJPdGh3eDZJa1Fjdm9vT2Foc0s2ZjNDdjlnejVVa3RfcjQwU1g4Unp6ZzdUQ2ZnWXRCdw?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-13T15:47:07.736398Z"
+    },
+    {
+      "id": "0f2a3ad893edec298602ea559d2cada0",
+      "title": "Autonomy Offshore: Uncrewed Systems Move from Trials to Critical Operations",
+      "summary": "When maritime autonomy is discussed, the image is often a large cargo ship crossing an ocean without a crew. That remains a longer-term regulatory and technical challenge. The more immediate commercial market is developing elsewhere \u2013 smaller\u2026",
+      "link": "https://www.marinelink.com/news/autonomy-offshore-uncrewed-systems-move-542080",
+      "source": "MarineLink",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
       "regions": [],
       "assets": [
         "AI"
@@ -137,79 +490,34 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-13T15:41:32.341973Z"
+      "published": "2026-08-13T15:47:02.274454Z"
     },
     {
-      "id": "a3c4607d3378f53743fdce35167575ea",
-      "title": "Ballast Water Tech: ERMA FIRST\u2019s Portfolio for Shipping's Next Chapter",
-      "summary": "As the ballast water treatment market matures, ERMA FIRST is betting that the future belongs not to a single technology, but to engineering flexibility, lifecycle support and operational excellence.There was a time, not all that long ago, when\u2026",
-      "link": "https://www.marinelink.com/news/ballast-water-tech-erma-firsts-portfolio-542079",
-      "source": "MarineLink",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-13T15:42:03.700929Z"
-    },
-    {
-      "id": "d584486e8c6ec2b0eac522771215624f",
-      "title": "US Stock Futures Rise as Tech Rally Resumes Before Key CPI Data - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQTFBHX0cweC01ZEJkTEdBVEpRdTlTT1JTdWlpTXM5NHA1UEY1X0NReWtZU2otQzFLLTYwOW9QWXNRMV8xN3NVazhmc2ZsTVZGbTRJVm9sMmNXbkh0UkhORGZpWWQ0THRfX1JaTmdsNnNya1RBSGdfQ3Q1V0NReGpIdko2UGhqUGJ3NzNXdE95WTVjZGRHMk9ibzVvclJiNmFRQ2U3dE9ZcFlDRTg5MXB3dFJRN20?oc=5\" target=\"_blank\">US Stock Futures Rise as Tech Rally Resumes Before Key CPI Data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTFBHX0cweC01ZEJkTEdBVEpRdTlTT1JTdWlpTXM5NHA1UEY1X0NReWtZU2otQzFLLTYwOW9QWXNRMV8xN3NVazhmc2ZsTVZGbTRJVm9sMmNXbkh0UkhORGZpWWQ0THRfX1JaTmdsNnNya1RBSGdfQ3Q1V0NReGpIdko2UGhqUGJ3NzNXdE95WTVjZGRHMk9ibzVvclJiNmFRQ2U3dE9ZcFlDRTg5MXB3dFJRN20?oc=5",
+      "id": "c792c0bbe029f70da9fd9fe66b527fb3",
+      "title": "CNBC Daily Open: Markets look past soaring U.S. budget deficit - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQYTZwQjRyYVRNekwwSjVucE53ZVlMeFFCMnBXVG80WkxxQ3E2X01aaFVZRUtyclNDOXE3R29kTVZrTkFrWXhoQmRENFpTWlA1MXZTVUtoZkJTT2ZqbTRoWFZhSUIxUzdldUN0dDlPWktkVW5NSGhDOUNMblRhUlpiTE5VdnRkbmhVRENOX1RSTXZlSXRqRkpRRUdsNVBJZ9IBowFBVV95cUxOTmcxM0VBbXFHRXVzVGFqX0VMNmVLUkFtWG82TzY1TXNSd1B0Zm9UOUdwcklYRHg2bHYwSnJEcFdDWE95cjFCS1BBYkZjNVA3ZXZhWjY1Y04tVXZNSzhZU1VkSy1pV3hqRDVzb2pyVWI3a3hVVVBtUUtYSlFDcDZ5eFVKTXFEVVY0OUYtM1dFa3ZUZWs0ZkoyZ2ZlVkhxMEpBdXVR?oc=5\" target=\"_blank\">CNBC Daily Open: Markets look past soaring U.S. budget deficit</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYTZwQjRyYVRNekwwSjVucE53ZVlMeFFCMnBXVG80WkxxQ3E2X01aaFVZRUtyclNDOXE3R29kTVZrTkFrWXhoQmRENFpTWlA1MXZTVUtoZkJTT2ZqbTRoWFZhSUIxUzdldUN0dDlPWktkVW5NSGhDOUNMblRhUlpiTE5VdnRkbmhVRENOX1RSTXZlSXRqRkpRRUdsNVBJZ9IBowFBVV95cUxOTmcxM0VBbXFHRXVzVGFqX0VMNmVLUkFtWG82TzY1TXNSd1B0Zm9UOUdwcklYRHg2bHYwSnJEcFdDWE95cjFCS1BBYkZjNVA3ZXZhWjY1Y04tVXZNSzhZU1VkSy1pV3hqRDVzb2pyVWI3a3hVVVBtUUtYSlFDcDZ5eFVKTXFEVVY0OUYtM1dFa3ZUZWs0ZkoyZ2ZlVkhxMEpBdXVR?oc=5",
       "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
       "tickers": [],
       "regions": [
         "UK"
       ],
-      "assets": [],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-13T15:42:07.156903Z"
-    },
-    {
-      "id": "6c3ac6e31608d572473bd25dc6d1de75",
-      "title": "Tencent to become top shareholder of Manus in unwinding of Meta deal",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/business-deals/tencent-to-become-top-shareholder-of-manus-in-unwinding-of-meta-deal",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-13T15:41:59.109227Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-13T15:47:08.480324Z"
     }
   ]
 }
