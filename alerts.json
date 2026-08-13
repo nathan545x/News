@@ -1,59 +1,89 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-13T21:17:02.640112Z",
+  "generated_at": "2026-08-13T21:21:55.521834Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-08-13T21:17:02.640121Z"
+    "high_alerts": 4,
+    "last_updated": "2026-08-13T21:21:55.521854Z"
   },
   "top_signals": [
     {
-      "id": "a8ad0e840f4fdcfa8722b12cd9c0026e",
-      "title": "Gold Declines as Sliding Inflation Reinforces Fed Hold Bets",
-      "summary": "Gold fell below $4,400 an ounce as signs of easing inflation bolstered expectations that the US Federal Reserve will hold interest rates steady next month.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-12/gold-steadies-after-tame-us-inflation-data-eases-rate-hike-bets",
-      "source": "Bloomberg",
-      "score": 28,
+      "id": "20f5da3db59cc4c846dd2188a8497f20",
+      "title": "Guidance: OFSI General licence INT/2025/5635700",
+      "summary": "Details for OFSI General licence INT/2025/5635700, Russian Oil Exempt Projects",
+      "link": "https://www.gov.uk/government/publications/ofsi-general-licence-int20255635700",
+      "source": "HM Treasury",
+      "score": 29,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "COMMODITIES",
       "tickers": [
-        "XAU"
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "RUSSIA"
+      ],
       "assets": [
+        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "COMMODITIES"
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-13T21:16:23.993928Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-13T21:21:45.153561Z"
     },
     {
-      "id": "c594dc41f56e979c16f58144c7c16db0",
-      "title": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash",
-      "summary": "Authorities in Ukraine shut down 94 fraudulent call centers across the country that lured people into investment scams or tried to obtain access to bank accounts. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
-      "source": "BleepingComputer",
-      "score": 13,
-      "severity": "MEDIUM",
+      "id": "fadaa5db272355cbc3b52657eb9c0a48",
+      "title": "Lockheed Martin launches modular missile tech with dedicated \u2018storefront\u2019",
+      "summary": "Lockheed Martin on Monday announced the launch of Strigo, a new line of modular missile and sensor hardware.",
+      "link": "https://www.defensenews.com/news/your-military/2026/08/11/lockheed-martin-launches-modular-missile-tech-with-dedicated-storefront/",
+      "source": "Defense News",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-13T21:21:51.112119Z"
+    },
+    {
+      "id": "252d838913f4951e028764e570d97024",
+      "title": "Flight-tracking data shows continued Russian air bridge to sub-Saharan Africa",
+      "summary": "A recent report from the Center for Advanced Defense Studies found that Russian state-aligned military forces flew at least 75 flights in Central Sahel.",
+      "link": "https://www.defensenews.com/global/europe/2026/08/13/flight-tracking-data-shows-continued-russian-air-bridge-to-sub-saharan-africa/",
+      "source": "Defense News",
+      "score": 23,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "UK",
-        "UKRAINE"
+        "RUSSIA"
       ],
       "assets": [
         "AI"
@@ -72,178 +102,289 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-13T21:16:59.151971Z"
+      "published": "2026-08-13T21:21:51.111904Z"
     },
     {
-      "id": "6aae724ddee6b57b67aa0ce713bce19c",
-      "title": "Oil prices fall after U.S. says crude exports through Strait of Hormuz near 9 million barrels per day - cnbc.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxOOFI0cXFMb3l3bVlpYkJNcFdCc2Z0S0poWEJ0akJvWUo4bjVLQjg0d1VLeWRtZlZHeWhFdDd6aVVteDRyQlkyTS1YVUx3UVduWU4wVHhidlpwR2lpanQzQlRud2tjcS1TZklfX2JfaFIzRVF0bzJoVE5MLTNHZHRRMl9YVdIBiAFBVV95cUxQZXNpOFlnOTlFRGZtUm5ucU53LWRpSVFkaExSa0dPS1phNER0cTRKQkYzMkNCRl9teHlTcGxLM3NadmtVdVlEakx1M0JmZU9HMlAzYnBnak1lWDZWcVNhaG1RakpiWUhLNTIyV2YxUnNXcS1wZnhzN08yRWp1Q0tHNXhiaUVVcnVS?oc=5\" target=\"_blank\">Oil prices fall after U.S. says crude exports through Strait of Hormuz near 9 million barrels per day</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cnbc.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOFI0cXFMb3l3bVlpYkJNcFdCc2Z0S0poWEJ0akJvWUo4bjVLQjg0d1VLeWRtZlZHeWhFdDd6aVVteDRyQlkyTS1YVUx3UVduWU4wVHhidlpwR2lpanQzQlRud2tjcS1TZklfX2JfaFIzRVF0bzJoVE5MLTNHZHRRMl9YVdIBiAFBVV95cUxQZXNpOFlnOTlFRGZtUm5ucU53LWRpSVFkaExSa0dPS1phNER0cTRKQkYzMkNCRl9teHlTcGxLM3NadmtVdVlEakx1M0JmZU9HMlAzYnBnak1lWDZWcVNhaG1RakpiWUhLNTIyV2YxUnNXcS1wZnhzN08yRWp1Q0tHNXhiaUVVcnVS?oc=5",
-      "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
+      "id": "5bcc211571a6c789c6a446fbb2c02115",
+      "title": "Trezor discloses data breach affecting nearly 14,000 customers",
+      "summary": "Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping and logistics provider, was hacked [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
+      "source": "BleepingComputer",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
       "regions": [],
       "assets": [
-        "AI",
-        "COMMODITIES"
+        "SHIPPING"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-13T21:17:02.640106Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-13T21:21:52.325803Z"
     },
     {
-      "id": "20276fd3d8fea455dd876f9f7c2dce87",
-      "title": "Gemini shares slide after $108 million loss as Winklevoss says \u2018we still have work to do\u2019",
-      "summary": "Gemini\u2019s prediction market volume nearly doubled as the exchange continued expanding beyond crypto trading.",
-      "link": "https://www.theblock.co/news/business/2026-08-13-gemini-shares-slide-108-million-loss-winklevoss-says-we-still-have-work-to-do-411775",
-      "source": "The Block",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "CRYPTO",
+      "id": "159909f65346c98531118c63862e9170",
+      "title": "ECB publishes consolidated banking data for end-March 2026",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260807~58eb5109ce.en.html",
+      "source": "ECB",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "USD"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-08-13T21:16:58.990297Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-13T21:21:39.165131Z"
     },
     {
-      "id": "72bf48fef692acd90a2f414440bd4d9a",
-      "title": "These charts show why stocks keep rallying. Profit margins are the highest on record - cnbc.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOY3NUYlVqelp1V3FoWUlCUlQ1R2R6S0ZfbTV5bzFSNE44RDAxWTNqX2pkQ1h4WXM4ZVBmWGdMWWlFdUlqV2FUeXVLOUhSWngyTmZ3SkFDb1ZDR1laMHV6YjRxOTJuWUlCUXVyREJkeFNpS0RuSW8wZl9LMEQ2OWhyWjAzSmtvYW9OUTFzX3hzaGZYdno4bUJHQ1RwV2RoS01Pc3lWVnRwZHh3WGtXXzVHdDEyUjNRSEXSAbwBQVVfeXFMTkZTb01XTEVhOGRVd3FzWUE5QnRGYVpjLXlTWmE4WE5fbUxYeC1jQ1JoYTlPQWl1b05WV3ZTQXVGMUF5dW5nR1JKZGJqVzlvenNoMlBDSDRwcTg3OHR6QXV6SzlzTGlIeTFtYUNmWldJUzhHYzh2VmR6Vkw5N0VBN0ZNbkNSRDU5eml6b3VsX0pQMTB5aGdvYWplNTJaM2JZSkJzNEVKd2NQeEVZWkVDUXR2T3dkNGhiMDFiaDk?oc=5\" target=\"_blank\">These charts show why stocks keep rallying. Profit margins are the highest on record</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cnbc.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOY3NUYlVqelp1V3FoWUlCUlQ1R2R6S0ZfbTV5bzFSNE44RDAxWTNqX2pkQ1h4WXM4ZVBmWGdMWWlFdUlqV2FUeXVLOUhSWngyTmZ3SkFDb1ZDR1laMHV6YjRxOTJuWUlCUXVyREJkeFNpS0RuSW8wZl9LMEQ2OWhyWjAzSmtvYW9OUTFzX3hzaGZYdno4bUJHQ1RwV2RoS01Pc3lWVnRwZHh3WGtXXzVHdDEyUjNRSEXSAbwBQVVfeXFMTkZTb01XTEVhOGRVd3FzWUE5QnRGYVpjLXlTWmE4WE5fbUxYeC1jQ1JoYTlPQWl1b05WV3ZTQXVGMUF5dW5nR1JKZGJqVzlvenNoMlBDSDRwcTg3OHR6QXV6SzlzTGlIeTFtYUNmWldJUzhHYzh2VmR6Vkw5N0VBN0ZNbkNSRDU5eml6b3VsX0pQMTB5aGdvYWplNTJaM2JZSkJzNEVKd2NQeEVZWkVDUXR2T3dkNGhiMDFiaDk?oc=5",
-      "source": "Google Macro",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "CRYPTO",
+      "id": "672acf6338246753e05e48c17921ee66",
+      "title": "The role of research in Prudential Regulation \u2212 speech by David Bailey",
+      "summary": "Given at IFABS 2026 London",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/david-bailey-speech-at-the-international-finance-and-banking-society-conference",
+      "source": "Bank of England",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "USD"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-08-13T21:17:02.639866Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-13T21:21:43.838288Z"
     },
     {
-      "id": "b1afba63ed3764e9dfeff107457bd4f3",
-      "title": "Stocks making the biggest moves midday: Netflix, Super Micro Computer, Sandisk, StubHub & more - cnbc.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOWGp0eU5xOWU2QVI0a3YyTGpTZXFMcThoZUFLbjBBQmpTSnJGX3NYeWlqcDJxQWY2bmlRTFo0eEN5Vi1XNzYwMWhyMGNuR1JRbTZqWktnN1h0UUszc3dhQzVBYk5zMW5KWVE4alJWZkJYUWZzZk43YV9kS29Xb3JERWw3TXQtbjlLOGZHMGI4TlRhVGdEMmxMNjlQdw?oc=5\" target=\"_blank\">Stocks making the biggest moves midday: Netflix, Super Micro Computer, Sandisk, StubHub & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cnbc.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWGp0eU5xOWU2QVI0a3YyTGpTZXFMcThoZUFLbjBBQmpTSnJGX3NYeWlqcDJxQWY2bmlRTFo0eEN5Vi1XNzYwMWhyMGNuR1JRbTZqWktnN1h0UUszc3dhQzVBYk5zMW5KWVE4alJWZkJYUWZzZk43YV9kS29Xb3JERWw3TXQtbjlLOGZHMGI4TlRhVGdEMmxMNjlQdw?oc=5",
-      "source": "Google Macro",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "CRYPTO",
+      "id": "68299a78ce511f22f2e4f747ec10ddfe",
+      "title": "20 people injured in UK train derailment",
+      "summary": "Three carriages on the Southern Rail service are flipped on to their side",
+      "link": "https://www.ft.com/content/3b67ce5d-3f1a-41a8-8d87-7356876ede14?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "USD"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-08-13T21:17:02.640002Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-13T21:21:27.816742Z"
     },
     {
-      "id": "85b8fd4bdc427b1454a65d27ee5aac70",
-      "title": "The bond market is signaling trouble ahead for stocks - cnbc.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxObVVTTVBITTlHYWxiOWlxYmZmcXlsc2tkSDFYVldkNHZObDJkSXVvRWRRZVJRT0xUTUZtMzlQZUFLUS1EdHc0anVFdmRMZGlqLVBUTjBRdXVScjRJdXBWdlhkLUtlTGo1WlctWjhDU195SmtpemVSMGNjbUFoVlU1ZnFaamw1Nk1Jdjk1YlpIRXo3Zmlm?oc=5\" target=\"_blank\">The bond market is signaling trouble ahead for stocks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cnbc.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObVVTTVBITTlHYWxiOWlxYmZmcXlsc2tkSDFYVldkNHZObDJkSXVvRWRRZVJRT0xUTUZtMzlQZUFLUS1EdHc0anVFdmRMZGlqLVBUTjBRdXVScjRJdXBWdlhkLUtlTGo1WlctWjhDU195SmtpemVSMGNjbUFoVlU1ZnFaamw1Nk1Jdjk1YlpIRXo3Zmlm?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
+      "id": "3edf31d00fdc40239f1d2acd815e36c7",
+      "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "EQUITIES"
-      ],
+      "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-13T21:17:02.639936Z"
+      "published": "2026-08-13T21:21:28.877021Z"
+    },
+    {
+      "id": "f0c21d1ab25141c7696fa18d1c4df9ee",
+      "title": "It\u2019s all about the role of money - speech by Nathana\u00ebl Benjamin",
+      "summary": "Given at OMFIF Economic and Monetary Policy Institute",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/nathanael-benjamin-speech-at-omfif",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-13T21:21:43.838237Z"
+    },
+    {
+      "id": "54ca4e3432dc8a2c0043751e5f083692",
+      "title": "Testing times require time for testing \u2212 speech by Ruth Smith",
+      "summary": "Given at UK Finance",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/ruth-smith-speech-at-uk-finance",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-13T21:21:43.838332Z"
+    },
+    {
+      "id": "ffb5e89e0ffc57dfabceba9f519bd8fd",
+      "title": "Corporate report: Whole of Government Accounts 2025 to 2026: guidance for preparers",
+      "summary": "Guidance for central government and local government preparers for Whole of Government Accounts.",
+      "link": "https://www.gov.uk/government/publications/whole-of-government-accounts-2025-to-2026-guidance-for-preparers",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-13T21:21:45.153510Z"
+    },
+    {
+      "id": "0b2d432adb1d55e717180c235408d11f",
+      "title": "Iran says no progress on reviving interim peace deal with US - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOel9GN09UcjUyQ2FnMF90ZWhiaFFEazlXcDM1aDZLbExtREZQLXFmOFgtTU92YWZxM19udFlOTkNHRjM1aFl1Qk0xcDhTSTB1ZnR0YnBxSW9xLXhRTHRoeXFtbW9nSy1IeGIzQkVOelJrNlRHQUg2dUJPZVM3T085QTFpbmtCT3JzQ29FNlV5bjhrUGdaSG1kRy1VUWR3dmxiU2RsZC0tMDdWNW56ZHFpTWVB?oc=5\" target=\"_blank\">Iran says no progress on reviving interim peace deal with US</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOel9GN09UcjUyQ2FnMF90ZWhiaFFEazlXcDM1aDZLbExtREZQLXFmOFgtTU92YWZxM19udFlOTkNHRjM1aFl1Qk0xcDhTSTB1ZnR0YnBxSW9xLXhRTHRoeXFtbW9nSy1IeGIzQkVOelJrNlRHQUg2dUJPZVM3T085QTFpbmtCT3JzQ29FNlV5bjhrUGdaSG1kRy1VUWR3dmxiU2RsZC0tMDdWNW56ZHFpTWVB?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-13T21:21:53.823159Z"
     }
   ],
   "alerts": [
     {
-      "id": "a8ad0e840f4fdcfa8722b12cd9c0026e",
-      "title": "Gold Declines as Sliding Inflation Reinforces Fed Hold Bets",
-      "summary": "Gold fell below $4,400 an ounce as signs of easing inflation bolstered expectations that the US Federal Reserve will hold interest rates steady next month.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-12/gold-steadies-after-tame-us-inflation-data-eases-rate-hike-bets",
-      "source": "Bloomberg",
-      "score": 28,
+      "id": "20f5da3db59cc4c846dd2188a8497f20",
+      "title": "Guidance: OFSI General licence INT/2025/5635700",
+      "summary": "Details for OFSI General licence INT/2025/5635700, Russian Oil Exempt Projects",
+      "link": "https://www.gov.uk/government/publications/ofsi-general-licence-int20255635700",
+      "source": "HM Treasury",
+      "score": 29,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "COMMODITIES",
       "tickers": [
-        "XAU"
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "RUSSIA"
+      ],
       "assets": [
+        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "COMMODITIES"
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-13T21:16:23.993928Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-13T21:21:45.153561Z"
     },
     {
-      "id": "c594dc41f56e979c16f58144c7c16db0",
-      "title": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash",
-      "summary": "Authorities in Ukraine shut down 94 fraudulent call centers across the country that lured people into investment scams or tried to obtain access to bank accounts. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
-      "source": "BleepingComputer",
-      "score": 13,
-      "severity": "MEDIUM",
+      "id": "fadaa5db272355cbc3b52657eb9c0a48",
+      "title": "Lockheed Martin launches modular missile tech with dedicated \u2018storefront\u2019",
+      "summary": "Lockheed Martin on Monday announced the launch of Strigo, a new line of modular missile and sensor hardware.",
+      "link": "https://www.defensenews.com/news/your-military/2026/08/11/lockheed-martin-launches-modular-missile-tech-with-dedicated-storefront/",
+      "source": "Defense News",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-13T21:21:51.112119Z"
+    },
+    {
+      "id": "252d838913f4951e028764e570d97024",
+      "title": "Flight-tracking data shows continued Russian air bridge to sub-Saharan Africa",
+      "summary": "A recent report from the Center for Advanced Defense Studies found that Russian state-aligned military forces flew at least 75 flights in Central Sahel.",
+      "link": "https://www.defensenews.com/global/europe/2026/08/13/flight-tracking-data-shows-continued-russian-air-bridge-to-sub-saharan-africa/",
+      "source": "Defense News",
+      "score": 23,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "UK",
-        "UKRAINE"
+        "RUSSIA"
       ],
       "assets": [
         "AI"
@@ -262,132 +403,306 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-13T21:16:59.151971Z"
+      "published": "2026-08-13T21:21:51.111904Z"
     },
     {
-      "id": "6aae724ddee6b57b67aa0ce713bce19c",
-      "title": "Oil prices fall after U.S. says crude exports through Strait of Hormuz near 9 million barrels per day - cnbc.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxOOFI0cXFMb3l3bVlpYkJNcFdCc2Z0S0poWEJ0akJvWUo4bjVLQjg0d1VLeWRtZlZHeWhFdDd6aVVteDRyQlkyTS1YVUx3UVduWU4wVHhidlpwR2lpanQzQlRud2tjcS1TZklfX2JfaFIzRVF0bzJoVE5MLTNHZHRRMl9YVdIBiAFBVV95cUxQZXNpOFlnOTlFRGZtUm5ucU53LWRpSVFkaExSa0dPS1phNER0cTRKQkYzMkNCRl9teHlTcGxLM3NadmtVdVlEakx1M0JmZU9HMlAzYnBnak1lWDZWcVNhaG1RakpiWUhLNTIyV2YxUnNXcS1wZnhzN08yRWp1Q0tHNXhiaUVVcnVS?oc=5\" target=\"_blank\">Oil prices fall after U.S. says crude exports through Strait of Hormuz near 9 million barrels per day</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cnbc.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOFI0cXFMb3l3bVlpYkJNcFdCc2Z0S0poWEJ0akJvWUo4bjVLQjg0d1VLeWRtZlZHeWhFdDd6aVVteDRyQlkyTS1YVUx3UVduWU4wVHhidlpwR2lpanQzQlRud2tjcS1TZklfX2JfaFIzRVF0bzJoVE5MLTNHZHRRMl9YVdIBiAFBVV95cUxQZXNpOFlnOTlFRGZtUm5ucU53LWRpSVFkaExSa0dPS1phNER0cTRKQkYzMkNCRl9teHlTcGxLM3NadmtVdVlEakx1M0JmZU9HMlAzYnBnak1lWDZWcVNhaG1RakpiWUhLNTIyV2YxUnNXcS1wZnhzN08yRWp1Q0tHNXhiaUVVcnVS?oc=5",
-      "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
+      "id": "5bcc211571a6c789c6a446fbb2c02115",
+      "title": "Trezor discloses data breach affecting nearly 14,000 customers",
+      "summary": "Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping and logistics provider, was hacked [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
+      "source": "BleepingComputer",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
       "regions": [],
       "assets": [
-        "AI",
-        "COMMODITIES"
+        "SHIPPING"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-13T21:17:02.640106Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-13T21:21:52.325803Z"
     },
     {
-      "id": "20276fd3d8fea455dd876f9f7c2dce87",
-      "title": "Gemini shares slide after $108 million loss as Winklevoss says \u2018we still have work to do\u2019",
-      "summary": "Gemini\u2019s prediction market volume nearly doubled as the exchange continued expanding beyond crypto trading.",
-      "link": "https://www.theblock.co/news/business/2026-08-13-gemini-shares-slide-108-million-loss-winklevoss-says-we-still-have-work-to-do-411775",
-      "source": "The Block",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "CRYPTO",
+      "id": "159909f65346c98531118c63862e9170",
+      "title": "ECB publishes consolidated banking data for end-March 2026",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260807~58eb5109ce.en.html",
+      "source": "ECB",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "USD"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-08-13T21:16:58.990297Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-13T21:21:39.165131Z"
     },
     {
-      "id": "72bf48fef692acd90a2f414440bd4d9a",
-      "title": "These charts show why stocks keep rallying. Profit margins are the highest on record - cnbc.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOY3NUYlVqelp1V3FoWUlCUlQ1R2R6S0ZfbTV5bzFSNE44RDAxWTNqX2pkQ1h4WXM4ZVBmWGdMWWlFdUlqV2FUeXVLOUhSWngyTmZ3SkFDb1ZDR1laMHV6YjRxOTJuWUlCUXVyREJkeFNpS0RuSW8wZl9LMEQ2OWhyWjAzSmtvYW9OUTFzX3hzaGZYdno4bUJHQ1RwV2RoS01Pc3lWVnRwZHh3WGtXXzVHdDEyUjNRSEXSAbwBQVVfeXFMTkZTb01XTEVhOGRVd3FzWUE5QnRGYVpjLXlTWmE4WE5fbUxYeC1jQ1JoYTlPQWl1b05WV3ZTQXVGMUF5dW5nR1JKZGJqVzlvenNoMlBDSDRwcTg3OHR6QXV6SzlzTGlIeTFtYUNmWldJUzhHYzh2VmR6Vkw5N0VBN0ZNbkNSRDU5eml6b3VsX0pQMTB5aGdvYWplNTJaM2JZSkJzNEVKd2NQeEVZWkVDUXR2T3dkNGhiMDFiaDk?oc=5\" target=\"_blank\">These charts show why stocks keep rallying. Profit margins are the highest on record</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cnbc.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOY3NUYlVqelp1V3FoWUlCUlQ1R2R6S0ZfbTV5bzFSNE44RDAxWTNqX2pkQ1h4WXM4ZVBmWGdMWWlFdUlqV2FUeXVLOUhSWngyTmZ3SkFDb1ZDR1laMHV6YjRxOTJuWUlCUXVyREJkeFNpS0RuSW8wZl9LMEQ2OWhyWjAzSmtvYW9OUTFzX3hzaGZYdno4bUJHQ1RwV2RoS01Pc3lWVnRwZHh3WGtXXzVHdDEyUjNRSEXSAbwBQVVfeXFMTkZTb01XTEVhOGRVd3FzWUE5QnRGYVpjLXlTWmE4WE5fbUxYeC1jQ1JoYTlPQWl1b05WV3ZTQXVGMUF5dW5nR1JKZGJqVzlvenNoMlBDSDRwcTg3OHR6QXV6SzlzTGlIeTFtYUNmWldJUzhHYzh2VmR6Vkw5N0VBN0ZNbkNSRDU5eml6b3VsX0pQMTB5aGdvYWplNTJaM2JZSkJzNEVKd2NQeEVZWkVDUXR2T3dkNGhiMDFiaDk?oc=5",
-      "source": "Google Macro",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "CRYPTO",
+      "id": "672acf6338246753e05e48c17921ee66",
+      "title": "The role of research in Prudential Regulation \u2212 speech by David Bailey",
+      "summary": "Given at IFABS 2026 London",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/david-bailey-speech-at-the-international-finance-and-banking-society-conference",
+      "source": "Bank of England",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "USD"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-08-13T21:17:02.639866Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-13T21:21:43.838288Z"
     },
     {
-      "id": "b1afba63ed3764e9dfeff107457bd4f3",
-      "title": "Stocks making the biggest moves midday: Netflix, Super Micro Computer, Sandisk, StubHub & more - cnbc.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOWGp0eU5xOWU2QVI0a3YyTGpTZXFMcThoZUFLbjBBQmpTSnJGX3NYeWlqcDJxQWY2bmlRTFo0eEN5Vi1XNzYwMWhyMGNuR1JRbTZqWktnN1h0UUszc3dhQzVBYk5zMW5KWVE4alJWZkJYUWZzZk43YV9kS29Xb3JERWw3TXQtbjlLOGZHMGI4TlRhVGdEMmxMNjlQdw?oc=5\" target=\"_blank\">Stocks making the biggest moves midday: Netflix, Super Micro Computer, Sandisk, StubHub & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cnbc.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWGp0eU5xOWU2QVI0a3YyTGpTZXFMcThoZUFLbjBBQmpTSnJGX3NYeWlqcDJxQWY2bmlRTFo0eEN5Vi1XNzYwMWhyMGNuR1JRbTZqWktnN1h0UUszc3dhQzVBYk5zMW5KWVE4alJWZkJYUWZzZk43YV9kS29Xb3JERWw3TXQtbjlLOGZHMGI4TlRhVGdEMmxMNjlQdw?oc=5",
-      "source": "Google Macro",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "CRYPTO",
+      "id": "68299a78ce511f22f2e4f747ec10ddfe",
+      "title": "20 people injured in UK train derailment",
+      "summary": "Three carriages on the Southern Rail service are flipped on to their side",
+      "link": "https://www.ft.com/content/3b67ce5d-3f1a-41a8-8d87-7356876ede14?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "USD"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-08-13T21:17:02.640002Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-13T21:21:27.816742Z"
     },
     {
-      "id": "85b8fd4bdc427b1454a65d27ee5aac70",
-      "title": "The bond market is signaling trouble ahead for stocks - cnbc.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxObVVTTVBITTlHYWxiOWlxYmZmcXlsc2tkSDFYVldkNHZObDJkSXVvRWRRZVJRT0xUTUZtMzlQZUFLUS1EdHc0anVFdmRMZGlqLVBUTjBRdXVScjRJdXBWdlhkLUtlTGo1WlctWjhDU195SmtpemVSMGNjbUFoVlU1ZnFaamw1Nk1Jdjk1YlpIRXo3Zmlm?oc=5\" target=\"_blank\">The bond market is signaling trouble ahead for stocks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cnbc.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObVVTTVBITTlHYWxiOWlxYmZmcXlsc2tkSDFYVldkNHZObDJkSXVvRWRRZVJRT0xUTUZtMzlQZUFLUS1EdHc0anVFdmRMZGlqLVBUTjBRdXVScjRJdXBWdlhkLUtlTGo1WlctWjhDU195SmtpemVSMGNjbUFoVlU1ZnFaamw1Nk1Jdjk1YlpIRXo3Zmlm?oc=5",
+      "id": "3edf31d00fdc40239f1d2acd815e36c7",
+      "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-13T21:21:28.877021Z"
+    },
+    {
+      "id": "f0c21d1ab25141c7696fa18d1c4df9ee",
+      "title": "It\u2019s all about the role of money - speech by Nathana\u00ebl Benjamin",
+      "summary": "Given at OMFIF Economic and Monetary Policy Institute",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/nathanael-benjamin-speech-at-omfif",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-13T21:21:43.838237Z"
+    },
+    {
+      "id": "54ca4e3432dc8a2c0043751e5f083692",
+      "title": "Testing times require time for testing \u2212 speech by Ruth Smith",
+      "summary": "Given at UK Finance",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/ruth-smith-speech-at-uk-finance",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-13T21:21:43.838332Z"
+    },
+    {
+      "id": "ffb5e89e0ffc57dfabceba9f519bd8fd",
+      "title": "Corporate report: Whole of Government Accounts 2025 to 2026: guidance for preparers",
+      "summary": "Guidance for central government and local government preparers for Whole of Government Accounts.",
+      "link": "https://www.gov.uk/government/publications/whole-of-government-accounts-2025-to-2026-guidance-for-preparers",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-13T21:21:45.153510Z"
+    },
+    {
+      "id": "0b2d432adb1d55e717180c235408d11f",
+      "title": "Iran says no progress on reviving interim peace deal with US - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOel9GN09UcjUyQ2FnMF90ZWhiaFFEazlXcDM1aDZLbExtREZQLXFmOFgtTU92YWZxM19udFlOTkNHRjM1aFl1Qk0xcDhTSTB1ZnR0YnBxSW9xLXhRTHRoeXFtbW9nSy1IeGIzQkVOelJrNlRHQUg2dUJPZVM3T085QTFpbmtCT3JzQ29FNlV5bjhrUGdaSG1kRy1VUWR3dmxiU2RsZC0tMDdWNW56ZHFpTWVB?oc=5\" target=\"_blank\">Iran says no progress on reviving interim peace deal with US</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOel9GN09UcjUyQ2FnMF90ZWhiaFFEazlXcDM1aDZLbExtREZQLXFmOFgtTU92YWZxM19udFlOTkNHRjM1aFl1Qk0xcDhTSTB1ZnR0YnBxSW9xLXhRTHRoeXFtbW9nSy1IeGIzQkVOelJrNlRHQUg2dUJPZVM3T085QTFpbmtCT3JzQ29FNlV5bjhrUGdaSG1kRy1VUWR3dmxiU2RsZC0tMDdWNW56ZHFpTWVB?oc=5",
       "source": "Google Macro",
-      "score": 1,
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-13T21:21:53.823159Z"
+    },
+    {
+      "id": "5843ad043c1390ee653d1d4b908b3715",
+      "title": "UK houses caught up in wildfires during hottest day of the year",
+      "summary": "Blazes at several locations in the West Midlands as  temperatures reach 38.1C in London",
+      "link": "https://www.ft.com/content/b293b66c-8719-4956-9e76-9468dfeaa890?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-13T21:21:27.816801Z"
+    },
+    {
+      "id": "328816b56e7578425218d33869086a76",
+      "title": "Army opens test ranges to private industry",
+      "summary": "The effort, the Army says, is designed to hasten the development and testing of drones, counter-drone systems, long-range fires and cheap interceptors.",
+      "link": "https://www.defensenews.com/news/your-military/2026/08/12/army-opens-test-ranges-to-private-industry/",
+      "source": "Defense News",
+      "score": 6,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "EQUITIES"
-      ],
+      "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-13T21:17:02.639936Z"
+      "published": "2026-08-13T21:21:51.111969Z"
+    },
+    {
+      "id": "7529e6294fd85e43e2ab8f5d51602fef",
+      "title": "Pentagon gives industry 21 days to submit plans for \u2018significantly faster\u2019 weapons production",
+      "summary": "In a recent memo, the Pentagon pushed defense companies to accelerate production and delivery of critical weapons.",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/08/11/pentagon-gives-industry-21-days-to-submit-plans-for-significantly-faster-weapons-production/",
+      "source": "Defense News",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-13T21:21:51.112066Z"
+    },
+    {
+      "id": "7e66f80cf872f0a9edf1f8f5e51ac753",
+      "title": "City of Baltimore goes after prediction markets for sports betting",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"City of Baltimore goes after prediction markets for sports betting\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/sports-fan-football.jpg\" /></p><p>The city\u2019s complaint over gambling laws and deceptive trade practices included Robinhood, Webull and Coinbase as partners with prediction market platform Kalshi. </p>",
+      "link": "https://cointelegraph.com/news/baltimore-lawsuit-prediction-markets-kalshi-polymarket-sports-betting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-13T21:21:52.160266Z"
+    },
+    {
+      "id": "16b4ab41458b246d08bdf0234e46c0e2",
+      "title": "The U.S.-Canada natural gas and electricity trade value rose in 2025",
+      "summary": "Although the total value of energy trade between the United States and Canada fell by 11% in 2025 to an estimated $137 billion, according to data from the U.S. Census Bureau, the trade value of natural gas and electricity between the two countries increased slightly primarily because of increased natural gas prices and trade volume.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=",
+      "source": "EIA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-13T21:21:49.445930Z"
     }
   ]
 }
