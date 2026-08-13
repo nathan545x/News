@@ -1,93 +1,63 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-13T02:46:56.979057Z",
+  "generated_at": "2026-08-13T02:52:09.526826Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 2,
-    "high_alerts": 2,
-    "last_updated": "2026-08-13T02:46:56.979074Z"
+    "critical_alerts": 0,
+    "high_alerts": 3,
+    "last_updated": "2026-08-13T02:52:09.526843Z"
   },
   "top_signals": [
     {
-      "id": "f592dc57de0f714b29ba40498d7303fb",
-      "title": "Asian Stocks Rise on Tech, Rate-Hike Bets Ease: Markets Wrap",
-      "summary": "Asian stocks rose as technology shares rallied and a subdued US inflation report eased concerns about an imminent interest-rate hike by the Federal Reserve. Brent snapped a six-day rally.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-12/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 30,
-      "severity": "CRITICAL",
-      "regime": "RATES",
+      "id": "cfd6e18bad4b07714a992904898aa79f",
+      "title": "Goldman Sachs to acquire ETF manager NEOS in $2.25B deal",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Goldman Sachs to acquire ETF manager NEOS in $2.25B deal \" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-goldman-sachs-and-crypto-recap.png\" /></p><p>The deal would add NEOS\u2019 $30 billion ETF business, including Bitcoin- and Ether-linked income funds, to Goldman Sachs Asset Management.\n</p>",
+      "link": "https://cointelegraph.com/news/goldman-sachs-to-acquire-etf-manager-neos-225b-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
       "tickers": [
-        "BRENT"
+        "BTC",
+        "XAU"
       ],
       "regions": [],
       "assets": [
-        "EQUITIES"
+        "COMMODITIES",
+        "CRYPTO"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "BTC",
+          "ETH"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "USD"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-13T02:46:27.191318Z"
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-08-13T02:52:02.395633Z"
     },
     {
-      "id": "f6f24e1d32623638e63c654c6c994a26",
-      "title": "Russia Daily Oil Output Almost Million Barrels Below OPEC+ Quota - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPcVRDWU90elgwbGloQUxaWThvV2lpeURDWHNURFJuN2c0VE84TUpoZWdaWTFEcFJYcVEtV01HVHZNS2ZQU1I2NlV0VHhFZkw0eGJyckx1bWNVUnlmV1dtSk5GZ3Fua0UzLWV0V1VGcGgzUVlJNDNZc1FTQTFNUGN0enFidGhpb2ZpdlFybU5UOW9YRmx5YjhSZHAtdkxUaWs3YXhvQXQ5U1BWQXNDMlpmRzhGb1Y?oc=5\" target=\"_blank\">Russia Daily Oil Output Almost Million Barrels Below OPEC+ Quota</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcVRDWU90elgwbGloQUxaWThvV2lpeURDWHNURFJuN2c0VE84TUpoZWdaWTFEcFJYcVEtV01HVHZNS2ZQU1I2NlV0VHhFZkw0eGJyckx1bWNVUnlmV1dtSk5GZ3Fua0UzLWV0V1VGcGgzUVlJNDNZc1FTQTFNUGN0enFidGhpb2ZpdlFybU5UOW9YRmx5YjhSZHAtdkxUaWs3YXhvQXQ5U1BWQXNDMlpmRzhGb1Y?oc=5",
-      "source": "Google Macro",
-      "score": 29,
-      "severity": "CRITICAL",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "RUSSIA"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-13T02:46:54.809610Z"
-    },
-    {
-      "id": "7e3153943e3f6d79690568fb8ff79b2b",
-      "title": "US Core Inflation Comes in Subdued, Easing Pressure on Fed - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNcmtEeUtTbGR0NmtLTVBmOWFHUlVRQjZVYXRlNTJIZl8weFBnWFVoTzNvcmRZRWtqelY4RlVuRkhSRmwxUmZSajhtZm1BYWo4V20tT0x2MnVzOGZpNGtXMXdaOTlNbWthdExkalhFcDJqUjhCSmtFYmVJRlJOaGJPYWctOEx6azd0RGM2Yk9VVDZLcWFKMUZsSWZITDBUVnJSWkhnaXNmZ3RfczMyck05bg?oc=5\" target=\"_blank\">US Core Inflation Comes in Subdued, Easing Pressure on Fed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcmtEeUtTbGR0NmtLTVBmOWFHUlVRQjZVYXRlNTJIZl8weFBnWFVoTzNvcmRZRWtqelY4RlVuRkhSRmwxUmZSajhtZm1BYWo4V20tT0x2MnVzOGZpNGtXMXdaOTlNbWthdExkalhFcDJqUjhCSmtFYmVJRlJOaGJPYWctOEx6azd0RGM2Yk9VVDZLcWFKMUZsSWZITDBUVnJSWkhnaXNmZ3RfczMyck05bg?oc=5",
-      "source": "Google Macro",
-      "score": 21,
+      "id": "1b6efe49b06e1e9611732e21d613be3a",
+      "title": "ECB and Frankfurt Radio Symphony invite the public to Europa Open Air concert on 20 August 2026",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260811~47cd3ee040.en.html",
+      "source": "ECB",
+      "score": 22,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [
-        "JPY"
+        "EUR"
       ],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "AI",
+        "FX"
+      ],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -100,26 +70,25 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-13T02:46:54.809421Z"
+      "published": "2026-08-13T02:51:44.707060Z"
     },
     {
-      "id": "db4135dae32f3f83ad111856e451634f",
-      "title": "Iran Battles Oil Spill Near Key Persian Gulf Island of Qeshm - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOWDE0YVhNVzJ4Nmt6eVpyOThDZl9uMXNKXzdaR3RDUnNSTml2OHZhQmV4UlBYcjI0Y0tLcW1jSkFmY0twSkRJQjY1Tk9kUFUwV0c2SU5CZWxPNWFuTF9YMC1SeTZBNUpDZzBQaks0X21zTDlfWjBOZ0pRMVlPTzFJUFRxZ3pGeF9hSlQxOVhELUFnX1BrX3l4aGl1UkszVmNxREQ2MVJ0a1ZiaU5tZ2UzWg?oc=5\" target=\"_blank\">Iran Battles Oil Spill Near Key Persian Gulf Island of Qeshm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWDE0YVhNVzJ4Nmt6eVpyOThDZl9uMXNKXzdaR3RDUnNSTml2OHZhQmV4UlBYcjI0Y0tLcW1jSkFmY0twSkRJQjY1Tk9kUFUwV0c2SU5CZWxPNWFuTF9YMC1SeTZBNUpDZzBQaks0X21zTDlfWjBOZ0pRMVlPTzFJUFRxZ3pGeF9hSlQxOVhELUFnX1BrX3l4aGl1UkszVmNxREQ2MVJ0a1ZiaU5tZ2UzWg?oc=5",
-      "source": "Google Macro",
-      "score": 17,
+      "id": "ff1560672d4d2c8b571b447e6e5c88b2",
+      "title": "Treasury Wine Shares Jump as China Demand Counters Weak Revenue",
+      "summary": "Treasury Wine Estates Ltd.\u2019s shares jumped by as much as 6.4% as signs of growth in the vintner\u2019s critical China market outweighed a steep drop in full-year earnings.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-12/treasury-wine-earnings-drop-by-36-on-global-alcohol-downturn",
+      "source": "Bloomberg",
+      "score": 19,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [
-        "WTI"
+        "TLT"
       ],
       "regions": [
-        "MIDDLE_EAST",
-        "UK"
+        "CHINA"
       ],
       "assets": [
-        "COMMODITIES"
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -135,286 +104,239 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-13T02:46:54.809783Z"
+      "published": "2026-08-13T02:51:29.131393Z"
     },
     {
-      "id": "f5d4c5332cf95589b649d918dde45f22",
-      "title": "Gold Advances After Tame US Inflation Data Eases Rate-Hike Bets - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOM3pqYnJFS0RxenUtbkMzTF9xRWowS2VoVjBETzBaOTNpWHMweFBKUGNKa0FBNFdtVDVlaHRQUU5rdnRiY0tlUVQzY1UtMFpDNGRodWhBQzNUQ2xDdkJmT1JiZ3dGTW1zSVhKUHNOdTJzSmU2eWZFVVM3aWVINkdYakF0WFpfUVNkdld3V1hlSS1zdXN3YUw0VzMtQ2tfZDNJaXNzRlVQRm1yVzMzUk1JbG84LXE?oc=5\" target=\"_blank\">Gold Advances After Tame US Inflation Data Eases Rate-Hike Bets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOM3pqYnJFS0RxenUtbkMzTF9xRWowS2VoVjBETzBaOTNpWHMweFBKUGNKa0FBNFdtVDVlaHRQUU5rdnRiY0tlUVQzY1UtMFpDNGRodWhBQzNUQ2xDdkJmT1JiZ3dGTW1zSVhKUHNOdTJzSmU2eWZFVVM3aWVINkdYakF0WFpfUVNkdld3V1hlSS1zdXN3YUw0VzMtQ2tfZDNJaXNzRlVQRm1yVzMzUk1JbG84LXE?oc=5",
+      "id": "86289083c9ee07eda493f40c72bdb580",
+      "title": "Tata Investors Turn Focus to Succession, Strategy as Chairman Set to Step Down",
+      "summary": "Shares of Tata Group firms lost about $4.5 billion in combined market value on Wednesday.",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-08-13/tata-investors-turn-focus-to-succession-strategy-as-chairman-set-to-step-down",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-13T02:51:29.131443Z"
+    },
+    {
+      "id": "6c62bbabc3b0c77b7b2e39015f476d44",
+      "title": "China tightens grip on Europe\u2019s car supply chain - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQN09BaTMzUlFyUjU0aWlHY1pIWldsU3NrTDFNWm1SYVh6NFdFNEdrM1llWFRlTnV1V08wczg4QUZYMGFKcmY1UHMtS0RSM1B6N1hSa29SSzJIZDM4MFpmclkxNU8tQ2VQNG9ZOVdoY1pkRkc2OWFzaEU0dUx4akM2Mm1ZQTk?oc=5\" target=\"_blank\">China tightens grip on Europe\u2019s car supply chain</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQN09BaTMzUlFyUjU0aWlHY1pIWldsU3NrTDFNWm1SYVh6NFdFNEdrM1llWFRlTnV1V08wczg4QUZYMGFKcmY1UHMtS0RSM1B6N1hSa29SSzJIZDM4MFpmclkxNU8tQ2VQNG9ZOVdoY1pkRkc2OWFzaEU0dUx4akM2Mm1ZQTk?oc=5",
       "source": "Google Macro",
-      "score": 14,
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "CHINA",
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-13T02:52:08.402053Z"
+    },
+    {
+      "id": "b69cd266295a8b7bbdbc7b16fae6f3e4",
+      "title": "US Stock Futures Climb Before Key Inflation Print: Markets Wrap - bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPckZOT2NsYzNTTmVMZ1V0RUNzOVJSWm1CcGFiUXV3NHl5R05GZ3Y5SHJzTDlmU2hFMHV0a0JvcVluelRiejJuMFE4Y1VoY3pMV1pMSEQ1djFKRlpJdS1lLXl6ckVobnRiNzVkT2N4QVBDeEk2MlR5VkdDSFJNdXhJX2U5REN5YXRfUHBSd0JURGU4RjFG?oc=5\" target=\"_blank\">US Stock Futures Climb Before Key Inflation Print: Markets Wrap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPckZOT2NsYzNTTmVMZ1V0RUNzOVJSWm1CcGFiUXV3NHl5R05GZ3Y5SHJzTDlmU2hFMHV0a0JvcVluelRiejJuMFE4Y1VoY3pMV1pMSEQ1djFKRlpJdS1lLXl6ckVobnRiNzVkT2N4QVBDeEk2MlR5VkdDSFJNdXhJX2U5REN5YXRfUHBSd0JURGU4RjFG?oc=5",
+      "source": "Google Macro",
+      "score": 8,
       "severity": "MEDIUM",
       "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-08-13T02:52:03.929000Z"
+    },
+    {
+      "id": "c92a89f46bb3d6cc7e96f089e39341b1",
+      "title": "Scott Bessent\u2019s Yen Trade Has Unintended Consequences for the Markets - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxNR3VfbDNHY3ZMems1WjZNRGxWOWUyZVVkNUhKaV9NeUkxWDhJdVdRbWdqQV9VRDgxYi1KMkdSM19tVGlDZzNZUVMxZWxtY3ZLcFp6WTZLdWR2TElGd2FLLWkyTDNmZUxsQUU0TEplNEtzRExZMzhNeUdTNHlSNGtwZnh3cjBZZV85cVZGUDlKdExmbUl1Z01vNm5vb2pKRDVCQ3pYZGVMUmdNb1VzZVN4MEd6dG1uclVLYzMxRWFB?oc=5\" target=\"_blank\">Scott Bessent\u2019s Yen Trade Has Unintended Consequences for the Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNR3VfbDNHY3ZMems1WjZNRGxWOWUyZVVkNUhKaV9NeUkxWDhJdVdRbWdqQV9VRDgxYi1KMkdSM19tVGlDZzNZUVMxZWxtY3ZLcFp6WTZLdWR2TElGd2FLLWkyTDNmZUxsQUU0TEplNEtzRExZMzhNeUdTNHlSNGtwZnh3cjBZZV85cVZGUDlKdExmbUl1Z01vNm5vb2pKRDVCQ3pYZGVMUmdNb1VzZVN4MEd6dG1uclVLYzMxRWFB?oc=5",
+      "source": "Google Macro",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "RATES",
       "tickers": [
-        "XAU"
+        "JPY"
       ],
       "regions": [
         "UK"
       ],
       "assets": [
-        "COMMODITIES"
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-13T02:46:54.809840Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-13T02:52:08.949643Z"
     },
     {
-      "id": "a87789fb21bd522be5debda63cb87546",
-      "title": "Oil Drops After Five-Day Gain With Focus on Hormuz and Deficits - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOQWozZ29Ubm04ZE12TEQ2NkVZNGNQREdUd2NEWWk4UGxfNWNFSHlENmZuNVpWd3Fja0puV19XaWt0THlWUFVPMFI0SmhhWFpWb2h0TUpWRDlnU1ZaNEhKQjl2Q2o1LUtEVnZiMFZhNkZDemJ3eHlmc09KcldTVWJrY0ZXUzZnYjJwUHBia3FUdDZBOUtRQmdVc1JxYUlRQQ?oc=5\" target=\"_blank\">Oil Drops After Five-Day Gain With Focus on Hormuz and Deficits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQWozZ29Ubm04ZE12TEQ2NkVZNGNQREdUd2NEWWk4UGxfNWNFSHlENmZuNVpWd3Fja0puV19XaWt0THlWUFVPMFI0SmhhWFpWb2h0TUpWRDlnU1ZaNEhKQjl2Q2o1LUtEVnZiMFZhNkZDemJ3eHlmc09KcldTVWJrY0ZXUzZnYjJwUHBia3FUdDZBOUtRQmdVc1JxYUlRQQ?oc=5",
+      "id": "17709b2152ba308a69c78bb205b6343b",
+      "title": "Exclusive | Bank of America to Deploy $250 Billion to Bolster AI and Energy Infrastructure - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPbjdOXzMyTjdlVzhLQ3lFeXdpR2hOb0I1c1Z0UHN6WXBPN2o0d1ZpLXBlMTg4WGNBUEMxeGNGZGlNbjR6aXdTSUNDMmdVZUlXZzJHSXR5YXluOTJJRTNYV0JGLXhHaENJbnVvSmowQUNnNS1GSGVGdXk1WERIaUxXNlhfUHRRTTVHMTNXczNZdTNYd0pBbHc1X0Q3VHUwcGpzTWNvZHdZa3NoMU12SVluRWRpbk16eGtGbGQ0aXdPYw?oc=5\" target=\"_blank\">Exclusive | Bank of America to Deploy $250 Billion to Bolster AI and Energy Infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbjdOXzMyTjdlVzhLQ3lFeXdpR2hOb0I1c1Z0UHN6WXBPN2o0d1ZpLXBlMTg4WGNBUEMxeGNGZGlNbjR6aXdTSUNDMmdVZUlXZzJHSXR5YXluOTJJRTNYV0JGLXhHaENJbnVvSmowQUNnNS1GSGVGdXk1WERIaUxXNlhfUHRRTTVHMTNXczNZdTNYd0pBbHc1X0Q3VHUwcGpzTWNvZHdZa3NoMU12SVluRWRpbk16eGtGbGQ0aXdPYw?oc=5",
       "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-13T02:46:54.809485Z"
-    },
-    {
-      "id": "c21177bb004c5c2db412a80c4d05f095",
-      "title": "UAE Shuttles Iraqi Oil Exports Through the Strait of Hormuz - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNVlMzVDdrV09CVjEtVVlwWlJUeDRRTXJGamR2cEJFeElIZ2ZuQWhsUGYtdV8walkxNEhmU0RGRnhsTENhRzRZY0hnVUVvTjlKYzRqdlJmQTFGODBwam0wX1QtV0dGRzF3QWR6c2FCRnRRakR3MndDYXIyOEEwNVBrVHVpQ2puellVaXVoRnVDNzB3d2pmNUhYb3Nhb21LOUpDNWdfNnZTdWtxTkk0cjl1YkdZVWk?oc=5\" target=\"_blank\">UAE Shuttles Iraqi Oil Exports Through the Strait of Hormuz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVlMzVDdrV09CVjEtVVlwWlJUeDRRTXJGamR2cEJFeElIZ2ZuQWhsUGYtdV8walkxNEhmU0RGRnhsTENhRzRZY0hnVUVvTjlKYzRqdlJmQTFGODBwam0wX1QtV0dGRzF3QWR6c2FCRnRRakR3MndDYXIyOEEwNVBrVHVpQ2puellVaXVoRnVDNzB3d2pmNUhYb3Nhb21LOUpDNWdfNnZTdWtxTkk0cjl1YkdZVWk?oc=5",
-      "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-13T02:46:54.809725Z"
-    },
-    {
-      "id": "fca482b6b554cb18edd1f2871519fa43",
-      "title": "Asian Stocks Poised to Gain on Benign US Inflation: Markets Wrap - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNMTRRN3JpQVd6R3hwNWhGcjNrZHVzbVpjNU1jenpNZXdITUxYdlpsaWdKVVozS1VuLXFFQUhUMFVHb0JhT0J5T2h6eUZHUmxBUGNyLWtYN1ZXSWtDRWZzS2MxSHJMeVVpV1BGM1oxWk0xVFJJQjFQQVdYZ3g0bm1GYnlDUWtEak5JejBzcFpTSVBEUFpX?oc=5\" target=\"_blank\">Asian Stocks Poised to Gain on Benign US Inflation: Markets Wrap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMTRRN3JpQVd6R3hwNWhGcjNrZHVzbVpjNU1jenpNZXdITUxYdlpsaWdKVVozS1VuLXFFQUhUMFVHb0JhT0J5T2h6eUZHUmxBUGNyLWtYN1ZXSWtDRWZzS2MxSHJMeVVpV1BGM1oxWk0xVFJJQjFQQVdYZ3g0bm1GYnlDUWtEak5JejBzcFpTSVBEUFpX?oc=5",
-      "source": "Google Macro",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "US"
+      ],
       "assets": [
-        "AI",
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-13T02:46:54.809664Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-13T02:52:08.949712Z"
     },
     {
-      "id": "b1607b7d5106ee8a5d19ec40c1e22417",
-      "title": "US Stock Futures Rise as Tech Rally Resumes Before Key CPI Data - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQTFBHX0cweC01ZEJkTEdBVEpRdTlTT1JTdWlpTXM5NHA1UEY1X0NReWtZU2otQzFLLTYwOW9QWXNRMV8xN3NVazhmc2ZsTVZGbTRJVm9sMmNXbkh0UkhORGZpWWQ0THRfX1JaTmdsNnNya1RBSGdfQ3Q1V0NReGpIdko2UGhqUGJ3NzNXdE95WTVjZGRHMk9ibzVvclJiNmFRQ2U3dE9ZcFlDRTg5MXB3dFJRN20?oc=5\" target=\"_blank\">US Stock Futures Rise as Tech Rally Resumes Before Key CPI Data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTFBHX0cweC01ZEJkTEdBVEpRdTlTT1JTdWlpTXM5NHA1UEY1X0NReWtZU2otQzFLLTYwOW9QWXNRMV8xN3NVazhmc2ZsTVZGbTRJVm9sMmNXbkh0UkhORGZpWWQ0THRfX1JaTmdsNnNya1RBSGdfQ3Q1V0NReGpIdko2UGhqUGJ3NzNXdE95WTVjZGRHMk9ibzVvclJiNmFRQ2U3dE9ZcFlDRTg5MXB3dFJRN20?oc=5",
+      "id": "c8e1faabb184fb296816c404d94e5a50",
+      "title": "Nasdaq to Acquire LeveL Markets - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFByQVZ3eEtVWVhsNjV6NGdBR3VLMFFxc3ZGTW0yZVdwS1hJTm9NNGRiWDM5SU1JdUM3RmtIc2RtdTZKLU5PWGhlWVJnYVd3c1l0T1lKMnRxTWtjQ3FZMFZNMlZiOHFFYnBwd1JSc0pCY3ZFTGZwWEVR?oc=5\" target=\"_blank\">Nasdaq to Acquire LeveL Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByQVZ3eEtVWVhsNjV6NGdBR3VLMFFxc3ZGTW0yZVdwS1hJTm9NNGRiWDM5SU1JdUM3RmtIc2RtdTZKLU5PWGhlWVJnYVd3c1l0T1lKMnRxTWtjQ3FZMFZNMlZiOHFFYnBwd1JSc0pCY3ZFTGZwWEVR?oc=5",
       "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "QQQ"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-13T02:52:08.949440Z"
+    },
+    {
+      "id": "e02b82c44f5c6d431796b0a2bdbaacdd",
+      "title": "Smithfield Lowers Outlook on Consumer Caution, Softer Meat and Hog Markets - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPbWRHSE1sTl93emFZRl9fU3pQeDRNV2NTY3BPV2RGR3FjaTVpWXg5WVFxNHdtb2IwVVozRFZfNjJyNC1acW5oZHBtOUdobG82OG9IaG1uVFluZUVLakZKM1cwSHd4elpjb1IyUkRGa2s1Q2Q4MlRWN3RXVFlLRWFCZG9aRmZSdmp1aVk0T0QwaEJVNjdp?oc=5\" target=\"_blank\">Smithfield Lowers Outlook on Consumer Caution, Softer Meat and Hog Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbWRHSE1sTl93emFZRl9fU3pQeDRNV2NTY3BPV2RGR3FjaTVpWXg5WVFxNHdtb2IwVVozRFZfNjJyNC1acW5oZHBtOUdobG82OG9IaG1uVFluZUVLakZKM1cwSHd4elpjb1IyUkRGa2s1Q2Q4MlRWN3RXVFlLRWFCZG9aRmZSdmp1aVk0T0QwaEJVNjdp?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [
         "UK"
       ],
       "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-13T02:46:54.809548Z"
-    },
-    {
-      "id": "8b5edee3fb3e82dedc71a03d32dd1841",
-      "title": "U.S. president sued over plan to sell faster access to his posts on Truth Social",
-      "summary": "Two media organizations have argued that the First Amendment guarantees equal access to a president's public pronouncements and doesn't permit early access to be sold.",
-      "link": "https://www.japantimes.co.jp/business/2026/08/13/tech/trump-sued-truth-social/",
-      "source": "Japan Times",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-13T02:46:50.118696Z"
-    },
-    {
-      "id": "30d9508613504b5342fb7b590689bf2f",
-      "title": "One dead, more than 200 rescued after Indonesian ferry from Bali catches fire",
-      "summary": "The \u2060incident took place less than a month after another ferry caught fire off Madura island, killing five people.",
-      "link": "https://www.japantimes.co.jp/news/2026/08/13/asia-pacific/indonesian-ferry-bali-fire/",
-      "source": "Japan Times",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-13T02:46:50.118756Z"
-    },
-    {
-      "id": "ef50d0f6e34b5b8c6d4e08359bdcdfc5",
-      "title": "Triple-double king Russell Westbrook announces retirement",
-      "summary": "Westbrook, 37, recorded 209 \u200btriple-doubles, including a record 42 during his stellar 2016-17 MVP season.",
-      "link": "https://www.japantimes.co.jp/sports/2026/08/13/basketball/nba/russell-westbrook-retires-nba/",
-      "source": "Japan Times",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-13T02:46:50.118822Z"
+      "published": "2026-08-13T02:52:08.949542Z"
     }
   ],
   "alerts": [
     {
-      "id": "f592dc57de0f714b29ba40498d7303fb",
-      "title": "Asian Stocks Rise on Tech, Rate-Hike Bets Ease: Markets Wrap",
-      "summary": "Asian stocks rose as technology shares rallied and a subdued US inflation report eased concerns about an imminent interest-rate hike by the Federal Reserve. Brent snapped a six-day rally.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-12/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 30,
-      "severity": "CRITICAL",
-      "regime": "RATES",
+      "id": "cfd6e18bad4b07714a992904898aa79f",
+      "title": "Goldman Sachs to acquire ETF manager NEOS in $2.25B deal",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Goldman Sachs to acquire ETF manager NEOS in $2.25B deal \" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-goldman-sachs-and-crypto-recap.png\" /></p><p>The deal would add NEOS\u2019 $30 billion ETF business, including Bitcoin- and Ether-linked income funds, to Goldman Sachs Asset Management.\n</p>",
+      "link": "https://cointelegraph.com/news/goldman-sachs-to-acquire-etf-manager-neos-225b-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
       "tickers": [
-        "BRENT"
+        "BTC",
+        "XAU"
       ],
       "regions": [],
       "assets": [
-        "EQUITIES"
+        "COMMODITIES",
+        "CRYPTO"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "BTC",
+          "ETH"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "USD"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-13T02:46:27.191318Z"
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-08-13T02:52:02.395633Z"
     },
     {
-      "id": "f6f24e1d32623638e63c654c6c994a26",
-      "title": "Russia Daily Oil Output Almost Million Barrels Below OPEC+ Quota - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPcVRDWU90elgwbGloQUxaWThvV2lpeURDWHNURFJuN2c0VE84TUpoZWdaWTFEcFJYcVEtV01HVHZNS2ZQU1I2NlV0VHhFZkw0eGJyckx1bWNVUnlmV1dtSk5GZ3Fua0UzLWV0V1VGcGgzUVlJNDNZc1FTQTFNUGN0enFidGhpb2ZpdlFybU5UOW9YRmx5YjhSZHAtdkxUaWs3YXhvQXQ5U1BWQXNDMlpmRzhGb1Y?oc=5\" target=\"_blank\">Russia Daily Oil Output Almost Million Barrels Below OPEC+ Quota</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcVRDWU90elgwbGloQUxaWThvV2lpeURDWHNURFJuN2c0VE84TUpoZWdaWTFEcFJYcVEtV01HVHZNS2ZQU1I2NlV0VHhFZkw0eGJyckx1bWNVUnlmV1dtSk5GZ3Fua0UzLWV0V1VGcGgzUVlJNDNZc1FTQTFNUGN0enFidGhpb2ZpdlFybU5UOW9YRmx5YjhSZHAtdkxUaWs3YXhvQXQ5U1BWQXNDMlpmRzhGb1Y?oc=5",
-      "source": "Google Macro",
-      "score": 29,
-      "severity": "CRITICAL",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "RUSSIA"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-13T02:46:54.809610Z"
-    },
-    {
-      "id": "7e3153943e3f6d79690568fb8ff79b2b",
-      "title": "US Core Inflation Comes in Subdued, Easing Pressure on Fed - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNcmtEeUtTbGR0NmtLTVBmOWFHUlVRQjZVYXRlNTJIZl8weFBnWFVoTzNvcmRZRWtqelY4RlVuRkhSRmwxUmZSajhtZm1BYWo4V20tT0x2MnVzOGZpNGtXMXdaOTlNbWthdExkalhFcDJqUjhCSmtFYmVJRlJOaGJPYWctOEx6azd0RGM2Yk9VVDZLcWFKMUZsSWZITDBUVnJSWkhnaXNmZ3RfczMyck05bg?oc=5\" target=\"_blank\">US Core Inflation Comes in Subdued, Easing Pressure on Fed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcmtEeUtTbGR0NmtLTVBmOWFHUlVRQjZVYXRlNTJIZl8weFBnWFVoTzNvcmRZRWtqelY4RlVuRkhSRmwxUmZSajhtZm1BYWo4V20tT0x2MnVzOGZpNGtXMXdaOTlNbWthdExkalhFcDJqUjhCSmtFYmVJRlJOaGJPYWctOEx6azd0RGM2Yk9VVDZLcWFKMUZsSWZITDBUVnJSWkhnaXNmZ3RfczMyck05bg?oc=5",
-      "source": "Google Macro",
-      "score": 21,
+      "id": "1b6efe49b06e1e9611732e21d613be3a",
+      "title": "ECB and Frankfurt Radio Symphony invite the public to Europa Open Air concert on 20 August 2026",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260811~47cd3ee040.en.html",
+      "source": "ECB",
+      "score": 22,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [
-        "JPY"
+        "EUR"
       ],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "AI",
+        "FX"
+      ],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -427,26 +349,25 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-13T02:46:54.809421Z"
+      "published": "2026-08-13T02:51:44.707060Z"
     },
     {
-      "id": "db4135dae32f3f83ad111856e451634f",
-      "title": "Iran Battles Oil Spill Near Key Persian Gulf Island of Qeshm - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOWDE0YVhNVzJ4Nmt6eVpyOThDZl9uMXNKXzdaR3RDUnNSTml2OHZhQmV4UlBYcjI0Y0tLcW1jSkFmY0twSkRJQjY1Tk9kUFUwV0c2SU5CZWxPNWFuTF9YMC1SeTZBNUpDZzBQaks0X21zTDlfWjBOZ0pRMVlPTzFJUFRxZ3pGeF9hSlQxOVhELUFnX1BrX3l4aGl1UkszVmNxREQ2MVJ0a1ZiaU5tZ2UzWg?oc=5\" target=\"_blank\">Iran Battles Oil Spill Near Key Persian Gulf Island of Qeshm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWDE0YVhNVzJ4Nmt6eVpyOThDZl9uMXNKXzdaR3RDUnNSTml2OHZhQmV4UlBYcjI0Y0tLcW1jSkFmY0twSkRJQjY1Tk9kUFUwV0c2SU5CZWxPNWFuTF9YMC1SeTZBNUpDZzBQaks0X21zTDlfWjBOZ0pRMVlPTzFJUFRxZ3pGeF9hSlQxOVhELUFnX1BrX3l4aGl1UkszVmNxREQ2MVJ0a1ZiaU5tZ2UzWg?oc=5",
-      "source": "Google Macro",
-      "score": 17,
+      "id": "ff1560672d4d2c8b571b447e6e5c88b2",
+      "title": "Treasury Wine Shares Jump as China Demand Counters Weak Revenue",
+      "summary": "Treasury Wine Estates Ltd.\u2019s shares jumped by as much as 6.4% as signs of growth in the vintner\u2019s critical China market outweighed a steep drop in full-year earnings.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-12/treasury-wine-earnings-drop-by-36-on-global-alcohol-downturn",
+      "source": "Bloomberg",
+      "score": 19,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [
-        "WTI"
+        "TLT"
       ],
       "regions": [
-        "MIDDLE_EAST",
-        "UK"
+        "CHINA"
       ],
       "assets": [
-        "COMMODITIES"
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -462,206 +383,189 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-13T02:46:54.809783Z"
+      "published": "2026-08-13T02:51:29.131393Z"
     },
     {
-      "id": "f5d4c5332cf95589b649d918dde45f22",
-      "title": "Gold Advances After Tame US Inflation Data Eases Rate-Hike Bets - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOM3pqYnJFS0RxenUtbkMzTF9xRWowS2VoVjBETzBaOTNpWHMweFBKUGNKa0FBNFdtVDVlaHRQUU5rdnRiY0tlUVQzY1UtMFpDNGRodWhBQzNUQ2xDdkJmT1JiZ3dGTW1zSVhKUHNOdTJzSmU2eWZFVVM3aWVINkdYakF0WFpfUVNkdld3V1hlSS1zdXN3YUw0VzMtQ2tfZDNJaXNzRlVQRm1yVzMzUk1JbG84LXE?oc=5\" target=\"_blank\">Gold Advances After Tame US Inflation Data Eases Rate-Hike Bets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOM3pqYnJFS0RxenUtbkMzTF9xRWowS2VoVjBETzBaOTNpWHMweFBKUGNKa0FBNFdtVDVlaHRQUU5rdnRiY0tlUVQzY1UtMFpDNGRodWhBQzNUQ2xDdkJmT1JiZ3dGTW1zSVhKUHNOdTJzSmU2eWZFVVM3aWVINkdYakF0WFpfUVNkdld3V1hlSS1zdXN3YUw0VzMtQ2tfZDNJaXNzRlVQRm1yVzMzUk1JbG84LXE?oc=5",
+      "id": "86289083c9ee07eda493f40c72bdb580",
+      "title": "Tata Investors Turn Focus to Succession, Strategy as Chairman Set to Step Down",
+      "summary": "Shares of Tata Group firms lost about $4.5 billion in combined market value on Wednesday.",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-08-13/tata-investors-turn-focus-to-succession-strategy-as-chairman-set-to-step-down",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-13T02:51:29.131443Z"
+    },
+    {
+      "id": "6c62bbabc3b0c77b7b2e39015f476d44",
+      "title": "China tightens grip on Europe\u2019s car supply chain - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQN09BaTMzUlFyUjU0aWlHY1pIWldsU3NrTDFNWm1SYVh6NFdFNEdrM1llWFRlTnV1V08wczg4QUZYMGFKcmY1UHMtS0RSM1B6N1hSa29SSzJIZDM4MFpmclkxNU8tQ2VQNG9ZOVdoY1pkRkc2OWFzaEU0dUx4akM2Mm1ZQTk?oc=5\" target=\"_blank\">China tightens grip on Europe\u2019s car supply chain</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQN09BaTMzUlFyUjU0aWlHY1pIWldsU3NrTDFNWm1SYVh6NFdFNEdrM1llWFRlTnV1V08wczg4QUZYMGFKcmY1UHMtS0RSM1B6N1hSa29SSzJIZDM4MFpmclkxNU8tQ2VQNG9ZOVdoY1pkRkc2OWFzaEU0dUx4akM2Mm1ZQTk?oc=5",
       "source": "Google Macro",
-      "score": 14,
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "CHINA",
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-13T02:52:08.402053Z"
+    },
+    {
+      "id": "b69cd266295a8b7bbdbc7b16fae6f3e4",
+      "title": "US Stock Futures Climb Before Key Inflation Print: Markets Wrap - bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPckZOT2NsYzNTTmVMZ1V0RUNzOVJSWm1CcGFiUXV3NHl5R05GZ3Y5SHJzTDlmU2hFMHV0a0JvcVluelRiejJuMFE4Y1VoY3pMV1pMSEQ1djFKRlpJdS1lLXl6ckVobnRiNzVkT2N4QVBDeEk2MlR5VkdDSFJNdXhJX2U5REN5YXRfUHBSd0JURGU4RjFG?oc=5\" target=\"_blank\">US Stock Futures Climb Before Key Inflation Print: Markets Wrap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPckZOT2NsYzNTTmVMZ1V0RUNzOVJSWm1CcGFiUXV3NHl5R05GZ3Y5SHJzTDlmU2hFMHV0a0JvcVluelRiejJuMFE4Y1VoY3pMV1pMSEQ1djFKRlpJdS1lLXl6ckVobnRiNzVkT2N4QVBDeEk2MlR5VkdDSFJNdXhJX2U5REN5YXRfUHBSd0JURGU4RjFG?oc=5",
+      "source": "Google Macro",
+      "score": 8,
       "severity": "MEDIUM",
       "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-08-13T02:52:03.929000Z"
+    },
+    {
+      "id": "c92a89f46bb3d6cc7e96f089e39341b1",
+      "title": "Scott Bessent\u2019s Yen Trade Has Unintended Consequences for the Markets - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxNR3VfbDNHY3ZMems1WjZNRGxWOWUyZVVkNUhKaV9NeUkxWDhJdVdRbWdqQV9VRDgxYi1KMkdSM19tVGlDZzNZUVMxZWxtY3ZLcFp6WTZLdWR2TElGd2FLLWkyTDNmZUxsQUU0TEplNEtzRExZMzhNeUdTNHlSNGtwZnh3cjBZZV85cVZGUDlKdExmbUl1Z01vNm5vb2pKRDVCQ3pYZGVMUmdNb1VzZVN4MEd6dG1uclVLYzMxRWFB?oc=5\" target=\"_blank\">Scott Bessent\u2019s Yen Trade Has Unintended Consequences for the Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNR3VfbDNHY3ZMems1WjZNRGxWOWUyZVVkNUhKaV9NeUkxWDhJdVdRbWdqQV9VRDgxYi1KMkdSM19tVGlDZzNZUVMxZWxtY3ZLcFp6WTZLdWR2TElGd2FLLWkyTDNmZUxsQUU0TEplNEtzRExZMzhNeUdTNHlSNGtwZnh3cjBZZV85cVZGUDlKdExmbUl1Z01vNm5vb2pKRDVCQ3pYZGVMUmdNb1VzZVN4MEd6dG1uclVLYzMxRWFB?oc=5",
+      "source": "Google Macro",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "RATES",
       "tickers": [
-        "XAU"
+        "JPY"
       ],
       "regions": [
         "UK"
       ],
       "assets": [
-        "COMMODITIES"
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-13T02:46:54.809840Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-13T02:52:08.949643Z"
     },
     {
-      "id": "a87789fb21bd522be5debda63cb87546",
-      "title": "Oil Drops After Five-Day Gain With Focus on Hormuz and Deficits - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOQWozZ29Ubm04ZE12TEQ2NkVZNGNQREdUd2NEWWk4UGxfNWNFSHlENmZuNVpWd3Fja0puV19XaWt0THlWUFVPMFI0SmhhWFpWb2h0TUpWRDlnU1ZaNEhKQjl2Q2o1LUtEVnZiMFZhNkZDemJ3eHlmc09KcldTVWJrY0ZXUzZnYjJwUHBia3FUdDZBOUtRQmdVc1JxYUlRQQ?oc=5\" target=\"_blank\">Oil Drops After Five-Day Gain With Focus on Hormuz and Deficits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQWozZ29Ubm04ZE12TEQ2NkVZNGNQREdUd2NEWWk4UGxfNWNFSHlENmZuNVpWd3Fja0puV19XaWt0THlWUFVPMFI0SmhhWFpWb2h0TUpWRDlnU1ZaNEhKQjl2Q2o1LUtEVnZiMFZhNkZDemJ3eHlmc09KcldTVWJrY0ZXUzZnYjJwUHBia3FUdDZBOUtRQmdVc1JxYUlRQQ?oc=5",
+      "id": "17709b2152ba308a69c78bb205b6343b",
+      "title": "Exclusive | Bank of America to Deploy $250 Billion to Bolster AI and Energy Infrastructure - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPbjdOXzMyTjdlVzhLQ3lFeXdpR2hOb0I1c1Z0UHN6WXBPN2o0d1ZpLXBlMTg4WGNBUEMxeGNGZGlNbjR6aXdTSUNDMmdVZUlXZzJHSXR5YXluOTJJRTNYV0JGLXhHaENJbnVvSmowQUNnNS1GSGVGdXk1WERIaUxXNlhfUHRRTTVHMTNXczNZdTNYd0pBbHc1X0Q3VHUwcGpzTWNvZHdZa3NoMU12SVluRWRpbk16eGtGbGQ0aXdPYw?oc=5\" target=\"_blank\">Exclusive | Bank of America to Deploy $250 Billion to Bolster AI and Energy Infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbjdOXzMyTjdlVzhLQ3lFeXdpR2hOb0I1c1Z0UHN6WXBPN2o0d1ZpLXBlMTg4WGNBUEMxeGNGZGlNbjR6aXdTSUNDMmdVZUlXZzJHSXR5YXluOTJJRTNYV0JGLXhHaENJbnVvSmowQUNnNS1GSGVGdXk1WERIaUxXNlhfUHRRTTVHMTNXczNZdTNYd0pBbHc1X0Q3VHUwcGpzTWNvZHdZa3NoMU12SVluRWRpbk16eGtGbGQ0aXdPYw?oc=5",
       "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-13T02:46:54.809485Z"
-    },
-    {
-      "id": "c21177bb004c5c2db412a80c4d05f095",
-      "title": "UAE Shuttles Iraqi Oil Exports Through the Strait of Hormuz - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNVlMzVDdrV09CVjEtVVlwWlJUeDRRTXJGamR2cEJFeElIZ2ZuQWhsUGYtdV8walkxNEhmU0RGRnhsTENhRzRZY0hnVUVvTjlKYzRqdlJmQTFGODBwam0wX1QtV0dGRzF3QWR6c2FCRnRRakR3MndDYXIyOEEwNVBrVHVpQ2puellVaXVoRnVDNzB3d2pmNUhYb3Nhb21LOUpDNWdfNnZTdWtxTkk0cjl1YkdZVWk?oc=5\" target=\"_blank\">UAE Shuttles Iraqi Oil Exports Through the Strait of Hormuz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVlMzVDdrV09CVjEtVVlwWlJUeDRRTXJGamR2cEJFeElIZ2ZuQWhsUGYtdV8walkxNEhmU0RGRnhsTENhRzRZY0hnVUVvTjlKYzRqdlJmQTFGODBwam0wX1QtV0dGRzF3QWR6c2FCRnRRakR3MndDYXIyOEEwNVBrVHVpQ2puellVaXVoRnVDNzB3d2pmNUhYb3Nhb21LOUpDNWdfNnZTdWtxTkk0cjl1YkdZVWk?oc=5",
-      "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-13T02:46:54.809725Z"
-    },
-    {
-      "id": "fca482b6b554cb18edd1f2871519fa43",
-      "title": "Asian Stocks Poised to Gain on Benign US Inflation: Markets Wrap - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNMTRRN3JpQVd6R3hwNWhGcjNrZHVzbVpjNU1jenpNZXdITUxYdlpsaWdKVVozS1VuLXFFQUhUMFVHb0JhT0J5T2h6eUZHUmxBUGNyLWtYN1ZXSWtDRWZzS2MxSHJMeVVpV1BGM1oxWk0xVFJJQjFQQVdYZ3g0bm1GYnlDUWtEak5JejBzcFpTSVBEUFpX?oc=5\" target=\"_blank\">Asian Stocks Poised to Gain on Benign US Inflation: Markets Wrap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMTRRN3JpQVd6R3hwNWhGcjNrZHVzbVpjNU1jenpNZXdITUxYdlpsaWdKVVozS1VuLXFFQUhUMFVHb0JhT0J5T2h6eUZHUmxBUGNyLWtYN1ZXSWtDRWZzS2MxSHJMeVVpV1BGM1oxWk0xVFJJQjFQQVdYZ3g0bm1GYnlDUWtEak5JejBzcFpTSVBEUFpX?oc=5",
-      "source": "Google Macro",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "US"
+      ],
       "assets": [
-        "AI",
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-13T02:46:54.809664Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-13T02:52:08.949712Z"
     },
     {
-      "id": "b1607b7d5106ee8a5d19ec40c1e22417",
-      "title": "US Stock Futures Rise as Tech Rally Resumes Before Key CPI Data - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQTFBHX0cweC01ZEJkTEdBVEpRdTlTT1JTdWlpTXM5NHA1UEY1X0NReWtZU2otQzFLLTYwOW9QWXNRMV8xN3NVazhmc2ZsTVZGbTRJVm9sMmNXbkh0UkhORGZpWWQ0THRfX1JaTmdsNnNya1RBSGdfQ3Q1V0NReGpIdko2UGhqUGJ3NzNXdE95WTVjZGRHMk9ibzVvclJiNmFRQ2U3dE9ZcFlDRTg5MXB3dFJRN20?oc=5\" target=\"_blank\">US Stock Futures Rise as Tech Rally Resumes Before Key CPI Data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTFBHX0cweC01ZEJkTEdBVEpRdTlTT1JTdWlpTXM5NHA1UEY1X0NReWtZU2otQzFLLTYwOW9QWXNRMV8xN3NVazhmc2ZsTVZGbTRJVm9sMmNXbkh0UkhORGZpWWQ0THRfX1JaTmdsNnNya1RBSGdfQ3Q1V0NReGpIdko2UGhqUGJ3NzNXdE95WTVjZGRHMk9ibzVvclJiNmFRQ2U3dE9ZcFlDRTg5MXB3dFJRN20?oc=5",
+      "id": "c8e1faabb184fb296816c404d94e5a50",
+      "title": "Nasdaq to Acquire LeveL Markets - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFByQVZ3eEtVWVhsNjV6NGdBR3VLMFFxc3ZGTW0yZVdwS1hJTm9NNGRiWDM5SU1JdUM3RmtIc2RtdTZKLU5PWGhlWVJnYVd3c1l0T1lKMnRxTWtjQ3FZMFZNMlZiOHFFYnBwd1JSc0pCY3ZFTGZwWEVR?oc=5\" target=\"_blank\">Nasdaq to Acquire LeveL Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByQVZ3eEtVWVhsNjV6NGdBR3VLMFFxc3ZGTW0yZVdwS1hJTm9NNGRiWDM5SU1JdUM3RmtIc2RtdTZKLU5PWGhlWVJnYVd3c1l0T1lKMnRxTWtjQ3FZMFZNMlZiOHFFYnBwd1JSc0pCY3ZFTGZwWEVR?oc=5",
       "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "QQQ"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-13T02:52:08.949440Z"
+    },
+    {
+      "id": "e02b82c44f5c6d431796b0a2bdbaacdd",
+      "title": "Smithfield Lowers Outlook on Consumer Caution, Softer Meat and Hog Markets - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPbWRHSE1sTl93emFZRl9fU3pQeDRNV2NTY3BPV2RGR3FjaTVpWXg5WVFxNHdtb2IwVVozRFZfNjJyNC1acW5oZHBtOUdobG82OG9IaG1uVFluZUVLakZKM1cwSHd4elpjb1IyUkRGa2s1Q2Q4MlRWN3RXVFlLRWFCZG9aRmZSdmp1aVk0T0QwaEJVNjdp?oc=5\" target=\"_blank\">Smithfield Lowers Outlook on Consumer Caution, Softer Meat and Hog Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbWRHSE1sTl93emFZRl9fU3pQeDRNV2NTY3BPV2RGR3FjaTVpWXg5WVFxNHdtb2IwVVozRFZfNjJyNC1acW5oZHBtOUdobG82OG9IaG1uVFluZUVLakZKM1cwSHd4elpjb1IyUkRGa2s1Q2Q4MlRWN3RXVFlLRWFCZG9aRmZSdmp1aVk0T0QwaEJVNjdp?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [
         "UK"
       ],
       "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-13T02:46:54.809548Z"
-    },
-    {
-      "id": "8b5edee3fb3e82dedc71a03d32dd1841",
-      "title": "U.S. president sued over plan to sell faster access to his posts on Truth Social",
-      "summary": "Two media organizations have argued that the First Amendment guarantees equal access to a president's public pronouncements and doesn't permit early access to be sold.",
-      "link": "https://www.japantimes.co.jp/business/2026/08/13/tech/trump-sued-truth-social/",
-      "source": "Japan Times",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-13T02:46:50.118696Z"
-    },
-    {
-      "id": "30d9508613504b5342fb7b590689bf2f",
-      "title": "One dead, more than 200 rescued after Indonesian ferry from Bali catches fire",
-      "summary": "The \u2060incident took place less than a month after another ferry caught fire off Madura island, killing five people.",
-      "link": "https://www.japantimes.co.jp/news/2026/08/13/asia-pacific/indonesian-ferry-bali-fire/",
-      "source": "Japan Times",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-13T02:46:50.118756Z"
-    },
-    {
-      "id": "ef50d0f6e34b5b8c6d4e08359bdcdfc5",
-      "title": "Triple-double king Russell Westbrook announces retirement",
-      "summary": "Westbrook, 37, recorded 209 \u200btriple-doubles, including a record 42 during his stellar 2016-17 MVP season.",
-      "link": "https://www.japantimes.co.jp/sports/2026/08/13/basketball/nba/russell-westbrook-retires-nba/",
-      "source": "Japan Times",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-13T02:46:50.118822Z"
+      "published": "2026-08-13T02:52:08.949542Z"
     }
   ]
 }
