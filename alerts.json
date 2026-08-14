@@ -1,35 +1,65 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-14T07:06:54.432452Z",
+  "generated_at": "2026-08-14T07:11:55.594708Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 2,
-    "last_updated": "2026-08-14T07:06:54.432468Z"
+    "last_updated": "2026-08-14T07:11:55.594716Z"
   },
   "top_signals": [
     {
-      "id": "fca9b6646e9b5845390714dd8db7f878",
-      "title": "Uber partners with China's Pony.ai for 2,000 robotaxis in Europe",
-      "summary": "The rollout comes as robotaxi fleet sizes become increasingly critical for commercialization.",
-      "link": "https://www.cnbc.com/2026/08/14/uber-partners-with-chinas-ponyai-for-2000-robotaxis-in-europe.html",
-      "source": "CNBC",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
+      "id": "8f58fa87158f8368d2b9c34ee13088e9",
+      "title": "Yen Edges Higher Against Dollar as Traders Weigh BOJ\u2019s Next Move",
+      "summary": "The yen strengthened amid growing speculation the Bank of Japan may raise interest rates in the coming months.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-14/yen-edges-higher-against-dollar-as-traders-weigh-boj-s-next-move",
+      "source": "Bloomberg",
+      "score": 38,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "EUR"
+        "DXY",
+        "JPY"
       ],
       "regions": [
-        "CHINA",
-        "EUROPE"
+        "JAPAN"
       ],
       "assets": [
         "AI",
         "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-14T07:11:28.109700Z"
+    },
+    {
+      "id": "3b3921d5f6300407b6667f20dbdb6c3b",
+      "title": "Trump-linked oil venture delays Greenland drilling plans after government warning - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5nNVlROF9TMkFoLXJzZXVFUllrV25sanREbFc4Tk5zQ0JGdUtubGMtc3FfZXhhOVpBVW05Z0N0ZzJfM3dzM1N6ZkVQUTl1V0w0aU50dkRvSFdZb3lGRXp4QlFwM2RGRWdEQnU3a3pMelpfbjRTdW84Y0NPejXSAYIBQVVfeXFMTUdNQV81MEswOVFWZXNkYUZKZkF6QnBvWjhrZHM3d2hBalRiQWF0dEF0dEVkT1ZlUGZ2LUw2aHBpQU5nLWE3amdCQVV5dy1KTnFxdl94b0RFT21yamdvb3JSVExGOXZGcFNLdzJyNDVMNVVXbzg2ZElJdURsU2oxR1hjQQ?oc=5\" target=\"_blank\">Trump-linked oil venture delays Greenland drilling plans after government warning</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5nNVlROF9TMkFoLXJzZXVFUllrV25sanREbFc4Tk5zQ0JGdUtubGMtc3FfZXhhOVpBVW05Z0N0ZzJfM3dzM1N6ZkVQUTl1V0w0aU50dkRvSFdZb3lGRXp4QlFwM2RGRWdEQnU3a3pMelpfbjRTdW84Y0NPejXSAYIBQVVfeXFMTUdNQV81MEswOVFWZXNkYUZKZkF6QnBvWjhrZHM3d2hBalRiQWF0dEF0dEVkT1ZlUGZ2LUw2aHBpQU5nLWE3amdCQVV5dy1KTnFxdl94b0RFT21yamdvb3JSVExGOXZGcFNLdzJyNDVMNVVXbzg2ZElJdURsU2oxR1hjQQ?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -45,19 +75,21 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-14T07:06:26.443723Z"
+      "published": "2026-08-14T07:11:55.594669Z"
     },
     {
-      "id": "93a97113bdea9f00dafd1a6f6bad37ae",
-      "title": "Myanmar civil war nears a rare opening for talks as diplomacy gains ground - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOa25IelZmaG1tdC1sbzBlODB6VFpxQXhLazhiUUZMWkd5aGprb0gzczZPdjFERXlpNlF5Yzdza3RzdklvdTlYSGZjS2xhWTNRVGREQkM3N2R0NUpnaURFbFdjeVpNeWVUYVd4V0E4ZUo4cXBReXdCR2pEcHpsdU12U1luQ1lBcTRMZVVITTlVTEJsZzdfeVdReG1aYVZDb25Fb3F6TW1Cb2REUWsxQTdwczdRalRmbk5GT0tqNA?oc=5\" target=\"_blank\">Myanmar civil war nears a rare opening for talks as diplomacy gains ground</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa25IelZmaG1tdC1sbzBlODB6VFpxQXhLazhiUUZMWkd5aGprb0gzczZPdjFERXlpNlF5Yzdza3RzdklvdTlYSGZjS2xhWTNRVGREQkM3N2R0NUpnaURFbFdjeVpNeWVUYVd4V0E4ZUo4cXBReXdCR2pEcHpsdU12U1luQ1lBcTRMZVVITTlVTEJsZzdfeVdReG1aYVZDb25Fb3F6TW1Cb2REUWsxQTdwczdRalRmbk5GT0tqNA?oc=5",
-      "source": "Google Macro",
+      "id": "1a935d3b868e7bf1a0002b27a2afafad",
+      "title": "Germany moves to give spy agencies hacking and sabotage powers",
+      "summary": "Germany\u2019s cabinet approved legislation that would let its intelligence agencies hack foreign systems, sabotage adversaries\u2019 supply chains and feed false information to extremists inside Germany, in the biggest overhaul of the country\u2019s spy laws of the postwar era.",
+      "link": "https://therecord.media/germany-spy-agency-powers",
+      "source": "The Record",
       "score": 15,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "GERMANY"
+      ],
       "assets": [
         "AI"
       ],
@@ -75,181 +107,86 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-14T07:06:52.898916Z"
+      "published": "2026-08-14T07:11:52.936375Z"
     },
     {
-      "id": "7e5dcb94712ea36276b85009c60f28a2",
-      "title": "Oil settles down 2% on weak demand outlook, hefty US crude build - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNRHRqOVFPR196RlJ0WTVZajZ6NHRpdmhmZ0EtSDMwTDVZVk5mX2JnVm9LVnFDQ2M4c08ybExVeldFQk9BdG9HVldTbnJFRDVjdTc3MF8wZmc4ck41bWd6Wng2SFowYjZrNW1UVzJuMDR4cnBUT0c2TXUteFR0cTFiVVY5bm5Da09NSDI4akNIcFY4NHRBRzkzNXNuZ1luQjNGUHFFdnVhT1RCNGlKMWx4MkgzdzhLdw?oc=5\" target=\"_blank\">Oil settles down 2% on weak demand outlook, hefty US crude build</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRHRqOVFPR196RlJ0WTVZajZ6NHRpdmhmZ0EtSDMwTDVZVk5mX2JnVm9LVnFDQ2M4c08ybExVeldFQk9BdG9HVldTbnJFRDVjdTc3MF8wZmc4ck41bWd6Wng2SFowYjZrNW1UVzJuMDR4cnBUT0c2TXUteFR0cTFiVVY5bm5Da09NSDI4akNIcFY4NHRBRzkzNXNuZ1luQjNGUHFFdnVhT1RCNGlKMWx4MkgzdzhLdw?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-14T07:06:52.898517Z"
-    },
-    {
-      "id": "ca9666c877d7f7a1d18c209fb3816842",
-      "title": "US auto loans hit record high in second quarter, New York Fed says - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxPc3I0VDd6ZnRQTjE3dmVYOHNUazFTMmVSR3NDTDBfbFo5bm56Z2pXRzNudU9KQUdfa05BTEh5V3BFWEhvM0hyMC0wWXBOd2ROZlhVS1dtNUxWS29Ld0RRVWh2UGFVdmZGSG5ONUxlZHpQV0JnMGlIX0c3alNRT3pGNjdzaF9sN21IN2ZkTVRLaWRITDl0Sm1wSFlNdVc5NC1zeEFBaXNuM2h2U1FQZG91M3RVVHBUdDFPSEdQc0xEMGtRbkhQaENlaDlHU2tJZjJTYU5DRjZBTFA5QQ?oc=5\" target=\"_blank\">US auto loans hit record high in second quarter, New York Fed says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPc3I0VDd6ZnRQTjE3dmVYOHNUazFTMmVSR3NDTDBfbFo5bm56Z2pXRzNudU9KQUdfa05BTEh5V3BFWEhvM0hyMC0wWXBOd2ROZlhVS1dtNUxWS29Ld0RRVWh2UGFVdmZGSG5ONUxlZHpQV0JnMGlIX0c3alNRT3pGNjdzaF9sN21IN2ZkTVRLaWRITDl0Sm1wSFlNdVc5NC1zeEFBaXNuM2h2U1FQZG91M3RVVHBUdDFPSEdQc0xEMGtRbkhQaENlaDlHU2tJZjJTYU5DRjZBTFA5QQ?oc=5",
-      "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-14T07:06:52.898724Z"
-    },
-    {
-      "id": "b59c184bd65121b31f88eb77562571fc",
-      "title": "US Treasury yields seen heading lower but strategists' conviction wavering - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOVDExTU5zM21TYmxjTGVKcXpONnA0WlRuTDJjdmplWXA3Z3BWaDlsWGZOdU0xd3lqc0NRQTJQV2hycXJGV0F3aVBTMm1KQk43VHlUM0FRazdGTTZVMnRUY3lyQzVsQWtkX2FPV2ZkN0ktVENJaFIyZUVkVHd2UDVGNVdDcFpOOXBMT3pvVXAzNUI1aVdvTXRwWnhpYUZ6cVJYbHM5UXNjZEFubFV6MXpxbzVIRmM?oc=5\" target=\"_blank\">US Treasury yields seen heading lower but strategists' conviction wavering</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVDExTU5zM21TYmxjTGVKcXpONnA0WlRuTDJjdmplWXA3Z3BWaDlsWGZOdU0xd3lqc0NRQTJQV2hycXJGV0F3aVBTMm1KQk43VHlUM0FRazdGTTZVMnRUY3lyQzVsQWtkX2FPV2ZkN0ktVENJaFIyZUVkVHd2UDVGNVdDcFpOOXBMT3pvVXAzNUI1aVdvTXRwWnhpYUZ6cVJYbHM5UXNjZEFubFV6MXpxbzVIRmM?oc=5",
-      "source": "Google Macro",
+      "id": "fe587d43902074c2025bc2bfd1b657dd",
+      "title": "Tether says KPMG issued \u2018clean\u2019 opinion in first full audit of USDT issuer\u2019s financials",
+      "summary": "KPMG U.S. issued an \"unqualified audit opinion\" on Tether International\u2019s full 2025 financial statements, Tether said Thursday.",
+      "link": "https://www.theblock.co/news/business/2026-08-13-tether-kpmg-first-full-audit-usdt-clean-opinion-411760",
+      "source": "The Block",
       "score": 5,
       "severity": "LOW",
-      "regime": "RATES",
+      "regime": "AI",
       "tickers": [
-        "TLT"
+        "DXY"
       ],
       "regions": [],
       "assets": [
-        "RATES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
+          "NVDA",
+          "SEMIS",
           "QQQ"
-        ]
+        ],
+        "bearish": []
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-14T07:06:52.898449Z"
-    },
-    {
-      "id": "6cc5bf46e771423eca8ab998c68598b3",
-      "title": "US budget deficit widens in July on higher outlays, negative tariff receipts - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQcUJ0U0RwQ2U2OHRKX1JZX1daaUdjR0ZMZWM5a0x3VndUUzJ0RFRTMTQ4ZHA1blZIYlVNWTZOeTUwa2QxcGQtVGpCRXN0WlJqNW1abl9wMnptY2hTSDA2VHUzNVFBLWVsTnRDYzZYQjBQS2VnZ2VBVVRNVHQwQTJiQ2dxSF92cHlFSENDQ1psZF9rM3plUE5mTzZtUWR0U1d0ZlZ3Z3NZRXBOX2ZQSGZXUTlKNkpHMHZ0amdoUg?oc=5\" target=\"_blank\">US budget deficit widens in July on higher outlays, negative tariff receipts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcUJ0U0RwQ2U2OHRKX1JZX1daaUdjR0ZMZWM5a0x3VndUUzJ0RFRTMTQ4ZHA1blZIYlVNWTZOeTUwa2QxcGQtVGpCRXN0WlJqNW1abl9wMnptY2hTSDA2VHUzNVFBLWVsTnRDYzZYQjBQS2VnZ2VBVVRNVHQwQTJiQ2dxSF92cHlFSENDQ1psZF9rM3plUE5mTzZtUWR0U1d0ZlZ3Z3NZRXBOX2ZQSGZXUTlKNkpHMHZ0amdoUg?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-14T07:06:52.898577Z"
-    },
-    {
-      "id": "9b05599057221675025080766631fe8a",
-      "title": "Trump administration finalizes ownership reporting exemption for US firms - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPVG9oY0s2YVpDSk11WE1VYUVWc3Z6eVZ1cjY3UXBMdGxVcVB0amROZXViRlJqenZYQ0VubW9iWEZEemxVczFVblRzSEZGY09XajRrQ1hQWU1Sc1FkZ3lzNHBXNG5ld0IzYWNtQjhrVUhWU3U0cG9KcE12VjZYUkJ1bjI2NEM4ZEE3RGpqdUdadXhfT005MjhuYmlNSWhnTEVoREJoZTNHTmpGa1RkRk12WXYwcUdJQU5PWkVZOUg0UQ?oc=5\" target=\"_blank\">Trump administration finalizes ownership reporting exemption for US firms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVG9oY0s2YVpDSk11WE1VYUVWc3Z6eVZ1cjY3UXBMdGxVcVB0amROZXViRlJqenZYQ0VubW9iWEZEemxVczFVblRzSEZGY09XajRrQ1hQWU1Sc1FkZ3lzNHBXNG5ld0IzYWNtQjhrVUhWU3U0cG9KcE12VjZYUkJ1bjI2NEM4ZEE3RGpqdUdadXhfT005MjhuYmlNSWhnTEVoREJoZTNHTmpGa1RkRk12WXYwcUdJQU5PWkVZOUg0UQ?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-14T07:06:52.898641Z"
-    },
-    {
-      "id": "b3aa5785ebd95e24b95006db3d55c764",
-      "title": "Yemen's Houthis say they attacked Saudi Aramco refinery in Jazan with two drones - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxPWVhsYXl4b0NkRk9GdFhWN0lBcU16ckh5aG9SakN2TzBSMGIxSVUxYm9TY3VndmdwM0YwMjlrTGZQMmNaTWJHTlhzZXFBM004ZHhsQm1wNDVMNFNfXzZtTVVFZXBaOWRNV3h2Wjc3dXZsbGlseE1LZ00wUno4ZkMwMGpOR3JxczRNaTlGdHZsWTd1a1lpZWNiQnBfYWl4TXhwQjNNRlRXeDhETTlrYkg3R01UeTJkQUdIbkhGN1dIVl85ZFpOdVF0ZlJB?oc=5\" target=\"_blank\">Yemen's Houthis say they attacked Saudi Aramco refinery in Jazan with two drones</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWVhsYXl4b0NkRk9GdFhWN0lBcU16ckh5aG9SakN2TzBSMGIxSVUxYm9TY3VndmdwM0YwMjlrTGZQMmNaTWJHTlhzZXFBM004ZHhsQm1wNDVMNFNfXzZtTVVFZXBaOWRNV3h2Wjc3dXZsbGlseE1LZ00wUno4ZkMwMGpOR3JxczRNaTlGdHZsWTd1a1lpZWNiQnBfYWl4TXhwQjNNRlRXeDhETTlrYkg3R01UeTJkQUdIbkhGN1dIVl85ZFpOdVF0ZlJB?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-14T07:06:52.898789Z"
-    },
-    {
-      "id": "afef1c5822e4425d1d4c096df405d7c1",
-      "title": "US yield curve twists expose Trump's and Bessent's rate dilemma - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQSVBHc1pKbnlleERzenJPUFlWUl9qdGQ0Mi1qNk9sSWRxVmdUaGxDMmtmVzBzSkVVZTM0cVFjVU1MbzhnM1lTV040SU1yTGtZTDRaWDBsSWZuN2Rodlg5M3c0NGlKc2ZlenRPdlJfTU9pbndXWG1Ra3BjVmhOZ0diX25YMDFncFhpMXI3emNlbWhobnNwRWpYRzJqaVlsaW03aHVDbU5LeXpBaXZSaGo1ZmVqU1Bkeno4LVlMbkR3d1d3b0kz?oc=5\" target=\"_blank\">US yield curve twists expose Trump's and Bessent's rate dilemma</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSVBHc1pKbnlleERzenJPUFlWUl9qdGQ0Mi1qNk9sSWRxVmdUaGxDMmtmVzBzSkVVZTM0cVFjVU1MbzhnM1lTV040SU1yTGtZTDRaWDBsSWZuN2Rodlg5M3c0NGlKc2ZlenRPdlJfTU9pbndXWG1Ra3BjVmhOZ0diX25YMDFncFhpMXI3emNlbWhobnNwRWpYRzJqaVlsaW03aHVDbU5LeXpBaXZSaGo1ZmVqU1Bkeno4LVlMbkR3d1d3b0kz?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-14T07:06:52.898850Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-14T07:11:52.562639Z"
     }
   ],
   "alerts": [
     {
-      "id": "fca9b6646e9b5845390714dd8db7f878",
-      "title": "Uber partners with China's Pony.ai for 2,000 robotaxis in Europe",
-      "summary": "The rollout comes as robotaxi fleet sizes become increasingly critical for commercialization.",
-      "link": "https://www.cnbc.com/2026/08/14/uber-partners-with-chinas-ponyai-for-2000-robotaxis-in-europe.html",
-      "source": "CNBC",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
+      "id": "8f58fa87158f8368d2b9c34ee13088e9",
+      "title": "Yen Edges Higher Against Dollar as Traders Weigh BOJ\u2019s Next Move",
+      "summary": "The yen strengthened amid growing speculation the Bank of Japan may raise interest rates in the coming months.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-14/yen-edges-higher-against-dollar-as-traders-weigh-boj-s-next-move",
+      "source": "Bloomberg",
+      "score": 38,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "EUR"
+        "DXY",
+        "JPY"
       ],
       "regions": [
-        "CHINA",
-        "EUROPE"
+        "JAPAN"
       ],
       "assets": [
         "AI",
         "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-14T07:11:28.109700Z"
+    },
+    {
+      "id": "3b3921d5f6300407b6667f20dbdb6c3b",
+      "title": "Trump-linked oil venture delays Greenland drilling plans after government warning - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5nNVlROF9TMkFoLXJzZXVFUllrV25sanREbFc4Tk5zQ0JGdUtubGMtc3FfZXhhOVpBVW05Z0N0ZzJfM3dzM1N6ZkVQUTl1V0w0aU50dkRvSFdZb3lGRXp4QlFwM2RGRWdEQnU3a3pMelpfbjRTdW84Y0NPejXSAYIBQVVfeXFMTUdNQV81MEswOVFWZXNkYUZKZkF6QnBvWjhrZHM3d2hBalRiQWF0dEF0dEVkT1ZlUGZ2LUw2aHBpQU5nLWE3amdCQVV5dy1KTnFxdl94b0RFT21yamdvb3JSVExGOXZGcFNLdzJyNDVMNVVXbzg2ZElJdURsU2oxR1hjQQ?oc=5\" target=\"_blank\">Trump-linked oil venture delays Greenland drilling plans after government warning</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5nNVlROF9TMkFoLXJzZXVFUllrV25sanREbFc4Tk5zQ0JGdUtubGMtc3FfZXhhOVpBVW05Z0N0ZzJfM3dzM1N6ZkVQUTl1V0w0aU50dkRvSFdZb3lGRXp4QlFwM2RGRWdEQnU3a3pMelpfbjRTdW84Y0NPejXSAYIBQVVfeXFMTUdNQV81MEswOVFWZXNkYUZKZkF6QnBvWjhrZHM3d2hBalRiQWF0dEF0dEVkT1ZlUGZ2LUw2aHBpQU5nLWE3amdCQVV5dy1KTnFxdl94b0RFT21yamdvb3JSVExGOXZGcFNLdzJyNDVMNVVXbzg2ZElJdURsU2oxR1hjQQ?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -265,19 +202,21 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-14T07:06:26.443723Z"
+      "published": "2026-08-14T07:11:55.594669Z"
     },
     {
-      "id": "93a97113bdea9f00dafd1a6f6bad37ae",
-      "title": "Myanmar civil war nears a rare opening for talks as diplomacy gains ground - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOa25IelZmaG1tdC1sbzBlODB6VFpxQXhLazhiUUZMWkd5aGprb0gzczZPdjFERXlpNlF5Yzdza3RzdklvdTlYSGZjS2xhWTNRVGREQkM3N2R0NUpnaURFbFdjeVpNeWVUYVd4V0E4ZUo4cXBReXdCR2pEcHpsdU12U1luQ1lBcTRMZVVITTlVTEJsZzdfeVdReG1aYVZDb25Fb3F6TW1Cb2REUWsxQTdwczdRalRmbk5GT0tqNA?oc=5\" target=\"_blank\">Myanmar civil war nears a rare opening for talks as diplomacy gains ground</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa25IelZmaG1tdC1sbzBlODB6VFpxQXhLazhiUUZMWkd5aGprb0gzczZPdjFERXlpNlF5Yzdza3RzdklvdTlYSGZjS2xhWTNRVGREQkM3N2R0NUpnaURFbFdjeVpNeWVUYVd4V0E4ZUo4cXBReXdCR2pEcHpsdU12U1luQ1lBcTRMZVVITTlVTEJsZzdfeVdReG1aYVZDb25Fb3F6TW1Cb2REUWsxQTdwczdRalRmbk5GT0tqNA?oc=5",
-      "source": "Google Macro",
+      "id": "1a935d3b868e7bf1a0002b27a2afafad",
+      "title": "Germany moves to give spy agencies hacking and sabotage powers",
+      "summary": "Germany\u2019s cabinet approved legislation that would let its intelligence agencies hack foreign systems, sabotage adversaries\u2019 supply chains and feed false information to extremists inside Germany, in the biggest overhaul of the country\u2019s spy laws of the postwar era.",
+      "link": "https://therecord.media/germany-spy-agency-powers",
+      "source": "The Record",
       "score": 15,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "GERMANY"
+      ],
       "assets": [
         "AI"
       ],
@@ -295,159 +234,34 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-14T07:06:52.898916Z"
+      "published": "2026-08-14T07:11:52.936375Z"
     },
     {
-      "id": "7e5dcb94712ea36276b85009c60f28a2",
-      "title": "Oil settles down 2% on weak demand outlook, hefty US crude build - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNRHRqOVFPR196RlJ0WTVZajZ6NHRpdmhmZ0EtSDMwTDVZVk5mX2JnVm9LVnFDQ2M4c08ybExVeldFQk9BdG9HVldTbnJFRDVjdTc3MF8wZmc4ck41bWd6Wng2SFowYjZrNW1UVzJuMDR4cnBUT0c2TXUteFR0cTFiVVY5bm5Da09NSDI4akNIcFY4NHRBRzkzNXNuZ1luQjNGUHFFdnVhT1RCNGlKMWx4MkgzdzhLdw?oc=5\" target=\"_blank\">Oil settles down 2% on weak demand outlook, hefty US crude build</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRHRqOVFPR196RlJ0WTVZajZ6NHRpdmhmZ0EtSDMwTDVZVk5mX2JnVm9LVnFDQ2M4c08ybExVeldFQk9BdG9HVldTbnJFRDVjdTc3MF8wZmc4ck41bWd6Wng2SFowYjZrNW1UVzJuMDR4cnBUT0c2TXUteFR0cTFiVVY5bm5Da09NSDI4akNIcFY4NHRBRzkzNXNuZ1luQjNGUHFFdnVhT1RCNGlKMWx4MkgzdzhLdw?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-14T07:06:52.898517Z"
-    },
-    {
-      "id": "ca9666c877d7f7a1d18c209fb3816842",
-      "title": "US auto loans hit record high in second quarter, New York Fed says - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxPc3I0VDd6ZnRQTjE3dmVYOHNUazFTMmVSR3NDTDBfbFo5bm56Z2pXRzNudU9KQUdfa05BTEh5V3BFWEhvM0hyMC0wWXBOd2ROZlhVS1dtNUxWS29Ld0RRVWh2UGFVdmZGSG5ONUxlZHpQV0JnMGlIX0c3alNRT3pGNjdzaF9sN21IN2ZkTVRLaWRITDl0Sm1wSFlNdVc5NC1zeEFBaXNuM2h2U1FQZG91M3RVVHBUdDFPSEdQc0xEMGtRbkhQaENlaDlHU2tJZjJTYU5DRjZBTFA5QQ?oc=5\" target=\"_blank\">US auto loans hit record high in second quarter, New York Fed says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPc3I0VDd6ZnRQTjE3dmVYOHNUazFTMmVSR3NDTDBfbFo5bm56Z2pXRzNudU9KQUdfa05BTEh5V3BFWEhvM0hyMC0wWXBOd2ROZlhVS1dtNUxWS29Ld0RRVWh2UGFVdmZGSG5ONUxlZHpQV0JnMGlIX0c3alNRT3pGNjdzaF9sN21IN2ZkTVRLaWRITDl0Sm1wSFlNdVc5NC1zeEFBaXNuM2h2U1FQZG91M3RVVHBUdDFPSEdQc0xEMGtRbkhQaENlaDlHU2tJZjJTYU5DRjZBTFA5QQ?oc=5",
-      "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-14T07:06:52.898724Z"
-    },
-    {
-      "id": "b59c184bd65121b31f88eb77562571fc",
-      "title": "US Treasury yields seen heading lower but strategists' conviction wavering - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOVDExTU5zM21TYmxjTGVKcXpONnA0WlRuTDJjdmplWXA3Z3BWaDlsWGZOdU0xd3lqc0NRQTJQV2hycXJGV0F3aVBTMm1KQk43VHlUM0FRazdGTTZVMnRUY3lyQzVsQWtkX2FPV2ZkN0ktVENJaFIyZUVkVHd2UDVGNVdDcFpOOXBMT3pvVXAzNUI1aVdvTXRwWnhpYUZ6cVJYbHM5UXNjZEFubFV6MXpxbzVIRmM?oc=5\" target=\"_blank\">US Treasury yields seen heading lower but strategists' conviction wavering</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVDExTU5zM21TYmxjTGVKcXpONnA0WlRuTDJjdmplWXA3Z3BWaDlsWGZOdU0xd3lqc0NRQTJQV2hycXJGV0F3aVBTMm1KQk43VHlUM0FRazdGTTZVMnRUY3lyQzVsQWtkX2FPV2ZkN0ktVENJaFIyZUVkVHd2UDVGNVdDcFpOOXBMT3pvVXAzNUI1aVdvTXRwWnhpYUZ6cVJYbHM5UXNjZEFubFV6MXpxbzVIRmM?oc=5",
-      "source": "Google Macro",
+      "id": "fe587d43902074c2025bc2bfd1b657dd",
+      "title": "Tether says KPMG issued \u2018clean\u2019 opinion in first full audit of USDT issuer\u2019s financials",
+      "summary": "KPMG U.S. issued an \"unqualified audit opinion\" on Tether International\u2019s full 2025 financial statements, Tether said Thursday.",
+      "link": "https://www.theblock.co/news/business/2026-08-13-tether-kpmg-first-full-audit-usdt-clean-opinion-411760",
+      "source": "The Block",
       "score": 5,
       "severity": "LOW",
-      "regime": "RATES",
+      "regime": "AI",
       "tickers": [
-        "TLT"
+        "DXY"
       ],
       "regions": [],
       "assets": [
-        "RATES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
+          "NVDA",
+          "SEMIS",
           "QQQ"
-        ]
+        ],
+        "bearish": []
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-14T07:06:52.898449Z"
-    },
-    {
-      "id": "6cc5bf46e771423eca8ab998c68598b3",
-      "title": "US budget deficit widens in July on higher outlays, negative tariff receipts - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQcUJ0U0RwQ2U2OHRKX1JZX1daaUdjR0ZMZWM5a0x3VndUUzJ0RFRTMTQ4ZHA1blZIYlVNWTZOeTUwa2QxcGQtVGpCRXN0WlJqNW1abl9wMnptY2hTSDA2VHUzNVFBLWVsTnRDYzZYQjBQS2VnZ2VBVVRNVHQwQTJiQ2dxSF92cHlFSENDQ1psZF9rM3plUE5mTzZtUWR0U1d0ZlZ3Z3NZRXBOX2ZQSGZXUTlKNkpHMHZ0amdoUg?oc=5\" target=\"_blank\">US budget deficit widens in July on higher outlays, negative tariff receipts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcUJ0U0RwQ2U2OHRKX1JZX1daaUdjR0ZMZWM5a0x3VndUUzJ0RFRTMTQ4ZHA1blZIYlVNWTZOeTUwa2QxcGQtVGpCRXN0WlJqNW1abl9wMnptY2hTSDA2VHUzNVFBLWVsTnRDYzZYQjBQS2VnZ2VBVVRNVHQwQTJiQ2dxSF92cHlFSENDQ1psZF9rM3plUE5mTzZtUWR0U1d0ZlZ3Z3NZRXBOX2ZQSGZXUTlKNkpHMHZ0amdoUg?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-14T07:06:52.898577Z"
-    },
-    {
-      "id": "9b05599057221675025080766631fe8a",
-      "title": "Trump administration finalizes ownership reporting exemption for US firms - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPVG9oY0s2YVpDSk11WE1VYUVWc3Z6eVZ1cjY3UXBMdGxVcVB0amROZXViRlJqenZYQ0VubW9iWEZEemxVczFVblRzSEZGY09XajRrQ1hQWU1Sc1FkZ3lzNHBXNG5ld0IzYWNtQjhrVUhWU3U0cG9KcE12VjZYUkJ1bjI2NEM4ZEE3RGpqdUdadXhfT005MjhuYmlNSWhnTEVoREJoZTNHTmpGa1RkRk12WXYwcUdJQU5PWkVZOUg0UQ?oc=5\" target=\"_blank\">Trump administration finalizes ownership reporting exemption for US firms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVG9oY0s2YVpDSk11WE1VYUVWc3Z6eVZ1cjY3UXBMdGxVcVB0amROZXViRlJqenZYQ0VubW9iWEZEemxVczFVblRzSEZGY09XajRrQ1hQWU1Sc1FkZ3lzNHBXNG5ld0IzYWNtQjhrVUhWU3U0cG9KcE12VjZYUkJ1bjI2NEM4ZEE3RGpqdUdadXhfT005MjhuYmlNSWhnTEVoREJoZTNHTmpGa1RkRk12WXYwcUdJQU5PWkVZOUg0UQ?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-14T07:06:52.898641Z"
-    },
-    {
-      "id": "b3aa5785ebd95e24b95006db3d55c764",
-      "title": "Yemen's Houthis say they attacked Saudi Aramco refinery in Jazan with two drones - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxPWVhsYXl4b0NkRk9GdFhWN0lBcU16ckh5aG9SakN2TzBSMGIxSVUxYm9TY3VndmdwM0YwMjlrTGZQMmNaTWJHTlhzZXFBM004ZHhsQm1wNDVMNFNfXzZtTVVFZXBaOWRNV3h2Wjc3dXZsbGlseE1LZ00wUno4ZkMwMGpOR3JxczRNaTlGdHZsWTd1a1lpZWNiQnBfYWl4TXhwQjNNRlRXeDhETTlrYkg3R01UeTJkQUdIbkhGN1dIVl85ZFpOdVF0ZlJB?oc=5\" target=\"_blank\">Yemen's Houthis say they attacked Saudi Aramco refinery in Jazan with two drones</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWVhsYXl4b0NkRk9GdFhWN0lBcU16ckh5aG9SakN2TzBSMGIxSVUxYm9TY3VndmdwM0YwMjlrTGZQMmNaTWJHTlhzZXFBM004ZHhsQm1wNDVMNFNfXzZtTVVFZXBaOWRNV3h2Wjc3dXZsbGlseE1LZ00wUno4ZkMwMGpOR3JxczRNaTlGdHZsWTd1a1lpZWNiQnBfYWl4TXhwQjNNRlRXeDhETTlrYkg3R01UeTJkQUdIbkhGN1dIVl85ZFpOdVF0ZlJB?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-14T07:06:52.898789Z"
-    },
-    {
-      "id": "afef1c5822e4425d1d4c096df405d7c1",
-      "title": "US yield curve twists expose Trump's and Bessent's rate dilemma - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQSVBHc1pKbnlleERzenJPUFlWUl9qdGQ0Mi1qNk9sSWRxVmdUaGxDMmtmVzBzSkVVZTM0cVFjVU1MbzhnM1lTV040SU1yTGtZTDRaWDBsSWZuN2Rodlg5M3c0NGlKc2ZlenRPdlJfTU9pbndXWG1Ra3BjVmhOZ0diX25YMDFncFhpMXI3emNlbWhobnNwRWpYRzJqaVlsaW03aHVDbU5LeXpBaXZSaGo1ZmVqU1Bkeno4LVlMbkR3d1d3b0kz?oc=5\" target=\"_blank\">US yield curve twists expose Trump's and Bessent's rate dilemma</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSVBHc1pKbnlleERzenJPUFlWUl9qdGQ0Mi1qNk9sSWRxVmdUaGxDMmtmVzBzSkVVZTM0cVFjVU1MbzhnM1lTV040SU1yTGtZTDRaWDBsSWZuN2Rodlg5M3c0NGlKc2ZlenRPdlJfTU9pbndXWG1Ra3BjVmhOZ0diX25YMDFncFhpMXI3emNlbWhobnNwRWpYRzJqaVlsaW03aHVDbU5LeXpBaXZSaGo1ZmVqU1Bkeno4LVlMbkR3d1d3b0kz?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-14T07:06:52.898850Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-14T07:11:52.562639Z"
     }
   ]
 }
