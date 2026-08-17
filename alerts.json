@@ -1,53 +1,225 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-17T19:17:21.010762Z",
+  "generated_at": "2026-08-17T19:22:16.069022Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-08-17T19:17:21.010774Z"
+    "critical_alerts": 1,
+    "high_alerts": 2,
+    "last_updated": "2026-08-17T19:22:16.069033Z"
   },
   "top_signals": [
     {
-      "id": "0be9163ca05103bccd0b5653e985d8e3",
-      "title": "Pok\u00e9mon Center data breach exposes customer info, cancels some orders",
-      "summary": "Pok\u00e9mon Center is notifying customers in the United Kingdom and Germany that it suffered a third-party data breach after hackers stole customer personal and order information from third-party logistics provider CEVA Logistics. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
-      "source": "BleepingComputer",
+      "id": "f3c6669508f1c33e4c231da1bb937e8f",
+      "title": "Brent oil rises above $90 as Iran rules out interim deal extension, threatens to escalate conflict",
+      "summary": "The U.S.-Iran deal was supposed to open the Strait of Hormuz while they negotiated a final deal on Tehran's nuclear program within 60 days.",
+      "link": "https://www.cnbc.com/2026/08/17/oil-prices-iran-war-strait-hormuz.html",
+      "source": "CNBC",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-17T19:21:47.796841Z"
+    },
+    {
+      "id": "a51bc19ff9fb3fe6a86f5abf58bb2a80",
+      "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "summary": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-17T19:21:48.264952Z"
+    },
+    {
+      "id": "a655913170f801cc32214a85d2745735",
+      "title": "Bowman, Responsible Innovation and Financial Inclusion",
+      "summary": "Speech At \u201cNext-Gen Financial Inclusion,\u201d the third annual Financial Inclusion Conference hosted by the Federal Reserve Board, Washington, D.C. (via pre-recorded video)",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-17T19:21:48.398688Z"
+    },
+    {
+      "id": "a609cc2e13658dbd453261a308b1fdab",
+      "title": "Meta and BlackRock\u2019s $14bn data centre exposes lenders to insurance gap - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxORGJoajVUdU1rWTVTVmh4YlVTczVIbG0xX3NjbjhXUmI1WDhnWlVVMEhwN3REOE9KQ0h1N0J4SXRVZ01IcFFZOXpqT3hRM09oSzF4dnk5eU1MelJqTURkWG0tMlNIVjBzRnlQMVItOVV2eUhYTXh1ajFUZW01Y0VPajZSdTA?oc=5\" target=\"_blank\">Meta and BlackRock\u2019s $14bn data centre exposes lenders to insurance gap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORGJoajVUdU1rWTVTVmh4YlVTczVIbG0xX3NjbjhXUmI1WDhnWlVVMEhwN3REOE9KQ0h1N0J4SXRVZ01IcFFZOXpqT3hRM09oSzF4dnk5eU1MelJqTURkWG0tMlNIVjBzRnlQMVItOVV2eUhYTXh1ajFUZW01Y0VPajZSdTA?oc=5",
+      "source": "Google Macro",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [
-        "GERMANY"
-      ],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-17T19:17:17.232795Z"
+      "published": "2026-08-17T19:22:14.909672Z"
     }
   ],
   "alerts": [
     {
-      "id": "0be9163ca05103bccd0b5653e985d8e3",
-      "title": "Pok\u00e9mon Center data breach exposes customer info, cancels some orders",
-      "summary": "Pok\u00e9mon Center is notifying customers in the United Kingdom and Germany that it suffered a third-party data breach after hackers stole customer personal and order information from third-party logistics provider CEVA Logistics. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
-      "source": "BleepingComputer",
+      "id": "f3c6669508f1c33e4c231da1bb937e8f",
+      "title": "Brent oil rises above $90 as Iran rules out interim deal extension, threatens to escalate conflict",
+      "summary": "The U.S.-Iran deal was supposed to open the Strait of Hormuz while they negotiated a final deal on Tehran's nuclear program within 60 days.",
+      "link": "https://www.cnbc.com/2026/08/17/oil-prices-iran-war-strait-hormuz.html",
+      "source": "CNBC",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-17T19:21:47.796841Z"
+    },
+    {
+      "id": "a51bc19ff9fb3fe6a86f5abf58bb2a80",
+      "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "summary": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-17T19:21:48.264952Z"
+    },
+    {
+      "id": "a655913170f801cc32214a85d2745735",
+      "title": "Bowman, Responsible Innovation and Financial Inclusion",
+      "summary": "Speech At \u201cNext-Gen Financial Inclusion,\u201d the third annual Financial Inclusion Conference hosted by the Federal Reserve Board, Washington, D.C. (via pre-recorded video)",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-17T19:21:48.398688Z"
+    },
+    {
+      "id": "a609cc2e13658dbd453261a308b1fdab",
+      "title": "Meta and BlackRock\u2019s $14bn data centre exposes lenders to insurance gap - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxORGJoajVUdU1rWTVTVmh4YlVTczVIbG0xX3NjbjhXUmI1WDhnWlVVMEhwN3REOE9KQ0h1N0J4SXRVZ01IcFFZOXpqT3hRM09oSzF4dnk5eU1MelJqTURkWG0tMlNIVjBzRnlQMVItOVV2eUhYTXh1ajFUZW01Y0VPajZSdTA?oc=5\" target=\"_blank\">Meta and BlackRock\u2019s $14bn data centre exposes lenders to insurance gap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORGJoajVUdU1rWTVTVmh4YlVTczVIbG0xX3NjbjhXUmI1WDhnWlVVMEhwN3REOE9KQ0h1N0J4SXRVZ01IcFFZOXpqT3hRM09oSzF4dnk5eU1MelJqTURkWG0tMlNIVjBzRnlQMVItOVV2eUhYTXh1ajFUZW01Y0VPajZSdTA?oc=5",
+      "source": "Google Macro",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [
-        "GERMANY"
-      ],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-17T19:17:17.232795Z"
+      "published": "2026-08-17T19:22:14.909672Z"
     }
   ]
 }
