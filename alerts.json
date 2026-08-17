@@ -1,33 +1,35 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-17T20:07:09.214410Z",
+  "generated_at": "2026-08-17T20:12:03.635632Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 2,
-    "last_updated": "2026-08-17T20:07:09.214418Z"
+    "critical_alerts": 1,
+    "high_alerts": 1,
+    "last_updated": "2026-08-17T20:12:03.635650Z"
   },
   "top_signals": [
     {
-      "id": "760362b3453146472c026ee33cacf67a",
-      "title": "Brent oil rises above $90 as Iran rules out interim deal extension, threatens to escalate conflict - cnbc.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9DeURSb2RBZ010MURVZDdZV3p4ckVPdHBtZy1BeElkRlhWbGVheERZdWplcUN1dlNkbVpITmV0bHk0aGlIejcwU2ZqbTZiUUtTN09kMVBsSzVGaEk0SG9qM3ppRk5WYWVjVmExOFo4UWtoRWtKTkswT1B3?oc=5\" target=\"_blank\">Brent oil rises above $90 as Iran rules out interim deal extension, threatens to escalate conflict</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cnbc.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DeURSb2RBZ010MURVZDdZV3p4ckVPdHBtZy1BeElkRlhWbGVheERZdWplcUN1dlNkbVpITmV0bHk0aGlIejcwU2ZqbTZiUUtTN09kMVBsSzVGaEk0SG9qM3ppRk5WYWVjVmExOFo4UWtoRWtKTkswT1B3?oc=5",
-      "source": "Google Macro",
-      "score": 24,
-      "severity": "HIGH",
+      "id": "ffef0b3324c9f691a2b980966e7cacd8",
+      "title": "\u2018Everybody loves a winner\u2019: US-Ukraine intel sharing surges as Kyiv racks up wins",
+      "summary": "U.S. intelligence sharing with Ukraine has rebounded to full strength as Kyiv\u2019s mid- and deep-range strikes continue to hammer Russia\u2019s oil industry.",
+      "link": "https://www.defensenews.com/global/europe/2026/08/17/everybody-loves-a-winner-us-ukraine-intel-sharing-surges-as-kyiv-racks-up-wins/",
+      "source": "Defense News",
+      "score": 33,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
       "tickers": [
-        "BRENT",
         "WTI"
       ],
       "regions": [
-        "MIDDLE_EAST"
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
       ],
       "assets": [
+        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
@@ -44,118 +46,166 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-17T20:07:09.214310Z"
+      "published": "2026-08-17T20:11:59.026335Z"
     },
     {
-      "id": "fc58f699d26524f45f8f01e60acb883d",
-      "title": "DATA CENTER BOOM: Why freight demand is stronger than you think",
-      "summary": "<p>Don&#8217;t let traditional metrics fool you. Dr. Jason Miller uncovers how an explosion in data center construction is quietly fueling significant freight demand, often going unnoticed by conventional measures. We dive into how this overlooked sector is influencing the market and what it means for capacity and rates in the near future. Plus, what Federal [&#8230;]</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/data-center-boom-why-freight-demand-is-stronger-than-you-think\">DATA CENTER BOOM: Why freight demand is stronger than you think</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/data-center-boom-why-freight-demand-is-stronger-than-you-think",
-      "source": "FreightWaves",
-      "score": 21,
+      "id": "dc8f668bbc0d0ea06cee0b63c08e3332",
+      "title": "Nvidia's stock has started to come alive. Here's 3 reasons why it can continue",
+      "summary": "The leading AI chipmaker has rebounded since late July.",
+      "link": "https://www.cnbc.com/2026/08/17/nvidias-stock-has-started-to-come-alive-heres-3-reasons-why-it-can-continue-.html",
+      "source": "CNBC",
+      "score": 17,
       "severity": "HIGH",
-      "regime": "RATES",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-17T20:11:37.558095Z"
+    },
+    {
+      "id": "9880e3a929fa64e9dc7384207f1377a4",
+      "title": "Tom Lee's Bitmine now owns 4.8% of Ethereum supply after latest ETH purchase",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/08/17/tom-lee-s-bitmine-now-owns-4-8-of-ethereum-supply-after-latest-eth-purchase",
+      "source": "CoinDesk",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "ETH"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-08-17T20:12:00.233529Z"
+    },
+    {
+      "id": "af5e7767960cf2b8e5f953d753a5cd49",
+      "title": "The Coldcard hack proves reputation is not a security model",
+      "summary": "",
+      "link": "https://www.coindesk.com/opinion/2026/08/17/the-coldcard-hack-proves-reputation-is-not-a-security-model",
+      "source": "CoinDesk",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-17T20:07:02.826704Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-17T20:12:00.233490Z"
     },
     {
-      "id": "e4035991e9de08f06fac377fbe6625bf",
-      "title": "Won and yen: 2 currencies, 2 very different problems",
-      "summary": "",
-      "link": "https://asia.nikkei.com/opinion/won-and-yen-2-currencies-2-very-different-problems",
-      "source": "Nikkei Asia",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "JPY"
-      ],
-      "regions": [],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-17T20:06:59.553757Z"
-    },
-    {
-      "id": "b5043221cb036187d0829c9005831b0a",
-      "title": "OpenAI President Greg Brockman: Compute is becoming the new oil of the AI age - cnbc.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVXpNWmxwZ2xNYjVyd0h4OHlwcWlyelZFZlJOOUtzV0k1WExuRGgzZFJyb2ZrRWVjLUlGSWdUX0VzdDZOS3ZrT21KZndMQUc1VVNZUk5Cd19KQm5TYU4yZERhUnFmNG44ZXEweEVKSTJmdnhyQ2puVHg1SEoxRldBeFB1dHlFczAySEZ6X2k0QXNLWThDay15RkQ2MEtGdTloRmotS2xtcnVKODIwcVhIZ0FHeXZnUjA0ZlN3?oc=5\" target=\"_blank\">OpenAI President Greg Brockman: Compute is becoming the new oil of the AI age</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cnbc.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVXpNWmxwZ2xNYjVyd0h4OHlwcWlyelZFZlJOOUtzV0k1WExuRGgzZFJyb2ZrRWVjLUlGSWdUX0VzdDZOS3ZrT21KZndMQUc1VVNZUk5Cd19KQm5TYU4yZERhUnFmNG44ZXEweEVKSTJmdnhyQ2puVHg1SEoxRldBeFB1dHlFczAySEZ6X2k0QXNLWThDay15RkQ2MEtGdTloRmotS2xtcnVKODIwcVhIZ0FHeXZnUjA0ZlN3?oc=5",
-      "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
+      "id": "d0e671cff08bcd322477fc12f893c077",
+      "title": "Labour backbencher adds to criticism of stamp duty on shares",
+      "summary": "<p> <img alt=\"Callum Anderson said the UK should review the &quot;merits&quot; of stamp duty on shares.\" src=\"https://www.cityam.com/wp-content/uploads/2026/08/Callum-Anderson-e1786972213405.jpeg?w=1107\" /> </p>A Labour backbencher with experience in the financial services sector has urged Healey to reconsider stamp duty on shares in UK trading.\u00a0 Callum Anderson, the Labour MP for Buckingham and Bletchley, set out a list of growth policies for Healey to prioritise at the Budget. The proposals break from some of the party\u2019s current economic <a href=\"https://www.cityam.com/labour-backbencher-adds-to-criticism-of-stamp-duty-on-shares/\">[...]</a>",
+      "link": "https://www.cityam.com/labour-backbencher-adds-to-criticism-of-stamp-duty-on-shares/",
+      "source": "CityAM",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
       "regions": [
         "UK"
       ],
       "assets": [
-        "AI",
-        "COMMODITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-17T20:07:09.214403Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-17T20:11:53.810411Z"
+    },
+    {
+      "id": "9695a6aeac65990eae53688a07fe19f8",
+      "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
+      "summary": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privilege, implicit trust, and treating PKI as the Tier 0 identity infrastructure it has always been. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-17T20:12:00.536319Z"
+    },
+    {
+      "id": "fa9f46db813c8f3774df65d05d655f63",
+      "title": "Trump Family\u2019s World Liberty Financial Gets Preliminary Approval to Launch a Bank - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWlQwM214bWI1eFkwOTl0NzBjaXFVaVh3MXdKVXhrV1V5S2lJclVkTlZNNVVhNkJQS0tGMlZmV0YtSGxYWG1LOGtvRUpmaUNBbWdRYk55S3RicDZfc0ZOTnNlbnBzSFJtck43dG5jUTcwOFFfeGhld0Q1RndTalF2UENtVzFZTVAyMFpndWduckVMM2ZEV2RTOWFVZUdJdVNTRTBBVnFGOW9ZR3haV053MlR6Mnc5RURn?oc=5\" target=\"_blank\">Trump Family\u2019s World Liberty Financial Gets Preliminary Approval to Launch a Bank</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWlQwM214bWI1eFkwOTl0NzBjaXFVaVh3MXdKVXhrV1V5S2lJclVkTlZNNVVhNkJQS0tGMlZmV0YtSGxYWG1LOGtvRUpmaUNBbWdRYk55S3RicDZfc0ZOTnNlbnBzSFJtck43dG5jUTcwOFFfeGhld0Q1RndTalF2UENtVzFZTVAyMFpndWduckVMM2ZEV2RTOWFVZUdJdVNTRTBBVnFGOW9ZR3haV053MlR6Mnc5RURn?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-17T20:12:03.011791Z"
     }
   ],
   "alerts": [
     {
-      "id": "760362b3453146472c026ee33cacf67a",
-      "title": "Brent oil rises above $90 as Iran rules out interim deal extension, threatens to escalate conflict - cnbc.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9DeURSb2RBZ010MURVZDdZV3p4ckVPdHBtZy1BeElkRlhWbGVheERZdWplcUN1dlNkbVpITmV0bHk0aGlIejcwU2ZqbTZiUUtTN09kMVBsSzVGaEk0SG9qM3ppRk5WYWVjVmExOFo4UWtoRWtKTkswT1B3?oc=5\" target=\"_blank\">Brent oil rises above $90 as Iran rules out interim deal extension, threatens to escalate conflict</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cnbc.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DeURSb2RBZ010MURVZDdZV3p4ckVPdHBtZy1BeElkRlhWbGVheERZdWplcUN1dlNkbVpITmV0bHk0aGlIejcwU2ZqbTZiUUtTN09kMVBsSzVGaEk0SG9qM3ppRk5WYWVjVmExOFo4UWtoRWtKTkswT1B3?oc=5",
-      "source": "Google Macro",
-      "score": 24,
-      "severity": "HIGH",
+      "id": "ffef0b3324c9f691a2b980966e7cacd8",
+      "title": "\u2018Everybody loves a winner\u2019: US-Ukraine intel sharing surges as Kyiv racks up wins",
+      "summary": "U.S. intelligence sharing with Ukraine has rebounded to full strength as Kyiv\u2019s mid- and deep-range strikes continue to hammer Russia\u2019s oil industry.",
+      "link": "https://www.defensenews.com/global/europe/2026/08/17/everybody-loves-a-winner-us-ukraine-intel-sharing-surges-as-kyiv-racks-up-wins/",
+      "source": "Defense News",
+      "score": 33,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
       "tickers": [
-        "BRENT",
         "WTI"
       ],
       "regions": [
-        "MIDDLE_EAST"
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
       ],
       "assets": [
+        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
@@ -172,98 +222,144 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-17T20:07:09.214310Z"
+      "published": "2026-08-17T20:11:59.026335Z"
     },
     {
-      "id": "fc58f699d26524f45f8f01e60acb883d",
-      "title": "DATA CENTER BOOM: Why freight demand is stronger than you think",
-      "summary": "<p>Don&#8217;t let traditional metrics fool you. Dr. Jason Miller uncovers how an explosion in data center construction is quietly fueling significant freight demand, often going unnoticed by conventional measures. We dive into how this overlooked sector is influencing the market and what it means for capacity and rates in the near future. Plus, what Federal [&#8230;]</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/data-center-boom-why-freight-demand-is-stronger-than-you-think\">DATA CENTER BOOM: Why freight demand is stronger than you think</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/data-center-boom-why-freight-demand-is-stronger-than-you-think",
-      "source": "FreightWaves",
-      "score": 21,
+      "id": "dc8f668bbc0d0ea06cee0b63c08e3332",
+      "title": "Nvidia's stock has started to come alive. Here's 3 reasons why it can continue",
+      "summary": "The leading AI chipmaker has rebounded since late July.",
+      "link": "https://www.cnbc.com/2026/08/17/nvidias-stock-has-started-to-come-alive-heres-3-reasons-why-it-can-continue-.html",
+      "source": "CNBC",
+      "score": 17,
       "severity": "HIGH",
-      "regime": "RATES",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-17T20:11:37.558095Z"
+    },
+    {
+      "id": "9880e3a929fa64e9dc7384207f1377a4",
+      "title": "Tom Lee's Bitmine now owns 4.8% of Ethereum supply after latest ETH purchase",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/08/17/tom-lee-s-bitmine-now-owns-4-8-of-ethereum-supply-after-latest-eth-purchase",
+      "source": "CoinDesk",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "ETH"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-08-17T20:12:00.233529Z"
+    },
+    {
+      "id": "af5e7767960cf2b8e5f953d753a5cd49",
+      "title": "The Coldcard hack proves reputation is not a security model",
+      "summary": "",
+      "link": "https://www.coindesk.com/opinion/2026/08/17/the-coldcard-hack-proves-reputation-is-not-a-security-model",
+      "source": "CoinDesk",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-17T20:07:02.826704Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-17T20:12:00.233490Z"
     },
     {
-      "id": "e4035991e9de08f06fac377fbe6625bf",
-      "title": "Won and yen: 2 currencies, 2 very different problems",
-      "summary": "",
-      "link": "https://asia.nikkei.com/opinion/won-and-yen-2-currencies-2-very-different-problems",
-      "source": "Nikkei Asia",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "JPY"
-      ],
-      "regions": [],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-17T20:06:59.553757Z"
-    },
-    {
-      "id": "b5043221cb036187d0829c9005831b0a",
-      "title": "OpenAI President Greg Brockman: Compute is becoming the new oil of the AI age - cnbc.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVXpNWmxwZ2xNYjVyd0h4OHlwcWlyelZFZlJOOUtzV0k1WExuRGgzZFJyb2ZrRWVjLUlGSWdUX0VzdDZOS3ZrT21KZndMQUc1VVNZUk5Cd19KQm5TYU4yZERhUnFmNG44ZXEweEVKSTJmdnhyQ2puVHg1SEoxRldBeFB1dHlFczAySEZ6X2k0QXNLWThDay15RkQ2MEtGdTloRmotS2xtcnVKODIwcVhIZ0FHeXZnUjA0ZlN3?oc=5\" target=\"_blank\">OpenAI President Greg Brockman: Compute is becoming the new oil of the AI age</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cnbc.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVXpNWmxwZ2xNYjVyd0h4OHlwcWlyelZFZlJOOUtzV0k1WExuRGgzZFJyb2ZrRWVjLUlGSWdUX0VzdDZOS3ZrT21KZndMQUc1VVNZUk5Cd19KQm5TYU4yZERhUnFmNG44ZXEweEVKSTJmdnhyQ2puVHg1SEoxRldBeFB1dHlFczAySEZ6X2k0QXNLWThDay15RkQ2MEtGdTloRmotS2xtcnVKODIwcVhIZ0FHeXZnUjA0ZlN3?oc=5",
-      "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
+      "id": "d0e671cff08bcd322477fc12f893c077",
+      "title": "Labour backbencher adds to criticism of stamp duty on shares",
+      "summary": "<p> <img alt=\"Callum Anderson said the UK should review the &quot;merits&quot; of stamp duty on shares.\" src=\"https://www.cityam.com/wp-content/uploads/2026/08/Callum-Anderson-e1786972213405.jpeg?w=1107\" /> </p>A Labour backbencher with experience in the financial services sector has urged Healey to reconsider stamp duty on shares in UK trading.\u00a0 Callum Anderson, the Labour MP for Buckingham and Bletchley, set out a list of growth policies for Healey to prioritise at the Budget. The proposals break from some of the party\u2019s current economic <a href=\"https://www.cityam.com/labour-backbencher-adds-to-criticism-of-stamp-duty-on-shares/\">[...]</a>",
+      "link": "https://www.cityam.com/labour-backbencher-adds-to-criticism-of-stamp-duty-on-shares/",
+      "source": "CityAM",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
       "regions": [
         "UK"
       ],
       "assets": [
-        "AI",
-        "COMMODITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-08-17T20:07:09.214403Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-17T20:11:53.810411Z"
+    },
+    {
+      "id": "9695a6aeac65990eae53688a07fe19f8",
+      "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
+      "summary": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privilege, implicit trust, and treating PKI as the Tier 0 identity infrastructure it has always been. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-17T20:12:00.536319Z"
+    },
+    {
+      "id": "fa9f46db813c8f3774df65d05d655f63",
+      "title": "Trump Family\u2019s World Liberty Financial Gets Preliminary Approval to Launch a Bank - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWlQwM214bWI1eFkwOTl0NzBjaXFVaVh3MXdKVXhrV1V5S2lJclVkTlZNNVVhNkJQS0tGMlZmV0YtSGxYWG1LOGtvRUpmaUNBbWdRYk55S3RicDZfc0ZOTnNlbnBzSFJtck43dG5jUTcwOFFfeGhld0Q1RndTalF2UENtVzFZTVAyMFpndWduckVMM2ZEV2RTOWFVZUdJdVNTRTBBVnFGOW9ZR3haV053MlR6Mnc5RURn?oc=5\" target=\"_blank\">Trump Family\u2019s World Liberty Financial Gets Preliminary Approval to Launch a Bank</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWlQwM214bWI1eFkwOTl0NzBjaXFVaVh3MXdKVXhrV1V5S2lJclVkTlZNNVVhNkJQS0tGMlZmV0YtSGxYWG1LOGtvRUpmaUNBbWdRYk55S3RicDZfc0ZOTnNlbnBzSFJtck43dG5jUTcwOFFfeGhld0Q1RndTalF2UENtVzFZTVAyMFpndWduckVMM2ZEV2RTOWFVZUdJdVNTRTBBVnFGOW9ZR3haV053MlR6Mnc5RURn?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-17T20:12:03.011791Z"
     }
   ]
 }
