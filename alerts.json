@@ -1,15 +1,661 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-18T03:57:00.775523Z",
+  "generated_at": "2026-08-18T04:02:26.228543Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-08-18T03:57:00.775531Z"
+    "high_alerts": 2,
+    "last_updated": "2026-08-18T04:02:26.228558Z"
   },
-  "top_signals": [],
-  "alerts": []
+  "top_signals": [
+    {
+      "id": "44250b8b87dd073eb64796fc6d15464a",
+      "title": "The End of the American Middle East",
+      "summary": "Iran and the last gasp of a failed order.",
+      "link": "https://www.foreignaffairs.com/united-states/end-american-middle-east-iran-marc-lynch",
+      "source": "Foreign Affairs",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-18T04:02:20.740838Z"
+    },
+    {
+      "id": "92811a4369388d5b05e4206c0642eb3c",
+      "title": "Congo Ebola Outbreak: Financial Oversight Takes Priority as Distrust Grows",
+      "summary": "Ebola is reviving suspicions of profiteering in eastern Democratic Republic of Congo, where distrust over how response money is handled is undermining the community cooperation needed to contain the world\u2019s fastest-growing outbreak.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-18/congo-ebola-outbreak-financial-oversight-takes-priority-as-distrust-grows",
+      "source": "Bloomberg",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-18T04:01:51.083877Z"
+    },
+    {
+      "id": "f53734a8098c4a7bf48941a3ea3abfbd",
+      "title": "Chip boom pushes Vietnam, Philippines closer to 'high-income' status",
+      "summary": "",
+      "link": "https://asia.nikkei.com/economy/chip-boom-pushes-vietnam-philippines-closer-to-high-income-status2",
+      "source": "Nikkei Asia",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-08-18T04:02:16.171499Z"
+    },
+    {
+      "id": "bd6ee16f3c331735e1962d6d95b6bc70",
+      "title": "Chinese Companies Slow FX Sales in July as Yuan Support Fades",
+      "summary": "Net sales of foreign exchange by Chinese companies fell to a eight-month low in July, suggesting a key source of support for the yuan is fading.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-18/chinese-companies-slow-fx-sales-in-july-as-yuan-support-fades",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-18T04:01:51.083930Z"
+    },
+    {
+      "id": "d14b4a844139fd871b308e638038327d",
+      "title": "Japan Five-Year Bond Sale Draws Strongest Demand Since June 2025",
+      "summary": "Japan\u2019s five-year government bond auction Tuesday saw the strongest demand since June 2025, as elevated yields underpinned buying.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-18/japan-five-year-bond-sale-draws-strongest-demand-since-june-2025",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-18T04:01:51.083999Z"
+    },
+    {
+      "id": "9f37984f631db8f7e3a7ccdc53f9bed8",
+      "title": "Iran says it will escalate if US does not honour deal within weeks - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ19NRUJoZTZ6N2V4Q2RUejU0UTRHc2dqa0ltemFkMUpKSkNEVmlPTmZxcUg2VkxycU1TN1l6STVpeXFvTTJHNlR4S3lnVTBkVmVUVExtUm1faHVrR0lmdWJyc0kzSjVBU0xBWEc4TFBlMmlvLU1NcHg5aDNBaDJUcWpETTJldHRoQzdhT2FUa3dINjVDd2J1UGFNcVd0VEp6cW43T3AxbmNjbzBfc3JCRWxjWGZEVWtFZEIwdQ?oc=5\" target=\"_blank\">Iran says it will escalate if US does not honour deal within weeks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ19NRUJoZTZ6N2V4Q2RUejU0UTRHc2dqa0ltemFkMUpKSkNEVmlPTmZxcUg2VkxycU1TN1l6STVpeXFvTTJHNlR4S3lnVTBkVmVUVExtUm1faHVrR0lmdWJyc0kzSjVBU0xBWEc4TFBlMmlvLU1NcHg5aDNBaDJUcWpETTJldHRoQzdhT2FUa3dINjVDd2J1UGFNcVd0VEp6cW43T3AxbmNjbzBfc3JCRWxjWGZEVWtFZEIwdQ?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-18T04:02:24.067518Z"
+    },
+    {
+      "id": "a6b8f01e7176b714d111d2127373d1a3",
+      "title": "How China Found Its Most Potent Weapon",
+      "summary": "The real history of Beijing\u2019s rare-earth dominance.",
+      "link": "https://www.foreignaffairs.com/china/how-china-found-most-potent-weapon-xiong-weiss",
+      "source": "Foreign Affairs",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-18T04:02:20.740705Z"
+    },
+    {
+      "id": "8c7cf6bd7330732e15ed01607e3ccab3",
+      "title": "America\u2019s Missing Military Revolution",
+      "summary": "Why Washington still risks losing the tech race.",
+      "link": "https://www.foreignaffairs.com/united-states/americas-missing-military-revolution-doug-beck",
+      "source": "Foreign Affairs",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-18T04:02:20.740809Z"
+    },
+    {
+      "id": "b2dbf450be3c7aadeca3b01fc11126d7",
+      "title": "Democracies Need Creative Destruction",
+      "summary": "How to make government work again.",
+      "link": "https://www.foreignaffairs.com/united-states/democracies-need-creative-destruction-pahlka-greenway",
+      "source": "Foreign Affairs",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-18T04:02:20.740744Z"
+    },
+    {
+      "id": "68b0cfbbf1ba13a91afc337adb8bd602",
+      "title": "AI and the New Age of Bioweapons",
+      "summary": "Preparing for a world of synthetic pathogens.",
+      "link": "https://www.foreignaffairs.com/united-states/ai-and-new-age-bioweapons-sherwood-randall",
+      "source": "Foreign Affairs",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-18T04:02:20.740773Z"
+    },
+    {
+      "id": "dd66f584bdf18b995e8d6add7ad11061",
+      "title": "How Alliances Survive",
+      "summary": "The case against pessimism and the path to a new allied order.",
+      "link": "https://www.foreignaffairs.com/united-states/how-alliances-survive-campbell-doshi",
+      "source": "Foreign Affairs",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-18T04:02:20.740886Z"
+    },
+    {
+      "id": "050927344abab5e83a5960bde7b42e95",
+      "title": "Domestic policies are choking UK businesses",
+      "summary": "<p> <img alt=\"\" src=\"https://www.cityam.com/wp-content/uploads/2026/08/City-of-London-skyline-20000-e1786980555587.jpg?w=1107\" /> </p>The last decade of domestic policy decisions has created a towering cost stack that is choking business growth, writes Shevaun Haviland.",
+      "link": "https://www.cityam.com/domestic-policies-are-choking-uk-businesses/",
+      "source": "CityAM",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-18T04:02:15.192313Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "44250b8b87dd073eb64796fc6d15464a",
+      "title": "The End of the American Middle East",
+      "summary": "Iran and the last gasp of a failed order.",
+      "link": "https://www.foreignaffairs.com/united-states/end-american-middle-east-iran-marc-lynch",
+      "source": "Foreign Affairs",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-18T04:02:20.740838Z"
+    },
+    {
+      "id": "92811a4369388d5b05e4206c0642eb3c",
+      "title": "Congo Ebola Outbreak: Financial Oversight Takes Priority as Distrust Grows",
+      "summary": "Ebola is reviving suspicions of profiteering in eastern Democratic Republic of Congo, where distrust over how response money is handled is undermining the community cooperation needed to contain the world\u2019s fastest-growing outbreak.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-18/congo-ebola-outbreak-financial-oversight-takes-priority-as-distrust-grows",
+      "source": "Bloomberg",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-18T04:01:51.083877Z"
+    },
+    {
+      "id": "f53734a8098c4a7bf48941a3ea3abfbd",
+      "title": "Chip boom pushes Vietnam, Philippines closer to 'high-income' status",
+      "summary": "",
+      "link": "https://asia.nikkei.com/economy/chip-boom-pushes-vietnam-philippines-closer-to-high-income-status2",
+      "source": "Nikkei Asia",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-08-18T04:02:16.171499Z"
+    },
+    {
+      "id": "bd6ee16f3c331735e1962d6d95b6bc70",
+      "title": "Chinese Companies Slow FX Sales in July as Yuan Support Fades",
+      "summary": "Net sales of foreign exchange by Chinese companies fell to a eight-month low in July, suggesting a key source of support for the yuan is fading.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-18/chinese-companies-slow-fx-sales-in-july-as-yuan-support-fades",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-18T04:01:51.083930Z"
+    },
+    {
+      "id": "d14b4a844139fd871b308e638038327d",
+      "title": "Japan Five-Year Bond Sale Draws Strongest Demand Since June 2025",
+      "summary": "Japan\u2019s five-year government bond auction Tuesday saw the strongest demand since June 2025, as elevated yields underpinned buying.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-18/japan-five-year-bond-sale-draws-strongest-demand-since-june-2025",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-18T04:01:51.083999Z"
+    },
+    {
+      "id": "9f37984f631db8f7e3a7ccdc53f9bed8",
+      "title": "Iran says it will escalate if US does not honour deal within weeks - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ19NRUJoZTZ6N2V4Q2RUejU0UTRHc2dqa0ltemFkMUpKSkNEVmlPTmZxcUg2VkxycU1TN1l6STVpeXFvTTJHNlR4S3lnVTBkVmVUVExtUm1faHVrR0lmdWJyc0kzSjVBU0xBWEc4TFBlMmlvLU1NcHg5aDNBaDJUcWpETTJldHRoQzdhT2FUa3dINjVDd2J1UGFNcVd0VEp6cW43T3AxbmNjbzBfc3JCRWxjWGZEVWtFZEIwdQ?oc=5\" target=\"_blank\">Iran says it will escalate if US does not honour deal within weeks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ19NRUJoZTZ6N2V4Q2RUejU0UTRHc2dqa0ltemFkMUpKSkNEVmlPTmZxcUg2VkxycU1TN1l6STVpeXFvTTJHNlR4S3lnVTBkVmVUVExtUm1faHVrR0lmdWJyc0kzSjVBU0xBWEc4TFBlMmlvLU1NcHg5aDNBaDJUcWpETTJldHRoQzdhT2FUa3dINjVDd2J1UGFNcVd0VEp6cW43T3AxbmNjbzBfc3JCRWxjWGZEVWtFZEIwdQ?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-18T04:02:24.067518Z"
+    },
+    {
+      "id": "a6b8f01e7176b714d111d2127373d1a3",
+      "title": "How China Found Its Most Potent Weapon",
+      "summary": "The real history of Beijing\u2019s rare-earth dominance.",
+      "link": "https://www.foreignaffairs.com/china/how-china-found-most-potent-weapon-xiong-weiss",
+      "source": "Foreign Affairs",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-18T04:02:20.740705Z"
+    },
+    {
+      "id": "8c7cf6bd7330732e15ed01607e3ccab3",
+      "title": "America\u2019s Missing Military Revolution",
+      "summary": "Why Washington still risks losing the tech race.",
+      "link": "https://www.foreignaffairs.com/united-states/americas-missing-military-revolution-doug-beck",
+      "source": "Foreign Affairs",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-18T04:02:20.740809Z"
+    },
+    {
+      "id": "b2dbf450be3c7aadeca3b01fc11126d7",
+      "title": "Democracies Need Creative Destruction",
+      "summary": "How to make government work again.",
+      "link": "https://www.foreignaffairs.com/united-states/democracies-need-creative-destruction-pahlka-greenway",
+      "source": "Foreign Affairs",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-18T04:02:20.740744Z"
+    },
+    {
+      "id": "68b0cfbbf1ba13a91afc337adb8bd602",
+      "title": "AI and the New Age of Bioweapons",
+      "summary": "Preparing for a world of synthetic pathogens.",
+      "link": "https://www.foreignaffairs.com/united-states/ai-and-new-age-bioweapons-sherwood-randall",
+      "source": "Foreign Affairs",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-18T04:02:20.740773Z"
+    },
+    {
+      "id": "dd66f584bdf18b995e8d6add7ad11061",
+      "title": "How Alliances Survive",
+      "summary": "The case against pessimism and the path to a new allied order.",
+      "link": "https://www.foreignaffairs.com/united-states/how-alliances-survive-campbell-doshi",
+      "source": "Foreign Affairs",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-18T04:02:20.740886Z"
+    },
+    {
+      "id": "050927344abab5e83a5960bde7b42e95",
+      "title": "Domestic policies are choking UK businesses",
+      "summary": "<p> <img alt=\"\" src=\"https://www.cityam.com/wp-content/uploads/2026/08/City-of-London-skyline-20000-e1786980555587.jpg?w=1107\" /> </p>The last decade of domestic policy decisions has created a towering cost stack that is choking business growth, writes Shevaun Haviland.",
+      "link": "https://www.cityam.com/domestic-policies-are-choking-uk-businesses/",
+      "source": "CityAM",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-18T04:02:15.192313Z"
+    },
+    {
+      "id": "da4afb1f536ee05000e816a20f518c9a",
+      "title": "London\u2019s Square Mile needs its own major sports venue to keep up with rivals",
+      "summary": "<p> <img alt=\"The City of London&#039;s Square Mile needs a major sports venue of its own\" src=\"https://www.cityam.com/wp-content/uploads/2026/08/GettyImages-2257561432-e1786979930725.jpg?w=1107\" /> </p>As sport ramps up after a summer break, Simon Hunt argues that the Square Mile needs its own major sports venue &#8211; for the sake of the City of London&#8217;s future. Picture the scene: it&#8217;s just hit 5:30pm on a sunny Thursday evening in the office. You and your colleagues look around for something to <a href=\"https://www.cityam.com/londons-square-mile-needs-its-own-major-sports-venue-to-keep-up-with-rivals/\">[...]</a>",
+      "link": "https://www.cityam.com/londons-square-mile-needs-its-own-major-sports-venue-to-keep-up-with-rivals/",
+      "source": "CityAM",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-18T04:02:15.192429Z"
+    },
+    {
+      "id": "d236377799c6417f540f1964b9a47181",
+      "title": "The Abandoned Order",
+      "summary": "Learning to live in a post-American world.",
+      "link": "https://www.foreignaffairs.com/united-states/abandoned-order-world-mark-leonard",
+      "source": "Foreign Affairs",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-18T04:02:20.740911Z"
+    }
+  ]
 }
