@@ -1,52 +1,92 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-18T01:22:19.257206Z",
+  "generated_at": "2026-08-18T01:27:08.804718Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-08-18T01:22:19.257220Z"
+    "critical_alerts": 1,
+    "high_alerts": 3,
+    "last_updated": "2026-08-18T01:27:08.804735Z"
   },
   "top_signals": [
     {
-      "id": "f713c14c96c354a94ad9c32fc1dc3bd7",
-      "title": "American Cruise Lines Announces Names for Two Riverboats",
-      "summary": "American Cruise Lines has announced the names of two more U.S.-built small ships: American Beauty, a new riverboat for the Mississippi that will launch in 2028, and American Rhapsody, another new riverboat for the Columbia and Snake Rivers that\u2026",
-      "link": "https://www.marinelink.com/news/american-cruise-lines-announces-names-two-542178",
-      "source": "MarineLink",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [
-        "US"
+      "id": "f3c6669508f1c33e4c231da1bb937e8f",
+      "title": "Brent oil rises above $90 as Iran rules out interim deal extension, threatens to escalate conflict",
+      "summary": "The U.S.-Iran deal was supposed to open the Strait of Hormuz while they negotiated a final deal on Tehran's nuclear program within 60 days.",
+      "link": "https://www.cnbc.com/2026/08/17/oil-prices-iran-war-strait-hormuz.html",
+      "source": "CNBC",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
       ],
-      "assets": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-18T01:22:12.923835Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-18T01:26:38.000882Z"
     },
     {
-      "id": "0b209fde34447c2d4fe0dc524cefcf24",
-      "title": "Citadel Securities Says Spiking Yields Reflect Fed Policy Risk - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPSlZXVGVDWm91NXBvRnRXWU9KNmd0bWhEX1dQLVZTek9Md3BpUUQ4UzgzVEFKamZ0NU9OckNuRnRBMVdMQXlnRFhjSWNOR0NVb29rRFFJZDhmeXRxc0R2ZGNpLTVnOEZUZFVrN05nUTVTMVVHNDlzbkFIcFIxLWRwQ3g2dmozVVV1YW1LTmsxU1ZXaHhJUm5NMjlZZ2RoaHZ5TlVfbzRBdUtSaFlBdjB6VDdLSQ?oc=5\" target=\"_blank\">Citadel Securities Says Spiking Yields Reflect Fed Policy Risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSlZXVGVDWm91NXBvRnRXWU9KNmd0bWhEX1dQLVZTek9Md3BpUUQ4UzgzVEFKamZ0NU9OckNuRnRBMVdMQXlnRFhjSWNOR0NVb29rRFFJZDhmeXRxc0R2ZGNpLTVnOEZUZFVrN05nUTVTMVVHNDlzbkFIcFIxLWRwQ3g2dmozVVV1YW1LTmsxU1ZXaHhJUm5NMjlZZ2RoaHZ5TlVfbzRBdUtSaFlBdjB6VDdLSQ?oc=5",
+      "id": "dde6c324e441de0defa5b50f4319ac5a",
+      "title": "Asian Refiners Ask to Pick Up Saudi Oil Outside Risky Red Sea - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQQi1heWM5RWRWZG9NVExydXlzSGQtdnVQcWFhQ0cxOUZ2ZzVaRGhXRHhtLVBqekc5Zy1mY3lPdm1iV1FnQVBFdkpieS12bHBRdld0YUpaMXJIZ2U1eTlUTjN5RGJyMXU1WW9aa2xqbjNKdzFjRlhzQmk0OFN1cThya1lNWjZOejNYNE1oUTZ1TnJkbF8tR1ZsREtEOW9LZl9TUnlQVjNRSHUteUoyYlJxU2F3?oc=5\" target=\"_blank\">Asian Refiners Ask to Pick Up Saudi Oil Outside Risky Red Sea</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQi1heWM5RWRWZG9NVExydXlzSGQtdnVQcWFhQ0cxOUZ2ZzVaRGhXRHhtLVBqekc5Zy1mY3lPdm1iV1FnQVBFdkpieS12bHBRdld0YUpaMXJIZ2U1eTlUTjN5RGJyMXU1WW9aa2xqbjNKdzFjRlhzQmk0OFN1cThya1lNWjZOejNYNE1oUTZ1TnJkbF8tR1ZsREtEOW9LZl9TUnlQVjNRSHUteUoyYlJxU2F3?oc=5",
       "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-18T01:27:06.392553Z"
+    },
+    {
+      "id": "a51bc19ff9fb3fe6a86f5abf58bb2a80",
+      "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "summary": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
       "regions": [],
@@ -63,19 +103,47 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-18T01:22:16.727422Z"
+      "published": "2026-08-18T01:26:38.133079Z"
     },
     {
-      "id": "dae5085396f1ce01d0d9418bae13de98",
-      "title": "Rodri arrives at Barcelona to complete \u2018dream\u2019 move",
-      "summary": "Spain's World Cup-winning captain is signing a contract with the La Liga champions as one of the transfer sagas of the summer draws to its conclusion.",
-      "link": "https://www.japantimes.co.jp/sports/2026/08/18/soccer/rodri-barcelona-dream-move/",
-      "source": "Japan Times",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
+      "id": "a655913170f801cc32214a85d2745735",
+      "title": "Bowman, Responsible Innovation and Financial Inclusion",
+      "summary": "Speech At \u201cNext-Gen Financial Inclusion,\u201d the third annual Financial Inclusion Conference hosted by the Federal Reserve Board, Washington, D.C. (via pre-recorded video)",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-18T01:26:38.399113Z"
+    },
+    {
+      "id": "02663e75d03047c490639a44a7d7f2df",
+      "title": "Japan Inc. raises full-year profit forecast to 14% jump on AI and chips",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/companies/japan-inc.-raises-full-year-profit-forecast-to-14-jump-on-ai-and-chips",
+      "source": "Nikkei Asia",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [
         "AI"
       ],
@@ -88,64 +156,122 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-18T01:22:09.431309Z"
+      "published": "2026-08-18T01:27:00.118468Z"
     },
     {
-      "id": "0be9163ca05103bccd0b5653e985d8e3",
-      "title": "Pok\u00e9mon Center data breach exposes customer info, cancels some orders",
-      "summary": "Pok\u00e9mon Center is notifying customers in the United Kingdom and Germany that it suffered a third-party data breach after hackers stole customer personal and order information from third-party logistics provider CEVA Logistics. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
-      "source": "BleepingComputer",
+      "id": "0bba100812740296eae6f7787e210176",
+      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&#038;T customers.",
+      "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "source": "KrebsOnSecurity",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-18T01:27:05.564651Z"
+    },
+    {
+      "id": "2cffbbca8258af416cf326280d7410ba",
+      "title": "WSJ Dollar Index Falls 0.07% to 95.96 - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOc0FYc2lMa29DWjE2eUVZRDh3Nk1EZTBrYUFDbmdqSG5VRS1HbXdwdlgtc2NfTWRYYjY4U0t6STIwbFJ5ZGFsVGJKZldmYmhteTRqWlkxM3VQZFVaekdBTk8wQ1JwQVZWeVlKUXRyajN6dVp1aGhCNUNjckN5d0pLTUZ3Qjh3c1NjZ0s2N1M1VkxscmFmZUhxZXNxVkZ1ME9xZGNRcU1HaUJyUkJ0Qk9MbWtCZDc0QQ?oc=5\" target=\"_blank\">WSJ Dollar Index Falls 0.07% to 95.96</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOc0FYc2lMa29DWjE2eUVZRDh3Nk1EZTBrYUFDbmdqSG5VRS1HbXdwdlgtc2NfTWRYYjY4U0t6STIwbFJ5ZGFsVGJKZldmYmhteTRqWlkxM3VQZFVaekdBTk8wQ1JwQVZWeVlKUXRyajN6dVp1aGhCNUNjckN5d0pLTUZ3Qjh3c1NjZ0s2N1M1VkxscmFmZUhxZXNxVkZ1ME9xZGNRcU1HaUJyUkJ0Qk9MbWtCZDc0QQ?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "DXY"
+      ],
       "regions": [
-        "GERMANY"
+        "UK"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-18T01:22:15.158547Z"
+      "published": "2026-08-18T01:27:08.196456Z"
     }
   ],
   "alerts": [
     {
-      "id": "f713c14c96c354a94ad9c32fc1dc3bd7",
-      "title": "American Cruise Lines Announces Names for Two Riverboats",
-      "summary": "American Cruise Lines has announced the names of two more U.S.-built small ships: American Beauty, a new riverboat for the Mississippi that will launch in 2028, and American Rhapsody, another new riverboat for the Columbia and Snake Rivers that\u2026",
-      "link": "https://www.marinelink.com/news/american-cruise-lines-announces-names-two-542178",
-      "source": "MarineLink",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [
-        "US"
+      "id": "f3c6669508f1c33e4c231da1bb937e8f",
+      "title": "Brent oil rises above $90 as Iran rules out interim deal extension, threatens to escalate conflict",
+      "summary": "The U.S.-Iran deal was supposed to open the Strait of Hormuz while they negotiated a final deal on Tehran's nuclear program within 60 days.",
+      "link": "https://www.cnbc.com/2026/08/17/oil-prices-iran-war-strait-hormuz.html",
+      "source": "CNBC",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
       ],
-      "assets": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-18T01:22:12.923835Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-18T01:26:38.000882Z"
     },
     {
-      "id": "0b209fde34447c2d4fe0dc524cefcf24",
-      "title": "Citadel Securities Says Spiking Yields Reflect Fed Policy Risk - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPSlZXVGVDWm91NXBvRnRXWU9KNmd0bWhEX1dQLVZTek9Md3BpUUQ4UzgzVEFKamZ0NU9OckNuRnRBMVdMQXlnRFhjSWNOR0NVb29rRFFJZDhmeXRxc0R2ZGNpLTVnOEZUZFVrN05nUTVTMVVHNDlzbkFIcFIxLWRwQ3g2dmozVVV1YW1LTmsxU1ZXaHhJUm5NMjlZZ2RoaHZ5TlVfbzRBdUtSaFlBdjB6VDdLSQ?oc=5\" target=\"_blank\">Citadel Securities Says Spiking Yields Reflect Fed Policy Risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSlZXVGVDWm91NXBvRnRXWU9KNmd0bWhEX1dQLVZTek9Md3BpUUQ4UzgzVEFKamZ0NU9OckNuRnRBMVdMQXlnRFhjSWNOR0NVb29rRFFJZDhmeXRxc0R2ZGNpLTVnOEZUZFVrN05nUTVTMVVHNDlzbkFIcFIxLWRwQ3g2dmozVVV1YW1LTmsxU1ZXaHhJUm5NMjlZZ2RoaHZ5TlVfbzRBdUtSaFlBdjB6VDdLSQ?oc=5",
+      "id": "dde6c324e441de0defa5b50f4319ac5a",
+      "title": "Asian Refiners Ask to Pick Up Saudi Oil Outside Risky Red Sea - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQQi1heWM5RWRWZG9NVExydXlzSGQtdnVQcWFhQ0cxOUZ2ZzVaRGhXRHhtLVBqekc5Zy1mY3lPdm1iV1FnQVBFdkpieS12bHBRdld0YUpaMXJIZ2U1eTlUTjN5RGJyMXU1WW9aa2xqbjNKdzFjRlhzQmk0OFN1cThya1lNWjZOejNYNE1oUTZ1TnJkbF8tR1ZsREtEOW9LZl9TUnlQVjNRSHUteUoyYlJxU2F3?oc=5\" target=\"_blank\">Asian Refiners Ask to Pick Up Saudi Oil Outside Risky Red Sea</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQi1heWM5RWRWZG9NVExydXlzSGQtdnVQcWFhQ0cxOUZ2ZzVaRGhXRHhtLVBqekc5Zy1mY3lPdm1iV1FnQVBFdkpieS12bHBRdld0YUpaMXJIZ2U1eTlUTjN5RGJyMXU1WW9aa2xqbjNKdzFjRlhzQmk0OFN1cThya1lNWjZOejNYNE1oUTZ1TnJkbF8tR1ZsREtEOW9LZl9TUnlQVjNRSHUteUoyYlJxU2F3?oc=5",
       "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-18T01:27:06.392553Z"
+    },
+    {
+      "id": "a51bc19ff9fb3fe6a86f5abf58bb2a80",
+      "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "summary": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
       "regions": [],
@@ -162,19 +288,47 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-18T01:22:16.727422Z"
+      "published": "2026-08-18T01:26:38.133079Z"
     },
     {
-      "id": "dae5085396f1ce01d0d9418bae13de98",
-      "title": "Rodri arrives at Barcelona to complete \u2018dream\u2019 move",
-      "summary": "Spain's World Cup-winning captain is signing a contract with the La Liga champions as one of the transfer sagas of the summer draws to its conclusion.",
-      "link": "https://www.japantimes.co.jp/sports/2026/08/18/soccer/rodri-barcelona-dream-move/",
-      "source": "Japan Times",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
+      "id": "a655913170f801cc32214a85d2745735",
+      "title": "Bowman, Responsible Innovation and Financial Inclusion",
+      "summary": "Speech At \u201cNext-Gen Financial Inclusion,\u201d the third annual Financial Inclusion Conference hosted by the Federal Reserve Board, Washington, D.C. (via pre-recorded video)",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-18T01:26:38.399113Z"
+    },
+    {
+      "id": "02663e75d03047c490639a44a7d7f2df",
+      "title": "Japan Inc. raises full-year profit forecast to 14% jump on AI and chips",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/companies/japan-inc.-raises-full-year-profit-forecast-to-14-jump-on-ai-and-chips",
+      "source": "Nikkei Asia",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [
         "AI"
       ],
@@ -187,25 +341,43 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-18T01:22:09.431309Z"
+      "published": "2026-08-18T01:27:00.118468Z"
     },
     {
-      "id": "0be9163ca05103bccd0b5653e985d8e3",
-      "title": "Pok\u00e9mon Center data breach exposes customer info, cancels some orders",
-      "summary": "Pok\u00e9mon Center is notifying customers in the United Kingdom and Germany that it suffered a third-party data breach after hackers stole customer personal and order information from third-party logistics provider CEVA Logistics. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
-      "source": "BleepingComputer",
+      "id": "0bba100812740296eae6f7787e210176",
+      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&#038;T customers.",
+      "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "source": "KrebsOnSecurity",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-18T01:27:05.564651Z"
+    },
+    {
+      "id": "2cffbbca8258af416cf326280d7410ba",
+      "title": "WSJ Dollar Index Falls 0.07% to 95.96 - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOc0FYc2lMa29DWjE2eUVZRDh3Nk1EZTBrYUFDbmdqSG5VRS1HbXdwdlgtc2NfTWRYYjY4U0t6STIwbFJ5ZGFsVGJKZldmYmhteTRqWlkxM3VQZFVaekdBTk8wQ1JwQVZWeVlKUXRyajN6dVp1aGhCNUNjckN5d0pLTUZ3Qjh3c1NjZ0s2N1M1VkxscmFmZUhxZXNxVkZ1ME9xZGNRcU1HaUJyUkJ0Qk9MbWtCZDc0QQ?oc=5\" target=\"_blank\">WSJ Dollar Index Falls 0.07% to 95.96</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOc0FYc2lMa29DWjE2eUVZRDh3Nk1EZTBrYUFDbmdqSG5VRS1HbXdwdlgtc2NfTWRYYjY4U0t6STIwbFJ5ZGFsVGJKZldmYmhteTRqWlkxM3VQZFVaekdBTk8wQ1JwQVZWeVlKUXRyajN6dVp1aGhCNUNjckN5d0pLTUZ3Qjh3c1NjZ0s2N1M1VkxscmFmZUhxZXNxVkZ1ME9xZGNRcU1HaUJyUkJ0Qk9MbWtCZDc0QQ?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "DXY"
+      ],
       "regions": [
-        "GERMANY"
+        "UK"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-18T01:22:15.158547Z"
+      "published": "2026-08-18T01:27:08.196456Z"
     }
   ]
 }
