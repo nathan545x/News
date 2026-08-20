@@ -1,84 +1,60 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-20T16:57:02.726048Z",
+  "generated_at": "2026-08-20T17:02:49.587108Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GENERAL",
+    "dominant_driver": "GENERAL",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 2,
-    "last_updated": "2026-08-20T16:57:02.726059Z"
+    "critical_alerts": 1,
+    "high_alerts": 0,
+    "last_updated": "2026-08-20T17:02:49.587124Z"
   },
   "top_signals": [
     {
-      "id": "060917bc73bfa966b3724ede5e753a4e",
-      "title": "Federal Reserve issues FOMC statement",
-      "summary": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-      "source": "Federal Reserve",
-      "score": 23,
-      "severity": "HIGH",
+      "id": "5d5e3282e307b9bfee7a779b89dd0e1f",
+      "title": "Citi Turns Negative on Dollar After Warning on US Buyback Risk",
+      "summary": "Currency strategists at Citigroup Inc. turned bearish on the US dollar in the near term, as markets gear up for a less hawkish Federal Reserve, midterm elections and more debt buybacks from the US Treasury.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-20/citi-turns-negative-on-dollar-after-warning-on-us-buyback-risk",
+      "source": "Bloomberg",
+      "score": 29,
+      "severity": "CRITICAL",
       "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-20T16:56:33.270008Z"
-    },
-    {
-      "id": "159909f65346c98531118c63862e9170",
-      "title": "ECB publishes consolidated banking data for end-March 2026",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260807~58eb5109ce.en.html",
-      "source": "ECB",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-20T16:56:46.001137Z"
-    },
-    {
-      "id": "8644af7a34755be0a3e10d8aecd96e77",
-      "title": "Cash remains most widely accepted payment method in euro area",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260813~389729d6a9.en.html",
-      "source": "ECB",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "AI",
       "tickers": [
-        "EUR"
+        "DXY",
+        "TLT"
       ],
       "regions": [],
       "assets": [
-        "AI",
-        "FX"
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-20T17:02:15.922687Z"
+    },
+    {
+      "id": "2a34f6865ac67fbf20f444efd31dc760",
+      "title": "Alibaba AI outlays dent profit despite best revenue growth in years",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/technology/alibaba-ai-outlays-dent-profit-despite-best-revenue-growth-in-years",
+      "source": "Nikkei Asia",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -89,72 +65,14 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-20T16:56:46.001096Z"
+      "published": "2026-08-20T17:02:40.938059Z"
     },
     {
-      "id": "4fc4003fb9b9a7383396833c8c3fba4e",
-      "title": "Bitcoin rally sparks debate whether Clarity Act is already priced in",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/20/crypto-s-bottom-is-near-as-ai-hype-fades-okx-europe-ceo-says",
-      "source": "CoinDesk",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-08-20T16:56:59.176475Z"
-    },
-    {
-      "id": "af3e25d4dc0d206058d53ea1ef9f450a",
-      "title": "How AI Could Hollow Out the U.S. Military",
-      "summary": "The best soldiers know how to think for themselves.",
-      "link": "https://www.foreignaffairs.com/united-states/how-ai-could-hollow-out-us-military",
-      "source": "Foreign Affairs",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-20T16:56:58.543278Z"
-    },
-    {
-      "id": "c8fd31ad71d02648e33b758ac11ad599",
-      "title": "Cook, Outlook for the U.S. and Alaskan Economies",
-      "summary": "Speech At the 2026 Economic Luncheon of the Anchorage Economic Development Corporation, Anchorage, Alaska",
-      "link": "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm",
-      "source": "Federal Reserve",
+      "id": "786907f30e78c136699f145e49978212",
+      "title": "Guidance: Guidelines for becoming a NISTA assurance reviewer",
+      "summary": "Guidance and forms for civil servants who want to become an independent assurance reviewer for the National Infrastructure and Service Transformation Authority.",
+      "link": "https://www.gov.uk/government/publications/how-to-become-an-independent-assurance-reviewer",
+      "source": "HM Treasury",
       "score": 10,
       "severity": "MEDIUM",
       "regime": "GENERAL",
@@ -163,22 +81,215 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-20T16:56:33.413144Z"
+      "published": "2026-08-20T17:02:36.441483Z"
+    },
+    {
+      "id": "b7a0f3d5d4755694a6c7224464d4c7d6",
+      "title": "Guidance: Assurance Review: administration",
+      "summary": "These documents support the Review Team, Programme/Project managers and SROs with administration leading up to, and during, the Assurance Review.",
+      "link": "https://www.gov.uk/government/publications/sro-briefing-note-relevant-documentation",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-20T17:02:36.441530Z"
+    },
+    {
+      "id": "35a8033dfcfe98354e1f5792c3bd8476",
+      "title": "Guidance: Programme Team and Senior Responsible Owners: briefing note",
+      "summary": "This note provides the Senior Responsible Owner and Programme/Project Manager with key information about their role in a forthcoming assurance review",
+      "link": "https://www.gov.uk/government/publications/ppm-briefing-note-relevant-documentation",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-20T17:02:36.441572Z"
+    },
+    {
+      "id": "e1a599e7fccebf2b10830e7d7a4d723f",
+      "title": "Guidance: Implementing integrated assurance for major projects",
+      "summary": "Guidance for departments on integrated assurance and approval plans and integrated assurance strategies.",
+      "link": "https://www.gov.uk/government/publications/implementing-integrated-assurance-for-major-projects",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-20T17:02:36.441609Z"
+    },
+    {
+      "id": "30cb13aca34c1dee078170247211cca5",
+      "title": "Guidance: Assurance of benefits realisation in major projects",
+      "summary": "Guidance for departments and review teams on best practice in benefits management for the assurance review process.",
+      "link": "https://www.gov.uk/government/publications/assurance-of-benefits-realisation-in-major-projects",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-20T17:02:36.441647Z"
+    },
+    {
+      "id": "7c131c43f8e1d706485b6227a8116509",
+      "title": "Form: Risk potential assessment form",
+      "summary": "Use the risk potential assessment form to initiate a project validation review, a project assessment review or an OGC Gateway review.",
+      "link": "https://www.gov.uk/government/publications/risk-potential-assessment-form",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-20T17:02:36.441684Z"
+    },
+    {
+      "id": "b2e71d72e20dd8b147b55ce576873e2d",
+      "title": "The most useful part of a toll charge is not the amount",
+      "summary": "<p>A toll transaction records a time, a location, a lane, a vehicle, and a plate. It reaches most fleets as a single line on a monthly bill. Everything except the dollar figure gets set aside. It is the least useful part of the record. Consider two fleets running similar lanes in one region under identical [&#8230;]</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/the-most-useful-part-of-a-toll-charge-is-not-the-amount\">The most useful part of a toll charge is not the amount</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/the-most-useful-part-of-a-toll-charge-is-not-the-amount",
+      "source": "FreightWaves",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-20T17:02:43.953018Z"
+    },
+    {
+      "id": "ebd0f9db563e41f55fa7d4daa9fc8fb6",
+      "title": "Norway\u2019s Oil Output Falls Nearly 200,000 Bpd as Gulf Supply Crisis Drags On",
+      "summary": "Norway\u2019s crude oil production averaged 1.776 million barrels per day in July, according to preliminary figures from the Norwegian Offshore Directorate. The country also produced 183,000 barrels per day of natural gas liquids and 17,000 barrels per day of condensate, bringing total liquids production to 1.976 million barrels per day. The year-over-year comparison is striking. Norway produced 1.971 million barrels per day of crude in July 2025, according to the Directorate\u2019s latest revised figures. Crude output was therefore down by approximately\u2026",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Norways-Oil-Output-Falls-Nearly-200000-Bpd-as-Gulf-Supply-Crisis-Drags-On.html",
+      "source": "OilPrice",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-20T17:02:43.407817Z"
+    },
+    {
+      "id": "bc242d0ce81e663f2cb602bdb20c4298",
+      "title": "Chinese Refiners Snap Up Iraqi Oil as More Supplies Exit Hormuz - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNSmhvcWxvVFZRN1hpSWtBWmRsWGVLcFFhMlRmUjJ0QXYzLVh1T0Y5eDJlbExrTEVnTy1WWC1lcmRLVWpTbkpCQVRIVWN2NThqUjU2eklxQmFfUm9zRzRwVUpOTlQ0XzFONG4xd1JELWFJQllTZTRfOGFOaFJMbkpfaXhkWGdHU1Q0RUx3b1lhU0JSYk1GRm4zZmlqRDNyeVVhbXlFMjB6eS1sWkFJLUtWTmY5d18?oc=5\" target=\"_blank\">Chinese Refiners Snap Up Iraqi Oil as More Supplies Exit Hormuz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSmhvcWxvVFZRN1hpSWtBWmRsWGVLcFFhMlRmUjJ0QXYzLVh1T0Y5eDJlbExrTEVnTy1WWC1lcmRLVWpTbkpCQVRIVWN2NThqUjU2eklxQmFfUm9zRzRwVUpOTlQ0XzFONG4xd1JELWFJQllTZTRfOGFOaFJMbkpfaXhkWGdHU1Q0RUx3b1lhU0JSYk1GRm4zZmlqRDNyeVVhbXlFMjB6eS1sWkFJLUtWTmY5d18?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-20T17:02:47.388559Z"
+    },
+    {
+      "id": "a92d9ed998101b949e7e755b28979e62",
+      "title": "LVMH-backed L Catterton to buy Japan investment adviser",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/business-deals/lvmh-backed-l-catterton-to-buy-japan-investment-adviser",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-20T17:02:40.937992Z"
     }
   ],
   "alerts": [
     {
-      "id": "060917bc73bfa966b3724ede5e753a4e",
-      "title": "Federal Reserve issues FOMC statement",
-      "summary": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-      "source": "Federal Reserve",
-      "score": 23,
-      "severity": "HIGH",
+      "id": "5d5e3282e307b9bfee7a779b89dd0e1f",
+      "title": "Citi Turns Negative on Dollar After Warning on US Buyback Risk",
+      "summary": "Currency strategists at Citigroup Inc. turned bearish on the US dollar in the near term, as markets gear up for a less hawkish Federal Reserve, midterm elections and more debt buybacks from the US Treasury.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-20/citi-turns-negative-on-dollar-after-warning-on-us-buyback-risk",
+      "source": "Bloomberg",
+      "score": 29,
+      "severity": "CRITICAL",
       "regime": "RATES",
-      "tickers": [],
+      "tickers": [
+        "DXY",
+        "TLT"
+      ],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "RATES"
+      ],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -191,47 +302,268 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-20T16:56:33.270008Z"
+      "published": "2026-08-20T17:02:15.922687Z"
     },
     {
-      "id": "159909f65346c98531118c63862e9170",
-      "title": "ECB publishes consolidated banking data for end-March 2026",
+      "id": "2a34f6865ac67fbf20f444efd31dc760",
+      "title": "Alibaba AI outlays dent profit despite best revenue growth in years",
       "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260807~58eb5109ce.en.html",
-      "source": "ECB",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-20T16:56:46.001137Z"
-    },
-    {
-      "id": "8644af7a34755be0a3e10d8aecd96e77",
-      "title": "Cash remains most widely accepted payment method in euro area",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260813~389729d6a9.en.html",
-      "source": "ECB",
-      "score": 14,
+      "link": "https://asia.nikkei.com/business/technology/alibaba-ai-outlays-dent-profit-despite-best-revenue-growth-in-years",
+      "source": "Nikkei Asia",
+      "score": 11,
       "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-08-20T17:02:40.938059Z"
+    },
+    {
+      "id": "786907f30e78c136699f145e49978212",
+      "title": "Guidance: Guidelines for becoming a NISTA assurance reviewer",
+      "summary": "Guidance and forms for civil servants who want to become an independent assurance reviewer for the National Infrastructure and Service Transformation Authority.",
+      "link": "https://www.gov.uk/government/publications/how-to-become-an-independent-assurance-reviewer",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-20T17:02:36.441483Z"
+    },
+    {
+      "id": "b7a0f3d5d4755694a6c7224464d4c7d6",
+      "title": "Guidance: Assurance Review: administration",
+      "summary": "These documents support the Review Team, Programme/Project managers and SROs with administration leading up to, and during, the Assurance Review.",
+      "link": "https://www.gov.uk/government/publications/sro-briefing-note-relevant-documentation",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-20T17:02:36.441530Z"
+    },
+    {
+      "id": "35a8033dfcfe98354e1f5792c3bd8476",
+      "title": "Guidance: Programme Team and Senior Responsible Owners: briefing note",
+      "summary": "This note provides the Senior Responsible Owner and Programme/Project Manager with key information about their role in a forthcoming assurance review",
+      "link": "https://www.gov.uk/government/publications/ppm-briefing-note-relevant-documentation",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-20T17:02:36.441572Z"
+    },
+    {
+      "id": "e1a599e7fccebf2b10830e7d7a4d723f",
+      "title": "Guidance: Implementing integrated assurance for major projects",
+      "summary": "Guidance for departments on integrated assurance and approval plans and integrated assurance strategies.",
+      "link": "https://www.gov.uk/government/publications/implementing-integrated-assurance-for-major-projects",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-20T17:02:36.441609Z"
+    },
+    {
+      "id": "30cb13aca34c1dee078170247211cca5",
+      "title": "Guidance: Assurance of benefits realisation in major projects",
+      "summary": "Guidance for departments and review teams on best practice in benefits management for the assurance review process.",
+      "link": "https://www.gov.uk/government/publications/assurance-of-benefits-realisation-in-major-projects",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-20T17:02:36.441647Z"
+    },
+    {
+      "id": "7c131c43f8e1d706485b6227a8116509",
+      "title": "Form: Risk potential assessment form",
+      "summary": "Use the risk potential assessment form to initiate a project validation review, a project assessment review or an OGC Gateway review.",
+      "link": "https://www.gov.uk/government/publications/risk-potential-assessment-form",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-20T17:02:36.441684Z"
+    },
+    {
+      "id": "b2e71d72e20dd8b147b55ce576873e2d",
+      "title": "The most useful part of a toll charge is not the amount",
+      "summary": "<p>A toll transaction records a time, a location, a lane, a vehicle, and a plate. It reaches most fleets as a single line on a monthly bill. Everything except the dollar figure gets set aside. It is the least useful part of the record. Consider two fleets running similar lanes in one region under identical [&#8230;]</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/the-most-useful-part-of-a-toll-charge-is-not-the-amount\">The most useful part of a toll charge is not the amount</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/the-most-useful-part-of-a-toll-charge-is-not-the-amount",
+      "source": "FreightWaves",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-20T17:02:43.953018Z"
+    },
+    {
+      "id": "ebd0f9db563e41f55fa7d4daa9fc8fb6",
+      "title": "Norway\u2019s Oil Output Falls Nearly 200,000 Bpd as Gulf Supply Crisis Drags On",
+      "summary": "Norway\u2019s crude oil production averaged 1.776 million barrels per day in July, according to preliminary figures from the Norwegian Offshore Directorate. The country also produced 183,000 barrels per day of natural gas liquids and 17,000 barrels per day of condensate, bringing total liquids production to 1.976 million barrels per day. The year-over-year comparison is striking. Norway produced 1.971 million barrels per day of crude in July 2025, according to the Directorate\u2019s latest revised figures. Crude output was therefore down by approximately\u2026",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Norways-Oil-Output-Falls-Nearly-200000-Bpd-as-Gulf-Supply-Crisis-Drags-On.html",
+      "source": "OilPrice",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-20T17:02:43.407817Z"
+    },
+    {
+      "id": "bc242d0ce81e663f2cb602bdb20c4298",
+      "title": "Chinese Refiners Snap Up Iraqi Oil as More Supplies Exit Hormuz - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNSmhvcWxvVFZRN1hpSWtBWmRsWGVLcFFhMlRmUjJ0QXYzLVh1T0Y5eDJlbExrTEVnTy1WWC1lcmRLVWpTbkpCQVRIVWN2NThqUjU2eklxQmFfUm9zRzRwVUpOTlQ0XzFONG4xd1JELWFJQllTZTRfOGFOaFJMbkpfaXhkWGdHU1Q0RUx3b1lhU0JSYk1GRm4zZmlqRDNyeVVhbXlFMjB6eS1sWkFJLUtWTmY5d18?oc=5\" target=\"_blank\">Chinese Refiners Snap Up Iraqi Oil as More Supplies Exit Hormuz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSmhvcWxvVFZRN1hpSWtBWmRsWGVLcFFhMlRmUjJ0QXYzLVh1T0Y5eDJlbExrTEVnTy1WWC1lcmRLVWpTbkpCQVRIVWN2NThqUjU2eklxQmFfUm9zRzRwVUpOTlQ0XzFONG4xd1JELWFJQllTZTRfOGFOaFJMbkpfaXhkWGdHU1Q0RUx3b1lhU0JSYk1GRm4zZmlqRDNyeVVhbXlFMjB6eS1sWkFJLUtWTmY5d18?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-20T17:02:47.388559Z"
+    },
+    {
+      "id": "a92d9ed998101b949e7e755b28979e62",
+      "title": "LVMH-backed L Catterton to buy Japan investment adviser",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/business-deals/lvmh-backed-l-catterton-to-buy-japan-investment-adviser",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-20T17:02:40.937992Z"
+    },
+    {
+      "id": "07548cd4915545b7f208088043410074",
+      "title": "Samsung Electronics poised for $72bn shareholder return program",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/tech/semiconductors/samsung-electronics-poised-for-72bn-shareholder-return-program",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-20T17:02:40.938095Z"
+    },
+    {
+      "id": "3a84cd6ca62a7208b688ee96f2c96a25",
+      "title": "Daily News 14 / 08 / 2026",
+      "summary": "European Commission Daily news Brussels, 14 Aug 2026 Commission clears acquisition of Randstad Digital Solutions Business by LTM\nThe European Commission has approved, under the EU Merger Regulation, the acquisitio...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1735",
+      "source": "European Commission",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [
         "EUR"
       ],
-      "regions": [],
+      "regions": [
+        "EUROPE"
+      ],
       "assets": [
         "AI",
         "FX"
@@ -245,81 +577,23 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-20T16:56:46.001096Z"
+      "published": "2026-08-20T17:02:35.119537Z"
     },
     {
-      "id": "4fc4003fb9b9a7383396833c8c3fba4e",
-      "title": "Bitcoin rally sparks debate whether Clarity Act is already priced in",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/20/crypto-s-bottom-is-near-as-ai-hype-fades-okx-europe-ceo-says",
-      "source": "CoinDesk",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-08-20T16:56:59.176475Z"
-    },
-    {
-      "id": "af3e25d4dc0d206058d53ea1ef9f450a",
-      "title": "How AI Could Hollow Out the U.S. Military",
-      "summary": "The best soldiers know how to think for themselves.",
-      "link": "https://www.foreignaffairs.com/united-states/how-ai-could-hollow-out-us-military",
-      "source": "Foreign Affairs",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-20T16:56:58.543278Z"
-    },
-    {
-      "id": "c8fd31ad71d02648e33b758ac11ad599",
-      "title": "Cook, Outlook for the U.S. and Alaskan Economies",
-      "summary": "Speech At the 2026 Economic Luncheon of the Anchorage Economic Development Corporation, Anchorage, Alaska",
-      "link": "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
+      "id": "b85c7507cdfa0763d8d5f84f933d30b2",
+      "title": "Trading Day: Bessent makes his mark - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNdmhINE4tam42Qi0wVFF6OVhGc3UyS3NiaS1Lc2JSRkhxNEZ5NDVOekhkaVUybFdycVVLSFRwV3M0VzNLT0FNeU9wY3VNRkViMUJZUU5CMTgwOG5keE9GUDBZeTZDRHdtNUFZckpBTnNKalVFa3dqTUVxYU1nbk44TFQyZ1Y1V01DSm5hN19ncy1Cc3IzOVoyVXRNa3NxenhmMENFSWl3?oc=5\" target=\"_blank\">Trading Day: Bessent makes his mark</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdmhINE4tam42Qi0wVFF6OVhGc3UyS3NiaS1Lc2JSRkhxNEZ5NDVOekhkaVUybFdycVVLSFRwV3M0VzNLT0FNeU9wY3VNRkViMUJZUU5CMTgwOG5keE9GUDBZeTZDRHdtNUFZckpBTnNKalVFa3dqTUVxYU1nbk44TFQyZ1Y1V01DSm5hN19ncy1Cc3IzOVoyVXRNa3NxenhmMENFSWl3?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-20T16:56:33.413144Z"
+      "published": "2026-08-20T17:02:47.958806Z"
     }
   ]
 }
