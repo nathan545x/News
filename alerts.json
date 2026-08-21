@@ -1,71 +1,295 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-21T00:12:04.808817Z",
+  "generated_at": "2026-08-21T00:17:11.584070Z",
   "market_regime": {
-    "regime": "AI",
-    "dominant_driver": "AI",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-08-21T00:12:04.808827Z"
+    "critical_alerts": 2,
+    "high_alerts": 1,
+    "last_updated": "2026-08-21T00:17:11.584079Z"
   },
   "top_signals": [
     {
-      "id": "74d6ef07254f405684aea34d3732e157",
-      "title": "Asian Bonds Follow Treasuries Lower, Dollar Slips: Markets Wrap",
-      "summary": "Asian bonds declined and the dollar remained under pressure after a rally in Treasuries faded, with investors betting that US efforts to contain borrowing costs through buybacks may offer only a temporary reprieve.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-20/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "AI",
+      "id": "094370f9b681a7eb63018ab7dff799e1",
+      "title": "War comes to Putin\u2019s favourite Black Sea resort",
+      "summary": "Ukrainian drone attacks bring sirens, oil slicks and petrol queues to Russians holidaying around Sochi",
+      "link": "https://www.ft.com/content/565f7434-f648-45a8-b0d4-b04a529c39cd?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 37,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "DXY"
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "RUSSIA",
+        "UK"
+      ],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-21T00:11:32.846326Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-21T00:16:36.675385Z"
+    },
+    {
+      "id": "70c6726dbf5a140acbc60acb7658ea95",
+      "title": "Europe\u2019s oil refining capacity set to shrink by 20% over next decade",
+      "summary": "North America and Europe to lose further capacity to turn oil into petrol, diesel and jet fuel because of investor wariness",
+      "link": "https://www.ft.com/content/eae8bbc5-7946-4fdc-8e0a-3215f7e56dd2?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "EUR",
+        "WTI"
+      ],
+      "regions": [
+        "EUROPE",
+        "US"
+      ],
+      "assets": [
+        "COMMODITIES",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-21T00:16:36.892285Z"
+    },
+    {
+      "id": "03855f1f64973d22f31f63209dfb81fa",
+      "title": "Minutes of the Federal Open Market Committee, July 28\u201329, 2026",
+      "summary": "Minutes of the Federal Open Market Committee, July 28\u201329, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-21T00:16:38.898232Z"
+    },
+    {
+      "id": "ad5a469c27781a693bc027c0c246bf9b",
+      "title": "Ondo executive says tokenization is following the same path as early ETFs",
+      "summary": "The firm hopes that passage of the Clarity Act will help open the door for it to offer tokenized products in the U.S.",
+      "link": "https://www.theblock.co/news/business/2026-08-20-ondo-executive-says-tokenization-following-same-path-as-early-etfs-412346",
+      "source": "The Block",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-08-21T00:17:08.285082Z"
+    },
+    {
+      "id": "972cf5028cd0616440833f9d58d7aab7",
+      "title": "Stocks making the biggest moves premarket: Walmart, Coinbase, Moderna, Alibaba & more - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQRkt2ZmstN1VFaFpHZWMyNnRIN2dtZHUySGpnSFdIc0I5ZXQtbmZlaG9qaEtPVmZpVVc4aFB0a0daQ2lNRWRvY0lHNVBiMTRSVHQxTnZ1TWxKMzJSY05jdFZ2QXJWWjV0TEZmaUgyN2thQV9TUXM1Ty1JMFJKZHJsRW53cUxFdw?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: Walmart, Coinbase, Moderna, Alibaba & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRkt2ZmstN1VFaFpHZWMyNnRIN2dtZHUySGpnSFdIc0I5ZXQtbmZlaG9qaEtPVmZpVVc4aFB0a0daQ2lNRWRvY0lHNVBiMTRSVHQxTnZ1TWxKMzJSY05jdFZ2QXJWWjV0TEZmaUgyN2thQV9TUXM1Ty1JMFJKZHJsRW53cUxFdw?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-21T00:17:11.584024Z"
     }
   ],
   "alerts": [
     {
-      "id": "74d6ef07254f405684aea34d3732e157",
-      "title": "Asian Bonds Follow Treasuries Lower, Dollar Slips: Markets Wrap",
-      "summary": "Asian bonds declined and the dollar remained under pressure after a rally in Treasuries faded, with investors betting that US efforts to contain borrowing costs through buybacks may offer only a temporary reprieve.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-20/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "AI",
+      "id": "094370f9b681a7eb63018ab7dff799e1",
+      "title": "War comes to Putin\u2019s favourite Black Sea resort",
+      "summary": "Ukrainian drone attacks bring sirens, oil slicks and petrol queues to Russians holidaying around Sochi",
+      "link": "https://www.ft.com/content/565f7434-f648-45a8-b0d4-b04a529c39cd?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 37,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "DXY"
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "RUSSIA",
+        "UK"
+      ],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-21T00:11:32.846326Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-21T00:16:36.675385Z"
+    },
+    {
+      "id": "70c6726dbf5a140acbc60acb7658ea95",
+      "title": "Europe\u2019s oil refining capacity set to shrink by 20% over next decade",
+      "summary": "North America and Europe to lose further capacity to turn oil into petrol, diesel and jet fuel because of investor wariness",
+      "link": "https://www.ft.com/content/eae8bbc5-7946-4fdc-8e0a-3215f7e56dd2?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "EUR",
+        "WTI"
+      ],
+      "regions": [
+        "EUROPE",
+        "US"
+      ],
+      "assets": [
+        "COMMODITIES",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-21T00:16:36.892285Z"
+    },
+    {
+      "id": "03855f1f64973d22f31f63209dfb81fa",
+      "title": "Minutes of the Federal Open Market Committee, July 28\u201329, 2026",
+      "summary": "Minutes of the Federal Open Market Committee, July 28\u201329, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-21T00:16:38.898232Z"
+    },
+    {
+      "id": "ad5a469c27781a693bc027c0c246bf9b",
+      "title": "Ondo executive says tokenization is following the same path as early ETFs",
+      "summary": "The firm hopes that passage of the Clarity Act will help open the door for it to offer tokenized products in the U.S.",
+      "link": "https://www.theblock.co/news/business/2026-08-20-ondo-executive-says-tokenization-following-same-path-as-early-etfs-412346",
+      "source": "The Block",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-08-21T00:17:08.285082Z"
+    },
+    {
+      "id": "972cf5028cd0616440833f9d58d7aab7",
+      "title": "Stocks making the biggest moves premarket: Walmart, Coinbase, Moderna, Alibaba & more - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQRkt2ZmstN1VFaFpHZWMyNnRIN2dtZHUySGpnSFdIc0I5ZXQtbmZlaG9qaEtPVmZpVVc4aFB0a0daQ2lNRWRvY0lHNVBiMTRSVHQxTnZ1TWxKMzJSY05jdFZ2QXJWWjV0TEZmaUgyN2thQV9TUXM1Ty1JMFJKZHJsRW53cUxFdw?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: Walmart, Coinbase, Moderna, Alibaba & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRkt2ZmstN1VFaFpHZWMyNnRIN2dtZHUySGpnSFdIc0I5ZXQtbmZlaG9qaEtPVmZpVVc4aFB0a0daQ2lNRWRvY0lHNVBiMTRSVHQxTnZ1TWxKMzJSY05jdFZ2QXJWWjV0TEZmaUgyN2thQV9TUXM1Ty1JMFJKZHJsRW53cUxFdw?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-21T00:17:11.584024Z"
     }
   ]
 }
