@@ -1,28 +1,119 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-20T23:56:56.010750Z",
+  "generated_at": "2026-08-21T00:02:24.650772Z",
   "market_regime": {
     "regime": "RATES",
     "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 2,
-    "last_updated": "2026-08-20T23:56:56.010762Z"
+    "critical_alerts": 1,
+    "high_alerts": 1,
+    "last_updated": "2026-08-21T00:02:24.650786Z"
   },
   "top_signals": [
     {
-      "id": "457a345f6907e4a8ee29da912d7850d1",
-      "title": "Nvidia looks well placed to benefit from the next stage of the AI boom",
-      "summary": "The world\u2019s biggest chip company is using its balance sheet to seed new markets and a new business model",
-      "link": "https://www.ft.com/content/b388be2e-67bd-4056-abd2-234e17819a98?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "AI",
+      "id": "6efccdc58e82c15c527bdfa736cc54b7",
+      "title": "Japan's historic yen intervention has \u2018turbo-charged\u2019 the carry trade",
+      "summary": "Japan's historic effort to prop up the yen may have had an unintended consequence: giving investors a better opportunity to put the carry trade back on.",
+      "link": "https://www.cnbc.com/2026/08/20/us-japan-yen-intervention-bank-of-japan-carry-trade.html",
+      "source": "CNBC",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "NVDA"
+        "JPY"
       ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-21T00:01:51.461613Z"
+    },
+    {
+      "id": "c5146546de54f7a0b3f291cedcff6350",
+      "title": "Hackers poison arrayref Rust crate to push infostealer malware",
+      "summary": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during compilation. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-21T00:02:19.202794Z"
+    },
+    {
+      "id": "dcafcc42966d56b69c3880ce4142e5d4",
+      "title": "Brazil\u2019s New Oil Frontier Could Keep Its Boom Alive For Decades",
+      "summary": "Brazilian President Luiz In\u00e1cio Lula da Silva has hailed a new offshore oil discovery by Petrobras (NYSE: PBR) near the mouth of the Amazon River as a \"passport to the country's future\", continuing his support for controversial oil and gas drilling in Amazon's ecologically sensitive regions. Last week, the state-run Oil & Gas giant announced it has found oil at the Morpho-1 well (Block FZA-M-59) in the mouth of the Amazon roughly 180 kilometres (112 miles) off the coast of Amapa state, \u201cAll of our studies indicate substantial potential.\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Brazils-New-Oil-Frontier-Could-Keep-Its-Boom-Alive-For-Decades.html",
+      "source": "OilPrice",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-21T00:02:16.102363Z"
+    },
+    {
+      "id": "b2dbf450be3c7aadeca3b01fc11126d7",
+      "title": "Democracies Need Creative Destruction",
+      "summary": "How to make government work again.",
+      "link": "https://www.foreignaffairs.com/united-states/democracies-need-creative-destruction-pahlka-greenway",
+      "source": "Foreign Affairs",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
       "regions": [],
       "assets": [
         "AI"
@@ -36,98 +127,113 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-20T23:56:30.261639Z"
-    },
-    {
-      "id": "dd8f0af7a6fb5eae49dfe5070ee02d9d",
-      "title": "Treasury yields rebound, wiping out the decline following Bessent's intervention",
-      "summary": "Bond yields climbed on Thursday, coming back from the pullback they saw the previous day.",
-      "link": "https://www.cnbc.com/2026/08/20/bond-yields-edge-higher-as-traders-digest-treasury-debt-buyback-plan.html",
-      "source": "CNBC",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-20T23:56:32.090452Z"
-    },
-    {
-      "id": "6d6af9174ba3b122a17db910840e4b11",
-      "title": "The US Treasury is buying long bonds, but not very many",
-      "summary": "Speaking loudly but wielding a teeny-tiny stick",
-      "link": "https://www.ft.com/content/150aa8bf-54d1-448f-bdc9-14152ce3d76c",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-20T23:56:30.507313Z"
-    },
-    {
-      "id": "8f5496bb9266f850255f816436d01fa6",
-      "title": "Brazilian municipalities join BHP and Vale dam collapse payout scheme",
-      "summary": "Nineteen authorities reach agreement over 2015 disaster in blow to English High Court class action",
-      "link": "https://www.ft.com/content/8bce59a1-d0e7-4f66-b2bd-da45de5a3c4e?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-20T23:56:30.714225Z"
+      "published": "2026-08-21T00:02:17.862765Z"
     }
   ],
   "alerts": [
     {
-      "id": "457a345f6907e4a8ee29da912d7850d1",
-      "title": "Nvidia looks well placed to benefit from the next stage of the AI boom",
-      "summary": "The world\u2019s biggest chip company is using its balance sheet to seed new markets and a new business model",
-      "link": "https://www.ft.com/content/b388be2e-67bd-4056-abd2-234e17819a98?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "AI",
+      "id": "6efccdc58e82c15c527bdfa736cc54b7",
+      "title": "Japan's historic yen intervention has \u2018turbo-charged\u2019 the carry trade",
+      "summary": "Japan's historic effort to prop up the yen may have had an unintended consequence: giving investors a better opportunity to put the carry trade back on.",
+      "link": "https://www.cnbc.com/2026/08/20/us-japan-yen-intervention-bank-of-japan-carry-trade.html",
+      "source": "CNBC",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "NVDA"
+        "JPY"
       ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-21T00:01:51.461613Z"
+    },
+    {
+      "id": "c5146546de54f7a0b3f291cedcff6350",
+      "title": "Hackers poison arrayref Rust crate to push infostealer malware",
+      "summary": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during compilation. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-21T00:02:19.202794Z"
+    },
+    {
+      "id": "dcafcc42966d56b69c3880ce4142e5d4",
+      "title": "Brazil\u2019s New Oil Frontier Could Keep Its Boom Alive For Decades",
+      "summary": "Brazilian President Luiz In\u00e1cio Lula da Silva has hailed a new offshore oil discovery by Petrobras (NYSE: PBR) near the mouth of the Amazon River as a \"passport to the country's future\", continuing his support for controversial oil and gas drilling in Amazon's ecologically sensitive regions. Last week, the state-run Oil & Gas giant announced it has found oil at the Morpho-1 well (Block FZA-M-59) in the mouth of the Amazon roughly 180 kilometres (112 miles) off the coast of Amapa state, \u201cAll of our studies indicate substantial potential.\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Brazils-New-Oil-Frontier-Could-Keep-Its-Boom-Alive-For-Decades.html",
+      "source": "OilPrice",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-21T00:02:16.102363Z"
+    },
+    {
+      "id": "b2dbf450be3c7aadeca3b01fc11126d7",
+      "title": "Democracies Need Creative Destruction",
+      "summary": "How to make government work again.",
+      "link": "https://www.foreignaffairs.com/united-states/democracies-need-creative-destruction-pahlka-greenway",
+      "source": "Foreign Affairs",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
       "regions": [],
       "assets": [
         "AI"
@@ -141,83 +247,7 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-20T23:56:30.261639Z"
-    },
-    {
-      "id": "dd8f0af7a6fb5eae49dfe5070ee02d9d",
-      "title": "Treasury yields rebound, wiping out the decline following Bessent's intervention",
-      "summary": "Bond yields climbed on Thursday, coming back from the pullback they saw the previous day.",
-      "link": "https://www.cnbc.com/2026/08/20/bond-yields-edge-higher-as-traders-digest-treasury-debt-buyback-plan.html",
-      "source": "CNBC",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-20T23:56:32.090452Z"
-    },
-    {
-      "id": "6d6af9174ba3b122a17db910840e4b11",
-      "title": "The US Treasury is buying long bonds, but not very many",
-      "summary": "Speaking loudly but wielding a teeny-tiny stick",
-      "link": "https://www.ft.com/content/150aa8bf-54d1-448f-bdc9-14152ce3d76c",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-20T23:56:30.507313Z"
-    },
-    {
-      "id": "8f5496bb9266f850255f816436d01fa6",
-      "title": "Brazilian municipalities join BHP and Vale dam collapse payout scheme",
-      "summary": "Nineteen authorities reach agreement over 2015 disaster in blow to English High Court class action",
-      "link": "https://www.ft.com/content/8bce59a1-d0e7-4f66-b2bd-da45de5a3c4e?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-20T23:56:30.714225Z"
+      "published": "2026-08-21T00:02:17.862765Z"
     }
   ]
 }
