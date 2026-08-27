@@ -1,327 +1,145 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-27T07:47:42.086796Z",
+  "generated_at": "2026-08-27T07:52:44.158783Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
-    "high_alerts": 2,
-    "last_updated": "2026-08-27T07:47:42.086810Z"
+    "high_alerts": 0,
+    "last_updated": "2026-08-27T07:52:44.158796Z"
   },
   "top_signals": [
     {
-      "id": "92e05acfda33249c9863c7e2688af988",
-      "title": "FTSE 100 Live: Stocks drop as US inflation woes outweigh soaring Nvidia sales",
-      "summary": "<p> <img alt=\"Welcome back to City AM&#039;s FTSE 100 live blog (Yui Mok/PA Wire)\" src=\"https://www.cityam.com/wp-content/uploads/2026/08/01K9AXBGRPKG6EWYWF2R1BV6Q3.jpg?w=1045\" /> </p>Welcome back to the City AM FTSE 100 liveblog. The UK&#8217;s blue chip has taken a battering in early trading, as murky US inflation data overshadowed Nvidia&#8217;s sales triumph. While headline inflation fell back, the Fed&#8217;s preferred measure &#8211; the Personal Consumption Expenditures Price Index (PCE) &#8211; is still running hot at 3.7 per cent. <a href=\"https://www.cityam.com/ftse-100-live-stocks-to-fall-nvidia-sales-double-as-ai-spending-booms/\">[...]</a>",
-      "link": "https://www.cityam.com/ftse-100-live-stocks-to-fall-nvidia-sales-double-as-ai-spending-booms/",
-      "source": "CityAM",
-      "score": 32,
+      "id": "6d8bf37ef002d48ae18ca7e33fc1b4ba",
+      "title": "Treasury yields ease ahead of jobs data and Jackson Hole",
+      "summary": "Treasury yields were slightly lower as investors gear up for an initial jobless claims print and a highly-anticipated speech from Fed Chair Kevin Warsh.",
+      "link": "https://www.cnbc.com/2026/08/27/us-bonds-us10y-jackson-hold.html",
+      "source": "CNBC",
+      "score": 30,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "RATES",
       "tickers": [
-        "NVDA"
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-27T07:51:46.503972Z"
+    },
+    {
+      "id": "f8a8a3d31e294e32243b319579a74de1",
+      "title": "Kuwait and Qatar Add to Growing Oil Flows Getting Through Hormuz - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxONlJzdTZyQ2hNZmpJcGVYVVpYOENkZTZTcDRfMlNyWTdQeWlLWVRhQlNWZHVWNGZERjltS2NhblU1YTRsZGRCZWtqQkgtMG40U2tVR0dTVV9TOTNiVWxpbWNkSDU5VVMzcUx5d3VhMXZnenZkbXB5ZnAyTFBkV0RqYWh0MlZIT2IzWDNYcXZwRHBGZF9tMnNOT0JkdVJWUDhJdVJDSGZ2SVpvUk9KcVVRU1lqb1pCZw?oc=5\" target=\"_blank\">Kuwait and Qatar Add to Growing Oil Flows Getting Through Hormuz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONlJzdTZyQ2hNZmpJcGVYVVpYOENkZTZTcDRfMlNyWTdQeWlLWVRhQlNWZHVWNGZERjltS2NhblU1YTRsZGRCZWtqQkgtMG40U2tVR0dTVV9TOTNiVWxpbWNkSDU5VVMzcUx5d3VhMXZnenZkbXB5ZnAyTFBkV0RqYWh0MlZIT2IzWDNYcXZwRHBGZF9tMnNOT0JkdVJWUDhJdVJDSGZ2SVpvUk9KcVVRU1lqb1pCZw?oc=5",
+      "source": "Google Macro",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
       ],
       "regions": [
         "UK"
       ],
       "assets": [
         "AI",
-        "EQUITIES"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-27T07:47:31.866442Z"
-    },
-    {
-      "id": "baa27f690d0078d28c6741256ab28a9b",
-      "title": "Japan-Taiwan bonds and a tariff refund boost",
-      "summary": "",
-      "link": "https://asia.nikkei.com/techasia/japan-taiwan-bonds-and-a-tariff-refund-boost",
-      "source": "Nikkei Asia",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
           "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
+          "MINERS"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-27T07:47:33.396773Z"
-    },
-    {
-      "id": "f247d7c5039c4d370317b1870d7abaf3",
-      "title": "Nvidia projects 70% sales growth next year as it rebuts \u2018circular financing\u2019 criticism",
-      "summary": "Chip giant says financing deals with customers are \u2018excellent\u2019 investments with \u2018limited\u2019 risk",
-      "link": "https://www.ft.com/content/72908915-5e4a-457c-8c3a-aee8917a664a?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [
-        "NVDA"
-      ],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-27T07:46:42.411182Z"
-    },
-    {
-      "id": "7252d7abcbcd3be7bbd56824bdfd3259",
-      "title": "South Korea\u2019s top financial conglomerate team up with Visa to test stablecoin issuance and B2B settlements",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/08/26/south-korea-s-shinhan-financial-joins-visa-to-build-stablecoin-infrastructure",
-      "source": "CoinDesk",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-08-27T07:47:38.368115Z"
-    },
-    {
-      "id": "1171d44e52a7ee2a7a292ebabbc76490",
-      "title": "Activist fund targets Samsung in South Korea\u2019s first test of shareholder rights rules",
-      "summary": "Flashlight Capital says new corporate governance law emboldened it to make takeover bid for conglomerate affiliate",
-      "link": "https://www.ft.com/content/892c0626-0268-4049-8b24-49e7fd839283?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-27T07:46:41.664136Z"
-    },
-    {
-      "id": "702e3d95df376858088d8afc5449f5b3",
-      "title": "Halfords lifts profit targets on heatwave boost",
-      "summary": "<p> <img alt=\"Halfords has taken a million-pound boost from summer trading\" src=\"https://www.cityam.com/wp-content/uploads/2026/08/Halfords-2-1.jpg?w=1107\" /> </p>The sun has shone on Halfords\u2019 summer trading as the motoring and cycling retailer lifted its profit targets in response to \u201cvery strong\u201d recent sales. The FTSE 250 firm had previously been tipped for a \u00a352.6m pre-tax profit this year but said on Thursday that it now hopes to make between \u00a355m and \u00a365m.&#160; In <a href=\"https://www.cityam.com/halfords-lifts-profit-targets-on-heatwave-boost/\">[...]</a>",
-      "link": "https://www.cityam.com/halfords-lifts-profit-targets-on-heatwave-boost/",
-      "source": "CityAM",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-27T07:47:31.866307Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-27T07:52:42.112822Z"
     }
   ],
   "alerts": [
     {
-      "id": "92e05acfda33249c9863c7e2688af988",
-      "title": "FTSE 100 Live: Stocks drop as US inflation woes outweigh soaring Nvidia sales",
-      "summary": "<p> <img alt=\"Welcome back to City AM&#039;s FTSE 100 live blog (Yui Mok/PA Wire)\" src=\"https://www.cityam.com/wp-content/uploads/2026/08/01K9AXBGRPKG6EWYWF2R1BV6Q3.jpg?w=1045\" /> </p>Welcome back to the City AM FTSE 100 liveblog. The UK&#8217;s blue chip has taken a battering in early trading, as murky US inflation data overshadowed Nvidia&#8217;s sales triumph. While headline inflation fell back, the Fed&#8217;s preferred measure &#8211; the Personal Consumption Expenditures Price Index (PCE) &#8211; is still running hot at 3.7 per cent. <a href=\"https://www.cityam.com/ftse-100-live-stocks-to-fall-nvidia-sales-double-as-ai-spending-booms/\">[...]</a>",
-      "link": "https://www.cityam.com/ftse-100-live-stocks-to-fall-nvidia-sales-double-as-ai-spending-booms/",
-      "source": "CityAM",
-      "score": 32,
+      "id": "6d8bf37ef002d48ae18ca7e33fc1b4ba",
+      "title": "Treasury yields ease ahead of jobs data and Jackson Hole",
+      "summary": "Treasury yields were slightly lower as investors gear up for an initial jobless claims print and a highly-anticipated speech from Fed Chair Kevin Warsh.",
+      "link": "https://www.cnbc.com/2026/08/27/us-bonds-us10y-jackson-hold.html",
+      "source": "CNBC",
+      "score": 30,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "RATES",
       "tickers": [
-        "NVDA"
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-08-27T07:51:46.503972Z"
+    },
+    {
+      "id": "f8a8a3d31e294e32243b319579a74de1",
+      "title": "Kuwait and Qatar Add to Growing Oil Flows Getting Through Hormuz - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxONlJzdTZyQ2hNZmpJcGVYVVpYOENkZTZTcDRfMlNyWTdQeWlLWVRhQlNWZHVWNGZERjltS2NhblU1YTRsZGRCZWtqQkgtMG40U2tVR0dTVV9TOTNiVWxpbWNkSDU5VVMzcUx5d3VhMXZnenZkbXB5ZnAyTFBkV0RqYWh0MlZIT2IzWDNYcXZwRHBGZF9tMnNOT0JkdVJWUDhJdVJDSGZ2SVpvUk9KcVVRU1lqb1pCZw?oc=5\" target=\"_blank\">Kuwait and Qatar Add to Growing Oil Flows Getting Through Hormuz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONlJzdTZyQ2hNZmpJcGVYVVpYOENkZTZTcDRfMlNyWTdQeWlLWVRhQlNWZHVWNGZERjltS2NhblU1YTRsZGRCZWtqQkgtMG40U2tVR0dTVV9TOTNiVWxpbWNkSDU5VVMzcUx5d3VhMXZnenZkbXB5ZnAyTFBkV0RqYWh0MlZIT2IzWDNYcXZwRHBGZF9tMnNOT0JkdVJWUDhJdVJDSGZ2SVpvUk9KcVVRU1lqb1pCZw?oc=5",
+      "source": "Google Macro",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
       ],
       "regions": [
         "UK"
       ],
       "assets": [
         "AI",
-        "EQUITIES"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-08-27T07:47:31.866442Z"
-    },
-    {
-      "id": "baa27f690d0078d28c6741256ab28a9b",
-      "title": "Japan-Taiwan bonds and a tariff refund boost",
-      "summary": "",
-      "link": "https://asia.nikkei.com/techasia/japan-taiwan-bonds-and-a-tariff-refund-boost",
-      "source": "Nikkei Asia",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
           "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
+          "MINERS"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-27T07:47:33.396773Z"
-    },
-    {
-      "id": "f247d7c5039c4d370317b1870d7abaf3",
-      "title": "Nvidia projects 70% sales growth next year as it rebuts \u2018circular financing\u2019 criticism",
-      "summary": "Chip giant says financing deals with customers are \u2018excellent\u2019 investments with \u2018limited\u2019 risk",
-      "link": "https://www.ft.com/content/72908915-5e4a-457c-8c3a-aee8917a664a?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [
-        "NVDA"
-      ],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-27T07:46:42.411182Z"
-    },
-    {
-      "id": "7252d7abcbcd3be7bbd56824bdfd3259",
-      "title": "South Korea\u2019s top financial conglomerate team up with Visa to test stablecoin issuance and B2B settlements",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/08/26/south-korea-s-shinhan-financial-joins-visa-to-build-stablecoin-infrastructure",
-      "source": "CoinDesk",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-08-27T07:47:38.368115Z"
-    },
-    {
-      "id": "1171d44e52a7ee2a7a292ebabbc76490",
-      "title": "Activist fund targets Samsung in South Korea\u2019s first test of shareholder rights rules",
-      "summary": "Flashlight Capital says new corporate governance law emboldened it to make takeover bid for conglomerate affiliate",
-      "link": "https://www.ft.com/content/892c0626-0268-4049-8b24-49e7fd839283?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-08-27T07:46:41.664136Z"
-    },
-    {
-      "id": "702e3d95df376858088d8afc5449f5b3",
-      "title": "Halfords lifts profit targets on heatwave boost",
-      "summary": "<p> <img alt=\"Halfords has taken a million-pound boost from summer trading\" src=\"https://www.cityam.com/wp-content/uploads/2026/08/Halfords-2-1.jpg?w=1107\" /> </p>The sun has shone on Halfords\u2019 summer trading as the motoring and cycling retailer lifted its profit targets in response to \u201cvery strong\u201d recent sales. The FTSE 250 firm had previously been tipped for a \u00a352.6m pre-tax profit this year but said on Thursday that it now hopes to make between \u00a355m and \u00a365m.&#160; In <a href=\"https://www.cityam.com/halfords-lifts-profit-targets-on-heatwave-boost/\">[...]</a>",
-      "link": "https://www.cityam.com/halfords-lifts-profit-targets-on-heatwave-boost/",
-      "source": "CityAM",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-27T07:47:31.866307Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-27T07:52:42.112822Z"
     }
   ]
 }
