@@ -1,29 +1,65 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-27T07:12:44.638648Z",
+  "generated_at": "2026-08-27T07:17:40.302903Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "COMMODITIES",
+    "dominant_driver": "COMMODITIES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-08-27T07:12:44.638661Z"
+    "critical_alerts": 2,
+    "high_alerts": 0,
+    "last_updated": "2026-08-27T07:17:40.302912Z"
   },
   "top_signals": [
     {
-      "id": "9e949435cbd2d10373452a7941a4811c",
-      "title": "Bill Gates warns \u2018there is no plan\u2019 for the \u2018upheaval\u2019 AI will cause",
-      "summary": "Bill Gates warned governments are not adequately preparing for how AI could displace workers, strain social systems and create global risks.",
-      "link": "https://www.cnbc.com/2026/08/26/bill-gates-ai-jobs-economic-upheaval.html",
-      "source": "CNBC",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
+      "id": "c66ed93cdc7354c6915fddf7da9591f4",
+      "title": "Chinese Container Liners Head for Profit Jump as Rates Surge",
+      "summary": "Chinese container liners are set for an earnings windfall, echoing regional and global peers, as a rush to get ahead of shifting tariffs and persistent shipping disruptions has driven freight rates to a two-year high.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-27/chinese-container-liners-head-for-profit-jump-as-rates-surge",
+      "source": "Bloomberg",
+      "score": 38,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
       "tickers": [],
       "regions": [],
       "assets": [
-        "AI"
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-27T07:16:41.885990Z"
+    },
+    {
+      "id": "ee138fcc339b097c4ca2e68ef06cb74c",
+      "title": "Oil drops more than 3% as U.S. shifts to economic pressure on Iran, easing fears of renewed war - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE5wYlNuakhjNkRJcXE5X1kyUFNaV1ozOTY4UmRrX0lyRHllUHZJNmZzcHZVN3RUanlHNGJGcHluNzAxOE1MR0psY2lYTHRScm9KblEwZkx4MHVIQk9xaExoODVNMDJfTkVnX2dMcHNPYV9VcknSAXhBVV95cUxPSTRCTmpvai02WDNCWEhNTXdBd2VrSDJZTE1pZUhWSWowTGw2aFdYWVJ1ZS1DSzZkbk1VS0ZfQWJ2OG96RVFfZ2pYUmFieUhFNHVLOUNGcHJGbVN5LTEwRm04UVNiSWxYMEZSN1JnSkRCeEFoRy1LZ2I?oc=5\" target=\"_blank\">Oil drops more than 3% as U.S. shifts to economic pressure on Iran, easing fears of renewed war</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wYlNuakhjNkRJcXE5X1kyUFNaV1ozOTY4UmRrX0lyRHllUHZJNmZzcHZVN3RUanlHNGJGcHluNzAxOE1MR0psY2lYTHRScm9KblEwZkx4MHVIQk9xaExoODVNMDJfTkVnX2dMcHNPYV9VcknSAXhBVV95cUxPSTRCTmpvai02WDNCWEhNTXdBd2VrSDJZTE1pZUhWSWowTGw2aFdYWVJ1ZS1DSzZkbk1VS0ZfQWJ2OG96RVFfZ2pYUmFieUhFNHVLOUNGcHJGbVN5LTEwRm04UVNiSWxYMEZSN1JnSkRCeEFoRy1LZ2I?oc=5",
+      "source": "Google Macro",
+      "score": 38,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "JGB",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -39,23 +75,103 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-27T07:11:42.845727Z"
+      "published": "2026-08-27T07:17:40.302889Z"
+    },
+    {
+      "id": "e78916d4bacca9382f3fe59325b16925",
+      "title": "Bitcoin researchers propose quantum fix that would not crowd out transactions",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/08/27/bitcoin-researchers-propose-quantum-fix-that-would-not-crowd-out-transactions",
+      "source": "CoinDesk",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-08-27T07:17:37.039378Z"
+    },
+    {
+      "id": "c832b508434e10d8cdde15ad8f72110f",
+      "title": "Eight petroleum liquids pipeline projects have been completed since the start of 2025",
+      "summary": "In the 2026 release of our Liquids Pipeline Projects Database, we tracked the completion of 8 liquid fuels pipeline projects since the start of 2025, and an additional 14 new projects have been announced.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68024",
+      "source": "EIA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-27T07:17:34.742014Z"
     }
   ],
   "alerts": [
     {
-      "id": "9e949435cbd2d10373452a7941a4811c",
-      "title": "Bill Gates warns \u2018there is no plan\u2019 for the \u2018upheaval\u2019 AI will cause",
-      "summary": "Bill Gates warned governments are not adequately preparing for how AI could displace workers, strain social systems and create global risks.",
-      "link": "https://www.cnbc.com/2026/08/26/bill-gates-ai-jobs-economic-upheaval.html",
-      "source": "CNBC",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
+      "id": "c66ed93cdc7354c6915fddf7da9591f4",
+      "title": "Chinese Container Liners Head for Profit Jump as Rates Surge",
+      "summary": "Chinese container liners are set for an earnings windfall, echoing regional and global peers, as a rush to get ahead of shifting tariffs and persistent shipping disruptions has driven freight rates to a two-year high.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-27/chinese-container-liners-head-for-profit-jump-as-rates-surge",
+      "source": "Bloomberg",
+      "score": 38,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
       "tickers": [],
       "regions": [],
       "assets": [
-        "AI"
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-08-27T07:16:41.885990Z"
+    },
+    {
+      "id": "ee138fcc339b097c4ca2e68ef06cb74c",
+      "title": "Oil drops more than 3% as U.S. shifts to economic pressure on Iran, easing fears of renewed war - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE5wYlNuakhjNkRJcXE5X1kyUFNaV1ozOTY4UmRrX0lyRHllUHZJNmZzcHZVN3RUanlHNGJGcHluNzAxOE1MR0psY2lYTHRScm9KblEwZkx4MHVIQk9xaExoODVNMDJfTkVnX2dMcHNPYV9VcknSAXhBVV95cUxPSTRCTmpvai02WDNCWEhNTXdBd2VrSDJZTE1pZUhWSWowTGw2aFdYWVJ1ZS1DSzZkbk1VS0ZfQWJ2OG96RVFfZ2pYUmFieUhFNHVLOUNGcHJGbVN5LTEwRm04UVNiSWxYMEZSN1JnSkRCeEFoRy1LZ2I?oc=5\" target=\"_blank\">Oil drops more than 3% as U.S. shifts to economic pressure on Iran, easing fears of renewed war</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wYlNuakhjNkRJcXE5X1kyUFNaV1ozOTY4UmRrX0lyRHllUHZJNmZzcHZVN3RUanlHNGJGcHluNzAxOE1MR0psY2lYTHRScm9KblEwZkx4MHVIQk9xaExoODVNMDJfTkVnX2dMcHNPYV9VcknSAXhBVV95cUxPSTRCTmpvai02WDNCWEhNTXdBd2VrSDJZTE1pZUhWSWowTGw2aFdYWVJ1ZS1DSzZkbk1VS0ZfQWJ2OG96RVFfZ2pYUmFieUhFNHVLOUNGcHJGbVN5LTEwRm04UVNiSWxYMEZSN1JnSkRCeEFoRy1LZ2I?oc=5",
+      "source": "Google Macro",
+      "score": 38,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "JGB",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -71,7 +187,51 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-08-27T07:11:42.845727Z"
+      "published": "2026-08-27T07:17:40.302889Z"
+    },
+    {
+      "id": "e78916d4bacca9382f3fe59325b16925",
+      "title": "Bitcoin researchers propose quantum fix that would not crowd out transactions",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/08/27/bitcoin-researchers-propose-quantum-fix-that-would-not-crowd-out-transactions",
+      "source": "CoinDesk",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-08-27T07:17:37.039378Z"
+    },
+    {
+      "id": "c832b508434e10d8cdde15ad8f72110f",
+      "title": "Eight petroleum liquids pipeline projects have been completed since the start of 2025",
+      "summary": "In the 2026 release of our Liquids Pipeline Projects Database, we tracked the completion of 8 liquid fuels pipeline projects since the start of 2025, and an additional 14 new projects have been announced.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68024",
+      "source": "EIA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-27T07:17:34.742014Z"
     }
   ]
 }
