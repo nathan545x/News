@@ -1,55 +1,146 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-08-31T17:17:57.798139Z",
+  "generated_at": "2026-08-31T17:22:45.096236Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-08-31T17:17:57.798151Z"
+    "critical_alerts": 2,
+    "high_alerts": 2,
+    "last_updated": "2026-08-31T17:22:45.096252Z"
   },
   "top_signals": [
     {
-      "id": "acb9b1bcdefce34bf45cca4473ece092",
-      "title": "Treasury Market Selloff Sends 10-Year Yield to 19-Month High",
-      "summary": "The US 10-year yield topped 4.75% on Monday for the first time since January 2025 as rising oil prices bolstered expectations that the Federal Reserve will hike interest rates.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-31/treasury-10-year-yield-tops-4-75-highest-since-january-2025",
-      "source": "Bloomberg",
-      "score": 33,
+      "id": "4325fd5453dc464e31dbc0b454e53ac1",
+      "title": "Trump says data centre critics \u2018want to end up backwards and poor\u2019",
+      "summary": "US president urges voters to \u2018let Data Reign\u2019 as unpopular building boom roils midterm campaigns",
+      "link": "https://www.ft.com/content/744c448c-858e-4398-85dc-a66cecd02abb?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 30,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "TLT",
         "WTI"
       ],
       "regions": [],
       "assets": [
-        "COMMODITIES",
-        "RATES"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-31T17:16:51.777994Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-31T17:21:50.258136Z"
     },
     {
-      "id": "ae3e5eb307967db63ec966c3c656bae4",
-      "title": "Grand Canyon Flash Flood Leaves Two Dead, 15 Others Missing",
-      "summary": "At least two people have died after a flash flood in the Grand Canyon, the National Park Service said Monday. Some 15 others may be missing or unaccounted as search efforts progress. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-31/grand-canyon-flash-flood-leaves-two-dead-15-others-missing",
+      "id": "2c876de425df4cfe245d0a4c1ca54605",
+      "title": "Gold Slips as Renewed Mideast Tensions Keep Fed Hike Bets Alive",
+      "summary": "Gold edged down as renewed geopolitical risks stoked concerns about inflationary pressures that could make the Federal Reserve hike interest rates, a headwind for the precious metal.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-30/gold-steadies-after-tumbling-as-warsh-spurs-fed-rate-hike-bets",
       "source": "Bloomberg",
-      "score": 13,
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-08-31T17:21:47.591909Z"
+    },
+    {
+      "id": "418e08040b561bfcab0f8e3e30a2bb02",
+      "title": "Don\u2019t write off Russia\u2019s defence industry yet",
+      "summary": "Moscow\u2019s arms manufacturers are adapting and innovating in ways that could threaten Nato in the future",
+      "link": "https://www.ft.com/content/369558d0-357c-41e7-aa1e-dc1c1c07457d",
+      "source": "Financial Times",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-31T17:21:50.258319Z"
+    },
+    {
+      "id": "50e620431dd8756accc02c8c46446fe6",
+      "title": "Israel\u2019s de facto annexation of the West Bank",
+      "summary": "New housing tenders could end chance of a contiguous Palestinian state",
+      "link": "https://www.ft.com/content/96691b37-1360-4f32-b267-ec8fc3a05370?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-31T17:21:50.258277Z"
+    },
+    {
+      "id": "9bbaab395e9a816b89f8bb4f288766df",
+      "title": "Lionel Messi announces retirement from international football",
+      "summary": "Superstar says he planned move two days after Argentina\u2019s loss to Spain in July World Cup final",
+      "link": "https://www.ft.com/content/4b2b79ad-f909-489b-a8d7-01a126f64bae?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
@@ -66,99 +157,172 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-31T17:16:51.778053Z"
+      "published": "2026-08-31T17:21:50.258194Z"
     },
     {
-      "id": "569f6d4af08066d7452c5f334be73f65",
-      "title": "Mexican Peso Gains Steam as Brazil, Colombia Carry Rallies Fade",
-      "summary": "The Mexican peso is finally drawing the attention of investors who have, for most of the year, overlooked the currency to chase higher returns elsewhere in emerging markets.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-31/mexican-peso-gains-steam-as-brazil-colombia-carry-rallies-fade",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "e2f2b1edcccfb6f8b7b69a47d893d3ad",
+      "title": "Prediction platform Kalshi bans ex-US Congress member for manipulation",
+      "summary": "Regulator says George Santos made public statements to boost the value of his own bets on whether he would attend the State of the Union address",
+      "link": "https://www.ft.com/content/eddde22c-aa99-468d-9fb0-36f3edd6e04f?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
       "severity": "MEDIUM",
-      "regime": "AI",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-31T17:16:51.778115Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-31T17:21:50.258236Z"
     },
     {
-      "id": "607c7fbc72029227e6b4162cf5ea750b",
-      "title": "The art of making something from nothing",
-      "summary": "Hotels are turning castoff materials into art that connects guests with local culture, history and ideas about sustainability.",
-      "link": "https://www.japantimes.co.jp/culture/2026/08/31/art/upcycled-art-japan-hotels/",
-      "source": "Japan Times",
-      "score": 5,
+      "id": "3f13aa4c60fb99ffe116c5d4d896b53a",
+      "title": "U.S. International Trade in Goods and Services, June 2026",
+      "summary": "",
+      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-june-2026",
+      "source": "BEA",
+      "score": 1,
       "severity": "LOW",
-      "regime": "AI",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-31T17:17:47.614461Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-31T17:22:28.292397Z"
     }
   ],
   "alerts": [
     {
-      "id": "acb9b1bcdefce34bf45cca4473ece092",
-      "title": "Treasury Market Selloff Sends 10-Year Yield to 19-Month High",
-      "summary": "The US 10-year yield topped 4.75% on Monday for the first time since January 2025 as rising oil prices bolstered expectations that the Federal Reserve will hike interest rates.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-31/treasury-10-year-yield-tops-4-75-highest-since-january-2025",
-      "source": "Bloomberg",
-      "score": 33,
+      "id": "4325fd5453dc464e31dbc0b454e53ac1",
+      "title": "Trump says data centre critics \u2018want to end up backwards and poor\u2019",
+      "summary": "US president urges voters to \u2018let Data Reign\u2019 as unpopular building boom roils midterm campaigns",
+      "link": "https://www.ft.com/content/744c448c-858e-4398-85dc-a66cecd02abb?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 30,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "TLT",
         "WTI"
       ],
       "regions": [],
       "assets": [
-        "COMMODITIES",
-        "RATES"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-08-31T17:16:51.777994Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-31T17:21:50.258136Z"
     },
     {
-      "id": "ae3e5eb307967db63ec966c3c656bae4",
-      "title": "Grand Canyon Flash Flood Leaves Two Dead, 15 Others Missing",
-      "summary": "At least two people have died after a flash flood in the Grand Canyon, the National Park Service said Monday. Some 15 others may be missing or unaccounted as search efforts progress. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-31/grand-canyon-flash-flood-leaves-two-dead-15-others-missing",
+      "id": "2c876de425df4cfe245d0a4c1ca54605",
+      "title": "Gold Slips as Renewed Mideast Tensions Keep Fed Hike Bets Alive",
+      "summary": "Gold edged down as renewed geopolitical risks stoked concerns about inflationary pressures that could make the Federal Reserve hike interest rates, a headwind for the precious metal.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-30/gold-steadies-after-tumbling-as-warsh-spurs-fed-rate-hike-bets",
       "source": "Bloomberg",
-      "score": 13,
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-08-31T17:21:47.591909Z"
+    },
+    {
+      "id": "418e08040b561bfcab0f8e3e30a2bb02",
+      "title": "Don\u2019t write off Russia\u2019s defence industry yet",
+      "summary": "Moscow\u2019s arms manufacturers are adapting and innovating in ways that could threaten Nato in the future",
+      "link": "https://www.ft.com/content/369558d0-357c-41e7-aa1e-dc1c1c07457d",
+      "source": "Financial Times",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-31T17:21:50.258319Z"
+    },
+    {
+      "id": "50e620431dd8756accc02c8c46446fe6",
+      "title": "Israel\u2019s de facto annexation of the West Bank",
+      "summary": "New housing tenders could end chance of a contiguous Palestinian state",
+      "link": "https://www.ft.com/content/96691b37-1360-4f32-b267-ec8fc3a05370?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-08-31T17:21:50.258277Z"
+    },
+    {
+      "id": "9bbaab395e9a816b89f8bb4f288766df",
+      "title": "Lionel Messi announces retirement from international football",
+      "summary": "Superstar says he planned move two days after Argentina\u2019s loss to Spain in July World Cup final",
+      "link": "https://www.ft.com/content/4b2b79ad-f909-489b-a8d7-01a126f64bae?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
@@ -175,57 +339,39 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-31T17:16:51.778053Z"
+      "published": "2026-08-31T17:21:50.258194Z"
     },
     {
-      "id": "569f6d4af08066d7452c5f334be73f65",
-      "title": "Mexican Peso Gains Steam as Brazil, Colombia Carry Rallies Fade",
-      "summary": "The Mexican peso is finally drawing the attention of investors who have, for most of the year, overlooked the currency to chase higher returns elsewhere in emerging markets.",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-31/mexican-peso-gains-steam-as-brazil-colombia-carry-rallies-fade",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "e2f2b1edcccfb6f8b7b69a47d893d3ad",
+      "title": "Prediction platform Kalshi bans ex-US Congress member for manipulation",
+      "summary": "Regulator says George Santos made public statements to boost the value of his own bets on whether he would attend the State of the Union address",
+      "link": "https://www.ft.com/content/eddde22c-aa99-468d-9fb0-36f3edd6e04f?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
       "severity": "MEDIUM",
-      "regime": "AI",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-31T17:16:51.778115Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-31T17:21:50.258236Z"
     },
     {
-      "id": "607c7fbc72029227e6b4162cf5ea750b",
-      "title": "The art of making something from nothing",
-      "summary": "Hotels are turning castoff materials into art that connects guests with local culture, history and ideas about sustainability.",
-      "link": "https://www.japantimes.co.jp/culture/2026/08/31/art/upcycled-art-japan-hotels/",
-      "source": "Japan Times",
-      "score": 5,
+      "id": "3f13aa4c60fb99ffe116c5d4d896b53a",
+      "title": "U.S. International Trade in Goods and Services, June 2026",
+      "summary": "",
+      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-june-2026",
+      "source": "BEA",
+      "score": 1,
       "severity": "LOW",
-      "regime": "AI",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-08-31T17:17:47.614461Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-08-31T17:22:28.292397Z"
     }
   ]
 }
