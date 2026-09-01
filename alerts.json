@@ -1,53 +1,93 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-01T16:57:49.229423Z",
+  "generated_at": "2026-09-01T17:02:52.511395Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 1,
-    "last_updated": "2026-09-01T16:57:49.229436Z"
+    "critical_alerts": 2,
+    "high_alerts": 2,
+    "last_updated": "2026-09-01T17:02:52.511411Z"
   },
   "top_signals": [
     {
-      "id": "aed68f5fae07e7fad929ebc2fef03ccb",
-      "title": "Fortress\u2019s Burton Says Rates Still Poised to Go Higher",
-      "summary": "Global bonds slumped as rising oil prices fueled inflation fears and bets on Fed rate hikes. Fortress Chief Strategist Elizabeth Burton says rates are still poised to go higher, arguing the underlying problem won\u2019t be fixed without a fiscal response. She speaks on Bloomberg Open Interest. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-01/fortress-s-burton-says-rates-still-poised-to-go-higher-video",
+      "id": "d9407c17f3c18e3d0b22c5f2b6a4ae28",
+      "title": "Stocks, Bonds Fall as US-Iran Risks Spark Oil Jump: Markets Wrap",
+      "summary": "A surge in oil prices rippled through global markets, hitting stocks and bonds on worries that potential inflationary pressures would force the Federal Reserve to boost interest rates.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-31/asian-stocks-to-fall-as-iran-flare-up-boosts-oil-markets-wrap",
       "source": "Bloomberg",
       "score": 38,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-01T17:01:39.946643Z"
+    },
+    {
+      "id": "4cff1c46585a239ff42a66be98f9fb11",
+      "title": "WTI hits highest level since July following latest U.S. attacks against Iran",
+      "summary": "Oil prices extended gains Tuesday as tensions in the Middle East escalated, with the U.S. carrying out new strikes against Iran.",
+      "link": "https://www.cnbc.com/2026/09/01/us-iran-war-trump-hormuz-tanker-attack-shipping-sanctions-.html",
+      "source": "CNBC",
+      "score": 35,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-01T16:56:47.872466Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-01T17:01:43.741040Z"
     },
     {
-      "id": "330316f0922fb254dba509449001397b",
-      "title": "Stocks, Bonds Fall as Oil Jump Fuels Fed-Hike Bets: Markets Wrap - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPR3lDeFpHVlptcnBMcThtNzhEVVM2d1AyMkI5bVQwSUlCQjhWd0VhbXdqaTF2NzJUc2FXSHpJX20zTVBmRlkxMG5BWXptMTQzejdQU3hqQUZHcno1bldsdE5iUG5BMFY4cUNBMDBfaGE4RG9jSElQSndGNGNBMlNMdXcyTFJaVUFhS0trQnJncFRsMExRZGluZFVOVkgzUHlFYWptTkNjQTc2OGFXYWc1Yzl3?oc=5\" target=\"_blank\">Stocks, Bonds Fall as Oil Jump Fuels Fed-Hike Bets: Markets Wrap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPR3lDeFpHVlptcnBMcThtNzhEVVM2d1AyMkI5bVQwSUlCQjhWd0VhbXdqaTF2NzJUc2FXSHpJX20zTVBmRlkxMG5BWXptMTQzejdQU3hqQUZHcno1bldsdE5iUG5BMFY4cUNBMDBfaGE4RG9jSElQSndGNGNBMlNMdXcyTFJaVUFhS0trQnJncFRsMExRZGluZFVOVkgzUHlFYWptTkNjQTc2OGFXYWc1Yzl3?oc=5",
-      "source": "Google Macro",
-      "score": 15,
+      "id": "74893d273a8ae6b325fdda1d79aa1411",
+      "title": "Two Saudi tankers struck in Strait of Hormuz Monday",
+      "summary": "Two oil tankers carrying Saudi crude were hit by unknown projectiles on Monday while passing through the Strait of Hormuz, according to shipping intelligence firms Marisks and Kpler. The attacks occurred within minutes of each other as the vessels traveled outbound through the waterway. Each tanker was loaded with 2 million barrels of Saudi crude ...",
+      "link": "https://www.hellenicshippingnews.com/two-saudi-tankers-struck-in-strait-of-hormuz-monday/",
+      "source": "Hellenic Shipping",
+      "score": 24,
       "severity": "HIGH",
       "regime": "COMMODITIES",
       "tickers": [
@@ -55,8 +95,9 @@
       ],
       "regions": [],
       "assets": [
+        "AI",
         "COMMODITIES",
-        "EQUITIES"
+        "SHIPPING"
       ],
       "market_impact": {
         "bullish": [
@@ -70,47 +111,321 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-01T16:57:46.958004Z"
+      "published": "2026-09-01T17:02:43.489263Z"
+    },
+    {
+      "id": "d44ea67de98c8efd0d4898951d588b27",
+      "title": "Tanzania\u2019s Mining Model Is Starting to Pay Off",
+      "summary": "In 1967, a Maasai herder called Jumanne Mhero Ngoma stumbled across a clump of unusual violet crystals in the Mereli Hills near the Tanzanian city of Arusha. For his discovery, Ngoma was awarded 50,000 shillings \u2013 about $22 in today\u2019s money. However, the rights to sell the mineral were awarded to Henry B. Platt, vice president of the American jeweller Tiffany and Co and the great-grandson of its founder, Louis Comfort Tiffany. Platt named the stone \u2018Tanzanite\u2019 and boasted in a marketing campaign that the jewel could only\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Tanzanias-Mining-Model-Is-Starting-to-Pay-Off.html",
+      "source": "OilPrice",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-01T17:02:42.735173Z"
+    },
+    {
+      "id": "59153cf10e4d5aaeb28678884144f990",
+      "title": "HOT PORT NEWS from GAC",
+      "summary": "Supply Chain Solutions for an Evolving Operating Environment in the Middle East 01 Sep 2026 / Middle East Disruptions should not rupture your supply chain. READ MORE United Arab Emirates \u2013 Advance cargo filing requirements for containerized maritime shipments 01 Sep 2026 / United Arab Emirates The UAE National Advance Information Center (NAIC) requires advance ...",
+      "link": "https://www.hellenicshippingnews.com/hot-port-news-from-gac-394/",
+      "source": "Hellenic Shipping",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-01T17:02:43.489408Z"
+    },
+    {
+      "id": "a4054ae490144e318d3e34c9fc958a74",
+      "title": "Breakwave Dry Bulk Shipping Report 9.1.2026",
+      "summary": "Steady Demand and Shrinking Vessel Supply Pushes Spot Higher \u2013 During the second half of August, robust iron ore &#160; Source: Breakwave Advisors",
+      "link": "https://www.hellenicshippingnews.com/breakwave-dry-bulk-shipping-report-9-1-2026/",
+      "source": "Hellenic Shipping",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-01T17:02:43.489438Z"
+    },
+    {
+      "id": "0fa276aaac8287a1f2a1ba3db96359f3",
+      "title": "World Maritime Forum 2027 to spotlight shipping priorities in Copenhagen on February 23 \u2013 24",
+      "summary": "The two-day maritime conference will take place at Copenhagen\u2019s AC Bella Sky Convention Center on 23-24 February 2027. World Maritime Forum 2027 will return to Copenhagen, where maritime professionals will gather for two days of industry discussions at the AC Bella Sky Convention Center. Organised by IGGS Group, the forum will bring together shipowners, ship ...",
+      "link": "https://www.hellenicshippingnews.com/world-maritime-forum-2027-to-spotlight-shipping-priorities-in-copenhagen-on-february-23-24/",
+      "source": "Hellenic Shipping",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-01T17:02:43.489537Z"
+    },
+    {
+      "id": "fb6987419fad8bae30cd01261f1d5f03",
+      "title": "What do 3% yields mean for Japan's businesses, Takaichi's spending plans?",
+      "summary": "",
+      "link": "https://asia.nikkei.com/economy/what-do-3-yields-mean-for-japan-s-businesses-takaichi-s-spending-plans",
+      "source": "Nikkei Asia",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-01T17:02:39.026011Z"
+    },
+    {
+      "id": "9e042cee7044bfcabeb660ef6883d592",
+      "title": "Bidding Announcement of 8806t Bulk Carrier \u201cZJ2026-0039\u201d",
+      "summary": "Entrusted by the transferor (the Sellers), our company is scheduled to hold an online public bidding (the &#8220;Bidding&#8221;) on the Shipbid website (www.shipbid.net) from 10:00 to 10:30 (Beijing Time) on September 18th, 2026 (the &#8220;Bidding Day&#8221;), which is hereby announced as follows: 1.Bidding Target: MV \u201cZJ2026-0039\u201d Bulk Carrier; PoR: Weifang, China; Surveyed by: CCS; LOA: ...",
+      "link": "https://www.hellenicshippingnews.com/bidding-announcement-of-8806t-bulk-carrier-zj2026-0039/",
+      "source": "Hellenic Shipping",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-01T17:02:43.489357Z"
+    },
+    {
+      "id": "4a432263f18c9443b8cc78cf6a0dd1ce",
+      "title": "Duration of power outages in Puerto Rico not caused by major events increased 19% in 2025",
+      "summary": "In 2025, customers in Puerto Rico experienced an average of 36 hours of power interruptions that were not caused by major events such as hurricanes, 19% more than in 2024. On average, between 2021 and 2025, Puerto Rican customers experience 29 hours of power loss each year. By comparison, electricity customers in the mainland United States generally experience about two hours of electricity interruptions per year without major events.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67926",
+      "source": "EIA",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-01T17:02:42.165133Z"
+    },
+    {
+      "id": "e1995cb16dda3894e879bd9384e976d7",
+      "title": "Athenian Shipbrokers S.A. DEMOLITION QUICK UPDATE Week 35, 2026",
+      "summary": "Athenian Shipbrokers SA Ship Recycling Weekly Report &#160; Source: ATHENIAN SHIPBROKERS S.A.",
+      "link": "https://www.hellenicshippingnews.com/athenian-shipbrokers-s-a-demolition-quick-update-week-35-2026/",
+      "source": "Hellenic Shipping",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-01T17:02:43.489296Z"
+    },
+    {
+      "id": "baf1c8424e489df3306feab599b3444c",
+      "title": "NYK and Stolt-Nielsen Establish Joint Ownership and Operating Structure for Avenir LNG",
+      "summary": "Following receipt of the relevant regulatory clearances, NYK has completed the acquisition of a 50% stake in Avenir LNG Limited (Avenir LNG). The stake was acquired from Stolt-Nielsen Gas Ltd., a wholly owned subsidiary of Stolt-Nielsen Limited (SNI), which previously held 100% ownership of Avenir LNG. With the completion of the transaction, NYK and SNI ...",
+      "link": "https://www.hellenicshippingnews.com/nyk-and-stolt-nielsen-establish-joint-ownership-and-operating-structure-for-avenir-lng/",
+      "source": "Hellenic Shipping",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-01T17:02:43.489483Z"
     }
   ],
   "alerts": [
     {
-      "id": "aed68f5fae07e7fad929ebc2fef03ccb",
-      "title": "Fortress\u2019s Burton Says Rates Still Poised to Go Higher",
-      "summary": "Global bonds slumped as rising oil prices fueled inflation fears and bets on Fed rate hikes. Fortress Chief Strategist Elizabeth Burton says rates are still poised to go higher, arguing the underlying problem won\u2019t be fixed without a fiscal response. She speaks on Bloomberg Open Interest. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-01/fortress-s-burton-says-rates-still-poised-to-go-higher-video",
+      "id": "d9407c17f3c18e3d0b22c5f2b6a4ae28",
+      "title": "Stocks, Bonds Fall as US-Iran Risks Spark Oil Jump: Markets Wrap",
+      "summary": "A surge in oil prices rippled through global markets, hitting stocks and bonds on worries that potential inflationary pressures would force the Federal Reserve to boost interest rates.",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-31/asian-stocks-to-fall-as-iran-flare-up-boosts-oil-markets-wrap",
       "source": "Bloomberg",
       "score": 38,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-01T17:01:39.946643Z"
+    },
+    {
+      "id": "4cff1c46585a239ff42a66be98f9fb11",
+      "title": "WTI hits highest level since July following latest U.S. attacks against Iran",
+      "summary": "Oil prices extended gains Tuesday as tensions in the Middle East escalated, with the U.S. carrying out new strikes against Iran.",
+      "link": "https://www.cnbc.com/2026/09/01/us-iran-war-trump-hormuz-tanker-attack-shipping-sanctions-.html",
+      "source": "CNBC",
+      "score": 35,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-01T16:56:47.872466Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-01T17:01:43.741040Z"
     },
     {
-      "id": "330316f0922fb254dba509449001397b",
-      "title": "Stocks, Bonds Fall as Oil Jump Fuels Fed-Hike Bets: Markets Wrap - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPR3lDeFpHVlptcnBMcThtNzhEVVM2d1AyMkI5bVQwSUlCQjhWd0VhbXdqaTF2NzJUc2FXSHpJX20zTVBmRlkxMG5BWXptMTQzejdQU3hqQUZHcno1bldsdE5iUG5BMFY4cUNBMDBfaGE4RG9jSElQSndGNGNBMlNMdXcyTFJaVUFhS0trQnJncFRsMExRZGluZFVOVkgzUHlFYWptTkNjQTc2OGFXYWc1Yzl3?oc=5\" target=\"_blank\">Stocks, Bonds Fall as Oil Jump Fuels Fed-Hike Bets: Markets Wrap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPR3lDeFpHVlptcnBMcThtNzhEVVM2d1AyMkI5bVQwSUlCQjhWd0VhbXdqaTF2NzJUc2FXSHpJX20zTVBmRlkxMG5BWXptMTQzejdQU3hqQUZHcno1bldsdE5iUG5BMFY4cUNBMDBfaGE4RG9jSElQSndGNGNBMlNMdXcyTFJaVUFhS0trQnJncFRsMExRZGluZFVOVkgzUHlFYWptTkNjQTc2OGFXYWc1Yzl3?oc=5",
-      "source": "Google Macro",
-      "score": 15,
+      "id": "74893d273a8ae6b325fdda1d79aa1411",
+      "title": "Two Saudi tankers struck in Strait of Hormuz Monday",
+      "summary": "Two oil tankers carrying Saudi crude were hit by unknown projectiles on Monday while passing through the Strait of Hormuz, according to shipping intelligence firms Marisks and Kpler. The attacks occurred within minutes of each other as the vessels traveled outbound through the waterway. Each tanker was loaded with 2 million barrels of Saudi crude ...",
+      "link": "https://www.hellenicshippingnews.com/two-saudi-tankers-struck-in-strait-of-hormuz-monday/",
+      "source": "Hellenic Shipping",
+      "score": 24,
       "severity": "HIGH",
       "regime": "COMMODITIES",
       "tickers": [
@@ -118,8 +433,9 @@
       ],
       "regions": [],
       "assets": [
+        "AI",
         "COMMODITIES",
-        "EQUITIES"
+        "SHIPPING"
       ],
       "market_impact": {
         "bullish": [
@@ -133,7 +449,241 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-01T16:57:46.958004Z"
+      "published": "2026-09-01T17:02:43.489263Z"
+    },
+    {
+      "id": "d44ea67de98c8efd0d4898951d588b27",
+      "title": "Tanzania\u2019s Mining Model Is Starting to Pay Off",
+      "summary": "In 1967, a Maasai herder called Jumanne Mhero Ngoma stumbled across a clump of unusual violet crystals in the Mereli Hills near the Tanzanian city of Arusha. For his discovery, Ngoma was awarded 50,000 shillings \u2013 about $22 in today\u2019s money. However, the rights to sell the mineral were awarded to Henry B. Platt, vice president of the American jeweller Tiffany and Co and the great-grandson of its founder, Louis Comfort Tiffany. Platt named the stone \u2018Tanzanite\u2019 and boasted in a marketing campaign that the jewel could only\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Tanzanias-Mining-Model-Is-Starting-to-Pay-Off.html",
+      "source": "OilPrice",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-01T17:02:42.735173Z"
+    },
+    {
+      "id": "59153cf10e4d5aaeb28678884144f990",
+      "title": "HOT PORT NEWS from GAC",
+      "summary": "Supply Chain Solutions for an Evolving Operating Environment in the Middle East 01 Sep 2026 / Middle East Disruptions should not rupture your supply chain. READ MORE United Arab Emirates \u2013 Advance cargo filing requirements for containerized maritime shipments 01 Sep 2026 / United Arab Emirates The UAE National Advance Information Center (NAIC) requires advance ...",
+      "link": "https://www.hellenicshippingnews.com/hot-port-news-from-gac-394/",
+      "source": "Hellenic Shipping",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-01T17:02:43.489408Z"
+    },
+    {
+      "id": "a4054ae490144e318d3e34c9fc958a74",
+      "title": "Breakwave Dry Bulk Shipping Report 9.1.2026",
+      "summary": "Steady Demand and Shrinking Vessel Supply Pushes Spot Higher \u2013 During the second half of August, robust iron ore &#160; Source: Breakwave Advisors",
+      "link": "https://www.hellenicshippingnews.com/breakwave-dry-bulk-shipping-report-9-1-2026/",
+      "source": "Hellenic Shipping",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-01T17:02:43.489438Z"
+    },
+    {
+      "id": "0fa276aaac8287a1f2a1ba3db96359f3",
+      "title": "World Maritime Forum 2027 to spotlight shipping priorities in Copenhagen on February 23 \u2013 24",
+      "summary": "The two-day maritime conference will take place at Copenhagen\u2019s AC Bella Sky Convention Center on 23-24 February 2027. World Maritime Forum 2027 will return to Copenhagen, where maritime professionals will gather for two days of industry discussions at the AC Bella Sky Convention Center. Organised by IGGS Group, the forum will bring together shipowners, ship ...",
+      "link": "https://www.hellenicshippingnews.com/world-maritime-forum-2027-to-spotlight-shipping-priorities-in-copenhagen-on-february-23-24/",
+      "source": "Hellenic Shipping",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-01T17:02:43.489537Z"
+    },
+    {
+      "id": "fb6987419fad8bae30cd01261f1d5f03",
+      "title": "What do 3% yields mean for Japan's businesses, Takaichi's spending plans?",
+      "summary": "",
+      "link": "https://asia.nikkei.com/economy/what-do-3-yields-mean-for-japan-s-businesses-takaichi-s-spending-plans",
+      "source": "Nikkei Asia",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-01T17:02:39.026011Z"
+    },
+    {
+      "id": "9e042cee7044bfcabeb660ef6883d592",
+      "title": "Bidding Announcement of 8806t Bulk Carrier \u201cZJ2026-0039\u201d",
+      "summary": "Entrusted by the transferor (the Sellers), our company is scheduled to hold an online public bidding (the &#8220;Bidding&#8221;) on the Shipbid website (www.shipbid.net) from 10:00 to 10:30 (Beijing Time) on September 18th, 2026 (the &#8220;Bidding Day&#8221;), which is hereby announced as follows: 1.Bidding Target: MV \u201cZJ2026-0039\u201d Bulk Carrier; PoR: Weifang, China; Surveyed by: CCS; LOA: ...",
+      "link": "https://www.hellenicshippingnews.com/bidding-announcement-of-8806t-bulk-carrier-zj2026-0039/",
+      "source": "Hellenic Shipping",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-01T17:02:43.489357Z"
+    },
+    {
+      "id": "4a432263f18c9443b8cc78cf6a0dd1ce",
+      "title": "Duration of power outages in Puerto Rico not caused by major events increased 19% in 2025",
+      "summary": "In 2025, customers in Puerto Rico experienced an average of 36 hours of power interruptions that were not caused by major events such as hurricanes, 19% more than in 2024. On average, between 2021 and 2025, Puerto Rican customers experience 29 hours of power loss each year. By comparison, electricity customers in the mainland United States generally experience about two hours of electricity interruptions per year without major events.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67926",
+      "source": "EIA",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-01T17:02:42.165133Z"
+    },
+    {
+      "id": "e1995cb16dda3894e879bd9384e976d7",
+      "title": "Athenian Shipbrokers S.A. DEMOLITION QUICK UPDATE Week 35, 2026",
+      "summary": "Athenian Shipbrokers SA Ship Recycling Weekly Report &#160; Source: ATHENIAN SHIPBROKERS S.A.",
+      "link": "https://www.hellenicshippingnews.com/athenian-shipbrokers-s-a-demolition-quick-update-week-35-2026/",
+      "source": "Hellenic Shipping",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-01T17:02:43.489296Z"
+    },
+    {
+      "id": "baf1c8424e489df3306feab599b3444c",
+      "title": "NYK and Stolt-Nielsen Establish Joint Ownership and Operating Structure for Avenir LNG",
+      "summary": "Following receipt of the relevant regulatory clearances, NYK has completed the acquisition of a 50% stake in Avenir LNG Limited (Avenir LNG). The stake was acquired from Stolt-Nielsen Gas Ltd., a wholly owned subsidiary of Stolt-Nielsen Limited (SNI), which previously held 100% ownership of Avenir LNG. With the completion of the transaction, NYK and SNI ...",
+      "link": "https://www.hellenicshippingnews.com/nyk-and-stolt-nielsen-establish-joint-ownership-and-operating-structure-for-avenir-lng/",
+      "source": "Hellenic Shipping",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-01T17:02:43.489483Z"
     }
   ]
 }
