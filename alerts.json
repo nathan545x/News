@@ -1,80 +1,191 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-02T09:52:50.233641Z",
+  "generated_at": "2026-09-02T09:57:52.779255Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 1,
-    "last_updated": "2026-09-02T09:52:50.233657Z"
+    "critical_alerts": 2,
+    "high_alerts": 3,
+    "last_updated": "2026-09-02T09:57:52.779266Z"
   },
   "top_signals": [
     {
-      "id": "dea5c39c0e6df67dea50bca1ef16dcf8",
-      "title": "Gold Extends Decline as Inflation Risks Pull Yields Higher",
-      "summary": "Gold fell for a fourth day as escalating attacks in the Middle East and concerns about inflation pushed bond yields higher and fueled further bets on interest rate hikes.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-01/gold-holds-drop-as-higher-oil-bond-selloff-raise-rate-hike-bets",
-      "source": "Bloomberg",
-      "score": 45,
+      "id": "bca2ac6bbb4d25a176352f23541a23a8",
+      "title": "Ukraine tells airlines to stop using Russian airspace",
+      "summary": "Volodymyr Zelenskyy warns \u2018safe days in Russia\u2019s skies are over\u2019 as he threatens more drone strikes",
+      "link": "https://www.ft.com/content/806ed56b-f5b2-4ae4-8164-231ccaebdd21?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 37,
       "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "XAU"
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
       ],
-      "regions": [],
       "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T09:56:51.721992Z"
+    },
+    {
+      "id": "8c0adf8c1371c2be3f3fac7c12a8a9d7",
+      "title": "Zelenskyy says airlines should avoid Russian airspace as Ukraine expands drone operations",
+      "summary": "Zelenskyy urged airlines to avoid Russian airspace, warning that expanding Ukrainian drone operations are making the skies increasingly unsafe.",
+      "link": "https://www.cnbc.com/2026/09/02/ukraine-zelenskyy-airlines-russia-drone-war.html",
+      "source": "CNBC",
+      "score": 35,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T09:56:52.988005Z"
+    },
+    {
+      "id": "59b5ebeb1119a3e19e36f9f9cbb55ca3",
+      "title": "Energy price surge hits bond markets as European gas reaches three-year high",
+      "summary": "US 10-year borrowing costs touch highest since 2023 as fears of return to full-blown Iran conflict rise",
+      "link": "https://www.ft.com/content/f73c2c95-5c73-4b2f-9f00-9fa8c12c10c9?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T09:56:51.244279Z"
+    },
+    {
+      "id": "fa876da15d66892780b6046ab70201d3",
+      "title": "Oil Prices Rally as U.S. Targets Iranian Tankers in New Escalation",
+      "summary": "Oil prices climbed once again in early Asian trade on Wednesday as the U.S. and Iran traded strikes in a significant escalation after a month of relative calm.\u00a0 At the time of writing, WTI had climbed to $91.05 per barrel, trading 0.92% higher on the session, and Brent had risen 1.19% to trade at $95.68. Both benchmarks have now climbed by roughly $5 since hostilities between the two countries renewed. U.S. Central Command (Centcom) reported that it had completed a wave of strikes against \u201cair defense sites, radar systems, maritime assets\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Rally-as-US-Targets-Iranian-Tankers-in-New-Escalation.html",
+      "source": "OilPrice",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-02T09:51:51.820029Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T09:57:46.514535Z"
     },
     {
-      "id": "60208ca91fba69433764f8e79b61d798",
-      "title": "Green notice 2026/02",
-      "summary": "Green notices cover significant and/or significant proposals for Bank of England reporting. If any of these proposals are finalised and are to be implemented, they will appear in a statistical notice.",
-      "link": "https://www.bankofengland.co.uk/statistics/notice/2026/green-notice-2026-02",
-      "source": "Bank of England",
-      "score": 18,
+      "id": "ac292cb79d480116b4f1779022cc807c",
+      "title": "10-year U.S. Treasury yield hits highest level since November 2023 as global bond sell-off continues",
+      "summary": "Treasury yields continued to climb on Wednesday as inflation fears stoked a global rise in borrowing costs.",
+      "link": "https://www.cnbc.com/2026/09/02/bond-yields-treasurys-inflation.html",
+      "source": "CNBC",
+      "score": 17,
       "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "UK"
+      "regime": "INFLATION",
+      "tickers": [
+        "TLT"
       ],
-      "assets": [],
+      "regions": [],
+      "assets": [
+        "RATES"
+      ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "XAU",
+          "WTI",
+          "COMMODITIES"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-02T09:52:35.062611Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-02T09:56:52.987942Z"
     },
     {
-      "id": "8016fa0f00d51a371216220cb8318080",
-      "title": "Running on empty: Climate risks and the fragility of global energy and food supply chains \u2212 speech by Swati Dhingra",
-      "summary": "Given at the World Resources Institute, London",
-      "link": "https://www.bankofengland.co.uk/speech/2026/june/swati-dhingra-panel-at-the-world-resources-institute-workshop",
-      "source": "Bank of England",
+      "id": "3eb364bb548f5d3b98c661fb1f176bd2",
+      "title": "\u00a3100 million competition to back British AI companies to fix public services",
+      "summary": "\u00a3100 million fund competition will help promising British AI start-ups start in the UK and tackle some of society's biggest challenges.",
+      "link": "https://www.gov.uk/government/news/100-million-competition-to-back-british-ai-companies-to-fix-public-services",
+      "source": "HM Treasury",
       "score": 14,
       "severity": "MEDIUM",
       "regime": "AI",
@@ -94,110 +205,101 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-02T09:52:35.198987Z"
+      "published": "2026-09-02T09:57:35.400698Z"
     },
     {
-      "id": "01ea7945b20706c7a9d97ee80dbbc63c",
-      "title": "A sea change in regulatory investigations and enforcement \u2212 speech by David Chaplin",
-      "summary": "Given at the 5th Conference on Financial Law and Regulation, University of Leeds School of Law, 24 June 2026",
-      "link": "https://www.bankofengland.co.uk/speech/2026/june/david-chaplin-speech-given-at-the-financial-law-and-regulation-conference",
-      "source": "Bank of England",
-      "score": 10,
+      "id": "2006b041564648bf1d6bdbd7f81606fb",
+      "title": "U.S. crude tops $90 as Iran retaliates with strikes on Kuwait, Jordan and Bahrain - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1MNDNOWTJyVFdGTFVLaVJUaWcwcE1tQWpUMjl0WE9VUlVva1NmMHlkcU95S1Z6ckdlUldDZ2tFQVRQQXV0dmU2UkF5bnZTV1ZOVjBaaFNCalFOWF9TM18ybVVrUWUtWmxybGdxeFhsZ9IBdEFVX3lxTFBoSDZuZHAxQl85dmU2Q2NCZC1KNFNBLXJOQTBJbVppdFhmRVVCd3R0eFpKN0JucUhraEtvelZkU3Q0YnM3cHgxN1NJRWg2T042WFkwN1M1MEdYMmh4X2RmcVBGbmhtMHZTZnhyV3RhZFBpOFVw?oc=5\" target=\"_blank\">U.S. crude tops $90 as Iran retaliates with strikes on Kuwait, Jordan and Bahrain</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MNDNOWTJyVFdGTFVLaVJUaWcwcE1tQWpUMjl0WE9VUlVva1NmMHlkcU95S1Z6ckdlUldDZ2tFQVRQQXV0dmU2UkF5bnZTV1ZOVjBaaFNCalFOWF9TM18ybVVrUWUtWmxybGdxeFhsZ9IBdEFVX3lxTFBoSDZuZHAxQl85dmU2Q2NCZC1KNFNBLXJOQTBJbVppdFhmRVVCd3R0eFpKN0JucUhraEtvelZkU3Q0YnM3cHgxN1NJRWg2T042WFkwN1M1MEdYMmh4X2RmcVBGbmhtMHZTZnhyV3RhZFBpOFVw?oc=5",
+      "source": "Google Macro",
+      "score": 13,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-02T09:52:35.198933Z"
-    },
-    {
-      "id": "746781b7e3c9089dfda2a060e30b3131",
-      "title": "Longer wells boost Permian crude oil and natural gas production",
-      "summary": "Well operators in the Permian region of western Texas and eastern New Mexico are getting more oil and gas out of the ground by drilling longer, horizontal wells and increasingly incorporating so-called super-lateral wells that exceed 15,000 feet.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67984",
-      "source": "EIA",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
       ],
-      "regions": [],
       "assets": [
-        "COMMODITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-02T09:52:44.815321Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T09:57:52.779241Z"
     },
     {
-      "id": "2a07bd223ba870cf214ab3f21a231551",
-      "title": "Daily News 01 / 09 / 2026",
-      "summary": "European Commission Daily news Brussels, 01 Sep 2026 Latest data on investment in education sector across Europe highlights ways to boost attractiveness of teaching profession\nAs pupils and teachers return to scho...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1783",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
+      "id": "88aaed103c775b08def332eddcab9620",
+      "title": "Cango shares plunge 20% after bitcoin miner reports $81.6 million Q2 loss",
+      "summary": "Cango scaled back its mining fleet in the second quarter as revenue fell and the company focused on efficiency.",
+      "link": "https://www.theblock.co/news/markets/2026-09-01-cango-shares-plunge-20-after-bitcoin-miner-reports-81-6-million-q2-loss-413259",
+      "source": "The Block",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
       "tickers": [
-        "EUR"
+        "BTC"
       ],
-      "regions": [
-        "EUROPE"
-      ],
+      "regions": [],
       "assets": [
-        "AI",
-        "FX"
+        "CRYPTO"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "BTC",
+          "ETH"
         ],
-        "bearish": []
+        "bearish": [
+          "USD"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-02T09:52:34.623269Z"
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-02T09:57:49.109418Z"
     },
     {
-      "id": "2aba1813aee738a1dbbc3b4849416f35",
-      "title": "Entry into force or application of EU legislation key milestones  1 September \u2013 15 October 2026",
-      "summary": "European Commission Factsheet Brussels, 01 Sep 2026   Entry into force or application of EU legislation key milestones  1 September \u2013 15 October 2026 Entry into force or application of EU legislation key mileston...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1782",
-      "source": "European Commission",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
+      "id": "30ff5f7a832be85c857281f9dab7149a",
+      "title": "Healthcare facilities operator Nutex says patient, employee data stolen in August incident",
+      "summary": "Cybercriminals breached company data and made an extortion attempt with it, Houston-based Nutex Health said in a filing with federal regulators.",
+      "link": "https://therecord.media/nutex-health-data-breach",
+      "source": "The Record",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
       "assets": [
-        "FX"
+        "AI"
       ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-02T09:52:34.623341Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-02T09:57:49.728885Z"
     },
     {
-      "id": "5852c42b7dff8e4cc7ed4464f596309c",
-      "title": "Xi Jinping visits Egypt in rare foreign travel flurry ahead of Donald Trump summit - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOMkxJQnVLalprZUkzUWpZaTRkOGpCWXp0WUlUYmUyUnBxeEtqUzRvcFM5TXZXYURlaFE0MlBZcDFCSE1UYTVTdGZXRENlWmVadDRndUFyZ1E2VXM2b1o3cnNqN3RYMHlDTlVyNWs2dW05UExnMElCTGp1dkR6LW9Ya3JSdzc?oc=5\" target=\"_blank\">Xi Jinping visits Egypt in rare foreign travel flurry ahead of Donald Trump summit</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "id": "3c509a418be85b655a9365a3e4eb2058",
+      "title": "Xi Jinping visits Egypt in rare foreign travel flurry ahead of Donald Trump summit - ft.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOMkxJQnVLalprZUkzUWpZaTRkOGpCWXp0WUlUYmUyUnBxeEtqUzRvcFM5TXZXYURlaFE0MlBZcDFCSE1UYTVTdGZXRENlWmVadDRndUFyZ1E2VXM2b1o3cnNqN3RYMHlDTlVyNWs2dW05UExnMElCTGp1dkR6LW9Ya3JSdzc?oc=5\" target=\"_blank\">Xi Jinping visits Egypt in rare foreign travel flurry ahead of Donald Trump summit</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ft.com</font>",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMkxJQnVLalprZUkzUWpZaTRkOGpCWXp0WUlUYmUyUnBxeEtqUzRvcFM5TXZXYURlaFE0MlBZcDFCSE1UYTVTdGZXRENlWmVadDRndUFyZ1E2VXM2b1o3cnNqN3RYMHlDTlVyNWs2dW05UExnMElCTGp1dkR6LW9Ya3JSdzc?oc=5",
       "source": "Google Macro",
       "score": 1,
@@ -210,74 +312,185 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-02T09:52:49.264123Z"
+      "published": "2026-09-02T09:57:51.627653Z"
     }
   ],
   "alerts": [
     {
-      "id": "dea5c39c0e6df67dea50bca1ef16dcf8",
-      "title": "Gold Extends Decline as Inflation Risks Pull Yields Higher",
-      "summary": "Gold fell for a fourth day as escalating attacks in the Middle East and concerns about inflation pushed bond yields higher and fueled further bets on interest rate hikes.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-01/gold-holds-drop-as-higher-oil-bond-selloff-raise-rate-hike-bets",
-      "source": "Bloomberg",
-      "score": 45,
+      "id": "bca2ac6bbb4d25a176352f23541a23a8",
+      "title": "Ukraine tells airlines to stop using Russian airspace",
+      "summary": "Volodymyr Zelenskyy warns \u2018safe days in Russia\u2019s skies are over\u2019 as he threatens more drone strikes",
+      "link": "https://www.ft.com/content/806ed56b-f5b2-4ae4-8164-231ccaebdd21?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 37,
       "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "XAU"
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
       ],
-      "regions": [],
       "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T09:56:51.721992Z"
+    },
+    {
+      "id": "8c0adf8c1371c2be3f3fac7c12a8a9d7",
+      "title": "Zelenskyy says airlines should avoid Russian airspace as Ukraine expands drone operations",
+      "summary": "Zelenskyy urged airlines to avoid Russian airspace, warning that expanding Ukrainian drone operations are making the skies increasingly unsafe.",
+      "link": "https://www.cnbc.com/2026/09/02/ukraine-zelenskyy-airlines-russia-drone-war.html",
+      "source": "CNBC",
+      "score": 35,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T09:56:52.988005Z"
+    },
+    {
+      "id": "59b5ebeb1119a3e19e36f9f9cbb55ca3",
+      "title": "Energy price surge hits bond markets as European gas reaches three-year high",
+      "summary": "US 10-year borrowing costs touch highest since 2023 as fears of return to full-blown Iran conflict rise",
+      "link": "https://www.ft.com/content/f73c2c95-5c73-4b2f-9f00-9fa8c12c10c9?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T09:56:51.244279Z"
+    },
+    {
+      "id": "fa876da15d66892780b6046ab70201d3",
+      "title": "Oil Prices Rally as U.S. Targets Iranian Tankers in New Escalation",
+      "summary": "Oil prices climbed once again in early Asian trade on Wednesday as the U.S. and Iran traded strikes in a significant escalation after a month of relative calm.\u00a0 At the time of writing, WTI had climbed to $91.05 per barrel, trading 0.92% higher on the session, and Brent had risen 1.19% to trade at $95.68. Both benchmarks have now climbed by roughly $5 since hostilities between the two countries renewed. U.S. Central Command (Centcom) reported that it had completed a wave of strikes against \u201cair defense sites, radar systems, maritime assets\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Rally-as-US-Targets-Iranian-Tankers-in-New-Escalation.html",
+      "source": "OilPrice",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-02T09:51:51.820029Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T09:57:46.514535Z"
     },
     {
-      "id": "60208ca91fba69433764f8e79b61d798",
-      "title": "Green notice 2026/02",
-      "summary": "Green notices cover significant and/or significant proposals for Bank of England reporting. If any of these proposals are finalised and are to be implemented, they will appear in a statistical notice.",
-      "link": "https://www.bankofengland.co.uk/statistics/notice/2026/green-notice-2026-02",
-      "source": "Bank of England",
-      "score": 18,
+      "id": "ac292cb79d480116b4f1779022cc807c",
+      "title": "10-year U.S. Treasury yield hits highest level since November 2023 as global bond sell-off continues",
+      "summary": "Treasury yields continued to climb on Wednesday as inflation fears stoked a global rise in borrowing costs.",
+      "link": "https://www.cnbc.com/2026/09/02/bond-yields-treasurys-inflation.html",
+      "source": "CNBC",
+      "score": 17,
       "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "UK"
+      "regime": "INFLATION",
+      "tickers": [
+        "TLT"
       ],
-      "assets": [],
+      "regions": [],
+      "assets": [
+        "RATES"
+      ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "XAU",
+          "WTI",
+          "COMMODITIES"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-02T09:52:35.062611Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-02T09:56:52.987942Z"
     },
     {
-      "id": "8016fa0f00d51a371216220cb8318080",
-      "title": "Running on empty: Climate risks and the fragility of global energy and food supply chains \u2212 speech by Swati Dhingra",
-      "summary": "Given at the World Resources Institute, London",
-      "link": "https://www.bankofengland.co.uk/speech/2026/june/swati-dhingra-panel-at-the-world-resources-institute-workshop",
-      "source": "Bank of England",
+      "id": "3eb364bb548f5d3b98c661fb1f176bd2",
+      "title": "\u00a3100 million competition to back British AI companies to fix public services",
+      "summary": "\u00a3100 million fund competition will help promising British AI start-ups start in the UK and tackle some of society's biggest challenges.",
+      "link": "https://www.gov.uk/government/news/100-million-competition-to-back-british-ai-companies-to-fix-public-services",
+      "source": "HM Treasury",
       "score": 14,
       "severity": "MEDIUM",
       "regime": "AI",
@@ -297,110 +510,101 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-02T09:52:35.198987Z"
+      "published": "2026-09-02T09:57:35.400698Z"
     },
     {
-      "id": "01ea7945b20706c7a9d97ee80dbbc63c",
-      "title": "A sea change in regulatory investigations and enforcement \u2212 speech by David Chaplin",
-      "summary": "Given at the 5th Conference on Financial Law and Regulation, University of Leeds School of Law, 24 June 2026",
-      "link": "https://www.bankofengland.co.uk/speech/2026/june/david-chaplin-speech-given-at-the-financial-law-and-regulation-conference",
-      "source": "Bank of England",
-      "score": 10,
+      "id": "2006b041564648bf1d6bdbd7f81606fb",
+      "title": "U.S. crude tops $90 as Iran retaliates with strikes on Kuwait, Jordan and Bahrain - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1MNDNOWTJyVFdGTFVLaVJUaWcwcE1tQWpUMjl0WE9VUlVva1NmMHlkcU95S1Z6ckdlUldDZ2tFQVRQQXV0dmU2UkF5bnZTV1ZOVjBaaFNCalFOWF9TM18ybVVrUWUtWmxybGdxeFhsZ9IBdEFVX3lxTFBoSDZuZHAxQl85dmU2Q2NCZC1KNFNBLXJOQTBJbVppdFhmRVVCd3R0eFpKN0JucUhraEtvelZkU3Q0YnM3cHgxN1NJRWg2T042WFkwN1M1MEdYMmh4X2RmcVBGbmhtMHZTZnhyV3RhZFBpOFVw?oc=5\" target=\"_blank\">U.S. crude tops $90 as Iran retaliates with strikes on Kuwait, Jordan and Bahrain</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MNDNOWTJyVFdGTFVLaVJUaWcwcE1tQWpUMjl0WE9VUlVva1NmMHlkcU95S1Z6ckdlUldDZ2tFQVRQQXV0dmU2UkF5bnZTV1ZOVjBaaFNCalFOWF9TM18ybVVrUWUtWmxybGdxeFhsZ9IBdEFVX3lxTFBoSDZuZHAxQl85dmU2Q2NCZC1KNFNBLXJOQTBJbVppdFhmRVVCd3R0eFpKN0JucUhraEtvelZkU3Q0YnM3cHgxN1NJRWg2T042WFkwN1M1MEdYMmh4X2RmcVBGbmhtMHZTZnhyV3RhZFBpOFVw?oc=5",
+      "source": "Google Macro",
+      "score": 13,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-02T09:52:35.198933Z"
-    },
-    {
-      "id": "746781b7e3c9089dfda2a060e30b3131",
-      "title": "Longer wells boost Permian crude oil and natural gas production",
-      "summary": "Well operators in the Permian region of western Texas and eastern New Mexico are getting more oil and gas out of the ground by drilling longer, horizontal wells and increasingly incorporating so-called super-lateral wells that exceed 15,000 feet.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67984",
-      "source": "EIA",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
       ],
-      "regions": [],
       "assets": [
-        "COMMODITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-02T09:52:44.815321Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T09:57:52.779241Z"
     },
     {
-      "id": "2a07bd223ba870cf214ab3f21a231551",
-      "title": "Daily News 01 / 09 / 2026",
-      "summary": "European Commission Daily news Brussels, 01 Sep 2026 Latest data on investment in education sector across Europe highlights ways to boost attractiveness of teaching profession\nAs pupils and teachers return to scho...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1783",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
+      "id": "88aaed103c775b08def332eddcab9620",
+      "title": "Cango shares plunge 20% after bitcoin miner reports $81.6 million Q2 loss",
+      "summary": "Cango scaled back its mining fleet in the second quarter as revenue fell and the company focused on efficiency.",
+      "link": "https://www.theblock.co/news/markets/2026-09-01-cango-shares-plunge-20-after-bitcoin-miner-reports-81-6-million-q2-loss-413259",
+      "source": "The Block",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
       "tickers": [
-        "EUR"
+        "BTC"
       ],
-      "regions": [
-        "EUROPE"
-      ],
+      "regions": [],
       "assets": [
-        "AI",
-        "FX"
+        "CRYPTO"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "BTC",
+          "ETH"
         ],
-        "bearish": []
+        "bearish": [
+          "USD"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-02T09:52:34.623269Z"
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-02T09:57:49.109418Z"
     },
     {
-      "id": "2aba1813aee738a1dbbc3b4849416f35",
-      "title": "Entry into force or application of EU legislation key milestones  1 September \u2013 15 October 2026",
-      "summary": "European Commission Factsheet Brussels, 01 Sep 2026   Entry into force or application of EU legislation key milestones  1 September \u2013 15 October 2026 Entry into force or application of EU legislation key mileston...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1782",
-      "source": "European Commission",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
+      "id": "30ff5f7a832be85c857281f9dab7149a",
+      "title": "Healthcare facilities operator Nutex says patient, employee data stolen in August incident",
+      "summary": "Cybercriminals breached company data and made an extortion attempt with it, Houston-based Nutex Health said in a filing with federal regulators.",
+      "link": "https://therecord.media/nutex-health-data-breach",
+      "source": "The Record",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
       "assets": [
-        "FX"
+        "AI"
       ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-02T09:52:34.623341Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-02T09:57:49.728885Z"
     },
     {
-      "id": "5852c42b7dff8e4cc7ed4464f596309c",
-      "title": "Xi Jinping visits Egypt in rare foreign travel flurry ahead of Donald Trump summit - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOMkxJQnVLalprZUkzUWpZaTRkOGpCWXp0WUlUYmUyUnBxeEtqUzRvcFM5TXZXYURlaFE0MlBZcDFCSE1UYTVTdGZXRENlWmVadDRndUFyZ1E2VXM2b1o3cnNqN3RYMHlDTlVyNWs2dW05UExnMElCTGp1dkR6LW9Ya3JSdzc?oc=5\" target=\"_blank\">Xi Jinping visits Egypt in rare foreign travel flurry ahead of Donald Trump summit</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "id": "3c509a418be85b655a9365a3e4eb2058",
+      "title": "Xi Jinping visits Egypt in rare foreign travel flurry ahead of Donald Trump summit - ft.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOMkxJQnVLalprZUkzUWpZaTRkOGpCWXp0WUlUYmUyUnBxeEtqUzRvcFM5TXZXYURlaFE0MlBZcDFCSE1UYTVTdGZXRENlWmVadDRndUFyZ1E2VXM2b1o3cnNqN3RYMHlDTlVyNWs2dW05UExnMElCTGp1dkR6LW9Ya3JSdzc?oc=5\" target=\"_blank\">Xi Jinping visits Egypt in rare foreign travel flurry ahead of Donald Trump summit</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ft.com</font>",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMkxJQnVLalprZUkzUWpZaTRkOGpCWXp0WUlUYmUyUnBxeEtqUzRvcFM5TXZXYURlaFE0MlBZcDFCSE1UYTVTdGZXRENlWmVadDRndUFyZ1E2VXM2b1o3cnNqN3RYMHlDTlVyNWs2dW05UExnMElCTGp1dkR6LW9Ya3JSdzc?oc=5",
       "source": "Google Macro",
       "score": 1,
@@ -413,7 +617,7 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-02T09:52:49.264123Z"
+      "published": "2026-09-02T09:57:51.627653Z"
     }
   ]
 }
