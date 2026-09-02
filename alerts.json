@@ -1,32 +1,101 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-02T04:52:49.840340Z",
+  "generated_at": "2026-09-02T04:58:22.576922Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-09-02T04:52:49.840351Z"
+    "critical_alerts": 2,
+    "high_alerts": 2,
+    "last_updated": "2026-09-02T04:58:22.576936Z"
   },
   "top_signals": [
     {
-      "id": "b4220beb585f9be0a1a14ddf22bc8f80",
-      "title": "Rise in UK borrowing costs piles pressure on Andy Burnham and John Healey - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOZlBGZ3UwUFFKdjRDcmhjWjVnOS1XQjdWQnRPOU9Fakc0SERDODRBTHRZWjJmdzNfTEZVa2VzOWtmcFMwMDY3S0tuNmVSOE5jZ2NVSGcyUy1lXzk4SFE4MWdIWFZmRGUtODVtZUp1M1IwenpRTl9lV3VXanNEbWJpYlpObWk?oc=5\" target=\"_blank\">Rise in UK borrowing costs piles pressure on Andy Burnham and John Healey</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZlBGZ3UwUFFKdjRDcmhjWjVnOS1XQjdWQnRPOU9Fakc0SERDODRBTHRZWjJmdzNfTEZVa2VzOWtmcFMwMDY3S0tuNmVSOE5jZ2NVSGcyUy1lXzk4SFE4MWdIWFZmRGUtODVtZUp1M1IwenpRTl9lV3VXanNEbWJpYlpObWk?oc=5",
-      "source": "Google Macro",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "RATES",
+      "id": "60f56d5734c8f49c456f566054d8dc70",
+      "title": "Global bond yields soar to multi-decade highs as Middle East turmoil reignites inflation fears",
+      "summary": "Bond yields surged across major markets Tuesday as U.S.-Iran hostilities revived energy and inflation risks, with Japan and U.K. yields at multi-decade highs.",
+      "link": "https://www.cnbc.com/2026/09/01/bond-yields-iran-inflation-treasurys-japan-uk.html",
+      "source": "CNBC",
+      "score": 44,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "JPY"
+        "WTI"
       ],
       "regions": [
-        "UK"
+        "JAPAN",
+        "MIDDLE_EAST"
       ],
-      "assets": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T04:56:49.238313Z"
+    },
+    {
+      "id": "7e3bf7f0ab67294b5a451046b2d7259e",
+      "title": "US-Iran Conflict Intensifies as Trump Downplays Desire for Deal",
+      "summary": "The conflict between the US and Iran escalated sharply, with American forces carrying out a fresh wave of strikes and Iran saying it had retaliated. Meanwhile President\u00a0Donald Trump\u00a0downplayed the chances of a deal, writing in\u00a0a post\u00a0on Truth Social that he\u2019s \u201cnot trying to force Iran to the bargaining table.\u201d\u00a0 (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-02/us-iran-conflict-intensifies-trump-downplays-deal-hopes-video",
+      "source": "Bloomberg",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T04:56:44.276837Z"
+    },
+    {
+      "id": "af83cbe15131fc49e3653c9402ac6691",
+      "title": "Where Bond Yields Are Heading as Energy Prices Rise",
+      "summary": "Highlights from Bloomberg TV as contributors shed light on how rising energy prices are driving bond yields higher across markets and traders reposition in anticipation of further challenges. Meanwhile, the yield on 30-year US government bonds have climbed back to levels seen just before Treasury Secretary Scott Bessent expanded a buyback program to contain long-term borrowing costs. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-02/where-bond-yields-are-heading-as-energy-prices-rise",
+      "source": "Bloomberg",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -39,26 +108,195 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-02T04:52:48.789757Z"
+      "published": "2026-09-02T04:56:44.276748Z"
+    },
+    {
+      "id": "97cf2b7e37b3bcf473ef8e4415deb1a2",
+      "title": "The Divine Calculus of the Ukraine War\u2019s End",
+      "summary": "<p>Welcome to&#160;The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum, only for War on the Rocks&#160;members. Each Monday, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country.American coverage often narrows the view to the battlefield &#8212; these pieces widen it, revealing the texture of daily life, politics, and public argument in a nation at war. The perspectives gathered here are varied, candid, and often surprising, together forming a more complete picture of Ukraine as it really is.Frontline and Strategy&#1054;&#1073;&#1086;&#1079;&#1088;&#1077;&#1074;&#1072;&#1090;&#1077;&#1083;&#1100;</p>\n<p>The post <a href=\"https://warontherocks.com/the-divine-calculus-of-the-ukraine-wars-end/\">The Divine Calculus of the Ukraine War&#8217;s End</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/the-divine-calculus-of-the-ukraine-wars-end/",
+      "source": "War on the Rocks",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK",
+        "UKRAINE",
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T04:58:18.502030Z"
+    },
+    {
+      "id": "a73f30e70ec453b46672ee1fd29d9820",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity also has learned that the New Orleans field office of the Federal Bureau of Investigation (FBI) today launched an official inquiry into the source of the images.",
+      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "source": "KrebsOnSecurity",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-02T04:58:19.767552Z"
+    },
+    {
+      "id": "ec4c26207ad1405b4bb0a7ee56ad9e3a",
+      "title": "From yoga to Hyrox, Lululemon taps Asian trends with new Tokyo store",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/retail/from-yoga-to-hyrox-lululemon-taps-asian-trends-with-new-tokyo-store",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-02T04:57:42.354758Z"
+    },
+    {
+      "id": "f463af7252568a878a30348666baa839",
+      "title": "United States on track for record natural gas production in 2026",
+      "summary": "We forecast U.S. marketed natural gas production will average 122.5 billion cubic feet per day (Bcf/d) in 2026, surpassing the previous record of 118.5 Bcf/d set in 2025, in our August 2026 Short-Term Energy Outlook (STEO).",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67944",
+      "source": "EIA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-02T04:57:45.313401Z"
     }
   ],
   "alerts": [
     {
-      "id": "b4220beb585f9be0a1a14ddf22bc8f80",
-      "title": "Rise in UK borrowing costs piles pressure on Andy Burnham and John Healey - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOZlBGZ3UwUFFKdjRDcmhjWjVnOS1XQjdWQnRPOU9Fakc0SERDODRBTHRZWjJmdzNfTEZVa2VzOWtmcFMwMDY3S0tuNmVSOE5jZ2NVSGcyUy1lXzk4SFE4MWdIWFZmRGUtODVtZUp1M1IwenpRTl9lV3VXanNEbWJpYlpObWk?oc=5\" target=\"_blank\">Rise in UK borrowing costs piles pressure on Andy Burnham and John Healey</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZlBGZ3UwUFFKdjRDcmhjWjVnOS1XQjdWQnRPOU9Fakc0SERDODRBTHRZWjJmdzNfTEZVa2VzOWtmcFMwMDY3S0tuNmVSOE5jZ2NVSGcyUy1lXzk4SFE4MWdIWFZmRGUtODVtZUp1M1IwenpRTl9lV3VXanNEbWJpYlpObWk?oc=5",
-      "source": "Google Macro",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "RATES",
+      "id": "60f56d5734c8f49c456f566054d8dc70",
+      "title": "Global bond yields soar to multi-decade highs as Middle East turmoil reignites inflation fears",
+      "summary": "Bond yields surged across major markets Tuesday as U.S.-Iran hostilities revived energy and inflation risks, with Japan and U.K. yields at multi-decade highs.",
+      "link": "https://www.cnbc.com/2026/09/01/bond-yields-iran-inflation-treasurys-japan-uk.html",
+      "source": "CNBC",
+      "score": 44,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "JPY"
+        "WTI"
       ],
       "regions": [
-        "UK"
+        "JAPAN",
+        "MIDDLE_EAST"
       ],
-      "assets": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T04:56:49.238313Z"
+    },
+    {
+      "id": "7e3bf7f0ab67294b5a451046b2d7259e",
+      "title": "US-Iran Conflict Intensifies as Trump Downplays Desire for Deal",
+      "summary": "The conflict between the US and Iran escalated sharply, with American forces carrying out a fresh wave of strikes and Iran saying it had retaliated. Meanwhile President\u00a0Donald Trump\u00a0downplayed the chances of a deal, writing in\u00a0a post\u00a0on Truth Social that he\u2019s \u201cnot trying to force Iran to the bargaining table.\u201d\u00a0 (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-02/us-iran-conflict-intensifies-trump-downplays-deal-hopes-video",
+      "source": "Bloomberg",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T04:56:44.276837Z"
+    },
+    {
+      "id": "af83cbe15131fc49e3653c9402ac6691",
+      "title": "Where Bond Yields Are Heading as Energy Prices Rise",
+      "summary": "Highlights from Bloomberg TV as contributors shed light on how rising energy prices are driving bond yields higher across markets and traders reposition in anticipation of further challenges. Meanwhile, the yield on 30-year US government bonds have climbed back to levels seen just before Treasury Secretary Scott Bessent expanded a buyback program to contain long-term borrowing costs. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-02/where-bond-yields-are-heading-as-energy-prices-rise",
+      "source": "Bloomberg",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -71,7 +309,107 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-02T04:52:48.789757Z"
+      "published": "2026-09-02T04:56:44.276748Z"
+    },
+    {
+      "id": "97cf2b7e37b3bcf473ef8e4415deb1a2",
+      "title": "The Divine Calculus of the Ukraine War\u2019s End",
+      "summary": "<p>Welcome to&#160;The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum, only for War on the Rocks&#160;members. Each Monday, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country.American coverage often narrows the view to the battlefield &#8212; these pieces widen it, revealing the texture of daily life, politics, and public argument in a nation at war. The perspectives gathered here are varied, candid, and often surprising, together forming a more complete picture of Ukraine as it really is.Frontline and Strategy&#1054;&#1073;&#1086;&#1079;&#1088;&#1077;&#1074;&#1072;&#1090;&#1077;&#1083;&#1100;</p>\n<p>The post <a href=\"https://warontherocks.com/the-divine-calculus-of-the-ukraine-wars-end/\">The Divine Calculus of the Ukraine War&#8217;s End</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/the-divine-calculus-of-the-ukraine-wars-end/",
+      "source": "War on the Rocks",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK",
+        "UKRAINE",
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T04:58:18.502030Z"
+    },
+    {
+      "id": "a73f30e70ec453b46672ee1fd29d9820",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity also has learned that the New Orleans field office of the Federal Bureau of Investigation (FBI) today launched an official inquiry into the source of the images.",
+      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "source": "KrebsOnSecurity",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-02T04:58:19.767552Z"
+    },
+    {
+      "id": "ec4c26207ad1405b4bb0a7ee56ad9e3a",
+      "title": "From yoga to Hyrox, Lululemon taps Asian trends with new Tokyo store",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/retail/from-yoga-to-hyrox-lululemon-taps-asian-trends-with-new-tokyo-store",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-02T04:57:42.354758Z"
+    },
+    {
+      "id": "f463af7252568a878a30348666baa839",
+      "title": "United States on track for record natural gas production in 2026",
+      "summary": "We forecast U.S. marketed natural gas production will average 122.5 billion cubic feet per day (Bcf/d) in 2026, surpassing the previous record of 118.5 Bcf/d set in 2025, in our August 2026 Short-Term Energy Outlook (STEO).",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67944",
+      "source": "EIA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-02T04:57:45.313401Z"
     }
   ]
 }
