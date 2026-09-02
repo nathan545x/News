@@ -1,53 +1,311 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-02T15:07:41.353564Z",
+  "generated_at": "2026-09-02T15:12:40.079293Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-09-02T15:07:41.353579Z"
+    "critical_alerts": 2,
+    "high_alerts": 4,
+    "last_updated": "2026-09-02T15:12:40.079311Z"
   },
   "top_signals": [
     {
-      "id": "6575e9f8940e933898045bc700028fe1",
-      "title": "Stocks Rise as\u00a0Buyers\u00a0Scoop Up Bargains After Rout: Markets Wrap",
-      "summary": "Stocks climbed after a rout fueled by concerns about inflation, with attractive valuations and solid corporate earnings luring bargain hunters.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-01/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "INFLATION",
+      "id": "8f6e890351f09c6b3ee16604e25eeae3",
+      "title": "Dubai\u2019s international schools reopen in test of confidence",
+      "summary": "Start of academic year a bellwether of emirate\u2019s ability to keep attracting affluent expatriates in wake of US-Iran war",
+      "link": "https://www.ft.com/content/1c964d75-039f-4669-ae25-12c6418c7826?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
-        "AI",
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-02T15:06:43.907479Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T15:11:40.066832Z"
     },
     {
-      "id": "61cff21c341cbe0871259bfdca1bdccb",
-      "title": "Japan's Mitsubishi Heavy and NEC team on defense drones",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/aerospace-defense-industries/japan-s-mitsubishi-heavy-and-nec-team-on-defense-drones",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
+      "id": "053e10f108ad9f620bd263564ecd6dff",
+      "title": "US charges Russian for infecting 80,000 freelancers with malware",
+      "summary": "A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers with TVRAT and DarkVNC malware. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
+      "source": "BleepingComputer",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T15:12:36.310179Z"
+    },
+    {
+      "id": "28bc28f45f133d438cf942dec5bf484d",
+      "title": "Appointment of Chair and Deputy Chair of the Enforcement Decision Making Committee (EDMC)",
+      "summary": "Following an external recruitment process, the Bank of England (the Bank) has appointed Nicholas Segal as Chair of its Enforcement Decision Making Committee (EDMC), and Peter King as Deputy Chair, with effect from 1 August 2026.",
+      "link": "https://www.bankofengland.co.uk/news/2026/august/appointment-of-chair-and-deputy-chair-of-the-edmc",
+      "source": "Bank of England",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-02T15:12:25.374656Z"
+    },
+    {
+      "id": "5a267c7f7169f9c5c3e8568aefdd1cd9",
+      "title": "Yen Surges With Traders on Alert for Further Intervention",
+      "summary": "The yen strengthened sharply against the US dollar, leaving traders hyper-vigilant for evidence that authorities are taking further action to support the Japanese currency.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-02/yen-surges-with-traders-on-high-alert-for-further-intervention",
+      "source": "Bloomberg",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-02T15:11:37.387118Z"
+    },
+    {
+      "id": "3fbf6167b36c242f4d2b1d07104a83e2",
+      "title": "BP names new chair as it tries to move on from Albert Manifold",
+      "summary": "UK oil major is now seeking a new senior independent director and company secretary",
+      "link": "https://www.ft.com/content/d7e8d76b-d67b-46af-9d95-a384cb90b5d2?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-02T15:11:39.769480Z"
+    },
+    {
+      "id": "f075c58a91781b7337491929c620e821",
+      "title": "Chevron to double Venezuela oil production with $7bn pledge",
+      "summary": "US major commits to expand its joint ventures as White House pushes for huge increase in production in the country",
+      "link": "https://www.ft.com/content/a76721db-36e1-4198-aad8-8c90137aace9?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-02T15:11:39.769448Z"
+    },
+    {
+      "id": "1e2307d29e93501ed18a7bf3d50a3bd8",
+      "title": "China derails consensus after US-hosted G20 - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPc0hRTUtBWjVacXN5NWo0ODNBY3QxUlZUX3lkZnYzbVFvblp6WFFORzIwR3Y2eXBnNk9uZS1QZEtobFJjR2U4WDduZk8yNDZFVlRBSEthaXUxMWF6bTlteEdTeWxFZGxYM01LSld3WmVtc1g0bmhDYUN3eV8yNl95MjFCemQ?oc=5\" target=\"_blank\">China derails consensus after US-hosted G20</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc0hRTUtBWjVacXN5NWo0ODNBY3QxUlZUX3lkZnYzbVFvblp6WFFORzIwR3Y2eXBnNk9uZS1QZEtobFJjR2U4WDduZk8yNDZFVlRBSEthaXUxMWF6bTlteEdTeWxFZGxYM01LSld3WmVtc1g0bmhDYUN3eV8yNl95MjFCemQ?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T15:12:38.796756Z"
+    },
+    {
+      "id": "bb74710650c4de77b6b63a4dd5419708",
+      "title": "Mixed signals, research findings, and policy judgements \u2212 speech by Catherine L. Mann",
+      "summary": "Given at the Natixis CIB Private Debt Forum",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/catherine-l-mann-fireside-chat-at-the-natixis-cib-conference-on-private-debt",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-02T15:12:25.580113Z"
+    },
+    {
+      "id": "897864edbf8ab40e4c17a0ceb1443935",
+      "title": "\u00bfEn qu\u00e9 consiste el \u201cmayor acuerdo petrolero\u201d entre EE.UU. y Venezuela?",
+      "summary": "EE.UU. y Venezuela anunciaron un acuerdo petrolero que dar\u00e1 a Washington un amplio control sobre parte de la producci\u00f3n venezolana. \u00bfC\u00f3mo funcionar\u00e1, qu\u00e9 busca cada pa\u00eds y cu\u00e1les son los grandes interrogantes que a\u00fan quedan? (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-02/-en-que-consiste-el-mayor-acuerdo-petrolero-entre-ee-uu-y-venezuela",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-02T15:11:37.387191Z"
+    },
+    {
+      "id": "46f66ed07935fde11cf3e51ed5d8c6b9",
+      "title": "Burnham seeks to reassure bond markets amid public spending fears",
+      "summary": "Tory leader Kemi Badenoch accuses Labour leader of being unable to refuse spending requests in first Prime Minister\u2019s Questions",
+      "link": "https://www.ft.com/content/55ea0ee5-d067-4fc0-81cb-82293e9285de?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-02T15:11:39.769327Z"
+    },
+    {
+      "id": "151a3d81b9de66af373ff8018ae652ca",
+      "title": "A key tenet of US equity markets is under threat",
+      "summary": "SEC reforms risk the ability of investors to compare companies",
+      "link": "https://www.ft.com/content/38d5c39f-901f-4306-9412-f7e1d7553174?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-02T15:11:39.769359Z"
+    },
+    {
+      "id": "829a3232ab9f99b3c9400c543cc28819",
+      "title": "What Japan\u2019s bond sell-off means for global markets",
+      "summary": "Move follows weeks of scrutiny of fiscal and monetary policies and rare Washington-Tokyo intervention in currency markets",
+      "link": "https://www.ft.com/content/f394d4ca-d035-4753-b7a0-f21eefa08252?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
@@ -56,47 +314,305 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-02T15:07:32.101713Z"
+      "published": "2026-09-02T15:11:39.769405Z"
     }
   ],
   "alerts": [
     {
-      "id": "6575e9f8940e933898045bc700028fe1",
-      "title": "Stocks Rise as\u00a0Buyers\u00a0Scoop Up Bargains After Rout: Markets Wrap",
-      "summary": "Stocks climbed after a rout fueled by concerns about inflation, with attractive valuations and solid corporate earnings luring bargain hunters.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-01/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "INFLATION",
+      "id": "8f6e890351f09c6b3ee16604e25eeae3",
+      "title": "Dubai\u2019s international schools reopen in test of confidence",
+      "summary": "Start of academic year a bellwether of emirate\u2019s ability to keep attracting affluent expatriates in wake of US-Iran war",
+      "link": "https://www.ft.com/content/1c964d75-039f-4669-ae25-12c6418c7826?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
-        "AI",
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-02T15:06:43.907479Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T15:11:40.066832Z"
     },
     {
-      "id": "61cff21c341cbe0871259bfdca1bdccb",
-      "title": "Japan's Mitsubishi Heavy and NEC team on defense drones",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/aerospace-defense-industries/japan-s-mitsubishi-heavy-and-nec-team-on-defense-drones",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
+      "id": "053e10f108ad9f620bd263564ecd6dff",
+      "title": "US charges Russian for infecting 80,000 freelancers with malware",
+      "summary": "A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers with TVRAT and DarkVNC malware. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
+      "source": "BleepingComputer",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T15:12:36.310179Z"
+    },
+    {
+      "id": "28bc28f45f133d438cf942dec5bf484d",
+      "title": "Appointment of Chair and Deputy Chair of the Enforcement Decision Making Committee (EDMC)",
+      "summary": "Following an external recruitment process, the Bank of England (the Bank) has appointed Nicholas Segal as Chair of its Enforcement Decision Making Committee (EDMC), and Peter King as Deputy Chair, with effect from 1 August 2026.",
+      "link": "https://www.bankofengland.co.uk/news/2026/august/appointment-of-chair-and-deputy-chair-of-the-edmc",
+      "source": "Bank of England",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-02T15:12:25.374656Z"
+    },
+    {
+      "id": "5a267c7f7169f9c5c3e8568aefdd1cd9",
+      "title": "Yen Surges With Traders on Alert for Further Intervention",
+      "summary": "The yen strengthened sharply against the US dollar, leaving traders hyper-vigilant for evidence that authorities are taking further action to support the Japanese currency.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-02/yen-surges-with-traders-on-high-alert-for-further-intervention",
+      "source": "Bloomberg",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-02T15:11:37.387118Z"
+    },
+    {
+      "id": "3fbf6167b36c242f4d2b1d07104a83e2",
+      "title": "BP names new chair as it tries to move on from Albert Manifold",
+      "summary": "UK oil major is now seeking a new senior independent director and company secretary",
+      "link": "https://www.ft.com/content/d7e8d76b-d67b-46af-9d95-a384cb90b5d2?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-02T15:11:39.769480Z"
+    },
+    {
+      "id": "f075c58a91781b7337491929c620e821",
+      "title": "Chevron to double Venezuela oil production with $7bn pledge",
+      "summary": "US major commits to expand its joint ventures as White House pushes for huge increase in production in the country",
+      "link": "https://www.ft.com/content/a76721db-36e1-4198-aad8-8c90137aace9?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-02T15:11:39.769448Z"
+    },
+    {
+      "id": "1e2307d29e93501ed18a7bf3d50a3bd8",
+      "title": "China derails consensus after US-hosted G20 - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPc0hRTUtBWjVacXN5NWo0ODNBY3QxUlZUX3lkZnYzbVFvblp6WFFORzIwR3Y2eXBnNk9uZS1QZEtobFJjR2U4WDduZk8yNDZFVlRBSEthaXUxMWF6bTlteEdTeWxFZGxYM01LSld3WmVtc1g0bmhDYUN3eV8yNl95MjFCemQ?oc=5\" target=\"_blank\">China derails consensus after US-hosted G20</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc0hRTUtBWjVacXN5NWo0ODNBY3QxUlZUX3lkZnYzbVFvblp6WFFORzIwR3Y2eXBnNk9uZS1QZEtobFJjR2U4WDduZk8yNDZFVlRBSEthaXUxMWF6bTlteEdTeWxFZGxYM01LSld3WmVtc1g0bmhDYUN3eV8yNl95MjFCemQ?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T15:12:38.796756Z"
+    },
+    {
+      "id": "bb74710650c4de77b6b63a4dd5419708",
+      "title": "Mixed signals, research findings, and policy judgements \u2212 speech by Catherine L. Mann",
+      "summary": "Given at the Natixis CIB Private Debt Forum",
+      "link": "https://www.bankofengland.co.uk/speech/2026/july/catherine-l-mann-fireside-chat-at-the-natixis-cib-conference-on-private-debt",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-02T15:12:25.580113Z"
+    },
+    {
+      "id": "897864edbf8ab40e4c17a0ceb1443935",
+      "title": "\u00bfEn qu\u00e9 consiste el \u201cmayor acuerdo petrolero\u201d entre EE.UU. y Venezuela?",
+      "summary": "EE.UU. y Venezuela anunciaron un acuerdo petrolero que dar\u00e1 a Washington un amplio control sobre parte de la producci\u00f3n venezolana. \u00bfC\u00f3mo funcionar\u00e1, qu\u00e9 busca cada pa\u00eds y cu\u00e1les son los grandes interrogantes que a\u00fan quedan? (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-02/-en-que-consiste-el-mayor-acuerdo-petrolero-entre-ee-uu-y-venezuela",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-02T15:11:37.387191Z"
+    },
+    {
+      "id": "46f66ed07935fde11cf3e51ed5d8c6b9",
+      "title": "Burnham seeks to reassure bond markets amid public spending fears",
+      "summary": "Tory leader Kemi Badenoch accuses Labour leader of being unable to refuse spending requests in first Prime Minister\u2019s Questions",
+      "link": "https://www.ft.com/content/55ea0ee5-d067-4fc0-81cb-82293e9285de?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-02T15:11:39.769327Z"
+    },
+    {
+      "id": "151a3d81b9de66af373ff8018ae652ca",
+      "title": "A key tenet of US equity markets is under threat",
+      "summary": "SEC reforms risk the ability of investors to compare companies",
+      "link": "https://www.ft.com/content/38d5c39f-901f-4306-9412-f7e1d7553174?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-02T15:11:39.769359Z"
+    },
+    {
+      "id": "829a3232ab9f99b3c9400c543cc28819",
+      "title": "What Japan\u2019s bond sell-off means for global markets",
+      "summary": "Move follows weeks of scrutiny of fiscal and monetary policies and rare Washington-Tokyo intervention in currency markets",
+      "link": "https://www.ft.com/content/f394d4ca-d035-4753-b7a0-f21eefa08252?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
@@ -105,7 +621,66 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-02T15:07:32.101713Z"
+      "published": "2026-09-02T15:11:39.769405Z"
+    },
+    {
+      "id": "3f9b2855ad32be12dcbe2a68f46dcc10",
+      "title": "Baltic Dry Index climbs to 3331 up 174 points",
+      "summary": "Today, Wednesday, September 2 2026, the Baltic Dry Index climbed 174 points, 3331 points. Baltic Dry Index is compiled by the London-based Baltic Exchange and covers prices for transported cargo such as coal, grain and iron ore. The index is based on a daily survey of agents all over the world. Baltic Dry hit a ...",
+      "link": "https://www.hellenicshippingnews.com/baltic-dry-index-climbs-to-3331-up-174-points/",
+      "source": "Hellenic Shipping",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-02T15:12:33.780104Z"
+    },
+    {
+      "id": "123fa6dd6e7c94e5d573910ddcd7929f",
+      "title": "Swallows pitcher Masanori Ishikawa retiring with no regrets after 25 seasons",
+      "summary": "Ishikawa won 188 games for the Swallows, the only team he played for during his pro career.",
+      "link": "https://www.japantimes.co.jp/sports/2026/09/02/baseball/japanese-baseball/masanori-ishikawa-yakult-retire/",
+      "source": "Japan Times",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-02T15:12:30.314528Z"
+    },
+    {
+      "id": "eaaddbc0cb6ec34a8928d89bfc2e9347",
+      "title": "Tim Cook\u2019s Apple legacy by the numbers - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNSDREYWxTTzBFR29jakx2bXZBRXozQjMtcFo2R3o5eS1Qamo1R29xMVJQYTN6R29sYXMyY1pVQWZXVFFLSHN2Sm9IeEVndFFkaXJleUZQTmhaN1lXeXp0SnlqTThHNHE5QlRDVHc1MlBNTndtMmcyR2dSMlZ3UlVGc0JXU3U?oc=5\" target=\"_blank\">Tim Cook\u2019s Apple legacy by the numbers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSDREYWxTTzBFR29jakx2bXZBRXozQjMtcFo2R3o5eS1Qamo1R29xMVJQYTN6R29sYXMyY1pVQWZXVFFLSHN2Sm9IeEVndFFkaXJleUZQTmhaN1lXeXp0SnlqTThHNHE5QlRDVHc1MlBNTndtMmcyR2dSMlZ3UlVGc0JXU3U?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-02T15:12:38.796841Z"
     }
   ]
 }
