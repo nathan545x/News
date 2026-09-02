@@ -1,123 +1,89 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-02T12:28:05.466679Z",
+  "generated_at": "2026-09-02T12:32:33.588999Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "COMMODITIES",
+    "dominant_driver": "COMMODITIES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 3,
-    "last_updated": "2026-09-02T12:28:05.466692Z"
+    "critical_alerts": 1,
+    "high_alerts": 2,
+    "last_updated": "2026-09-02T12:32:33.589011Z"
   },
   "top_signals": [
     {
-      "id": "6630b7b37727bc442dcfe992b8dfa818",
-      "title": "Two Alleged \u2018TeamPCP\u2019 Hackers Arrested in Australia",
-      "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever.\n\nIn a statement released today, the Australian Federal Police (AFP) said two unnamed suspects from Western Australia, aged 21 and 23, were arrested in connection with a \"sophisticated cybercrime syndicate that allegedly created malicious open-source software to rob thousands of global businesses.\"\n\nThe AFP did not name the defendants, but KrebsOnSecurity learned the 21-year-old suspect's real identity in June, and has been communicating with him ever since. This story includes interviews with TeamPCP's self-described spokesperson, and examines clues left behind by the TeamPCP leader that likely led to his undoing.",
-      "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-      "source": "KrebsOnSecurity",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
+      "id": "5fb62f4c9ff17b7aa0af92452166c807",
+      "title": "Kazakhstan to Double Oil Refining Capacity by 2040",
+      "summary": "Kazakhstan plans to more than double its crude oil refining capacity by 2040 from current levels by expanding existing capacities and building a major new refinery, the country's Energy Ministry said on Wednesday, citing the government's 2025-2040 plan to boost fuel output. Kazakhstan, a major crude oil producer and member of the OPEC+ pact, currently has 18 million tons of annual oil refining capacity. It plans to boost this to 29 million tons per year by 2040 through expansion of operating refineries. Another 10 million tons per year would come\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Kazakhstan-to-Double-Oil-Refining-Capacity-by-2040.html",
+      "source": "OilPrice",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
       "regions": [],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-02T12:28:01.631788Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-02T12:32:27.847232Z"
     },
     {
-      "id": "7b051150c74ca2847d563c1ee63a8593",
-      "title": "US launches new barrage of strikes on Iran around Strait of Hormuz",
-      "summary": "The U.S. launched new air strikes on Iranian targets Tuesday following attempted attacks by the IRGC against American troops deployed to the region.",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/01/us-launches-new-barrage-of-strikes-on-iran-around-strait-of-hormuz/",
-      "source": "Defense News",
-      "score": 18,
+      "id": "cae804986b6f8d5d6fab2b3b0eb0d313",
+      "title": "Adam Back invests another $8.8 million in Capital B as bitcoin treasury firm targets 3,521 BTC",
+      "summary": "Capital B raised $8.8 million from Adam Back in a private placement as the French bitcoin treasury firm targets 3,521 BTC.",
+      "link": "https://www.theblock.co/news/business/2026-09-02-adam-back-invests-another-8-8-million-in-capital-b-as-bitcoin-treasury-firm-targets-3521-btc-413339",
+      "source": "The Block",
+      "score": 15,
       "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST",
-        "US"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-02T12:27:59.320014Z"
-    },
-    {
-      "id": "8f7410f40a8c8ffc070bb2c82119d4fc",
-      "title": "10-year U.S. Treasury yield hits highest level since November 2023",
-      "summary": "Treasury yields continued to climb on Wednesday as inflation fears stoked a global rise in borrowing costs.",
-      "link": "https://www.cnbc.com/2026/09/02/bond-yields-treasurys-inflation.html",
-      "source": "CNBC",
-      "score": 17,
-      "severity": "HIGH",
-      "regime": "INFLATION",
+      "regime": "CRYPTO",
       "tickers": [
+        "BTC",
         "TLT"
       ],
       "regions": [],
       "assets": [
+        "AI",
+        "CRYPTO",
         "RATES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "BTC",
+          "ETH"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "USD"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-02T12:27:02.378559Z"
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-02T12:32:30.381897Z"
     },
     {
-      "id": "c87fe4c1b74b3acd4c06e3ca8112e397",
-      "title": "CNBC Daily Open: Markets trapped in Iran doom loop - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9adXJoZ0FDVDJTeVdhNXlGOUNuYjNNWm5NTUtJSXQ3X2hNWXNENUpjUkJGUDdOemFoM0E0S0lBM2tKMHVTQl85MEdMM1ZqOW50cDlTTmdfQV8tVDJvbkhTNnB2cEphankyeFQ00gFwQVVfeXFMUFBKQzlLVE9tOVRldmFKOTVHTXJJQVdWS2wxUGFBNHA4alh6SFJ2VGlkb0FvemRiaUNNYWloQWVVUTZkWDgwV0RubUFxckkzWHRseDJTVEpHNGRfSXVKQ210VUpoTXVvVllCYTZ1aWE5LQ?oc=5\" target=\"_blank\">CNBC Daily Open: Markets trapped in Iran doom loop</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9adXJoZ0FDVDJTeVdhNXlGOUNuYjNNWm5NTUtJSXQ3X2hNWXNENUpjUkJGUDdOemFoM0E0S0lBM2tKMHVTQl85MEdMM1ZqOW50cDlTTmdfQV8tVDJvbkhTNnB2cEphankyeFQ00gFwQVVfeXFMUFBKQzlLVE9tOVRldmFKOTVHTXJJQVdWS2wxUGFBNHA4alh6SFJ2VGlkb0FvemRiaUNNYWloQWVVUTZkWDgwV0RubUFxckkzWHRseDJTVEpHNGRfSXVKQ210VUpoTXVvVllCYTZ1aWE5LQ?oc=5",
-      "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
+      "id": "6cf9b5bb4702ff5152b2aa1a3bcaf483",
+      "title": "Dropbox accounts breached through Lenovo email verification flaw",
+      "summary": "Dropbox is warning some users that an unauthorized party accessed their accounts by exploiting a flaw in Lenovo's email verification process to register fraudulent Lenovo IDs. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [
-        "MIDDLE_EAST",
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -135,43 +101,13 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-02T12:28:05.466616Z"
+      "published": "2026-09-02T12:32:30.470442Z"
     },
     {
-      "id": "373e466b793163b4425dc617d4632101",
-      "title": "US approves possible $800 million military helicopter sale to Iraq",
-      "summary": "The United States has approved a potential $800 million sale of Bell helicopters, weapons and related equipment to Iraq, according to the State Department.",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/01/us-approves-possible-800-million-military-helicopter-sale-to-iraq/",
-      "source": "Defense News",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "US"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-02T12:27:59.319960Z"
-    },
-    {
-      "id": "cfa49bf6e9f9ac27e1621fea1ae7216c",
-      "title": "Live updates: Bitcoin trades near $77,000, as yields ease following soft ADP jobs report",
+      "id": "df7fba3189389ae1d317ed7bf82040b8",
+      "title": "Bart Simpson pattern feared for bitcoin and XRP as prices pull back",
       "summary": "",
-      "link": "https://www.coindesk.com/business/2026/09/02/live-updates-blackrock-s-ibit-drives-usd236-million-bitcoin-etf-outflow",
+      "link": "https://www.coindesk.com/markets/2026/09/02/bitcoin-flashes-the-bart-simpsom-pattern-analyst-debate-whether-it-will-actually-form",
       "source": "CoinDesk",
       "score": 12,
       "severity": "MEDIUM",
@@ -193,208 +129,83 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-02T12:28:00.854784Z"
-    },
-    {
-      "id": "13c260019ecbc0bdc3a91f62dbc2f507",
-      "title": "Philip R. Lane: The rise in defence spending and the euro area economy",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260817~1f9f7149c9.en.pdf",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-02T12:27:44.164062Z"
-    },
-    {
-      "id": "f02ed6a622d002c1ff419105fb8dfd43",
-      "title": "US Oil Deal in Venezuela Displaces OFAC-Sanctioned Producers - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNWWVnNEdfODJIdl9GSTE5R1FtemNfX3JNWGZKQy1Ma1p5aXEzbWxfTG9MN3dqRE9QYlA0NHBvS3NWb0dZemZvdTdTYjRfOFUzN2x0OGZoQ0tnTGcxNGxlYWZoRVhOOHBEdnNnNVVaY0tjUmp3QUY4MXlHU2psaWxnbjNSRFNMY1V5bkRHcmc4TVNJWUJHRTZCQW5IMlNiX1VkekpnVGVlVjM0Z2JTSHVRUg?oc=5\" target=\"_blank\">US Oil Deal in Venezuela Displaces OFAC-Sanctioned Producers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWWVnNEdfODJIdl9GSTE5R1FtemNfX3JNWGZKQy1Ma1p5aXEzbWxfTG9MN3dqRE9QYlA0NHBvS3NWb0dZemZvdTdTYjRfOFUzN2x0OGZoQ0tnTGcxNGxlYWZoRVhOOHBEdnNnNVVaY0tjUmp3QUY4MXlHU2psaWxnbjNSRFNMY1V5bkRHcmc4TVNJWUJHRTZCQW5IMlNiX1VkekpnVGVlVjM0Z2JTSHVRUg?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-02T12:28:02.846540Z"
-    },
-    {
-      "id": "4e126be680d1091f33b98dfb351b0b4b",
-      "title": "Manga artist Kurumada says ex-manager, others embezzled \u00a54.6 billion",
-      "summary": "Masami Kurumada is best known as the creator of the popular manga series \"Ring ni Kakero\" and \"Saint Seiya.\"",
-      "link": "https://www.japantimes.co.jp/news/2026/09/02/japan/crime-legal/manga-kurumada-embezzled/",
-      "source": "Japan Times",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-02T12:27:54.370720Z"
-    },
-    {
-      "id": "069332be9feea4c882ebac69aafd54ca",
-      "title": "COLI Group Delivers Transformers for GE Vernova",
-      "summary": "COLI Group has recently completed a six-month transport project for GE Vernova, moving 14 large power transformers from GE Vernova's Turkish factory to a job site in Poland supporting the Baltica 2 offshore wind farm.The cargo was shipped across three voyages on three separately chartered vessels\u2026",
-      "link": "https://www.marinelink.com/news/coli-group-delivers-transformers-ge-542633",
-      "source": "MarineLink",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-02T12:27:59.008478Z"
+      "published": "2026-09-02T12:32:30.149269Z"
     }
   ],
   "alerts": [
     {
-      "id": "6630b7b37727bc442dcfe992b8dfa818",
-      "title": "Two Alleged \u2018TeamPCP\u2019 Hackers Arrested in Australia",
-      "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever.\n\nIn a statement released today, the Australian Federal Police (AFP) said two unnamed suspects from Western Australia, aged 21 and 23, were arrested in connection with a \"sophisticated cybercrime syndicate that allegedly created malicious open-source software to rob thousands of global businesses.\"\n\nThe AFP did not name the defendants, but KrebsOnSecurity learned the 21-year-old suspect's real identity in June, and has been communicating with him ever since. This story includes interviews with TeamPCP's self-described spokesperson, and examines clues left behind by the TeamPCP leader that likely led to his undoing.",
-      "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-      "source": "KrebsOnSecurity",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
+      "id": "5fb62f4c9ff17b7aa0af92452166c807",
+      "title": "Kazakhstan to Double Oil Refining Capacity by 2040",
+      "summary": "Kazakhstan plans to more than double its crude oil refining capacity by 2040 from current levels by expanding existing capacities and building a major new refinery, the country's Energy Ministry said on Wednesday, citing the government's 2025-2040 plan to boost fuel output. Kazakhstan, a major crude oil producer and member of the OPEC+ pact, currently has 18 million tons of annual oil refining capacity. It plans to boost this to 29 million tons per year by 2040 through expansion of operating refineries. Another 10 million tons per year would come\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Kazakhstan-to-Double-Oil-Refining-Capacity-by-2040.html",
+      "source": "OilPrice",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
       "regions": [],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-02T12:28:01.631788Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-02T12:32:27.847232Z"
     },
     {
-      "id": "7b051150c74ca2847d563c1ee63a8593",
-      "title": "US launches new barrage of strikes on Iran around Strait of Hormuz",
-      "summary": "The U.S. launched new air strikes on Iranian targets Tuesday following attempted attacks by the IRGC against American troops deployed to the region.",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/01/us-launches-new-barrage-of-strikes-on-iran-around-strait-of-hormuz/",
-      "source": "Defense News",
-      "score": 18,
+      "id": "cae804986b6f8d5d6fab2b3b0eb0d313",
+      "title": "Adam Back invests another $8.8 million in Capital B as bitcoin treasury firm targets 3,521 BTC",
+      "summary": "Capital B raised $8.8 million from Adam Back in a private placement as the French bitcoin treasury firm targets 3,521 BTC.",
+      "link": "https://www.theblock.co/news/business/2026-09-02-adam-back-invests-another-8-8-million-in-capital-b-as-bitcoin-treasury-firm-targets-3521-btc-413339",
+      "source": "The Block",
+      "score": 15,
       "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST",
-        "US"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-02T12:27:59.320014Z"
-    },
-    {
-      "id": "8f7410f40a8c8ffc070bb2c82119d4fc",
-      "title": "10-year U.S. Treasury yield hits highest level since November 2023",
-      "summary": "Treasury yields continued to climb on Wednesday as inflation fears stoked a global rise in borrowing costs.",
-      "link": "https://www.cnbc.com/2026/09/02/bond-yields-treasurys-inflation.html",
-      "source": "CNBC",
-      "score": 17,
-      "severity": "HIGH",
-      "regime": "INFLATION",
+      "regime": "CRYPTO",
       "tickers": [
+        "BTC",
         "TLT"
       ],
       "regions": [],
       "assets": [
+        "AI",
+        "CRYPTO",
         "RATES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "BTC",
+          "ETH"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "USD"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-02T12:27:02.378559Z"
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-02T12:32:30.381897Z"
     },
     {
-      "id": "c87fe4c1b74b3acd4c06e3ca8112e397",
-      "title": "CNBC Daily Open: Markets trapped in Iran doom loop - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9adXJoZ0FDVDJTeVdhNXlGOUNuYjNNWm5NTUtJSXQ3X2hNWXNENUpjUkJGUDdOemFoM0E0S0lBM2tKMHVTQl85MEdMM1ZqOW50cDlTTmdfQV8tVDJvbkhTNnB2cEphankyeFQ00gFwQVVfeXFMUFBKQzlLVE9tOVRldmFKOTVHTXJJQVdWS2wxUGFBNHA4alh6SFJ2VGlkb0FvemRiaUNNYWloQWVVUTZkWDgwV0RubUFxckkzWHRseDJTVEpHNGRfSXVKQ210VUpoTXVvVllCYTZ1aWE5LQ?oc=5\" target=\"_blank\">CNBC Daily Open: Markets trapped in Iran doom loop</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9adXJoZ0FDVDJTeVdhNXlGOUNuYjNNWm5NTUtJSXQ3X2hNWXNENUpjUkJGUDdOemFoM0E0S0lBM2tKMHVTQl85MEdMM1ZqOW50cDlTTmdfQV8tVDJvbkhTNnB2cEphankyeFQ00gFwQVVfeXFMUFBKQzlLVE9tOVRldmFKOTVHTXJJQVdWS2wxUGFBNHA4alh6SFJ2VGlkb0FvemRiaUNNYWloQWVVUTZkWDgwV0RubUFxckkzWHRseDJTVEpHNGRfSXVKQ210VUpoTXVvVllCYTZ1aWE5LQ?oc=5",
-      "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
+      "id": "6cf9b5bb4702ff5152b2aa1a3bcaf483",
+      "title": "Dropbox accounts breached through Lenovo email verification flaw",
+      "summary": "Dropbox is warning some users that an unauthorized party accessed their accounts by exploiting a flaw in Lenovo's email verification process to register fraudulent Lenovo IDs. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [
-        "MIDDLE_EAST",
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -412,43 +223,13 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-02T12:28:05.466616Z"
+      "published": "2026-09-02T12:32:30.470442Z"
     },
     {
-      "id": "373e466b793163b4425dc617d4632101",
-      "title": "US approves possible $800 million military helicopter sale to Iraq",
-      "summary": "The United States has approved a potential $800 million sale of Bell helicopters, weapons and related equipment to Iraq, according to the State Department.",
-      "link": "https://www.defensenews.com/news/your-military/2026/09/01/us-approves-possible-800-million-military-helicopter-sale-to-iraq/",
-      "source": "Defense News",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "US"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-02T12:27:59.319960Z"
-    },
-    {
-      "id": "cfa49bf6e9f9ac27e1621fea1ae7216c",
-      "title": "Live updates: Bitcoin trades near $77,000, as yields ease following soft ADP jobs report",
+      "id": "df7fba3189389ae1d317ed7bf82040b8",
+      "title": "Bart Simpson pattern feared for bitcoin and XRP as prices pull back",
       "summary": "",
-      "link": "https://www.coindesk.com/business/2026/09/02/live-updates-blackrock-s-ibit-drives-usd236-million-bitcoin-etf-outflow",
+      "link": "https://www.coindesk.com/markets/2026/09/02/bitcoin-flashes-the-bart-simpsom-pattern-analyst-debate-whether-it-will-actually-form",
       "source": "CoinDesk",
       "score": 12,
       "severity": "MEDIUM",
@@ -470,98 +251,7 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-02T12:28:00.854784Z"
-    },
-    {
-      "id": "13c260019ecbc0bdc3a91f62dbc2f507",
-      "title": "Philip R. Lane: The rise in defence spending and the euro area economy",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260817~1f9f7149c9.en.pdf",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-02T12:27:44.164062Z"
-    },
-    {
-      "id": "f02ed6a622d002c1ff419105fb8dfd43",
-      "title": "US Oil Deal in Venezuela Displaces OFAC-Sanctioned Producers - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNWWVnNEdfODJIdl9GSTE5R1FtemNfX3JNWGZKQy1Ma1p5aXEzbWxfTG9MN3dqRE9QYlA0NHBvS3NWb0dZemZvdTdTYjRfOFUzN2x0OGZoQ0tnTGcxNGxlYWZoRVhOOHBEdnNnNVVaY0tjUmp3QUY4MXlHU2psaWxnbjNSRFNMY1V5bkRHcmc4TVNJWUJHRTZCQW5IMlNiX1VkekpnVGVlVjM0Z2JTSHVRUg?oc=5\" target=\"_blank\">US Oil Deal in Venezuela Displaces OFAC-Sanctioned Producers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWWVnNEdfODJIdl9GSTE5R1FtemNfX3JNWGZKQy1Ma1p5aXEzbWxfTG9MN3dqRE9QYlA0NHBvS3NWb0dZemZvdTdTYjRfOFUzN2x0OGZoQ0tnTGcxNGxlYWZoRVhOOHBEdnNnNVVaY0tjUmp3QUY4MXlHU2psaWxnbjNSRFNMY1V5bkRHcmc4TVNJWUJHRTZCQW5IMlNiX1VkekpnVGVlVjM0Z2JTSHVRUg?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-02T12:28:02.846540Z"
-    },
-    {
-      "id": "4e126be680d1091f33b98dfb351b0b4b",
-      "title": "Manga artist Kurumada says ex-manager, others embezzled \u00a54.6 billion",
-      "summary": "Masami Kurumada is best known as the creator of the popular manga series \"Ring ni Kakero\" and \"Saint Seiya.\"",
-      "link": "https://www.japantimes.co.jp/news/2026/09/02/japan/crime-legal/manga-kurumada-embezzled/",
-      "source": "Japan Times",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-02T12:27:54.370720Z"
-    },
-    {
-      "id": "069332be9feea4c882ebac69aafd54ca",
-      "title": "COLI Group Delivers Transformers for GE Vernova",
-      "summary": "COLI Group has recently completed a six-month transport project for GE Vernova, moving 14 large power transformers from GE Vernova's Turkish factory to a job site in Poland supporting the Baltica 2 offshore wind farm.The cargo was shipped across three voyages on three separately chartered vessels\u2026",
-      "link": "https://www.marinelink.com/news/coli-group-delivers-transformers-ge-542633",
-      "source": "MarineLink",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-02T12:27:59.008478Z"
+      "published": "2026-09-02T12:32:30.149269Z"
     }
   ]
 }
