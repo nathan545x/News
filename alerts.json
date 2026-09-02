@@ -1,56 +1,117 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-02T06:42:59.590076Z",
+  "generated_at": "2026-09-02T06:47:53.011252Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 1,
-    "last_updated": "2026-09-02T06:42:59.590086Z"
+    "critical_alerts": 0,
+    "high_alerts": 4,
+    "last_updated": "2026-09-02T06:47:53.011270Z"
   },
   "top_signals": [
     {
-      "id": "49fc9e7ab6bb05b30117fae2a445a774",
-      "title": "Yen Gains After BOJ Hawk Leaves Door Open for Outsized Hike",
-      "summary": "The yen strengthened against the dollar after Bank of Japan Board Member Hajime Takata, one of the bank\u2019s most hawkish members, left the door open for an outsized interest-rate increase as well as back-to-back hikes.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-02/yen-gains-after-boj-hawk-leaves-door-open-for-outsized-hike",
-      "source": "Bloomberg",
-      "score": 38,
-      "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "DXY",
-        "JPY"
-      ],
-      "regions": [
-        "JAPAN"
-      ],
+      "id": "955e1b1f744c6ba3634bfda4158349e9",
+      "title": "Three Hundreds of Chiltern",
+      "summary": "The Chancellor of the Exchequer has this day appointed Sir Keir Starmer to be Steward and Bailiff of the Three Hundreds of Chiltern.",
+      "link": "https://www.gov.uk/government/news/three-hundreds-of-chiltern--4",
+      "source": "HM Treasury",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
       "assets": [
-        "AI",
-        "FX"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-02T06:41:49.047852Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T06:47:39.677491Z"
     },
     {
-      "id": "fc35319ed11152cc7f16447549b227be",
-      "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
-      "summary": "SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
-      "source": "BleepingComputer",
+      "id": "d498ec7e45e607e316dbb7b9b1b98547",
+      "title": "Iranian cyber spies target aviation, fintech developers with new malware",
+      "summary": "In a report published Tuesday, Kaspersky said it first discovered NodeRabbit on a system in Afghanistan and later identified variants on systems in Egypt and Ethiopia.",
+      "link": "https://therecord.media/iranian-cyber-spies-target-aviation-fintech-new-malware",
+      "source": "The Record",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T06:47:50.265151Z"
+    },
+    {
+      "id": "49376934fdb055256b13474549810700",
+      "title": "BP names Ian Tyler as chair",
+      "summary": "UK oil major hands role to interim chair following the removal of Albert Manifold",
+      "link": "https://www.ft.com/content/d7e8d76b-d67b-46af-9d95-a384cb90b5d2",
+      "source": "Financial Times",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-02T06:46:54.934558Z"
+    },
+    {
+      "id": "751ca0ce4897ab962983a78150bc01d7",
+      "title": "Cyber risk from frontier AI poses \u2018most immediate concern\u2019 to global financial system, watchdog warns",
+      "summary": "Andrew Bailey, chair of the Financial Stability Board, called on financial institutions and technology providers to \u201cprepare for more severe scenarios involving simultaneous disruption across multiple firms or shared technology dependencies.\u201d",
+      "link": "https://therecord.media/cyber-risk-from-frontier-ai-most-immediate-concern-to-global-finance",
+      "source": "The Record",
       "score": 15,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
@@ -73,50 +134,268 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-02T06:42:56.367343Z"
+      "published": "2026-09-02T06:47:50.265238Z"
+    },
+    {
+      "id": "ac7399e24e5298bb4bc8410625c54722",
+      "title": "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence",
+      "summary": "<p>Date: Wednesday, Sept. 23, 2026Time: 12:00-1:00 PM ETThe second joint webinar by RUSI and War on the Rocks: Two leading defense publications from both sides of the Atlantic present their expert panel.&#160;OverviewFor this edition of The Atlantic Brief, the Royal United Services Institute and War on the Rocks will present a dialogue on U.S. and European Perspectives on Nuclear Deterrence. Participating experts from the United Kingdom, continental Europe, and the United States bring decades of first-hand experience in the armed forces, diplomacy, and foreign policy. They will explore evolving views of America&#8217;s extended nuclear deterrence, the role of the British</p>\n<p>The post <a href=\"https://warontherocks.com/the-atlantic-brief-u-s-and-european-perspectives-on-nuclear-deterrence/\">The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/the-atlantic-brief-u-s-and-european-perspectives-on-nuclear-deterrence/",
+      "source": "War on the Rocks",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "UK",
+        "US"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T06:47:48.949988Z"
+    },
+    {
+      "id": "0b3fb885574f2035ce37dda25f5bf560",
+      "title": "China\u2019s real robot revolution is not about humanoids - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQZnNWelgxcGNfa2hhWW82Z1RpRnV0V1haVTV1MGM3emRPRlNtOTNQYmxWT3F4VVU0RG9oTnctQzkxNmlSQTRMdTVmQ2Y0WGFKeVlteDVLajM1Szg3eE4xb09zOHhFWXpOcHNua2ZwdDRzMURucEtRZEh4Q29lTmE4Y0U3dDY?oc=5\" target=\"_blank\">China\u2019s real robot revolution is not about humanoids</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZnNWelgxcGNfa2hhWW82Z1RpRnV0V1haVTV1MGM3emRPRlNtOTNQYmxWT3F4VVU0RG9oTnctQzkxNmlSQTRMdTVmQ2Y0WGFKeVlteDVLajM1Szg3eE4xb09zOHhFWXpOcHNua2ZwdDRzMURucEtRZEh4Q29lTmE4Y0U3dDY?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T06:47:51.864043Z"
+    },
+    {
+      "id": "38ca962c5bc880b1a8ae2b276aa544a7",
+      "title": "Brittany Ferries Ends Live Irish Calf Exports",
+      "summary": "On September 1, Brittany Ferries stopped transporting live farm animals including unweaned calves.The move marks another milestone in a campaign by NGOs to end long-distance live transport and ensure animal welfare legislation is effectively enforced.",
+      "link": "https://www.marinelink.com/news/brittany-ferries-ends-live-irish-calf-542637",
+      "source": "MarineLink",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-02T06:47:48.431809Z"
+    },
+    {
+      "id": "327ac08032923ad84b78dcc09c1343a5",
+      "title": "Report: More Crew Deaths Linked to Illness Than Accidents",
+      "summary": "More than four in five crew deaths reported to Britannia P&amp;I Club were caused by illness rather than accidents, according to a new analysis of nearly 3,000 crew-related claims, prompting renewed calls for greater focus on preventative health\u2026",
+      "link": "https://www.marinelink.com/news/report-crew-deaths-linked-illness-542635",
+      "source": "MarineLink",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-02T06:47:48.431951Z"
+    },
+    {
+      "id": "f96e577372b2b4a4832ed7de22b87d42",
+      "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
+      "summary": "Nearly 22,000 Microsoft Exchange servers exposed online remain unpatched against a high-severity authentication bypass vulnerability that allows attackers to hijack all user mailboxes. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-02T06:47:50.006759Z"
+    },
+    {
+      "id": "c7fe90030f3a1db548a105edc6df1902",
+      "title": "Full-Scale Testing of Everllence 175DF Methanol Engine Underway",
+      "summary": "Everllence has announced the successful, full-scale testing of its 12-cylinder 175DF-M dual-fuel methanol engine at the company\u2019s Test and Research Center in Frederikshavn, Denmark.The company reports that, following the optimization of the\u2026",
+      "link": "https://www.marinelink.com/news/fullscale-testing-everllence-df-methanol-542636",
+      "source": "MarineLink",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-02T06:47:48.431884Z"
     }
   ],
   "alerts": [
     {
-      "id": "49fc9e7ab6bb05b30117fae2a445a774",
-      "title": "Yen Gains After BOJ Hawk Leaves Door Open for Outsized Hike",
-      "summary": "The yen strengthened against the dollar after Bank of Japan Board Member Hajime Takata, one of the bank\u2019s most hawkish members, left the door open for an outsized interest-rate increase as well as back-to-back hikes.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-02/yen-gains-after-boj-hawk-leaves-door-open-for-outsized-hike",
-      "source": "Bloomberg",
-      "score": 38,
-      "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "DXY",
-        "JPY"
-      ],
-      "regions": [
-        "JAPAN"
-      ],
+      "id": "955e1b1f744c6ba3634bfda4158349e9",
+      "title": "Three Hundreds of Chiltern",
+      "summary": "The Chancellor of the Exchequer has this day appointed Sir Keir Starmer to be Steward and Bailiff of the Three Hundreds of Chiltern.",
+      "link": "https://www.gov.uk/government/news/three-hundreds-of-chiltern--4",
+      "source": "HM Treasury",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
       "assets": [
-        "AI",
-        "FX"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-02T06:41:49.047852Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T06:47:39.677491Z"
     },
     {
-      "id": "fc35319ed11152cc7f16447549b227be",
-      "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
-      "summary": "SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
-      "source": "BleepingComputer",
+      "id": "d498ec7e45e607e316dbb7b9b1b98547",
+      "title": "Iranian cyber spies target aviation, fintech developers with new malware",
+      "summary": "In a report published Tuesday, Kaspersky said it first discovered NodeRabbit on a system in Afghanistan and later identified variants on systems in Egypt and Ethiopia.",
+      "link": "https://therecord.media/iranian-cyber-spies-target-aviation-fintech-new-malware",
+      "source": "The Record",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T06:47:50.265151Z"
+    },
+    {
+      "id": "49376934fdb055256b13474549810700",
+      "title": "BP names Ian Tyler as chair",
+      "summary": "UK oil major hands role to interim chair following the removal of Albert Manifold",
+      "link": "https://www.ft.com/content/d7e8d76b-d67b-46af-9d95-a384cb90b5d2",
+      "source": "Financial Times",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-02T06:46:54.934558Z"
+    },
+    {
+      "id": "751ca0ce4897ab962983a78150bc01d7",
+      "title": "Cyber risk from frontier AI poses \u2018most immediate concern\u2019 to global financial system, watchdog warns",
+      "summary": "Andrew Bailey, chair of the Financial Stability Board, called on financial institutions and technology providers to \u201cprepare for more severe scenarios involving simultaneous disruption across multiple firms or shared technology dependencies.\u201d",
+      "link": "https://therecord.media/cyber-risk-from-frontier-ai-most-immediate-concern-to-global-finance",
+      "source": "The Record",
       "score": 15,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
@@ -139,7 +418,164 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-02T06:42:56.367343Z"
+      "published": "2026-09-02T06:47:50.265238Z"
+    },
+    {
+      "id": "ac7399e24e5298bb4bc8410625c54722",
+      "title": "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence",
+      "summary": "<p>Date: Wednesday, Sept. 23, 2026Time: 12:00-1:00 PM ETThe second joint webinar by RUSI and War on the Rocks: Two leading defense publications from both sides of the Atlantic present their expert panel.&#160;OverviewFor this edition of The Atlantic Brief, the Royal United Services Institute and War on the Rocks will present a dialogue on U.S. and European Perspectives on Nuclear Deterrence. Participating experts from the United Kingdom, continental Europe, and the United States bring decades of first-hand experience in the armed forces, diplomacy, and foreign policy. They will explore evolving views of America&#8217;s extended nuclear deterrence, the role of the British</p>\n<p>The post <a href=\"https://warontherocks.com/the-atlantic-brief-u-s-and-european-perspectives-on-nuclear-deterrence/\">The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/the-atlantic-brief-u-s-and-european-perspectives-on-nuclear-deterrence/",
+      "source": "War on the Rocks",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "UK",
+        "US"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T06:47:48.949988Z"
+    },
+    {
+      "id": "0b3fb885574f2035ce37dda25f5bf560",
+      "title": "China\u2019s real robot revolution is not about humanoids - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQZnNWelgxcGNfa2hhWW82Z1RpRnV0V1haVTV1MGM3emRPRlNtOTNQYmxWT3F4VVU0RG9oTnctQzkxNmlSQTRMdTVmQ2Y0WGFKeVlteDVLajM1Szg3eE4xb09zOHhFWXpOcHNua2ZwdDRzMURucEtRZEh4Q29lTmE4Y0U3dDY?oc=5\" target=\"_blank\">China\u2019s real robot revolution is not about humanoids</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZnNWelgxcGNfa2hhWW82Z1RpRnV0V1haVTV1MGM3emRPRlNtOTNQYmxWT3F4VVU0RG9oTnctQzkxNmlSQTRMdTVmQ2Y0WGFKeVlteDVLajM1Szg3eE4xb09zOHhFWXpOcHNua2ZwdDRzMURucEtRZEh4Q29lTmE4Y0U3dDY?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T06:47:51.864043Z"
+    },
+    {
+      "id": "38ca962c5bc880b1a8ae2b276aa544a7",
+      "title": "Brittany Ferries Ends Live Irish Calf Exports",
+      "summary": "On September 1, Brittany Ferries stopped transporting live farm animals including unweaned calves.The move marks another milestone in a campaign by NGOs to end long-distance live transport and ensure animal welfare legislation is effectively enforced.",
+      "link": "https://www.marinelink.com/news/brittany-ferries-ends-live-irish-calf-542637",
+      "source": "MarineLink",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-02T06:47:48.431809Z"
+    },
+    {
+      "id": "327ac08032923ad84b78dcc09c1343a5",
+      "title": "Report: More Crew Deaths Linked to Illness Than Accidents",
+      "summary": "More than four in five crew deaths reported to Britannia P&amp;I Club were caused by illness rather than accidents, according to a new analysis of nearly 3,000 crew-related claims, prompting renewed calls for greater focus on preventative health\u2026",
+      "link": "https://www.marinelink.com/news/report-crew-deaths-linked-illness-542635",
+      "source": "MarineLink",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-02T06:47:48.431951Z"
+    },
+    {
+      "id": "f96e577372b2b4a4832ed7de22b87d42",
+      "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
+      "summary": "Nearly 22,000 Microsoft Exchange servers exposed online remain unpatched against a high-severity authentication bypass vulnerability that allows attackers to hijack all user mailboxes. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-02T06:47:50.006759Z"
+    },
+    {
+      "id": "c7fe90030f3a1db548a105edc6df1902",
+      "title": "Full-Scale Testing of Everllence 175DF Methanol Engine Underway",
+      "summary": "Everllence has announced the successful, full-scale testing of its 12-cylinder 175DF-M dual-fuel methanol engine at the company\u2019s Test and Research Center in Frederikshavn, Denmark.The company reports that, following the optimization of the\u2026",
+      "link": "https://www.marinelink.com/news/fullscale-testing-everllence-df-methanol-542636",
+      "source": "MarineLink",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-02T06:47:48.431884Z"
     }
   ]
 }
