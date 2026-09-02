@@ -1,89 +1,443 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-02T20:37:45.176347Z",
+  "generated_at": "2026-09-02T20:43:24.672397Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-09-02T20:37:45.176360Z"
+    "critical_alerts": 1,
+    "high_alerts": 3,
+    "last_updated": "2026-09-02T20:43:24.672412Z"
   },
   "top_signals": [
     {
-      "id": "6e5d56b74fab1c91a686171727c7a455",
-      "title": "Microsoft to start disclosing Azure quarterly revenue as company consolidates business units",
-      "summary": "Microsoft will begin reporting quarterly Azure revenue in dollars for the first time, providing more clarity about its business that competes with AWS.",
-      "link": "https://www.cnbc.com/2026/09/02/microsoft-to-disclose-azure-revenue-as-part-of-segment-changes.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "822d33e6b6edf60493e2d20c42f697ad",
+      "title": "S&P 500 Rises to Snap Three-Day Skid as Oil Prices Halt Advance",
+      "summary": "The S&amp;P 500 Index ended a three-session losing streak on Wednesday as oil prices halted a sharp advance, easing inflation concerns as traders weigh the Federal Reserve\u2019s potential path for interest-rate hikes.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-02/s-p-500-steadies-after-three-day-skid-as-oil-prices-halt-advance",
+      "source": "Bloomberg",
+      "score": 38,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "DXY"
+        "SPY",
+        "WTI"
       ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-02T20:42:17.821986Z"
+    },
+    {
+      "id": "2013373ea3f49dbe530a970d45be2b25",
+      "title": "Gold Rises as Dollar Pushes Lower While Traders Weigh Fed Path",
+      "summary": "Gold advanced as the dollar pushed lower, with traders assessing remarks from policymakers that shed light on the Federal Reserve\u2019s interest-rate path.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-01/gold-holds-drop-as-higher-oil-bond-selloff-raise-rate-hike-bets",
+      "source": "Bloomberg",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-02T20:42:17.822069Z"
+    },
+    {
+      "id": "6bfd9fe3e0b51b0c78abee17258c5c42",
+      "title": "US tech found in Russian ballistic missiles",
+      "summary": "Dozens of American- and European-made components are still being used to build Russia\u2019s deadly ballistic missiles.",
+      "link": "https://www.defensenews.com/global/europe/2026/09/01/us-tech-found-in-russian-ballistic-missiles/",
+      "source": "Defense News",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "RUSSIA",
+        "US"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T20:43:19.380467Z"
+    },
+    {
+      "id": "10f0ba641d6d7ed44937a0c42f541c62",
+      "title": "German government blames Russia for Leipzig airport drone attack with explosives",
+      "summary": "Russia was behind the failed explosive drone attack on Germany\u2019s key Leipzig/Halle Airport last month, the authorities in Berlin have concluded.",
+      "link": "https://www.defensenews.com/global/europe/2026/09/02/german-government-blames-russia-for-leipzig-airport-drone-attack-with-explosives/",
+      "source": "Defense News",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "GERMANY",
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T20:43:19.380381Z"
+    },
+    {
+      "id": "149a0a0c334fec5fbaf6e7897341c008",
+      "title": "Badenoch sharpens her attack on Burnham by calling him the \u2018people pleaser\u2019",
+      "summary": "Tory leader persists with her pugilistic strategy in the House of Commons after shaking up her top team",
+      "link": "https://www.ft.com/content/c9390b8a-a453-4014-a5a8-13f8fd518356?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-02T20:36:54.173525Z"
+      "published": "2026-09-02T20:42:20.721922Z"
     },
     {
-      "id": "ecc3109f7331d98cb4142325846788e3",
-      "title": "Nearly 1,000 business manager visa holders left Japan in first half of 2026",
-      "summary": "Under stricter requirements imposed since October, applicants must now have at least \u00a530 million in capital, up from \u00a55 million.",
-      "link": "https://www.japantimes.co.jp/news/2026/09/02/japan/japan-immigration-business-manager-visa/",
-      "source": "Japan Times",
-      "score": 1,
+      "id": "614384989ab87c9a6eaa7c14fe0cf35f",
+      "title": "Blue Yonder still chasing profitability 5 years after Panasonic acquisition",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/companies/blue-yonder-still-chasing-profitability-5-years-after-panasonic-acquisition",
+      "source": "Nikkei Asia",
+      "score": 7,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-02T20:37:35.889620Z"
+      "published": "2026-09-02T20:43:13.864431Z"
+    },
+    {
+      "id": "1da151c444dba52e83f02a0377687fff",
+      "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
+      "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large advertising platforms. Not anymore: A powerful and free new service called DecryptAds scrapes and correlates this adtech data and makes it simple to quickly learn a great deal about the entities that are tracking you.",
+      "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "source": "KrebsOnSecurity",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-02T20:43:21.491236Z"
+    },
+    {
+      "id": "601eb416e07e2d819cc8d73c77eadf9f",
+      "title": "LG to Ban Residential Proxies from Smart TV Apps",
+      "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found that more than 42 percent of games and other apps available for download on LG's webOS store allow unknown third-parties to route their Internet traffic through a user's TV.",
+      "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "source": "KrebsOnSecurity",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-02T20:43:21.491325Z"
     }
   ],
   "alerts": [
     {
-      "id": "6e5d56b74fab1c91a686171727c7a455",
-      "title": "Microsoft to start disclosing Azure quarterly revenue as company consolidates business units",
-      "summary": "Microsoft will begin reporting quarterly Azure revenue in dollars for the first time, providing more clarity about its business that competes with AWS.",
-      "link": "https://www.cnbc.com/2026/09/02/microsoft-to-disclose-azure-revenue-as-part-of-segment-changes.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "822d33e6b6edf60493e2d20c42f697ad",
+      "title": "S&P 500 Rises to Snap Three-Day Skid as Oil Prices Halt Advance",
+      "summary": "The S&amp;P 500 Index ended a three-session losing streak on Wednesday as oil prices halted a sharp advance, easing inflation concerns as traders weigh the Federal Reserve\u2019s potential path for interest-rate hikes.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-02/s-p-500-steadies-after-three-day-skid-as-oil-prices-halt-advance",
+      "source": "Bloomberg",
+      "score": 38,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "DXY"
+        "SPY",
+        "WTI"
       ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-02T20:42:17.821986Z"
+    },
+    {
+      "id": "2013373ea3f49dbe530a970d45be2b25",
+      "title": "Gold Rises as Dollar Pushes Lower While Traders Weigh Fed Path",
+      "summary": "Gold advanced as the dollar pushed lower, with traders assessing remarks from policymakers that shed light on the Federal Reserve\u2019s interest-rate path.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-01/gold-holds-drop-as-higher-oil-bond-selloff-raise-rate-hike-bets",
+      "source": "Bloomberg",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-02T20:42:17.822069Z"
+    },
+    {
+      "id": "6bfd9fe3e0b51b0c78abee17258c5c42",
+      "title": "US tech found in Russian ballistic missiles",
+      "summary": "Dozens of American- and European-made components are still being used to build Russia\u2019s deadly ballistic missiles.",
+      "link": "https://www.defensenews.com/global/europe/2026/09/01/us-tech-found-in-russian-ballistic-missiles/",
+      "source": "Defense News",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "RUSSIA",
+        "US"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T20:43:19.380467Z"
+    },
+    {
+      "id": "10f0ba641d6d7ed44937a0c42f541c62",
+      "title": "German government blames Russia for Leipzig airport drone attack with explosives",
+      "summary": "Russia was behind the failed explosive drone attack on Germany\u2019s key Leipzig/Halle Airport last month, the authorities in Berlin have concluded.",
+      "link": "https://www.defensenews.com/global/europe/2026/09/02/german-government-blames-russia-for-leipzig-airport-drone-attack-with-explosives/",
+      "source": "Defense News",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "GERMANY",
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-02T20:43:19.380381Z"
+    },
+    {
+      "id": "149a0a0c334fec5fbaf6e7897341c008",
+      "title": "Badenoch sharpens her attack on Burnham by calling him the \u2018people pleaser\u2019",
+      "summary": "Tory leader persists with her pugilistic strategy in the House of Commons after shaking up her top team",
+      "link": "https://www.ft.com/content/c9390b8a-a453-4014-a5a8-13f8fd518356?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-02T20:36:54.173525Z"
+      "published": "2026-09-02T20:42:20.721922Z"
     },
     {
-      "id": "ecc3109f7331d98cb4142325846788e3",
-      "title": "Nearly 1,000 business manager visa holders left Japan in first half of 2026",
-      "summary": "Under stricter requirements imposed since October, applicants must now have at least \u00a530 million in capital, up from \u00a55 million.",
-      "link": "https://www.japantimes.co.jp/news/2026/09/02/japan/japan-immigration-business-manager-visa/",
-      "source": "Japan Times",
-      "score": 1,
+      "id": "614384989ab87c9a6eaa7c14fe0cf35f",
+      "title": "Blue Yonder still chasing profitability 5 years after Panasonic acquisition",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/companies/blue-yonder-still-chasing-profitability-5-years-after-panasonic-acquisition",
+      "source": "Nikkei Asia",
+      "score": 7,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-02T20:37:35.889620Z"
+      "published": "2026-09-02T20:43:13.864431Z"
+    },
+    {
+      "id": "1da151c444dba52e83f02a0377687fff",
+      "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
+      "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large advertising platforms. Not anymore: A powerful and free new service called DecryptAds scrapes and correlates this adtech data and makes it simple to quickly learn a great deal about the entities that are tracking you.",
+      "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "source": "KrebsOnSecurity",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-02T20:43:21.491236Z"
+    },
+    {
+      "id": "601eb416e07e2d819cc8d73c77eadf9f",
+      "title": "LG to Ban Residential Proxies from Smart TV Apps",
+      "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found that more than 42 percent of games and other apps available for download on LG's webOS store allow unknown third-parties to route their Internet traffic through a user's TV.",
+      "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "source": "KrebsOnSecurity",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-02T20:43:21.491325Z"
     }
   ]
 }
