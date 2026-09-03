@@ -1,64 +1,37 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-03T15:58:16.621324Z",
+  "generated_at": "2026-09-03T16:03:19.208441Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "INFLATION",
+    "dominant_driver": "INFLATION",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 2,
-    "last_updated": "2026-09-03T15:58:16.621344Z"
+    "critical_alerts": 2,
+    "high_alerts": 3,
+    "last_updated": "2026-09-03T16:03:19.208455Z"
   },
   "top_signals": [
     {
-      "id": "07af15ee6c9d5a85cdd395eb7d620447",
-      "title": "European Stocks Gain as Fed Rate-Hike Wagers Ease; Soitec Jumps",
-      "summary": "European stocks gained as traders reduced bets on a Federal Reserve rate hike following remarks from Governor Christopher Waller, while Deutsche Telekom AG advanced on news that activist investor Elliott Investment Management has built a sizeable stake.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-03/european-stocks-muted-as-deutsche-telekom-gains-on-elliott-stake",
-      "source": "Bloomberg",
-      "score": 27,
+      "id": "720e1b9a8e38bad3405597a775473358",
+      "title": "UK Borrowing Costs Surge as Oil Shock Rattles Global Markets",
+      "summary": "The global rise in borrowing costs is a \u201cparticular concern,\u201d the International Monetary Fund has said, as UK bond yields reach a level last seen in the financial crisis. The yield on the 10-year UK gilt climbed four basis points on Wednesday morning to near 5.27 per cent, which followed the previous day\u2019s rally that saw yields spike as much as 15 basis points. Longer-term gilt yields were up five basis points to almost 5.89 per cent, nearing highs reached on Tuesday. Similar moves are taking place across the globe, with India\u2019s\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/UK-Borrowing-Costs-Surge-as-Oil-Shock-Rattles-Global-Markets.html",
+      "source": "OilPrice",
+      "score": 26,
       "severity": "CRITICAL",
       "regime": "RATES",
       "tickers": [
-        "EUR"
+        "UK_GILTS",
+        "WTI"
       ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "EQUITIES",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-03T15:57:11.636459Z"
-    },
-    {
-      "id": "60208ca91fba69433764f8e79b61d798",
-      "title": "Green notice 2026/02",
-      "summary": "Green notices cover significant and/or significant proposals for Bank of England reporting. If any of these proposals are finalised and are to be implemented, they will appear in a statistical notice.",
-      "link": "https://www.bankofengland.co.uk/statistics/notice/2026/green-notice-2026-02",
-      "source": "Bank of England",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
       "regions": [
         "UK"
       ],
-      "assets": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "RATES"
+      ],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -71,54 +44,22 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-03T15:58:01.980380Z"
+      "published": "2026-09-03T16:03:14.664306Z"
     },
     {
-      "id": "701b37eda4bd2925c76c3503d4e81fc6",
-      "title": "US Army awards $192M to Palantir, Anduril for TITAN production",
-      "summary": "The Army moved its TITAN program from prototyping to production with a $192 million award to Palantir and Anduril this week.",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/09/02/us-army-awards-192m-to-palantir-anduril-for-titan-production/",
-      "source": "Defense News",
-      "score": 16,
-      "severity": "HIGH",
+      "id": "9490eade0f1eeb363b60867f9b33b95d",
+      "title": "WINTEGRATE launched to accelerate wind-powered shipping",
+      "summary": "Kongsberg Maritime and a consortium of leading Norwegian maritime companies and research institutions have launched WINTEGRATE, a major research and innovation project aimed at accelerating the adoption of wind propulsion in commercial shipping. The project has been awarded up to NOK 68 million through Norway&#8217;s Green Platform programme. WINTEGRATE will develop technologies and methodologies that ...",
+      "link": "https://www.hellenicshippingnews.com/wintegrate-launched-to-accelerate-wind-powered-shipping/",
+      "source": "Hellenic Shipping",
+      "score": 26,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-03T15:58:11.579693Z"
-    },
-    {
-      "id": "c364144bacb7e30011d7d69be4193715",
-      "title": "Commission approves \u20ac30 million Portuguese State aid for agricultural, fishery and aquaculture companies facing increased fuel and fertiliser prices",
-      "summary": "European Commission Press release Brussels, 02 Sep 2026 The European Commission has approved a \u20ac30 million State aid scheme for agricultural, fishery and aquaculture companies facing increased fuel and fertiliser prices due to the Middle East crisis.",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1779",
-      "source": "European Commission",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
       "assets": [
         "AI",
-        "FX"
+        "SHIPPING"
       ],
       "market_impact": {
         "bullish": [
@@ -134,24 +75,79 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-03T15:58:01.393663Z"
+      "published": "2026-09-03T16:03:15.398675Z"
     },
     {
-      "id": "83eaad7dbdf1e4f321bc4f33188fb728",
-      "title": "Live updates: Bitcoin jumps above $81,000 as rates fall, dollar weakens",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/09/03/live-updates-crypto-majors-bounce-while-global-funds-run-their-lowest-dollar-hedges-since-2015",
-      "source": "CoinDesk",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC",
-        "DXY"
-      ],
+      "id": "ed41e7a418a00d8b82f8ec1509a6407e",
+      "title": "Ordinary Traffic Is Where Military and Criminal Threats Hide",
+      "summary": "A vessel\u2019s AIS track goes quiet. A ship slows and holds position outside a shipping lane. A port call shows cargo that doesn\u2019t match what left the previous port. Each of these is the same kind of event \u2014 a break from a known pattern. None of them says, on its own, what kind of ...",
+      "link": "https://www.hellenicshippingnews.com/ordinary-traffic-is-where-military-and-criminal-threats-hide/",
+      "source": "Hellenic Shipping",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
       "regions": [],
       "assets": [
-        "CRYPTO"
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-03T16:03:15.398521Z"
+    },
+    {
+      "id": "51a7652f15b3661449ab2a89558a0d54",
+      "title": "Operators who prioritize flexibility will be the ones who adapt best to the energy transition, says Auramarine",
+      "summary": "Auramarine, a leading fuel supply systems expert, believes shipping\u2019s energy transition is entering a phase where flexibility, not fuel choice, will determine which operators adapt successfully. With fuel price volatility, inconsistent alternative availability and tightening environmental regulation at different speeds across regions, Auramarine argues that the right approach to fuel supply infrastructure is now as ...",
+      "link": "https://www.hellenicshippingnews.com/operators-who-prioritize-flexibility-will-be-the-ones-who-adapt-best-to-the-energy-transition-says-auramarine-2/",
+      "source": "Hellenic Shipping",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-03T16:03:15.398770Z"
+    },
+    {
+      "id": "c2c99fdd2fb69029162a31c6d75fcd79",
+      "title": "Standard Chartered brings spot crypto trading to Dubai FX platform",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/09/03/standard-chartered-first-top-global-bank-to-offer-bitcoin-and-ether-trading-in-uae",
+      "source": "CoinDesk",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -163,63 +159,42 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-03T15:58:13.115313Z"
+      "published": "2026-09-03T16:03:17.405232Z"
     },
     {
-      "id": "01ea7945b20706c7a9d97ee80dbbc63c",
-      "title": "A sea change in regulatory investigations and enforcement \u2212 speech by David Chaplin",
-      "summary": "Given at the 5th Conference on Financial Law and Regulation, University of Leeds School of Law, 24 June 2026",
-      "link": "https://www.bankofengland.co.uk/speech/2026/june/david-chaplin-speech-given-at-the-financial-law-and-regulation-conference",
-      "source": "Bank of England",
-      "score": 10,
+      "id": "bc0a3a2e47230bb721f2ad0f28733222",
+      "title": "Shein shares sink almost 9% on third day of trading",
+      "summary": "Stock in online fast-fashion retailer closes more than HK$6 below offer price",
+      "link": "https://www.ft.com/content/b2d099c5-696c-4c00-87cc-3848e552763a?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-03T15:58:02.188968Z"
-    },
-    {
-      "id": "746781b7e3c9089dfda2a060e30b3131",
-      "title": "Longer wells boost Permian crude oil and natural gas production",
-      "summary": "Well operators in the Permian region of western Texas and eastern New Mexico are getting more oil and gas out of the ground by drilling longer, horizontal wells and increasingly incorporating so-called super-lateral wells that exceed 15,000 feet.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67984",
-      "source": "EIA",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
       "assets": [
-        "COMMODITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-03T15:58:09.471061Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-03T16:02:23.523170Z"
     },
     {
-      "id": "3c16d6f50d510b7efc748a4a7000b17f",
-      "title": "Daily News 02 / 09 / 2026",
-      "summary": "European Commission Daily news Brussels, 02 Sep 2026 Commission boosts maritime manufacturing with new EU Industrial Maritime Value Chains Alliance\nThe European Commission has officially launched the new EU Indust...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1789",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
+      "id": "ce8a156f447a92ce531da1fc8faf23bb",
+      "title": "Shipping industry welcomes the proposed inclusion of Indian ship recycling yards on the European List",
+      "summary": "BIMCO, European Shipowners &#124; ECSA, the International Chamber of Shipping (ICS), INTERCARGO, INTERTANKO, and World Shipping Council (WSC) welcome the European Commission\u2019s proposal to add two Indian ship recycling facilities to the updated European List of Ship Recycling Facilities. The shipping industry has advocated for the inclusion of compliant non-OECD yards since the entry into ...",
+      "link": "https://www.hellenicshippingnews.com/shipping-industry-welcomes-the-proposed-inclusion-of-indian-ship-recycling-yards-on-the-european-list/",
+      "source": "Hellenic Shipping",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
       "tickers": [
         "EUR"
       ],
@@ -227,8 +202,38 @@
         "EUROPE"
       ],
       "assets": [
-        "AI",
-        "FX"
+        "FX",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-03T16:03:15.398441Z"
+    },
+    {
+      "id": "493b43c0feec95a686ba97b28a47e812",
+      "title": "Japan's Daiichi Life to buy New Zealand insurer in international push",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/business-deals/japan-s-daiichi-life-to-buy-new-zealand-insurer-in-international-push",
+      "source": "Nikkei Asia",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -239,27 +244,47 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-03T15:58:01.393570Z"
+      "published": "2026-09-03T16:03:11.810164Z"
     },
     {
-      "id": "4bc9566d71d92690f8171b72006b76a5",
-      "title": "Commission approves German capacity mechanism of up to \u20ac35 billion to secure electricity supply",
-      "summary": "European Commission Press release Brussels, 02 Sep 2026 The European Commission has approved, under EU State aid rules, a capacity mechanism for Germany available from 2031. This measure, with an estimated cost between \u20ac15.6 billion and \u20ac35.2 billion, aims to ensure sufficient capacity to produce, store or flexibly consume electricity, so that electricity production can consistently meet expected demand.",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1778",
-      "source": "European Commission",
+      "id": "726e760db104669c49886b52d4dcc1cf",
+      "title": "Stablecoin payments infrastructure startup Diameter Pay raises $10 million",
+      "summary": "Diameter Pay has raised $10 million in a Series A funding round co-led by CMT Digital and Lightspeed Faction.",
+      "link": "https://www.theblock.co/news/deals/2026-09-03-diameter-pay-funding-stablecoin-payments-infrastructure-413454",
+      "source": "The Block",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-03T16:03:17.580407Z"
+    },
+    {
+      "id": "b39df2e07bda658ade9bcbb372292b34",
+      "title": "TSCF Publishes Vibration Information Paper to Support Better Vibration Management in the Maritime Industry",
+      "summary": "Ship vibration remains one of the most challenging technical issues throughout a vessel&#8217;s lifecycle. As a multidisciplinary subject involving naval architecture, structural dynamics, machinery engineering, and hydrodynamics, vibration is an inherently complex issue. Predicting and eliminating vibration problems during the design stage is often difficult, and once they occur, corrective measures can be technically demanding ...",
+      "link": "https://www.hellenicshippingnews.com/tscf-publishes-vibration-information-paper-to-support-better-vibration-management-in-the-maritime-industry/",
+      "source": "Hellenic Shipping",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE",
-        "GERMANY"
-      ],
+      "tickers": [],
+      "regions": [],
       "assets": [
-        "AI",
-        "FX"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -270,58 +295,49 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-03T15:58:01.393770Z"
+      "published": "2026-09-03T16:03:15.398605Z"
+    },
+    {
+      "id": "6f8d374293534a76f6ca2e6bde7ef8f1",
+      "title": "Nike becomes London City Lionesses sponsor as well as kit partner in world record deal",
+      "summary": "<p> <img alt=\"The new shirts feature an image of the Greek goddess Nike\" src=\"https://www.cityam.com/wp-content/uploads/2026/09/260902_LCL_NikeKit18045-LAYOUT1-V2A-16x9-1-e1788448824185.jpg?w=1107\" /> </p>Nike has extended its partnership with London City Lionesses to become the Women\u2019s Super League club\u2019s front-of-shirt sponsor as well as kit maker for a world record fee of over \u00a33m. The sponsorship is described as a multi-year deal and comes as Nike has also extended its kit contract with London City until 2032. The <a href=\"https://www.cityam.com/nike-becomes-london-city-lionesses-sponsor-as-well-as-kit-partner-for-new-wsl-season/\">[...]</a>",
+      "link": "https://www.cityam.com/nike-becomes-london-city-lionesses-sponsor-as-well-as-kit-partner-for-new-wsl-season/",
+      "source": "CityAM",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-03T16:03:10.186494Z"
     }
   ],
   "alerts": [
     {
-      "id": "07af15ee6c9d5a85cdd395eb7d620447",
-      "title": "European Stocks Gain as Fed Rate-Hike Wagers Ease; Soitec Jumps",
-      "summary": "European stocks gained as traders reduced bets on a Federal Reserve rate hike following remarks from Governor Christopher Waller, while Deutsche Telekom AG advanced on news that activist investor Elliott Investment Management has built a sizeable stake.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-03/european-stocks-muted-as-deutsche-telekom-gains-on-elliott-stake",
-      "source": "Bloomberg",
-      "score": 27,
+      "id": "720e1b9a8e38bad3405597a775473358",
+      "title": "UK Borrowing Costs Surge as Oil Shock Rattles Global Markets",
+      "summary": "The global rise in borrowing costs is a \u201cparticular concern,\u201d the International Monetary Fund has said, as UK bond yields reach a level last seen in the financial crisis. The yield on the 10-year UK gilt climbed four basis points on Wednesday morning to near 5.27 per cent, which followed the previous day\u2019s rally that saw yields spike as much as 15 basis points. Longer-term gilt yields were up five basis points to almost 5.89 per cent, nearing highs reached on Tuesday. Similar moves are taking place across the globe, with India\u2019s\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/UK-Borrowing-Costs-Surge-as-Oil-Shock-Rattles-Global-Markets.html",
+      "source": "OilPrice",
+      "score": 26,
       "severity": "CRITICAL",
       "regime": "RATES",
       "tickers": [
-        "EUR"
+        "UK_GILTS",
+        "WTI"
       ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "EQUITIES",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-03T15:57:11.636459Z"
-    },
-    {
-      "id": "60208ca91fba69433764f8e79b61d798",
-      "title": "Green notice 2026/02",
-      "summary": "Green notices cover significant and/or significant proposals for Bank of England reporting. If any of these proposals are finalised and are to be implemented, they will appear in a statistical notice.",
-      "link": "https://www.bankofengland.co.uk/statistics/notice/2026/green-notice-2026-02",
-      "source": "Bank of England",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
       "regions": [
         "UK"
       ],
-      "assets": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "RATES"
+      ],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -334,54 +350,22 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-03T15:58:01.980380Z"
+      "published": "2026-09-03T16:03:14.664306Z"
     },
     {
-      "id": "701b37eda4bd2925c76c3503d4e81fc6",
-      "title": "US Army awards $192M to Palantir, Anduril for TITAN production",
-      "summary": "The Army moved its TITAN program from prototyping to production with a $192 million award to Palantir and Anduril this week.",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/09/02/us-army-awards-192m-to-palantir-anduril-for-titan-production/",
-      "source": "Defense News",
-      "score": 16,
-      "severity": "HIGH",
+      "id": "9490eade0f1eeb363b60867f9b33b95d",
+      "title": "WINTEGRATE launched to accelerate wind-powered shipping",
+      "summary": "Kongsberg Maritime and a consortium of leading Norwegian maritime companies and research institutions have launched WINTEGRATE, a major research and innovation project aimed at accelerating the adoption of wind propulsion in commercial shipping. The project has been awarded up to NOK 68 million through Norway&#8217;s Green Platform programme. WINTEGRATE will develop technologies and methodologies that ...",
+      "link": "https://www.hellenicshippingnews.com/wintegrate-launched-to-accelerate-wind-powered-shipping/",
+      "source": "Hellenic Shipping",
+      "score": 26,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-03T15:58:11.579693Z"
-    },
-    {
-      "id": "c364144bacb7e30011d7d69be4193715",
-      "title": "Commission approves \u20ac30 million Portuguese State aid for agricultural, fishery and aquaculture companies facing increased fuel and fertiliser prices",
-      "summary": "European Commission Press release Brussels, 02 Sep 2026 The European Commission has approved a \u20ac30 million State aid scheme for agricultural, fishery and aquaculture companies facing increased fuel and fertiliser prices due to the Middle East crisis.",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1779",
-      "source": "European Commission",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
       "assets": [
         "AI",
-        "FX"
+        "SHIPPING"
       ],
       "market_impact": {
         "bullish": [
@@ -397,24 +381,79 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-03T15:58:01.393663Z"
+      "published": "2026-09-03T16:03:15.398675Z"
     },
     {
-      "id": "83eaad7dbdf1e4f321bc4f33188fb728",
-      "title": "Live updates: Bitcoin jumps above $81,000 as rates fall, dollar weakens",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/09/03/live-updates-crypto-majors-bounce-while-global-funds-run-their-lowest-dollar-hedges-since-2015",
-      "source": "CoinDesk",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC",
-        "DXY"
-      ],
+      "id": "ed41e7a418a00d8b82f8ec1509a6407e",
+      "title": "Ordinary Traffic Is Where Military and Criminal Threats Hide",
+      "summary": "A vessel\u2019s AIS track goes quiet. A ship slows and holds position outside a shipping lane. A port call shows cargo that doesn\u2019t match what left the previous port. Each of these is the same kind of event \u2014 a break from a known pattern. None of them says, on its own, what kind of ...",
+      "link": "https://www.hellenicshippingnews.com/ordinary-traffic-is-where-military-and-criminal-threats-hide/",
+      "source": "Hellenic Shipping",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
       "regions": [],
       "assets": [
-        "CRYPTO"
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-03T16:03:15.398521Z"
+    },
+    {
+      "id": "51a7652f15b3661449ab2a89558a0d54",
+      "title": "Operators who prioritize flexibility will be the ones who adapt best to the energy transition, says Auramarine",
+      "summary": "Auramarine, a leading fuel supply systems expert, believes shipping\u2019s energy transition is entering a phase where flexibility, not fuel choice, will determine which operators adapt successfully. With fuel price volatility, inconsistent alternative availability and tightening environmental regulation at different speeds across regions, Auramarine argues that the right approach to fuel supply infrastructure is now as ...",
+      "link": "https://www.hellenicshippingnews.com/operators-who-prioritize-flexibility-will-be-the-ones-who-adapt-best-to-the-energy-transition-says-auramarine-2/",
+      "source": "Hellenic Shipping",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-03T16:03:15.398770Z"
+    },
+    {
+      "id": "c2c99fdd2fb69029162a31c6d75fcd79",
+      "title": "Standard Chartered brings spot crypto trading to Dubai FX platform",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/09/03/standard-chartered-first-top-global-bank-to-offer-bitcoin-and-ether-trading-in-uae",
+      "source": "CoinDesk",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -426,63 +465,42 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-03T15:58:13.115313Z"
+      "published": "2026-09-03T16:03:17.405232Z"
     },
     {
-      "id": "01ea7945b20706c7a9d97ee80dbbc63c",
-      "title": "A sea change in regulatory investigations and enforcement \u2212 speech by David Chaplin",
-      "summary": "Given at the 5th Conference on Financial Law and Regulation, University of Leeds School of Law, 24 June 2026",
-      "link": "https://www.bankofengland.co.uk/speech/2026/june/david-chaplin-speech-given-at-the-financial-law-and-regulation-conference",
-      "source": "Bank of England",
-      "score": 10,
+      "id": "bc0a3a2e47230bb721f2ad0f28733222",
+      "title": "Shein shares sink almost 9% on third day of trading",
+      "summary": "Stock in online fast-fashion retailer closes more than HK$6 below offer price",
+      "link": "https://www.ft.com/content/b2d099c5-696c-4c00-87cc-3848e552763a?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-03T15:58:02.188968Z"
-    },
-    {
-      "id": "746781b7e3c9089dfda2a060e30b3131",
-      "title": "Longer wells boost Permian crude oil and natural gas production",
-      "summary": "Well operators in the Permian region of western Texas and eastern New Mexico are getting more oil and gas out of the ground by drilling longer, horizontal wells and increasingly incorporating so-called super-lateral wells that exceed 15,000 feet.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67984",
-      "source": "EIA",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
       "assets": [
-        "COMMODITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-03T15:58:09.471061Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-03T16:02:23.523170Z"
     },
     {
-      "id": "3c16d6f50d510b7efc748a4a7000b17f",
-      "title": "Daily News 02 / 09 / 2026",
-      "summary": "European Commission Daily news Brussels, 02 Sep 2026 Commission boosts maritime manufacturing with new EU Industrial Maritime Value Chains Alliance\nThe European Commission has officially launched the new EU Indust...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1789",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
+      "id": "ce8a156f447a92ce531da1fc8faf23bb",
+      "title": "Shipping industry welcomes the proposed inclusion of Indian ship recycling yards on the European List",
+      "summary": "BIMCO, European Shipowners &#124; ECSA, the International Chamber of Shipping (ICS), INTERCARGO, INTERTANKO, and World Shipping Council (WSC) welcome the European Commission\u2019s proposal to add two Indian ship recycling facilities to the updated European List of Ship Recycling Facilities. The shipping industry has advocated for the inclusion of compliant non-OECD yards since the entry into ...",
+      "link": "https://www.hellenicshippingnews.com/shipping-industry-welcomes-the-proposed-inclusion-of-indian-ship-recycling-yards-on-the-european-list/",
+      "source": "Hellenic Shipping",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
       "tickers": [
         "EUR"
       ],
@@ -490,8 +508,38 @@
         "EUROPE"
       ],
       "assets": [
-        "AI",
-        "FX"
+        "FX",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-03T16:03:15.398441Z"
+    },
+    {
+      "id": "493b43c0feec95a686ba97b28a47e812",
+      "title": "Japan's Daiichi Life to buy New Zealand insurer in international push",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/business-deals/japan-s-daiichi-life-to-buy-new-zealand-insurer-in-international-push",
+      "source": "Nikkei Asia",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -502,27 +550,47 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-03T15:58:01.393570Z"
+      "published": "2026-09-03T16:03:11.810164Z"
     },
     {
-      "id": "4bc9566d71d92690f8171b72006b76a5",
-      "title": "Commission approves German capacity mechanism of up to \u20ac35 billion to secure electricity supply",
-      "summary": "European Commission Press release Brussels, 02 Sep 2026 The European Commission has approved, under EU State aid rules, a capacity mechanism for Germany available from 2031. This measure, with an estimated cost between \u20ac15.6 billion and \u20ac35.2 billion, aims to ensure sufficient capacity to produce, store or flexibly consume electricity, so that electricity production can consistently meet expected demand.",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1778",
-      "source": "European Commission",
+      "id": "726e760db104669c49886b52d4dcc1cf",
+      "title": "Stablecoin payments infrastructure startup Diameter Pay raises $10 million",
+      "summary": "Diameter Pay has raised $10 million in a Series A funding round co-led by CMT Digital and Lightspeed Faction.",
+      "link": "https://www.theblock.co/news/deals/2026-09-03-diameter-pay-funding-stablecoin-payments-infrastructure-413454",
+      "source": "The Block",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-03T16:03:17.580407Z"
+    },
+    {
+      "id": "b39df2e07bda658ade9bcbb372292b34",
+      "title": "TSCF Publishes Vibration Information Paper to Support Better Vibration Management in the Maritime Industry",
+      "summary": "Ship vibration remains one of the most challenging technical issues throughout a vessel&#8217;s lifecycle. As a multidisciplinary subject involving naval architecture, structural dynamics, machinery engineering, and hydrodynamics, vibration is an inherently complex issue. Predicting and eliminating vibration problems during the design stage is often difficult, and once they occur, corrective measures can be technically demanding ...",
+      "link": "https://www.hellenicshippingnews.com/tscf-publishes-vibration-information-paper-to-support-better-vibration-management-in-the-maritime-industry/",
+      "source": "Hellenic Shipping",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE",
-        "GERMANY"
-      ],
+      "tickers": [],
+      "regions": [],
       "assets": [
-        "AI",
-        "FX"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -533,7 +601,25 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-03T15:58:01.393770Z"
+      "published": "2026-09-03T16:03:15.398605Z"
+    },
+    {
+      "id": "6f8d374293534a76f6ca2e6bde7ef8f1",
+      "title": "Nike becomes London City Lionesses sponsor as well as kit partner in world record deal",
+      "summary": "<p> <img alt=\"The new shirts feature an image of the Greek goddess Nike\" src=\"https://www.cityam.com/wp-content/uploads/2026/09/260902_LCL_NikeKit18045-LAYOUT1-V2A-16x9-1-e1788448824185.jpg?w=1107\" /> </p>Nike has extended its partnership with London City Lionesses to become the Women\u2019s Super League club\u2019s front-of-shirt sponsor as well as kit maker for a world record fee of over \u00a33m. The sponsorship is described as a multi-year deal and comes as Nike has also extended its kit contract with London City until 2032. The <a href=\"https://www.cityam.com/nike-becomes-london-city-lionesses-sponsor-as-well-as-kit-partner-for-new-wsl-season/\">[...]</a>",
+      "link": "https://www.cityam.com/nike-becomes-london-city-lionesses-sponsor-as-well-as-kit-partner-for-new-wsl-season/",
+      "source": "CityAM",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-03T16:03:10.186494Z"
     }
   ]
 }
