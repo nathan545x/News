@@ -1,58 +1,90 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-03T14:28:29.539983Z",
+  "generated_at": "2026-09-03T14:33:05.468480Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "COMMODITIES",
+    "dominant_driver": "COMMODITIES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 3,
-    "last_updated": "2026-09-03T14:28:29.540001Z"
+    "critical_alerts": 0,
+    "high_alerts": 2,
+    "last_updated": "2026-09-03T14:33:05.468506Z"
   },
   "top_signals": [
     {
-      "id": "576cfbbca7b14623573b06ee84b407ba",
-      "title": "Gold Jumps as Traders Weigh Yen Intervention Risk, Fedspeak",
-      "summary": "Gold rose the most in two weeks as the dollar tumbled against the yen and traders reacted to remarks from policymakers on the Federal Reserve\u2019s interest-rate path.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-02/gold-holds-gain-as-trump-s-war-comments-ease-inflation-jitters",
-      "source": "Bloomberg",
-      "score": 42,
-      "severity": "CRITICAL",
-      "regime": "RATES",
+      "id": "a8db423e1c806d1967737ea1311f42b3",
+      "title": "Research: UK official holdings of international reserves: August 2026",
+      "summary": "This release details movements in the international reserves of gold and assets held by the UK government.",
+      "link": "https://www.gov.uk/government/publications/uk-official-holdings-of-international-reserves-august-2026",
+      "source": "HM Treasury",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
       "tickers": [
-        "DXY",
-        "JPY",
         "XAU"
       ],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [
         "AI",
-        "COMMODITIES",
-        "FX"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-03T14:26:52.515033Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-03T14:32:53.713013Z"
     },
     {
-      "id": "85d7ca7068db901a3326e1642b333874",
-      "title": "Live updates: Bitcoin jumps above $79,000 as crypto stocks surge and dollar weakens",
+      "id": "197f02adc6fd23c5792cc797445ea6a4",
+      "title": "Russia Says Oil Output Drop Is Temporary as Refineries Restart",
+      "summary": "The dip in Russian oil production is only temporary, as output is expected to recover once refineries come back online after unscheduled maintenance, Deputy Prime Minister Alexander Novak said on Thursday. \u201cThis is a temporary phenomenon, and, generally, oil production will increase as the refineries resume operations and the situation stabilizes,\u201d Novak said, as carried by Russian news agency TASS. Amid the ongoing fuel crisis in Russia, authorities have regularly sought to alleviate concerns and talk up the resumption of refinery\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Says-Oil-Output-Drop-Is-Temporary-as-Refineries-Restart.html",
+      "source": "OilPrice",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-03T14:33:01.815649Z"
+    },
+    {
+      "id": "acb418a091a769f24bc58f1ea71f9326",
+      "title": "Live updates: Bitcoin jumps above $79,000 as rates fall, dollar weakens",
       "summary": "",
       "link": "https://www.coindesk.com/business/2026/09/03/live-updates-crypto-majors-bounce-while-global-funds-run-their-lowest-dollar-hedges-since-2015",
       "source": "CoinDesk",
-      "score": 17,
-      "severity": "HIGH",
+      "score": 12,
+      "severity": "MEDIUM",
       "regime": "CRYPTO",
       "tickers": [
         "BTC",
@@ -60,36 +92,6 @@
       ],
       "regions": [],
       "assets": [
-        "CRYPTO",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-03T14:27:51.898227Z"
-    },
-    {
-      "id": "6c52ddf456df5f3b867420b37e355c7d",
-      "title": "Here\u2019s what happened in crypto today",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here\u2019s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg\" /></p><p>Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.</p>",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
         "CRYPTO"
       ],
       "market_impact": {
@@ -102,21 +104,45 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-03T14:27:52.025354Z"
+      "published": "2026-09-03T14:33:03.829405Z"
     },
     {
-      "id": "111f43ecd9a41b415cd3607df686bf9e",
-      "title": "A Rulebook for Surprises: Commanding Autonomous Aircraft",
-      "summary": "<p>My greatest challenge while flight testing collaborative combat aircraft was not troubleshooting errors at high speed in the cockpit. It was when, in a single keystroke, my job shifted from pilot to something like a dog handler &#8212; a supervisor of an autonomous agent. As a test pilot, my instinct is to stop for surprise machine behavior, but that met a system where such unexpected behavior could be a good thing. Managing autonomy means accounting for a new phenomenon &#8212; machine behavior that is both correct and unexpected.Historically, aircrews have handled surprises by assuming there&#8217;s a malfunction and fixing it,</p>\n<p>The post <a href=\"https://warontherocks.com/cogs-of-war/a-rulebook-for-surprises-commanding-autonomous-aircraft/\">A Rulebook for Surprises: Commanding Autonomous Aircraft</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
-      "link": "https://warontherocks.com/cogs-of-war/a-rulebook-for-surprises-commanding-autonomous-aircraft/",
-      "source": "War on the Rocks",
-      "score": 15,
-      "severity": "HIGH",
+      "id": "bad31f9ab8b083b8ada65503e4ae3319",
+      "title": "Catastrophe bonds may join tokenization rush, with plans for test issuance in 2027",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/09/03/catastrophe-bonds-may-join-tokenization-rush-with-plans-for-test-issuance-in-2027",
+      "source": "CoinDesk",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-03T14:33:03.829456Z"
+    },
+    {
+      "id": "ab9842427f2f22acb41c18828423f118",
+      "title": "Stocks Rise As Middle East Tensions Fray - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQM0s1M1JrT1cyeExIUzRmNldHeTduY19wVWRGOUNYVGtwTElHYWtKYkVVLXE3NFY2UEFSSGJCV3NyakVyek14dDRDN1BpY1RnUVBBRjJ2VVFuc3RhV0tScVNlck5LMFRKWi1QSEptSnlJcWlGQTV2QU94U2lWVk1ReEdjS21IRjVqR2pwcA?oc=5\" target=\"_blank\">Stocks Rise As Middle East Tensions Fray</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM0s1M1JrT1cyeExIUzRmNldHeTduY19wVWRGOUNYVGtwTElHYWtKYkVVLXE3NFY2UEFSSGJCV3NyakVyek14dDRDN1BpY1RnUVBBRjJ2VVFuc3RhV0tScVNlck5LMFRKWi1QSEptSnlJcWlGQTV2QU94U2lWVk1ReEdjS21IRjVqR2pwcA?oc=5",
+      "source": "Google Macro",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [
-        "AI"
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -132,40 +158,38 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-03T14:27:47.461398Z"
+      "published": "2026-09-03T14:33:05.318142Z"
     },
     {
-      "id": "dba4b0694ac9673812e9ca6cc915c334",
-      "title": "Personal Income and Outlays, May 2026",
-      "summary": "Personal income increased $181.6 billion (0.7 percent at a monthly rate) in May, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-increased $164.9 billion (0.7 percent), and personal consumption expenditures (PCE) increased $156.1 billion (0.7 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $159.9 billion in May. Personal saving was $704.2 billion in May, and the personal saving rate-personal saving as a percentage of DPI-was 3.0 percent.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026\">Full Text</a><!--Full Text Link-->",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026",
-      "source": "BEA",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "id": "01ffd1b785d967ba55ba1734d55fee0b",
+      "title": "These Banks Are Banding Together to Launch a Stablecoin - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOdkt2QXNndVZNc3gteTVNTUhYNDVxYlgyZDBaT3phd3pReUNTWEZIOVMtbzRjcDRvZmlkU1NzazJ0UndKZlJOcVBjd1otNklUelQzTVpoMUo1VXh5Um9LMTJsMW5RWS01bXMtRnk4WklwQ0pxVXJpZ0sxQktqMnJ0UUl1VFFhV2J6UWVoUVhZdlZybXVfUG5Jd0JoZ2NaWWxZdUE?oc=5\" target=\"_blank\">These Banks Are Banding Together to Launch a Stablecoin</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdkt2QXNndVZNc3gteTVNTUhYNDVxYlgyZDBaT3phd3pReUNTWEZIOVMtbzRjcDRvZmlkU1NzazJ0UndKZlJOcVBjd1otNklUelQzTVpoMUo1VXh5Um9LMTJsMW5RWS01bXMtRnk4WklwQ0pxVXJpZ0sxQktqMnJ0UUl1VFFhV2J6UWVoUVhZdlZybXVfUG5Jd0JoZ2NaWWxZdUE?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "CRYPTO",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "BTC",
+          "ETH"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "USD"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-03T14:27:35.030624Z"
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-03T14:33:05.318225Z"
     },
     {
-      "id": "c6548267dac4813ac5f473b912f4e13b",
-      "title": "Direct Investment by Country and Industry, 2025",
-      "summary": "The U.S. direct investment abroad position, or cumulative level of investment, increased $438.1 billion to $7.14 trillion at the end of 2025, according to statistics released today by the U.S. Bureau of Economic Analysis. The increase was led by a $350.2 billion increase in the position in Europe, primarily in the United Kingdom and Luxembourg. By industry, manufacturing had the largest increase, led by chemical manufacturing. \n                    \n                    The foreign direct investment in the United States position increased $266.0 billion to $5.86 trillion at the end of 2025. The increase was led by a $182.4 billion increase in the position from Europe. The largest increase in position was from German multinationals, with a $49.0 billion increase, and the second-largest increase in position was from Canadian multinationals, with a $39.2 billion increase. By industry, manufacturing increased the most, led by electrical equipment and components manufacturing.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/direct-investment-country-and-industry-2025\">Full Text</a><!--Full Text Link-->",
-      "link": "https://www.bea.gov/news/2026/direct-investment-country-and-industry-2025",
-      "source": "BEA",
+      "id": "1b769e373b53a65d0559051e09759190",
+      "title": "Commission adopts EU Guidelines on exclusionary abuses of dominance",
+      "summary": "European Commission Press release Brussels, 03 Sep 2026 The European Commission has today adopted Guidelines on the application of Article 102 of the Treaty on the Functioning of the European Union ('TFEU') to abusive exclusionary conduct by dominant companies. The adoption of the guidelines marks the end of a three-year process in which the Commission consulted extensively with stakeholders.",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1769",
+      "source": "European Commission",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -173,22 +197,21 @@
         "EUR"
       ],
       "regions": [
-        "EUROPE",
-        "US"
+        "EUROPE"
       ],
       "assets": [
         "FX"
       ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-03T14:27:35.030496Z"
+      "published": "2026-09-03T14:32:52.674569Z"
     },
     {
-      "id": "812563dd3244559a171953c188fa3c60",
-      "title": "U.S. International Transactions and Investment Position, 1st Quarter 2026 and Annual Update",
-      "summary": "",
-      "link": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-1st-quarter-2026-and-annual-update",
-      "source": "BEA",
+      "id": "c832b508434e10d8cdde15ad8f72110f",
+      "title": "Eight petroleum liquids pipeline projects have been completed since the start of 2025",
+      "summary": "In the 2026 release of our Liquids Pipeline Projects Database, we tracked the completion of 8 liquid fuels pipeline projects since the start of 2025, and an additional 14 new projects have been announced.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68024",
+      "source": "EIA",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -197,52 +220,100 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-03T14:27:35.030656Z"
+      "published": "2026-09-03T14:33:01.510747Z"
+    },
+    {
+      "id": "a05fff738dda62f09cbe36f40a2e8d8b",
+      "title": "Global Bond Markets Take a Breather - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPLW1CTWp1LW5Zclhoc0hEeUlGOV9XelNnUGwtREZoeU9SOGdLR3ZBRDVtY3FDb25Ma2poRXJ5R3dmbVdJVDJTaktpVndRdXJfYWhFT1pMV0tMOURqSGFUWEF1aTVudVVTWXR1Rkh1US1CZmx4VDFVWlBlZTBnRG1RLS1vZ2swaEFtNzh5bzlmVzdKQQ?oc=5\" target=\"_blank\">Global Bond Markets Take a Breather</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPLW1CTWp1LW5Zclhoc0hEeUlGOV9XelNnUGwtREZoeU9SOGdLR3ZBRDVtY3FDb25Ma2poRXJ5R3dmbVdJVDJTaktpVndRdXJfYWhFT1pMV0tMOURqSGFUWEF1aTVudVVTWXR1Rkh1US1CZmx4VDFVWlBlZTBnRG1RLS1vZ2swaEFtNzh5bzlmVzdKQQ?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-03T14:33:05.318061Z"
     }
   ],
   "alerts": [
     {
-      "id": "576cfbbca7b14623573b06ee84b407ba",
-      "title": "Gold Jumps as Traders Weigh Yen Intervention Risk, Fedspeak",
-      "summary": "Gold rose the most in two weeks as the dollar tumbled against the yen and traders reacted to remarks from policymakers on the Federal Reserve\u2019s interest-rate path.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-02/gold-holds-gain-as-trump-s-war-comments-ease-inflation-jitters",
-      "source": "Bloomberg",
-      "score": 42,
-      "severity": "CRITICAL",
-      "regime": "RATES",
+      "id": "a8db423e1c806d1967737ea1311f42b3",
+      "title": "Research: UK official holdings of international reserves: August 2026",
+      "summary": "This release details movements in the international reserves of gold and assets held by the UK government.",
+      "link": "https://www.gov.uk/government/publications/uk-official-holdings-of-international-reserves-august-2026",
+      "source": "HM Treasury",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
       "tickers": [
-        "DXY",
-        "JPY",
         "XAU"
       ],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [
         "AI",
-        "COMMODITIES",
-        "FX"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-03T14:26:52.515033Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-03T14:32:53.713013Z"
     },
     {
-      "id": "85d7ca7068db901a3326e1642b333874",
-      "title": "Live updates: Bitcoin jumps above $79,000 as crypto stocks surge and dollar weakens",
+      "id": "197f02adc6fd23c5792cc797445ea6a4",
+      "title": "Russia Says Oil Output Drop Is Temporary as Refineries Restart",
+      "summary": "The dip in Russian oil production is only temporary, as output is expected to recover once refineries come back online after unscheduled maintenance, Deputy Prime Minister Alexander Novak said on Thursday. \u201cThis is a temporary phenomenon, and, generally, oil production will increase as the refineries resume operations and the situation stabilizes,\u201d Novak said, as carried by Russian news agency TASS. Amid the ongoing fuel crisis in Russia, authorities have regularly sought to alleviate concerns and talk up the resumption of refinery\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Says-Oil-Output-Drop-Is-Temporary-as-Refineries-Restart.html",
+      "source": "OilPrice",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-03T14:33:01.815649Z"
+    },
+    {
+      "id": "acb418a091a769f24bc58f1ea71f9326",
+      "title": "Live updates: Bitcoin jumps above $79,000 as rates fall, dollar weakens",
       "summary": "",
       "link": "https://www.coindesk.com/business/2026/09/03/live-updates-crypto-majors-bounce-while-global-funds-run-their-lowest-dollar-hedges-since-2015",
       "source": "CoinDesk",
-      "score": 17,
-      "severity": "HIGH",
+      "score": 12,
+      "severity": "MEDIUM",
       "regime": "CRYPTO",
       "tickers": [
         "BTC",
@@ -250,36 +321,6 @@
       ],
       "regions": [],
       "assets": [
-        "CRYPTO",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-03T14:27:51.898227Z"
-    },
-    {
-      "id": "6c52ddf456df5f3b867420b37e355c7d",
-      "title": "Here\u2019s what happened in crypto today",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here\u2019s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg\" /></p><p>Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.</p>",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
         "CRYPTO"
       ],
       "market_impact": {
@@ -292,21 +333,45 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-03T14:27:52.025354Z"
+      "published": "2026-09-03T14:33:03.829405Z"
     },
     {
-      "id": "111f43ecd9a41b415cd3607df686bf9e",
-      "title": "A Rulebook for Surprises: Commanding Autonomous Aircraft",
-      "summary": "<p>My greatest challenge while flight testing collaborative combat aircraft was not troubleshooting errors at high speed in the cockpit. It was when, in a single keystroke, my job shifted from pilot to something like a dog handler &#8212; a supervisor of an autonomous agent. As a test pilot, my instinct is to stop for surprise machine behavior, but that met a system where such unexpected behavior could be a good thing. Managing autonomy means accounting for a new phenomenon &#8212; machine behavior that is both correct and unexpected.Historically, aircrews have handled surprises by assuming there&#8217;s a malfunction and fixing it,</p>\n<p>The post <a href=\"https://warontherocks.com/cogs-of-war/a-rulebook-for-surprises-commanding-autonomous-aircraft/\">A Rulebook for Surprises: Commanding Autonomous Aircraft</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
-      "link": "https://warontherocks.com/cogs-of-war/a-rulebook-for-surprises-commanding-autonomous-aircraft/",
-      "source": "War on the Rocks",
-      "score": 15,
-      "severity": "HIGH",
+      "id": "bad31f9ab8b083b8ada65503e4ae3319",
+      "title": "Catastrophe bonds may join tokenization rush, with plans for test issuance in 2027",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/09/03/catastrophe-bonds-may-join-tokenization-rush-with-plans-for-test-issuance-in-2027",
+      "source": "CoinDesk",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-03T14:33:03.829456Z"
+    },
+    {
+      "id": "ab9842427f2f22acb41c18828423f118",
+      "title": "Stocks Rise As Middle East Tensions Fray - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQM0s1M1JrT1cyeExIUzRmNldHeTduY19wVWRGOUNYVGtwTElHYWtKYkVVLXE3NFY2UEFSSGJCV3NyakVyek14dDRDN1BpY1RnUVBBRjJ2VVFuc3RhV0tScVNlck5LMFRKWi1QSEptSnlJcWlGQTV2QU94U2lWVk1ReEdjS21IRjVqR2pwcA?oc=5\" target=\"_blank\">Stocks Rise As Middle East Tensions Fray</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM0s1M1JrT1cyeExIUzRmNldHeTduY19wVWRGOUNYVGtwTElHYWtKYkVVLXE3NFY2UEFSSGJCV3NyakVyek14dDRDN1BpY1RnUVBBRjJ2VVFuc3RhV0tScVNlck5LMFRKWi1QSEptSnlJcWlGQTV2QU94U2lWVk1ReEdjS21IRjVqR2pwcA?oc=5",
+      "source": "Google Macro",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [
-        "AI"
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -322,40 +387,38 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-03T14:27:47.461398Z"
+      "published": "2026-09-03T14:33:05.318142Z"
     },
     {
-      "id": "dba4b0694ac9673812e9ca6cc915c334",
-      "title": "Personal Income and Outlays, May 2026",
-      "summary": "Personal income increased $181.6 billion (0.7 percent at a monthly rate) in May, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-increased $164.9 billion (0.7 percent), and personal consumption expenditures (PCE) increased $156.1 billion (0.7 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $159.9 billion in May. Personal saving was $704.2 billion in May, and the personal saving rate-personal saving as a percentage of DPI-was 3.0 percent.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026\">Full Text</a><!--Full Text Link-->",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026",
-      "source": "BEA",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "id": "01ffd1b785d967ba55ba1734d55fee0b",
+      "title": "These Banks Are Banding Together to Launch a Stablecoin - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOdkt2QXNndVZNc3gteTVNTUhYNDVxYlgyZDBaT3phd3pReUNTWEZIOVMtbzRjcDRvZmlkU1NzazJ0UndKZlJOcVBjd1otNklUelQzTVpoMUo1VXh5Um9LMTJsMW5RWS01bXMtRnk4WklwQ0pxVXJpZ0sxQktqMnJ0UUl1VFFhV2J6UWVoUVhZdlZybXVfUG5Jd0JoZ2NaWWxZdUE?oc=5\" target=\"_blank\">These Banks Are Banding Together to Launch a Stablecoin</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdkt2QXNndVZNc3gteTVNTUhYNDVxYlgyZDBaT3phd3pReUNTWEZIOVMtbzRjcDRvZmlkU1NzazJ0UndKZlJOcVBjd1otNklUelQzTVpoMUo1VXh5Um9LMTJsMW5RWS01bXMtRnk4WklwQ0pxVXJpZ0sxQktqMnJ0UUl1VFFhV2J6UWVoUVhZdlZybXVfUG5Jd0JoZ2NaWWxZdUE?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "CRYPTO",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "BTC",
+          "ETH"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "USD"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-03T14:27:35.030624Z"
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-03T14:33:05.318225Z"
     },
     {
-      "id": "c6548267dac4813ac5f473b912f4e13b",
-      "title": "Direct Investment by Country and Industry, 2025",
-      "summary": "The U.S. direct investment abroad position, or cumulative level of investment, increased $438.1 billion to $7.14 trillion at the end of 2025, according to statistics released today by the U.S. Bureau of Economic Analysis. The increase was led by a $350.2 billion increase in the position in Europe, primarily in the United Kingdom and Luxembourg. By industry, manufacturing had the largest increase, led by chemical manufacturing. \n                    \n                    The foreign direct investment in the United States position increased $266.0 billion to $5.86 trillion at the end of 2025. The increase was led by a $182.4 billion increase in the position from Europe. The largest increase in position was from German multinationals, with a $49.0 billion increase, and the second-largest increase in position was from Canadian multinationals, with a $39.2 billion increase. By industry, manufacturing increased the most, led by electrical equipment and components manufacturing.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/direct-investment-country-and-industry-2025\">Full Text</a><!--Full Text Link-->",
-      "link": "https://www.bea.gov/news/2026/direct-investment-country-and-industry-2025",
-      "source": "BEA",
+      "id": "1b769e373b53a65d0559051e09759190",
+      "title": "Commission adopts EU Guidelines on exclusionary abuses of dominance",
+      "summary": "European Commission Press release Brussels, 03 Sep 2026 The European Commission has today adopted Guidelines on the application of Article 102 of the Treaty on the Functioning of the European Union ('TFEU') to abusive exclusionary conduct by dominant companies. The adoption of the guidelines marks the end of a three-year process in which the Commission consulted extensively with stakeholders.",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1769",
+      "source": "European Commission",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -363,22 +426,21 @@
         "EUR"
       ],
       "regions": [
-        "EUROPE",
-        "US"
+        "EUROPE"
       ],
       "assets": [
         "FX"
       ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-03T14:27:35.030496Z"
+      "published": "2026-09-03T14:32:52.674569Z"
     },
     {
-      "id": "812563dd3244559a171953c188fa3c60",
-      "title": "U.S. International Transactions and Investment Position, 1st Quarter 2026 and Annual Update",
-      "summary": "",
-      "link": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-1st-quarter-2026-and-annual-update",
-      "source": "BEA",
+      "id": "c832b508434e10d8cdde15ad8f72110f",
+      "title": "Eight petroleum liquids pipeline projects have been completed since the start of 2025",
+      "summary": "In the 2026 release of our Liquids Pipeline Projects Database, we tracked the completion of 8 liquid fuels pipeline projects since the start of 2025, and an additional 14 new projects have been announced.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68024",
+      "source": "EIA",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -387,7 +449,23 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-03T14:27:35.030656Z"
+      "published": "2026-09-03T14:33:01.510747Z"
+    },
+    {
+      "id": "a05fff738dda62f09cbe36f40a2e8d8b",
+      "title": "Global Bond Markets Take a Breather - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPLW1CTWp1LW5Zclhoc0hEeUlGOV9XelNnUGwtREZoeU9SOGdLR3ZBRDVtY3FDb25Ma2poRXJ5R3dmbVdJVDJTaktpVndRdXJfYWhFT1pMV0tMOURqSGFUWEF1aTVudVVTWXR1Rkh1US1CZmx4VDFVWlBlZTBnRG1RLS1vZ2swaEFtNzh5bzlmVzdKQQ?oc=5\" target=\"_blank\">Global Bond Markets Take a Breather</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPLW1CTWp1LW5Zclhoc0hEeUlGOV9XelNnUGwtREZoeU9SOGdLR3ZBRDVtY3FDb25Ma2poRXJ5R3dmbVdJVDJTaktpVndRdXJfYWhFT1pMV0tMOURqSGFUWEF1aTVudVVTWXR1Rkh1US1CZmx4VDFVWlBlZTBnRG1RLS1vZ2swaEFtNzh5bzlmVzdKQQ?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-03T14:33:05.318061Z"
     }
   ]
 }
