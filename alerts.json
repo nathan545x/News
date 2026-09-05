@@ -1,32 +1,142 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-05T11:33:06.940436Z",
+  "generated_at": "2026-09-05T11:37:58.104201Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 0,
-    "last_updated": "2026-09-05T11:33:06.940448Z"
+    "last_updated": "2026-09-05T11:37:58.104216Z"
   },
   "top_signals": [
     {
-      "id": "d7483f5712013e8cae2d516a29baa7ce",
-      "title": "$277K Guinness heist: Thieves hit same UK depot twice in 2 hours",
-      "summary": "<p>The first driver left within 10 minutes. Less than two hours later, another truck entered and took a second loaded trailer.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/277k-guinness-heist-thieves-hit-same-uk-depot-twice-in-2-hours\">$277K Guinness heist: Thieves hit same UK depot twice in 2 hours</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/277k-guinness-heist-thieves-hit-same-uk-depot-twice-in-2-hours",
-      "source": "FreightWaves",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
+      "id": "4bcc18d4ccc20499f27d73a1217b7bc1",
+      "title": "Statement by President von der Leyen with NATO Secretary-General Mark Rutte",
+      "summary": "European Commission Statement Brussels, 02 Sep 2026 We meet today to discuss Russia's attack in Leipzig. The German government has identified Russia as behind an attempt to attack cargo planes at Leipzig/Halle Airport. Had this attack succeeded, this would have resulted in enormous damage and possibly even loss of life. So I want to be very clear about what this was. This was an attack using military-grade material, carried out by Russian operatives on EU soil.",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1790",
+      "source": "European Commission",
+      "score": 40,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR",
+        "JPY",
+        "WTI"
+      ],
       "regions": [
-        "UK"
+        "EUROPE",
+        "RUSSIA"
       ],
       "assets": [
         "AI",
-        "SHIPPING"
+        "COMMODITIES",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-05T11:37:42.731961Z"
+    },
+    {
+      "id": "f53015218c16dda8c8850832c29f210a",
+      "title": "Fed Rate Decision Still Hangs on Inflation After Jobs Report - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQSkVlLUY1UV9peGhYZ3dPLWJRZU1neUlmY1VZWW5ONjlHaml0SnRRTWRNMGNTS1NMalppYnItRDJKUWUtN25lN1p5MEpsWWRLa21JNzcyWnpWdnB4M0R5ZldsRjFRSnFPWEViU3R0aU9yd0d6Qkswb1ZLbVI3cmJaN25BRmxRQW1mR2NxQ3doUGdiNllrWkZUYkpPM1VBajl6VmdJTHQ5YVhKTEpDZUJaVg?oc=5\" target=\"_blank\">Fed Rate Decision Still Hangs on Inflation After Jobs Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSkVlLUY1UV9peGhYZ3dPLWJRZU1neUlmY1VZWW5ONjlHaml0SnRRTWRNMGNTS1NMalppYnItRDJKUWUtN25lN1p5MEpsWWRLa21JNzcyWnpWdnB4M0R5ZldsRjFRSnFPWEViU3R0aU9yd0d6Qkswb1ZLbVI3cmJaN25BRmxRQW1mR2NxQ3doUGdiNllrWkZUYkpPM1VBajl6VmdJTHQ5YVhKTEpDZUJaVg?oc=5",
+      "source": "Google Macro",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-05T11:37:56.056984Z"
+    },
+    {
+      "id": "084a02d83899694892c815266d80fb22",
+      "title": "Trump Demands Fed Lower Rates, Reviving Pressure Campaign - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM0NWMHh6eHU1Tk5zUF9VUXloY0NBQTlJVmZxSU8wUXVWZWs5c0sta0drTTNzT3hWNXdQTWxCX1pXUmV3bkYyN29obldYdS12MGk2cVBNX3B4X2VpQWZmS0JHTzZRWWFIVkJLUGxjdDVsSENBTTBrV2NwV3V3QlpCOVVXb2VPNkJtNldaWFJ1SjZVQ19zNDVINzZJVTNOTkw2RGppN0x4V2ZNNTA?oc=5\" target=\"_blank\">Trump Demands Fed Lower Rates, Reviving Pressure Campaign</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM0NWMHh6eHU1Tk5zUF9VUXloY0NBQTlJVmZxSU8wUXVWZWs5c0sta0drTTNzT3hWNXdQTWxCX1pXUmV3bkYyN29obldYdS12MGk2cVBNX3B4X2VpQWZmS0JHTzZRWWFIVkJLUGxjdDVsSENBTTBrV2NwV3V3QlpCOVVXb2VPNkJtNldaWFJ1SjZVQ19zNDVINzZJVTNOTkw2RGppN0x4V2ZNNTA?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-05T11:37:56.056894Z"
+    },
+    {
+      "id": "918d63a24897e37ea5276e1ac16b466b",
+      "title": "How Women Are Shaping Drag Racing",
+      "summary": "Drag racing has outpaced Formula 1, NASCAR and IndyCar on inclusivity, offering a model for sports that still treat women competing at the highest level as a novelty, Bloomberg Opinion columnist Adam Minter says. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-05/opinion-how-women-are-shaping-drag-racing-video",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-05T11:36:58.379325Z"
+    },
+    {
+      "id": "aec131cd40dbdabe642d1f81df45f4ba",
+      "title": "U.S. Oil Rig Count Rises as Gas Rig Activity Declines",
+      "summary": "The total number of active drilling rigs for oil and gas in the United States stayed the same this week, according to new data that Baker Hughes published on Friday, with the total rig count in the US staying at 588, up 51 from this same time last year. The number of active oil rigs rose by 2, reaching 449 during the latest reporting period, according to the data. This is 35 above this same time last year. The number of gas rigs fell by 2 to 130, which is 12 more than this time last year. Miscellaneous rigs stayed the same at 9. The latest EIA\u2026",
+      "link": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Rig-Count-Rises-as-Gas-Rig-Activity-Declines.html",
+      "source": "OilPrice",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -40,26 +150,170 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-05T11:33:01.430419Z"
+      "published": "2026-09-05T11:37:51.666518Z"
+    },
+    {
+      "id": "f7dec1ab79482994f9603dd0cdda948a",
+      "title": "Japan travel group JTB to invest $3.8bn on M&A, sports deals in global push",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/travel-leisure/japan-travel-group-jtb-to-invest-3.8bn-on-m-a-sports-deals-in-global-push",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-05T11:37:47.864378Z"
+    },
+    {
+      "id": "a3dcade3e0abaaef88de7922250d3e99",
+      "title": "XRP Ledger has fewer active accounts than last year, but bigger trades and more value",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/09/05/xrp-ledger-has-fewer-active-accounts-but-bigger-trades-and-more-value",
+      "source": "CoinDesk",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-05T11:37:54.441191Z"
     }
   ],
   "alerts": [
     {
-      "id": "d7483f5712013e8cae2d516a29baa7ce",
-      "title": "$277K Guinness heist: Thieves hit same UK depot twice in 2 hours",
-      "summary": "<p>The first driver left within 10 minutes. Less than two hours later, another truck entered and took a second loaded trailer.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/277k-guinness-heist-thieves-hit-same-uk-depot-twice-in-2-hours\">$277K Guinness heist: Thieves hit same UK depot twice in 2 hours</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/277k-guinness-heist-thieves-hit-same-uk-depot-twice-in-2-hours",
-      "source": "FreightWaves",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
+      "id": "4bcc18d4ccc20499f27d73a1217b7bc1",
+      "title": "Statement by President von der Leyen with NATO Secretary-General Mark Rutte",
+      "summary": "European Commission Statement Brussels, 02 Sep 2026 We meet today to discuss Russia's attack in Leipzig. The German government has identified Russia as behind an attempt to attack cargo planes at Leipzig/Halle Airport. Had this attack succeeded, this would have resulted in enormous damage and possibly even loss of life. So I want to be very clear about what this was. This was an attack using military-grade material, carried out by Russian operatives on EU soil.",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1790",
+      "source": "European Commission",
+      "score": 40,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR",
+        "JPY",
+        "WTI"
+      ],
       "regions": [
-        "UK"
+        "EUROPE",
+        "RUSSIA"
       ],
       "assets": [
         "AI",
-        "SHIPPING"
+        "COMMODITIES",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-05T11:37:42.731961Z"
+    },
+    {
+      "id": "f53015218c16dda8c8850832c29f210a",
+      "title": "Fed Rate Decision Still Hangs on Inflation After Jobs Report - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQSkVlLUY1UV9peGhYZ3dPLWJRZU1neUlmY1VZWW5ONjlHaml0SnRRTWRNMGNTS1NMalppYnItRDJKUWUtN25lN1p5MEpsWWRLa21JNzcyWnpWdnB4M0R5ZldsRjFRSnFPWEViU3R0aU9yd0d6Qkswb1ZLbVI3cmJaN25BRmxRQW1mR2NxQ3doUGdiNllrWkZUYkpPM1VBajl6VmdJTHQ5YVhKTEpDZUJaVg?oc=5\" target=\"_blank\">Fed Rate Decision Still Hangs on Inflation After Jobs Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSkVlLUY1UV9peGhYZ3dPLWJRZU1neUlmY1VZWW5ONjlHaml0SnRRTWRNMGNTS1NMalppYnItRDJKUWUtN25lN1p5MEpsWWRLa21JNzcyWnpWdnB4M0R5ZldsRjFRSnFPWEViU3R0aU9yd0d6Qkswb1ZLbVI3cmJaN25BRmxRQW1mR2NxQ3doUGdiNllrWkZUYkpPM1VBajl6VmdJTHQ5YVhKTEpDZUJaVg?oc=5",
+      "source": "Google Macro",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-05T11:37:56.056984Z"
+    },
+    {
+      "id": "084a02d83899694892c815266d80fb22",
+      "title": "Trump Demands Fed Lower Rates, Reviving Pressure Campaign - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM0NWMHh6eHU1Tk5zUF9VUXloY0NBQTlJVmZxSU8wUXVWZWs5c0sta0drTTNzT3hWNXdQTWxCX1pXUmV3bkYyN29obldYdS12MGk2cVBNX3B4X2VpQWZmS0JHTzZRWWFIVkJLUGxjdDVsSENBTTBrV2NwV3V3QlpCOVVXb2VPNkJtNldaWFJ1SjZVQ19zNDVINzZJVTNOTkw2RGppN0x4V2ZNNTA?oc=5\" target=\"_blank\">Trump Demands Fed Lower Rates, Reviving Pressure Campaign</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM0NWMHh6eHU1Tk5zUF9VUXloY0NBQTlJVmZxSU8wUXVWZWs5c0sta0drTTNzT3hWNXdQTWxCX1pXUmV3bkYyN29obldYdS12MGk2cVBNX3B4X2VpQWZmS0JHTzZRWWFIVkJLUGxjdDVsSENBTTBrV2NwV3V3QlpCOVVXb2VPNkJtNldaWFJ1SjZVQ19zNDVINzZJVTNOTkw2RGppN0x4V2ZNNTA?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-05T11:37:56.056894Z"
+    },
+    {
+      "id": "918d63a24897e37ea5276e1ac16b466b",
+      "title": "How Women Are Shaping Drag Racing",
+      "summary": "Drag racing has outpaced Formula 1, NASCAR and IndyCar on inclusivity, offering a model for sports that still treat women competing at the highest level as a novelty, Bloomberg Opinion columnist Adam Minter says. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-05/opinion-how-women-are-shaping-drag-racing-video",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-05T11:36:58.379325Z"
+    },
+    {
+      "id": "aec131cd40dbdabe642d1f81df45f4ba",
+      "title": "U.S. Oil Rig Count Rises as Gas Rig Activity Declines",
+      "summary": "The total number of active drilling rigs for oil and gas in the United States stayed the same this week, according to new data that Baker Hughes published on Friday, with the total rig count in the US staying at 588, up 51 from this same time last year. The number of active oil rigs rose by 2, reaching 449 during the latest reporting period, according to the data. This is 35 above this same time last year. The number of gas rigs fell by 2 to 130, which is 12 more than this time last year. Miscellaneous rigs stayed the same at 9. The latest EIA\u2026",
+      "link": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Rig-Count-Rises-as-Gas-Rig-Activity-Declines.html",
+      "source": "OilPrice",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -73,7 +327,41 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-05T11:33:01.430419Z"
+      "published": "2026-09-05T11:37:51.666518Z"
+    },
+    {
+      "id": "f7dec1ab79482994f9603dd0cdda948a",
+      "title": "Japan travel group JTB to invest $3.8bn on M&A, sports deals in global push",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/travel-leisure/japan-travel-group-jtb-to-invest-3.8bn-on-m-a-sports-deals-in-global-push",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-05T11:37:47.864378Z"
+    },
+    {
+      "id": "a3dcade3e0abaaef88de7922250d3e99",
+      "title": "XRP Ledger has fewer active accounts than last year, but bigger trades and more value",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/09/05/xrp-ledger-has-fewer-active-accounts-but-bigger-trades-and-more-value",
+      "source": "CoinDesk",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-05T11:37:54.441191Z"
     }
   ]
 }
