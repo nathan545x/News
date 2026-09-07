@@ -1,38 +1,63 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-07T09:18:08.904243Z",
+  "generated_at": "2026-09-07T09:23:09.619529Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
-    "signal_density": "LOW",
+    "signal_density": "HIGH",
     "critical_alerts": 1,
-    "high_alerts": 1,
-    "last_updated": "2026-09-07T09:18:08.904255Z"
+    "high_alerts": 6,
+    "last_updated": "2026-09-07T09:23:09.619547Z"
   },
   "top_signals": [
     {
-      "id": "a20a9331e4671c821f2d8dcfc1a2fd02",
-      "title": "FTSE 100 Live: Stocks dip as oil rises; Healey says UK paying \u2018Truss penalty\u2019",
-      "summary": "<p> <img alt=\"A global bond selloff has hit UK gilt yields and could cost Healey. (PA Wire)\" src=\"https://www.cityam.com/wp-content/uploads/2026/08/01M11GYSSK5HCA2R24E62PDGSX-e1787898513985.jpg?w=1107\" /> </p>Welcome back to the City AM liveblog. Markets are returning from the weekend to weigh up the latest round of rising tensions in the Middle East after the US and Iran have continued to exchange strikes stoking fears of a hit to global oil supply. Brent crude &#8211; the international benchmark for oil prices &#8211; <a href=\"https://www.cityam.com/ftse-100-live-stocks-to-dip-as-oil-rises-on-new-us-iran-strikes/\">[...]</a>",
-      "link": "https://www.cityam.com/ftse-100-live-stocks-to-dip-as-oil-rises-on-new-us-iran-strikes/",
-      "source": "CityAM",
-      "score": 33,
+      "id": "7d6d10897f2772e9efd112a6288e43c3",
+      "title": "Yen rises to highest since February, topping intervention rally",
+      "summary": "Japan's currency gained as much as 1.4% to \u00a5154.06 against the dollar as growing bets on Bank of Japan rate hikes fuel a sharp reversal in sentiment.",
+      "link": "https://www.japantimes.co.jp/business/2026/09/07/markets/japan-yen-gains-154/",
+      "source": "Japan Times",
+      "score": 35,
       "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "regime": "RATES",
       "tickers": [
-        "BRENT",
-        "UK_GILTS",
-        "WTI"
+        "DXY",
+        "JPY"
       ],
       "regions": [
-        "MIDDLE_EAST",
-        "UK"
+        "JAPAN"
       ],
       "assets": [
-        "COMMODITIES",
-        "EQUITIES",
-        "RATES"
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-07T09:23:01.551413Z"
+    },
+    {
+      "id": "62bbc1df39e7d3bc53fa7ffc896ae11f",
+      "title": "Yields at 5.5% Spell Trouble for Stocks, SocGen Warns (Video)",
+      "summary": "",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-07/yields-at-5-5-spell-trouble-for-stocks-socgen-warns-video",
+      "source": "Bloomberg",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -48,17 +73,77 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-07T09:18:00.032989Z"
+      "published": "2026-09-07T09:22:05.880468Z"
     },
     {
-      "id": "ced8bb869daeb097e3a14742381fd573",
-      "title": "Bonds have become bonds again",
-      "summary": "The forces encouraging yields to move upwards are unlikely to disappear but at least we\u2019re in the ballpark of normal again",
-      "link": "https://www.ft.com/content/e8eb7c0f-a50e-4c77-b7f0-dfe4cb11dac9?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 22,
+      "id": "a5c8945c9b3c15cde5f6e3f11aae2497",
+      "title": "Yen makes sudden jump to 154 range against dollar",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/markets/currencies/yen-makes-sudden-jump-to-154-range-against-dollar",
+      "source": "Nikkei Asia",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-07T09:23:01.268388Z"
+    },
+    {
+      "id": "6925a254c3f2558b32397dfe4801e850",
+      "title": "A War That Won\u2019t End Is Complicating the Fed\u2019s Next Move - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdEdwM2xWYm40aHA4ZzBSN1ZOZWZQR0k1YzF3cnpsOHQzYlMxOWZQYTRSS2lfUENZdzN3WTZibGJDakpYM2FnTkcxRHE5aGM5WHhMTjZnWWN2dEIyR0lJTzMtaU50NXROSUlSTGdMQUJBa0ozcjhNMk1fSUZXb1BFQ3dEUS1WZ2gxc0JRcVVRTGdab0otN21fVjFidkt4cmMyZWRZSEc3a292Rmc?oc=5\" target=\"_blank\">A War That Won\u2019t End Is Complicating the Fed\u2019s Next Move</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdEdwM2xWYm40aHA4ZzBSN1ZOZWZQR0k1YzF3cnpsOHQzYlMxOWZQYTRSS2lfUENZdzN3WTZibGJDakpYM2FnTkcxRHE5aGM5WHhMTjZnWWN2dEIyR0lJTzMtaU50NXROSUlSTGdMQUJBa0ozcjhNMk1fSUZXb1BFQ3dEUS1WZ2gxc0JRcVVRTGdab0otN21fVjFidkt4cmMyZWRZSEc3a292Rmc?oc=5",
+      "source": "Google Macro",
+      "score": 17,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-07T09:23:09.051093Z"
+    },
+    {
+      "id": "127e6610d49931d05667019a39637620",
+      "title": "Back-to-school shopping brought to you by AI \u2014 how Amazon, Google are positioned to win",
+      "summary": "The rise of AI-assisted shopping during this year's back-to-school season may be an early window into evolving consumer buying habits.",
+      "link": "https://www.cnbc.com/2026/09/04/back-to-school-shopping-brought-to-you-by-ai-how-amazon-google-are-positioned-to-win.html",
+      "source": "CNBC",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -68,26 +153,50 @@
         "bullish": [
           "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "COMMODITIES"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-07T09:17:17.971453Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-07T09:22:08.922935Z"
     },
     {
-      "id": "564a721adfd5e5d95634cd0bb0ce60c1",
-      "title": "Liquid Network pauses after purported \u2018white-hat\u2019 hackers withdraw $320 million in bitcoin",
-      "summary": "The Bitcoin sidechain has been paused, with exchanges suspending LBTC deposits and withdrawals as Blockstream works to contact those responsible.",
-      "link": "https://www.theblock.co/news/defi/2026-09-06-liquid-network-pauses-after-purported-white-hat-hackers-withdraw-320-million-in-bitcoin-413626",
-      "source": "The Block",
-      "score": 11,
-      "severity": "MEDIUM",
+      "id": "1e008c8f052e9cda23fe613ebb6c6672",
+      "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
+      "summary": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-07T09:22:09.234462Z"
+    },
+    {
+      "id": "6c52ddf456df5f3b867420b37e355c7d",
+      "title": "Here\u2019s what happened in crypto today",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here\u2019s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg\" /></p><p>Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.</p>",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 16,
+      "severity": "HIGH",
       "regime": "CRYPTO",
       "tickers": [
         "BTC"
@@ -107,48 +216,195 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-07T09:18:06.031120Z"
+      "published": "2026-09-07T09:23:06.362155Z"
     },
     {
-      "id": "649ba89f0f6fcd189269fe1a6588e36b",
-      "title": "South-east Asia choked as Indonesian wildfires and volcanic ash spread",
-      "summary": "El Ni\u00f1o weather cycle has intensified seasonal blazes linked to illegal land clearing",
-      "link": "https://www.ft.com/content/0f3b5dea-b0d9-49ec-9b06-a86e389c4fbd?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
+      "id": "7ed0b7771d291d3a6ebecdca2d0dd57d",
+      "title": "The institutional form of independent central banks: from history to contemporary challenges - speech by Andrew Bailey",
+      "summary": "Given at LSE TRIUM Anniversary Conference",
+      "link": "https://www.bankofengland.co.uk/speech/2026/september/andrew-bailey-keynote-speech-at-lse-trium-anniversary-conference",
+      "source": "Bank of England",
+      "score": 14,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-07T09:22:53.096149Z"
+    },
+    {
+      "id": "7cdb6bad01480da3244ed4aaeaff8b2f",
+      "title": "What We Know About the Amazon Cargo Plane Crash",
+      "summary": "An Amazon cargo plane overran a runway at Miami International Airport and burst into flames on Sunday, killing at least five people.\n\nDanny Lee outlines what we know so far about the accident. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-07/what-we-know-about-the-amazon-cargo-plane-crash-video",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-07T09:22:05.880525Z"
+    },
+    {
+      "id": "b7213058cfe18bf515c2ba413a7256a3",
+      "title": "Higher Bond Yields Have a Silver Lining - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQYzVrejg3ejlaWlpjTXNGekd5cWp2LUhrbDFYVGs0bXdFM1JKU1R5cU55VjFGa0t5M0d3UkkzNG8wT1laT3hpN3NuV0NGLUdzSVJCa2VpakNzRXNfeW1DeTVEVzhadklhSmR6VGluczJPSFk4dGMxN245Mm1pNXNrVmNXelJDa1Z4N3l2S0pQVQ?oc=5\" target=\"_blank\">Higher Bond Yields Have a Silver Lining</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYzVrejg3ejlaWlpjTXNGekd5cWp2LUhrbDFYVGs0bXdFM1JKU1R5cU55VjFGa0t5M0d3UkkzNG8wT1laT3hpN3NuV0NGLUdzSVJCa2VpakNzRXNfeW1DeTVEVzhadklhSmR6VGluczJPSFk4dGMxN245Mm1pNXNrVmNXelJDa1Z4N3l2S0pQVQ?oc=5",
+      "source": "Google Macro",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "SILVER"
+      ],
+      "regions": [
+        "UK"
+      ],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-07T09:17:18.393551Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-07T09:23:09.051011Z"
+    },
+    {
+      "id": "ab9842427f2f22acb41c18828423f118",
+      "title": "Stocks Rise As Middle East Tensions Fray - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQM0s1M1JrT1cyeExIUzRmNldHeTduY19wVWRGOUNYVGtwTElHYWtKYkVVLXE3NFY2UEFSSGJCV3NyakVyek14dDRDN1BpY1RnUVBBRjJ2VVFuc3RhV0tScVNlck5LMFRKWi1QSEptSnlJcWlGQTV2QU94U2lWVk1ReEdjS21IRjVqR2pwcA?oc=5\" target=\"_blank\">Stocks Rise As Middle East Tensions Fray</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM0s1M1JrT1cyeExIUzRmNldHeTduY19wVWRGOUNYVGtwTElHYWtKYkVVLXE3NFY2UEFSSGJCV3NyakVyek14dDRDN1BpY1RnUVBBRjJ2VVFuc3RhV0tScVNlck5LMFRKWi1QSEptSnlJcWlGQTV2QU94U2lWVk1ReEdjS21IRjVqR2pwcA?oc=5",
+      "source": "Google Macro",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-07T09:23:09.050775Z"
+    },
+    {
+      "id": "ecfc8f7e3c261a6d9964586d75d9b3e2",
+      "title": "Stocks Climb As Rate Hike Fears Ebb - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNaUgwNUxRVFZEcWlGNnRRVU1YYmo0Y2VvcVJDUURTeDBYRzdDSmVFNWZ6RlhGeXZ6cFdsUFpUVENWV2l2TjZaaDRHMXMxODhDb2w2OC1VVU9OZmN1a0x3TnhicUxuVXRQV2N3eWtvbGF1RnNlVDVkZzRRcWRpSGd6Q2hReTM0a1g0OFE?oc=5\" target=\"_blank\">Stocks Climb As Rate Hike Fears Ebb</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaUgwNUxRVFZEcWlGNnRRVU1YYmo0Y2VvcVJDUURTeDBYRzdDSmVFNWZ6RlhGeXZ6cFdsUFpUVENWV2l2TjZaaDRHMXMxODhDb2w2OC1VVU9OZmN1a0x3TnhicUxuVXRQV2N3eWtvbGF1RnNlVDVkZzRRcWRpSGd6Q2hReTM0a1g0OFE?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-07T09:23:09.051207Z"
     }
   ],
   "alerts": [
     {
-      "id": "a20a9331e4671c821f2d8dcfc1a2fd02",
-      "title": "FTSE 100 Live: Stocks dip as oil rises; Healey says UK paying \u2018Truss penalty\u2019",
-      "summary": "<p> <img alt=\"A global bond selloff has hit UK gilt yields and could cost Healey. (PA Wire)\" src=\"https://www.cityam.com/wp-content/uploads/2026/08/01M11GYSSK5HCA2R24E62PDGSX-e1787898513985.jpg?w=1107\" /> </p>Welcome back to the City AM liveblog. Markets are returning from the weekend to weigh up the latest round of rising tensions in the Middle East after the US and Iran have continued to exchange strikes stoking fears of a hit to global oil supply. Brent crude &#8211; the international benchmark for oil prices &#8211; <a href=\"https://www.cityam.com/ftse-100-live-stocks-to-dip-as-oil-rises-on-new-us-iran-strikes/\">[...]</a>",
-      "link": "https://www.cityam.com/ftse-100-live-stocks-to-dip-as-oil-rises-on-new-us-iran-strikes/",
-      "source": "CityAM",
-      "score": 33,
+      "id": "7d6d10897f2772e9efd112a6288e43c3",
+      "title": "Yen rises to highest since February, topping intervention rally",
+      "summary": "Japan's currency gained as much as 1.4% to \u00a5154.06 against the dollar as growing bets on Bank of Japan rate hikes fuel a sharp reversal in sentiment.",
+      "link": "https://www.japantimes.co.jp/business/2026/09/07/markets/japan-yen-gains-154/",
+      "source": "Japan Times",
+      "score": 35,
       "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "regime": "RATES",
       "tickers": [
-        "BRENT",
-        "UK_GILTS",
-        "WTI"
+        "DXY",
+        "JPY"
       ],
       "regions": [
-        "MIDDLE_EAST",
-        "UK"
+        "JAPAN"
       ],
       "assets": [
-        "COMMODITIES",
-        "EQUITIES",
-        "RATES"
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-07T09:23:01.551413Z"
+    },
+    {
+      "id": "62bbc1df39e7d3bc53fa7ffc896ae11f",
+      "title": "Yields at 5.5% Spell Trouble for Stocks, SocGen Warns (Video)",
+      "summary": "",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-07/yields-at-5-5-spell-trouble-for-stocks-socgen-warns-video",
+      "source": "Bloomberg",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -164,17 +420,77 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-07T09:18:00.032989Z"
+      "published": "2026-09-07T09:22:05.880468Z"
     },
     {
-      "id": "ced8bb869daeb097e3a14742381fd573",
-      "title": "Bonds have become bonds again",
-      "summary": "The forces encouraging yields to move upwards are unlikely to disappear but at least we\u2019re in the ballpark of normal again",
-      "link": "https://www.ft.com/content/e8eb7c0f-a50e-4c77-b7f0-dfe4cb11dac9?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 22,
+      "id": "a5c8945c9b3c15cde5f6e3f11aae2497",
+      "title": "Yen makes sudden jump to 154 range against dollar",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/markets/currencies/yen-makes-sudden-jump-to-154-range-against-dollar",
+      "source": "Nikkei Asia",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "JPY"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-07T09:23:01.268388Z"
+    },
+    {
+      "id": "6925a254c3f2558b32397dfe4801e850",
+      "title": "A War That Won\u2019t End Is Complicating the Fed\u2019s Next Move - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdEdwM2xWYm40aHA4ZzBSN1ZOZWZQR0k1YzF3cnpsOHQzYlMxOWZQYTRSS2lfUENZdzN3WTZibGJDakpYM2FnTkcxRHE5aGM5WHhMTjZnWWN2dEIyR0lJTzMtaU50NXROSUlSTGdMQUJBa0ozcjhNMk1fSUZXb1BFQ3dEUS1WZ2gxc0JRcVVRTGdab0otN21fVjFidkt4cmMyZWRZSEc3a292Rmc?oc=5\" target=\"_blank\">A War That Won\u2019t End Is Complicating the Fed\u2019s Next Move</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdEdwM2xWYm40aHA4ZzBSN1ZOZWZQR0k1YzF3cnpsOHQzYlMxOWZQYTRSS2lfUENZdzN3WTZibGJDakpYM2FnTkcxRHE5aGM5WHhMTjZnWWN2dEIyR0lJTzMtaU50NXROSUlSTGdMQUJBa0ozcjhNMk1fSUZXb1BFQ3dEUS1WZ2gxc0JRcVVRTGdab0otN21fVjFidkt4cmMyZWRZSEc3a292Rmc?oc=5",
+      "source": "Google Macro",
+      "score": 17,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-07T09:23:09.051093Z"
+    },
+    {
+      "id": "127e6610d49931d05667019a39637620",
+      "title": "Back-to-school shopping brought to you by AI \u2014 how Amazon, Google are positioned to win",
+      "summary": "The rise of AI-assisted shopping during this year's back-to-school season may be an early window into evolving consumer buying habits.",
+      "link": "https://www.cnbc.com/2026/09/04/back-to-school-shopping-brought-to-you-by-ai-how-amazon-google-are-positioned-to-win.html",
+      "source": "CNBC",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -184,26 +500,50 @@
         "bullish": [
           "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "COMMODITIES"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-07T09:17:17.971453Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-07T09:22:08.922935Z"
     },
     {
-      "id": "564a721adfd5e5d95634cd0bb0ce60c1",
-      "title": "Liquid Network pauses after purported \u2018white-hat\u2019 hackers withdraw $320 million in bitcoin",
-      "summary": "The Bitcoin sidechain has been paused, with exchanges suspending LBTC deposits and withdrawals as Blockstream works to contact those responsible.",
-      "link": "https://www.theblock.co/news/defi/2026-09-06-liquid-network-pauses-after-purported-white-hat-hackers-withdraw-320-million-in-bitcoin-413626",
-      "source": "The Block",
-      "score": 11,
-      "severity": "MEDIUM",
+      "id": "1e008c8f052e9cda23fe613ebb6c6672",
+      "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
+      "summary": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-07T09:22:09.234462Z"
+    },
+    {
+      "id": "6c52ddf456df5f3b867420b37e355c7d",
+      "title": "Here\u2019s what happened in crypto today",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here\u2019s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg\" /></p><p>Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.</p>",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 16,
+      "severity": "HIGH",
       "regime": "CRYPTO",
       "tickers": [
         "BTC"
@@ -223,23 +563,329 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-07T09:18:06.031120Z"
+      "published": "2026-09-07T09:23:06.362155Z"
     },
     {
-      "id": "649ba89f0f6fcd189269fe1a6588e36b",
-      "title": "South-east Asia choked as Indonesian wildfires and volcanic ash spread",
-      "summary": "El Ni\u00f1o weather cycle has intensified seasonal blazes linked to illegal land clearing",
-      "link": "https://www.ft.com/content/0f3b5dea-b0d9-49ec-9b06-a86e389c4fbd?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
+      "id": "7ed0b7771d291d3a6ebecdca2d0dd57d",
+      "title": "The institutional form of independent central banks: from history to contemporary challenges - speech by Andrew Bailey",
+      "summary": "Given at LSE TRIUM Anniversary Conference",
+      "link": "https://www.bankofengland.co.uk/speech/2026/september/andrew-bailey-keynote-speech-at-lse-trium-anniversary-conference",
+      "source": "Bank of England",
+      "score": 14,
       "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-07T09:22:53.096149Z"
+    },
+    {
+      "id": "7cdb6bad01480da3244ed4aaeaff8b2f",
+      "title": "What We Know About the Amazon Cargo Plane Crash",
+      "summary": "An Amazon cargo plane overran a runway at Miami International Airport and burst into flames on Sunday, killing at least five people.\n\nDanny Lee outlines what we know so far about the accident. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-07/what-we-know-about-the-amazon-cargo-plane-crash-video",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-07T09:22:05.880525Z"
+    },
+    {
+      "id": "b7213058cfe18bf515c2ba413a7256a3",
+      "title": "Higher Bond Yields Have a Silver Lining - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQYzVrejg3ejlaWlpjTXNGekd5cWp2LUhrbDFYVGs0bXdFM1JKU1R5cU55VjFGa0t5M0d3UkkzNG8wT1laT3hpN3NuV0NGLUdzSVJCa2VpakNzRXNfeW1DeTVEVzhadklhSmR6VGluczJPSFk4dGMxN245Mm1pNXNrVmNXelJDa1Z4N3l2S0pQVQ?oc=5\" target=\"_blank\">Higher Bond Yields Have a Silver Lining</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYzVrejg3ejlaWlpjTXNGekd5cWp2LUhrbDFYVGs0bXdFM1JKU1R5cU55VjFGa0t5M0d3UkkzNG8wT1laT3hpN3NuV0NGLUdzSVJCa2VpakNzRXNfeW1DeTVEVzhadklhSmR6VGluczJPSFk4dGMxN245Mm1pNXNrVmNXelJDa1Z4N3l2S0pQVQ?oc=5",
+      "source": "Google Macro",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "SILVER"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-07T09:23:09.051011Z"
+    },
+    {
+      "id": "ab9842427f2f22acb41c18828423f118",
+      "title": "Stocks Rise As Middle East Tensions Fray - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQM0s1M1JrT1cyeExIUzRmNldHeTduY19wVWRGOUNYVGtwTElHYWtKYkVVLXE3NFY2UEFSSGJCV3NyakVyek14dDRDN1BpY1RnUVBBRjJ2VVFuc3RhV0tScVNlck5LMFRKWi1QSEptSnlJcWlGQTV2QU94U2lWVk1ReEdjS21IRjVqR2pwcA?oc=5\" target=\"_blank\">Stocks Rise As Middle East Tensions Fray</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM0s1M1JrT1cyeExIUzRmNldHeTduY19wVWRGOUNYVGtwTElHYWtKYkVVLXE3NFY2UEFSSGJCV3NyakVyek14dDRDN1BpY1RnUVBBRjJ2VVFuc3RhV0tScVNlck5LMFRKWi1QSEptSnlJcWlGQTV2QU94U2lWVk1ReEdjS21IRjVqR2pwcA?oc=5",
+      "source": "Google Macro",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-07T09:23:09.050775Z"
+    },
+    {
+      "id": "ecfc8f7e3c261a6d9964586d75d9b3e2",
+      "title": "Stocks Climb As Rate Hike Fears Ebb - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNaUgwNUxRVFZEcWlGNnRRVU1YYmo0Y2VvcVJDUURTeDBYRzdDSmVFNWZ6RlhGeXZ6cFdsUFpUVENWV2l2TjZaaDRHMXMxODhDb2w2OC1VVU9OZmN1a0x3TnhicUxuVXRQV2N3eWtvbGF1RnNlVDVkZzRRcWRpSGd6Q2hReTM0a1g0OFE?oc=5\" target=\"_blank\">Stocks Climb As Rate Hike Fears Ebb</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaUgwNUxRVFZEcWlGNnRRVU1YYmo0Y2VvcVJDUURTeDBYRzdDSmVFNWZ6RlhGeXZ6cFdsUFpUVENWV2l2TjZaaDRHMXMxODhDb2w2OC1VVU9OZmN1a0x3TnhicUxuVXRQV2N3eWtvbGF1RnNlVDVkZzRRcWRpSGd6Q2hReTM0a1g0OFE?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-07T09:23:09.051207Z"
+    },
+    {
+      "id": "7d6eb17c15eee4348dff8ac69a7352de",
+      "title": "Bond Yields Around the World Soar in Challenge to Government Borrowing - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdlFFSy1ZcHdMM2g3V2hkSTh6WURRdTR1UDFZX1ZNLWRKWmd3b3BzYUlVSEpCRm4yUFh0VUhoZ0Fzd3k2Z05BRDdnQ0hYVXZSQjN3QmdDRzFXcFNIUjhCbEp4WU1ZeC1VMkU0ZnRYZnlDTTMtc2gyNUgzWDFQc3BPcTBDbFc0OTZoREl6akdOWkhuWkhEcWFQMW55OWgtUWYyZW9hUV8tYUZvMFRHRTNVUHM3eWxoX2Ux?oc=5\" target=\"_blank\">Bond Yields Around the World Soar in Challenge to Government Borrowing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdlFFSy1ZcHdMM2g3V2hkSTh6WURRdTR1UDFZX1ZNLWRKWmd3b3BzYUlVSEpCRm4yUFh0VUhoZ0Fzd3k2Z05BRDdnQ0hYVXZSQjN3QmdDRzFXcFNIUjhCbEp4WU1ZeC1VMkU0ZnRYZnlDTTMtc2gyNUgzWDFQc3BPcTBDbFc0OTZoREl6akdOWkhuWkhEcWFQMW55OWgtUWYyZW9hUV8tYUZvMFRHRTNVUHM3eWxoX2Ux?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-07T09:23:09.050857Z"
+    },
+    {
+      "id": "ead9638333e698770a787045e3238fa7",
+      "title": "Commission approves German capacity mechanism of up to \u20ac35 billion to secure electricity supply*",
+      "summary": "European Commission Press release Brussels, 02 Sep 2026 The European Commission has approved, under EU State aid rules, a capacity mechanism for Germany available from 2031. This measure, with an estimated cost between \u20ac15.6 billion and \u20ac35.2 billion, aims to ensure sufficient capacity to produce, store or flexibly consume electricity, so that electricity production can consistently meet expected demand.",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1778",
+      "source": "European Commission",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "GERMANY"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-07T09:22:52.354768Z"
+    },
+    {
+      "id": "64d28a02156831f6c42248848700a06c",
+      "title": "UK account-hack losses surge as new reporting system exposes hidden cases",
+      "summary": "In its first annual assessment, published Friday, the City of London Police said victims reported losing \u00a36.3 million ($8.5 million) to account hacks in the year ending March 31, up from \u00a31.2 million ($1.6 million) a year earlier.",
+      "link": "https://therecord.media/uk-account-hack-losses-surge-as-reporting-changes",
+      "source": "The Record",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-07T09:23:06.853858Z"
+    },
+    {
+      "id": "327063a40a1ea1bf0020ca6160c823a3",
+      "title": "KR Releases Statement of Fact for ShipWatch Vessel Performance Calculation Methodology",
+      "summary": "KR (Korean Register) has issued a Statement of Fact for the Vessel Performance Calculation Methodology developed by ShipWatch, an affiliated company of Navig8 and ADNOC L&amp;S. KR\u2019s technical review confirmed that the methodology aligns with the\u2026",
+      "link": "https://www.marinelink.com/news/kr-releases-statement-fact-shipwatch-542744",
+      "source": "MarineLink",
+      "score": 1,
+      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-07T09:17:18.393551Z"
+      "published": "2026-09-07T09:23:05.054131Z"
+    },
+    {
+      "id": "02de412bc847c57626086f75f9e46f56",
+      "title": "Tether-backed Orionx to shut down after audit flags $7M custody gap",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Tether-backed Orionx to shut down after audit flags $7M custody gap\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1TTSPPYA631ETX2200VF1YM/orionx1.png\" /></p><p>Tether-backed Orionx is permanently closing after an audit found more than $7 million in customer assets had moved to wallets outside its custody.</p>",
+      "link": "https://cointelegraph.com/news/orionx-shut-down-7-million-move-outside-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-07T09:23:06.362249Z"
+    },
+    {
+      "id": "a16a09cce8c4d055c007b4278951ac9a",
+      "title": "Microsoft says some users can\u2019t open the Teams desktop client",
+      "summary": "Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Windows systems. [...]",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
+      "source": "BleepingComputer",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-07T09:23:06.512288Z"
+    },
+    {
+      "id": "df70e2e324805afd6ab73dc616254ac0",
+      "title": "Stocks Fall After Hot Jobs Report - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxNOGV0QmpMTThWUF9sWGY3OGZuTHpuTlR2Qmh3ZlF6ZmxISEJ4TVI3Ry1lamdEUnRYSWY2bm1qYXJ5R0FGeHhCZUxrdUlzaEdsa1E0VG54bjVsZ29INnFlcmhxT2x1OGNnOXpwendIUzdMSHpIei1ENXJENlhIU2tmdEZtZw?oc=5\" target=\"_blank\">Stocks Fall After Hot Jobs Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOGV0QmpMTThWUF9sWGY3OGZuTHpuTlR2Qmh3ZlF6ZmxISEJ4TVI3Ry1lamdEUnRYSWY2bm1qYXJ5R0FGeHhCZUxrdUlzaEdsa1E0VG54bjVsZ29INnFlcmhxT2x1OGNnOXpwendIUzdMSHpIei1ENXJENlhIU2tmdEZtZw?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-07T09:23:09.050716Z"
+    },
+    {
+      "id": "c143b85b8e32e731e774c70f6d3974de",
+      "title": "Borrowing Isn\u2019t the Bond Market\u2019s Only Concern\u2014Growth Is Too - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ0Jtd1hxeXZ2bDVQeGhuMmwxRm8wTGlsMkk5LTM4eFMzS2N2MEpGcTRyX2hRVXlZRlNRbndydFg4a2pacW02anRsbEpGYnVWLUU5SWZxMGVSTlpHRThZTFZxeWpxREdvQThlUF9FUEFOYlhRaDBxcjRRenBBcTMwNVhwb1BlOUZ2dHc3dkNUbjc1N3lxMERROG9xWUNMY3R5Y3lybUZOUQ?oc=5\" target=\"_blank\">Borrowing Isn\u2019t the Bond Market\u2019s Only Concern\u2014Growth Is Too</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ0Jtd1hxeXZ2bDVQeGhuMmwxRm8wTGlsMkk5LTM4eFMzS2N2MEpGcTRyX2hRVXlZRlNRbndydFg4a2pacW02anRsbEpGYnVWLUU5SWZxMGVSTlpHRThZTFZxeWpxREdvQThlUF9FUEFOYlhRaDBxcjRRenBBcTMwNVhwb1BlOUZ2dHc3dkNUbjc1N3lxMERROG9xWUNMY3R5Y3lybUZOUQ?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-07T09:23:09.050937Z"
+    },
+    {
+      "id": "d6839f261bce1489ece560260510a349",
+      "title": "What Does a Bond Selloff Mean for American Consumers? - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOY29uei1RYTJvT0F4TWZvTzJlSjhLbl9QU0FuWFZtZXptcUdoQXdCUzVWUW4wdTBaelN5WVVJY012NXBsSWgzZ2JVdmxBa3YyTHV1WVhKcW9VWi1xV1RIREM1bFo2am1LWFN3bU9haElFUV9zbkw1VHU0Tkd2OUI3bXhRZTFRQWRZVURUMFJCOTZIQ1pWbmtvb0RWSUVxb3Bz?oc=5\" target=\"_blank\">What Does a Bond Selloff Mean for American Consumers?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY29uei1RYTJvT0F4TWZvTzJlSjhLbl9QU0FuWFZtZXptcUdoQXdCUzVWUW4wdTBaelN5WVVJY012NXBsSWgzZ2JVdmxBa3YyTHV1WVhKcW9VWi1xV1RIREM1bFo2am1LWFN3bU9haElFUV9zbkw1VHU0Tkd2OUI3bXhRZTFRQWRZVURUMFJCOTZIQ1pWbmtvb0RWSUVxb3Bz?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-07T09:23:09.051158Z"
     }
   ]
 }
