@@ -1,109 +1,403 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-07T04:43:00.468601Z",
+  "generated_at": "2026-09-07T04:48:11.219014Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 1,
-    "last_updated": "2026-09-07T04:43:00.468614Z"
+    "last_updated": "2026-09-07T04:48:11.219029Z"
   },
   "top_signals": [
     {
-      "id": "1188ca73bf7335824d964ccb79c0a06a",
-      "title": "Philippines Wants To Deepen Economic Ties With China",
-      "summary": "Philippine Finance Secretary Frederick Go discusses Manila's economic ties with Beijing. He is in Hong Kong to conduct an economic briefing and speaks exclusively on \"Bloomberg: The China Show.\u201d\n (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-07/philippines-wants-to-deepen-economic-ties-with-china-video",
-      "source": "Bloomberg",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [
-        "CHINA"
+      "id": "dfb35f76fd6a9a5ae80d568a28bdcfdc",
+      "title": "Oil up, bitcoin down as U.S. strikes Iranian crude carriers",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/09/07/oil-up-bitcoin-down-as-u-s-strikes-iranian-crude-carriers",
+      "source": "CoinDesk",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BTC",
+        "WTI"
       ],
-      "assets": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES",
+        "CRYPTO"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-07T04:41:55.418858Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-07T04:48:06.758107Z"
     },
     {
-      "id": "1b147882c1302810543cfe4b4c1b545f",
-      "title": "Far-right AfD surges to victory in German state election",
-      "summary": "Alternative for Germany becomes largest party in Saxony-Anhalt but falls short of parliamentary majority",
-      "link": "https://www.ft.com/content/a0229455-1822-4de8-ad2f-7453577d95cd?syn-25a6b1a6=1",
+      "id": "60208ca91fba69433764f8e79b61d798",
+      "title": "Green notice 2026/02",
+      "summary": "Green notices cover significant and/or significant proposals for Bank of England reporting. If any of these proposals are finalised and are to be implemented, they will appear in a statistical notice.",
+      "link": "https://www.bankofengland.co.uk/statistics/notice/2026/green-notice-2026-02",
+      "source": "Bank of England",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-07T04:47:55.311746Z"
+    },
+    {
+      "id": "c364144bacb7e30011d7d69be4193715",
+      "title": "Commission approves \u20ac30 million Portuguese State aid for agricultural, fishery and aquaculture companies facing increased fuel and fertiliser prices",
+      "summary": "European Commission Press release Brussels, 02 Sep 2026 The European Commission has approved a \u20ac30 million State aid scheme for agricultural, fishery and aquaculture companies facing increased fuel and fertiliser prices due to the Middle East crisis.",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1779",
+      "source": "European Commission",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-07T04:47:54.408469Z"
+    },
+    {
+      "id": "746781b7e3c9089dfda2a060e30b3131",
+      "title": "Longer wells boost Permian crude oil and natural gas production",
+      "summary": "Well operators in the Permian region of western Texas and eastern New Mexico are getting more oil and gas out of the ground by drilling longer, horizontal wells and increasingly incorporating so-called super-lateral wells that exceed 15,000 feet.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67984",
+      "source": "EIA",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-07T04:48:03.313564Z"
+    },
+    {
+      "id": "6c1234997276850cd0e7cad5096d4f19",
+      "title": "Jefferies fund caught with $500mn exposure to second alleged invoice fraud",
+      "summary": "Point Bonita, which bankrolled collapsed First Brands Group, emerges as big creditor to Radiant World",
+      "link": "https://www.ft.com/content/6bde3e74-9a7c-4528-9b9c-42a14eec0414?syn-25a6b1a6=1",
       "source": "Financial Times",
       "score": 8,
       "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [
-        "GERMANY"
-      ],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-07T04:41:58.641392Z"
+      "published": "2026-09-07T04:47:04.931479Z"
+    },
+    {
+      "id": "6b96c87bd634b182fc92f03042b91393",
+      "title": "The repo market is the \u2018dark matter\u2019 of finance: powerful and perilous",
+      "summary": "How worried should we be about the multitrillion-dollar market\u2019s influence over the cosmos of central banks, bonds, pension plans and private credit firms?",
+      "link": "https://www.ft.com/content/8a7e8202-d800-4fb1-a8f0-eeb4536578f7?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-07T04:47:04.931551Z"
+    },
+    {
+      "id": "3c16d6f50d510b7efc748a4a7000b17f",
+      "title": "Daily News 02 / 09 / 2026",
+      "summary": "European Commission Daily news Brussels, 02 Sep 2026 Commission boosts maritime manufacturing with new EU Industrial Maritime Value Chains Alliance\nThe European Commission has officially launched the new EU Indust...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1789",
+      "source": "European Commission",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-07T04:47:54.408382Z"
     }
   ],
   "alerts": [
     {
-      "id": "1188ca73bf7335824d964ccb79c0a06a",
-      "title": "Philippines Wants To Deepen Economic Ties With China",
-      "summary": "Philippine Finance Secretary Frederick Go discusses Manila's economic ties with Beijing. He is in Hong Kong to conduct an economic briefing and speaks exclusively on \"Bloomberg: The China Show.\u201d\n (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-07/philippines-wants-to-deepen-economic-ties-with-china-video",
-      "source": "Bloomberg",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [
-        "CHINA"
+      "id": "dfb35f76fd6a9a5ae80d568a28bdcfdc",
+      "title": "Oil up, bitcoin down as U.S. strikes Iranian crude carriers",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/09/07/oil-up-bitcoin-down-as-u-s-strikes-iranian-crude-carriers",
+      "source": "CoinDesk",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BTC",
+        "WTI"
       ],
-      "assets": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES",
+        "CRYPTO"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-07T04:41:55.418858Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-07T04:48:06.758107Z"
     },
     {
-      "id": "1b147882c1302810543cfe4b4c1b545f",
-      "title": "Far-right AfD surges to victory in German state election",
-      "summary": "Alternative for Germany becomes largest party in Saxony-Anhalt but falls short of parliamentary majority",
-      "link": "https://www.ft.com/content/a0229455-1822-4de8-ad2f-7453577d95cd?syn-25a6b1a6=1",
+      "id": "60208ca91fba69433764f8e79b61d798",
+      "title": "Green notice 2026/02",
+      "summary": "Green notices cover significant and/or significant proposals for Bank of England reporting. If any of these proposals are finalised and are to be implemented, they will appear in a statistical notice.",
+      "link": "https://www.bankofengland.co.uk/statistics/notice/2026/green-notice-2026-02",
+      "source": "Bank of England",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-07T04:47:55.311746Z"
+    },
+    {
+      "id": "c364144bacb7e30011d7d69be4193715",
+      "title": "Commission approves \u20ac30 million Portuguese State aid for agricultural, fishery and aquaculture companies facing increased fuel and fertiliser prices",
+      "summary": "European Commission Press release Brussels, 02 Sep 2026 The European Commission has approved a \u20ac30 million State aid scheme for agricultural, fishery and aquaculture companies facing increased fuel and fertiliser prices due to the Middle East crisis.",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1779",
+      "source": "European Commission",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-07T04:47:54.408469Z"
+    },
+    {
+      "id": "746781b7e3c9089dfda2a060e30b3131",
+      "title": "Longer wells boost Permian crude oil and natural gas production",
+      "summary": "Well operators in the Permian region of western Texas and eastern New Mexico are getting more oil and gas out of the ground by drilling longer, horizontal wells and increasingly incorporating so-called super-lateral wells that exceed 15,000 feet.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67984",
+      "source": "EIA",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-07T04:48:03.313564Z"
+    },
+    {
+      "id": "6c1234997276850cd0e7cad5096d4f19",
+      "title": "Jefferies fund caught with $500mn exposure to second alleged invoice fraud",
+      "summary": "Point Bonita, which bankrolled collapsed First Brands Group, emerges as big creditor to Radiant World",
+      "link": "https://www.ft.com/content/6bde3e74-9a7c-4528-9b9c-42a14eec0414?syn-25a6b1a6=1",
       "source": "Financial Times",
       "score": 8,
       "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [
-        "GERMANY"
-      ],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-07T04:41:58.641392Z"
+      "published": "2026-09-07T04:47:04.931479Z"
+    },
+    {
+      "id": "6b96c87bd634b182fc92f03042b91393",
+      "title": "The repo market is the \u2018dark matter\u2019 of finance: powerful and perilous",
+      "summary": "How worried should we be about the multitrillion-dollar market\u2019s influence over the cosmos of central banks, bonds, pension plans and private credit firms?",
+      "link": "https://www.ft.com/content/8a7e8202-d800-4fb1-a8f0-eeb4536578f7?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-07T04:47:04.931551Z"
+    },
+    {
+      "id": "3c16d6f50d510b7efc748a4a7000b17f",
+      "title": "Daily News 02 / 09 / 2026",
+      "summary": "European Commission Daily news Brussels, 02 Sep 2026 Commission boosts maritime manufacturing with new EU Industrial Maritime Value Chains Alliance\nThe European Commission has officially launched the new EU Indust...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1789",
+      "source": "European Commission",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-07T04:47:54.408382Z"
     }
   ]
 }
