@@ -1,37 +1,68 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-07T10:48:07.536615Z",
+  "generated_at": "2026-09-07T10:52:38.307907Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "COMMODITIES",
+    "dominant_driver": "COMMODITIES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 2,
-    "last_updated": "2026-09-07T10:48:07.536629Z"
+    "critical_alerts": 1,
+    "high_alerts": 1,
+    "last_updated": "2026-09-07T10:52:38.307921Z"
   },
   "top_signals": [
     {
-      "id": "2fd4041ba58d78ab06b8ffa0a98e4ae8",
-      "title": "Yen Rises to Highest Since February",
-      "summary": "The yen strengthened to its highest level since February, rising as much as 1.4% to 154.06 against the dollar in London trading. The gain meant the Japanese currency surpassed the peak reached after coordinated intervention by Japan and the US. Geoff Yu, senior strategist at BNY, says \"some deterrence has been established\" at 160 per dollar.\n\n (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-07/yen-rises-to-highest-since-february-video",
+      "id": "e76447f269bb9198ba8535cffd137356",
+      "title": "Gold Edges Lower as Traders Focus on Oil Price Swings and Dollar",
+      "summary": "Gold edged lower, as traders monitored fluctuating oil prices amid Iran-Oman talks to manage shipping through the Strait of Hormuz, while the dollar sank against the yen.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-06/gold-holds-decline-as-traders-weigh-prospects-for-fed-rate-hike",
       "source": "Bloomberg",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "score": 53,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
       "tickers": [
         "DXY",
-        "JPY"
+        "JPY",
+        "WTI",
+        "XAU"
       ],
       "regions": [
-        "JAPAN",
-        "UK"
+        "MIDDLE_EAST"
       ],
       "assets": [
         "AI",
-        "FX"
+        "COMMODITIES",
+        "FX",
+        "SHIPPING"
       ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-07T10:51:33.006495Z"
+    },
+    {
+      "id": "60208ca91fba69433764f8e79b61d798",
+      "title": "Green notice 2026/02",
+      "summary": "Green notices cover significant and/or significant proposals for Bank of England reporting. If any of these proposals are finalised and are to be implemented, they will appear in a statistical notice.",
+      "link": "https://www.bankofengland.co.uk/statistics/notice/2026/green-notice-2026-02",
+      "source": "Bank of England",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -44,69 +75,19 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-07T10:47:01.426026Z"
+      "published": "2026-09-07T10:52:24.231973Z"
     },
     {
-      "id": "ae27279355b8e8237e7807ce73079772",
-      "title": "Philippine defense chief says China could exploit cuts in U.S.-South Korean drills",
-      "summary": "Philippine Defense Secretary Gilberto Teodoro said Washington had assured Manila that its commitments to the Philippines remained unchanged.",
-      "link": "https://www.japantimes.co.jp/news/2026/09/07/asia-pacific/philippine-defense-chief-us-sk-drills/",
-      "source": "Japan Times",
-      "score": 17,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [
-        "CHINA"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-07T10:47:58.880873Z"
-    },
-    {
-      "id": "b7a9aaf541863f6708bf3f018b4c56a0",
-      "title": "Top Wall Street analysts like these 3 stocks for the long haul",
-      "summary": "The ratings of these experts are backed by in-depth research of a company's financials, and thorough analysis of the factors affecting business performance.",
-      "link": "https://www.cnbc.com/2026/09/07/top-wall-street-analysts-like-these-3-stocks-for-the-long-haul.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "EQUITIES"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-07T10:47:05.470801Z"
-    },
-    {
-      "id": "1610ece6869bda9cd11e33379439a200",
-      "title": "Healey says growth is \u2018pathway out of debt\u2019 but bats away tax questions",
-      "summary": "<p> <img alt=\"John Healey said growth was the &quot;pathway out of indebtedness&quot;. PA Wire\" src=\"https://www.cityam.com/wp-content/uploads/2026/09/John-Healey-at-JLR-e1788775878116.jpg?w=1106\" /> </p>Chancellor John Healey said he will \u201cnot speculate\u201d on expected tax rises at his maiden Budget next month as he said growth was at the \u201cheart of fiscal challenges\u201d facing the UK.\u00a0 In his first major speech as Chancellor in Coventry, Healey batted away questions about whether businesses and households were set to face another <a href=\"https://www.cityam.com/healey-bats-away-tax-questions-as-growth-is-pathway-out-of-debt/\">[...]</a>",
-      "link": "https://www.cityam.com/healey-bats-away-tax-questions-as-growth-is-pathway-out-of-debt/",
-      "source": "CityAM",
-      "score": 5,
-      "severity": "LOW",
+      "id": "0a24d73f1223ce7e516dbddd94508849",
+      "title": "Indonesia\u2019s Merdeka Battery Is Said to Consider HK Share Sale",
+      "summary": "PT Merdeka Battery Materials is considering a sale of depositary receipts in Hong Kong, according to people familiar with the matter, potentially following other Indonesian miners looking to raise capital in the city.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-07/indonesia-s-merdeka-battery-is-said-to-consider-hk-share-sale",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -119,31 +100,165 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-07T10:47:57.007511Z"
+      "published": "2026-09-07T10:51:33.006563Z"
+    },
+    {
+      "id": "746781b7e3c9089dfda2a060e30b3131",
+      "title": "Longer wells boost Permian crude oil and natural gas production",
+      "summary": "Well operators in the Permian region of western Texas and eastern New Mexico are getting more oil and gas out of the ground by drilling longer, horizontal wells and increasingly incorporating so-called super-lateral wells that exceed 15,000 feet.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67984",
+      "source": "EIA",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-07T10:52:31.645236Z"
+    },
+    {
+      "id": "7cb38b3cd7696ba032c6cd2b9360d6ac",
+      "title": "UK regulator weighs easing financial prediction market ban: Times",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/09/07/uk-regulator-weighs-easing-financial-prediction-market-ban-times",
+      "source": "CoinDesk",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-07T10:52:35.060579Z"
+    },
+    {
+      "id": "3c16d6f50d510b7efc748a4a7000b17f",
+      "title": "Daily News 02 / 09 / 2026",
+      "summary": "European Commission Daily news Brussels, 02 Sep 2026 Commission boosts maritime manufacturing with new EU Industrial Maritime Value Chains Alliance\nThe European Commission has officially launched the new EU Indust...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1789",
+      "source": "European Commission",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-07T10:52:23.879125Z"
+    },
+    {
+      "id": "887b3037f1ef7f534a1630758b5ae440",
+      "title": "Are Labour Chancellors really still blaming Liz Truss?",
+      "summary": "<p> <img alt=\"\" src=\"https://www.cityam.com/wp-content/uploads/2026/09/John-Healey-speech-e1788777749614.jpg?w=1107\" /> </p>Healey's first speech as Chancellor parroted the usual Labour lines: the woes of austerity, the joys of the state and, of course, the villainy of Liz Truss.",
+      "link": "https://www.cityam.com/are-labour-chancellors-really-still-blaming-liz-truss/",
+      "source": "CityAM",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-07T10:52:26.670083Z"
     }
   ],
   "alerts": [
     {
-      "id": "2fd4041ba58d78ab06b8ffa0a98e4ae8",
-      "title": "Yen Rises to Highest Since February",
-      "summary": "The yen strengthened to its highest level since February, rising as much as 1.4% to 154.06 against the dollar in London trading. The gain meant the Japanese currency surpassed the peak reached after coordinated intervention by Japan and the US. Geoff Yu, senior strategist at BNY, says \"some deterrence has been established\" at 160 per dollar.\n\n (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-07/yen-rises-to-highest-since-february-video",
+      "id": "e76447f269bb9198ba8535cffd137356",
+      "title": "Gold Edges Lower as Traders Focus on Oil Price Swings and Dollar",
+      "summary": "Gold edged lower, as traders monitored fluctuating oil prices amid Iran-Oman talks to manage shipping through the Strait of Hormuz, while the dollar sank against the yen.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-06/gold-holds-decline-as-traders-weigh-prospects-for-fed-rate-hike",
       "source": "Bloomberg",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "score": 53,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
       "tickers": [
         "DXY",
-        "JPY"
+        "JPY",
+        "WTI",
+        "XAU"
       ],
       "regions": [
-        "JAPAN",
-        "UK"
+        "MIDDLE_EAST"
       ],
       "assets": [
         "AI",
-        "FX"
+        "COMMODITIES",
+        "FX",
+        "SHIPPING"
       ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-07T10:51:33.006495Z"
+    },
+    {
+      "id": "60208ca91fba69433764f8e79b61d798",
+      "title": "Green notice 2026/02",
+      "summary": "Green notices cover significant and/or significant proposals for Bank of England reporting. If any of these proposals are finalised and are to be implemented, they will appear in a statistical notice.",
+      "link": "https://www.bankofengland.co.uk/statistics/notice/2026/green-notice-2026-02",
+      "source": "Bank of England",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -156,69 +271,19 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-07T10:47:01.426026Z"
+      "published": "2026-09-07T10:52:24.231973Z"
     },
     {
-      "id": "ae27279355b8e8237e7807ce73079772",
-      "title": "Philippine defense chief says China could exploit cuts in U.S.-South Korean drills",
-      "summary": "Philippine Defense Secretary Gilberto Teodoro said Washington had assured Manila that its commitments to the Philippines remained unchanged.",
-      "link": "https://www.japantimes.co.jp/news/2026/09/07/asia-pacific/philippine-defense-chief-us-sk-drills/",
-      "source": "Japan Times",
-      "score": 17,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [
-        "CHINA"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-07T10:47:58.880873Z"
-    },
-    {
-      "id": "b7a9aaf541863f6708bf3f018b4c56a0",
-      "title": "Top Wall Street analysts like these 3 stocks for the long haul",
-      "summary": "The ratings of these experts are backed by in-depth research of a company's financials, and thorough analysis of the factors affecting business performance.",
-      "link": "https://www.cnbc.com/2026/09/07/top-wall-street-analysts-like-these-3-stocks-for-the-long-haul.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "EQUITIES"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-07T10:47:05.470801Z"
-    },
-    {
-      "id": "1610ece6869bda9cd11e33379439a200",
-      "title": "Healey says growth is \u2018pathway out of debt\u2019 but bats away tax questions",
-      "summary": "<p> <img alt=\"John Healey said growth was the &quot;pathway out of indebtedness&quot;. PA Wire\" src=\"https://www.cityam.com/wp-content/uploads/2026/09/John-Healey-at-JLR-e1788775878116.jpg?w=1106\" /> </p>Chancellor John Healey said he will \u201cnot speculate\u201d on expected tax rises at his maiden Budget next month as he said growth was at the \u201cheart of fiscal challenges\u201d facing the UK.\u00a0 In his first major speech as Chancellor in Coventry, Healey batted away questions about whether businesses and households were set to face another <a href=\"https://www.cityam.com/healey-bats-away-tax-questions-as-growth-is-pathway-out-of-debt/\">[...]</a>",
-      "link": "https://www.cityam.com/healey-bats-away-tax-questions-as-growth-is-pathway-out-of-debt/",
-      "source": "CityAM",
-      "score": 5,
-      "severity": "LOW",
+      "id": "0a24d73f1223ce7e516dbddd94508849",
+      "title": "Indonesia\u2019s Merdeka Battery Is Said to Consider HK Share Sale",
+      "summary": "PT Merdeka Battery Materials is considering a sale of depositary receipts in Hong Kong, according to people familiar with the matter, potentially following other Indonesian miners looking to raise capital in the city.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-07/indonesia-s-merdeka-battery-is-said-to-consider-hk-share-sale",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -231,7 +296,110 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-07T10:47:57.007511Z"
+      "published": "2026-09-07T10:51:33.006563Z"
+    },
+    {
+      "id": "746781b7e3c9089dfda2a060e30b3131",
+      "title": "Longer wells boost Permian crude oil and natural gas production",
+      "summary": "Well operators in the Permian region of western Texas and eastern New Mexico are getting more oil and gas out of the ground by drilling longer, horizontal wells and increasingly incorporating so-called super-lateral wells that exceed 15,000 feet.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67984",
+      "source": "EIA",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-07T10:52:31.645236Z"
+    },
+    {
+      "id": "7cb38b3cd7696ba032c6cd2b9360d6ac",
+      "title": "UK regulator weighs easing financial prediction market ban: Times",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/09/07/uk-regulator-weighs-easing-financial-prediction-market-ban-times",
+      "source": "CoinDesk",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-07T10:52:35.060579Z"
+    },
+    {
+      "id": "3c16d6f50d510b7efc748a4a7000b17f",
+      "title": "Daily News 02 / 09 / 2026",
+      "summary": "European Commission Daily news Brussels, 02 Sep 2026 Commission boosts maritime manufacturing with new EU Industrial Maritime Value Chains Alliance\nThe European Commission has officially launched the new EU Indust...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1789",
+      "source": "European Commission",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-07T10:52:23.879125Z"
+    },
+    {
+      "id": "887b3037f1ef7f534a1630758b5ae440",
+      "title": "Are Labour Chancellors really still blaming Liz Truss?",
+      "summary": "<p> <img alt=\"\" src=\"https://www.cityam.com/wp-content/uploads/2026/09/John-Healey-speech-e1788777749614.jpg?w=1107\" /> </p>Healey's first speech as Chancellor parroted the usual Labour lines: the woes of austerity, the joys of the state and, of course, the villainy of Liz Truss.",
+      "link": "https://www.cityam.com/are-labour-chancellors-really-still-blaming-liz-truss/",
+      "source": "CityAM",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-07T10:52:26.670083Z"
     }
   ]
 }
