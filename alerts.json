@@ -1,32 +1,36 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-08T09:53:12.315951Z",
+  "generated_at": "2026-09-08T09:58:13.952339Z",
   "market_regime": {
     "regime": "COMMODITIES",
     "dominant_driver": "COMMODITIES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 4,
-    "last_updated": "2026-09-08T09:53:12.315966Z"
+    "critical_alerts": 2,
+    "high_alerts": 0,
+    "last_updated": "2026-09-08T09:58:13.952353Z"
   },
   "top_signals": [
     {
-      "id": "9eca68377c6412bd8b769f144c626ce2",
-      "title": "Copper Ascends to New Heights on Tight Supply and Tariff Fears",
-      "summary": "Copper extended gains, hitting a record for a second straight session, as tight near-term supplies and expectations that the US will impose tariffs on imports of refined metal buoyed prices.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-08/copper-ascends-to-new-heights-on-tight-supply-and-tariff-fears",
+      "id": "fc41f88e926cc1eccc0c034800a44ad9",
+      "title": "Stocks Slip as Oil Rally Fuels Inflation Worries: Markets Wrap",
+      "summary": "Global stocks fell as Brent crude approached $100 a barrel, reinforcing expectations that central banks will have to raise interest rates to contain inflation. The yen hit the highest level since February.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-07/stock-market-today-dow-s-p-live-updates",
       "source": "Bloomberg",
-      "score": 19,
-      "severity": "HIGH",
+      "score": 35,
+      "severity": "CRITICAL",
       "regime": "COMMODITIES",
       "tickers": [
-        "COPPER"
+        "BRENT",
+        "JPY",
+        "WTI"
       ],
       "regions": [],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "COMMODITIES",
+        "EQUITIES",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
@@ -40,50 +44,55 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-08T09:52:05.286453Z"
+      "published": "2026-09-08T09:57:09.058411Z"
     },
     {
-      "id": "51b53ec8aca7e99ceb412be87d4f25d1",
-      "title": "New Bitcoin whales spark sell-side risk as unrealized gains hit $9B",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"New Bitcoin whales spark sell-side risk as unrealized gains hit $9B\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2062K6V4M4F1DR5TM0F23TH/hi-daos-dexs-and-whales-how-web3-organizations-became-the-new-crypto-beasts1.jpg\" /></p><p>Unrealized gains by whale speculators hit their highest levels on record last week, per data going back to 2016.</p>",
-      "link": "https://cointelegraph.com/markets/new-bitcoin-whales-spark-sell-side-risk-as-unrealized-gains-hit-9b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-08T09:53:08.771736Z"
-    },
-    {
-      "id": "4b3a8c931585d008292c764094587641",
-      "title": "BlackRock Sees Further 'Positive Pricing' for Copper (Video)",
-      "summary": "",
+      "id": "75406deb9b75f095b711fc942d4d3d18",
+      "title": "BlackRock Sees Continued 'Positive Pricing' for Copper",
+      "summary": "Evy Hambro, BlackRock\u2019s global head of thematic and sector investing, discusses factors driving the long-term upward trend in copper prices. \"The disruption rates are much, much higher than they have been,\" Hambro tells Bloomberg Television. \"And this has occurred at a time when demand is actually growing faster than supply.\" (Source: Bloomberg)",
       "link": "https://www.bloomberg.com/news/videos/2026-09-08/blackrock-sees-further-positive-pricing-for-copper-video",
       "source": "Bloomberg",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "COPPER"
       ],
       "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-08T09:57:09.058500Z"
+    },
+    {
+      "id": "307f80ae1051a0933c41e368ae44c9ba",
+      "title": "Iraq Struggles to Sell Oil From Basra After Hiking Its Prices - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ3NFNHlrVU5LXzRmT2c0bjU4YXAyUkE4d05aNDhvWlFjSjkxTEdUczFKMFVfaWljODlDeXNwMjViYnk1NDYzZ1pBZHQ2RzVkM01aX2JENGFoMjN3Q2JuVEI1MkN6NFNWdTlUMEN1R0J4MFIxcEtpMy1oUGkxYWZZMFRwSTNzSmllNDJBcWYwRTIzakx1OUx5MGVDeEU1UGxPQXMzVFhSMXVSUkpKS19vU2RR?oc=5\" target=\"_blank\">Iraq Struggles to Sell Oil From Basra After Hiking Its Prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ3NFNHlrVU5LXzRmT2c0bjU4YXAyUkE4d05aNDhvWlFjSjkxTEdUczFKMFVfaWljODlDeXNwMjViYnk1NDYzZ1pBZHQ2RzVkM01aX2JENGFoMjN3Q2JuVEI1MkN6NFNWdTlUMEN1R0J4MFIxcEtpMy1oUGkxYWZZMFRwSTNzSmllNDJBcWYwRTIzakx1OUx5MGVDeEU1UGxPQXMzVFhSMXVSUkpKS19vU2RR?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "UK"
+      ],
       "assets": [
         "COMMODITIES"
       ],
@@ -99,126 +108,134 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-08T09:52:05.286383Z"
+      "published": "2026-09-08T09:58:11.726004Z"
     },
     {
-      "id": "108088ee90502b98d5bf6a80192716bd",
-      "title": "UBS forecasts two US Fed rate hikes in 2026 after strong jobs report - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPNXNXbFhiR0xaOTliU21YN051SmZxSndRR1d0WkFHUEFBbHRsSS1EdE1zMUJ6ZlQ2NFRwNFZFWVlSMGx5WUc5RFVhYmE0WnNpTWJfbXRraUVTemlyU0U3ZFMzSGxwZDdMWVloTERkSkdfa2NiX3N2cThqbkRIUzhSVGNaRl9wak9YZVV2YXg0UVVZRWtXaG9PYUllRnl6dnNoY0NIQlZwNkRwVEpDOHIw?oc=5\" target=\"_blank\">UBS forecasts two US Fed rate hikes in 2026 after strong jobs report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNXNXbFhiR0xaOTliU21YN051SmZxSndRR1d0WkFHUEFBbHRsSS1EdE1zMUJ6ZlQ2NFRwNFZFWVlSMGx5WUc5RFVhYmE0WnNpTWJfbXRraUVTemlyU0U3ZFMzSGxwZDdMWVloTERkSkdfa2NiX3N2cThqbkRIUzhSVGNaRl9wak9YZVV2YXg0UVVZRWtXaG9PYUllRnl6dnNoY0NIQlZwNkRwVEpDOHIw?oc=5",
-      "source": "Google Macro",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-08T09:53:10.693848Z"
-    },
-    {
-      "id": "0d47947929adaab078838d909063d552",
-      "title": "Stablecoins could save South Korean merchants up to $3.8 billion a year, budget office says",
+      "id": "b4e4dde7c38bdb762a320c6c83b2eec2",
+      "title": "Nikkei 225 to temporarily include Resonac spinoff Crasus Chemical",
       "summary": "",
-      "link": "https://www.coindesk.com/business/2026/09/08/stablecoins-could-save-south-korean-merchants-up-to-usd3-8-billion-a-year-budget-office-says",
-      "source": "CoinDesk",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
+      "link": "https://asia.nikkei.com/announcements/nikkei-225-to-temporarily-include-resonac-spinoff-crasus-chemical",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-08T09:53:08.614317Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-08T09:58:04.643602Z"
     },
     {
-      "id": "d604cab5b23da99c80f95925066be23a",
-      "title": "SEC sues ISS as Trump administration ramps up scrutiny of proxy advisers",
-      "summary": "The SEC sued Institutional Shareholder Services to enforce a subpoena as the Trump administration increases scrutiny of influential proxy advisers.",
-      "link": "https://www.cnbc.com/2026/09/06/sec-iss-proxy-adviser-subpoena.html",
-      "source": "CNBC",
+      "id": "8b946e82192a4794a498f3423d68f589",
+      "title": "EU abruptly shelves Kallas-led defense panel after pushback from Berlin, Paris, Rome",
+      "summary": "EU foreign policy chief Kaja Kallas scrapped plans to launch a high-level advisory group on European defense just hours before its scheduled unveiling.",
+      "link": "https://www.defensenews.com/global/europe/2026/09/08/eu-abruptly-shelves-kallas-led-defense-panel-after-pushback-from-berlin-paris-rome/",
+      "source": "Defense News",
       "score": 6,
       "severity": "LOW",
       "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-08T09:52:09.236037Z"
-    },
-    {
-      "id": "afd08dd0f037835c87af82ae29abad72",
-      "title": "BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations",
-      "summary": "A phishing-as-a-service framework called BigBear 2.0 has been used to bypass multi-factor authentication at 258 organizations and steal more than 5,000 Microsoft 365 credentials. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/",
-      "source": "BleepingComputer",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-08T09:53:08.986094Z"
-    },
-    {
-      "id": "d6839f261bce1489ece560260510a349",
-      "title": "What Does a Bond Selloff Mean for American Consumers? - wsj.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOY29uei1RYTJvT0F4TWZvTzJlSjhLbl9QU0FuWFZtZXptcUdoQXdCUzVWUW4wdTBaelN5WVVJY012NXBsSWgzZ2JVdmxBa3YyTHV1WVhKcW9VWi1xV1RIREM1bFo2am1LWFN3bU9haElFUV9zbkw1VHU0Tkd2OUI3bXhRZTFRQWRZVURUMFJCOTZIQ1pWbmtvb0RWSUVxb3Bz?oc=5\" target=\"_blank\">What Does a Bond Selloff Mean for American Consumers?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY29uei1RYTJvT0F4TWZvTzJlSjhLbl9QU0FuWFZtZXptcUdoQXdCUzVWUW4wdTBaelN5WVVJY012NXBsSWgzZ2JVdmxBa3YyTHV1WVhKcW9VWi1xV1RIREM1bFo2am1LWFN3bU9haElFUV9zbkw1VHU0Tkd2OUI3bXhRZTFRQWRZVURUMFJCOTZIQ1pWbmtvb0RWSUVxb3Bz?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "US"
+      "tickers": [
+        "EUR"
       ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-08T09:58:09.074548Z"
+    },
+    {
+      "id": "1da151c444dba52e83f02a0377687fff",
+      "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
+      "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large advertising platforms. Not anymore: A powerful and free new service called DecryptAds scrapes and correlates this adtech data and makes it simple to quickly learn a great deal about the entities that are tracking you.",
+      "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "source": "KrebsOnSecurity",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-08T09:58:10.644538Z"
+    },
+    {
+      "id": "601eb416e07e2d819cc8d73c77eadf9f",
+      "title": "LG to Ban Residential Proxies from Smart TV Apps",
+      "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found that more than 42 percent of games and other apps available for download on LG's webOS store allow unknown third-parties to route their Internet traffic through a user's TV.",
+      "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "source": "KrebsOnSecurity",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-08T09:58:10.644628Z"
+    },
+    {
+      "id": "d7944009dff9a727ea3cf3d15b850cef",
+      "title": "W\u00e4rtsil\u00e4 Signs Lifecycle Agreement With Mercy Ships International",
+      "summary": "W\u00e4rtsil\u00e4 has signed a Lifecycle Agreement with charity organization Mercy Ships International. The contract covers a 5-year renewal of an existing service agreement for the world's largest purpose-built civilian hospital ship, the Global Mercy\u2026",
+      "link": "https://www.marinelink.com/news/wrtsil-signs-lifecycle-agreement-mercy-542745",
+      "source": "MarineLink",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-08T09:53:11.730095Z"
+      "published": "2026-09-08T09:58:08.841410Z"
     }
   ],
   "alerts": [
     {
-      "id": "9eca68377c6412bd8b769f144c626ce2",
-      "title": "Copper Ascends to New Heights on Tight Supply and Tariff Fears",
-      "summary": "Copper extended gains, hitting a record for a second straight session, as tight near-term supplies and expectations that the US will impose tariffs on imports of refined metal buoyed prices.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-08/copper-ascends-to-new-heights-on-tight-supply-and-tariff-fears",
+      "id": "fc41f88e926cc1eccc0c034800a44ad9",
+      "title": "Stocks Slip as Oil Rally Fuels Inflation Worries: Markets Wrap",
+      "summary": "Global stocks fell as Brent crude approached $100 a barrel, reinforcing expectations that central banks will have to raise interest rates to contain inflation. The yen hit the highest level since February.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-07/stock-market-today-dow-s-p-live-updates",
       "source": "Bloomberg",
-      "score": 19,
-      "severity": "HIGH",
+      "score": 35,
+      "severity": "CRITICAL",
       "regime": "COMMODITIES",
       "tickers": [
-        "COPPER"
+        "BRENT",
+        "JPY",
+        "WTI"
       ],
       "regions": [],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "COMMODITIES",
+        "EQUITIES",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
@@ -232,50 +249,55 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-08T09:52:05.286453Z"
+      "published": "2026-09-08T09:57:09.058411Z"
     },
     {
-      "id": "51b53ec8aca7e99ceb412be87d4f25d1",
-      "title": "New Bitcoin whales spark sell-side risk as unrealized gains hit $9B",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"New Bitcoin whales spark sell-side risk as unrealized gains hit $9B\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2062K6V4M4F1DR5TM0F23TH/hi-daos-dexs-and-whales-how-web3-organizations-became-the-new-crypto-beasts1.jpg\" /></p><p>Unrealized gains by whale speculators hit their highest levels on record last week, per data going back to 2016.</p>",
-      "link": "https://cointelegraph.com/markets/new-bitcoin-whales-spark-sell-side-risk-as-unrealized-gains-hit-9b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-08T09:53:08.771736Z"
-    },
-    {
-      "id": "4b3a8c931585d008292c764094587641",
-      "title": "BlackRock Sees Further 'Positive Pricing' for Copper (Video)",
-      "summary": "",
+      "id": "75406deb9b75f095b711fc942d4d3d18",
+      "title": "BlackRock Sees Continued 'Positive Pricing' for Copper",
+      "summary": "Evy Hambro, BlackRock\u2019s global head of thematic and sector investing, discusses factors driving the long-term upward trend in copper prices. \"The disruption rates are much, much higher than they have been,\" Hambro tells Bloomberg Television. \"And this has occurred at a time when demand is actually growing faster than supply.\" (Source: Bloomberg)",
       "link": "https://www.bloomberg.com/news/videos/2026-09-08/blackrock-sees-further-positive-pricing-for-copper-video",
       "source": "Bloomberg",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "COPPER"
       ],
       "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-08T09:57:09.058500Z"
+    },
+    {
+      "id": "307f80ae1051a0933c41e368ae44c9ba",
+      "title": "Iraq Struggles to Sell Oil From Basra After Hiking Its Prices - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ3NFNHlrVU5LXzRmT2c0bjU4YXAyUkE4d05aNDhvWlFjSjkxTEdUczFKMFVfaWljODlDeXNwMjViYnk1NDYzZ1pBZHQ2RzVkM01aX2JENGFoMjN3Q2JuVEI1MkN6NFNWdTlUMEN1R0J4MFIxcEtpMy1oUGkxYWZZMFRwSTNzSmllNDJBcWYwRTIzakx1OUx5MGVDeEU1UGxPQXMzVFhSMXVSUkpKS19vU2RR?oc=5\" target=\"_blank\">Iraq Struggles to Sell Oil From Basra After Hiking Its Prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ3NFNHlrVU5LXzRmT2c0bjU4YXAyUkE4d05aNDhvWlFjSjkxTEdUczFKMFVfaWljODlDeXNwMjViYnk1NDYzZ1pBZHQ2RzVkM01aX2JENGFoMjN3Q2JuVEI1MkN6NFNWdTlUMEN1R0J4MFIxcEtpMy1oUGkxYWZZMFRwSTNzSmllNDJBcWYwRTIzakx1OUx5MGVDeEU1UGxPQXMzVFhSMXVSUkpKS19vU2RR?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "UK"
+      ],
       "assets": [
         "COMMODITIES"
       ],
@@ -291,107 +313,111 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-08T09:52:05.286383Z"
+      "published": "2026-09-08T09:58:11.726004Z"
     },
     {
-      "id": "108088ee90502b98d5bf6a80192716bd",
-      "title": "UBS forecasts two US Fed rate hikes in 2026 after strong jobs report - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPNXNXbFhiR0xaOTliU21YN051SmZxSndRR1d0WkFHUEFBbHRsSS1EdE1zMUJ6ZlQ2NFRwNFZFWVlSMGx5WUc5RFVhYmE0WnNpTWJfbXRraUVTemlyU0U3ZFMzSGxwZDdMWVloTERkSkdfa2NiX3N2cThqbkRIUzhSVGNaRl9wak9YZVV2YXg0UVVZRWtXaG9PYUllRnl6dnNoY0NIQlZwNkRwVEpDOHIw?oc=5\" target=\"_blank\">UBS forecasts two US Fed rate hikes in 2026 after strong jobs report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNXNXbFhiR0xaOTliU21YN051SmZxSndRR1d0WkFHUEFBbHRsSS1EdE1zMUJ6ZlQ2NFRwNFZFWVlSMGx5WUc5RFVhYmE0WnNpTWJfbXRraUVTemlyU0U3ZFMzSGxwZDdMWVloTERkSkdfa2NiX3N2cThqbkRIUzhSVGNaRl9wak9YZVV2YXg0UVVZRWtXaG9PYUllRnl6dnNoY0NIQlZwNkRwVEpDOHIw?oc=5",
-      "source": "Google Macro",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-08T09:53:10.693848Z"
-    },
-    {
-      "id": "0d47947929adaab078838d909063d552",
-      "title": "Stablecoins could save South Korean merchants up to $3.8 billion a year, budget office says",
+      "id": "b4e4dde7c38bdb762a320c6c83b2eec2",
+      "title": "Nikkei 225 to temporarily include Resonac spinoff Crasus Chemical",
       "summary": "",
-      "link": "https://www.coindesk.com/business/2026/09/08/stablecoins-could-save-south-korean-merchants-up-to-usd3-8-billion-a-year-budget-office-says",
-      "source": "CoinDesk",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
+      "link": "https://asia.nikkei.com/announcements/nikkei-225-to-temporarily-include-resonac-spinoff-crasus-chemical",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-08T09:53:08.614317Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-08T09:58:04.643602Z"
     },
     {
-      "id": "d604cab5b23da99c80f95925066be23a",
-      "title": "SEC sues ISS as Trump administration ramps up scrutiny of proxy advisers",
-      "summary": "The SEC sued Institutional Shareholder Services to enforce a subpoena as the Trump administration increases scrutiny of influential proxy advisers.",
-      "link": "https://www.cnbc.com/2026/09/06/sec-iss-proxy-adviser-subpoena.html",
-      "source": "CNBC",
+      "id": "8b946e82192a4794a498f3423d68f589",
+      "title": "EU abruptly shelves Kallas-led defense panel after pushback from Berlin, Paris, Rome",
+      "summary": "EU foreign policy chief Kaja Kallas scrapped plans to launch a high-level advisory group on European defense just hours before its scheduled unveiling.",
+      "link": "https://www.defensenews.com/global/europe/2026/09/08/eu-abruptly-shelves-kallas-led-defense-panel-after-pushback-from-berlin-paris-rome/",
+      "source": "Defense News",
       "score": 6,
       "severity": "LOW",
       "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-08T09:52:09.236037Z"
-    },
-    {
-      "id": "afd08dd0f037835c87af82ae29abad72",
-      "title": "BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations",
-      "summary": "A phishing-as-a-service framework called BigBear 2.0 has been used to bypass multi-factor authentication at 258 organizations and steal more than 5,000 Microsoft 365 credentials. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/",
-      "source": "BleepingComputer",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-08T09:53:08.986094Z"
-    },
-    {
-      "id": "d6839f261bce1489ece560260510a349",
-      "title": "What Does a Bond Selloff Mean for American Consumers? - wsj.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOY29uei1RYTJvT0F4TWZvTzJlSjhLbl9QU0FuWFZtZXptcUdoQXdCUzVWUW4wdTBaelN5WVVJY012NXBsSWgzZ2JVdmxBa3YyTHV1WVhKcW9VWi1xV1RIREM1bFo2am1LWFN3bU9haElFUV9zbkw1VHU0Tkd2OUI3bXhRZTFRQWRZVURUMFJCOTZIQ1pWbmtvb0RWSUVxb3Bz?oc=5\" target=\"_blank\">What Does a Bond Selloff Mean for American Consumers?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY29uei1RYTJvT0F4TWZvTzJlSjhLbl9QU0FuWFZtZXptcUdoQXdCUzVWUW4wdTBaelN5WVVJY012NXBsSWgzZ2JVdmxBa3YyTHV1WVhKcW9VWi1xV1RIREM1bFo2am1LWFN3bU9haElFUV9zbkw1VHU0Tkd2OUI3bXhRZTFRQWRZVURUMFJCOTZIQ1pWbmtvb0RWSUVxb3Bz?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "US"
+      "tickers": [
+        "EUR"
       ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-08T09:58:09.074548Z"
+    },
+    {
+      "id": "1da151c444dba52e83f02a0377687fff",
+      "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
+      "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large advertising platforms. Not anymore: A powerful and free new service called DecryptAds scrapes and correlates this adtech data and makes it simple to quickly learn a great deal about the entities that are tracking you.",
+      "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "source": "KrebsOnSecurity",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-08T09:58:10.644538Z"
+    },
+    {
+      "id": "601eb416e07e2d819cc8d73c77eadf9f",
+      "title": "LG to Ban Residential Proxies from Smart TV Apps",
+      "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found that more than 42 percent of games and other apps available for download on LG's webOS store allow unknown third-parties to route their Internet traffic through a user's TV.",
+      "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "source": "KrebsOnSecurity",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-08T09:58:10.644628Z"
+    },
+    {
+      "id": "d7944009dff9a727ea3cf3d15b850cef",
+      "title": "W\u00e4rtsil\u00e4 Signs Lifecycle Agreement With Mercy Ships International",
+      "summary": "W\u00e4rtsil\u00e4 has signed a Lifecycle Agreement with charity organization Mercy Ships International. The contract covers a 5-year renewal of an existing service agreement for the world's largest purpose-built civilian hospital ship, the Global Mercy\u2026",
+      "link": "https://www.marinelink.com/news/wrtsil-signs-lifecycle-agreement-mercy-542745",
+      "source": "MarineLink",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-08T09:53:11.730095Z"
+      "published": "2026-09-08T09:58:08.841410Z"
     }
   ]
 }
