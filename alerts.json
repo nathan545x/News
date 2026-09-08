@@ -1,105 +1,245 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-08T11:33:04.305495Z",
+  "generated_at": "2026-09-08T11:38:09.270376Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
     "high_alerts": 0,
-    "last_updated": "2026-09-08T11:33:04.305509Z"
+    "last_updated": "2026-09-08T11:38:09.270391Z"
   },
   "top_signals": [
     {
-      "id": "64684a0b0af35fddc2ea7b6fa22ad02d",
-      "title": "CPI Can Give Fed \u2018Easy Out\u2019 on a Rate Hike, BMO\u2019s Davis Says",
-      "summary": "Earl Davis, fixed income and money markets head at BMO Global Asset Management, looks ahead to US CPI data on Friday and explains why he\u2019s watching mortgage convexity sellers. He speaks on \u201cBloomberg Surveillance.\u201d (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-08/cpi-can-give-fed-easy-out-on-a-rate-hike-bmo-s-davis-video",
-      "source": "Bloomberg",
-      "score": 35,
+      "id": "49734c2814b074c7553410edf949a098",
+      "title": "Oil Prices Climb Toward $100 as Middle East Peace Hopes Fade",
+      "summary": "Brent crude ticked up closer to $100 per barrel today as hopes for peace in the Middle East continued to shrink amid renewed mutual threats between the United States and Iran. At the time of writing, the international benchmark was trading at $97.66 per barrel, with West Texas Intermediate at $93.05 per barrel, after Iran issued a threat to the United States of \u201ceconomic warfare\u201d and said it had fired a new, advanced missile at U.S. warships. Oil prices were also pushed higher by the latest attack on Saudi Arabia\u2019s Jizan refinery,\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Toward-100-as-Middle-East-Peace-Hopes-Fade.html",
+      "source": "OilPrice",
+      "score": 48,
       "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [],
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST",
+        "US"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-08T11:38:01.912988Z"
+    },
+    {
+      "id": "3c50c11c3dde52eb43136e5cb1575149",
+      "title": "Waterborne shipments from the U.S. Gulf Coast increased in April and May",
+      "summary": "Waterborne shipments of crude oil and petroleum products from the U.S. Gulf Coast (PADD 3) to the West Coast (PADD 5) more than quadrupled year-on-year in April and May following a waiver that permitted a broader group of ships to travel between U.S. ports. Shipments from the U.S. Gulf Coast to the East Coast (PADD 1) also increased.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67964",
+      "source": "EIA",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
       "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-08T11:38:01.315068Z"
+    },
+    {
+      "id": "0805a9f2dd4149bd683e385b2a39bf76",
+      "title": "Asian Stock Markets Mixed, Investors Await U.S. CPI Data - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQT3ZxbHdlR2FvdGw3eXFsSXRLWVJOQ0hxX2hiUEVkOGZuM0lndG1pSmNaUkRkaWk3ajgtMzRPeEg4ZmxXQ1JubkIwX3F3OHhVR09sSWd5dlJYNkc0blBfaGR5VWxGQ1Rid0dTR2NueTZWTjZzc3pnRUhCMlk4V2JGRVdEUEJfWUZ3Z2lYMGFjREpsVGZYUHBfU29UME1rUjFWZzJfcGxR?oc=5\" target=\"_blank\">Asian Stock Markets Mixed, Investors Await U.S. CPI Data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQT3ZxbHdlR2FvdGw3eXFsSXRLWVJOQ0hxX2hiUEVkOGZuM0lndG1pSmNaUkRkaWk3ajgtMzRPeEg4ZmxXQ1JubkIwX3F3OHhVR09sSWd5dlJYNkc0blBfaGR5VWxGQ1Rid0dTR2NueTZWTjZzc3pnRUhCMlk4V2JGRVdEUEJfWUZ3Z2lYMGFjREpsVGZYUHBfU29UME1rUjFWZzJfcGxR?oc=5",
+      "source": "Google Macro",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "XAU",
+          "WTI",
+          "COMMODITIES"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-08T11:32:10.928961Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-08T11:38:08.656152Z"
     },
     {
-      "id": "a435d1c560317f0195ac2d3600b47d79",
-      "title": "The battle to prove who owns Gaza\u2019s ruins",
-      "summary": "Under the Palestinian enclave\u2019s rubble are papers showing to whom the land belongs",
-      "link": "https://www.ft.com/content/ab6233dc-bfdb-48d8-b71c-864ec040e78d?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
+      "id": "0bba100812740296eae6f7787e210176",
+      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&#038;T customers.",
+      "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "source": "KrebsOnSecurity",
+      "score": 1,
+      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-08T11:32:12.607219Z"
+      "published": "2026-09-08T11:38:05.805662Z"
     }
   ],
   "alerts": [
     {
-      "id": "64684a0b0af35fddc2ea7b6fa22ad02d",
-      "title": "CPI Can Give Fed \u2018Easy Out\u2019 on a Rate Hike, BMO\u2019s Davis Says",
-      "summary": "Earl Davis, fixed income and money markets head at BMO Global Asset Management, looks ahead to US CPI data on Friday and explains why he\u2019s watching mortgage convexity sellers. He speaks on \u201cBloomberg Surveillance.\u201d (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-08/cpi-can-give-fed-easy-out-on-a-rate-hike-bmo-s-davis-video",
-      "source": "Bloomberg",
-      "score": 35,
+      "id": "49734c2814b074c7553410edf949a098",
+      "title": "Oil Prices Climb Toward $100 as Middle East Peace Hopes Fade",
+      "summary": "Brent crude ticked up closer to $100 per barrel today as hopes for peace in the Middle East continued to shrink amid renewed mutual threats between the United States and Iran. At the time of writing, the international benchmark was trading at $97.66 per barrel, with West Texas Intermediate at $93.05 per barrel, after Iran issued a threat to the United States of \u201ceconomic warfare\u201d and said it had fired a new, advanced missile at U.S. warships. Oil prices were also pushed higher by the latest attack on Saudi Arabia\u2019s Jizan refinery,\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Toward-100-as-Middle-East-Peace-Hopes-Fade.html",
+      "source": "OilPrice",
+      "score": 48,
       "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [],
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST",
+        "US"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-08T11:38:01.912988Z"
+    },
+    {
+      "id": "3c50c11c3dde52eb43136e5cb1575149",
+      "title": "Waterborne shipments from the U.S. Gulf Coast increased in April and May",
+      "summary": "Waterborne shipments of crude oil and petroleum products from the U.S. Gulf Coast (PADD 3) to the West Coast (PADD 5) more than quadrupled year-on-year in April and May following a waiver that permitted a broader group of ships to travel between U.S. ports. Shipments from the U.S. Gulf Coast to the East Coast (PADD 1) also increased.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67964",
+      "source": "EIA",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
       "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-08T11:38:01.315068Z"
+    },
+    {
+      "id": "0805a9f2dd4149bd683e385b2a39bf76",
+      "title": "Asian Stock Markets Mixed, Investors Await U.S. CPI Data - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQT3ZxbHdlR2FvdGw3eXFsSXRLWVJOQ0hxX2hiUEVkOGZuM0lndG1pSmNaUkRkaWk3ajgtMzRPeEg4ZmxXQ1JubkIwX3F3OHhVR09sSWd5dlJYNkc0blBfaGR5VWxGQ1Rid0dTR2NueTZWTjZzc3pnRUhCMlk4V2JGRVdEUEJfWUZ3Z2lYMGFjREpsVGZYUHBfU29UME1rUjFWZzJfcGxR?oc=5\" target=\"_blank\">Asian Stock Markets Mixed, Investors Await U.S. CPI Data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQT3ZxbHdlR2FvdGw3eXFsSXRLWVJOQ0hxX2hiUEVkOGZuM0lndG1pSmNaUkRkaWk3ajgtMzRPeEg4ZmxXQ1JubkIwX3F3OHhVR09sSWd5dlJYNkc0blBfaGR5VWxGQ1Rid0dTR2NueTZWTjZzc3pnRUhCMlk4V2JGRVdEUEJfWUZ3Z2lYMGFjREpsVGZYUHBfU29UME1rUjFWZzJfcGxR?oc=5",
+      "source": "Google Macro",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "XAU",
+          "WTI",
+          "COMMODITIES"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-08T11:32:10.928961Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-08T11:38:08.656152Z"
     },
     {
-      "id": "a435d1c560317f0195ac2d3600b47d79",
-      "title": "The battle to prove who owns Gaza\u2019s ruins",
-      "summary": "Under the Palestinian enclave\u2019s rubble are papers showing to whom the land belongs",
-      "link": "https://www.ft.com/content/ab6233dc-bfdb-48d8-b71c-864ec040e78d?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
+      "id": "0bba100812740296eae6f7787e210176",
+      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&#038;T customers.",
+      "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "source": "KrebsOnSecurity",
+      "score": 1,
+      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-08T11:32:12.607219Z"
+      "published": "2026-09-08T11:38:05.805662Z"
     }
   ]
 }
