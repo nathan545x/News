@@ -1,24 +1,56 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-10T22:13:12.290612Z",
+  "generated_at": "2026-09-10T22:18:14.832421Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "COMMODITIES",
+    "dominant_driver": "COMMODITIES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
-    "high_alerts": 1,
-    "last_updated": "2026-09-10T22:13:12.290623Z"
+    "high_alerts": 2,
+    "last_updated": "2026-09-10T22:18:14.832434Z"
   },
   "top_signals": [
     {
-      "id": "40b7de8d49f5ba9ac06296a2867d8cd9",
-      "title": "ECB prepares for \u2018longer-lasting\u2019 inflation as it lifts interest rates to 2.5%",
-      "summary": "Central bank president Christine Lagarde warns price shock driven by Middle East conflict will persist well into 2027",
-      "link": "https://www.ft.com/content/7816ad68-58ed-494c-a66f-091a9cca2cbc?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 57,
+      "id": "32be28627903dd52b6c937daf9df140f",
+      "title": "Treasury Yields Surge as Oil, Buyback Results Fuel Selloff",
+      "summary": "The US bond-market selloff accelerated on Thursday as spiking oil prices fanned inflation fears and the Treasury Department bought fewer bonds than expected during its first expanded buyback operation.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/treasury-buys-less-than-maximum-in-longer-debt-buyback-operation",
+      "source": "Bloomberg",
+      "score": 28,
       "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "TLT",
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-10T22:16:54.893538Z"
+    },
+    {
+      "id": "00bf5825743881fcdad547adf5d0f59c",
+      "title": "Polymarket names former Amazon finance chief Warren Jenson as its first CFO",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/09/10/polymarket-names-former-amazon-finance-chief-warren-jenson-as-its-first-cfo",
+      "source": "CoinDesk",
+      "score": 16,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
@@ -37,39 +69,75 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-10T22:11:56.346641Z"
+      "published": "2026-09-10T22:18:10.882939Z"
     },
     {
-      "id": "c535bb0291c7f8b1ec23c67ee973ad28",
-      "title": "Vantage Data Centers seeks $2bn in loans from Pimco and PGIM",
-      "summary": "DigitalBridge-backed firm taps new investors for AI infrastructure as Wall Street banks limit exposure",
-      "link": "https://www.ft.com/content/e7a8a9fa-0dc2-41df-890c-9628efac54fd?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 17,
+      "id": "947d21fe716a60679b40bc13774d9a64",
+      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+      "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and deploying so many fixes each month.",
+      "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+      "source": "KrebsOnSecurity",
+      "score": 16,
       "severity": "HIGH",
-      "regime": "AI",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-10T22:18:11.511336Z"
+    },
+    {
+      "id": "b7ee71a29db204cf32432a7433d1c50e",
+      "title": "U.S. Crude Inventories Fall As Brent Prices Soar",
+      "summary": "Crude oil inventories in the United States saw a decrease of 400,000 barrels during the week ending September 4, according to new data from the U.S. Energy Information Administration (EIA) released on Thursday. The decrease brings commercial stockpiles to 424.1 million barrels, according to government data, which are now on par with the five-year average for this time of year. The EIA\u2019s data release follows API\u2019s figures that were released a day earlier, which reported that crude oil inventories had fallen by 300,000 barrels in the\u2026",
+      "link": "https://oilprice.com/Energy/Crude-Oil/US-Crude-Inventories-Fall-As-Brent-Prices-Soar.html",
+      "source": "OilPrice",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "US"
+      ],
       "assets": [
-        "AI"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
-        "bearish": []
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-10T22:11:56.047083Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-10T22:18:08.439475Z"
     },
     {
-      "id": "28588cb8a0403f4d8d47900a4aea2a13",
-      "title": "UBS CEO flags investor complacency as geopolitical and economic risks mount",
-      "summary": "The UBS top boss cautioned that investors face an increasingly complicated environment given multiple headwinds.",
-      "link": "https://www.cnbc.com/2026/09/10/ubs-ceo-sergio-ermotti-investor-complacency-piling-risks-.html",
-      "source": "CNBC",
+      "id": "b0d01d9ad29dd5d7c1d0062326ef51dd",
+      "title": "Saab tapped to continue work on Sweden\u2019s next flagship fighter jet",
+      "summary": "The Swedish government has tapped Saab to continue work on a next-generation fighter jet concept, keeping a wholly domestic iron in the fire.",
+      "link": "https://www.defensenews.com/global/europe/2026/09/09/saab-tapped-to-continue-work-on-swedens-next-flagship-fighter-jet/",
+      "source": "Defense News",
       "score": 6,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -78,48 +146,68 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-10T22:11:57.633981Z"
+      "published": "2026-09-10T22:18:09.486981Z"
     },
     {
-      "id": "bc2db94a3fdfb1905f80c5e66d12628e",
-      "title": "Treasury Takes Less Than Expected at Buyback, Pushing Up Yields - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPVDFoMGQwT1RfV280cU11T0IxcTFHbEVSaXkxLXJyaGVaVG1MRGowVWFXSC0xVDNTRDc5cGx1dUlXM3dfbmZxRE1xVmpTclpRQ0gxOVRJX1c5QzR5czd5WDJpWktpdGx3Q0JPcmVQdGs3VU1tS0x4R1FxbHYwMTBwdXlHdEpZM3RtdEJyTjRvbVBxVElLLU02ZGtJbmRpc1B3R0tnc0lSSVR6b0xSalhNcWRZMWxPQQ?oc=5\" target=\"_blank\">Treasury Takes Less Than Expected at Buyback, Pushing Up Yields</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVDFoMGQwT1RfV280cU11T0IxcTFHbEVSaXkxLXJyaGVaVG1MRGowVWFXSC0xVDNTRDc5cGx1dUlXM3dfbmZxRE1xVmpTclpRQ0gxOVRJX1c5QzR5czd5WDJpWktpdGx3Q0JPcmVQdGs3VU1tS0x4R1FxbHYwMTBwdXlHdEpZM3RtdEJyTjRvbVBxVElLLU02ZGtJbmRpc1B3R0tnc0lSSVR6b0xSalhNcWRZMWxPQQ?oc=5",
-      "source": "Google Macro",
-      "score": 5,
+      "id": "f3e0c76cb8fe3428c5a39213a14bde98",
+      "title": "How to get a start in reading books in Japanese",
+      "summary": "From picture books to manga and young adult fiction, here's how to find Japanese books that match your language level.",
+      "link": "https://www.japantimes.co.jp/life/2026/09/11/language/japanese-reading-basic-books/",
+      "source": "Japan Times",
+      "score": 1,
       "severity": "LOW",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
       ],
-      "regions": [],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-10T22:13:10.009165Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-10T22:18:01.554057Z"
     }
   ],
   "alerts": [
     {
-      "id": "40b7de8d49f5ba9ac06296a2867d8cd9",
-      "title": "ECB prepares for \u2018longer-lasting\u2019 inflation as it lifts interest rates to 2.5%",
-      "summary": "Central bank president Christine Lagarde warns price shock driven by Middle East conflict will persist well into 2027",
-      "link": "https://www.ft.com/content/7816ad68-58ed-494c-a66f-091a9cca2cbc?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 57,
+      "id": "32be28627903dd52b6c937daf9df140f",
+      "title": "Treasury Yields Surge as Oil, Buyback Results Fuel Selloff",
+      "summary": "The US bond-market selloff accelerated on Thursday as spiking oil prices fanned inflation fears and the Treasury Department bought fewer bonds than expected during its first expanded buyback operation.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/treasury-buys-less-than-maximum-in-longer-debt-buyback-operation",
+      "source": "Bloomberg",
+      "score": 28,
       "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "TLT",
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-10T22:16:54.893538Z"
+    },
+    {
+      "id": "00bf5825743881fcdad547adf5d0f59c",
+      "title": "Polymarket names former Amazon finance chief Warren Jenson as its first CFO",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/09/10/polymarket-names-former-amazon-finance-chief-warren-jenson-as-its-first-cfo",
+      "source": "CoinDesk",
+      "score": 16,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
@@ -138,39 +226,75 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-10T22:11:56.346641Z"
+      "published": "2026-09-10T22:18:10.882939Z"
     },
     {
-      "id": "c535bb0291c7f8b1ec23c67ee973ad28",
-      "title": "Vantage Data Centers seeks $2bn in loans from Pimco and PGIM",
-      "summary": "DigitalBridge-backed firm taps new investors for AI infrastructure as Wall Street banks limit exposure",
-      "link": "https://www.ft.com/content/e7a8a9fa-0dc2-41df-890c-9628efac54fd?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 17,
+      "id": "947d21fe716a60679b40bc13774d9a64",
+      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+      "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and deploying so many fixes each month.",
+      "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+      "source": "KrebsOnSecurity",
+      "score": 16,
       "severity": "HIGH",
-      "regime": "AI",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-10T22:18:11.511336Z"
+    },
+    {
+      "id": "b7ee71a29db204cf32432a7433d1c50e",
+      "title": "U.S. Crude Inventories Fall As Brent Prices Soar",
+      "summary": "Crude oil inventories in the United States saw a decrease of 400,000 barrels during the week ending September 4, according to new data from the U.S. Energy Information Administration (EIA) released on Thursday. The decrease brings commercial stockpiles to 424.1 million barrels, according to government data, which are now on par with the five-year average for this time of year. The EIA\u2019s data release follows API\u2019s figures that were released a day earlier, which reported that crude oil inventories had fallen by 300,000 barrels in the\u2026",
+      "link": "https://oilprice.com/Energy/Crude-Oil/US-Crude-Inventories-Fall-As-Brent-Prices-Soar.html",
+      "source": "OilPrice",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "US"
+      ],
       "assets": [
-        "AI"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
-        "bearish": []
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-10T22:11:56.047083Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-10T22:18:08.439475Z"
     },
     {
-      "id": "28588cb8a0403f4d8d47900a4aea2a13",
-      "title": "UBS CEO flags investor complacency as geopolitical and economic risks mount",
-      "summary": "The UBS top boss cautioned that investors face an increasingly complicated environment given multiple headwinds.",
-      "link": "https://www.cnbc.com/2026/09/10/ubs-ceo-sergio-ermotti-investor-complacency-piling-risks-.html",
-      "source": "CNBC",
+      "id": "b0d01d9ad29dd5d7c1d0062326ef51dd",
+      "title": "Saab tapped to continue work on Sweden\u2019s next flagship fighter jet",
+      "summary": "The Swedish government has tapped Saab to continue work on a next-generation fighter jet concept, keeping a wholly domestic iron in the fire.",
+      "link": "https://www.defensenews.com/global/europe/2026/09/09/saab-tapped-to-continue-work-on-swedens-next-flagship-fighter-jet/",
+      "source": "Defense News",
       "score": 6,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -179,37 +303,25 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-10T22:11:57.633981Z"
+      "published": "2026-09-10T22:18:09.486981Z"
     },
     {
-      "id": "bc2db94a3fdfb1905f80c5e66d12628e",
-      "title": "Treasury Takes Less Than Expected at Buyback, Pushing Up Yields - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPVDFoMGQwT1RfV280cU11T0IxcTFHbEVSaXkxLXJyaGVaVG1MRGowVWFXSC0xVDNTRDc5cGx1dUlXM3dfbmZxRE1xVmpTclpRQ0gxOVRJX1c5QzR5czd5WDJpWktpdGx3Q0JPcmVQdGs3VU1tS0x4R1FxbHYwMTBwdXlHdEpZM3RtdEJyTjRvbVBxVElLLU02ZGtJbmRpc1B3R0tnc0lSSVR6b0xSalhNcWRZMWxPQQ?oc=5\" target=\"_blank\">Treasury Takes Less Than Expected at Buyback, Pushing Up Yields</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVDFoMGQwT1RfV280cU11T0IxcTFHbEVSaXkxLXJyaGVaVG1MRGowVWFXSC0xVDNTRDc5cGx1dUlXM3dfbmZxRE1xVmpTclpRQ0gxOVRJX1c5QzR5czd5WDJpWktpdGx3Q0JPcmVQdGs3VU1tS0x4R1FxbHYwMTBwdXlHdEpZM3RtdEJyTjRvbVBxVElLLU02ZGtJbmRpc1B3R0tnc0lSSVR6b0xSalhNcWRZMWxPQQ?oc=5",
-      "source": "Google Macro",
-      "score": 5,
+      "id": "f3e0c76cb8fe3428c5a39213a14bde98",
+      "title": "How to get a start in reading books in Japanese",
+      "summary": "From picture books to manga and young adult fiction, here's how to find Japanese books that match your language level.",
+      "link": "https://www.japantimes.co.jp/life/2026/09/11/language/japanese-reading-basic-books/",
+      "source": "Japan Times",
+      "score": 1,
       "severity": "LOW",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
       ],
-      "regions": [],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-10T22:13:10.009165Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-10T22:18:01.554057Z"
     }
   ]
 }
