@@ -1,33 +1,61 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-10T14:38:08.540407Z",
+  "generated_at": "2026-09-10T14:43:15.589835Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "INFLATION",
+    "dominant_driver": "INFLATION",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
-    "high_alerts": 1,
-    "last_updated": "2026-09-10T14:38:08.540421Z"
+    "high_alerts": 0,
+    "last_updated": "2026-09-10T14:43:15.589848Z"
   },
   "top_signals": [
     {
-      "id": "2e4b3b179e4264e474d54c167136e157",
-      "title": "European Bond Selloff Deepens as ECB Flags Inflation Risks",
-      "summary": "A selloff in European bonds extended after European Central Bank President Christine Lagarde flagged risks to inflation, adding to investors\u2019 ongoing concerns about elevated energy prices.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-10/european-bond-selloff-deepens-as-ecb-flags-inflationary-risks",
+      "id": "ac51d2192f297409681ad1006dbcaa1d",
+      "title": "Dollar Has Best Day in Two Weeks as PPI, Oil Add to Fed Bets",
+      "summary": "The dollar jumped after a US producer price report suggested inflationary pressures are increasing and oil prices rose, with both adding to expectations that the Federal Reserve will raise rates this year.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/dollar-has-best-day-in-two-weeks-as-ppi-oil-add-to-fed-bets",
       "source": "Bloomberg",
       "score": 40,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "INFLATION",
       "tickers": [
-        "EUR"
+        "DXY",
+        "WTI"
       ],
-      "regions": [
-        "EUROPE"
-      ],
+      "regions": [],
       "assets": [
-        "FX"
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-10T14:42:12.816579Z"
+    },
+    {
+      "id": "6f0bd54b0ea0870bf73f15b6d41221ea",
+      "title": "Stocks, Bonds Fall as Traders Boost Fed-Hike Bets: Markets Wrap - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOeDNPY1UtR3dhUVBsYWhkc21iVFB1VmptOUFuVlhGdHgtZ0Zpb29KZVBUbHk0Sl9ZNnNIYmxMLWNQU25kT0ZMSVIzMkVZQUFub3R2WnQ3NV9mT29Id1lYVml0MF9qcFFPSzg1cndWWEltOWVLQUd3blRKMHM2eHVMSnFTc3dva3ZIOGVxV2RzWnF3Qnl5?oc=5\" target=\"_blank\">Stocks, Bonds Fall as Traders Boost Fed-Hike Bets: Markets Wrap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeDNPY1UtR3dhUVBsYWhkc21iVFB1VmptOUFuVlhGdHgtZ0Zpb29KZVBUbHk0Sl9ZNnNIYmxMLWNQU25kT0ZMSVIzMkVZQUFub3R2WnQ3NV9mT29Id1lYVml0MF9qcFFPSzg1cndWWEltOWVLQUd3blRKMHM2eHVMSnFTc3dva3ZIOGVxV2RzWnF3Qnl5?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -41,104 +69,55 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-10T14:37:02.838173Z"
-    },
-    {
-      "id": "05d3c4915dbba229ee059056e0108f86",
-      "title": "Hormuz Fuel Exports\u2019 Slow Recovery Keeps Prices Near Record",
-      "summary": "Oil-product exports through the Strait of Hormuz are slowly recovering, but the pace hasn\u2019t been enough to prevent a surge in fuel prices that is squeezing consumers around the world.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-10/hormuz-fuel-exports-slow-recovery-keeps-prices-near-record",
-      "source": "Bloomberg",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-10T14:37:02.838277Z"
-    },
-    {
-      "id": "2c23966adcfcff168a4624b65749a58c",
-      "title": "China sells J-10C fighter jet to Uzbekistan, eyes more markets for weapons",
-      "summary": "",
-      "link": "https://asia.nikkei.com/politics/defense/china-sells-j-10c-fighter-jet-to-uzbekistan-eyes-more-markets-for-weapons",
-      "source": "Nikkei Asia",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "CHINA"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-10T14:37:58.236745Z"
-    },
-    {
-      "id": "c328e0dabd973edef755a77e12b4e98a",
-      "title": "Existing Home Sales Fall to Weakest in More Than a Year",
-      "summary": "Sales of previously owned homes in the US slowed last month to their weakest pace in more than a year. Michael McKee reports on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-10/existing-home-sales-fall-to-weakest-in-more-than-a-year-video",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-10T14:37:02.838215Z"
+      "published": "2026-09-10T14:43:13.331445Z"
     }
   ],
   "alerts": [
     {
-      "id": "2e4b3b179e4264e474d54c167136e157",
-      "title": "European Bond Selloff Deepens as ECB Flags Inflation Risks",
-      "summary": "A selloff in European bonds extended after European Central Bank President Christine Lagarde flagged risks to inflation, adding to investors\u2019 ongoing concerns about elevated energy prices.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-10/european-bond-selloff-deepens-as-ecb-flags-inflationary-risks",
+      "id": "ac51d2192f297409681ad1006dbcaa1d",
+      "title": "Dollar Has Best Day in Two Weeks as PPI, Oil Add to Fed Bets",
+      "summary": "The dollar jumped after a US producer price report suggested inflationary pressures are increasing and oil prices rose, with both adding to expectations that the Federal Reserve will raise rates this year.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/dollar-has-best-day-in-two-weeks-as-ppi-oil-add-to-fed-bets",
       "source": "Bloomberg",
       "score": 40,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "INFLATION",
       "tickers": [
-        "EUR"
+        "DXY",
+        "WTI"
       ],
-      "regions": [
-        "EUROPE"
-      ],
+      "regions": [],
       "assets": [
-        "FX"
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-10T14:42:12.816579Z"
+    },
+    {
+      "id": "6f0bd54b0ea0870bf73f15b6d41221ea",
+      "title": "Stocks, Bonds Fall as Traders Boost Fed-Hike Bets: Markets Wrap - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOeDNPY1UtR3dhUVBsYWhkc21iVFB1VmptOUFuVlhGdHgtZ0Zpb29KZVBUbHk0Sl9ZNnNIYmxMLWNQU25kT0ZMSVIzMkVZQUFub3R2WnQ3NV9mT29Id1lYVml0MF9qcFFPSzg1cndWWEltOWVLQUd3blRKMHM2eHVMSnFTc3dva3ZIOGVxV2RzWnF3Qnl5?oc=5\" target=\"_blank\">Stocks, Bonds Fall as Traders Boost Fed-Hike Bets: Markets Wrap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeDNPY1UtR3dhUVBsYWhkc21iVFB1VmptOUFuVlhGdHgtZ0Zpb29KZVBUbHk0Sl9ZNnNIYmxMLWNQU25kT0ZMSVIzMkVZQUFub3R2WnQ3NV9mT29Id1lYVml0MF9qcFFPSzg1cndWWEltOWVLQUd3blRKMHM2eHVMSnFTc3dva3ZIOGVxV2RzWnF3Qnl5?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -152,84 +131,7 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-10T14:37:02.838173Z"
-    },
-    {
-      "id": "05d3c4915dbba229ee059056e0108f86",
-      "title": "Hormuz Fuel Exports\u2019 Slow Recovery Keeps Prices Near Record",
-      "summary": "Oil-product exports through the Strait of Hormuz are slowly recovering, but the pace hasn\u2019t been enough to prevent a surge in fuel prices that is squeezing consumers around the world.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-10/hormuz-fuel-exports-slow-recovery-keeps-prices-near-record",
-      "source": "Bloomberg",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-10T14:37:02.838277Z"
-    },
-    {
-      "id": "2c23966adcfcff168a4624b65749a58c",
-      "title": "China sells J-10C fighter jet to Uzbekistan, eyes more markets for weapons",
-      "summary": "",
-      "link": "https://asia.nikkei.com/politics/defense/china-sells-j-10c-fighter-jet-to-uzbekistan-eyes-more-markets-for-weapons",
-      "source": "Nikkei Asia",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "CHINA"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-10T14:37:58.236745Z"
-    },
-    {
-      "id": "c328e0dabd973edef755a77e12b4e98a",
-      "title": "Existing Home Sales Fall to Weakest in More Than a Year",
-      "summary": "Sales of previously owned homes in the US slowed last month to their weakest pace in more than a year. Michael McKee reports on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-10/existing-home-sales-fall-to-weakest-in-more-than-a-year-video",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-10T14:37:02.838215Z"
+      "published": "2026-09-10T14:43:13.331445Z"
     }
   ]
 }
