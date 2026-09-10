@@ -1,33 +1,176 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-10T18:58:05.743698Z",
+  "generated_at": "2026-09-10T19:03:55.993328Z",
   "market_regime": {
     "regime": "RATES",
     "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-09-10T18:58:05.743710Z"
+    "critical_alerts": 2,
+    "high_alerts": 1,
+    "last_updated": "2026-09-10T19:03:55.993345Z"
   },
   "top_signals": [
     {
-      "id": "d47d763f6e498170a823ba181008d63a",
-      "title": "Treasury yields hit session highs after Bessent\u2019s buyback operation misses target",
-      "summary": "Global bond sell-off reignited by confluence of higher oil prices, sticky US inflation and ECB\u2019s decision to raise interest rates",
-      "link": "https://www.ft.com/content/083a9c4b-3913-496d-be13-22c96053624b?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 39,
+      "id": "63dfcdf478ed4f62ee228d63591b022f",
+      "title": "U.S. crude oil tops $100 again \u2013 last seen in May \u2013 as market braces for prolonged Iran war",
+      "summary": "Oil prices remain elevated amid worries that escalating tensions in the Middle East could further exacerbate supply disruptions",
+      "link": "https://www.cnbc.com/2026/09/10/iran-us-oil-hormuz-supply-trump-military-brent-wti.html",
+      "source": "CNBC",
+      "score": 54,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-10T19:02:55.694522Z"
+    },
+    {
+      "id": "e7dee02c9b7bc299f3ccf7194169af56",
+      "title": "Dollar Rises as Fed Hike Bets Grow Heading Into Inflation Report",
+      "summary": "The dollar rose as strong US producer prices and an oil rally boosted bets on Federal Reserve interest-rate hikes this year, putting more focus on Friday\u2019s inflation report.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/dollar-has-best-day-in-two-weeks-as-ppi-oil-add-to-fed-bets",
+      "source": "Bloomberg",
+      "score": 38,
       "severity": "CRITICAL",
       "regime": "RATES",
       "tickers": [
-        "TLT",
+        "DXY",
         "WTI"
       ],
       "regions": [],
       "assets": [
-        "AI",
-        "COMMODITIES",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-10T19:02:51.827143Z"
+    },
+    {
+      "id": "c40c6a8b1d719df311079051562e3b4d",
+      "title": "Christine Lagarde, Boris Vuj\u010di\u0107: Monetary policy statement",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
+      "source": "ECB",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-10T19:03:37.555926Z"
+    },
+    {
+      "id": "df4aed44003b5bb0605510414d2e1f58",
+      "title": "Apple\u2019s big goal after foldable iPhone",
+      "summary": "The first critical step for new CEO John Ternus will be to make AI an everyday reality on its devices",
+      "link": "https://www.ft.com/content/cc99c301-8c5d-4014-889e-8eb374d993f9?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-10T19:02:54.503112Z"
+    },
+    {
+      "id": "fc25fc47021a48c8ae734fb33c5df470",
+      "title": "Researchers halve quantum resource benchmark for key operation in Bitcoin, Ethereum attack",
+      "summary": "The resulting benchmark is less than half Google's previously reported level, though the two approaches use different accounting methods.",
+      "link": "https://www.theblock.co/news/ecosystems/2026-09-10-researchers-halve-quantum-resource-benchmark-for-key-operation-in-bitcoin-ethereum-attack-414121",
+      "source": "The Block",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC",
+        "ETH"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-10T19:03:52.441447Z"
+    },
+    {
+      "id": "7222d7267e3355c112da9d676d8876c3",
+      "title": "Apple's foldable phone, Macy's earnings, Treasury buybacks and more in Morning Squawk",
+      "summary": "Here are five key things investors need to know to start the trading day.",
+      "link": "https://www.cnbc.com/2026/09/10/5-things-to-know-before-the-stock-market-opens.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
         "RATES"
       ],
       "market_impact": {
@@ -42,165 +185,66 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-10T18:57:06.819487Z"
+      "published": "2026-09-10T19:02:55.515531Z"
     },
     {
-      "id": "8d166ec661e540400aa7cd485d7ad7d4",
-      "title": "Wealthy investors seek oil and gas assets, but bargains are scarce - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE1TUXZDLXNKSTRUY1NaVUF0T0tIZWo3NGVYUzJDRTU4NmN0dVFWTWVKb21oeDMwS01ac3pRTUpOTHB4TzJva1U0d0lmZi1MNEgzUUFJTkRxcVkzVERyUElXdVpwYUV1ajRxeFdfNDNDemFlUmFBT042NdIBfkFVX3lxTE0xYUtxUUlLMzdWWTcxXzJyVVNjc2hxRjNIV0xxOWJ5R3NseklYOFBFVzRxdVJyZVZ6dE9CMmhWcmItaFBfU21fQXNjVWx3RHlfbmJuVXktNTZRQ0MzNlBEeGRJQllZMm9iQW1vT2otM0Q0Y0dNcmdkQUIycGtwdw?oc=5\" target=\"_blank\">Wealthy investors seek oil and gas assets, but bargains are scarce</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1TUXZDLXNKSTRUY1NaVUF0T0tIZWo3NGVYUzJDRTU4NmN0dVFWTWVKb21oeDMwS01ac3pRTUpOTHB4TzJva1U0d0lmZi1MNEgzUUFJTkRxcVkzVERyUElXdVpwYUV1ajRxeFdfNDNDemFlUmFBT042NdIBfkFVX3lxTE0xYUtxUUlLMzdWWTcxXzJyVVNjc2hxRjNIV0xxOWJ5R3NseklYOFBFVzRxdVJyZVZ6dE9CMmhWcmItaFBfU21fQXNjVWx3RHlfbmJuVXktNTZRQ0MzNlBEeGRJQllZMm9iQW1vT2otM0Q0Y0dNcmdkQUIycGtwdw?oc=5",
-      "source": "Google Macro",
-      "score": 13,
+      "id": "213af8694855f86da46d73da8ca162db",
+      "title": "Burnham urged not to snub Commonwealth summit amid reparations demands",
+      "summary": "UK prime minister is weighing up whether to attend biennial event being held in Antigua",
+      "link": "https://www.ft.com/content/92a1f269-2832-4bcd-aad6-629fd86dda0f?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
       "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-10T18:58:05.743592Z"
-    },
-    {
-      "id": "05444464f5322d491da087e42fb13d20",
-      "title": "Wall Street dips as Treasury yields rise and investors fret about inflation - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPVUNZS2ZwczJmM0x1aEM5ZFJMbUhWckRSOE54a1NyTFZjb1NaNFNCZDFwOFJiMk40b1RJelZsVnhKOVNObGNGenNkZzVhUWtZRlktVzhTWk9Qc1EybkRweDk4RFRRUjh2bk1TU0lJazBncUFnUlcwcTlPVWY3NjBzdWVUd3JGTDlLeF9EMU1aTnEzSDctTVcxZVdzT1RZclZjanRhbkl3?oc=5\" target=\"_blank\">Wall Street dips as Treasury yields rise and investors fret about inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVUNZS2ZwczJmM0x1aEM5ZFJMbUhWckRSOE54a1NyTFZjb1NaNFNCZDFwOFJiMk40b1RJelZsVnhKOVNObGNGenNkZzVhUWtZRlktVzhTWk9Qc1EybkRweDk4RFRRUjh2bk1TU0lJazBncUFnUlcwcTlPVWY3NjBzdWVUd3JGTDlLeF9EMU1aTnEzSDctTVcxZVdzT1RZclZjanRhbkl3?oc=5",
-      "source": "Google Macro",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-10T18:58:03.837435Z"
-    },
-    {
-      "id": "ff6a02f72fec5bd703ff818f0e7caf2a",
-      "title": "Nasdaq to invest $100 million in Kraken parent Payward as firms expand partnership",
-      "summary": "Nasdaq Ventures agreed to invest $100 million in Kraken parent Payward, expanding their tokenized equity infrastructure partnership.",
-      "link": "https://www.theblock.co/news/deals/2026-09-10-nasdaq-to-invest-100-million-in-kraken-parent-payward-as-firms-expand-partnership-414120",
-      "source": "The Block",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "QQQ"
-      ],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-10T18:58:02.265453Z"
-    },
-    {
-      "id": "0345b7f7af31b3fe5ae1d911f78e387f",
-      "title": "Recent oil rally feels less transient, says Real Macro CEO Jeff Currie - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOdTBuSURHQ3dlcTF3U1ladks3VEpORnFrSDhwS1pwV0dGQkRSNks0WENncVFOOTM4a1JWU2NQNkxvc25FX0pUUzFha1pxWFhWLXR4WUcwRlVORC1tcVc1aFJPWTE2MmhNRHFVUmFyZ2pUempaaUxSYzBDYnlfV2dBSTRHV3NVMUZsbXZUNzdzTENlZ3ZqYURrSFJpNHZ3MExCNVhpdjl3cTcxMnZ6LXdOTGVB?oc=5\" target=\"_blank\">Recent oil rally feels less transient, says Real Macro CEO Jeff Currie</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdTBuSURHQ3dlcTF3U1ladks3VEpORnFrSDhwS1pwV0dGQkRSNks0WENncVFOOTM4a1JWU2NQNkxvc25FX0pUUzFha1pxWFhWLXR4WUcwRlVORC1tcVc1aFJPWTE2MmhNRHFVUmFyZ2pUempaaUxSYzBDYnlfV2dBSTRHV3NVMUZsbXZUNzdzTENlZ3ZqYURrSFJpNHZ3MExCNVhpdjl3cTcxMnZ6LXdOTGVB?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-10T18:58:05.743671Z"
-    },
-    {
-      "id": "24ff6bd3b8f9213e588ccbba3eebb682",
-      "title": "Is now really the time to worry about a new China shock? - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE1vdXJJRWtpT0xyUUdiVU10Y1pjSHhKWjgwQUhpa2pDaUllXzV1Zk5OOWVINWQ5NHBXSVViME5vWVpkcDVudVNROE5faFgxZUxXUTBPcHpPdHpIQlZQVVB1X1ItRW5uWkFLamVmS2htaHA?oc=5\" target=\"_blank\">Is now really the time to worry about a new China shock?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vdXJJRWtpT0xyUUdiVU10Y1pjSHhKWjgwQUhpa2pDaUllXzV1Zk5OOWVINWQ5NHBXSVViME5vWVpkcDVudVNROE5faFgxZUxXUTBPcHpPdHpIQlZQVVB1X1ItRW5uWkFLamVmS2htaHA?oc=5",
-      "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GEO-SHOCK",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "CHINA"
+        "UK"
       ],
       "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-10T18:58:04.471823Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-10T19:02:54.503050Z"
     },
     {
-      "id": "9205ac2a6e8e5dee9d39c4e7c9aa7513",
-      "title": "Trump's $1 trillion-plus 'dividend' plan meets immediate bipartisan pushback",
-      "summary": "Such a payout could cost more than $1 trillion and is likely to face legal obstacles.",
-      "link": "https://www.cnbc.com/2026/09/10/trump-dividend-midterms-gop.html",
-      "source": "CNBC",
+      "id": "e7eb7407bcb356d97139432f0fd763d6",
+      "title": "Mahmood demands \u2018effective police action\u2019 ahead of UK anti-migrant protests",
+      "summary": "Call by home secretary follows disruption and violence in Dover and Portsmouth last weekend by Patriot Platform",
+      "link": "https://www.ft.com/content/f1542280-1e6e-40ea-ac7f-83a5866a19f2?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-10T19:02:54.503158Z"
+    },
+    {
+      "id": "f4a256d5bcb298a31703a4a36f447361",
+      "title": "US 'will not return' to promoting free trade, New Right strategist says",
+      "summary": "",
+      "link": "https://asia.nikkei.com/editor-s-picks/interview/us-will-not-return-to-promoting-free-trade-new-right-strategist-says",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-10T19:03:46.588694Z"
+    },
+    {
+      "id": "0091c89fcb30be84faaccbcadae010df",
+      "title": "Why a new SEC plan could end the legal headaches of holding tokenized securities",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/09/10/why-a-new-sec-plan-could-end-the-legal-headaches-of-holding-tokenized-securities",
+      "source": "CoinDesk",
       "score": 6,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -209,79 +253,202 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-10T18:57:09.655966Z"
+      "published": "2026-09-10T19:03:52.261385Z"
     },
     {
-      "id": "14e8ae8d496d6f84a41769fc37dce24b",
-      "title": "UK appoints new commander of National Cyber Force",
-      "summary": "The individual has not yet been avowed \u2014 the formal process in Britain by which an intelligence or security figure\u2019s identity is publicly acknowledged \u2014 as routine security considerations are still being worked through.",
-      "link": "https://therecord.media/uk-appoints-new-commander-of-national-cyber-force",
-      "source": "The Record",
-      "score": 5,
+      "id": "db323245c24f0326ae73d4d7f9ba684e",
+      "title": "US Natural Gas Market Verging on Record Growth",
+      "summary": "US natural gas production is projected to reach a record high of 111.7 billion cubic feet per day (bcfd) in 2026, up from 107.6 bcfd in 2025, according to the U.S. Energy Information Administration (EIA). By 2027, domestic supply is expected to hit 115.9 bcfd. But that\u2019s only half the story. Over the next two years, US natural gas supply and demand will both rise to record levels, the EIA states in its Short-Term Energy Outlook. Domestic gas consumption is projected to rise from a record 91.9 bcfd in 2025 to 111.7 bcfd in 2026 and 115.9 bcfd\u2026",
+      "link": "https://oilprice.com/Energy/Natural-Gas/US-Natural-Gas-Market-Verging-on-Record-Growth.html",
+      "source": "OilPrice",
+      "score": 1,
       "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-10T18:58:02.591584Z"
-    },
-    {
-      "id": "431e1d5c1efd00970062f77c8fe6fb66",
-      "title": "Exclusive | Wall Street\u2019s Favorite AI Startup Sets Its Sights on Wealth Management - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQeG9GSFJtQUx6dnUtNUt3NFVsbnctaVE2N2tTa1lvYnJDc2Z5WHlTMHRieFlWR0E3NDd4SzFfby1WSVhZVVBlOE1RakR4dGh4cHhNeEtUODBMY2h6elA2cDdpdDhQZU5PcFFuN085YkVSeDQ0VVFwMjVpX2E4TW90SE1yNkpaV1lLb3VoSWVuQ0Jpdl9MQWQ0SFNXNWJiUXdIN2JCNG02bFdSUWhsYW5wSXRDQVM?oc=5\" target=\"_blank\">Exclusive | Wall Street\u2019s Favorite AI Startup Sets Its Sights on Wealth Management</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeG9GSFJtQUx6dnUtNUt3NFVsbnctaVE2N2tTa1lvYnJDc2Z5WHlTMHRieFlWR0E3NDd4SzFfby1WSVhZVVBlOE1RakR4dGh4cHhNeEtUODBMY2h6elA2cDdpdDhQZU5PcFFuN085YkVSeDQ0VVFwMjVpX2E4TW90SE1yNkpaV1lLb3VoSWVuQ0Jpdl9MQWQ0SFNXNWJiUXdIN2JCNG02bFdSUWhsYW5wSXRDQVM?oc=5",
-      "source": "Google Macro",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-10T18:58:04.978107Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-10T19:03:49.580433Z"
+    },
+    {
+      "id": "e5b37eda6b56b9a9f516f596b4188f90",
+      "title": "IDScan confirms breach after hackers offer 153 million driver\u2019s license scans for sale",
+      "summary": "A notice dated September 4 but not widely shared shows that IDScan acknowledged a data breach but did not specify how many people were affected.",
+      "link": "https://therecord.media/idscan-data-breach-notice-drivers-licenses",
+      "source": "The Record",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-10T19:03:52.986433Z"
     }
   ],
   "alerts": [
     {
-      "id": "d47d763f6e498170a823ba181008d63a",
-      "title": "Treasury yields hit session highs after Bessent\u2019s buyback operation misses target",
-      "summary": "Global bond sell-off reignited by confluence of higher oil prices, sticky US inflation and ECB\u2019s decision to raise interest rates",
-      "link": "https://www.ft.com/content/083a9c4b-3913-496d-be13-22c96053624b?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 39,
+      "id": "63dfcdf478ed4f62ee228d63591b022f",
+      "title": "U.S. crude oil tops $100 again \u2013 last seen in May \u2013 as market braces for prolonged Iran war",
+      "summary": "Oil prices remain elevated amid worries that escalating tensions in the Middle East could further exacerbate supply disruptions",
+      "link": "https://www.cnbc.com/2026/09/10/iran-us-oil-hormuz-supply-trump-military-brent-wti.html",
+      "source": "CNBC",
+      "score": 54,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-10T19:02:55.694522Z"
+    },
+    {
+      "id": "e7dee02c9b7bc299f3ccf7194169af56",
+      "title": "Dollar Rises as Fed Hike Bets Grow Heading Into Inflation Report",
+      "summary": "The dollar rose as strong US producer prices and an oil rally boosted bets on Federal Reserve interest-rate hikes this year, putting more focus on Friday\u2019s inflation report.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/dollar-has-best-day-in-two-weeks-as-ppi-oil-add-to-fed-bets",
+      "source": "Bloomberg",
+      "score": 38,
       "severity": "CRITICAL",
       "regime": "RATES",
       "tickers": [
-        "TLT",
+        "DXY",
         "WTI"
       ],
       "regions": [],
       "assets": [
-        "AI",
-        "COMMODITIES",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-10T19:02:51.827143Z"
+    },
+    {
+      "id": "c40c6a8b1d719df311079051562e3b4d",
+      "title": "Christine Lagarde, Boris Vuj\u010di\u0107: Monetary policy statement",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
+      "source": "ECB",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-10T19:03:37.555926Z"
+    },
+    {
+      "id": "df4aed44003b5bb0605510414d2e1f58",
+      "title": "Apple\u2019s big goal after foldable iPhone",
+      "summary": "The first critical step for new CEO John Ternus will be to make AI an everyday reality on its devices",
+      "link": "https://www.ft.com/content/cc99c301-8c5d-4014-889e-8eb374d993f9?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-10T19:02:54.503112Z"
+    },
+    {
+      "id": "fc25fc47021a48c8ae734fb33c5df470",
+      "title": "Researchers halve quantum resource benchmark for key operation in Bitcoin, Ethereum attack",
+      "summary": "The resulting benchmark is less than half Google's previously reported level, though the two approaches use different accounting methods.",
+      "link": "https://www.theblock.co/news/ecosystems/2026-09-10-researchers-halve-quantum-resource-benchmark-for-key-operation-in-bitcoin-ethereum-attack-414121",
+      "source": "The Block",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC",
+        "ETH"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-10T19:03:52.441447Z"
+    },
+    {
+      "id": "7222d7267e3355c112da9d676d8876c3",
+      "title": "Apple's foldable phone, Macy's earnings, Treasury buybacks and more in Morning Squawk",
+      "summary": "Here are five key things investors need to know to start the trading day.",
+      "link": "https://www.cnbc.com/2026/09/10/5-things-to-know-before-the-stock-market-opens.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
         "RATES"
       ],
       "market_impact": {
@@ -296,165 +463,66 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-10T18:57:06.819487Z"
+      "published": "2026-09-10T19:02:55.515531Z"
     },
     {
-      "id": "8d166ec661e540400aa7cd485d7ad7d4",
-      "title": "Wealthy investors seek oil and gas assets, but bargains are scarce - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE1TUXZDLXNKSTRUY1NaVUF0T0tIZWo3NGVYUzJDRTU4NmN0dVFWTWVKb21oeDMwS01ac3pRTUpOTHB4TzJva1U0d0lmZi1MNEgzUUFJTkRxcVkzVERyUElXdVpwYUV1ajRxeFdfNDNDemFlUmFBT042NdIBfkFVX3lxTE0xYUtxUUlLMzdWWTcxXzJyVVNjc2hxRjNIV0xxOWJ5R3NseklYOFBFVzRxdVJyZVZ6dE9CMmhWcmItaFBfU21fQXNjVWx3RHlfbmJuVXktNTZRQ0MzNlBEeGRJQllZMm9iQW1vT2otM0Q0Y0dNcmdkQUIycGtwdw?oc=5\" target=\"_blank\">Wealthy investors seek oil and gas assets, but bargains are scarce</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1TUXZDLXNKSTRUY1NaVUF0T0tIZWo3NGVYUzJDRTU4NmN0dVFWTWVKb21oeDMwS01ac3pRTUpOTHB4TzJva1U0d0lmZi1MNEgzUUFJTkRxcVkzVERyUElXdVpwYUV1ajRxeFdfNDNDemFlUmFBT042NdIBfkFVX3lxTE0xYUtxUUlLMzdWWTcxXzJyVVNjc2hxRjNIV0xxOWJ5R3NseklYOFBFVzRxdVJyZVZ6dE9CMmhWcmItaFBfU21fQXNjVWx3RHlfbmJuVXktNTZRQ0MzNlBEeGRJQllZMm9iQW1vT2otM0Q0Y0dNcmdkQUIycGtwdw?oc=5",
-      "source": "Google Macro",
-      "score": 13,
+      "id": "213af8694855f86da46d73da8ca162db",
+      "title": "Burnham urged not to snub Commonwealth summit amid reparations demands",
+      "summary": "UK prime minister is weighing up whether to attend biennial event being held in Antigua",
+      "link": "https://www.ft.com/content/92a1f269-2832-4bcd-aad6-629fd86dda0f?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
       "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-10T18:58:05.743592Z"
-    },
-    {
-      "id": "05444464f5322d491da087e42fb13d20",
-      "title": "Wall Street dips as Treasury yields rise and investors fret about inflation - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPVUNZS2ZwczJmM0x1aEM5ZFJMbUhWckRSOE54a1NyTFZjb1NaNFNCZDFwOFJiMk40b1RJelZsVnhKOVNObGNGenNkZzVhUWtZRlktVzhTWk9Qc1EybkRweDk4RFRRUjh2bk1TU0lJazBncUFnUlcwcTlPVWY3NjBzdWVUd3JGTDlLeF9EMU1aTnEzSDctTVcxZVdzT1RZclZjanRhbkl3?oc=5\" target=\"_blank\">Wall Street dips as Treasury yields rise and investors fret about inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVUNZS2ZwczJmM0x1aEM5ZFJMbUhWckRSOE54a1NyTFZjb1NaNFNCZDFwOFJiMk40b1RJelZsVnhKOVNObGNGenNkZzVhUWtZRlktVzhTWk9Qc1EybkRweDk4RFRRUjh2bk1TU0lJazBncUFnUlcwcTlPVWY3NjBzdWVUd3JGTDlLeF9EMU1aTnEzSDctTVcxZVdzT1RZclZjanRhbkl3?oc=5",
-      "source": "Google Macro",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-10T18:58:03.837435Z"
-    },
-    {
-      "id": "ff6a02f72fec5bd703ff818f0e7caf2a",
-      "title": "Nasdaq to invest $100 million in Kraken parent Payward as firms expand partnership",
-      "summary": "Nasdaq Ventures agreed to invest $100 million in Kraken parent Payward, expanding their tokenized equity infrastructure partnership.",
-      "link": "https://www.theblock.co/news/deals/2026-09-10-nasdaq-to-invest-100-million-in-kraken-parent-payward-as-firms-expand-partnership-414120",
-      "source": "The Block",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "QQQ"
-      ],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-10T18:58:02.265453Z"
-    },
-    {
-      "id": "0345b7f7af31b3fe5ae1d911f78e387f",
-      "title": "Recent oil rally feels less transient, says Real Macro CEO Jeff Currie - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOdTBuSURHQ3dlcTF3U1ladks3VEpORnFrSDhwS1pwV0dGQkRSNks0WENncVFOOTM4a1JWU2NQNkxvc25FX0pUUzFha1pxWFhWLXR4WUcwRlVORC1tcVc1aFJPWTE2MmhNRHFVUmFyZ2pUempaaUxSYzBDYnlfV2dBSTRHV3NVMUZsbXZUNzdzTENlZ3ZqYURrSFJpNHZ3MExCNVhpdjl3cTcxMnZ6LXdOTGVB?oc=5\" target=\"_blank\">Recent oil rally feels less transient, says Real Macro CEO Jeff Currie</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdTBuSURHQ3dlcTF3U1ladks3VEpORnFrSDhwS1pwV0dGQkRSNks0WENncVFOOTM4a1JWU2NQNkxvc25FX0pUUzFha1pxWFhWLXR4WUcwRlVORC1tcVc1aFJPWTE2MmhNRHFVUmFyZ2pUempaaUxSYzBDYnlfV2dBSTRHV3NVMUZsbXZUNzdzTENlZ3ZqYURrSFJpNHZ3MExCNVhpdjl3cTcxMnZ6LXdOTGVB?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-10T18:58:05.743671Z"
-    },
-    {
-      "id": "24ff6bd3b8f9213e588ccbba3eebb682",
-      "title": "Is now really the time to worry about a new China shock? - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE1vdXJJRWtpT0xyUUdiVU10Y1pjSHhKWjgwQUhpa2pDaUllXzV1Zk5OOWVINWQ5NHBXSVViME5vWVpkcDVudVNROE5faFgxZUxXUTBPcHpPdHpIQlZQVVB1X1ItRW5uWkFLamVmS2htaHA?oc=5\" target=\"_blank\">Is now really the time to worry about a new China shock?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vdXJJRWtpT0xyUUdiVU10Y1pjSHhKWjgwQUhpa2pDaUllXzV1Zk5OOWVINWQ5NHBXSVViME5vWVpkcDVudVNROE5faFgxZUxXUTBPcHpPdHpIQlZQVVB1X1ItRW5uWkFLamVmS2htaHA?oc=5",
-      "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GEO-SHOCK",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "CHINA"
+        "UK"
       ],
       "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-10T18:58:04.471823Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-10T19:02:54.503050Z"
     },
     {
-      "id": "9205ac2a6e8e5dee9d39c4e7c9aa7513",
-      "title": "Trump's $1 trillion-plus 'dividend' plan meets immediate bipartisan pushback",
-      "summary": "Such a payout could cost more than $1 trillion and is likely to face legal obstacles.",
-      "link": "https://www.cnbc.com/2026/09/10/trump-dividend-midterms-gop.html",
-      "source": "CNBC",
+      "id": "e7eb7407bcb356d97139432f0fd763d6",
+      "title": "Mahmood demands \u2018effective police action\u2019 ahead of UK anti-migrant protests",
+      "summary": "Call by home secretary follows disruption and violence in Dover and Portsmouth last weekend by Patriot Platform",
+      "link": "https://www.ft.com/content/f1542280-1e6e-40ea-ac7f-83a5866a19f2?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-10T19:02:54.503158Z"
+    },
+    {
+      "id": "f4a256d5bcb298a31703a4a36f447361",
+      "title": "US 'will not return' to promoting free trade, New Right strategist says",
+      "summary": "",
+      "link": "https://asia.nikkei.com/editor-s-picks/interview/us-will-not-return-to-promoting-free-trade-new-right-strategist-says",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-10T19:03:46.588694Z"
+    },
+    {
+      "id": "0091c89fcb30be84faaccbcadae010df",
+      "title": "Why a new SEC plan could end the legal headaches of holding tokenized securities",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/09/10/why-a-new-sec-plan-could-end-the-legal-headaches-of-holding-tokenized-securities",
+      "source": "CoinDesk",
       "score": 6,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -463,59 +531,39 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-10T18:57:09.655966Z"
+      "published": "2026-09-10T19:03:52.261385Z"
     },
     {
-      "id": "14e8ae8d496d6f84a41769fc37dce24b",
-      "title": "UK appoints new commander of National Cyber Force",
-      "summary": "The individual has not yet been avowed \u2014 the formal process in Britain by which an intelligence or security figure\u2019s identity is publicly acknowledged \u2014 as routine security considerations are still being worked through.",
-      "link": "https://therecord.media/uk-appoints-new-commander-of-national-cyber-force",
-      "source": "The Record",
-      "score": 5,
+      "id": "db323245c24f0326ae73d4d7f9ba684e",
+      "title": "US Natural Gas Market Verging on Record Growth",
+      "summary": "US natural gas production is projected to reach a record high of 111.7 billion cubic feet per day (bcfd) in 2026, up from 107.6 bcfd in 2025, according to the U.S. Energy Information Administration (EIA). By 2027, domestic supply is expected to hit 115.9 bcfd. But that\u2019s only half the story. Over the next two years, US natural gas supply and demand will both rise to record levels, the EIA states in its Short-Term Energy Outlook. Domestic gas consumption is projected to rise from a record 91.9 bcfd in 2025 to 111.7 bcfd in 2026 and 115.9 bcfd\u2026",
+      "link": "https://oilprice.com/Energy/Natural-Gas/US-Natural-Gas-Market-Verging-on-Record-Growth.html",
+      "source": "OilPrice",
+      "score": 1,
       "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-10T18:58:02.591584Z"
-    },
-    {
-      "id": "431e1d5c1efd00970062f77c8fe6fb66",
-      "title": "Exclusive | Wall Street\u2019s Favorite AI Startup Sets Its Sights on Wealth Management - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQeG9GSFJtQUx6dnUtNUt3NFVsbnctaVE2N2tTa1lvYnJDc2Z5WHlTMHRieFlWR0E3NDd4SzFfby1WSVhZVVBlOE1RakR4dGh4cHhNeEtUODBMY2h6elA2cDdpdDhQZU5PcFFuN085YkVSeDQ0VVFwMjVpX2E4TW90SE1yNkpaV1lLb3VoSWVuQ0Jpdl9MQWQ0SFNXNWJiUXdIN2JCNG02bFdSUWhsYW5wSXRDQVM?oc=5\" target=\"_blank\">Exclusive | Wall Street\u2019s Favorite AI Startup Sets Its Sights on Wealth Management</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeG9GSFJtQUx6dnUtNUt3NFVsbnctaVE2N2tTa1lvYnJDc2Z5WHlTMHRieFlWR0E3NDd4SzFfby1WSVhZVVBlOE1RakR4dGh4cHhNeEtUODBMY2h6elA2cDdpdDhQZU5PcFFuN085YkVSeDQ0VVFwMjVpX2E4TW90SE1yNkpaV1lLb3VoSWVuQ0Jpdl9MQWQ0SFNXNWJiUXdIN2JCNG02bFdSUWhsYW5wSXRDQVM?oc=5",
-      "source": "Google Macro",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-10T18:58:04.978107Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-10T19:03:49.580433Z"
+    },
+    {
+      "id": "e5b37eda6b56b9a9f516f596b4188f90",
+      "title": "IDScan confirms breach after hackers offer 153 million driver\u2019s license scans for sale",
+      "summary": "A notice dated September 4 but not widely shared shows that IDScan acknowledged a data breach but did not specify how many people were affected.",
+      "link": "https://therecord.media/idscan-data-breach-notice-drivers-licenses",
+      "source": "The Record",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-10T19:03:52.986433Z"
     }
   ]
 }
