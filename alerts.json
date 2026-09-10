@@ -1,30 +1,35 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-10T12:18:09.392120Z",
+  "generated_at": "2026-09-10T12:23:10.938637Z",
   "market_regime": {
     "regime": "GEO-SHOCK",
     "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
+    "critical_alerts": 2,
     "high_alerts": 1,
-    "last_updated": "2026-09-10T12:18:09.392133Z"
+    "last_updated": "2026-09-10T12:23:10.938649Z"
   },
   "top_signals": [
     {
-      "id": "c65be48c3b00f907d912db26e47d0641",
-      "title": "ECB hikes interest rates to 2.5% \u2014 but investors divided on what comes next",
-      "summary": "The central bank is contending with rising prices, the consequences of the U.S.-Iran war and surging government borrowing costs.",
-      "link": "https://www.cnbc.com/2026/09/10/ecb-interest-rate-hike-lagarde-iran.html",
+      "id": "d322c5d0deba9a6c557588f6bc24ad29",
+      "title": "U.S. crude oil hits $99 per barrel as market braces for prolonged Iran war",
+      "summary": "Oil prices remain elevated amid worries that escalating tensions in the Middle East could further exacerbate supply disruptions",
+      "link": "https://www.cnbc.com/2026/09/10/iran-us-oil-hormuz-supply-trump-military-brent-wti.html",
       "source": "CNBC",
-      "score": 32,
+      "score": 54,
       "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
-      "tickers": [],
+      "tickers": [
+        "WTI"
+      ],
       "regions": [
         "MIDDLE_EAST"
       ],
-      "assets": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -39,23 +44,107 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-10T12:17:15.045444Z"
+      "published": "2026-09-10T12:22:14.895674Z"
     },
     {
-      "id": "c11dec303cc896eb72d83b84a9e021ea",
-      "title": "Latham & Watkins buys Nvidia servers to set up in-house AI systems",
-      "summary": "Law firm is customising open-weight models as alternative to OpenAI and Anthropic",
-      "link": "https://www.ft.com/content/a2aaa848-92c3-4f7a-b758-5858bfb29e70?syn-25a6b1a6=1",
+      "id": "d1f7e695b8a392405b6f8324a13882b1",
+      "title": "ECB raises interest rates to 2.5%",
+      "summary": "Move is the second increase this year as central bank tries to curb price pressures",
+      "link": "https://www.ft.com/content/083a9c4b-3913-496d-be13-22c96053624b?syn-25a6b1a6=1",
       "source": "Financial Times",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [
-        "NVDA"
-      ],
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [],
       "regions": [],
       "assets": [
         "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-10T12:22:11.511855Z"
+    },
+    {
+      "id": "29a8f324916e5687ec1fa7f77375d86f",
+      "title": "Burnham warned against using \u2018accounting trick\u2019 to ramp up borrowing",
+      "summary": "<p> <img alt=\"Burnham has been warned against allowing for more borrowing.\" src=\"https://www.cityam.com/wp-content/uploads/2026/07/AndyBurnham-e1783951552101.jpg?w=1107\" /> </p>Andy Burnham and John Healey have been warned against using an &#8220;accounting trick&#8221; to ramp up borrowing given the volatility shaking bond markets and traders\u2019 vigilance to extra gilt issuance.\u00a0 Analysts at Oxford Economics said that it looked likely the government would use extra borrowing across bodies like the British Business Bank and the National <a href=\"https://www.cityam.com/burnham-warned-against-using-accounting-trick-to-ramp-up-borrowing/\">[...]</a>",
+      "link": "https://www.cityam.com/burnham-warned-against-using-accounting-trick-to-ramp-up-borrowing/",
+      "source": "CityAM",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "UK_GILTS"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-10T12:22:59.715323Z"
+    },
+    {
+      "id": "e8c87781585683b52ea33da3c3fb29fa",
+      "title": "Mexico Is Hopeful to Reach Deal to Lower US Tariffs This Year",
+      "summary": "Mexico Ambassador to the United States Roberto Lazzeri discusses trade talks between the US and Mexico, saying the two sides are \u201cpretty much aligned with the overall objective.\u201d He speaks on \u201cBloomberg Surveillance.\u201d (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-10/mexico-is-hopeful-to-reach-us-tariff-deal-by-year-end-video",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-10T12:22:09.694503Z"
+    },
+    {
+      "id": "fb8c8187d5b3fb4fca97ae4c2a960c89",
+      "title": "Inter Milan owner Oaktree keen to copy Chelsea BlueCo multi-club model",
+      "summary": "<p> <img alt=\"Inter Milan&#039;s owners want to acquire a sister club in another European league\" src=\"https://www.cityam.com/wp-content/uploads/2026/09/GettyImages-2294211117-1.jpg?w=1107\" /> </p>Oaktree Capital Management wants to copy Chelsea owner BlueCo\u2019s strategy by acquiring a sister club for Inter Milan. The global investment manager has allocated a budget of \u20ac25m-\u20ac40m (\u00a320m-\u00a335m) to buy a team from either the top division in Belgium or Portugal or the second tier in Spain, according to multiple Italian media reports. It <a href=\"https://www.cityam.com/inter-milan-owner-oaktree-keen-to-copy-chelsea-blueco-multi-club-model/\">[...]</a>",
+      "link": "https://www.cityam.com/inter-milan-owner-oaktree-keen-to-copy-chelsea-blueco-multi-club-model/",
+      "source": "CityAM",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
@@ -66,40 +155,29 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-10T12:17:14.405094Z"
-    },
-    {
-      "id": "5c5f9d4714a6d3c70a6e8dd475bd3432",
-      "title": "Monetary policy decisions",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-10T12:17:53.462580Z"
+      "published": "2026-09-10T12:22:59.715203Z"
     }
   ],
   "alerts": [
     {
-      "id": "c65be48c3b00f907d912db26e47d0641",
-      "title": "ECB hikes interest rates to 2.5% \u2014 but investors divided on what comes next",
-      "summary": "The central bank is contending with rising prices, the consequences of the U.S.-Iran war and surging government borrowing costs.",
-      "link": "https://www.cnbc.com/2026/09/10/ecb-interest-rate-hike-lagarde-iran.html",
+      "id": "d322c5d0deba9a6c557588f6bc24ad29",
+      "title": "U.S. crude oil hits $99 per barrel as market braces for prolonged Iran war",
+      "summary": "Oil prices remain elevated amid worries that escalating tensions in the Middle East could further exacerbate supply disruptions",
+      "link": "https://www.cnbc.com/2026/09/10/iran-us-oil-hormuz-supply-trump-military-brent-wti.html",
       "source": "CNBC",
-      "score": 32,
+      "score": 54,
       "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
-      "tickers": [],
+      "tickers": [
+        "WTI"
+      ],
       "regions": [
         "MIDDLE_EAST"
       ],
-      "assets": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -114,23 +192,107 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-10T12:17:15.045444Z"
+      "published": "2026-09-10T12:22:14.895674Z"
     },
     {
-      "id": "c11dec303cc896eb72d83b84a9e021ea",
-      "title": "Latham & Watkins buys Nvidia servers to set up in-house AI systems",
-      "summary": "Law firm is customising open-weight models as alternative to OpenAI and Anthropic",
-      "link": "https://www.ft.com/content/a2aaa848-92c3-4f7a-b758-5858bfb29e70?syn-25a6b1a6=1",
+      "id": "d1f7e695b8a392405b6f8324a13882b1",
+      "title": "ECB raises interest rates to 2.5%",
+      "summary": "Move is the second increase this year as central bank tries to curb price pressures",
+      "link": "https://www.ft.com/content/083a9c4b-3913-496d-be13-22c96053624b?syn-25a6b1a6=1",
       "source": "Financial Times",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [
-        "NVDA"
-      ],
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [],
       "regions": [],
       "assets": [
         "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-10T12:22:11.511855Z"
+    },
+    {
+      "id": "29a8f324916e5687ec1fa7f77375d86f",
+      "title": "Burnham warned against using \u2018accounting trick\u2019 to ramp up borrowing",
+      "summary": "<p> <img alt=\"Burnham has been warned against allowing for more borrowing.\" src=\"https://www.cityam.com/wp-content/uploads/2026/07/AndyBurnham-e1783951552101.jpg?w=1107\" /> </p>Andy Burnham and John Healey have been warned against using an &#8220;accounting trick&#8221; to ramp up borrowing given the volatility shaking bond markets and traders\u2019 vigilance to extra gilt issuance.\u00a0 Analysts at Oxford Economics said that it looked likely the government would use extra borrowing across bodies like the British Business Bank and the National <a href=\"https://www.cityam.com/burnham-warned-against-using-accounting-trick-to-ramp-up-borrowing/\">[...]</a>",
+      "link": "https://www.cityam.com/burnham-warned-against-using-accounting-trick-to-ramp-up-borrowing/",
+      "source": "CityAM",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "UK_GILTS"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-10T12:22:59.715323Z"
+    },
+    {
+      "id": "e8c87781585683b52ea33da3c3fb29fa",
+      "title": "Mexico Is Hopeful to Reach Deal to Lower US Tariffs This Year",
+      "summary": "Mexico Ambassador to the United States Roberto Lazzeri discusses trade talks between the US and Mexico, saying the two sides are \u201cpretty much aligned with the overall objective.\u201d He speaks on \u201cBloomberg Surveillance.\u201d (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-10/mexico-is-hopeful-to-reach-us-tariff-deal-by-year-end-video",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-10T12:22:09.694503Z"
+    },
+    {
+      "id": "fb8c8187d5b3fb4fca97ae4c2a960c89",
+      "title": "Inter Milan owner Oaktree keen to copy Chelsea BlueCo multi-club model",
+      "summary": "<p> <img alt=\"Inter Milan&#039;s owners want to acquire a sister club in another European league\" src=\"https://www.cityam.com/wp-content/uploads/2026/09/GettyImages-2294211117-1.jpg?w=1107\" /> </p>Oaktree Capital Management wants to copy Chelsea owner BlueCo\u2019s strategy by acquiring a sister club for Inter Milan. The global investment manager has allocated a budget of \u20ac25m-\u20ac40m (\u00a320m-\u00a335m) to buy a team from either the top division in Belgium or Portugal or the second tier in Spain, according to multiple Italian media reports. It <a href=\"https://www.cityam.com/inter-milan-owner-oaktree-keen-to-copy-chelsea-blueco-multi-club-model/\">[...]</a>",
+      "link": "https://www.cityam.com/inter-milan-owner-oaktree-keen-to-copy-chelsea-blueco-multi-club-model/",
+      "source": "CityAM",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
@@ -141,23 +303,7 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-10T12:17:14.405094Z"
-    },
-    {
-      "id": "5c5f9d4714a6d3c70a6e8dd475bd3432",
-      "title": "Monetary policy decisions",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-10T12:17:53.462580Z"
+      "published": "2026-09-10T12:22:59.715203Z"
     }
   ]
 }
