@@ -1,33 +1,99 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-11T09:13:09.806494Z",
+  "generated_at": "2026-09-11T09:18:04.590089Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 3,
     "high_alerts": 0,
-    "last_updated": "2026-09-11T09:13:09.806510Z"
+    "last_updated": "2026-09-11T09:18:04.590103Z"
   },
   "top_signals": [
     {
-      "id": "58174b9b3551248642aff56bb85d3d64",
-      "title": "Regulator opens triple probe into Prax Group\u2019s oil audits",
-      "summary": "<p> <img alt=\"Audit probe into State Oil Limited (part of the Prax Group) \" src=\"https://www.cityam.com/wp-content/uploads/2026/09/GettyImages-84555163-e1751351487.webp?w=1107\" /> </p>The audit watchdog has launched three separate investigations into the auditing of the collapsed UK energy challenger Prax Group.\u00a0 The Financial Reporting Council (FRC) opened probes into the financial oversight and audit of Prax&#8217;s parent company, State Oil, and will also examine Big Four KPMG&#8217;s audit of the fiscal years ended 28 February 2022 and <a href=\"https://www.cityam.com/regulator-opens-triple-probe-into-prax-groups-oil-audits/\">[...]</a>",
-      "link": "https://www.cityam.com/regulator-opens-triple-probe-into-prax-groups-oil-audits/",
-      "source": "CityAM",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
+      "id": "4097e5cfc7f86d1d7deecf0a00e22fdc",
+      "title": "Global Bond Selloff Sends 10-Year Treasury Yields to Cusp of 5%",
+      "summary": "Bond bears have pushed benchmark Treasury yields toward the closely-watched 5% level ahead of US inflation data that stands to determine expectations for a Federal Reserve interest-rate hike next week.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-11/global-bond-selloff-sends-10-year-treasury-yields-to-cusp-of-5",
+      "source": "Bloomberg",
+      "score": 44,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-11T09:17:00.043112Z"
+    },
+    {
+      "id": "a749928fefd6626d546bc36042a0f8f2",
+      "title": "IEA Cuts Its Forecast for Oil Demand",
+      "summary": "The International Energy Agency cut its forecast for oil demand and said consumption may have to decline further in the coming months as the Iran war drags on and consumers are forced to adjust to lower supply. IEA oil industry and markets head Toril\u00a0Bosoni\u00a0discusses the forecast on Bloomberg Television. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-11/iea-cuts-its-forecast-for-oil-demand-video",
+      "source": "Bloomberg",
+      "score": 39,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "WTI"
       ],
       "regions": [
-        "UK"
+        "MIDDLE_EAST"
       ],
       "assets": [
+        "AI",
         "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-11T09:17:00.043248Z"
+    },
+    {
+      "id": "1cbe87932abe1286dc1b7267b339b1e3",
+      "title": "Treasury yields steady as traders await consumer inflation data amid oil price pressure",
+      "summary": "Treasurys steadied Friday after surging to multiyear highs, as investors await more economic data.",
+      "link": "https://www.cnbc.com/2026/09/11/us-treasurys-bonds-yields.html",
+      "source": "CNBC",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "TLT",
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -41,27 +107,109 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-11T09:13:00.313045Z"
+      "published": "2026-09-11T09:17:03.796224Z"
+    },
+    {
+      "id": "89c47b76b0b29c3350577149eb0c68b4",
+      "title": "NSE Downsizes India IPO in Sign of Mounting Valuation Concern",
+      "summary": "National Stock Exchange of India Ltd., the world\u2019s largest derivatives exchange by volume, has downsized its initial public offering to $2.4 billion, a sign of rising concern over the willingness of investors to buy into the deal at the valuation the firm had been seeking.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/nse-downsizes-india-ipo-signaling-mounting-valuation-concern",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-11T09:17:00.043186Z"
     }
   ],
   "alerts": [
     {
-      "id": "58174b9b3551248642aff56bb85d3d64",
-      "title": "Regulator opens triple probe into Prax Group\u2019s oil audits",
-      "summary": "<p> <img alt=\"Audit probe into State Oil Limited (part of the Prax Group) \" src=\"https://www.cityam.com/wp-content/uploads/2026/09/GettyImages-84555163-e1751351487.webp?w=1107\" /> </p>The audit watchdog has launched three separate investigations into the auditing of the collapsed UK energy challenger Prax Group.\u00a0 The Financial Reporting Council (FRC) opened probes into the financial oversight and audit of Prax&#8217;s parent company, State Oil, and will also examine Big Four KPMG&#8217;s audit of the fiscal years ended 28 February 2022 and <a href=\"https://www.cityam.com/regulator-opens-triple-probe-into-prax-groups-oil-audits/\">[...]</a>",
-      "link": "https://www.cityam.com/regulator-opens-triple-probe-into-prax-groups-oil-audits/",
-      "source": "CityAM",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
+      "id": "4097e5cfc7f86d1d7deecf0a00e22fdc",
+      "title": "Global Bond Selloff Sends 10-Year Treasury Yields to Cusp of 5%",
+      "summary": "Bond bears have pushed benchmark Treasury yields toward the closely-watched 5% level ahead of US inflation data that stands to determine expectations for a Federal Reserve interest-rate hike next week.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-11/global-bond-selloff-sends-10-year-treasury-yields-to-cusp-of-5",
+      "source": "Bloomberg",
+      "score": 44,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-11T09:17:00.043112Z"
+    },
+    {
+      "id": "a749928fefd6626d546bc36042a0f8f2",
+      "title": "IEA Cuts Its Forecast for Oil Demand",
+      "summary": "The International Energy Agency cut its forecast for oil demand and said consumption may have to decline further in the coming months as the Iran war drags on and consumers are forced to adjust to lower supply. IEA oil industry and markets head Toril\u00a0Bosoni\u00a0discusses the forecast on Bloomberg Television. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-11/iea-cuts-its-forecast-for-oil-demand-video",
+      "source": "Bloomberg",
+      "score": 39,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "WTI"
       ],
       "regions": [
-        "UK"
+        "MIDDLE_EAST"
       ],
       "assets": [
+        "AI",
         "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-11T09:17:00.043248Z"
+    },
+    {
+      "id": "1cbe87932abe1286dc1b7267b339b1e3",
+      "title": "Treasury yields steady as traders await consumer inflation data amid oil price pressure",
+      "summary": "Treasurys steadied Friday after surging to multiyear highs, as investors await more economic data.",
+      "link": "https://www.cnbc.com/2026/09/11/us-treasurys-bonds-yields.html",
+      "source": "CNBC",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "TLT",
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -75,7 +223,23 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-11T09:13:00.313045Z"
+      "published": "2026-09-11T09:17:03.796224Z"
+    },
+    {
+      "id": "89c47b76b0b29c3350577149eb0c68b4",
+      "title": "NSE Downsizes India IPO in Sign of Mounting Valuation Concern",
+      "summary": "National Stock Exchange of India Ltd., the world\u2019s largest derivatives exchange by volume, has downsized its initial public offering to $2.4 billion, a sign of rising concern over the willingness of investors to buy into the deal at the valuation the firm had been seeking.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/nse-downsizes-india-ipo-signaling-mounting-valuation-concern",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-11T09:17:00.043186Z"
     }
   ]
 }
