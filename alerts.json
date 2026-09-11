@@ -1,30 +1,64 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-11T13:23:19.044984Z",
+  "generated_at": "2026-09-11T13:27:59.129841Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
+    "critical_alerts": 3,
     "high_alerts": 1,
-    "last_updated": "2026-09-11T13:23:19.045000Z"
+    "last_updated": "2026-09-11T13:27:59.129858Z"
   },
   "top_signals": [
     {
-      "id": "38e5afedf952376288ac52399f69d433",
-      "title": "Stocks, Treasuries Get Relief Ahead of CPI, US Diesel Passes $6/Gallon",
-      "summary": "US equity futures and Treasuries find some relief as investors await the latest inflation data for a signal on whether the Federal Reserve will raise interest rates next week. US diesel prices rose above $6 a gallon for the first time ever, raising the risk of further energy-driven inflation. The US marks 25 years since the September 11 terrorist attacks. Isabelle Mateos Y Lago of BNP Paribas joins \"Bloomberg Brief\" to look ahead to the CPI data. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-11/bloomberg-brief-09-11-2026-video",
+      "id": "78e242fbc368b6e5800bbf2fd9bf26b7",
+      "title": "Gold Rises, Brushing Off Hotter-Than-Expected Inflation Print",
+      "summary": "Gold extended gains, even as faster-than-expected US inflation data caused traders to dial up bets on a Federal Reserve rate hike next week.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/gold-holds-drop-as-rising-oil-inflation-bolster-rate-hike-bets",
       "source": "Bloomberg",
-      "score": 34,
+      "score": 40,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
-      "tickers": [],
+      "regime": "RATES",
+      "tickers": [
+        "XAU"
+      ],
       "regions": [],
       "assets": [
         "AI",
-        "EQUITIES"
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-11T13:26:56.332158Z"
+    },
+    {
+      "id": "441e873254d4a469b938888a1759ffb1",
+      "title": "Dollar Wavers as Inflation Aids Fed Hike Bets While Oil Falls",
+      "summary": "The dollar oscillated Friday after a key gauge of US consumer prices rose by more than expected pushing traders to add to bets that the Federal Reserve will raise interest rates next week.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-11/dollar-wavers-as-inflation-aids-fed-hike-bets-while-oil-falls",
+      "source": "Bloomberg",
+      "score": 40,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
+      "tickers": [
+        "DXY",
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -38,51 +72,25 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-11T13:22:15.575558Z"
+      "published": "2026-09-11T13:26:56.332208Z"
     },
     {
-      "id": "312ded9c391f0e334709906f17203afa",
-      "title": "India hosts BRICS summit as Iran war tests bloc unity - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQckJSazh5QjVkOTBaUXN3cm5TRkM5NGhqN3NWTUNidU5BX2QyZmNlSHkwYmQ0S2JPSmlFUWl2TWswaUlrVWJCRmkyMUZ6c0U5eTZsdldNZEZHR0cySmg5dTAyNW4td2JzZUNhaVhMaXFJTEpuMEQzZUJDbUhlTXhoMGt5elNXRU5TUGR2XzZmd2xXMzcwR09SYUlzRGlZb1E?oc=5\" target=\"_blank\">India hosts BRICS summit as Iran war tests bloc unity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQckJSazh5QjVkOTBaUXN3cm5TRkM5NGhqN3NWTUNidU5BX2QyZmNlSHkwYmQ0S2JPSmlFUWl2TWswaUlrVWJCRmkyMUZ6c0U5eTZsdldNZEZHR0cySmg5dTAyNW4td2JzZUNhaVhMaXFJTEpuMEQzZUJDbUhlTXhoMGt5elNXRU5TUGR2XzZmd2xXMzcwR09SYUlzRGlZb1E?oc=5",
-      "source": "Google Macro",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-11T13:23:17.030324Z"
-    },
-    {
-      "id": "903c6b6a03c0f0f7e481d70ad4ca27a1",
-      "title": "Saudis Tell OPEC That Output Slumped Again to Lowest Since 1990 - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPU1ZqVjU3TVF1aTFJYnBYRVRYSkhJNkVsQ0pyQTRVd2RyTmdKT1Jya2UwRk9EUzY2Y2NaZlNVdk1fNkNmekFlTG81YkxyRE1IQTl1QnNDWEdtSk9fcUhVb0FvcGc1Y1NVTUZBRXozZW04SkdvYVBXZ0t5RExHT0ZIYUlIcUNqRFJ2UE1lc0RZbG5feUdlZkx4QnNXQ0Y0bV9RUVZxVmpHejFhX3VNcEhLei1vODQ?oc=5\" target=\"_blank\">Saudis Tell OPEC That Output Slumped Again to Lowest Since 1990</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU1ZqVjU3TVF1aTFJYnBYRVRYSkhJNkVsQ0pyQTRVd2RyTmdKT1Jya2UwRk9EUzY2Y2NaZlNVdk1fNkNmekFlTG81YkxyRE1IQTl1QnNDWEdtSk9fcUhVb0FvcGc1Y1NVTUZBRXozZW04SkdvYVBXZ0t5RExHT0ZIYUlIcUNqRFJ2UE1lc0RZbG5feUdlZkx4QnNXQ0Y0bV9RUVZxVmpHejFhX3VNcEhLei1vODQ?oc=5",
-      "source": "Google Macro",
-      "score": 14,
-      "severity": "MEDIUM",
+      "id": "4ad3e5233ecf25d65dc02a4fb25403a8",
+      "title": "Houthis reportedly advance to key Red Sea island, further threatening crucial oil choke point",
+      "summary": "The advance raises the threat to shipping near the Bab el-Mandeb Strait, a waterway that connects the Red Sea to the Gulf of Aden to global markets.",
+      "link": "https://www.cnbc.com/2026/09/11/iran-houthis-mokha-red-sea-yemen.html",
+      "source": "CNBC",
+      "score": 37,
+      "severity": "CRITICAL",
       "regime": "COMMODITIES",
-      "tickers": [],
+      "tickers": [
+        "WTI"
+      ],
       "regions": [],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES",
+        "SHIPPING"
       ],
       "market_impact": {
         "bullish": [
@@ -96,40 +104,264 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-11T13:23:16.392285Z"
+      "published": "2026-09-11T13:27:00.892359Z"
     },
     {
-      "id": "37c80714b0cebd29d1f89ce1a5a1d76b",
-      "title": "Tesla Shares Suffer Slow Summer After SpaceX IPO, Earnings Rout",
-      "summary": "For a decade and a half, Tesla Inc. offered the only public market bet on Elon Musk. But since SpaceX began trading in June, the electric vehicle giant has had to share its special sauce as it tests investor sentiment.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-11/tesla-shares-suffer-slow-summer-after-spacex-ipo-earnings-rout",
-      "source": "Bloomberg",
-      "score": 9,
+      "id": "a7a0cedb25597bdcc938cc31647f5400",
+      "title": "DEA seizes over 2,000 pounds of meth in cabbage freight shipment in South Texas",
+      "summary": "<p>DEA\u2019s McAllen office uncovered more than 2,000 pounds of methamphetamine concealed among cabbage. Federal authorities have not disclosed where they found the shipment or who transported it.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/dea-seizes-over-2000-pounds-of-meth-in-cabbage-freight-shipment-in-south-texas\">DEA seizes over 2,000 pounds of meth in cabbage freight shipment in South Texas</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/dea-seizes-over-2000-pounds-of-meth-in-cabbage-freight-shipment-in-south-texas",
+      "source": "FreightWaves",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-11T13:27:52.659873Z"
+    },
+    {
+      "id": "35f0066d3164b3e3214bdf46f2175573",
+      "title": "A Tiny Shift in the Inflation Rate Could Decide the Fed\u2019s Next Move - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQU2VrRkdPcXF6U3ZvMTdqQ1pLT2Jua0N1MHlyQXM4c2hNN1M0SEY4bHZMakxwZm9jRjRKUHpsdnFuemtxSjFLZUhSVFJSTE41NzJQajl5M09PSlZNbkczMlZHTGN4U2wyalN2SnJiZG1JT3Roem00c0hmRXlRX3gtZzRNM2RBaS05VkRabUVSenVyUUV1ODQwUUNyTlE?oc=5\" target=\"_blank\">A Tiny Shift in the Inflation Rate Could Decide the Fed\u2019s Next Move</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU2VrRkdPcXF6U3ZvMTdqQ1pLT2Jua0N1MHlyQXM4c2hNN1M0SEY4bHZMakxwZm9jRjRKUHpsdnFuemtxSjFLZUhSVFJSTE41NzJQajl5M09PSlZNbkczMlZHTGN4U2wyalN2SnJiZG1JT3Roem00c0hmRXlRX3gtZzRNM2RBaS05VkRabUVSenVyUUV1ODQwUUNyTlE?oc=5",
+      "source": "Google Macro",
+      "score": 14,
       "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-11T13:27:58.509510Z"
+    },
+    {
+      "id": "7c9d34c8655b3b6d554fe3bc91151af6",
+      "title": "The ECB Just Raised Interest Rates. Here\u2019s What to Know. - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcEptZDVUSnhIN183c3VUUjM5MzloTjFfd3EwMHVwa2JNaU5aUFhnUV9JbUJiY001cE04NEdSNXNqbXJneGlFMXlXc2p5M2RUT1daWVVWRmVpdzdjazBVVXZZbTFYRnktRWhjWUNyUmxPelAtbXZxTUluQ211ZTlvQ2RQSVRLc2x1ay1LOEstT0dUT0JmTjljTWVreWlKZ2czOUhTUDBUMGF4QQ?oc=5\" target=\"_blank\">The ECB Just Raised Interest Rates. Here\u2019s What to Know.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcEptZDVUSnhIN183c3VUUjM5MzloTjFfd3EwMHVwa2JNaU5aUFhnUV9JbUJiY001cE04NEdSNXNqbXJneGlFMXlXc2p5M2RUT1daWVVWRmVpdzdjazBVVXZZbTFYRnktRWhjWUNyUmxPelAtbXZxTUluQ211ZTlvQ2RQSVRLc2x1ay1LOEstT0dUT0JmTjljTWVreWlKZ2czOUhTUDBUMGF4QQ?oc=5",
+      "source": "Google Macro",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-11T13:27:58.509313Z"
+    },
+    {
+      "id": "0aa4499042ee546e6d03dcb6d67d09b8",
+      "title": "Exclusive | Robinhood Strikes Deal With Crypto.com in Latest Prediction-Markets Push - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNYmw4ejh3MVNneVBkd1ptZzdIOU11Q1FkcTRObjRtQ3NrbUctbzhUb3NMbHNqSmR0cHFtaDZxN1R0c0dPZjlQQUItQlQ1QUNNd0J2b21iU05DcDAydXhPWGQ1ZW5iRFNRRUFRQzlQbnBaaUtDNjQ2OWhyRWNWN2ZtLVpUYUF0YmNqNVI2WW9GbUhQcjI3WG9tRnY2Z0NjXzlrUmFwdktLVzBocWwzeHI3aGNOcWZfNmdJWlc0QQ?oc=5\" target=\"_blank\">Exclusive | Robinhood Strikes Deal With Crypto.com in Latest Prediction-Markets Push</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYmw4ejh3MVNneVBkd1ptZzdIOU11Q1FkcTRObjRtQ3NrbUctbzhUb3NMbHNqSmR0cHFtaDZxN1R0c0dPZjlQQUItQlQ1QUNNd0J2b21iU05DcDAydXhPWGQ1ZW5iRFNRRUFRQzlQbnBaaUtDNjQ2OWhyRWNWN2ZtLVpUYUF0YmNqNVI2WW9GbUhQcjI3WG9tRnY2Z0NjXzlrUmFwdktLVzBocWwzeHI3aGNOcWZfNmdJWlc0QQ?oc=5",
+      "source": "Google Macro",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-11T13:27:58.509571Z"
+    },
+    {
+      "id": "b0c89194b3a8b1a4988cdbaa315df99a",
+      "title": "Stock Futures Nudge Up, Yields Slip, But Markets Remain on Edge - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQTU4U2E5eHdCS1RuSzRBV3p4R0lyUVZqRkYzNWFiZDFKc1lfNmt2dmxockZfc3hiNi0ya1JkenExQXc1anNMTm55RlZ6WWI2bkxmcjl3QkRKdHlTSV96S1B2VXdCdFVuYUhuRUNWZ25wNWdMamRBU2JtTlhVamNqSkJrOTRDOHpTczZSUHBrTEJFT29KVm4wckJSWjF2SG1FcmNPSUtENWQ?oc=5\" target=\"_blank\">Stock Futures Nudge Up, Yields Slip, But Markets Remain on Edge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQTU4U2E5eHdCS1RuSzRBV3p4R0lyUVZqRkYzNWFiZDFKc1lfNmt2dmxockZfc3hiNi0ya1JkenExQXc1anNMTm55RlZ6WWI2bkxmcjl3QkRKdHlTSV96S1B2VXdCdFVuYUhuRUNWZ25wNWdMamRBU2JtTlhVamNqSkJrOTRDOHpTczZSUHBrTEJFT29KVm4wckJSWjF2SG1FcmNPSUtENWQ?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-11T13:27:58.509108Z"
+    },
+    {
+      "id": "3dd7f478d1197765607f3621de589dcf",
+      "title": "Exclusive | Wall Street\u2019s Favorite AI Startup Sets Its Sights on Wealth Management - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQeG9GSFJtQUx6dnUtNUt3NFVsbnctaVE2N2tTa1lvYnJDc2Z5WHlTMHRieFlWR0E3NDd4SzFfby1WSVhZVVBlOE1RakR4dGh4cHhNeEtUODBMY2h6elA2cDdpdDhQZU5PcFFuN085YkVSeDQ0VVFwMjVpX2E4TW90SE1yNkpaV1lLb3VoSWVuQ0Jpdl9MQWQ0SFNXNWJiUXdIN2JCNG02bFdSUWhsYW5wSXRDQVM?oc=5\" target=\"_blank\">Exclusive | Wall Street\u2019s Favorite AI Startup Sets Its Sights on Wealth Management</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeG9GSFJtQUx6dnUtNUt3NFVsbnctaVE2N2tTa1lvYnJDc2Z5WHlTMHRieFlWR0E3NDd4SzFfby1WSVhZVVBlOE1RakR4dGh4cHhNeEtUODBMY2h6elA2cDdpdDhQZU5PcFFuN085YkVSeDQ0VVFwMjVpX2E4TW90SE1yNkpaV1lLb3VoSWVuQ0Jpdl9MQWQ0SFNXNWJiUXdIN2JCNG02bFdSUWhsYW5wSXRDQVM?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-11T13:27:58.509391Z"
+    },
+    {
+      "id": "cae3ee7a01e74532273abd7d48c06a0d",
+      "title": "Bonds Sell Off Despite Buyback Operation - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQMVdlc2dwdVhwNWJrNE9TVjBucFZBallkcnlzYVVXVDlSbWV6cDN4OXJhcDh0cWZQVVE5ZFItdGwtUVNjT1ZOME0xUngwaXlhS21OQk0xWXFZYllGT2dvSFNjdFhmMHV5TDVyRnVPT3ZRQzJDYlRIMVZFc09vOEY4U0ViQThRNGJiXzNIdmFYbGM?oc=5\" target=\"_blank\">Bonds Sell Off Despite Buyback Operation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMVdlc2dwdVhwNWJrNE9TVjBucFZBallkcnlzYVVXVDlSbWV6cDN4OXJhcDh0cWZQVVE5ZFItdGwtUVNjT1ZOME0xUngwaXlhS21OQk0xWXFZYllGT2dvSFNjdFhmMHV5TDVyRnVPT3ZRQzJDYlRIMVZFc09vOEY4U0ViQThRNGJiXzNIdmFYbGM?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-11T13:22:15.575471Z"
+      "published": "2026-09-11T13:27:58.509171Z"
+    },
+    {
+      "id": "3c3379b7aedeb2bb3951b6fc61f7da4f",
+      "title": "Americans Without College Degrees Are Having One of the Best Job Markets in Years - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxOY0t5YnhYWGlnbXBXY3htcU9xX2RZWU9TRVVlYzZzOHRVYlh3WVhETXJGLVg3a2lFajVweHZJMVhIQ1pCbkpuTmY1bDZqUnppYmNoQVYwRFE2VVZtWTlQUWV3MEh4LUtoVEtlVHNYSDctdjA0OE5zT0RZUXRsbk82enBvUFNlWkgzU2dXeTBhTVlJRFpkb2ppdjZjMTE2Ui1KVWtnb2daZ1NPbzl4TmFPT3BVaGtvV1NONXJHeWZhWlRWRC1uSmdN?oc=5\" target=\"_blank\">Americans Without College Degrees Are Having One of the Best Job Markets in Years</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOY0t5YnhYWGlnbXBXY3htcU9xX2RZWU9TRVVlYzZzOHRVYlh3WVhETXJGLVg3a2lFajVweHZJMVhIQ1pCbkpuTmY1bDZqUnppYmNoQVYwRFE2VVZtWTlQUWV3MEh4LUtoVEtlVHNYSDctdjA0OE5zT0RZUXRsbk82enBvUFNlWkgzU2dXeTBhTVlJRFpkb2ppdjZjMTE2Ui1KVWtnb2daZ1NPbzl4TmFPT3BVaGtvV1NONXJHeWZhWlRWRC1uSmdN?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-11T13:27:58.509234Z"
+    },
+    {
+      "id": "7e29f499c89f51ec3bd5ebde89bb61fc",
+      "title": "Block Applies to Establish Builders Bank & Trust - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPZFo0dHhqTlpKYi1xYjdWWTl3MFdVZVcwRmdGTXhtbURWdVBmZjVHQ1NHVS1rNTBGbXFNX09PMXBWLXRteWk4TzF3dTU3Q2NDWUU4WnZlczlnbmVPQW1PWFFrS0tqR1ExODZPdG56dzBJWkZjaDRBMEJEOUhzME9DOGpxdzVHclZjWVBWUFB2ejhQZEdpaVE?oc=5\" target=\"_blank\">Block Applies to Establish Builders Bank & Trust</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZFo0dHhqTlpKYi1xYjdWWTl3MFdVZVcwRmdGTXhtbURWdVBmZjVHQ1NHVS1rNTBGbXFNX09PMXBWLXRteWk4TzF3dTU3Q2NDWUU4WnZlczlnbmVPQW1PWFFrS0tqR1ExODZPdG56dzBJWkZjaDRBMEJEOUhzME9DOGpxdzVHclZjWVBWUFB2ejhQZEdpaVE?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-11T13:27:58.509440Z"
     }
   ],
   "alerts": [
     {
-      "id": "38e5afedf952376288ac52399f69d433",
-      "title": "Stocks, Treasuries Get Relief Ahead of CPI, US Diesel Passes $6/Gallon",
-      "summary": "US equity futures and Treasuries find some relief as investors await the latest inflation data for a signal on whether the Federal Reserve will raise interest rates next week. US diesel prices rose above $6 a gallon for the first time ever, raising the risk of further energy-driven inflation. The US marks 25 years since the September 11 terrorist attacks. Isabelle Mateos Y Lago of BNP Paribas joins \"Bloomberg Brief\" to look ahead to the CPI data. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-11/bloomberg-brief-09-11-2026-video",
+      "id": "78e242fbc368b6e5800bbf2fd9bf26b7",
+      "title": "Gold Rises, Brushing Off Hotter-Than-Expected Inflation Print",
+      "summary": "Gold extended gains, even as faster-than-expected US inflation data caused traders to dial up bets on a Federal Reserve rate hike next week.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/gold-holds-drop-as-rising-oil-inflation-bolster-rate-hike-bets",
       "source": "Bloomberg",
-      "score": 34,
+      "score": 40,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
-      "tickers": [],
+      "regime": "RATES",
+      "tickers": [
+        "XAU"
+      ],
       "regions": [],
       "assets": [
         "AI",
-        "EQUITIES"
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-11T13:26:56.332158Z"
+    },
+    {
+      "id": "441e873254d4a469b938888a1759ffb1",
+      "title": "Dollar Wavers as Inflation Aids Fed Hike Bets While Oil Falls",
+      "summary": "The dollar oscillated Friday after a key gauge of US consumer prices rose by more than expected pushing traders to add to bets that the Federal Reserve will raise interest rates next week.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-11/dollar-wavers-as-inflation-aids-fed-hike-bets-while-oil-falls",
+      "source": "Bloomberg",
+      "score": 40,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
+      "tickers": [
+        "DXY",
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -143,51 +375,25 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-11T13:22:15.575558Z"
+      "published": "2026-09-11T13:26:56.332208Z"
     },
     {
-      "id": "312ded9c391f0e334709906f17203afa",
-      "title": "India hosts BRICS summit as Iran war tests bloc unity - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQckJSazh5QjVkOTBaUXN3cm5TRkM5NGhqN3NWTUNidU5BX2QyZmNlSHkwYmQ0S2JPSmlFUWl2TWswaUlrVWJCRmkyMUZ6c0U5eTZsdldNZEZHR0cySmg5dTAyNW4td2JzZUNhaVhMaXFJTEpuMEQzZUJDbUhlTXhoMGt5elNXRU5TUGR2XzZmd2xXMzcwR09SYUlzRGlZb1E?oc=5\" target=\"_blank\">India hosts BRICS summit as Iran war tests bloc unity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQckJSazh5QjVkOTBaUXN3cm5TRkM5NGhqN3NWTUNidU5BX2QyZmNlSHkwYmQ0S2JPSmlFUWl2TWswaUlrVWJCRmkyMUZ6c0U5eTZsdldNZEZHR0cySmg5dTAyNW4td2JzZUNhaVhMaXFJTEpuMEQzZUJDbUhlTXhoMGt5elNXRU5TUGR2XzZmd2xXMzcwR09SYUlzRGlZb1E?oc=5",
-      "source": "Google Macro",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-11T13:23:17.030324Z"
-    },
-    {
-      "id": "903c6b6a03c0f0f7e481d70ad4ca27a1",
-      "title": "Saudis Tell OPEC That Output Slumped Again to Lowest Since 1990 - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPU1ZqVjU3TVF1aTFJYnBYRVRYSkhJNkVsQ0pyQTRVd2RyTmdKT1Jya2UwRk9EUzY2Y2NaZlNVdk1fNkNmekFlTG81YkxyRE1IQTl1QnNDWEdtSk9fcUhVb0FvcGc1Y1NVTUZBRXozZW04SkdvYVBXZ0t5RExHT0ZIYUlIcUNqRFJ2UE1lc0RZbG5feUdlZkx4QnNXQ0Y0bV9RUVZxVmpHejFhX3VNcEhLei1vODQ?oc=5\" target=\"_blank\">Saudis Tell OPEC That Output Slumped Again to Lowest Since 1990</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU1ZqVjU3TVF1aTFJYnBYRVRYSkhJNkVsQ0pyQTRVd2RyTmdKT1Jya2UwRk9EUzY2Y2NaZlNVdk1fNkNmekFlTG81YkxyRE1IQTl1QnNDWEdtSk9fcUhVb0FvcGc1Y1NVTUZBRXozZW04SkdvYVBXZ0t5RExHT0ZIYUlIcUNqRFJ2UE1lc0RZbG5feUdlZkx4QnNXQ0Y0bV9RUVZxVmpHejFhX3VNcEhLei1vODQ?oc=5",
-      "source": "Google Macro",
-      "score": 14,
-      "severity": "MEDIUM",
+      "id": "4ad3e5233ecf25d65dc02a4fb25403a8",
+      "title": "Houthis reportedly advance to key Red Sea island, further threatening crucial oil choke point",
+      "summary": "The advance raises the threat to shipping near the Bab el-Mandeb Strait, a waterway that connects the Red Sea to the Gulf of Aden to global markets.",
+      "link": "https://www.cnbc.com/2026/09/11/iran-houthis-mokha-red-sea-yemen.html",
+      "source": "CNBC",
+      "score": 37,
+      "severity": "CRITICAL",
       "regime": "COMMODITIES",
-      "tickers": [],
+      "tickers": [
+        "WTI"
+      ],
       "regions": [],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES",
+        "SHIPPING"
       ],
       "market_impact": {
         "bullish": [
@@ -201,23 +407,213 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-11T13:23:16.392285Z"
+      "published": "2026-09-11T13:27:00.892359Z"
     },
     {
-      "id": "37c80714b0cebd29d1f89ce1a5a1d76b",
-      "title": "Tesla Shares Suffer Slow Summer After SpaceX IPO, Earnings Rout",
-      "summary": "For a decade and a half, Tesla Inc. offered the only public market bet on Elon Musk. But since SpaceX began trading in June, the electric vehicle giant has had to share its special sauce as it tests investor sentiment.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-11/tesla-shares-suffer-slow-summer-after-spacex-ipo-earnings-rout",
-      "source": "Bloomberg",
-      "score": 9,
+      "id": "a7a0cedb25597bdcc938cc31647f5400",
+      "title": "DEA seizes over 2,000 pounds of meth in cabbage freight shipment in South Texas",
+      "summary": "<p>DEA\u2019s McAllen office uncovered more than 2,000 pounds of methamphetamine concealed among cabbage. Federal authorities have not disclosed where they found the shipment or who transported it.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/dea-seizes-over-2000-pounds-of-meth-in-cabbage-freight-shipment-in-south-texas\">DEA seizes over 2,000 pounds of meth in cabbage freight shipment in South Texas</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/dea-seizes-over-2000-pounds-of-meth-in-cabbage-freight-shipment-in-south-texas",
+      "source": "FreightWaves",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-11T13:27:52.659873Z"
+    },
+    {
+      "id": "35f0066d3164b3e3214bdf46f2175573",
+      "title": "A Tiny Shift in the Inflation Rate Could Decide the Fed\u2019s Next Move - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQU2VrRkdPcXF6U3ZvMTdqQ1pLT2Jua0N1MHlyQXM4c2hNN1M0SEY4bHZMakxwZm9jRjRKUHpsdnFuemtxSjFLZUhSVFJSTE41NzJQajl5M09PSlZNbkczMlZHTGN4U2wyalN2SnJiZG1JT3Roem00c0hmRXlRX3gtZzRNM2RBaS05VkRabUVSenVyUUV1ODQwUUNyTlE?oc=5\" target=\"_blank\">A Tiny Shift in the Inflation Rate Could Decide the Fed\u2019s Next Move</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU2VrRkdPcXF6U3ZvMTdqQ1pLT2Jua0N1MHlyQXM4c2hNN1M0SEY4bHZMakxwZm9jRjRKUHpsdnFuemtxSjFLZUhSVFJSTE41NzJQajl5M09PSlZNbkczMlZHTGN4U2wyalN2SnJiZG1JT3Roem00c0hmRXlRX3gtZzRNM2RBaS05VkRabUVSenVyUUV1ODQwUUNyTlE?oc=5",
+      "source": "Google Macro",
+      "score": 14,
       "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-11T13:27:58.509510Z"
+    },
+    {
+      "id": "7c9d34c8655b3b6d554fe3bc91151af6",
+      "title": "The ECB Just Raised Interest Rates. Here\u2019s What to Know. - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcEptZDVUSnhIN183c3VUUjM5MzloTjFfd3EwMHVwa2JNaU5aUFhnUV9JbUJiY001cE04NEdSNXNqbXJneGlFMXlXc2p5M2RUT1daWVVWRmVpdzdjazBVVXZZbTFYRnktRWhjWUNyUmxPelAtbXZxTUluQ211ZTlvQ2RQSVRLc2x1ay1LOEstT0dUT0JmTjljTWVreWlKZ2czOUhTUDBUMGF4QQ?oc=5\" target=\"_blank\">The ECB Just Raised Interest Rates. Here\u2019s What to Know.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcEptZDVUSnhIN183c3VUUjM5MzloTjFfd3EwMHVwa2JNaU5aUFhnUV9JbUJiY001cE04NEdSNXNqbXJneGlFMXlXc2p5M2RUT1daWVVWRmVpdzdjazBVVXZZbTFYRnktRWhjWUNyUmxPelAtbXZxTUluQ211ZTlvQ2RQSVRLc2x1ay1LOEstT0dUT0JmTjljTWVreWlKZ2czOUhTUDBUMGF4QQ?oc=5",
+      "source": "Google Macro",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-11T13:27:58.509313Z"
+    },
+    {
+      "id": "0aa4499042ee546e6d03dcb6d67d09b8",
+      "title": "Exclusive | Robinhood Strikes Deal With Crypto.com in Latest Prediction-Markets Push - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNYmw4ejh3MVNneVBkd1ptZzdIOU11Q1FkcTRObjRtQ3NrbUctbzhUb3NMbHNqSmR0cHFtaDZxN1R0c0dPZjlQQUItQlQ1QUNNd0J2b21iU05DcDAydXhPWGQ1ZW5iRFNRRUFRQzlQbnBaaUtDNjQ2OWhyRWNWN2ZtLVpUYUF0YmNqNVI2WW9GbUhQcjI3WG9tRnY2Z0NjXzlrUmFwdktLVzBocWwzeHI3aGNOcWZfNmdJWlc0QQ?oc=5\" target=\"_blank\">Exclusive | Robinhood Strikes Deal With Crypto.com in Latest Prediction-Markets Push</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYmw4ejh3MVNneVBkd1ptZzdIOU11Q1FkcTRObjRtQ3NrbUctbzhUb3NMbHNqSmR0cHFtaDZxN1R0c0dPZjlQQUItQlQ1QUNNd0J2b21iU05DcDAydXhPWGQ1ZW5iRFNRRUFRQzlQbnBaaUtDNjQ2OWhyRWNWN2ZtLVpUYUF0YmNqNVI2WW9GbUhQcjI3WG9tRnY2Z0NjXzlrUmFwdktLVzBocWwzeHI3aGNOcWZfNmdJWlc0QQ?oc=5",
+      "source": "Google Macro",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-11T13:27:58.509571Z"
+    },
+    {
+      "id": "b0c89194b3a8b1a4988cdbaa315df99a",
+      "title": "Stock Futures Nudge Up, Yields Slip, But Markets Remain on Edge - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQTU4U2E5eHdCS1RuSzRBV3p4R0lyUVZqRkYzNWFiZDFKc1lfNmt2dmxockZfc3hiNi0ya1JkenExQXc1anNMTm55RlZ6WWI2bkxmcjl3QkRKdHlTSV96S1B2VXdCdFVuYUhuRUNWZ25wNWdMamRBU2JtTlhVamNqSkJrOTRDOHpTczZSUHBrTEJFT29KVm4wckJSWjF2SG1FcmNPSUtENWQ?oc=5\" target=\"_blank\">Stock Futures Nudge Up, Yields Slip, But Markets Remain on Edge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQTU4U2E5eHdCS1RuSzRBV3p4R0lyUVZqRkYzNWFiZDFKc1lfNmt2dmxockZfc3hiNi0ya1JkenExQXc1anNMTm55RlZ6WWI2bkxmcjl3QkRKdHlTSV96S1B2VXdCdFVuYUhuRUNWZ25wNWdMamRBU2JtTlhVamNqSkJrOTRDOHpTczZSUHBrTEJFT29KVm4wckJSWjF2SG1FcmNPSUtENWQ?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-11T13:27:58.509108Z"
+    },
+    {
+      "id": "3dd7f478d1197765607f3621de589dcf",
+      "title": "Exclusive | Wall Street\u2019s Favorite AI Startup Sets Its Sights on Wealth Management - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQeG9GSFJtQUx6dnUtNUt3NFVsbnctaVE2N2tTa1lvYnJDc2Z5WHlTMHRieFlWR0E3NDd4SzFfby1WSVhZVVBlOE1RakR4dGh4cHhNeEtUODBMY2h6elA2cDdpdDhQZU5PcFFuN085YkVSeDQ0VVFwMjVpX2E4TW90SE1yNkpaV1lLb3VoSWVuQ0Jpdl9MQWQ0SFNXNWJiUXdIN2JCNG02bFdSUWhsYW5wSXRDQVM?oc=5\" target=\"_blank\">Exclusive | Wall Street\u2019s Favorite AI Startup Sets Its Sights on Wealth Management</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeG9GSFJtQUx6dnUtNUt3NFVsbnctaVE2N2tTa1lvYnJDc2Z5WHlTMHRieFlWR0E3NDd4SzFfby1WSVhZVVBlOE1RakR4dGh4cHhNeEtUODBMY2h6elA2cDdpdDhQZU5PcFFuN085YkVSeDQ0VVFwMjVpX2E4TW90SE1yNkpaV1lLb3VoSWVuQ0Jpdl9MQWQ0SFNXNWJiUXdIN2JCNG02bFdSUWhsYW5wSXRDQVM?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-11T13:27:58.509391Z"
+    },
+    {
+      "id": "cae3ee7a01e74532273abd7d48c06a0d",
+      "title": "Bonds Sell Off Despite Buyback Operation - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQMVdlc2dwdVhwNWJrNE9TVjBucFZBallkcnlzYVVXVDlSbWV6cDN4OXJhcDh0cWZQVVE5ZFItdGwtUVNjT1ZOME0xUngwaXlhS21OQk0xWXFZYllGT2dvSFNjdFhmMHV5TDVyRnVPT3ZRQzJDYlRIMVZFc09vOEY4U0ViQThRNGJiXzNIdmFYbGM?oc=5\" target=\"_blank\">Bonds Sell Off Despite Buyback Operation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMVdlc2dwdVhwNWJrNE9TVjBucFZBallkcnlzYVVXVDlSbWV6cDN4OXJhcDh0cWZQVVE5ZFItdGwtUVNjT1ZOME0xUngwaXlhS21OQk0xWXFZYllGT2dvSFNjdFhmMHV5TDVyRnVPT3ZRQzJDYlRIMVZFc09vOEY4U0ViQThRNGJiXzNIdmFYbGM?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-11T13:22:15.575471Z"
+      "published": "2026-09-11T13:27:58.509171Z"
+    },
+    {
+      "id": "3c3379b7aedeb2bb3951b6fc61f7da4f",
+      "title": "Americans Without College Degrees Are Having One of the Best Job Markets in Years - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxOY0t5YnhYWGlnbXBXY3htcU9xX2RZWU9TRVVlYzZzOHRVYlh3WVhETXJGLVg3a2lFajVweHZJMVhIQ1pCbkpuTmY1bDZqUnppYmNoQVYwRFE2VVZtWTlQUWV3MEh4LUtoVEtlVHNYSDctdjA0OE5zT0RZUXRsbk82enBvUFNlWkgzU2dXeTBhTVlJRFpkb2ppdjZjMTE2Ui1KVWtnb2daZ1NPbzl4TmFPT3BVaGtvV1NONXJHeWZhWlRWRC1uSmdN?oc=5\" target=\"_blank\">Americans Without College Degrees Are Having One of the Best Job Markets in Years</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOY0t5YnhYWGlnbXBXY3htcU9xX2RZWU9TRVVlYzZzOHRVYlh3WVhETXJGLVg3a2lFajVweHZJMVhIQ1pCbkpuTmY1bDZqUnppYmNoQVYwRFE2VVZtWTlQUWV3MEh4LUtoVEtlVHNYSDctdjA0OE5zT0RZUXRsbk82enBvUFNlWkgzU2dXeTBhTVlJRFpkb2ppdjZjMTE2Ui1KVWtnb2daZ1NPbzl4TmFPT3BVaGtvV1NONXJHeWZhWlRWRC1uSmdN?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-11T13:27:58.509234Z"
+    },
+    {
+      "id": "7e29f499c89f51ec3bd5ebde89bb61fc",
+      "title": "Block Applies to Establish Builders Bank & Trust - wsj.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPZFo0dHhqTlpKYi1xYjdWWTl3MFdVZVcwRmdGTXhtbURWdVBmZjVHQ1NHVS1rNTBGbXFNX09PMXBWLXRteWk4TzF3dTU3Q2NDWUU4WnZlczlnbmVPQW1PWFFrS0tqR1ExODZPdG56dzBJWkZjaDRBMEJEOUhzME9DOGpxdzVHclZjWVBWUFB2ejhQZEdpaVE?oc=5\" target=\"_blank\">Block Applies to Establish Builders Bank & Trust</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZFo0dHhqTlpKYi1xYjdWWTl3MFdVZVcwRmdGTXhtbURWdVBmZjVHQ1NHVS1rNTBGbXFNX09PMXBWLXRteWk4TzF3dTU3Q2NDWUU4WnZlczlnbmVPQW1PWFFrS0tqR1ExODZPdG56dzBJWkZjaDRBMEJEOUhzME9DOGpxdzVHclZjWVBWUFB2ejhQZEdpaVE?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-11T13:27:58.509440Z"
     }
   ]
 }
