@@ -1,29 +1,33 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-11T12:53:19.216753Z",
+  "generated_at": "2026-09-11T12:58:10.641446Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-09-11T12:53:19.216765Z"
+    "critical_alerts": 2,
+    "high_alerts": 4,
+    "last_updated": "2026-09-11T12:58:10.641462Z"
   },
   "top_signals": [
     {
-      "id": "285cf87805d572d425ce250c0610c8a7",
-      "title": "Inflation held sticky in August, with consumer prices rising 3.4% annually and core costs climbed",
-      "summary": "The all-items consumer price index was expected to rise 0.4% in August, with core, excluding food and energy, showing a 0.2% gain, according to the Dow Jones consensus.",
-      "link": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
-      "source": "CNBC",
-      "score": 23,
-      "severity": "HIGH",
+      "id": "b63a5984e4847340cadb80d3c1778828",
+      "title": "Stocks, Bonds Rise as Oil Drop Outweighs CPI Data: Markets Wrap",
+      "summary": "A decline in oil prices spurred gains in both stocks and bonds, outweighing concern about imminent Federal Reserve rate increases amid elevated inflation.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg",
+      "score": 42,
+      "severity": "CRITICAL",
       "regime": "INFLATION",
-      "tickers": [],
+      "tickers": [
+        "WTI"
+      ],
       "regions": [],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -37,39 +41,242 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-11T12:52:17.782455Z"
+      "published": "2026-09-11T12:57:12.261934Z"
     },
     {
-      "id": "8562bccb28ad170c0a023c0f9b074322",
-      "title": "World\u2019s biggest relationship? Xi and Modi look to rebuild ties for 2.8bn people - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOR3JtaTlZbTk3bjBRSEt4R1pCaW42ZFFqQUI4YzVuazlNSWNzbUxyYmdWWVU5eHJLQ1FfOGVYVTlkdGd3UDJDUVhUS09FUFZrSlBBXzEwTDYzZ0Uyd1RONWZZX0wwQk05eGc4Zmd1X1VZdWp1VkNyQUxfY2hGN01EYmZWZHo?oc=5\" target=\"_blank\">World\u2019s biggest relationship? Xi and Modi look to rebuild ties for 2.8bn people</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOR3JtaTlZbTk3bjBRSEt4R1pCaW42ZFFqQUI4YzVuazlNSWNzbUxyYmdWWVU5eHJLQ1FfOGVYVTlkdGd3UDJDUVhUS09FUFZrSlBBXzEwTDYzZ0Uyd1RONWZZX0wwQk05eGc4Zmd1X1VZdWp1VkNyQUxfY2hGN01EYmZWZHo?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
+      "id": "a999bac5c915ccc6d5f4f279b27a70eb",
+      "title": "Inflation persisted in August, potentially locking in a Fed interest rate hike",
+      "summary": "The all-items consumer price index was expected to rise 0.4% in August, with core, excluding food and energy, showing a 0.2% gain, according to the Dow Jones consensus.",
+      "link": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+      "source": "CNBC",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-11T12:57:15.343503Z"
+    },
+    {
+      "id": "669626abfbd733b54b66cac8db877543",
+      "title": "Bessent says 'a large bank' will be sanctioned on Monday as part of Iran strategy",
+      "summary": "U.S. Treasury Secretary\u00a0Scott Bessent said a large bank would be sanctioned next week.",
+      "link": "https://www.cnbc.com/2026/09/11/bessent-large-bank-sanctioned.html",
+      "source": "CNBC",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-11T12:57:15.343571Z"
+    },
+    {
+      "id": "54aa1b6c37629ed6fca8a1e88ada8475",
+      "title": "Artificial Intelligence Consortium minutes \u2013 June 2026",
+      "summary": "The Artificial Intelligence Consortium (AIC) aims to provide a platform for public-private engagement to further dialogue on the capabilities, development, deployment, use, and potential risks of artificial intelligence (AI) in UK financial services.",
+      "link": "https://www.bankofengland.co.uk/minutes/2026/june/ai-consortium-minutes-3-june-2026",
+      "source": "Bank of England",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-11T12:57:59.198944Z"
+    },
+    {
+      "id": "29cc45a1e4d4ba1bca71ac602cb1c734",
+      "title": "Chinese AI labs secretly used millions of Claude exchanges to train their models, Anthropic says",
+      "summary": "Anthropic said it detected unauthorized efforts by China-based AI labs including Alibaba and Moonshot AI to use its Claude models to help improve their own AI systems.",
+      "link": "https://www.cnbc.com/2026/09/11/chinese-ai-labs-moonshot-deepseek-alibaba-anthropic.html",
+      "source": "CNBC",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-11T12:57:15.467780Z"
+    },
+    {
+      "id": "c85daffd00a3fb6e0c80364650eeafd2",
+      "title": "Conti ransomware gang member sentenced to 4 years in prison",
+      "summary": "A Ukrainian national has been sentenced to four years in prison for his role in Conti ransomware attacks between 2021 and 2022. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-11T12:58:07.337427Z"
+    },
+    {
+      "id": "ad59144626389fae8da9a65ba012b5e6",
+      "title": "Results of the Semi-Annual FX Turnover Surveys in April 2026",
+      "summary": "In April 2026, 25 financial institutions active in the UK foreign exchange (FX) market participated in the semi-annual turnover survey for the Foreign Exchange Joint Standing Committee (FXJSC). The survey results are summarised below. Detailed tables for the April 2026 reporting period, linked below, are available separately.",
+      "link": "https://www.bankofengland.co.uk/markets/london-foreign-exchange-joint-standing-committee/results-of-the-semi-annual-fx-turnover-survey-april-2026",
+      "source": "Bank of England",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-11T12:57:59.198861Z"
+    },
+    {
+      "id": "f6706d8187a3d689864f2e944c9c2af1",
+      "title": "Boris Vuj\u010di\u0107: Listening to households: expectations, behaviour and monetary policy",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-11T12:53:18.038711Z"
+      "published": "2026-09-11T12:57:53.273566Z"
+    },
+    {
+      "id": "59bd9b4bed57502e0dbd7e9d76e06c76",
+      "title": "Activities of U.S. Affiliates of Foreign Multinational Enterprises, 2024",
+      "summary": "Majority-owned U.S. affiliates of foreign multinational enterprises employed 8.57 million workers in the United States in 2024, a 0.2 percent increase from 8.56 million workers in 2023, according to statistics on U.S. affiliate operations and finances released today by the U.S. Bureau of Economic Analysis.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/activities-us-affiliates-foreign-multinational-enterprises-2024\">Full Text</a><!--Full Text Link-->",
+      "link": "https://www.bea.gov/news/2026/activities-us-affiliates-foreign-multinational-enterprises-2024",
+      "source": "BEA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-11T12:57:52.435467Z"
     }
   ],
   "alerts": [
     {
-      "id": "285cf87805d572d425ce250c0610c8a7",
-      "title": "Inflation held sticky in August, with consumer prices rising 3.4% annually and core costs climbed",
-      "summary": "The all-items consumer price index was expected to rise 0.4% in August, with core, excluding food and energy, showing a 0.2% gain, according to the Dow Jones consensus.",
-      "link": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
-      "source": "CNBC",
-      "score": 23,
-      "severity": "HIGH",
+      "id": "b63a5984e4847340cadb80d3c1778828",
+      "title": "Stocks, Bonds Rise as Oil Drop Outweighs CPI Data: Markets Wrap",
+      "summary": "A decline in oil prices spurred gains in both stocks and bonds, outweighing concern about imminent Federal Reserve rate increases amid elevated inflation.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg",
+      "score": 42,
+      "severity": "CRITICAL",
       "regime": "INFLATION",
-      "tickers": [],
+      "tickers": [
+        "WTI"
+      ],
       "regions": [],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -83,23 +290,222 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-11T12:52:17.782455Z"
+      "published": "2026-09-11T12:57:12.261934Z"
     },
     {
-      "id": "8562bccb28ad170c0a023c0f9b074322",
-      "title": "World\u2019s biggest relationship? Xi and Modi look to rebuild ties for 2.8bn people - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOR3JtaTlZbTk3bjBRSEt4R1pCaW42ZFFqQUI4YzVuazlNSWNzbUxyYmdWWVU5eHJLQ1FfOGVYVTlkdGd3UDJDUVhUS09FUFZrSlBBXzEwTDYzZ0Uyd1RONWZZX0wwQk05eGc4Zmd1X1VZdWp1VkNyQUxfY2hGN01EYmZWZHo?oc=5\" target=\"_blank\">World\u2019s biggest relationship? Xi and Modi look to rebuild ties for 2.8bn people</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOR3JtaTlZbTk3bjBRSEt4R1pCaW42ZFFqQUI4YzVuazlNSWNzbUxyYmdWWVU5eHJLQ1FfOGVYVTlkdGd3UDJDUVhUS09FUFZrSlBBXzEwTDYzZ0Uyd1RONWZZX0wwQk05eGc4Zmd1X1VZdWp1VkNyQUxfY2hGN01EYmZWZHo?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
+      "id": "a999bac5c915ccc6d5f4f279b27a70eb",
+      "title": "Inflation persisted in August, potentially locking in a Fed interest rate hike",
+      "summary": "The all-items consumer price index was expected to rise 0.4% in August, with core, excluding food and energy, showing a 0.2% gain, according to the Dow Jones consensus.",
+      "link": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+      "source": "CNBC",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-11T12:57:15.343503Z"
+    },
+    {
+      "id": "669626abfbd733b54b66cac8db877543",
+      "title": "Bessent says 'a large bank' will be sanctioned on Monday as part of Iran strategy",
+      "summary": "U.S. Treasury Secretary\u00a0Scott Bessent said a large bank would be sanctioned next week.",
+      "link": "https://www.cnbc.com/2026/09/11/bessent-large-bank-sanctioned.html",
+      "source": "CNBC",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-11T12:57:15.343571Z"
+    },
+    {
+      "id": "54aa1b6c37629ed6fca8a1e88ada8475",
+      "title": "Artificial Intelligence Consortium minutes \u2013 June 2026",
+      "summary": "The Artificial Intelligence Consortium (AIC) aims to provide a platform for public-private engagement to further dialogue on the capabilities, development, deployment, use, and potential risks of artificial intelligence (AI) in UK financial services.",
+      "link": "https://www.bankofengland.co.uk/minutes/2026/june/ai-consortium-minutes-3-june-2026",
+      "source": "Bank of England",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-11T12:57:59.198944Z"
+    },
+    {
+      "id": "29cc45a1e4d4ba1bca71ac602cb1c734",
+      "title": "Chinese AI labs secretly used millions of Claude exchanges to train their models, Anthropic says",
+      "summary": "Anthropic said it detected unauthorized efforts by China-based AI labs including Alibaba and Moonshot AI to use its Claude models to help improve their own AI systems.",
+      "link": "https://www.cnbc.com/2026/09/11/chinese-ai-labs-moonshot-deepseek-alibaba-anthropic.html",
+      "source": "CNBC",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-11T12:57:15.467780Z"
+    },
+    {
+      "id": "c85daffd00a3fb6e0c80364650eeafd2",
+      "title": "Conti ransomware gang member sentenced to 4 years in prison",
+      "summary": "A Ukrainian national has been sentenced to four years in prison for his role in Conti ransomware attacks between 2021 and 2022. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-11T12:58:07.337427Z"
+    },
+    {
+      "id": "ad59144626389fae8da9a65ba012b5e6",
+      "title": "Results of the Semi-Annual FX Turnover Surveys in April 2026",
+      "summary": "In April 2026, 25 financial institutions active in the UK foreign exchange (FX) market participated in the semi-annual turnover survey for the Foreign Exchange Joint Standing Committee (FXJSC). The survey results are summarised below. Detailed tables for the April 2026 reporting period, linked below, are available separately.",
+      "link": "https://www.bankofengland.co.uk/markets/london-foreign-exchange-joint-standing-committee/results-of-the-semi-annual-fx-turnover-survey-april-2026",
+      "source": "Bank of England",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-11T12:57:59.198861Z"
+    },
+    {
+      "id": "f6706d8187a3d689864f2e944c9c2af1",
+      "title": "Boris Vuj\u010di\u0107: Listening to households: expectations, behaviour and monetary policy",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-11T12:53:18.038711Z"
+      "published": "2026-09-11T12:57:53.273566Z"
+    },
+    {
+      "id": "59bd9b4bed57502e0dbd7e9d76e06c76",
+      "title": "Activities of U.S. Affiliates of Foreign Multinational Enterprises, 2024",
+      "summary": "Majority-owned U.S. affiliates of foreign multinational enterprises employed 8.57 million workers in the United States in 2024, a 0.2 percent increase from 8.56 million workers in 2023, according to statistics on U.S. affiliate operations and finances released today by the U.S. Bureau of Economic Analysis.    <!--Full Text Link--><a href=\"https://www.bea.gov/news/2026/activities-us-affiliates-foreign-multinational-enterprises-2024\">Full Text</a><!--Full Text Link-->",
+      "link": "https://www.bea.gov/news/2026/activities-us-affiliates-foreign-multinational-enterprises-2024",
+      "source": "BEA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-11T12:57:52.435467Z"
     }
   ]
 }
