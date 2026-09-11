@@ -1,64 +1,85 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-11T15:43:05.962892Z",
+  "generated_at": "2026-09-11T15:48:12.157604Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "INFLATION",
+    "dominant_driver": "INFLATION",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 1,
-    "last_updated": "2026-09-11T15:43:05.962905Z"
+    "last_updated": "2026-09-11T15:48:12.157618Z"
   },
   "top_signals": [
     {
-      "id": "a03cc27211c54fae2b1b78e4210fdb8e",
-      "title": "KPMG under investigation over audits for Prax\u2019s State Oil arm",
-      "summary": "Big Four accountant, PKF Littlejohn and an unnamed individual to face FRC probe",
-      "link": "https://www.ft.com/content/7aa19beb-db39-46dd-8979-0c32c51ed53b?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "id": "cbb58e279210908949dc442d50606155",
+      "title": "US Stocks Rally as Oil Decline Offers Relief After CPI Release",
+      "summary": "US stocks rose as retreating oil prices and a revenue beat from Oracle Corp. boosted sentiment in the face of a report that showed accelerating core consumer prices.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-11/futures-rise-with-help-from-oracle-s-beat-and-cooler-oil-prices",
+      "source": "Bloomberg",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
       "tickers": [
         "WTI"
       ],
       "regions": [],
       "assets": [
-        "COMMODITIES"
+        "COMMODITIES",
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "COMMODITIES"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-11T15:42:11.986309Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-11T15:47:09.998161Z"
     },
     {
-      "id": "7699421db1225471b274190a5a416501",
-      "title": "Press Remarks by Commissioner Lahbib in Moldova",
-      "summary": "European Commission Speech Chi\u0219in\u0103u, 11 Sep 2026 This is my first visit to Moldova as Commissioner, and it comes at a pivotal moment. You are moving forward on your path towards the European Union, and the EU ...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1862",
-      "source": "European Commission",
+      "id": "81cfdaa96e27c77b38624c061db88883",
+      "title": "With Fed rate hike all but assured, here's how markets might react",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/09/11/hotter-cpi-complicates-fed-hold-as-warsh-s-preferred-inflation-gauge-tells-different-story",
+      "source": "CoinDesk",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-11T15:48:08.966379Z"
+    },
+    {
+      "id": "3fd8bc7f8042e868942d517ab896050f",
+      "title": "Metaplanet reverses course on executive options with 41% cut to potential shares, scraps employee warrant plan",
+      "summary": "The changes come amid a bruising stretch for Metaplanet shares, as stock fell about 17% over two trading sessions this week.",
+      "link": "https://www.theblock.co/news/business/2026-09-11-metaplanet-reverses-course-executive-options-41-cut-potential-shares-scraps-employee-warrant-plan-414265",
+      "source": "The Block",
       "score": 11,
       "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "FX"
-      ],
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -73,101 +94,79 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-11T15:42:55.266432Z"
-    },
-    {
-      "id": "8ffa444c5da10dc018ee65ae9ecaa90f",
-      "title": "Japan eyes subsidies to create emergency capacity for drones, ammunition",
-      "summary": "",
-      "link": "https://asia.nikkei.com/politics/defense/japan-eyes-subsidies-to-create-emergency-capacity-for-drones-ammunition",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-11T15:42:57.953239Z"
-    },
-    {
-      "id": "82049b95006a139f11729785189dc3b9",
-      "title": "Microsoft fixes Teams, Outlook launch failures on ARM Windows PCs",
-      "summary": "Microsoft has fixed a bug that prevented Teams and Outlook from launching on ARM-based Windows devices after installing updates released since the August 2026 Patch Tuesday. [...]",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/",
-      "source": "BleepingComputer",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-11T15:43:02.702784Z"
+      "published": "2026-09-11T15:48:09.256903Z"
     }
   ],
   "alerts": [
     {
-      "id": "a03cc27211c54fae2b1b78e4210fdb8e",
-      "title": "KPMG under investigation over audits for Prax\u2019s State Oil arm",
-      "summary": "Big Four accountant, PKF Littlejohn and an unnamed individual to face FRC probe",
-      "link": "https://www.ft.com/content/7aa19beb-db39-46dd-8979-0c32c51ed53b?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "id": "cbb58e279210908949dc442d50606155",
+      "title": "US Stocks Rally as Oil Decline Offers Relief After CPI Release",
+      "summary": "US stocks rose as retreating oil prices and a revenue beat from Oracle Corp. boosted sentiment in the face of a report that showed accelerating core consumer prices.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-11/futures-rise-with-help-from-oracle-s-beat-and-cooler-oil-prices",
+      "source": "Bloomberg",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
       "tickers": [
         "WTI"
       ],
       "regions": [],
       "assets": [
-        "COMMODITIES"
+        "COMMODITIES",
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "COMMODITIES"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-11T15:42:11.986309Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-11T15:47:09.998161Z"
     },
     {
-      "id": "7699421db1225471b274190a5a416501",
-      "title": "Press Remarks by Commissioner Lahbib in Moldova",
-      "summary": "European Commission Speech Chi\u0219in\u0103u, 11 Sep 2026 This is my first visit to Moldova as Commissioner, and it comes at a pivotal moment. You are moving forward on your path towards the European Union, and the EU ...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1862",
-      "source": "European Commission",
+      "id": "81cfdaa96e27c77b38624c061db88883",
+      "title": "With Fed rate hike all but assured, here's how markets might react",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/09/11/hotter-cpi-complicates-fed-hold-as-warsh-s-preferred-inflation-gauge-tells-different-story",
+      "source": "CoinDesk",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-11T15:48:08.966379Z"
+    },
+    {
+      "id": "3fd8bc7f8042e868942d517ab896050f",
+      "title": "Metaplanet reverses course on executive options with 41% cut to potential shares, scraps employee warrant plan",
+      "summary": "The changes come amid a bruising stretch for Metaplanet shares, as stock fell about 17% over two trading sessions this week.",
+      "link": "https://www.theblock.co/news/business/2026-09-11-metaplanet-reverses-course-executive-options-41-cut-potential-shares-scraps-employee-warrant-plan-414265",
+      "source": "The Block",
       "score": 11,
       "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "FX"
-      ],
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -182,50 +181,7 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-11T15:42:55.266432Z"
-    },
-    {
-      "id": "8ffa444c5da10dc018ee65ae9ecaa90f",
-      "title": "Japan eyes subsidies to create emergency capacity for drones, ammunition",
-      "summary": "",
-      "link": "https://asia.nikkei.com/politics/defense/japan-eyes-subsidies-to-create-emergency-capacity-for-drones-ammunition",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-11T15:42:57.953239Z"
-    },
-    {
-      "id": "82049b95006a139f11729785189dc3b9",
-      "title": "Microsoft fixes Teams, Outlook launch failures on ARM Windows PCs",
-      "summary": "Microsoft has fixed a bug that prevented Teams and Outlook from launching on ARM-based Windows devices after installing updates released since the August 2026 Patch Tuesday. [...]",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/",
-      "source": "BleepingComputer",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-11T15:43:02.702784Z"
+      "published": "2026-09-11T15:48:09.256903Z"
     }
   ]
 }
