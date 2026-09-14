@@ -1,36 +1,60 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-14T13:07:29.801897Z",
+  "generated_at": "2026-09-14T13:12:57.039633Z",
   "market_regime": {
     "regime": "GEO-SHOCK",
     "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 3,
+    "critical_alerts": 2,
     "high_alerts": 1,
-    "last_updated": "2026-09-14T13:07:29.801911Z"
+    "last_updated": "2026-09-14T13:12:57.039646Z"
   },
   "top_signals": [
     {
-      "id": "859f3013228165a339c7114c0661dcb3",
-      "title": "Stocks Fall as AI Slowdown Fears, Oil Jitters Hit Sentiment",
-      "summary": "US equity futures fall as leaders of the biggest AI firms propose slowing the technology\u2019s development. China criticizing the warnings saying a Chinese advantage could threaten American national security. Oil prices rising after Saudi Arabia closed a major crude pipeline following attacks. Amy Wu Silverman of RBC Capital Markets joins \"Bloomberg Brief\" to look ahead to the Fed decision after the inflation report. Bloomberg Contributor Adam Hodge of Bully Pulpit International discusses what to expect from the US midterm elections. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-14/stocks-fall-as-ai-slowdown-fears-oil-jitters-hit-sentiment",
+      "id": "d0badbb4cc518d9f6d083ec4a04eae14",
+      "title": "Emerging Currencies Fall as Oil Nears $110 at Start of Fed Week",
+      "summary": "Emerging-market assets fell at the start of a pivotal week for global markets, as surging oil prices and concerns over the pace of artificial-intelligence development weighed on stocks and currencies ahead of an expected Federal Reserve interest-rate hike \u2014 its first since 2023.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-14/emerging-market-stocks-decline-on-mideast-tensions-rate-risks",
       "source": "Bloomberg",
-      "score": 55,
+      "score": 31,
       "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "regime": "RATES",
       "tickers": [
-        "SILVER",
         "WTI"
       ],
-      "regions": [
-        "CHINA",
-        "US"
+      "regions": [],
+      "assets": [
+        "COMMODITIES",
+        "EQUITIES"
       ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-14T13:11:57.179782Z"
+    },
+    {
+      "id": "a95fce84993d80cc16a9ec1b627d6d99",
+      "title": "AI stocks tumble on safety warnings. How to proceed \u2014 including 2 names on our shopping list",
+      "summary": "Jim Cramer offers a roadmap to navigate Monday's sell-off in AI stocks.",
+      "link": "https://www.cnbc.com/2026/09/14/ai-stocks-tumble-on-safety-warnings-how-to-proceed-including-2-names-on-our-shopping-list.html",
+      "source": "CNBC",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
       "assets": [
         "AI",
-        "COMMODITIES",
         "EQUITIES"
       ],
       "market_impact": {
@@ -47,27 +71,49 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-14T13:06:26.088160Z"
+      "published": "2026-09-14T13:12:00.495982Z"
     },
     {
-      "id": "349ac557775b27459619eb108f2c48d6",
-      "title": "Latest Oil Market News and Analysis for Sept. 14",
-      "summary": "Oil surged on a report that Saudi Arabia may take weeks to reopen a pipeline that\u2019s been key to bypassing the Strait of Hormuz during the US-Iran war.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-13/latest-oil-market-news-and-analysis-for-sept-14",
-      "source": "Bloomberg",
-      "score": 39,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "id": "bb36deb8953d6c55619fc982f604de9d",
+      "title": "Bitcoin ETFs shed $463M in weekly reversal as Ether ETFs gain $197M",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin ETFs shed $463M in weekly reversal as Ether ETFs gain $197M\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2FBNSP9ZVJVG90ENN5CFBQ3/etf-weekly-update.png\" /></p><p>ARKB, GBTC and IBIT led Bitcoin ETF withdrawals, while BlackRock\u2019s ETHA pushed Ether ETFs into weekly inflows.</p>",
+      "link": "https://cointelegraph.com/markets/bitcoin-etfs-shed-463m-ether-etfs-gain-197m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
       "tickers": [
-        "WTI"
+        "BTC"
       ],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
+      "regions": [],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "CRYPTO"
       ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-14T13:12:53.609377Z"
+    },
+    {
+      "id": "7ba894f8f1c3e98876c3d141e5876cf3",
+      "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are now exploiting a maximum-severity GitLab vulnerability in attacks. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -82,74 +128,43 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-14T13:06:26.088037Z"
+      "published": "2026-09-14T13:12:53.807843Z"
     },
     {
-      "id": "8c4f6c39439ade46e34df30a0d6a32b9",
-      "title": "Bank of England poised to slow bond sale programme",
-      "summary": "<p> <img alt=\"Mortgage rates are soaring ahead of the Bank&#039;s next meeting.\" src=\"https://www.cityam.com/wp-content/uploads/2026/09/Bank-of-England-facade-e1788796378862.jpg?w=1107\" /> </p>The Bank of England is likely to slow its unusual approach to offloading gilts after conceding it had pushed up borrowing costs at a time when government bond yields have hit near-record highs, economists have predicted. The Bank&#8217;s Monetary Policy Committee will vote to reduce the pace of its &#8216;quantitative tightening&#8217; programme from \u00a370bn to <a href=\"https://www.cityam.com/bank-of-england-poised-to-slow-bond-sale-programme/\">[...]</a>",
-      "link": "https://www.cityam.com/bank-of-england-poised-to-slow-bond-sale-programme/",
-      "source": "CityAM",
-      "score": 29,
-      "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "UK_GILTS"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "RATES"
-      ],
+      "id": "5ee740972f697e081de13a091915f94f",
+      "title": "War crimes tribunal to announce verdict in trial of former Kosovo president Thaci - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNejBna29ITzdjLUp0bmFZTlYyWEl6dkVqci1mS21KSERoUVpKMXFOZnhzMThLQlQ2N3hXaUJMNm4wTzdTNXZuZHg3TWxjRVZaYlZPQ2REelFIbXNhWjZ5ZkUwVWlULWRTbU9GcGxkNXlETzkxODE0NTdCbG1DaXVxX0ZLNjBMU3lDNWFsSEZhOUxId2RKUnJRRlhDVUpUSWFGZHJLTTBJamJiNFk5YktxQVFmdGg?oc=5\" target=\"_blank\">War crimes tribunal to announce verdict in trial of former Kosovo president Thaci</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNejBna29ITzdjLUp0bmFZTlYyWEl6dkVqci1mS21KSERoUVpKMXFOZnhzMThLQlQ2N3hXaUJMNm4wTzdTNXZuZHg3TWxjRVZaYlZPQ2REelFIbXNhWjZ5ZkUwVWlULWRTbU9GcGxkNXlETzkxODE0NTdCbG1DaXVxX0ZLNjBMU3lDNWFsSEZhOUxId2RKUnJRRlhDVUpUSWFGZHJLTTBJamJiNFk5YktxQVFmdGg?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-14T13:07:18.124744Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-14T13:12:55.350203Z"
     },
     {
-      "id": "1b2f5d811aeb42102fcf7d5e08408fd4",
-      "title": "Developer Concord Pacific Buys Wind Farm, Plots Data Centers",
-      "summary": "Concord Pacific Developments Inc. acquired a field of fifty wind turbines from Potentia Renewables Inc. for several hundred million Canadian dollars, deepening the Canadian developer\u2019s long-term bet on renewables, its CEO said, adding that he\u2019s working on a move into data centers too.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-14/canada-developer-concord-buys-wind-farm-plots-new-data-centers",
-      "source": "Bloomberg",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [
-        "DXY"
-      ],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-14T13:06:26.088092Z"
-    },
-    {
-      "id": "b23aa1240532bf93ec614a21bc5c1516",
-      "title": "Etihad Airways CEO on Airline, Fuel Prices, IPO (Video)",
-      "summary": "",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-14/etihad-airways-ceo-on-airline-fuel-prices-ipo-video",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "48e6138b2d15673f0d99f43a7e500cf2",
+      "title": "Microsoft sets limits for future AI models as industry throttles frontier development",
+      "summary": "Microsoft wants to be seen as a responsible AI entity as it ramps up model development alongside partners Anthropic and OpenAI.",
+      "link": "https://www.cnbc.com/2026/09/14/microsoft-ai-model-limits-anthropic-openai.html",
+      "source": "CNBC",
+      "score": 10,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
@@ -166,30 +181,84 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-14T13:06:26.088178Z"
+      "published": "2026-09-14T13:12:00.495884Z"
+    },
+    {
+      "id": "6a78b6cb86604e1cf6900de91ba23a80",
+      "title": "Space startups raise big money in funding blitz as Europe aims to challenge U.S. dominance",
+      "summary": "European space startups are attracting fresh funding as the region seeks to build its capabilities and narrow a its gap with the U.S.",
+      "link": "https://www.cnbc.com/2026/09/14/space-startups-funding-spacex.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-14T13:12:00.934567Z"
     }
   ],
   "alerts": [
     {
-      "id": "859f3013228165a339c7114c0661dcb3",
-      "title": "Stocks Fall as AI Slowdown Fears, Oil Jitters Hit Sentiment",
-      "summary": "US equity futures fall as leaders of the biggest AI firms propose slowing the technology\u2019s development. China criticizing the warnings saying a Chinese advantage could threaten American national security. Oil prices rising after Saudi Arabia closed a major crude pipeline following attacks. Amy Wu Silverman of RBC Capital Markets joins \"Bloomberg Brief\" to look ahead to the Fed decision after the inflation report. Bloomberg Contributor Adam Hodge of Bully Pulpit International discusses what to expect from the US midterm elections. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-14/stocks-fall-as-ai-slowdown-fears-oil-jitters-hit-sentiment",
+      "id": "d0badbb4cc518d9f6d083ec4a04eae14",
+      "title": "Emerging Currencies Fall as Oil Nears $110 at Start of Fed Week",
+      "summary": "Emerging-market assets fell at the start of a pivotal week for global markets, as surging oil prices and concerns over the pace of artificial-intelligence development weighed on stocks and currencies ahead of an expected Federal Reserve interest-rate hike \u2014 its first since 2023.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-14/emerging-market-stocks-decline-on-mideast-tensions-rate-risks",
       "source": "Bloomberg",
-      "score": 55,
+      "score": 31,
       "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "regime": "RATES",
       "tickers": [
-        "SILVER",
         "WTI"
       ],
-      "regions": [
-        "CHINA",
-        "US"
+      "regions": [],
+      "assets": [
+        "COMMODITIES",
+        "EQUITIES"
       ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-14T13:11:57.179782Z"
+    },
+    {
+      "id": "a95fce84993d80cc16a9ec1b627d6d99",
+      "title": "AI stocks tumble on safety warnings. How to proceed \u2014 including 2 names on our shopping list",
+      "summary": "Jim Cramer offers a roadmap to navigate Monday's sell-off in AI stocks.",
+      "link": "https://www.cnbc.com/2026/09/14/ai-stocks-tumble-on-safety-warnings-how-to-proceed-including-2-names-on-our-shopping-list.html",
+      "source": "CNBC",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
       "assets": [
         "AI",
-        "COMMODITIES",
         "EQUITIES"
       ],
       "market_impact": {
@@ -206,27 +275,49 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-14T13:06:26.088160Z"
+      "published": "2026-09-14T13:12:00.495982Z"
     },
     {
-      "id": "349ac557775b27459619eb108f2c48d6",
-      "title": "Latest Oil Market News and Analysis for Sept. 14",
-      "summary": "Oil surged on a report that Saudi Arabia may take weeks to reopen a pipeline that\u2019s been key to bypassing the Strait of Hormuz during the US-Iran war.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-13/latest-oil-market-news-and-analysis-for-sept-14",
-      "source": "Bloomberg",
-      "score": 39,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "id": "bb36deb8953d6c55619fc982f604de9d",
+      "title": "Bitcoin ETFs shed $463M in weekly reversal as Ether ETFs gain $197M",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin ETFs shed $463M in weekly reversal as Ether ETFs gain $197M\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2FBNSP9ZVJVG90ENN5CFBQ3/etf-weekly-update.png\" /></p><p>ARKB, GBTC and IBIT led Bitcoin ETF withdrawals, while BlackRock\u2019s ETHA pushed Ether ETFs into weekly inflows.</p>",
+      "link": "https://cointelegraph.com/markets/bitcoin-etfs-shed-463m-ether-etfs-gain-197m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
       "tickers": [
-        "WTI"
+        "BTC"
       ],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
+      "regions": [],
       "assets": [
         "AI",
-        "COMMODITIES"
+        "CRYPTO"
       ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-14T13:12:53.609377Z"
+    },
+    {
+      "id": "7ba894f8f1c3e98876c3d141e5876cf3",
+      "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are now exploiting a maximum-severity GitLab vulnerability in attacks. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -241,74 +332,43 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-14T13:06:26.088037Z"
+      "published": "2026-09-14T13:12:53.807843Z"
     },
     {
-      "id": "8c4f6c39439ade46e34df30a0d6a32b9",
-      "title": "Bank of England poised to slow bond sale programme",
-      "summary": "<p> <img alt=\"Mortgage rates are soaring ahead of the Bank&#039;s next meeting.\" src=\"https://www.cityam.com/wp-content/uploads/2026/09/Bank-of-England-facade-e1788796378862.jpg?w=1107\" /> </p>The Bank of England is likely to slow its unusual approach to offloading gilts after conceding it had pushed up borrowing costs at a time when government bond yields have hit near-record highs, economists have predicted. The Bank&#8217;s Monetary Policy Committee will vote to reduce the pace of its &#8216;quantitative tightening&#8217; programme from \u00a370bn to <a href=\"https://www.cityam.com/bank-of-england-poised-to-slow-bond-sale-programme/\">[...]</a>",
-      "link": "https://www.cityam.com/bank-of-england-poised-to-slow-bond-sale-programme/",
-      "source": "CityAM",
-      "score": 29,
-      "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "UK_GILTS"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "RATES"
-      ],
+      "id": "5ee740972f697e081de13a091915f94f",
+      "title": "War crimes tribunal to announce verdict in trial of former Kosovo president Thaci - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNejBna29ITzdjLUp0bmFZTlYyWEl6dkVqci1mS21KSERoUVpKMXFOZnhzMThLQlQ2N3hXaUJMNm4wTzdTNXZuZHg3TWxjRVZaYlZPQ2REelFIbXNhWjZ5ZkUwVWlULWRTbU9GcGxkNXlETzkxODE0NTdCbG1DaXVxX0ZLNjBMU3lDNWFsSEZhOUxId2RKUnJRRlhDVUpUSWFGZHJLTTBJamJiNFk5YktxQVFmdGg?oc=5\" target=\"_blank\">War crimes tribunal to announce verdict in trial of former Kosovo president Thaci</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNejBna29ITzdjLUp0bmFZTlYyWEl6dkVqci1mS21KSERoUVpKMXFOZnhzMThLQlQ2N3hXaUJMNm4wTzdTNXZuZHg3TWxjRVZaYlZPQ2REelFIbXNhWjZ5ZkUwVWlULWRTbU9GcGxkNXlETzkxODE0NTdCbG1DaXVxX0ZLNjBMU3lDNWFsSEZhOUxId2RKUnJRRlhDVUpUSWFGZHJLTTBJamJiNFk5YktxQVFmdGg?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-14T13:07:18.124744Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-14T13:12:55.350203Z"
     },
     {
-      "id": "1b2f5d811aeb42102fcf7d5e08408fd4",
-      "title": "Developer Concord Pacific Buys Wind Farm, Plots Data Centers",
-      "summary": "Concord Pacific Developments Inc. acquired a field of fifty wind turbines from Potentia Renewables Inc. for several hundred million Canadian dollars, deepening the Canadian developer\u2019s long-term bet on renewables, its CEO said, adding that he\u2019s working on a move into data centers too.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-14/canada-developer-concord-buys-wind-farm-plots-new-data-centers",
-      "source": "Bloomberg",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [
-        "DXY"
-      ],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-14T13:06:26.088092Z"
-    },
-    {
-      "id": "b23aa1240532bf93ec614a21bc5c1516",
-      "title": "Etihad Airways CEO on Airline, Fuel Prices, IPO (Video)",
-      "summary": "",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-14/etihad-airways-ceo-on-airline-fuel-prices-ipo-video",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "48e6138b2d15673f0d99f43a7e500cf2",
+      "title": "Microsoft sets limits for future AI models as industry throttles frontier development",
+      "summary": "Microsoft wants to be seen as a responsible AI entity as it ramps up model development alongside partners Anthropic and OpenAI.",
+      "link": "https://www.cnbc.com/2026/09/14/microsoft-ai-model-limits-anthropic-openai.html",
+      "source": "CNBC",
+      "score": 10,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
@@ -325,7 +385,37 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-14T13:06:26.088178Z"
+      "published": "2026-09-14T13:12:00.495884Z"
+    },
+    {
+      "id": "6a78b6cb86604e1cf6900de91ba23a80",
+      "title": "Space startups raise big money in funding blitz as Europe aims to challenge U.S. dominance",
+      "summary": "European space startups are attracting fresh funding as the region seeks to build its capabilities and narrow a its gap with the U.S.",
+      "link": "https://www.cnbc.com/2026/09/14/space-startups-funding-spacex.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-14T13:12:00.934567Z"
     }
   ]
 }
