@@ -1,30 +1,147 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-14T01:13:20.968185Z",
+  "generated_at": "2026-09-14T01:18:58.001293Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "CRYPTO",
+    "dominant_driver": "CRYPTO",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 2,
+    "critical_alerts": 0,
     "high_alerts": 2,
-    "last_updated": "2026-09-14T01:13:20.968197Z"
+    "last_updated": "2026-09-14T01:18:58.001304Z"
   },
   "top_signals": [
     {
-      "id": "a49fff967b465c1481b2e94019c3bf8b",
-      "title": "Russians to vote, but the outcome is already decided",
-      "summary": "First election for the Duma since the Ukraine invasion, inflation reports dominate the economic data run, and the Fed, BoE and BoJ make interest rate announcements",
-      "link": "https://www.ft.com/content/7de7cc10-e7a5-414b-a40f-3296eaf49ce7?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 57,
-      "severity": "CRITICAL",
+      "id": "778b239d16ce4cd20b31bd67763a07e0",
+      "title": "The wages of American workers are under pressure. AI's potential role is drawing more attention",
+      "summary": "Wage growth for workers has slowed and is struggling to keep up with inflation, drawing attention to AI's potential role even as evidence remains incomplete.",
+      "link": "https://www.cnbc.com/2026/09/13/ai-jobs-pay-inflation.html",
+      "source": "CNBC",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-14T01:17:40.623651Z"
+    },
+    {
+      "id": "9e3a407235ecc07170f57e328125791a",
+      "title": "Nigel Farage\u2019s Reform UK lands $97 million donations from two crypto billionaires in 24 hours",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/09/12/nigel-farage-s-reform-uk-lands-usd97-million-donations-from-two-crypto-billionaires-in-24-hours",
+      "source": "CoinDesk",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-14T01:18:54.253672Z"
+    },
+    {
+      "id": "943a18a47ee64dd99dca15e5f88ac2a2",
+      "title": "Anthropic caught Russia-linked spies using Claude in hacking operations",
+      "summary": "Anthropic detected and disrupted a Russia-linked cyber-espionage group that used its AI tool Claude in a hacking campaign targeting more than 20 government, intelligence, diplomatic and defense organizations.",
+      "link": "https://therecord.media/anthropic-russia-hackers-claude",
+      "source": "The Record",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-14T01:18:54.973227Z"
+    },
+    {
+      "id": "81fcd928a61d138c95200c0daa883c4b",
+      "title": "Revolut says customer KYC, Bitcoin transaction data exposed after fake request from gov\u2019t domain",
+      "summary": "Onchain investigator ZachXBT speculated that the incident may have been targeting high-net-worth users.",
+      "link": "https://www.theblock.co/news/business/2026-09-12-revolut-says-customer-kyc-bitcoin-transaction-data-exposed-after-fake-request-from-govt-domain-414516",
+      "source": "The Block",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-14T01:18:54.528368Z"
+    },
+    {
+      "id": "a73f30e70ec453b46672ee1fd29d9820",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity also has learned that the New Orleans field office of the Federal Bureau of Investigation (FBI) today launched an official inquiry into the source of the images.",
+      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "source": "KrebsOnSecurity",
+      "score": 11,
+      "severity": "MEDIUM",
       "regime": "RATES",
       "tickers": [],
       "regions": [
-        "RUSSIA",
-        "UK",
-        "UKRAINE"
+        "US"
       ],
       "assets": [
         "AI"
@@ -41,155 +158,14 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-14T01:12:23.522562Z"
+      "published": "2026-09-14T01:18:54.801695Z"
     },
     {
-      "id": "33e6cba013223972b42cce4fb44036b0",
-      "title": "Fed rate hike is about Wall Street, not inflation, says economist",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/09/13/fed-rate-hike-is-about-wall-street-not-inflation-says-economist",
-      "source": "CoinDesk",
-      "score": 27,
-      "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-14T01:13:16.466496Z"
-    },
-    {
-      "id": "4e6743ba7f60209d513b18c12eaf5422",
-      "title": "Canada seeks Ukraine loan role to deepen EU ties",
-      "summary": "Prime Minister Mark Carney to meet leaders in Europe this week as he tries to reduce his country\u2019s dependence on the US",
-      "link": "https://www.ft.com/content/9cd8cc79-e98a-449f-a903-609b034a56e3?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE",
-        "UK",
-        "UKRAINE"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-14T01:12:23.522498Z"
-    },
-    {
-      "id": "c4cbc62ff7ed64e53ded38e28143af8d",
-      "title": "Goldman picks China healthcare stocks for a post-AI trade - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPUUFMVGpQQTVhZVlIdGFVUmM3dHlNdXJrdjYxbVZySWlwZUZHX2dLUF90ZkI2SVlJTXI5RjFNbDBQOUgyZUZCY3FNYV9iMU5ZY2dJejBqd3pHZ3E5OS1Sd0cyWlRnSHZxRzQ2R1JMcHFJTjBON1NWb25ldUVaTndzTmtGVXItM0Q2SThPTXJWQ3hieFVPbGpmcHd3?oc=5\" target=\"_blank\">Goldman picks China healthcare stocks for a post-AI trade</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUUFMVGpQQTVhZVlIdGFVUmM3dHlNdXJrdjYxbVZySWlwZUZHX2dLUF90ZkI2SVlJTXI5RjFNbDBQOUgyZUZCY3FNYV9iMU5ZY2dJejBqd3pHZ3E5OS1Sd0cyWlRnSHZxRzQ2R1JMcHFJTjBON1NWb25ldUVaTndzTmtGVXItM0Q2SThPTXJWQ3hieFVPbGpmcHd3?oc=5",
-      "source": "Google Macro",
-      "score": 17,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "XAU"
-      ],
-      "regions": [
-        "CHINA"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-14T01:13:20.968154Z"
-    },
-    {
-      "id": "a24beb6d93b801485a880a80bf531e07",
-      "title": "A Tiny Shift in the Inflation Rate Could Decide the Fed\u2019s Next Move - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQU2VrRkdPcXF6U3ZvMTdqQ1pLT2Jua0N1MHlyQXM4c2hNN1M0SEY4bHZMakxwZm9jRjRKUHpsdnFuemtxSjFLZUhSVFJSTE41NzJQajl5M09PSlZNbkczMlZHTGN4U2wyalN2SnJiZG1JT3Roem00c0hmRXlRX3gtZzRNM2RBaS05VkRabUVSenVyUUV1ODQwUUNyTlE?oc=5\" target=\"_blank\">A Tiny Shift in the Inflation Rate Could Decide the Fed\u2019s Next Move</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU2VrRkdPcXF6U3ZvMTdqQ1pLT2Jua0N1MHlyQXM4c2hNN1M0SEY4bHZMakxwZm9jRjRKUHpsdnFuemtxSjFLZUhSVFJSTE41NzJQajl5M09PSlZNbkczMlZHTGN4U2wyalN2SnJiZG1JT3Roem00c0hmRXlRX3gtZzRNM2RBaS05VkRabUVSenVyUUV1ODQwUUNyTlE?oc=5",
-      "source": "Google Macro",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-14T01:13:20.251741Z"
-    },
-    {
-      "id": "681089b92d7ee98ce6ef8d1a24f773f4",
-      "title": "Circle's $400M Tazapay deal buys emerging market links that take \u2018years to build\u2019",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/09/13/circle-s-usd400m-tazapay-deal-buys-emerging-market-links-that-take-years-to-build",
-      "source": "CoinDesk",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-14T01:13:16.466540Z"
-    },
-    {
-      "id": "f6e4dd1ab89bf88f8bbad72a01c2ee3c",
-      "title": "Joseph Stiglitz\u2019s \u2018progressive AI agenda\u2019 for the economy - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9ydmFEaGMwSzJaVUNRZTltcVRoRFpoRWU4YmtFZVpXTjVSbHNocFJhOEtQbWZCdEl4cHplbUl0NGs0NWQxQzR2VjBPMnNjUmZXemwwb0dHaVJVTFhzOXBIVzAxUVZtMEhkSGRRelJoaWQ?oc=5\" target=\"_blank\">Joseph Stiglitz\u2019s \u2018progressive AI agenda\u2019 for the economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ydmFEaGMwSzJaVUNRZTltcVRoRFpoRWU4YmtFZVpXTjVSbHNocFJhOEtQbWZCdEl4cHplbUl0NGs0NWQxQzR2VjBPMnNjUmZXemwwb0dHaVJVTFhzOXBIVzAxUVZtMEhkSGRRelJoaWQ?oc=5",
-      "source": "Google Macro",
+      "id": "399979f4b5134ca71f9bf5780579ff5f",
+      "title": "The Race to Solve Nuclear Energy\u2019s Biggest Problem",
+      "summary": "Nuclear power is growing in popularity once again as governments worldwide look to diversify their energy mix and reduce reliance on fossil fuels. Several countries are now looking to develop or expand their nuclear energy capacity over the coming decades. However, one challenge remains \u2013 nuclear waste. Disposing of waste materials from nuclear energy operations remains a complex task with no perfect solution. As countries worldwide have grown their nuclear power capacity, many governments are still struggling to decide on the best solution\u2026",
+      "link": "https://oilprice.com/Alternative-Energy/Nuclear-Power/The-Race-to-Solve-Nuclear-Energys-Biggest-Problem.html",
+      "source": "OilPrice",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
@@ -207,24 +183,159 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-14T01:13:19.607086Z"
+      "published": "2026-09-14T01:18:38.426756Z"
+    },
+    {
+      "id": "afc69a042e3c269c22c652703a1f6f70",
+      "title": "Top Wall Street analysts recommend these 3 dividend stocks for higher returns - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQN2JoTDhDTlV3bTMzR3ltellxQmt5UlI3T3RWZEJGcm45UW1LZHJWSGxxak5EUG90cU1XRTZVb0NVakJZUm9YNF8zcE1nS3dneW1zZlRwRFlINjc3TWJEN2pjVmdUdmV5bEpWb2lqTGZmZjRYanhDUGZOWXpiMWVfY09nWXJVMGFZZ2FxS2R1OGU5dktDNGxmVE5aSU5QTl9JM2VxUlRPOGNKUEE2Y1BBYnVNVTHSAboBQVVfeXFMUEh1WHJPQ21DT3lYNTZidFNlVmN5NFZYcnVEa1JIaDUyTFN6SjFkTkxacTBQSTNkWVp4dUg4bVBBMWZmdm5RQ21wYnVJS2ZrMmxlcTdzM0ZlMFh0RkhsQ20wRndvVG5sd3ZuQlFvSGV4ZW13R3JxOGVCVGM1QkJqUlRwNnZmOHdtVzEtR3hIVWdxWTdpb2JTRWdUZHFSc3poWlIwR3lxamREa21qdmFTSFBDeE16U3hsVFhB?oc=5\" target=\"_blank\">Top Wall Street analysts recommend these 3 dividend stocks for higher returns</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN2JoTDhDTlV3bTMzR3ltellxQmt5UlI3T3RWZEJGcm45UW1LZHJWSGxxak5EUG90cU1XRTZVb0NVakJZUm9YNF8zcE1nS3dneW1zZlRwRFlINjc3TWJEN2pjVmdUdmV5bEpWb2lqTGZmZjRYanhDUGZOWXpiMWVfY09nWXJVMGFZZ2FxS2R1OGU5dktDNGxmVE5aSU5QTl9JM2VxUlRPOGNKUEE2Y1BBYnVNVTHSAboBQVVfeXFMUEh1WHJPQ21DT3lYNTZidFNlVmN5NFZYcnVEa1JIaDUyTFN6SjFkTkxacTBQSTNkWVp4dUg4bVBBMWZmdm5RQ21wYnVJS2ZrMmxlcTdzM0ZlMFh0RkhsQ20wRndvVG5sd3ZuQlFvSGV4ZW13R3JxOGVCVGM1QkJqUlRwNnZmOHdtVzEtR3hIVWdxWTdpb2JTRWdUZHFSc3poWlIwR3lxamREa21qdmFTSFBDeE16U3hsVFhB?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-14T01:18:58.001251Z"
     }
   ],
   "alerts": [
     {
-      "id": "a49fff967b465c1481b2e94019c3bf8b",
-      "title": "Russians to vote, but the outcome is already decided",
-      "summary": "First election for the Duma since the Ukraine invasion, inflation reports dominate the economic data run, and the Fed, BoE and BoJ make interest rate announcements",
-      "link": "https://www.ft.com/content/7de7cc10-e7a5-414b-a40f-3296eaf49ce7?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 57,
-      "severity": "CRITICAL",
+      "id": "778b239d16ce4cd20b31bd67763a07e0",
+      "title": "The wages of American workers are under pressure. AI's potential role is drawing more attention",
+      "summary": "Wage growth for workers has slowed and is struggling to keep up with inflation, drawing attention to AI's potential role even as evidence remains incomplete.",
+      "link": "https://www.cnbc.com/2026/09/13/ai-jobs-pay-inflation.html",
+      "source": "CNBC",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-14T01:17:40.623651Z"
+    },
+    {
+      "id": "9e3a407235ecc07170f57e328125791a",
+      "title": "Nigel Farage\u2019s Reform UK lands $97 million donations from two crypto billionaires in 24 hours",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/09/12/nigel-farage-s-reform-uk-lands-usd97-million-donations-from-two-crypto-billionaires-in-24-hours",
+      "source": "CoinDesk",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-14T01:18:54.253672Z"
+    },
+    {
+      "id": "943a18a47ee64dd99dca15e5f88ac2a2",
+      "title": "Anthropic caught Russia-linked spies using Claude in hacking operations",
+      "summary": "Anthropic detected and disrupted a Russia-linked cyber-espionage group that used its AI tool Claude in a hacking campaign targeting more than 20 government, intelligence, diplomatic and defense organizations.",
+      "link": "https://therecord.media/anthropic-russia-hackers-claude",
+      "source": "The Record",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-14T01:18:54.973227Z"
+    },
+    {
+      "id": "81fcd928a61d138c95200c0daa883c4b",
+      "title": "Revolut says customer KYC, Bitcoin transaction data exposed after fake request from gov\u2019t domain",
+      "summary": "Onchain investigator ZachXBT speculated that the incident may have been targeting high-net-worth users.",
+      "link": "https://www.theblock.co/news/business/2026-09-12-revolut-says-customer-kyc-bitcoin-transaction-data-exposed-after-fake-request-from-govt-domain-414516",
+      "source": "The Block",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-14T01:18:54.528368Z"
+    },
+    {
+      "id": "a73f30e70ec453b46672ee1fd29d9820",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity also has learned that the New Orleans field office of the Federal Bureau of Investigation (FBI) today launched an official inquiry into the source of the images.",
+      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "source": "KrebsOnSecurity",
+      "score": 11,
+      "severity": "MEDIUM",
       "regime": "RATES",
       "tickers": [],
       "regions": [
-        "RUSSIA",
-        "UK",
-        "UKRAINE"
+        "US"
       ],
       "assets": [
         "AI"
@@ -241,155 +352,14 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-14T01:12:23.522562Z"
+      "published": "2026-09-14T01:18:54.801695Z"
     },
     {
-      "id": "33e6cba013223972b42cce4fb44036b0",
-      "title": "Fed rate hike is about Wall Street, not inflation, says economist",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/09/13/fed-rate-hike-is-about-wall-street-not-inflation-says-economist",
-      "source": "CoinDesk",
-      "score": 27,
-      "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-14T01:13:16.466496Z"
-    },
-    {
-      "id": "4e6743ba7f60209d513b18c12eaf5422",
-      "title": "Canada seeks Ukraine loan role to deepen EU ties",
-      "summary": "Prime Minister Mark Carney to meet leaders in Europe this week as he tries to reduce his country\u2019s dependence on the US",
-      "link": "https://www.ft.com/content/9cd8cc79-e98a-449f-a903-609b034a56e3?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE",
-        "UK",
-        "UKRAINE"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-14T01:12:23.522498Z"
-    },
-    {
-      "id": "c4cbc62ff7ed64e53ded38e28143af8d",
-      "title": "Goldman picks China healthcare stocks for a post-AI trade - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPUUFMVGpQQTVhZVlIdGFVUmM3dHlNdXJrdjYxbVZySWlwZUZHX2dLUF90ZkI2SVlJTXI5RjFNbDBQOUgyZUZCY3FNYV9iMU5ZY2dJejBqd3pHZ3E5OS1Sd0cyWlRnSHZxRzQ2R1JMcHFJTjBON1NWb25ldUVaTndzTmtGVXItM0Q2SThPTXJWQ3hieFVPbGpmcHd3?oc=5\" target=\"_blank\">Goldman picks China healthcare stocks for a post-AI trade</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUUFMVGpQQTVhZVlIdGFVUmM3dHlNdXJrdjYxbVZySWlwZUZHX2dLUF90ZkI2SVlJTXI5RjFNbDBQOUgyZUZCY3FNYV9iMU5ZY2dJejBqd3pHZ3E5OS1Sd0cyWlRnSHZxRzQ2R1JMcHFJTjBON1NWb25ldUVaTndzTmtGVXItM0Q2SThPTXJWQ3hieFVPbGpmcHd3?oc=5",
-      "source": "Google Macro",
-      "score": 17,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "XAU"
-      ],
-      "regions": [
-        "CHINA"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-14T01:13:20.968154Z"
-    },
-    {
-      "id": "a24beb6d93b801485a880a80bf531e07",
-      "title": "A Tiny Shift in the Inflation Rate Could Decide the Fed\u2019s Next Move - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQU2VrRkdPcXF6U3ZvMTdqQ1pLT2Jua0N1MHlyQXM4c2hNN1M0SEY4bHZMakxwZm9jRjRKUHpsdnFuemtxSjFLZUhSVFJSTE41NzJQajl5M09PSlZNbkczMlZHTGN4U2wyalN2SnJiZG1JT3Roem00c0hmRXlRX3gtZzRNM2RBaS05VkRabUVSenVyUUV1ODQwUUNyTlE?oc=5\" target=\"_blank\">A Tiny Shift in the Inflation Rate Could Decide the Fed\u2019s Next Move</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU2VrRkdPcXF6U3ZvMTdqQ1pLT2Jua0N1MHlyQXM4c2hNN1M0SEY4bHZMakxwZm9jRjRKUHpsdnFuemtxSjFLZUhSVFJSTE41NzJQajl5M09PSlZNbkczMlZHTGN4U2wyalN2SnJiZG1JT3Roem00c0hmRXlRX3gtZzRNM2RBaS05VkRabUVSenVyUUV1ODQwUUNyTlE?oc=5",
-      "source": "Google Macro",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-14T01:13:20.251741Z"
-    },
-    {
-      "id": "681089b92d7ee98ce6ef8d1a24f773f4",
-      "title": "Circle's $400M Tazapay deal buys emerging market links that take \u2018years to build\u2019",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/09/13/circle-s-usd400m-tazapay-deal-buys-emerging-market-links-that-take-years-to-build",
-      "source": "CoinDesk",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-14T01:13:16.466540Z"
-    },
-    {
-      "id": "f6e4dd1ab89bf88f8bbad72a01c2ee3c",
-      "title": "Joseph Stiglitz\u2019s \u2018progressive AI agenda\u2019 for the economy - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9ydmFEaGMwSzJaVUNRZTltcVRoRFpoRWU4YmtFZVpXTjVSbHNocFJhOEtQbWZCdEl4cHplbUl0NGs0NWQxQzR2VjBPMnNjUmZXemwwb0dHaVJVTFhzOXBIVzAxUVZtMEhkSGRRelJoaWQ?oc=5\" target=\"_blank\">Joseph Stiglitz\u2019s \u2018progressive AI agenda\u2019 for the economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ydmFEaGMwSzJaVUNRZTltcVRoRFpoRWU4YmtFZVpXTjVSbHNocFJhOEtQbWZCdEl4cHplbUl0NGs0NWQxQzR2VjBPMnNjUmZXemwwb0dHaVJVTFhzOXBIVzAxUVZtMEhkSGRRelJoaWQ?oc=5",
-      "source": "Google Macro",
+      "id": "399979f4b5134ca71f9bf5780579ff5f",
+      "title": "The Race to Solve Nuclear Energy\u2019s Biggest Problem",
+      "summary": "Nuclear power is growing in popularity once again as governments worldwide look to diversify their energy mix and reduce reliance on fossil fuels. Several countries are now looking to develop or expand their nuclear energy capacity over the coming decades. However, one challenge remains \u2013 nuclear waste. Disposing of waste materials from nuclear energy operations remains a complex task with no perfect solution. As countries worldwide have grown their nuclear power capacity, many governments are still struggling to decide on the best solution\u2026",
+      "link": "https://oilprice.com/Alternative-Energy/Nuclear-Power/The-Race-to-Solve-Nuclear-Energys-Biggest-Problem.html",
+      "source": "OilPrice",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
@@ -407,7 +377,25 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-14T01:13:19.607086Z"
+      "published": "2026-09-14T01:18:38.426756Z"
+    },
+    {
+      "id": "afc69a042e3c269c22c652703a1f6f70",
+      "title": "Top Wall Street analysts recommend these 3 dividend stocks for higher returns - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQN2JoTDhDTlV3bTMzR3ltellxQmt5UlI3T3RWZEJGcm45UW1LZHJWSGxxak5EUG90cU1XRTZVb0NVakJZUm9YNF8zcE1nS3dneW1zZlRwRFlINjc3TWJEN2pjVmdUdmV5bEpWb2lqTGZmZjRYanhDUGZOWXpiMWVfY09nWXJVMGFZZ2FxS2R1OGU5dktDNGxmVE5aSU5QTl9JM2VxUlRPOGNKUEE2Y1BBYnVNVTHSAboBQVVfeXFMUEh1WHJPQ21DT3lYNTZidFNlVmN5NFZYcnVEa1JIaDUyTFN6SjFkTkxacTBQSTNkWVp4dUg4bVBBMWZmdm5RQ21wYnVJS2ZrMmxlcTdzM0ZlMFh0RkhsQ20wRndvVG5sd3ZuQlFvSGV4ZW13R3JxOGVCVGM1QkJqUlRwNnZmOHdtVzEtR3hIVWdxWTdpb2JTRWdUZHFSc3poWlIwR3lxamREa21qdmFTSFBDeE16U3hsVFhB?oc=5\" target=\"_blank\">Top Wall Street analysts recommend these 3 dividend stocks for higher returns</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN2JoTDhDTlV3bTMzR3ltellxQmt5UlI3T3RWZEJGcm45UW1LZHJWSGxxak5EUG90cU1XRTZVb0NVakJZUm9YNF8zcE1nS3dneW1zZlRwRFlINjc3TWJEN2pjVmdUdmV5bEpWb2lqTGZmZjRYanhDUGZOWXpiMWVfY09nWXJVMGFZZ2FxS2R1OGU5dktDNGxmVE5aSU5QTl9JM2VxUlRPOGNKUEE2Y1BBYnVNVTHSAboBQVVfeXFMUEh1WHJPQ21DT3lYNTZidFNlVmN5NFZYcnVEa1JIaDUyTFN6SjFkTkxacTBQSTNkWVp4dUg4bVBBMWZmdm5RQ21wYnVJS2ZrMmxlcTdzM0ZlMFh0RkhsQ20wRndvVG5sd3ZuQlFvSGV4ZW13R3JxOGVCVGM1QkJqUlRwNnZmOHdtVzEtR3hIVWdxWTdpb2JTRWdUZHFSc3poWlIwR3lxamREa21qdmFTSFBDeE16U3hsVFhB?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-14T01:18:58.001251Z"
     }
   ]
 }
