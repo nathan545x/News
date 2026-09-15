@@ -1,54 +1,213 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-15T18:13:17.443337Z",
+  "generated_at": "2026-09-15T18:18:03.904510Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-09-15T18:13:17.443349Z"
+    "critical_alerts": 4,
+    "high_alerts": 2,
+    "last_updated": "2026-09-15T18:18:03.904519Z"
   },
   "top_signals": [
     {
-      "id": "13f8281bb67348b1969f2ef2ca225b0a",
-      "title": "Copper Rises as Traders Weigh New Deliveries, Fed Rate Path",
-      "summary": "Copper advanced as traders weighed easing supply squeeze and bets that the Federal Reserve will raise interest rates for the first time in three years.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-15/copper-holds-near-14-000-as-new-deliveries-signal-supply-relief",
-      "source": "Bloomberg",
-      "score": 25,
+      "id": "a215ba54fb6b328d05ed0fdaf590dd61",
+      "title": "Hapag-Lloyd CEO cites resilient demand, but sees shipping market exposed to Middle East disruption",
+      "summary": "<p>Rolf Habben Jansen says container demand has held up better than expected despite tariffs and geopolitical turmoil, while higher costs and uncertainty over Red Sea routings continue to cloud the market outlook.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/hapag-lloyd-ceo-cites-resilient-demand-but-sees-shipping-market-exposed-to-middle-east-disruption\">Hapag-Lloyd CEO cites resilient demand, but sees shipping market exposed to Middle East disruption</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/hapag-lloyd-ceo-cites-resilient-demand-but-sees-shipping-market-exposed-to-middle-east-disruption",
+      "source": "FreightWaves",
+      "score": 50,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "COMMODITIES",
       "tickers": [
-        "COPPER"
+        "WTI"
       ],
       "regions": [],
       "assets": [
         "AI",
+        "COMMODITIES",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-15T18:17:56.630473Z"
+    },
+    {
+      "id": "b9bfa779aa7ea71302e69c7b2aed210a",
+      "title": "US says Chinese groups used Binance to launder $61mn from Iranian oil deals",
+      "summary": "US Justice Department files forfeiture lawsuit to seize $61mn in alleged proceeds processed through cryptocurrency platform",
+      "link": "https://www.ft.com/content/a3830162-2f40-46b7-8259-0db45fe2acef?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-15T18:12:15.901316Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-15T18:16:58.893650Z"
     },
     {
-      "id": "23c87774c18c7354b0b717a5b8d01d4a",
-      "title": "AI skeptics convene in Washington to urge action, as Congress, Trump idle",
-      "summary": "Lawmakers and AI regulation advocates met Tuesday in Washington at a Future of Life Institute event to urge regulatory action to rein in the expanding technology.",
-      "link": "https://www.cnbc.com/2026/09/15/ai-skeptics-concerns-congress-trump.html",
+      "id": "d4cfcd416e6e4190dd3d2ec7368d7c1e",
+      "title": "US Marine Stand-In Forces in the Pacific worry China, report details",
+      "summary": "The Marine Corps' plan to reorganize for small-unit expeditionary warfare has sparked concern among some Chinese naval officers, a recent report details.",
+      "link": "https://www.defensenews.com/news/your-military/2026/09/15/us-marine-stand-in-forces-in-the-pacific-a-concern-to-china-report-details/",
+      "source": "Defense News",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-15T18:17:57.412309Z"
+    },
+    {
+      "id": "0c51ddca26cc1fb32dd8061b6eda6042",
+      "title": "Potential AI slowdown is not \u2018end of the world\u2019 for data center real estate, says Digital Realty CEO",
+      "summary": "Digital Realty and Equinix, two of the largest data center REITs, saw their stocks slump after warnings over AI advancements.",
+      "link": "https://www.cnbc.com/2026/09/15/data-center-reit-ceo-ai-slowdown.html",
       "source": "CNBC",
-      "score": 10,
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-15T18:17:00.719149Z"
+    },
+    {
+      "id": "624abbb50badaad01786c6d14b3759bd",
+      "title": "Cramer says these 2 stocks are still buys, warns against playing Fed rate 'parlor game' - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOZXJkOWd0cUk4SDJ2VXBLdTBqYVhkVC1KRkduaGhYNzVNWDBNM0JWTE5tb3djdzJ0amFHZ1RIU1RpVUhUZGpaUHFlc0F0aGxtOGNBamtUSGw3VzgtYXJyV0FLb01ZVjRGaFBQRnVVTkljZXRTNUNQUE5aZ0dUSDNHbkNJRHZNZURqZ1E2M0xnLWEzMHdpTEpoLXUteUh0Smp3S09nWjBRY3JkUVlSZzFWT3dqMFEyU0pjTGw4eUJB?oc=5\" target=\"_blank\">Cramer says these 2 stocks are still buys, warns against playing Fed rate 'parlor game'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZXJkOWd0cUk4SDJ2VXBLdTBqYVhkVC1KRkduaGhYNzVNWDBNM0JWTE5tb3djdzJ0amFHZ1RIU1RpVUhUZGpaUHFlc0F0aGxtOGNBamtUSGw3VzgtYXJyV0FLb01ZVjRGaFBQRnVVTkljZXRTNUNQUE5aZ0dUSDNHbkNJRHZNZURqZ1E2M0xnLWEzMHdpTEpoLXUteUh0Smp3S09nWjBRY3JkUVlSZzFWT3dqMFEyU0pjTGw4eUJB?oc=5",
+      "source": "Google Macro",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-15T18:18:03.904466Z"
+    },
+    {
+      "id": "1d1645464a447b2300a0ea1bbcb511c8",
+      "title": "Hackers say they breached Italian state email to target Revolut \u2018crypto whales\u2019",
+      "summary": "Group claims to have spent months posing as law enforcement to obtain confidential data on hundreds of customers",
+      "link": "https://www.ft.com/content/97f3d2b7-0282-42a7-bbb7-538624441a8a?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-15T18:16:58.893613Z"
+    },
+    {
+      "id": "e79981ab1355039a0efc18ef17411d06",
+      "title": "Larry Ellison shows even billionaires struggle with liquidity",
+      "summary": "The Oracle co-founder may have little choice but to sell shares if he wants to raise vast sums of money",
+      "link": "https://www.ft.com/content/6bbec28d-7ccf-455b-932a-0edad91a6d0e?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
@@ -65,48 +224,223 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-15T18:12:18.766692Z"
+      "published": "2026-09-15T18:16:59.292985Z"
+    },
+    {
+      "id": "aaa2223d06157c4b5b22095b20457a13",
+      "title": "Exxon wins Texas approval for $5bn carbon capture project",
+      "summary": "State regulators greenlight plan after lengthy battle over safety and subsidies",
+      "link": "https://www.ft.com/content/4b9952d5-3cc8-48ef-8619-daa15a0a6af1?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-15T18:16:58.893562Z"
     }
   ],
   "alerts": [
     {
-      "id": "13f8281bb67348b1969f2ef2ca225b0a",
-      "title": "Copper Rises as Traders Weigh New Deliveries, Fed Rate Path",
-      "summary": "Copper advanced as traders weighed easing supply squeeze and bets that the Federal Reserve will raise interest rates for the first time in three years.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-15/copper-holds-near-14-000-as-new-deliveries-signal-supply-relief",
-      "source": "Bloomberg",
-      "score": 25,
+      "id": "a215ba54fb6b328d05ed0fdaf590dd61",
+      "title": "Hapag-Lloyd CEO cites resilient demand, but sees shipping market exposed to Middle East disruption",
+      "summary": "<p>Rolf Habben Jansen says container demand has held up better than expected despite tariffs and geopolitical turmoil, while higher costs and uncertainty over Red Sea routings continue to cloud the market outlook.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/hapag-lloyd-ceo-cites-resilient-demand-but-sees-shipping-market-exposed-to-middle-east-disruption\">Hapag-Lloyd CEO cites resilient demand, but sees shipping market exposed to Middle East disruption</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/hapag-lloyd-ceo-cites-resilient-demand-but-sees-shipping-market-exposed-to-middle-east-disruption",
+      "source": "FreightWaves",
+      "score": 50,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "COMMODITIES",
       "tickers": [
-        "COPPER"
+        "WTI"
       ],
       "regions": [],
       "assets": [
         "AI",
+        "COMMODITIES",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-15T18:17:56.630473Z"
+    },
+    {
+      "id": "b9bfa779aa7ea71302e69c7b2aed210a",
+      "title": "US says Chinese groups used Binance to launder $61mn from Iranian oil deals",
+      "summary": "US Justice Department files forfeiture lawsuit to seize $61mn in alleged proceeds processed through cryptocurrency platform",
+      "link": "https://www.ft.com/content/a3830162-2f40-46b7-8259-0db45fe2acef?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-15T18:12:15.901316Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-15T18:16:58.893650Z"
     },
     {
-      "id": "23c87774c18c7354b0b717a5b8d01d4a",
-      "title": "AI skeptics convene in Washington to urge action, as Congress, Trump idle",
-      "summary": "Lawmakers and AI regulation advocates met Tuesday in Washington at a Future of Life Institute event to urge regulatory action to rein in the expanding technology.",
-      "link": "https://www.cnbc.com/2026/09/15/ai-skeptics-concerns-congress-trump.html",
+      "id": "d4cfcd416e6e4190dd3d2ec7368d7c1e",
+      "title": "US Marine Stand-In Forces in the Pacific worry China, report details",
+      "summary": "The Marine Corps' plan to reorganize for small-unit expeditionary warfare has sparked concern among some Chinese naval officers, a recent report details.",
+      "link": "https://www.defensenews.com/news/your-military/2026/09/15/us-marine-stand-in-forces-in-the-pacific-a-concern-to-china-report-details/",
+      "source": "Defense News",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-15T18:17:57.412309Z"
+    },
+    {
+      "id": "0c51ddca26cc1fb32dd8061b6eda6042",
+      "title": "Potential AI slowdown is not \u2018end of the world\u2019 for data center real estate, says Digital Realty CEO",
+      "summary": "Digital Realty and Equinix, two of the largest data center REITs, saw their stocks slump after warnings over AI advancements.",
+      "link": "https://www.cnbc.com/2026/09/15/data-center-reit-ceo-ai-slowdown.html",
       "source": "CNBC",
-      "score": 10,
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-15T18:17:00.719149Z"
+    },
+    {
+      "id": "624abbb50badaad01786c6d14b3759bd",
+      "title": "Cramer says these 2 stocks are still buys, warns against playing Fed rate 'parlor game' - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOZXJkOWd0cUk4SDJ2VXBLdTBqYVhkVC1KRkduaGhYNzVNWDBNM0JWTE5tb3djdzJ0amFHZ1RIU1RpVUhUZGpaUHFlc0F0aGxtOGNBamtUSGw3VzgtYXJyV0FLb01ZVjRGaFBQRnVVTkljZXRTNUNQUE5aZ0dUSDNHbkNJRHZNZURqZ1E2M0xnLWEzMHdpTEpoLXUteUh0Smp3S09nWjBRY3JkUVlSZzFWT3dqMFEyU0pjTGw4eUJB?oc=5\" target=\"_blank\">Cramer says these 2 stocks are still buys, warns against playing Fed rate 'parlor game'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZXJkOWd0cUk4SDJ2VXBLdTBqYVhkVC1KRkduaGhYNzVNWDBNM0JWTE5tb3djdzJ0amFHZ1RIU1RpVUhUZGpaUHFlc0F0aGxtOGNBamtUSGw3VzgtYXJyV0FLb01ZVjRGaFBQRnVVTkljZXRTNUNQUE5aZ0dUSDNHbkNJRHZNZURqZ1E2M0xnLWEzMHdpTEpoLXUteUh0Smp3S09nWjBRY3JkUVlSZzFWT3dqMFEyU0pjTGw4eUJB?oc=5",
+      "source": "Google Macro",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-15T18:18:03.904466Z"
+    },
+    {
+      "id": "1d1645464a447b2300a0ea1bbcb511c8",
+      "title": "Hackers say they breached Italian state email to target Revolut \u2018crypto whales\u2019",
+      "summary": "Group claims to have spent months posing as law enforcement to obtain confidential data on hundreds of customers",
+      "link": "https://www.ft.com/content/97f3d2b7-0282-42a7-bbb7-538624441a8a?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-15T18:16:58.893613Z"
+    },
+    {
+      "id": "e79981ab1355039a0efc18ef17411d06",
+      "title": "Larry Ellison shows even billionaires struggle with liquidity",
+      "summary": "The Oracle co-founder may have little choice but to sell shares if he wants to raise vast sums of money",
+      "link": "https://www.ft.com/content/6bbec28d-7ccf-455b-932a-0edad91a6d0e?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
@@ -123,7 +457,23 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-15T18:12:18.766692Z"
+      "published": "2026-09-15T18:16:59.292985Z"
+    },
+    {
+      "id": "aaa2223d06157c4b5b22095b20457a13",
+      "title": "Exxon wins Texas approval for $5bn carbon capture project",
+      "summary": "State regulators greenlight plan after lengthy battle over safety and subsidies",
+      "link": "https://www.ft.com/content/4b9952d5-3cc8-48ef-8619-daa15a0a6af1?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-15T18:16:58.893562Z"
     }
   ]
 }
