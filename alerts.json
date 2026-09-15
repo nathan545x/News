@@ -1,66 +1,92 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-15T16:58:31.761422Z",
+  "generated_at": "2026-09-15T17:04:18.872540Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
     "high_alerts": 2,
-    "last_updated": "2026-09-15T16:58:31.761441Z"
+    "last_updated": "2026-09-15T17:04:18.872557Z"
   },
   "top_signals": [
     {
-      "id": "060b3a88b96f98e388df7d2df867568d",
-      "title": "Gold Holds Below $4,300 as Traders Brace For Fed Decision",
-      "summary": "Gold held Monday\u2019s slump as disruptions to oil flows from the Middle East reinforced expectations the Federal Reserve will raise interest rates for the first time in three years.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-14/gold-holds-losses-as-higher-oil-stokes-september-rate-hike-bets",
-      "source": "Bloomberg",
-      "score": 42,
+      "id": "816156b063873b4adb916763a0174339",
+      "title": "Saudi Oil Crisis Deepens as Aramco Suspends Yanbu Loadings",
+      "summary": "Saudi Arabia suspends Yanbu oil loadings after halting its East-West pipeline, sending Brent back to $108. Asia\u2019s Oil Crunch Sends Regional Benchmarks to Record Highs - Asia\u2019s oil industry is facing a double whammy of supply shortages and better-than-expected demand, with crude differentials across the region gradually climbing towards record highs. \u00a0 - Futures prices on China\u2019s Shanghai Futures Exchange rose to $138 per barrel on Tuesday, the highest reading on record, as Chinese refiners scramble to put their hands on available\u2026",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Saudi-Oil-Crisis-Deepens-as-Aramco-Suspends-Yanbu-Loadings.html",
+      "source": "OilPrice",
+      "score": 29,
       "severity": "CRITICAL",
-      "regime": "COMMODITIES",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "WTI",
-        "XAU"
+        "BRENT",
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "CHINA"
+      ],
       "assets": [
         "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-15T16:57:23.116102Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-15T17:03:58.329901Z"
     },
     {
-      "id": "bb0d5fbbdfe2deaf8ab4c561cbd156a6",
-      "title": "Christine Lagarde: Europe seen from Normandy",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260912~fafa4b35b0.en.html",
-      "source": "ECB",
-      "score": 18,
+      "id": "faa65dfdeb55da3f23a270ba2d450b59",
+      "title": "Beaten-up bond market may be nearing 'escape velocity.' Here's what that means",
+      "summary": "Rising yields across the bond market have spooked investors, but the surge from zero interest rates since Covid suggests fixed-income risk-reward has improved.",
+      "link": "https://www.cnbc.com/2026/09/15/bonds-yield-10year-treasury-rates.html",
+      "source": "CNBC",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-15T17:03:07.160178Z"
+    },
+    {
+      "id": "22e832bda9fbc139f4e0dde396e70d86",
+      "title": "Why Fed pricing may be turning too hawkish",
+      "summary": "Citi analysts suggested in a note Tuesday that market expectations for Federal Reserve policy may be turning too hawkish ahead of Wednesday&#8217;s decision, in which it expects a 25-basis-point rate hike. In its base case, the bank expects the increase to be dovish in the sense that it comes with guidance pointing away from further ...",
+      "link": "https://www.hellenicshippingnews.com/why-fed-pricing-may-be-turning-too-hawkish/",
+      "source": "Hellenic Shipping",
+      "score": 15,
       "severity": "HIGH",
       "regime": "RATES",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "FX"
-      ],
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -73,16 +99,50 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-15T16:58:07.102569Z"
+      "published": "2026-09-15T17:03:59.346593Z"
     },
     {
-      "id": "1c7a2d087e1dfc4d62406bc9e8b04855",
-      "title": "Trump admin. says private sector can solve AI threats as critics balk",
-      "summary": "President Donald Trump's AI-friendly administration argues U.S. dominance over China in the fast-expanding industry is essential.",
-      "link": "https://www.cnbc.com/2026/09/15/hassett-ai-trump-government-regulation.html",
-      "source": "CNBC",
-      "score": 16,
-      "severity": "HIGH",
+      "id": "0838301765f31a3f2d546cb15daa8622",
+      "title": "European gas eases from 2023 peaks; shipping risks, low storage anchor prices",
+      "summary": "European and British wholesale natural gas prices eased slightly on Tuesday, taking a breather after surging to fresh 2023 high watermarks in the previous session as trading desks locked in profits amid a high-stakes week for global central banks. The benchmark Dutch front-month TTF contract slipped 0.7% to trade around 82.80 euros per megawatt-hour (MWh), ...",
+      "link": "https://www.hellenicshippingnews.com/european-gas-eases-from-2023-peaks-shipping-risks-low-storage-anchor-prices/",
+      "source": "Hellenic Shipping",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "UK"
+      ],
+      "assets": [
+        "FX",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-15T17:03:59.347004Z"
+    },
+    {
+      "id": "03f14f32639ceb073092c80d68307ace",
+      "title": "Steel Pressured by Weak Fundamentals",
+      "summary": "Steel rebar futures remained below CNY 3,100 per ton, staying under pressure as weak market fundamentals continued to weigh on prices. Elevated coke prices continued to squeeze steelmakers\u2019 profit margins, prompting some producers to scale back operations and undergo maintenance. Industry data showed that steel mill profitability in China fell sharply to 7.79% in the ...",
+      "link": "https://www.hellenicshippingnews.com/steel-pressured-by-weak-fundamentals/",
+      "source": "Hellenic Shipping",
+      "score": 11,
+      "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
@@ -105,16 +165,96 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-15T16:57:27.241816Z"
+      "published": "2026-09-15T17:03:59.346886Z"
     },
     {
-      "id": "7ed0b7771d291d3a6ebecdca2d0dd57d",
-      "title": "The institutional form of independent central banks: from history to contemporary challenges - speech by Andrew Bailey",
-      "summary": "Given at LSE TRIUM Anniversary Conference",
-      "link": "https://www.bankofengland.co.uk/speech/2026/september/andrew-bailey-keynote-speech-at-lse-trium-anniversary-conference",
-      "source": "Bank of England",
-      "score": 14,
-      "severity": "MEDIUM",
+      "id": "5043b763beeabda5eb795c70130791db",
+      "title": "Infected USBs used by Japan defense forces were procured improperly: report",
+      "summary": "",
+      "link": "https://asia.nikkei.com/spotlight/cybersecurity/infected-usbs-used-by-japan-defense-forces-were-procured-improperly-report",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-15T17:03:54.398668Z"
+    },
+    {
+      "id": "95be692e2b47d9c75dfb66520d62ee57",
+      "title": "China Jobless Rate Hits 5-Month High",
+      "summary": "China\u2019s surveyed urban unemployment rate rose to 5.3% in August 2026 from 5.2% in the previous month, surpassing market expectations of 5.2% and marking the highest reading since March. Among the locally registered labor force, the jobless rate increased to 5.3% from 5.2% in July, while the rate for migrant workers rose to 5.2% from ...",
+      "link": "https://www.hellenicshippingnews.com/china-jobless-rate-hits-5-month-high/",
+      "source": "Hellenic Shipping",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-15T17:03:59.346506Z"
+    },
+    {
+      "id": "3a2a9e49c3e51d4c361a38d9287f3942",
+      "title": "Judge blocks Kennedy Center board returning Trump's name to building",
+      "summary": "The ruling comes four months after the same judge ordered that the Kennedy Center could not be renamed to include President Trump's name",
+      "link": "https://www.cnbc.com/2026/09/15/trump-kennedy-center-name-ruling.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-15T17:03:07.160124Z"
+    },
+    {
+      "id": "ec8f6ff7410ded4bd8c53c74145d495c",
+      "title": "Why banks should stop worrying and learn to love the Clarity Act",
+      "summary": "",
+      "link": "https://www.coindesk.com/opinion/2026/09/15/why-banks-should-stop-worrying-and-learn-to-love-the-clarity-act",
+      "source": "CoinDesk",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-15T17:04:14.128989Z"
+    },
+    {
+      "id": "f0cb9064f08c95b1efe47b53523a679b",
+      "title": "US scraps limits on emissions from coal and gas power plants",
+      "summary": "Rules aimed at limiting pollution from coal and gas power plants are being scrapped, the head of the US Environmental Protection Agency (EPA) has announced. The agency also said it would take steps to prevent future administrations from regulating power plant emissions. The EPA said that getting rid of the majority of the climate rules ...",
+      "link": "https://www.hellenicshippingnews.com/us-scraps-limits-on-emissions-from-coal-and-gas-power-plants/",
+      "source": "Hellenic Shipping",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -130,185 +270,120 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-15T16:58:14.101624Z"
+      "published": "2026-09-15T17:03:59.346803Z"
     },
     {
-      "id": "9e6f1ba0c68ccee1e7676a8af199609e",
-      "title": "Ten-year Treasury yield hits 5% for first time since 2023 - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQcm9qMUhHdzZRZGFTVG9vQ2pxRmRZWWxSWXRLYlhFTlU1aF9hbmQ2aU9hNVNJZ3ZoYnNGVXhfREVzMVRzdFppM3dWUGpKeUtPcEp3RUhScUoyekJUNFJlN2h5NVdWRmEyaHl0MC1vc2FONG5ZTktPb1BhTTVjWmhIalExeDU?oc=5\" target=\"_blank\">Ten-year Treasury yield hits 5% for first time since 2023</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcm9qMUhHdzZRZGFTVG9vQ2pxRmRZWWxSWXRLYlhFTlU1aF9hbmQ2aU9hNVNJZ3ZoYnNGVXhfREVzMVRzdFppM3dWUGpKeUtPcEp3RUhScUoyekJUNFJlN2h5NVdWRmEyaHl0MC1vc2FONG5ZTktPb1BhTTVjWmhIalExeDU?oc=5",
-      "source": "Google Macro",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-15T16:58:30.673588Z"
-    },
-    {
-      "id": "7c3ed5e33193f1c6b1eae0c67a2d8cb5",
-      "title": "China\u2019s AI listings glut drags Hong Kong stocks lower - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOWm1yR2gwN0pUUzRtZVA5VmNmVlRJNEFYc3Ixb1hVQzdWSTVuUEhUZ05ERTVoRzUwSWlzc2JJajFtV05JSllnS3pucExBTXV2QkZpY2VyeWdXQmxZTVE5Y3JQcVV2UHM1bi0xbEFkRlYtQS0wcDh3Tm5oaU9JT2JaN0NyTUs?oc=5\" target=\"_blank\">China\u2019s AI listings glut drags Hong Kong stocks lower</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWm1yR2gwN0pUUzRtZVA5VmNmVlRJNEFYc3Ixb1hVQzdWSTVuUEhUZ05ERTVoRzUwSWlzc2JJajFtV05JSllnS3pucExBTXV2QkZpY2VyeWdXQmxZTVE5Y3JQcVV2UHM1bi0xbEFkRlYtQS0wcDh3Tm5oaU9JT2JaN0NyTUs?oc=5",
-      "source": "Google Macro",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "CHINA"
-      ],
-      "assets": [
-        "AI",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-15T16:58:30.673438Z"
-    },
-    {
-      "id": "2eab8754d43d76d3257218e7df2d7254",
-      "title": "Hundreds of new officers to hunt down dirty money networks",
-      "summary": "Five hundred new officers to be recruited in a \u00a3500 million crackdown on money laundering, as part of the government's Anti-Money Laundering and Asset Recovery Strategy.",
-      "link": "https://www.gov.uk/government/news/hundreds-of-new-officers-to-hunt-down-dirty-money-networks",
-      "source": "HM Treasury",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-15T16:58:15.073087Z"
-    },
-    {
-      "id": "66d7c29b8b6cd77c178cd7eafcea93d8",
-      "title": "Mikargo247, Verified Carrier launch coverage for strategic cargo theft",
-      "summary": "<p>Verified Carrier and MiKargo247 are partnering to offer brokers spot cargo insurance coverage for strategic theft, including fraud involving double brokering, carrier identity theft and fictitious pickups.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/mikargo247-verified-carrier-launch-coverage-for-strategic-cargo-theft\">Mikargo247, Verified Carrier launch coverage for strategic cargo theft</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/mikargo247-verified-carrier-launch-coverage-for-strategic-cargo-theft",
-      "source": "FreightWaves",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-15T16:58:25.666468Z"
-    },
-    {
-      "id": "1deade3b9951e8b774d92d7e6376740a",
-      "title": "Automation is coming for the gig economy - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNZkVULVN1Qkt2ZTVST2FiWHpwNzU0ZFNTS0p0QjdGUllqV2VmWHRiVzlZUDJPUmczZGdscXo5bXd2aElwbGZiYzFDdDBIZjh2VFZ3ZUk5VVk4SERiYUFwOG1PcF9tQ0tDLWEyb0JWUmVrYjNXOHpaMDA4eC0tMjB6NW1fTDI?oc=5\" target=\"_blank\">Automation is coming for the gig economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZkVULVN1Qkt2ZTVST2FiWHpwNzU0ZFNTS0p0QjdGUllqV2VmWHRiVzlZUDJPUmczZGdscXo5bXd2aElwbGZiYzFDdDBIZjh2VFZ3ZUk5VVk4SERiYUFwOG1PcF9tQ0tDLWEyb0JWUmVrYjNXOHpaMDA4eC0tMjB6NW1fTDI?oc=5",
-      "source": "Google Macro",
+      "id": "4837fa15ec050a367211e50b3065cce5",
+      "title": "Nordic American Tankers Ltd: Exceptional conditions for our vessels",
+      "summary": "We are currently experiencing a market for our vessels that is extraordinary. Below is a snapshot of some recent spot fixtures for our ships \u2013 the numbers are approximate. Our operating costs per ship are less than $10,000 per day. The difference between the rates below and the operating costs is cash accumulation in NAT: ...",
+      "link": "https://www.hellenicshippingnews.com/nordic-american-tankers-ltd-exceptional-conditions-for-our-vessels/",
+      "source": "Hellenic Shipping",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "UK"
+        "US"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-15T16:58:30.673520Z"
+      "published": "2026-09-15T17:03:59.346700Z"
+    },
+    {
+      "id": "3eee23d51efc593879915722cb2979b5",
+      "title": "Carriers Sales & Purchase Market Report, Week 37",
+      "summary": "Carriers Sales &#38; Purchase Market Report, Week 37 &#160; Source: Carriers Chartering Corp. S.A.",
+      "link": "https://www.hellenicshippingnews.com/carriers-sales-purchase-market-report-week-37-2/",
+      "source": "Hellenic Shipping",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-15T17:03:59.346741Z"
     }
   ],
   "alerts": [
     {
-      "id": "060b3a88b96f98e388df7d2df867568d",
-      "title": "Gold Holds Below $4,300 as Traders Brace For Fed Decision",
-      "summary": "Gold held Monday\u2019s slump as disruptions to oil flows from the Middle East reinforced expectations the Federal Reserve will raise interest rates for the first time in three years.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-14/gold-holds-losses-as-higher-oil-stokes-september-rate-hike-bets",
-      "source": "Bloomberg",
-      "score": 42,
+      "id": "816156b063873b4adb916763a0174339",
+      "title": "Saudi Oil Crisis Deepens as Aramco Suspends Yanbu Loadings",
+      "summary": "Saudi Arabia suspends Yanbu oil loadings after halting its East-West pipeline, sending Brent back to $108. Asia\u2019s Oil Crunch Sends Regional Benchmarks to Record Highs - Asia\u2019s oil industry is facing a double whammy of supply shortages and better-than-expected demand, with crude differentials across the region gradually climbing towards record highs. \u00a0 - Futures prices on China\u2019s Shanghai Futures Exchange rose to $138 per barrel on Tuesday, the highest reading on record, as Chinese refiners scramble to put their hands on available\u2026",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Saudi-Oil-Crisis-Deepens-as-Aramco-Suspends-Yanbu-Loadings.html",
+      "source": "OilPrice",
+      "score": 29,
       "severity": "CRITICAL",
-      "regime": "COMMODITIES",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "WTI",
-        "XAU"
+        "BRENT",
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "CHINA"
+      ],
       "assets": [
         "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-15T16:57:23.116102Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-15T17:03:58.329901Z"
     },
     {
-      "id": "bb0d5fbbdfe2deaf8ab4c561cbd156a6",
-      "title": "Christine Lagarde: Europe seen from Normandy",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260912~fafa4b35b0.en.html",
-      "source": "ECB",
-      "score": 18,
+      "id": "faa65dfdeb55da3f23a270ba2d450b59",
+      "title": "Beaten-up bond market may be nearing 'escape velocity.' Here's what that means",
+      "summary": "Rising yields across the bond market have spooked investors, but the surge from zero interest rates since Covid suggests fixed-income risk-reward has improved.",
+      "link": "https://www.cnbc.com/2026/09/15/bonds-yield-10year-treasury-rates.html",
+      "source": "CNBC",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-15T17:03:07.160178Z"
+    },
+    {
+      "id": "22e832bda9fbc139f4e0dde396e70d86",
+      "title": "Why Fed pricing may be turning too hawkish",
+      "summary": "Citi analysts suggested in a note Tuesday that market expectations for Federal Reserve policy may be turning too hawkish ahead of Wednesday&#8217;s decision, in which it expects a 25-basis-point rate hike. In its base case, the bank expects the increase to be dovish in the sense that it comes with guidance pointing away from further ...",
+      "link": "https://www.hellenicshippingnews.com/why-fed-pricing-may-be-turning-too-hawkish/",
+      "source": "Hellenic Shipping",
+      "score": 15,
       "severity": "HIGH",
       "regime": "RATES",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "FX"
-      ],
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -321,16 +396,50 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-15T16:58:07.102569Z"
+      "published": "2026-09-15T17:03:59.346593Z"
     },
     {
-      "id": "1c7a2d087e1dfc4d62406bc9e8b04855",
-      "title": "Trump admin. says private sector can solve AI threats as critics balk",
-      "summary": "President Donald Trump's AI-friendly administration argues U.S. dominance over China in the fast-expanding industry is essential.",
-      "link": "https://www.cnbc.com/2026/09/15/hassett-ai-trump-government-regulation.html",
-      "source": "CNBC",
-      "score": 16,
-      "severity": "HIGH",
+      "id": "0838301765f31a3f2d546cb15daa8622",
+      "title": "European gas eases from 2023 peaks; shipping risks, low storage anchor prices",
+      "summary": "European and British wholesale natural gas prices eased slightly on Tuesday, taking a breather after surging to fresh 2023 high watermarks in the previous session as trading desks locked in profits amid a high-stakes week for global central banks. The benchmark Dutch front-month TTF contract slipped 0.7% to trade around 82.80 euros per megawatt-hour (MWh), ...",
+      "link": "https://www.hellenicshippingnews.com/european-gas-eases-from-2023-peaks-shipping-risks-low-storage-anchor-prices/",
+      "source": "Hellenic Shipping",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "UK"
+      ],
+      "assets": [
+        "FX",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-15T17:03:59.347004Z"
+    },
+    {
+      "id": "03f14f32639ceb073092c80d68307ace",
+      "title": "Steel Pressured by Weak Fundamentals",
+      "summary": "Steel rebar futures remained below CNY 3,100 per ton, staying under pressure as weak market fundamentals continued to weigh on prices. Elevated coke prices continued to squeeze steelmakers\u2019 profit margins, prompting some producers to scale back operations and undergo maintenance. Industry data showed that steel mill profitability in China fell sharply to 7.79% in the ...",
+      "link": "https://www.hellenicshippingnews.com/steel-pressured-by-weak-fundamentals/",
+      "source": "Hellenic Shipping",
+      "score": 11,
+      "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
@@ -353,16 +462,96 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-15T16:57:27.241816Z"
+      "published": "2026-09-15T17:03:59.346886Z"
     },
     {
-      "id": "7ed0b7771d291d3a6ebecdca2d0dd57d",
-      "title": "The institutional form of independent central banks: from history to contemporary challenges - speech by Andrew Bailey",
-      "summary": "Given at LSE TRIUM Anniversary Conference",
-      "link": "https://www.bankofengland.co.uk/speech/2026/september/andrew-bailey-keynote-speech-at-lse-trium-anniversary-conference",
-      "source": "Bank of England",
-      "score": 14,
-      "severity": "MEDIUM",
+      "id": "5043b763beeabda5eb795c70130791db",
+      "title": "Infected USBs used by Japan defense forces were procured improperly: report",
+      "summary": "",
+      "link": "https://asia.nikkei.com/spotlight/cybersecurity/infected-usbs-used-by-japan-defense-forces-were-procured-improperly-report",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-15T17:03:54.398668Z"
+    },
+    {
+      "id": "95be692e2b47d9c75dfb66520d62ee57",
+      "title": "China Jobless Rate Hits 5-Month High",
+      "summary": "China\u2019s surveyed urban unemployment rate rose to 5.3% in August 2026 from 5.2% in the previous month, surpassing market expectations of 5.2% and marking the highest reading since March. Among the locally registered labor force, the jobless rate increased to 5.3% from 5.2% in July, while the rate for migrant workers rose to 5.2% from ...",
+      "link": "https://www.hellenicshippingnews.com/china-jobless-rate-hits-5-month-high/",
+      "source": "Hellenic Shipping",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-15T17:03:59.346506Z"
+    },
+    {
+      "id": "3a2a9e49c3e51d4c361a38d9287f3942",
+      "title": "Judge blocks Kennedy Center board returning Trump's name to building",
+      "summary": "The ruling comes four months after the same judge ordered that the Kennedy Center could not be renamed to include President Trump's name",
+      "link": "https://www.cnbc.com/2026/09/15/trump-kennedy-center-name-ruling.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-15T17:03:07.160124Z"
+    },
+    {
+      "id": "ec8f6ff7410ded4bd8c53c74145d495c",
+      "title": "Why banks should stop worrying and learn to love the Clarity Act",
+      "summary": "",
+      "link": "https://www.coindesk.com/opinion/2026/09/15/why-banks-should-stop-worrying-and-learn-to-love-the-clarity-act",
+      "source": "CoinDesk",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-15T17:04:14.128989Z"
+    },
+    {
+      "id": "f0cb9064f08c95b1efe47b53523a679b",
+      "title": "US scraps limits on emissions from coal and gas power plants",
+      "summary": "Rules aimed at limiting pollution from coal and gas power plants are being scrapped, the head of the US Environmental Protection Agency (EPA) has announced. The agency also said it would take steps to prevent future administrations from regulating power plant emissions. The EPA said that getting rid of the majority of the climate rules ...",
+      "link": "https://www.hellenicshippingnews.com/us-scraps-limits-on-emissions-from-coal-and-gas-power-plants/",
+      "source": "Hellenic Shipping",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -378,132 +567,59 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-15T16:58:14.101624Z"
+      "published": "2026-09-15T17:03:59.346803Z"
     },
     {
-      "id": "9e6f1ba0c68ccee1e7676a8af199609e",
-      "title": "Ten-year Treasury yield hits 5% for first time since 2023 - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQcm9qMUhHdzZRZGFTVG9vQ2pxRmRZWWxSWXRLYlhFTlU1aF9hbmQ2aU9hNVNJZ3ZoYnNGVXhfREVzMVRzdFppM3dWUGpKeUtPcEp3RUhScUoyekJUNFJlN2h5NVdWRmEyaHl0MC1vc2FONG5ZTktPb1BhTTVjWmhIalExeDU?oc=5\" target=\"_blank\">Ten-year Treasury yield hits 5% for first time since 2023</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcm9qMUhHdzZRZGFTVG9vQ2pxRmRZWWxSWXRLYlhFTlU1aF9hbmQ2aU9hNVNJZ3ZoYnNGVXhfREVzMVRzdFppM3dWUGpKeUtPcEp3RUhScUoyekJUNFJlN2h5NVdWRmEyaHl0MC1vc2FONG5ZTktPb1BhTTVjWmhIalExeDU?oc=5",
-      "source": "Google Macro",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-15T16:58:30.673588Z"
-    },
-    {
-      "id": "7c3ed5e33193f1c6b1eae0c67a2d8cb5",
-      "title": "China\u2019s AI listings glut drags Hong Kong stocks lower - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOWm1yR2gwN0pUUzRtZVA5VmNmVlRJNEFYc3Ixb1hVQzdWSTVuUEhUZ05ERTVoRzUwSWlzc2JJajFtV05JSllnS3pucExBTXV2QkZpY2VyeWdXQmxZTVE5Y3JQcVV2UHM1bi0xbEFkRlYtQS0wcDh3Tm5oaU9JT2JaN0NyTUs?oc=5\" target=\"_blank\">China\u2019s AI listings glut drags Hong Kong stocks lower</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWm1yR2gwN0pUUzRtZVA5VmNmVlRJNEFYc3Ixb1hVQzdWSTVuUEhUZ05ERTVoRzUwSWlzc2JJajFtV05JSllnS3pucExBTXV2QkZpY2VyeWdXQmxZTVE5Y3JQcVV2UHM1bi0xbEFkRlYtQS0wcDh3Tm5oaU9JT2JaN0NyTUs?oc=5",
-      "source": "Google Macro",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "CHINA"
-      ],
-      "assets": [
-        "AI",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-15T16:58:30.673438Z"
-    },
-    {
-      "id": "2eab8754d43d76d3257218e7df2d7254",
-      "title": "Hundreds of new officers to hunt down dirty money networks",
-      "summary": "Five hundred new officers to be recruited in a \u00a3500 million crackdown on money laundering, as part of the government's Anti-Money Laundering and Asset Recovery Strategy.",
-      "link": "https://www.gov.uk/government/news/hundreds-of-new-officers-to-hunt-down-dirty-money-networks",
-      "source": "HM Treasury",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-15T16:58:15.073087Z"
-    },
-    {
-      "id": "66d7c29b8b6cd77c178cd7eafcea93d8",
-      "title": "Mikargo247, Verified Carrier launch coverage for strategic cargo theft",
-      "summary": "<p>Verified Carrier and MiKargo247 are partnering to offer brokers spot cargo insurance coverage for strategic theft, including fraud involving double brokering, carrier identity theft and fictitious pickups.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/mikargo247-verified-carrier-launch-coverage-for-strategic-cargo-theft\">Mikargo247, Verified Carrier launch coverage for strategic cargo theft</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/mikargo247-verified-carrier-launch-coverage-for-strategic-cargo-theft",
-      "source": "FreightWaves",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-15T16:58:25.666468Z"
-    },
-    {
-      "id": "1deade3b9951e8b774d92d7e6376740a",
-      "title": "Automation is coming for the gig economy - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNZkVULVN1Qkt2ZTVST2FiWHpwNzU0ZFNTS0p0QjdGUllqV2VmWHRiVzlZUDJPUmczZGdscXo5bXd2aElwbGZiYzFDdDBIZjh2VFZ3ZUk5VVk4SERiYUFwOG1PcF9tQ0tDLWEyb0JWUmVrYjNXOHpaMDA4eC0tMjB6NW1fTDI?oc=5\" target=\"_blank\">Automation is coming for the gig economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZkVULVN1Qkt2ZTVST2FiWHpwNzU0ZFNTS0p0QjdGUllqV2VmWHRiVzlZUDJPUmczZGdscXo5bXd2aElwbGZiYzFDdDBIZjh2VFZ3ZUk5VVk4SERiYUFwOG1PcF9tQ0tDLWEyb0JWUmVrYjNXOHpaMDA4eC0tMjB6NW1fTDI?oc=5",
-      "source": "Google Macro",
+      "id": "4837fa15ec050a367211e50b3065cce5",
+      "title": "Nordic American Tankers Ltd: Exceptional conditions for our vessels",
+      "summary": "We are currently experiencing a market for our vessels that is extraordinary. Below is a snapshot of some recent spot fixtures for our ships \u2013 the numbers are approximate. Our operating costs per ship are less than $10,000 per day. The difference between the rates below and the operating costs is cash accumulation in NAT: ...",
+      "link": "https://www.hellenicshippingnews.com/nordic-american-tankers-ltd-exceptional-conditions-for-our-vessels/",
+      "source": "Hellenic Shipping",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "UK"
+        "US"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-15T16:58:30.673520Z"
+      "published": "2026-09-15T17:03:59.346700Z"
+    },
+    {
+      "id": "3eee23d51efc593879915722cb2979b5",
+      "title": "Carriers Sales & Purchase Market Report, Week 37",
+      "summary": "Carriers Sales &#38; Purchase Market Report, Week 37 &#160; Source: Carriers Chartering Corp. S.A.",
+      "link": "https://www.hellenicshippingnews.com/carriers-sales-purchase-market-report-week-37-2/",
+      "source": "Hellenic Shipping",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-15T17:03:59.346741Z"
+    },
+    {
+      "id": "7781553c90af1046302e0ef157b83385",
+      "title": "Speculators hike net-long positions in Brent",
+      "summary": "Money managers and hedge funds have increased their net-long bets on ICE Brent futures in the week to 8 September. Speculators bought over 4,000 lots as of 8 September, increasing net-long positions in Brent futures to more than 265,000 lots. Gross-long positions in Brent futures increased by 91 lots during the week, according to futures ...",
+      "link": "https://www.hellenicshippingnews.com/speculators-hike-net-long-positions-in-brent-6/",
+      "source": "Hellenic Shipping",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "BRENT"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-15T17:03:59.346944Z"
     }
   ]
 }
