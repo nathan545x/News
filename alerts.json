@@ -1,31 +1,59 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-16T10:18:24.352018Z",
+  "generated_at": "2026-09-16T10:23:21.867277Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
+    "critical_alerts": 2,
     "high_alerts": 1,
-    "last_updated": "2026-09-16T10:18:24.352035Z"
+    "last_updated": "2026-09-16T10:23:21.867289Z"
   },
   "top_signals": [
     {
-      "id": "5e62b1a0e7fe6ad92bf9cdbd93acffce",
-      "title": "Nvidia CEO Huang attending Trump's state dinner for China's Xi: Source",
-      "summary": "Jensen Huang appeared to side with Trump as the president pushed back on tech CEOs' warnings about the risks of rapid AI advancement.",
-      "link": "https://www.cnbc.com/2026/09/15/nvidia-jensen-huang-trump-xi.html",
+      "id": "b64865c321ea2e68d2a86abbb2476365",
+      "title": "Oil falls as U.S. crude inventories reportedly rise, traders weigh Saudi pipeline closure",
+      "summary": "Oil fell Wednesday, as an unexpected increase in U.S. crude inventories outweighed worries over supply disruptions after an Iran-backed attack on Saudi Arabia's East-West pipeline.",
+      "link": "https://www.cnbc.com/2026/09/16/oil-prices-today-brent-wti-hormuz-iran-war.html",
       "source": "CNBC",
-      "score": 33,
+      "score": 36,
       "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "regime": "COMMODITIES",
       "tickers": [
-        "NVDA"
+        "WTI"
       ],
       "regions": [
-        "CHINA"
+        "MIDDLE_EAST"
       ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-16T10:22:25.469388Z"
+    },
+    {
+      "id": "aeda37c1bde1e39869707f45168799f8",
+      "title": "Scientists test new (and old) navigation systems to end GPS dependence",
+      "summary": "Military operations and civilian air traffic have been hit by satellite jamming and spoofing in modern wars",
+      "link": "https://www.ft.com/content/bad109a9-1a34-4663-9dd8-e757b3f38c62?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -43,229 +71,70 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-16T10:17:25.318168Z"
+      "published": "2026-09-16T10:22:24.703552Z"
     },
     {
-      "id": "d2b6181d310f5b359bd23e82538c260a",
-      "title": "AWS says it can't restore service to Bahrain, UAE facilities 6 months after Iran strikes",
-      "summary": "In March, two Amazon data centers in the UAE were struck by drones, while a site was also damaged by a nearby drone hit.",
-      "link": "https://www.cnbc.com/2026/09/15/aws-cant-restore-service-to-bahrain-uae-6-months-after-iran-strikes.html",
-      "source": "CNBC",
-      "score": 23,
+      "id": "c86c5d35ed2d2f92a52203707be4e793",
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
+      "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "source": "KrebsOnSecurity",
+      "score": 15,
       "severity": "HIGH",
-      "regime": "AI",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-16T10:17:25.184911Z"
-    },
-    {
-      "id": "672acf6338246753e05e48c17921ee66",
-      "title": "The role of research in Prudential Regulation \u2212 speech by David Bailey",
-      "summary": "Given at IFABS 2026 London",
-      "link": "https://www.bankofengland.co.uk/speech/2026/july/david-bailey-speech-at-the-international-finance-and-banking-society-conference",
-      "source": "Bank of England",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-16T10:18:09.697477Z"
-    },
-    {
-      "id": "030e4f42ac9b3feac756928e3e731961",
-      "title": "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPUUViTThLVXZVVW9Uck9RZHRIcm1zQm9tcXFjX1ZBckl6NGJQRTVvREEyYjFlUzBKdHRaUTF3eGlHb1JaSnN5ZXpSU2ZnZUNNNURYUXgxME9Xam96THNITzNTNjlNVUdNUmFSbUhoSXgzLXgxM0pWOFZ2aVNuN2lYb0ZXdGlpN3NIeUVJR3FaY0VmcDFERWFXU1g1dUE4R3NoZGU0SVRfS3dVdTA5VjlKd2FBUy1tYWJtaWxhc0FNclUzM2xFdUpSUTlzcw?oc=5\" target=\"_blank\">U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUUViTThLVXZVVW9Uck9RZHRIcm1zQm9tcXFjX1ZBckl6NGJQRTVvREEyYjFlUzBKdHRaUTF3eGlHb1JaSnN5ZXpSU2ZnZUNNNURYUXgxME9Xam96THNITzNTNjlNVUdNUmFSbUhoSXgzLXgxM0pWOFZ2aVNuN2lYb0ZXdGlpN3NIeUVJR3FaY0VmcDFERWFXU1g1dUE4R3NoZGU0SVRfS3dVdTA5VjlKd2FBUy1tYWJtaWxhc0FNclUzM2xFdUpSUTlzcw?oc=5",
-      "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "BUND"
-      ],
       "regions": [],
       "assets": [
-        "RATES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-16T10:18:23.615270Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-16T10:23:18.754259Z"
     },
     {
-      "id": "be3e2679fa3b5f52702a7215ceca0de9",
-      "title": "US billionaires line up to bankroll Republicans\u2019 election push",
-      "summary": "Ultra-wealthy overwhelmingly back Donald Trump\u2019s party over Democrats as money floods into midterms race",
-      "link": "https://www.ft.com/content/2285c111-b103-4b04-96c7-fe26a3c04c3e?syn-25a6b1a6=1",
+      "id": "e5d4155ee72f55270b4bc425deccf32d",
+      "title": "McLaren to compete against Lamborghini and Ferrari with its first SUV",
+      "summary": "British sports-car maker is hoping the move will help increase sales and profits and end years of losses",
+      "link": "https://www.ft.com/content/26f03609-1d41-4556-aaa3-d32a880ce1bd?syn-25a6b1a6=1",
       "source": "Financial Times",
       "score": 12,
       "severity": "MEDIUM",
       "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-16T10:17:23.508614Z"
-    },
-    {
-      "id": "97b276060482b51dfbf6549964511e40",
-      "title": "With AI, \u2018I told you so\u2019 will be too late",
-      "summary": "Reducing the speed of innovation is going to be hard, both practically and politically, but it is the right decision",
-      "link": "https://www.ft.com/content/9dd894cd-dddd-4388-ac00-dbd14d40dc52?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-16T10:17:23.508677Z"
-    },
-    {
-      "id": "975215140d6fb91e1b5dd20e7d0eabf5",
-      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-16T10:17:25.592349Z"
-    },
-    {
-      "id": "075ca664f16469f77c903e5afb147431",
-      "title": "Barr, Unlocking Opportunities for Workers and Entrepreneurs with a Criminal Record",
-      "summary": "Speech At the Second-Chance Lending Forum, Developing Evidence-Based Policy on Creditworthiness and Criminal History, Washington, D.C.",
-      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-16T10:17:25.868894Z"
-    },
-    {
-      "id": "f0c21d1ab25141c7696fa18d1c4df9ee",
-      "title": "It\u2019s all about the role of money - speech by Nathana\u00ebl Benjamin",
-      "summary": "Given at OMFIF Economic and Monetary Policy Institute",
-      "link": "https://www.bankofengland.co.uk/speech/2026/july/nathanael-benjamin-speech-at-omfif",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-16T10:18:09.697430Z"
-    },
-    {
-      "id": "54ca4e3432dc8a2c0043751e5f083692",
-      "title": "Testing times require time for testing \u2212 speech by Ruth Smith",
-      "summary": "Given at UK Finance",
-      "link": "https://www.bankofengland.co.uk/speech/2026/july/ruth-smith-speech-at-uk-finance",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
       "tickers": [],
       "regions": [
         "UK"
       ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-16T10:18:09.697517Z"
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-16T10:22:24.703666Z"
     },
     {
-      "id": "0a285188421e9412c749d91aeeb6ba77",
-      "title": "Corporate report: National Wealth Fund Limited Annual Report and Accounts: Year to 31 March 2026",
-      "summary": "This is the Annual Report and Accounts for the National Wealth Fund for the year ended 31 March 2026.",
-      "link": "https://www.gov.uk/government/publications/national-wealth-fund-limited-annual-report-and-accounts-year-to-31-march-2026",
-      "source": "HM Treasury",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-16T10:18:10.491297Z"
-    },
-    {
-      "id": "ec3884d8e0c5ec6e4876a18c58a938bd",
-      "title": "How Switzerland turned tax competition into a national sport",
-      "summary": "The country\u2019s 26 cantons compete fiercely for companies, wealthy residents and the taxes they bring",
-      "link": "https://www.ft.com/content/c11fd1dd-8783-4894-9f53-109d7edf376f?syn-25a6b1a6=1",
+      "id": "8d48dcd7ff41796dcba2e7b7321c2ef6",
+      "title": "Schostal, the store keeping the stars in pyjamas",
+      "summary": "When in Rome, head to the 155-year-old haberdashery",
+      "link": "https://www.ft.com/content/885dc9fe-d877-47c5-941d-fd271f1a3f0c",
       "source": "Financial Times",
       "score": 8,
       "severity": "MEDIUM",
@@ -275,25 +144,124 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-16T10:17:23.508725Z"
+      "published": "2026-09-16T10:22:24.703595Z"
+    },
+    {
+      "id": "1b35deb8c40cf1af0c9e28fba78ec735",
+      "title": "Ethiopia cuts Bitcoin miners\u2019 power by 77% amid hydropower shortage: Report",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Ethiopia cuts Bitcoin miners\u2019 power by 77% amid hydropower shortage: Report\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2MSJ3ZZE5XE62YVC9G3G4Q9/ethiopia-background.png\" /></p><p>Bitcoin miners generated 35% of the state-owned power producer\u2019s revenue last year, but declining reservoir inflows led the utility to prioritize households and manufacturers.</p>",
+      "link": "https://cointelegraph.com/news/ethiopia-bitcoin-mining-power-cut-hydro-shortage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-16T10:23:18.142781Z"
+    },
+    {
+      "id": "7c5b40a1d73f9eef9640966f013dbc07",
+      "title": "Trump Pushes Back on AI Industry Pleas - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQX3R0OFItUHJIQ3UxR1NENF9mZTA2bUFkTlRQcnhrMkFTX29ENkVlOVJreVRsMm9pLXA2dUlsejVhSWFoU2hPYTUtU3BXTHZMU0NXQXlrUG5fdHNZanNpSXc4YVNxZlYzUEdFWHVjY3MteVZ0ZnMzdDMtTktMc19BMmxFMVJHdzdZaDNXbFNB?oc=5\" target=\"_blank\">Trump Pushes Back on AI Industry Pleas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQX3R0OFItUHJIQ3UxR1NENF9mZTA2bUFkTlRQcnhrMkFTX29ENkVlOVJreVRsMm9pLXA2dUlsejVhSWFoU2hPYTUtU3BXTHZMU0NXQXlrUG5fdHNZanNpSXc4YVNxZlYzUEdFWHVjY3MteVZ0ZnMzdDMtTktMc19BMmxFMVJHdzdZaDNXbFNB?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-16T10:23:21.322370Z"
+    },
+    {
+      "id": "0deea00f569af861809ca30c0f4d9bd3",
+      "title": "We're buying the dip in one of our newest stocks - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQV0l3MzZjbXlpeDg1eXVWNEdybWJpWGdZVHRiQ3M1OEJMOVpRczNXUDdqak55d2g1RFlpbm8xMENHNzVBbVViTlkzc0hYQ2V3STdEZXFvbjFUWmltZ1ZuMlBhRWVOeUppamVHbzFHM2JSdmFRclcwVl9LNjZWa0pIeXl2TWM1R0VVa1NmWA?oc=5\" target=\"_blank\">We're buying the dip in one of our newest stocks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV0l3MzZjbXlpeDg1eXVWNEdybWJpWGdZVHRiQ3M1OEJMOVpRczNXUDdqak55d2g1RFlpbm8xMENHNzVBbVViTlkzc0hYQ2V3STdEZXFvbjFUWmltZ1ZuMlBhRWVOeUppamVHbzFHM2JSdmFRclcwVl9LNjZWa0pIeXl2TWM1R0VVa1NmWA?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-16T10:23:21.867243Z"
     }
   ],
   "alerts": [
     {
-      "id": "5e62b1a0e7fe6ad92bf9cdbd93acffce",
-      "title": "Nvidia CEO Huang attending Trump's state dinner for China's Xi: Source",
-      "summary": "Jensen Huang appeared to side with Trump as the president pushed back on tech CEOs' warnings about the risks of rapid AI advancement.",
-      "link": "https://www.cnbc.com/2026/09/15/nvidia-jensen-huang-trump-xi.html",
+      "id": "b64865c321ea2e68d2a86abbb2476365",
+      "title": "Oil falls as U.S. crude inventories reportedly rise, traders weigh Saudi pipeline closure",
+      "summary": "Oil fell Wednesday, as an unexpected increase in U.S. crude inventories outweighed worries over supply disruptions after an Iran-backed attack on Saudi Arabia's East-West pipeline.",
+      "link": "https://www.cnbc.com/2026/09/16/oil-prices-today-brent-wti-hormuz-iran-war.html",
       "source": "CNBC",
-      "score": 33,
+      "score": 36,
       "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "regime": "COMMODITIES",
       "tickers": [
-        "NVDA"
+        "WTI"
       ],
       "regions": [
-        "CHINA"
+        "MIDDLE_EAST"
       ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-16T10:22:25.469388Z"
+    },
+    {
+      "id": "aeda37c1bde1e39869707f45168799f8",
+      "title": "Scientists test new (and old) navigation systems to end GPS dependence",
+      "summary": "Military operations and civilian air traffic have been hit by satellite jamming and spoofing in modern wars",
+      "link": "https://www.ft.com/content/bad109a9-1a34-4663-9dd8-e757b3f38c62?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -311,229 +279,70 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-16T10:17:25.318168Z"
+      "published": "2026-09-16T10:22:24.703552Z"
     },
     {
-      "id": "d2b6181d310f5b359bd23e82538c260a",
-      "title": "AWS says it can't restore service to Bahrain, UAE facilities 6 months after Iran strikes",
-      "summary": "In March, two Amazon data centers in the UAE were struck by drones, while a site was also damaged by a nearby drone hit.",
-      "link": "https://www.cnbc.com/2026/09/15/aws-cant-restore-service-to-bahrain-uae-6-months-after-iran-strikes.html",
-      "source": "CNBC",
-      "score": 23,
+      "id": "c86c5d35ed2d2f92a52203707be4e793",
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
+      "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "source": "KrebsOnSecurity",
+      "score": 15,
       "severity": "HIGH",
-      "regime": "AI",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-16T10:17:25.184911Z"
-    },
-    {
-      "id": "672acf6338246753e05e48c17921ee66",
-      "title": "The role of research in Prudential Regulation \u2212 speech by David Bailey",
-      "summary": "Given at IFABS 2026 London",
-      "link": "https://www.bankofengland.co.uk/speech/2026/july/david-bailey-speech-at-the-international-finance-and-banking-society-conference",
-      "source": "Bank of England",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-16T10:18:09.697477Z"
-    },
-    {
-      "id": "030e4f42ac9b3feac756928e3e731961",
-      "title": "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPUUViTThLVXZVVW9Uck9RZHRIcm1zQm9tcXFjX1ZBckl6NGJQRTVvREEyYjFlUzBKdHRaUTF3eGlHb1JaSnN5ZXpSU2ZnZUNNNURYUXgxME9Xam96THNITzNTNjlNVUdNUmFSbUhoSXgzLXgxM0pWOFZ2aVNuN2lYb0ZXdGlpN3NIeUVJR3FaY0VmcDFERWFXU1g1dUE4R3NoZGU0SVRfS3dVdTA5VjlKd2FBUy1tYWJtaWxhc0FNclUzM2xFdUpSUTlzcw?oc=5\" target=\"_blank\">U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUUViTThLVXZVVW9Uck9RZHRIcm1zQm9tcXFjX1ZBckl6NGJQRTVvREEyYjFlUzBKdHRaUTF3eGlHb1JaSnN5ZXpSU2ZnZUNNNURYUXgxME9Xam96THNITzNTNjlNVUdNUmFSbUhoSXgzLXgxM0pWOFZ2aVNuN2lYb0ZXdGlpN3NIeUVJR3FaY0VmcDFERWFXU1g1dUE4R3NoZGU0SVRfS3dVdTA5VjlKd2FBUy1tYWJtaWxhc0FNclUzM2xFdUpSUTlzcw?oc=5",
-      "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "BUND"
-      ],
       "regions": [],
       "assets": [
-        "RATES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-16T10:18:23.615270Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-16T10:23:18.754259Z"
     },
     {
-      "id": "be3e2679fa3b5f52702a7215ceca0de9",
-      "title": "US billionaires line up to bankroll Republicans\u2019 election push",
-      "summary": "Ultra-wealthy overwhelmingly back Donald Trump\u2019s party over Democrats as money floods into midterms race",
-      "link": "https://www.ft.com/content/2285c111-b103-4b04-96c7-fe26a3c04c3e?syn-25a6b1a6=1",
+      "id": "e5d4155ee72f55270b4bc425deccf32d",
+      "title": "McLaren to compete against Lamborghini and Ferrari with its first SUV",
+      "summary": "British sports-car maker is hoping the move will help increase sales and profits and end years of losses",
+      "link": "https://www.ft.com/content/26f03609-1d41-4556-aaa3-d32a880ce1bd?syn-25a6b1a6=1",
       "source": "Financial Times",
       "score": 12,
       "severity": "MEDIUM",
       "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-16T10:17:23.508614Z"
-    },
-    {
-      "id": "97b276060482b51dfbf6549964511e40",
-      "title": "With AI, \u2018I told you so\u2019 will be too late",
-      "summary": "Reducing the speed of innovation is going to be hard, both practically and politically, but it is the right decision",
-      "link": "https://www.ft.com/content/9dd894cd-dddd-4388-ac00-dbd14d40dc52?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-16T10:17:23.508677Z"
-    },
-    {
-      "id": "975215140d6fb91e1b5dd20e7d0eabf5",
-      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-16T10:17:25.592349Z"
-    },
-    {
-      "id": "075ca664f16469f77c903e5afb147431",
-      "title": "Barr, Unlocking Opportunities for Workers and Entrepreneurs with a Criminal Record",
-      "summary": "Speech At the Second-Chance Lending Forum, Developing Evidence-Based Policy on Creditworthiness and Criminal History, Washington, D.C.",
-      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-16T10:17:25.868894Z"
-    },
-    {
-      "id": "f0c21d1ab25141c7696fa18d1c4df9ee",
-      "title": "It\u2019s all about the role of money - speech by Nathana\u00ebl Benjamin",
-      "summary": "Given at OMFIF Economic and Monetary Policy Institute",
-      "link": "https://www.bankofengland.co.uk/speech/2026/july/nathanael-benjamin-speech-at-omfif",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-16T10:18:09.697430Z"
-    },
-    {
-      "id": "54ca4e3432dc8a2c0043751e5f083692",
-      "title": "Testing times require time for testing \u2212 speech by Ruth Smith",
-      "summary": "Given at UK Finance",
-      "link": "https://www.bankofengland.co.uk/speech/2026/july/ruth-smith-speech-at-uk-finance",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
       "tickers": [],
       "regions": [
         "UK"
       ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-16T10:18:09.697517Z"
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-16T10:22:24.703666Z"
     },
     {
-      "id": "0a285188421e9412c749d91aeeb6ba77",
-      "title": "Corporate report: National Wealth Fund Limited Annual Report and Accounts: Year to 31 March 2026",
-      "summary": "This is the Annual Report and Accounts for the National Wealth Fund for the year ended 31 March 2026.",
-      "link": "https://www.gov.uk/government/publications/national-wealth-fund-limited-annual-report-and-accounts-year-to-31-march-2026",
-      "source": "HM Treasury",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-16T10:18:10.491297Z"
-    },
-    {
-      "id": "ec3884d8e0c5ec6e4876a18c58a938bd",
-      "title": "How Switzerland turned tax competition into a national sport",
-      "summary": "The country\u2019s 26 cantons compete fiercely for companies, wealthy residents and the taxes they bring",
-      "link": "https://www.ft.com/content/c11fd1dd-8783-4894-9f53-109d7edf376f?syn-25a6b1a6=1",
+      "id": "8d48dcd7ff41796dcba2e7b7321c2ef6",
+      "title": "Schostal, the store keeping the stars in pyjamas",
+      "summary": "When in Rome, head to the 155-year-old haberdashery",
+      "link": "https://www.ft.com/content/885dc9fe-d877-47c5-941d-fd271f1a3f0c",
       "source": "Financial Times",
       "score": 8,
       "severity": "MEDIUM",
@@ -543,39 +352,78 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-16T10:17:23.508725Z"
+      "published": "2026-09-16T10:22:24.703595Z"
     },
     {
-      "id": "b388fad242b2ca5c98ab92f602931373",
-      "title": "Sullivan & Cromwell discovers private equity",
-      "summary": "The law firm has hired a team of lawyers from rival Kirkland & Ellis in a push to build a US private equity practice",
-      "link": "https://www.ft.com/content/69a2a7a0-ecd2-4d05-915c-55a6352889ff?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
+      "id": "1b35deb8c40cf1af0c9e28fba78ec735",
+      "title": "Ethiopia cuts Bitcoin miners\u2019 power by 77% amid hydropower shortage: Report",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Ethiopia cuts Bitcoin miners\u2019 power by 77% amid hydropower shortage: Report\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2MSJ3ZZE5XE62YVC9G3G4Q9/ethiopia-background.png\" /></p><p>Bitcoin miners generated 35% of the state-owned power producer\u2019s revenue last year, but declining reservoir inflows led the utility to prioritize households and manufacturers.</p>",
+      "link": "https://cointelegraph.com/news/ethiopia-bitcoin-mining-power-cut-hydro-shortage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-16T10:23:18.142781Z"
+    },
+    {
+      "id": "7c5b40a1d73f9eef9640966f013dbc07",
+      "title": "Trump Pushes Back on AI Industry Pleas - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQX3R0OFItUHJIQ3UxR1NENF9mZTA2bUFkTlRQcnhrMkFTX29ENkVlOVJreVRsMm9pLXA2dUlsejVhSWFoU2hPYTUtU3BXTHZMU0NXQXlrUG5fdHNZanNpSXc4YVNxZlYzUEdFWHVjY3MteVZ0ZnMzdDMtTktMc19BMmxFMVJHdzdZaDNXbFNB?oc=5\" target=\"_blank\">Trump Pushes Back on AI Industry Pleas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQX3R0OFItUHJIQ3UxR1NENF9mZTA2bUFkTlRQcnhrMkFTX29ENkVlOVJreVRsMm9pLXA2dUlsejVhSWFoU2hPYTUtU3BXTHZMU0NXQXlrUG5fdHNZanNpSXc4YVNxZlYzUEdFWHVjY3MteVZ0ZnMzdDMtTktMc19BMmxFMVJHdzdZaDNXbFNB?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-16T10:23:21.322370Z"
+    },
+    {
+      "id": "0deea00f569af861809ca30c0f4d9bd3",
+      "title": "We're buying the dip in one of our newest stocks - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQV0l3MzZjbXlpeDg1eXVWNEdybWJpWGdZVHRiQ3M1OEJMOVpRczNXUDdqak55d2g1RFlpbm8xMENHNzVBbVViTlkzc0hYQ2V3STdEZXFvbjFUWmltZ1ZuMlBhRWVOeUppamVHbzFHM2JSdmFRclcwVl9LNjZWa0pIeXl2TWM1R0VVa1NmWA?oc=5\" target=\"_blank\">We're buying the dip in one of our newest stocks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV0l3MzZjbXlpeDg1eXVWNEdybWJpWGdZVHRiQ3M1OEJMOVpRczNXUDdqak55d2g1RFlpbm8xMENHNzVBbVViTlkzc0hYQ2V3STdEZXFvbjFUWmltZ1ZuMlBhRWVOeUppamVHbzFHM2JSdmFRclcwVl9LNjZWa0pIeXl2TWM1R0VVa1NmWA?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "EQUITIES"
+      ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-16T10:17:23.875861Z"
-    },
-    {
-      "id": "5b2bb3331414124b003cd76d484a2c80",
-      "title": "A hotter planet meets dearer money",
-      "summary": "Rising borrowing costs mean new financing instruments will be needed for developing economies to deal with climate change",
-      "link": "https://www.ft.com/content/9e7aa9ce-6c02-49fc-9224-62fb5767f1b1?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-16T10:17:23.875910Z"
+      "published": "2026-09-16T10:23:21.867243Z"
     }
   ]
 }
