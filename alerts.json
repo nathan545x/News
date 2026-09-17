@@ -1,31 +1,86 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-17T19:28:54.367740Z",
+  "generated_at": "2026-09-17T19:33:40.167322Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-09-17T19:28:54.367748Z"
+    "critical_alerts": 2,
+    "high_alerts": 3,
+    "last_updated": "2026-09-17T19:33:40.167333Z"
   },
   "top_signals": [
     {
-      "id": "16228463dad49bec07a17367ae2ab6e6",
-      "title": "Putin Will Not Yield",
-      "summary": "Pressure and pain won\u2019t sap Russia\u2019s resolve in Ukraine.",
-      "link": "https://www.foreignaffairs.com/united-states/putin-will-not-yield",
-      "source": "Foreign Affairs",
-      "score": 20,
+      "id": "af6eae58b5302b4303c38c472dca4a7d",
+      "title": "Treasuries Gain as Oil Retreat Shores Up Confidence in Warsh Fed",
+      "summary": "US Treasuries rose as oil price declines and gains for UK government bonds reinforced improving sentiment after the Federal Reserve\u2019s interest-rate hike and pledge to throttle inflation.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-17/global-bonds-recover-as-warsh-s-inflation-fight-calms-market",
+      "source": "Bloomberg",
+      "score": 52,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-17T19:32:33.028571Z"
+    },
+    {
+      "id": "7dc91a3872870932e666456a00044af0",
+      "title": "Trump lashes out at Fed after Warsh backs rate hike - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ09wMmRRbG83OVR3anZpSGk2VGxLdFRXVFpiMHRDcVZTSldiNTNBNUZlckZlR2k2dEY0Q2F4TFVEdzJ1aC12Z3hacGoyWWkwZjlDNWE4ZGpPejU0V1hVazhVRktwampUZTlkdEpRZWhySlFMZnVTUEtlbVU3T3RUS1hjaFJGcHdMSXMwRERiazVqbTBxOXJlMkVR?oc=5\" target=\"_blank\">Trump lashes out at Fed after Warsh backs rate hike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ09wMmRRbG83OVR3anZpSGk2VGxLdFRXVFpiMHRDcVZTSldiNTNBNUZlckZlR2k2dEY0Q2F4TFVEdzJ1aC12Z3hacGoyWWkwZjlDNWE4ZGpPejU0V1hVazhVRktwampUZTlkdEpRZWhySlFMZnVTUEtlbVU3T3RUS1hjaFJGcHdMSXMwRERiazVqbTBxOXJlMkVR?oc=5",
+      "source": "Google Macro",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-17T19:33:38.123386Z"
+    },
+    {
+      "id": "157e557c10523ec860df8c4e08e5e0f9",
+      "title": "OpenAI Reports New Safety Incidents, Sets Disclosure Plan",
+      "summary": "Bloomberg News AI reporter Shirin Ghaffary said that recent disclosures of AI safety incidents at OpenAI are a 'watershed moment' in the public understanding of AI risks as models get more powerful and employees issue warnings. Ghaffary said that getting AI models to align with companies intended goals is an ongoing issue and a the fact that it hasn't been solved yet amid rising AI integration is a 'big, big problem.'  (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-17/openai-flags-new-safety-incidents-sets-disclosure-plan-video",
+      "source": "Bloomberg",
+      "score": 23,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [
-        "RUSSIA",
-        "UK",
-        "UKRAINE"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -43,19 +98,22 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-17T19:28:49.839414Z"
+      "published": "2026-09-17T19:32:33.028665Z"
     },
     {
-      "id": "ec415094f8e7238904500aa302077297",
-      "title": "Cisco warns of max severity ISE zero-day exploited in attacks",
-      "summary": "Cisco has released security updates to address a maximum-severity Identity Services Engine vulnerability that attackers are actively exploiting in the wild. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "score": 11,
-      "severity": "MEDIUM",
+      "id": "c05ba07d68d7a011a5051067c8d7473e",
+      "title": "The Real U.S.-Saudi Nuclear Deal Is Better Than We Thought",
+      "summary": "<p>On Aug. 24, 2026, the Trump administration transmitted the text of the U.S.-Saudi nuclear cooperation agreement to Congress. By doing so, the administration triggered the 90-day congressional review process described in the Atomic Energy Act and relaunched a debate about the right approach to international nuclear commerce.The United States and Saudi Arabia jointly announced a deal in Nov. 2025 and signed the final text in July 2026. President Donald Trump held up its transmission to Congress over the issue of whether Saudi Arabia would normalize its relations with Israel, a topic that &#8212; according to the White House &#8212; could</p>\n<p>The post <a href=\"https://warontherocks.com/the-real-u-s-saudi-nuclear-deal-is-better-than-we-thought/\">The Real U.S.-Saudi Nuclear Deal Is Better Than We Thought</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/the-real-u-s-saudi-nuclear-deal-is-better-than-we-thought/",
+      "source": "War on the Rocks",
+      "score": 18,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "US"
+      ],
       "assets": [],
       "market_impact": {
         "bullish": [
@@ -71,21 +129,180 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-17T19:28:51.058296Z"
+      "published": "2026-09-17T19:33:34.315810Z"
     },
     {
-      "id": "290d7d7db02b074e7839c9a78d25ea88",
-      "title": "Corpus Christi LNG expansion makes facility the second-largest in the United States",
-      "summary": "On August 28, 2026, Cheniere Energy, Inc., completed its Corpus Christi Liquefaction Stage 3 Project (CCL Stage 3) in Texas, taking custody and control of the seventh and last liquefied natural gas (LNG) train in the project.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68144",
-      "source": "EIA",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
+      "id": "36d6d45a7aa9a90f2fde940bc707a19b",
+      "title": "Bitcoin treasury firms can outperform BTC... but is the risk worth taking?",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin treasury firms can outperform BTC... but is the risk worth taking?\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2MQKH8M6FB9RA6PJPEFV90G/magazine-young-crypto-founder-1.png\" /></p><p>Bitcoin treasury companies promise to amplify returns over investing in Bitcoin alone, but does the potential upside outweigh the risks to the downside?</p>",
+      "link": "https://cointelegraph.com/magazine/bitcoin-treasuries-can-outperform-btc-but-is-it-a-risk-worth-taking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC",
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-17T19:33:35.592474Z"
+    },
+    {
+      "id": "5cf809f3116a4937ade360a1ede3d48f",
+      "title": "Piero Cipollone: The future of euro cash: trusted today, designed for tomorrow",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_1~91d3436449.en.html",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-17T19:33:14.308683Z"
+    },
+    {
+      "id": "48ea012972723cce0ccd4ab63a66c597",
+      "title": "Transcript of the Governor's pooled broadcast interview given on 17 September 2026",
+      "summary": "Following the publication of the Monetary Policy Summary and minutes of the Monetary Policy Committee meeting",
+      "link": "https://www.bankofengland.co.uk/news/2026/september/the-governor-interview-transcript-17-september-2026",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-17T19:33:19.656306Z"
+    },
+    {
+      "id": "a191e65533d1704c37478c4f32453bc6",
+      "title": "Monetary Policy Committee dates for 2027",
+      "summary": "2027 confirmed dates",
+      "link": "https://www.bankofengland.co.uk/news/2026/september/mpc-dates-for-2027",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-17T19:33:19.656334Z"
+    },
+    {
+      "id": "9914625775e80e6ed84ee35c12be4682",
+      "title": "America Is Paying a Lot for Fuel, Not Running Out of Gasoline",
+      "summary": "Gasoline is expensive. Diesel is worse. Social media is melting down and has apparently decided America is running out of fuel. U.S. gasoline inventories rose 800,000 barrels last week to 207.7 million barrels, according to the EIA. Stocks are 5% below the five-year average for this time of year. Tight, certainly, but hardly empty-tankish. Refineries processed 17.3 million barrels per day last week and operated at 96.8% utilization. Gasoline production increased to 9.6 million bpd. Gasoline demand averaged 8.8 million bpd over the past four weeks,\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/America-Is-Paying-a-Lot-for-Fuel-Not-Running-Out-of-Gasoline.html",
+      "source": "OilPrice",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
       "tickers": [],
       "regions": [
         "US"
       ],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-17T19:33:32.696980Z"
+    },
+    {
+      "id": "8e48dbc6e85b577354faee3e9bb13d48",
+      "title": "EU asks China to voluntarily limit hybrid car exports - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOeXBHVk1XNnktaWhhOWNac0M0R0k3bE0zNXdabHE0SHJiNWhxaGxGTWdraVZfdWJOa1NRcFo1dGlSZjFzTGhUMC1XV2owXzliTDlfalFROWQyUjBOWUNZcFRUY1FPZkt0WXh3UzA2cGcyaDBqMnRyYVZvb29FTDFsd21YYy0?oc=5\" target=\"_blank\">EU asks China to voluntarily limit hybrid car exports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeXBHVk1XNnktaWhhOWNac0M0R0k3bE0zNXdabHE0SHJiNWhxaGxGTWdraVZfdWJOa1NRcFo1dGlSZjFzTGhUMC1XV2owXzliTDlfalFROWQyUjBOWUNZcFRUY1FPZkt0WXh3UzA2cGcyaDBqMnRyYVZvb29FTDFsd21YYy0?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-17T19:33:38.765827Z"
+    },
+    {
+      "id": "f3920bcbb2c4d2b68b8342bf7c3d8558",
+      "title": "As Republicans tout Trump's 'big beautiful bill,' here's who the tax breaks benefited most",
+      "summary": "As the midterm elections approach, Republicans are touting President Donald Trump's \"big beautiful bill\" to voters. Here's who benefited from the tax cuts.",
+      "link": "https://www.cnbc.com/2026/09/17/tax-breaks-trump-big-beautiful-bill.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-17T19:32:37.535184Z"
+    },
+    {
+      "id": "227af8343612a564012542f65474557b",
+      "title": "S&P Global agrees to acquire OpenZeppelin in onchain security push",
+      "summary": "OpenZeppelin will continue operating as a standalone business unit under S&amp;P Global, with financial terms of the deal not disclosed.",
+      "link": "https://www.theblock.co/news/business/2026-09-17-sp-global-agrees-to-acquire-openzeppelin-in-onchain-security-push-415360",
+      "source": "The Block",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "SPY"
+      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -98,59 +315,80 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-17T19:28:48.038137Z"
-    },
-    {
-      "id": "0bba100812740296eae6f7787e210176",
-      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-      "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&#038;T customers.",
-      "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-      "source": "KrebsOnSecurity",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-17T19:28:51.292256Z"
-    },
-    {
-      "id": "c7b870871b4e0b69dd1fac4aefde7e91",
-      "title": "SEC clears path for tokenized stocks, bringing the market closer to 24/7 trading - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPQzU1TFNvdUw0SDJRRVNFZE8wYkIzRlFBTzBrTHlub3k3NlMyZUdrWnpGTDFOQmlqQ3BTOWQ0bVdqcnF5NTFWQkQ1U0Y3V29JUFpDUzI5bmI2b0x0SzFnN0lTOW9MdG8zc2JVaW8xeS15ZjBtanFaUmc3dExXejdvZ0d4SDBsdEdVVGR3NHFVT0Y5blFaTXFxUlR6Vl9FR25Ta2RsYtIBqgFBVV95cUxQT2JLLTk0ZGptTTlfcGRMempZMG80TktEMTVDTVc5M0FyVFZaZ1B2RmozdWhxWHdlSkJzSVdzZ3EtRlRaRlJuVXB0cUFYUng2UXBXbjBESk5nNzMyQ0xhYVh3LXJKajdyVi1oU3RfVE5vRklkb3NFbnNJUTBoMGhmaW9qVDRYOHR0VG9HMDNaNnMwcWxsQWh1NlpxQk9rcUhFX01vNU9DVVJkUQ?oc=5\" target=\"_blank\">SEC clears path for tokenized stocks, bringing the market closer to 24/7 trading</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQzU1TFNvdUw0SDJRRVNFZE8wYkIzRlFBTzBrTHlub3k3NlMyZUdrWnpGTDFOQmlqQ3BTOWQ0bVdqcnF5NTFWQkQ1U0Y3V29JUFpDUzI5bmI2b0x0SzFnN0lTOW9MdG8zc2JVaW8xeS15ZjBtanFaUmc3dExXejdvZ0d4SDBsdEdVVGR3NHFVT0Y5blFaTXFxUlR6Vl9FR25Ta2RsYtIBqgFBVV95cUxQT2JLLTk0ZGptTTlfcGRMempZMG80TktEMTVDTVc5M0FyVFZaZ1B2RmozdWhxWHdlSkJzSVdzZ3EtRlRaRlJuVXB0cUFYUng2UXBXbjBESk5nNzMyQ0xhYVh3LXJKajdyVi1oU3RfVE5vRklkb3NFbnNJUTBoMGhmaW9qVDRYOHR0VG9HMDNaNnMwcWxsQWh1NlpxQk9rcUhFX01vNU9DVVJkUQ?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "EQUITIES"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-17T19:28:54.367682Z"
+      "published": "2026-09-17T19:33:35.737495Z"
     }
   ],
   "alerts": [
     {
-      "id": "16228463dad49bec07a17367ae2ab6e6",
-      "title": "Putin Will Not Yield",
-      "summary": "Pressure and pain won\u2019t sap Russia\u2019s resolve in Ukraine.",
-      "link": "https://www.foreignaffairs.com/united-states/putin-will-not-yield",
-      "source": "Foreign Affairs",
-      "score": 20,
+      "id": "af6eae58b5302b4303c38c472dca4a7d",
+      "title": "Treasuries Gain as Oil Retreat Shores Up Confidence in Warsh Fed",
+      "summary": "US Treasuries rose as oil price declines and gains for UK government bonds reinforced improving sentiment after the Federal Reserve\u2019s interest-rate hike and pledge to throttle inflation.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-17/global-bonds-recover-as-warsh-s-inflation-fight-calms-market",
+      "source": "Bloomberg",
+      "score": 52,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-17T19:32:33.028571Z"
+    },
+    {
+      "id": "7dc91a3872870932e666456a00044af0",
+      "title": "Trump lashes out at Fed after Warsh backs rate hike - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ09wMmRRbG83OVR3anZpSGk2VGxLdFRXVFpiMHRDcVZTSldiNTNBNUZlckZlR2k2dEY0Q2F4TFVEdzJ1aC12Z3hacGoyWWkwZjlDNWE4ZGpPejU0V1hVazhVRktwampUZTlkdEpRZWhySlFMZnVTUEtlbVU3T3RUS1hjaFJGcHdMSXMwRERiazVqbTBxOXJlMkVR?oc=5\" target=\"_blank\">Trump lashes out at Fed after Warsh backs rate hike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ09wMmRRbG83OVR3anZpSGk2VGxLdFRXVFpiMHRDcVZTSldiNTNBNUZlckZlR2k2dEY0Q2F4TFVEdzJ1aC12Z3hacGoyWWkwZjlDNWE4ZGpPejU0V1hVazhVRktwampUZTlkdEpRZWhySlFMZnVTUEtlbVU3T3RUS1hjaFJGcHdMSXMwRERiazVqbTBxOXJlMkVR?oc=5",
+      "source": "Google Macro",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-17T19:33:38.123386Z"
+    },
+    {
+      "id": "157e557c10523ec860df8c4e08e5e0f9",
+      "title": "OpenAI Reports New Safety Incidents, Sets Disclosure Plan",
+      "summary": "Bloomberg News AI reporter Shirin Ghaffary said that recent disclosures of AI safety incidents at OpenAI are a 'watershed moment' in the public understanding of AI risks as models get more powerful and employees issue warnings. Ghaffary said that getting AI models to align with companies intended goals is an ongoing issue and a the fact that it hasn't been solved yet amid rising AI integration is a 'big, big problem.'  (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-17/openai-flags-new-safety-incidents-sets-disclosure-plan-video",
+      "source": "Bloomberg",
+      "score": 23,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [
-        "RUSSIA",
-        "UK",
-        "UKRAINE"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -168,19 +406,22 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-17T19:28:49.839414Z"
+      "published": "2026-09-17T19:32:33.028665Z"
     },
     {
-      "id": "ec415094f8e7238904500aa302077297",
-      "title": "Cisco warns of max severity ISE zero-day exploited in attacks",
-      "summary": "Cisco has released security updates to address a maximum-severity Identity Services Engine vulnerability that attackers are actively exploiting in the wild. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "score": 11,
-      "severity": "MEDIUM",
+      "id": "c05ba07d68d7a011a5051067c8d7473e",
+      "title": "The Real U.S.-Saudi Nuclear Deal Is Better Than We Thought",
+      "summary": "<p>On Aug. 24, 2026, the Trump administration transmitted the text of the U.S.-Saudi nuclear cooperation agreement to Congress. By doing so, the administration triggered the 90-day congressional review process described in the Atomic Energy Act and relaunched a debate about the right approach to international nuclear commerce.The United States and Saudi Arabia jointly announced a deal in Nov. 2025 and signed the final text in July 2026. President Donald Trump held up its transmission to Congress over the issue of whether Saudi Arabia would normalize its relations with Israel, a topic that &#8212; according to the White House &#8212; could</p>\n<p>The post <a href=\"https://warontherocks.com/the-real-u-s-saudi-nuclear-deal-is-better-than-we-thought/\">The Real U.S.-Saudi Nuclear Deal Is Better Than We Thought</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/the-real-u-s-saudi-nuclear-deal-is-better-than-we-thought/",
+      "source": "War on the Rocks",
+      "score": 18,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "US"
+      ],
       "assets": [],
       "market_impact": {
         "bullish": [
@@ -196,21 +437,180 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-17T19:28:51.058296Z"
+      "published": "2026-09-17T19:33:34.315810Z"
     },
     {
-      "id": "290d7d7db02b074e7839c9a78d25ea88",
-      "title": "Corpus Christi LNG expansion makes facility the second-largest in the United States",
-      "summary": "On August 28, 2026, Cheniere Energy, Inc., completed its Corpus Christi Liquefaction Stage 3 Project (CCL Stage 3) in Texas, taking custody and control of the seventh and last liquefied natural gas (LNG) train in the project.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68144",
-      "source": "EIA",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
+      "id": "36d6d45a7aa9a90f2fde940bc707a19b",
+      "title": "Bitcoin treasury firms can outperform BTC... but is the risk worth taking?",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin treasury firms can outperform BTC... but is the risk worth taking?\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2MQKH8M6FB9RA6PJPEFV90G/magazine-young-crypto-founder-1.png\" /></p><p>Bitcoin treasury companies promise to amplify returns over investing in Bitcoin alone, but does the potential upside outweigh the risks to the downside?</p>",
+      "link": "https://cointelegraph.com/magazine/bitcoin-treasuries-can-outperform-btc-but-is-it-a-risk-worth-taking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC",
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-17T19:33:35.592474Z"
+    },
+    {
+      "id": "5cf809f3116a4937ade360a1ede3d48f",
+      "title": "Piero Cipollone: The future of euro cash: trusted today, designed for tomorrow",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_1~91d3436449.en.html",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-17T19:33:14.308683Z"
+    },
+    {
+      "id": "48ea012972723cce0ccd4ab63a66c597",
+      "title": "Transcript of the Governor's pooled broadcast interview given on 17 September 2026",
+      "summary": "Following the publication of the Monetary Policy Summary and minutes of the Monetary Policy Committee meeting",
+      "link": "https://www.bankofengland.co.uk/news/2026/september/the-governor-interview-transcript-17-september-2026",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-17T19:33:19.656306Z"
+    },
+    {
+      "id": "a191e65533d1704c37478c4f32453bc6",
+      "title": "Monetary Policy Committee dates for 2027",
+      "summary": "2027 confirmed dates",
+      "link": "https://www.bankofengland.co.uk/news/2026/september/mpc-dates-for-2027",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-17T19:33:19.656334Z"
+    },
+    {
+      "id": "9914625775e80e6ed84ee35c12be4682",
+      "title": "America Is Paying a Lot for Fuel, Not Running Out of Gasoline",
+      "summary": "Gasoline is expensive. Diesel is worse. Social media is melting down and has apparently decided America is running out of fuel. U.S. gasoline inventories rose 800,000 barrels last week to 207.7 million barrels, according to the EIA. Stocks are 5% below the five-year average for this time of year. Tight, certainly, but hardly empty-tankish. Refineries processed 17.3 million barrels per day last week and operated at 96.8% utilization. Gasoline production increased to 9.6 million bpd. Gasoline demand averaged 8.8 million bpd over the past four weeks,\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/America-Is-Paying-a-Lot-for-Fuel-Not-Running-Out-of-Gasoline.html",
+      "source": "OilPrice",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
       "tickers": [],
       "regions": [
         "US"
       ],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-17T19:33:32.696980Z"
+    },
+    {
+      "id": "8e48dbc6e85b577354faee3e9bb13d48",
+      "title": "EU asks China to voluntarily limit hybrid car exports - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOeXBHVk1XNnktaWhhOWNac0M0R0k3bE0zNXdabHE0SHJiNWhxaGxGTWdraVZfdWJOa1NRcFo1dGlSZjFzTGhUMC1XV2owXzliTDlfalFROWQyUjBOWUNZcFRUY1FPZkt0WXh3UzA2cGcyaDBqMnRyYVZvb29FTDFsd21YYy0?oc=5\" target=\"_blank\">EU asks China to voluntarily limit hybrid car exports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeXBHVk1XNnktaWhhOWNac0M0R0k3bE0zNXdabHE0SHJiNWhxaGxGTWdraVZfdWJOa1NRcFo1dGlSZjFzTGhUMC1XV2owXzliTDlfalFROWQyUjBOWUNZcFRUY1FPZkt0WXh3UzA2cGcyaDBqMnRyYVZvb29FTDFsd21YYy0?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-17T19:33:38.765827Z"
+    },
+    {
+      "id": "f3920bcbb2c4d2b68b8342bf7c3d8558",
+      "title": "As Republicans tout Trump's 'big beautiful bill,' here's who the tax breaks benefited most",
+      "summary": "As the midterm elections approach, Republicans are touting President Donald Trump's \"big beautiful bill\" to voters. Here's who benefited from the tax cuts.",
+      "link": "https://www.cnbc.com/2026/09/17/tax-breaks-trump-big-beautiful-bill.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-17T19:32:37.535184Z"
+    },
+    {
+      "id": "227af8343612a564012542f65474557b",
+      "title": "S&P Global agrees to acquire OpenZeppelin in onchain security push",
+      "summary": "OpenZeppelin will continue operating as a standalone business unit under S&amp;P Global, with financial terms of the deal not disclosed.",
+      "link": "https://www.theblock.co/news/business/2026-09-17-sp-global-agrees-to-acquire-openzeppelin-in-onchain-security-push-415360",
+      "source": "The Block",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "SPY"
+      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -223,29 +623,13 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-17T19:28:48.038137Z"
+      "published": "2026-09-17T19:33:35.737495Z"
     },
     {
-      "id": "0bba100812740296eae6f7787e210176",
-      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-      "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&#038;T customers.",
-      "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-      "source": "KrebsOnSecurity",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-17T19:28:51.292256Z"
-    },
-    {
-      "id": "c7b870871b4e0b69dd1fac4aefde7e91",
-      "title": "SEC clears path for tokenized stocks, bringing the market closer to 24/7 trading - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPQzU1TFNvdUw0SDJRRVNFZE8wYkIzRlFBTzBrTHlub3k3NlMyZUdrWnpGTDFOQmlqQ3BTOWQ0bVdqcnF5NTFWQkQ1U0Y3V29JUFpDUzI5bmI2b0x0SzFnN0lTOW9MdG8zc2JVaW8xeS15ZjBtanFaUmc3dExXejdvZ0d4SDBsdEdVVGR3NHFVT0Y5blFaTXFxUlR6Vl9FR25Ta2RsYtIBqgFBVV95cUxQT2JLLTk0ZGptTTlfcGRMempZMG80TktEMTVDTVc5M0FyVFZaZ1B2RmozdWhxWHdlSkJzSVdzZ3EtRlRaRlJuVXB0cUFYUng2UXBXbjBESk5nNzMyQ0xhYVh3LXJKajdyVi1oU3RfVE5vRklkb3NFbnNJUTBoMGhmaW9qVDRYOHR0VG9HMDNaNnMwcWxsQWh1NlpxQk9rcUhFX01vNU9DVVJkUQ?oc=5\" target=\"_blank\">SEC clears path for tokenized stocks, bringing the market closer to 24/7 trading</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQzU1TFNvdUw0SDJRRVNFZE8wYkIzRlFBTzBrTHlub3k3NlMyZUdrWnpGTDFOQmlqQ3BTOWQ0bVdqcnF5NTFWQkQ1U0Y3V29JUFpDUzI5bmI2b0x0SzFnN0lTOW9MdG8zc2JVaW8xeS15ZjBtanFaUmc3dExXejdvZ0d4SDBsdEdVVGR3NHFVT0Y5blFaTXFxUlR6Vl9FR25Ta2RsYtIBqgFBVV95cUxQT2JLLTk0ZGptTTlfcGRMempZMG80TktEMTVDTVc5M0FyVFZaZ1B2RmozdWhxWHdlSkJzSVdzZ3EtRlRaRlJuVXB0cUFYUng2UXBXbjBESk5nNzMyQ0xhYVh3LXJKajdyVi1oU3RfVE5vRklkb3NFbnNJUTBoMGhmaW9qVDRYOHR0VG9HMDNaNnMwcWxsQWh1NlpxQk9rcUhFX01vNU9DVVJkUQ?oc=5",
+      "id": "8a3cb9c59c674639a1d2968877ed9e0f",
+      "title": "Stocks making the biggest moves premarket: Generac, Lennar, Nike & more - cnbc.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPaDBORnpIeDZidTJkUzJtc21KWHdtQ3hmWFVPb24xdy1EOGp6bEpQWFh4bldYMDI4Ymx4aDJ3cmdRblB5VG5PSjhBZWNiWTFmRnhYQTUtN1ZtemJyWW5PeUdUS1U2VlZfOHAwS0hQbXlCOVB0SmNYZG1wUnlkS0VWUnFoUWdaYWJraWxFOUE5V3dJNUlrMFE?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: Generac, Lennar, Nike & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cnbc.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaDBORnpIeDZidTJkUzJtc21KWHdtQ3hmWFVPb24xdy1EOGp6bEpQWFh4bldYMDI4Ymx4aDJ3cmdRblB5VG5PSjhBZWNiWTFmRnhYQTUtN1ZtemJyWW5PeUdUS1U2VlZfOHAwS0hQbXlCOVB0SmNYZG1wUnlkS0VWUnFoUWdaYWJraWxFOUE5V3dJNUlrMFE?oc=5",
       "source": "Google Macro",
       "score": 1,
       "severity": "LOW",
@@ -257,7 +641,7 @@
       ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-17T19:28:54.367682Z"
+      "published": "2026-09-17T19:33:40.167298Z"
     }
   ]
 }
