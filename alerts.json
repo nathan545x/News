@@ -1,61 +1,245 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-18T11:53:29.228534Z",
+  "generated_at": "2026-09-18T11:58:45.062803Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-09-18T11:53:29.228545Z"
+    "critical_alerts": 1,
+    "high_alerts": 2,
+    "last_updated": "2026-09-18T11:58:45.062816Z"
   },
   "top_signals": [
     {
-      "id": "a85e057a0afce8d647ea6b7bb0082c68",
-      "title": "Speech by Commissioner J\u00f8rgensen at the inauguration of the Greensand CCS project",
-      "summary": "European Commission Speech Esbjerg, 18 Sep 2026 Your Majesty,\nYour excellency, Sir James,\nMinister Hummelgaard, dear Peter;\nDistinguished guests,\nDear friends,\nIt is a great pleasure to be here today.\nI've ha...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1908",
-      "source": "European Commission",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "a1cb6f7db6bae82b995ade8be7f5f95e",
+      "title": "Yen Falls After BOJ Rate Hike as Oil Extends Slide",
+      "summary": "\"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story is, bringing you exclusive interviews and market-moving scoops.\n\nToday's guests: Carlos Cuerpo, Spanish Minister of Economy, Trade & Enterprise & Deputy Prime Minister; Alessia Berardi, Amundi Investment Institute, Head of Global Macroeconomics and Emerging Markets Strategy; Sayuri Shirai, Keio University Economics Professor & former Bank of Japan Policy Board Member; Martijn Rats, Morgan Stanley, Chief Commodities Strategist (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-18/the-pulse-9-18-2026-video",
+      "source": "Bloomberg",
+      "score": 54,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "EUR"
+        "JPY",
+        "WTI"
       ],
       "regions": [
-        "EUROPE"
+        "JAPAN",
+        "UK"
       ],
       "assets": [
+        "AI",
+        "COMMODITIES",
         "FX"
       ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-18T11:53:14.085195Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-18T11:57:43.921620Z"
+    },
+    {
+      "id": "947d21fe716a60679b40bc13774d9a64",
+      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+      "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and deploying so many fixes each month.",
+      "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+      "source": "KrebsOnSecurity",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-18T11:58:42.003560Z"
+    },
+    {
+      "id": "d8ace53c1506bcb0c0ebea626e255c8b",
+      "title": "Leading AI labs may need to be nationalized because risks are so high, Palantir's Karp tells CNBC",
+      "summary": "Palantir CEO Alex Karp called for \"reasonable guidelines\" on artificial intelligence regulation as tech and policy leaders deliberate over the technology.",
+      "link": "https://www.cnbc.com/2026/09/17/ai-safety-palantir-karp.html",
+      "source": "CNBC",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-18T11:57:47.923961Z"
+    },
+    {
+      "id": "1da151c444dba52e83f02a0377687fff",
+      "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
+      "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large advertising platforms. Not anymore: A powerful and free new service called DecryptAds scrapes and correlates this adtech data and makes it simple to quickly learn a great deal about the entities that are tracking you.",
+      "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "source": "KrebsOnSecurity",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-18T11:58:42.003682Z"
     }
   ],
   "alerts": [
     {
-      "id": "a85e057a0afce8d647ea6b7bb0082c68",
-      "title": "Speech by Commissioner J\u00f8rgensen at the inauguration of the Greensand CCS project",
-      "summary": "European Commission Speech Esbjerg, 18 Sep 2026 Your Majesty,\nYour excellency, Sir James,\nMinister Hummelgaard, dear Peter;\nDistinguished guests,\nDear friends,\nIt is a great pleasure to be here today.\nI've ha...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1908",
-      "source": "European Commission",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "a1cb6f7db6bae82b995ade8be7f5f95e",
+      "title": "Yen Falls After BOJ Rate Hike as Oil Extends Slide",
+      "summary": "\"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story is, bringing you exclusive interviews and market-moving scoops.\n\nToday's guests: Carlos Cuerpo, Spanish Minister of Economy, Trade & Enterprise & Deputy Prime Minister; Alessia Berardi, Amundi Investment Institute, Head of Global Macroeconomics and Emerging Markets Strategy; Sayuri Shirai, Keio University Economics Professor & former Bank of Japan Policy Board Member; Martijn Rats, Morgan Stanley, Chief Commodities Strategist (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-18/the-pulse-9-18-2026-video",
+      "source": "Bloomberg",
+      "score": 54,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "EUR"
+        "JPY",
+        "WTI"
       ],
       "regions": [
-        "EUROPE"
+        "JAPAN",
+        "UK"
       ],
       "assets": [
+        "AI",
+        "COMMODITIES",
         "FX"
       ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-18T11:53:14.085195Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-18T11:57:43.921620Z"
+    },
+    {
+      "id": "947d21fe716a60679b40bc13774d9a64",
+      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+      "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and deploying so many fixes each month.",
+      "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+      "source": "KrebsOnSecurity",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-18T11:58:42.003560Z"
+    },
+    {
+      "id": "d8ace53c1506bcb0c0ebea626e255c8b",
+      "title": "Leading AI labs may need to be nationalized because risks are so high, Palantir's Karp tells CNBC",
+      "summary": "Palantir CEO Alex Karp called for \"reasonable guidelines\" on artificial intelligence regulation as tech and policy leaders deliberate over the technology.",
+      "link": "https://www.cnbc.com/2026/09/17/ai-safety-palantir-karp.html",
+      "source": "CNBC",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-18T11:57:47.923961Z"
+    },
+    {
+      "id": "1da151c444dba52e83f02a0377687fff",
+      "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
+      "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large advertising platforms. Not anymore: A powerful and free new service called DecryptAds scrapes and correlates this adtech data and makes it simple to quickly learn a great deal about the entities that are tracking you.",
+      "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "source": "KrebsOnSecurity",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-18T11:58:42.003682Z"
     }
   ]
 }
