@@ -1,30 +1,242 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-18T16:18:34.596804Z",
+  "generated_at": "2026-09-18T16:23:23.927057Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 3,
-    "last_updated": "2026-09-18T16:18:34.596826Z"
+    "critical_alerts": 2,
+    "high_alerts": 4,
+    "last_updated": "2026-09-18T16:23:23.927094Z"
   },
   "top_signals": [
     {
-      "id": "19132b51c6199bfa9d05be1863665f14",
-      "title": "Yen Pares BOJ-Fueled Declines as Nikkei Reports a Rate Check",
-      "summary": "The yen pared declines seen after the Bank of Japan disappointed traders who wanted clearer guidance on the central bank\u2019s plans to further raise interest rates, with the Nikkei reporting that officials conducted a rate check in the currency market.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-18/yen-pares-boj-fueled-declines-as-nikkei-reports-a-rate-check",
-      "source": "Bloomberg",
-      "score": 38,
+      "id": "fb2a15c40713021229a57a6de4fb622c",
+      "title": "Inflation draws BOJ, Fed, ECB into historic alignment on rate hikes",
+      "summary": "",
+      "link": "https://asia.nikkei.com/spotlight/comment/inflation-draws-boj-fed-ecb-into-historic-alignment-on-rate-hikes",
+      "source": "Nikkei Asia",
+      "score": 45,
       "severity": "CRITICAL",
       "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-18T16:23:15.169965Z"
+    },
+    {
+      "id": "3f7e20dd9c76092fe3fb412f00d91d93",
+      "title": "Warshing the walk",
+      "summary": "Fed chair Kevin Warsh delivered the rate rise as was widely expected at September\u2019s rate meeting",
+      "link": "https://www.ft.com/content/7832ff53-1607-471c-bc9d-9f62c193b641",
+      "source": "Financial Times",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-18T16:22:25.647144Z"
+    },
+    {
+      "id": "ff6c65442f5cba1c98fafa069ce9935e",
+      "title": "Howard Buffett to succeed father as Berkshire Hathaway chair",
+      "summary": "Conglomerate says the elder Buffett will take on role of chair emeritus",
+      "link": "https://www.ft.com/content/e26d8335-426a-4405-ae4c-433bd2696994?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-18T16:22:25.646941Z"
+    },
+    {
+      "id": "65b71d6e44f35508937e6b47df35e9ad",
+      "title": "October Deliveries of Aramco Crude Halted to Some European Refiners",
+      "summary": "Oil company Saudi Aramco has told at least two European refining customers they will receive no crude oil next month following an attack on Saudi Arabia's key pipeline to the Red Sea, Bloomberg News reported on Friday, citing people familiar\u2026",
+      "link": "https://www.marinelink.com/news/october-deliveries-aramco-crude-halted-543092",
+      "source": "MarineLink",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
       "tickers": [
-        "JPY"
+        "EUR",
+        "WTI"
       ],
       "regions": [
-        "JAPAN"
+        "EUROPE"
+      ],
+      "assets": [
+        "COMMODITIES",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-18T16:23:18.962706Z"
+    },
+    {
+      "id": "990e6a3f57668cfa9f06c26029a9068b",
+      "title": "Ministers explore limiting political party spending outside UK elections",
+      "summary": "Concerns over political donations grow after two cryptocurrency billionaires pledged \u00a372mn to Reform UK",
+      "link": "https://www.ft.com/content/5bf1b218-bd69-430e-8544-93e0ef87d10f?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-18T16:22:25.647097Z"
+    },
+    {
+      "id": "4d0ebb84f6d8c250e2d0b7fe2696282f",
+      "title": "France calls G7 summit on releasing more oil reserves",
+      "summary": "Supply concerns have been worsened by an attack on a Saudi pipeline",
+      "link": "https://www.ft.com/content/31c53c3c-5cc1-4248-98dc-68fc8956e8cc?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "FRANCE"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-18T16:22:25.646986Z"
+    },
+    {
+      "id": "a159bdde156e3ae3ca745e772feab0af",
+      "title": "Anthropic and the golden rules of business",
+      "summary": "Shifts in technology and geopolitics mean the ideal of the perfect company is changing",
+      "link": "https://www.ft.com/content/e2d2b86f-4f22-477f-9578-75c72683f1e9",
+      "source": "Financial Times",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-18T16:22:25.647019Z"
+    },
+    {
+      "id": "d5763a156f9e77b2b444a55aae64e6c1",
+      "title": "Saudi Export Pivot Sends Brent Below $105",
+      "summary": "Saudi Aramco shifts crude exports to the Persian Gulf, easing supply fears and pushing Brent below $105. Friday, September 18, 2026 Last week\u2019s market panic about the 7 million b/d East-West pipeline remaining offline for weeks gave way to a slightly more nuanced outlook this week, with Saudi Aramco re-orienting all its loadings to the Persian Gulf. Whilst flows from Ras Tanura still carry the risk of potential Iranian drone strikes in the Strait, the fact that Saudi Aramco keeps on offering crude to Asian buyers (in contrast to its Europeans\u2026",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Saudi-Export-Pivot-Sends-Brent-Below-105.html",
+      "source": "OilPrice",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "MIDDLE_EAST"
       ],
       "assets": [
         "AI",
@@ -32,34 +244,6 @@
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-18T16:17:22.874041Z"
-    },
-    {
-      "id": "121faf24b9122dd4b0bac8b714d80bb4",
-      "title": "The New Buffett Chairing Berkshire\u2019s Board Knows the Firm Well",
-      "summary": "Howard Buffett, the eldest son of legendary investor Warren, is already well-versed in corporate governance as he takes over for his father as chairman of Berkshire Hathaway Inc.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-18/the-new-buffett-chairing-berkshire-s-board-knows-the-firm-well",
-      "source": "Bloomberg",
-      "score": 23,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
           "XAU",
           "WTI",
           "DXY",
@@ -72,189 +256,13 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-18T16:17:22.873977Z"
+      "published": "2026-09-18T16:23:18.017885Z"
     },
     {
-      "id": "c05639c620a1e7f567cdae25ed65e920",
-      "title": "Yen touches 158 to the dollar as market weighs further BOJ tightening pace",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/markets/currencies/yen-touches-158-to-the-dollar-as-market-weighs-further-boj-tightening-pace",
-      "source": "Nikkei Asia",
-      "score": 23,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [
-        "DXY",
-        "JPY"
-      ],
-      "regions": [],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-18T16:18:24.147288Z"
-    },
-    {
-      "id": "6879de1f37b1180d1cd17a73e0aa22a0",
-      "title": "VW Slashes Outlook After China Sales Slump, Costs Weigh",
-      "summary": "Volkswagen AG slashed its profit forecast, citing a sharp contraction in China, restructuring costs and a \u20ac6 billion ($6.9 billion) writedown tied to sports-car maker Porsche AG. The shares slumped the most in a year.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-18/vw-cuts-outlook-after-writedown-on-porsche-decline-in-china",
-      "source": "Bloomberg",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "CHINA"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-18T16:17:22.873922Z"
-    },
-    {
-      "id": "1e605beb3a2e1cd5415c9e92452a7e1c",
-      "title": "Medical AI has a proof problem",
-      "summary": "The technology\u2019s advances have not yet translated into big improvements in real-life care",
-      "link": "https://www.ft.com/content/34319b00-f874-4119-aa28-8376d81e7190?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-18T16:17:25.114618Z"
-    },
-    {
-      "id": "1e07c1da6ddf23a111799290a1e6078f",
-      "title": "CFTC submits crypto market regulation plan for White House review",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"CFTC submits crypto market regulation plan for White House review  \" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2TJB7047S01XKJY4FWVJGEK/judge-hammer-regulation-cftc-2.jpg\" /></p><p>The US commodities regulator submitted a new crypto market regulatory action for White House review days after the Senate failed to advance the CLARITY Act.\n</p>",
-      "link": "https://cointelegraph.com/news/cftc-submits-crypto-market-regulation-plan-for-white-house-review?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-18T16:18:31.114740Z"
-    },
-    {
-      "id": "62adbf9b9b59d945ac153e689cf62294",
-      "title": "Kevin O\u2019Leary is buying crypto again, says major stock exchange adoption is the \u2018watershed moment\u2019 to watch",
-      "summary": "Kevin O'Leary says he is buying crypto again and watching for a major stock exchange to adopt a blockchain network.",
-      "link": "https://www.theblock.co/news/business/2026-09-18-kevin-oleary-is-buying-crypto-again-says-major-stock-exchange-adoption-is-the-watershed-moment-to-watch-415491",
-      "source": "The Block",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-18T16:18:31.230062Z"
-    },
-    {
-      "id": "1611a6d41fb7f07fb3a74fb8455cd8d0",
-      "title": "The Business of the $60 Loaf of Bread",
-      "summary": "Would you pay $60 for bread? At New York bakery RYE by Martin Auer, that's the going rate for a loaf eyed by influencers and the ultra-wealthy; we tried it to see what the fuss was all about. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-18/the-business-of-the-60-loaf-of-bread",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-18T16:17:22.873848Z"
-    },
-    {
-      "id": "69a426836d9b361998f44544fc849cd4",
-      "title": "Liechtenstein royals threaten lawsuit over dynasty reforms",
-      "summary": "Feud in Europe\u2019s wealthiest monarchy deepens after Prince Alois tightens control over family members",
-      "link": "https://www.ft.com/content/6fd9f78e-f822-4e48-b8e2-968a3e4d2181?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-18T16:17:25.114678Z"
-    },
-    {
-      "id": "cb19497a82330059d9d06bcdb00e02e9",
-      "title": "Democrats vow to pursue \u2018Trump crime family\u2019 after midterm elections",
-      "summary": "Lawmaker on oversight committee says he will probe Donald Trump\u2019s sons and Elon Musk if his party takes control of the House",
-      "link": "https://www.ft.com/content/0e64746c-d531-4ceb-a700-e5e47289bfb3?syn-25a6b1a6=1",
+      "id": "bdf3ba017d24644f745c9bf318238358",
+      "title": "Canada plays down EU \u2018associate member\u2019 label",
+      "summary": "\u2018We\u2019d rather people focus on the substance,\u2019 says ambassador-designate to the EU",
+      "link": "https://www.ft.com/content/72957f1d-5e28-4303-9bb9-e72781ce245f?syn-25a6b1a6=1",
       "source": "Financial Times",
       "score": 8,
       "severity": "MEDIUM",
@@ -264,56 +272,236 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-18T16:17:25.114733Z"
-    },
-    {
-      "id": "bf91c55a40f8f844339d81537478d9d0",
-      "title": "Indonesia's Bayan shares soar after 30% stake sold to Prabowo-linked tycoon",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/markets/commodities/indonesia-s-bayan-shares-soar-after-30-stake-sold-to-prabowo-linked-tycoon",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-18T16:18:24.147341Z"
-    },
-    {
-      "id": "94107d9d978adf947804a66175edd41e",
-      "title": "Disney names CTO for the first time as media giant expands tech push",
-      "summary": "Disney has hired a chief technology officer, a newly minted role for the company, as it looks to further its embrace of tech under CEO Josh D'Amaro.",
-      "link": "https://www.cnbc.com/2026/09/18/disney-cto-tech.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-18T16:17:27.590295Z"
+      "published": "2026-09-18T16:22:25.647185Z"
     }
   ],
   "alerts": [
     {
-      "id": "19132b51c6199bfa9d05be1863665f14",
-      "title": "Yen Pares BOJ-Fueled Declines as Nikkei Reports a Rate Check",
-      "summary": "The yen pared declines seen after the Bank of Japan disappointed traders who wanted clearer guidance on the central bank\u2019s plans to further raise interest rates, with the Nikkei reporting that officials conducted a rate check in the currency market.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-18/yen-pares-boj-fueled-declines-as-nikkei-reports-a-rate-check",
-      "source": "Bloomberg",
-      "score": 38,
+      "id": "fb2a15c40713021229a57a6de4fb622c",
+      "title": "Inflation draws BOJ, Fed, ECB into historic alignment on rate hikes",
+      "summary": "",
+      "link": "https://asia.nikkei.com/spotlight/comment/inflation-draws-boj-fed-ecb-into-historic-alignment-on-rate-hikes",
+      "source": "Nikkei Asia",
+      "score": 45,
       "severity": "CRITICAL",
       "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-18T16:23:15.169965Z"
+    },
+    {
+      "id": "3f7e20dd9c76092fe3fb412f00d91d93",
+      "title": "Warshing the walk",
+      "summary": "Fed chair Kevin Warsh delivered the rate rise as was widely expected at September\u2019s rate meeting",
+      "link": "https://www.ft.com/content/7832ff53-1607-471c-bc9d-9f62c193b641",
+      "source": "Financial Times",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-18T16:22:25.647144Z"
+    },
+    {
+      "id": "ff6c65442f5cba1c98fafa069ce9935e",
+      "title": "Howard Buffett to succeed father as Berkshire Hathaway chair",
+      "summary": "Conglomerate says the elder Buffett will take on role of chair emeritus",
+      "link": "https://www.ft.com/content/e26d8335-426a-4405-ae4c-433bd2696994?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-18T16:22:25.646941Z"
+    },
+    {
+      "id": "65b71d6e44f35508937e6b47df35e9ad",
+      "title": "October Deliveries of Aramco Crude Halted to Some European Refiners",
+      "summary": "Oil company Saudi Aramco has told at least two European refining customers they will receive no crude oil next month following an attack on Saudi Arabia's key pipeline to the Red Sea, Bloomberg News reported on Friday, citing people familiar\u2026",
+      "link": "https://www.marinelink.com/news/october-deliveries-aramco-crude-halted-543092",
+      "source": "MarineLink",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
       "tickers": [
-        "JPY"
+        "EUR",
+        "WTI"
       ],
       "regions": [
-        "JAPAN"
+        "EUROPE"
+      ],
+      "assets": [
+        "COMMODITIES",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-18T16:23:18.962706Z"
+    },
+    {
+      "id": "990e6a3f57668cfa9f06c26029a9068b",
+      "title": "Ministers explore limiting political party spending outside UK elections",
+      "summary": "Concerns over political donations grow after two cryptocurrency billionaires pledged \u00a372mn to Reform UK",
+      "link": "https://www.ft.com/content/5bf1b218-bd69-430e-8544-93e0ef87d10f?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-18T16:22:25.647097Z"
+    },
+    {
+      "id": "4d0ebb84f6d8c250e2d0b7fe2696282f",
+      "title": "France calls G7 summit on releasing more oil reserves",
+      "summary": "Supply concerns have been worsened by an attack on a Saudi pipeline",
+      "link": "https://www.ft.com/content/31c53c3c-5cc1-4248-98dc-68fc8956e8cc?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "FRANCE"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-18T16:22:25.646986Z"
+    },
+    {
+      "id": "a159bdde156e3ae3ca745e772feab0af",
+      "title": "Anthropic and the golden rules of business",
+      "summary": "Shifts in technology and geopolitics mean the ideal of the perfect company is changing",
+      "link": "https://www.ft.com/content/e2d2b86f-4f22-477f-9578-75c72683f1e9",
+      "source": "Financial Times",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-18T16:22:25.647019Z"
+    },
+    {
+      "id": "d5763a156f9e77b2b444a55aae64e6c1",
+      "title": "Saudi Export Pivot Sends Brent Below $105",
+      "summary": "Saudi Aramco shifts crude exports to the Persian Gulf, easing supply fears and pushing Brent below $105. Friday, September 18, 2026 Last week\u2019s market panic about the 7 million b/d East-West pipeline remaining offline for weeks gave way to a slightly more nuanced outlook this week, with Saudi Aramco re-orienting all its loadings to the Persian Gulf. Whilst flows from Ras Tanura still carry the risk of potential Iranian drone strikes in the Strait, the fact that Saudi Aramco keeps on offering crude to Asian buyers (in contrast to its Europeans\u2026",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Saudi-Export-Pivot-Sends-Brent-Below-105.html",
+      "source": "OilPrice",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "MIDDLE_EAST"
       ],
       "assets": [
         "AI",
@@ -321,34 +509,6 @@
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-18T16:17:22.874041Z"
-    },
-    {
-      "id": "121faf24b9122dd4b0bac8b714d80bb4",
-      "title": "The New Buffett Chairing Berkshire\u2019s Board Knows the Firm Well",
-      "summary": "Howard Buffett, the eldest son of legendary investor Warren, is already well-versed in corporate governance as he takes over for his father as chairman of Berkshire Hathaway Inc.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-18/the-new-buffett-chairing-berkshire-s-board-knows-the-firm-well",
-      "source": "Bloomberg",
-      "score": 23,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
           "XAU",
           "WTI",
           "DXY",
@@ -361,189 +521,13 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-18T16:17:22.873977Z"
+      "published": "2026-09-18T16:23:18.017885Z"
     },
     {
-      "id": "c05639c620a1e7f567cdae25ed65e920",
-      "title": "Yen touches 158 to the dollar as market weighs further BOJ tightening pace",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/markets/currencies/yen-touches-158-to-the-dollar-as-market-weighs-further-boj-tightening-pace",
-      "source": "Nikkei Asia",
-      "score": 23,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [
-        "DXY",
-        "JPY"
-      ],
-      "regions": [],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-18T16:18:24.147288Z"
-    },
-    {
-      "id": "6879de1f37b1180d1cd17a73e0aa22a0",
-      "title": "VW Slashes Outlook After China Sales Slump, Costs Weigh",
-      "summary": "Volkswagen AG slashed its profit forecast, citing a sharp contraction in China, restructuring costs and a \u20ac6 billion ($6.9 billion) writedown tied to sports-car maker Porsche AG. The shares slumped the most in a year.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-18/vw-cuts-outlook-after-writedown-on-porsche-decline-in-china",
-      "source": "Bloomberg",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "CHINA"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-18T16:17:22.873922Z"
-    },
-    {
-      "id": "1e605beb3a2e1cd5415c9e92452a7e1c",
-      "title": "Medical AI has a proof problem",
-      "summary": "The technology\u2019s advances have not yet translated into big improvements in real-life care",
-      "link": "https://www.ft.com/content/34319b00-f874-4119-aa28-8376d81e7190?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-18T16:17:25.114618Z"
-    },
-    {
-      "id": "1e07c1da6ddf23a111799290a1e6078f",
-      "title": "CFTC submits crypto market regulation plan for White House review",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"CFTC submits crypto market regulation plan for White House review  \" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2TJB7047S01XKJY4FWVJGEK/judge-hammer-regulation-cftc-2.jpg\" /></p><p>The US commodities regulator submitted a new crypto market regulatory action for White House review days after the Senate failed to advance the CLARITY Act.\n</p>",
-      "link": "https://cointelegraph.com/news/cftc-submits-crypto-market-regulation-plan-for-white-house-review?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-18T16:18:31.114740Z"
-    },
-    {
-      "id": "62adbf9b9b59d945ac153e689cf62294",
-      "title": "Kevin O\u2019Leary is buying crypto again, says major stock exchange adoption is the \u2018watershed moment\u2019 to watch",
-      "summary": "Kevin O'Leary says he is buying crypto again and watching for a major stock exchange to adopt a blockchain network.",
-      "link": "https://www.theblock.co/news/business/2026-09-18-kevin-oleary-is-buying-crypto-again-says-major-stock-exchange-adoption-is-the-watershed-moment-to-watch-415491",
-      "source": "The Block",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-18T16:18:31.230062Z"
-    },
-    {
-      "id": "1611a6d41fb7f07fb3a74fb8455cd8d0",
-      "title": "The Business of the $60 Loaf of Bread",
-      "summary": "Would you pay $60 for bread? At New York bakery RYE by Martin Auer, that's the going rate for a loaf eyed by influencers and the ultra-wealthy; we tried it to see what the fuss was all about. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-18/the-business-of-the-60-loaf-of-bread",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-18T16:17:22.873848Z"
-    },
-    {
-      "id": "69a426836d9b361998f44544fc849cd4",
-      "title": "Liechtenstein royals threaten lawsuit over dynasty reforms",
-      "summary": "Feud in Europe\u2019s wealthiest monarchy deepens after Prince Alois tightens control over family members",
-      "link": "https://www.ft.com/content/6fd9f78e-f822-4e48-b8e2-968a3e4d2181?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-18T16:17:25.114678Z"
-    },
-    {
-      "id": "cb19497a82330059d9d06bcdb00e02e9",
-      "title": "Democrats vow to pursue \u2018Trump crime family\u2019 after midterm elections",
-      "summary": "Lawmaker on oversight committee says he will probe Donald Trump\u2019s sons and Elon Musk if his party takes control of the House",
-      "link": "https://www.ft.com/content/0e64746c-d531-4ceb-a700-e5e47289bfb3?syn-25a6b1a6=1",
+      "id": "bdf3ba017d24644f745c9bf318238358",
+      "title": "Canada plays down EU \u2018associate member\u2019 label",
+      "summary": "\u2018We\u2019d rather people focus on the substance,\u2019 says ambassador-designate to the EU",
+      "link": "https://www.ft.com/content/72957f1d-5e28-4303-9bb9-e72781ce245f?syn-25a6b1a6=1",
       "source": "Financial Times",
       "score": 8,
       "severity": "MEDIUM",
@@ -553,39 +537,7 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-18T16:17:25.114733Z"
-    },
-    {
-      "id": "bf91c55a40f8f844339d81537478d9d0",
-      "title": "Indonesia's Bayan shares soar after 30% stake sold to Prabowo-linked tycoon",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/markets/commodities/indonesia-s-bayan-shares-soar-after-30-stake-sold-to-prabowo-linked-tycoon",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-18T16:18:24.147341Z"
-    },
-    {
-      "id": "94107d9d978adf947804a66175edd41e",
-      "title": "Disney names CTO for the first time as media giant expands tech push",
-      "summary": "Disney has hired a chief technology officer, a newly minted role for the company, as it looks to further its embrace of tech under CEO Josh D'Amaro.",
-      "link": "https://www.cnbc.com/2026/09/18/disney-cto-tech.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-18T16:17:27.590295Z"
+      "published": "2026-09-18T16:22:25.647185Z"
     }
   ]
 }
