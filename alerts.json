@@ -1,23 +1,57 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-21T22:08:57.855644Z",
+  "generated_at": "2026-09-21T22:13:36.912145Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-09-21T22:08:57.855653Z"
+    "critical_alerts": 1,
+    "high_alerts": 2,
+    "last_updated": "2026-09-21T22:13:36.912163Z"
   },
   "top_signals": [
     {
-      "id": "a4637c490b98b5a586c736ad06680396",
-      "title": "ECB to invest part of own funds in tokenised securities, with settlement via Pontes",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921_1~5a011ecbea.en.html",
-      "source": "ECB",
-      "score": 18,
+      "id": "28873f2757681c5218d77609e7bb22ab",
+      "title": "Latest Oil Market News and Analysis for Sept. 22",
+      "summary": "Oil steadied after a four-day slump, as Middle East supply concerns eased and traders tracked diplomatic efforts to end the US-Iran war.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-21/latest-oil-market-news-and-analysis-for-sept-22",
+      "source": "Bloomberg",
+      "score": 44,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-21T22:12:33.927799Z"
+    },
+    {
+      "id": "8267eb1c311ea8a2bf751ae3588a45e3",
+      "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
@@ -35,21 +69,53 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-21T22:08:36.422688Z"
+      "published": "2026-09-21T22:12:39.125546Z"
     },
     {
-      "id": "5fe93b8ac1163db2e11ee1d09c85489c",
-      "title": "Ecuador Asks US Daily for Help Curbing $30 Billion Cocaine Trade",
-      "summary": "Ecuador asks the US \u2018every day\u2019 for more help fighting a cocaine trade worth an estimated $30 billion a year, President Daniel Noboa said Monday, while insisting local security forces should remain in charge.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-21/ecuador-asks-us-daily-for-help-curbing-30-billion-cocaine-trade",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "dff99a60f4bcb302dd7d00f4745f7559",
+      "title": "Money and power: lessons from history for stablecoins and US dollar dominance \u2013 speech by Carolyn Wilkins",
+      "summary": "Given at Queen\u2019s University, Belfast",
+      "link": "https://www.bankofengland.co.uk/speech/2026/september/carolyn-wilkins-speech-at-queens-university-belfast",
+      "source": "Bank of England",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-21T22:13:23.614949Z"
+    },
+    {
+      "id": "c68dedd620e33c1c1d73435f908c1aa0",
+      "title": "SoftBank launches one of biggest junk bond deals to fund OpenAI bet",
+      "summary": "Japanese group seeks to raise more than $11bn in dollar and euro bonds as it invests in the AI boom",
+      "link": "https://www.ft.com/content/4e7004b7-d262-40c8-b979-fdf7f237adda?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
       "severity": "MEDIUM",
       "regime": "AI",
-      "tickers": [],
-      "regions": [],
+      "tickers": [
+        "DXY",
+        "EUR"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [
-        "AI"
+        "AI",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
@@ -60,19 +126,53 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-21T22:07:52.390341Z"
+      "published": "2026-09-21T22:12:37.021919Z"
     },
     {
-      "id": "8cceabff5e27cf3a835a02aa9dd43619",
-      "title": "Denmark says NATO shares responsibility for Arctic security under Greenland deal",
-      "summary": "An agreement on Greenland's security, including a role for NATO, is expected to be signed at the UN General Assembly in New York on Tuesday.",
-      "link": "https://www.defensenews.com/global/europe/2026/09/21/denmark-says-nato-shares-responsibility-for-arctic-security-under-greenland-deal/",
-      "source": "Defense News",
-      "score": 13,
+      "id": "99000c3ba5c6c71dfd8c43c833493f89",
+      "title": "Tanker Hit by Projectile in Strait of Hormuz, UKMTO Reports",
+      "summary": "A tanker transiting the Strait of Hormuz was struck by an unknown projectile, leaving two crew members with minor injuries, the United Kingdom Maritime Trade Operations (UKMTO) said.Military authorities informed UKMTO on September 21, 2026,\u2026",
+      "link": "https://www.marinelink.com/news/tanker-hit-projectile-strait-hormuz-ukmto-543118",
+      "source": "MarineLink",
+      "score": 11,
       "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-21T22:13:31.157979Z"
+    },
+    {
+      "id": "39b275322de4b37e58567ac19b0a07be",
+      "title": "Australia warns of risks from ageing population, falling birth rates - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNR3hOSzIxR1hfa3RsSlg3UUFMWGwzakM0V3BLSUlHQjFYX1d1anY5dEdTWlZXU2ViWXVqXzBHUXN0Z1puV2ZRQ2t0T3RER2FTb25QUklHekk1amNfMTZaNXZUejk3LW9kQ2JLMEthNHp3TEM0QjZBbkZyeWdadXZrRzhLdzYwMlJoN0U1TFdNTGlvaGpqLTlocF9ES2ZCNnNkSE1SSlk4TEg2c2UydENScXpOeVZBcTJLZlE?oc=5\" target=\"_blank\">Australia warns of risks from ageing population, falling birth rates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNR3hOSzIxR1hfa3RsSlg3UUFMWGwzakM0V3BLSUlHQjFYX1d1anY5dEdTWlZXU2ViWXVqXzBHUXN0Z1puV2ZRQ2t0T3RER2FTb25QUklHekk1amNfMTZaNXZUejk3LW9kQ2JLMEthNHp3TEM0QjZBbkZyeWdadXZrRzhLdzYwMlJoN0U1TFdNTGlvaGpqLTlocF9ES2ZCNnNkSE1SSlk4TEg2c2UydENScXpOeVZBcTJLZlE?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [],
       "market_impact": {
         "bullish": [
@@ -88,55 +188,171 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-21T22:08:52.222601Z"
+      "published": "2026-09-21T22:13:35.116517Z"
     },
     {
-      "id": "4cb3315834852ebb1f541263bd2fced0",
-      "title": "Eurosystem brings central bank money to tokenised finance",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921~e754847a7b.en.html",
-      "source": "ECB",
+      "id": "5cffbbafe30b5d615eaa50fcae16b5a1",
+      "title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+      "summary": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
+      "source": "Federal Reserve",
       "score": 10,
       "severity": "MEDIUM",
       "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
+      "tickers": [],
       "regions": [],
-      "assets": [
-        "FX"
-      ],
+      "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-21T22:08:36.422730Z"
+      "published": "2026-09-21T22:12:39.245258Z"
     },
     {
-      "id": "a135aa4b0900d5c409f3bc8cbcdd2250",
-      "title": "U.S.-listed Greenland stocks surge after Trump announces security deal with Denmark - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQOERQc3JwUVVYTXVDYVl0WmZ5UVBCdjZVU1NHRS12eTVwcGJjNnlkejIwX1dUR0VXRUdkNVBkQUpGMlE1VXNFUU9DS3RtQzJpd1BTOV9EekJlYkFIdGRJRTlUVGx0QW12LWFpRXpDa1hyX2xIODRna0pjZEM5YnNtY1VDeFlwZ9IBiwFBVV95cUxPNzY0RnE2U2diODVvOVh3ZTg4RWR2Umtib1gwcGN1T1V6WFIwX0JRMGJBeVlGMnVkUXZ4TnNKOXBzcERoNUJzT0xyUHhtbmdPT1hlTWhqR2p0UWtkM1prQ19YRmN6NWFHaE8yYVpxZ09JeG5iSGVLQV9wcy1oNG1SRzB6blNIQWI2dVo4?oc=5\" target=\"_blank\">U.S.-listed Greenland stocks surge after Trump announces security deal with Denmark</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOERQc3JwUVVYTXVDYVl0WmZ5UVBCdjZVU1NHRS12eTVwcGJjNnlkejIwX1dUR0VXRUdkNVBkQUpGMlE1VXNFUU9DS3RtQzJpd1BTOV9EekJlYkFIdGRJRTlUVGx0QW12LWFpRXpDa1hyX2xIODRna0pjZEM5YnNtY1VDeFlwZ9IBiwFBVV95cUxPNzY0RnE2U2diODVvOVh3ZTg4RWR2Umtib1gwcGN1T1V6WFIwX0JRMGJBeVlGMnVkUXZ4TnNKOXBzcERoNUJzT0xyUHhtbmdPT1hlTWhqR2p0UWtkM1prQ19YRmN6NWFHaE8yYVpxZ09JeG5iSGVLQV9wcy1oNG1SRzB6blNIQWI2dVo4?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
+      "id": "f7b95eafbc8efc9e7c9a733c29f256c4",
+      "title": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
+      "summary": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "EQUITIES"
-      ],
+      "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-21T22:08:57.855611Z"
+      "published": "2026-09-21T22:12:39.245309Z"
+    },
+    {
+      "id": "cdf7d52bab075d02463348759cd04d20",
+      "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
+      "summary": "Speech At Reuters NEXT Newsmaker Interview, Washington, D.C.",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-21T22:12:39.351724Z"
+    },
+    {
+      "id": "1cb6d799716e905c7d292b4e95866099",
+      "title": "Official Statistics: Forecasts for the UK economy: September 2026",
+      "summary": "A comparison of independent forecasts for the UK economy in September 2026.",
+      "link": "https://www.gov.uk/government/statistics/forecasts-for-the-uk-economy-september-2026",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-21T22:13:24.428940Z"
+    },
+    {
+      "id": "f981193aeb96a5489d27d9f0c11a7d4f",
+      "title": "Exclusive | Stablecoin Company for Big Business Gets a Conditional Banking License - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPakFkbDU3cVdxT3JLMmpmOHlQcm1leGoxaXJkTVZRTTBnRENQQnoyWWJVNXNWaFVPbERUdWZ3cVVjX0UwOV9XdG9feGlBMEdncjhacGt2OHNoSlVwVDZiSEhOc2tPUEV2Q2VvbTdYSVVfQlBfNUl1eTZDZC1zTTh1VGp1Sk1MOXFoSmNQUUJSa3VqbHJDOTl5WU1qZzZiYWItcGhfNGppQ1JQQ19ZUHo3WEtUVDVSVDNnYXc?oc=5\" target=\"_blank\">Exclusive | Stablecoin Company for Big Business Gets a Conditional Banking License</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPakFkbDU3cVdxT3JLMmpmOHlQcm1leGoxaXJkTVZRTTBnRENQQnoyWWJVNXNWaFVPbERUdWZ3cVVjX0UwOV9XdG9feGlBMEdncjhacGt2OHNoSlVwVDZiSEhOc2tPUEV2Q2VvbTdYSVVfQlBfNUl1eTZDZC1zTTh1VGp1Sk1MOXFoSmNQUUJSa3VqbHJDOTl5WU1qZzZiYWItcGhfNGppQ1JQQ19ZUHo3WEtUVDVSVDNnYXc?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-21T22:13:36.339816Z"
+    },
+    {
+      "id": "4053d7e5b919363d6e3c18496b6704fa",
+      "title": "Daily News 21 / 09 / 2026",
+      "summary": "European Commission Daily news Brussels, 21 Sep 2026 Commission enhances energy efficiency and sustainability of data centres in the EU\nThe European Commission proposed today a common rating scheme for data centre...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1918",
+      "source": "European Commission",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-21T22:13:22.803990Z"
     }
   ],
   "alerts": [
     {
-      "id": "a4637c490b98b5a586c736ad06680396",
-      "title": "ECB to invest part of own funds in tokenised securities, with settlement via Pontes",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921_1~5a011ecbea.en.html",
-      "source": "ECB",
-      "score": 18,
+      "id": "28873f2757681c5218d77609e7bb22ab",
+      "title": "Latest Oil Market News and Analysis for Sept. 22",
+      "summary": "Oil steadied after a four-day slump, as Middle East supply concerns eased and traders tracked diplomatic efforts to end the US-Iran war.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-21/latest-oil-market-news-and-analysis-for-sept-22",
+      "source": "Bloomberg",
+      "score": 44,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-21T22:12:33.927799Z"
+    },
+    {
+      "id": "8267eb1c311ea8a2bf751ae3588a45e3",
+      "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
@@ -154,21 +370,53 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-21T22:08:36.422688Z"
+      "published": "2026-09-21T22:12:39.125546Z"
     },
     {
-      "id": "5fe93b8ac1163db2e11ee1d09c85489c",
-      "title": "Ecuador Asks US Daily for Help Curbing $30 Billion Cocaine Trade",
-      "summary": "Ecuador asks the US \u2018every day\u2019 for more help fighting a cocaine trade worth an estimated $30 billion a year, President Daniel Noboa said Monday, while insisting local security forces should remain in charge.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-21/ecuador-asks-us-daily-for-help-curbing-30-billion-cocaine-trade",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "dff99a60f4bcb302dd7d00f4745f7559",
+      "title": "Money and power: lessons from history for stablecoins and US dollar dominance \u2013 speech by Carolyn Wilkins",
+      "summary": "Given at Queen\u2019s University, Belfast",
+      "link": "https://www.bankofengland.co.uk/speech/2026/september/carolyn-wilkins-speech-at-queens-university-belfast",
+      "source": "Bank of England",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-21T22:13:23.614949Z"
+    },
+    {
+      "id": "c68dedd620e33c1c1d73435f908c1aa0",
+      "title": "SoftBank launches one of biggest junk bond deals to fund OpenAI bet",
+      "summary": "Japanese group seeks to raise more than $11bn in dollar and euro bonds as it invests in the AI boom",
+      "link": "https://www.ft.com/content/4e7004b7-d262-40c8-b979-fdf7f237adda?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
       "severity": "MEDIUM",
       "regime": "AI",
-      "tickers": [],
-      "regions": [],
+      "tickers": [
+        "DXY",
+        "EUR"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [
-        "AI"
+        "AI",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
@@ -179,19 +427,53 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-21T22:07:52.390341Z"
+      "published": "2026-09-21T22:12:37.021919Z"
     },
     {
-      "id": "8cceabff5e27cf3a835a02aa9dd43619",
-      "title": "Denmark says NATO shares responsibility for Arctic security under Greenland deal",
-      "summary": "An agreement on Greenland's security, including a role for NATO, is expected to be signed at the UN General Assembly in New York on Tuesday.",
-      "link": "https://www.defensenews.com/global/europe/2026/09/21/denmark-says-nato-shares-responsibility-for-arctic-security-under-greenland-deal/",
-      "source": "Defense News",
-      "score": 13,
+      "id": "99000c3ba5c6c71dfd8c43c833493f89",
+      "title": "Tanker Hit by Projectile in Strait of Hormuz, UKMTO Reports",
+      "summary": "A tanker transiting the Strait of Hormuz was struck by an unknown projectile, leaving two crew members with minor injuries, the United Kingdom Maritime Trade Operations (UKMTO) said.Military authorities informed UKMTO on September 21, 2026,\u2026",
+      "link": "https://www.marinelink.com/news/tanker-hit-projectile-strait-hormuz-ukmto-543118",
+      "source": "MarineLink",
+      "score": 11,
       "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-21T22:13:31.157979Z"
+    },
+    {
+      "id": "39b275322de4b37e58567ac19b0a07be",
+      "title": "Australia warns of risks from ageing population, falling birth rates - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNR3hOSzIxR1hfa3RsSlg3UUFMWGwzakM0V3BLSUlHQjFYX1d1anY5dEdTWlZXU2ViWXVqXzBHUXN0Z1puV2ZRQ2t0T3RER2FTb25QUklHekk1amNfMTZaNXZUejk3LW9kQ2JLMEthNHp3TEM0QjZBbkZyeWdadXZrRzhLdzYwMlJoN0U1TFdNTGlvaGpqLTlocF9ES2ZCNnNkSE1SSlk4TEg2c2UydENScXpOeVZBcTJLZlE?oc=5\" target=\"_blank\">Australia warns of risks from ageing population, falling birth rates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNR3hOSzIxR1hfa3RsSlg3UUFMWGwzakM0V3BLSUlHQjFYX1d1anY5dEdTWlZXU2ViWXVqXzBHUXN0Z1puV2ZRQ2t0T3RER2FTb25QUklHekk1amNfMTZaNXZUejk3LW9kQ2JLMEthNHp3TEM0QjZBbkZyeWdadXZrRzhLdzYwMlJoN0U1TFdNTGlvaGpqLTlocF9ES2ZCNnNkSE1SSlk4TEg2c2UydENScXpOeVZBcTJLZlE?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [],
       "market_impact": {
         "bullish": [
@@ -207,45 +489,143 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-21T22:08:52.222601Z"
+      "published": "2026-09-21T22:13:35.116517Z"
     },
     {
-      "id": "4cb3315834852ebb1f541263bd2fced0",
-      "title": "Eurosystem brings central bank money to tokenised finance",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921~e754847a7b.en.html",
-      "source": "ECB",
+      "id": "5cffbbafe30b5d615eaa50fcae16b5a1",
+      "title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+      "summary": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
+      "source": "Federal Reserve",
       "score": 10,
       "severity": "MEDIUM",
       "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-21T22:12:39.245258Z"
+    },
+    {
+      "id": "f7b95eafbc8efc9e7c9a733c29f256c4",
+      "title": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
+      "summary": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-21T22:12:39.245309Z"
+    },
+    {
+      "id": "cdf7d52bab075d02463348759cd04d20",
+      "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
+      "summary": "Speech At Reuters NEXT Newsmaker Interview, Washington, D.C.",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-21T22:12:39.351724Z"
+    },
+    {
+      "id": "1cb6d799716e905c7d292b4e95866099",
+      "title": "Official Statistics: Forecasts for the UK economy: September 2026",
+      "summary": "A comparison of independent forecasts for the UK economy in September 2026.",
+      "link": "https://www.gov.uk/government/statistics/forecasts-for-the-uk-economy-september-2026",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-21T22:13:24.428940Z"
+    },
+    {
+      "id": "f981193aeb96a5489d27d9f0c11a7d4f",
+      "title": "Exclusive | Stablecoin Company for Big Business Gets a Conditional Banking License - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPakFkbDU3cVdxT3JLMmpmOHlQcm1leGoxaXJkTVZRTTBnRENQQnoyWWJVNXNWaFVPbERUdWZ3cVVjX0UwOV9XdG9feGlBMEdncjhacGt2OHNoSlVwVDZiSEhOc2tPUEV2Q2VvbTdYSVVfQlBfNUl1eTZDZC1zTTh1VGp1Sk1MOXFoSmNQUUJSa3VqbHJDOTl5WU1qZzZiYWItcGhfNGppQ1JQQ19ZUHo3WEtUVDVSVDNnYXc?oc=5\" target=\"_blank\">Exclusive | Stablecoin Company for Big Business Gets a Conditional Banking License</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPakFkbDU3cVdxT3JLMmpmOHlQcm1leGoxaXJkTVZRTTBnRENQQnoyWWJVNXNWaFVPbERUdWZ3cVVjX0UwOV9XdG9feGlBMEdncjhacGt2OHNoSlVwVDZiSEhOc2tPUEV2Q2VvbTdYSVVfQlBfNUl1eTZDZC1zTTh1VGp1Sk1MOXFoSmNQUUJSa3VqbHJDOTl5WU1qZzZiYWItcGhfNGppQ1JQQ19ZUHo3WEtUVDVSVDNnYXc?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-21T22:13:36.339816Z"
+    },
+    {
+      "id": "4053d7e5b919363d6e3c18496b6704fa",
+      "title": "Daily News 21 / 09 / 2026",
+      "summary": "European Commission Daily news Brussels, 21 Sep 2026 Commission enhances energy efficiency and sustainability of data centres in the EU\nThe European Commission proposed today a common rating scheme for data centre...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1918",
+      "source": "European Commission",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
       "tickers": [
         "EUR"
       ],
-      "regions": [],
+      "regions": [
+        "EUROPE"
+      ],
       "assets": [
+        "AI",
         "FX"
       ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-21T22:08:36.422730Z"
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-21T22:13:22.803990Z"
     },
     {
-      "id": "a135aa4b0900d5c409f3bc8cbcdd2250",
-      "title": "U.S.-listed Greenland stocks surge after Trump announces security deal with Denmark - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQOERQc3JwUVVYTXVDYVl0WmZ5UVBCdjZVU1NHRS12eTVwcGJjNnlkejIwX1dUR0VXRUdkNVBkQUpGMlE1VXNFUU9DS3RtQzJpd1BTOV9EekJlYkFIdGRJRTlUVGx0QW12LWFpRXpDa1hyX2xIODRna0pjZEM5YnNtY1VDeFlwZ9IBiwFBVV95cUxPNzY0RnE2U2diODVvOVh3ZTg4RWR2Umtib1gwcGN1T1V6WFIwX0JRMGJBeVlGMnVkUXZ4TnNKOXBzcERoNUJzT0xyUHhtbmdPT1hlTWhqR2p0UWtkM1prQ19YRmN6NWFHaE8yYVpxZ09JeG5iSGVLQV9wcy1oNG1SRzB6blNIQWI2dVo4?oc=5\" target=\"_blank\">U.S.-listed Greenland stocks surge after Trump announces security deal with Denmark</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOERQc3JwUVVYTXVDYVl0WmZ5UVBCdjZVU1NHRS12eTVwcGJjNnlkejIwX1dUR0VXRUdkNVBkQUpGMlE1VXNFUU9DS3RtQzJpd1BTOV9EekJlYkFIdGRJRTlUVGx0QW12LWFpRXpDa1hyX2xIODRna0pjZEM5YnNtY1VDeFlwZ9IBiwFBVV95cUxPNzY0RnE2U2diODVvOVh3ZTg4RWR2Umtib1gwcGN1T1V6WFIwX0JRMGJBeVlGMnVkUXZ4TnNKOXBzcERoNUJzT0xyUHhtbmdPT1hlTWhqR2p0UWtkM1prQ19YRmN6NWFHaE8yYVpxZ09JeG5iSGVLQV9wcy1oNG1SRzB6blNIQWI2dVo4?oc=5",
-      "source": "Google Macro",
+      "id": "0f3f57c40b277fee28b57679a9431e15",
+      "title": "U.S. International Trade in Goods and Services, July 2026",
+      "summary": "<p>The U.S. goods and services trade deficit increased in July 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $71.2 billion in June (revised) to $88.6 billion in July, as imports increased and exports decreased. The goods deficit increased $17.6 billion in July to $119.6 billion. The services surplus increased $0.2 billion in July to $31.0 billion.</p>",
+      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-july-2026",
+      "source": "BEA",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "EQUITIES"
-      ],
+      "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-21T22:08:57.855611Z"
+      "published": "2026-09-21T22:13:16.231495Z"
     }
   ]
 }
