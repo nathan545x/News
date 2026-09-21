@@ -1,27 +1,92 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-21T00:03:21.722934Z",
+  "generated_at": "2026-09-21T00:08:20.932928Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "COMMODITIES",
+    "dominant_driver": "COMMODITIES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 2,
-    "last_updated": "2026-09-21T00:03:21.722947Z"
+    "critical_alerts": 0,
+    "high_alerts": 3,
+    "last_updated": "2026-09-21T00:08:20.932942Z"
   },
   "top_signals": [
     {
-      "id": "312aa23593144d8184f06d3855887ab9",
-      "title": "Gold Steadies as Traders Weigh Inflation and Fed Hike Outlook",
-      "summary": "Gold was steady as traders weighed the risk of persistent inflation and the path for interest rates after the Federal Reserve\u2019s first hike since 2023.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-20/gold-steadies-as-traders-weigh-inflation-and-fed-hike-outlook",
+      "id": "4ced5bd3e08c67427af24edcf8dcb83e",
+      "title": "Asian Stocks Edge Higher, Oil Extends Losses: Markets Wrap",
+      "summary": "Asian stocks and US equity-index futures advanced with traders looking to a US-China summit later this week for signs of progress on trade and economic ties. Oil fell for a fourth day.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-20/us-stock-futures-up-ahead-of-talks-dollar-steady-markets-wrap",
       "source": "Bloomberg",
-      "score": 28,
-      "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
       "tickers": [
-        "XAU"
+        "WTI"
+      ],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-21T00:07:22.346377Z"
+    },
+    {
+      "id": "df89db43cf43fadaea6fb5a412072a5b",
+      "title": "Senior Taiwan official makes rare trip to China",
+      "summary": "Labor Minister Hung Sun-han took flew Sunday to the eastern Chinese city of Nanjing, where he will attend meetings on Monday before returning home.",
+      "link": "https://www.japantimes.co.jp/news/2026/09/20/asia-pacific/taiwans-labor-minister-visits-china/",
+      "source": "Japan Times",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-21T00:08:12.492690Z"
+    },
+    {
+      "id": "f37763e89a86329cc0894d238312a223",
+      "title": "Chevron plans drilling spree as it overhauls oil and gas search",
+      "summary": "Kevin McLachlan hopes to replicate the exploration turnaround he achieved at TotalEnergies",
+      "link": "https://www.ft.com/content/bbf1d846-7d89-45f6-8c0f-1fba1e334b4b?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
       ],
       "regions": [],
       "assets": [
@@ -29,91 +94,146 @@
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "COMMODITIES"
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-21T00:02:19.339229Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-21T00:07:24.639887Z"
     },
     {
-      "id": "bb0d5fbbdfe2deaf8ab4c561cbd156a6",
-      "title": "Christine Lagarde: Europe seen from Normandy",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260912~fafa4b35b0.en.html",
-      "source": "ECB",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-21T00:03:01.963736Z"
-    },
-    {
-      "id": "3cf9bd7436a1e0a055cd878eb5577a9e",
-      "title": "Correspondence: Update on the Asset Purchase Facility (APF)",
-      "summary": "The Chancellor of the Exchequer and Governor of the Bank of England announced updates relating to the Asset Purchase Facility (APF) through an exchange of letters.",
-      "link": "https://www.gov.uk/government/publications/update-on-the-asset-purchase-facility-apf",
-      "source": "HM Treasury",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "3a85fb72ee23fe5c00e47c9ce4a984b3",
+      "title": "German chancellor Merz vows to stay on despite \u2018disaster\u2019 in regional elections",
+      "summary": "Partial results suggest CDU is set to fail to secure parliamentary representation in Mecklenburg-Vorpommern",
+      "link": "https://www.ft.com/content/d74ce82a-2a15-404a-ae3a-3921e887bab3?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [],
-      "regions": [
-        "UK"
+      "regions": [],
+      "assets": [
+        "AI"
       ],
-      "assets": [],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
+          "NVDA",
+          "SEMIS",
           "QQQ"
-        ]
+        ],
+        "bearish": []
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-21T00:03:08.499703Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-21T00:07:24.382575Z"
+    },
+    {
+      "id": "3958d8c55d669c7a390321e254bdb75b",
+      "title": "OpenAI's latest AI revelation is a 'serious situation,' Microsoft's Suleyman tells CNBC",
+      "summary": "Suleyman joined \"Squawk Box\" to discuss OpenAI's latest incidents of \"concerning model behavior\" disclosed earlier this week.",
+      "link": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-21T00:07:25.871959Z"
     }
   ],
   "alerts": [
     {
-      "id": "312aa23593144d8184f06d3855887ab9",
-      "title": "Gold Steadies as Traders Weigh Inflation and Fed Hike Outlook",
-      "summary": "Gold was steady as traders weighed the risk of persistent inflation and the path for interest rates after the Federal Reserve\u2019s first hike since 2023.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-20/gold-steadies-as-traders-weigh-inflation-and-fed-hike-outlook",
+      "id": "4ced5bd3e08c67427af24edcf8dcb83e",
+      "title": "Asian Stocks Edge Higher, Oil Extends Losses: Markets Wrap",
+      "summary": "Asian stocks and US equity-index futures advanced with traders looking to a US-China summit later this week for signs of progress on trade and economic ties. Oil fell for a fourth day.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-20/us-stock-futures-up-ahead-of-talks-dollar-steady-markets-wrap",
       "source": "Bloomberg",
-      "score": 28,
-      "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
       "tickers": [
-        "XAU"
+        "WTI"
+      ],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-21T00:07:22.346377Z"
+    },
+    {
+      "id": "df89db43cf43fadaea6fb5a412072a5b",
+      "title": "Senior Taiwan official makes rare trip to China",
+      "summary": "Labor Minister Hung Sun-han took flew Sunday to the eastern Chinese city of Nanjing, where he will attend meetings on Monday before returning home.",
+      "link": "https://www.japantimes.co.jp/news/2026/09/20/asia-pacific/taiwans-labor-minister-visits-china/",
+      "source": "Japan Times",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-21T00:08:12.492690Z"
+    },
+    {
+      "id": "f37763e89a86329cc0894d238312a223",
+      "title": "Chevron plans drilling spree as it overhauls oil and gas search",
+      "summary": "Kevin McLachlan hopes to replicate the exploration turnaround he achieved at TotalEnergies",
+      "link": "https://www.ft.com/content/bbf1d846-7d89-45f6-8c0f-1fba1e334b4b?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
       ],
       "regions": [],
       "assets": [
@@ -121,77 +241,67 @@
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "COMMODITIES"
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-21T00:02:19.339229Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-21T00:07:24.639887Z"
     },
     {
-      "id": "bb0d5fbbdfe2deaf8ab4c561cbd156a6",
-      "title": "Christine Lagarde: Europe seen from Normandy",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260912~fafa4b35b0.en.html",
-      "source": "ECB",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-21T00:03:01.963736Z"
-    },
-    {
-      "id": "3cf9bd7436a1e0a055cd878eb5577a9e",
-      "title": "Correspondence: Update on the Asset Purchase Facility (APF)",
-      "summary": "The Chancellor of the Exchequer and Governor of the Bank of England announced updates relating to the Asset Purchase Facility (APF) through an exchange of letters.",
-      "link": "https://www.gov.uk/government/publications/update-on-the-asset-purchase-facility-apf",
-      "source": "HM Treasury",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "3a85fb72ee23fe5c00e47c9ce4a984b3",
+      "title": "German chancellor Merz vows to stay on despite \u2018disaster\u2019 in regional elections",
+      "summary": "Partial results suggest CDU is set to fail to secure parliamentary representation in Mecklenburg-Vorpommern",
+      "link": "https://www.ft.com/content/d74ce82a-2a15-404a-ae3a-3921e887bab3?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [],
-      "regions": [
-        "UK"
+      "regions": [],
+      "assets": [
+        "AI"
       ],
-      "assets": [],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
+          "NVDA",
+          "SEMIS",
           "QQQ"
-        ]
+        ],
+        "bearish": []
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-21T00:03:08.499703Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-21T00:07:24.382575Z"
+    },
+    {
+      "id": "3958d8c55d669c7a390321e254bdb75b",
+      "title": "OpenAI's latest AI revelation is a 'serious situation,' Microsoft's Suleyman tells CNBC",
+      "summary": "Suleyman joined \"Squawk Box\" to discuss OpenAI's latest incidents of \"concerning model behavior\" disclosed earlier this week.",
+      "link": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-21T00:07:25.871959Z"
     }
   ]
 }
