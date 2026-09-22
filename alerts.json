@@ -1,86 +1,94 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-22T03:48:20.663731Z",
+  "generated_at": "2026-09-22T03:53:37.783637Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 2,
-    "last_updated": "2026-09-22T03:48:20.663743Z"
+    "last_updated": "2026-09-22T03:53:37.783652Z"
   },
   "top_signals": [
     {
-      "id": "4615eb68369905a22088c93784fba774",
-      "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
-      "summary": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-22T03:47:29.837792Z"
-    },
-    {
-      "id": "b0b801a1bd4f66c5fb30e6767eb3e37f",
-      "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-      "summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "US"
+      "id": "7d40dbee9d4d3fc5e48f9cbf4a5c814f",
+      "title": "RBNZ Warns Near-Term Inflation May Beat Estimates as Oil Surges",
+      "summary": "New Zealand\u2019s central bank warned that near-term inflation could exceed its latest estimates, adding to signs it could raise interest rates again as soon as October.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-22/rbnz-warns-near-term-inflation-may-beat-estimates-as-oil-surges",
+      "source": "Bloomberg",
+      "score": 38,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
       ],
-      "assets": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-22T03:47:29.837859Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-22T03:52:39.939017Z"
     },
     {
-      "id": "ac6a3d7bdd1f1ad12129b2c0a6f775d0",
-      "title": "Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQbUY0bG1IQkExN3pxSFZoX1VGN0hTNkluZ1hFd1F6VzZwdWtPRExzOXRnS0prRjV1M0I3U2tfUnhZcmJSQkV6STFKbUo2YXB6S1RhNUkycUFJUXg3UXA0WW9CWkRYaVVVUGRqRmRtUERCU1I4M3ZMYXhETmY1Q3FZQU9Ob1MtMzRONFc3NVFrNzVpcTQySVRzd1dENmcxdw?oc=5\" target=\"_blank\">Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbUY0bG1IQkExN3pxSFZoX1VGN0hTNkluZ1hFd1F6VzZwdWtPRExzOXRnS0prRjV1M0I3U2tfUnhZcmJSQkV6STFKbUo2YXB6S1RhNUkycUFJUXg3UXA0WW9CWkRYaVVVUGRqRmRtUERCU1I4M3ZMYXhETmY1Q3FZQU9Ob1MtMzRONFc3NVFrNzVpcTQySVRzd1dENmcxdw?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
+      "id": "0747de1dc265f0ab054b7f0283890f20",
+      "title": "Trafigura Launches Volare Shipping to Run 14-Strong VLCC Fleet",
+      "summary": "Trafigura has established Volare Shipping as a dedicated oil tanker owner with six Very Large Crude Carriers (VLCCs) operating and eight newbuilds on order, and plans to raise about $500 million before listing the company in Oslo.Volare's eight\u2026",
+      "link": "https://www.marinelink.com/news/trafigura-launches-volare-shipping-run-543116",
+      "source": "MarineLink",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-22T03:53:32.510469Z"
+    },
+    {
+      "id": "9efe8e01866b68e28e158ec33dcdd26e",
+      "title": "Transparency data: HMT workforce management information: August 2026",
+      "summary": "This document details monthly management information on staff numbers and paybill costs within HM Treasury and its agencies.",
+      "link": "https://www.gov.uk/government/publications/hmt-workforce-management-information-august-2026",
+      "source": "HM Treasury",
+      "score": 18,
+      "severity": "HIGH",
       "regime": "RATES",
       "tickers": [
-        "QQQ",
         "TLT"
       ],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI",
         "RATES"
@@ -97,96 +105,134 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-22T03:48:19.004408Z"
+      "published": "2026-09-22T03:53:25.889366Z"
     },
     {
-      "id": "95a08e6dd4fc7eb7757b1031e7a60a5c",
-      "title": "Google fined \u20ac403 million over location data privacy violations",
-      "summary": "Ireland's Data Protection Commission (DPC) has fined Google \u20ac403 million ($463M) for multiple GDPR violations related to processing users' location data. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
-      "source": "BleepingComputer",
-      "score": 1,
-      "severity": "LOW",
+      "id": "f0ce3c27911874460a80e0575660ccc2",
+      "title": "Canada Says India Trade Talks Making \u2018Great Headway\u2019",
+      "summary": "Maninder Sidhu, Canada's International Trade Minister, says the trade talks with India are \u201cmoving along really well,\u201d with the two nations looking to conclude a deal in the coming months. He speaks with Paul Allen on Insight with Haslinda Amin.  (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-22/canada-says-india-trade-talks-making-great-headway-video",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-22T03:48:17.287051Z"
+      "published": "2026-09-22T03:52:39.938925Z"
+    },
+    {
+      "id": "52e5cdfd3815b3ee5459cb63e52cdd3f",
+      "title": "Oil Steadies After Four-Day Drop as Traders Look to Hormuz Flows - Bloomberg",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOT09KdW15cnhEbnlUd0pZNXA0emIxS2U5R05hX0ZNazhFYldoZ09GZnItbF9MTktDX091RGN0TkN2VGRyUUNRVzZ5eVJ4dGtWMWtDa2d1VWlkWGpEX19EMWpMMnlpb3JGVVdSTWxQMkthQlE1cy1yVkc2UG55Mnl3RmpmVTg3TFV2QnJOaVdrSzVNajAtYzBITlZwaWx2a1E?oc=5\" target=\"_blank\">Oil Steadies After Four-Day Drop as Traders Look to Hormuz Flows</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOT09KdW15cnhEbnlUd0pZNXA0emIxS2U5R05hX0ZNazhFYldoZ09GZnItbF9MTktDX091RGN0TkN2VGRyUUNRVzZ5eVJ4dGtWMWtDa2d1VWlkWGpEX19EMWpMMnlpb3JGVVdSTWxQMkthQlE1cy1yVkc2UG55Mnl3RmpmVTg3TFV2QnJOaVdrSzVNajAtYzBITlZwaWx2a1E?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-22T03:53:35.501845Z"
     }
   ],
   "alerts": [
     {
-      "id": "4615eb68369905a22088c93784fba774",
-      "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
-      "summary": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-22T03:47:29.837792Z"
-    },
-    {
-      "id": "b0b801a1bd4f66c5fb30e6767eb3e37f",
-      "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-      "summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "US"
+      "id": "7d40dbee9d4d3fc5e48f9cbf4a5c814f",
+      "title": "RBNZ Warns Near-Term Inflation May Beat Estimates as Oil Surges",
+      "summary": "New Zealand\u2019s central bank warned that near-term inflation could exceed its latest estimates, adding to signs it could raise interest rates again as soon as October.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-22/rbnz-warns-near-term-inflation-may-beat-estimates-as-oil-surges",
+      "source": "Bloomberg",
+      "score": 38,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
       ],
-      "assets": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-22T03:47:29.837859Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-22T03:52:39.939017Z"
     },
     {
-      "id": "ac6a3d7bdd1f1ad12129b2c0a6f775d0",
-      "title": "Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQbUY0bG1IQkExN3pxSFZoX1VGN0hTNkluZ1hFd1F6VzZwdWtPRExzOXRnS0prRjV1M0I3U2tfUnhZcmJSQkV6STFKbUo2YXB6S1RhNUkycUFJUXg3UXA0WW9CWkRYaVVVUGRqRmRtUERCU1I4M3ZMYXhETmY1Q3FZQU9Ob1MtMzRONFc3NVFrNzVpcTQySVRzd1dENmcxdw?oc=5\" target=\"_blank\">Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbUY0bG1IQkExN3pxSFZoX1VGN0hTNkluZ1hFd1F6VzZwdWtPRExzOXRnS0prRjV1M0I3U2tfUnhZcmJSQkV6STFKbUo2YXB6S1RhNUkycUFJUXg3UXA0WW9CWkRYaVVVUGRqRmRtUERCU1I4M3ZMYXhETmY1Q3FZQU9Ob1MtMzRONFc3NVFrNzVpcTQySVRzd1dENmcxdw?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
+      "id": "0747de1dc265f0ab054b7f0283890f20",
+      "title": "Trafigura Launches Volare Shipping to Run 14-Strong VLCC Fleet",
+      "summary": "Trafigura has established Volare Shipping as a dedicated oil tanker owner with six Very Large Crude Carriers (VLCCs) operating and eight newbuilds on order, and plans to raise about $500 million before listing the company in Oslo.Volare's eight\u2026",
+      "link": "https://www.marinelink.com/news/trafigura-launches-volare-shipping-run-543116",
+      "source": "MarineLink",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-22T03:53:32.510469Z"
+    },
+    {
+      "id": "9efe8e01866b68e28e158ec33dcdd26e",
+      "title": "Transparency data: HMT workforce management information: August 2026",
+      "summary": "This document details monthly management information on staff numbers and paybill costs within HM Treasury and its agencies.",
+      "link": "https://www.gov.uk/government/publications/hmt-workforce-management-information-august-2026",
+      "source": "HM Treasury",
+      "score": 18,
+      "severity": "HIGH",
       "regime": "RATES",
       "tickers": [
-        "QQQ",
         "TLT"
       ],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI",
         "RATES"
@@ -203,23 +249,53 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-22T03:48:19.004408Z"
+      "published": "2026-09-22T03:53:25.889366Z"
     },
     {
-      "id": "95a08e6dd4fc7eb7757b1031e7a60a5c",
-      "title": "Google fined \u20ac403 million over location data privacy violations",
-      "summary": "Ireland's Data Protection Commission (DPC) has fined Google \u20ac403 million ($463M) for multiple GDPR violations related to processing users' location data. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
-      "source": "BleepingComputer",
-      "score": 1,
-      "severity": "LOW",
+      "id": "f0ce3c27911874460a80e0575660ccc2",
+      "title": "Canada Says India Trade Talks Making \u2018Great Headway\u2019",
+      "summary": "Maninder Sidhu, Canada's International Trade Minister, says the trade talks with India are \u201cmoving along really well,\u201d with the two nations looking to conclude a deal in the coming months. He speaks with Paul Allen on Insight with Haslinda Amin.  (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-22/canada-says-india-trade-talks-making-great-headway-video",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-22T03:48:17.287051Z"
+      "published": "2026-09-22T03:52:39.938925Z"
+    },
+    {
+      "id": "52e5cdfd3815b3ee5459cb63e52cdd3f",
+      "title": "Oil Steadies After Four-Day Drop as Traders Look to Hormuz Flows - Bloomberg",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOT09KdW15cnhEbnlUd0pZNXA0emIxS2U5R05hX0ZNazhFYldoZ09GZnItbF9MTktDX091RGN0TkN2VGRyUUNRVzZ5eVJ4dGtWMWtDa2d1VWlkWGpEX19EMWpMMnlpb3JGVVdSTWxQMkthQlE1cy1yVkc2UG55Mnl3RmpmVTg3TFV2QnJOaVdrSzVNajAtYzBITlZwaWx2a1E?oc=5\" target=\"_blank\">Oil Steadies After Four-Day Drop as Traders Look to Hormuz Flows</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOT09KdW15cnhEbnlUd0pZNXA0emIxS2U5R05hX0ZNazhFYldoZ09GZnItbF9MTktDX091RGN0TkN2VGRyUUNRVzZ5eVJ4dGtWMWtDa2d1VWlkWGpEX19EMWpMMnlpb3JGVVdSTWxQMkthQlE1cy1yVkc2UG55Mnl3RmpmVTg3TFV2QnJOaVdrSzVNajAtYzBITlZwaWx2a1E?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-22T03:53:35.501845Z"
     }
   ]
 }
