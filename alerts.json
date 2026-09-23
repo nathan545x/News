@@ -1,60 +1,36 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-23T04:23:27.767927Z",
+  "generated_at": "2026-09-23T04:29:02.730761Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 2,
-    "last_updated": "2026-09-23T04:23:27.767940Z"
+    "last_updated": "2026-09-23T04:29:02.730778Z"
   },
   "top_signals": [
     {
-      "id": "8006b0fedce78e11ee24d213a1015db3",
-      "title": "Palm Oil Drops to Seven-Week Low on Worries Over Ample Reserves",
-      "summary": "Palm oil prices dropped to the lowest since early August as peaking production and flagging demand prompted worries over swollen inventories in the world\u2019s second-biggest grower Malaysia.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-23/palm-oil-drops-to-seven-week-low-on-worries-over-ample-reserves",
-      "source": "Bloomberg",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "id": "fb123a480b674694621360edb4f928a7",
+      "title": "Oil tanker costs hit record $1.2mn a day as Iran war disrupts shipping",
+      "summary": "Shortage of biggest supertankers has more than doubled rates on key Middle East-China routes since late August",
+      "link": "https://www.ft.com/content/f95db340-8c8f-435f-957d-4623255ac29e?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 60,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "WTI"
       ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-23T04:22:29.579443Z"
-    },
-    {
-      "id": "ae76f8732c9944cd42d23112330ec8ad",
-      "title": "Ayala Corp. CEO Consing on Strategic Deal With Mitsubishi",
-      "summary": "Cezar Consing, President and CEO at Ayala Corp., says the firm will cut debt and acquire more shares of undervalued units, using funds from its $700M share sale to Mitsubishi.\nHe speaks on \u201cBloomberg: The China Show.\u201d (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-23/ayala-corp-ceo-consing-on-strategic-mitsubishi-deal-video",
-      "source": "Bloomberg",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
       "regions": [
-        "CHINA"
+        "CHINA",
+        "MIDDLE_EAST"
       ],
-      "assets": [],
+      "assets": [
+        "COMMODITIES",
+        "SHIPPING"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -69,54 +45,262 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-23T04:22:29.579520Z"
+      "published": "2026-09-23T04:27:58.540745Z"
+    },
+    {
+      "id": "8267eb1c311ea8a2bf751ae3588a45e3",
+      "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-23T04:28:00.437114Z"
+    },
+    {
+      "id": "dff99a60f4bcb302dd7d00f4745f7559",
+      "title": "Money and power: lessons from history for stablecoins and US dollar dominance \u2013 speech by Carolyn Wilkins",
+      "summary": "Given at Queen\u2019s University, Belfast",
+      "link": "https://www.bankofengland.co.uk/speech/2026/september/carolyn-wilkins-speech-at-queens-university-belfast",
+      "source": "Bank of England",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-23T04:28:46.643308Z"
+    },
+    {
+      "id": "8c72c3db04d311db43566992c37125b2",
+      "title": "The battle between the Fed and Trump",
+      "summary": "What happens when a fundamentally strong economy faces an irresponsible government?",
+      "link": "https://www.ft.com/content/d2e5ed9c-a123-4275-afc7-14b75b9337a0?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-23T04:27:58.540616Z"
+    },
+    {
+      "id": "26d77e6e7ef83dcd4e4a54714aafe688",
+      "title": "Mark Carney and the limits of defying Donald Trump",
+      "summary": "Canada\u2019s PM has become a rallying figure against the US president. But is the country\u2019s economy too exposed to break away?",
+      "link": "https://www.ft.com/content/4a808a51-c6e9-4ade-b1f7-95c27fd1aa1e?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-23T04:27:58.540567Z"
+    },
+    {
+      "id": "f93c777ccc6b35ce54b1619d87b7daea",
+      "title": "Amodei is right \u2014 AI companies need banking-style supervision",
+      "summary": "Both industries change rapidly and reach throughout the economy, requiring officials to weigh the benefits of innovation against risks",
+      "link": "https://www.ft.com/content/58be9a1b-345c-4026-a738-989b72858c4f?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-23T04:27:58.540681Z"
+    },
+    {
+      "id": "5cffbbafe30b5d615eaa50fcae16b5a1",
+      "title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+      "summary": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-23T04:28:00.518466Z"
+    },
+    {
+      "id": "f7b95eafbc8efc9e7c9a733c29f256c4",
+      "title": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
+      "summary": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-23T04:28:00.518515Z"
+    },
+    {
+      "id": "cdf7d52bab075d02463348759cd04d20",
+      "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
+      "summary": "Speech At Reuters NEXT Newsmaker Interview, Washington, D.C.",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-23T04:28:00.600612Z"
+    },
+    {
+      "id": "ffb5e89e0ffc57dfabceba9f519bd8fd",
+      "title": "Corporate report: Whole of Government Accounts 2025 to 2026: guidance for preparers",
+      "summary": "Guidance for central government and local government preparers for Whole of Government Accounts.",
+      "link": "https://www.gov.uk/government/publications/whole-of-government-accounts-2025-to-2026-guidance-for-preparers",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-23T04:28:47.538274Z"
+    },
+    {
+      "id": "f981193aeb96a5489d27d9f0c11a7d4f",
+      "title": "Exclusive | Stablecoin Company for Big Business Gets a Conditional Banking License - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPakFkbDU3cVdxT3JLMmpmOHlQcm1leGoxaXJkTVZRTTBnRENQQnoyWWJVNXNWaFVPbERUdWZ3cVVjX0UwOV9XdG9feGlBMEdncjhacGt2OHNoSlVwVDZiSEhOc2tPUEV2Q2VvbTdYSVVfQlBfNUl1eTZDZC1zTTh1VGp1Sk1MOXFoSmNQUUJSa3VqbHJDOTl5WU1qZzZiYWItcGhfNGppQ1JQQ19ZUHo3WEtUVDVSVDNnYXc?oc=5\" target=\"_blank\">Exclusive | Stablecoin Company for Big Business Gets a Conditional Banking License</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPakFkbDU3cVdxT3JLMmpmOHlQcm1leGoxaXJkTVZRTTBnRENQQnoyWWJVNXNWaFVPbERUdWZ3cVVjX0UwOV9XdG9feGlBMEdncjhacGt2OHNoSlVwVDZiSEhOc2tPUEV2Q2VvbTdYSVVfQlBfNUl1eTZDZC1zTTh1VGp1Sk1MOXFoSmNQUUJSa3VqbHJDOTl5WU1qZzZiYWItcGhfNGppQ1JQQ19ZUHo3WEtUVDVSVDNnYXc?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-23T04:29:02.092909Z"
+    },
+    {
+      "id": "20c85ddc55ac36e9ddbf2c262485e2df",
+      "title": "Novo defends diversification push as CEO eyes deals beyond obesity",
+      "summary": "Novo CEO Mike Doustdar told CNBC that it is considering M&amp;A opportunities as it faces growing competition in the weight-loss market.",
+      "link": "https://www.cnbc.com/2026/09/22/novo-nordisk-ceo-interview-weight-loss-drugs-strategy.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-23T04:28:00.329905Z"
     }
   ],
   "alerts": [
     {
-      "id": "8006b0fedce78e11ee24d213a1015db3",
-      "title": "Palm Oil Drops to Seven-Week Low on Worries Over Ample Reserves",
-      "summary": "Palm oil prices dropped to the lowest since early August as peaking production and flagging demand prompted worries over swollen inventories in the world\u2019s second-biggest grower Malaysia.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-23/palm-oil-drops-to-seven-week-low-on-worries-over-ample-reserves",
-      "source": "Bloomberg",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "id": "fb123a480b674694621360edb4f928a7",
+      "title": "Oil tanker costs hit record $1.2mn a day as Iran war disrupts shipping",
+      "summary": "Shortage of biggest supertankers has more than doubled rates on key Middle East-China routes since late August",
+      "link": "https://www.ft.com/content/f95db340-8c8f-435f-957d-4623255ac29e?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 60,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "WTI"
       ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-23T04:22:29.579443Z"
-    },
-    {
-      "id": "ae76f8732c9944cd42d23112330ec8ad",
-      "title": "Ayala Corp. CEO Consing on Strategic Deal With Mitsubishi",
-      "summary": "Cezar Consing, President and CEO at Ayala Corp., says the firm will cut debt and acquire more shares of undervalued units, using funds from its $700M share sale to Mitsubishi.\nHe speaks on \u201cBloomberg: The China Show.\u201d (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-23/ayala-corp-ceo-consing-on-strategic-mitsubishi-deal-video",
-      "source": "Bloomberg",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
       "regions": [
-        "CHINA"
+        "CHINA",
+        "MIDDLE_EAST"
       ],
-      "assets": [],
+      "assets": [
+        "COMMODITIES",
+        "SHIPPING"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -131,7 +315,280 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-23T04:22:29.579520Z"
+      "published": "2026-09-23T04:27:58.540745Z"
+    },
+    {
+      "id": "8267eb1c311ea8a2bf751ae3588a45e3",
+      "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-23T04:28:00.437114Z"
+    },
+    {
+      "id": "dff99a60f4bcb302dd7d00f4745f7559",
+      "title": "Money and power: lessons from history for stablecoins and US dollar dominance \u2013 speech by Carolyn Wilkins",
+      "summary": "Given at Queen\u2019s University, Belfast",
+      "link": "https://www.bankofengland.co.uk/speech/2026/september/carolyn-wilkins-speech-at-queens-university-belfast",
+      "source": "Bank of England",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-23T04:28:46.643308Z"
+    },
+    {
+      "id": "8c72c3db04d311db43566992c37125b2",
+      "title": "The battle between the Fed and Trump",
+      "summary": "What happens when a fundamentally strong economy faces an irresponsible government?",
+      "link": "https://www.ft.com/content/d2e5ed9c-a123-4275-afc7-14b75b9337a0?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-23T04:27:58.540616Z"
+    },
+    {
+      "id": "26d77e6e7ef83dcd4e4a54714aafe688",
+      "title": "Mark Carney and the limits of defying Donald Trump",
+      "summary": "Canada\u2019s PM has become a rallying figure against the US president. But is the country\u2019s economy too exposed to break away?",
+      "link": "https://www.ft.com/content/4a808a51-c6e9-4ade-b1f7-95c27fd1aa1e?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-23T04:27:58.540567Z"
+    },
+    {
+      "id": "f93c777ccc6b35ce54b1619d87b7daea",
+      "title": "Amodei is right \u2014 AI companies need banking-style supervision",
+      "summary": "Both industries change rapidly and reach throughout the economy, requiring officials to weigh the benefits of innovation against risks",
+      "link": "https://www.ft.com/content/58be9a1b-345c-4026-a738-989b72858c4f?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-23T04:27:58.540681Z"
+    },
+    {
+      "id": "5cffbbafe30b5d615eaa50fcae16b5a1",
+      "title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+      "summary": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-23T04:28:00.518466Z"
+    },
+    {
+      "id": "f7b95eafbc8efc9e7c9a733c29f256c4",
+      "title": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
+      "summary": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-23T04:28:00.518515Z"
+    },
+    {
+      "id": "cdf7d52bab075d02463348759cd04d20",
+      "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
+      "summary": "Speech At Reuters NEXT Newsmaker Interview, Washington, D.C.",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-23T04:28:00.600612Z"
+    },
+    {
+      "id": "ffb5e89e0ffc57dfabceba9f519bd8fd",
+      "title": "Corporate report: Whole of Government Accounts 2025 to 2026: guidance for preparers",
+      "summary": "Guidance for central government and local government preparers for Whole of Government Accounts.",
+      "link": "https://www.gov.uk/government/publications/whole-of-government-accounts-2025-to-2026-guidance-for-preparers",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-23T04:28:47.538274Z"
+    },
+    {
+      "id": "f981193aeb96a5489d27d9f0c11a7d4f",
+      "title": "Exclusive | Stablecoin Company for Big Business Gets a Conditional Banking License - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPakFkbDU3cVdxT3JLMmpmOHlQcm1leGoxaXJkTVZRTTBnRENQQnoyWWJVNXNWaFVPbERUdWZ3cVVjX0UwOV9XdG9feGlBMEdncjhacGt2OHNoSlVwVDZiSEhOc2tPUEV2Q2VvbTdYSVVfQlBfNUl1eTZDZC1zTTh1VGp1Sk1MOXFoSmNQUUJSa3VqbHJDOTl5WU1qZzZiYWItcGhfNGppQ1JQQ19ZUHo3WEtUVDVSVDNnYXc?oc=5\" target=\"_blank\">Exclusive | Stablecoin Company for Big Business Gets a Conditional Banking License</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPakFkbDU3cVdxT3JLMmpmOHlQcm1leGoxaXJkTVZRTTBnRENQQnoyWWJVNXNWaFVPbERUdWZ3cVVjX0UwOV9XdG9feGlBMEdncjhacGt2OHNoSlVwVDZiSEhOc2tPUEV2Q2VvbTdYSVVfQlBfNUl1eTZDZC1zTTh1VGp1Sk1MOXFoSmNQUUJSa3VqbHJDOTl5WU1qZzZiYWItcGhfNGppQ1JQQ19ZUHo3WEtUVDVSVDNnYXc?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-23T04:29:02.092909Z"
+    },
+    {
+      "id": "20c85ddc55ac36e9ddbf2c262485e2df",
+      "title": "Novo defends diversification push as CEO eyes deals beyond obesity",
+      "summary": "Novo CEO Mike Doustdar told CNBC that it is considering M&amp;A opportunities as it faces growing competition in the weight-loss market.",
+      "link": "https://www.cnbc.com/2026/09/22/novo-nordisk-ceo-interview-weight-loss-drugs-strategy.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-23T04:28:00.329905Z"
+    },
+    {
+      "id": "380d27944f5aeac388edf753ce8f18c9",
+      "title": "Synergy Marine Group, Cochin Shipyard Sign MoU to Initiate Collaboration",
+      "summary": "Synergy Marine Group and Cochin Shipyard Limited (CSL) have signed a memorandum of understanding to jointly pursue shipbuilding, repair and conversion projects in India. The MoU was signed by Ajay Chaudhry, Co-CEO Ship Management of Synergy Marine Group\u2026",
+      "link": "https://www.marinelink.com/news/synergy-marine-group-cochin-shipyard-sign-543171",
+      "source": "MarineLink",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-23T04:28:56.855796Z"
+    },
+    {
+      "id": "0f3f57c40b277fee28b57679a9431e15",
+      "title": "U.S. International Trade in Goods and Services, July 2026",
+      "summary": "<p>The U.S. goods and services trade deficit increased in July 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $71.2 billion in June (revised) to $88.6 billion in July, as imports increased and exports decreased. The goods deficit increased $17.6 billion in July to $119.6 billion. The services surplus increased $0.2 billion in July to $31.0 billion.</p>",
+      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-july-2026",
+      "source": "BEA",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-23T04:28:39.774650Z"
     }
   ]
 }
