@@ -1,33 +1,63 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-24T04:48:25.369721Z",
+  "generated_at": "2026-09-24T04:53:23.293797Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 1,
-    "last_updated": "2026-09-24T04:48:25.369734Z"
+    "critical_alerts": 0,
+    "high_alerts": 2,
+    "last_updated": "2026-09-24T04:53:23.293809Z"
   },
   "top_signals": [
     {
-      "id": "bda6b8cdb981eed3630e96b1aeecac94",
-      "title": "Oil prices fall as Iran says it is open to diplomacy to end the war - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOR1FxSEFPZkVpeHV0LS1WTURzc3lOWWM3d0dfTG1mQ0hBWmZiLWhia1FPbnUzdm5yMVhuZE1RenYyOTNqYmFqT2d5MzVtNE1IcHJCNGJ4aXU0US1Tc09OWnJINzRpQkFTWXdsczlhcE50N25wT052OUZhS21QOG9haGV4XzFTZnQ4NzNTWFlVbU1QcDRyZC0yejVxX1dabVZmWHMyMVM0dWE5RGpNWXZNVHBn?oc=5\" target=\"_blank\">Oil prices fall as Iran says it is open to diplomacy to end the war</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOR1FxSEFPZkVpeHV0LS1WTURzc3lOWWM3d0dfTG1mQ0hBWmZiLWhia1FPbnUzdm5yMVhuZE1RenYyOTNqYmFqT2d5MzVtNE1IcHJCNGJ4aXU0US1Tc09OWnJINzRpQkFTWXdsczlhcE50N25wT052OUZhS21QOG9haGV4XzFTZnQ4NzNTWFlVbU1QcDRyZC0yejVxX1dabVZmWHMyMVM0dWE5RGpNWXZNVHBn?oc=5",
-      "source": "Google Macro",
-      "score": 27,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "id": "7184644f61b54678c59c60587ef66751",
+      "title": "Japan 10-Year Yield Climbs to 1996 High as Global Rout Deepens",
+      "summary": "Japan\u2019s 10-year government bond yield climbed to its highest since 1996, joining a deepening global selloff as the market reopened after the Silver Week holidays.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-24/japan-10-year-bond-yield-jumps-10-basis-points-amid-global-rout",
+      "source": "Bloomberg",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "SILVER"
       ],
       "regions": [
-        "MIDDLE_EAST"
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-24T04:52:29.606733Z"
+    },
+    {
+      "id": "be0d4414af5082e5d1ef3dcb6455179d",
+      "title": "US and China extend trade truce as Trump welcomes Xi",
+      "summary": "Treasury secretary Scott Bessent says the countries have agreed to extension until January 10",
+      "link": "https://www.ft.com/content/8ff1b8fd-ff58-42a4-8e44-6a31f6db8154?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [
+        "CHINA"
       ],
       "assets": [
-        "COMMODITIES"
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -43,81 +73,104 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-24T04:48:23.742406Z"
+      "published": "2026-09-24T04:52:31.334952Z"
     },
     {
-      "id": "9f6dd3386173c79c7a9e0a47e001cb4b",
-      "title": "How Putin Escalates",
-      "summary": "A new stage in Russia's confrontation with Ukraine\u2014and the West.",
-      "link": "https://www.foreignaffairs.com/united-states/how-putin-escalates",
-      "source": "Foreign Affairs",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
+      "id": "18b129e2a59c060859b2c8044d2ec411",
+      "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
+      "summary": "The \"third-party.com\" domain, commonly used as a placeholder in developer documentation and code examples,\u00a0is serving a fake Cloudflare verification page that attempts to trick Windows users into executing PowerShell commands. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
       "tickers": [],
-      "regions": [
-        "RUSSIA",
-        "UK",
-        "UKRAINE"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-24T04:48:21.169930Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-24T04:53:20.246898Z"
     },
     {
-      "id": "fcae1c6717db8789ff60cdeedf77956d",
-      "title": "Philip R. Lane: The Outlook for the Euro Area Economy",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923_1~ac21bf46e3.en.pdf",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
+      "id": "97b425efa09105d81718905510003a27",
+      "title": "Bitwise launches first Lighter ETP amid Hyperliquid rivalry",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitwise launches first Lighter ETP amid Hyperliquid rivalry\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M37DHCMTV7JXT1KJHVV2D4BM/hi-dexs-closing-down-or-re-launching2.jpg\" /></p><p>The product gives European investors brokerage access to the LIT token as Bitwise expands its lineup of products tied to decentralized derivatives platforms.\n</p>",
+      "link": "https://cointelegraph.com/news/bitwise-lighter-lit-etp-europe-xetra?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 1,
+      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [
         "EUR"
       ],
-      "regions": [],
+      "regions": [
+        "EUROPE"
+      ],
       "assets": [
         "FX"
       ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-24T04:48:10.344901Z"
+      "published": "2026-09-24T04:53:20.044764Z"
     }
   ],
   "alerts": [
     {
-      "id": "bda6b8cdb981eed3630e96b1aeecac94",
-      "title": "Oil prices fall as Iran says it is open to diplomacy to end the war - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOR1FxSEFPZkVpeHV0LS1WTURzc3lOWWM3d0dfTG1mQ0hBWmZiLWhia1FPbnUzdm5yMVhuZE1RenYyOTNqYmFqT2d5MzVtNE1IcHJCNGJ4aXU0US1Tc09OWnJINzRpQkFTWXdsczlhcE50N25wT052OUZhS21QOG9haGV4XzFTZnQ4NzNTWFlVbU1QcDRyZC0yejVxX1dabVZmWHMyMVM0dWE5RGpNWXZNVHBn?oc=5\" target=\"_blank\">Oil prices fall as Iran says it is open to diplomacy to end the war</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOR1FxSEFPZkVpeHV0LS1WTURzc3lOWWM3d0dfTG1mQ0hBWmZiLWhia1FPbnUzdm5yMVhuZE1RenYyOTNqYmFqT2d5MzVtNE1IcHJCNGJ4aXU0US1Tc09OWnJINzRpQkFTWXdsczlhcE50N25wT052OUZhS21QOG9haGV4XzFTZnQ4NzNTWFlVbU1QcDRyZC0yejVxX1dabVZmWHMyMVM0dWE5RGpNWXZNVHBn?oc=5",
-      "source": "Google Macro",
-      "score": 27,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "id": "7184644f61b54678c59c60587ef66751",
+      "title": "Japan 10-Year Yield Climbs to 1996 High as Global Rout Deepens",
+      "summary": "Japan\u2019s 10-year government bond yield climbed to its highest since 1996, joining a deepening global selloff as the market reopened after the Silver Week holidays.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-24/japan-10-year-bond-yield-jumps-10-basis-points-amid-global-rout",
+      "source": "Bloomberg",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "SILVER"
       ],
       "regions": [
-        "MIDDLE_EAST"
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-24T04:52:29.606733Z"
+    },
+    {
+      "id": "be0d4414af5082e5d1ef3dcb6455179d",
+      "title": "US and China extend trade truce as Trump welcomes Xi",
+      "summary": "Treasury secretary Scott Bessent says the countries have agreed to extension until January 10",
+      "link": "https://www.ft.com/content/8ff1b8fd-ff58-42a4-8e44-6a31f6db8154?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [
+        "CHINA"
       ],
       "assets": [
-        "COMMODITIES"
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -133,61 +186,54 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-24T04:48:23.742406Z"
+      "published": "2026-09-24T04:52:31.334952Z"
     },
     {
-      "id": "9f6dd3386173c79c7a9e0a47e001cb4b",
-      "title": "How Putin Escalates",
-      "summary": "A new stage in Russia's confrontation with Ukraine\u2014and the West.",
-      "link": "https://www.foreignaffairs.com/united-states/how-putin-escalates",
-      "source": "Foreign Affairs",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
+      "id": "18b129e2a59c060859b2c8044d2ec411",
+      "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
+      "summary": "The \"third-party.com\" domain, commonly used as a placeholder in developer documentation and code examples,\u00a0is serving a fake Cloudflare verification page that attempts to trick Windows users into executing PowerShell commands. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
       "tickers": [],
-      "regions": [
-        "RUSSIA",
-        "UK",
-        "UKRAINE"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-24T04:48:21.169930Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-24T04:53:20.246898Z"
     },
     {
-      "id": "fcae1c6717db8789ff60cdeedf77956d",
-      "title": "Philip R. Lane: The Outlook for the Euro Area Economy",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923_1~ac21bf46e3.en.pdf",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
+      "id": "97b425efa09105d81718905510003a27",
+      "title": "Bitwise launches first Lighter ETP amid Hyperliquid rivalry",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitwise launches first Lighter ETP amid Hyperliquid rivalry\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M37DHCMTV7JXT1KJHVV2D4BM/hi-dexs-closing-down-or-re-launching2.jpg\" /></p><p>The product gives European investors brokerage access to the LIT token as Bitwise expands its lineup of products tied to decentralized derivatives platforms.\n</p>",
+      "link": "https://cointelegraph.com/news/bitwise-lighter-lit-etp-europe-xetra?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 1,
+      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [
         "EUR"
       ],
-      "regions": [],
+      "regions": [
+        "EUROPE"
+      ],
       "assets": [
         "FX"
       ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-24T04:48:10.344901Z"
+      "published": "2026-09-24T04:53:20.044764Z"
     }
   ]
 }
