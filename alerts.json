@@ -1,32 +1,297 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-25T00:13:38.626811Z",
+  "generated_at": "2026-09-25T00:18:28.668445Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
-    "high_alerts": 3,
-    "last_updated": "2026-09-25T00:13:38.626826Z"
+    "high_alerts": 2,
+    "last_updated": "2026-09-25T00:18:28.668461Z"
   },
   "top_signals": [
     {
-      "id": "bcab080499c2d2a379c981ec5d66f55f",
-      "title": "Bond Losses Build as Oil Fans Inflation Concerns: Markets Wrap",
-      "summary": "A global bond selloff extended into Asia as elevated oil prices stoked inflation concerns, pushing long-term Treasury yields to multi-decade highs and fueling expectations for further Federal Reserve interest-rate hikes.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-24/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 42,
+      "id": "69d4655f5cc6d4dc3a358dfe9a6369f8",
+      "title": "Oil Tanker Insurance Triples Amidst Global Shipping Tensions",
+      "summary": "The cost of insuring an oil tanker loaded from Saudi Arabia's main Red Sea port has tripled in recent weeks, industry sources told Reuters, adding to the major crude producer's struggles to find a viable channel for its exports.Saudi Arabia\u2026",
+      "link": "https://www.marinelink.com/news/oil-tanker-insurance-triples-amidst-543249",
+      "source": "MarineLink",
+      "score": 32,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "COMMODITIES",
       "tickers": [
-        "TLT",
         "WTI"
       ],
       "regions": [],
       "assets": [
+        "AI",
         "COMMODITIES",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-25T00:18:23.999638Z"
+    },
+    {
+      "id": "661dc618898ad32e1d1195f75b2f218b",
+      "title": "30-year Treasury yield hits highest level since 2004 as bond market rout continues",
+      "summary": "U.S. Treasury yields continued their upward momentum after hitting a 19-year high on Wednesday.",
+      "link": "https://www.cnbc.com/2026/09/24/us-treasury-yields-bonds-fed-inflation.html",
+      "source": "CNBC",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-25T00:17:37.527755Z"
+    },
+    {
+      "id": "c86c5d35ed2d2f92a52203707be4e793",
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
+      "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "source": "KrebsOnSecurity",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-25T00:18:25.543724Z"
+    },
+    {
+      "id": "11e8d81d96b5e6214fb0d2a1733d71e1",
+      "title": "Kobayashi in $3.2 Billion Buyout Talks After Red-Yeast Case",
+      "summary": "Kobayashi Pharmaceutical Co., the Japanese health products company that was at the center of a supplement contamination scandal involving suspected deaths, is said to be considering a potential buyout offer of more than \u00a5500 billion ($3.2 billion) by private equity investors.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-24/kobayashi-in-3-2-billion-buyout-talks-after-red-yeast-scandal",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-25T00:17:33.890728Z"
+    },
+    {
+      "id": "f2d5b545a98496f6c5ae04c53da6f057",
+      "title": "80 Countries Demand Hormuz Reopening at UN",
+      "summary": "Some 80 countries demanded the urgent reopening of the Strait of Hormuz on Thursday and condemned Iran and its Houthi allies for attacks in the region and disruption to international trade and energy security.\"Iran's actions in the Strait of Hormuz continue to threaten international security and nav",
+      "link": "https://www.marinelink.com/news/countries-demand-hormuz-reopening-un-543248",
+      "source": "MarineLink",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-25T00:18:23.999696Z"
+    },
+    {
+      "id": "11b2716d5fbbdc8f8346f03b6866b4b2",
+      "title": "Russia to Raise $2.35b for Arctic Icebreaker Construction",
+      "summary": "Russia plans to raise more than 200 billion roubles ($2.35 billion) from exporters to finance the construction of icebreakers for its Arctic sea route, according to a draft government decree published this week.Russia is seeking additional sources\u2026",
+      "link": "https://www.marinelink.com/news/russia-raise-b-arctic-icebreaker-543252",
+      "source": "MarineLink",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-25T00:18:23.999427Z"
+    },
+    {
+      "id": "67be7082c1b46700c94214a064546f96",
+      "title": "US Senate Nears Completion of Energy Infrastructure Reform Bill",
+      "summary": "The US Senate\u00a0is nearing a\u00a0deal\u00a0to reform\u00a0laws to speed up permitting of large infrastructure projects after the White House compromised on how renewable\u00a0energy\u00a0is treated,\u00a0though a vote is uncertain before\u00a0the midterm elections, a top Senate Democrat said on Thursday.Senators Sheldon Whitehouse, th",
+      "link": "https://www.marinelink.com/news/us-senate-nears-completion-energy-543250",
+      "source": "MarineLink",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-25T00:18:23.999574Z"
+    },
+    {
+      "id": "05c0e115d821c0e459f77d5ec04a89d4",
+      "title": "Polymarket countersues New York state over \u2018unregulated gambling\u2019 allegation",
+      "summary": "State attorney general Letitia James claims Polymarket has violated the state's gambling laws.",
+      "link": "https://www.cnbc.com/2026/09/24/new-york-sues-polymarket-us-two-months-after-filing-suit-against-kalshi-.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-25T00:17:37.362299Z"
+    },
+    {
+      "id": "33c675f62b03efdefc852995a2beb08c",
+      "title": "Eight Suicide Attempts Recorded During USS Abraham Lincoln Extended Mission",
+      "summary": "There were eight suicide attempts among US sailors\u00a0on board the Abraham Lincoln carrier strike group during its extended\u00a0286 consecutive-day\u00a0deployment\u00a0at sea, the Pentagon told a lawmaker\u00a0in a written response to questions.The nuclear-powered Lincoln\u2026",
+      "link": "https://www.marinelink.com/news/eight-suicide-attempts-recorded-during-543251",
+      "source": "MarineLink",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-25T00:18:23.999504Z"
+    },
+    {
+      "id": "b11183dedacc9e265b553f2d375a9d75",
+      "title": "Hedge funds sour on basis trade as Treasury selloff continues - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNX3JBNU5Xd01SNmh6MUZJdkpYR29fb1ZadV9HX1FaMVZhVVEzREVwTGZKQVVxUHNsSEUtQWF3SlJYWTc1UkxsdXQ2VnFPNk1wRjI1cWR6TWJ6QmplekltYWVBTnBBRm1BcWpFRG95MG45WVJKaHJXWE9SNG80cFZIOHBrWm12U2txZGp2YWpmbkVjMHVwcElUZ0xrVE5fc1JHcm01X3REQ0QwZFdNMUowVQ?oc=5\" target=\"_blank\">Hedge funds sour on basis trade as Treasury selloff continues</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNX3JBNU5Xd01SNmh6MUZJdkpYR29fb1ZadV9HX1FaMVZhVVEzREVwTGZKQVVxUHNsSEUtQWF3SlJYWTc1UkxsdXQ2VnFPNk1wRjI1cWR6TWJ6QmplekltYWVBTnBBRm1BcWpFRG95MG45WVJKaHJXWE9SNG80cFZIOHBrWm12U2txZGp2YWpmbkVjMHVwcElUZ0xrVE5fc1JHcm01X3REQ0QwZFdNMUowVQ?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
         "RATES"
       ],
       "market_impact": {
@@ -41,194 +306,13 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-25T00:12:33.782326Z"
+      "published": "2026-09-25T00:18:26.938617Z"
     },
     {
-      "id": "5698596e582cb35418749edbef9f8fd2",
-      "title": "Oil Steadies With the US, Iran Said to Be Exploring Phased Deal - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOc0N4a0o1Z2YzVHkwVzJKNkhFdnp3OUJQNVJVbEZZd0pjODFKRHlpYnNMbk9DQWt1V2ZJRGVHZFpBVjMxajA2aVJPU0VjYXRXeFdTaEp2M1F5Z3pxMFlYSHM3Ql8xY3ZmZE81WU8xS2NtR0g0WmFHT0RBaFV2UGtTRVJKQmJ4X0J4RkZkMllQNmVuYUdCSFNJcVZuNA?oc=5\" target=\"_blank\">Oil Steadies With the US, Iran Said to Be Exploring Phased Deal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc0N4a0o1Z2YzVHkwVzJKNkhFdnp3OUJQNVJVbEZZd0pjODFKRHlpYnNMbk9DQWt1V2ZJRGVHZFpBVjMxajA2aVJPU0VjYXRXeFdTaEp2M1F5Z3pxMFlYSHM3Ql8xY3ZmZE81WU8xS2NtR0g0WmFHT0RBaFV2UGtTRVJKQmJ4X0J4RkZkMllQNmVuYUdCSFNJcVZuNA?oc=5",
-      "source": "Google Macro",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-25T00:13:36.398333Z"
-    },
-    {
-      "id": "8eb5914c4ada3b1575296439e85c3d3f",
-      "title": "France to Send Military Aid, Troops to Defend Saudi Oil Port - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPcFFIUW9xSVJ5bW1rd1VHRkFkWVpFZWUwZWNEQlptVF9XeGthV1hOdk51dzR6MlJEVkRteW5QTkJKRDdDUVlDeWVENXBPNUtsTDk0LTRuWDd3MHVJTHl5NUN1NFF4QU03Tjhjd3JKSlVITXBLTFoyMktrUVhvd3k1MEg3YUNXME1GRVRwMFlNSWZDUGJiQ1F6Wm9tNGwwQW1qZTR5aDV2SHRwRzhZSVlWR0Nn?oc=5\" target=\"_blank\">France to Send Military Aid, Troops to Defend Saudi Oil Port</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcFFIUW9xSVJ5bW1rd1VHRkFkWVpFZWUwZWNEQlptVF9XeGthV1hOdk51dzR6MlJEVkRteW5QTkJKRDdDUVlDeWVENXBPNUtsTDk0LTRuWDd3MHVJTHl5NUN1NFF4QU03Tjhjd3JKSlVITXBLTFoyMktrUVhvd3k1MEg3YUNXME1GRVRwMFlNSWZDUGJiQ1F6Wm9tNGwwQW1qZTR5aDV2SHRwRzhZSVlWR0Nn?oc=5",
-      "source": "Google Macro",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "FRANCE"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-25T00:13:36.398395Z"
-    },
-    {
-      "id": "700fa976ffc2c6be10b6f23e55f4fffd",
-      "title": "Saudis\u2019 Gulf Oil Surge Drives Exports to Highest Since War Began - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQdUNadG1HME1sMGRhRXdSU3ZWSF9Xdy1nMWF2ZTVSTmRiZzM5YnpHNVdxcVo0eXJTYlJ0d0RlVDJaU1k2UEkyVWZMckdGZXZvdVVnSlp3WXNBcm4wSm40ZXpOV3JZdkRKTXctZDBTY0VqTG1UZFJudHZ6Vm03TWxTZWtNZmcyNzNCRnRIam1Vdm9lYjdLQkd1cUo0MjNFX28zWlFJVWx1b25NWHNBV0QyUkYyblQ?oc=5\" target=\"_blank\">Saudis\u2019 Gulf Oil Surge Drives Exports to Highest Since War Began</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdUNadG1HME1sMGRhRXdSU3ZWSF9Xdy1nMWF2ZTVSTmRiZzM5YnpHNVdxcVo0eXJTYlJ0d0RlVDJaU1k2UEkyVWZMckdGZXZvdVVnSlp3WXNBcm4wSm40ZXpOV3JZdkRKTXctZDBTY0VqTG1UZFJudHZ6Vm03TWxTZWtNZmcyNzNCRnRIam1Vdm9lYjdLQkd1cUo0MjNFX28zWlFJVWx1b25NWHNBV0QyUkYyblQ?oc=5",
-      "source": "Google Macro",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-25T00:13:36.398544Z"
-    },
-    {
-      "id": "f0053c3b8a937fff5ef26e9865dbfb45",
-      "title": "Saudis Ease Asia Oil Crunch With 100-Million-Barrel Sales Flurry - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPVE1LNldLRWhOMGVxWFVaYXI1X2xiTi1lVy1CcUx1RVZsX0YxbmZDTGVRTVpHMHk0QzFJMUgzYzdnTXhXR1pYTFMySUdVbVhlaVhmMVB1aXB5QTYwcDEyR1pvbk1sV3N5dTdVaWxnd2FBZEhjYWM1VzRNbmdlRU1uS19iZGRzdVhwcUoyUl9uYlh6Vy1OMjZHUGt5eno5ZTRfazkyR1BLaE96UFpvS1VRckJoMm01QQ?oc=5\" target=\"_blank\">Saudis Ease Asia Oil Crunch With 100-Million-Barrel Sales Flurry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVE1LNldLRWhOMGVxWFVaYXI1X2xiTi1lVy1CcUx1RVZsX0YxbmZDTGVRTVpHMHk0QzFJMUgzYzdnTXhXR1pYTFMySUdVbVhlaVhmMVB1aXB5QTYwcDEyR1pvbk1sV3N5dTdVaWxnd2FBZEhjYWM1VzRNbmdlRU1uS19iZGRzdVhwcUoyUl9uYlh6Vy1OMjZHUGt5eno5ZTRfazkyR1BLaE96UFpvS1VRckJoMm01QQ?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-25T00:13:36.398266Z"
-    },
-    {
-      "id": "e16a0d045ace0ddb98bd7ddffa09c9d5",
-      "title": "Trump-Xi summit live: US president hosts state dinner with tech leaders",
-      "summary": "",
-      "link": "https://asia.nikkei.com/spotlight/trump-xi-summit/trump-xi-summit-live-us-president-hosts-state-dinner-with-tech-leaders",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-25T00:13:28.561475Z"
-    },
-    {
-      "id": "6dabcfdda14c5a3c964aea90d66dd449",
-      "title": "European Stocks Edge Lower as Rising Global Bond Yields Weigh - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNMkZ4QlRjNW42VWJUUjNoeWNvcVBlU2o2SFFXNWtJN05CanJTTE1QRm5SYWtrREdMeTNXU1o3UnNHeVdpOVFjOGtwbmF2dVJYeGFkVDUzVXkzN2NHbm1wbWNwRmFXR1lKUjhXV3hwenNENnB0aUtlaXllUmtWS19BYjY5ZmRrOUNJMlV2bW05YjBNSTZCRkZrbmx5UUo4ZnB1LXcySHhLeWtFMFFmMzl0Y3hB?oc=5\" target=\"_blank\">European Stocks Edge Lower as Rising Global Bond Yields Weigh</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMkZ4QlRjNW42VWJUUjNoeWNvcVBlU2o2SFFXNWtJN05CanJTTE1QRm5SYWtrREdMeTNXU1o3UnNHeVdpOVFjOGtwbmF2dVJYeGFkVDUzVXkzN2NHbm1wbWNwRmFXR1lKUjhXV3hwenNENnB0aUtlaXllUmtWS19BYjY5ZmRrOUNJMlV2bW05YjBNSTZCRkZrbmx5UUo4ZnB1LXcySHhLeWtFMFFmMzl0Y3hB?oc=5",
-      "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "RATES",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "EQUITIES",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-25T00:13:36.398615Z"
-    },
-    {
-      "id": "1eec8a0c4afc842c6bd86d4b8fe154a3",
-      "title": "Tumbling Global Government Bonds Put Yields on Brink of 4% - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOMmlsLUVaTWhVR2FsdFc3WUd4dEp6UjFyT3k1bFlXcUtZenVyV3lYY1Yxb29VRmstc2FEY2E3anV5YnBZUllCWVpDQkxuTy1OVUZzdFZtV1dEZHRBM2F0TDE5ZENEMlBGNHFYbEhNSkM5ZDJxUl9DVXF2bjkwTGlxVS10UHlfcUdsNm5OX0VndF9mMjdwRm4xTldDLUJ4LWhCX1RkaThNNXFrempD?oc=5\" target=\"_blank\">Tumbling Global Government Bonds Put Yields on Brink of 4%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMmlsLUVaTWhVR2FsdFc3WUd4dEp6UjFyT3k1bFlXcUtZenVyV3lYY1Yxb29VRmstc2FEY2E3anV5YnBZUllCWVpDQkxuTy1OVUZzdFZtV1dEZHRBM2F0TDE5ZENEMlBGNHFYbEhNSkM5ZDJxUl9DVXF2bjkwTGlxVS10UHlfcUdsNm5OX0VndF9mMjdwRm4xTldDLUJ4LWhCX1RkaThNNXFrempD?oc=5",
+      "id": "ed6b4de69ef8bf7fc5d47d854ea28d86",
+      "title": "Global bond selloff deepens, as US 30-year yields hit highest since 2004 - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOG41MExjN21pM3Z3V2JFMGkydXNYQW5YSEFfbTd2N2pOenR6R3pKQ0ZVWnVQZElXXzdBSXNLdTl4Q0ZPMzItVkIzR3hWNjZrMUNRZzJsa2xYQVNvQ1h2REJuNW1HTGpCb2lsdjdyWkZacjV6NnI1aHA4Y2JFN0sxYm5TYlBTSkhGWkd6b2dWaWNpbTVHYkhWb0lnNFo1al9scmVqT0tXZkh5ZFU?oc=5\" target=\"_blank\">Global bond selloff deepens, as US 30-year yields hit highest since 2004</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOG41MExjN21pM3Z3V2JFMGkydXNYQW5YSEFfbTd2N2pOenR6R3pKQ0ZVWnVQZElXXzdBSXNLdTl4Q0ZPMzItVkIzR3hWNjZrMUNRZzJsa2xYQVNvQ1h2REJuNW1HTGpCb2lsdjdyWkZacjV6NnI1aHA4Y2JFN0sxYm5TYlBTSkhGWkd6b2dWaWNpbTVHYkhWb0lnNFo1al9scmVqT0tXZkh5ZFU?oc=5",
       "source": "Google Macro",
       "score": 1,
       "severity": "LOW",
@@ -238,26 +322,291 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-25T00:13:36.398457Z"
+      "published": "2026-09-25T00:18:26.938550Z"
     }
   ],
   "alerts": [
     {
-      "id": "bcab080499c2d2a379c981ec5d66f55f",
-      "title": "Bond Losses Build as Oil Fans Inflation Concerns: Markets Wrap",
-      "summary": "A global bond selloff extended into Asia as elevated oil prices stoked inflation concerns, pushing long-term Treasury yields to multi-decade highs and fueling expectations for further Federal Reserve interest-rate hikes.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-24/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 42,
+      "id": "69d4655f5cc6d4dc3a358dfe9a6369f8",
+      "title": "Oil Tanker Insurance Triples Amidst Global Shipping Tensions",
+      "summary": "The cost of insuring an oil tanker loaded from Saudi Arabia's main Red Sea port has tripled in recent weeks, industry sources told Reuters, adding to the major crude producer's struggles to find a viable channel for its exports.Saudi Arabia\u2026",
+      "link": "https://www.marinelink.com/news/oil-tanker-insurance-triples-amidst-543249",
+      "source": "MarineLink",
+      "score": 32,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "COMMODITIES",
       "tickers": [
-        "TLT",
         "WTI"
       ],
       "regions": [],
       "assets": [
+        "AI",
         "COMMODITIES",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-25T00:18:23.999638Z"
+    },
+    {
+      "id": "661dc618898ad32e1d1195f75b2f218b",
+      "title": "30-year Treasury yield hits highest level since 2004 as bond market rout continues",
+      "summary": "U.S. Treasury yields continued their upward momentum after hitting a 19-year high on Wednesday.",
+      "link": "https://www.cnbc.com/2026/09/24/us-treasury-yields-bonds-fed-inflation.html",
+      "source": "CNBC",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-25T00:17:37.527755Z"
+    },
+    {
+      "id": "c86c5d35ed2d2f92a52203707be4e793",
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
+      "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "source": "KrebsOnSecurity",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-25T00:18:25.543724Z"
+    },
+    {
+      "id": "11e8d81d96b5e6214fb0d2a1733d71e1",
+      "title": "Kobayashi in $3.2 Billion Buyout Talks After Red-Yeast Case",
+      "summary": "Kobayashi Pharmaceutical Co., the Japanese health products company that was at the center of a supplement contamination scandal involving suspected deaths, is said to be considering a potential buyout offer of more than \u00a5500 billion ($3.2 billion) by private equity investors.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-24/kobayashi-in-3-2-billion-buyout-talks-after-red-yeast-scandal",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-25T00:17:33.890728Z"
+    },
+    {
+      "id": "f2d5b545a98496f6c5ae04c53da6f057",
+      "title": "80 Countries Demand Hormuz Reopening at UN",
+      "summary": "Some 80 countries demanded the urgent reopening of the Strait of Hormuz on Thursday and condemned Iran and its Houthi allies for attacks in the region and disruption to international trade and energy security.\"Iran's actions in the Strait of Hormuz continue to threaten international security and nav",
+      "link": "https://www.marinelink.com/news/countries-demand-hormuz-reopening-un-543248",
+      "source": "MarineLink",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-25T00:18:23.999696Z"
+    },
+    {
+      "id": "11b2716d5fbbdc8f8346f03b6866b4b2",
+      "title": "Russia to Raise $2.35b for Arctic Icebreaker Construction",
+      "summary": "Russia plans to raise more than 200 billion roubles ($2.35 billion) from exporters to finance the construction of icebreakers for its Arctic sea route, according to a draft government decree published this week.Russia is seeking additional sources\u2026",
+      "link": "https://www.marinelink.com/news/russia-raise-b-arctic-icebreaker-543252",
+      "source": "MarineLink",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-25T00:18:23.999427Z"
+    },
+    {
+      "id": "67be7082c1b46700c94214a064546f96",
+      "title": "US Senate Nears Completion of Energy Infrastructure Reform Bill",
+      "summary": "The US Senate\u00a0is nearing a\u00a0deal\u00a0to reform\u00a0laws to speed up permitting of large infrastructure projects after the White House compromised on how renewable\u00a0energy\u00a0is treated,\u00a0though a vote is uncertain before\u00a0the midterm elections, a top Senate Democrat said on Thursday.Senators Sheldon Whitehouse, th",
+      "link": "https://www.marinelink.com/news/us-senate-nears-completion-energy-543250",
+      "source": "MarineLink",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-25T00:18:23.999574Z"
+    },
+    {
+      "id": "05c0e115d821c0e459f77d5ec04a89d4",
+      "title": "Polymarket countersues New York state over \u2018unregulated gambling\u2019 allegation",
+      "summary": "State attorney general Letitia James claims Polymarket has violated the state's gambling laws.",
+      "link": "https://www.cnbc.com/2026/09/24/new-york-sues-polymarket-us-two-months-after-filing-suit-against-kalshi-.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-25T00:17:37.362299Z"
+    },
+    {
+      "id": "33c675f62b03efdefc852995a2beb08c",
+      "title": "Eight Suicide Attempts Recorded During USS Abraham Lincoln Extended Mission",
+      "summary": "There were eight suicide attempts among US sailors\u00a0on board the Abraham Lincoln carrier strike group during its extended\u00a0286 consecutive-day\u00a0deployment\u00a0at sea, the Pentagon told a lawmaker\u00a0in a written response to questions.The nuclear-powered Lincoln\u2026",
+      "link": "https://www.marinelink.com/news/eight-suicide-attempts-recorded-during-543251",
+      "source": "MarineLink",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-25T00:18:23.999504Z"
+    },
+    {
+      "id": "b11183dedacc9e265b553f2d375a9d75",
+      "title": "Hedge funds sour on basis trade as Treasury selloff continues - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNX3JBNU5Xd01SNmh6MUZJdkpYR29fb1ZadV9HX1FaMVZhVVEzREVwTGZKQVVxUHNsSEUtQWF3SlJYWTc1UkxsdXQ2VnFPNk1wRjI1cWR6TWJ6QmplekltYWVBTnBBRm1BcWpFRG95MG45WVJKaHJXWE9SNG80cFZIOHBrWm12U2txZGp2YWpmbkVjMHVwcElUZ0xrVE5fc1JHcm01X3REQ0QwZFdNMUowVQ?oc=5\" target=\"_blank\">Hedge funds sour on basis trade as Treasury selloff continues</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNX3JBNU5Xd01SNmh6MUZJdkpYR29fb1ZadV9HX1FaMVZhVVEzREVwTGZKQVVxUHNsSEUtQWF3SlJYWTc1UkxsdXQ2VnFPNk1wRjI1cWR6TWJ6QmplekltYWVBTnBBRm1BcWpFRG95MG45WVJKaHJXWE9SNG80cFZIOHBrWm12U2txZGp2YWpmbkVjMHVwcElUZ0xrVE5fc1JHcm01X3REQ0QwZFdNMUowVQ?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
         "RATES"
       ],
       "market_impact": {
@@ -272,194 +621,13 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-25T00:12:33.782326Z"
+      "published": "2026-09-25T00:18:26.938617Z"
     },
     {
-      "id": "5698596e582cb35418749edbef9f8fd2",
-      "title": "Oil Steadies With the US, Iran Said to Be Exploring Phased Deal - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOc0N4a0o1Z2YzVHkwVzJKNkhFdnp3OUJQNVJVbEZZd0pjODFKRHlpYnNMbk9DQWt1V2ZJRGVHZFpBVjMxajA2aVJPU0VjYXRXeFdTaEp2M1F5Z3pxMFlYSHM3Ql8xY3ZmZE81WU8xS2NtR0g0WmFHT0RBaFV2UGtTRVJKQmJ4X0J4RkZkMllQNmVuYUdCSFNJcVZuNA?oc=5\" target=\"_blank\">Oil Steadies With the US, Iran Said to Be Exploring Phased Deal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc0N4a0o1Z2YzVHkwVzJKNkhFdnp3OUJQNVJVbEZZd0pjODFKRHlpYnNMbk9DQWt1V2ZJRGVHZFpBVjMxajA2aVJPU0VjYXRXeFdTaEp2M1F5Z3pxMFlYSHM3Ql8xY3ZmZE81WU8xS2NtR0g0WmFHT0RBaFV2UGtTRVJKQmJ4X0J4RkZkMllQNmVuYUdCSFNJcVZuNA?oc=5",
-      "source": "Google Macro",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-25T00:13:36.398333Z"
-    },
-    {
-      "id": "8eb5914c4ada3b1575296439e85c3d3f",
-      "title": "France to Send Military Aid, Troops to Defend Saudi Oil Port - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPcFFIUW9xSVJ5bW1rd1VHRkFkWVpFZWUwZWNEQlptVF9XeGthV1hOdk51dzR6MlJEVkRteW5QTkJKRDdDUVlDeWVENXBPNUtsTDk0LTRuWDd3MHVJTHl5NUN1NFF4QU03Tjhjd3JKSlVITXBLTFoyMktrUVhvd3k1MEg3YUNXME1GRVRwMFlNSWZDUGJiQ1F6Wm9tNGwwQW1qZTR5aDV2SHRwRzhZSVlWR0Nn?oc=5\" target=\"_blank\">France to Send Military Aid, Troops to Defend Saudi Oil Port</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcFFIUW9xSVJ5bW1rd1VHRkFkWVpFZWUwZWNEQlptVF9XeGthV1hOdk51dzR6MlJEVkRteW5QTkJKRDdDUVlDeWVENXBPNUtsTDk0LTRuWDd3MHVJTHl5NUN1NFF4QU03Tjhjd3JKSlVITXBLTFoyMktrUVhvd3k1MEg3YUNXME1GRVRwMFlNSWZDUGJiQ1F6Wm9tNGwwQW1qZTR5aDV2SHRwRzhZSVlWR0Nn?oc=5",
-      "source": "Google Macro",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "FRANCE"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-25T00:13:36.398395Z"
-    },
-    {
-      "id": "700fa976ffc2c6be10b6f23e55f4fffd",
-      "title": "Saudis\u2019 Gulf Oil Surge Drives Exports to Highest Since War Began - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQdUNadG1HME1sMGRhRXdSU3ZWSF9Xdy1nMWF2ZTVSTmRiZzM5YnpHNVdxcVo0eXJTYlJ0d0RlVDJaU1k2UEkyVWZMckdGZXZvdVVnSlp3WXNBcm4wSm40ZXpOV3JZdkRKTXctZDBTY0VqTG1UZFJudHZ6Vm03TWxTZWtNZmcyNzNCRnRIam1Vdm9lYjdLQkd1cUo0MjNFX28zWlFJVWx1b25NWHNBV0QyUkYyblQ?oc=5\" target=\"_blank\">Saudis\u2019 Gulf Oil Surge Drives Exports to Highest Since War Began</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdUNadG1HME1sMGRhRXdSU3ZWSF9Xdy1nMWF2ZTVSTmRiZzM5YnpHNVdxcVo0eXJTYlJ0d0RlVDJaU1k2UEkyVWZMckdGZXZvdVVnSlp3WXNBcm4wSm40ZXpOV3JZdkRKTXctZDBTY0VqTG1UZFJudHZ6Vm03TWxTZWtNZmcyNzNCRnRIam1Vdm9lYjdLQkd1cUo0MjNFX28zWlFJVWx1b25NWHNBV0QyUkYyblQ?oc=5",
-      "source": "Google Macro",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-25T00:13:36.398544Z"
-    },
-    {
-      "id": "f0053c3b8a937fff5ef26e9865dbfb45",
-      "title": "Saudis Ease Asia Oil Crunch With 100-Million-Barrel Sales Flurry - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPVE1LNldLRWhOMGVxWFVaYXI1X2xiTi1lVy1CcUx1RVZsX0YxbmZDTGVRTVpHMHk0QzFJMUgzYzdnTXhXR1pYTFMySUdVbVhlaVhmMVB1aXB5QTYwcDEyR1pvbk1sV3N5dTdVaWxnd2FBZEhjYWM1VzRNbmdlRU1uS19iZGRzdVhwcUoyUl9uYlh6Vy1OMjZHUGt5eno5ZTRfazkyR1BLaE96UFpvS1VRckJoMm01QQ?oc=5\" target=\"_blank\">Saudis Ease Asia Oil Crunch With 100-Million-Barrel Sales Flurry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVE1LNldLRWhOMGVxWFVaYXI1X2xiTi1lVy1CcUx1RVZsX0YxbmZDTGVRTVpHMHk0QzFJMUgzYzdnTXhXR1pYTFMySUdVbVhlaVhmMVB1aXB5QTYwcDEyR1pvbk1sV3N5dTdVaWxnd2FBZEhjYWM1VzRNbmdlRU1uS19iZGRzdVhwcUoyUl9uYlh6Vy1OMjZHUGt5eno5ZTRfazkyR1BLaE96UFpvS1VRckJoMm01QQ?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-25T00:13:36.398266Z"
-    },
-    {
-      "id": "e16a0d045ace0ddb98bd7ddffa09c9d5",
-      "title": "Trump-Xi summit live: US president hosts state dinner with tech leaders",
-      "summary": "",
-      "link": "https://asia.nikkei.com/spotlight/trump-xi-summit/trump-xi-summit-live-us-president-hosts-state-dinner-with-tech-leaders",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-25T00:13:28.561475Z"
-    },
-    {
-      "id": "6dabcfdda14c5a3c964aea90d66dd449",
-      "title": "European Stocks Edge Lower as Rising Global Bond Yields Weigh - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNMkZ4QlRjNW42VWJUUjNoeWNvcVBlU2o2SFFXNWtJN05CanJTTE1QRm5SYWtrREdMeTNXU1o3UnNHeVdpOVFjOGtwbmF2dVJYeGFkVDUzVXkzN2NHbm1wbWNwRmFXR1lKUjhXV3hwenNENnB0aUtlaXllUmtWS19BYjY5ZmRrOUNJMlV2bW05YjBNSTZCRkZrbmx5UUo4ZnB1LXcySHhLeWtFMFFmMzl0Y3hB?oc=5\" target=\"_blank\">European Stocks Edge Lower as Rising Global Bond Yields Weigh</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMkZ4QlRjNW42VWJUUjNoeWNvcVBlU2o2SFFXNWtJN05CanJTTE1QRm5SYWtrREdMeTNXU1o3UnNHeVdpOVFjOGtwbmF2dVJYeGFkVDUzVXkzN2NHbm1wbWNwRmFXR1lKUjhXV3hwenNENnB0aUtlaXllUmtWS19BYjY5ZmRrOUNJMlV2bW05YjBNSTZCRkZrbmx5UUo4ZnB1LXcySHhLeWtFMFFmMzl0Y3hB?oc=5",
-      "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "RATES",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "EQUITIES",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-25T00:13:36.398615Z"
-    },
-    {
-      "id": "1eec8a0c4afc842c6bd86d4b8fe154a3",
-      "title": "Tumbling Global Government Bonds Put Yields on Brink of 4% - bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOMmlsLUVaTWhVR2FsdFc3WUd4dEp6UjFyT3k1bFlXcUtZenVyV3lYY1Yxb29VRmstc2FEY2E3anV5YnBZUllCWVpDQkxuTy1OVUZzdFZtV1dEZHRBM2F0TDE5ZENEMlBGNHFYbEhNSkM5ZDJxUl9DVXF2bjkwTGlxVS10UHlfcUdsNm5OX0VndF9mMjdwRm4xTldDLUJ4LWhCX1RkaThNNXFrempD?oc=5\" target=\"_blank\">Tumbling Global Government Bonds Put Yields on Brink of 4%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMmlsLUVaTWhVR2FsdFc3WUd4dEp6UjFyT3k1bFlXcUtZenVyV3lYY1Yxb29VRmstc2FEY2E3anV5YnBZUllCWVpDQkxuTy1OVUZzdFZtV1dEZHRBM2F0TDE5ZENEMlBGNHFYbEhNSkM5ZDJxUl9DVXF2bjkwTGlxVS10UHlfcUdsNm5OX0VndF9mMjdwRm4xTldDLUJ4LWhCX1RkaThNNXFrempD?oc=5",
+      "id": "ed6b4de69ef8bf7fc5d47d854ea28d86",
+      "title": "Global bond selloff deepens, as US 30-year yields hit highest since 2004 - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOG41MExjN21pM3Z3V2JFMGkydXNYQW5YSEFfbTd2N2pOenR6R3pKQ0ZVWnVQZElXXzdBSXNLdTl4Q0ZPMzItVkIzR3hWNjZrMUNRZzJsa2xYQVNvQ1h2REJuNW1HTGpCb2lsdjdyWkZacjV6NnI1aHA4Y2JFN0sxYm5TYlBTSkhGWkd6b2dWaWNpbTVHYkhWb0lnNFo1al9scmVqT0tXZkh5ZFU?oc=5\" target=\"_blank\">Global bond selloff deepens, as US 30-year yields hit highest since 2004</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOG41MExjN21pM3Z3V2JFMGkydXNYQW5YSEFfbTd2N2pOenR6R3pKQ0ZVWnVQZElXXzdBSXNLdTl4Q0ZPMzItVkIzR3hWNjZrMUNRZzJsa2xYQVNvQ1h2REJuNW1HTGpCb2lsdjdyWkZacjV6NnI1aHA4Y2JFN0sxYm5TYlBTSkhGWkd6b2dWaWNpbTVHYkhWb0lnNFo1al9scmVqT0tXZkh5ZFU?oc=5",
       "source": "Google Macro",
       "score": 1,
       "severity": "LOW",
@@ -469,7 +637,7 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-25T00:13:36.398457Z"
+      "published": "2026-09-25T00:18:26.938550Z"
     }
   ]
 }
