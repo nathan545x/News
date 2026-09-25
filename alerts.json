@@ -1,81 +1,465 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-25T14:14:15.670291Z",
+  "generated_at": "2026-09-25T14:18:44.121382Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "COMMODITIES",
+    "dominant_driver": "COMMODITIES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-09-25T14:14:15.670303Z"
+    "critical_alerts": 2,
+    "high_alerts": 2,
+    "last_updated": "2026-09-25T14:18:44.121397Z"
   },
   "top_signals": [
     {
-      "id": "0e5a429505ad17991a8e1e7e4a96917d",
-      "title": "Magic Eden legacy approvals leave $5.7 million in NFTs exposed to exploit before rescue",
-      "summary": "Magic Eden legacy approvals exposed $5.7 million in NFTs to an exploit before whitehats rescued 23,155 tokens.",
-      "link": "https://www.theblock.co/news/web3/2026-09-25-magic-eden-legacy-approvals-leave-5-7-million-in-nfts-exposed-to-exploit-before-rescue-416874",
-      "source": "The Block",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
+      "id": "b72b7e202bb71c291d82a32f4a187b93",
+      "title": "Stocks Pare Gains After Consumer Sentiment Data: Markets Wrap",
+      "summary": "Stocks pared gains as data showed US consumer sentiment has deteriorated amid concerns about inflation, overshadowing a decline in oil prices at the end of a jittery week.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-24/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-25T14:14:12.063661Z"
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-25T14:17:37.719271Z"
     },
     {
-      "id": "b7dd404667244de99827dcd4068ef4a3",
-      "title": "Kalshi\u2019s Embrace of Sports Betting Tests Rules for Prediction Markets - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOdGVkaTVwYVNudnJOWEQzRWpkZVV2WkF2bTJTYmlmdkM1SzNZb2U3TFcwWHRTUjRrZDRfUVlQamp3bWl3WktrNnBZUlFoa09fVlZRZjhSMVhueVJtSVkwZ245ZHE4Rl90YjVQNEJ4MlAwZVZjcmdwTk1tWG9Lak9NV3EycEN4OHB4VUFHVGN1S2tQbzdDWXphRDRrV3RZUGRMdmVTaVhuaUFLbXoxUUE?oc=5\" target=\"_blank\">Kalshi\u2019s Embrace of Sports Betting Tests Rules for Prediction Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdGVkaTVwYVNudnJOWEQzRWpkZVV2WkF2bTJTYmlmdkM1SzNZb2U3TFcwWHRTUjRrZDRfUVlQamp3bWl3WktrNnBZUlFoa09fVlZRZjhSMVhueVJtSVkwZ245ZHE4Rl90YjVQNEJ4MlAwZVZjcmdwTk1tWG9Lak9NV3EycEN4OHB4VUFHVGN1S2tQbzdDWXphRDRrV3RZUGRMdmVTaVhuaUFLbXoxUUE?oc=5",
+      "id": "aa7e18720d6893893fe49f2901d50c47",
+      "title": "The outlook for inflation \u2212 speech by Clare Lombardelli",
+      "summary": "Given at the Sixth Biennial Conference on Macroeconomic Policy, Warsaw",
+      "link": "https://www.bankofengland.co.uk/speech/2026/september/clare-lombardelli-speech-at-the-sixth-biennial-conference-poland",
+      "source": "Bank of England",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-25T14:18:25.112391Z"
+    },
+    {
+      "id": "6e7dceb5f100d677f83875c8b30bf2e6",
+      "title": "What goes into diesel prices?",
+      "summary": "The price of distillate fuel oil, often sold as diesel, is driven by the price of crude oil, retail margins, distribution costs, taxes, and crack spreads, the indicator we use for refining margins. Tight global supplies of distillate fuel oil and elevated crude oil prices have driven prices higher in recent months.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68164",
+      "source": "EIA",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-25T14:18:38.171094Z"
+    },
+    {
+      "id": "b17dd89a0aea972f41b3fddcbb1492ea",
+      "title": "What the End of Operation Inherent Resolve Means for Iraq and Syria",
+      "summary": "<p>Operation Inherent Resolve is scheduled to end on Sept. 30, as remaining U.S. troops in northern Iraq complete their withdrawal. The United States formed Combined Joint Task Force &#8211; Operation Inherent Resolve in October 2014 to bring together partners to combat the Islamic State of Iraq and the Levant (ISIL), which had seized territory in parts of Iraq and Syria. The end of Operation Inherent Resolve highlights the success of coalition efforts against ISIL but also raises questions about future political stability and security in Iraq and Syria &#8212; and whether ISIL could rise again. The U.S. departure from northern</p>\n<p>The post <a href=\"https://warontherocks.com/what-the-end-of-operation-inherent-resolve-means-for-iraq-and-syria/\">What the End of Operation Inherent Resolve Means for Iraq and Syria</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/what-the-end-of-operation-inherent-resolve-means-for-iraq-and-syria/",
+      "source": "War on the Rocks",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-25T14:18:39.652913Z"
+    },
+    {
+      "id": "664970fed1b93d3a01eaf6d04aaebfac",
+      "title": "Malawi Rare Earths Mine in Production This Year, Lindian Says",
+      "summary": "A rare earths mining project that could play a vital role in lifting economic development in Malawi is on course to start production in coming months, according to the owner, Australia\u2019s Lindian Resources Ltd.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-25/malawi-rare-earths-mine-in-production-this-year-lindian-says",
+      "source": "Bloomberg",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-25T14:17:37.719356Z"
+    },
+    {
+      "id": "15d3f1104a2b7c2a1d50745ee7b5de9d",
+      "title": "Iraq Offers Last-Minute Oil Cargoes as Record Freight Costs Bite - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQczhsLTRRZmhXWGRUbXBaa1BPZEQyNk5hckxPcGF2ODlUaWNIanRVRTBRcEdfUlppZUwwYnEwbmhYWmc4YnRRekZRSThSN3Bfczk1NGdERW0tOEFydUFrd1RQMW1nQjZKc09JeW5uN2xEVnFtV3NoMExaUTRlZEljV2JYblZXVFcwUFRDSlRMOE1halBWRXpaRWpNZHRDT1BVNUI4UE9qOURjb0R1c1RIdVdrc25Xdw?oc=5\" target=\"_blank\">Iraq Offers Last-Minute Oil Cargoes as Record Freight Costs Bite</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQczhsLTRRZmhXWGRUbXBaa1BPZEQyNk5hckxPcGF2ODlUaWNIanRVRTBRcEdfUlppZUwwYnEwbmhYWmc4YnRRekZRSThSN3Bfczk1NGdERW0tOEFydUFrd1RQMW1nQjZKc09JeW5uN2xEVnFtV3NoMExaUTRlZEljV2JYblZXVFcwUFRDSlRMOE1halBWRXpaRWpNZHRDT1BVNUI4UE9qOURjb0R1c1RIdVdrc25Xdw?oc=5",
       "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-25T14:18:41.858845Z"
+    },
+    {
+      "id": "70d1ea3b27cc2e66dd80487b8a97bb90",
+      "title": "Italy Pushes Refineries to Raise Fuel Output Amid Price Surge",
+      "summary": "Italy\u2019s industry and energy security ministers will meet with executives from the Italian refining sector in early October to discuss how refineries could raise diesel and gasoline production to help lower the record-high fuel prices. Adolfo Urso, the Industry Minister, and his Environment and Energy Security colleague, Gilberto Pichetto Fratin, have invited refining industry executives to a meeting on October 8 to discuss potential measures to boost domestic fuel output, Italy\u2019s Industry Ministry said on Friday. Representatives from\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Italy-Pushes-Refineries-to-Raise-Fuel-Output-Amid-Price-Surge.html",
+      "source": "OilPrice",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-25T14:18:38.472633Z"
+    },
+    {
+      "id": "6c96abbcd583794655c8bf7417c3d45c",
+      "title": "Mbappe-Tied Shoe Stock Can\u2019t Shake Bear After Buzzy Investor Day",
+      "summary": "On Holding AG\u2019s upbeat investor day didn\u2019t sway Jefferies from its bearish view that many of the athletic brand\u2019s big goals aren\u2019t feasible due to the narrow focus of its business.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-25/mbappe-tied-shoe-stock-can-t-shake-bear-after-buzzy-investor-day",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-25T14:14:15.097214Z"
+      "published": "2026-09-25T14:17:37.719414Z"
     }
   ],
   "alerts": [
     {
-      "id": "0e5a429505ad17991a8e1e7e4a96917d",
-      "title": "Magic Eden legacy approvals leave $5.7 million in NFTs exposed to exploit before rescue",
-      "summary": "Magic Eden legacy approvals exposed $5.7 million in NFTs to an exploit before whitehats rescued 23,155 tokens.",
-      "link": "https://www.theblock.co/news/web3/2026-09-25-magic-eden-legacy-approvals-leave-5-7-million-in-nfts-exposed-to-exploit-before-rescue-416874",
-      "source": "The Block",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
+      "id": "b72b7e202bb71c291d82a32f4a187b93",
+      "title": "Stocks Pare Gains After Consumer Sentiment Data: Markets Wrap",
+      "summary": "Stocks pared gains as data showed US consumer sentiment has deteriorated amid concerns about inflation, overshadowing a decline in oil prices at the end of a jittery week.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-24/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-25T14:14:12.063661Z"
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-25T14:17:37.719271Z"
     },
     {
-      "id": "b7dd404667244de99827dcd4068ef4a3",
-      "title": "Kalshi\u2019s Embrace of Sports Betting Tests Rules for Prediction Markets - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOdGVkaTVwYVNudnJOWEQzRWpkZVV2WkF2bTJTYmlmdkM1SzNZb2U3TFcwWHRTUjRrZDRfUVlQamp3bWl3WktrNnBZUlFoa09fVlZRZjhSMVhueVJtSVkwZ245ZHE4Rl90YjVQNEJ4MlAwZVZjcmdwTk1tWG9Lak9NV3EycEN4OHB4VUFHVGN1S2tQbzdDWXphRDRrV3RZUGRMdmVTaVhuaUFLbXoxUUE?oc=5\" target=\"_blank\">Kalshi\u2019s Embrace of Sports Betting Tests Rules for Prediction Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdGVkaTVwYVNudnJOWEQzRWpkZVV2WkF2bTJTYmlmdkM1SzNZb2U3TFcwWHRTUjRrZDRfUVlQamp3bWl3WktrNnBZUlFoa09fVlZRZjhSMVhueVJtSVkwZ245ZHE4Rl90YjVQNEJ4MlAwZVZjcmdwTk1tWG9Lak9NV3EycEN4OHB4VUFHVGN1S2tQbzdDWXphRDRrV3RZUGRMdmVTaVhuaUFLbXoxUUE?oc=5",
+      "id": "aa7e18720d6893893fe49f2901d50c47",
+      "title": "The outlook for inflation \u2212 speech by Clare Lombardelli",
+      "summary": "Given at the Sixth Biennial Conference on Macroeconomic Policy, Warsaw",
+      "link": "https://www.bankofengland.co.uk/speech/2026/september/clare-lombardelli-speech-at-the-sixth-biennial-conference-poland",
+      "source": "Bank of England",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-25T14:18:25.112391Z"
+    },
+    {
+      "id": "6e7dceb5f100d677f83875c8b30bf2e6",
+      "title": "What goes into diesel prices?",
+      "summary": "The price of distillate fuel oil, often sold as diesel, is driven by the price of crude oil, retail margins, distribution costs, taxes, and crack spreads, the indicator we use for refining margins. Tight global supplies of distillate fuel oil and elevated crude oil prices have driven prices higher in recent months.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68164",
+      "source": "EIA",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-25T14:18:38.171094Z"
+    },
+    {
+      "id": "b17dd89a0aea972f41b3fddcbb1492ea",
+      "title": "What the End of Operation Inherent Resolve Means for Iraq and Syria",
+      "summary": "<p>Operation Inherent Resolve is scheduled to end on Sept. 30, as remaining U.S. troops in northern Iraq complete their withdrawal. The United States formed Combined Joint Task Force &#8211; Operation Inherent Resolve in October 2014 to bring together partners to combat the Islamic State of Iraq and the Levant (ISIL), which had seized territory in parts of Iraq and Syria. The end of Operation Inherent Resolve highlights the success of coalition efforts against ISIL but also raises questions about future political stability and security in Iraq and Syria &#8212; and whether ISIL could rise again. The U.S. departure from northern</p>\n<p>The post <a href=\"https://warontherocks.com/what-the-end-of-operation-inherent-resolve-means-for-iraq-and-syria/\">What the End of Operation Inherent Resolve Means for Iraq and Syria</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/what-the-end-of-operation-inherent-resolve-means-for-iraq-and-syria/",
+      "source": "War on the Rocks",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-25T14:18:39.652913Z"
+    },
+    {
+      "id": "664970fed1b93d3a01eaf6d04aaebfac",
+      "title": "Malawi Rare Earths Mine in Production This Year, Lindian Says",
+      "summary": "A rare earths mining project that could play a vital role in lifting economic development in Malawi is on course to start production in coming months, according to the owner, Australia\u2019s Lindian Resources Ltd.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-25/malawi-rare-earths-mine-in-production-this-year-lindian-says",
+      "source": "Bloomberg",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-25T14:17:37.719356Z"
+    },
+    {
+      "id": "15d3f1104a2b7c2a1d50745ee7b5de9d",
+      "title": "Iraq Offers Last-Minute Oil Cargoes as Record Freight Costs Bite - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQczhsLTRRZmhXWGRUbXBaa1BPZEQyNk5hckxPcGF2ODlUaWNIanRVRTBRcEdfUlppZUwwYnEwbmhYWmc4YnRRekZRSThSN3Bfczk1NGdERW0tOEFydUFrd1RQMW1nQjZKc09JeW5uN2xEVnFtV3NoMExaUTRlZEljV2JYblZXVFcwUFRDSlRMOE1halBWRXpaRWpNZHRDT1BVNUI4UE9qOURjb0R1c1RIdVdrc25Xdw?oc=5\" target=\"_blank\">Iraq Offers Last-Minute Oil Cargoes as Record Freight Costs Bite</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQczhsLTRRZmhXWGRUbXBaa1BPZEQyNk5hckxPcGF2ODlUaWNIanRVRTBRcEdfUlppZUwwYnEwbmhYWmc4YnRRekZRSThSN3Bfczk1NGdERW0tOEFydUFrd1RQMW1nQjZKc09JeW5uN2xEVnFtV3NoMExaUTRlZEljV2JYblZXVFcwUFRDSlRMOE1halBWRXpaRWpNZHRDT1BVNUI4UE9qOURjb0R1c1RIdVdrc25Xdw?oc=5",
       "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-25T14:18:41.858845Z"
+    },
+    {
+      "id": "70d1ea3b27cc2e66dd80487b8a97bb90",
+      "title": "Italy Pushes Refineries to Raise Fuel Output Amid Price Surge",
+      "summary": "Italy\u2019s industry and energy security ministers will meet with executives from the Italian refining sector in early October to discuss how refineries could raise diesel and gasoline production to help lower the record-high fuel prices. Adolfo Urso, the Industry Minister, and his Environment and Energy Security colleague, Gilberto Pichetto Fratin, have invited refining industry executives to a meeting on October 8 to discuss potential measures to boost domestic fuel output, Italy\u2019s Industry Ministry said on Friday. Representatives from\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Italy-Pushes-Refineries-to-Raise-Fuel-Output-Amid-Price-Surge.html",
+      "source": "OilPrice",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-25T14:18:38.472633Z"
+    },
+    {
+      "id": "6c96abbcd583794655c8bf7417c3d45c",
+      "title": "Mbappe-Tied Shoe Stock Can\u2019t Shake Bear After Buzzy Investor Day",
+      "summary": "On Holding AG\u2019s upbeat investor day didn\u2019t sway Jefferies from its bearish view that many of the athletic brand\u2019s big goals aren\u2019t feasible due to the narrow focus of its business.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-25/mbappe-tied-shoe-stock-can-t-shake-bear-after-buzzy-investor-day",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-25T14:14:15.097214Z"
+      "published": "2026-09-25T14:17:37.719414Z"
     }
   ]
 }
