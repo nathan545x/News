@@ -1,26 +1,27 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-28T14:58:46.031482Z",
+  "generated_at": "2026-09-28T15:04:24.289368Z",
   "market_regime": {
     "regime": "RATES",
     "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 3,
-    "last_updated": "2026-09-28T14:58:46.031498Z"
+    "critical_alerts": 3,
+    "high_alerts": 4,
+    "last_updated": "2026-09-28T15:04:24.289387Z"
   },
   "top_signals": [
     {
-      "id": "3b79e0bf0f03ecbd40651dbc8b831e8e",
-      "title": "US Stocks Fall as Yields Climb to Multi-Year Highs: Markets Wrap",
-      "summary": "A stalemate between the US and Iran boosted oil prices, dragging down stocks and bonds on concerns that elevated energy costs could fuel inflation and trigger further Federal Reserve rate hikes.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-27/stock-market-today-dow-s-p-live-updates",
+      "id": "19f92fb2812d33f6fa5a2ae4e29a49b7",
+      "title": "S&P 500 Falls as Inflation Worry Lifts Bond Yields",
+      "summary": "A stalemate between the US and Iran boosted\u00a0oil prices, dragging down\u00a0stocks\u00a0and\u00a0bonds\u00a0on concerns that elevated energy costs could fuel inflation and trigger further\u00a0Federal Reserve\u00a0rate hikes.\nDrew Matus, Chief Market Strategist at Metlife Investment Management, discusses his market outlook. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-28/s-p-500-falls-as-inflation-worry-lifts-bond-yields-video",
       "source": "Bloomberg",
-      "score": 46,
+      "score": 52,
       "severity": "CRITICAL",
       "regime": "RATES",
       "tickers": [
+        "SPY",
         "WTI"
       ],
       "regions": [
@@ -42,22 +43,83 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-28T14:57:44.970304Z"
+      "published": "2026-09-28T15:03:15.978126Z"
     },
     {
-      "id": "377ee36179d7c9e6aae9734f61efb8a4",
-      "title": "Airlink founder Steve Smith named to lead Airforwarders Association",
-      "summary": "<p> The Airforwarders Association has appointed Steve Smith, with a long record in disaster response logistics, as its new executive director in Washington.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/airlink-founder-steve-smith-named-to-lead-airforwarders-association\">Airlink founder Steve Smith named to lead Airforwarders Association</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/airlink-founder-steve-smith-named-to-lead-airforwarders-association",
-      "source": "FreightWaves",
-      "score": 24,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
+      "id": "3c0efaf9004e6317986c07a4879b73e8",
+      "title": "Nvidia Up on Share-Repurchase Program; Mining Stocks Slide | Stock Movers",
+      "summary": "On this episode of Stock Movers:\n\n- Nvidia (NVDA) shares are up after the board of the leader in AI chips authorized an additional $150 billion under the company\u2019s existing share-repurchase program. The move increases the total remaining amount authorized to $235 billion.\n- Australia\u2019s Northern Star Resources Ltd. rejected a takeover approach from South African rival Gold Fields Ltd. that could have created the second-largest gold miner, saying the A$38.7 billion ($27.1 billion) cash-and-shares offer undervalued its business.\n- Roblox (RBLX) was cut to underperform from hold at Jefferies, which said the stock\u2019s 30% rally since the gaming company\u2019s second-quarter results in July reflects an overly optimistic view of bookings for the next 12 months. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-28/nvidia-share-repurchase-program-mining-stocks-slide-video",
+      "source": "Bloomberg",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "NVDA",
+        "XAU"
+      ],
       "regions": [],
       "assets": [
         "AI",
-        "SHIPPING"
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-28T15:03:15.978288Z"
+    },
+    {
+      "id": "3c31b79783cbb7535ca1a0750e537e51",
+      "title": "Nvidia releases software platform to stop AI agents from misbehaving",
+      "summary": "Nvidia says its new software could have prevented OpenAI's Hugging Face incident.",
+      "link": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+      "source": "CNBC",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-28T15:03:20.965099Z"
+    },
+    {
+      "id": "8ce6240f029aeadd6a13052b08913def",
+      "title": "A TV series shows Britain is woefully unprepared for war",
+      "summary": "Sky\u2019s \u2018The Wargame\u2019 may be fiction but the defence vulnerabilities it reveals are very real",
+      "link": "https://www.ft.com/content/65da4f68-2699-4491-a38d-bcc18cde14ac",
+      "source": "Financial Times",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -73,22 +135,52 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-28T14:58:39.638588Z"
+      "published": "2026-09-28T15:03:19.458422Z"
     },
     {
-      "id": "d2b1f293bd2f4bee1dfb00e4b68ef43f",
-      "title": "Vietnam Air Jet Deployed Brakes Twice Before Botched Takeoff",
-      "summary": "A Boeing Co. 787 aircraft operated by Vietnam Airlines JSC had its brakes activated twice while barreling down the runway at Munich Airport last month, leading to a perilously late takeoff and the plane\u2019s tail striking the ground, a report found.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-28/vietnam-jet-deployed-brakes-twice-before-botched-munich-takeoff",
-      "source": "Bloomberg",
+      "id": "9c4cbd12dbfb9a01f8047d70a3c805e1",
+      "title": "Two-Month Trade Truce Extension Leaves Markets Cold After Trump-Xi Summit",
+      "summary": "Donald Trump gave Xi Jinping the full state-visit treatment in Washington, but markets were more interested in what the two leaders did not deliver. After three days of ceremony, an unusually warm presidential welcome and repeated pledges to stabilize relations between the world's two largest economies, the main economic outcome was a two-month extension of the existing U.S.-China trade truce, pushing its expiration from November 10 to January 10, 2027. That averted an immediate return to escalation, but fell short of the longer runway many investors\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Two-Month-Trade-Truce-Extension-Leaves-Markets-Cold-After-Trump-Xi-Summit.html",
+      "source": "OilPrice",
       "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-28T15:04:16.150509Z"
+    },
+    {
+      "id": "dbb121995ead9c8572057c5bbaa23e37",
+      "title": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
+      "summary": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "AI"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -101,17 +193,70 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-28T14:57:44.970389Z"
+      "published": "2026-09-28T15:03:21.514965Z"
     },
     {
-      "id": "638b822f3abe1783bd00f9dc07036953",
-      "title": "Chainlink launches new version of its crypto bridge tech 'CCIP' to give apps more control over their security",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/09/28/chainlink-updates-its-crypto-bridge-tech-months-after-a-usd292-million-hack-shook-the-industry",
-      "source": "CoinDesk",
-      "score": 15,
+      "id": "472924031f12a2e32742aa57b000293c",
+      "title": "Barr, A Long-Term View on the Costs of Shelter",
+      "summary": "Speech At \u201cHousing Affordability 2026:  A Community Development Summit,\u201d hosted by the Federal Reserve Bank of Chicago, Chicago, Illinois",
+      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260923a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
       "severity": "HIGH",
-      "regime": "CRYPTO",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-28T15:03:21.626490Z"
+    },
+    {
+      "id": "8608f3fecc993829b056d6af3d022f4c",
+      "title": "Post-Covid economic inactivity was much lower than thought, ONS says",
+      "summary": "Findings come days after agency said UK productivity grew twice as fast as estimated after global financial crisis",
+      "link": "https://www.ft.com/content/78ec0e04-d6db-41a9-a2eb-a794c80d270c?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-28T15:03:19.458362Z"
+    },
+    {
+      "id": "7cc65316db2624e8ccaf91f2c9e2044b",
+      "title": "EU nails down five defense priority areas to channel common spending",
+      "summary": "Drones, counter-drone tech, air defense, seabed defense and eastern flank protection top the EU's list of desired capability areas.",
+      "link": "https://www.defensenews.com/global/europe/2026/09/28/eu-nails-down-five-defense-priority-areas-to-channel-common-spending/",
+      "source": "Defense News",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -119,68 +264,76 @@
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "USD"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-28T14:58:41.503960Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-28T15:04:17.679578Z"
     },
     {
-      "id": "0df4dbe8bcff8e2261dd8387f528e33c",
-      "title": "Bitget CEO says $388M hack exploited third-party security vulnerability",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitget CEO says $388M hack exploited third-party security vulnerability\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3M6M7JQDFWAMH8RRVX8PYCQ/crypto-market-manipulation-bitget.jpg\" /></p><p>Some stolen assets have been frozen, but Bitget has yet to disclose how much has been recovered as investigators continue to assess a possible North Korea link.</p>",
-      "link": "https://cointelegraph.com/news/bitget-388m-hack-third-party-security-vulnerability?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "CRYPTO",
-      "tickers": [],
+      "id": "58763e35e9b484ca7c425599056a5210",
+      "title": "Bond sell-off deepens as oil prices rise - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOcWVDcjI5dWgwWXpWMGhLWm1aMFRlQXUzNlhNekN5amMyYzcxSFdaVVFEVTVoY2hEWDM5N0ZOeEg2Z2ZWY2ZJbXEtbUdnOGtGVUZyOGRtZFpJN3J4aXoyN3BjRGZyOVIzd1o4bHBNc2hxQzlPcGJQQ0cwM21nVDFubXhFWDc?oc=5\" target=\"_blank\">Bond sell-off deepens as oil prices rise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcWVDcjI5dWgwWXpWMGhLWm1aMFRlQXUzNlhNekN5amMyYzcxSFdaVVFEVTVoY2hEWDM5N0ZOeEg2Z2ZWY2ZJbXEtbUdnOGtGVUZyOGRtZFpJN3J4aXoyN3BjRGZyOVIzd1o4bHBNc2hxQzlPcGJQQ0cwM21nVDFubXhFWDc?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "COMMODITIES"
+      ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "USD"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-28T14:58:41.653048Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-28T15:04:22.929969Z"
     },
     {
-      "id": "558e42dc0942b2f59fb5489b23811df9",
-      "title": "The Trump administration is making a mockery of protecting immigrants",
-      "summary": "DHS now says that a decision \"will be made at the appropriate time,\" in effect suspending the immigrants and their families in a fearful limbo.",
-      "link": "https://www.japantimes.co.jp/commentary/2026/09/28/world/us-mockery-of-protecting-immigrants/",
-      "source": "Japan Times",
+      "id": "f307501e8828e0fe5e3402e4c8f5633f",
+      "title": "Germany's Gas Storage Sits at 57%, but VNG Says Winter Supply Is Covered",
+      "summary": "Thanks to diversified import capabilities, Germany doesn\u2019t face a gas supply shortage despite record-low levels of natural gas in storage sites, according to one of the biggest German gas importers, VNG.\u00a0 \u201cCompared to 2022, the system is much more robust overall. We have more access to liquefied natural gas (LNG) and we have broadened our overall position in terms of sources of supply,\u201d VNG\u2019s chief executive officer Ulf Heitmueller told Reuters in an interview published on Monday. VNG imports natural gas from Norway\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Germanys-Gas-Storage-Sits-at-57-but-VNG-Says-Winter-Supply-Is-Covered.html",
+      "source": "OilPrice",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "GERMANY"
+      ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-28T14:58:37.393801Z"
+      "published": "2026-09-28T15:04:16.150652Z"
     }
   ],
   "alerts": [
     {
-      "id": "3b79e0bf0f03ecbd40651dbc8b831e8e",
-      "title": "US Stocks Fall as Yields Climb to Multi-Year Highs: Markets Wrap",
-      "summary": "A stalemate between the US and Iran boosted oil prices, dragging down stocks and bonds on concerns that elevated energy costs could fuel inflation and trigger further Federal Reserve rate hikes.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-27/stock-market-today-dow-s-p-live-updates",
+      "id": "19f92fb2812d33f6fa5a2ae4e29a49b7",
+      "title": "S&P 500 Falls as Inflation Worry Lifts Bond Yields",
+      "summary": "A stalemate between the US and Iran boosted\u00a0oil prices, dragging down\u00a0stocks\u00a0and\u00a0bonds\u00a0on concerns that elevated energy costs could fuel inflation and trigger further\u00a0Federal Reserve\u00a0rate hikes.\nDrew Matus, Chief Market Strategist at Metlife Investment Management, discusses his market outlook. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-28/s-p-500-falls-as-inflation-worry-lifts-bond-yields-video",
       "source": "Bloomberg",
-      "score": 46,
+      "score": 52,
       "severity": "CRITICAL",
       "regime": "RATES",
       "tickers": [
+        "SPY",
         "WTI"
       ],
       "regions": [
@@ -202,22 +355,83 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-28T14:57:44.970304Z"
+      "published": "2026-09-28T15:03:15.978126Z"
     },
     {
-      "id": "377ee36179d7c9e6aae9734f61efb8a4",
-      "title": "Airlink founder Steve Smith named to lead Airforwarders Association",
-      "summary": "<p> The Airforwarders Association has appointed Steve Smith, with a long record in disaster response logistics, as its new executive director in Washington.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/airlink-founder-steve-smith-named-to-lead-airforwarders-association\">Airlink founder Steve Smith named to lead Airforwarders Association</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/airlink-founder-steve-smith-named-to-lead-airforwarders-association",
-      "source": "FreightWaves",
-      "score": 24,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
+      "id": "3c0efaf9004e6317986c07a4879b73e8",
+      "title": "Nvidia Up on Share-Repurchase Program; Mining Stocks Slide | Stock Movers",
+      "summary": "On this episode of Stock Movers:\n\n- Nvidia (NVDA) shares are up after the board of the leader in AI chips authorized an additional $150 billion under the company\u2019s existing share-repurchase program. The move increases the total remaining amount authorized to $235 billion.\n- Australia\u2019s Northern Star Resources Ltd. rejected a takeover approach from South African rival Gold Fields Ltd. that could have created the second-largest gold miner, saying the A$38.7 billion ($27.1 billion) cash-and-shares offer undervalued its business.\n- Roblox (RBLX) was cut to underperform from hold at Jefferies, which said the stock\u2019s 30% rally since the gaming company\u2019s second-quarter results in July reflects an overly optimistic view of bookings for the next 12 months. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-28/nvidia-share-repurchase-program-mining-stocks-slide-video",
+      "source": "Bloomberg",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "NVDA",
+        "XAU"
+      ],
       "regions": [],
       "assets": [
         "AI",
-        "SHIPPING"
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-28T15:03:15.978288Z"
+    },
+    {
+      "id": "3c31b79783cbb7535ca1a0750e537e51",
+      "title": "Nvidia releases software platform to stop AI agents from misbehaving",
+      "summary": "Nvidia says its new software could have prevented OpenAI's Hugging Face incident.",
+      "link": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+      "source": "CNBC",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-28T15:03:20.965099Z"
+    },
+    {
+      "id": "8ce6240f029aeadd6a13052b08913def",
+      "title": "A TV series shows Britain is woefully unprepared for war",
+      "summary": "Sky\u2019s \u2018The Wargame\u2019 may be fiction but the defence vulnerabilities it reveals are very real",
+      "link": "https://www.ft.com/content/65da4f68-2699-4491-a38d-bcc18cde14ac",
+      "source": "Financial Times",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -233,22 +447,52 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-28T14:58:39.638588Z"
+      "published": "2026-09-28T15:03:19.458422Z"
     },
     {
-      "id": "d2b1f293bd2f4bee1dfb00e4b68ef43f",
-      "title": "Vietnam Air Jet Deployed Brakes Twice Before Botched Takeoff",
-      "summary": "A Boeing Co. 787 aircraft operated by Vietnam Airlines JSC had its brakes activated twice while barreling down the runway at Munich Airport last month, leading to a perilously late takeoff and the plane\u2019s tail striking the ground, a report found.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-28/vietnam-jet-deployed-brakes-twice-before-botched-munich-takeoff",
-      "source": "Bloomberg",
+      "id": "9c4cbd12dbfb9a01f8047d70a3c805e1",
+      "title": "Two-Month Trade Truce Extension Leaves Markets Cold After Trump-Xi Summit",
+      "summary": "Donald Trump gave Xi Jinping the full state-visit treatment in Washington, but markets were more interested in what the two leaders did not deliver. After three days of ceremony, an unusually warm presidential welcome and repeated pledges to stabilize relations between the world's two largest economies, the main economic outcome was a two-month extension of the existing U.S.-China trade truce, pushing its expiration from November 10 to January 10, 2027. That averted an immediate return to escalation, but fell short of the longer runway many investors\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Two-Month-Trade-Truce-Extension-Leaves-Markets-Cold-After-Trump-Xi-Summit.html",
+      "source": "OilPrice",
       "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-28T15:04:16.150509Z"
+    },
+    {
+      "id": "dbb121995ead9c8572057c5bbaa23e37",
+      "title": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
+      "summary": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "AI"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -261,17 +505,70 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-28T14:57:44.970389Z"
+      "published": "2026-09-28T15:03:21.514965Z"
     },
     {
-      "id": "638b822f3abe1783bd00f9dc07036953",
-      "title": "Chainlink launches new version of its crypto bridge tech 'CCIP' to give apps more control over their security",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/09/28/chainlink-updates-its-crypto-bridge-tech-months-after-a-usd292-million-hack-shook-the-industry",
-      "source": "CoinDesk",
-      "score": 15,
+      "id": "472924031f12a2e32742aa57b000293c",
+      "title": "Barr, A Long-Term View on the Costs of Shelter",
+      "summary": "Speech At \u201cHousing Affordability 2026:  A Community Development Summit,\u201d hosted by the Federal Reserve Bank of Chicago, Chicago, Illinois",
+      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260923a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
       "severity": "HIGH",
-      "regime": "CRYPTO",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-28T15:03:21.626490Z"
+    },
+    {
+      "id": "8608f3fecc993829b056d6af3d022f4c",
+      "title": "Post-Covid economic inactivity was much lower than thought, ONS says",
+      "summary": "Findings come days after agency said UK productivity grew twice as fast as estimated after global financial crisis",
+      "link": "https://www.ft.com/content/78ec0e04-d6db-41a9-a2eb-a794c80d270c?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-28T15:03:19.458362Z"
+    },
+    {
+      "id": "7cc65316db2624e8ccaf91f2c9e2044b",
+      "title": "EU nails down five defense priority areas to channel common spending",
+      "summary": "Drones, counter-drone tech, air defense, seabed defense and eastern flank protection top the EU's list of desired capability areas.",
+      "link": "https://www.defensenews.com/global/europe/2026/09/28/eu-nails-down-five-defense-priority-areas-to-channel-common-spending/",
+      "source": "Defense News",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -279,55 +576,62 @@
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "USD"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-28T14:58:41.503960Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-28T15:04:17.679578Z"
     },
     {
-      "id": "0df4dbe8bcff8e2261dd8387f528e33c",
-      "title": "Bitget CEO says $388M hack exploited third-party security vulnerability",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitget CEO says $388M hack exploited third-party security vulnerability\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3M6M7JQDFWAMH8RRVX8PYCQ/crypto-market-manipulation-bitget.jpg\" /></p><p>Some stolen assets have been frozen, but Bitget has yet to disclose how much has been recovered as investigators continue to assess a possible North Korea link.</p>",
-      "link": "https://cointelegraph.com/news/bitget-388m-hack-third-party-security-vulnerability?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "CRYPTO",
-      "tickers": [],
+      "id": "58763e35e9b484ca7c425599056a5210",
+      "title": "Bond sell-off deepens as oil prices rise - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOcWVDcjI5dWgwWXpWMGhLWm1aMFRlQXUzNlhNekN5amMyYzcxSFdaVVFEVTVoY2hEWDM5N0ZOeEg2Z2ZWY2ZJbXEtbUdnOGtGVUZyOGRtZFpJN3J4aXoyN3BjRGZyOVIzd1o4bHBNc2hxQzlPcGJQQ0cwM21nVDFubXhFWDc?oc=5\" target=\"_blank\">Bond sell-off deepens as oil prices rise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcWVDcjI5dWgwWXpWMGhLWm1aMFRlQXUzNlhNekN5amMyYzcxSFdaVVFEVTVoY2hEWDM5N0ZOeEg2Z2ZWY2ZJbXEtbUdnOGtGVUZyOGRtZFpJN3J4aXoyN3BjRGZyOVIzd1o4bHBNc2hxQzlPcGJQQ0cwM21nVDFubXhFWDc?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "COMMODITIES"
+      ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "USD"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-28T14:58:41.653048Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-28T15:04:22.929969Z"
     },
     {
-      "id": "558e42dc0942b2f59fb5489b23811df9",
-      "title": "The Trump administration is making a mockery of protecting immigrants",
-      "summary": "DHS now says that a decision \"will be made at the appropriate time,\" in effect suspending the immigrants and their families in a fearful limbo.",
-      "link": "https://www.japantimes.co.jp/commentary/2026/09/28/world/us-mockery-of-protecting-immigrants/",
-      "source": "Japan Times",
+      "id": "f307501e8828e0fe5e3402e4c8f5633f",
+      "title": "Germany's Gas Storage Sits at 57%, but VNG Says Winter Supply Is Covered",
+      "summary": "Thanks to diversified import capabilities, Germany doesn\u2019t face a gas supply shortage despite record-low levels of natural gas in storage sites, according to one of the biggest German gas importers, VNG.\u00a0 \u201cCompared to 2022, the system is much more robust overall. We have more access to liquefied natural gas (LNG) and we have broadened our overall position in terms of sources of supply,\u201d VNG\u2019s chief executive officer Ulf Heitmueller told Reuters in an interview published on Monday. VNG imports natural gas from Norway\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Germanys-Gas-Storage-Sits-at-57-but-VNG-Says-Winter-Supply-Is-Covered.html",
+      "source": "OilPrice",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "GERMANY"
+      ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-28T14:58:37.393801Z"
+      "published": "2026-09-28T15:04:16.150652Z"
     }
   ]
 }
