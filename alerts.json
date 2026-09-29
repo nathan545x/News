@@ -1,55 +1,108 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-29T18:48:05.043173Z",
+  "generated_at": "2026-09-29T18:53:51.043704Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "INFLATION",
+    "dominant_driver": "INFLATION",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 5,
-    "last_updated": "2026-09-29T18:48:05.043188Z"
+    "critical_alerts": 0,
+    "high_alerts": 2,
+    "last_updated": "2026-09-29T18:53:51.043719Z"
   },
   "top_signals": [
     {
-      "id": "c91adf908ccb8989f8d4d82b7d422f6d",
-      "title": "Stocks Churn as Long-Term Yields Hit 24-Year High: Markets Wrap",
-      "summary": "A decline in oil prices did little to allay Wall Street\u2019s concerns that still-elevated energy costs could fuel inflation and spur Federal Reserve interest-rate hikes.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-28/stock-market-today-dow-s-p-live-updates",
+      "id": "9508247124b7a103c21bc8ccdba9e38b",
+      "title": "Bank of Canada on Monetary Policy",
+      "summary": "Toni Gravelle, Deputy Governor, Bank of Canada, discusses the outlook for monetary policy, inflation and risks facing Canada\u2019s economy and financial system, with Bloomberg\u2019s Christine Dobby at the 2026 Bloomberg Canadian Finance Conference. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-29/bank-of-canada-on-monetary-policy-video",
       "source": "Bloomberg",
-      "score": 38,
-      "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "WTI"
-      ],
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-29T18:52:41.326355Z"
+    },
+    {
+      "id": "c86c5d35ed2d2f92a52203707be4e793",
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
+      "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "source": "KrebsOnSecurity",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
       "regions": [],
       "assets": [
-        "COMMODITIES",
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-29T18:47:04.561474Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T18:53:47.483195Z"
     },
     {
-      "id": "078bb04dacb40b50fc7f528f2c74599e",
-      "title": "Trump touts AI self regulation, benefits of data centers in meeting with top tech leaders",
-      "summary": "The artificial intelligence luncheon comes as calls for a slowdown and regulation reach a fever pitch",
-      "link": "https://www.cnbc.com/2026/09/29/tech-white-house-ai-lunch-trump.html",
+      "id": "8c53c9678da455980b123ca043866286",
+      "title": "Bitcoin ETF inflows leave institutional demand unclear: CoinShares",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin ETF inflows leave institutional demand unclear: CoinShares\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3PB1SXVHKJ0HQNAKV23AYKN/hi-blackrocks-bitcoin-etf-how-it-works-benefits-and-opportunities-1.jpg\" /></p><p>CoinShares says IBIT offers clues to institutional buying, but basis trades mean inflows are not necessarily bets on rising Bitcoin prices.</p>",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-mixed-read-institutional-demand-coinshares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-29T18:53:45.948055Z"
+    },
+    {
+      "id": "e9cb62736630e7d5ef059778f3245b13",
+      "title": "House Speaker Johnson says he hopes AI guardrails are 'voluntary' amid Congress inaction",
+      "summary": "House Speaker Mike Johnson is scheduled for lunch Tuesday with President Trump and AI industry executives.",
+      "link": "https://www.cnbc.com/2026/09/29/ai-safety-regulation-mike-johnson-congress.html",
       "source": "CNBC",
-      "score": 20,
-      "severity": "HIGH",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -65,193 +118,35 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-29T18:47:08.344494Z"
+      "published": "2026-09-29T18:52:47.301103Z"
     },
     {
-      "id": "f2d8c5cb53e53a79d0dfafe4efc87493",
-      "title": "Iranians stagger under soaring costs of seven months of war - reuters.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZkZiODJvYlVSWTFTXzU5NnY5dV9vQzAya01EME94cUZRdmtITkpwTnR2UWVLX0gtY2hOX0k5bE1mbUpSSjhGMU43NDRqQkJJaWVVVmt6d1p3cmJnVGdJQkg3U0RtUTZXVDRzVUNJdnB3bDdiUmVLTDF0ZXc1a3FnTi1qMVNOZUxxeVFZR1JxbDZUaFVmT2RIWDlTN292SFBUZlVYUDZwNG0?oc=5\" target=\"_blank\">Iranians stagger under soaring costs of seven months of war</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">reuters.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZkZiODJvYlVSWTFTXzU5NnY5dV9vQzAya01EME94cUZRdmtITkpwTnR2UWVLX0gtY2hOX0k5bE1mbUpSSjhGMU43NDRqQkJJaWVVVmt6d1p3cmJnVGdJQkg3U0RtUTZXVDRzVUNJdnB3bDdiUmVLTDF0ZXc1a3FnTi1qMVNOZUxxeVFZR1JxbDZUaFVmT2RIWDlTN292SFBUZlVYUDZwNG0?oc=5",
-      "source": "Google Macro",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
+      "id": "58d47638a380fbc5b8ff73a963073859",
+      "title": "Keynote speech by Commissioner Dombrovskis at the European Forum for Family Business",
+      "summary": "European Commission Speech Brussels, 29 Sep 2026 Good evening, ladies and gentlemen. Thank you for the invitation to join you this evening.\nFamily businesses hold a special place in the European economy. You r...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2012",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
       ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-29T18:48:03.244375Z"
-    },
-    {
-      "id": "5acbc1fe37599e34dd811245c84225c8",
-      "title": "Trump says US will win Iran war 'very soon' - reuters.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOTG94TG8yOEo5eWNpRUFIUkMta1JRQ2RPZUJiTWxVbXdfdENtbmJxOXZOYUgxRTY5YUJ5eW92Z2tSUWtoVGVobXhhUk5CTkVBMW1rMndfR2FldUZud05YSkZuSFZRSmZQTU1xbmhSTFQyd3ozTk5LYVp1OGZzWGRvWWt6clZ1UzViY2JhMVVlODhvSFNTQno0Y1ZKOA?oc=5\" target=\"_blank\">Trump says US will win Iran war 'very soon'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">reuters.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTG94TG8yOEo5eWNpRUFIUkMta1JRQ2RPZUJiTWxVbXdfdENtbmJxOXZOYUgxRTY5YUJ5eW92Z2tSUWtoVGVobXhhUk5CTkVBMW1rMndfR2FldUZud05YSkZuSFZRSmZQTU1xbmhSTFQyd3ozTk5LYVp1OGZzWGRvWWt6clZ1UzViY2JhMVVlODhvSFNTQno0Y1ZKOA?oc=5",
-      "source": "Google Macro",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
       "regions": [
-        "MIDDLE_EAST",
-        "UK"
+        "EUROPE"
       ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-29T18:48:03.244523Z"
-    },
-    {
-      "id": "5306f9e8f664c14a925b5f6d87f22360",
-      "title": "Russia to cut welfare, education funding in 2027 as war spending soars - reuters.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWUVoVnpYNzFMVk5lcmMxM1BfREoxTVhaTmcxU3ItcXZMRjVfU3FfSEtVZ0lTdmVTcmF2cDZyTkJWaGI1dHhzNnc2cU1PaktCaHc1WXJ6ZWswNVoteGp1ZDJfSHd2MFluTEI4WjJHNWRmRy1WV05Nd2U5c1JaNjZmZ2t4YlVoM2w4MXYyUkRZRHdYaTYyRE1vMk5vaUNNNmdpS1dNLVdmc2g?oc=5\" target=\"_blank\">Russia to cut welfare, education funding in 2027 as war spending soars</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">reuters.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWUVoVnpYNzFMVk5lcmMxM1BfREoxTVhaTmcxU3ItcXZMRjVfU3FfSEtVZ0lTdmVTcmF2cDZyTkJWaGI1dHhzNnc2cU1PaktCaHc1WXJ6ZWswNVoteGp1ZDJfSHd2MFluTEI4WjJHNWRmRy1WV05Nd2U5c1JaNjZmZ2t4YlVoM2w4MXYyUkRZRHdYaTYyRE1vMk5vaUNNNmdpS1dNLVdmc2g?oc=5",
-      "source": "Google Macro",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "RUSSIA",
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-29T18:48:03.244271Z"
-    },
-    {
-      "id": "a2ba825b9eb508504f2c186a2593fd1f",
-      "title": "Trump denies offering Iran sanctions relief, Tehran says it is ready for talks - reuters.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPODNDSVp4Qi1GQVY3bEJ2d0dpZzVBbEU4NUpYQzBpV2QwaW9uVGdwdHJnQkstVFlUSTNRazRHaUVFOVFWOTJXRjhnS2dncDBNLVVsa0JiWC0zN3ktZXdvV0tWN3FrakF4aUZIX0w2RjMwVHJWc0lBZUpYU09SWmsyUmdQd3dJdXh1N3lTb1pDZ1ZEYkhOUTVPV0lhak9YM3ZxTm1vR1BmRnFnZjNUMWF0M1NabHhLblkxd05FM3dn?oc=5\" target=\"_blank\">Trump denies offering Iran sanctions relief, Tehran says it is ready for talks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">reuters.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPODNDSVp4Qi1GQVY3bEJ2d0dpZzVBbEU4NUpYQzBpV2QwaW9uVGdwdHJnQkstVFlUSTNRazRHaUVFOVFWOTJXRjhnS2dncDBNLVVsa0JiWC0zN3ktZXdvV0tWN3FrakF4aUZIX0w2RjMwVHJWc0lBZUpYU09SWmsyUmdQd3dJdXh1N3lTb1pDZ1ZEYkhOUTVPV0lhak9YM3ZxTm1vR1BmRnFnZjNUMWF0M1NabHhLblkxd05FM3dn?oc=5",
-      "source": "Google Macro",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-29T18:48:03.244479Z"
-    },
-    {
-      "id": "dbde181f8a8b90dde8eadca04e266797",
-      "title": "Fed\u2019s Williams Hints Next Rate Increase Can Wait - wsj.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPUlJqZW8zbmpLc2tYN0lzcHhDaEdoNHp3cHBmVjVnSF9GVElVTmV4NkZpeklLTVNfTHRCZ1pUX3FpOGE5ckoxbllKX3hwQ19CMjBkMi0yRmpGeDZoRWxpa0owNlVScDktSjlIOUxsaWxORUx0T3QzSm9pelRxd2xwSU4xQlBMYllsNkJjUFRka2oyQi0xVkZyTVdwZi1Hald0NWdNTTlLMlJVUm82YmFtUE1VV2NYTWVWX1E?oc=5\" target=\"_blank\">Fed\u2019s Williams Hints Next Rate Increase Can Wait</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUlJqZW8zbmpLc2tYN0lzcHhDaEdoNHp3cHBmVjVnSF9GVElVTmV4NkZpeklLTVNfTHRCZ1pUX3FpOGE5ckoxbllKX3hwQ19CMjBkMi0yRmpGeDZoRWxpa0owNlVScDktSjlIOUxsaWxORUx0T3QzSm9pelRxd2xwSU4xQlBMYllsNkJjUFRka2oyQi0xVkZyTVdwZi1Hald0NWdNTTlLMlJVUm82YmFtUE1VV2NYTWVWX1E?oc=5",
-      "source": "Google Macro",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
       "assets": [
-        "AI"
+        "FX"
       ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-29T18:48:04.422198Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-29T18:53:33.385073Z"
     },
     {
-      "id": "9f408cf5c205f38b8e9bdaa87d63314b",
-      "title": "US forces exit Iraq after two decades, leaving opening for Iran - reuters.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPalJlU2twR3RkNzhyVlFwZmJkZmg3RXQ3VEpxTFowU2dhY1pEeG8wZWlLQ2NVb0lNUERZQXRSdThEbWdxdGx6aExDVkFGNHdUVkZwRFlSclVvYWxEVk5wTFlYQVZmblBJUlcxZ180Sm9YdWtXNDZoZkVfYVQ5aDR1VTZIMGFRWnNsVEs5LVJWMkVXWmpaVnIzd2hBTzl5M1pIenM3c09RaW41aEVoOWRSRkNB?oc=5\" target=\"_blank\">US forces exit Iraq after two decades, leaving opening for Iran</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">reuters.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPalJlU2twR3RkNzhyVlFwZmJkZmg3RXQ3VEpxTFowU2dhY1pEeG8wZWlLQ2NVb0lNUERZQXRSdThEbWdxdGx6aExDVkFGNHdUVkZwRFlSclVvYWxEVk5wTFlYQVZmblBJUlcxZ180Sm9YdWtXNDZoZkVfYVQ5aDR1VTZIMGFRWnNsVEs5LVJWMkVXWmpaVnIzd2hBTzl5M1pIenM3c09RaW41aEVoOWRSRkNB?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-29T18:48:03.244428Z"
-    },
-    {
-      "id": "e707a11eef13d4f4562885cc2e38a3bb",
-      "title": "Soaring cancer rates in Iowa emerge as a key US midterms issue - reuters.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUEJkMzJPVUdxcURGcjEwcG1CbzJGc2c2Z2VybVU1N1JiajVGWFV0VjcxQUVtbXk4TGFJRHpnRGdQMUhxd1k2QUFHZjRDWTJTVldNXzI2REl0alIxS3VtM2RNSTZVNW5HX2stT0N1WlhyZmF5a3FGTWZJU1hTd2Uzbk4wT3RIQ1c1TjV3X1NaTS1aVFJGN05Gb1FMZFpoSWQ4Y1ZoWG9VVm9ubE53YlZ5YzNmRjVfNkQwVTh1bElsRUM?oc=5\" target=\"_blank\">Soaring cancer rates in Iowa emerge as a key US midterms issue</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">reuters.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUEJkMzJPVUdxcURGcjEwcG1CbzJGc2c2Z2VybVU1N1JiajVGWFV0VjcxQUVtbXk4TGFJRHpnRGdQMUhxd1k2QUFHZjRDWTJTVldNXzI2REl0alIxS3VtM2RNSTZVNW5HX2stT0N1WlhyZmF5a3FGTWZJU1hTd2Uzbk4wT3RIQ1c1TjV3X1NaTS1aVFJGN05Gb1FMZFpoSWQ4Y1ZoWG9VVm9ubE53YlZ5YzNmRjVfNkQwVTh1bElsRUM?oc=5",
+      "id": "8541310e8ff36fa78d882184ecde84da",
+      "title": "Kenya High Court Pauses Dangote Refinery Construction in Lamu - Bloomberg",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPWkx4R2Rybkt5SlF2QzhLTV9jdVVWeTNEOHlyY2FNaTFxUWlQMjdzY1RxeDNtamplblRkN3hqYWNRLW5saGt3ZUctY3dXZ2Fsc0hPaE9wdUx2b2tMdnUyMjJmS2NaUGNsQmpDRDI3MjJfR3R3dGFhdGtEV3hnR1Y0c0M4YWJOUlJjOHMzQVhObzA1ZjlGS1cwRzVZZmJMMjYyOXFTYVVSRGt0eE1TNk1aTU9HNF9GNkpSelFGVGZB?oc=5\" target=\"_blank\">Kenya High Court Pauses Dangote Refinery Construction in Lamu</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWkx4R2Rybkt5SlF2QzhLTV9jdVVWeTNEOHlyY2FNaTFxUWlQMjdzY1RxeDNtamplblRkN3hqYWNRLW5saGt3ZUctY3dXZ2Fsc0hPaE9wdUx2b2tMdnUyMjJmS2NaUGNsQmpDRDI3MjJfR3R3dGFhdGtEV3hnR1Y0c0M4YWJOUlJjOHMzQVhObzA1ZjlGS1cwRzVZZmJMMjYyOXFTYVVSRGt0eE1TNk1aTU9HNF9GNkpSelFGVGZB?oc=5",
       "source": "Google Macro",
       "score": 1,
       "severity": "LOW",
@@ -261,49 +156,120 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-29T18:48:03.244328Z"
+      "published": "2026-09-29T18:53:48.530861Z"
+    },
+    {
+      "id": "d317549bb18f9fb6eb7e8ba79dfb58d8",
+      "title": "Battered bond market braces for a new era of interest rates - reuters.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFJEcnNjUGNwM1N4MlNkdG1pZ0VwVmt4cWhUZ2t0UkN4aHlRNzVyR3hCd2dUMG1FRWszT05VOUN4MUhDSGhXQUhIamhNWWJJNUpGXzZWcFc2Mk5Hcl9yNXBaaWVDVDlZQWg0d2xIRGl0RFhqWjJlR1ZORGlrNXRmdGZxSF9URFQ3Zzc5d2dER1g4U3hvZDZXMHNKVlhFaGRBRmRKRVJR?oc=5\" target=\"_blank\">Battered bond market braces for a new era of interest rates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">reuters.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFJEcnNjUGNwM1N4MlNkdG1pZ0VwVmt4cWhUZ2t0UkN4aHlRNzVyR3hCd2dUMG1FRWszT05VOUN4MUhDSGhXQUhIamhNWWJJNUpGXzZWcFc2Mk5Hcl9yNXBaaWVDVDlZQWg0d2xIRGl0RFhqWjJlR1ZORGlrNXRmdGZxSF9URFQ3Zzc5d2dER1g4U3hvZDZXMHNKVlhFaGRBRmRKRVJR?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-29T18:53:49.155317Z"
     }
   ],
   "alerts": [
     {
-      "id": "c91adf908ccb8989f8d4d82b7d422f6d",
-      "title": "Stocks Churn as Long-Term Yields Hit 24-Year High: Markets Wrap",
-      "summary": "A decline in oil prices did little to allay Wall Street\u2019s concerns that still-elevated energy costs could fuel inflation and spur Federal Reserve interest-rate hikes.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-28/stock-market-today-dow-s-p-live-updates",
+      "id": "9508247124b7a103c21bc8ccdba9e38b",
+      "title": "Bank of Canada on Monetary Policy",
+      "summary": "Toni Gravelle, Deputy Governor, Bank of Canada, discusses the outlook for monetary policy, inflation and risks facing Canada\u2019s economy and financial system, with Bloomberg\u2019s Christine Dobby at the 2026 Bloomberg Canadian Finance Conference. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-29/bank-of-canada-on-monetary-policy-video",
       "source": "Bloomberg",
-      "score": 38,
-      "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [
-        "WTI"
-      ],
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-29T18:52:41.326355Z"
+    },
+    {
+      "id": "c86c5d35ed2d2f92a52203707be4e793",
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
+      "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "source": "KrebsOnSecurity",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
       "regions": [],
       "assets": [
-        "COMMODITIES",
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-29T18:47:04.561474Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T18:53:47.483195Z"
     },
     {
-      "id": "078bb04dacb40b50fc7f528f2c74599e",
-      "title": "Trump touts AI self regulation, benefits of data centers in meeting with top tech leaders",
-      "summary": "The artificial intelligence luncheon comes as calls for a slowdown and regulation reach a fever pitch",
-      "link": "https://www.cnbc.com/2026/09/29/tech-white-house-ai-lunch-trump.html",
+      "id": "8c53c9678da455980b123ca043866286",
+      "title": "Bitcoin ETF inflows leave institutional demand unclear: CoinShares",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin ETF inflows leave institutional demand unclear: CoinShares\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3PB1SXVHKJ0HQNAKV23AYKN/hi-blackrocks-bitcoin-etf-how-it-works-benefits-and-opportunities-1.jpg\" /></p><p>CoinShares says IBIT offers clues to institutional buying, but basis trades mean inflows are not necessarily bets on rising Bitcoin prices.</p>",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-mixed-read-institutional-demand-coinshares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-29T18:53:45.948055Z"
+    },
+    {
+      "id": "e9cb62736630e7d5ef059778f3245b13",
+      "title": "House Speaker Johnson says he hopes AI guardrails are 'voluntary' amid Congress inaction",
+      "summary": "House Speaker Mike Johnson is scheduled for lunch Tuesday with President Trump and AI industry executives.",
+      "link": "https://www.cnbc.com/2026/09/29/ai-safety-regulation-mike-johnson-congress.html",
       "source": "CNBC",
-      "score": 20,
-      "severity": "HIGH",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -319,193 +285,35 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-29T18:47:08.344494Z"
+      "published": "2026-09-29T18:52:47.301103Z"
     },
     {
-      "id": "f2d8c5cb53e53a79d0dfafe4efc87493",
-      "title": "Iranians stagger under soaring costs of seven months of war - reuters.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZkZiODJvYlVSWTFTXzU5NnY5dV9vQzAya01EME94cUZRdmtITkpwTnR2UWVLX0gtY2hOX0k5bE1mbUpSSjhGMU43NDRqQkJJaWVVVmt6d1p3cmJnVGdJQkg3U0RtUTZXVDRzVUNJdnB3bDdiUmVLTDF0ZXc1a3FnTi1qMVNOZUxxeVFZR1JxbDZUaFVmT2RIWDlTN292SFBUZlVYUDZwNG0?oc=5\" target=\"_blank\">Iranians stagger under soaring costs of seven months of war</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">reuters.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZkZiODJvYlVSWTFTXzU5NnY5dV9vQzAya01EME94cUZRdmtITkpwTnR2UWVLX0gtY2hOX0k5bE1mbUpSSjhGMU43NDRqQkJJaWVVVmt6d1p3cmJnVGdJQkg3U0RtUTZXVDRzVUNJdnB3bDdiUmVLTDF0ZXc1a3FnTi1qMVNOZUxxeVFZR1JxbDZUaFVmT2RIWDlTN292SFBUZlVYUDZwNG0?oc=5",
-      "source": "Google Macro",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
+      "id": "58d47638a380fbc5b8ff73a963073859",
+      "title": "Keynote speech by Commissioner Dombrovskis at the European Forum for Family Business",
+      "summary": "European Commission Speech Brussels, 29 Sep 2026 Good evening, ladies and gentlemen. Thank you for the invitation to join you this evening.\nFamily businesses hold a special place in the European economy. You r...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2012",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
       ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-29T18:48:03.244375Z"
-    },
-    {
-      "id": "5acbc1fe37599e34dd811245c84225c8",
-      "title": "Trump says US will win Iran war 'very soon' - reuters.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOTG94TG8yOEo5eWNpRUFIUkMta1JRQ2RPZUJiTWxVbXdfdENtbmJxOXZOYUgxRTY5YUJ5eW92Z2tSUWtoVGVobXhhUk5CTkVBMW1rMndfR2FldUZud05YSkZuSFZRSmZQTU1xbmhSTFQyd3ozTk5LYVp1OGZzWGRvWWt6clZ1UzViY2JhMVVlODhvSFNTQno0Y1ZKOA?oc=5\" target=\"_blank\">Trump says US will win Iran war 'very soon'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">reuters.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTG94TG8yOEo5eWNpRUFIUkMta1JRQ2RPZUJiTWxVbXdfdENtbmJxOXZOYUgxRTY5YUJ5eW92Z2tSUWtoVGVobXhhUk5CTkVBMW1rMndfR2FldUZud05YSkZuSFZRSmZQTU1xbmhSTFQyd3ozTk5LYVp1OGZzWGRvWWt6clZ1UzViY2JhMVVlODhvSFNTQno0Y1ZKOA?oc=5",
-      "source": "Google Macro",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
       "regions": [
-        "MIDDLE_EAST",
-        "UK"
+        "EUROPE"
       ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-29T18:48:03.244523Z"
-    },
-    {
-      "id": "5306f9e8f664c14a925b5f6d87f22360",
-      "title": "Russia to cut welfare, education funding in 2027 as war spending soars - reuters.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWUVoVnpYNzFMVk5lcmMxM1BfREoxTVhaTmcxU3ItcXZMRjVfU3FfSEtVZ0lTdmVTcmF2cDZyTkJWaGI1dHhzNnc2cU1PaktCaHc1WXJ6ZWswNVoteGp1ZDJfSHd2MFluTEI4WjJHNWRmRy1WV05Nd2U5c1JaNjZmZ2t4YlVoM2w4MXYyUkRZRHdYaTYyRE1vMk5vaUNNNmdpS1dNLVdmc2g?oc=5\" target=\"_blank\">Russia to cut welfare, education funding in 2027 as war spending soars</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">reuters.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWUVoVnpYNzFMVk5lcmMxM1BfREoxTVhaTmcxU3ItcXZMRjVfU3FfSEtVZ0lTdmVTcmF2cDZyTkJWaGI1dHhzNnc2cU1PaktCaHc1WXJ6ZWswNVoteGp1ZDJfSHd2MFluTEI4WjJHNWRmRy1WV05Nd2U5c1JaNjZmZ2t4YlVoM2w4MXYyUkRZRHdYaTYyRE1vMk5vaUNNNmdpS1dNLVdmc2g?oc=5",
-      "source": "Google Macro",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "RUSSIA",
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-29T18:48:03.244271Z"
-    },
-    {
-      "id": "a2ba825b9eb508504f2c186a2593fd1f",
-      "title": "Trump denies offering Iran sanctions relief, Tehran says it is ready for talks - reuters.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPODNDSVp4Qi1GQVY3bEJ2d0dpZzVBbEU4NUpYQzBpV2QwaW9uVGdwdHJnQkstVFlUSTNRazRHaUVFOVFWOTJXRjhnS2dncDBNLVVsa0JiWC0zN3ktZXdvV0tWN3FrakF4aUZIX0w2RjMwVHJWc0lBZUpYU09SWmsyUmdQd3dJdXh1N3lTb1pDZ1ZEYkhOUTVPV0lhak9YM3ZxTm1vR1BmRnFnZjNUMWF0M1NabHhLblkxd05FM3dn?oc=5\" target=\"_blank\">Trump denies offering Iran sanctions relief, Tehran says it is ready for talks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">reuters.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPODNDSVp4Qi1GQVY3bEJ2d0dpZzVBbEU4NUpYQzBpV2QwaW9uVGdwdHJnQkstVFlUSTNRazRHaUVFOVFWOTJXRjhnS2dncDBNLVVsa0JiWC0zN3ktZXdvV0tWN3FrakF4aUZIX0w2RjMwVHJWc0lBZUpYU09SWmsyUmdQd3dJdXh1N3lTb1pDZ1ZEYkhOUTVPV0lhak9YM3ZxTm1vR1BmRnFnZjNUMWF0M1NabHhLblkxd05FM3dn?oc=5",
-      "source": "Google Macro",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-29T18:48:03.244479Z"
-    },
-    {
-      "id": "dbde181f8a8b90dde8eadca04e266797",
-      "title": "Fed\u2019s Williams Hints Next Rate Increase Can Wait - wsj.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPUlJqZW8zbmpLc2tYN0lzcHhDaEdoNHp3cHBmVjVnSF9GVElVTmV4NkZpeklLTVNfTHRCZ1pUX3FpOGE5ckoxbllKX3hwQ19CMjBkMi0yRmpGeDZoRWxpa0owNlVScDktSjlIOUxsaWxORUx0T3QzSm9pelRxd2xwSU4xQlBMYllsNkJjUFRka2oyQi0xVkZyTVdwZi1Hald0NWdNTTlLMlJVUm82YmFtUE1VV2NYTWVWX1E?oc=5\" target=\"_blank\">Fed\u2019s Williams Hints Next Rate Increase Can Wait</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wsj.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUlJqZW8zbmpLc2tYN0lzcHhDaEdoNHp3cHBmVjVnSF9GVElVTmV4NkZpeklLTVNfTHRCZ1pUX3FpOGE5ckoxbllKX3hwQ19CMjBkMi0yRmpGeDZoRWxpa0owNlVScDktSjlIOUxsaWxORUx0T3QzSm9pelRxd2xwSU4xQlBMYllsNkJjUFRka2oyQi0xVkZyTVdwZi1Hald0NWdNTTlLMlJVUm82YmFtUE1VV2NYTWVWX1E?oc=5",
-      "source": "Google Macro",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
       "assets": [
-        "AI"
+        "FX"
       ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-29T18:48:04.422198Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-29T18:53:33.385073Z"
     },
     {
-      "id": "9f408cf5c205f38b8e9bdaa87d63314b",
-      "title": "US forces exit Iraq after two decades, leaving opening for Iran - reuters.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPalJlU2twR3RkNzhyVlFwZmJkZmg3RXQ3VEpxTFowU2dhY1pEeG8wZWlLQ2NVb0lNUERZQXRSdThEbWdxdGx6aExDVkFGNHdUVkZwRFlSclVvYWxEVk5wTFlYQVZmblBJUlcxZ180Sm9YdWtXNDZoZkVfYVQ5aDR1VTZIMGFRWnNsVEs5LVJWMkVXWmpaVnIzd2hBTzl5M1pIenM3c09RaW41aEVoOWRSRkNB?oc=5\" target=\"_blank\">US forces exit Iraq after two decades, leaving opening for Iran</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">reuters.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPalJlU2twR3RkNzhyVlFwZmJkZmg3RXQ3VEpxTFowU2dhY1pEeG8wZWlLQ2NVb0lNUERZQXRSdThEbWdxdGx6aExDVkFGNHdUVkZwRFlSclVvYWxEVk5wTFlYQVZmblBJUlcxZ180Sm9YdWtXNDZoZkVfYVQ5aDR1VTZIMGFRWnNsVEs5LVJWMkVXWmpaVnIzd2hBTzl5M1pIenM3c09RaW41aEVoOWRSRkNB?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-29T18:48:03.244428Z"
-    },
-    {
-      "id": "e707a11eef13d4f4562885cc2e38a3bb",
-      "title": "Soaring cancer rates in Iowa emerge as a key US midterms issue - reuters.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUEJkMzJPVUdxcURGcjEwcG1CbzJGc2c2Z2VybVU1N1JiajVGWFV0VjcxQUVtbXk4TGFJRHpnRGdQMUhxd1k2QUFHZjRDWTJTVldNXzI2REl0alIxS3VtM2RNSTZVNW5HX2stT0N1WlhyZmF5a3FGTWZJU1hTd2Uzbk4wT3RIQ1c1TjV3X1NaTS1aVFJGN05Gb1FMZFpoSWQ4Y1ZoWG9VVm9ubE53YlZ5YzNmRjVfNkQwVTh1bElsRUM?oc=5\" target=\"_blank\">Soaring cancer rates in Iowa emerge as a key US midterms issue</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">reuters.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUEJkMzJPVUdxcURGcjEwcG1CbzJGc2c2Z2VybVU1N1JiajVGWFV0VjcxQUVtbXk4TGFJRHpnRGdQMUhxd1k2QUFHZjRDWTJTVldNXzI2REl0alIxS3VtM2RNSTZVNW5HX2stT0N1WlhyZmF5a3FGTWZJU1hTd2Uzbk4wT3RIQ1c1TjV3X1NaTS1aVFJGN05Gb1FMZFpoSWQ4Y1ZoWG9VVm9ubE53YlZ5YzNmRjVfNkQwVTh1bElsRUM?oc=5",
+      "id": "8541310e8ff36fa78d882184ecde84da",
+      "title": "Kenya High Court Pauses Dangote Refinery Construction in Lamu - Bloomberg",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPWkx4R2Rybkt5SlF2QzhLTV9jdVVWeTNEOHlyY2FNaTFxUWlQMjdzY1RxeDNtamplblRkN3hqYWNRLW5saGt3ZUctY3dXZ2Fsc0hPaE9wdUx2b2tMdnUyMjJmS2NaUGNsQmpDRDI3MjJfR3R3dGFhdGtEV3hnR1Y0c0M4YWJOUlJjOHMzQVhObzA1ZjlGS1cwRzVZZmJMMjYyOXFTYVVSRGt0eE1TNk1aTU9HNF9GNkpSelFGVGZB?oc=5\" target=\"_blank\">Kenya High Court Pauses Dangote Refinery Construction in Lamu</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWkx4R2Rybkt5SlF2QzhLTV9jdVVWeTNEOHlyY2FNaTFxUWlQMjdzY1RxeDNtamplblRkN3hqYWNRLW5saGt3ZUctY3dXZ2Fsc0hPaE9wdUx2b2tMdnUyMjJmS2NaUGNsQmpDRDI3MjJfR3R3dGFhdGtEV3hnR1Y0c0M4YWJOUlJjOHMzQVhObzA1ZjlGS1cwRzVZZmJMMjYyOXFTYVVSRGt0eE1TNk1aTU9HNF9GNkpSelFGVGZB?oc=5",
       "source": "Google Macro",
       "score": 1,
       "severity": "LOW",
@@ -515,7 +323,25 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-29T18:48:03.244328Z"
+      "published": "2026-09-29T18:53:48.530861Z"
+    },
+    {
+      "id": "d317549bb18f9fb6eb7e8ba79dfb58d8",
+      "title": "Battered bond market braces for a new era of interest rates - reuters.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFJEcnNjUGNwM1N4MlNkdG1pZ0VwVmt4cWhUZ2t0UkN4aHlRNzVyR3hCd2dUMG1FRWszT05VOUN4MUhDSGhXQUhIamhNWWJJNUpGXzZWcFc2Mk5Hcl9yNXBaaWVDVDlZQWg0d2xIRGl0RFhqWjJlR1ZORGlrNXRmdGZxSF9URFQ3Zzc5d2dER1g4U3hvZDZXMHNKVlhFaGRBRmRKRVJR?oc=5\" target=\"_blank\">Battered bond market braces for a new era of interest rates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">reuters.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFJEcnNjUGNwM1N4MlNkdG1pZ0VwVmt4cWhUZ2t0UkN4aHlRNzVyR3hCd2dUMG1FRWszT05VOUN4MUhDSGhXQUhIamhNWWJJNUpGXzZWcFc2Mk5Hcl9yNXBaaWVDVDlZQWg0d2xIRGl0RFhqWjJlR1ZORGlrNXRmdGZxSF9URFQ3Zzc5d2dER1g4U3hvZDZXMHNKVlhFaGRBRmRKRVJR?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-29T18:53:49.155317Z"
     }
   ]
 }
