@@ -1,31 +1,32 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-29T15:07:43.845087Z",
+  "generated_at": "2026-09-29T15:13:29.540028Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-09-29T15:07:43.845098Z"
+    "critical_alerts": 2,
+    "high_alerts": 5,
+    "last_updated": "2026-09-29T15:13:29.540055Z"
   },
   "top_signals": [
     {
-      "id": "a1a52de886ae0a884945444e669d7526",
-      "title": "US 30-Year Treasury Yield Rises to Highest Level Since 2002",
-      "summary": "Yields on the US Treasury\u2019s longest-dated bond rose for a sixth straight day, crossing another key threshold amid a deepening selloff across global debt markets.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-29/us-30-year-treasury-yield-approaches-highest-level-since-2002",
+      "id": "0947dbf3ed832701ea2488e4a335944e",
+      "title": "Treasury 30-Year Yield Hits Highest Since 2002: Markets Wrap",
+      "summary": "A decline in oil prices did little to allay Wall Street\u2019s concerns that still-elevated energy costs could fuel inflation and spur Federal Reserve interest-rate hikes.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-28/stock-market-today-dow-s-p-live-updates",
       "source": "Bloomberg",
-      "score": 17,
-      "severity": "HIGH",
+      "score": 42,
+      "severity": "CRITICAL",
       "regime": "RATES",
       "tickers": [
-        "TLT"
+        "TLT",
+        "WTI"
       ],
       "regions": [],
       "assets": [
-        "AI",
+        "COMMODITIES",
         "RATES"
       ],
       "market_impact": {
@@ -40,25 +41,307 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-29T15:06:41.760383Z"
+      "published": "2026-09-29T15:12:18.261424Z"
+    },
+    {
+      "id": "aa7e18720d6893893fe49f2901d50c47",
+      "title": "The outlook for inflation \u2212 speech by Clare Lombardelli",
+      "summary": "Given at the Sixth Biennial Conference on Macroeconomic Policy, Warsaw",
+      "link": "https://www.bankofengland.co.uk/speech/2026/september/clare-lombardelli-speech-at-the-sixth-biennial-conference-poland",
+      "source": "Bank of England",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T15:13:14.091658Z"
+    },
+    {
+      "id": "6e7dceb5f100d677f83875c8b30bf2e6",
+      "title": "What goes into diesel prices?",
+      "summary": "The price of distillate fuel oil, often sold as diesel, is driven by the price of crude oil, retail margins, distribution costs, taxes, and crack spreads, the indicator we use for refining margins. Tight global supplies of distillate fuel oil and elevated crude oil prices have driven prices higher in recent months.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68164",
+      "source": "EIA",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-29T15:13:22.789120Z"
+    },
+    {
+      "id": "1e5e2e980b4d3b19a6da2e3f3c3d94b8",
+      "title": "Cr\u00e9dito a inmigrantes cae m\u00e1s de 70% por ofensiva de Trump",
+      "summary": "La ofensiva migratoria de Trump est\u00e1 cambiando la relaci\u00f3n de muchos inmigrantes con los bancos en EE.UU. Algunos retiran el efectivo, piden menos pr\u00e9stamos y enfrentan mayores trabas para acceder al cr\u00e9dito. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-29/credito-a-inmigrantes-cae-por-ofensiva-de-trump-video",
+      "source": "Bloomberg",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T15:12:18.261474Z"
+    },
+    {
+      "id": "c557b99f0dae5d0a8cc6f3ee479be6f1",
+      "title": "Analysts see 10-year Treasury yield hitting 6%. Bitcoin bulls shouldn't panic",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/09/29/analysts-see-10-year-treasury-yield-hitting-6-bitcoin-bulls-shouldn-t-panic",
+      "source": "CoinDesk",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC",
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-29T15:13:25.703700Z"
+    },
+    {
+      "id": "f300b99f4e4cea2f1674f71c84c22cd3",
+      "title": "E-bike giants back Khan bid to end London \u2018Wild West\u2019",
+      "summary": "<p> <img alt=\"&quot;The &#039;Wild West&#039; approach to dockless e-bikes cannot continue&quot; said Khan\" src=\"https://www.cityam.com/wp-content/uploads/2026/04/Sadiq-Khan-1-e1777396238391.jpg?w=1200\" /> </p>London&#8217;s leading e-bike operators have backed Sadiq Khan&#8217;s bid to end the capital&#8217;s regulatory &#8216;Wild West&#8217; while piling pressure on the government to get a long-awaited city-wide licensing regime into force. Lime, Forest and Voi welcomed new plans to replace London&#8217;s borough-by-borough wars with a single framework overseen by Transport for London (TfL), after years <a href=\"https://www.cityam.com/e-bike-giants-back-khan-bid-to-end-london-wild-west/\">[...]</a>",
+      "link": "https://www.cityam.com/e-bike-giants-back-khan-bid-to-end-london-wild-west/",
+      "source": "CityAM",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T15:13:18.254780Z"
+    },
+    {
+      "id": "636749e4d5f064f608a80ea300a1c948",
+      "title": "Japan's Keio confirms ransomware attack disrupted business systems",
+      "summary": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting\u00a0 some of its business systems. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T15:13:26.110884Z"
+    },
+    {
+      "id": "32f78d242f63fbecf6793055f006af20",
+      "title": "Bain Capital Invests in AI Construction Tech Firm Kahua",
+      "summary": "Bain Capital\u2019s Tech Opportunities fund is taking a minority stake in AI enterprise construction platform Kahua in a deal valuing the Georgia-based company at more than $1 billion.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-29/bain-invests-in-construction-tech-firm-kahua-at-1-billion-value",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-29T15:12:18.261367Z"
+    },
+    {
+      "id": "72d099fdeab934506d5fe7adcf20a43c",
+      "title": "Bitcoin tests long-term holder supply cluster as leverage clears, analysts say",
+      "summary": "Bitcoin traded near $84,000 on Tuesday, near Glassnode's largest long-term holder cost-basis cluster price range.",
+      "link": "https://www.theblock.co/news/markets/2026-09-29-bitcoin-tests-long-term-holder-supply-cluster-leverage-clears-analysts-say-417162",
+      "source": "The Block",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-29T15:13:25.911093Z"
+    },
+    {
+      "id": "0b768a97db8e0f01b3e09c90f4839696",
+      "title": "British Airways avoids \u00a35.8m tax bill over Heathrow cabin crew accommodation",
+      "summary": "<p> <img alt=\"British Airways has won a \u00a35.8m tax appeal.\" src=\"https://www.cityam.com/wp-content/uploads/2024/06/Heathrow.jpeg?w=1200\" /> </p>British Airways has won a tax battle against HMRC over whether costs tied to cabin crew accommodation at London Heathrow Airport were subject to \u00a35.8m in income tax and national insurance contributions. Following an appeal in June, the Upper Tribunal ruled in favour of the airline on Monday, dismissing the tax authority&#8217;s claim and finding <a href=\"https://www.cityam.com/british-airways-avoids-5-8m-tax-bill-over-heathrow-cabin-crew-accommodation/\">[...]</a>",
+      "link": "https://www.cityam.com/british-airways-avoids-5-8m-tax-bill-over-heathrow-cabin-crew-accommodation/",
+      "source": "CityAM",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-29T15:13:18.254873Z"
+    },
+    {
+      "id": "0ea0c9c452c2269b175e6037848a85ed",
+      "title": "Kiteworks patches critical flaw, brings customer systems online",
+      "summary": "American tech company Kiteworks has lifted a precautionary advisory asking customers to shut down systems after patching a critical vulnerability. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
+      "source": "BleepingComputer",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-29T15:13:26.110832Z"
     }
   ],
   "alerts": [
     {
-      "id": "a1a52de886ae0a884945444e669d7526",
-      "title": "US 30-Year Treasury Yield Rises to Highest Level Since 2002",
-      "summary": "Yields on the US Treasury\u2019s longest-dated bond rose for a sixth straight day, crossing another key threshold amid a deepening selloff across global debt markets.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-29/us-30-year-treasury-yield-approaches-highest-level-since-2002",
+      "id": "0947dbf3ed832701ea2488e4a335944e",
+      "title": "Treasury 30-Year Yield Hits Highest Since 2002: Markets Wrap",
+      "summary": "A decline in oil prices did little to allay Wall Street\u2019s concerns that still-elevated energy costs could fuel inflation and spur Federal Reserve interest-rate hikes.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-28/stock-market-today-dow-s-p-live-updates",
       "source": "Bloomberg",
-      "score": 17,
-      "severity": "HIGH",
+      "score": 42,
+      "severity": "CRITICAL",
       "regime": "RATES",
       "tickers": [
-        "TLT"
+        "TLT",
+        "WTI"
       ],
       "regions": [],
       "assets": [
-        "AI",
+        "COMMODITIES",
         "RATES"
       ],
       "market_impact": {
@@ -73,7 +356,288 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-29T15:06:41.760383Z"
+      "published": "2026-09-29T15:12:18.261424Z"
+    },
+    {
+      "id": "aa7e18720d6893893fe49f2901d50c47",
+      "title": "The outlook for inflation \u2212 speech by Clare Lombardelli",
+      "summary": "Given at the Sixth Biennial Conference on Macroeconomic Policy, Warsaw",
+      "link": "https://www.bankofengland.co.uk/speech/2026/september/clare-lombardelli-speech-at-the-sixth-biennial-conference-poland",
+      "source": "Bank of England",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T15:13:14.091658Z"
+    },
+    {
+      "id": "6e7dceb5f100d677f83875c8b30bf2e6",
+      "title": "What goes into diesel prices?",
+      "summary": "The price of distillate fuel oil, often sold as diesel, is driven by the price of crude oil, retail margins, distribution costs, taxes, and crack spreads, the indicator we use for refining margins. Tight global supplies of distillate fuel oil and elevated crude oil prices have driven prices higher in recent months.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68164",
+      "source": "EIA",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-29T15:13:22.789120Z"
+    },
+    {
+      "id": "1e5e2e980b4d3b19a6da2e3f3c3d94b8",
+      "title": "Cr\u00e9dito a inmigrantes cae m\u00e1s de 70% por ofensiva de Trump",
+      "summary": "La ofensiva migratoria de Trump est\u00e1 cambiando la relaci\u00f3n de muchos inmigrantes con los bancos en EE.UU. Algunos retiran el efectivo, piden menos pr\u00e9stamos y enfrentan mayores trabas para acceder al cr\u00e9dito. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-29/credito-a-inmigrantes-cae-por-ofensiva-de-trump-video",
+      "source": "Bloomberg",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T15:12:18.261474Z"
+    },
+    {
+      "id": "c557b99f0dae5d0a8cc6f3ee479be6f1",
+      "title": "Analysts see 10-year Treasury yield hitting 6%. Bitcoin bulls shouldn't panic",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/09/29/analysts-see-10-year-treasury-yield-hitting-6-bitcoin-bulls-shouldn-t-panic",
+      "source": "CoinDesk",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC",
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-29T15:13:25.703700Z"
+    },
+    {
+      "id": "f300b99f4e4cea2f1674f71c84c22cd3",
+      "title": "E-bike giants back Khan bid to end London \u2018Wild West\u2019",
+      "summary": "<p> <img alt=\"&quot;The &#039;Wild West&#039; approach to dockless e-bikes cannot continue&quot; said Khan\" src=\"https://www.cityam.com/wp-content/uploads/2026/04/Sadiq-Khan-1-e1777396238391.jpg?w=1200\" /> </p>London&#8217;s leading e-bike operators have backed Sadiq Khan&#8217;s bid to end the capital&#8217;s regulatory &#8216;Wild West&#8217; while piling pressure on the government to get a long-awaited city-wide licensing regime into force. Lime, Forest and Voi welcomed new plans to replace London&#8217;s borough-by-borough wars with a single framework overseen by Transport for London (TfL), after years <a href=\"https://www.cityam.com/e-bike-giants-back-khan-bid-to-end-london-wild-west/\">[...]</a>",
+      "link": "https://www.cityam.com/e-bike-giants-back-khan-bid-to-end-london-wild-west/",
+      "source": "CityAM",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T15:13:18.254780Z"
+    },
+    {
+      "id": "636749e4d5f064f608a80ea300a1c948",
+      "title": "Japan's Keio confirms ransomware attack disrupted business systems",
+      "summary": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting\u00a0 some of its business systems. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T15:13:26.110884Z"
+    },
+    {
+      "id": "32f78d242f63fbecf6793055f006af20",
+      "title": "Bain Capital Invests in AI Construction Tech Firm Kahua",
+      "summary": "Bain Capital\u2019s Tech Opportunities fund is taking a minority stake in AI enterprise construction platform Kahua in a deal valuing the Georgia-based company at more than $1 billion.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-29/bain-invests-in-construction-tech-firm-kahua-at-1-billion-value",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-29T15:12:18.261367Z"
+    },
+    {
+      "id": "72d099fdeab934506d5fe7adcf20a43c",
+      "title": "Bitcoin tests long-term holder supply cluster as leverage clears, analysts say",
+      "summary": "Bitcoin traded near $84,000 on Tuesday, near Glassnode's largest long-term holder cost-basis cluster price range.",
+      "link": "https://www.theblock.co/news/markets/2026-09-29-bitcoin-tests-long-term-holder-supply-cluster-leverage-clears-analysts-say-417162",
+      "source": "The Block",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-29T15:13:25.911093Z"
+    },
+    {
+      "id": "0b768a97db8e0f01b3e09c90f4839696",
+      "title": "British Airways avoids \u00a35.8m tax bill over Heathrow cabin crew accommodation",
+      "summary": "<p> <img alt=\"British Airways has won a \u00a35.8m tax appeal.\" src=\"https://www.cityam.com/wp-content/uploads/2024/06/Heathrow.jpeg?w=1200\" /> </p>British Airways has won a tax battle against HMRC over whether costs tied to cabin crew accommodation at London Heathrow Airport were subject to \u00a35.8m in income tax and national insurance contributions. Following an appeal in June, the Upper Tribunal ruled in favour of the airline on Monday, dismissing the tax authority&#8217;s claim and finding <a href=\"https://www.cityam.com/british-airways-avoids-5-8m-tax-bill-over-heathrow-cabin-crew-accommodation/\">[...]</a>",
+      "link": "https://www.cityam.com/british-airways-avoids-5-8m-tax-bill-over-heathrow-cabin-crew-accommodation/",
+      "source": "CityAM",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-29T15:13:18.254873Z"
+    },
+    {
+      "id": "0ea0c9c452c2269b175e6037848a85ed",
+      "title": "Kiteworks patches critical flaw, brings customer systems online",
+      "summary": "American tech company Kiteworks has lifted a precautionary advisory asking customers to shut down systems after patching a critical vulnerability. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
+      "source": "BleepingComputer",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-29T15:13:26.110832Z"
     }
   ]
 }
