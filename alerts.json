@@ -1,40 +1,64 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-29T11:53:55.292584Z",
+  "generated_at": "2026-09-29T11:57:54.269773Z",
   "market_regime": {
     "regime": "GEO-SHOCK",
     "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-09-29T11:53:55.292598Z"
+    "critical_alerts": 0,
+    "high_alerts": 3,
+    "last_updated": "2026-09-29T11:57:54.269783Z"
   },
   "top_signals": [
     {
-      "id": "33cb5e50d2f24153e017e0ba950a7015",
-      "title": "Gilts Lead European Bonds Higher as Energy Prices Retreat",
-      "summary": "Gilts extended gains across the curve, with benchmark UK 10-year yields almost 7bps lower as oil and natural gas prices fell to new lows on the day. The moves followed reports that EU officials do not expect the US to ban diesel exports and that Qatar is holding meetings with the US and Iran over the conflict in the Middle East.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-29/gilts-lead-european-bonds-higher-as-energy-prices-retreat",
+      "id": "6da9d5c263f3c6b6ccf79b2f2e8258fa",
+      "title": "Copper Edges Higher After Chile Mine Union Rejects Pay Offer",
+      "summary": "Copper held above $14,400 a ton in London, as workers at a major mining operation in Chile voted to strike after wage talks failed.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-29/copper-edges-higher-as-chile-mine-dispute-raises-supply-concerns",
       "source": "Bloomberg",
-      "score": 65,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
       "tickers": [
-        "EUR",
-        "UK_GILTS",
-        "WTI"
+        "COPPER"
       ],
       "regions": [
-        "EUROPE",
-        "MIDDLE_EAST",
         "UK"
       ],
       "assets": [
         "AI",
-        "COMMODITIES",
-        "FX",
-        "RATES"
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-29T11:56:37.595517Z"
+    },
+    {
+      "id": "7e6ead7b4ead0f8fbe7878cc7bdf47c5",
+      "title": "The Stalemate With Iran Is Not Sustainable",
+      "summary": "A diplomatic strategy to end the war.",
+      "link": "https://www.foreignaffairs.com/iran/stalemate-iran-not-sustainable",
+      "source": "Foreign Affairs",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -50,13 +74,73 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-29T11:52:46.279671Z"
+      "published": "2026-09-29T11:57:43.535906Z"
     },
     {
-      "id": "0c4350b3edc7a19076302d1769305b02",
-      "title": "Cautious on US Bond Market: Purdie",
-      "summary": "Colin Purdie, Manulife CIO of Public Markets, joins Bloomberg's Vonnie Quinn on \"Bloomberg Brief\" to discuss opportunities in the global bond market amid rising yields. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-29/cautious-on-us-bond-market-purdie-video",
+      "id": "6630b7b37727bc442dcfe992b8dfa818",
+      "title": "Two Alleged \u2018TeamPCP\u2019 Hackers Arrested in Australia",
+      "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever.\n\nIn a statement released today, the Australian Federal Police (AFP) said two unnamed suspects from Western Australia, aged 21 and 23, were arrested in connection with a \"sophisticated cybercrime syndicate that allegedly created malicious open-source software to rob thousands of global businesses.\"\n\nThe AFP did not name the defendants, but KrebsOnSecurity learned the 21-year-old suspect's real identity in June, and has been communicating with him ever since. This story includes interviews with TeamPCP's self-described spokesperson, and examines clues left behind by the TeamPCP leader that likely led to his undoing.",
+      "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
+      "source": "KrebsOnSecurity",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T11:57:44.962532Z"
+    },
+    {
+      "id": "7890fdf609d37c081f6ce147e938d1b9",
+      "title": "Elevated crack spreads and crude oil prices contribute to higher prices at the pump",
+      "summary": "What are crack spreads and why are they elevated? Crack spreads are indicators of the profitability of refining crude oil into petroleum products such as gasoline and diesel. One common crack spread is calculated by subtracting the spot market price of a gallon of crude oil from the wholesale price of a gallon of refined product. Since May, the gasoline crack spread in New York Harbor has averaged about $1 per gallon (gal) higher than in 2025, when the crack spread peaked around 60 cents/gal. Gasoline crack spreads are elevated primarily because of tight gasoline supplies globally.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68104",
+      "source": "EIA",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-29T11:57:41.356924Z"
+    },
+    {
+      "id": "bb0229337749cd69c4d23c3e0e43e83a",
+      "title": "Trump\u2019s Offer for More Solar Comes With a Catch",
+      "summary": "Unfreezing some renewable projects may have only a modest impact on US clean-power growth.",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-09-29/trump-s-offer-for-more-solar-comes-with-a-catch",
       "source": "Bloomberg",
       "score": 9,
       "severity": "MEDIUM",
@@ -66,52 +150,110 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-29T11:52:46.279601Z"
+      "published": "2026-09-29T11:56:37.595478Z"
     },
     {
-      "id": "6a57c03ed5186b14eef53e2a4e8dd614",
-      "title": "Price hikes to hit Japanese households starting next month",
-      "summary": "Households will likely feel an increased financial burden, given that price hikes will also hit a wide range of food products.",
-      "link": "https://www.japantimes.co.jp/business/2026/09/29/october-price-hikes/",
+      "id": "a29ce9d97b48e4c24c1183b2b8b78619",
+      "title": "Japan\u2019s new arctic research vessel set to arrive in December",
+      "summary": "Mirai II will replace the 8,700-ton Mirai, which was decommissioned in December last year.",
+      "link": "https://www.japantimes.co.jp/news/2026/09/29/japan/japan-new-arctic-research-vessel/",
       "source": "Japan Times",
-      "score": 1,
+      "score": 5,
       "severity": "LOW",
-      "regime": "GENERAL",
+      "regime": "AI",
       "tickers": [],
       "regions": [
         "JAPAN"
       ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-29T11:53:46.067272Z"
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-29T11:57:34.960941Z"
+    },
+    {
+      "id": "1b2da0a0d5b3d1e3fdc01510846642ee",
+      "title": "Weekly average load in ERCOT continues near record high",
+      "summary": "Sustained high temperatures have contributed to persistently high electricity demand in the Electric Reliability Council of Texas (ERCOT), the regional transmission organization for most of the state.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68084",
+      "source": "EIA",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-29T11:57:41.356963Z"
     }
   ],
   "alerts": [
     {
-      "id": "33cb5e50d2f24153e017e0ba950a7015",
-      "title": "Gilts Lead European Bonds Higher as Energy Prices Retreat",
-      "summary": "Gilts extended gains across the curve, with benchmark UK 10-year yields almost 7bps lower as oil and natural gas prices fell to new lows on the day. The moves followed reports that EU officials do not expect the US to ban diesel exports and that Qatar is holding meetings with the US and Iran over the conflict in the Middle East.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-29/gilts-lead-european-bonds-higher-as-energy-prices-retreat",
+      "id": "6da9d5c263f3c6b6ccf79b2f2e8258fa",
+      "title": "Copper Edges Higher After Chile Mine Union Rejects Pay Offer",
+      "summary": "Copper held above $14,400 a ton in London, as workers at a major mining operation in Chile voted to strike after wage talks failed.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-29/copper-edges-higher-as-chile-mine-dispute-raises-supply-concerns",
       "source": "Bloomberg",
-      "score": 65,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
       "tickers": [
-        "EUR",
-        "UK_GILTS",
-        "WTI"
+        "COPPER"
       ],
       "regions": [
-        "EUROPE",
-        "MIDDLE_EAST",
         "UK"
       ],
       "assets": [
         "AI",
-        "COMMODITIES",
-        "FX",
-        "RATES"
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-29T11:56:37.595517Z"
+    },
+    {
+      "id": "7e6ead7b4ead0f8fbe7878cc7bdf47c5",
+      "title": "The Stalemate With Iran Is Not Sustainable",
+      "summary": "A diplomatic strategy to end the war.",
+      "link": "https://www.foreignaffairs.com/iran/stalemate-iran-not-sustainable",
+      "source": "Foreign Affairs",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -127,13 +269,73 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-29T11:52:46.279671Z"
+      "published": "2026-09-29T11:57:43.535906Z"
     },
     {
-      "id": "0c4350b3edc7a19076302d1769305b02",
-      "title": "Cautious on US Bond Market: Purdie",
-      "summary": "Colin Purdie, Manulife CIO of Public Markets, joins Bloomberg's Vonnie Quinn on \"Bloomberg Brief\" to discuss opportunities in the global bond market amid rising yields. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-29/cautious-on-us-bond-market-purdie-video",
+      "id": "6630b7b37727bc442dcfe992b8dfa818",
+      "title": "Two Alleged \u2018TeamPCP\u2019 Hackers Arrested in Australia",
+      "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever.\n\nIn a statement released today, the Australian Federal Police (AFP) said two unnamed suspects from Western Australia, aged 21 and 23, were arrested in connection with a \"sophisticated cybercrime syndicate that allegedly created malicious open-source software to rob thousands of global businesses.\"\n\nThe AFP did not name the defendants, but KrebsOnSecurity learned the 21-year-old suspect's real identity in June, and has been communicating with him ever since. This story includes interviews with TeamPCP's self-described spokesperson, and examines clues left behind by the TeamPCP leader that likely led to his undoing.",
+      "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
+      "source": "KrebsOnSecurity",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T11:57:44.962532Z"
+    },
+    {
+      "id": "7890fdf609d37c081f6ce147e938d1b9",
+      "title": "Elevated crack spreads and crude oil prices contribute to higher prices at the pump",
+      "summary": "What are crack spreads and why are they elevated? Crack spreads are indicators of the profitability of refining crude oil into petroleum products such as gasoline and diesel. One common crack spread is calculated by subtracting the spot market price of a gallon of crude oil from the wholesale price of a gallon of refined product. Since May, the gasoline crack spread in New York Harbor has averaged about $1 per gallon (gal) higher than in 2025, when the crack spread peaked around 60 cents/gal. Gasoline crack spreads are elevated primarily because of tight gasoline supplies globally.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68104",
+      "source": "EIA",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-29T11:57:41.356924Z"
+    },
+    {
+      "id": "bb0229337749cd69c4d23c3e0e43e83a",
+      "title": "Trump\u2019s Offer for More Solar Comes With a Catch",
+      "summary": "Unfreezing some renewable projects may have only a modest impact on US clean-power growth.",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-09-29/trump-s-offer-for-more-solar-comes-with-a-catch",
       "source": "Bloomberg",
       "score": 9,
       "severity": "MEDIUM",
@@ -143,25 +345,59 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-29T11:52:46.279601Z"
+      "published": "2026-09-29T11:56:37.595478Z"
     },
     {
-      "id": "6a57c03ed5186b14eef53e2a4e8dd614",
-      "title": "Price hikes to hit Japanese households starting next month",
-      "summary": "Households will likely feel an increased financial burden, given that price hikes will also hit a wide range of food products.",
-      "link": "https://www.japantimes.co.jp/business/2026/09/29/october-price-hikes/",
+      "id": "a29ce9d97b48e4c24c1183b2b8b78619",
+      "title": "Japan\u2019s new arctic research vessel set to arrive in December",
+      "summary": "Mirai II will replace the 8,700-ton Mirai, which was decommissioned in December last year.",
+      "link": "https://www.japantimes.co.jp/news/2026/09/29/japan/japan-new-arctic-research-vessel/",
       "source": "Japan Times",
-      "score": 1,
+      "score": 5,
       "severity": "LOW",
-      "regime": "GENERAL",
+      "regime": "AI",
       "tickers": [],
       "regions": [
         "JAPAN"
       ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-29T11:53:46.067272Z"
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-29T11:57:34.960941Z"
+    },
+    {
+      "id": "1b2da0a0d5b3d1e3fdc01510846642ee",
+      "title": "Weekly average load in ERCOT continues near record high",
+      "summary": "Sustained high temperatures have contributed to persistently high electricity demand in the Electric Reliability Council of Texas (ERCOT), the regional transmission organization for most of the state.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68084",
+      "source": "EIA",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-29T11:57:41.356963Z"
     }
   ]
 }
