@@ -1,50 +1,64 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-29T11:48:50.357275Z",
+  "generated_at": "2026-09-29T11:53:55.292584Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 0,
-    "last_updated": "2026-09-29T11:48:50.357289Z"
+    "last_updated": "2026-09-29T11:53:55.292598Z"
   },
   "top_signals": [
     {
-      "id": "b2e94dcc809795b198e79d8e8de1fdea",
-      "title": "Mahmood looks to soften migration policies amid Labour pressure",
-      "summary": "UK home secretary signals rethink on right to remain proposals at party conference",
-      "link": "https://www.ft.com/content/3850893c-9db6-40c5-8e19-e89ec4160663?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
+      "id": "33cb5e50d2f24153e017e0ba950a7015",
+      "title": "Gilts Lead European Bonds Higher as Energy Prices Retreat",
+      "summary": "Gilts extended gains across the curve, with benchmark UK 10-year yields almost 7bps lower as oil and natural gas prices fell to new lows on the day. The moves followed reports that EU officials do not expect the US to ban diesel exports and that Qatar is holding meetings with the US and Iran over the conflict in the Middle East.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-29/gilts-lead-european-bonds-higher-as-energy-prices-retreat",
+      "source": "Bloomberg",
+      "score": 65,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR",
+        "UK_GILTS",
+        "WTI"
+      ],
       "regions": [
+        "EUROPE",
+        "MIDDLE_EAST",
         "UK"
       ],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES",
+        "FX",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-29T11:47:45.845189Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T11:52:46.279671Z"
     },
     {
-      "id": "c08626a689226b85c0a6fd302ce7ed01",
-      "title": "Apollo and Oaktree sue Patrick Drahi over US telco restructuring",
-      "summary": "Bondholders argue that restructuring at Optimum Communications was \u2018brazen\u2019 move",
-      "link": "https://www.ft.com/content/85de7143-a93b-4dbb-b2f3-856d407ba08f?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
+      "id": "0c4350b3edc7a19076302d1769305b02",
+      "title": "Cautious on US Bond Market: Purdie",
+      "summary": "Colin Purdie, Manulife CIO of Public Markets, joins Bloomberg's Vonnie Quinn on \"Bloomberg Brief\" to discuss opportunities in the global bond market amid rising yields. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-29/cautious-on-us-bond-market-purdie-video",
+      "source": "Bloomberg",
+      "score": 9,
       "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
@@ -52,29 +66,13 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-29T11:47:45.845101Z"
+      "published": "2026-09-29T11:52:46.279601Z"
     },
     {
-      "id": "306c52bf49d3ab6e592b81d5dc2ecbea",
-      "title": "Breaking a central banking taboo",
-      "summary": "It turns out that monetary policy affects supply as well as demand",
-      "link": "https://www.ft.com/content/a060e1f6-e669-4657-af63-701053709c2d?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-29T11:47:45.845141Z"
-    },
-    {
-      "id": "e9f8c423b343020d832d9eba19e1354b",
-      "title": "Japan\u2019s population fell 2.5% between 2020 and 2025, census shows",
-      "summary": "This was the third consecutive decline in the five-year survey that dates back to 1920.",
-      "link": "https://www.japantimes.co.jp/news/2026/09/29/japan/society/japan-population-fall/",
+      "id": "6a57c03ed5186b14eef53e2a4e8dd614",
+      "title": "Price hikes to hit Japanese households starting next month",
+      "summary": "Households will likely feel an increased financial burden, given that price hikes will also hit a wide range of food products.",
+      "link": "https://www.japantimes.co.jp/business/2026/09/29/october-price-hikes/",
       "source": "Japan Times",
       "score": 1,
       "severity": "LOW",
@@ -86,44 +84,58 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-29T11:48:41.125544Z"
+      "published": "2026-09-29T11:53:46.067272Z"
     }
   ],
   "alerts": [
     {
-      "id": "b2e94dcc809795b198e79d8e8de1fdea",
-      "title": "Mahmood looks to soften migration policies amid Labour pressure",
-      "summary": "UK home secretary signals rethink on right to remain proposals at party conference",
-      "link": "https://www.ft.com/content/3850893c-9db6-40c5-8e19-e89ec4160663?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
+      "id": "33cb5e50d2f24153e017e0ba950a7015",
+      "title": "Gilts Lead European Bonds Higher as Energy Prices Retreat",
+      "summary": "Gilts extended gains across the curve, with benchmark UK 10-year yields almost 7bps lower as oil and natural gas prices fell to new lows on the day. The moves followed reports that EU officials do not expect the US to ban diesel exports and that Qatar is holding meetings with the US and Iran over the conflict in the Middle East.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-29/gilts-lead-european-bonds-higher-as-energy-prices-retreat",
+      "source": "Bloomberg",
+      "score": 65,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR",
+        "UK_GILTS",
+        "WTI"
+      ],
       "regions": [
+        "EUROPE",
+        "MIDDLE_EAST",
         "UK"
       ],
       "assets": [
-        "AI"
+        "AI",
+        "COMMODITIES",
+        "FX",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-29T11:47:45.845189Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T11:52:46.279671Z"
     },
     {
-      "id": "c08626a689226b85c0a6fd302ce7ed01",
-      "title": "Apollo and Oaktree sue Patrick Drahi over US telco restructuring",
-      "summary": "Bondholders argue that restructuring at Optimum Communications was \u2018brazen\u2019 move",
-      "link": "https://www.ft.com/content/85de7143-a93b-4dbb-b2f3-856d407ba08f?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
+      "id": "0c4350b3edc7a19076302d1769305b02",
+      "title": "Cautious on US Bond Market: Purdie",
+      "summary": "Colin Purdie, Manulife CIO of Public Markets, joins Bloomberg's Vonnie Quinn on \"Bloomberg Brief\" to discuss opportunities in the global bond market amid rising yields. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-29/cautious-on-us-bond-market-purdie-video",
+      "source": "Bloomberg",
+      "score": 9,
       "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
@@ -131,29 +143,13 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-29T11:47:45.845101Z"
+      "published": "2026-09-29T11:52:46.279601Z"
     },
     {
-      "id": "306c52bf49d3ab6e592b81d5dc2ecbea",
-      "title": "Breaking a central banking taboo",
-      "summary": "It turns out that monetary policy affects supply as well as demand",
-      "link": "https://www.ft.com/content/a060e1f6-e669-4657-af63-701053709c2d?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-29T11:47:45.845141Z"
-    },
-    {
-      "id": "e9f8c423b343020d832d9eba19e1354b",
-      "title": "Japan\u2019s population fell 2.5% between 2020 and 2025, census shows",
-      "summary": "This was the third consecutive decline in the five-year survey that dates back to 1920.",
-      "link": "https://www.japantimes.co.jp/news/2026/09/29/japan/society/japan-population-fall/",
+      "id": "6a57c03ed5186b14eef53e2a4e8dd614",
+      "title": "Price hikes to hit Japanese households starting next month",
+      "summary": "Households will likely feel an increased financial burden, given that price hikes will also hit a wide range of food products.",
+      "link": "https://www.japantimes.co.jp/business/2026/09/29/october-price-hikes/",
       "source": "Japan Times",
       "score": 1,
       "severity": "LOW",
@@ -165,7 +161,7 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-29T11:48:41.125544Z"
+      "published": "2026-09-29T11:53:46.067272Z"
     }
   ]
 }
