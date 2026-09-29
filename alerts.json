@@ -1,27 +1,65 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-29T22:18:52.870125Z",
+  "generated_at": "2026-09-29T22:23:45.084775Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 1,
-    "last_updated": "2026-09-29T22:18:52.870139Z"
+    "last_updated": "2026-09-29T22:23:45.084789Z"
   },
   "top_signals": [
     {
-      "id": "7c889eb7f879b1f2cac8380662049a3a",
-      "title": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260924a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
+      "id": "fe9f5cb180fffcb19d66b6759a75577b",
+      "title": "Asian Stocks Set for Rebound as Oil Prices Ease: Markets Wrap",
+      "summary": "Stocks in Asia were set for broad gains on Wednesday after oil prices fell, easing some pressure on markets as investors weighed the latest developments in the Middle East and the ongoing US-Iran stalemate.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-29/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg",
+      "score": 38,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T22:22:43.179065Z"
+    },
+    {
+      "id": "f6b675b41c46bb1424c0d3320e035351",
+      "title": "Quantitative tightening: the next chapter \u2212 speech by Dave Ramsden",
+      "summary": "Given at the Bank of England, co-hosted by the Money, Macro and Finance Society",
+      "link": "https://www.bankofengland.co.uk/speech/2026/september/dave-ramsden-speech-on-quantitative-tightening",
+      "source": "Bank of England",
+      "score": 18,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [],
       "market_impact": {
         "bullish": [
@@ -35,21 +73,146 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-29T22:18:00.527441Z"
+      "published": "2026-09-29T22:23:28.423682Z"
+    },
+    {
+      "id": "4c8bdeaa6f88387be230c8adc7933c96",
+      "title": "Chancellor backs young people into work by supporting jobs",
+      "summary": "The Chancellor has announced a package to help people into work, education and training, while building the skilled workforce Britain needs for the future.",
+      "link": "https://www.gov.uk/government/news/chancellor-backs-young-people-into-work-by-supporting-jobs",
+      "source": "HM Treasury",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-29T22:23:28.884859Z"
+    },
+    {
+      "id": "718ce47b6c533e15b64e4e231fb90baf",
+      "title": "USS Klakring sent to the bottom of the Atlantic in joint US-UK SINKEX",
+      "summary": "A decommissioned U.S. guided-missile frigate was sent to the bottom of the Atlantic on Sept. 25 during a joint U.S.-U.K. naval exercise.",
+      "link": "https://www.defensenews.com/news/your-military/2026/09/29/uss-klakring-sent-to-the-bottom-of-the-atlantic-in-joint-us-uk-sinkex/",
+      "source": "Defense News",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T22:23:40.855637Z"
+    },
+    {
+      "id": "7029ff981d697524574e35c30b45de13",
+      "title": "China unveils mortgage subsidies to boost economy - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOTnJjY21ZMDE5X3ptQTVVb0VZdnhGcXdLVzRrODJHU0lkdVp6bV9pS1pfZjFBWUhUVm9Mc1ZnazJ3VkNLdkY5aE5QOUt6TkxiUXdTREQ2SF9RQVBBNS14R3N0Vy1QLXBhSEZFbHZ1VUFQWHdzUjVna29QeWcwbkc1Y1FUV2M?oc=5\" target=\"_blank\">China unveils mortgage subsidies to boost economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTnJjY21ZMDE5X3ptQTVVb0VZdnhGcXdLVzRrODJHU0lkdVp6bV9pS1pfZjFBWUhUVm9Mc1ZnazJ3VkNLdkY5aE5QOUt6TkxiUXdTREQ2SF9RQVBBNS14R3N0Vy1QLXBhSEZFbHZ1VUFQWHdzUjVna29QeWcwbkc1Y1FUV2M?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T22:23:43.963467Z"
     }
   ],
   "alerts": [
     {
-      "id": "7c889eb7f879b1f2cac8380662049a3a",
-      "title": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260924a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
+      "id": "fe9f5cb180fffcb19d66b6759a75577b",
+      "title": "Asian Stocks Set for Rebound as Oil Prices Ease: Markets Wrap",
+      "summary": "Stocks in Asia were set for broad gains on Wednesday after oil prices fell, easing some pressure on markets as investors weighed the latest developments in the Middle East and the ongoing US-Iran stalemate.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-29/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg",
+      "score": 38,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T22:22:43.179065Z"
+    },
+    {
+      "id": "f6b675b41c46bb1424c0d3320e035351",
+      "title": "Quantitative tightening: the next chapter \u2212 speech by Dave Ramsden",
+      "summary": "Given at the Bank of England, co-hosted by the Money, Macro and Finance Society",
+      "link": "https://www.bankofengland.co.uk/speech/2026/september/dave-ramsden-speech-on-quantitative-tightening",
+      "source": "Bank of England",
+      "score": 18,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [],
       "market_impact": {
         "bullish": [
@@ -63,7 +226,94 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-29T22:18:00.527441Z"
+      "published": "2026-09-29T22:23:28.423682Z"
+    },
+    {
+      "id": "4c8bdeaa6f88387be230c8adc7933c96",
+      "title": "Chancellor backs young people into work by supporting jobs",
+      "summary": "The Chancellor has announced a package to help people into work, education and training, while building the skilled workforce Britain needs for the future.",
+      "link": "https://www.gov.uk/government/news/chancellor-backs-young-people-into-work-by-supporting-jobs",
+      "source": "HM Treasury",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-29T22:23:28.884859Z"
+    },
+    {
+      "id": "718ce47b6c533e15b64e4e231fb90baf",
+      "title": "USS Klakring sent to the bottom of the Atlantic in joint US-UK SINKEX",
+      "summary": "A decommissioned U.S. guided-missile frigate was sent to the bottom of the Atlantic on Sept. 25 during a joint U.S.-U.K. naval exercise.",
+      "link": "https://www.defensenews.com/news/your-military/2026/09/29/uss-klakring-sent-to-the-bottom-of-the-atlantic-in-joint-us-uk-sinkex/",
+      "source": "Defense News",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T22:23:40.855637Z"
+    },
+    {
+      "id": "7029ff981d697524574e35c30b45de13",
+      "title": "China unveils mortgage subsidies to boost economy - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOTnJjY21ZMDE5X3ptQTVVb0VZdnhGcXdLVzRrODJHU0lkdVp6bV9pS1pfZjFBWUhUVm9Mc1ZnazJ3VkNLdkY5aE5QOUt6TkxiUXdTREQ2SF9RQVBBNS14R3N0Vy1QLXBhSEZFbHZ1VUFQWHdzUjVna29QeWcwbkc1Y1FUV2M?oc=5\" target=\"_blank\">China unveils mortgage subsidies to boost economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTnJjY21ZMDE5X3ptQTVVb0VZdnhGcXdLVzRrODJHU0lkdVp6bV9pS1pfZjFBWUhUVm9Mc1ZnazJ3VkNLdkY5aE5QOUt6TkxiUXdTREQ2SF9RQVBBNS14R3N0Vy1QLXBhSEZFbHZ1VUFQWHdzUjVna29QeWcwbkc1Y1FUV2M?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-29T22:23:43.963467Z"
     }
   ]
 }
