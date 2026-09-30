@@ -1,30 +1,67 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-30T12:43:52.418267Z",
+  "generated_at": "2026-09-30T12:48:44.622772Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "INFLATION",
+    "dominant_driver": "INFLATION",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 1,
-    "last_updated": "2026-09-30T12:43:52.418280Z"
+    "critical_alerts": 2,
+    "high_alerts": 3,
+    "last_updated": "2026-09-30T12:48:44.622789Z"
   },
   "top_signals": [
     {
-      "id": "30723df313834d56f9fc1da03abd2903",
-      "title": "Stocks Rise and Yields Fall on Inflation Surprise: Markets Wrap",
-      "summary": "Wall Street traders drove stocks higher and bond yields fell as slower-than-anticipated inflation data reinforced bets the Federal Reserve will refrain from raising interest rates in October.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-29/stock-market-today-dow-s-p-live-updates",
+      "id": "4a1192418332a91b5f0d6e08a32b97d6",
+      "title": "Stocks Waver Ahead of PCE, Micron; Mideast Oil Flows Rebound; Trump Backs Outside AI Audits",
+      "summary": "US equity futures waver ahead of PCE inflation data and Micron earnings. Oil flows from the Middle East are returning toward pre-war levels despite continued risks to shipping, according to JPMorgan and Goldman Sachs. President Trump endorses independent audits of AI systems through an accord with tech executives. Mads Pedersen of Human Edge Investment Technology joins \"Bloomberg Brief\" to discuss bond market risks ahead of key economic data.  (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-30/bloomberg-brief-09-30-2026-video",
       "source": "Bloomberg",
-      "score": 32,
+      "score": 71,
       "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [],
+      "regime": "INFLATION",
+      "tickers": [
+        "WTI",
+        "XAU"
+      ],
       "regions": [],
       "assets": [
         "AI",
-        "EQUITIES"
+        "COMMODITIES",
+        "EQUITIES",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-30T12:47:44.042217Z"
+    },
+    {
+      "id": "641b14d227d9b7a1f197a6f2e8b8c9ce",
+      "title": "Stocks Rise as Inflation Surprise Curbs Fed Bets: Markets Wrap",
+      "summary": "Wall Street traders drove stocks higher as short-dated Treasury yields fell, with slower-than-anticipated inflation data reinforcing bets the Federal Reserve will refrain from raising interest rates in October.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-29/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -38,49 +75,158 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-30T12:42:47.457122Z"
+      "published": "2026-09-30T12:47:44.041979Z"
     },
     {
-      "id": "d11517098c38934f80ac7e7a4303bc6e",
-      "title": "China's inside man at the Fed, OpenAI debuts Dots, an IPO trend and more in Morning Squawk",
-      "summary": "Here are five key things investors need to know to start the trading day.",
-      "link": "https://www.cnbc.com/2026/09/30/5-things-to-know-before-the-stock-market-opens.html",
-      "source": "CNBC",
-      "score": 22,
+      "id": "4086cddd620b90e1b8c7b445ad8db5ef",
+      "title": "The New Forever War",
+      "summary": "Why America and Iran fight on without victory.",
+      "link": "https://www.foreignaffairs.com/iran/new-forever-war-america-ali-vaez",
+      "source": "Foreign Affairs",
+      "score": 19,
       "severity": "HIGH",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "CHINA"
+        "MIDDLE_EAST",
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T12:48:40.539763Z"
+    },
+    {
+      "id": "6c52ddf456df5f3b867420b37e355c7d",
+      "title": "Here\u2019s what happened in crypto today",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here\u2019s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg\" /></p><p>Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.</p>",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-30T12:48:41.132806Z"
+    },
+    {
+      "id": "6b3100541a210fa622939e4e8d39787b",
+      "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
+      "summary": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and spread into internal networks. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T12:48:41.261000Z"
+    },
+    {
+      "id": "f3ca56cee54270b89761adc1fa21feb9",
+      "title": "Russian pizza chain with 1,500 locations confirms cyberattack following hacker claims",
+      "summary": "According to Dodo Pizza, the potentially compromised information included customers\u2019 names, addresses, email addresses, phone numbers, dates of birth and order details.",
+      "link": "https://therecord.media/russian-pizza-chain-dodo-confirms-data-breach",
+      "source": "The Record",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
       ],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-30T12:42:51.035031Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T12:48:41.544266Z"
     },
     {
-      "id": "da5778e73d02fa4c4ef04d3285cf5f04",
-      "title": "Zilch leaning towards London IPO as UK fintech calls in bankers",
-      "summary": "<p> <img alt=\"Zilch is shaping up for a London IPO.\" src=\"https://www.cityam.com/wp-content/uploads/2025/12/Zilch.jpg?w=1200\" /> </p>UK fintech Zilch is leaning towards a public debut on the London Stock Exchange as it kickstarts plans for a potential $2bn listing as soon as next year. The payments firm, founded in London in 2018, views London as the favoured venue for a listing, likely to take place in the second half of 2027 <a href=\"https://www.cityam.com/zilch-leaning-towards-london-ipo-as-uk-fintech-calls-in-bankers/\">[...]</a>",
-      "link": "https://www.cityam.com/zilch-leaning-towards-london-ipo-as-uk-fintech-calls-in-bankers/",
-      "source": "CityAM",
-      "score": 11,
+      "id": "d9f72c90a85a149690e154ca26261791",
+      "title": "US Companies Added 90,000 Jobs in September: ADP",
+      "summary": "US private payrolls rose by 90,000 in September, the most in three months, and above economists\u2019 estimates of 75,000. Michael McKee reports on Bloomberg Television. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-30/us-companies-added-90-000-jobs-in-september-adp-video",
+      "source": "Bloomberg",
+      "score": 9,
       "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-30T12:47:44.042086Z"
+    },
+    {
+      "id": "c9693f938fa85f3b95ec88d982958a36",
+      "title": "How Nike fell off the pace in China - ft.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ3RfeHhmTkd3bEpKNFlEcURkbERPVExYUFItUkZSVHRFV3c0dl8tR2M2ZkM4dTV1cW5zQkRZeUlmT0NDS0xVT3JIQmlMVGxKVkpYbDNKOEhpY193dWkzckRJb3Z0ZlVqNmJScVdkZzl4NTAtck9udGdPWVl6OHkxUkItd1E?oc=5\" target=\"_blank\">How Nike fell off the pace in China</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ft.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ3RfeHhmTkd3bEpKNFlEcURkbERPVExYUFItUkZSVHRFV3c0dl8tR2M2ZkM4dTV1cW5zQkRZeUlmT0NDS0xVT3JIQmlMVGxKVkpYbDNKOEhpY193dWkzckRJb3Z0ZlVqNmJScVdkZzl4NTAtck9udGdPWVl6OHkxUkItd1E?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
+        "CHINA",
         "UK"
       ],
       "assets": [],
@@ -98,14 +244,14 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-30T12:43:38.431186Z"
+      "published": "2026-09-30T12:48:43.472468Z"
     },
     {
-      "id": "8c11d5baf17479c98cede163314e7b8a",
-      "title": "Lehmann Marine Modular CUBE Battery System Deployed on CTV",
-      "summary": "Lehmann Marine's modular CUBE battery system has been comissionned on board the crew transfer vessel AESEN 116H, marking their first deployment in China.The 42-meter hybrid fast crew boat was built for Singapore-based operator AESEN. The fully\u2026",
-      "link": "https://www.marinelink.com/news/lehmann-marine-modular-cube-battery-543362",
-      "source": "MarineLink",
+      "id": "46516ccaac39ddcf4f18350c91e94974",
+      "title": "China unveils mortgage subsidies to boost economy - ft.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOTnJjY21ZMDE5X3ptQTVVb0VZdnhGcXdLVzRrODJHU0lkdVp6bV9pS1pfZjFBWUhUVm9Mc1ZnazJ3VkNLdkY5aE5QOUt6TkxiUXdTREQ2SF9RQVBBNS14R3N0Vy1QLXBhSEZFbHZ1VUFQWHdzUjVna29QeWcwbkc1Y1FUV2M?oc=5\" target=\"_blank\">China unveils mortgage subsidies to boost economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ft.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTnJjY21ZMDE5X3ptQTVVb0VZdnhGcXdLVzRrODJHU0lkdVp6bV9pS1pfZjFBWUhUVm9Mc1ZnazJ3VkNLdkY5aE5QOUt6TkxiUXdTREQ2SF9RQVBBNS14R3N0Vy1QLXBhSEZFbHZ1VUFQWHdzUjVna29QeWcwbkc1Y1FUV2M?oc=5",
+      "source": "Google Macro",
       "score": 7,
       "severity": "LOW",
       "regime": "GEO-SHOCK",
@@ -128,14 +274,39 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-30T12:43:46.962413Z"
+      "published": "2026-09-30T12:48:43.472566Z"
     },
     {
-      "id": "2ed0389d7a61c29b9480e078e624e1bb",
-      "title": "Komeito selects former party policy chief Okamoto as new leader",
-      "summary": "Komeito is rushing to rebuild its organization ahead of an extraordinary Diet session beginning next week.",
-      "link": "https://www.japantimes.co.jp/news/2026/09/30/japan/komeito-okamoto-leader/",
-      "source": "Japan Times",
+      "id": "9e6da5b08b93cb7096a7db5d0d6c3ed8",
+      "title": "Microsoft is rolling out Linux container support to WSL",
+      "summary": "Microsoft is taking Windows Subsystem for Linux beyond just running Linux distributions, as WSL Containers is now generally available. [...]",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-30T12:48:41.260928Z"
+    },
+    {
+      "id": "12ba953f0e0cde2ae56d4fa13a08e490",
+      "title": "Singapore places bigger bet on chips - ft.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNaElXMmZLZm9CdTg0RVhSZDJjcWVzNktLWUtuWTZ1R1NmX1pkUHpDY0xsb2ZlMG5qU1R2UGw2b3pfWWJIMjA1em1vQzJJSDZSLThBSDkxQXRqakI0TGpNLXg1aVBVbUJqVktKQ05FendHMkswV2tFaWtzSzczM2g1ZDRhTFc?oc=5\" target=\"_blank\">Singapore places bigger bet on chips</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ft.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaElXMmZLZm9CdTg0RVhSZDJjcWVzNktLWUtuWTZ1R1NmX1pkUHpDY0xsb2ZlMG5qU1R2UGw2b3pfWWJIMjA1em1vQzJJSDZSLThBSDkxQXRqakI0TGpNLXg1aVBVbUJqVktKQ05FendHMkswV2tFaWtzSzczM2g1ZDRhTFc?oc=5",
+      "source": "Google Macro",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -144,24 +315,61 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-30T12:43:40.455023Z"
+      "published": "2026-09-30T12:48:43.472620Z"
     }
   ],
   "alerts": [
     {
-      "id": "30723df313834d56f9fc1da03abd2903",
-      "title": "Stocks Rise and Yields Fall on Inflation Surprise: Markets Wrap",
-      "summary": "Wall Street traders drove stocks higher and bond yields fell as slower-than-anticipated inflation data reinforced bets the Federal Reserve will refrain from raising interest rates in October.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-29/stock-market-today-dow-s-p-live-updates",
+      "id": "4a1192418332a91b5f0d6e08a32b97d6",
+      "title": "Stocks Waver Ahead of PCE, Micron; Mideast Oil Flows Rebound; Trump Backs Outside AI Audits",
+      "summary": "US equity futures waver ahead of PCE inflation data and Micron earnings. Oil flows from the Middle East are returning toward pre-war levels despite continued risks to shipping, according to JPMorgan and Goldman Sachs. President Trump endorses independent audits of AI systems through an accord with tech executives. Mads Pedersen of Human Edge Investment Technology joins \"Bloomberg Brief\" to discuss bond market risks ahead of key economic data.  (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-30/bloomberg-brief-09-30-2026-video",
       "source": "Bloomberg",
-      "score": 32,
+      "score": 71,
       "severity": "CRITICAL",
-      "regime": "RATES",
-      "tickers": [],
+      "regime": "INFLATION",
+      "tickers": [
+        "WTI",
+        "XAU"
+      ],
       "regions": [],
       "assets": [
         "AI",
-        "EQUITIES"
+        "COMMODITIES",
+        "EQUITIES",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-09-30T12:47:44.042217Z"
+    },
+    {
+      "id": "641b14d227d9b7a1f197a6f2e8b8c9ce",
+      "title": "Stocks Rise as Inflation Surprise Curbs Fed Bets: Markets Wrap",
+      "summary": "Wall Street traders drove stocks higher as short-dated Treasury yields fell, with slower-than-anticipated inflation data reinforcing bets the Federal Reserve will refrain from raising interest rates in October.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-29/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -175,49 +383,158 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-30T12:42:47.457122Z"
+      "published": "2026-09-30T12:47:44.041979Z"
     },
     {
-      "id": "d11517098c38934f80ac7e7a4303bc6e",
-      "title": "China's inside man at the Fed, OpenAI debuts Dots, an IPO trend and more in Morning Squawk",
-      "summary": "Here are five key things investors need to know to start the trading day.",
-      "link": "https://www.cnbc.com/2026/09/30/5-things-to-know-before-the-stock-market-opens.html",
-      "source": "CNBC",
-      "score": 22,
+      "id": "4086cddd620b90e1b8c7b445ad8db5ef",
+      "title": "The New Forever War",
+      "summary": "Why America and Iran fight on without victory.",
+      "link": "https://www.foreignaffairs.com/iran/new-forever-war-america-ali-vaez",
+      "source": "Foreign Affairs",
+      "score": 19,
       "severity": "HIGH",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "CHINA"
+        "MIDDLE_EAST",
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T12:48:40.539763Z"
+    },
+    {
+      "id": "6c52ddf456df5f3b867420b37e355c7d",
+      "title": "Here\u2019s what happened in crypto today",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here\u2019s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg\" /></p><p>Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.</p>",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-09-30T12:48:41.132806Z"
+    },
+    {
+      "id": "6b3100541a210fa622939e4e8d39787b",
+      "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
+      "summary": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and spread into internal networks. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T12:48:41.261000Z"
+    },
+    {
+      "id": "f3ca56cee54270b89761adc1fa21feb9",
+      "title": "Russian pizza chain with 1,500 locations confirms cyberattack following hacker claims",
+      "summary": "According to Dodo Pizza, the potentially compromised information included customers\u2019 names, addresses, email addresses, phone numbers, dates of birth and order details.",
+      "link": "https://therecord.media/russian-pizza-chain-dodo-confirms-data-breach",
+      "source": "The Record",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
       ],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-30T12:42:51.035031Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T12:48:41.544266Z"
     },
     {
-      "id": "da5778e73d02fa4c4ef04d3285cf5f04",
-      "title": "Zilch leaning towards London IPO as UK fintech calls in bankers",
-      "summary": "<p> <img alt=\"Zilch is shaping up for a London IPO.\" src=\"https://www.cityam.com/wp-content/uploads/2025/12/Zilch.jpg?w=1200\" /> </p>UK fintech Zilch is leaning towards a public debut on the London Stock Exchange as it kickstarts plans for a potential $2bn listing as soon as next year. The payments firm, founded in London in 2018, views London as the favoured venue for a listing, likely to take place in the second half of 2027 <a href=\"https://www.cityam.com/zilch-leaning-towards-london-ipo-as-uk-fintech-calls-in-bankers/\">[...]</a>",
-      "link": "https://www.cityam.com/zilch-leaning-towards-london-ipo-as-uk-fintech-calls-in-bankers/",
-      "source": "CityAM",
-      "score": 11,
+      "id": "d9f72c90a85a149690e154ca26261791",
+      "title": "US Companies Added 90,000 Jobs in September: ADP",
+      "summary": "US private payrolls rose by 90,000 in September, the most in three months, and above economists\u2019 estimates of 75,000. Michael McKee reports on Bloomberg Television. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-30/us-companies-added-90-000-jobs-in-september-adp-video",
+      "source": "Bloomberg",
+      "score": 9,
       "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-30T12:47:44.042086Z"
+    },
+    {
+      "id": "c9693f938fa85f3b95ec88d982958a36",
+      "title": "How Nike fell off the pace in China - ft.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ3RfeHhmTkd3bEpKNFlEcURkbERPVExYUFItUkZSVHRFV3c0dl8tR2M2ZkM4dTV1cW5zQkRZeUlmT0NDS0xVT3JIQmlMVGxKVkpYbDNKOEhpY193dWkzckRJb3Z0ZlVqNmJScVdkZzl4NTAtck9udGdPWVl6OHkxUkItd1E?oc=5\" target=\"_blank\">How Nike fell off the pace in China</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ft.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ3RfeHhmTkd3bEpKNFlEcURkbERPVExYUFItUkZSVHRFV3c0dl8tR2M2ZkM4dTV1cW5zQkRZeUlmT0NDS0xVT3JIQmlMVGxKVkpYbDNKOEhpY193dWkzckRJb3Z0ZlVqNmJScVdkZzl4NTAtck9udGdPWVl6OHkxUkItd1E?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
+        "CHINA",
         "UK"
       ],
       "assets": [],
@@ -235,14 +552,14 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-30T12:43:38.431186Z"
+      "published": "2026-09-30T12:48:43.472468Z"
     },
     {
-      "id": "8c11d5baf17479c98cede163314e7b8a",
-      "title": "Lehmann Marine Modular CUBE Battery System Deployed on CTV",
-      "summary": "Lehmann Marine's modular CUBE battery system has been comissionned on board the crew transfer vessel AESEN 116H, marking their first deployment in China.The 42-meter hybrid fast crew boat was built for Singapore-based operator AESEN. The fully\u2026",
-      "link": "https://www.marinelink.com/news/lehmann-marine-modular-cube-battery-543362",
-      "source": "MarineLink",
+      "id": "46516ccaac39ddcf4f18350c91e94974",
+      "title": "China unveils mortgage subsidies to boost economy - ft.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOTnJjY21ZMDE5X3ptQTVVb0VZdnhGcXdLVzRrODJHU0lkdVp6bV9pS1pfZjFBWUhUVm9Mc1ZnazJ3VkNLdkY5aE5QOUt6TkxiUXdTREQ2SF9RQVBBNS14R3N0Vy1QLXBhSEZFbHZ1VUFQWHdzUjVna29QeWcwbkc1Y1FUV2M?oc=5\" target=\"_blank\">China unveils mortgage subsidies to boost economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ft.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTnJjY21ZMDE5X3ptQTVVb0VZdnhGcXdLVzRrODJHU0lkdVp6bV9pS1pfZjFBWUhUVm9Mc1ZnazJ3VkNLdkY5aE5QOUt6TkxiUXdTREQ2SF9RQVBBNS14R3N0Vy1QLXBhSEZFbHZ1VUFQWHdzUjVna29QeWcwbkc1Y1FUV2M?oc=5",
+      "source": "Google Macro",
       "score": 7,
       "severity": "LOW",
       "regime": "GEO-SHOCK",
@@ -265,14 +582,39 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-30T12:43:46.962413Z"
+      "published": "2026-09-30T12:48:43.472566Z"
     },
     {
-      "id": "2ed0389d7a61c29b9480e078e624e1bb",
-      "title": "Komeito selects former party policy chief Okamoto as new leader",
-      "summary": "Komeito is rushing to rebuild its organization ahead of an extraordinary Diet session beginning next week.",
-      "link": "https://www.japantimes.co.jp/news/2026/09/30/japan/komeito-okamoto-leader/",
-      "source": "Japan Times",
+      "id": "9e6da5b08b93cb7096a7db5d0d6c3ed8",
+      "title": "Microsoft is rolling out Linux container support to WSL",
+      "summary": "Microsoft is taking Windows Subsystem for Linux beyond just running Linux distributions, as WSL Containers is now generally available. [...]",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
+      "source": "BleepingComputer",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-30T12:48:41.260928Z"
+    },
+    {
+      "id": "12ba953f0e0cde2ae56d4fa13a08e490",
+      "title": "Singapore places bigger bet on chips - ft.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNaElXMmZLZm9CdTg0RVhSZDJjcWVzNktLWUtuWTZ1R1NmX1pkUHpDY0xsb2ZlMG5qU1R2UGw2b3pfWWJIMjA1em1vQzJJSDZSLThBSDkxQXRqakI0TGpNLXg1aVBVbUJqVktKQ05FendHMkswV2tFaWtzSzczM2g1ZDRhTFc?oc=5\" target=\"_blank\">Singapore places bigger bet on chips</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ft.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaElXMmZLZm9CdTg0RVhSZDJjcWVzNktLWUtuWTZ1R1NmX1pkUHpDY0xsb2ZlMG5qU1R2UGw2b3pfWWJIMjA1em1vQzJJSDZSLThBSDkxQXRqakI0TGpNLXg1aVBVbUJqVktKQ05FendHMkswV2tFaWtzSzczM2g1ZDRhTFc?oc=5",
+      "source": "Google Macro",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -281,7 +623,7 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-30T12:43:40.455023Z"
+      "published": "2026-09-30T12:48:43.472620Z"
     }
   ]
 }
