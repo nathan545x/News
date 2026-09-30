@@ -1,30 +1,148 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-30T00:28:42.676949Z",
+  "generated_at": "2026-09-30T00:33:22.917788Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-09-30T00:28:42.676962Z"
+    "critical_alerts": 2,
+    "high_alerts": 2,
+    "last_updated": "2026-09-30T00:33:22.917798Z"
   },
   "top_signals": [
     {
-      "id": "bfea7d2aba029291ed3d9be004f36a7a",
-      "title": "Dollar Powers to Best Month Since June on Fed\u2019s Inflation Fight",
-      "summary": "The dollar is wrapping up its best month since June as the Federal Reserve\u2019s renewed focus on taming inflation pushed interest-rate expectations and US bond yields higher.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-30/dollar-powers-to-best-month-since-june-on-fed-s-inflation-fight",
+      "id": "687a780272545cdf4d8eb9b319b1a1f5",
+      "title": "Can Treasury Yields Hit 6%?",
+      "summary": "Bloomberg MLIV strategist Mark Cranfield warns 10-year Treasury yields could climb to 6% as Federal Reserve policy, elevated oil prices, and geopolitical tensions maintain upward pressure. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-30/can-treasury-yields-hit-6-video",
       "source": "Bloomberg",
-      "score": 34,
+      "score": 41,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "RATES",
       "tickers": [
-        "DXY"
+        "TLT",
+        "WTI"
       ],
       "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-30T00:32:20.502489Z"
+    },
+    {
+      "id": "ba79ddd4ba868e05012fcd2089b9fc7d",
+      "title": "Pentagon awards Boeing $20bn contract for Navy stealth fighter jet",
+      "summary": "Virginia-headquartered company marks a revival of its role with the defence department",
+      "link": "https://www.ft.com/content/5f1cd056-b5cb-4b29-84a7-703819811b0d?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
       "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T00:32:23.141868Z"
+    },
+    {
+      "id": "060917bc73bfa966b3724ede5e753a4e",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-30T00:32:25.483232Z"
+    },
+    {
+      "id": "5b6b9b9cd8d7c2d5ed8dd48d8a318e3a",
+      "title": "Gold Fields Said to Mull Sweeter Northern Star Bid With Cash",
+      "summary": "Gold Fields Ltd. is considering a sweetened takeover bid for Northern Star Resources Ltd., according to people familiar with the matter, as the South African miner seeks to overcome resistance to a deal that would create the world\u2019s second-largest gold producer.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-29/gold-fields-said-to-weigh-sweetening-northern-star-bid-with-cash",
+      "source": "Bloomberg",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-30T00:32:20.502441Z"
+    },
+    {
+      "id": "745a8b0cbce6a7b60c2439973fe53fc4",
+      "title": "Australia Raises Key Rate to 15-Year High to Cool Inflation - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOV3NxUXhPYjZzTENJaW05OWRhTEpOUXVyRm1iN01ZT2ZWUTVDQzI1Nmh1OXRucDdCRjZDal9MMnBzS0hKWE1qLXBjakZiZV9oZlJ1WmktVE1mTjZXX0U2ME1vUE9WaGVIR1NGaUpWeXBSMjN3dl9fQ0NuYnVzd2I3T00tQWJzUTFqUVR6WGs4SF9ob003cGlMM0w5N2RLYnpNUHRPbjhvRG9jcDRDUEd1NGVPS3o?oc=5\" target=\"_blank\">Australia Raises Key Rate to 15-Year High to Cool Inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOV3NxUXhPYjZzTENJaW05OWRhTEpOUXVyRm1iN01ZT2ZWUTVDQzI1Nmh1OXRucDdCRjZDal9MMnBzS0hKWE1qLXBjakZiZV9oZlJ1WmktVE1mTjZXX0U2ME1vUE9WaGVIR1NGaUpWeXBSMjN3dl9fQ0NuYnVzd2I3T00tQWJzUTFqUVR6WGs4SF9ob003cGlMM0w5N2RLYnpNUHRPbjhvRG9jcDRDUEd1NGVPS3o?oc=5",
+      "source": "Google Macro",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -37,24 +155,217 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-30T00:27:39.071346Z"
+      "published": "2026-09-30T00:33:20.550758Z"
+    },
+    {
+      "id": "4571cd074d0f110ae69bea11ae3e91f0",
+      "title": "Stocks making the biggest moves premarket: Fair Isaac, SpaceX, AMD & more - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQanBXakVXM3FLeF9IVUpWcXZUa2paRUx2RXdoUVEyenR6Y3Q5WEY5bmlzVTNhUHJxcHpFMGdGYzRMYzVJOVRQM28xYjhpWFlqam5CSmJnTEN0WHY4ZGVQajk5eVRNNzM2VFhvZmhPekRueGdHWXA5NnVRRVM1aUc3ZF85U1dqeVZMMzlBcnM1d1RaTng2d3daOUpoS19tX0ZtVHh2dDlsQXQ?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: Fair Isaac, SpaceX, AMD & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQanBXakVXM3FLeF9IVUpWcXZUa2paRUx2RXdoUVEyenR6Y3Q5WEY5bmlzVTNhUHJxcHpFMGdGYzRMYzVJOVRQM28xYjhpWFlqam5CSmJnTEN0WHY4ZGVQajk5eVRNNzM2VFhvZmhPekRueGdHWXA5NnVRRVM1aUc3ZF85U1dqeVZMMzlBcnM1d1RaTng2d3daOUpoS19tX0ZtVHh2dDlsQXQ?oc=5",
+      "source": "Google Macro",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "JPY"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-30T00:33:22.917759Z"
+    },
+    {
+      "id": "ce31cd516d4ed2625412c2218566d84b",
+      "title": "Japan's Asahi Life aims to hire 1,000 Vietnam staff with acquisition",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/insurance/japan-s-asahi-life-aims-to-hire-1-000-vietnam-staff-with-acquisition",
+      "source": "Nikkei Asia",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-30T00:33:12.580305Z"
+    },
+    {
+      "id": "d4bf0974a5ce59fb21b943f6d6e8a3cd",
+      "title": "Philip R. Lane: Interview with Le Temps",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260922~5f89d300ee.en.html",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-30T00:33:01.881680Z"
     }
   ],
   "alerts": [
     {
-      "id": "bfea7d2aba029291ed3d9be004f36a7a",
-      "title": "Dollar Powers to Best Month Since June on Fed\u2019s Inflation Fight",
-      "summary": "The dollar is wrapping up its best month since June as the Federal Reserve\u2019s renewed focus on taming inflation pushed interest-rate expectations and US bond yields higher.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-30/dollar-powers-to-best-month-since-june-on-fed-s-inflation-fight",
+      "id": "687a780272545cdf4d8eb9b319b1a1f5",
+      "title": "Can Treasury Yields Hit 6%?",
+      "summary": "Bloomberg MLIV strategist Mark Cranfield warns 10-year Treasury yields could climb to 6% as Federal Reserve policy, elevated oil prices, and geopolitical tensions maintain upward pressure. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-30/can-treasury-yields-hit-6-video",
       "source": "Bloomberg",
-      "score": 34,
+      "score": 41,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "RATES",
       "tickers": [
-        "DXY"
+        "TLT",
+        "WTI"
       ],
       "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-30T00:32:20.502489Z"
+    },
+    {
+      "id": "ba79ddd4ba868e05012fcd2089b9fc7d",
+      "title": "Pentagon awards Boeing $20bn contract for Navy stealth fighter jet",
+      "summary": "Virginia-headquartered company marks a revival of its role with the defence department",
+      "link": "https://www.ft.com/content/5f1cd056-b5cb-4b29-84a7-703819811b0d?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
       "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T00:32:23.141868Z"
+    },
+    {
+      "id": "060917bc73bfa966b3724ede5e753a4e",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-30T00:32:25.483232Z"
+    },
+    {
+      "id": "5b6b9b9cd8d7c2d5ed8dd48d8a318e3a",
+      "title": "Gold Fields Said to Mull Sweeter Northern Star Bid With Cash",
+      "summary": "Gold Fields Ltd. is considering a sweetened takeover bid for Northern Star Resources Ltd., according to people familiar with the matter, as the South African miner seeks to overcome resistance to a deal that would create the world\u2019s second-largest gold producer.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-29/gold-fields-said-to-weigh-sweetening-northern-star-bid-with-cash",
+      "source": "Bloomberg",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-30T00:32:20.502441Z"
+    },
+    {
+      "id": "745a8b0cbce6a7b60c2439973fe53fc4",
+      "title": "Australia Raises Key Rate to 15-Year High to Cool Inflation - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOV3NxUXhPYjZzTENJaW05OWRhTEpOUXVyRm1iN01ZT2ZWUTVDQzI1Nmh1OXRucDdCRjZDal9MMnBzS0hKWE1qLXBjakZiZV9oZlJ1WmktVE1mTjZXX0U2ME1vUE9WaGVIR1NGaUpWeXBSMjN3dl9fQ0NuYnVzd2I3T00tQWJzUTFqUVR6WGs4SF9ob003cGlMM0w5N2RLYnpNUHRPbjhvRG9jcDRDUEd1NGVPS3o?oc=5\" target=\"_blank\">Australia Raises Key Rate to 15-Year High to Cool Inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOV3NxUXhPYjZzTENJaW05OWRhTEpOUXVyRm1iN01ZT2ZWUTVDQzI1Nmh1OXRucDdCRjZDal9MMnBzS0hKWE1qLXBjakZiZV9oZlJ1WmktVE1mTjZXX0U2ME1vUE9WaGVIR1NGaUpWeXBSMjN3dl9fQ0NuYnVzd2I3T00tQWJzUTFqUVR6WGs4SF9ob003cGlMM0w5N2RLYnpNUHRPbjhvRG9jcDRDUEd1NGVPS3o?oc=5",
+      "source": "Google Macro",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -67,7 +378,82 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-30T00:27:39.071346Z"
+      "published": "2026-09-30T00:33:20.550758Z"
+    },
+    {
+      "id": "4571cd074d0f110ae69bea11ae3e91f0",
+      "title": "Stocks making the biggest moves premarket: Fair Isaac, SpaceX, AMD & more - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQanBXakVXM3FLeF9IVUpWcXZUa2paRUx2RXdoUVEyenR6Y3Q5WEY5bmlzVTNhUHJxcHpFMGdGYzRMYzVJOVRQM28xYjhpWFlqam5CSmJnTEN0WHY4ZGVQajk5eVRNNzM2VFhvZmhPekRueGdHWXA5NnVRRVM1aUc3ZF85U1dqeVZMMzlBcnM1d1RaTng2d3daOUpoS19tX0ZtVHh2dDlsQXQ?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: Fair Isaac, SpaceX, AMD & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQanBXakVXM3FLeF9IVUpWcXZUa2paRUx2RXdoUVEyenR6Y3Q5WEY5bmlzVTNhUHJxcHpFMGdGYzRMYzVJOVRQM28xYjhpWFlqam5CSmJnTEN0WHY4ZGVQajk5eVRNNzM2VFhvZmhPekRueGdHWXA5NnVRRVM1aUc3ZF85U1dqeVZMMzlBcnM1d1RaTng2d3daOUpoS19tX0ZtVHh2dDlsQXQ?oc=5",
+      "source": "Google Macro",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "JPY"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-30T00:33:22.917759Z"
+    },
+    {
+      "id": "ce31cd516d4ed2625412c2218566d84b",
+      "title": "Japan's Asahi Life aims to hire 1,000 Vietnam staff with acquisition",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/insurance/japan-s-asahi-life-aims-to-hire-1-000-vietnam-staff-with-acquisition",
+      "source": "Nikkei Asia",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-30T00:33:12.580305Z"
+    },
+    {
+      "id": "d4bf0974a5ce59fb21b943f6d6e8a3cd",
+      "title": "Philip R. Lane: Interview with Le Temps",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260922~5f89d300ee.en.html",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-30T00:33:01.881680Z"
     }
   ]
 }
