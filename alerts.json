@@ -1,52 +1,93 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-30T06:14:12.658056Z",
+  "generated_at": "2026-09-30T06:18:49.739520Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 1,
-    "last_updated": "2026-09-30T06:14:12.658070Z"
+    "last_updated": "2026-09-30T06:18:49.739533Z"
   },
   "top_signals": [
     {
-      "id": "432a271c108a3a988cd9035f01b3e7f9",
-      "title": "Why the Pentagon just dropped $450M on tungsten mining",
-      "summary": "The Pentagon recently announced a $450 million investment in The Elmet Group to strengthen the U.S. supply chain for the critical mineral tungsten.",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/09/30/why-the-pentagon-just-dropped-450m-on-tungsten-mining/",
-      "source": "Defense News",
-      "score": 15,
+      "id": "4159e9b2bf416502ede9fe297f9b54ef",
+      "title": "Oil Prices Lower as Focus Shifts to Middle East Supply",
+      "summary": "Oil prices declined on Tuesday as investors focused on signs of recovering crude exports from the Middle East and lingering concerns over potential supply disruptions in the region stemming from the US-Israeli war on Iran.Brent crude futures were down $1.96\u2026",
+      "link": "https://www.marinelink.com/news/oil-prices-lower-focus-shifts-middle-east-543344",
+      "source": "MarineLink",
+      "score": 52,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T06:18:42.301594Z"
+    },
+    {
+      "id": "cc0ab321816c4ee4f80f9156367920e5",
+      "title": "How Abu Dhabi's Crown Prince Is Trying to Bypass Hormuz",
+      "summary": "Abu Dhabi Crown Prince Sheikh Khaled bin Mohamed Al Nahyan took the helm of a $300 billion sovereign wealth fund which has become central to building the infrastructure needed to override Iran\u2019s stranglehold over the Strait of Hormuz. The fund is now likely to spend tens of billions of dollars more on new port infrastructure outside the embattled strait, people familiar with the matter said. Bloomberg's Alex Dooler reports. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-30/how-abu-dhabi-s-crown-price-is-trying-to-bypass-hormuz-video",
+      "source": "Bloomberg",
+      "score": 21,
       "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-30T06:14:08.399684Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T06:17:43.084351Z"
     },
     {
-      "id": "314be1a2ffc3f1fcc5321f73f19aa30f",
-      "title": "Trump praises tech bosses\u2019 \u2018tremendous self-regulation\u2019 of AI",
-      "summary": "President says chief executives have signed a \u2018morally binding\u2019 accord after lunch with industry leaders",
-      "link": "https://www.ft.com/content/a8c1d14d-97aa-4b09-8162-adbcac1d0029?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
+      "id": "35b660a4e07d96183160f4c2b7201c22",
+      "title": "Two Dead, Six Missing in Migrant Shipwreck Off Tunisia",
+      "summary": "German charity group Sea-Watch said on Tuesday it had rescued 28 migrants and recovered two bodies, including that of a child, following a shipwreck off the coast of Tunisia.The group's ship Aurora found five survivors and the dead bodies in a deflated rubber dinghy in the early hours of Tuesday\u2026",
+      "link": "https://www.marinelink.com/news/two-dead-six-missing-migrant-shipwreck-543343",
+      "source": "MarineLink",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -62,94 +103,87 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-30T06:12:48.512292Z"
-    },
-    {
-      "id": "fc9b3584bbb3fdb9ec9facd18f441d94",
-      "title": "Former US Air Force members sent to prison over BEC attacks",
-      "summary": "Two former members of the United States Air Force were sentenced to a combined 189 months in federal prison for their roles in a multi-year series of business email compromise (BEC) scams and phishing campaigns. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
-      "source": "BleepingComputer",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "US"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-30T06:14:09.494116Z"
-    },
-    {
-      "id": "d5ecb98153082faa4637e49635ed31e9",
-      "title": "FTSE 100 Live: UK\u2019s Economic Growth Revised Higher For Second Quarter",
-      "summary": "",
-      "link": "https://www.bloomberg.com/news/live-blog/2026-09-30/ftse-100-live-uk-gdp-data-pound-gilts-burnham-iran-us-oil-prices-ai-stocks-inflation-what-s-moving-uk-markets-right-now-markets-today",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-30T06:12:46.289954Z"
+      "published": "2026-09-30T06:18:42.301669Z"
     }
   ],
   "alerts": [
     {
-      "id": "432a271c108a3a988cd9035f01b3e7f9",
-      "title": "Why the Pentagon just dropped $450M on tungsten mining",
-      "summary": "The Pentagon recently announced a $450 million investment in The Elmet Group to strengthen the U.S. supply chain for the critical mineral tungsten.",
-      "link": "https://www.defensenews.com/news/pentagon-congress/2026/09/30/why-the-pentagon-just-dropped-450m-on-tungsten-mining/",
-      "source": "Defense News",
-      "score": 15,
+      "id": "4159e9b2bf416502ede9fe297f9b54ef",
+      "title": "Oil Prices Lower as Focus Shifts to Middle East Supply",
+      "summary": "Oil prices declined on Tuesday as investors focused on signs of recovering crude exports from the Middle East and lingering concerns over potential supply disruptions in the region stemming from the US-Israeli war on Iran.Brent crude futures were down $1.96\u2026",
+      "link": "https://www.marinelink.com/news/oil-prices-lower-focus-shifts-middle-east-543344",
+      "source": "MarineLink",
+      "score": 52,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T06:18:42.301594Z"
+    },
+    {
+      "id": "cc0ab321816c4ee4f80f9156367920e5",
+      "title": "How Abu Dhabi's Crown Prince Is Trying to Bypass Hormuz",
+      "summary": "Abu Dhabi Crown Prince Sheikh Khaled bin Mohamed Al Nahyan took the helm of a $300 billion sovereign wealth fund which has become central to building the infrastructure needed to override Iran\u2019s stranglehold over the Strait of Hormuz. The fund is now likely to spend tens of billions of dollars more on new port infrastructure outside the embattled strait, people familiar with the matter said. Bloomberg's Alex Dooler reports. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-30/how-abu-dhabi-s-crown-price-is-trying-to-bypass-hormuz-video",
+      "source": "Bloomberg",
+      "score": 21,
       "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-09-30T06:14:08.399684Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T06:17:43.084351Z"
     },
     {
-      "id": "314be1a2ffc3f1fcc5321f73f19aa30f",
-      "title": "Trump praises tech bosses\u2019 \u2018tremendous self-regulation\u2019 of AI",
-      "summary": "President says chief executives have signed a \u2018morally binding\u2019 accord after lunch with industry leaders",
-      "link": "https://www.ft.com/content/a8c1d14d-97aa-4b09-8162-adbcac1d0029?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
+      "id": "35b660a4e07d96183160f4c2b7201c22",
+      "title": "Two Dead, Six Missing in Migrant Shipwreck Off Tunisia",
+      "summary": "German charity group Sea-Watch said on Tuesday it had rescued 28 migrants and recovered two bodies, including that of a child, following a shipwreck off the coast of Tunisia.The group's ship Aurora found five survivors and the dead bodies in a deflated rubber dinghy in the early hours of Tuesday\u2026",
+      "link": "https://www.marinelink.com/news/two-dead-six-missing-migrant-shipwreck-543343",
+      "source": "MarineLink",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -165,55 +199,7 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-30T06:12:48.512292Z"
-    },
-    {
-      "id": "fc9b3584bbb3fdb9ec9facd18f441d94",
-      "title": "Former US Air Force members sent to prison over BEC attacks",
-      "summary": "Two former members of the United States Air Force were sentenced to a combined 189 months in federal prison for their roles in a multi-year series of business email compromise (BEC) scams and phishing campaigns. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
-      "source": "BleepingComputer",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "US"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-09-30T06:14:09.494116Z"
-    },
-    {
-      "id": "d5ecb98153082faa4637e49635ed31e9",
-      "title": "FTSE 100 Live: UK\u2019s Economic Growth Revised Higher For Second Quarter",
-      "summary": "",
-      "link": "https://www.bloomberg.com/news/live-blog/2026-09-30/ftse-100-live-uk-gdp-data-pound-gilts-burnham-iran-us-oil-prices-ai-stocks-inflation-what-s-moving-uk-markets-right-now-markets-today",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-30T06:12:46.289954Z"
+      "published": "2026-09-30T06:18:42.301669Z"
     }
   ]
 }
