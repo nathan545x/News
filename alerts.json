@@ -1,27 +1,32 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-30T12:04:13.621599Z",
+  "generated_at": "2026-09-30T12:08:07.357334Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
+    "critical_alerts": 2,
     "high_alerts": 0,
-    "last_updated": "2026-09-30T12:04:13.621613Z"
+    "last_updated": "2026-09-30T12:08:07.357348Z"
   },
   "top_signals": [
     {
-      "id": "b376ce64fc781c9bde8c93f3014d7202",
-      "title": "US Stock Futures Hold Steady Ahead of PCE Data, Micron Earnings",
-      "summary": "US stock-index futures wavered ahead of the opening bell on Wednesday as investors awaited the Federal Reserve\u2019s preferred inflation gauge as well as earnings from Micron Technology Inc.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-30/us-stock-futures-hold-steady-ahead-of-pce-data-micron-earnings",
-      "source": "Bloomberg",
-      "score": 33,
+      "id": "d8a1b624a9f683de5b9b1930a7a1effe",
+      "title": "UAE turns to Russian shadow airline for missions in Africa: Investigation",
+      "summary": "The company behind these planes, Aviacon Zitotrans, has been sanctioned by the United States, Canada and Ukraine for its support in Russia\u2019s war effort.",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/09/30/uae-turns-to-russian-shadow-airline-for-missions-in-africa-investigation/",
+      "source": "Defense News",
+      "score": 35,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE",
+        "US"
+      ],
       "assets": [
         "AI"
       ],
@@ -29,29 +34,69 @@
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-30T12:03:07.078688Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T12:08:02.849609Z"
     },
     {
-      "id": "9a77e8f7c14fed3622c9d9ead1998bb4",
-      "title": "Robinhood unveils weekend hours, AI agents to allow users to trade nonstop",
-      "summary": "Robinhood is broadening its offerings in a bid for more active traders who may be seeking trading access beyond traditional U.S. stock market hours.",
-      "link": "https://www.cnbc.com/2026/09/30/robinhood-unveils-weekend-hours-ai-agents-to-allow-users-to-trade-nonstop.html",
-      "source": "CNBC",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "AI",
+      "id": "c0ba646a46b4a764350ce2b3e01bd801",
+      "title": "Russian FSB-linked hackers scale up phishing attacks against Ukraine supporters",
+      "summary": "The Russian state-backed hacking group Star Blizzard has expanded its phishing operations this year, using a new technique that makes it easier to infect victims with malware.",
+      "link": "https://therecord.media/russia-hackers-ukraine-blizzard",
+      "source": "The Record",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
+      ],
       "assets": [
         "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T12:08:04.305969Z"
+    },
+    {
+      "id": "c16a8511525bae1ef3ccd55807dd3682",
+      "title": "Gabon Returns to Bond Markets With Target to Raise $580 Million",
+      "summary": "Gabon is back in the market to raise fresh dollar debt, just two months after selling $920 million worth of eurobonds.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-30/gabon-returns-to-bond-markets-with-target-to-raise-580-million",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "DXY",
+        "EUR"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
@@ -62,47 +107,20 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-30T12:03:11.747360Z"
+      "published": "2026-09-30T12:07:10.019901Z"
     },
     {
-      "id": "e4a10fe181ea1e1f82c25031f42fdb84",
-      "title": "Crypto advocacy group Stand With Crypto rolls out its first round of Senate endorsements after failed Clarity vote",
-      "summary": "Weeks after the Clarity Act stalled in the Senate, crypto advocacy group Stand With Crypto rolled out its first round of Senate endorsements.",
-      "link": "https://www.theblock.co/news/regulation/2026-09-30-crypto-advocacy-group-stand-with-crypto-first-senate-endorsements-after-failed-clarity-417223",
-      "source": "The Block",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-30T12:04:09.841860Z"
-    },
-    {
-      "id": "92f933849dccaeb2a2d73c0d43862ac0",
-      "title": "How Nike fell off the pace in China - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ3RfeHhmTkd3bEpKNFlEcURkbERPVExYUFItUkZSVHRFV3c0dl8tR2M2ZkM4dTV1cW5zQkRZeUlmT0NDS0xVT3JIQmlMVGxKVkpYbDNKOEhpY193dWkzckRJb3Z0ZlVqNmJScVdkZzl4NTAtck9udGdPWVl6OHkxUkItd1E?oc=5\" target=\"_blank\">How Nike fell off the pace in China</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ3RfeHhmTkd3bEpKNFlEcURkbERPVExYUFItUkZSVHRFV3c0dl8tR2M2ZkM4dTV1cW5zQkRZeUlmT0NDS0xVT3JIQmlMVGxKVkpYbDNKOEhpY193dWkzckRJb3Z0ZlVqNmJScVdkZzl4NTAtck9udGdPWVl6OHkxUkItd1E?oc=5",
+      "id": "f5295548ccca99da42678d56c6dc9616",
+      "title": "Iran receives US feedback on seven-day trust-building plan - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQMXVGNEhtaUhtTVlCMndfQ0l3ZUthempGR3UwQklJTXN0MlQ4cG44bWdMWnRzOGJibUl1cFJXcDJSMDZNT2VmNlgyMG0zbms2dVJ3ZEszVmlucmdrX0pWdmp5cjNaQ2x3QUpIQjJFU0RMcTVCbFVfQ0xfaWU0MXVNTzdNUnZpMW5qX2VvSU9wY0ZJN0NPZFFTMWtiLS1HNDZmbWVaWWphVEVKeDZQVXc?oc=5\" target=\"_blank\">Iran receives US feedback on seven-day trust-building plan</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMXVGNEhtaUhtTVlCMndfQ0l3ZUthempGR3UwQklJTXN0MlQ4cG44bWdMWnRzOGJibUl1cFJXcDJSMDZNT2VmNlgyMG0zbms2dVJ3ZEszVmlucmdrX0pWdmp5cjNaQ2x3QUpIQjJFU0RMcTVCbFVfQ0xfaWU0MXVNTzdNUnZpMW5qX2VvSU9wY0ZJN0NPZFFTMWtiLS1HNDZmbWVaWWphVEVKeDZQVXc?oc=5",
       "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
+      "score": 9,
+      "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "CHINA",
-        "UK"
+        "MIDDLE_EAST"
       ],
       "assets": [],
       "market_impact": {
@@ -119,66 +137,58 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-30T12:04:12.511785Z"
+      "published": "2026-09-30T12:08:05.492326Z"
     },
     {
-      "id": "5b618ca743a861a1d28c9a29f5abd826",
-      "title": "Studio behind Danny Dyer and Hugh Jackman films calls in administrators",
-      "summary": "<p> <img alt=\"True Brit released Danny Dyer&#039;s Marching Powder in 2025 (Ian West/PA Wire)\" src=\"https://www.cityam.com/wp-content/uploads/2026/09/01KR92K44CQXWCQG7BN262CMZF-e1790765614648.jpg?w=1200\" /> </p>A British film studio founded by an ex-Lionsgate boss has folded into administration just a few years after taking $150m in start-up financing.\u00a0 True Brit Entertainment, which was founded by former Lionsgate UK chief executive Zygi Kamasa, appointed administrators on Monday, according to filings.\u00a0 The distributor was set up in 2023 hoping to boost the <a href=\"https://www.cityam.com/studio-behind-danny-dyer-hugh-jackman-films-nears-collapse/\">[...]</a>",
-      "link": "https://www.cityam.com/studio-behind-danny-dyer-hugh-jackman-films-nears-collapse/",
-      "source": "CityAM",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-30T12:04:01.384826Z"
-    },
-    {
-      "id": "0d0c134703f0c0d656120863cf9d89bf",
-      "title": "Standard Chartered sees over 600% upside for ENA, expects USDe to hit $40 billion by 2028",
-      "summary": "Standard Chartered forecasts ENA will reach $2 by the end of 2028 as USDe scales eightfold and buybacks reshape the token's value.",
-      "link": "https://www.theblock.co/news/markets/2026-09-30-standard-chartered-sees-over-600-upside-for-ena-expects-usde-to-hit-40-billion-by-2028-417274",
-      "source": "The Block",
-      "score": 1,
+      "id": "d445919cd794814aa25d8e652ee43982",
+      "title": "Man City guilty of \u2018sham\u2019 sponsorship deals after decade of English soccer dominance",
+      "summary": "English soccer club Manchester City has been found guilty of breaking Premier League financial rules over nine seasons.",
+      "link": "https://www.cnbc.com/2026/09/30/manchester-city-guilty-premier-league-financial-rules.html",
+      "source": "CNBC",
+      "score": 6,
       "severity": "LOW",
       "regime": "GENERAL",
-      "tickers": [
-        "DXY"
-      ],
+      "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-30T12:04:09.841804Z"
+      "published": "2026-09-30T12:07:13.146904Z"
+    },
+    {
+      "id": "95041744c6cd98d1165556e062337a31",
+      "title": "Joy mixed with fear as US forces quit Iraq leaving potential security vacuum - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOemFDVTJ6blJhRFNIeVgzYzJoRzUtcG45RURTckFyYzJZb2RlX0g5TndKd1lqbmdSOG1HREZRTFZaM3dSTFZaQ3ZrQTg3a2xSZ2YyRldVT2JCMDZlVmVJOVFHTjI3TnExSktyZ25ZMjU5cXZrdDlITjVTOC11a2sxbmRjd2pvZC10UlRDQlRYclVTREt3S2c5TXRLc1NkdUxJcGFz?oc=5\" target=\"_blank\">Joy mixed with fear as US forces quit Iraq leaving potential security vacuum</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOemFDVTJ6blJhRFNIeVgzYzJoRzUtcG45RURTckFyYzJZb2RlX0g5TndKd1lqbmdSOG1HREZRTFZaM3dSTFZaQ3ZrQTg3a2xSZ2YyRldVT2JCMDZlVmVJOVFHTjI3TnExSktyZ25ZMjU5cXZrdDlITjVTOC11a2sxbmRjd2pvZC10UlRDQlRYclVTREt3S2c5TXRLc1NkdUxJcGFz?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-30T12:08:05.492248Z"
     }
   ],
   "alerts": [
     {
-      "id": "b376ce64fc781c9bde8c93f3014d7202",
-      "title": "US Stock Futures Hold Steady Ahead of PCE Data, Micron Earnings",
-      "summary": "US stock-index futures wavered ahead of the opening bell on Wednesday as investors awaited the Federal Reserve\u2019s preferred inflation gauge as well as earnings from Micron Technology Inc.",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-30/us-stock-futures-hold-steady-ahead-of-pce-data-micron-earnings",
-      "source": "Bloomberg",
-      "score": 33,
+      "id": "d8a1b624a9f683de5b9b1930a7a1effe",
+      "title": "UAE turns to Russian shadow airline for missions in Africa: Investigation",
+      "summary": "The company behind these planes, Aviacon Zitotrans, has been sanctioned by the United States, Canada and Ukraine for its support in Russia\u2019s war effort.",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/09/30/uae-turns-to-russian-shadow-airline-for-missions-in-africa-investigation/",
+      "source": "Defense News",
+      "score": 35,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE",
+        "US"
+      ],
       "assets": [
         "AI"
       ],
@@ -186,29 +196,69 @@
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-30T12:03:07.078688Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T12:08:02.849609Z"
     },
     {
-      "id": "9a77e8f7c14fed3622c9d9ead1998bb4",
-      "title": "Robinhood unveils weekend hours, AI agents to allow users to trade nonstop",
-      "summary": "Robinhood is broadening its offerings in a bid for more active traders who may be seeking trading access beyond traditional U.S. stock market hours.",
-      "link": "https://www.cnbc.com/2026/09/30/robinhood-unveils-weekend-hours-ai-agents-to-allow-users-to-trade-nonstop.html",
-      "source": "CNBC",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "AI",
+      "id": "c0ba646a46b4a764350ce2b3e01bd801",
+      "title": "Russian FSB-linked hackers scale up phishing attacks against Ukraine supporters",
+      "summary": "The Russian state-backed hacking group Star Blizzard has expanded its phishing operations this year, using a new technique that makes it easier to infect victims with malware.",
+      "link": "https://therecord.media/russia-hackers-ukraine-blizzard",
+      "source": "The Record",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
+      ],
       "assets": [
         "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T12:08:04.305969Z"
+    },
+    {
+      "id": "c16a8511525bae1ef3ccd55807dd3682",
+      "title": "Gabon Returns to Bond Markets With Target to Raise $580 Million",
+      "summary": "Gabon is back in the market to raise fresh dollar debt, just two months after selling $920 million worth of eurobonds.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-30/gabon-returns-to-bond-markets-with-target-to-raise-580-million",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "DXY",
+        "EUR"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
@@ -219,47 +269,20 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-30T12:03:11.747360Z"
+      "published": "2026-09-30T12:07:10.019901Z"
     },
     {
-      "id": "e4a10fe181ea1e1f82c25031f42fdb84",
-      "title": "Crypto advocacy group Stand With Crypto rolls out its first round of Senate endorsements after failed Clarity vote",
-      "summary": "Weeks after the Clarity Act stalled in the Senate, crypto advocacy group Stand With Crypto rolled out its first round of Senate endorsements.",
-      "link": "https://www.theblock.co/news/regulation/2026-09-30-crypto-advocacy-group-stand-with-crypto-first-senate-endorsements-after-failed-clarity-417223",
-      "source": "The Block",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-09-30T12:04:09.841860Z"
-    },
-    {
-      "id": "92f933849dccaeb2a2d73c0d43862ac0",
-      "title": "How Nike fell off the pace in China - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ3RfeHhmTkd3bEpKNFlEcURkbERPVExYUFItUkZSVHRFV3c0dl8tR2M2ZkM4dTV1cW5zQkRZeUlmT0NDS0xVT3JIQmlMVGxKVkpYbDNKOEhpY193dWkzckRJb3Z0ZlVqNmJScVdkZzl4NTAtck9udGdPWVl6OHkxUkItd1E?oc=5\" target=\"_blank\">How Nike fell off the pace in China</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ3RfeHhmTkd3bEpKNFlEcURkbERPVExYUFItUkZSVHRFV3c0dl8tR2M2ZkM4dTV1cW5zQkRZeUlmT0NDS0xVT3JIQmlMVGxKVkpYbDNKOEhpY193dWkzckRJb3Z0ZlVqNmJScVdkZzl4NTAtck9udGdPWVl6OHkxUkItd1E?oc=5",
+      "id": "f5295548ccca99da42678d56c6dc9616",
+      "title": "Iran receives US feedback on seven-day trust-building plan - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQMXVGNEhtaUhtTVlCMndfQ0l3ZUthempGR3UwQklJTXN0MlQ4cG44bWdMWnRzOGJibUl1cFJXcDJSMDZNT2VmNlgyMG0zbms2dVJ3ZEszVmlucmdrX0pWdmp5cjNaQ2x3QUpIQjJFU0RMcTVCbFVfQ0xfaWU0MXVNTzdNUnZpMW5qX2VvSU9wY0ZJN0NPZFFTMWtiLS1HNDZmbWVaWWphVEVKeDZQVXc?oc=5\" target=\"_blank\">Iran receives US feedback on seven-day trust-building plan</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMXVGNEhtaUhtTVlCMndfQ0l3ZUthempGR3UwQklJTXN0MlQ4cG44bWdMWnRzOGJibUl1cFJXcDJSMDZNT2VmNlgyMG0zbms2dVJ3ZEszVmlucmdrX0pWdmp5cjNaQ2x3QUpIQjJFU0RMcTVCbFVfQ0xfaWU0MXVNTzdNUnZpMW5qX2VvSU9wY0ZJN0NPZFFTMWtiLS1HNDZmbWVaWWphVEVKeDZQVXc?oc=5",
       "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
+      "score": 9,
+      "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "CHINA",
-        "UK"
+        "MIDDLE_EAST"
       ],
       "assets": [],
       "market_impact": {
@@ -276,52 +299,39 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-09-30T12:04:12.511785Z"
+      "published": "2026-09-30T12:08:05.492326Z"
     },
     {
-      "id": "5b618ca743a861a1d28c9a29f5abd826",
-      "title": "Studio behind Danny Dyer and Hugh Jackman films calls in administrators",
-      "summary": "<p> <img alt=\"True Brit released Danny Dyer&#039;s Marching Powder in 2025 (Ian West/PA Wire)\" src=\"https://www.cityam.com/wp-content/uploads/2026/09/01KR92K44CQXWCQG7BN262CMZF-e1790765614648.jpg?w=1200\" /> </p>A British film studio founded by an ex-Lionsgate boss has folded into administration just a few years after taking $150m in start-up financing.\u00a0 True Brit Entertainment, which was founded by former Lionsgate UK chief executive Zygi Kamasa, appointed administrators on Monday, according to filings.\u00a0 The distributor was set up in 2023 hoping to boost the <a href=\"https://www.cityam.com/studio-behind-danny-dyer-hugh-jackman-films-nears-collapse/\">[...]</a>",
-      "link": "https://www.cityam.com/studio-behind-danny-dyer-hugh-jackman-films-nears-collapse/",
-      "source": "CityAM",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-09-30T12:04:01.384826Z"
-    },
-    {
-      "id": "0d0c134703f0c0d656120863cf9d89bf",
-      "title": "Standard Chartered sees over 600% upside for ENA, expects USDe to hit $40 billion by 2028",
-      "summary": "Standard Chartered forecasts ENA will reach $2 by the end of 2028 as USDe scales eightfold and buybacks reshape the token's value.",
-      "link": "https://www.theblock.co/news/markets/2026-09-30-standard-chartered-sees-over-600-upside-for-ena-expects-usde-to-hit-40-billion-by-2028-417274",
-      "source": "The Block",
-      "score": 1,
+      "id": "d445919cd794814aa25d8e652ee43982",
+      "title": "Man City guilty of \u2018sham\u2019 sponsorship deals after decade of English soccer dominance",
+      "summary": "English soccer club Manchester City has been found guilty of breaking Premier League financial rules over nine seasons.",
+      "link": "https://www.cnbc.com/2026/09/30/manchester-city-guilty-premier-league-financial-rules.html",
+      "source": "CNBC",
+      "score": 6,
       "severity": "LOW",
       "regime": "GENERAL",
-      "tickers": [
-        "DXY"
-      ],
+      "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-30T12:04:09.841804Z"
+      "published": "2026-09-30T12:07:13.146904Z"
+    },
+    {
+      "id": "95041744c6cd98d1165556e062337a31",
+      "title": "Joy mixed with fear as US forces quit Iraq leaving potential security vacuum - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOemFDVTJ6blJhRFNIeVgzYzJoRzUtcG45RURTckFyYzJZb2RlX0g5TndKd1lqbmdSOG1HREZRTFZaM3dSTFZaQ3ZrQTg3a2xSZ2YyRldVT2JCMDZlVmVJOVFHTjI3TnExSktyZ25ZMjU5cXZrdDlITjVTOC11a2sxbmRjd2pvZC10UlRDQlRYclVTREt3S2c5TXRLc1NkdUxJcGFz?oc=5\" target=\"_blank\">Joy mixed with fear as US forces quit Iraq leaving potential security vacuum</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOemFDVTJ6blJhRFNIeVgzYzJoRzUtcG45RURTckFyYzJZb2RlX0g5TndKd1lqbmdSOG1HREZRTFZaM3dSTFZaQ3ZrQTg3a2xSZ2YyRldVT2JCMDZlVmVJOVFHTjI3TnExSktyZ25ZMjU5cXZrdDlITjVTOC11a2sxbmRjd2pvZC10UlRDQlRYclVTREt3S2c5TXRLc1NkdUxJcGFz?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-30T12:08:05.492248Z"
     }
   ]
 }
