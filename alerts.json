@@ -1,33 +1,63 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-30T06:54:02.150793Z",
+  "generated_at": "2026-09-30T06:58:48.409398Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-09-30T06:54:02.150805Z"
+    "critical_alerts": 1,
+    "high_alerts": 2,
+    "last_updated": "2026-09-30T06:58:48.409414Z"
   },
   "top_signals": [
     {
-      "id": "ed3053916d98223b7adb593997a4558c",
-      "title": "Pressure on U.S. Treasurys eases after 30-year yield hits highest level since 2002",
-      "summary": "U.S. Treasury yields were lower on Wednesday after a fresh round of selloffs the previous day, as investors remained concerned about inflation.",
-      "link": "https://www.cnbc.com/2026/09/30/treasury-yields-bonds-selloff.html",
-      "source": "CNBC",
-      "score": 21,
+      "id": "a9db4819edac25b49cee2a7c0c0101af",
+      "title": "China Crude Comeback Loses Steam as Iran War Enters Eighth Month",
+      "summary": "A nascent recovery in Chinese oil demand has begun to falter, as continued fighting in the Middle East and limited Iranian supply keep crude prices too high for private refiners, prompting some analysts to trim forecasts for the coming months.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-30/china-crude-comeback-loses-steam-as-iran-war-enters-eighth-month",
+      "source": "Bloomberg",
+      "score": 50,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "CHINA",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T06:57:52.496568Z"
+    },
+    {
+      "id": "1e57c14fb87f75d5552361a9794e7c66",
+      "title": "Kenyan Inflation Accelerates to 32-Month High in September",
+      "summary": "Kenyan inflation accelerated to the highest level in more than two and a half years in September, driven by higher energy and food prices.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-30/kenyan-inflation-accelerates-to-32-month-high-in-september",
+      "source": "Bloomberg",
+      "score": 16,
       "severity": "HIGH",
       "regime": "INFLATION",
-      "tickers": [
-        "TLT"
-      ],
+      "tickers": [],
       "regions": [],
-      "assets": [
-        "AI",
-        "RATES"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -40,27 +70,259 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-30T06:52:58.293517Z"
+      "published": "2026-09-30T06:57:52.496610Z"
+    },
+    {
+      "id": "c86c5d35ed2d2f92a52203707be4e793",
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
+      "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "source": "KrebsOnSecurity",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T06:58:45.703312Z"
+    },
+    {
+      "id": "22bb069fe0926df794fec5d3eecff1f3",
+      "title": "Erdogan Hands Turkey Investment Fund Cleanup to Vice President",
+      "summary": "Turkey\u2019s President Recep Tayyip Erdogan said the country has created a board to oversee the liquidation of investment funds caught up in a crisis over holdings in illiquid stocks.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-29/erdogan-says-turkey-created-a-board-to-oversee-fund-liquidation",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-30T06:57:52.496443Z"
+    },
+    {
+      "id": "5cbe58ea2236d0dbd51cb446fda996e0",
+      "title": "Clearlake Wraps Up $1 Billion CFO Trade After Rejigging Deal",
+      "summary": "Clearlake Capital Group LP has raised $1 billion backed by stakes in its private market funds after rejigging the collateral mix in the deal following discussions with investors.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-29/clearlake-raises-1-billion-from-cfo-trade-after-rejigging-deal",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-30T06:57:52.496503Z"
+    },
+    {
+      "id": "e9cb62736630e7d5ef059778f3245b13",
+      "title": "House Speaker Johnson says he hopes AI guardrails are 'voluntary' amid Congress inaction",
+      "summary": "House Speaker Mike Johnson is scheduled for lunch Tuesday with President Trump and AI industry executives.",
+      "link": "https://www.cnbc.com/2026/09/29/ai-safety-regulation-mike-johnson-congress.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-30T06:57:55.478111Z"
+    },
+    {
+      "id": "f9ef3725f4fcbf24a8d003f104eee8db",
+      "title": "Burnham on Brexit: \u2018Customs union, single market \u2013 or we could go all the way\u2019",
+      "summary": "<p> <img alt=\"Burnham used his party conference speech to rip into Brexit. (Image: PA)\" src=\"https://www.cityam.com/wp-content/uploads/2026/09/01M3PW2TPDWPMABB1V634C29XQ-1200x800-2.jpeg?w=1200\" /> </p>Andy Burnham has confirmed he is open to reversing Brexit and could push for Britain to rejoin the European Union after the next election, as he said all options are &#8220;on the table&#8221; for Britain&#8217;s future relationship with the bloc. The Prime Minister said on Wednesday Morning: &#8220;There are clearly options that need to be <a href=\"https://www.cityam.com/burnham-on-brexit-customs-union-single-market-or-we-could-go-all-the-way/\">[...]</a>",
+      "link": "https://www.cityam.com/burnham-on-brexit-customs-union-single-market-or-we-could-go-all-the-way/",
+      "source": "CityAM",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-30T06:58:38.675679Z"
+    },
+    {
+      "id": "af6f420224a8827e730d5f19f2b8aefc",
+      "title": "Fast-pass services gain popularity at restaurants in Japan",
+      "summary": "One service has been adopted by 104 stores in 20 prefectures across Japan as of Sept. 18, according to its operator.",
+      "link": "https://www.japantimes.co.jp/news/2026/09/30/japan/restaurant-fast-pass-popularity/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-30T06:58:40.227247Z"
+    },
+    {
+      "id": "58d47638a380fbc5b8ff73a963073859",
+      "title": "Keynote speech by Commissioner Dombrovskis at the European Forum for Family Business",
+      "summary": "European Commission Speech Brussels, 29 Sep 2026 Good evening, ladies and gentlemen. Thank you for the invitation to join you this evening.\nFamily businesses hold a special place in the European economy. You r...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2012",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-30T06:58:36.737793Z"
+    },
+    {
+      "id": "eb7383a214c3f2a0755435a1438d6ad5",
+      "title": "Onosato and Aonishiki deliver the title showdown sumo needed",
+      "summary": "Onosato's first title in a year provided the biggest boost of the Autumn Basho, while other strong performances point to a compelling future for sumo.",
+      "link": "https://www.japantimes.co.jp/sports/2026/09/30/sumo/autumn-basho-onosato-aonishiki-fujinokawa/",
+      "source": "Japan Times",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-30T06:58:40.227294Z"
     }
   ],
   "alerts": [
     {
-      "id": "ed3053916d98223b7adb593997a4558c",
-      "title": "Pressure on U.S. Treasurys eases after 30-year yield hits highest level since 2002",
-      "summary": "U.S. Treasury yields were lower on Wednesday after a fresh round of selloffs the previous day, as investors remained concerned about inflation.",
-      "link": "https://www.cnbc.com/2026/09/30/treasury-yields-bonds-selloff.html",
-      "source": "CNBC",
-      "score": 21,
+      "id": "a9db4819edac25b49cee2a7c0c0101af",
+      "title": "China Crude Comeback Loses Steam as Iran War Enters Eighth Month",
+      "summary": "A nascent recovery in Chinese oil demand has begun to falter, as continued fighting in the Middle East and limited Iranian supply keep crude prices too high for private refiners, prompting some analysts to trim forecasts for the coming months.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-30/china-crude-comeback-loses-steam-as-iran-war-enters-eighth-month",
+      "source": "Bloomberg",
+      "score": 50,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "CHINA",
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T06:57:52.496568Z"
+    },
+    {
+      "id": "1e57c14fb87f75d5552361a9794e7c66",
+      "title": "Kenyan Inflation Accelerates to 32-Month High in September",
+      "summary": "Kenyan inflation accelerated to the highest level in more than two and a half years in September, driven by higher energy and food prices.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-30/kenyan-inflation-accelerates-to-32-month-high-in-september",
+      "source": "Bloomberg",
+      "score": 16,
       "severity": "HIGH",
       "regime": "INFLATION",
-      "tickers": [
-        "TLT"
-      ],
+      "tickers": [],
       "regions": [],
-      "assets": [
-        "AI",
-        "RATES"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -73,7 +335,209 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-09-30T06:52:58.293517Z"
+      "published": "2026-09-30T06:57:52.496610Z"
+    },
+    {
+      "id": "c86c5d35ed2d2f92a52203707be4e793",
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
+      "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "source": "KrebsOnSecurity",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T06:58:45.703312Z"
+    },
+    {
+      "id": "22bb069fe0926df794fec5d3eecff1f3",
+      "title": "Erdogan Hands Turkey Investment Fund Cleanup to Vice President",
+      "summary": "Turkey\u2019s President Recep Tayyip Erdogan said the country has created a board to oversee the liquidation of investment funds caught up in a crisis over holdings in illiquid stocks.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-29/erdogan-says-turkey-created-a-board-to-oversee-fund-liquidation",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-30T06:57:52.496443Z"
+    },
+    {
+      "id": "5cbe58ea2236d0dbd51cb446fda996e0",
+      "title": "Clearlake Wraps Up $1 Billion CFO Trade After Rejigging Deal",
+      "summary": "Clearlake Capital Group LP has raised $1 billion backed by stakes in its private market funds after rejigging the collateral mix in the deal following discussions with investors.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-29/clearlake-raises-1-billion-from-cfo-trade-after-rejigging-deal",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-30T06:57:52.496503Z"
+    },
+    {
+      "id": "e9cb62736630e7d5ef059778f3245b13",
+      "title": "House Speaker Johnson says he hopes AI guardrails are 'voluntary' amid Congress inaction",
+      "summary": "House Speaker Mike Johnson is scheduled for lunch Tuesday with President Trump and AI industry executives.",
+      "link": "https://www.cnbc.com/2026/09/29/ai-safety-regulation-mike-johnson-congress.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-30T06:57:55.478111Z"
+    },
+    {
+      "id": "f9ef3725f4fcbf24a8d003f104eee8db",
+      "title": "Burnham on Brexit: \u2018Customs union, single market \u2013 or we could go all the way\u2019",
+      "summary": "<p> <img alt=\"Burnham used his party conference speech to rip into Brexit. (Image: PA)\" src=\"https://www.cityam.com/wp-content/uploads/2026/09/01M3PW2TPDWPMABB1V634C29XQ-1200x800-2.jpeg?w=1200\" /> </p>Andy Burnham has confirmed he is open to reversing Brexit and could push for Britain to rejoin the European Union after the next election, as he said all options are &#8220;on the table&#8221; for Britain&#8217;s future relationship with the bloc. The Prime Minister said on Wednesday Morning: &#8220;There are clearly options that need to be <a href=\"https://www.cityam.com/burnham-on-brexit-customs-union-single-market-or-we-could-go-all-the-way/\">[...]</a>",
+      "link": "https://www.cityam.com/burnham-on-brexit-customs-union-single-market-or-we-could-go-all-the-way/",
+      "source": "CityAM",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-30T06:58:38.675679Z"
+    },
+    {
+      "id": "af6f420224a8827e730d5f19f2b8aefc",
+      "title": "Fast-pass services gain popularity at restaurants in Japan",
+      "summary": "One service has been adopted by 104 stores in 20 prefectures across Japan as of Sept. 18, according to its operator.",
+      "link": "https://www.japantimes.co.jp/news/2026/09/30/japan/restaurant-fast-pass-popularity/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-09-30T06:58:40.227247Z"
+    },
+    {
+      "id": "58d47638a380fbc5b8ff73a963073859",
+      "title": "Keynote speech by Commissioner Dombrovskis at the European Forum for Family Business",
+      "summary": "European Commission Speech Brussels, 29 Sep 2026 Good evening, ladies and gentlemen. Thank you for the invitation to join you this evening.\nFamily businesses hold a special place in the European economy. You r...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2012",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-30T06:58:36.737793Z"
+    },
+    {
+      "id": "eb7383a214c3f2a0755435a1438d6ad5",
+      "title": "Onosato and Aonishiki deliver the title showdown sumo needed",
+      "summary": "Onosato's first title in a year provided the biggest boost of the Autumn Basho, while other strong performances point to a compelling future for sumo.",
+      "link": "https://www.japantimes.co.jp/sports/2026/09/30/sumo/autumn-basho-onosato-aonishiki-fujinokawa/",
+      "source": "Japan Times",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-30T06:58:40.227294Z"
     }
   ]
 }
