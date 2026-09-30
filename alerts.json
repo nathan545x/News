@@ -1,49 +1,311 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-09-30T02:18:45.297832Z",
+  "generated_at": "2026-09-30T02:23:51.025678Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 0,
-    "last_updated": "2026-09-30T02:18:45.297845Z"
+    "last_updated": "2026-09-30T02:23:51.025691Z"
   },
   "top_signals": [
     {
-      "id": "52d37e62d96c8cea5a458e295ac39523",
-      "title": "Energy prices to hit record highs with end of government subsidy next month",
-      "summary": "Utility companies announced that standard household rates for October usage will rise by between \u00a5835 and \u00a51,578 from the previous month.",
-      "link": "https://www.japantimes.co.jp/business/2026/09/30/japan-energy-prices-record-highs/",
-      "source": "Japan Times",
-      "score": 1,
-      "severity": "LOW",
+      "id": "330a7a00f2229742487cfffdc95a9d15",
+      "title": "Bond investors become oil traders as Iran war drives yields",
+      "summary": "Bond investors watch Iran conflict and crude price for signs as to where government borrowing costs will go",
+      "link": "https://www.ft.com/content/f894f69a-9e2b-4c3f-bf5d-c5c4dc0e6197?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 41,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T02:22:55.770580Z"
+    },
+    {
+      "id": "f5fa19e68524ba286396a0ed60109497",
+      "title": "30-year Treasury bond yield scales to highest level since 2002",
+      "summary": "U.S. Treasury yields largely rose Tuesday, adding to the gains that catapulted them to multi-year highs amid central bank monetary policy concerns.",
+      "link": "https://www.cnbc.com/2026/09/29/treasury-yields-bonds.html",
+      "source": "CNBC",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-30T02:22:57.529640Z"
+    },
+    {
+      "id": "d6dc059a66f573cb62011fa9b43361da",
+      "title": "Frank Elderson: Supervisory risk appetite, efficiency and effectiveness",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260930~d495288355.en.html",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-30T02:18:37.153051Z"
+      "published": "2026-09-30T02:23:36.112198Z"
+    },
+    {
+      "id": "dfc85ce5690904bbfc5b3a71afce4818",
+      "title": "An ode to stock picking",
+      "summary": "Can the dying art of active share investment make a comeback?",
+      "link": "https://www.ft.com/content/97d0b8b3-86b8-4b2b-b603-f322da9343b4?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-30T02:22:56.003574Z"
+    },
+    {
+      "id": "0ec973af2222f35d3931d8c001ca7074",
+      "title": "Japanese listed fashion brand Human Made steps up global expansion",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/retail/japanese-listed-fashion-brand-human-made-steps-up-global-expansion",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-30T02:23:43.132125Z"
+    },
+    {
+      "id": "a6c603313350af7cb371dbc758bebfde",
+      "title": "Exclusive | Goldman\u2019s Board Has Discussed a Plan to Name John Waldron as Its Next CEO - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRS05TlBNanZKbUI4WWxVQ0RkdFgzVGJYYWtpSTBORWRFaW8wdWxCT3pRODB6eEtYcVFDVEJ5aWdCTFRYSUlZOTB6bGRCV3M0dVVxQlNEcFRUcGhHaG1pWkd0VERZcDdCc0ViSXNrLW9UbnU4UkV6RVpLRC1CalRBeXk0bFMxTF83cV9xVk1SclpuUkJPWTY0dkxrb2JJVlJmU29EcE5ZbDlsLXdvbU5jUHF6dDVXdzFt?oc=5\" target=\"_blank\">Exclusive | Goldman\u2019s Board Has Discussed a Plan to Name John Waldron as Its Next CEO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRS05TlBNanZKbUI4WWxVQ0RkdFgzVGJYYWtpSTBORWRFaW8wdWxCT3pRODB6eEtYcVFDVEJ5aWdCTFRYSUlZOTB6bGRCV3M0dVVxQlNEcFRUcGhHaG1pWkd0VERZcDdCc0ViSXNrLW9UbnU4UkV6RVpLRC1CalRBeXk0bFMxTF83cV9xVk1SclpuUkJPWTY0dkxrb2JJVlJmU29EcE5ZbDlsLXdvbU5jUHF6dDVXdzFt?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-30T02:23:50.435754Z"
     }
   ],
   "alerts": [
     {
-      "id": "52d37e62d96c8cea5a458e295ac39523",
-      "title": "Energy prices to hit record highs with end of government subsidy next month",
-      "summary": "Utility companies announced that standard household rates for October usage will rise by between \u00a5835 and \u00a51,578 from the previous month.",
-      "link": "https://www.japantimes.co.jp/business/2026/09/30/japan-energy-prices-record-highs/",
-      "source": "Japan Times",
-      "score": 1,
-      "severity": "LOW",
+      "id": "330a7a00f2229742487cfffdc95a9d15",
+      "title": "Bond investors become oil traders as Iran war drives yields",
+      "summary": "Bond investors watch Iran conflict and crude price for signs as to where government borrowing costs will go",
+      "link": "https://www.ft.com/content/f894f69a-9e2b-4c3f-bf5d-c5c4dc0e6197?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 41,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-09-30T02:22:55.770580Z"
+    },
+    {
+      "id": "f5fa19e68524ba286396a0ed60109497",
+      "title": "30-year Treasury bond yield scales to highest level since 2002",
+      "summary": "U.S. Treasury yields largely rose Tuesday, adding to the gains that catapulted them to multi-year highs amid central bank monetary policy concerns.",
+      "link": "https://www.cnbc.com/2026/09/29/treasury-yields-bonds.html",
+      "source": "CNBC",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-09-30T02:22:57.529640Z"
+    },
+    {
+      "id": "d6dc059a66f573cb62011fa9b43361da",
+      "title": "Frank Elderson: Supervisory risk appetite, efficiency and effectiveness",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260930~d495288355.en.html",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-09-30T02:18:37.153051Z"
+      "published": "2026-09-30T02:23:36.112198Z"
+    },
+    {
+      "id": "dfc85ce5690904bbfc5b3a71afce4818",
+      "title": "An ode to stock picking",
+      "summary": "Can the dying art of active share investment make a comeback?",
+      "link": "https://www.ft.com/content/97d0b8b3-86b8-4b2b-b603-f322da9343b4?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-30T02:22:56.003574Z"
+    },
+    {
+      "id": "0ec973af2222f35d3931d8c001ca7074",
+      "title": "Japanese listed fashion brand Human Made steps up global expansion",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/retail/japanese-listed-fashion-brand-human-made-steps-up-global-expansion",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-09-30T02:23:43.132125Z"
+    },
+    {
+      "id": "a6c603313350af7cb371dbc758bebfde",
+      "title": "Exclusive | Goldman\u2019s Board Has Discussed a Plan to Name John Waldron as Its Next CEO - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRS05TlBNanZKbUI4WWxVQ0RkdFgzVGJYYWtpSTBORWRFaW8wdWxCT3pRODB6eEtYcVFDVEJ5aWdCTFRYSUlZOTB6bGRCV3M0dVVxQlNEcFRUcGhHaG1pWkd0VERZcDdCc0ViSXNrLW9UbnU4UkV6RVpLRC1CalRBeXk0bFMxTF83cV9xVk1SclpuUkJPWTY0dkxrb2JJVlJmU29EcE5ZbDlsLXdvbU5jUHF6dDVXdzFt?oc=5\" target=\"_blank\">Exclusive | Goldman\u2019s Board Has Discussed a Plan to Name John Waldron as Its Next CEO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRS05TlBNanZKbUI4WWxVQ0RkdFgzVGJYYWtpSTBORWRFaW8wdWxCT3pRODB6eEtYcVFDVEJ5aWdCTFRYSUlZOTB6bGRCV3M0dVVxQlNEcFRUcGhHaG1pWkd0VERZcDdCc0ViSXNrLW9UbnU4UkV6RVpLRC1CalRBeXk0bFMxTF83cV9xVk1SclpuUkJPWTY0dkxrb2JJVlJmU29EcE5ZbDlsLXdvbU5jUHF6dDVXdzFt?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-09-30T02:23:50.435754Z"
     }
   ]
 }
