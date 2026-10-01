@@ -1,91 +1,146 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-01T21:33:36.888291Z",
+  "generated_at": "2026-10-01T21:38:45.356438Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "COMMODITIES",
+    "dominant_driver": "COMMODITIES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-10-01T21:33:36.888303Z"
+    "critical_alerts": 1,
+    "high_alerts": 3,
+    "last_updated": "2026-10-01T21:38:45.356454Z"
   },
   "top_signals": [
     {
-      "id": "e15ccaa386df7cf817a4982cd7dcf21c",
-      "title": "Policy paper: Treasury Minutes \u2013 September 2026",
-      "summary": "Government departments respond to the Public Accounts Committee reports through a Treasury minute.",
-      "link": "https://www.gov.uk/government/publications/treasury-minutes-august-2026",
+      "id": "20f5da3db59cc4c846dd2188a8497f20",
+      "title": "Guidance: OFSI General licence INT/2025/5635700",
+      "summary": "Details for OFSI General licence INT/2025/5635700, Russian Oil Exempt Projects",
+      "link": "https://www.gov.uk/government/publications/ofsi-general-licence-int20255635700",
       "source": "HM Treasury",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "RATES",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
       "tickers": [
-        "TLT"
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "RUSSIA"
+      ],
       "assets": [
-        "RATES"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-01T21:33:24.584591Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-01T21:38:34.610086Z"
     },
     {
-      "id": "f5e50c5799a455fe2f111350e1de1f5c",
-      "title": "Bowman, Opening Remarks",
-      "summary": "Speech At the Community Bank Cyber Workshop, Denver, Colorado (via pre-recorded video)",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260929a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "id": "b72c28710072a49c8d966ff29aba20b8",
+      "title": "Accredited official statistics: GDP deflators at market prices, and money GDP September 2026 (Quarterly National Accounts)",
+      "summary": "This document contains the latest gross domestic product (GDP) deflators. The GDP deflator can be viewed as a measure of general inflation in the domestic economy.",
+      "link": "https://www.gov.uk/government/statistics/gdp-deflators-at-market-prices-and-money-gdp-september-2026-quarterly-national-accounts",
+      "source": "HM Treasury",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-01T21:38:34.610041Z"
+    },
+    {
+      "id": "8caac19f815e8779d6a95b5199f89838",
+      "title": "Guidance: Maritime Services Ban and Oil Price Cap: licences and reporting forms",
+      "summary": "Guidance, general licences and reporting forms relating to the Maritime Services Ban and Oil Price Cap Exception.",
+      "link": "https://www.gov.uk/government/publications/russian-oil-services-ban",
+      "source": "HM Treasury",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-01T21:38:34.610131Z"
+    },
+    {
+      "id": "af6df93fa65c220b0e62f05dc1dfa9ec",
+      "title": "US sanctions Kremlin-backed fintech A7 after FT investigation",
+      "summary": "Payments group designated a transnational criminal organisation",
+      "link": "https://www.ft.com/content/29e2d078-4476-41f2-a180-faf0b2001068?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-01T21:32:37.861680Z"
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-01T21:37:46.186793Z"
     },
     {
-      "id": "2b3b71056fbd825943699c6aa7e0b62f",
-      "title": "The Best of Bloomberg Podcasts",
-      "summary": "Bloomberg Businessweek Reporters and Everybody's Business Hosts, Max Chafkin and Stacey Vanek Smith preview Bloomberg\u2019s Podcasts 2026 slate at Bloomberg Screentime in Los Angeles. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-01/the-best-of-bloomberg-podcasts-video",
-      "source": "Bloomberg",
-      "score": 9,
+      "id": "d9920cd7c61c743fb2125d9c626f9ec1",
+      "title": "Isabel Schnabel: Central banks on-chain",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261001_1~a0be67193b.en.pdf",
+      "source": "ECB",
+      "score": 14,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-01T21:32:32.984914Z"
-    },
-    {
-      "id": "22152ac28434c0752abebac5e687b013",
-      "title": "Ex-GSDF member admits trespassing at Chinese embassy in Tokyo",
-      "summary": "According to the indictment, Kodai Murata, 24, entered the embassy grounds on March 24 carrying a kitchen knife with an 18-centimeter blade.",
-      "link": "https://www.japantimes.co.jp/news/2026/10/01/japan/crime-legal/gsdf-member-china-embassy/",
-      "source": "Japan Times",
-      "score": 5,
-      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -98,85 +153,181 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-01T21:33:28.430608Z"
+      "published": "2026-10-01T21:38:28.098036Z"
+    },
+    {
+      "id": "d2796a1076f1c9d9073ca90b0ee8df61",
+      "title": "Nuveen CEO on Schroders Deal, Plans for Combined Company",
+      "summary": "Nuveen has completed its acquisition of Schroders, forming a combined asset manager with $2.6 trillion in assets under management and operations in more than 40 markets. In an exclusive interview, Bill Huffman said the deal brings together two strong firms to create a global platform that can serve clients across a wider range of market conditions. He speaks to Romaine Bostick on \"The Close.\" (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-01/nuveen-ceo-on-schroders-deal-plans-for-combined-company-video",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-01T21:37:43.964597Z"
+    },
+    {
+      "id": "7b387bff88ae335e8c25cf2cb3cd6381",
+      "title": "Correspondence: DAO 08/26 Use of private finance models",
+      "summary": "\u2018Dear Accounting Officer\u2019 letters provide advice on accountability, regularity, propriety, value for money and annual accounting exercises.",
+      "link": "https://www.gov.uk/government/publications/dao-0826-use-of-private-finance-models",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-01T21:38:34.610189Z"
     }
   ],
   "alerts": [
     {
-      "id": "e15ccaa386df7cf817a4982cd7dcf21c",
-      "title": "Policy paper: Treasury Minutes \u2013 September 2026",
-      "summary": "Government departments respond to the Public Accounts Committee reports through a Treasury minute.",
-      "link": "https://www.gov.uk/government/publications/treasury-minutes-august-2026",
+      "id": "20f5da3db59cc4c846dd2188a8497f20",
+      "title": "Guidance: OFSI General licence INT/2025/5635700",
+      "summary": "Details for OFSI General licence INT/2025/5635700, Russian Oil Exempt Projects",
+      "link": "https://www.gov.uk/government/publications/ofsi-general-licence-int20255635700",
       "source": "HM Treasury",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "RATES",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
       "tickers": [
-        "TLT"
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "RUSSIA"
+      ],
       "assets": [
-        "RATES"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-01T21:33:24.584591Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-01T21:38:34.610086Z"
     },
     {
-      "id": "f5e50c5799a455fe2f111350e1de1f5c",
-      "title": "Bowman, Opening Remarks",
-      "summary": "Speech At the Community Bank Cyber Workshop, Denver, Colorado (via pre-recorded video)",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260929a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "id": "b72c28710072a49c8d966ff29aba20b8",
+      "title": "Accredited official statistics: GDP deflators at market prices, and money GDP September 2026 (Quarterly National Accounts)",
+      "summary": "This document contains the latest gross domestic product (GDP) deflators. The GDP deflator can be viewed as a measure of general inflation in the domestic economy.",
+      "link": "https://www.gov.uk/government/statistics/gdp-deflators-at-market-prices-and-money-gdp-september-2026-quarterly-national-accounts",
+      "source": "HM Treasury",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-01T21:38:34.610041Z"
+    },
+    {
+      "id": "8caac19f815e8779d6a95b5199f89838",
+      "title": "Guidance: Maritime Services Ban and Oil Price Cap: licences and reporting forms",
+      "summary": "Guidance, general licences and reporting forms relating to the Maritime Services Ban and Oil Price Cap Exception.",
+      "link": "https://www.gov.uk/government/publications/russian-oil-services-ban",
+      "source": "HM Treasury",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-01T21:38:34.610131Z"
+    },
+    {
+      "id": "af6df93fa65c220b0e62f05dc1dfa9ec",
+      "title": "US sanctions Kremlin-backed fintech A7 after FT investigation",
+      "summary": "Payments group designated a transnational criminal organisation",
+      "link": "https://www.ft.com/content/29e2d078-4476-41f2-a180-faf0b2001068?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-01T21:32:37.861680Z"
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-01T21:37:46.186793Z"
     },
     {
-      "id": "2b3b71056fbd825943699c6aa7e0b62f",
-      "title": "The Best of Bloomberg Podcasts",
-      "summary": "Bloomberg Businessweek Reporters and Everybody's Business Hosts, Max Chafkin and Stacey Vanek Smith preview Bloomberg\u2019s Podcasts 2026 slate at Bloomberg Screentime in Los Angeles. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-01/the-best-of-bloomberg-podcasts-video",
-      "source": "Bloomberg",
-      "score": 9,
+      "id": "d9920cd7c61c743fb2125d9c626f9ec1",
+      "title": "Isabel Schnabel: Central banks on-chain",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261001_1~a0be67193b.en.pdf",
+      "source": "ECB",
+      "score": 14,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-01T21:32:32.984914Z"
-    },
-    {
-      "id": "22152ac28434c0752abebac5e687b013",
-      "title": "Ex-GSDF member admits trespassing at Chinese embassy in Tokyo",
-      "summary": "According to the indictment, Kodai Murata, 24, entered the embassy grounds on March 24 carrying a kitchen knife with an 18-centimeter blade.",
-      "link": "https://www.japantimes.co.jp/news/2026/10/01/japan/crime-legal/gsdf-member-china-embassy/",
-      "source": "Japan Times",
-      "score": 5,
-      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -189,7 +340,48 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-01T21:33:28.430608Z"
+      "published": "2026-10-01T21:38:28.098036Z"
+    },
+    {
+      "id": "d2796a1076f1c9d9073ca90b0ee8df61",
+      "title": "Nuveen CEO on Schroders Deal, Plans for Combined Company",
+      "summary": "Nuveen has completed its acquisition of Schroders, forming a combined asset manager with $2.6 trillion in assets under management and operations in more than 40 markets. In an exclusive interview, Bill Huffman said the deal brings together two strong firms to create a global platform that can serve clients across a wider range of market conditions. He speaks to Romaine Bostick on \"The Close.\" (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-01/nuveen-ceo-on-schroders-deal-plans-for-combined-company-video",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-01T21:37:43.964597Z"
+    },
+    {
+      "id": "7b387bff88ae335e8c25cf2cb3cd6381",
+      "title": "Correspondence: DAO 08/26 Use of private finance models",
+      "summary": "\u2018Dear Accounting Officer\u2019 letters provide advice on accountability, regularity, propriety, value for money and annual accounting exercises.",
+      "link": "https://www.gov.uk/government/publications/dao-0826-use-of-private-finance-models",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-01T21:38:34.610189Z"
     }
   ]
 }
