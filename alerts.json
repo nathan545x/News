@@ -1,104 +1,183 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-01T15:29:03.844280Z",
+  "generated_at": "2026-10-01T15:34:12.595433Z",
   "market_regime": {
-    "regime": "CRYPTO",
-    "dominant_driver": "CRYPTO",
+    "regime": "COMMODITIES",
+    "dominant_driver": "COMMODITIES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-10-01T15:29:03.844295Z"
+    "critical_alerts": 2,
+    "high_alerts": 3,
+    "last_updated": "2026-10-01T15:34:12.595449Z"
   },
   "top_signals": [
     {
-      "id": "de29e96a77b6fe8888401aad36fa379b",
-      "title": "Chainalysis beats most Celsius claims, but \u2018audit\u2019 lawsuit survives",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Chainalysis beats most Celsius claims, but \u2018audit\u2019 lawsuit survives\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M3V8HCJJXEVRWZE2XE1FHZ45/hi-the-cftcs-action-against-is-bad-news-for-bitcoin-etfs-1.jpg\" /></p><p>Chainalysis still faces an aiding-and-abetting claim over Celsius\u2019 disputed $3.3 billion audit after a judge dismissed 15 other claims.</p>",
-      "link": "https://cointelegraph.com/news/celsius-chainalysis-lawsuit-audit-claim-survives?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "CRYPTO",
+      "id": "70043b34066e28e13d78fe326a622a22",
+      "title": "Gold Wavers as Traders Weigh Higher Bond Yields, Oil at $100",
+      "summary": "Gold wavered as oil again climbed above $100 a barrel and a rise in government bond yields gathered pace.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-01/gold-steady-as-softer-inflation-data-tempers-fed-rate-hike-bets",
+      "source": "Bloomberg",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
       "tickers": [
-        "BTC"
+        "WTI",
+        "XAU"
       ],
       "regions": [],
       "assets": [
         "AI",
-        "CRYPTO"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "USD"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-10-01T15:28:59.614661Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-01T15:33:06.484905Z"
     },
     {
-      "id": "e15ccaa386df7cf817a4982cd7dcf21c",
-      "title": "Policy paper: Treasury Minutes \u2013 September 2026",
-      "summary": "Government departments respond to the Public Accounts Committee reports through a Treasury minute.",
-      "link": "https://www.gov.uk/government/publications/treasury-minutes-august-2026",
+      "id": "20f5da3db59cc4c846dd2188a8497f20",
+      "title": "Guidance: OFSI General licence INT/2025/5635700",
+      "summary": "Details for OFSI General licence INT/2025/5635700, Russian Oil Exempt Projects",
+      "link": "https://www.gov.uk/government/publications/ofsi-general-licence-int20255635700",
       "source": "HM Treasury",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "RATES",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-01T15:33:59.436351Z"
+    },
+    {
+      "id": "b72c28710072a49c8d966ff29aba20b8",
+      "title": "Accredited official statistics: GDP deflators at market prices, and money GDP September 2026 (Quarterly National Accounts)",
+      "summary": "This document contains the latest gross domestic product (GDP) deflators. The GDP deflator can be viewed as a measure of general inflation in the domestic economy.",
+      "link": "https://www.gov.uk/government/statistics/gdp-deflators-at-market-prices-and-money-gdp-september-2026-quarterly-national-accounts",
+      "source": "HM Treasury",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-01T15:33:59.436307Z"
+    },
+    {
+      "id": "8ee25b654567947c26a571b27ab7c827",
+      "title": "Wall Street dips as surging Treasury yields outweigh software gains - reuters.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT1NWcmpRdnNhV0szWEh4QVRhcF83OVVJSy1jY1BoOFZDb2ZGanhFd3VtQWp5bFJxa2kwRUZJaWExeXF0UmE0NS1vUVpjdWpoc1N4dUUzZ1AtT0ZyNkZBTjU2bmVSSTVjZVRUMmg3YmR2V3FVWXAwWk5lUWlNLVdSSUVRc1NoZEc3R1RrUVpxcnlEOHRmaHRlUjA4ZkVfekc2UGowc2J5T1AxanRxNUNieWw5cS00U3lEaGVN?oc=5\" target=\"_blank\">Wall Street dips as surging Treasury yields outweigh software gains</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">reuters.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT1NWcmpRdnNhV0szWEh4QVRhcF83OVVJSy1jY1BoOFZDb2ZGanhFd3VtQWp5bFJxa2kwRUZJaWExeXF0UmE0NS1vUVpjdWpoc1N4dUUzZ1AtT0ZyNkZBTjU2bmVSSTVjZVRUMmg3YmR2V3FVWXAwWk5lUWlNLVdSSUVRc1NoZEc3R1RrUVpxcnlEOHRmaHRlUjA4ZkVfekc2UGowc2J5T1AxanRxNUNieWw5cS00U3lEaGVN?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "TLT"
       ],
       "regions": [],
       "assets": [
+        "AI",
         "RATES"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-01T15:28:49.999799Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-01T15:34:10.924063Z"
     },
     {
-      "id": "f5e50c5799a455fe2f111350e1de1f5c",
-      "title": "Bowman, Opening Remarks",
-      "summary": "Speech At the Community Bank Cyber Workshop, Denver, Colorado (via pre-recorded video)",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260929a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
+      "id": "8caac19f815e8779d6a95b5199f89838",
+      "title": "Guidance: Maritime Services Ban and Oil Price Cap: licences and reporting forms",
+      "summary": "Guidance, general licences and reporting forms relating to the Maritime Services Ban and Oil Price Cap Exception.",
+      "link": "https://www.gov.uk/government/publications/russian-oil-services-ban",
+      "source": "HM Treasury",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-01T15:28:02.763391Z"
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-01T15:33:59.436394Z"
     },
     {
-      "id": "22152ac28434c0752abebac5e687b013",
-      "title": "Ex-GSDF member admits trespassing at Chinese embassy in Tokyo",
-      "summary": "According to the indictment, Kodai Murata, 24, entered the embassy grounds on March 24 carrying a kitchen knife with an 18-centimeter blade.",
-      "link": "https://www.japantimes.co.jp/news/2026/10/01/japan/crime-legal/gsdf-member-china-embassy/",
-      "source": "Japan Times",
-      "score": 5,
-      "severity": "LOW",
+      "id": "d9920cd7c61c743fb2125d9c626f9ec1",
+      "title": "Isabel Schnabel: Central banks on-chain",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261001_1~a0be67193b.en.pdf",
+      "source": "ECB",
+      "score": 14,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -111,98 +190,266 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-01T15:28:53.036044Z"
+      "published": "2026-10-01T15:33:49.434817Z"
+    },
+    {
+      "id": "7b603ef914a4eec6c49ce675811ffb6c",
+      "title": "Pakistan\u2019s Fashion Brand Khaadi Plans Record  IPO Next Month",
+      "summary": "Khaadi Pakistan Ltd., an iconic fashion retail company, is planning a record initial public offer next month to fund its outlet expansion.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-01/pakistan-s-fashion-brand-khaadi-plans-ipo-next-month",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-01T15:33:06.484978Z"
+    },
+    {
+      "id": "74bd7791f5c104042fae6762fd3ee400",
+      "title": "Europe businesses seek EU-ASEAN trade pact after Philippine deal",
+      "summary": "",
+      "link": "https://asia.nikkei.com/economy/trade/europe-businesses-seek-eu-asean-trade-pact-after-philippine-deal",
+      "source": "Nikkei Asia",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-01T15:34:02.520861Z"
+    },
+    {
+      "id": "7b387bff88ae335e8c25cf2cb3cd6381",
+      "title": "Correspondence: DAO 08/26 Use of private finance models",
+      "summary": "\u2018Dear Accounting Officer\u2019 letters provide advice on accountability, regularity, propriety, value for money and annual accounting exercises.",
+      "link": "https://www.gov.uk/government/publications/dao-0826-use-of-private-finance-models",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-01T15:33:59.436447Z"
+    },
+    {
+      "id": "224d8ad1ed132e5920856ad638d383c9",
+      "title": "Hedge Funds Diameter, Redwood Bought Nuveen Brightline Debt",
+      "summary": "Distressed-debt hedge funds Diameter Capital Partners, Redwood Capital and FourSixThree Capital bought about $190 million of Brightline\u2019s municipal bonds from Nuveen this week, according to people familiar with the matter.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-30/hedge-funds-diameter-redwood-purchased-nuveen-s-brightline-debt",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-01T15:33:06.485043Z"
     }
   ],
   "alerts": [
     {
-      "id": "de29e96a77b6fe8888401aad36fa379b",
-      "title": "Chainalysis beats most Celsius claims, but \u2018audit\u2019 lawsuit survives",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Chainalysis beats most Celsius claims, but \u2018audit\u2019 lawsuit survives\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M3V8HCJJXEVRWZE2XE1FHZ45/hi-the-cftcs-action-against-is-bad-news-for-bitcoin-etfs-1.jpg\" /></p><p>Chainalysis still faces an aiding-and-abetting claim over Celsius\u2019 disputed $3.3 billion audit after a judge dismissed 15 other claims.</p>",
-      "link": "https://cointelegraph.com/news/celsius-chainalysis-lawsuit-audit-claim-survives?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "CRYPTO",
+      "id": "70043b34066e28e13d78fe326a622a22",
+      "title": "Gold Wavers as Traders Weigh Higher Bond Yields, Oil at $100",
+      "summary": "Gold wavered as oil again climbed above $100 a barrel and a rise in government bond yields gathered pace.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-01/gold-steady-as-softer-inflation-data-tempers-fed-rate-hike-bets",
+      "source": "Bloomberg",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
       "tickers": [
-        "BTC"
+        "WTI",
+        "XAU"
       ],
       "regions": [],
       "assets": [
         "AI",
-        "CRYPTO"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "USD"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-10-01T15:28:59.614661Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-01T15:33:06.484905Z"
     },
     {
-      "id": "e15ccaa386df7cf817a4982cd7dcf21c",
-      "title": "Policy paper: Treasury Minutes \u2013 September 2026",
-      "summary": "Government departments respond to the Public Accounts Committee reports through a Treasury minute.",
-      "link": "https://www.gov.uk/government/publications/treasury-minutes-august-2026",
+      "id": "20f5da3db59cc4c846dd2188a8497f20",
+      "title": "Guidance: OFSI General licence INT/2025/5635700",
+      "summary": "Details for OFSI General licence INT/2025/5635700, Russian Oil Exempt Projects",
+      "link": "https://www.gov.uk/government/publications/ofsi-general-licence-int20255635700",
       "source": "HM Treasury",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "RATES",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-01T15:33:59.436351Z"
+    },
+    {
+      "id": "b72c28710072a49c8d966ff29aba20b8",
+      "title": "Accredited official statistics: GDP deflators at market prices, and money GDP September 2026 (Quarterly National Accounts)",
+      "summary": "This document contains the latest gross domestic product (GDP) deflators. The GDP deflator can be viewed as a measure of general inflation in the domestic economy.",
+      "link": "https://www.gov.uk/government/statistics/gdp-deflators-at-market-prices-and-money-gdp-september-2026-quarterly-national-accounts",
+      "source": "HM Treasury",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-01T15:33:59.436307Z"
+    },
+    {
+      "id": "8ee25b654567947c26a571b27ab7c827",
+      "title": "Wall Street dips as surging Treasury yields outweigh software gains - reuters.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT1NWcmpRdnNhV0szWEh4QVRhcF83OVVJSy1jY1BoOFZDb2ZGanhFd3VtQWp5bFJxa2kwRUZJaWExeXF0UmE0NS1vUVpjdWpoc1N4dUUzZ1AtT0ZyNkZBTjU2bmVSSTVjZVRUMmg3YmR2V3FVWXAwWk5lUWlNLVdSSUVRc1NoZEc3R1RrUVpxcnlEOHRmaHRlUjA4ZkVfekc2UGowc2J5T1AxanRxNUNieWw5cS00U3lEaGVN?oc=5\" target=\"_blank\">Wall Street dips as surging Treasury yields outweigh software gains</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">reuters.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT1NWcmpRdnNhV0szWEh4QVRhcF83OVVJSy1jY1BoOFZDb2ZGanhFd3VtQWp5bFJxa2kwRUZJaWExeXF0UmE0NS1vUVpjdWpoc1N4dUUzZ1AtT0ZyNkZBTjU2bmVSSTVjZVRUMmg3YmR2V3FVWXAwWk5lUWlNLVdSSUVRc1NoZEc3R1RrUVpxcnlEOHRmaHRlUjA4ZkVfekc2UGowc2J5T1AxanRxNUNieWw5cS00U3lEaGVN?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "TLT"
       ],
       "regions": [],
       "assets": [
+        "AI",
         "RATES"
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-01T15:28:49.999799Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-01T15:34:10.924063Z"
     },
     {
-      "id": "f5e50c5799a455fe2f111350e1de1f5c",
-      "title": "Bowman, Opening Remarks",
-      "summary": "Speech At the Community Bank Cyber Workshop, Denver, Colorado (via pre-recorded video)",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260929a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
+      "id": "8caac19f815e8779d6a95b5199f89838",
+      "title": "Guidance: Maritime Services Ban and Oil Price Cap: licences and reporting forms",
+      "summary": "Guidance, general licences and reporting forms relating to the Maritime Services Ban and Oil Price Cap Exception.",
+      "link": "https://www.gov.uk/government/publications/russian-oil-services-ban",
+      "source": "HM Treasury",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-01T15:28:02.763391Z"
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-01T15:33:59.436394Z"
     },
     {
-      "id": "22152ac28434c0752abebac5e687b013",
-      "title": "Ex-GSDF member admits trespassing at Chinese embassy in Tokyo",
-      "summary": "According to the indictment, Kodai Murata, 24, entered the embassy grounds on March 24 carrying a kitchen knife with an 18-centimeter blade.",
-      "link": "https://www.japantimes.co.jp/news/2026/10/01/japan/crime-legal/gsdf-member-china-embassy/",
-      "source": "Japan Times",
-      "score": 5,
-      "severity": "LOW",
+      "id": "d9920cd7c61c743fb2125d9c626f9ec1",
+      "title": "Isabel Schnabel: Central banks on-chain",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261001_1~a0be67193b.en.pdf",
+      "source": "ECB",
+      "score": 14,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -215,7 +462,96 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-01T15:28:53.036044Z"
+      "published": "2026-10-01T15:33:49.434817Z"
+    },
+    {
+      "id": "7b603ef914a4eec6c49ce675811ffb6c",
+      "title": "Pakistan\u2019s Fashion Brand Khaadi Plans Record  IPO Next Month",
+      "summary": "Khaadi Pakistan Ltd., an iconic fashion retail company, is planning a record initial public offer next month to fund its outlet expansion.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-01/pakistan-s-fashion-brand-khaadi-plans-ipo-next-month",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-01T15:33:06.484978Z"
+    },
+    {
+      "id": "74bd7791f5c104042fae6762fd3ee400",
+      "title": "Europe businesses seek EU-ASEAN trade pact after Philippine deal",
+      "summary": "",
+      "link": "https://asia.nikkei.com/economy/trade/europe-businesses-seek-eu-asean-trade-pact-after-philippine-deal",
+      "source": "Nikkei Asia",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-01T15:34:02.520861Z"
+    },
+    {
+      "id": "7b387bff88ae335e8c25cf2cb3cd6381",
+      "title": "Correspondence: DAO 08/26 Use of private finance models",
+      "summary": "\u2018Dear Accounting Officer\u2019 letters provide advice on accountability, regularity, propriety, value for money and annual accounting exercises.",
+      "link": "https://www.gov.uk/government/publications/dao-0826-use-of-private-finance-models",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-01T15:33:59.436447Z"
+    },
+    {
+      "id": "224d8ad1ed132e5920856ad638d383c9",
+      "title": "Hedge Funds Diameter, Redwood Bought Nuveen Brightline Debt",
+      "summary": "Distressed-debt hedge funds Diameter Capital Partners, Redwood Capital and FourSixThree Capital bought about $190 million of Brightline\u2019s municipal bonds from Nuveen this week, according to people familiar with the matter.",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-30/hedge-funds-diameter-redwood-purchased-nuveen-s-brightline-debt",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-01T15:33:06.485043Z"
     }
   ]
 }
