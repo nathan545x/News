@@ -1,127 +1,385 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-01T10:24:24.999316Z",
+  "generated_at": "2026-10-01T10:28:44.676148Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-10-01T10:24:24.999329Z"
+    "critical_alerts": 1,
+    "high_alerts": 2,
+    "last_updated": "2026-10-01T10:28:44.676158Z"
   },
   "top_signals": [
     {
-      "id": "db9997ddb4ba4803f1441b13b202b23c",
-      "title": "European Stocks Drop as Bond Yields Spook Investors; Banks Lag",
-      "summary": "European stocks declined as regional bond yields climbed, denting the appeal of equities and fueling concerns about the economic impact of higher borrowing costs.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-01/european-stocks-fall-as-inflation-worries-overshadow-tech-gains",
+      "id": "e35f5993d34946a05e7d79bbab227ed1",
+      "title": "Why Are Bond Yields Higher Globally? Investors React to Inflation, Fiscal Risks",
+      "summary": "Bond yields are climbing almost daily around the world, sparking a heated debate over the reasons why and how much further they have to run.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-01/ten-reasons-investors-are-driving-government-bond-yields-higher",
       "source": "Bloomberg",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
       "assets": [
-        "EQUITIES",
-        "FX"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "XAU",
+          "WTI",
+          "COMMODITIES"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-01T10:23:18.170394Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-01T10:27:36.811860Z"
     },
     {
-      "id": "c399f4f54fe82f2bb0c162287087f3a0",
-      "title": "Keynote speech by Commissioner Piotr Serafin at the 8th Annual EC-EIB-ESM Capital Markets Seminar, 1 October 2026, Luxembourg",
-      "summary": "European Commission Speech Luxembourg, 01 Oct 2026 Ladies and gentlemen,\nI want to start by welcoming you on behalf of the European Commission to the second day of this Seminar.\nI am pleased to see that this Sem...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2043",
-      "source": "European Commission",
+      "id": "207b489de370f0c456434e42370e6284",
+      "title": "Fintech Unicorn MNT Halan Plans Egypt Listing as Market Rallies",
+      "summary": "Fintech unicorn MNT Halan is proceeding with a long-anticipated initial public offering in Egypt, seeking to capitalize on a stock-market rally and booming consumer lending in the Middle East\u2019s most populous nation.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-01/fintech-unicorn-mnt-halan-plans-egypt-listing-as-market-rallies",
+      "source": "Bloomberg",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-01T10:27:36.811950Z"
+    },
+    {
+      "id": "61d3f01b5be41a8248eda2bebfebadea",
+      "title": "Why Iran Escalates",
+      "summary": "Tehran\u2019s strategy to drive America out of the Middle East.",
+      "link": "https://www.foreignaffairs.com/united-states/why-iran-escalates",
+      "source": "Foreign Affairs",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-01T10:28:40.549860Z"
+    },
+    {
+      "id": "b37c94ed8c2a1aa5fa2fa143c0c96431",
+      "title": "Why we can thumb our noses at AI",
+      "summary": "Our sense of smell helps us to keep a few shreds of privacy intact and maintains a dividing line between real and virtual worlds",
+      "link": "https://www.ft.com/content/dd33034e-86f0-48b6-b62f-4a32a5334be0?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-01T10:27:38.802987Z"
+    },
+    {
+      "id": "3226623db6adaa023345a12de1ea69ee",
+      "title": "Manchester City chair shielded by diplomatic immunity",
+      "summary": "Khaldoon al-Mubarak was granted immunity six years ago, protecting him from potential legal proceedings in the UK",
+      "link": "https://www.ft.com/content/125675ee-0d2c-4ffc-b7c5-814dd6b82612?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-01T10:27:38.803042Z"
+    },
+    {
+      "id": "3c7ff5dc30e7149a0dcee3fd9a6bc10b",
+      "title": "The AI Autocrat",
+      "summary": "How technology empowers\u2014and imperils\u2014dictators.",
+      "link": "https://www.foreignaffairs.com/united-states/ai-autocrat",
+      "source": "Foreign Affairs",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-01T10:28:40.549816Z"
+    },
+    {
+      "id": "cccf9a8d0452a6f03503d356ce8ce26f",
+      "title": "Broken market: 75% of S&P 500 stocks had a lousy September - cnbc.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPcURmYXBpUHItV2dYMXdmbVhuWExzZGp0S2luWkJ5cDB3b1RMcW1VczZVRzJZOWtwT0VwdXZlMTdTNllza1A0MEY0V0c4ZjJyaDdHNGE4ZndNUHJXWmNDN01wUHQzQjRDQ3owTXl2NVdnUXpoT2ZHWGlTQ3dEb1p1d2tTcmpJZm4tQ2VtcVZBcmVyM01yOUJ3X1p2TTNfWkR4WlE?oc=5\" target=\"_blank\">Broken market: 75% of S&amp;P 500 stocks had a lousy September</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cnbc.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcURmYXBpUHItV2dYMXdmbVhuWExzZGp0S2luWkJ5cDB3b1RMcW1VczZVRzJZOWtwT0VwdXZlMTdTNllza1A0MEY0V0c4ZjJyaDdHNGE4ZndNUHJXWmNDN01wUHQzQjRDQ3owTXl2NVdnUXpoT2ZHWGlTQ3dEb1p1d2tTcmpJZm4tQ2VtcVZBcmVyM01yOUJ3X1p2TTNfWkR4WlE?oc=5",
+      "source": "Google Macro",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [
-        "EUR"
+        "SPY"
       ],
-      "regions": [
-        "EUROPE"
-      ],
+      "regions": [],
       "assets": [
-        "FX"
+        "EQUITIES"
       ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-01T10:24:09.473030Z"
+      "published": "2026-10-01T10:28:44.676126Z"
     }
   ],
   "alerts": [
     {
-      "id": "db9997ddb4ba4803f1441b13b202b23c",
-      "title": "European Stocks Drop as Bond Yields Spook Investors; Banks Lag",
-      "summary": "European stocks declined as regional bond yields climbed, denting the appeal of equities and fueling concerns about the economic impact of higher borrowing costs.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-01/european-stocks-fall-as-inflation-worries-overshadow-tech-gains",
+      "id": "e35f5993d34946a05e7d79bbab227ed1",
+      "title": "Why Are Bond Yields Higher Globally? Investors React to Inflation, Fiscal Risks",
+      "summary": "Bond yields are climbing almost daily around the world, sparking a heated debate over the reasons why and how much further they have to run.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-01/ten-reasons-investors-are-driving-government-bond-yields-higher",
       "source": "Bloomberg",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
       "assets": [
-        "EQUITIES",
-        "FX"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "XAU",
+          "WTI",
+          "COMMODITIES"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-01T10:23:18.170394Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-01T10:27:36.811860Z"
     },
     {
-      "id": "c399f4f54fe82f2bb0c162287087f3a0",
-      "title": "Keynote speech by Commissioner Piotr Serafin at the 8th Annual EC-EIB-ESM Capital Markets Seminar, 1 October 2026, Luxembourg",
-      "summary": "European Commission Speech Luxembourg, 01 Oct 2026 Ladies and gentlemen,\nI want to start by welcoming you on behalf of the European Commission to the second day of this Seminar.\nI am pleased to see that this Sem...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2043",
-      "source": "European Commission",
+      "id": "207b489de370f0c456434e42370e6284",
+      "title": "Fintech Unicorn MNT Halan Plans Egypt Listing as Market Rallies",
+      "summary": "Fintech unicorn MNT Halan is proceeding with a long-anticipated initial public offering in Egypt, seeking to capitalize on a stock-market rally and booming consumer lending in the Middle East\u2019s most populous nation.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-01/fintech-unicorn-mnt-halan-plans-egypt-listing-as-market-rallies",
+      "source": "Bloomberg",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-01T10:27:36.811950Z"
+    },
+    {
+      "id": "61d3f01b5be41a8248eda2bebfebadea",
+      "title": "Why Iran Escalates",
+      "summary": "Tehran\u2019s strategy to drive America out of the Middle East.",
+      "link": "https://www.foreignaffairs.com/united-states/why-iran-escalates",
+      "source": "Foreign Affairs",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-01T10:28:40.549860Z"
+    },
+    {
+      "id": "b37c94ed8c2a1aa5fa2fa143c0c96431",
+      "title": "Why we can thumb our noses at AI",
+      "summary": "Our sense of smell helps us to keep a few shreds of privacy intact and maintains a dividing line between real and virtual worlds",
+      "link": "https://www.ft.com/content/dd33034e-86f0-48b6-b62f-4a32a5334be0?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-01T10:27:38.802987Z"
+    },
+    {
+      "id": "3226623db6adaa023345a12de1ea69ee",
+      "title": "Manchester City chair shielded by diplomatic immunity",
+      "summary": "Khaldoon al-Mubarak was granted immunity six years ago, protecting him from potential legal proceedings in the UK",
+      "link": "https://www.ft.com/content/125675ee-0d2c-4ffc-b7c5-814dd6b82612?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-01T10:27:38.803042Z"
+    },
+    {
+      "id": "3c7ff5dc30e7149a0dcee3fd9a6bc10b",
+      "title": "The AI Autocrat",
+      "summary": "How technology empowers\u2014and imperils\u2014dictators.",
+      "link": "https://www.foreignaffairs.com/united-states/ai-autocrat",
+      "source": "Foreign Affairs",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-01T10:28:40.549816Z"
+    },
+    {
+      "id": "cccf9a8d0452a6f03503d356ce8ce26f",
+      "title": "Broken market: 75% of S&P 500 stocks had a lousy September - cnbc.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPcURmYXBpUHItV2dYMXdmbVhuWExzZGp0S2luWkJ5cDB3b1RMcW1VczZVRzJZOWtwT0VwdXZlMTdTNllza1A0MEY0V0c4ZjJyaDdHNGE4ZndNUHJXWmNDN01wUHQzQjRDQ3owTXl2NVdnUXpoT2ZHWGlTQ3dEb1p1d2tTcmpJZm4tQ2VtcVZBcmVyM01yOUJ3X1p2TTNfWkR4WlE?oc=5\" target=\"_blank\">Broken market: 75% of S&amp;P 500 stocks had a lousy September</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cnbc.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcURmYXBpUHItV2dYMXdmbVhuWExzZGp0S2luWkJ5cDB3b1RMcW1VczZVRzJZOWtwT0VwdXZlMTdTNllza1A0MEY0V0c4ZjJyaDdHNGE4ZndNUHJXWmNDN01wUHQzQjRDQ3owTXl2NVdnUXpoT2ZHWGlTQ3dEb1p1d2tTcmpJZm4tQ2VtcVZBcmVyM01yOUJ3X1p2TTNfWkR4WlE?oc=5",
+      "source": "Google Macro",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [
-        "EUR"
+        "SPY"
       ],
-      "regions": [
-        "EUROPE"
-      ],
+      "regions": [],
       "assets": [
-        "FX"
+        "EQUITIES"
       ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-01T10:24:09.473030Z"
+      "published": "2026-10-01T10:28:44.676126Z"
     }
   ]
 }
