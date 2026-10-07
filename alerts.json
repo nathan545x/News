@@ -1,23 +1,83 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-07T15:59:34.858670Z",
+  "generated_at": "2026-10-07T16:04:25.490083Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-10-07T15:59:34.858685Z"
+    "high_alerts": 7,
+    "last_updated": "2026-10-07T16:04:25.490100Z"
   },
   "top_signals": [
     {
-      "id": "093ab91c1a628bf68a6624c647b7a912",
-      "title": "Farm Machinery Shares Drop on US Probe Into Market Practices",
-      "summary": "Shares of farm equipment manufacturers including Deere &amp; Co. plunged after the Federal Trade Commission and the US Department of Agriculture launched an inquiry into market practices, including potential anticompetitive conduct.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-07/ftc-usda-seek-comment-on-farm-equipment-market-practices",
-      "source": "Bloomberg",
-      "score": 15,
+      "id": "d4a1a31a32d1878a6717a87e7114ab52",
+      "title": "Australian court ruling on climate impact of coal mining a \u2018blow\u2019, says industry",
+      "summary": "Verdict is latest in a series of legal cases to examine the relationship between fossil fuel producers and global warming",
+      "link": "https://www.ft.com/content/870ed142-0418-4685-9347-d8c0caacdc58?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-07T16:03:28.841770Z"
+    },
+    {
+      "id": "24df7b91e53c09966d88bf5372727ccd",
+      "title": "China\u2019s foreign minister suggested Takaichi resolve Taiwan remark issue",
+      "summary": "Former Foreign Minister Takeshi Iwaya said that he and Chinese Foreign Minister Wang Yi confirmed the need to improve relations.",
+      "link": "https://www.japantimes.co.jp/news/2026/10/07/japan/wang-takaichi-taiwan-remark/",
+      "source": "Japan Times",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-07T16:04:16.600370Z"
+    },
+    {
+      "id": "4419daedfd530e138b8d7ea3979fc86d",
+      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "summary": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
@@ -35,45 +95,16 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-07T15:58:26.177028Z"
+      "published": "2026-10-07T16:03:31.552383Z"
     },
     {
-      "id": "0cb567bd18cb386c1fc6518b87ed7f32",
-      "title": "Zim lifts profit forecast 72% on strong demand",
-      "summary": "<p>Liner operator Zim raised its 2026 earnings guidance, citing strong demand and rising freight rates.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/zim-lifts-profit-forecast-72-on-strong-demand\">Zim lifts profit forecast 72% on strong demand</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/zim-lifts-profit-forecast-72-on-strong-demand",
-      "source": "FreightWaves",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-10-07T15:59:27.159142Z"
-    },
-    {
-      "id": "0f5bff636e6d79a7f69ed749a1369756",
-      "title": "Why Weaning Markets Off Fed Speak Is Harder Than It Sounds - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPOHpmUGJnaVRkaVR2aFRMdjRXY01yaFkteGVrY0tlRlZxcFFPNlF2eVFubDY4YjBVOE9Ob0dxY1ByQURDN01XVlR4UjFuZWhYTHIxTXVoYjNLODluc2tGNlVEN3cyOEp1OWpGVnlfQmNlV0Utam45akk4RHVlaVdEMDVIaVVFQ3duemVjeGhWWHI0ZlprNHpic1BZcDdVQmZpSWI3bHJVbzRGRzdpa3FQTA?oc=5\" target=\"_blank\">Why Weaning Markets Off Fed Speak Is Harder Than It Sounds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOHpmUGJnaVRkaVR2aFRMdjRXY01yaFkteGVrY0tlRlZxcFFPNlF2eVFubDY4YjBVOE9Ob0dxY1ByQURDN01XVlR4UjFuZWhYTHIxTXVoYjNLODluc2tGNlVEN3cyOEp1OWpGVnlfQmNlV0Utam45akk4RHVlaVdEMDVIaVVFQ3duemVjeGhWWHI0ZlprNHpic1BZcDdVQmZpSWI3bHJVbzRGRzdpa3FQTA?oc=5",
-      "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
+      "id": "cd8483ccc42224120b75b5e374924b0a",
+      "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
+      "summary": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
       "regions": [],
@@ -90,26 +121,23 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-07T15:59:34.212729Z"
+      "published": "2026-10-07T16:03:31.552438Z"
     },
     {
-      "id": "af06661686def94b40bf0a20ece7c6b4",
-      "title": "Daily News 07 / 10 / 2026",
-      "summary": "European Commission Daily news Brussels, 07 Oct 2026 NextGenerationEU shows strong delivery record as implementation reaches finish line\nToday, the European Commission presents the fifth annual report on the Recov...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2096",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
+      "id": "c4a4bef67edb20e2efa4769104451e6a",
+      "title": "Australia's AirTrunk to triple Japan data center investment to up to $30bn",
+      "summary": "",
+      "link": "https://asia.nikkei.com/editor-s-picks/interview/australia-s-airtrunk-to-triple-japan-data-center-investment-to-up-to-30bn",
+      "source": "Nikkei Asia",
+      "score": 16,
+      "severity": "HIGH",
       "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
+      "tickers": [],
       "regions": [
-        "EUROPE"
+        "JAPAN"
       ],
       "assets": [
-        "AI",
-        "FX"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -120,35 +148,263 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-07T15:59:18.312758Z"
+      "published": "2026-10-07T16:04:16.053040Z"
     },
     {
-      "id": "e3bdf77c66a7978ef11daff66b43b2c6",
-      "title": "Jito\u2019s JTX plans mobile app this fall, eyes perps integration later this winter",
-      "summary": "Jito\u2019s JTX plans a mobile app, equities feature, and perpetual futures as it expands beyond spot trading on Solana.",
-      "link": "https://www.theblock.co/news/defi/2026-10-07-jitos-jtx-plans-mobile-app-this-fall-eyes-perps-integration-later-this-winter-417905",
-      "source": "The Block",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "684263b638b45fb2866cd7d508af3b87",
+      "title": "Lithuania says it would pay the cost if US establishes military base",
+      "summary": "Lithuania is ready to pay the cost to set up a permanent U.S. military base if Washington should agree to establish one there, the prime minister said.",
+      "link": "https://www.defensenews.com/global/europe/2026/10/06/lithuania-says-it-would-pay-the-cost-if-us-establishes-military-base/",
+      "source": "Defense News",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [
-        "EQUITIES"
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-07T16:04:19.877874Z"
+    },
+    {
+      "id": "947d21fe716a60679b40bc13774d9a64",
+      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+      "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and deploying so many fixes each month.",
+      "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+      "source": "KrebsOnSecurity",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-07T16:04:22.006695Z"
+    },
+    {
+      "id": "881af9222d951f24d762513081ec53d8",
+      "title": "Bitcoin briefly slides below $84,000 as crypto long liquidations reach $487 million",
+      "summary": "Crypto liquidations amounted to $555.6 million over the past 24 hours, including $487.2 million in long positions, according to CoinGlass.",
+      "link": "https://www.theblock.co/news/markets/2026-10-06-bitcoin-slides-crypto-long-liquidations-surge-417882",
+      "source": "The Block",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-10-07T16:04:21.509555Z"
+    },
+    {
+      "id": "f3d288528b4d5d8ec23a3e154bcc7021",
+      "title": "Northrop Grumman\u2019s YFQ-48A CCA completes first fully autonomous flight",
+      "summary": "The successful flight came just weeks after U.S. Air Force officials announced their intention to have 500 autonomous aircraft in service by 2032.",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/10/06/northrop-grummans-yfq-48a-cca-completes-first-fully-autonomous-flight/",
+      "source": "Defense News",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-07T16:04:19.877816Z"
+    },
+    {
+      "id": "0781d85c38d0583fd037388e00b4b4a0",
+      "title": "Japanese scientist Kenso Soai and France\u2019s Henri B. Kagan win Nobel Prize in chemistry",
+      "summary": "Japanese scientist Kenso Soai and Henri B. Kagan won \"for the discovery of non-linear effects and autocatalysis in asymmetric organic synthesis.\"",
+      "link": "https://www.japantimes.co.jp/news/2026/10/07/japan/science-health/2026-nobel-prize-chemistry/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "FRANCE",
+        "JAPAN"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-07T16:04:16.600439Z"
+    },
+    {
+      "id": "1da151c444dba52e83f02a0377687fff",
+      "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
+      "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large advertising platforms. Not anymore: A powerful and free new service called DecryptAds scrapes and correlates this adtech data and makes it simple to quickly learn a great deal about the entities that are tracking you.",
+      "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "source": "KrebsOnSecurity",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-07T16:04:22.006817Z"
+    },
+    {
+      "id": "37ea7aa870d172fd60db180dc1faae4b",
+      "title": "Europe Moves to Curb the Flood of Chinese Hybrid Cars",
+      "summary": "Some ten years after it should have, Europe is finally reaching for the brakes. According to Bloomberg, the European Commission is preparing so-called safeguard measures to limit imports of Chinese hybrid vehicles, most likely via tariff-rate quotas that slap a levy on anything above a set volume. The cap would be time-limited, and Brussels plans to use hybrids as a \"test case\" which, if successful, could be replicated in other sectors where the bloc is drowning in Chinese imports. Our reaction this morning was short and to the point: The market\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Europe-Moves-to-Curb-the-Flood-of-Chinese-Hybrid-Cars.html",
+      "source": "OilPrice",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
       ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T15:59:30.571037Z"
+      "published": "2026-10-07T16:04:18.499033Z"
     }
   ],
   "alerts": [
     {
-      "id": "093ab91c1a628bf68a6624c647b7a912",
-      "title": "Farm Machinery Shares Drop on US Probe Into Market Practices",
-      "summary": "Shares of farm equipment manufacturers including Deere &amp; Co. plunged after the Federal Trade Commission and the US Department of Agriculture launched an inquiry into market practices, including potential anticompetitive conduct.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-07/ftc-usda-seek-comment-on-farm-equipment-market-practices",
-      "source": "Bloomberg",
-      "score": 15,
+      "id": "d4a1a31a32d1878a6717a87e7114ab52",
+      "title": "Australian court ruling on climate impact of coal mining a \u2018blow\u2019, says industry",
+      "summary": "Verdict is latest in a series of legal cases to examine the relationship between fossil fuel producers and global warming",
+      "link": "https://www.ft.com/content/870ed142-0418-4685-9347-d8c0caacdc58?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-07T16:03:28.841770Z"
+    },
+    {
+      "id": "24df7b91e53c09966d88bf5372727ccd",
+      "title": "China\u2019s foreign minister suggested Takaichi resolve Taiwan remark issue",
+      "summary": "Former Foreign Minister Takeshi Iwaya said that he and Chinese Foreign Minister Wang Yi confirmed the need to improve relations.",
+      "link": "https://www.japantimes.co.jp/news/2026/10/07/japan/wang-takaichi-taiwan-remark/",
+      "source": "Japan Times",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-07T16:04:16.600370Z"
+    },
+    {
+      "id": "4419daedfd530e138b8d7ea3979fc86d",
+      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "summary": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
@@ -166,45 +422,16 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-07T15:58:26.177028Z"
+      "published": "2026-10-07T16:03:31.552383Z"
     },
     {
-      "id": "0cb567bd18cb386c1fc6518b87ed7f32",
-      "title": "Zim lifts profit forecast 72% on strong demand",
-      "summary": "<p>Liner operator Zim raised its 2026 earnings guidance, citing strong demand and rising freight rates.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/zim-lifts-profit-forecast-72-on-strong-demand\">Zim lifts profit forecast 72% on strong demand</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/zim-lifts-profit-forecast-72-on-strong-demand",
-      "source": "FreightWaves",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-10-07T15:59:27.159142Z"
-    },
-    {
-      "id": "0f5bff636e6d79a7f69ed749a1369756",
-      "title": "Why Weaning Markets Off Fed Speak Is Harder Than It Sounds - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPOHpmUGJnaVRkaVR2aFRMdjRXY01yaFkteGVrY0tlRlZxcFFPNlF2eVFubDY4YjBVOE9Ob0dxY1ByQURDN01XVlR4UjFuZWhYTHIxTXVoYjNLODluc2tGNlVEN3cyOEp1OWpGVnlfQmNlV0Utam45akk4RHVlaVdEMDVIaVVFQ3duemVjeGhWWHI0ZlprNHpic1BZcDdVQmZpSWI3bHJVbzRGRzdpa3FQTA?oc=5\" target=\"_blank\">Why Weaning Markets Off Fed Speak Is Harder Than It Sounds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOHpmUGJnaVRkaVR2aFRMdjRXY01yaFkteGVrY0tlRlZxcFFPNlF2eVFubDY4YjBVOE9Ob0dxY1ByQURDN01XVlR4UjFuZWhYTHIxTXVoYjNLODluc2tGNlVEN3cyOEp1OWpGVnlfQmNlV0Utam45akk4RHVlaVdEMDVIaVVFQ3duemVjeGhWWHI0ZlprNHpic1BZcDdVQmZpSWI3bHJVbzRGRzdpa3FQTA?oc=5",
-      "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
+      "id": "cd8483ccc42224120b75b5e374924b0a",
+      "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
+      "summary": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
       "regions": [],
@@ -221,26 +448,23 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-07T15:59:34.212729Z"
+      "published": "2026-10-07T16:03:31.552438Z"
     },
     {
-      "id": "af06661686def94b40bf0a20ece7c6b4",
-      "title": "Daily News 07 / 10 / 2026",
-      "summary": "European Commission Daily news Brussels, 07 Oct 2026 NextGenerationEU shows strong delivery record as implementation reaches finish line\nToday, the European Commission presents the fifth annual report on the Recov...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2096",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
+      "id": "c4a4bef67edb20e2efa4769104451e6a",
+      "title": "Australia's AirTrunk to triple Japan data center investment to up to $30bn",
+      "summary": "",
+      "link": "https://asia.nikkei.com/editor-s-picks/interview/australia-s-airtrunk-to-triple-japan-data-center-investment-to-up-to-30bn",
+      "source": "Nikkei Asia",
+      "score": 16,
+      "severity": "HIGH",
       "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
+      "tickers": [],
       "regions": [
-        "EUROPE"
+        "JAPAN"
       ],
       "assets": [
-        "AI",
-        "FX"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -251,25 +475,193 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-07T15:59:18.312758Z"
+      "published": "2026-10-07T16:04:16.053040Z"
     },
     {
-      "id": "e3bdf77c66a7978ef11daff66b43b2c6",
-      "title": "Jito\u2019s JTX plans mobile app this fall, eyes perps integration later this winter",
-      "summary": "Jito\u2019s JTX plans a mobile app, equities feature, and perpetual futures as it expands beyond spot trading on Solana.",
-      "link": "https://www.theblock.co/news/defi/2026-10-07-jitos-jtx-plans-mobile-app-this-fall-eyes-perps-integration-later-this-winter-417905",
-      "source": "The Block",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "684263b638b45fb2866cd7d508af3b87",
+      "title": "Lithuania says it would pay the cost if US establishes military base",
+      "summary": "Lithuania is ready to pay the cost to set up a permanent U.S. military base if Washington should agree to establish one there, the prime minister said.",
+      "link": "https://www.defensenews.com/global/europe/2026/10/06/lithuania-says-it-would-pay-the-cost-if-us-establishes-military-base/",
+      "source": "Defense News",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [
-        "EQUITIES"
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-07T16:04:19.877874Z"
+    },
+    {
+      "id": "947d21fe716a60679b40bc13774d9a64",
+      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+      "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and deploying so many fixes each month.",
+      "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+      "source": "KrebsOnSecurity",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-07T16:04:22.006695Z"
+    },
+    {
+      "id": "881af9222d951f24d762513081ec53d8",
+      "title": "Bitcoin briefly slides below $84,000 as crypto long liquidations reach $487 million",
+      "summary": "Crypto liquidations amounted to $555.6 million over the past 24 hours, including $487.2 million in long positions, according to CoinGlass.",
+      "link": "https://www.theblock.co/news/markets/2026-10-06-bitcoin-slides-crypto-long-liquidations-surge-417882",
+      "source": "The Block",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-10-07T16:04:21.509555Z"
+    },
+    {
+      "id": "f3d288528b4d5d8ec23a3e154bcc7021",
+      "title": "Northrop Grumman\u2019s YFQ-48A CCA completes first fully autonomous flight",
+      "summary": "The successful flight came just weeks after U.S. Air Force officials announced their intention to have 500 autonomous aircraft in service by 2032.",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/10/06/northrop-grummans-yfq-48a-cca-completes-first-fully-autonomous-flight/",
+      "source": "Defense News",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-07T16:04:19.877816Z"
+    },
+    {
+      "id": "0781d85c38d0583fd037388e00b4b4a0",
+      "title": "Japanese scientist Kenso Soai and France\u2019s Henri B. Kagan win Nobel Prize in chemistry",
+      "summary": "Japanese scientist Kenso Soai and Henri B. Kagan won \"for the discovery of non-linear effects and autocatalysis in asymmetric organic synthesis.\"",
+      "link": "https://www.japantimes.co.jp/news/2026/10/07/japan/science-health/2026-nobel-prize-chemistry/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "FRANCE",
+        "JAPAN"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-07T16:04:16.600439Z"
+    },
+    {
+      "id": "1da151c444dba52e83f02a0377687fff",
+      "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
+      "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large advertising platforms. Not anymore: A powerful and free new service called DecryptAds scrapes and correlates this adtech data and makes it simple to quickly learn a great deal about the entities that are tracking you.",
+      "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "source": "KrebsOnSecurity",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-07T16:04:22.006817Z"
+    },
+    {
+      "id": "37ea7aa870d172fd60db180dc1faae4b",
+      "title": "Europe Moves to Curb the Flood of Chinese Hybrid Cars",
+      "summary": "Some ten years after it should have, Europe is finally reaching for the brakes. According to Bloomberg, the European Commission is preparing so-called safeguard measures to limit imports of Chinese hybrid vehicles, most likely via tariff-rate quotas that slap a levy on anything above a set volume. The cap would be time-limited, and Brussels plans to use hybrids as a \"test case\" which, if successful, could be replicated in other sectors where the bloc is drowning in Chinese imports. Our reaction this morning was short and to the point: The market\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Europe-Moves-to-Curb-the-Flood-of-Chinese-Hybrid-Cars.html",
+      "source": "OilPrice",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
       ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T15:59:30.571037Z"
+      "published": "2026-10-07T16:04:18.499033Z"
     }
   ]
 }
