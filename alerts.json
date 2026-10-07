@@ -1,31 +1,62 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-07T13:19:01.778602Z",
+  "generated_at": "2026-10-07T13:24:54.067567Z",
   "market_regime": {
-    "regime": "AI",
-    "dominant_driver": "AI",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
-    "high_alerts": 2,
-    "last_updated": "2026-10-07T13:19:01.778617Z"
+    "high_alerts": 1,
+    "last_updated": "2026-10-07T13:24:54.067580Z"
   },
   "top_signals": [
     {
-      "id": "97037a6c3a4686f400ad0132c8fcf5f6",
-      "title": "US 30-Year Yields Return to 2002 High With Crude Above $100",
-      "summary": "US Treasuries resumed their retreat, lifting the 30-year yield back to its highest since 2002 as climbing oil prices raised concern about faster inflation and more central bank interest-rate increases.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-07/us-30-year-yields-return-to-2002-high-with-crude-back-above-100",
-      "source": "Bloomberg",
-      "score": 28,
+      "id": "0279ae13de18f3b0f0a406fe3ca8b40f",
+      "title": "Crude oil prices and refinery margins generally increased throughout the third quarter",
+      "summary": "Petroleum markets in the third quarter of 2026 (3Q26) were characterized by increasing prices for crude oil and petroleum products amid persistent conflict in the Middle East.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
+      "source": "EIA",
+      "score": 25,
       "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-07T13:24:46.719219Z"
+    },
+    {
+      "id": "b26cce5d1578c7bd77c91b496212b511",
+      "title": "Kalshi Files Proposal for Never-Expiring Oil Contract With CFTC",
+      "summary": "Kalshi Inc. has filed a proposal for an oil-linked futures contract that never expires with the Commodity Futures Trading Commission, according to the company.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-07/kalshi-files-proposal-for-never-expiring-oil-contract-with-cftc",
+      "source": "Bloomberg",
+      "score": 17,
+      "severity": "HIGH",
       "regime": "COMMODITIES",
       "tickers": [
         "WTI"
       ],
       "regions": [],
       "assets": [
-        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
@@ -40,236 +71,56 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-10-07T13:17:56.752164Z"
-    },
-    {
-      "id": "2174aaabb60ff8721b3bc922c01ed2d0",
-      "title": "SpaceX Credit Risk Gauge Hits Record High on Fundraising Reports",
-      "summary": "A measure of SpaceX\u2019s credit risk surged to a fresh high and the company\u2019s bonds tumbled in the secondary market on Wednesday, following reports the company is in talks with banks and investors to raise $40 billion to buy chips from Nvidia Corp.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-07/spacex-credit-risk-gauge-hits-record-high-on-fundraising-reports",
-      "source": "Bloomberg",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [
-        "NVDA"
-      ],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-07T13:17:56.752372Z"
-    },
-    {
-      "id": "bfeb39c231ba82100753917056c6a601",
-      "title": "Mexico Local Bond Sales Hit Record as Companies Rush to Market",
-      "summary": "Mexican companies are tapping the local bond market at a record clip as lower interest rates at home, looming maturities and a growing pool of institutional capital spur deals.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-07/mexico-local-bond-sales-hit-record-as-companies-rush-to-market",
-      "source": "Bloomberg",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-10-07T13:17:56.752220Z"
-    },
-    {
-      "id": "946cffd3574c4db9eedad2f53fc34a18",
-      "title": "Spain Unions Crash Election Campaign, Calling a General Strike",
-      "summary": "Spain\u2019s biggest labor unions are set to call a general strike for Nov. 11 to focus attention on housing just before campaigning begins for an election scheduled for Nov. 29.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-07/spain-unions-crash-election-campaign-calling-a-general-strike",
-      "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-07T13:17:56.752279Z"
-    },
-    {
-      "id": "35f79f4181e386d5c029e5048a4b48a7",
-      "title": "Temasek CIO Says AI, Inflation Pose Biggest Market Risks in 2027 - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNejZkZzNmbWNLYkVQNnczZ1haRjhkeUFmN0NWSlJvbEdaeGQtbVJTOTJSTWtaekJtZTlJNFhlUE1JTkRYRzBpclh3TjNlMWs2cEFCSEN3XzF0NDZnLUdnSVBjT3o5MDhKaG1IWTYzb01QdkxpSFZWTlBVcUVobUZSa21McldWbVM4UF90bTNVM1cyNGZrM3VkUTFlaHREZVBYNTVSbno5RmVZbDZWTDNKRk54WVE?oc=5\" target=\"_blank\">Temasek CIO Says AI, Inflation Pose Biggest Market Risks in 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNejZkZzNmbWNLYkVQNnczZ1haRjhkeUFmN0NWSlJvbEdaeGQtbVJTOTJSTWtaekJtZTlJNFhlUE1JTkRYRzBpclh3TjNlMWs2cEFCSEN3XzF0NDZnLUdnSVBjT3o5MDhKaG1IWTYzb01QdkxpSFZWTlBVcUVobUZSa21McldWbVM4UF90bTNVM1cyNGZrM3VkUTFlaHREZVBYNTVSbno5RmVZbDZWTDNKRk54WVE?oc=5",
-      "source": "Google Macro",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-10-07T13:18:59.577196Z"
-    },
-    {
-      "id": "43ff18465658ccb9e27fa4bb030589de",
-      "title": "Frank Elderson: Effective supervision through timely remediation",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006_1~0df91e4e44.en.html",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T13:18:40.439290Z"
-    },
-    {
-      "id": "dac799cf2e406b88e667b7fa902c17b9",
-      "title": "Piero Cipollone: Money in the digital age: digital euro, tokenisation and the role of central banks",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006~0da978f159.en.html",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T13:18:40.439328Z"
-    },
-    {
-      "id": "1a62a3ebf158a182d6e11a46e162e89a",
-      "title": "Philip R. Lane: Interview with Ansa",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261006~bc94400297.en.html",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T13:18:40.439371Z"
-    },
-    {
-      "id": "27a664ecac4a1c2fe518d944c5ddddbb",
-      "title": "Are rolling stocks about to go off the rails?",
-      "summary": "<p> <img alt=\"Ben Birchall/PA Wire\" src=\"https://www.cityam.com/wp-content/uploads/2026/10/01M0QFEZ5B82NBPJHVM3QZ63RC.jpg?w=1440\" /> </p>Andy Burnham\u2019s pricey plans for nationalisation and greater public control of services have thrust Thames Water, housebuilders and the care sector under the microscope. But while public attention has centred primarily on these British heavyweights, the process of bringing the UK\u2019s passenger rail services back into state hands has chugged along quietly, leaving the question <a href=\"https://www.cityam.com/are-rolling-stocks-about-to-go-off-the-rails/\">[...]</a>",
-      "link": "https://www.cityam.com/are-rolling-stocks-about-to-go-off-the-rails/",
-      "source": "CityAM",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-07T13:18:50.168371Z"
-    },
-    {
-      "id": "3bf14ac062732998625f1dfcdc0432fb",
-      "title": "Framo Signs Record Pump Service Deal for Petrobras FPSO Fleet",
-      "summary": "Framo has signed a four-year agreement with Petrobras to inspect and maintain pumping systems across the Brazilian energy company's fleet of about 30 floating production, storage and offloading (FPSO) units, in what the Norwegian pump manufacturer\u2026",
-      "link": "https://www.marinelink.com/news/framo-signs-record-pump-service-deal-543530",
-      "source": "MarineLink",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-07T13:18:56.414893Z"
+      "published": "2026-10-07T13:23:47.884909Z"
     }
   ],
   "alerts": [
     {
-      "id": "97037a6c3a4686f400ad0132c8fcf5f6",
-      "title": "US 30-Year Yields Return to 2002 High With Crude Above $100",
-      "summary": "US Treasuries resumed their retreat, lifting the 30-year yield back to its highest since 2002 as climbing oil prices raised concern about faster inflation and more central bank interest-rate increases.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-07/us-30-year-yields-return-to-2002-high-with-crude-back-above-100",
-      "source": "Bloomberg",
-      "score": 28,
+      "id": "0279ae13de18f3b0f0a406fe3ca8b40f",
+      "title": "Crude oil prices and refinery margins generally increased throughout the third quarter",
+      "summary": "Petroleum markets in the third quarter of 2026 (3Q26) were characterized by increasing prices for crude oil and petroleum products amid persistent conflict in the Middle East.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
+      "source": "EIA",
+      "score": 25,
       "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-07T13:24:46.719219Z"
+    },
+    {
+      "id": "b26cce5d1578c7bd77c91b496212b511",
+      "title": "Kalshi Files Proposal for Never-Expiring Oil Contract With CFTC",
+      "summary": "Kalshi Inc. has filed a proposal for an oil-linked futures contract that never expires with the Commodity Futures Trading Commission, according to the company.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-07/kalshi-files-proposal-for-never-expiring-oil-contract-with-cftc",
+      "source": "Bloomberg",
+      "score": 17,
+      "severity": "HIGH",
       "regime": "COMMODITIES",
       "tickers": [
         "WTI"
       ],
       "regions": [],
       "assets": [
-        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
@@ -284,218 +135,7 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-10-07T13:17:56.752164Z"
-    },
-    {
-      "id": "2174aaabb60ff8721b3bc922c01ed2d0",
-      "title": "SpaceX Credit Risk Gauge Hits Record High on Fundraising Reports",
-      "summary": "A measure of SpaceX\u2019s credit risk surged to a fresh high and the company\u2019s bonds tumbled in the secondary market on Wednesday, following reports the company is in talks with banks and investors to raise $40 billion to buy chips from Nvidia Corp.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-07/spacex-credit-risk-gauge-hits-record-high-on-fundraising-reports",
-      "source": "Bloomberg",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [
-        "NVDA"
-      ],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-07T13:17:56.752372Z"
-    },
-    {
-      "id": "bfeb39c231ba82100753917056c6a601",
-      "title": "Mexico Local Bond Sales Hit Record as Companies Rush to Market",
-      "summary": "Mexican companies are tapping the local bond market at a record clip as lower interest rates at home, looming maturities and a growing pool of institutional capital spur deals.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-07/mexico-local-bond-sales-hit-record-as-companies-rush-to-market",
-      "source": "Bloomberg",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-10-07T13:17:56.752220Z"
-    },
-    {
-      "id": "946cffd3574c4db9eedad2f53fc34a18",
-      "title": "Spain Unions Crash Election Campaign, Calling a General Strike",
-      "summary": "Spain\u2019s biggest labor unions are set to call a general strike for Nov. 11 to focus attention on housing just before campaigning begins for an election scheduled for Nov. 29.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-07/spain-unions-crash-election-campaign-calling-a-general-strike",
-      "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-07T13:17:56.752279Z"
-    },
-    {
-      "id": "35f79f4181e386d5c029e5048a4b48a7",
-      "title": "Temasek CIO Says AI, Inflation Pose Biggest Market Risks in 2027 - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNejZkZzNmbWNLYkVQNnczZ1haRjhkeUFmN0NWSlJvbEdaeGQtbVJTOTJSTWtaekJtZTlJNFhlUE1JTkRYRzBpclh3TjNlMWs2cEFCSEN3XzF0NDZnLUdnSVBjT3o5MDhKaG1IWTYzb01QdkxpSFZWTlBVcUVobUZSa21McldWbVM4UF90bTNVM1cyNGZrM3VkUTFlaHREZVBYNTVSbno5RmVZbDZWTDNKRk54WVE?oc=5\" target=\"_blank\">Temasek CIO Says AI, Inflation Pose Biggest Market Risks in 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNejZkZzNmbWNLYkVQNnczZ1haRjhkeUFmN0NWSlJvbEdaeGQtbVJTOTJSTWtaekJtZTlJNFhlUE1JTkRYRzBpclh3TjNlMWs2cEFCSEN3XzF0NDZnLUdnSVBjT3o5MDhKaG1IWTYzb01QdkxpSFZWTlBVcUVobUZSa21McldWbVM4UF90bTNVM1cyNGZrM3VkUTFlaHREZVBYNTVSbno5RmVZbDZWTDNKRk54WVE?oc=5",
-      "source": "Google Macro",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-10-07T13:18:59.577196Z"
-    },
-    {
-      "id": "43ff18465658ccb9e27fa4bb030589de",
-      "title": "Frank Elderson: Effective supervision through timely remediation",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006_1~0df91e4e44.en.html",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T13:18:40.439290Z"
-    },
-    {
-      "id": "dac799cf2e406b88e667b7fa902c17b9",
-      "title": "Piero Cipollone: Money in the digital age: digital euro, tokenisation and the role of central banks",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006~0da978f159.en.html",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T13:18:40.439328Z"
-    },
-    {
-      "id": "1a62a3ebf158a182d6e11a46e162e89a",
-      "title": "Philip R. Lane: Interview with Ansa",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261006~bc94400297.en.html",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T13:18:40.439371Z"
-    },
-    {
-      "id": "27a664ecac4a1c2fe518d944c5ddddbb",
-      "title": "Are rolling stocks about to go off the rails?",
-      "summary": "<p> <img alt=\"Ben Birchall/PA Wire\" src=\"https://www.cityam.com/wp-content/uploads/2026/10/01M0QFEZ5B82NBPJHVM3QZ63RC.jpg?w=1440\" /> </p>Andy Burnham\u2019s pricey plans for nationalisation and greater public control of services have thrust Thames Water, housebuilders and the care sector under the microscope. But while public attention has centred primarily on these British heavyweights, the process of bringing the UK\u2019s passenger rail services back into state hands has chugged along quietly, leaving the question <a href=\"https://www.cityam.com/are-rolling-stocks-about-to-go-off-the-rails/\">[...]</a>",
-      "link": "https://www.cityam.com/are-rolling-stocks-about-to-go-off-the-rails/",
-      "source": "CityAM",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-07T13:18:50.168371Z"
-    },
-    {
-      "id": "3bf14ac062732998625f1dfcdc0432fb",
-      "title": "Framo Signs Record Pump Service Deal for Petrobras FPSO Fleet",
-      "summary": "Framo has signed a four-year agreement with Petrobras to inspect and maintain pumping systems across the Brazilian energy company's fleet of about 30 floating production, storage and offloading (FPSO) units, in what the Norwegian pump manufacturer\u2026",
-      "link": "https://www.marinelink.com/news/framo-signs-record-pump-service-deal-543530",
-      "source": "MarineLink",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-07T13:18:56.414893Z"
+      "published": "2026-10-07T13:23:47.884909Z"
     }
   ]
 }
