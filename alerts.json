@@ -1,51 +1,57 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-07T19:19:15.749370Z",
+  "generated_at": "2026-10-07T19:25:39.244205Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 2,
-    "last_updated": "2026-10-07T19:19:15.749382Z"
+    "critical_alerts": 2,
+    "high_alerts": 1,
+    "last_updated": "2026-10-07T19:25:39.244218Z"
   },
   "top_signals": [
     {
-      "id": "8267eb1c311ea8a2bf751ae3588a45e3",
-      "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-      "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "f7cca1b7eafe094b6b8c1e70e72bdc02",
+      "title": "Israel Has 'No Desire to Stay in Gaza,' Says UN Ambassador Danny Danon",
+      "summary": "Danny Danon, Israel's ambassador to the United Nations, said that he does not accept attempts to make the anniversary of the October 7 attack about the continued impact on Gaza, as it was 'Hamas ideology' that brought the attack and suffering in Gaza. \nDanon said that while the military retains presence in Gaza three years after the attack and one year after the 2025 ceasefire agreement, Israel has 'no desire to to stay in Gaza or to run the city of Gaza.'\n (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-07/israel-has-no-desire-to-stay-in-gaza-un-amb-danon-video",
+      "source": "Bloomberg",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
-      "assets": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-07T19:18:19.706757Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-07T19:24:35.344365Z"
     },
     {
-      "id": "fa387f12d13b05b468e2d8b3231c00a6",
-      "title": "Home heating oil prices are soaring \u2014 and users' winter bills could rise 21%, federal outlook shows - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE5UNHVvaFVKbDdSWGlwbENDdE1vMjEyREVHNW85QUFBWmhGSkJ5b29IVFJQd3VFZ1dqdkRtdXNuUTk0TlhmVDkxVklYVzdGZ1cwMWlnTGVWWWhmR1ExSURkenJjVGZXTzNBYmlKUllWT1V3R3A50gF6QVVfeXFMT0pyNi1Sb20xNlRNOWt4Q3lHSjZCVko0c3ltU25zcWFPdFFEQlQtaVpvZm1USUdUUmJPZ0pCOU5QSzN6THZ5VGNYWnJXUGIwdXhvY09WREFTbHFmSFktbWlvQkw4TUVLV2FhdVo3azRkVjJWUUNiQk1ybkE?oc=5\" target=\"_blank\">Home heating oil prices are soaring \u2014 and users' winter bills could rise 21%, federal outlook shows</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UNHVvaFVKbDdSWGlwbENDdE1vMjEyREVHNW85QUFBWmhGSkJ5b29IVFJQd3VFZ1dqdkRtdXNuUTk0TlhmVDkxVklYVzdGZ1cwMWlnTGVWWWhmR1ExSURkenJjVGZXTzNBYmlKUllWT1V3R3A50gF6QVVfeXFMT0pyNi1Sb20xNlRNOWt4Q3lHSjZCVko0c3ltU25zcWFPdFFEQlQtaVpvZm1USUdUUmJPZ0pCOU5QSzN6THZ5VGNYWnJXUGIwdXhvY09WREFTbHFmSFktbWlvQkw4TUVLV2FhdVo3azRkVjJWUUNiQk1ybkE?oc=5",
-      "source": "Google Macro",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "id": "0279ae13de18f3b0f0a406fe3ca8b40f",
+      "title": "Crude oil prices and refinery margins generally increased throughout the third quarter",
+      "summary": "Petroleum markets in the third quarter of 2026 (3Q26) were characterized by increasing prices for crude oil and petroleum products amid persistent conflict in the Middle East.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
+      "source": "EIA",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "WTI"
       ],
@@ -55,34 +61,6 @@
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-10-07T19:19:15.749322Z"
-    },
-    {
-      "id": "66864303e62e2934cf5a82afd330f3cd",
-      "title": "DeepSeek considers doubling latest funding round to up to $15 billion, sources say",
-      "summary": "China's DeepSeek weighs upsizing funding round to up to $14.9 billion, sources tell CNBC, and the final amount could still change in final talks.",
-      "link": "https://www.cnbc.com/2026/10/06/deepseek-funding-round.html",
-      "source": "CNBC",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "CHINA"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
           "XAU",
           "WTI",
           "DXY",
@@ -95,45 +73,17 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-07T19:18:19.638233Z"
+      "published": "2026-10-07T19:25:32.139042Z"
     },
     {
-      "id": "d9a81a323e546c8f8215b31296428814",
-      "title": "Robinhood adds $25 million worth of bitcoin to balance sheet as it deepens crypto push",
-      "summary": "Robinhood SVP Johann Kerbrat says the purchase was intended to signal the company's commitment to the crypto sector.",
-      "link": "https://www.theblock.co/news/business/2026-10-07-robinhood-adds-25-million-bitcoin-balance-sheet-417890",
-      "source": "The Block",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-10-07T19:19:11.815762Z"
-    },
-    {
-      "id": "35f79f4181e386d5c029e5048a4b48a7",
-      "title": "Temasek CIO Says AI, Inflation Pose Biggest Market Risks in 2027 - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNejZkZzNmbWNLYkVQNnczZ1haRjhkeUFmN0NWSlJvbEdaeGQtbVJTOTJSTWtaekJtZTlJNFhlUE1JTkRYRzBpclh3TjNlMWs2cEFCSEN3XzF0NDZnLUdnSVBjT3o5MDhKaG1IWTYzb01QdkxpSFZWTlBVcUVobUZSa21McldWbVM4UF90bTNVM1cyNGZrM3VkUTFlaHREZVBYNTVSbno5RmVZbDZWTDNKRk54WVE?oc=5\" target=\"_blank\">Temasek CIO Says AI, Inflation Pose Biggest Market Risks in 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNejZkZzNmbWNLYkVQNnczZ1haRjhkeUFmN0NWSlJvbEdaeGQtbVJTOTJSTWtaekJtZTlJNFhlUE1JTkRYRzBpclh3TjNlMWs2cEFCSEN3XzF0NDZnLUdnSVBjT3o5MDhKaG1IWTYzb01QdkxpSFZWTlBVcUVobUZSa21McldWbVM4UF90bTNVM1cyNGZrM3VkUTFlaHREZVBYNTVSbno5RmVZbDZWTDNKRk54WVE?oc=5",
+      "id": "ee9e66fb79d8de3895102bf599ba87d5",
+      "title": "Syria weighs military aid for Saudi Arabia amid Yemen war, sources say - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLWZMNEFpTGtIVEhwLWJHUXdGdGliYUtUazZhMk1yd3RDLW9yZllOblA2U1BvLVZaN2pvejZpaWwwenF5MzhObG93NC1BYzJhVGdIelROY2VXSTF6RTJ3MDROSzVYMUVoUm9UMHdCcTZEbVBxODRVVEYxRGIxZWljUHdiSVJDcUxubndSdFM3RFdNYmZOWDdBZk1tdXgzVzRFTGZmWlZPeDZVOGtZUXNwaEFEVTZnMzMxclRZ?oc=5\" target=\"_blank\">Syria weighs military aid for Saudi Arabia amid Yemen war, sources say</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLWZMNEFpTGtIVEhwLWJHUXdGdGliYUtUazZhMk1yd3RDLW9yZllOblA2U1BvLVZaN2pvejZpaWwwenF5MzhObG93NC1BYzJhVGdIelROY2VXSTF6RTJ3MDROSzVYMUVoUm9UMHdCcTZEbVBxODRVVEYxRGIxZWljUHdiSVJDcUxubndSdFM3RFdNYmZOWDdBZk1tdXgzVzRFTGZmWlZPeDZVOGtZUXNwaEFEVTZnMzMxclRZ?oc=5",
       "source": "Google Macro",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -143,120 +93,6 @@
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-10-07T19:19:13.129464Z"
-    },
-    {
-      "id": "43ff18465658ccb9e27fa4bb030589de",
-      "title": "Frank Elderson: Effective supervision through timely remediation",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006_1~0df91e4e44.en.html",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T19:18:59.672565Z"
-    },
-    {
-      "id": "dac799cf2e406b88e667b7fa902c17b9",
-      "title": "Piero Cipollone: Money in the digital age: digital euro, tokenisation and the role of central banks",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006~0da978f159.en.html",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T19:18:59.672606Z"
-    },
-    {
-      "id": "1a62a3ebf158a182d6e11a46e162e89a",
-      "title": "Philip R. Lane: Interview with Ansa",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261006~bc94400297.en.html",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T19:18:59.672632Z"
-    },
-    {
-      "id": "52711d6a14295cd0a69960291cb41a80",
-      "title": "Financial conditions: what\u2019s priced in? \u2212 speech by Catherine L. Mann",
-      "summary": "Given at the Nomura London Macro Forum",
-      "link": "https://www.bankofengland.co.uk/speech/2026/october/catherine-mann-nomura-investor-conference",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T19:19:05.694485Z"
-    },
-    {
-      "id": "26fba3419fab6c09425395f72624f05a",
-      "title": "We need a US debt conversation \u2014 will the Republicans have one?",
-      "summary": "Borrowing heavily to finance tax cuts for the wealthy leaves us less prepared for emergencies when they come",
-      "link": "https://www.ft.com/content/a52c092f-b93b-472b-8e18-83910c3a6260?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T19:18:17.318561Z"
-    },
-    {
-      "id": "2272ebcbc60d070b067857ce70c7fbeb",
-      "title": "Palestinians Want a Two-State Solution",
-      "summary": "A new majority\u2014even in Gaza\u2014support compromise with Israel.",
-      "link": "https://www.foreignaffairs.com/palestinian-territories/palestinians-want-two-state-solution-gaza-israel-amaney-jamal",
-      "source": "Foreign Affairs",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
           "DXY",
           "DEFENSE"
         ],
@@ -267,63 +103,51 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-07T19:19:11.066894Z"
-    },
-    {
-      "id": "36e55cc7d968159b613887e8b92687ee",
-      "title": "Rubio says US, Greece to jointly combat security threats",
-      "summary": "Greece and the United States are launching new counterterrorism information sharing between their law enforcement agencies.",
-      "link": "https://www.defensenews.com/global/2026/10/07/rubio-says-us-greece-to-jointly-combat-security-threats/",
-      "source": "Defense News",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "US"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T19:19:10.476219Z"
+      "published": "2026-10-07T19:25:37.521605Z"
     }
   ],
   "alerts": [
     {
-      "id": "8267eb1c311ea8a2bf751ae3588a45e3",
-      "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-      "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "f7cca1b7eafe094b6b8c1e70e72bdc02",
+      "title": "Israel Has 'No Desire to Stay in Gaza,' Says UN Ambassador Danny Danon",
+      "summary": "Danny Danon, Israel's ambassador to the United Nations, said that he does not accept attempts to make the anniversary of the October 7 attack about the continued impact on Gaza, as it was 'Hamas ideology' that brought the attack and suffering in Gaza. \nDanon said that while the military retains presence in Gaza three years after the attack and one year after the 2025 ceasefire agreement, Israel has 'no desire to to stay in Gaza or to run the city of Gaza.'\n (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-07/israel-has-no-desire-to-stay-in-gaza-un-amb-danon-video",
+      "source": "Bloomberg",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
-      "assets": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-07T19:18:19.706757Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-07T19:24:35.344365Z"
     },
     {
-      "id": "fa387f12d13b05b468e2d8b3231c00a6",
-      "title": "Home heating oil prices are soaring \u2014 and users' winter bills could rise 21%, federal outlook shows - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE5UNHVvaFVKbDdSWGlwbENDdE1vMjEyREVHNW85QUFBWmhGSkJ5b29IVFJQd3VFZ1dqdkRtdXNuUTk0TlhmVDkxVklYVzdGZ1cwMWlnTGVWWWhmR1ExSURkenJjVGZXTzNBYmlKUllWT1V3R3A50gF6QVVfeXFMT0pyNi1Sb20xNlRNOWt4Q3lHSjZCVko0c3ltU25zcWFPdFFEQlQtaVpvZm1USUdUUmJPZ0pCOU5QSzN6THZ5VGNYWnJXUGIwdXhvY09WREFTbHFmSFktbWlvQkw4TUVLV2FhdVo3azRkVjJWUUNiQk1ybkE?oc=5\" target=\"_blank\">Home heating oil prices are soaring \u2014 and users' winter bills could rise 21%, federal outlook shows</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UNHVvaFVKbDdSWGlwbENDdE1vMjEyREVHNW85QUFBWmhGSkJ5b29IVFJQd3VFZ1dqdkRtdXNuUTk0TlhmVDkxVklYVzdGZ1cwMWlnTGVWWWhmR1ExSURkenJjVGZXTzNBYmlKUllWT1V3R3A50gF6QVVfeXFMT0pyNi1Sb20xNlRNOWt4Q3lHSjZCVko0c3ltU25zcWFPdFFEQlQtaVpvZm1USUdUUmJPZ0pCOU5QSzN6THZ5VGNYWnJXUGIwdXhvY09WREFTbHFmSFktbWlvQkw4TUVLV2FhdVo3azRkVjJWUUNiQk1ybkE?oc=5",
-      "source": "Google Macro",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "id": "0279ae13de18f3b0f0a406fe3ca8b40f",
+      "title": "Crude oil prices and refinery margins generally increased throughout the third quarter",
+      "summary": "Petroleum markets in the third quarter of 2026 (3Q26) were characterized by increasing prices for crude oil and petroleum products amid persistent conflict in the Middle East.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
+      "source": "EIA",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "WTI"
       ],
@@ -333,32 +157,34 @@
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-10-07T19:19:15.749322Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-07T19:25:32.139042Z"
     },
     {
-      "id": "66864303e62e2934cf5a82afd330f3cd",
-      "title": "DeepSeek considers doubling latest funding round to up to $15 billion, sources say",
-      "summary": "China's DeepSeek weighs upsizing funding round to up to $14.9 billion, sources tell CNBC, and the final amount could still change in final talks.",
-      "link": "https://www.cnbc.com/2026/10/06/deepseek-funding-round.html",
-      "source": "CNBC",
-      "score": 12,
-      "severity": "MEDIUM",
+      "id": "ee9e66fb79d8de3895102bf599ba87d5",
+      "title": "Syria weighs military aid for Saudi Arabia amid Yemen war, sources say - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLWZMNEFpTGtIVEhwLWJHUXdGdGliYUtUazZhMk1yd3RDLW9yZllOblA2U1BvLVZaN2pvejZpaWwwenF5MzhObG93NC1BYzJhVGdIelROY2VXSTF6RTJ3MDROSzVYMUVoUm9UMHdCcTZEbVBxODRVVEYxRGIxZWljUHdiSVJDcUxubndSdFM3RFdNYmZOWDdBZk1tdXgzVzRFTGZmWlZPeDZVOGtZUXNwaEFEVTZnMzMxclRZ?oc=5\" target=\"_blank\">Syria weighs military aid for Saudi Arabia amid Yemen war, sources say</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLWZMNEFpTGtIVEhwLWJHUXdGdGliYUtUazZhMk1yd3RDLW9yZllOblA2U1BvLVZaN2pvejZpaWwwenF5MzhObG93NC1BYzJhVGdIelROY2VXSTF6RTJ3MDROSzVYMUVoUm9UMHdCcTZEbVBxODRVVEYxRGIxZWljUHdiSVJDcUxubndSdFM3RFdNYmZOWDdBZk1tdXgzVzRFTGZmWlZPeDZVOGtZUXNwaEFEVTZnMzMxclRZ?oc=5",
+      "source": "Google Macro",
+      "score": 21,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [
-        "CHINA"
+      "regions": [],
+      "assets": [
+        "AI"
       ],
-      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -373,263 +199,7 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-07T19:18:19.638233Z"
-    },
-    {
-      "id": "d9a81a323e546c8f8215b31296428814",
-      "title": "Robinhood adds $25 million worth of bitcoin to balance sheet as it deepens crypto push",
-      "summary": "Robinhood SVP Johann Kerbrat says the purchase was intended to signal the company's commitment to the crypto sector.",
-      "link": "https://www.theblock.co/news/business/2026-10-07-robinhood-adds-25-million-bitcoin-balance-sheet-417890",
-      "source": "The Block",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-10-07T19:19:11.815762Z"
-    },
-    {
-      "id": "35f79f4181e386d5c029e5048a4b48a7",
-      "title": "Temasek CIO Says AI, Inflation Pose Biggest Market Risks in 2027 - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNejZkZzNmbWNLYkVQNnczZ1haRjhkeUFmN0NWSlJvbEdaeGQtbVJTOTJSTWtaekJtZTlJNFhlUE1JTkRYRzBpclh3TjNlMWs2cEFCSEN3XzF0NDZnLUdnSVBjT3o5MDhKaG1IWTYzb01QdkxpSFZWTlBVcUVobUZSa21McldWbVM4UF90bTNVM1cyNGZrM3VkUTFlaHREZVBYNTVSbno5RmVZbDZWTDNKRk54WVE?oc=5\" target=\"_blank\">Temasek CIO Says AI, Inflation Pose Biggest Market Risks in 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNejZkZzNmbWNLYkVQNnczZ1haRjhkeUFmN0NWSlJvbEdaeGQtbVJTOTJSTWtaekJtZTlJNFhlUE1JTkRYRzBpclh3TjNlMWs2cEFCSEN3XzF0NDZnLUdnSVBjT3o5MDhKaG1IWTYzb01QdkxpSFZWTlBVcUVobUZSa21McldWbVM4UF90bTNVM1cyNGZrM3VkUTFlaHREZVBYNTVSbno5RmVZbDZWTDNKRk54WVE?oc=5",
-      "source": "Google Macro",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-10-07T19:19:13.129464Z"
-    },
-    {
-      "id": "43ff18465658ccb9e27fa4bb030589de",
-      "title": "Frank Elderson: Effective supervision through timely remediation",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006_1~0df91e4e44.en.html",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T19:18:59.672565Z"
-    },
-    {
-      "id": "dac799cf2e406b88e667b7fa902c17b9",
-      "title": "Piero Cipollone: Money in the digital age: digital euro, tokenisation and the role of central banks",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006~0da978f159.en.html",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T19:18:59.672606Z"
-    },
-    {
-      "id": "1a62a3ebf158a182d6e11a46e162e89a",
-      "title": "Philip R. Lane: Interview with Ansa",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261006~bc94400297.en.html",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T19:18:59.672632Z"
-    },
-    {
-      "id": "52711d6a14295cd0a69960291cb41a80",
-      "title": "Financial conditions: what\u2019s priced in? \u2212 speech by Catherine L. Mann",
-      "summary": "Given at the Nomura London Macro Forum",
-      "link": "https://www.bankofengland.co.uk/speech/2026/october/catherine-mann-nomura-investor-conference",
-      "source": "Bank of England",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T19:19:05.694485Z"
-    },
-    {
-      "id": "26fba3419fab6c09425395f72624f05a",
-      "title": "We need a US debt conversation \u2014 will the Republicans have one?",
-      "summary": "Borrowing heavily to finance tax cuts for the wealthy leaves us less prepared for emergencies when they come",
-      "link": "https://www.ft.com/content/a52c092f-b93b-472b-8e18-83910c3a6260?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T19:18:17.318561Z"
-    },
-    {
-      "id": "2272ebcbc60d070b067857ce70c7fbeb",
-      "title": "Palestinians Want a Two-State Solution",
-      "summary": "A new majority\u2014even in Gaza\u2014support compromise with Israel.",
-      "link": "https://www.foreignaffairs.com/palestinian-territories/palestinians-want-two-state-solution-gaza-israel-amaney-jamal",
-      "source": "Foreign Affairs",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-07T19:19:11.066894Z"
-    },
-    {
-      "id": "36e55cc7d968159b613887e8b92687ee",
-      "title": "Rubio says US, Greece to jointly combat security threats",
-      "summary": "Greece and the United States are launching new counterterrorism information sharing between their law enforcement agencies.",
-      "link": "https://www.defensenews.com/global/2026/10/07/rubio-says-us-greece-to-jointly-combat-security-threats/",
-      "source": "Defense News",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [
-        "US"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T19:19:10.476219Z"
-    },
-    {
-      "id": "cf2a09dc4b9857b1f91633b1b576df4c",
-      "title": "University of West Florida Launches Watercraft and Vessel Engineering Program",
-      "summary": "Northwest Florida has long been defined by its connection to the water. Home to Naval Air Station Pensacola, the Port of Pensacola and a growing network of marine manufacturers, defense contractors and emerging technology companies, the region is an important center for maritime innovation.",
-      "link": "https://www.marinelink.com/news/university-west-florida-launches-543547",
-      "source": "MarineLink",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-07T19:19:10.282517Z"
-    },
-    {
-      "id": "3bf14ac062732998625f1dfcdc0432fb",
-      "title": "Framo Signs Record Pump Service Deal for Petrobras FPSO Fleet",
-      "summary": "Framo has signed a four-year agreement with Petrobras to inspect and maintain pumping systems across the Brazilian energy company's fleet of about 30 floating production, storage and offloading (FPSO) units, in what the Norwegian pump manufacturer\u2026",
-      "link": "https://www.marinelink.com/news/framo-signs-record-pump-service-deal-543530",
-      "source": "MarineLink",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-07T19:19:10.282631Z"
-    },
-    {
-      "id": "19a04ec6ab79dbefb8395c86446a19a2",
-      "title": "Eritrean troops drive through northern Ethiopian town, witnesses say - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNWC15VXJTb1l2eV9qUXFoWHFma29yUnBYNFctcVp6VmdUVWhCcDhLMDlSeWJPaU0tbmtoMkdoaUxMQ3U1bGUwNlJsdW5IRzVHME51T1Q5a09yOU1ZelRJeWxyWFN5UU96QThfcjdZb3NoYmRLcEM4MnNxdnQxd0s0bWZnZFZFZzJ5MXVEeURhRERsODA5LV81d3hsNDFINmNJb1RHMHJpdFZVY0s2SnBHdlU1TWc5a2s?oc=5\" target=\"_blank\">Eritrean troops drive through northern Ethiopian town, witnesses say</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWC15VXJTb1l2eV9qUXFoWHFma29yUnBYNFctcVp6VmdUVWhCcDhLMDlSeWJPaU0tbmtoMkdoaUxMQ3U1bGUwNlJsdW5IRzVHME51T1Q5a09yOU1ZelRJeWxyWFN5UU96QThfcjdZb3NoYmRLcEM4MnNxdnQxd0s0bWZnZFZFZzJ5MXVEeURhRERsODA5LV81d3hsNDFINmNJb1RHMHJpdFZVY0s2SnBHdlU1TWc5a2s?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-07T19:19:13.930694Z"
+      "published": "2026-10-07T19:25:37.521605Z"
     }
   ]
 }
