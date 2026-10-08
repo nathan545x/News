@@ -1,53 +1,455 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-08T11:58:04.573251Z",
+  "generated_at": "2026-10-08T12:03:24.929838Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "COMMODITIES",
+    "dominant_driver": "COMMODITIES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-10-08T11:58:04.573261Z"
+    "high_alerts": 3,
+    "last_updated": "2026-10-08T12:03:24.929847Z"
   },
   "top_signals": [
     {
-      "id": "1ebf6c538fba8babc59210d6390246db",
-      "title": "Japan\u2019s halt on new foreign restaurant workers fuels urban influx",
-      "summary": "A survey showed that the number of job openings in the industry for foreign workers with the Type I status has increased by 2.8 times since April.",
-      "link": "https://www.japantimes.co.jp/business/2026/10/08/foreign-restaurant-workers-urban-influx/",
-      "source": "Japan Times",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "364d3193e9617555ca1608183d8d2b65",
+      "title": "Oil Rally Spurs Fresh Slide in Stocks and Bonds: Markets Wrap",
+      "summary": "A rise in oil prices prompted a fresh round of selling in bonds and stocks as even a record profit from chipmaking heavyweight Samsung Electronics Co. failed to muster demand for riskier assets.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-07/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-08T12:02:19.675003Z"
+    },
+    {
+      "id": "6ba502608089a37ee37963f22b8a41fd",
+      "title": "China races to build data centres in bid for AI supremacy",
+      "summary": "Beijing is rolling out computing infrastructure at breakneck speed in Inner Mongolia",
+      "link": "https://www.ft.com/content/e1dd8bff-b06d-4a40-bbb7-c0a6a36f1c8e?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "CHINA"
       ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-08T12:02:22.149798Z"
+    },
+    {
+      "id": "f6b675b41c46bb1424c0d3320e035351",
+      "title": "Quantitative tightening: the next chapter \u2212 speech by Dave Ramsden",
+      "summary": "Given at the Bank of England, co-hosted by the Money, Macro and Finance Society",
+      "link": "https://www.bankofengland.co.uk/speech/2026/september/dave-ramsden-speech-on-quantitative-tightening",
+      "source": "Bank of England",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-08T12:03:09.950323Z"
+    },
+    {
+      "id": "e11d46c7b5994e4c1b027edef31ddbad",
+      "title": "SoftBank and Grab to develop AI infrastructure in Malaysia's Sarawak",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/technology/softbank-and-grab-to-develop-ai-infrastructure-in-malaysia-s-sarawak",
+      "source": "Nikkei Asia",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-08T12:03:13.031757Z"
+    },
+    {
+      "id": "a73f30e70ec453b46672ee1fd29d9820",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity also has learned that the New Orleans field office of the Federal Bureau of Investigation (FBI) today launched an official inquiry into the source of the images.",
+      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "source": "KrebsOnSecurity",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-08T12:03:21.426406Z"
+    },
+    {
+      "id": "0c6958835cf910d9aeea8cfb8d2aab4b",
+      "title": "The Oil Shock Could Make Us Stronger - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQeFpfaFc3R1RjdkNraGo0dXpUMVVXb01OTzNNNENzWmNBU0lFbUlYaXdTaHNhUVFoQnBSREVZQmVlOWNIRmszTldjZmNqZjdFbGlfN1Z0MVBFTkUyMm1zbzRmSDluX0NEOW9lMWJCa05aWXFqSkpFdVB5dmVKM0RtMUZQTklKUVJBVHlhZFVWNTZEWHM?oc=5\" target=\"_blank\">The Oil Shock Could Make Us Stronger</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeFpfaFc3R1RjdkNraGo0dXpUMVVXb01OTzNNNENzWmNBU0lFbUlYaXdTaHNhUVFoQnBSREVZQmVlOWNIRmszTldjZmNqZjdFbGlfN1Z0MVBFTkUyMm1zbzRmSDluX0NEOW9lMWJCa05aWXFqSkpFdVB5dmVKM0RtMUZQTklKUVJBVHlhZFVWNTZEWHM?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-08T12:03:24.292994Z"
+    },
+    {
+      "id": "8a2b88807ca7a0df7664186d2159b171",
+      "title": "Live Q&A: What is driving the global bond sell-off? Submit a question now",
+      "summary": "Alphaville editor Robin Wigglesworth and senior markets correspondent Ian Smith are answering reader questions in a live Q&amp;A now",
+      "link": "https://www.ft.com/content/d51a78a8-67d8-45bd-b32c-1eafe39a0794?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-08T11:57:40.944940Z"
+      "published": "2026-10-08T12:02:22.664855Z"
+    },
+    {
+      "id": "b4ae3191497153e1490a1d047f6975a7",
+      "title": "Stocks making the biggest moves premarket: Constellation Brands, Flutter Entertainment, Neogen & more - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNclRUZDJCZURkM3JSVU03MFJRVk1WX0ZwOEVKRlhleTdScWNGbXN1bXl0UjlOdWxRcEE2U1paTDRqdVdaUmowT2oxVTlpZjRYNkFJRkF4bU84NXRtSlNhNWJROHg4VGpxTkIyb0pDamtsTkNzdl9yMjFjd0U4OEt0Ni1iaXZBNjdLNGdXV2R1Njhxd3gtV1JF?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: Constellation Brands, Flutter Entertainment, Neogen & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNclRUZDJCZURkM3JSVU03MFJRVk1WX0ZwOEVKRlhleTdScWNGbXN1bXl0UjlOdWxRcEE2U1paTDRqdVdaUmowT2oxVTlpZjRYNkFJRkF4bU84NXRtSlNhNWJROHg4VGpxTkIyb0pDamtsTkNzdl9yMjFjd0U4OEt0Ni1iaXZBNjdLNGdXV2R1Njhxd3gtV1JF?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-08T12:03:24.929821Z"
     }
   ],
   "alerts": [
     {
-      "id": "1ebf6c538fba8babc59210d6390246db",
-      "title": "Japan\u2019s halt on new foreign restaurant workers fuels urban influx",
-      "summary": "A survey showed that the number of job openings in the industry for foreign workers with the Type I status has increased by 2.8 times since April.",
-      "link": "https://www.japantimes.co.jp/business/2026/10/08/foreign-restaurant-workers-urban-influx/",
-      "source": "Japan Times",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "364d3193e9617555ca1608183d8d2b65",
+      "title": "Oil Rally Spurs Fresh Slide in Stocks and Bonds: Markets Wrap",
+      "summary": "A rise in oil prices prompted a fresh round of selling in bonds and stocks as even a record profit from chipmaking heavyweight Samsung Electronics Co. failed to muster demand for riskier assets.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-07/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-08T12:02:19.675003Z"
+    },
+    {
+      "id": "6ba502608089a37ee37963f22b8a41fd",
+      "title": "China races to build data centres in bid for AI supremacy",
+      "summary": "Beijing is rolling out computing infrastructure at breakneck speed in Inner Mongolia",
+      "link": "https://www.ft.com/content/e1dd8bff-b06d-4a40-bbb7-c0a6a36f1c8e?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "CHINA"
       ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-08T12:02:22.149798Z"
+    },
+    {
+      "id": "f6b675b41c46bb1424c0d3320e035351",
+      "title": "Quantitative tightening: the next chapter \u2212 speech by Dave Ramsden",
+      "summary": "Given at the Bank of England, co-hosted by the Money, Macro and Finance Society",
+      "link": "https://www.bankofengland.co.uk/speech/2026/september/dave-ramsden-speech-on-quantitative-tightening",
+      "source": "Bank of England",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-08T12:03:09.950323Z"
+    },
+    {
+      "id": "e11d46c7b5994e4c1b027edef31ddbad",
+      "title": "SoftBank and Grab to develop AI infrastructure in Malaysia's Sarawak",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/technology/softbank-and-grab-to-develop-ai-infrastructure-in-malaysia-s-sarawak",
+      "source": "Nikkei Asia",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-08T12:03:13.031757Z"
+    },
+    {
+      "id": "a73f30e70ec453b46672ee1fd29d9820",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity also has learned that the New Orleans field office of the Federal Bureau of Investigation (FBI) today launched an official inquiry into the source of the images.",
+      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "source": "KrebsOnSecurity",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-08T12:03:21.426406Z"
+    },
+    {
+      "id": "0c6958835cf910d9aeea8cfb8d2aab4b",
+      "title": "The Oil Shock Could Make Us Stronger - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQeFpfaFc3R1RjdkNraGo0dXpUMVVXb01OTzNNNENzWmNBU0lFbUlYaXdTaHNhUVFoQnBSREVZQmVlOWNIRmszTldjZmNqZjdFbGlfN1Z0MVBFTkUyMm1zbzRmSDluX0NEOW9lMWJCa05aWXFqSkpFdVB5dmVKM0RtMUZQTklKUVJBVHlhZFVWNTZEWHM?oc=5\" target=\"_blank\">The Oil Shock Could Make Us Stronger</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeFpfaFc3R1RjdkNraGo0dXpUMVVXb01OTzNNNENzWmNBU0lFbUlYaXdTaHNhUVFoQnBSREVZQmVlOWNIRmszTldjZmNqZjdFbGlfN1Z0MVBFTkUyMm1zbzRmSDluX0NEOW9lMWJCa05aWXFqSkpFdVB5dmVKM0RtMUZQTklKUVJBVHlhZFVWNTZEWHM?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-08T12:03:24.292994Z"
+    },
+    {
+      "id": "8a2b88807ca7a0df7664186d2159b171",
+      "title": "Live Q&A: What is driving the global bond sell-off? Submit a question now",
+      "summary": "Alphaville editor Robin Wigglesworth and senior markets correspondent Ian Smith are answering reader questions in a live Q&amp;A now",
+      "link": "https://www.ft.com/content/d51a78a8-67d8-45bd-b32c-1eafe39a0794?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-08T11:57:40.944940Z"
+      "published": "2026-10-08T12:02:22.664855Z"
+    },
+    {
+      "id": "b4ae3191497153e1490a1d047f6975a7",
+      "title": "Stocks making the biggest moves premarket: Constellation Brands, Flutter Entertainment, Neogen & more - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNclRUZDJCZURkM3JSVU03MFJRVk1WX0ZwOEVKRlhleTdScWNGbXN1bXl0UjlOdWxRcEE2U1paTDRqdVdaUmowT2oxVTlpZjRYNkFJRkF4bU84NXRtSlNhNWJROHg4VGpxTkIyb0pDamtsTkNzdl9yMjFjd0U4OEt0Ni1iaXZBNjdLNGdXV2R1Njhxd3gtV1JF?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: Constellation Brands, Flutter Entertainment, Neogen & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNclRUZDJCZURkM3JSVU03MFJRVk1WX0ZwOEVKRlhleTdScWNGbXN1bXl0UjlOdWxRcEE2U1paTDRqdVdaUmowT2oxVTlpZjRYNkFJRkF4bU84NXRtSlNhNWJROHg4VGpxTkIyb0pDamtsTkNzdl9yMjFjd0U4OEt0Ni1iaXZBNjdLNGdXV2R1Njhxd3gtV1JF?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-08T12:03:24.929821Z"
     }
   ]
 }
