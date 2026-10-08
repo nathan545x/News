@@ -1,32 +1,209 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-08T17:58:11.896254Z",
+  "generated_at": "2026-10-08T18:04:26.925187Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-10-08T17:58:11.896267Z"
+    "critical_alerts": 2,
+    "high_alerts": 3,
+    "last_updated": "2026-10-08T18:04:26.925202Z"
   },
   "top_signals": [
     {
-      "id": "c515662d5d4bc47c8d781aed91e152cc",
-      "title": "Treasury yields are lower after reaching multiyear highs, traders weigh latest bond auction",
-      "summary": "Traders digested comments from a top Federal Reserve official while awaiting another long-dated bond auction.",
-      "link": "https://www.cnbc.com/2026/10/08/us-treasury-yields-30-year-bond-auction.html",
-      "source": "CNBC",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "159aacaf7ac598fd92bd15203e7436c2",
+      "title": "Copper Slides as Risk Appetite Hurt by Oil Surge, Stock Selloff",
+      "summary": "Copper extended losses along with other industrial metals as elevated oil prices and a selloff in equities weighed on risk appetite across global markets.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-08/copper-gains-with-other-metals-as-china-returns-in-positive-mood",
+      "source": "Bloomberg",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
       "tickers": [
-        "TLT"
+        "COPPER",
+        "WTI"
       ],
       "regions": [],
       "assets": [
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-08T18:03:23.746828Z"
+    },
+    {
+      "id": "1d0391a59e667fe1d681c825ac2494eb",
+      "title": "Oil Prices Plunge as Trump Rules Out Iran Strikes Before Midterms",
+      "summary": "President Trump just issued a new Truth Social Post Thursday just after noon time (eastern), wherein he declared \"we will not be attacking Iran at any time prior to the Midterm Elections\" in November. Oil dropped on the statement (though is still up on the day)... The full Trump post below, wherein Trump also claims that active discussions with the Iranians are still happening, and that oil is \"flowing in record numbers\"... Quick Iranian rection: U.S. and Israeli officials say Iranian leaders are deeply suspicious of Trump's statements. The officials\u2026",
+      "link": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Plunge-as-Trump-Rules-Out-Iran-Strikes-Before-Midterms.html",
+      "source": "OilPrice",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
         "AI",
-        "RATES"
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-08T18:04:19.854851Z"
+    },
+    {
+      "id": "6ba502608089a37ee37963f22b8a41fd",
+      "title": "China races to build data centres in bid for AI supremacy",
+      "summary": "Beijing is rolling out computing infrastructure at breakneck speed in Inner Mongolia",
+      "link": "https://www.ft.com/content/e1dd8bff-b06d-4a40-bbb7-c0a6a36f1c8e?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-08T18:03:25.562916Z"
+    },
+    {
+      "id": "f6b675b41c46bb1424c0d3320e035351",
+      "title": "Quantitative tightening: the next chapter \u2212 speech by Dave Ramsden",
+      "summary": "Given at the Bank of England, co-hosted by the Money, Macro and Finance Society",
+      "link": "https://www.bankofengland.co.uk/speech/2026/september/dave-ramsden-speech-on-quantitative-tightening",
+      "source": "Bank of England",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-08T18:04:14.759838Z"
+    },
+    {
+      "id": "cc58869a7e65908990c3b9ed847394e0",
+      "title": "SpaceX Crew Capsule Splashes Down After ISS Stay",
+      "summary": "A SpaceX capsule carrying four astronauts returned from space and splashed down off the coast of California on Thursday, capping the crew\u2019s mission to the International Space Station. Bloomberg's space reporter joins Ed Ludlow as the capsule makes its splashdown live on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-08/spacex-crew-capsule-splashes-down-after-iss-stay-video-muzu3fbg",
+      "source": "Bloomberg",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-08T18:03:23.746901Z"
+    },
+    {
+      "id": "e11d46c7b5994e4c1b027edef31ddbad",
+      "title": "SoftBank and Grab to develop AI infrastructure in Malaysia's Sarawak",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/technology/softbank-and-grab-to-develop-ai-infrastructure-in-malaysia-s-sarawak",
+      "source": "Nikkei Asia",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-08T18:04:17.537648Z"
+    },
+    {
+      "id": "a73f30e70ec453b46672ee1fd29d9820",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity also has learned that the New Orleans field office of the Federal Bureau of Investigation (FBI) today launched an official inquiry into the source of the images.",
+      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "source": "KrebsOnSecurity",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -40,42 +217,221 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-08T17:57:16.452079Z"
+      "published": "2026-10-08T18:04:23.078375Z"
     },
     {
-      "id": "fa1d7202f0adaf706a2518a6876d8f84",
-      "title": "Gen Zers are now the biggest spenders in the art market, survey finds",
-      "summary": "Gen Zers have become the most active buyers of high-end art, changing the face of a market long dominated by Baby Boomers, according to a new survey.",
-      "link": "https://www.cnbc.com/2026/10/08/gen-zers-are-now-the-biggest-spenders-in-the-art-market-survey-finds-.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
+      "id": "e0615bbd5f4c14dc3e38aa74334d37ae",
+      "title": "Some French IG Bonds Seem Safer Than Sovereign",
+      "summary": "Bloomberg's Ronan Martin joins Scarlet Fu on \"Bloomberg Real Yield.\" Nearly \u20ac215 billion ($241 billion) of France\u2019s corporate bonds now trade as if they were safer than the government\u2019s, an almost 18-fold increase since the start of 2026, after a punishing sovereign debt selloff. Some 38% of France\u2019s total pool of high-grade company debt was indicated at lower yields than government securities of similar maturity on Wednesday.\n (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-08/some-french-ig-bonds-seem-safer-than-sovereign-video",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "FRANCE"
+      ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-08T17:57:16.452128Z"
+      "published": "2026-10-08T18:03:23.746750Z"
     }
   ],
   "alerts": [
     {
-      "id": "c515662d5d4bc47c8d781aed91e152cc",
-      "title": "Treasury yields are lower after reaching multiyear highs, traders weigh latest bond auction",
-      "summary": "Traders digested comments from a top Federal Reserve official while awaiting another long-dated bond auction.",
-      "link": "https://www.cnbc.com/2026/10/08/us-treasury-yields-30-year-bond-auction.html",
-      "source": "CNBC",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "159aacaf7ac598fd92bd15203e7436c2",
+      "title": "Copper Slides as Risk Appetite Hurt by Oil Surge, Stock Selloff",
+      "summary": "Copper extended losses along with other industrial metals as elevated oil prices and a selloff in equities weighed on risk appetite across global markets.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-08/copper-gains-with-other-metals-as-china-returns-in-positive-mood",
+      "source": "Bloomberg",
+      "score": 30,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
       "tickers": [
-        "TLT"
+        "COPPER",
+        "WTI"
       ],
       "regions": [],
       "assets": [
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-08T18:03:23.746828Z"
+    },
+    {
+      "id": "1d0391a59e667fe1d681c825ac2494eb",
+      "title": "Oil Prices Plunge as Trump Rules Out Iran Strikes Before Midterms",
+      "summary": "President Trump just issued a new Truth Social Post Thursday just after noon time (eastern), wherein he declared \"we will not be attacking Iran at any time prior to the Midterm Elections\" in November. Oil dropped on the statement (though is still up on the day)... The full Trump post below, wherein Trump also claims that active discussions with the Iranians are still happening, and that oil is \"flowing in record numbers\"... Quick Iranian rection: U.S. and Israeli officials say Iranian leaders are deeply suspicious of Trump's statements. The officials\u2026",
+      "link": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Plunge-as-Trump-Rules-Out-Iran-Strikes-Before-Midterms.html",
+      "source": "OilPrice",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
         "AI",
-        "RATES"
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-08T18:04:19.854851Z"
+    },
+    {
+      "id": "6ba502608089a37ee37963f22b8a41fd",
+      "title": "China races to build data centres in bid for AI supremacy",
+      "summary": "Beijing is rolling out computing infrastructure at breakneck speed in Inner Mongolia",
+      "link": "https://www.ft.com/content/e1dd8bff-b06d-4a40-bbb7-c0a6a36f1c8e?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-08T18:03:25.562916Z"
+    },
+    {
+      "id": "f6b675b41c46bb1424c0d3320e035351",
+      "title": "Quantitative tightening: the next chapter \u2212 speech by Dave Ramsden",
+      "summary": "Given at the Bank of England, co-hosted by the Money, Macro and Finance Society",
+      "link": "https://www.bankofengland.co.uk/speech/2026/september/dave-ramsden-speech-on-quantitative-tightening",
+      "source": "Bank of England",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-08T18:04:14.759838Z"
+    },
+    {
+      "id": "cc58869a7e65908990c3b9ed847394e0",
+      "title": "SpaceX Crew Capsule Splashes Down After ISS Stay",
+      "summary": "A SpaceX capsule carrying four astronauts returned from space and splashed down off the coast of California on Thursday, capping the crew\u2019s mission to the International Space Station. Bloomberg's space reporter joins Ed Ludlow as the capsule makes its splashdown live on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-08/spacex-crew-capsule-splashes-down-after-iss-stay-video-muzu3fbg",
+      "source": "Bloomberg",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-08T18:03:23.746901Z"
+    },
+    {
+      "id": "e11d46c7b5994e4c1b027edef31ddbad",
+      "title": "SoftBank and Grab to develop AI infrastructure in Malaysia's Sarawak",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/technology/softbank-and-grab-to-develop-ai-infrastructure-in-malaysia-s-sarawak",
+      "source": "Nikkei Asia",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-08T18:04:17.537648Z"
+    },
+    {
+      "id": "a73f30e70ec453b46672ee1fd29d9820",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity also has learned that the New Orleans field office of the Federal Bureau of Investigation (FBI) today launched an official inquiry into the source of the images.",
+      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "source": "KrebsOnSecurity",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -89,23 +445,25 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-08T17:57:16.452079Z"
+      "published": "2026-10-08T18:04:23.078375Z"
     },
     {
-      "id": "fa1d7202f0adaf706a2518a6876d8f84",
-      "title": "Gen Zers are now the biggest spenders in the art market, survey finds",
-      "summary": "Gen Zers have become the most active buyers of high-end art, changing the face of a market long dominated by Baby Boomers, according to a new survey.",
-      "link": "https://www.cnbc.com/2026/10/08/gen-zers-are-now-the-biggest-spenders-in-the-art-market-survey-finds-.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
+      "id": "e0615bbd5f4c14dc3e38aa74334d37ae",
+      "title": "Some French IG Bonds Seem Safer Than Sovereign",
+      "summary": "Bloomberg's Ronan Martin joins Scarlet Fu on \"Bloomberg Real Yield.\" Nearly \u20ac215 billion ($241 billion) of France\u2019s corporate bonds now trade as if they were safer than the government\u2019s, an almost 18-fold increase since the start of 2026, after a punishing sovereign debt selloff. Some 38% of France\u2019s total pool of high-grade company debt was indicated at lower yields than government securities of similar maturity on Wednesday.\n (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-08/some-french-ig-bonds-seem-safer-than-sovereign-video",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "FRANCE"
+      ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-08T17:57:16.452128Z"
+      "published": "2026-10-08T18:03:23.746750Z"
     }
   ]
 }
