@@ -1,92 +1,81 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-09T03:13:15.035599Z",
+  "generated_at": "2026-10-09T03:17:51.645513Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "SYSTEMIC",
+    "dominant_driver": "SYSTEMIC",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 3,
-    "last_updated": "2026-10-09T03:13:15.035615Z"
+    "critical_alerts": 1,
+    "high_alerts": 1,
+    "last_updated": "2026-10-09T03:17:51.645525Z"
   },
   "top_signals": [
     {
-      "id": "8c11cb8121a877ecfd870277a242a01d",
-      "title": "US Stock Futures Rise on OpenAI Revenue, Oil Drops: Markets Wrap",
-      "summary": "US stock-index futures rose with Asian shares after more details emerged about OpenAI\u2019s estimated revenue, suggesting the weakness in Wall Street technology shares may be contained. Relief also came as Brent declined.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-08/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "BRENT",
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-10-09T03:12:15.528213Z"
-    },
-    {
-      "id": "ecd8615c001e97a5f5708e234d9d395b",
-      "title": "Gold Advances as Strong Auction Demand Lowers Treasury Yields",
-      "summary": "Gold advanced, after an auction of 30-year US debt drew solid demand and helped pull long-dated yields from their highest levels in more than two decades.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-09/gold-steadies-as-traders-assess-us-iran-tensions-fed-rate-path",
-      "source": "Bloomberg",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "TLT",
-        "XAU"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES",
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-10-09T03:12:15.528265Z"
-    },
-    {
-      "id": "51972e2618518c2f77330da3de9ceeb9",
-      "title": "Australian data centre operator pulls $5bn IPO",
-      "summary": "Nvidia-backed Firmus abandons plan to list in Sydney, blaming \u2018recent market volatility and prevailing market conditions\u2019",
-      "link": "https://www.ft.com/content/205ef7a5-321f-46e3-8097-d055bf1f6b3b?syn-25a6b1a6=1",
+      "id": "f37668f5e25c7f59b6c46a835d538c8d",
+      "title": "Is France too blas\u00e9 about borrowing costs?",
+      "summary": "Rising bond yields raise concerns about wider contagion",
+      "link": "https://www.ft.com/content/67a64928-6278-4a83-8f9c-4ec9dcf26039?syn-25a6b1a6=1",
       "source": "Financial Times",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [
-        "NVDA"
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "SYSTEMIC",
+      "tickers": [],
+      "regions": [
+        "FRANCE"
       ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "JPY"
+        ],
+        "bearish": [
+          "BANKS",
+          "SPY"
+        ]
+      },
+      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
+      "published": "2026-10-09T03:16:52.227694Z"
+    },
+    {
+      "id": "a105077c1a91c24a1173d10f4fc5a129",
+      "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+      "summary": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-09T03:16:54.011371Z"
+    },
+    {
+      "id": "f3ead2c2480c3e04ac484f8909a6d478",
+      "title": "Big Tech sets out its pitches on AI agents",
+      "summary": "Race to develop new services has moved into high gear with a series of launches",
+      "link": "https://www.ft.com/content/9884d785-8ddc-43a6-ac8d-b9c7f9a99df3?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
       "regions": [],
       "assets": [
         "AI"
@@ -100,15 +89,15 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-09T03:12:18.561771Z"
+      "published": "2026-10-09T03:16:51.928079Z"
     },
     {
-      "id": "5c393d52aaf5ed7b3fbb82ddeaa8b415",
-      "title": "Labour holds on to Starmer\u2019s seat in north London",
-      "summary": "The UK\u2019s ruling party wins Holborn and St Pancras by-election, seeing off challenge from Zack Polanski\u2019s Greens",
-      "link": "https://www.ft.com/content/5272dfe2-a1b4-4628-a8f1-9959bc954441?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
+      "id": "d2b42570f4c84460c3fe3733f7a725d6",
+      "title": "Minutes of the UK Money Markets Code Sub-Committee \u2013 September 2026",
+      "summary": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+      "link": "https://www.bankofengland.co.uk/minutes/2026/september/uk-money-markets-committee-minutes-september-2026",
+      "source": "Bank of England",
+      "score": 10,
       "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
@@ -118,86 +107,91 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-09T03:12:18.900413Z"
+      "published": "2026-10-09T03:17:38.917797Z"
+    },
+    {
+      "id": "3ef827d15795b3f69a9d95e1da538569",
+      "title": "Xiaomi Shares Jump 9% as Strong EV Orders Boost Sentiment",
+      "summary": "Xiaomi Corp. shares jumped the most in nearly three months after the Chinese electric vehicle maker reported strong order numbers for its SkyNomad model.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-09/xiaomi-shares-jump-9-on-strong-orders-for-new-ev-model",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-09T03:16:50.097199Z"
     }
   ],
   "alerts": [
     {
-      "id": "8c11cb8121a877ecfd870277a242a01d",
-      "title": "US Stock Futures Rise on OpenAI Revenue, Oil Drops: Markets Wrap",
-      "summary": "US stock-index futures rose with Asian shares after more details emerged about OpenAI\u2019s estimated revenue, suggesting the weakness in Wall Street technology shares may be contained. Relief also came as Brent declined.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-08/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "BRENT",
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-10-09T03:12:15.528213Z"
-    },
-    {
-      "id": "ecd8615c001e97a5f5708e234d9d395b",
-      "title": "Gold Advances as Strong Auction Demand Lowers Treasury Yields",
-      "summary": "Gold advanced, after an auction of 30-year US debt drew solid demand and helped pull long-dated yields from their highest levels in more than two decades.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-09/gold-steadies-as-traders-assess-us-iran-tensions-fed-rate-path",
-      "source": "Bloomberg",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "TLT",
-        "XAU"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES",
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-10-09T03:12:15.528265Z"
-    },
-    {
-      "id": "51972e2618518c2f77330da3de9ceeb9",
-      "title": "Australian data centre operator pulls $5bn IPO",
-      "summary": "Nvidia-backed Firmus abandons plan to list in Sydney, blaming \u2018recent market volatility and prevailing market conditions\u2019",
-      "link": "https://www.ft.com/content/205ef7a5-321f-46e3-8097-d055bf1f6b3b?syn-25a6b1a6=1",
+      "id": "f37668f5e25c7f59b6c46a835d538c8d",
+      "title": "Is France too blas\u00e9 about borrowing costs?",
+      "summary": "Rising bond yields raise concerns about wider contagion",
+      "link": "https://www.ft.com/content/67a64928-6278-4a83-8f9c-4ec9dcf26039?syn-25a6b1a6=1",
       "source": "Financial Times",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [
-        "NVDA"
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "SYSTEMIC",
+      "tickers": [],
+      "regions": [
+        "FRANCE"
       ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "JPY"
+        ],
+        "bearish": [
+          "BANKS",
+          "SPY"
+        ]
+      },
+      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
+      "published": "2026-10-09T03:16:52.227694Z"
+    },
+    {
+      "id": "a105077c1a91c24a1173d10f4fc5a129",
+      "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+      "summary": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-09T03:16:54.011371Z"
+    },
+    {
+      "id": "f3ead2c2480c3e04ac484f8909a6d478",
+      "title": "Big Tech sets out its pitches on AI agents",
+      "summary": "Race to develop new services has moved into high gear with a series of launches",
+      "link": "https://www.ft.com/content/9884d785-8ddc-43a6-ac8d-b9c7f9a99df3?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
       "regions": [],
       "assets": [
         "AI"
@@ -211,15 +205,15 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-09T03:12:18.561771Z"
+      "published": "2026-10-09T03:16:51.928079Z"
     },
     {
-      "id": "5c393d52aaf5ed7b3fbb82ddeaa8b415",
-      "title": "Labour holds on to Starmer\u2019s seat in north London",
-      "summary": "The UK\u2019s ruling party wins Holborn and St Pancras by-election, seeing off challenge from Zack Polanski\u2019s Greens",
-      "link": "https://www.ft.com/content/5272dfe2-a1b4-4628-a8f1-9959bc954441?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 8,
+      "id": "d2b42570f4c84460c3fe3733f7a725d6",
+      "title": "Minutes of the UK Money Markets Code Sub-Committee \u2013 September 2026",
+      "summary": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+      "link": "https://www.bankofengland.co.uk/minutes/2026/september/uk-money-markets-committee-minutes-september-2026",
+      "source": "Bank of England",
+      "score": 10,
       "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
@@ -229,7 +223,23 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-09T03:12:18.900413Z"
+      "published": "2026-10-09T03:17:38.917797Z"
+    },
+    {
+      "id": "3ef827d15795b3f69a9d95e1da538569",
+      "title": "Xiaomi Shares Jump 9% as Strong EV Orders Boost Sentiment",
+      "summary": "Xiaomi Corp. shares jumped the most in nearly three months after the Chinese electric vehicle maker reported strong order numbers for its SkyNomad model.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-09/xiaomi-shares-jump-9-on-strong-orders-for-new-ev-model",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-09T03:16:50.097199Z"
     }
   ]
 }
