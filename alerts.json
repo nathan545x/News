@@ -1,28 +1,61 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-12T20:04:01.053121Z",
+  "generated_at": "2026-10-12T20:08:54.996321Z",
   "market_regime": {
-    "regime": "AI",
-    "dominant_driver": "AI",
+    "regime": "COMMODITIES",
+    "dominant_driver": "COMMODITIES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-10-12T20:04:01.053130Z"
+    "critical_alerts": 1,
+    "high_alerts": 2,
+    "last_updated": "2026-10-12T20:08:54.996336Z"
   },
   "top_signals": [
     {
-      "id": "c63b7df0902d695e2ed0458665a6d22d",
-      "title": "China's Auto Exports Explode as Domestic Demand Craters",
-      "summary": "New data released by the China Passenger Car Association earlier on Monday show that China's peak car-buying season hit the brakes, with September passenger-vehicle retail sales plunging 28% from a year earlier as manufacturers increasingly relied on overseas buyers to cushion soft domestic demand. The CPCA said in the report that retail sales fell to 1.62 million vehicles, marking a 12th consecutive monthly decline from a year earlier. Sales rose 5% from August. The report showed that electric cars and plug-in hybrids accounted for a whopping\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/Chinas-Auto-Exports-Explode-as-Domestic-Demand-Craters.html",
-      "source": "OilPrice",
-      "score": 17,
+      "id": "cde2037b3a2a841e6a808b8192da386e",
+      "title": "Gold Edges Down as Traders Monitor Oil Prices, Fed Rate Outlook",
+      "summary": "Gold dipped from a one-week high as traders assessed swings in oil prices while awaiting fresh clues to the US Federal Reserve\u2019s rate path.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-12/gold-edges-up-as-traders-weigh-russia-ukraine-energy-ceasefire",
+      "source": "Bloomberg",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI",
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-12T20:07:50.009345Z"
+    },
+    {
+      "id": "121a7996c14beb0166bda5bb96c1fd2c",
+      "title": "Ground Robots Are Arriving on the Front Lines",
+      "summary": "<p>For years, ground autonomy lagged well behind its counterparts in the air. That gap is starting to close. Jonathan is joined by Ryan Hartman (Ondas Sentinel) and Scott Philips (Forterra) to examine what it takes to field autonomous ground vehicles in combat. The conversation ranges across what Ukraine and Gaza have taught them, what operating without GPS and resilient communications really looks like, air-ground teaming, and more. Image: Lance Cpl. Talan Werner via DVIDS.</p>\n<p>The post <a href=\"https://warontherocks.com/cogs-of-war/ground-robots-are-arriving-on-the-front-lines/\">Ground Robots Are Arriving on the Front Lines</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/cogs-of-war/ground-robots-are-arriving-on-the-front-lines/",
+      "source": "War on the Rocks",
+      "score": 23,
       "severity": "HIGH",
-      "regime": "INFLATION",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "CHINA"
+        "UK",
+        "UKRAINE"
       ],
       "assets": [
         "AI"
@@ -31,49 +64,54 @@
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-10-12T20:03:54.140341Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-12T20:08:49.715144Z"
     },
     {
-      "id": "c80359647672cc0c87976cf6c5908ca7",
-      "title": "Japan's foreign worker system strains as officials shift quotas",
-      "summary": "",
-      "link": "https://asia.nikkei.com/spotlight/japan-immigration/japan-s-foreign-worker-system-strains-as-officials-shift-quotas",
-      "source": "Nikkei Asia",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "AI",
+      "id": "89123f3af9abe5e5701f96b5661fa657",
+      "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
+      "summary": "A new Windows malware loader called AvisLoader uses encrypted peer-to-peer communications to make command-and-control infrastructure harder to disrupt. Varonis researchers explain how the malware uses ClickFix delivery, shortcut-based persistence, and remote command execution capabilities. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-12T20:03:51.166822Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-12T20:08:51.537597Z"
     },
     {
-      "id": "79d55cd095560228529fb8402e3381f7",
-      "title": "Tanker Attacks Push Deeper Into Gulf, Rattle Oil Markets - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNTFQwUjRxdno5OVYwNHJEdFNNamhwSHhSSHJBSDY3bzd2OGtwX0NyQXBEWFNIZFh3a0IzRWp1LUoxWVlOTW8yMERzWmZfLUItTG1hN3FyTkRjaldSUGkwQ0haa0F3ZF9HZ0RJVEJXWWdXOTJhUjhHRVo0LTQ5LU0wOGtiQkxKMzNuWlVfV1RkWmpNM2FGUDNjMHJmU2dIUUIwU1FRMGktbTFzUWpVSVpn?oc=5\" target=\"_blank\">Tanker Attacks Push Deeper Into Gulf, Rattle Oil Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTFQwUjRxdno5OVYwNHJEdFNNamhwSHhSSHJBSDY3bzd2OGtwX0NyQXBEWFNIZFh3a0IzRWp1LUoxWVlOTW8yMERzWmZfLUItTG1hN3FyTkRjaldSUGkwQ0haa0F3ZF9HZ0RJVEJXWWdXOTJhUjhHRVo0LTQ5LU0wOGtiQkxKMzNuWlVfV1RkWmpNM2FGUDNjMHJmU2dIUUIwU1FRMGktbTFzUWpVSVpn?oc=5",
-      "source": "Google Macro",
+      "id": "d72dfacb8d6f9b5ab2f37aa0b4d01641",
+      "title": "Mixed outlook for energy expenditures this winter",
+      "summary": "We expect energy expenditures this winter to vary because of diverging trends in energy prices among fuels and regional variation in forecast temperatures. We expect that lower prices for natural gas and propane will drive decreases in expenditures this year for the half of U.S. households heating with those fuels. Higher prices for electricity and heating oil drive increased expenditures for households heating with those fuels in our forecast.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68264",
+      "source": "EIA",
       "score": 9,
       "severity": "MEDIUM",
       "regime": "COMMODITIES",
@@ -96,43 +134,13 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-10-12T20:04:00.432500Z"
+      "published": "2026-10-12T20:08:47.502948Z"
     },
     {
-      "id": "80da6fe530ccf371f0870a7a936129e5",
-      "title": "Trump strikes deal with Putin to supply Russian diesel to U.S. and global markets - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb3pPNnFSd1A0VGRrR0FmajNHNmZmRFpfZDhHWlJSc0UxRDE1bGc4d2k3azMzNV9mM3lyZDlDYWU2ZXY4MDNKcXZ0Yzk0R2xjbTFOa2ZkR3E3dG43TTRvTTV0MVNCeHFGY25iVGktNDJhd3l3czVySHFzR2hCTF95Z0tkaldmNnk40gGOAUFVX3lxTE1jTG5KbGx2dE96SDlvcGxxdDJxM3dCazBWWVoxTVRGNkhfcUJ1cDdkLW5HNU9odnp0LUZydGNremhzMXN3TGFpemRPTGFidFE0WVlyX0VQZWI3UGw0NHBzYnJ3OUR0cnpSVjRCbUYza1NwSnZURlVGenpuLWJONE54ejh4VzBaQXpuN0VrMHc?oc=5\" target=\"_blank\">Trump strikes deal with Putin to supply Russian diesel to U.S. and global markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb3pPNnFSd1A0VGRrR0FmajNHNmZmRFpfZDhHWlJSc0UxRDE1bGc4d2k3azMzNV9mM3lyZDlDYWU2ZXY4MDNKcXZ0Yzk0R2xjbTFOa2ZkR3E3dG43TTRvTTV0MVNCeHFGY25iVGktNDJhd3l3czVySHFzR2hCTF95Z0tkaldmNnk40gGOAUFVX3lxTE1jTG5KbGx2dE96SDlvcGxxdDJxM3dCazBWWVoxTVRGNkhfcUJ1cDdkLW5HNU9odnp0LUZydGNremhzMXN3TGFpemRPTGFidFE0WVlyX0VQZWI3UGw0NHBzYnJ3OUR0cnpSVjRCbUYza1NwSnZURlVGenpuLWJONE54ejh4VzBaQXpuN0VrMHc?oc=5",
-      "source": "Google Macro",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "RUSSIA"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-12T20:04:01.053107Z"
-    },
-    {
-      "id": "9671be45d7348c64f2009e593e1d20de",
-      "title": "Japan should help ASEAN bring Myanmar back into fold: Kishida",
+      "id": "ff5a1923d648a5d3afddc534b7588f54",
+      "title": "Japan needs to build an LNG safety net for the next energy crisis",
       "summary": "",
-      "link": "https://asia.nikkei.com/editor-s-picks/interview/japan-should-help-asean-bring-myanmar-back-into-fold-kishida",
+      "link": "https://asia.nikkei.com/opinion/japan-needs-to-build-an-lng-safety-net-for-the-next-energy-crisis",
       "source": "Nikkei Asia",
       "score": 7,
       "severity": "LOW",
@@ -144,95 +152,71 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-12T20:03:51.166851Z"
+      "published": "2026-10-12T20:08:44.817092Z"
     },
     {
-      "id": "883cbeec35aeeb6320a1d6202bd812ce",
-      "title": "Twenty-Six Defense unveils new soldier-worn tech",
-      "summary": "The defense firm formerly known as Elbit America introduced Primex, a headset designed with night vision and augmented reality capabilities.",
-      "link": "https://www.defensenews.com/land/2026/10/12/twenty-six-defense-unveils-new-soldier-worn-tech/",
-      "source": "Defense News",
-      "score": 6,
+      "id": "a858d53b2fd23a68e201edf8df3af51f",
+      "title": "How Sega's business went from selling games to building ecosystems",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/media-entertainment/how-sega-s-business-went-from-selling-games-to-building-ecosystems",
+      "source": "Nikkei Asia",
+      "score": 7,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [
-        "US"
-      ],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-12T20:03:55.415324Z"
-    },
-    {
-      "id": "c7d600caca6d266bd5b711c0736dd628",
-      "title": "Speech by Executive Vice-President Fitto at \u201cEuropean Week of Regions and Cities 2026\u201d",
-      "summary": "European Commission Speech Brussels, 12 Oct 2026 Ladies and Gentlemen,\nPresident Costa,\nPresident T\u00fctt\u0151,\nDear Mr Katainen,\n\u201cStrong regions, strong Europe\u201d.\nThis is more than just a motto.\nIt is a reminder that...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2141",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-12T20:03:44.950726Z"
-    },
-    {
-      "id": "bb3a5e4b63975512ea409b60499565c8",
-      "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
-      "summary": "Retail giant Ahold Delhaize, one of the world's largest food retail chains, confirmed today that it had to take some systems offline in response to a \"cybersecurity incident\" affecting its network. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
-      "source": "BleepingComputer",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-12T20:03:57.252240Z"
+      "published": "2026-10-12T20:08:44.817156Z"
     }
   ],
   "alerts": [
     {
-      "id": "c63b7df0902d695e2ed0458665a6d22d",
-      "title": "China's Auto Exports Explode as Domestic Demand Craters",
-      "summary": "New data released by the China Passenger Car Association earlier on Monday show that China's peak car-buying season hit the brakes, with September passenger-vehicle retail sales plunging 28% from a year earlier as manufacturers increasingly relied on overseas buyers to cushion soft domestic demand. The CPCA said in the report that retail sales fell to 1.62 million vehicles, marking a 12th consecutive monthly decline from a year earlier. Sales rose 5% from August. The report showed that electric cars and plug-in hybrids accounted for a whopping\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/Chinas-Auto-Exports-Explode-as-Domestic-Demand-Craters.html",
-      "source": "OilPrice",
-      "score": 17,
+      "id": "cde2037b3a2a841e6a808b8192da386e",
+      "title": "Gold Edges Down as Traders Monitor Oil Prices, Fed Rate Outlook",
+      "summary": "Gold dipped from a one-week high as traders assessed swings in oil prices while awaiting fresh clues to the US Federal Reserve\u2019s rate path.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-12/gold-edges-up-as-traders-weigh-russia-ukraine-energy-ceasefire",
+      "source": "Bloomberg",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI",
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-12T20:07:50.009345Z"
+    },
+    {
+      "id": "121a7996c14beb0166bda5bb96c1fd2c",
+      "title": "Ground Robots Are Arriving on the Front Lines",
+      "summary": "<p>For years, ground autonomy lagged well behind its counterparts in the air. That gap is starting to close. Jonathan is joined by Ryan Hartman (Ondas Sentinel) and Scott Philips (Forterra) to examine what it takes to field autonomous ground vehicles in combat. The conversation ranges across what Ukraine and Gaza have taught them, what operating without GPS and resilient communications really looks like, air-ground teaming, and more. Image: Lance Cpl. Talan Werner via DVIDS.</p>\n<p>The post <a href=\"https://warontherocks.com/cogs-of-war/ground-robots-are-arriving-on-the-front-lines/\">Ground Robots Are Arriving on the Front Lines</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/cogs-of-war/ground-robots-are-arriving-on-the-front-lines/",
+      "source": "War on the Rocks",
+      "score": 23,
       "severity": "HIGH",
-      "regime": "INFLATION",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "CHINA"
+        "UK",
+        "UKRAINE"
       ],
       "assets": [
         "AI"
@@ -241,49 +225,54 @@
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-10-12T20:03:54.140341Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-12T20:08:49.715144Z"
     },
     {
-      "id": "c80359647672cc0c87976cf6c5908ca7",
-      "title": "Japan's foreign worker system strains as officials shift quotas",
-      "summary": "",
-      "link": "https://asia.nikkei.com/spotlight/japan-immigration/japan-s-foreign-worker-system-strains-as-officials-shift-quotas",
-      "source": "Nikkei Asia",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "AI",
+      "id": "89123f3af9abe5e5701f96b5661fa657",
+      "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
+      "summary": "A new Windows malware loader called AvisLoader uses encrypted peer-to-peer communications to make command-and-control infrastructure harder to disrupt. Varonis researchers explain how the malware uses ClickFix delivery, shortcut-based persistence, and remote command execution capabilities. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-12T20:03:51.166822Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-12T20:08:51.537597Z"
     },
     {
-      "id": "79d55cd095560228529fb8402e3381f7",
-      "title": "Tanker Attacks Push Deeper Into Gulf, Rattle Oil Markets - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNTFQwUjRxdno5OVYwNHJEdFNNamhwSHhSSHJBSDY3bzd2OGtwX0NyQXBEWFNIZFh3a0IzRWp1LUoxWVlOTW8yMERzWmZfLUItTG1hN3FyTkRjaldSUGkwQ0haa0F3ZF9HZ0RJVEJXWWdXOTJhUjhHRVo0LTQ5LU0wOGtiQkxKMzNuWlVfV1RkWmpNM2FGUDNjMHJmU2dIUUIwU1FRMGktbTFzUWpVSVpn?oc=5\" target=\"_blank\">Tanker Attacks Push Deeper Into Gulf, Rattle Oil Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTFQwUjRxdno5OVYwNHJEdFNNamhwSHhSSHJBSDY3bzd2OGtwX0NyQXBEWFNIZFh3a0IzRWp1LUoxWVlOTW8yMERzWmZfLUItTG1hN3FyTkRjaldSUGkwQ0haa0F3ZF9HZ0RJVEJXWWdXOTJhUjhHRVo0LTQ5LU0wOGtiQkxKMzNuWlVfV1RkWmpNM2FGUDNjMHJmU2dIUUIwU1FRMGktbTFzUWpVSVpn?oc=5",
-      "source": "Google Macro",
+      "id": "d72dfacb8d6f9b5ab2f37aa0b4d01641",
+      "title": "Mixed outlook for energy expenditures this winter",
+      "summary": "We expect energy expenditures this winter to vary because of diverging trends in energy prices among fuels and regional variation in forecast temperatures. We expect that lower prices for natural gas and propane will drive decreases in expenditures this year for the half of U.S. households heating with those fuels. Higher prices for electricity and heating oil drive increased expenditures for households heating with those fuels in our forecast.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68264",
+      "source": "EIA",
       "score": 9,
       "severity": "MEDIUM",
       "regime": "COMMODITIES",
@@ -306,43 +295,13 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-10-12T20:04:00.432500Z"
+      "published": "2026-10-12T20:08:47.502948Z"
     },
     {
-      "id": "80da6fe530ccf371f0870a7a936129e5",
-      "title": "Trump strikes deal with Putin to supply Russian diesel to U.S. and global markets - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb3pPNnFSd1A0VGRrR0FmajNHNmZmRFpfZDhHWlJSc0UxRDE1bGc4d2k3azMzNV9mM3lyZDlDYWU2ZXY4MDNKcXZ0Yzk0R2xjbTFOa2ZkR3E3dG43TTRvTTV0MVNCeHFGY25iVGktNDJhd3l3czVySHFzR2hCTF95Z0tkaldmNnk40gGOAUFVX3lxTE1jTG5KbGx2dE96SDlvcGxxdDJxM3dCazBWWVoxTVRGNkhfcUJ1cDdkLW5HNU9odnp0LUZydGNremhzMXN3TGFpemRPTGFidFE0WVlyX0VQZWI3UGw0NHBzYnJ3OUR0cnpSVjRCbUYza1NwSnZURlVGenpuLWJONE54ejh4VzBaQXpuN0VrMHc?oc=5\" target=\"_blank\">Trump strikes deal with Putin to supply Russian diesel to U.S. and global markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb3pPNnFSd1A0VGRrR0FmajNHNmZmRFpfZDhHWlJSc0UxRDE1bGc4d2k3azMzNV9mM3lyZDlDYWU2ZXY4MDNKcXZ0Yzk0R2xjbTFOa2ZkR3E3dG43TTRvTTV0MVNCeHFGY25iVGktNDJhd3l3czVySHFzR2hCTF95Z0tkaldmNnk40gGOAUFVX3lxTE1jTG5KbGx2dE96SDlvcGxxdDJxM3dCazBWWVoxTVRGNkhfcUJ1cDdkLW5HNU9odnp0LUZydGNremhzMXN3TGFpemRPTGFidFE0WVlyX0VQZWI3UGw0NHBzYnJ3OUR0cnpSVjRCbUYza1NwSnZURlVGenpuLWJONE54ejh4VzBaQXpuN0VrMHc?oc=5",
-      "source": "Google Macro",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "RUSSIA"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-12T20:04:01.053107Z"
-    },
-    {
-      "id": "9671be45d7348c64f2009e593e1d20de",
-      "title": "Japan should help ASEAN bring Myanmar back into fold: Kishida",
+      "id": "ff5a1923d648a5d3afddc534b7588f54",
+      "title": "Japan needs to build an LNG safety net for the next energy crisis",
       "summary": "",
-      "link": "https://asia.nikkei.com/editor-s-picks/interview/japan-should-help-asean-bring-myanmar-back-into-fold-kishida",
+      "link": "https://asia.nikkei.com/opinion/japan-needs-to-build-an-lng-safety-net-for-the-next-energy-crisis",
       "source": "Nikkei Asia",
       "score": 7,
       "severity": "LOW",
@@ -354,80 +313,23 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-12T20:03:51.166851Z"
+      "published": "2026-10-12T20:08:44.817092Z"
     },
     {
-      "id": "883cbeec35aeeb6320a1d6202bd812ce",
-      "title": "Twenty-Six Defense unveils new soldier-worn tech",
-      "summary": "The defense firm formerly known as Elbit America introduced Primex, a headset designed with night vision and augmented reality capabilities.",
-      "link": "https://www.defensenews.com/land/2026/10/12/twenty-six-defense-unveils-new-soldier-worn-tech/",
-      "source": "Defense News",
-      "score": 6,
+      "id": "a858d53b2fd23a68e201edf8df3af51f",
+      "title": "How Sega's business went from selling games to building ecosystems",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/media-entertainment/how-sega-s-business-went-from-selling-games-to-building-ecosystems",
+      "source": "Nikkei Asia",
+      "score": 7,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [
-        "US"
-      ],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-12T20:03:55.415324Z"
-    },
-    {
-      "id": "c7d600caca6d266bd5b711c0736dd628",
-      "title": "Speech by Executive Vice-President Fitto at \u201cEuropean Week of Regions and Cities 2026\u201d",
-      "summary": "European Commission Speech Brussels, 12 Oct 2026 Ladies and Gentlemen,\nPresident Costa,\nPresident T\u00fctt\u0151,\nDear Mr Katainen,\n\u201cStrong regions, strong Europe\u201d.\nThis is more than just a motto.\nIt is a reminder that...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2141",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-12T20:03:44.950726Z"
-    },
-    {
-      "id": "bb3a5e4b63975512ea409b60499565c8",
-      "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
-      "summary": "Retail giant Ahold Delhaize, one of the world's largest food retail chains, confirmed today that it had to take some systems offline in response to a \"cybersecurity incident\" affecting its network. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
-      "source": "BleepingComputer",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-12T20:03:57.252240Z"
+      "published": "2026-10-12T20:08:44.817156Z"
     }
   ]
 }
