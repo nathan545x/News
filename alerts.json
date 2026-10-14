@@ -1,60 +1,28 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-14T12:59:12.339170Z",
+  "generated_at": "2026-10-14T13:04:41.595360Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "INFLATION",
+    "dominant_driver": "INFLATION",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 2,
-    "high_alerts": 0,
-    "last_updated": "2026-10-14T12:59:12.339186Z"
+    "critical_alerts": 1,
+    "high_alerts": 5,
+    "last_updated": "2026-10-14T13:04:41.595375Z"
   },
   "top_signals": [
     {
-      "id": "cb69c5f29fe831a84179e73982ccf3c7",
-      "title": "Trump's diesel dilemma \u2014 by the numbers",
-      "summary": "Conflicts in Ukraine and Iran have created major ripple effects across global energy markets causing major price swings.",
-      "link": "https://www.cnbc.com/2026/10/14/trumps-diesel-dilemma-by-the-numbers.html",
-      "source": "CNBC",
-      "score": 33,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST",
-        "UK",
-        "UKRAINE"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-14T12:58:11.720333Z"
-    },
-    {
-      "id": "dac768b51276ca56cee4e29766515932",
-      "title": "US Treasuries Slump as Hot Inflation Lifts Fed Rate-Hike Bets",
-      "summary": "US Treasuries slumped after hotter-than-expected inflation prompted traders to boost their expectations that Federal Reserve officials raise interest rates later this month and next year.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-14/us-treasuries-slump-as-hot-inflation-lifts-fed-rate-hike-bets",
+      "id": "e74e84b3fa69790ec5e9e68bae476b44",
+      "title": "Dollar Advances to Highest Since May 2025 on Fed Hike Views",
+      "summary": "The dollar strengthened to the highest level in over a year as hot US inflation reading pushed traders to add to bets that the Federal Reserve will raise interest rates.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-14/dollar-advances-to-highest-since-may-2025-on-fed-hike-views",
       "source": "Bloomberg",
       "score": 26,
       "severity": "CRITICAL",
       "regime": "INFLATION",
-      "tickers": [],
+      "tickers": [
+        "DXY"
+      ],
       "regions": [],
       "assets": [
         "AI"
@@ -71,17 +39,104 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-10-14T12:58:08.493841Z"
+      "published": "2026-10-14T13:03:38.842849Z"
     },
     {
-      "id": "d2ad7ba7e81bac310c05bc9dde85bc69",
-      "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
-      "source": "BleepingComputer",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
+      "id": "fc8ca41bb6b89e07be526dd6f012d96e",
+      "title": "Live updates: Bitcoin tumbles more than 1% after disappointing inflation report",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/10/14/live-updates-bitcoin-tumbles-from-near-usd84-000-ahead-of-u-s-inflation-data",
+      "source": "CoinDesk",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-14T13:04:37.709584Z"
+    },
+    {
+      "id": "f6b675b41c46bb1424c0d3320e035351",
+      "title": "Quantitative tightening: the next chapter \u2212 speech by Dave Ramsden",
+      "summary": "Given at the Bank of England, co-hosted by the Money, Macro and Finance Society",
+      "link": "https://www.bankofengland.co.uk/speech/2026/september/dave-ramsden-speech-on-quantitative-tightening",
+      "source": "Bank of England",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-14T13:04:28.796613Z"
+    },
+    {
+      "id": "d6926ed05f29c4a710553f8afe750e83",
+      "title": "Qivalis receives EMI authorization from Dutch central bank for euro stablecoin",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Qivalis receives EMI authorization from Dutch central bank for euro stablecoin\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4X72PYZ674KKQJ0QCZ8VV70/crypto-regulation-paper-rule-office-mica-eu-1.jpg\" /></p><p>Qivalis said the EMI authorization enables it to launch a euro-denominated stablecoin, with issuance planned for the coming months, subject to additional MiCA requirements.\n</p>",
+      "link": "https://cointelegraph.com/news/qivalis-authorization-dutch-central-bank-euro-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-10-14T13:04:37.794623Z"
+    },
+    {
+      "id": "80bf7e618db4540694b36d84d2601663",
+      "title": "US Consumer Prices Rise at Fastest Pace in Five Months",
+      "summary": "The US consumer price index rose 0.6% in September from a month earlier, and 3.7% on an annual basis, according to the Bureau of Labor Statistics. The data shows gas prices rose by 9.1%. Bloomberg's Michael McKee has the initial reading. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-14/us-consumer-prices-rise-at-fastest-pace-in-five-months-video",
+      "source": "Bloomberg",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "INFLATION",
       "tickers": [],
       "regions": [],
       "assets": [],
@@ -89,98 +144,211 @@
         "bullish": [
           "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "COMMODITIES"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-14T12:59:08.649185Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-14T13:03:38.842792Z"
     },
     {
-      "id": "3344e45ecd635108b1062dc7dac9ad36",
-      "title": "India Regulator Plans Rule Overhaul to Boost Tiny Listings",
-      "summary": "India\u2019s securities watchdog proposed sweeping changes to rules governing the listing and trading of small companies, seeking to ease access to capital markets and broaden investor participation.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-14/india-regulator-plans-easier-listing-rules-for-micro-caps",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "id": "1c0cbe02c2539500f3035691c9150f02",
+      "title": "Fed\u2019s Williams Currently Sees No Need for Rate Hike in 2027 - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQb01adkN2OHdNQWZjaW9DMVk0NlotU0RrVkV2dGVDZDc5WTY5aEJmemJtSjY1eTJNRjM1UzY1OUlBMXNHQ0FBd09mV3ZXdWJlZXZhY2N6Sng3QnRNcW5FY1cyU216SmNtVUNIcEd4TFR4aHR1cGR1eU1CYkZOdjQ0SndhRzJKdWc0aGM1cnlTSWpHZnJJbEtrZVduWl9fSmJObDNFT2k5UXREWWtBT3J3?oc=5\" target=\"_blank\">Fed\u2019s Williams Currently Sees No Need for Rate Hike in 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb01adkN2OHdNQWZjaW9DMVk0NlotU0RrVkV2dGVDZDc5WTY5aEJmemJtSjY1eTJNRjM1UzY1OUlBMXNHQ0FBd09mV3ZXdWJlZXZhY2N6Sng3QnRNcW5FY1cyU216SmNtVUNIcEd4TFR4aHR1cGR1eU1CYkZOdjQ0SndhRzJKdWc0aGM1cnlTSWpHZnJJbEtrZVduWl9fSmJObDNFT2k5UXREWWtBT3J3?oc=5",
+      "source": "Google Macro",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-14T12:58:08.493779Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-14T13:04:39.041358Z"
     },
     {
-      "id": "c0dc8b5c2a66130ad5f5a9888d6e817e",
-      "title": "Uber Eats cements Japan market lead, eyeing 5 years in the black",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/food-beverage/uber-eats-cements-japan-market-lead-eyeing-5-years-in-the-black",
-      "source": "Nikkei Asia",
+      "id": "d2d8c88796e1de3e094ee0bddc8e1cef",
+      "title": "US Mortgage Rates Hit 7.5%, Extends Home Buying Slump",
+      "summary": "US mortgage rates continue to rise, pushing down home purchasing activity for a sixth straight week.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-14/us-mortgage-rates-hit-7-5-extending-slump-in-purchase-activity",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-14T13:03:38.842730Z"
+    },
+    {
+      "id": "c0055fcb4d196d1c1a0641f39ab8302d",
+      "title": "Oxford AI chip startup raises $125m to tackle data centre power crunch",
+      "summary": "<p> <img alt=\"Salience\u2019s latest funding shows growing interest in British semiconductor firms \" src=\"https://www.cityam.com/wp-content/uploads/2025/03/016-stock-data-centre.jpg?w=1200\" /> </p>Oxford-based chip startup Salience Labs has raised $125m (\u00a394m) from investors, including AMD and Intel, as the race to build AI data centres puts growing pressure on electricity supplies. The funding round, led by Bullhound Capital, is set to help the British firm scale production of its photonic chips, which use light rather than electrical <a href=\"https://www.cityam.com/oxford-ai-chip-startup-raises-125m-to-tackle-data-centre-power-crunch/\">[...]</a>",
+      "link": "https://www.cityam.com/oxford-ai-chip-startup-raises-125m-to-tackle-data-centre-power-crunch/",
+      "source": "CityAM",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-14T13:04:31.951291Z"
+    },
+    {
+      "id": "a73f30e70ec453b46672ee1fd29d9820",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity also has learned that the New Orleans field office of the Federal Bureau of Investigation (FBI) today launched an official inquiry into the source of the images.",
+      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "source": "KrebsOnSecurity",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-14T13:04:38.263620Z"
+    },
+    {
+      "id": "9b5b3923e46102adafdd90bed944658e",
+      "title": "DriveWealth to use Ripple\u2019s RLUSD for stablecoin settlement, cross-border payments",
+      "summary": "DriveWealth will use Ripple's RLUSD on the XRP Ledger for stablecoin settlement, collateral funding and custody, starting in Europe.",
+      "link": "https://www.theblock.co/news/business/2026-10-14-drivewealth-ripple-rlusd-stablecoin-settlement-418479",
+      "source": "The Block",
       "score": 7,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [
+        "DXY",
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-10-14T13:04:37.895152Z"
+    },
+    {
+      "id": "fcb4954e0f999bf21517d2f72aa70bd4",
+      "title": "Polygon Labs completes Coinme acquisition, bringing regulated payments coverage across 48 US states",
+      "summary": "Polygon Labs completed its Coinme acquisition, bringing 37 state money transmitter licenses into its stablecoin payments infrastructure.",
+      "link": "https://www.theblock.co/news/business/2026-10-14-polygon-labs-completes-coinme-acquisition-bringing-regulated-payments-coverage-across-48-us-states-418518",
+      "source": "The Block",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-10-14T13:04:37.895206Z"
+    },
+    {
+      "id": "79d16a1006b298437ff93d42a387aac7",
+      "title": "Monthly wind generation in ISO-NE is about 68% higher than last year ISO-NE monthly wind generation",
+      "summary": "Monthly wind generation in the first nine months of 2026 was an average of 68% higher compared with the same period in 2025 in ISO New England (ISO-NE).",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68304",
+      "source": "EIA",
+      "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "UK"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-14T12:59:02.985815Z"
+      "published": "2026-10-14T13:04:35.189750Z"
     }
   ],
   "alerts": [
     {
-      "id": "cb69c5f29fe831a84179e73982ccf3c7",
-      "title": "Trump's diesel dilemma \u2014 by the numbers",
-      "summary": "Conflicts in Ukraine and Iran have created major ripple effects across global energy markets causing major price swings.",
-      "link": "https://www.cnbc.com/2026/10/14/trumps-diesel-dilemma-by-the-numbers.html",
-      "source": "CNBC",
-      "score": 33,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST",
-        "UK",
-        "UKRAINE"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-14T12:58:11.720333Z"
-    },
-    {
-      "id": "dac768b51276ca56cee4e29766515932",
-      "title": "US Treasuries Slump as Hot Inflation Lifts Fed Rate-Hike Bets",
-      "summary": "US Treasuries slumped after hotter-than-expected inflation prompted traders to boost their expectations that Federal Reserve officials raise interest rates later this month and next year.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-14/us-treasuries-slump-as-hot-inflation-lifts-fed-rate-hike-bets",
+      "id": "e74e84b3fa69790ec5e9e68bae476b44",
+      "title": "Dollar Advances to Highest Since May 2025 on Fed Hike Views",
+      "summary": "The dollar strengthened to the highest level in over a year as hot US inflation reading pushed traders to add to bets that the Federal Reserve will raise interest rates.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-14/dollar-advances-to-highest-since-may-2025-on-fed-hike-views",
       "source": "Bloomberg",
       "score": 26,
       "severity": "CRITICAL",
       "regime": "INFLATION",
-      "tickers": [],
+      "tickers": [
+        "DXY"
+      ],
       "regions": [],
       "assets": [
         "AI"
@@ -197,17 +365,104 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-10-14T12:58:08.493841Z"
+      "published": "2026-10-14T13:03:38.842849Z"
     },
     {
-      "id": "d2ad7ba7e81bac310c05bc9dde85bc69",
-      "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
-      "source": "BleepingComputer",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
+      "id": "fc8ca41bb6b89e07be526dd6f012d96e",
+      "title": "Live updates: Bitcoin tumbles more than 1% after disappointing inflation report",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/10/14/live-updates-bitcoin-tumbles-from-near-usd84-000-ahead-of-u-s-inflation-data",
+      "source": "CoinDesk",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "INFLATION",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-14T13:04:37.709584Z"
+    },
+    {
+      "id": "f6b675b41c46bb1424c0d3320e035351",
+      "title": "Quantitative tightening: the next chapter \u2212 speech by Dave Ramsden",
+      "summary": "Given at the Bank of England, co-hosted by the Money, Macro and Finance Society",
+      "link": "https://www.bankofengland.co.uk/speech/2026/september/dave-ramsden-speech-on-quantitative-tightening",
+      "source": "Bank of England",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-14T13:04:28.796613Z"
+    },
+    {
+      "id": "d6926ed05f29c4a710553f8afe750e83",
+      "title": "Qivalis receives EMI authorization from Dutch central bank for euro stablecoin",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Qivalis receives EMI authorization from Dutch central bank for euro stablecoin\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4X72PYZ674KKQJ0QCZ8VV70/crypto-regulation-paper-rule-office-mica-eu-1.jpg\" /></p><p>Qivalis said the EMI authorization enables it to launch a euro-denominated stablecoin, with issuance planned for the coming months, subject to additional MiCA requirements.\n</p>",
+      "link": "https://cointelegraph.com/news/qivalis-authorization-dutch-central-bank-euro-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-10-14T13:04:37.794623Z"
+    },
+    {
+      "id": "80bf7e618db4540694b36d84d2601663",
+      "title": "US Consumer Prices Rise at Fastest Pace in Five Months",
+      "summary": "The US consumer price index rose 0.6% in September from a month earlier, and 3.7% on an annual basis, according to the Bureau of Labor Statistics. The data shows gas prices rose by 9.1%. Bloomberg's Michael McKee has the initial reading. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-14/us-consumer-prices-rise-at-fastest-pace-in-five-months-video",
+      "source": "Bloomberg",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "INFLATION",
       "tickers": [],
       "regions": [],
       "assets": [],
@@ -215,51 +470,196 @@
         "bullish": [
           "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "COMMODITIES"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-14T12:59:08.649185Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-14T13:03:38.842792Z"
     },
     {
-      "id": "3344e45ecd635108b1062dc7dac9ad36",
-      "title": "India Regulator Plans Rule Overhaul to Boost Tiny Listings",
-      "summary": "India\u2019s securities watchdog proposed sweeping changes to rules governing the listing and trading of small companies, seeking to ease access to capital markets and broaden investor participation.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-14/india-regulator-plans-easier-listing-rules-for-micro-caps",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "id": "1c0cbe02c2539500f3035691c9150f02",
+      "title": "Fed\u2019s Williams Currently Sees No Need for Rate Hike in 2027 - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQb01adkN2OHdNQWZjaW9DMVk0NlotU0RrVkV2dGVDZDc5WTY5aEJmemJtSjY1eTJNRjM1UzY1OUlBMXNHQ0FBd09mV3ZXdWJlZXZhY2N6Sng3QnRNcW5FY1cyU216SmNtVUNIcEd4TFR4aHR1cGR1eU1CYkZOdjQ0SndhRzJKdWc0aGM1cnlTSWpHZnJJbEtrZVduWl9fSmJObDNFT2k5UXREWWtBT3J3?oc=5\" target=\"_blank\">Fed\u2019s Williams Currently Sees No Need for Rate Hike in 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb01adkN2OHdNQWZjaW9DMVk0NlotU0RrVkV2dGVDZDc5WTY5aEJmemJtSjY1eTJNRjM1UzY1OUlBMXNHQ0FBd09mV3ZXdWJlZXZhY2N6Sng3QnRNcW5FY1cyU216SmNtVUNIcEd4TFR4aHR1cGR1eU1CYkZOdjQ0SndhRzJKdWc0aGM1cnlTSWpHZnJJbEtrZVduWl9fSmJObDNFT2k5UXREWWtBT3J3?oc=5",
+      "source": "Google Macro",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-14T12:58:08.493779Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-14T13:04:39.041358Z"
     },
     {
-      "id": "c0dc8b5c2a66130ad5f5a9888d6e817e",
-      "title": "Uber Eats cements Japan market lead, eyeing 5 years in the black",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/food-beverage/uber-eats-cements-japan-market-lead-eyeing-5-years-in-the-black",
-      "source": "Nikkei Asia",
+      "id": "d2d8c88796e1de3e094ee0bddc8e1cef",
+      "title": "US Mortgage Rates Hit 7.5%, Extends Home Buying Slump",
+      "summary": "US mortgage rates continue to rise, pushing down home purchasing activity for a sixth straight week.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-14/us-mortgage-rates-hit-7-5-extending-slump-in-purchase-activity",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-14T13:03:38.842730Z"
+    },
+    {
+      "id": "c0055fcb4d196d1c1a0641f39ab8302d",
+      "title": "Oxford AI chip startup raises $125m to tackle data centre power crunch",
+      "summary": "<p> <img alt=\"Salience\u2019s latest funding shows growing interest in British semiconductor firms \" src=\"https://www.cityam.com/wp-content/uploads/2025/03/016-stock-data-centre.jpg?w=1200\" /> </p>Oxford-based chip startup Salience Labs has raised $125m (\u00a394m) from investors, including AMD and Intel, as the race to build AI data centres puts growing pressure on electricity supplies. The funding round, led by Bullhound Capital, is set to help the British firm scale production of its photonic chips, which use light rather than electrical <a href=\"https://www.cityam.com/oxford-ai-chip-startup-raises-125m-to-tackle-data-centre-power-crunch/\">[...]</a>",
+      "link": "https://www.cityam.com/oxford-ai-chip-startup-raises-125m-to-tackle-data-centre-power-crunch/",
+      "source": "CityAM",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-14T13:04:31.951291Z"
+    },
+    {
+      "id": "a73f30e70ec453b46672ee1fd29d9820",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity also has learned that the New Orleans field office of the Federal Bureau of Investigation (FBI) today launched an official inquiry into the source of the images.",
+      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "source": "KrebsOnSecurity",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-14T13:04:38.263620Z"
+    },
+    {
+      "id": "9b5b3923e46102adafdd90bed944658e",
+      "title": "DriveWealth to use Ripple\u2019s RLUSD for stablecoin settlement, cross-border payments",
+      "summary": "DriveWealth will use Ripple's RLUSD on the XRP Ledger for stablecoin settlement, collateral funding and custody, starting in Europe.",
+      "link": "https://www.theblock.co/news/business/2026-10-14-drivewealth-ripple-rlusd-stablecoin-settlement-418479",
+      "source": "The Block",
       "score": 7,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [
+        "DXY",
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-10-14T13:04:37.895152Z"
+    },
+    {
+      "id": "fcb4954e0f999bf21517d2f72aa70bd4",
+      "title": "Polygon Labs completes Coinme acquisition, bringing regulated payments coverage across 48 US states",
+      "summary": "Polygon Labs completed its Coinme acquisition, bringing 37 state money transmitter licenses into its stablecoin payments infrastructure.",
+      "link": "https://www.theblock.co/news/business/2026-10-14-polygon-labs-completes-coinme-acquisition-bringing-regulated-payments-coverage-across-48-us-states-418518",
+      "source": "The Block",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-10-14T13:04:37.895206Z"
+    },
+    {
+      "id": "79d16a1006b298437ff93d42a387aac7",
+      "title": "Monthly wind generation in ISO-NE is about 68% higher than last year ISO-NE monthly wind generation",
+      "summary": "Monthly wind generation in the first nine months of 2026 was an average of 68% higher compared with the same period in 2025 in ISO New England (ISO-NE).",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68304",
+      "source": "EIA",
+      "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "UK"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-14T12:59:02.985815Z"
+      "published": "2026-10-14T13:04:35.189750Z"
     }
   ]
 }
