@@ -1,34 +1,101 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-14T06:04:29.299924Z",
+  "generated_at": "2026-10-14T06:08:36.720153Z",
   "market_regime": {
-    "regime": "AI",
-    "dominant_driver": "AI",
+    "regime": "INFLATION",
+    "dominant_driver": "INFLATION",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 3,
     "high_alerts": 0,
-    "last_updated": "2026-10-14T06:04:29.299936Z"
+    "last_updated": "2026-10-14T06:08:36.720165Z"
   },
   "top_signals": [
     {
-      "id": "5c35ffba370b3bc8a4199684a078edf2",
-      "title": "Joint Statement on the third EU-T\u00fcrkiye High-Level Dialogue on Trade",
-      "summary": "European Commission Statement Brussels, 13 Oct 2026 The European Union and T\u00fcrkiye held the 3rd EU-T\u00fcrkiye High Level Dialogue on Trade on 13 October 2026 in Brussels. The meeting was co-chaired by the Commissioner for Trade and Economic Security, Interinstitutional Relations and Transparency Maro\u0161 \u0160ef\u010dovi\u010d and Minister of Trade of T\u00fcrkiye \u00d6mer Bolat.",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2135",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
+      "id": "31c747208a44aecd89a2e8ce95f80132",
+      "title": "Wall Street Sees Inflation Easing Even With Oil Above $90",
+      "summary": "The U.S. Consumer Price Index (CPI) report is due to be released on Wednesday, with economists predicting that key inflation metrics continued to moderate in September despite elevated oil prices, giving the Fed room to slow down on interest rate hikes. For September, economists expect headline inflation growth to clock in at 0.5% month-over-month and 3.6%- 3.7% year-over-year, up from 0.4% m-o-m and 3.4% Y/Y in August.\u00a0 Meanwhile, core CPI, which excludes volatile energy and food prices, is seen climbing 0.2% in September, down from August\u2019s\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Wall-Street-Sees-Inflation-Easing-Even-With-Oil-Above-90.html",
+      "source": "OilPrice",
+      "score": 38,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
       "tickers": [
-        "EUR"
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-14T06:08:30.573153Z"
+    },
+    {
+      "id": "54e89da6ba3625bdacd5c4da9b537a8e",
+      "title": "S&P 500, Nasdaq Slip as Oil Rises on Russia Strikes in Ukraine - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxPamJ2ZGp1bmNfdEs1MUlid3YzVTcxNmRtZW9DRjE5LUhjM0E5cHJ3elNrYzVXTVBWOVNYX0hVTVJ2anJUUG44QnBvWnJfNVVUbnRTTDZEcVdqSTFSeWxuemlXOVJvWUhObmhiOVk0X083ckp4WEtQTUU3dnVNMW1wd3VxUlctaG5RbGpISVI3bVNQZXpHT3hWVEZZbDJrblZTYmhPVG9pVlJxUUJ3MnFNUmozQk5iNkp6OFlzNWppUEN1VXc?oc=5\" target=\"_blank\">S&amp;P 500, Nasdaq Slip as Oil Rises on Russia Strikes in Ukraine</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPamJ2ZGp1bmNfdEs1MUlid3YzVTcxNmRtZW9DRjE5LUhjM0E5cHJ3elNrYzVXTVBWOVNYX0hVTVJ2anJUUG44QnBvWnJfNVVUbnRTTDZEcVdqSTFSeWxuemlXOVJvWUhObmhiOVk0X083ckp4WEtQTUU3dnVNMW1wd3VxUlctaG5RbGpISVI3bVNQZXpHT3hWVEZZbDJrblZTYmhPVG9pVlJxUUJ3MnFNUmozQk5iNkp6OFlzNWppUEN1VXc?oc=5",
+      "source": "Google Macro",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "QQQ",
+        "SPY",
+        "WTI"
       ],
       "regions": [
-        "EUROPE"
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
       ],
       "assets": [
         "AI",
-        "FX"
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-14T06:08:36.076558Z"
+    },
+    {
+      "id": "08801003cd8a7d18e3e84e3088c99b42",
+      "title": "Stocks Erase Gains After ASML, Dollar Declines: Markets Wrap",
+      "summary": "Asian shares erased gains after chip-equipment maker ASML Holding NV said it can\u2019t fully meet demand, renewing concerns around the artificial intelligence trade. The dollar fell before a key US inflation report.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-13/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "AI",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -39,13 +106,38 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-14T06:04:19.118100Z"
+      "published": "2026-10-14T06:07:32.314622Z"
     },
     {
-      "id": "265954adb7fc82494932afbbaa677fd8",
-      "title": "The University of Tokyo\u2019s first female president, then the backlash",
-      "summary": "Japan is ranked 117th among 145 countries in the World Economic Forum's 2026 Global Gender Gap Index.",
-      "link": "https://www.japantimes.co.jp/commentary/2026/10/14/japan/university-of-tokyo-first-female-president/",
+      "id": "9867bc6a4126a93ca3010b2fd1a35013",
+      "title": "Sunil Mittal: Ahead of Starlink in Approval Queue",
+      "summary": "Asked about Elon Musk\u2019s remarks regarding Indian telecom billionaires, Sunil Mittal said many companies are awaiting regulatory approvals and that he believes he is ahead of Musk in the queue. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-14/sunil-mittal-ahead-of-starlink-in-approval-queue-video",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-14T06:07:32.314690Z"
+    },
+    {
+      "id": "fb43e2db963224ad2d63313c23cb5574",
+      "title": "Japan\u2019s first Disney cruise ship to be called Disney Imagination",
+      "summary": "The ship is scheduled to begin service in the spring of 2029 and reservations will be accepted about six months before its launch.",
+      "link": "https://www.japantimes.co.jp/business/2026/10/14/companies/japan-first-disney-cruise-ship/",
       "source": "Japan Times",
       "score": 1,
       "severity": "LOW",
@@ -57,28 +149,95 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-14T06:04:22.592464Z"
+      "published": "2026-10-14T06:08:28.038556Z"
     }
   ],
   "alerts": [
     {
-      "id": "5c35ffba370b3bc8a4199684a078edf2",
-      "title": "Joint Statement on the third EU-T\u00fcrkiye High-Level Dialogue on Trade",
-      "summary": "European Commission Statement Brussels, 13 Oct 2026 The European Union and T\u00fcrkiye held the 3rd EU-T\u00fcrkiye High Level Dialogue on Trade on 13 October 2026 in Brussels. The meeting was co-chaired by the Commissioner for Trade and Economic Security, Interinstitutional Relations and Transparency Maro\u0161 \u0160ef\u010dovi\u010d and Minister of Trade of T\u00fcrkiye \u00d6mer Bolat.",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2135",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
+      "id": "31c747208a44aecd89a2e8ce95f80132",
+      "title": "Wall Street Sees Inflation Easing Even With Oil Above $90",
+      "summary": "The U.S. Consumer Price Index (CPI) report is due to be released on Wednesday, with economists predicting that key inflation metrics continued to moderate in September despite elevated oil prices, giving the Fed room to slow down on interest rate hikes. For September, economists expect headline inflation growth to clock in at 0.5% month-over-month and 3.6%- 3.7% year-over-year, up from 0.4% m-o-m and 3.4% Y/Y in August.\u00a0 Meanwhile, core CPI, which excludes volatile energy and food prices, is seen climbing 0.2% in September, down from August\u2019s\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Wall-Street-Sees-Inflation-Easing-Even-With-Oil-Above-90.html",
+      "source": "OilPrice",
+      "score": 38,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
       "tickers": [
-        "EUR"
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-14T06:08:30.573153Z"
+    },
+    {
+      "id": "54e89da6ba3625bdacd5c4da9b537a8e",
+      "title": "S&P 500, Nasdaq Slip as Oil Rises on Russia Strikes in Ukraine - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxPamJ2ZGp1bmNfdEs1MUlid3YzVTcxNmRtZW9DRjE5LUhjM0E5cHJ3elNrYzVXTVBWOVNYX0hVTVJ2anJUUG44QnBvWnJfNVVUbnRTTDZEcVdqSTFSeWxuemlXOVJvWUhObmhiOVk0X083ckp4WEtQTUU3dnVNMW1wd3VxUlctaG5RbGpISVI3bVNQZXpHT3hWVEZZbDJrblZTYmhPVG9pVlJxUUJ3MnFNUmozQk5iNkp6OFlzNWppUEN1VXc?oc=5\" target=\"_blank\">S&amp;P 500, Nasdaq Slip as Oil Rises on Russia Strikes in Ukraine</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPamJ2ZGp1bmNfdEs1MUlid3YzVTcxNmRtZW9DRjE5LUhjM0E5cHJ3elNrYzVXTVBWOVNYX0hVTVJ2anJUUG44QnBvWnJfNVVUbnRTTDZEcVdqSTFSeWxuemlXOVJvWUhObmhiOVk0X083ckp4WEtQTUU3dnVNMW1wd3VxUlctaG5RbGpISVI3bVNQZXpHT3hWVEZZbDJrblZTYmhPVG9pVlJxUUJ3MnFNUmozQk5iNkp6OFlzNWppUEN1VXc?oc=5",
+      "source": "Google Macro",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "QQQ",
+        "SPY",
+        "WTI"
       ],
       "regions": [
-        "EUROPE"
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
       ],
       "assets": [
         "AI",
-        "FX"
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-14T06:08:36.076558Z"
+    },
+    {
+      "id": "08801003cd8a7d18e3e84e3088c99b42",
+      "title": "Stocks Erase Gains After ASML, Dollar Declines: Markets Wrap",
+      "summary": "Asian shares erased gains after chip-equipment maker ASML Holding NV said it can\u2019t fully meet demand, renewing concerns around the artificial intelligence trade. The dollar fell before a key US inflation report.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-13/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "AI",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -89,13 +248,38 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-14T06:04:19.118100Z"
+      "published": "2026-10-14T06:07:32.314622Z"
     },
     {
-      "id": "265954adb7fc82494932afbbaa677fd8",
-      "title": "The University of Tokyo\u2019s first female president, then the backlash",
-      "summary": "Japan is ranked 117th among 145 countries in the World Economic Forum's 2026 Global Gender Gap Index.",
-      "link": "https://www.japantimes.co.jp/commentary/2026/10/14/japan/university-of-tokyo-first-female-president/",
+      "id": "9867bc6a4126a93ca3010b2fd1a35013",
+      "title": "Sunil Mittal: Ahead of Starlink in Approval Queue",
+      "summary": "Asked about Elon Musk\u2019s remarks regarding Indian telecom billionaires, Sunil Mittal said many companies are awaiting regulatory approvals and that he believes he is ahead of Musk in the queue. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-14/sunil-mittal-ahead-of-starlink-in-approval-queue-video",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-14T06:07:32.314690Z"
+    },
+    {
+      "id": "fb43e2db963224ad2d63313c23cb5574",
+      "title": "Japan\u2019s first Disney cruise ship to be called Disney Imagination",
+      "summary": "The ship is scheduled to begin service in the spring of 2029 and reservations will be accepted about six months before its launch.",
+      "link": "https://www.japantimes.co.jp/business/2026/10/14/companies/japan-first-disney-cruise-ship/",
       "source": "Japan Times",
       "score": 1,
       "severity": "LOW",
@@ -107,7 +291,7 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-14T06:04:22.592464Z"
+      "published": "2026-10-14T06:08:28.038556Z"
     }
   ]
 }
