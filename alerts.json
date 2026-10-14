@@ -1,83 +1,88 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-14T20:34:21.334006Z",
+  "generated_at": "2026-10-14T20:38:59.784206Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-10-14T20:34:21.334018Z"
+    "critical_alerts": 2,
+    "high_alerts": 3,
+    "last_updated": "2026-10-14T20:38:59.784222Z"
   },
   "top_signals": [
     {
-      "id": "f1fe285e1395547e0a01448a05553aa7",
-      "title": "Gold Slumps as Faster US Inflation Stokes Fed Rate Hike Wagers",
-      "summary": "Gold slumped after US consumer prices jumped the most in five months, reigniting worries that the Federal Reserve will need to raise interest rates further to combat inflation.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-14/gold-steady-as-fed-official-s-remarks-temper-rate-hike-bets",
-      "source": "Bloomberg",
-      "score": 46,
+      "id": "07f67afeafa58dbd4caac90428afeee8",
+      "title": "Bitcoin price dips below $82K as high oil prices spike US CPI inflation",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin price dips below $82K as high oil prices spike US CPI inflation\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4XB2Q3077WV2HYP6MNZ0DQX/article-covers-180463-us-cpi-lower-expected-rate-cuts-coming-1280x853.webp\" /></p><p>Bitcoin fell below $82,000 while bond yields targeted new 24-year highs on the back of hot US CPI inflation.</p>",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-dips-yields-surge-as-high-oil-prices-spike-us-cpi-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 36,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "INFLATION",
       "tickers": [
-        "XAU"
+        "BTC",
+        "WTI"
       ],
       "regions": [],
       "assets": [
-        "AI",
-        "COMMODITIES"
+        "COMMODITIES",
+        "CRYPTO"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-14T20:33:23.155329Z"
-    },
-    {
-      "id": "4eb7a4ac8e699af8cb020d29a4e3941f",
-      "title": "English language rule\u2019s comments bring criticism from Sikh organization",
-      "summary": "<p>The Sikh Coalition was one of the louder voices in opposition to FMCSA\u2019s English language proposed rule.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/english-language-rules-comments-bring-criticism-from-sikh-organization\">English language rule\u2019s comments bring criticism from Sikh organization</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/english-language-rules-comments-bring-criticism-from-sikh-organization",
-      "source": "FreightWaves",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "COMMODITIES"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-10-14T20:34:15.612414Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-14T20:38:55.742397Z"
     },
     {
-      "id": "f4f03296418964d7824088c2240f39a7",
-      "title": "Patrick Witt exits White House crypto role as Clarity Act stalls",
-      "summary": "Leadership at the White House is shifting once again, as Patrick Witt\u2019s tenure as the administration\u2019s top crypto adviser comes to an end.",
-      "link": "https://www.theblock.co/news/regulation/2026-10-14-white-house-crypto-adviser-patrick-witt-departs-418611",
-      "source": "The Block",
-      "score": 10,
-      "severity": "MEDIUM",
+      "id": "56a1d68368ea0a87ac598767daadb76d",
+      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+      "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions.",
+      "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+      "source": "KrebsOnSecurity",
+      "score": 34,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-14T20:38:56.144542Z"
+    },
+    {
+      "id": "1a624c026283301613d16337880d2f4c",
+      "title": "BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/10/14/blackrock-s-crypto-etf-assets-surge-63-but-remain-far-below-2025-peak",
+      "source": "CoinDesk",
+      "score": 20,
+      "severity": "HIGH",
       "regime": "CRYPTO",
       "tickers": [],
       "regions": [],
@@ -94,77 +99,285 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-10-14T20:34:17.591403Z"
+      "published": "2026-10-14T20:38:55.634801Z"
+    },
+    {
+      "id": "ac85481f1f50c0248ae1148453e2596d",
+      "title": "China\u2019s Next Frontier",
+      "summary": "Technology experts Kathleen Curlee and Sam Bresnick argue that China is catching up to the United States in space, commercially and militarily. This poses a threat to U.S. military operations, which rely on space-based capabilities. Washington must invest in space defense and also reduce its reliance on the domain.",
+      "link": "https://www.foreignaffairs.com/china/chinas-next-frontier",
+      "source": "Foreign Affairs",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA",
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-14T20:38:54.972780Z"
+    },
+    {
+      "id": "db1679ecfe54651406e3df084fa6db4c",
+      "title": "Strive buys $235 million in bitcoin as warrant exercises yield $369 million",
+      "summary": "Strive acquired 2,822 bitcoin for $235 million following $369.2 million in gross proceeds from traditional warrant exercises.",
+      "link": "https://www.theblock.co/news/business/2026-10-14-strive-buys-235-million-in-bitcoin-warrant-yield-369-million-418556",
+      "source": "The Block",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-14T20:38:55.846225Z"
+    },
+    {
+      "id": "c11a7acab394f46f273fc14695ca2573",
+      "title": "Treasuries Slump as Hot Inflation Lifts Fed Rate-Hike Bets - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPSzlnUlRIcHpyNkR3U0tfY0RXVEl0WGRuMTZuSTVvbnNhWXNTVjN3Yzhudmhqbjh1RU9mTzF2WHhkTGdhQU15UkZRTG5wSVFSNzZSN0dIQk5HaE55TTk5VGxtYmcxczM1aWk2S19NMVlpbzFQRHpvTm1SRk83N1l4Mng3Q2N0OGxvYWRpLXJNazR4V2xOcE9KdVRDU0pRSVBMY2pQWjdRMnRNWWZXV3ItaDhn?oc=5\" target=\"_blank\">Treasuries Slump as Hot Inflation Lifts Fed Rate-Hike Bets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSzlnUlRIcHpyNkR3U0tfY0RXVEl0WGRuMTZuSTVvbnNhWXNTVjN3Yzhudmhqbjh1RU9mTzF2WHhkTGdhQU15UkZRTG5wSVFSNzZSN0dIQk5HaE55TTk5VGxtYmcxczM1aWk2S19NMVlpbzFQRHpvTm1SRk83N1l4Mng3Q2N0OGxvYWRpLXJNazR4V2xOcE9KdVRDU0pRSVBMY2pQWjdRMnRNWWZXV3ItaDhn?oc=5",
+      "source": "Google Macro",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-14T20:38:56.938981Z"
+    },
+    {
+      "id": "b36ac1caab5782eff639298e7704cf66",
+      "title": "Ukraine Can Turn Imminent Peril to Its Advantage",
+      "summary": "How a true \u201cenergy cease-Fire\u201d can curb Putin.",
+      "link": "https://www.foreignaffairs.com/ukraine/ukraine-can-turn-imminent-peril-its-advantage",
+      "source": "Foreign Affairs",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-14T20:38:54.972698Z"
+    },
+    {
+      "id": "02222ba47425c3badd2f90f3d3639757",
+      "title": "OpenAI bugging suspect booked one-way ticket to Saudi Arabia with family before arrest",
+      "summary": "\"Like countless Americans, Mr. Alfozan came to this country years ago as a young person with a dream,\" his criminal defense lawyer said Wednesday.",
+      "link": "https://www.cnbc.com/2026/10/14/openai-alfozan-recording-raed-ventures.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-14T20:38:08.728533Z"
+    },
+    {
+      "id": "15964c9b667ef5a899405640289a256a",
+      "title": "Dollar Advances to Highest Since May 2025 on Fed Hike Views - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNVUhMQy1nNnBUaUw4SDBHaTVxZHNEYWd5Tm9wQkxHRUMzOC1hbWNFSFNPQnpKaElveUtFRjJtdmRzOGFXTHFRVy1iWWVucmRoWWxPdzhONmg0MUtXUlFfUEsxbzY0dHVaNUcwZXdtbVZPZzlRV19XWWd0LU5KLXdPWnlqazEzQnloTUdzazM0YXItTElsc2laVmZZcHZQaERhUUhnamZVMnpnbjZpWG5V?oc=5\" target=\"_blank\">Dollar Advances to Highest Since May 2025 on Fed Hike Views</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVUhMQy1nNnBUaUw4SDBHaTVxZHNEYWd5Tm9wQkxHRUMzOC1hbWNFSFNPQnpKaElveUtFRjJtdmRzOGFXTHFRVy1iWWVucmRoWWxPdzhONmg0MUtXUlFfUEsxbzY0dHVaNUcwZXdtbVZPZzlRV19XWWd0LU5KLXdPWnlqazEzQnloTUdzazM0YXItTElsc2laVmZZcHZQaERhUUhnamZVMnpnbjZpWG5V?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "RATES",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-14T20:38:56.938894Z"
+    },
+    {
+      "id": "5e337103d060f8b4fe1b4e6bd7f3fcf1",
+      "title": "Commissioner Roswall's speech at the Inaugural Convening of the Women Public Sector Climate Leaders Network",
+      "summary": "European Commission Speech Brussels, 14 Oct 2026 Good morning,\n\u00a0\nI am delighted to be part of today's inaugural event. \n\u00a0\nAnd I'm delighted to be sharing a room with such inspirational and impressive leaders. ...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2168",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-14T20:38:48.421001Z"
     }
   ],
   "alerts": [
     {
-      "id": "f1fe285e1395547e0a01448a05553aa7",
-      "title": "Gold Slumps as Faster US Inflation Stokes Fed Rate Hike Wagers",
-      "summary": "Gold slumped after US consumer prices jumped the most in five months, reigniting worries that the Federal Reserve will need to raise interest rates further to combat inflation.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-14/gold-steady-as-fed-official-s-remarks-temper-rate-hike-bets",
-      "source": "Bloomberg",
-      "score": 46,
+      "id": "07f67afeafa58dbd4caac90428afeee8",
+      "title": "Bitcoin price dips below $82K as high oil prices spike US CPI inflation",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin price dips below $82K as high oil prices spike US CPI inflation\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4XB2Q3077WV2HYP6MNZ0DQX/article-covers-180463-us-cpi-lower-expected-rate-cuts-coming-1280x853.webp\" /></p><p>Bitcoin fell below $82,000 while bond yields targeted new 24-year highs on the back of hot US CPI inflation.</p>",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-dips-yields-surge-as-high-oil-prices-spike-us-cpi-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 36,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "INFLATION",
       "tickers": [
-        "XAU"
+        "BTC",
+        "WTI"
       ],
       "regions": [],
       "assets": [
-        "AI",
-        "COMMODITIES"
+        "COMMODITIES",
+        "CRYPTO"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-14T20:33:23.155329Z"
-    },
-    {
-      "id": "4eb7a4ac8e699af8cb020d29a4e3941f",
-      "title": "English language rule\u2019s comments bring criticism from Sikh organization",
-      "summary": "<p>The Sikh Coalition was one of the louder voices in opposition to FMCSA\u2019s English language proposed rule.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/english-language-rules-comments-bring-criticism-from-sikh-organization\">English language rule\u2019s comments bring criticism from Sikh organization</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/english-language-rules-comments-bring-criticism-from-sikh-organization",
-      "source": "FreightWaves",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "COMMODITIES"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-10-14T20:34:15.612414Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-14T20:38:55.742397Z"
     },
     {
-      "id": "f4f03296418964d7824088c2240f39a7",
-      "title": "Patrick Witt exits White House crypto role as Clarity Act stalls",
-      "summary": "Leadership at the White House is shifting once again, as Patrick Witt\u2019s tenure as the administration\u2019s top crypto adviser comes to an end.",
-      "link": "https://www.theblock.co/news/regulation/2026-10-14-white-house-crypto-adviser-patrick-witt-departs-418611",
-      "source": "The Block",
-      "score": 10,
-      "severity": "MEDIUM",
+      "id": "56a1d68368ea0a87ac598767daadb76d",
+      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+      "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions.",
+      "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+      "source": "KrebsOnSecurity",
+      "score": 34,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-14T20:38:56.144542Z"
+    },
+    {
+      "id": "1a624c026283301613d16337880d2f4c",
+      "title": "BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/10/14/blackrock-s-crypto-etf-assets-surge-63-but-remain-far-below-2025-peak",
+      "source": "CoinDesk",
+      "score": 20,
+      "severity": "HIGH",
       "regime": "CRYPTO",
       "tickers": [],
       "regions": [],
@@ -181,7 +394,210 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-10-14T20:34:17.591403Z"
+      "published": "2026-10-14T20:38:55.634801Z"
+    },
+    {
+      "id": "ac85481f1f50c0248ae1148453e2596d",
+      "title": "China\u2019s Next Frontier",
+      "summary": "Technology experts Kathleen Curlee and Sam Bresnick argue that China is catching up to the United States in space, commercially and militarily. This poses a threat to U.S. military operations, which rely on space-based capabilities. Washington must invest in space defense and also reduce its reliance on the domain.",
+      "link": "https://www.foreignaffairs.com/china/chinas-next-frontier",
+      "source": "Foreign Affairs",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA",
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-14T20:38:54.972780Z"
+    },
+    {
+      "id": "db1679ecfe54651406e3df084fa6db4c",
+      "title": "Strive buys $235 million in bitcoin as warrant exercises yield $369 million",
+      "summary": "Strive acquired 2,822 bitcoin for $235 million following $369.2 million in gross proceeds from traditional warrant exercises.",
+      "link": "https://www.theblock.co/news/business/2026-10-14-strive-buys-235-million-in-bitcoin-warrant-yield-369-million-418556",
+      "source": "The Block",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-14T20:38:55.846225Z"
+    },
+    {
+      "id": "c11a7acab394f46f273fc14695ca2573",
+      "title": "Treasuries Slump as Hot Inflation Lifts Fed Rate-Hike Bets - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPSzlnUlRIcHpyNkR3U0tfY0RXVEl0WGRuMTZuSTVvbnNhWXNTVjN3Yzhudmhqbjh1RU9mTzF2WHhkTGdhQU15UkZRTG5wSVFSNzZSN0dIQk5HaE55TTk5VGxtYmcxczM1aWk2S19NMVlpbzFQRHpvTm1SRk83N1l4Mng3Q2N0OGxvYWRpLXJNazR4V2xOcE9KdVRDU0pRSVBMY2pQWjdRMnRNWWZXV3ItaDhn?oc=5\" target=\"_blank\">Treasuries Slump as Hot Inflation Lifts Fed Rate-Hike Bets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSzlnUlRIcHpyNkR3U0tfY0RXVEl0WGRuMTZuSTVvbnNhWXNTVjN3Yzhudmhqbjh1RU9mTzF2WHhkTGdhQU15UkZRTG5wSVFSNzZSN0dIQk5HaE55TTk5VGxtYmcxczM1aWk2S19NMVlpbzFQRHpvTm1SRk83N1l4Mng3Q2N0OGxvYWRpLXJNazR4V2xOcE9KdVRDU0pRSVBMY2pQWjdRMnRNWWZXV3ItaDhn?oc=5",
+      "source": "Google Macro",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-14T20:38:56.938981Z"
+    },
+    {
+      "id": "b36ac1caab5782eff639298e7704cf66",
+      "title": "Ukraine Can Turn Imminent Peril to Its Advantage",
+      "summary": "How a true \u201cenergy cease-Fire\u201d can curb Putin.",
+      "link": "https://www.foreignaffairs.com/ukraine/ukraine-can-turn-imminent-peril-its-advantage",
+      "source": "Foreign Affairs",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-14T20:38:54.972698Z"
+    },
+    {
+      "id": "02222ba47425c3badd2f90f3d3639757",
+      "title": "OpenAI bugging suspect booked one-way ticket to Saudi Arabia with family before arrest",
+      "summary": "\"Like countless Americans, Mr. Alfozan came to this country years ago as a young person with a dream,\" his criminal defense lawyer said Wednesday.",
+      "link": "https://www.cnbc.com/2026/10/14/openai-alfozan-recording-raed-ventures.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-14T20:38:08.728533Z"
+    },
+    {
+      "id": "15964c9b667ef5a899405640289a256a",
+      "title": "Dollar Advances to Highest Since May 2025 on Fed Hike Views - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNVUhMQy1nNnBUaUw4SDBHaTVxZHNEYWd5Tm9wQkxHRUMzOC1hbWNFSFNPQnpKaElveUtFRjJtdmRzOGFXTHFRVy1iWWVucmRoWWxPdzhONmg0MUtXUlFfUEsxbzY0dHVaNUcwZXdtbVZPZzlRV19XWWd0LU5KLXdPWnlqazEzQnloTUdzazM0YXItTElsc2laVmZZcHZQaERhUUhnamZVMnpnbjZpWG5V?oc=5\" target=\"_blank\">Dollar Advances to Highest Since May 2025 on Fed Hike Views</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVUhMQy1nNnBUaUw4SDBHaTVxZHNEYWd5Tm9wQkxHRUMzOC1hbWNFSFNPQnpKaElveUtFRjJtdmRzOGFXTHFRVy1iWWVucmRoWWxPdzhONmg0MUtXUlFfUEsxbzY0dHVaNUcwZXdtbVZPZzlRV19XWWd0LU5KLXdPWnlqazEzQnloTUdzazM0YXItTElsc2laVmZZcHZQaERhUUhnamZVMnpnbjZpWG5V?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "RATES",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-14T20:38:56.938894Z"
+    },
+    {
+      "id": "5e337103d060f8b4fe1b4e6bd7f3fcf1",
+      "title": "Commissioner Roswall's speech at the Inaugural Convening of the Women Public Sector Climate Leaders Network",
+      "summary": "European Commission Speech Brussels, 14 Oct 2026 Good morning,\n\u00a0\nI am delighted to be part of today's inaugural event. \n\u00a0\nAnd I'm delighted to be sharing a room with such inspirational and impressive leaders. ...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2168",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-14T20:38:48.421001Z"
     }
   ]
 }
