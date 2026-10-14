@@ -1,34 +1,61 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-14T09:13:34.908065Z",
+  "generated_at": "2026-10-14T09:19:16.947311Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "INFLATION",
+    "dominant_driver": "INFLATION",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-10-14T09:13:34.908075Z"
+    "high_alerts": 1,
+    "last_updated": "2026-10-14T09:19:16.947325Z"
   },
   "top_signals": [
     {
-      "id": "7a19ca76f80d6264c20481921a8663f7",
-      "title": "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure",
-      "summary": "A ballistic missile has struck energy infrastructure supposedly covered by the \"energy ceasefire\" announced by Trump on Sunday, Zelenskyy said.",
-      "link": "https://www.cnbc.com/2026/10/14/russia-ukraine-energy-ceasefire-power-outages.html",
-      "source": "CNBC",
-      "score": 49,
+      "id": "eb133297de999d4a25a662788afc2f26",
+      "title": "Gold Falls Ahead of US Inflation Print That Could Shift Fed Bets",
+      "summary": "Gold edged lower for a third day as traders waited for a US inflation print that could provide a clue to the Federal Reserve\u2019s next move on interest rates.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-14/gold-steady-as-fed-official-s-remarks-temper-rate-hike-bets",
+      "source": "Bloomberg",
+      "score": 32,
       "severity": "CRITICAL",
+      "regime": "INFLATION",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-14T09:18:11.053432Z"
+    },
+    {
+      "id": "02dd34c23a0bd3c30090687ee57c1669",
+      "title": "Houthis strike Saudi Aramco headquarters",
+      "summary": "Iran-backed militants retaliate after Riyadh-led coalition targets sites in Yemen\u2019s capital",
+      "link": "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 16,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "RUSSIA",
-        "UK",
-        "UKRAINE"
+        "MIDDLE_EAST"
       ],
-      "assets": [
-        "AI"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -43,28 +70,112 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-14T09:12:00.792729Z"
+      "published": "2026-10-14T09:18:13.859973Z"
+    },
+    {
+      "id": "405685717ee4bb5283d268c0dec76358",
+      "title": "China's producer prices rise at fastest pace since June 2022, beating expectations",
+      "summary": "The increase was higher than the 4.5% expected by economists polled by Reuters, and higher than the 3.8% seen in the previous month.",
+      "link": "https://www.cnbc.com/2026/10/14/producer-prices-in-china-rise-fastest-since-june-2022-on-fuel-costs.html",
+      "source": "CNBC",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-14T09:18:15.273447Z"
+    },
+    {
+      "id": "866319d60f41aff02c21034925679753",
+      "title": "DRW and Marex complete OTC swap referencing tokenized S&P iBoxx Index",
+      "summary": "DRW and Marex completed the first OTC swap referencing a fully tokenized index on Derivnex via the Canton Network, with Kaiko data.",
+      "link": "https://www.theblock.co/news/markets/2026-10-13-drw-marex-first-otc-swap-tokenized-sp-iboxx-index-canton-network-418440",
+      "source": "The Block",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "SPY"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-14T09:19:12.930573Z"
     }
   ],
   "alerts": [
     {
-      "id": "7a19ca76f80d6264c20481921a8663f7",
-      "title": "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure",
-      "summary": "A ballistic missile has struck energy infrastructure supposedly covered by the \"energy ceasefire\" announced by Trump on Sunday, Zelenskyy said.",
-      "link": "https://www.cnbc.com/2026/10/14/russia-ukraine-energy-ceasefire-power-outages.html",
-      "source": "CNBC",
-      "score": 49,
+      "id": "eb133297de999d4a25a662788afc2f26",
+      "title": "Gold Falls Ahead of US Inflation Print That Could Shift Fed Bets",
+      "summary": "Gold edged lower for a third day as traders waited for a US inflation print that could provide a clue to the Federal Reserve\u2019s next move on interest rates.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-14/gold-steady-as-fed-official-s-remarks-temper-rate-hike-bets",
+      "source": "Bloomberg",
+      "score": 32,
       "severity": "CRITICAL",
+      "regime": "INFLATION",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-14T09:18:11.053432Z"
+    },
+    {
+      "id": "02dd34c23a0bd3c30090687ee57c1669",
+      "title": "Houthis strike Saudi Aramco headquarters",
+      "summary": "Iran-backed militants retaliate after Riyadh-led coalition targets sites in Yemen\u2019s capital",
+      "link": "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 16,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "RUSSIA",
-        "UK",
-        "UKRAINE"
+        "MIDDLE_EAST"
       ],
-      "assets": [
-        "AI"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -79,7 +190,64 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-14T09:12:00.792729Z"
+      "published": "2026-10-14T09:18:13.859973Z"
+    },
+    {
+      "id": "405685717ee4bb5283d268c0dec76358",
+      "title": "China's producer prices rise at fastest pace since June 2022, beating expectations",
+      "summary": "The increase was higher than the 4.5% expected by economists polled by Reuters, and higher than the 3.8% seen in the previous month.",
+      "link": "https://www.cnbc.com/2026/10/14/producer-prices-in-china-rise-fastest-since-june-2022-on-fuel-costs.html",
+      "source": "CNBC",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-14T09:18:15.273447Z"
+    },
+    {
+      "id": "866319d60f41aff02c21034925679753",
+      "title": "DRW and Marex complete OTC swap referencing tokenized S&P iBoxx Index",
+      "summary": "DRW and Marex completed the first OTC swap referencing a fully tokenized index on Derivnex via the Canton Network, with Kaiko data.",
+      "link": "https://www.theblock.co/news/markets/2026-10-13-drw-marex-first-otc-swap-tokenized-sp-iboxx-index-canton-network-418440",
+      "source": "The Block",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "SPY"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-14T09:19:12.930573Z"
     }
   ]
 }
