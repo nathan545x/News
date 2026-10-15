@@ -1,86 +1,109 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-15T01:03:57.790252Z",
+  "generated_at": "2026-10-15T01:08:58.497361Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "COMMODITIES",
+    "dominant_driver": "COMMODITIES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 2,
+    "critical_alerts": 1,
     "high_alerts": 0,
-    "last_updated": "2026-10-15T01:03:57.790266Z"
+    "last_updated": "2026-10-15T01:08:58.497374Z"
   },
   "top_signals": [
     {
-      "id": "9a0afc2e8177b994d03ff6b281444536",
-      "title": "Japan\u2019s Katayama Renews Warnings on Yen After US CPI Heats Up",
-      "summary": "Japanese Finance Minister Satsuki Katayama warned speculators that she was prepared to take action in the currency market again if needed, after the yen touched its weakest level against the dollar this month following a heating up of US inflation figures.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-15/japan-s-katayama-renews-warnings-on-yen-after-us-cpi-heats-up",
-      "source": "Bloomberg",
-      "score": 45,
+      "id": "a2b6f0729b2fd4ddb7ae6d873061baec",
+      "title": "Ship Sinks in Strait of Hormuz as Iran Escalates Maritime Attacks",
+      "summary": "Iran has quite obviously been surging its attacks on\u00a0commercial shipping in the Strait of Hormuz in an attempt to wreak uncertainty and economic havoc for the Trump administration ahead of the November midterm elections, undermining a recent recovery in Persian Gulf oil shipments. The attacks are now coming so frequently it is difficult to track. One source tallies of recent days, \"Twelve vessels were attacked between October 5 and 11, including six on Sunday alone, and on Tuesday a tanker and a container ship were struck by unknown projectiles,\u2026",
+      "link": "https://oilprice.com/Geopolitics/Middle-East/Ship-Sinks-in-Strait-of-Hormuz-as-Iran-Escalates-Maritime-Attacks.html",
+      "source": "OilPrice",
+      "score": 37,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "COMMODITIES",
       "tickers": [
-        "DXY",
-        "JPY"
+        "WTI"
       ],
       "regions": [
-        "JAPAN",
-        "UK"
+        "MIDDLE_EAST"
       ],
       "assets": [
         "AI",
-        "FX"
+        "COMMODITIES",
+        "SHIPPING"
       ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-15T01:08:52.246161Z"
+    },
+    {
+      "id": "d2ad7ba7e81bac310c05bc9dde85bc69",
+      "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-10-15T01:03:01.209616Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-15T01:08:54.857382Z"
     },
     {
-      "id": "4432ec5554e4348c3e33b14cde73f794",
-      "title": "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
-      "summary": "A sell-off in global technology hardware stocks deepened Thursday.",
-      "link": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
-      "source": "CNBC",
-      "score": 34,
-      "severity": "CRITICAL",
-      "regime": "RATES",
+      "id": "018333fa8e028a61b6f8e9f7312d80b3",
+      "title": "US soldiers must train on \u2018new basics\u2019 of unmanned systems, officials say",
+      "summary": "As the U.S. Army trains soldiers for multi-domain operations, the service needs to prepare them with \u201cnew basics.\"",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/10/15/us-soldiers-must-train-on-new-basics-of-unmanned-systems-officials-say/",
+      "source": "Defense News",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
       "assets": [
-        "AI",
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
+          "NVDA",
+          "SEMIS",
           "QQQ"
-        ]
+        ],
+        "bearish": []
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-15T01:03:04.519092Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-15T01:08:53.570906Z"
     },
     {
-      "id": "0be0f875c6c89bc469c0a9c2616862d6",
-      "title": "AFC open to postponing Asian Cup as attacks in Saudi Arabia disrupt sports calendar",
-      "summary": "A strike on Riyadh's international airport on Saturday killed at least 12 people and wounded more than 300.",
-      "link": "https://www.japantimes.co.jp/sports/2026/10/15/soccer/saudi-arabia-asian-cup/",
-      "source": "Japan Times",
+      "id": "c585649384e5b640eef9b842aff99aa7",
+      "title": "Polygon gains US payments licenses after closing Coinme deal",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Polygon gains US payments licenses after closing Coinme deal\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4YGMAKBQ7H9BQG4RR5WN0J2/polygon.jpg\" /></p><p>The deal gives Polygon access to 37 money transmitter licenses and 11 state exemptions.</p>",
+      "link": "https://cointelegraph.com/news/polygon-gains-us-payments-licenses-after-closing-coinme-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
@@ -98,80 +121,103 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-15T01:03:49.703791Z"
+      "published": "2026-10-15T01:08:54.631556Z"
     }
   ],
   "alerts": [
     {
-      "id": "9a0afc2e8177b994d03ff6b281444536",
-      "title": "Japan\u2019s Katayama Renews Warnings on Yen After US CPI Heats Up",
-      "summary": "Japanese Finance Minister Satsuki Katayama warned speculators that she was prepared to take action in the currency market again if needed, after the yen touched its weakest level against the dollar this month following a heating up of US inflation figures.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-15/japan-s-katayama-renews-warnings-on-yen-after-us-cpi-heats-up",
-      "source": "Bloomberg",
-      "score": 45,
+      "id": "a2b6f0729b2fd4ddb7ae6d873061baec",
+      "title": "Ship Sinks in Strait of Hormuz as Iran Escalates Maritime Attacks",
+      "summary": "Iran has quite obviously been surging its attacks on\u00a0commercial shipping in the Strait of Hormuz in an attempt to wreak uncertainty and economic havoc for the Trump administration ahead of the November midterm elections, undermining a recent recovery in Persian Gulf oil shipments. The attacks are now coming so frequently it is difficult to track. One source tallies of recent days, \"Twelve vessels were attacked between October 5 and 11, including six on Sunday alone, and on Tuesday a tanker and a container ship were struck by unknown projectiles,\u2026",
+      "link": "https://oilprice.com/Geopolitics/Middle-East/Ship-Sinks-in-Strait-of-Hormuz-as-Iran-Escalates-Maritime-Attacks.html",
+      "source": "OilPrice",
+      "score": 37,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "COMMODITIES",
       "tickers": [
-        "DXY",
-        "JPY"
+        "WTI"
       ],
       "regions": [
-        "JAPAN",
-        "UK"
+        "MIDDLE_EAST"
       ],
       "assets": [
         "AI",
-        "FX"
+        "COMMODITIES",
+        "SHIPPING"
       ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-15T01:08:52.246161Z"
+    },
+    {
+      "id": "d2ad7ba7e81bac310c05bc9dde85bc69",
+      "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-10-15T01:03:01.209616Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-15T01:08:54.857382Z"
     },
     {
-      "id": "4432ec5554e4348c3e33b14cde73f794",
-      "title": "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
-      "summary": "A sell-off in global technology hardware stocks deepened Thursday.",
-      "link": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
-      "source": "CNBC",
-      "score": 34,
-      "severity": "CRITICAL",
-      "regime": "RATES",
+      "id": "018333fa8e028a61b6f8e9f7312d80b3",
+      "title": "US soldiers must train on \u2018new basics\u2019 of unmanned systems, officials say",
+      "summary": "As the U.S. Army trains soldiers for multi-domain operations, the service needs to prepare them with \u201cnew basics.\"",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/10/15/us-soldiers-must-train-on-new-basics-of-unmanned-systems-officials-say/",
+      "source": "Defense News",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
       "assets": [
-        "AI",
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
+          "NVDA",
+          "SEMIS",
           "QQQ"
-        ]
+        ],
+        "bearish": []
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-15T01:03:04.519092Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-15T01:08:53.570906Z"
     },
     {
-      "id": "0be0f875c6c89bc469c0a9c2616862d6",
-      "title": "AFC open to postponing Asian Cup as attacks in Saudi Arabia disrupt sports calendar",
-      "summary": "A strike on Riyadh's international airport on Saturday killed at least 12 people and wounded more than 300.",
-      "link": "https://www.japantimes.co.jp/sports/2026/10/15/soccer/saudi-arabia-asian-cup/",
-      "source": "Japan Times",
+      "id": "c585649384e5b640eef9b842aff99aa7",
+      "title": "Polygon gains US payments licenses after closing Coinme deal",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Polygon gains US payments licenses after closing Coinme deal\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4YGMAKBQ7H9BQG4RR5WN0J2/polygon.jpg\" /></p><p>The deal gives Polygon access to 37 money transmitter licenses and 11 state exemptions.</p>",
+      "link": "https://cointelegraph.com/news/polygon-gains-us-payments-licenses-after-closing-coinme-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
@@ -189,7 +235,7 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-15T01:03:49.703791Z"
+      "published": "2026-10-15T01:08:54.631556Z"
     }
   ]
 }
