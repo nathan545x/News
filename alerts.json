@@ -1,62 +1,41 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-15T11:14:12.449280Z",
+  "generated_at": "2026-10-15T11:19:21.426018Z",
   "market_regime": {
     "regime": "GEO-SHOCK",
     "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-10-15T11:14:12.449294Z"
+    "high_alerts": 2,
+    "last_updated": "2026-10-15T11:19:21.426026Z"
   },
   "top_signals": [
     {
-      "id": "6125335ef27c69939304edc792d71809",
-      "title": "Copper Falls for Third Day as Strong US Inflation Spurs Selloff",
-      "summary": "Copper declined with other base metals after stronger-than-expected US consumer prices spurred bets on more aggressive tightening by the Federal Reserve.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-15/copper-falls-for-third-day-as-strong-us-inflation-spurs-selloff",
-      "source": "Bloomberg",
-      "score": 34,
+      "id": "cdcd13ab5e057ba83e2ba07ee6f2cc05",
+      "title": "Oil Prices Fall as Trump Considers Easing Sanctions on Shadow Fleet Tankers",
+      "summary": "Crude oil prices retreated from yesterday\u2019s highs earlier today, on the news that President Trump was considering lifting sanctions on tankers used to transport oil and fuels from Venezuela, Russia, and Iran in a bid to ease a deepening tanker crunch. At the time of writing, Brent crude was trading at $104.39 per barrel, after earlier in the week it topped $106, while West Texas Intermediate was trading at $94.02 per barrel, after yesterday it climbed close to $96 per barrel. The war in the Persian Gulf has tightened the availability of tankers\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Trump-Considers-Easing-Sanctions-on-Shadow-Fleet-Tankers.html",
+      "source": "OilPrice",
+      "score": 45,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "COPPER"
+        "BRENT",
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "RUSSIA"
+      ],
       "assets": [
+        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-10-15T11:13:10.508165Z"
-    },
-    {
-      "id": "8d0d9870c2de03668ed1718c238dd4d9",
-      "title": "Northrop Grumman breaks out the big guns at AUSA",
-      "summary": "Amid the cruise missiles and microelectronics, the company also had something a little more familiar: guns. Big guns. Like, really big guns.",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/10/14/northrop-grumman-breaks-out-the-big-guns-at-ausa/",
-      "source": "Defense News",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
           "DXY",
           "DEFENSE"
         ],
@@ -67,47 +46,80 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-15T11:14:04.395846Z"
+      "published": "2026-10-15T11:19:14.581485Z"
     },
     {
-      "id": "bc368cb80ee957bf3835f823142076b1",
-      "title": "Italy State Lender Chief Says MTS Key in Debt Management",
-      "summary": "European bond trading platform MTS SpA is an important strategic asset for Italy, Cassa Depositi e Prestiti SpA Chief Executive Officer Dario Scannapieco said.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-15/italy-state-lender-chief-says-mts-key-in-debt-management",
+      "id": "de942db1f0c8683334197adf1b4a9421",
+      "title": "Bitcoin, copper, stocks, yields all fall; gold rises",
+      "summary": "",
+      "link": "https://www.coindesk.com/daybook-us/2026/10/15/bitcoin-copper-stocks-yields-all-fall-gold-rises",
+      "source": "CoinDesk",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "BTC",
+        "COPPER",
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES",
+        "CRYPTO",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-15T11:19:17.381533Z"
+    },
+    {
+      "id": "89b6950df3d63fde0bc981c11d29d5fa",
+      "title": "Nvidia must work with Chinese AI companies on safety, Jensen Huang tells CNBC",
+      "summary": "Huang told CNBC he has ongoing \"dialogs\" with researchers in China.",
+      "link": "https://www.cnbc.com/2026/10/15/jensen-huang-nvidia-china-ai.html",
+      "source": "CNBC",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-15T11:17:04.211197Z"
+    },
+    {
+      "id": "9328800504cd3b0a506c7b645c8ae958",
+      "title": "Richemont, Signet Said In Talks to Join Bidder for De Beers",
+      "summary": "Luxury giant Richemont and US retailer Signet Jewelers Ltd. are in talks to join a consortium that\u2019s in prime position to buy diamond miner De Beers, according to five people familiar with the matter.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-15/richemont-and-signet-said-in-talks-to-join-bidder-for-de-beers",
       "source": "Bloomberg",
       "score": 13,
       "severity": "MEDIUM",
       "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-15T11:13:10.508226Z"
-    },
-    {
-      "id": "ac98c9ba1afc2ca934c317d5c9531d26",
-      "title": "Anthropic tells investors its quarterly revenue jumped 50%",
-      "summary": "Rapid growth is slower than some anticipated as fears about AI trade rattle markets",
-      "link": "https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -122,138 +134,88 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-15T11:13:12.236561Z"
+      "published": "2026-10-15T11:16:59.830532Z"
     },
     {
-      "id": "a3dc7ec69901a88e5f94b46618ac34f0",
-      "title": "Japan denies spying after Russia arrests journalist",
-      "summary": "Prime Minister Sanae Takaichi on Thursday said the details of the accusations against the Hokkaido Shimbun reporter remained unclear.",
-      "link": "https://www.japantimes.co.jp/news/2026/10/15/japan/japan-denies-spying-in-russia/",
-      "source": "Japan Times",
-      "score": 12,
+      "id": "bb8043bbe92c793cb776835eab52ea64",
+      "title": "CoreWeave\u2019s bonds scream financial distress",
+      "summary": "The company better hurry up figuring out how to tap insurers for cash",
+      "link": "https://www.ft.com/content/8171ef4a-b291-4375-bc85-87bee0f8bf7b",
+      "source": "Financial Times",
+      "score": 8,
       "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "JAPAN",
-        "RUSSIA"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-15T11:13:57.640405Z"
-    },
-    {
-      "id": "f9d6ec6778d033b540f62cbd260ce3f4",
-      "title": "How Iran's precision strikes picked apart Gulf infrastructure - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxONmZVZ0RfSms3U0s1SVE3N3ZMeWxLaVhtTjczazRmNU40UkpCUldVbWZJVUtJVkt3cHdLOEpoTl9qY0lFXzdKWUtydmYzVi1MeDExbXB6eHc3NjAyTi1CT2lveE5WVUNPeHV5SndkU3BmRUNiS1JCQUI2bDYyZjd6RjltYUhzeFVmUDFPSU93NWo?oc=5\" target=\"_blank\">How Iran's precision strikes picked apart Gulf infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONmZVZ0RfSms3U0s1SVE3N3ZMeWxLaVhtTjczazRmNU40UkpCUldVbWZJVUtJVkt3cHdLOEpoTl9qY0lFXzdKWUtydmYzVi1MeDExbXB6eHc3NjAyTi1CT2lveE5WVUNPeHV5SndkU3BmRUNiS1JCQUI2bDYyZjd6RjltYUhzeFVmUDFPSU93NWo?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST",
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-15T11:14:07.426226Z"
-    },
-    {
-      "id": "52f6e2ed46d8c9bbc32258f3b61a3bf1",
-      "title": "EBA designates Circle\u2019s USDC as the EU\u2019s first \u2018significant\u2019 e-money token",
-      "summary": "The EBA classified Circle\u2019s USDC as the EU\u2019s first \"significant\" e-money token, with new supervisory responsibilities beginning Nov. 12.",
-      "link": "https://www.theblock.co/news/regulation/2026-10-15-eba-designates-circles-usdc-as-the-eus-first-significant-e-money-token-418637",
-      "source": "The Block",
-      "score": 1,
-      "severity": "LOW",
       "regime": "GENERAL",
-      "tickers": [
-        "DXY"
-      ],
+      "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-15T11:14:05.698186Z"
+      "published": "2026-10-15T11:17:02.762912Z"
+    },
+    {
+      "id": "be88f9157ed2d9db78b598359fa4b348",
+      "title": "The global economy and the art of living dangerously - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQTGpvUDdIdTNfdGktXzF0VnBRTEZFXzRKUU9qU2VTZXp4S19fZTJKcnFSRVg1V0p2SGNyMkZLckdhTVF4RXNaOU5OOGl1aUFmRTV3U1c0ZEwtaEhzTHU2VWxQbkp3Wmw4eUdVb19EMGYwdFBqb3RTalpjSnBaMXlfTzdQdFE?oc=5\" target=\"_blank\">The global economy and the art of living dangerously</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTGpvUDdIdTNfdGktXzF0VnBRTEZFXzRKUU9qU2VTZXp4S19fZTJKcnFSRVg1V0p2SGNyMkZLckdhTVF4RXNaOU5OOGl1aUFmRTV3U1c0ZEwtaEhzTHU2VWxQbkp3Wmw4eUdVb19EMGYwdFBqb3RTalpjSnBaMXlfTzdQdFE?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-15T11:19:20.293920Z"
+    },
+    {
+      "id": "876906493bdb37fc47e0f4340de66023",
+      "title": "Stocks making the biggest moves premarket: Bank of America, BlackRock, HPE & more - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOYjZueWxMM1dzdWo3YjhybnJaUkdiNkVIdXFHaHJud0lGZl9PM1d4cDlhM0RrbjQ3Yk5sQTZxQ2NUUndVYWYzaElkUUotOGhTaUpBdHA2cWVMSU1na2ZtU1hSdkRBd0JncWpGUy1LTExFbTFFb2x0aEt4bmNlcnQwMndKVGxWYVNOZFgwTzVzbTJGTjVMNkE?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: Bank of America, BlackRock, HPE & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYjZueWxMM1dzdWo3YjhybnJaUkdiNkVIdXFHaHJud0lGZl9PM1d4cDlhM0RrbjQ3Yk5sQTZxQ2NUUndVYWYzaElkUUotOGhTaUpBdHA2cWVMSU1na2ZtU1hSdkRBd0JncWpGUy1LTExFbTFFb2x0aEt4bmNlcnQwMndKVGxWYVNOZFgwTzVzbTJGTjVMNkE?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK",
+        "US"
+      ],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-15T11:19:21.426010Z"
     }
   ],
   "alerts": [
     {
-      "id": "6125335ef27c69939304edc792d71809",
-      "title": "Copper Falls for Third Day as Strong US Inflation Spurs Selloff",
-      "summary": "Copper declined with other base metals after stronger-than-expected US consumer prices spurred bets on more aggressive tightening by the Federal Reserve.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-15/copper-falls-for-third-day-as-strong-us-inflation-spurs-selloff",
-      "source": "Bloomberg",
-      "score": 34,
+      "id": "cdcd13ab5e057ba83e2ba07ee6f2cc05",
+      "title": "Oil Prices Fall as Trump Considers Easing Sanctions on Shadow Fleet Tankers",
+      "summary": "Crude oil prices retreated from yesterday\u2019s highs earlier today, on the news that President Trump was considering lifting sanctions on tankers used to transport oil and fuels from Venezuela, Russia, and Iran in a bid to ease a deepening tanker crunch. At the time of writing, Brent crude was trading at $104.39 per barrel, after earlier in the week it topped $106, while West Texas Intermediate was trading at $94.02 per barrel, after yesterday it climbed close to $96 per barrel. The war in the Persian Gulf has tightened the availability of tankers\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Trump-Considers-Easing-Sanctions-on-Shadow-Fleet-Tankers.html",
+      "source": "OilPrice",
+      "score": 45,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "COPPER"
+        "BRENT",
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "RUSSIA"
+      ],
       "assets": [
+        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-10-15T11:13:10.508165Z"
-    },
-    {
-      "id": "8d0d9870c2de03668ed1718c238dd4d9",
-      "title": "Northrop Grumman breaks out the big guns at AUSA",
-      "summary": "Amid the cruise missiles and microelectronics, the company also had something a little more familiar: guns. Big guns. Like, really big guns.",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/10/14/northrop-grumman-breaks-out-the-big-guns-at-ausa/",
-      "source": "Defense News",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
           "DXY",
           "DEFENSE"
         ],
@@ -264,47 +226,80 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-15T11:14:04.395846Z"
+      "published": "2026-10-15T11:19:14.581485Z"
     },
     {
-      "id": "bc368cb80ee957bf3835f823142076b1",
-      "title": "Italy State Lender Chief Says MTS Key in Debt Management",
-      "summary": "European bond trading platform MTS SpA is an important strategic asset for Italy, Cassa Depositi e Prestiti SpA Chief Executive Officer Dario Scannapieco said.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-15/italy-state-lender-chief-says-mts-key-in-debt-management",
+      "id": "de942db1f0c8683334197adf1b4a9421",
+      "title": "Bitcoin, copper, stocks, yields all fall; gold rises",
+      "summary": "",
+      "link": "https://www.coindesk.com/daybook-us/2026/10/15/bitcoin-copper-stocks-yields-all-fall-gold-rises",
+      "source": "CoinDesk",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "BTC",
+        "COPPER",
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES",
+        "CRYPTO",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-15T11:19:17.381533Z"
+    },
+    {
+      "id": "89b6950df3d63fde0bc981c11d29d5fa",
+      "title": "Nvidia must work with Chinese AI companies on safety, Jensen Huang tells CNBC",
+      "summary": "Huang told CNBC he has ongoing \"dialogs\" with researchers in China.",
+      "link": "https://www.cnbc.com/2026/10/15/jensen-huang-nvidia-china-ai.html",
+      "source": "CNBC",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-15T11:17:04.211197Z"
+    },
+    {
+      "id": "9328800504cd3b0a506c7b645c8ae958",
+      "title": "Richemont, Signet Said In Talks to Join Bidder for De Beers",
+      "summary": "Luxury giant Richemont and US retailer Signet Jewelers Ltd. are in talks to join a consortium that\u2019s in prime position to buy diamond miner De Beers, according to five people familiar with the matter.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-15/richemont-and-signet-said-in-talks-to-join-bidder-for-de-beers",
       "source": "Bloomberg",
       "score": 13,
       "severity": "MEDIUM",
       "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-15T11:13:10.508226Z"
-    },
-    {
-      "id": "ac98c9ba1afc2ca934c317d5c9531d26",
-      "title": "Anthropic tells investors its quarterly revenue jumped 50%",
-      "summary": "Rapid growth is slower than some anticipated as fears about AI trade rattle markets",
-      "link": "https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -319,89 +314,60 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-15T11:13:12.236561Z"
+      "published": "2026-10-15T11:16:59.830532Z"
     },
     {
-      "id": "a3dc7ec69901a88e5f94b46618ac34f0",
-      "title": "Japan denies spying after Russia arrests journalist",
-      "summary": "Prime Minister Sanae Takaichi on Thursday said the details of the accusations against the Hokkaido Shimbun reporter remained unclear.",
-      "link": "https://www.japantimes.co.jp/news/2026/10/15/japan/japan-denies-spying-in-russia/",
-      "source": "Japan Times",
-      "score": 12,
+      "id": "bb8043bbe92c793cb776835eab52ea64",
+      "title": "CoreWeave\u2019s bonds scream financial distress",
+      "summary": "The company better hurry up figuring out how to tap insurers for cash",
+      "link": "https://www.ft.com/content/8171ef4a-b291-4375-bc85-87bee0f8bf7b",
+      "source": "Financial Times",
+      "score": 8,
       "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "JAPAN",
-        "RUSSIA"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-15T11:13:57.640405Z"
-    },
-    {
-      "id": "f9d6ec6778d033b540f62cbd260ce3f4",
-      "title": "How Iran's precision strikes picked apart Gulf infrastructure - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxONmZVZ0RfSms3U0s1SVE3N3ZMeWxLaVhtTjczazRmNU40UkpCUldVbWZJVUtJVkt3cHdLOEpoTl9qY0lFXzdKWUtydmYzVi1MeDExbXB6eHc3NjAyTi1CT2lveE5WVUNPeHV5SndkU3BmRUNiS1JCQUI2bDYyZjd6RjltYUhzeFVmUDFPSU93NWo?oc=5\" target=\"_blank\">How Iran's precision strikes picked apart Gulf infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONmZVZ0RfSms3U0s1SVE3N3ZMeWxLaVhtTjczazRmNU40UkpCUldVbWZJVUtJVkt3cHdLOEpoTl9qY0lFXzdKWUtydmYzVi1MeDExbXB6eHc3NjAyTi1CT2lveE5WVUNPeHV5SndkU3BmRUNiS1JCQUI2bDYyZjd6RjltYUhzeFVmUDFPSU93NWo?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST",
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-15T11:14:07.426226Z"
-    },
-    {
-      "id": "52f6e2ed46d8c9bbc32258f3b61a3bf1",
-      "title": "EBA designates Circle\u2019s USDC as the EU\u2019s first \u2018significant\u2019 e-money token",
-      "summary": "The EBA classified Circle\u2019s USDC as the EU\u2019s first \"significant\" e-money token, with new supervisory responsibilities beginning Nov. 12.",
-      "link": "https://www.theblock.co/news/regulation/2026-10-15-eba-designates-circles-usdc-as-the-eus-first-significant-e-money-token-418637",
-      "source": "The Block",
-      "score": 1,
-      "severity": "LOW",
       "regime": "GENERAL",
-      "tickers": [
-        "DXY"
-      ],
+      "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-15T11:14:05.698186Z"
+      "published": "2026-10-15T11:17:02.762912Z"
+    },
+    {
+      "id": "be88f9157ed2d9db78b598359fa4b348",
+      "title": "The global economy and the art of living dangerously - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQTGpvUDdIdTNfdGktXzF0VnBRTEZFXzRKUU9qU2VTZXp4S19fZTJKcnFSRVg1V0p2SGNyMkZLckdhTVF4RXNaOU5OOGl1aUFmRTV3U1c0ZEwtaEhzTHU2VWxQbkp3Wmw4eUdVb19EMGYwdFBqb3RTalpjSnBaMXlfTzdQdFE?oc=5\" target=\"_blank\">The global economy and the art of living dangerously</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTGpvUDdIdTNfdGktXzF0VnBRTEZFXzRKUU9qU2VTZXp4S19fZTJKcnFSRVg1V0p2SGNyMkZLckdhTVF4RXNaOU5OOGl1aUFmRTV3U1c0ZEwtaEhzTHU2VWxQbkp3Wmw4eUdVb19EMGYwdFBqb3RTalpjSnBaMXlfTzdQdFE?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-15T11:19:20.293920Z"
+    },
+    {
+      "id": "876906493bdb37fc47e0f4340de66023",
+      "title": "Stocks making the biggest moves premarket: Bank of America, BlackRock, HPE & more - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOYjZueWxMM1dzdWo3YjhybnJaUkdiNkVIdXFHaHJud0lGZl9PM1d4cDlhM0RrbjQ3Yk5sQTZxQ2NUUndVYWYzaElkUUotOGhTaUpBdHA2cWVMSU1na2ZtU1hSdkRBd0JncWpGUy1LTExFbTFFb2x0aEt4bmNlcnQwMndKVGxWYVNOZFgwTzVzbTJGTjVMNkE?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: Bank of America, BlackRock, HPE & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYjZueWxMM1dzdWo3YjhybnJaUkdiNkVIdXFHaHJud0lGZl9PM1d4cDlhM0RrbjQ3Yk5sQTZxQ2NUUndVYWYzaElkUUotOGhTaUpBdHA2cWVMSU1na2ZtU1hSdkRBd0JncWpGUy1LTExFbTFFb2x0aEt4bmNlcnQwMndKVGxWYVNOZFgwTzVzbTJGTjVMNkE?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK",
+        "US"
+      ],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-15T11:19:21.426010Z"
     }
   ]
 }
