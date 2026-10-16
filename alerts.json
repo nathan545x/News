@@ -1,62 +1,101 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-16T18:08:36.063462Z",
+  "generated_at": "2026-10-16T18:13:43.296175Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 2,
     "high_alerts": 1,
-    "last_updated": "2026-10-16T18:08:36.063475Z"
+    "last_updated": "2026-10-16T18:13:43.296185Z"
   },
   "top_signals": [
     {
-      "id": "3e1d683e5cba6caf55eb53f2f5d1186d",
-      "title": "US Bonds Fall as Treasury Is Silent on Long End, Oil Climbs",
-      "summary": "Treasuries declined as predictions fell flat that US government officials would directly nod at the possibility of reducing its sales of long-term debt and as oil prices rose.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-16/long-term-treasuries-fall-as-dealer-survey-offers-little-signal",
-      "source": "Bloomberg",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "id": "c1e2100d6e8ef6ee10efe449b4eda9b1",
+      "title": "Oil Prices Rise by More Than 3%",
+      "summary": "Oil prices gained more than 3% and were heading for weekly gains on continued uncertainty over Middle East supplies, and as investors kept assessing how much diesel Russia could supply to the global markets.Brent crude futures were up $3.41, or 3.2%, at $109.34 at 12:41 p.m.",
+      "link": "https://www.marinelink.com/news/oil-prices-rise-543748",
+      "source": "MarineLink",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "TLT",
+        "BRENT",
         "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "RUSSIA"
+      ],
       "assets": [
-        "COMMODITIES",
-        "RATES"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-10-16T18:07:38.359019Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-16T18:13:37.884013Z"
     },
     {
-      "id": "c6a08361cf013190bd371e917f005a32",
-      "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
-      "summary": "The Treasury Department published the U.S. budget deficit for the 2026 fiscal year.",
-      "link": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
+      "id": "a2f7bc3d293f5da8c70769550c399afa",
+      "title": "Metals Rebound as Sentiment Improves After Volatile Week",
+      "summary": "Metals \u2014 including copper, aluminum and zinc \u2014 rebounded after hotter-than-expected US inflation and a selloff in AI stocks rattled markets this week.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-16/metals-rebound-as-sentiment-improves-after-us-inflation-shock",
+      "source": "Bloomberg",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
+      "tickers": [
+        "COPPER"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-16T18:12:42.689860Z"
+    },
+    {
+      "id": "4ca4395d79bae29f445cf63f6c9a3f1b",
+      "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+      "summary": "Treasury yields above 5% are raising borrowing costs for households and the federal government, highlighting the challenge of financing $2 trillion deficits.",
+      "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
       "source": "CNBC",
-      "score": 10,
-      "severity": "MEDIUM",
+      "score": 20,
+      "severity": "HIGH",
       "regime": "RATES",
       "tickers": [
         "TLT"
       ],
-      "regions": [],
+      "regions": [
+        "US"
+      ],
       "assets": [
+        "AI",
         "RATES"
       ],
       "market_impact": {
@@ -71,56 +110,191 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-16T18:07:42.150018Z"
+      "published": "2026-10-16T18:12:46.895439Z"
+    },
+    {
+      "id": "0e96355cb2d89268c86a4fb2dc2be531",
+      "title": "25 charged after drug ring used unsuspecting truckers to haul cocaine from California to Florida",
+      "summary": "<p>Operation Icebreaker exposed a drug trafficking network that moved cocaine from California through unsuspecting trucking companies. Authorities seized more than 45 kilograms of cocaine, while a suspected supplier reportedly claimed deliveries of up to 60 kilograms every 15 days.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/25-charged-after-drug-ring-used-unsuspecting-truckers-to-haul-cocaine-from-california-to-florida\">25 charged after drug ring used unsuspecting truckers to haul cocaine from California to Florida</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/25-charged-after-drug-ring-used-unsuspecting-truckers-to-haul-cocaine-from-california-to-florida",
+      "source": "FreightWaves",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-16T18:13:37.243256Z"
+    },
+    {
+      "id": "57b55af5682bd19288320cdfb6cafd48",
+      "title": "Debt is eating up a bigger chunk of your raise, research shows",
+      "summary": "New research finds debt payments rose far faster than estimated real household income, absorbing about half of a one-earner household's gains.",
+      "link": "https://www.cnbc.com/2026/10/16/debt-payments-rise-more-than-income.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-16T18:12:46.895480Z"
+    },
+    {
+      "id": "94753f61b2530c87b2fc363532025456",
+      "title": "Looking for non-AI stocks to own? Jim Cramer thinks these 2 names are worth buying - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFBsOUIxV1hOWHY4VnV2Mnd1R1lsZUtqclBfX1ZFUVo5RzJTNmFsR1RvT1hNNldvSHp0TGxUbWpENHpFTjJYdTVnVjM3bmhWc0U3V00tY19VYnNwZ2hfb2VXd0ctdWxtUV9MTDhtQmZPN3JRbHVx0gF6QVVfeXFMTjI4cXhzcElrdEQ1a3FsYW92ajJDdXNXVnBjRVJZalhwb3ZTT2V3OUpuVm5pRmdJeUVra0FGTW9VdmVXV1Vicm1wdEZBWk00TzFEUGVXQWc3OHAxODQ3WFhVTTlKM3p4Wm5UYlJ3S2NWcFZDa0hhYXNRNlE?oc=5\" target=\"_blank\">Looking for non-AI stocks to own? Jim Cramer thinks these 2 names are worth buying</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsOUIxV1hOWHY4VnV2Mnd1R1lsZUtqclBfX1ZFUVo5RzJTNmFsR1RvT1hNNldvSHp0TGxUbWpENHpFTjJYdTVnVjM3bmhWc0U3V00tY19VYnNwZ2hfb2VXd0ctdWxtUV9MTDhtQmZPN3JRbHVx0gF6QVVfeXFMTjI4cXhzcElrdEQ1a3FsYW92ajJDdXNXVnBjRVJZalhwb3ZTT2V3OUpuVm5pRmdJeUVra0FGTW9VdmVXV1Vicm1wdEZBWk00TzFEUGVXQWc3OHAxODQ3WFhVTTlKM3p4Wm5UYlJ3S2NWcFZDa0hhYXNRNlE?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-16T18:13:43.296154Z"
+    },
+    {
+      "id": "efd0db4ad5979466a0b270a04ca94bd5",
+      "title": "Long-Term Treasuries Fall as Dealer Survey Offers Little Signal - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOWlNxSlRXSmMzNEFpZV9wUG1DVlVTcmgzOUR2b3RqcXctb2d5c3dac0J3XzJ3cXVGdTZaWFlsT1BhN05NNFVpb2lacVZiZ2Q0ZWs1WkVic2tlQXpiMFRYWHFlMjhoYzZpSWJOMmc1aGZmSEFlYkljVTB1aXJ4TUlzMXpINVBPTzhVS0piQ1RNa2E4QWdPWnJwOWtMVURpQmJYQmdtSi1vczhWM2lqV3U5VEpsSkg?oc=5\" target=\"_blank\">Long-Term Treasuries Fall as Dealer Survey Offers Little Signal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWlNxSlRXSmMzNEFpZV9wUG1DVlVTcmgzOUR2b3RqcXctb2d5c3dac0J3XzJ3cXVGdTZaWFlsT1BhN05NNFVpb2lacVZiZ2Q0ZWs1WkVic2tlQXpiMFRYWHFlMjhoYzZpSWJOMmc1aGZmSEFlYkljVTB1aXJ4TUlzMXpINVBPTzhVS0piQ1RNa2E4QWdPWnJwOWtMVURpQmJYQmdtSi1vczhWM2lqV3U5VEpsSkg?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-16T18:13:41.158537Z"
     }
   ],
   "alerts": [
     {
-      "id": "3e1d683e5cba6caf55eb53f2f5d1186d",
-      "title": "US Bonds Fall as Treasury Is Silent on Long End, Oil Climbs",
-      "summary": "Treasuries declined as predictions fell flat that US government officials would directly nod at the possibility of reducing its sales of long-term debt and as oil prices rose.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-16/long-term-treasuries-fall-as-dealer-survey-offers-little-signal",
-      "source": "Bloomberg",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "id": "c1e2100d6e8ef6ee10efe449b4eda9b1",
+      "title": "Oil Prices Rise by More Than 3%",
+      "summary": "Oil prices gained more than 3% and were heading for weekly gains on continued uncertainty over Middle East supplies, and as investors kept assessing how much diesel Russia could supply to the global markets.Brent crude futures were up $3.41, or 3.2%, at $109.34 at 12:41 p.m.",
+      "link": "https://www.marinelink.com/news/oil-prices-rise-543748",
+      "source": "MarineLink",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "TLT",
+        "BRENT",
         "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "RUSSIA"
+      ],
       "assets": [
-        "COMMODITIES",
-        "RATES"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-10-16T18:07:38.359019Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-16T18:13:37.884013Z"
     },
     {
-      "id": "c6a08361cf013190bd371e917f005a32",
-      "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
-      "summary": "The Treasury Department published the U.S. budget deficit for the 2026 fiscal year.",
-      "link": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
+      "id": "a2f7bc3d293f5da8c70769550c399afa",
+      "title": "Metals Rebound as Sentiment Improves After Volatile Week",
+      "summary": "Metals \u2014 including copper, aluminum and zinc \u2014 rebounded after hotter-than-expected US inflation and a selloff in AI stocks rattled markets this week.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-16/metals-rebound-as-sentiment-improves-after-us-inflation-shock",
+      "source": "Bloomberg",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
+      "tickers": [
+        "COPPER"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-16T18:12:42.689860Z"
+    },
+    {
+      "id": "4ca4395d79bae29f445cf63f6c9a3f1b",
+      "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+      "summary": "Treasury yields above 5% are raising borrowing costs for households and the federal government, highlighting the challenge of financing $2 trillion deficits.",
+      "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
       "source": "CNBC",
-      "score": 10,
-      "severity": "MEDIUM",
+      "score": 20,
+      "severity": "HIGH",
       "regime": "RATES",
       "tickers": [
         "TLT"
       ],
-      "regions": [],
+      "regions": [
+        "US"
+      ],
       "assets": [
+        "AI",
         "RATES"
       ],
       "market_impact": {
@@ -135,7 +309,103 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-16T18:07:42.150018Z"
+      "published": "2026-10-16T18:12:46.895439Z"
+    },
+    {
+      "id": "0e96355cb2d89268c86a4fb2dc2be531",
+      "title": "25 charged after drug ring used unsuspecting truckers to haul cocaine from California to Florida",
+      "summary": "<p>Operation Icebreaker exposed a drug trafficking network that moved cocaine from California through unsuspecting trucking companies. Authorities seized more than 45 kilograms of cocaine, while a suspected supplier reportedly claimed deliveries of up to 60 kilograms every 15 days.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/25-charged-after-drug-ring-used-unsuspecting-truckers-to-haul-cocaine-from-california-to-florida\">25 charged after drug ring used unsuspecting truckers to haul cocaine from California to Florida</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/25-charged-after-drug-ring-used-unsuspecting-truckers-to-haul-cocaine-from-california-to-florida",
+      "source": "FreightWaves",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-16T18:13:37.243256Z"
+    },
+    {
+      "id": "57b55af5682bd19288320cdfb6cafd48",
+      "title": "Debt is eating up a bigger chunk of your raise, research shows",
+      "summary": "New research finds debt payments rose far faster than estimated real household income, absorbing about half of a one-earner household's gains.",
+      "link": "https://www.cnbc.com/2026/10/16/debt-payments-rise-more-than-income.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-16T18:12:46.895480Z"
+    },
+    {
+      "id": "94753f61b2530c87b2fc363532025456",
+      "title": "Looking for non-AI stocks to own? Jim Cramer thinks these 2 names are worth buying - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFBsOUIxV1hOWHY4VnV2Mnd1R1lsZUtqclBfX1ZFUVo5RzJTNmFsR1RvT1hNNldvSHp0TGxUbWpENHpFTjJYdTVnVjM3bmhWc0U3V00tY19VYnNwZ2hfb2VXd0ctdWxtUV9MTDhtQmZPN3JRbHVx0gF6QVVfeXFMTjI4cXhzcElrdEQ1a3FsYW92ajJDdXNXVnBjRVJZalhwb3ZTT2V3OUpuVm5pRmdJeUVra0FGTW9VdmVXV1Vicm1wdEZBWk00TzFEUGVXQWc3OHAxODQ3WFhVTTlKM3p4Wm5UYlJ3S2NWcFZDa0hhYXNRNlE?oc=5\" target=\"_blank\">Looking for non-AI stocks to own? Jim Cramer thinks these 2 names are worth buying</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsOUIxV1hOWHY4VnV2Mnd1R1lsZUtqclBfX1ZFUVo5RzJTNmFsR1RvT1hNNldvSHp0TGxUbWpENHpFTjJYdTVnVjM3bmhWc0U3V00tY19VYnNwZ2hfb2VXd0ctdWxtUV9MTDhtQmZPN3JRbHVx0gF6QVVfeXFMTjI4cXhzcElrdEQ1a3FsYW92ajJDdXNXVnBjRVJZalhwb3ZTT2V3OUpuVm5pRmdJeUVra0FGTW9VdmVXV1Vicm1wdEZBWk00TzFEUGVXQWc3OHAxODQ3WFhVTTlKM3p4Wm5UYlJ3S2NWcFZDa0hhYXNRNlE?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-16T18:13:43.296154Z"
+    },
+    {
+      "id": "efd0db4ad5979466a0b270a04ca94bd5",
+      "title": "Long-Term Treasuries Fall as Dealer Survey Offers Little Signal - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOWlNxSlRXSmMzNEFpZV9wUG1DVlVTcmgzOUR2b3RqcXctb2d5c3dac0J3XzJ3cXVGdTZaWFlsT1BhN05NNFVpb2lacVZiZ2Q0ZWs1WkVic2tlQXpiMFRYWHFlMjhoYzZpSWJOMmc1aGZmSEFlYkljVTB1aXJ4TUlzMXpINVBPTzhVS0piQ1RNa2E4QWdPWnJwOWtMVURpQmJYQmdtSi1vczhWM2lqV3U5VEpsSkg?oc=5\" target=\"_blank\">Long-Term Treasuries Fall as Dealer Survey Offers Little Signal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWlNxSlRXSmMzNEFpZV9wUG1DVlVTcmgzOUR2b3RqcXctb2d5c3dac0J3XzJ3cXVGdTZaWFlsT1BhN05NNFVpb2lacVZiZ2Q0ZWs1WkVic2tlQXpiMFRYWHFlMjhoYzZpSWJOMmc1aGZmSEFlYkljVTB1aXJ4TUlzMXpINVBPTzhVS0piQ1RNa2E4QWdPWnJwOWtMVURpQmJYQmdtSi1vczhWM2lqV3U5VEpsSkg?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-16T18:13:41.158537Z"
     }
   ]
 }
