@@ -1,69 +1,495 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-18T22:09:19.614999Z",
+  "generated_at": "2026-10-18T22:14:19.035891Z",
   "market_regime": {
-    "regime": "CRYPTO",
-    "dominant_driver": "CRYPTO",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-10-18T22:09:19.615009Z"
+    "critical_alerts": 1,
+    "high_alerts": 4,
+    "last_updated": "2026-10-18T22:14:19.035906Z"
   },
   "top_signals": [
     {
-      "id": "bcaf934c5ee2dad81daef91fedc1bc37",
-      "title": "Cysic suspends bridge after attacker mints tokens and moves $727,000 to Ethereum",
-      "summary": "The attacker, after minting 10 million CYS, managed to bridge about $727,000 in proceeds to Ethereum through Mayan, deBridge and SWFT's Bridgers.",
-      "link": "https://www.theblock.co/news/defi/2026-10-18-cysic-suspends-bridge-after-attacker-mints-tokens-and-moves-727000-to-ethereum-418863",
-      "source": "The Block",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "CRYPTO",
+      "id": "d3a99040933c2a1ecb9811d7d7821977",
+      "title": "Latest Oil Market News and Analysis for Oct. 19",
+      "summary": "Oil steadied after jumping on Friday, as flareups in fighting in the Middle East and Ukraine dimmed the prospect of a return to normal crude flows.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-18/latest-oil-market-news-and-analysis-for-oct-19",
+      "source": "Bloomberg",
+      "score": 38,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "ETH"
+        "WTI"
       ],
+      "regions": [
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-18T22:13:22.073361Z"
+    },
+    {
+      "id": "060917bc73bfa966b3724ede5e753a4e",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "USD"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-10-18T22:09:16.283244Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-18T22:13:25.834415Z"
+    },
+    {
+      "id": "f32fb8124d8a31522ca91ff01e890ddf",
+      "title": "US Stock Futures Rise Ahead of Busy Earnings Week: Markets Wrap",
+      "summary": "US stock futures rose and oil edged lower as traders prepared for a packed week of corporate earnings and Chinese economic data against a backdrop of heightened geopolitical risks.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-18/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-18T22:13:22.073310Z"
+    },
+    {
+      "id": "788e394f948034afaceea5d1c4bffd47",
+      "title": "US threatens Europe over Starlink restrictions",
+      "summary": "Ambassador Andrew Puzder warns about \u2018devastating\u2019 retaliation if Brussels goes ahead with plans to limit spectrum access for non-EU companies",
+      "link": "https://www.ft.com/content/d1e28d93-8574-4a46-946a-b261c401d6fa?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-18T22:13:24.260339Z"
+    },
+    {
+      "id": "1043db8b2f0d48d36ff44a185b8797b6",
+      "title": "Russian ships fake locations to appear in two places at once",
+      "summary": "New method of deception appears co-ordinated, suggesting Moscow is tightening its control over the tankers",
+      "link": "https://www.ft.com/content/f9dd0c26-3de3-4ecc-8a08-7d08f0946d08?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-18T22:13:24.260394Z"
+    },
+    {
+      "id": "c51fbd5f614e4f1e4d27ec70725583f2",
+      "title": "Waller, Payments in the Age of AI Agents",
+      "summary": "Speech At Sibos 2026, Miami, Florida",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260928a.htm",
+      "source": "Federal Reserve",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-18T22:13:25.980454Z"
+    },
+    {
+      "id": "82b97e4baae60f3ce5e9b190d6937d62",
+      "title": "5 midterm money takeaways: Democrats have candidate cash. Republicans have Elon Musk",
+      "summary": "Democrats outraise Republicans in key Congress races as Elon Musk funds Ken Paxton in Texas and GOP groups aligned with Trump.",
+      "link": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-18T22:13:25.671183Z"
+    },
+    {
+      "id": "42b9c66e2c175cebb036ab5abc06c75f",
+      "title": "Waller, The Signaling Value of the Summary of Economic Projections",
+      "summary": "Speech At the Istanbul Economic Forum, Central Bank of the Republic of T&uuml;rkiye, Istanbul, T&uuml;rkiye",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-18T22:13:25.980362Z"
+    },
+    {
+      "id": "871a16221a49a8a6fb8074e390f7ca45",
+      "title": "Bowman, Modernizing Financial Regulation: Initial Observations from eSLR",
+      "summary": "Speech At the Atlantic Council 2026 CEO &amp; Senior Management Summit, Washington, D.C.",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-18T22:13:25.980409Z"
     }
   ],
   "alerts": [
     {
-      "id": "bcaf934c5ee2dad81daef91fedc1bc37",
-      "title": "Cysic suspends bridge after attacker mints tokens and moves $727,000 to Ethereum",
-      "summary": "The attacker, after minting 10 million CYS, managed to bridge about $727,000 in proceeds to Ethereum through Mayan, deBridge and SWFT's Bridgers.",
-      "link": "https://www.theblock.co/news/defi/2026-10-18-cysic-suspends-bridge-after-attacker-mints-tokens-and-moves-727000-to-ethereum-418863",
-      "source": "The Block",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "CRYPTO",
+      "id": "d3a99040933c2a1ecb9811d7d7821977",
+      "title": "Latest Oil Market News and Analysis for Oct. 19",
+      "summary": "Oil steadied after jumping on Friday, as flareups in fighting in the Middle East and Ukraine dimmed the prospect of a return to normal crude flows.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-18/latest-oil-market-news-and-analysis-for-oct-19",
+      "source": "Bloomberg",
+      "score": 38,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "ETH"
+        "WTI"
       ],
+      "regions": [
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-18T22:13:22.073361Z"
+    },
+    {
+      "id": "060917bc73bfa966b3724ede5e753a4e",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "USD"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-10-18T22:09:16.283244Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-18T22:13:25.834415Z"
+    },
+    {
+      "id": "f32fb8124d8a31522ca91ff01e890ddf",
+      "title": "US Stock Futures Rise Ahead of Busy Earnings Week: Markets Wrap",
+      "summary": "US stock futures rose and oil edged lower as traders prepared for a packed week of corporate earnings and Chinese economic data against a backdrop of heightened geopolitical risks.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-18/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-18T22:13:22.073310Z"
+    },
+    {
+      "id": "788e394f948034afaceea5d1c4bffd47",
+      "title": "US threatens Europe over Starlink restrictions",
+      "summary": "Ambassador Andrew Puzder warns about \u2018devastating\u2019 retaliation if Brussels goes ahead with plans to limit spectrum access for non-EU companies",
+      "link": "https://www.ft.com/content/d1e28d93-8574-4a46-946a-b261c401d6fa?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-18T22:13:24.260339Z"
+    },
+    {
+      "id": "1043db8b2f0d48d36ff44a185b8797b6",
+      "title": "Russian ships fake locations to appear in two places at once",
+      "summary": "New method of deception appears co-ordinated, suggesting Moscow is tightening its control over the tankers",
+      "link": "https://www.ft.com/content/f9dd0c26-3de3-4ecc-8a08-7d08f0946d08?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-18T22:13:24.260394Z"
+    },
+    {
+      "id": "c51fbd5f614e4f1e4d27ec70725583f2",
+      "title": "Waller, Payments in the Age of AI Agents",
+      "summary": "Speech At Sibos 2026, Miami, Florida",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260928a.htm",
+      "source": "Federal Reserve",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-18T22:13:25.980454Z"
+    },
+    {
+      "id": "82b97e4baae60f3ce5e9b190d6937d62",
+      "title": "5 midterm money takeaways: Democrats have candidate cash. Republicans have Elon Musk",
+      "summary": "Democrats outraise Republicans in key Congress races as Elon Musk funds Ken Paxton in Texas and GOP groups aligned with Trump.",
+      "link": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-18T22:13:25.671183Z"
+    },
+    {
+      "id": "42b9c66e2c175cebb036ab5abc06c75f",
+      "title": "Waller, The Signaling Value of the Summary of Economic Projections",
+      "summary": "Speech At the Istanbul Economic Forum, Central Bank of the Republic of T&uuml;rkiye, Istanbul, T&uuml;rkiye",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-18T22:13:25.980362Z"
+    },
+    {
+      "id": "871a16221a49a8a6fb8074e390f7ca45",
+      "title": "Bowman, Modernizing Financial Regulation: Initial Observations from eSLR",
+      "summary": "Speech At the Atlantic Council 2026 CEO &amp; Senior Management Summit, Washington, D.C.",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-18T22:13:25.980409Z"
     }
   ]
 }
