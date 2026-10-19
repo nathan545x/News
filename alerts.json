@@ -1,55 +1,68 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-19T12:08:12.941704Z",
+  "generated_at": "2026-10-19T12:14:39.993944Z",
   "market_regime": {
-    "regime": "AI",
-    "dominant_driver": "AI",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 2,
-    "last_updated": "2026-10-19T12:08:12.941717Z"
+    "critical_alerts": 1,
+    "high_alerts": 4,
+    "last_updated": "2026-10-19T12:14:39.993962Z"
   },
   "top_signals": [
     {
-      "id": "3cab25fa92b31235d677697d1fcf7b60",
-      "title": "US Stock Futures Today: Cleveland-Cliffs, Disc, Nvidia, Silgan",
-      "summary": "S&amp;P 500 Index futures rise 0.5% as of 7:51 a.m. in New York as buyers are driving a rebound in US stocks after last week\u2019s rout in chipmakers.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-19/us-stock-futures-today-cleveland-cliffs-disc-nvidia-silgan",
+      "id": "8c604959bbbe47026f4b0cc9aac6e318",
+      "title": "Market Rightfully Lowering ECB Hike Expectations, Says Morgan Stanley\u2019s Sheets",
+      "summary": "Andrew Sheets, global head of fixed income research at Morgan Stanley, examines what impact volatility in French bonds and equities may have on European Central Bank policy and how his firm is approaching European markets. He speaks on \u201cBloomberg Surveillance.\u201d (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-19/market-rightfully-lowering-ecb-hike-expectations-sheets-video",
       "source": "Bloomberg",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "AI",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "NVDA"
+        "EUR"
       ],
-      "regions": [],
+      "regions": [
+        "EUROPE"
+      ],
       "assets": [
-        "EQUITIES"
+        "EQUITIES",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "DXY",
+          "JPY"
         ],
-        "bearish": []
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-19T12:07:03.007923Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-19T12:13:30.148900Z"
     },
     {
-      "id": "eea5f2f21bbc3bd8d26c67e6a9f3e426",
-      "title": "US Army acquisition command awards contracts worth $6.8B in 2026",
-      "summary": "The Mission and Installation Contracting Command awarded 21,450 contracts in fiscal 2026 valued at $6.8 billion in total, a boost from the year prior.",
-      "link": "https://www.defensenews.com/news/your-military/2026/10/16/us-army-acquisition-command-awards-contracts-worth-68b-in-2026/",
-      "source": "Defense News",
-      "score": 16,
+      "id": "fdfea9d87eebc431a37eaae7e39d9df0",
+      "title": "Brent Crude Holds Near $110 on Mideast and Ukraine Conflicts - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNZW11ZjRDTUdpUHpzY1JpNFZtWjZ1bGhZejdHX2h3Q0NTb1pKU0pxM0NtSDR5QlA4YnQ5NHUybkxGS0VxSWJQcHo0NWcyb3A4S21SbVNld2cyLTQ5eFowV2lqRlh1QUMteG1taWQ5b0dPUGg1SnpxVUlRYmlDWkkxZzBQWVpBTjlwdzEyZDBTRWRacVU1ZFhZMjhrMGd5dw?oc=5\" target=\"_blank\">Brent Crude Holds Near $110 on Mideast and Ukraine Conflicts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZW11ZjRDTUdpUHpzY1JpNFZtWjZ1bGhZejdHX2h3Q0NTb1pKU0pxM0NtSDR5QlA4YnQ5NHUybkxGS0VxSWJQcHo0NWcyb3A4S21SbVNld2cyLTQ5eFowV2lqRlh1QUMteG1taWQ5b0dPUGg1SnpxVUlRYmlDWkkxZzBQWVpBTjlwdzEyZDBTRWRacVU1ZFhZMjhrMGd5dw?oc=5",
+      "source": "Google Macro",
+      "score": 20,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
+      "tickers": [
+        "BRENT"
+      ],
+      "regions": [
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -64,49 +77,268 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-19T12:08:08.095606Z"
+      "published": "2026-10-19T12:14:37.619380Z"
+    },
+    {
+      "id": "cc2bb59666aff111d79d3f56cbb75e33",
+      "title": "OpenAI bugging suspect WhatsApp'ed Saudi royal days before arrest, feds reveal",
+      "summary": "Saudi national Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI headquarters in San Francisco.",
+      "link": "https://www.cnbc.com/2026/10/19/openai-bugging-suspect-alfozan-saudi-royal-family.html",
+      "source": "CNBC",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-19T12:13:34.638959Z"
+    },
+    {
+      "id": "39a390790928681afe51a069fed81b37",
+      "title": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
+      "summary": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-19T12:13:34.890374Z"
+    },
+    {
+      "id": "91fc53ece518965d4501ca85fb5f21e1",
+      "title": "Google says it can build data centers the right way. Some experts and residents are skeptical",
+      "summary": "Google says its Minnesota AI data center will add clean energy to the grid and protect ratepayers. Experts question whether grid upgrades are needed.",
+      "link": "https://www.cnbc.com/2026/10/19/how-data-centers-are-reshaping-americas-aging-grid-pine-island-minnesota-google.html",
+      "source": "CNBC",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-19T12:13:34.399290Z"
+    },
+    {
+      "id": "a7f4eb8bea185c6647768615903976fa",
+      "title": "Box truck carrier\u2019s pivots show new fleets must know costs",
+      "summary": "<p>TLA Group\u2019s Telly Arnold says box truck newcomers hear about revenue first, then learn about insurance deposits, freight claims and breakdowns the hard way.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/tla-group-box-truck-business-costs\">Box truck carrier\u2019s pivots show new fleets must know costs</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/tla-group-box-truck-business-costs",
+      "source": "FreightWaves",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-19T12:14:32.995503Z"
+    },
+    {
+      "id": "3514fdbdfe4108ab6b52aacb12159611",
+      "title": "US stocks set for rebound after AI sell-off",
+      "summary": "Nasdaq 100 futures rise 1% following biggest weekly drop since Trump\u2019s \u2018liberation day\u2019 in April last year",
+      "link": "https://www.ft.com/content/915ea7ca-1f35-4847-810a-fb29e8344496?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "QQQ"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-19T12:13:32.663908Z"
+    },
+    {
+      "id": "c0a94d2923008cb7a22933ed8aba822f",
+      "title": "\u2018We found room for more orange\u2019: Michael Saylor\u2019s Strategy buys another 267 bitcoin for $22 million",
+      "summary": "Strategy's BTC holdings account for around 4% of the total bitcoin supply, with $5.9 billion in paper gains.",
+      "link": "https://www.theblock.co/news/business/2026-10-19-we-found-room-for-more-orange-michael-saylors-strategy-buys-more-bitcoin-418895",
+      "source": "The Block",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-10-19T12:14:36.199922Z"
+    },
+    {
+      "id": "64ef628bf3eb835a70ec802f50f34496",
+      "title": "Investors are buying on Monday despite fear the AI trade nightmare scenario is far from over",
+      "summary": "Here are the key things investors need to know to start the trading day.",
+      "link": "https://www.cnbc.com/2026/10/19/stocks-buying-opportunity-ai-selloff.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-19T12:13:34.399227Z"
+    },
+    {
+      "id": "ea5dda5eb62a515e02f7fdf73555beb9",
+      "title": "U.S. Natural Gas Futures Settle Lower - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPSlJCOGU5TEd3TWxfTVhaeElzX2RDWGl2RzUydmFmTXROTnFZazA5cHRUUC10a0NMU1FENG11WVFVMHQ4dzlpUlJkUjJFc1hvZWc0ejE1b05vNTZVUEs4NG9xTFRyT1h5Tjg2MlAwdUYtNFVGc3BXZ3BIVFdGYklQdkgxZkZLQ1BkWGk3dVh4ZHlVSDd2elhFVi0wN0o5NUphVTFlTA?oc=5\" target=\"_blank\">U.S. Natural Gas Futures Settle Lower</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSlJCOGU5TEd3TWxfTVhaeElzX2RDWGl2RzUydmFmTXROTnFZazA5cHRUUC10a0NMU1FENG11WVFVMHQ4dzlpUlJkUjJFc1hvZWc0ejE1b05vNTZVUEs4NG9xTFRyT1h5Tjg2MlAwdUYtNFVGc3BXZ3BIVFdGYklQdkgxZkZLQ1BkWGk3dVh4ZHlVSDd2elhFVi0wN0o5NUphVTFlTA?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-19T12:14:39.453946Z"
     }
   ],
   "alerts": [
     {
-      "id": "3cab25fa92b31235d677697d1fcf7b60",
-      "title": "US Stock Futures Today: Cleveland-Cliffs, Disc, Nvidia, Silgan",
-      "summary": "S&amp;P 500 Index futures rise 0.5% as of 7:51 a.m. in New York as buyers are driving a rebound in US stocks after last week\u2019s rout in chipmakers.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-19/us-stock-futures-today-cleveland-cliffs-disc-nvidia-silgan",
+      "id": "8c604959bbbe47026f4b0cc9aac6e318",
+      "title": "Market Rightfully Lowering ECB Hike Expectations, Says Morgan Stanley\u2019s Sheets",
+      "summary": "Andrew Sheets, global head of fixed income research at Morgan Stanley, examines what impact volatility in French bonds and equities may have on European Central Bank policy and how his firm is approaching European markets. He speaks on \u201cBloomberg Surveillance.\u201d (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-19/market-rightfully-lowering-ecb-hike-expectations-sheets-video",
       "source": "Bloomberg",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "AI",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
-        "NVDA"
+        "EUR"
       ],
-      "regions": [],
+      "regions": [
+        "EUROPE"
+      ],
       "assets": [
-        "EQUITIES"
+        "EQUITIES",
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "DXY",
+          "JPY"
         ],
-        "bearish": []
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-19T12:07:03.007923Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-19T12:13:30.148900Z"
     },
     {
-      "id": "eea5f2f21bbc3bd8d26c67e6a9f3e426",
-      "title": "US Army acquisition command awards contracts worth $6.8B in 2026",
-      "summary": "The Mission and Installation Contracting Command awarded 21,450 contracts in fiscal 2026 valued at $6.8 billion in total, a boost from the year prior.",
-      "link": "https://www.defensenews.com/news/your-military/2026/10/16/us-army-acquisition-command-awards-contracts-worth-68b-in-2026/",
-      "source": "Defense News",
-      "score": 16,
+      "id": "fdfea9d87eebc431a37eaae7e39d9df0",
+      "title": "Brent Crude Holds Near $110 on Mideast and Ukraine Conflicts - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNZW11ZjRDTUdpUHpzY1JpNFZtWjZ1bGhZejdHX2h3Q0NTb1pKU0pxM0NtSDR5QlA4YnQ5NHUybkxGS0VxSWJQcHo0NWcyb3A4S21SbVNld2cyLTQ5eFowV2lqRlh1QUMteG1taWQ5b0dPUGg1SnpxVUlRYmlDWkkxZzBQWVpBTjlwdzEyZDBTRWRacVU1ZFhZMjhrMGd5dw?oc=5\" target=\"_blank\">Brent Crude Holds Near $110 on Mideast and Ukraine Conflicts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZW11ZjRDTUdpUHpzY1JpNFZtWjZ1bGhZejdHX2h3Q0NTb1pKU0pxM0NtSDR5QlA4YnQ5NHUybkxGS0VxSWJQcHo0NWcyb3A4S21SbVNld2cyLTQ5eFowV2lqRlh1QUMteG1taWQ5b0dPUGg1SnpxVUlRYmlDWkkxZzBQWVpBTjlwdzEyZDBTRWRacVU1ZFhZMjhrMGd5dw?oc=5",
+      "source": "Google Macro",
+      "score": 20,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
+      "tickers": [
+        "BRENT"
+      ],
+      "regions": [
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -121,7 +353,213 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-19T12:08:08.095606Z"
+      "published": "2026-10-19T12:14:37.619380Z"
+    },
+    {
+      "id": "cc2bb59666aff111d79d3f56cbb75e33",
+      "title": "OpenAI bugging suspect WhatsApp'ed Saudi royal days before arrest, feds reveal",
+      "summary": "Saudi national Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI headquarters in San Francisco.",
+      "link": "https://www.cnbc.com/2026/10/19/openai-bugging-suspect-alfozan-saudi-royal-family.html",
+      "source": "CNBC",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-19T12:13:34.638959Z"
+    },
+    {
+      "id": "39a390790928681afe51a069fed81b37",
+      "title": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
+      "summary": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-19T12:13:34.890374Z"
+    },
+    {
+      "id": "91fc53ece518965d4501ca85fb5f21e1",
+      "title": "Google says it can build data centers the right way. Some experts and residents are skeptical",
+      "summary": "Google says its Minnesota AI data center will add clean energy to the grid and protect ratepayers. Experts question whether grid upgrades are needed.",
+      "link": "https://www.cnbc.com/2026/10/19/how-data-centers-are-reshaping-americas-aging-grid-pine-island-minnesota-google.html",
+      "source": "CNBC",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-19T12:13:34.399290Z"
+    },
+    {
+      "id": "a7f4eb8bea185c6647768615903976fa",
+      "title": "Box truck carrier\u2019s pivots show new fleets must know costs",
+      "summary": "<p>TLA Group\u2019s Telly Arnold says box truck newcomers hear about revenue first, then learn about insurance deposits, freight claims and breakdowns the hard way.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/tla-group-box-truck-business-costs\">Box truck carrier\u2019s pivots show new fleets must know costs</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/tla-group-box-truck-business-costs",
+      "source": "FreightWaves",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-19T12:14:32.995503Z"
+    },
+    {
+      "id": "3514fdbdfe4108ab6b52aacb12159611",
+      "title": "US stocks set for rebound after AI sell-off",
+      "summary": "Nasdaq 100 futures rise 1% following biggest weekly drop since Trump\u2019s \u2018liberation day\u2019 in April last year",
+      "link": "https://www.ft.com/content/915ea7ca-1f35-4847-810a-fb29e8344496?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "QQQ"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-19T12:13:32.663908Z"
+    },
+    {
+      "id": "c0a94d2923008cb7a22933ed8aba822f",
+      "title": "\u2018We found room for more orange\u2019: Michael Saylor\u2019s Strategy buys another 267 bitcoin for $22 million",
+      "summary": "Strategy's BTC holdings account for around 4% of the total bitcoin supply, with $5.9 billion in paper gains.",
+      "link": "https://www.theblock.co/news/business/2026-10-19-we-found-room-for-more-orange-michael-saylors-strategy-buys-more-bitcoin-418895",
+      "source": "The Block",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-10-19T12:14:36.199922Z"
+    },
+    {
+      "id": "64ef628bf3eb835a70ec802f50f34496",
+      "title": "Investors are buying on Monday despite fear the AI trade nightmare scenario is far from over",
+      "summary": "Here are the key things investors need to know to start the trading day.",
+      "link": "https://www.cnbc.com/2026/10/19/stocks-buying-opportunity-ai-selloff.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-19T12:13:34.399227Z"
+    },
+    {
+      "id": "ea5dda5eb62a515e02f7fdf73555beb9",
+      "title": "U.S. Natural Gas Futures Settle Lower - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPSlJCOGU5TEd3TWxfTVhaeElzX2RDWGl2RzUydmFmTXROTnFZazA5cHRUUC10a0NMU1FENG11WVFVMHQ4dzlpUlJkUjJFc1hvZWc0ejE1b05vNTZVUEs4NG9xTFRyT1h5Tjg2MlAwdUYtNFVGc3BXZ3BIVFdGYklQdkgxZkZLQ1BkWGk3dVh4ZHlVSDd2elhFVi0wN0o5NUphVTFlTA?oc=5\" target=\"_blank\">U.S. Natural Gas Futures Settle Lower</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSlJCOGU5TEd3TWxfTVhaeElzX2RDWGl2RzUydmFmTXROTnFZazA5cHRUUC10a0NMU1FENG11WVFVMHQ4dzlpUlJkUjJFc1hvZWc0ejE1b05vNTZVUEs4NG9xTFRyT1h5Tjg2MlAwdUYtNFVGc3BXZ3BIVFdGYklQdkgxZkZLQ1BkWGk3dVh4ZHlVSDd2elhFVi0wN0o5NUphVTFlTA?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-19T12:14:39.453946Z"
     }
   ]
 }
