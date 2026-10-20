@@ -1,36 +1,67 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-20T18:33:24.093274Z",
+  "generated_at": "2026-10-20T18:40:01.531794Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "AI",
+    "dominant_driver": "AI",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-10-20T18:33:24.093286Z"
+    "critical_alerts": 1,
+    "high_alerts": 0,
+    "last_updated": "2026-10-20T18:40:01.531805Z"
   },
   "top_signals": [
     {
-      "id": "ea6521f85fefe0d848e0162d0043092f",
-      "title": "Gas Production Plunges 12.6% as Europe Heads into Winter",
-      "summary": "Norway\u2019s oil and gas production declined sharply in September, with natural gas output falling 12.6% from August, according to preliminary figures released Tuesday by the Norwegian Offshore Directorate (NOD). Total petroleum production averaged approximately 3.77 million barrels of oil equivalent per day (boepd), down 10.4% month-on-month and 4% below the directorate\u2019s forecast. The decline comes at a sensitive time for European energy markets, with the winter heating season approaching and Norway remaining the continent\u2019s largest\u2026",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Gas-Production-Plunges-126-as-Europe-Heads-into-Winter.html",
-      "source": "OilPrice",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "4313b365cd80c2a5358e8052310b3c56",
+      "title": "Gilt market catches up with peers as investor worries over Budget ease",
+      "summary": "UK bonds were initially hard hit after onset of Iran war but have since outperformed as traders\u2019 concerns shift to France",
+      "link": "https://www.ft.com/content/31f86452-c16a-4fbf-b393-bb5282c1cb59?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "EUR",
-        "WTI"
+        "UK_GILTS"
       ],
       "regions": [
-        "EUROPE"
+        "FRANCE",
+        "MIDDLE_EAST",
+        "UK"
       ],
       "assets": [
-        "AI",
-        "COMMODITIES",
-        "FX"
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-20T18:39:01.958226Z"
+    },
+    {
+      "id": "c1265a43d5baa260406f0b28fe6d9a68",
+      "title": "A unique vantage point \u2212 speech by Nathana\u00ebl Benjamin",
+      "summary": "Given at the ISDA Derivatives Trading and Treasury Forum",
+      "link": "https://www.bankofengland.co.uk/speech/2026/october/nathanael-benjamin-speech-at-isda-derivatives-trading-and-treasury-forum",
+      "source": "Bank of England",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -44,30 +75,237 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-20T18:33:17.077469Z"
+      "published": "2026-10-20T18:39:47.404143Z"
+    },
+    {
+      "id": "1a4b9adca6996022cf059d7ff9a019af",
+      "title": "Do not worry too much about European gas prices",
+      "summary": "Wholesale values have hit new highs this year but the pain should be transitory",
+      "link": "https://www.ft.com/content/31df1d21-159c-4c24-be0a-566c00c2d100?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-20T18:39:01.958278Z"
+    },
+    {
+      "id": "7ce3a8ece4fc95aacaed07a84009877c",
+      "title": "HSBC reviews Palantir holding in $9bn Islamic fund",
+      "summary": "UK workplace pension schemes raise concerns about inclusion of controversial company in fund tracking S&amp;P Shariah index",
+      "link": "https://www.ft.com/content/f3d80441-2ab4-4ccb-bf8c-e2b6c040f238?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-20T18:39:01.958324Z"
+    },
+    {
+      "id": "a86d2dfca2eb045cb53157bdd5852fab",
+      "title": "It\u2019s time to give individual shareholders direct votes on climate change",
+      "summary": "As corporates and fund managers retreat on green commitments, we must use technology to give savers and investors a say on policies affecting the planet",
+      "link": "https://www.ft.com/content/dcc245d8-2dca-4892-a9fb-2bddfa69ed35?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-20T18:39:01.958391Z"
+    },
+    {
+      "id": "0ba1467dec0e5ce9770438726dc49a4c",
+      "title": "Tokyo area condo prices hit half-year record, but signs of slowdown emerge",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/markets/property/tokyo-area-condo-prices-hit-half-year-record-but-signs-of-slowdown-emerge",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-20T18:39:50.417609Z"
+    },
+    {
+      "id": "1b0e5358bacb172f1a67a74af160809a",
+      "title": "23andMe successor settles with California for $6 million over cybersecurity failings",
+      "summary": "California Attorney General Rob Bonta announced a settlement under which 23andMe's successor will pay $6 million to resolve allegations that the company did not properly protect customers' data before a 2023 breach.",
+      "link": "https://therecord.media/23andme-california-data-breach-settlement",
+      "source": "The Record",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-20T18:39:58.322990Z"
+    },
+    {
+      "id": "9b808b47dc5a54150efb734b2ce71f8e",
+      "title": "Stocks try for back-to-back gains \u2014 plus, Qnity gets iPhone business from Apple - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOUm5NM0pMWWxjSWZCbjM3b21xcFJMYXNvRlV6S0QtUFp3V1FPQVQzOTJ1TVJsdFc0RW1rRGdTNElja3MyODIwcVdVMk1sLXUtSE9MMjZ0SEdVM1Q5YzZfS2k1eDJfMHowdm9ELWpCQWp0WUlwYTFIaVppV1ZHUThCRm5FRkFmWlI0UTcxTnBidFp3U3hEY2FqbHY1cmVKR3A3N25vSnhjV3p6WHJ4dFRjeVNaXzJ2LXQ5LWpQcW5QV0h5TEtjQXc?oc=5\" target=\"_blank\">Stocks try for back-to-back gains \u2014 plus, Qnity gets iPhone business from Apple</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUm5NM0pMWWxjSWZCbjM3b21xcFJMYXNvRlV6S0QtUFp3V1FPQVQzOTJ1TVJsdFc0RW1rRGdTNElja3MyODIwcVdVMk1sLXUtSE9MMjZ0SEdVM1Q5YzZfS2k1eDJfMHowdm9ELWpCQWp0WUlwYTFIaVppV1ZHUThCRm5FRkFmWlI0UTcxTnBidFp3U3hEY2FqbHY1cmVKR3A3N25vSnhjV3p6WHJ4dFRjeVNaXzJ2LXQ5LWpQcW5QV0h5TEtjQXc?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-20T18:40:01.531692Z"
+    },
+    {
+      "id": "968ddbcf3c3899e17dc667e6649dccfd",
+      "title": "Tradeweb to Buy Trumid For About $1.97 Billion - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQR3BERDAta1ZnbmpFdEJmUTctWTByVG5yRDBkMjRWemNaUVBNMmlPd2M3RUV1NVk0SDNibWtiNEhYb25Pd1lHVzdyT1o1ZGN6Rk9ZQlBEV0pIeDBrb3ltdC1URkQySUZObTcyV1Z1eVVYUThRUl9Pd210MlJNdy1TWEpjZFRPd01FRXlkNVgwcGM5Rnc?oc=5\" target=\"_blank\">Tradeweb to Buy Trumid For About $1.97 Billion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQR3BERDAta1ZnbmpFdEJmUTctWTByVG5yRDBkMjRWemNaUVBNMmlPd2M3RUV1NVk0SDNibWtiNEhYb25Pd1lHVzdyT1o1ZGN6Rk9ZQlBEV0pIeDBrb3ltdC1URkQySUZObTcyV1Z1eVVYUThRUl9Pd210MlJNdy1TWEpjZFRPd01FRXlkNVgwcGM5Rnc?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-20T18:40:00.832268Z"
+    },
+    {
+      "id": "67fda5d33a8af7d90c80640d6006f44b",
+      "title": "Stocks making the biggest moves premarket: RTX, General Motors, Northrop Grumman, Steel Dynamics & more - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQMWExbFYteDZjLXkzNTdrM1FYdzhBMTZJVDBWcE9zdWF3RWdsQmprN1VFbDhMbXhuQTVnaWs1YTlDb2UxaUxWTVB4LWZMempadzRxMXJ1SlVTbHNDMmR6NThQcjRGWU9IU2RySnNrR1QyX0ZCdmZ0X2RsejUzOFBQQWJDYUN4WHVRRFlMa2ZCUmQ3ckVOVEdaaDFB?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: RTX, General Motors, Northrop Grumman, Steel Dynamics & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMWExbFYteDZjLXkzNTdrM1FYdzhBMTZJVDBWcE9zdWF3RWdsQmprN1VFbDhMbXhuQTVnaWs1YTlDb2UxaUxWTVB4LWZMempadzRxMXJ1SlVTbHNDMmR6NThQcjRGWU9IU2RySnNrR1QyX0ZCdmZ0X2RsejUzOFBQQWJDYUN4WHVRRFlMa2ZCUmQ3ckVOVEdaaDFB?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-20T18:40:01.531766Z"
     }
   ],
   "alerts": [
     {
-      "id": "ea6521f85fefe0d848e0162d0043092f",
-      "title": "Gas Production Plunges 12.6% as Europe Heads into Winter",
-      "summary": "Norway\u2019s oil and gas production declined sharply in September, with natural gas output falling 12.6% from August, according to preliminary figures released Tuesday by the Norwegian Offshore Directorate (NOD). Total petroleum production averaged approximately 3.77 million barrels of oil equivalent per day (boepd), down 10.4% month-on-month and 4% below the directorate\u2019s forecast. The decline comes at a sensitive time for European energy markets, with the winter heating season approaching and Norway remaining the continent\u2019s largest\u2026",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Gas-Production-Plunges-126-as-Europe-Heads-into-Winter.html",
-      "source": "OilPrice",
-      "score": 21,
-      "severity": "HIGH",
-      "regime": "RATES",
+      "id": "4313b365cd80c2a5358e8052310b3c56",
+      "title": "Gilt market catches up with peers as investor worries over Budget ease",
+      "summary": "UK bonds were initially hard hit after onset of Iran war but have since outperformed as traders\u2019 concerns shift to France",
+      "link": "https://www.ft.com/content/31f86452-c16a-4fbf-b393-bb5282c1cb59?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "EUR",
-        "WTI"
+        "UK_GILTS"
       ],
       "regions": [
-        "EUROPE"
+        "FRANCE",
+        "MIDDLE_EAST",
+        "UK"
       ],
       "assets": [
-        "AI",
-        "COMMODITIES",
-        "FX"
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-20T18:39:01.958226Z"
+    },
+    {
+      "id": "c1265a43d5baa260406f0b28fe6d9a68",
+      "title": "A unique vantage point \u2212 speech by Nathana\u00ebl Benjamin",
+      "summary": "Given at the ISDA Derivatives Trading and Treasury Forum",
+      "link": "https://www.bankofengland.co.uk/speech/2026/october/nathanael-benjamin-speech-at-isda-derivatives-trading-and-treasury-forum",
+      "source": "Bank of England",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -81,7 +319,183 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-20T18:33:17.077469Z"
+      "published": "2026-10-20T18:39:47.404143Z"
+    },
+    {
+      "id": "1a4b9adca6996022cf059d7ff9a019af",
+      "title": "Do not worry too much about European gas prices",
+      "summary": "Wholesale values have hit new highs this year but the pain should be transitory",
+      "link": "https://www.ft.com/content/31df1d21-159c-4c24-be0a-566c00c2d100?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-20T18:39:01.958278Z"
+    },
+    {
+      "id": "7ce3a8ece4fc95aacaed07a84009877c",
+      "title": "HSBC reviews Palantir holding in $9bn Islamic fund",
+      "summary": "UK workplace pension schemes raise concerns about inclusion of controversial company in fund tracking S&amp;P Shariah index",
+      "link": "https://www.ft.com/content/f3d80441-2ab4-4ccb-bf8c-e2b6c040f238?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-20T18:39:01.958324Z"
+    },
+    {
+      "id": "a86d2dfca2eb045cb53157bdd5852fab",
+      "title": "It\u2019s time to give individual shareholders direct votes on climate change",
+      "summary": "As corporates and fund managers retreat on green commitments, we must use technology to give savers and investors a say on policies affecting the planet",
+      "link": "https://www.ft.com/content/dcc245d8-2dca-4892-a9fb-2bddfa69ed35?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-20T18:39:01.958391Z"
+    },
+    {
+      "id": "0ba1467dec0e5ce9770438726dc49a4c",
+      "title": "Tokyo area condo prices hit half-year record, but signs of slowdown emerge",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/markets/property/tokyo-area-condo-prices-hit-half-year-record-but-signs-of-slowdown-emerge",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-20T18:39:50.417609Z"
+    },
+    {
+      "id": "1b0e5358bacb172f1a67a74af160809a",
+      "title": "23andMe successor settles with California for $6 million over cybersecurity failings",
+      "summary": "California Attorney General Rob Bonta announced a settlement under which 23andMe's successor will pay $6 million to resolve allegations that the company did not properly protect customers' data before a 2023 breach.",
+      "link": "https://therecord.media/23andme-california-data-breach-settlement",
+      "source": "The Record",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-20T18:39:58.322990Z"
+    },
+    {
+      "id": "9b808b47dc5a54150efb734b2ce71f8e",
+      "title": "Stocks try for back-to-back gains \u2014 plus, Qnity gets iPhone business from Apple - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOUm5NM0pMWWxjSWZCbjM3b21xcFJMYXNvRlV6S0QtUFp3V1FPQVQzOTJ1TVJsdFc0RW1rRGdTNElja3MyODIwcVdVMk1sLXUtSE9MMjZ0SEdVM1Q5YzZfS2k1eDJfMHowdm9ELWpCQWp0WUlwYTFIaVppV1ZHUThCRm5FRkFmWlI0UTcxTnBidFp3U3hEY2FqbHY1cmVKR3A3N25vSnhjV3p6WHJ4dFRjeVNaXzJ2LXQ5LWpQcW5QV0h5TEtjQXc?oc=5\" target=\"_blank\">Stocks try for back-to-back gains \u2014 plus, Qnity gets iPhone business from Apple</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUm5NM0pMWWxjSWZCbjM3b21xcFJMYXNvRlV6S0QtUFp3V1FPQVQzOTJ1TVJsdFc0RW1rRGdTNElja3MyODIwcVdVMk1sLXUtSE9MMjZ0SEdVM1Q5YzZfS2k1eDJfMHowdm9ELWpCQWp0WUlwYTFIaVppV1ZHUThCRm5FRkFmWlI0UTcxTnBidFp3U3hEY2FqbHY1cmVKR3A3N25vSnhjV3p6WHJ4dFRjeVNaXzJ2LXQ5LWpQcW5QV0h5TEtjQXc?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-20T18:40:01.531692Z"
+    },
+    {
+      "id": "968ddbcf3c3899e17dc667e6649dccfd",
+      "title": "Tradeweb to Buy Trumid For About $1.97 Billion - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQR3BERDAta1ZnbmpFdEJmUTctWTByVG5yRDBkMjRWemNaUVBNMmlPd2M3RUV1NVk0SDNibWtiNEhYb25Pd1lHVzdyT1o1ZGN6Rk9ZQlBEV0pIeDBrb3ltdC1URkQySUZObTcyV1Z1eVVYUThRUl9Pd210MlJNdy1TWEpjZFRPd01FRXlkNVgwcGM5Rnc?oc=5\" target=\"_blank\">Tradeweb to Buy Trumid For About $1.97 Billion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQR3BERDAta1ZnbmpFdEJmUTctWTByVG5yRDBkMjRWemNaUVBNMmlPd2M3RUV1NVk0SDNibWtiNEhYb25Pd1lHVzdyT1o1ZGN6Rk9ZQlBEV0pIeDBrb3ltdC1URkQySUZObTcyV1Z1eVVYUThRUl9Pd210MlJNdy1TWEpjZFRPd01FRXlkNVgwcGM5Rnc?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-20T18:40:00.832268Z"
+    },
+    {
+      "id": "67fda5d33a8af7d90c80640d6006f44b",
+      "title": "Stocks making the biggest moves premarket: RTX, General Motors, Northrop Grumman, Steel Dynamics & more - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQMWExbFYteDZjLXkzNTdrM1FYdzhBMTZJVDBWcE9zdWF3RWdsQmprN1VFbDhMbXhuQTVnaWs1YTlDb2UxaUxWTVB4LWZMempadzRxMXJ1SlVTbHNDMmR6NThQcjRGWU9IU2RySnNrR1QyX0ZCdmZ0X2RsejUzOFBQQWJDYUN4WHVRRFlMa2ZCUmQ3ckVOVEdaaDFB?oc=5\" target=\"_blank\">Stocks making the biggest moves premarket: RTX, General Motors, Northrop Grumman, Steel Dynamics & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMWExbFYteDZjLXkzNTdrM1FYdzhBMTZJVDBWcE9zdWF3RWdsQmprN1VFbDhMbXhuQTVnaWs1YTlDb2UxaUxWTVB4LWZMempadzRxMXJ1SlVTbHNDMmR6NThQcjRGWU9IU2RySnNrR1QyX0ZCdmZ0X2RsejUzOFBQQWJDYUN4WHVRRFlMa2ZCUmQ3ckVOVEdaaDFB?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-20T18:40:01.531766Z"
     }
   ]
 }
