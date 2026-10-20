@@ -1,25 +1,25 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-20T15:48:53.881517Z",
+  "generated_at": "2026-10-20T15:53:08.852362Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-10-20T15:48:53.881528Z"
+    "high_alerts": 1,
+    "last_updated": "2026-10-20T15:53:08.852370Z"
   },
   "top_signals": [
     {
-      "id": "0aa00f9c62be9be21657bdb866d1fc15",
-      "title": "Treasuries Rise as Oil Retreats From Highest Levels in Weeks",
-      "summary": "Treasuries rose as benchmark oil prices retreated from the highest levels in weeks, prompting traders to trim wagers on Federal Reserve interest-rate hikes over the coming year.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-20/treasuries-rise-as-oil-retreats-from-highest-levels-in-weeks",
-      "source": "Bloomberg",
-      "score": 31,
+      "id": "0279ae13de18f3b0f0a406fe3ca8b40f",
+      "title": "Crude oil prices and refinery margins generally increased throughout the third quarter",
+      "summary": "Petroleum markets in the third quarter of 2026 (3Q26) were characterized by increasing prices for crude oil and petroleum products amid persistent conflict in the Middle East.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
+      "source": "EIA",
+      "score": 25,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "WTI"
       ],
@@ -29,31 +29,131 @@
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-20T15:47:51.654497Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-20T15:53:02.106833Z"
     },
     {
-      "id": "3d3d0f2b9f9d3b01f6c53e3b05e3b63e",
-      "title": "WestJet Bonds Slide to Record Low as Fuel, Trade Tensions Rise",
-      "summary": "WestJet Airlines Ltd., Canada\u2019s second-largest air carrier, saw its bonds fall to their lowest level since they were issued in June, as spikes in the cost of fuel and trade tensions are dimming its earnings outlook.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-20/westjet-bonds-slide-to-record-low-as-fuel-trade-tensions-rise",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "0dabbab28b6b66af2cd64ad95d2d6eca",
+      "title": "Alberta voters reject separation from Canada",
+      "summary": "Referendum in oil-rich western province had threatened new turmoil for Mark Carney amid stand-off with Donald Trump",
+      "link": "https://www.ft.com/content/8afb4e0b-302b-445c-8dde-4c5b091b808e?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-20T15:52:10.767568Z"
+    },
+    {
+      "id": "094dbca2bb64bae341681ab79bd0b153",
+      "title": "Live updates: Bitcoin cuts losses as stocks edge higher",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/10/20/live-updates-market-jitters-persist-as-the-ai-selloff-deepens",
+      "source": "CoinDesk",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-10-20T15:53:04.759952Z"
+    },
+    {
+      "id": "52711d6a14295cd0a69960291cb41a80",
+      "title": "Financial conditions: what\u2019s priced in? \u2212 speech by Catherine L. Mann",
+      "summary": "Given at the Nomura London Macro Forum",
+      "link": "https://www.bankofengland.co.uk/speech/2026/october/catherine-mann-nomura-investor-conference",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-20T15:52:55.572257Z"
+    },
+    {
+      "id": "322223d70aeeef43f917b09caa5bf302",
+      "title": "Chancellor says \u2018It is my job to protect resilience of the UK economy and the budget will do that\u2019 in the face of international headwinds",
+      "summary": "Chancellor of the Exchequer, John Healey used the IMF Annual Meetings in Bangkok to set out how the UK and its international partners can work together to respond to global economic headwinds and strengthen the conditions for growth.",
+      "link": "https://www.gov.uk/government/news/chancellor-says-it-is-my-job-to-protect-resilience-of-the-uk-economy-and-the-budget-will-do-that-in-the-face-of-international-headwinds",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-20T15:52:56.352835Z"
+    },
+    {
+      "id": "755c251c92c4eb7fd49013867272d877",
+      "title": "Data center stocks remain under pressure after Korea IPO plunges 30% - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPTDNTb1VtS1EwN01MVno1T19zRkJOQWZxZ1B4Q2VnalhzWTFYVUZHR183cDJXT3BhMFZkNUpWb1A3b25ZUkdZWE14Z25oT3E3RFFhNVVzQjFnMTA4dkMyaVJCV0dRSDVXaG44ZlRzX1c3eGZQei13OV9ZNXFjMU5tZXMyamdVYUtMZW1uUkV0QWt2Mnc5dTRlc3JoVlBnMVctdG1QVU9TSTlwenNBN3N4ZVBTUnV1MldkV0HSAb8BQVVfeXFMTmNDNWN4eEZtWlJPUWVaRWZCX1lVT2h3RmJ1VGpGSDlwWlJ4TUZmTFMxTmUxWVRmVFBwWlhUVVFmRFk3OHdKQ2xHaUgxR3JHaFMzYVNndWZReE43WXBQdTdQN282b3g2X2VQWU52RmtXUm9ldkJudnhFQW1yMjlraDlNbHlFa0Q4aWwzS01MbFNCNS1oTGZnZE52cVhsMzVoWVNTVGxET0F1ajNnNkhZUG5aOXE1NUdXcGxTRkV1VEk?oc=5\" target=\"_blank\">Data center stocks remain under pressure after Korea IPO plunges 30%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTDNTb1VtS1EwN01MVno1T19zRkJOQWZxZ1B4Q2VnalhzWTFYVUZHR183cDJXT3BhMFZkNUpWb1A3b25ZUkdZWE14Z25oT3E3RFFhNVVzQjFnMTA4dkMyaVJCV0dRSDVXaG44ZlRzX1c3eGZQei13OV9ZNXFjMU5tZXMyamdVYUtMZW1uUkV0QWt2Mnc5dTRlc3JoVlBnMVctdG1QVU9TSTlwenNBN3N4ZVBTUnV1MldkV0HSAb8BQVVfeXFMTmNDNWN4eEZtWlJPUWVaRWZCX1lVT2h3RmJ1VGpGSDlwWlJ4TUZmTFMxTmUxWVRmVFBwWlhUVVFmRFk3OHdKQ2xHaUgxR3JHaFMzYVNndWZReE43WXBQdTdQN282b3g2X2VQWU52RmtXUm9ldkJudnhFQW1yMjlraDlNbHlFa0Q4aWwzS01MbFNCNS1oTGZnZE52cVhsMzVoWVNTVGxET0F1ajNnNkhZUG5aOXE1NUdXcGxTRkV1VEk?oc=5",
+      "source": "Google Macro",
+      "score": 10,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [
-        "AI"
+        "AI",
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -64,19 +164,35 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-20T15:47:51.654451Z"
+      "published": "2026-10-20T15:53:08.852315Z"
+    },
+    {
+      "id": "a643f7cc25aa08c5da13b43466e854da",
+      "title": "Revolut outage disrupts online banking operations worldwide",
+      "summary": "Fintech company Revolut is working to resolve a massive outage that disrupted most of its services worldwide earlier today. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
+      "source": "BleepingComputer",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-20T15:53:05.306785Z"
     }
   ],
   "alerts": [
     {
-      "id": "0aa00f9c62be9be21657bdb866d1fc15",
-      "title": "Treasuries Rise as Oil Retreats From Highest Levels in Weeks",
-      "summary": "Treasuries rose as benchmark oil prices retreated from the highest levels in weeks, prompting traders to trim wagers on Federal Reserve interest-rate hikes over the coming year.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-20/treasuries-rise-as-oil-retreats-from-highest-levels-in-weeks",
-      "source": "Bloomberg",
-      "score": 31,
+      "id": "0279ae13de18f3b0f0a406fe3ca8b40f",
+      "title": "Crude oil prices and refinery margins generally increased throughout the third quarter",
+      "summary": "Petroleum markets in the third quarter of 2026 (3Q26) were characterized by increasing prices for crude oil and petroleum products amid persistent conflict in the Middle East.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
+      "source": "EIA",
+      "score": 25,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "WTI"
       ],
@@ -86,31 +202,131 @@
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-20T15:47:51.654497Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-20T15:53:02.106833Z"
     },
     {
-      "id": "3d3d0f2b9f9d3b01f6c53e3b05e3b63e",
-      "title": "WestJet Bonds Slide to Record Low as Fuel, Trade Tensions Rise",
-      "summary": "WestJet Airlines Ltd., Canada\u2019s second-largest air carrier, saw its bonds fall to their lowest level since they were issued in June, as spikes in the cost of fuel and trade tensions are dimming its earnings outlook.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-20/westjet-bonds-slide-to-record-low-as-fuel-trade-tensions-rise",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "0dabbab28b6b66af2cd64ad95d2d6eca",
+      "title": "Alberta voters reject separation from Canada",
+      "summary": "Referendum in oil-rich western province had threatened new turmoil for Mark Carney amid stand-off with Donald Trump",
+      "link": "https://www.ft.com/content/8afb4e0b-302b-445c-8dde-4c5b091b808e?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-20T15:52:10.767568Z"
+    },
+    {
+      "id": "094dbca2bb64bae341681ab79bd0b153",
+      "title": "Live updates: Bitcoin cuts losses as stocks edge higher",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/10/20/live-updates-market-jitters-persist-as-the-ai-selloff-deepens",
+      "source": "CoinDesk",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-10-20T15:53:04.759952Z"
+    },
+    {
+      "id": "52711d6a14295cd0a69960291cb41a80",
+      "title": "Financial conditions: what\u2019s priced in? \u2212 speech by Catherine L. Mann",
+      "summary": "Given at the Nomura London Macro Forum",
+      "link": "https://www.bankofengland.co.uk/speech/2026/october/catherine-mann-nomura-investor-conference",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-20T15:52:55.572257Z"
+    },
+    {
+      "id": "322223d70aeeef43f917b09caa5bf302",
+      "title": "Chancellor says \u2018It is my job to protect resilience of the UK economy and the budget will do that\u2019 in the face of international headwinds",
+      "summary": "Chancellor of the Exchequer, John Healey used the IMF Annual Meetings in Bangkok to set out how the UK and its international partners can work together to respond to global economic headwinds and strengthen the conditions for growth.",
+      "link": "https://www.gov.uk/government/news/chancellor-says-it-is-my-job-to-protect-resilience-of-the-uk-economy-and-the-budget-will-do-that-in-the-face-of-international-headwinds",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-20T15:52:56.352835Z"
+    },
+    {
+      "id": "755c251c92c4eb7fd49013867272d877",
+      "title": "Data center stocks remain under pressure after Korea IPO plunges 30% - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPTDNTb1VtS1EwN01MVno1T19zRkJOQWZxZ1B4Q2VnalhzWTFYVUZHR183cDJXT3BhMFZkNUpWb1A3b25ZUkdZWE14Z25oT3E3RFFhNVVzQjFnMTA4dkMyaVJCV0dRSDVXaG44ZlRzX1c3eGZQei13OV9ZNXFjMU5tZXMyamdVYUtMZW1uUkV0QWt2Mnc5dTRlc3JoVlBnMVctdG1QVU9TSTlwenNBN3N4ZVBTUnV1MldkV0HSAb8BQVVfeXFMTmNDNWN4eEZtWlJPUWVaRWZCX1lVT2h3RmJ1VGpGSDlwWlJ4TUZmTFMxTmUxWVRmVFBwWlhUVVFmRFk3OHdKQ2xHaUgxR3JHaFMzYVNndWZReE43WXBQdTdQN282b3g2X2VQWU52RmtXUm9ldkJudnhFQW1yMjlraDlNbHlFa0Q4aWwzS01MbFNCNS1oTGZnZE52cVhsMzVoWVNTVGxET0F1ajNnNkhZUG5aOXE1NUdXcGxTRkV1VEk?oc=5\" target=\"_blank\">Data center stocks remain under pressure after Korea IPO plunges 30%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTDNTb1VtS1EwN01MVno1T19zRkJOQWZxZ1B4Q2VnalhzWTFYVUZHR183cDJXT3BhMFZkNUpWb1A3b25ZUkdZWE14Z25oT3E3RFFhNVVzQjFnMTA4dkMyaVJCV0dRSDVXaG44ZlRzX1c3eGZQei13OV9ZNXFjMU5tZXMyamdVYUtMZW1uUkV0QWt2Mnc5dTRlc3JoVlBnMVctdG1QVU9TSTlwenNBN3N4ZVBTUnV1MldkV0HSAb8BQVVfeXFMTmNDNWN4eEZtWlJPUWVaRWZCX1lVT2h3RmJ1VGpGSDlwWlJ4TUZmTFMxTmUxWVRmVFBwWlhUVVFmRFk3OHdKQ2xHaUgxR3JHaFMzYVNndWZReE43WXBQdTdQN282b3g2X2VQWU52RmtXUm9ldkJudnhFQW1yMjlraDlNbHlFa0Q4aWwzS01MbFNCNS1oTGZnZE52cVhsMzVoWVNTVGxET0F1ajNnNkhZUG5aOXE1NUdXcGxTRkV1VEk?oc=5",
+      "source": "Google Macro",
+      "score": 10,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [
-        "AI"
+        "AI",
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -121,7 +337,23 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-20T15:47:51.654451Z"
+      "published": "2026-10-20T15:53:08.852315Z"
+    },
+    {
+      "id": "a643f7cc25aa08c5da13b43466e854da",
+      "title": "Revolut outage disrupts online banking operations worldwide",
+      "summary": "Fintech company Revolut is working to resolve a massive outage that disrupted most of its services worldwide earlier today. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
+      "source": "BleepingComputer",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-20T15:53:05.306785Z"
     }
   ]
 }
