@@ -1,27 +1,64 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-23T13:24:38.352685Z",
+  "generated_at": "2026-10-23T13:28:39.455981Z",
   "market_regime": {
-    "regime": "AI",
-    "dominant_driver": "AI",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 0,
-    "last_updated": "2026-10-23T13:24:38.352697Z"
+    "last_updated": "2026-10-23T13:28:39.455992Z"
   },
   "top_signals": [
     {
-      "id": "4d786b9e5f560d1c77e82fa78bb3c11a",
-      "title": "Wheat Slides for Eighth Week in Longest Losing Streak Since 1997",
-      "summary": "Wheat futures are on track for the longest weekly slump in almost three decades, marking a stark reversal after the grain led a run-up across agricultural commodities earlier in the year.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-23/wheat-slides-for-eighth-week-in-longest-losing-streak-since-1997",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "3954bfbe8c728dd72706db984307de73",
+      "title": "Brent crude oil tops $115, a five month high, as tensions build in the Middle East",
+      "summary": "U.S. President Donald Trump accused Iran on Thursday of trying to manipulate the oil market.",
+      "link": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
+      "source": "CNBC",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-23T13:27:47.946244Z"
+    },
+    {
+      "id": "72c1db75a331e7e5dc857bd115bd1174",
+      "title": "American Express is cutting 5% of its workforce",
+      "summary": "Amex, which reported third-quarter results earlier Friday, is taking a $336 million restructuring charge in the quarter, CEO Stephen Squeri said Friday.",
+      "link": "https://www.cnbc.com/2026/10/23/american-express-job-cuts.html",
+      "source": "CNBC",
+      "score": 10,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "US"
+      ],
       "assets": [
         "AI"
       ],
@@ -34,84 +71,58 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-23T13:23:33.997508Z"
-    },
-    {
-      "id": "b77cbfadc4d593a976b2361a1034019a",
-      "title": "What the coming copper crunch means for the global economy - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNNjdGamJsMUlncDFNNDR3WWVhUnh0QkFZbFpQTlRLdFA4S2E5Zm9BREhKb3ZJMExBZVhZZTJnNWVQYXRQakNZWnNIOWpiUkZnRFJ6TVVuX3JlVUo5Vko0eC1rajc5RnczNG1hLXFsUkI5VFRQcDlFaWoxdmNobTAwRDRNV0M?oc=5\" target=\"_blank\">What the coming copper crunch means for the global economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNjdGamJsMUlncDFNNDR3WWVhUnh0QkFZbFpQTlRLdFA4S2E5Zm9BREhKb3ZJMExBZVhZZTJnNWVQYXRQakNZWnNIOWpiUkZnRFJ6TVVuX3JlVUo5Vko0eC1rajc5RnczNG1hLXFsUkI5VFRQcDlFaWoxdmNobTAwRDRNV0M?oc=5",
-      "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "COPPER"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-10-23T13:24:36.770326Z"
-    },
-    {
-      "id": "bcb64781fb6c4d48e1297786364172ce",
-      "title": "U.S. Dollar, Treasury Yields Rise - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWUJkYXlHTlpFSFVCaV9UaWNDYXg4ZzB1emNxcHpaeElsWE5xYklhSlk0cDhUVnVUMUhvdnM4RFRuV0Jwa0pqU2R5XzhJeXVJZndPQ3ZaaU9FbzNVa3lvX0NveWdlbGlRejc1M0ZwU1BleURzSlNvUEpZdUNUOHFGRnVmbjdvVXlCOHo4WXd4a1pOZ0hBS1U2bUUxbVUwTmh3OWUxVGs2Zks?oc=5\" target=\"_blank\">U.S. Dollar, Treasury Yields Rise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWUJkYXlHTlpFSFVCaV9UaWNDYXg4ZzB1emNxcHpaeElsWE5xYklhSlk0cDhUVnVUMUhvdnM4RFRuV0Jwa0pqU2R5XzhJeXVJZndPQ3ZaaU9FbzNVa3lvX0NveWdlbGlRejc1M0ZwU1BleURzSlNvUEpZdUNUOHFGRnVmbjdvVXlCOHo4WXd4a1pOZ0hBS1U2bUUxbVUwTmh3OWUxVGs2Zks?oc=5",
-      "source": "Google Macro",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "RATES",
-      "tickers": [
-        "DXY",
-        "TLT"
-      ],
-      "regions": [],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-23T13:24:37.537566Z"
+      "published": "2026-10-23T13:27:47.946207Z"
     }
   ],
   "alerts": [
     {
-      "id": "4d786b9e5f560d1c77e82fa78bb3c11a",
-      "title": "Wheat Slides for Eighth Week in Longest Losing Streak Since 1997",
-      "summary": "Wheat futures are on track for the longest weekly slump in almost three decades, marking a stark reversal after the grain led a run-up across agricultural commodities earlier in the year.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-23/wheat-slides-for-eighth-week-in-longest-losing-streak-since-1997",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "3954bfbe8c728dd72706db984307de73",
+      "title": "Brent crude oil tops $115, a five month high, as tensions build in the Middle East",
+      "summary": "U.S. President Donald Trump accused Iran on Thursday of trying to manipulate the oil market.",
+      "link": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
+      "source": "CNBC",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-23T13:27:47.946244Z"
+    },
+    {
+      "id": "72c1db75a331e7e5dc857bd115bd1174",
+      "title": "American Express is cutting 5% of its workforce",
+      "summary": "Amex, which reported third-quarter results earlier Friday, is taking a $336 million restructuring charge in the quarter, CEO Stephen Squeri said Friday.",
+      "link": "https://www.cnbc.com/2026/10/23/american-express-job-cuts.html",
+      "source": "CNBC",
+      "score": 10,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "US"
+      ],
       "assets": [
         "AI"
       ],
@@ -124,70 +135,7 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-23T13:23:33.997508Z"
-    },
-    {
-      "id": "b77cbfadc4d593a976b2361a1034019a",
-      "title": "What the coming copper crunch means for the global economy - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNNjdGamJsMUlncDFNNDR3WWVhUnh0QkFZbFpQTlRLdFA4S2E5Zm9BREhKb3ZJMExBZVhZZTJnNWVQYXRQakNZWnNIOWpiUkZnRFJ6TVVuX3JlVUo5Vko0eC1rajc5RnczNG1hLXFsUkI5VFRQcDlFaWoxdmNobTAwRDRNV0M?oc=5\" target=\"_blank\">What the coming copper crunch means for the global economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNjdGamJsMUlncDFNNDR3WWVhUnh0QkFZbFpQTlRLdFA4S2E5Zm9BREhKb3ZJMExBZVhZZTJnNWVQYXRQakNZWnNIOWpiUkZnRFJ6TVVuX3JlVUo5Vko0eC1rajc5RnczNG1hLXFsUkI5VFRQcDlFaWoxdmNobTAwRDRNV0M?oc=5",
-      "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "COPPER"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-10-23T13:24:36.770326Z"
-    },
-    {
-      "id": "bcb64781fb6c4d48e1297786364172ce",
-      "title": "U.S. Dollar, Treasury Yields Rise - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWUJkYXlHTlpFSFVCaV9UaWNDYXg4ZzB1emNxcHpaeElsWE5xYklhSlk0cDhUVnVUMUhvdnM4RFRuV0Jwa0pqU2R5XzhJeXVJZndPQ3ZaaU9FbzNVa3lvX0NveWdlbGlRejc1M0ZwU1BleURzSlNvUEpZdUNUOHFGRnVmbjdvVXlCOHo4WXd4a1pOZ0hBS1U2bUUxbVUwTmh3OWUxVGs2Zks?oc=5\" target=\"_blank\">U.S. Dollar, Treasury Yields Rise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWUJkYXlHTlpFSFVCaV9UaWNDYXg4ZzB1emNxcHpaeElsWE5xYklhSlk0cDhUVnVUMUhvdnM4RFRuV0Jwa0pqU2R5XzhJeXVJZndPQ3ZaaU9FbzNVa3lvX0NveWdlbGlRejc1M0ZwU1BleURzSlNvUEpZdUNUOHFGRnVmbjdvVXlCOHo4WXd4a1pOZ0hBS1U2bUUxbVUwTmh3OWUxVGs2Zks?oc=5",
-      "source": "Google Macro",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "RATES",
-      "tickers": [
-        "DXY",
-        "TLT"
-      ],
-      "regions": [],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-10-23T13:24:37.537566Z"
+      "published": "2026-10-23T13:27:47.946207Z"
     }
   ]
 }
