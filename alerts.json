@@ -1,35 +1,61 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-24T11:48:32.277923Z",
+  "generated_at": "2026-10-24T11:53:48.246434Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-10-24T11:48:32.277935Z"
+    "critical_alerts": 0,
+    "high_alerts": 3,
+    "last_updated": "2026-10-24T11:53:48.246445Z"
   },
   "top_signals": [
     {
-      "id": "fb23f650c6d9d10d1c417d19ff0a2e5c",
-      "title": "Oil Markets Brace for Renewed Iran Fighting",
-      "summary": "Bloomberg Economics Chief Emerging Markets Economist Ziad Daoud tells Bloomberg This Weekend that the risk of renewed fighting between the US, Israel and Iran is rising, helping keep oil prices elevated even as energy flows through the Strait of Hormuz recover. Speaking with hosts David Gura and Christina Ruffini, Daoud says the conflict could remain a long-term stalemate, with heightened shipping costs, depleted stockpiles and escalating regional tensions continuing to threaten global energy supplies. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-24/oil-markets-brace-for-renewed-iran-fighting-video",
-      "source": "Bloomberg",
-      "score": 54,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "id": "3fdb255f8cf819e174113b3861d00e80",
+      "title": "\u2018Disrupter\u2019 exchanges battle for ETFs in challenge to NYSE and Nasdaq",
+      "summary": "Cboe captures nearly half of US listings as intensifying competition reflects rapid growth in derivative-heavy funds",
+      "link": "https://www.ft.com/content/8dd8e115-c45e-4b66-8390-b5eeea4671d5?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "QQQ"
       ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-24T11:52:54.475750Z"
+    },
+    {
+      "id": "574d4c6ac8b3040b1b85881b3f5fbfbd",
+      "title": "Russia, Ukraine agree on ceasefire in embattled town, to hold peace talks next month - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQMFNJeDNkbkFpbnliam8zamd3UU1pZjgzS1JkNTF3M1dRcG0wbm8yZnpxMmp1UDdGdWpPZ2F4WU95YzZnTzVURnNlbDFId3VzWEpmMnJNQkxSY3ZJRmEycDVFR2F2YUpGaVZLbjZNbm1fTkRiclV6a3pXVmZtekVWaU52aHhHMHl0R3ZjX0hKQ3Z3SjUydzdsSklfRTVReUl2Mkh3RFlZRk0xUW4zVWZkbW5YdEo0UkZsRzZqZ0lIMA?oc=5\" target=\"_blank\">Russia, Ukraine agree on ceasefire in embattled town, to hold peace talks next month</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMFNJeDNkbkFpbnliam8zamd3UU1pZjgzS1JkNTF3M1dRcG0wbm8yZnpxMmp1UDdGdWpPZ2F4WU95YzZnTzVURnNlbDFId3VzWEpmMnJNQkxSY3ZJRmEycDVFR2F2YUpGaVZLbjZNbm1fTkRiclV6a3pXVmZtekVWaU52aHhHMHl0R3ZjX0hKQ3Z3SjUydzdsSklfRTVReUl2Mkh3RFlZRk0xUW4zVWZkbW5YdEo0UkZsRzZqZ0lIMA?oc=5",
+      "source": "Google Macro",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
       "regions": [
-        "MIDDLE_EAST"
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
       ],
       "assets": [
-        "AI",
-        "COMMODITIES",
-        "SHIPPING"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -45,29 +71,85 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-24T11:47:38.321256Z"
+      "published": "2026-10-24T11:53:46.665740Z"
+    },
+    {
+      "id": "64b6ec3a086fdb26e0ab8463a93b6ba2",
+      "title": "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro",
+      "summary": "",
+      "link": "https://www.coindesk.com/daybook-us/2026/10/23/bitcoin-s-volatility-is-well-above-euro-dollar-gyrations-though-it-has-calmed-to-rival-nvidia-s",
+      "source": "CoinDesk",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [
+        "BTC",
+        "EUR",
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-24T11:53:45.017571Z"
     }
   ],
   "alerts": [
     {
-      "id": "fb23f650c6d9d10d1c417d19ff0a2e5c",
-      "title": "Oil Markets Brace for Renewed Iran Fighting",
-      "summary": "Bloomberg Economics Chief Emerging Markets Economist Ziad Daoud tells Bloomberg This Weekend that the risk of renewed fighting between the US, Israel and Iran is rising, helping keep oil prices elevated even as energy flows through the Strait of Hormuz recover. Speaking with hosts David Gura and Christina Ruffini, Daoud says the conflict could remain a long-term stalemate, with heightened shipping costs, depleted stockpiles and escalating regional tensions continuing to threaten global energy supplies. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-24/oil-markets-brace-for-renewed-iran-fighting-video",
-      "source": "Bloomberg",
-      "score": 54,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "id": "3fdb255f8cf819e174113b3861d00e80",
+      "title": "\u2018Disrupter\u2019 exchanges battle for ETFs in challenge to NYSE and Nasdaq",
+      "summary": "Cboe captures nearly half of US listings as intensifying competition reflects rapid growth in derivative-heavy funds",
+      "link": "https://www.ft.com/content/8dd8e115-c45e-4b66-8390-b5eeea4671d5?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "QQQ"
       ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-24T11:52:54.475750Z"
+    },
+    {
+      "id": "574d4c6ac8b3040b1b85881b3f5fbfbd",
+      "title": "Russia, Ukraine agree on ceasefire in embattled town, to hold peace talks next month - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQMFNJeDNkbkFpbnliam8zamd3UU1pZjgzS1JkNTF3M1dRcG0wbm8yZnpxMmp1UDdGdWpPZ2F4WU95YzZnTzVURnNlbDFId3VzWEpmMnJNQkxSY3ZJRmEycDVFR2F2YUpGaVZLbjZNbm1fTkRiclV6a3pXVmZtekVWaU52aHhHMHl0R3ZjX0hKQ3Z3SjUydzdsSklfRTVReUl2Mkh3RFlZRk0xUW4zVWZkbW5YdEo0UkZsRzZqZ0lIMA?oc=5\" target=\"_blank\">Russia, Ukraine agree on ceasefire in embattled town, to hold peace talks next month</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMFNJeDNkbkFpbnliam8zamd3UU1pZjgzS1JkNTF3M1dRcG0wbm8yZnpxMmp1UDdGdWpPZ2F4WU95YzZnTzVURnNlbDFId3VzWEpmMnJNQkxSY3ZJRmEycDVFR2F2YUpGaVZLbjZNbm1fTkRiclV6a3pXVmZtekVWaU52aHhHMHl0R3ZjX0hKQ3Z3SjUydzdsSklfRTVReUl2Mkh3RFlZRk0xUW4zVWZkbW5YdEo0UkZsRzZqZ0lIMA?oc=5",
+      "source": "Google Macro",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
       "regions": [
-        "MIDDLE_EAST"
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
       ],
       "assets": [
-        "AI",
-        "COMMODITIES",
-        "SHIPPING"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -83,7 +165,37 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-24T11:47:38.321256Z"
+      "published": "2026-10-24T11:53:46.665740Z"
+    },
+    {
+      "id": "64b6ec3a086fdb26e0ab8463a93b6ba2",
+      "title": "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro",
+      "summary": "",
+      "link": "https://www.coindesk.com/daybook-us/2026/10/23/bitcoin-s-volatility-is-well-above-euro-dollar-gyrations-though-it-has-calmed-to-rival-nvidia-s",
+      "source": "CoinDesk",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [
+        "BTC",
+        "EUR",
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-24T11:53:45.017571Z"
     }
   ]
 }
