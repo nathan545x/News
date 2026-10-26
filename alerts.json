@@ -1,31 +1,32 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-26T11:19:00.822318Z",
+  "generated_at": "2026-10-26T11:25:09.561034Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "AI",
+    "dominant_driver": "AI",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-10-26T11:19:00.822325Z"
+    "critical_alerts": 1,
+    "high_alerts": 3,
+    "last_updated": "2026-10-26T11:25:09.561054Z"
   },
   "top_signals": [
     {
-      "id": "7f10358c605ca4d0d3f747eec27bd637",
-      "title": "What Israel\u2019s Election Won\u2019t Change",
-      "summary": "The constraints and costs of the new security consensus.",
-      "link": "https://www.foreignaffairs.com/israel/what-israels-election-wont-change",
-      "source": "Foreign Affairs",
-      "score": 12,
-      "severity": "MEDIUM",
+      "id": "f36a45969486c6b3f7804598785feec5",
+      "title": "\u2018Do no harm\u2019 \u2014 what gilt investors want from Healey in the Budget",
+      "summary": "Big bond investors hope for \u2018reassurance\u2019 from new chancellor and warn against tweaking key fiscal rules",
+      "link": "https://www.ft.com/content/244ae9ad-0778-4afe-8b6a-c2b1b9f81771?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 29,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
+      "tickers": [
+        "UK_GILTS"
       ],
+      "regions": [],
       "assets": [
-        "AI"
+        "AI",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -41,37 +42,75 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-26T11:18:56.564557Z"
+      "published": "2026-10-26T11:23:37.960965Z"
     },
     {
-      "id": "adb4a3c8d9fb844da4038789a02f085a",
-      "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "id": "eaf4d4bec4b180ab12c32c34f47a67c9",
+      "title": "Oil slides over 2% as traders weigh Saudi attack risks, demand destruction",
+      "summary": "Oil prices fell as investors weighed the threat of further attacks on Saudi Arabian energy infrastructure against concerns that elevated prices could erode demand.",
+      "link": "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html",
+      "source": "CNBC",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
       "tickers": [
-        "EUR"
+        "WTI"
       ],
       "regions": [],
       "assets": [
-        "FX"
+        "AI",
+        "COMMODITIES"
       ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-26T11:18:40.129512Z"
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-26T11:23:39.027401Z"
     },
     {
-      "id": "443f3e0d5294eaf46e8620207522d8a1",
-      "title": "Daily News 26 / 10 / 2026",
-      "summary": "European Commission Daily news Brussels, 26 Oct 2026 Commission accepts Temu's action plan to remedy the breach of the Digital Services Act \nThe European Commission has accepted Temu's action plan to comply with t...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2257",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
+      "id": "d3490815d8ab81d6bf5ec3b755844879",
+      "title": "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
+      "summary": "As Nvidia has gone from chipmaker to industry financier, some investors see the company taking on outsized risk tied to the AI buildout.",
+      "link": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+      "source": "CNBC",
+      "score": 17,
+      "severity": "HIGH",
       "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-26T11:23:39.171644Z"
+    },
+    {
+      "id": "b576c644c289cc501899f26b5611adc3",
+      "title": "Commission proposes stronger recognition of European heritage sites*",
+      "summary": "European Commission Press release Brussels, 23 Oct 2026 The European Commission has proposed to renew and reinforce the legal framework of the European Heritage Label. The scheme was adopted in 2011 aiming to offer a recognition awarded by the European Union to sites - buildings, monuments, documents - of exceptional symbolic value that have played a key role in shaping Europe's history, culture, and integration.",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2250",
+      "source": "European Commission",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "EUR"
       ],
@@ -84,6 +123,64 @@
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-26T11:24:24.970710Z"
+    },
+    {
+      "id": "ea83deb5656d7eb92e1f35a758053513",
+      "title": "Oxford Street\u2019s pedestrian revolution is finally here",
+      "summary": "UK\u2019s leading shopping parade embarks on a controversial transformation project",
+      "link": "https://www.ft.com/content/e14c2beb-cbcd-4e47-9f30-604b766f88e1?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-26T11:23:37.731450Z"
+    },
+    {
+      "id": "185aa59398ccc9c25261ff5bd9cc32dd",
+      "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
+      "summary": "Speech At the Bangkok Economic Festival, Reinventing Bretton Woods Committee, Bangkok, Thailand",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
+      "source": "Federal Reserve",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
           "NVDA",
           "SEMIS",
           "QQQ"
@@ -91,45 +188,183 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-26T11:18:44.747986Z"
+      "published": "2026-10-26T11:23:39.478070Z"
     },
     {
-      "id": "989c5d126ebba947eb97760f9b790a60",
-      "title": "A shock in Brazil sends stocks plunging, while neoclouds take another hit - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE5KUnJwODJMVjVHQXB1WnM1M1pXSDYtNWlaR2JTNnkySW44d211eWh0ZjhsRDJ4aDNUSC00bDlJQmJrREtJazJuUld1VWJ1ZGl5TlhOeTlBNlA1dVNRSzhUUGZOMzNtNHM2M0R6RVp6ak5fR0pqd0Rv0gF8QVVfeXFMUHdCeElfZGUtT0tSX3BzeFFfU1ZXdGk2Y0Q4Zl9Mb2RmQ1U2TDVGYzAwMkEwQzZHWVI0SWM4bVJPV2gxWjNiejlPb3lZZ0IyV1J3akJ3UlRJSlNiamNGN3R1SnZUVzAyM3JSeGhoUkRSZE0zYUdRX0o5Q29lbw?oc=5\" target=\"_blank\">A shock in Brazil sends stocks plunging, while neoclouds take another hit</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5KUnJwODJMVjVHQXB1WnM1M1pXSDYtNWlaR2JTNnkySW44d211eWh0ZjhsRDJ4aDNUSC00bDlJQmJrREtJazJuUld1VWJ1ZGl5TlhOeTlBNlA1dVNRSzhUUGZOMzNtNHM2M0R6RVp6ak5fR0pqd0Rv0gF8QVVfeXFMUHdCeElfZGUtT0tSX3BzeFFfU1ZXdGk2Y0Q4Zl9Mb2RmQ1U2TDVGYzAwMkEwQzZHWVI0SWM4bVJPV2gxWjNiejlPb3lZZ0IyV1J3akJ3UlRJSlNiamNGN3R1SnZUVzAyM3JSeGhoUkRSZE0zYUdRX0o5Q29lbw?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "17e13d87e6c0e4c038b6124fb23c3efe",
+      "title": "Chancellor unveils Britain\u2019s ambitious plan for AI",
+      "summary": "Major package to unlock the opportunities of AI in every postcode, scale up home grown AI firms, and keep UK safe from threats announced by the Chancellor.",
+      "link": "https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai",
+      "source": "HM Treasury",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [],
       "regions": [
         "UK"
       ],
       "assets": [
-        "EQUITIES"
+        "AI"
       ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-26T11:19:00.822278Z"
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-26T11:24:25.898188Z"
+    },
+    {
+      "id": "4fada6db800a54d5d8f59c2c4e2b33cf",
+      "title": "Egypt\u2019s Banque du Caire Prices IPO at Top End, Eyes $648 Million",
+      "summary": "Banque du Caire priced its initial public offering at the top end of the marketed range, signaling strong demand for one of Egypt\u2019s biggest-ever listings, which could raise around $648 million.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-26/banque-du-caire-says-ipo-priced-at-top-end-of-range",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-26T11:23:35.805206Z"
+    },
+    {
+      "id": "2032ccf1ecfc4267401c354bd222fd55",
+      "title": "The reclusive quant billionaire\u00a0coming into the light",
+      "summary": "Peter de Putron has spent decades maintaining a low profile. But the scale of his interests is commanding new attention",
+      "link": "https://www.ft.com/content/bc6bba42-0b33-4825-a2c5-cff9b8f5c591?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-26T11:23:37.731351Z"
+    },
+    {
+      "id": "a1d393008a5fb1e4549b999ae1ef7e54",
+      "title": "A day in Benjamin Netanyahu\u2019s heartland",
+      "summary": "Many in Sderot, a city hit by Hamas\u2019s October 7 2023 attack, remain firmly behind the prime minister ahead of the election",
+      "link": "https://www.ft.com/content/470fbc3a-fd2e-4ad3-8999-25d71e53d173",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-26T11:23:37.731406Z"
+    },
+    {
+      "id": "457d4521f999a06c2b65f841540c6719",
+      "title": "UK financial ombudsman hits phones to cut through AI hallucinations",
+      "summary": "Public sector bodies and courts are being weighed down by tech-assisted complaints that are lengthy and inaccurate",
+      "link": "https://www.ft.com/content/5f56b300-f8a6-4834-a2e6-75902880ef87?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-26T11:23:37.960910Z"
+    },
+    {
+      "id": "46dbcf16b7ee828a8ec3864cd0bc2842",
+      "title": "Bitcoin wallet bug let rogue servers steal funds when users tried to speed up payments",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/10/26/bitcoin-wallet-bug-let-rogue-servers-steal-funds-when-users-tried-to-speed-up-payments",
+      "source": "CoinDesk",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-10-26T11:24:31.139946Z"
     }
   ],
   "alerts": [
     {
-      "id": "7f10358c605ca4d0d3f747eec27bd637",
-      "title": "What Israel\u2019s Election Won\u2019t Change",
-      "summary": "The constraints and costs of the new security consensus.",
-      "link": "https://www.foreignaffairs.com/israel/what-israels-election-wont-change",
-      "source": "Foreign Affairs",
-      "score": 12,
-      "severity": "MEDIUM",
+      "id": "f36a45969486c6b3f7804598785feec5",
+      "title": "\u2018Do no harm\u2019 \u2014 what gilt investors want from Healey in the Budget",
+      "summary": "Big bond investors hope for \u2018reassurance\u2019 from new chancellor and warn against tweaking key fiscal rules",
+      "link": "https://www.ft.com/content/244ae9ad-0778-4afe-8b6a-c2b1b9f81771?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 29,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
+      "tickers": [
+        "UK_GILTS"
       ],
+      "regions": [],
       "assets": [
-        "AI"
+        "AI",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -145,37 +380,75 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-26T11:18:56.564557Z"
+      "published": "2026-10-26T11:23:37.960965Z"
     },
     {
-      "id": "adb4a3c8d9fb844da4038789a02f085a",
-      "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html",
-      "source": "ECB",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "id": "eaf4d4bec4b180ab12c32c34f47a67c9",
+      "title": "Oil slides over 2% as traders weigh Saudi attack risks, demand destruction",
+      "summary": "Oil prices fell as investors weighed the threat of further attacks on Saudi Arabian energy infrastructure against concerns that elevated prices could erode demand.",
+      "link": "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html",
+      "source": "CNBC",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
       "tickers": [
-        "EUR"
+        "WTI"
       ],
       "regions": [],
       "assets": [
-        "FX"
+        "AI",
+        "COMMODITIES"
       ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-26T11:18:40.129512Z"
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-10-26T11:23:39.027401Z"
     },
     {
-      "id": "443f3e0d5294eaf46e8620207522d8a1",
-      "title": "Daily News 26 / 10 / 2026",
-      "summary": "European Commission Daily news Brussels, 26 Oct 2026 Commission accepts Temu's action plan to remedy the breach of the Digital Services Act \nThe European Commission has accepted Temu's action plan to comply with t...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2257",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
+      "id": "d3490815d8ab81d6bf5ec3b755844879",
+      "title": "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
+      "summary": "As Nvidia has gone from chipmaker to industry financier, some investors see the company taking on outsized risk tied to the AI buildout.",
+      "link": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+      "source": "CNBC",
+      "score": 17,
+      "severity": "HIGH",
       "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-26T11:23:39.171644Z"
+    },
+    {
+      "id": "b576c644c289cc501899f26b5611adc3",
+      "title": "Commission proposes stronger recognition of European heritage sites*",
+      "summary": "European Commission Press release Brussels, 23 Oct 2026 The European Commission has proposed to renew and reinforce the legal framework of the European Heritage Label. The scheme was adopted in 2011 aiming to offer a recognition awarded by the European Union to sites - buildings, monuments, documents - of exceptional symbolic value that have played a key role in shaping Europe's history, culture, and integration.",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2250",
+      "source": "European Commission",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [
         "EUR"
       ],
@@ -188,6 +461,64 @@
       ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-26T11:24:24.970710Z"
+    },
+    {
+      "id": "ea83deb5656d7eb92e1f35a758053513",
+      "title": "Oxford Street\u2019s pedestrian revolution is finally here",
+      "summary": "UK\u2019s leading shopping parade embarks on a controversial transformation project",
+      "link": "https://www.ft.com/content/e14c2beb-cbcd-4e47-9f30-604b766f88e1?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-26T11:23:37.731450Z"
+    },
+    {
+      "id": "185aa59398ccc9c25261ff5bd9cc32dd",
+      "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
+      "summary": "Speech At the Bangkok Economic Festival, Reinventing Bretton Woods Committee, Bangkok, Thailand",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
+      "source": "Federal Reserve",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
           "NVDA",
           "SEMIS",
           "QQQ"
@@ -195,27 +526,318 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-26T11:18:44.747986Z"
+      "published": "2026-10-26T11:23:39.478070Z"
     },
     {
-      "id": "989c5d126ebba947eb97760f9b790a60",
-      "title": "A shock in Brazil sends stocks plunging, while neoclouds take another hit - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE5KUnJwODJMVjVHQXB1WnM1M1pXSDYtNWlaR2JTNnkySW44d211eWh0ZjhsRDJ4aDNUSC00bDlJQmJrREtJazJuUld1VWJ1ZGl5TlhOeTlBNlA1dVNRSzhUUGZOMzNtNHM2M0R6RVp6ak5fR0pqd0Rv0gF8QVVfeXFMUHdCeElfZGUtT0tSX3BzeFFfU1ZXdGk2Y0Q4Zl9Mb2RmQ1U2TDVGYzAwMkEwQzZHWVI0SWM4bVJPV2gxWjNiejlPb3lZZ0IyV1J3akJ3UlRJSlNiamNGN3R1SnZUVzAyM3JSeGhoUkRSZE0zYUdRX0o5Q29lbw?oc=5\" target=\"_blank\">A shock in Brazil sends stocks plunging, while neoclouds take another hit</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5KUnJwODJMVjVHQXB1WnM1M1pXSDYtNWlaR2JTNnkySW44d211eWh0ZjhsRDJ4aDNUSC00bDlJQmJrREtJazJuUld1VWJ1ZGl5TlhOeTlBNlA1dVNRSzhUUGZOMzNtNHM2M0R6RVp6ak5fR0pqd0Rv0gF8QVVfeXFMUHdCeElfZGUtT0tSX3BzeFFfU1ZXdGk2Y0Q4Zl9Mb2RmQ1U2TDVGYzAwMkEwQzZHWVI0SWM4bVJPV2gxWjNiejlPb3lZZ0IyV1J3akJ3UlRJSlNiamNGN3R1SnZUVzAyM3JSeGhoUkRSZE0zYUdRX0o5Q29lbw?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "17e13d87e6c0e4c038b6124fb23c3efe",
+      "title": "Chancellor unveils Britain\u2019s ambitious plan for AI",
+      "summary": "Major package to unlock the opportunities of AI in every postcode, scale up home grown AI firms, and keep UK safe from threats announced by the Chancellor.",
+      "link": "https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai",
+      "source": "HM Treasury",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
       "tickers": [],
       "regions": [
         "UK"
       ],
       "assets": [
-        "EQUITIES"
+        "AI"
       ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-26T11:24:25.898188Z"
+    },
+    {
+      "id": "4fada6db800a54d5d8f59c2c4e2b33cf",
+      "title": "Egypt\u2019s Banque du Caire Prices IPO at Top End, Eyes $648 Million",
+      "summary": "Banque du Caire priced its initial public offering at the top end of the marketed range, signaling strong demand for one of Egypt\u2019s biggest-ever listings, which could raise around $648 million.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-26/banque-du-caire-says-ipo-priced-at-top-end-of-range",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-26T11:23:35.805206Z"
+    },
+    {
+      "id": "2032ccf1ecfc4267401c354bd222fd55",
+      "title": "The reclusive quant billionaire\u00a0coming into the light",
+      "summary": "Peter de Putron has spent decades maintaining a low profile. But the scale of his interests is commanding new attention",
+      "link": "https://www.ft.com/content/bc6bba42-0b33-4825-a2c5-cff9b8f5c591?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-26T11:23:37.731351Z"
+    },
+    {
+      "id": "a1d393008a5fb1e4549b999ae1ef7e54",
+      "title": "A day in Benjamin Netanyahu\u2019s heartland",
+      "summary": "Many in Sderot, a city hit by Hamas\u2019s October 7 2023 attack, remain firmly behind the prime minister ahead of the election",
+      "link": "https://www.ft.com/content/470fbc3a-fd2e-4ad3-8999-25d71e53d173",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-26T11:23:37.731406Z"
+    },
+    {
+      "id": "457d4521f999a06c2b65f841540c6719",
+      "title": "UK financial ombudsman hits phones to cut through AI hallucinations",
+      "summary": "Public sector bodies and courts are being weighed down by tech-assisted complaints that are lengthy and inaccurate",
+      "link": "https://www.ft.com/content/5f56b300-f8a6-4834-a2e6-75902880ef87?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-26T11:23:37.960910Z"
+    },
+    {
+      "id": "46dbcf16b7ee828a8ec3864cd0bc2842",
+      "title": "Bitcoin wallet bug let rogue servers steal funds when users tried to speed up payments",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/10/26/bitcoin-wallet-bug-let-rogue-servers-steal-funds-when-users-tried-to-speed-up-payments",
+      "source": "CoinDesk",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-10-26T11:24:31.139946Z"
+    },
+    {
+      "id": "449dd757c0fa5fcd48be1055d4327327",
+      "title": "What a day in customer service looks like \u2014 as AI changes everything",
+      "summary": "Customer service can be a \"really, really difficult job.\" Will AI make it easier \u2014 or cause even more headaches?",
+      "link": "https://www.cnbc.com/2026/10/24/ai-customer-service-jobs-work.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-26T11:23:39.171725Z"
+    },
+    {
+      "id": "bb9e320e4a99759af1281c5812272250",
+      "title": "Minutes of the Money Market Committee meeting \u2013 September 2026",
+      "summary": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+      "link": "https://www.bankofengland.co.uk/minutes/2026/september/money-markets-committee-minutes-september-2026",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-26T11:19:00.822278Z"
+      "published": "2026-10-26T11:24:25.273436Z"
+    },
+    {
+      "id": "ae8f1c78d7e55a617f1a9a36fa7a84ef",
+      "title": "New horizons: the legal and commercial frontier of digital assets \u2212 speech by Sasha Mills",
+      "summary": "Given at Hogan Lovells and Global Digital Finance Digital Assets Summit",
+      "link": "https://www.bankofengland.co.uk/speech/2026/october/sasha-mills-speech-at-hogan-lovells-and-global-digital-finance-digital-assets-summit",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-26T11:24:25.353448Z"
+    },
+    {
+      "id": "7e5ef08feee87cb472a5b6b19632172e",
+      "title": "Borr Drilling Falls 11% After 5 Missing From Rig Sunk Off Gabon",
+      "summary": "Borr Drilling Ltd. shares fell 11% after one of its rigs sank off the African nation of Gabon over the weekend.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-26/borr-drilling-falls-11-after-5-missing-from-rig-sunk-off-gabon",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-26T11:23:35.805270Z"
+    },
+    {
+      "id": "819234adbe64d64c74e57a200a3bb224",
+      "title": "EU weighs mirroring Trump in securing critical minerals",
+      "summary": "Lawmakers propose Brussels take equity stakes in raw material projects modelled on US and Japan",
+      "link": "https://www.ft.com/content/cfb2e934-0000-42e6-93a4-4dffa56f11a8?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-26T11:23:37.960862Z"
+    },
+    {
+      "id": "f3ddc2afd0c44659d6f317be60c6f130",
+      "title": "GDP, (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 2nd Quarter 2026; State PCE, 2025",
+      "summary": "<p>Real gross domestic product (GDP) increased at an annual rate of 2.2 percent in the second quarter of 2026 (April, May, and June), according to the third estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the first quarter, real GDP increased 2.5 percent (revised). The contributors to the increase in real GDP in the second quarter were consumer spending, investment, and exports. Imports, which are a subtraction in the calculation of GDP, increased.</p><p>At the state level, real GDP ranged from a 4.0 percent increase in New York to a 2.3 percent decrease in West Virginia.</p>",
+      "link": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
+      "source": "BEA",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-10-26T11:24:20.181710Z"
+    },
+    {
+      "id": "1ba097fda697736e043dededd80f6251",
+      "title": "Former Japan Prime Minister Yasuo Fukuda dies at 90",
+      "summary": "",
+      "link": "https://asia.nikkei.com/life-arts/obituaries/former-japan-prime-minister-yasuo-fukuda-dies-at-90",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN",
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-26T11:24:27.489778Z"
+    },
+    {
+      "id": "524cfe8c0e65dc648cb9d1933c142cab",
+      "title": "DOF Group Sells Skandi Implementer Construction Vessel",
+      "summary": "DOF Group ASA has agreed to sell the 2018-built subsea construction vessel Skandi Implementer to an undisclosed buyer.The vessel is planned to be delivered to its new owner in Q2 2027. The sale will contribute to a material reduction in the\u2026",
+      "link": "https://www.marinelink.com/news/dof-group-sells-skandi-implementer-543879",
+      "source": "MarineLink",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-26T11:24:30.217893Z"
     }
   ]
 }
