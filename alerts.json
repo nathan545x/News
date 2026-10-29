@@ -1,29 +1,62 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-29T23:39:36.490911Z",
+  "generated_at": "2026-10-29T23:44:29.646074Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
+    "critical_alerts": 2,
     "high_alerts": 1,
-    "last_updated": "2026-10-29T23:39:36.490923Z"
+    "last_updated": "2026-10-29T23:44:29.646087Z"
   },
   "top_signals": [
     {
-      "id": "046c1d3a5dd019267427864545564dab",
-      "title": "Amazon battles freight inflation as shipping costs jump 11% in Q3",
-      "summary": "<p>Amazon's logistics network absorbed higher fuel and linehaul costs in the third-quarter while delivering more than 1.5 billion items same-day or overnight.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/amazon-battles-freight-inflation-as-shipping-costs-jump-11-in-q3\">Amazon battles freight inflation as shipping costs jump 11% in Q3\u00a0</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/amazon-battles-freight-inflation-as-shipping-costs-jump-11-in-q3",
-      "source": "FreightWaves",
-      "score": 28,
+      "id": "20c7bf44b052f953228cab26f15daa42",
+      "title": "Bank of Japan is expected to hold rates this week \u2014 but stay hawkish: CNBC survey",
+      "summary": "All survey respondents said they expect the BOJ to set the stage for a rate hike in December or January, as inflation and wages continue to rise.",
+      "link": "https://www.cnbc.com/2026/10/27/boj-october-meeting-rate-cnbc-survey.html",
+      "source": "CNBC",
+      "score": 43,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-29T23:43:31.717126Z"
+    },
+    {
+      "id": "ec72a92d78e6b982b17d7380f15785a7",
+      "title": "Gold Steadies Near $4,000 as Inflation Keeps Rate-Hike Bets Firm",
+      "summary": "Gold steadied near $4,000 an ounce, and was on track for a second monthly loss, as energy-led inflation raised the prospects for a US rate increase before year-end.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-29/gold-steadies-near-4-000-as-inflation-keeps-rate-hike-bets-firm",
+      "source": "Bloomberg",
+      "score": 26,
       "severity": "CRITICAL",
       "regime": "INFLATION",
-      "tickers": [],
+      "tickers": [
+        "XAU"
+      ],
       "regions": [],
       "assets": [
-        "SHIPPING"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -37,42 +70,46 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-10-29T23:39:31.466152Z"
+      "published": "2026-10-29T23:43:27.117380Z"
     },
     {
-      "id": "e8e969c596158244cc7d6071ed69248d",
-      "title": "Nasdaq Futures Fall as Tech Struggles on Earnings: Markets Wrap",
-      "summary": "Technology stocks looked set for further losses as another round of disappointing earnings fueled a rotation out of the artificial intelligence trade, with heavy spending raising doubts about returns from those investments.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-29/stock-market-today-dow-s-p-live-updates",
+      "id": "875d403870c9bb8545f95b3ceb68f563",
+      "title": "JPMorgan Asset Sees Yuan Gaining 10% as Global Push Deepens",
+      "summary": "China\u2019s push to internationalize the yuan has entered a \u201csteady, slow, but nonstop\u201d phase that is likely to support further gains in the currency, according to JPMorgan Asset Management.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-29/jpmorgan-asset-sees-yuan-gaining-10-as-global-push-deepens",
       "source": "Bloomberg",
-      "score": 18,
+      "score": 19,
       "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [
-        "QQQ"
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
       ],
-      "regions": [],
       "assets": [
-        "AI",
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-29T23:38:36.445771Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-29T23:43:27.117440Z"
     },
     {
-      "id": "13e4c8b14002777932a30b454595359b",
-      "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
-      "summary": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
-      "source": "BleepingComputer",
+      "id": "fcdbb85487600cbb8605abc8f5f5a913",
+      "title": "ANA holdings to fully acquire parent of two midsize airlines",
+      "summary": "ANA Holdings is exploring the possibility of operating the two airlines under the ANA brand in the medium term.",
+      "link": "https://www.japantimes.co.jp/business/2026/10/29/companies/ana-acquisitions-midsize-airlines/",
+      "source": "Japan Times",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
@@ -90,23 +127,56 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-29T23:39:33.087442Z"
+      "published": "2026-10-29T23:44:20.560425Z"
     }
   ],
   "alerts": [
     {
-      "id": "046c1d3a5dd019267427864545564dab",
-      "title": "Amazon battles freight inflation as shipping costs jump 11% in Q3",
-      "summary": "<p>Amazon's logistics network absorbed higher fuel and linehaul costs in the third-quarter while delivering more than 1.5 billion items same-day or overnight.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/amazon-battles-freight-inflation-as-shipping-costs-jump-11-in-q3\">Amazon battles freight inflation as shipping costs jump 11% in Q3\u00a0</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
-      "link": "https://www.freightwaves.com/news/amazon-battles-freight-inflation-as-shipping-costs-jump-11-in-q3",
-      "source": "FreightWaves",
-      "score": 28,
+      "id": "20c7bf44b052f953228cab26f15daa42",
+      "title": "Bank of Japan is expected to hold rates this week \u2014 but stay hawkish: CNBC survey",
+      "summary": "All survey respondents said they expect the BOJ to set the stage for a rate hike in December or January, as inflation and wages continue to rise.",
+      "link": "https://www.cnbc.com/2026/10/27/boj-october-meeting-rate-cnbc-survey.html",
+      "source": "CNBC",
+      "score": 43,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-29T23:43:31.717126Z"
+    },
+    {
+      "id": "ec72a92d78e6b982b17d7380f15785a7",
+      "title": "Gold Steadies Near $4,000 as Inflation Keeps Rate-Hike Bets Firm",
+      "summary": "Gold steadied near $4,000 an ounce, and was on track for a second monthly loss, as energy-led inflation raised the prospects for a US rate increase before year-end.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-29/gold-steadies-near-4-000-as-inflation-keeps-rate-hike-bets-firm",
+      "source": "Bloomberg",
+      "score": 26,
       "severity": "CRITICAL",
       "regime": "INFLATION",
-      "tickers": [],
+      "tickers": [
+        "XAU"
+      ],
       "regions": [],
       "assets": [
-        "SHIPPING"
+        "AI",
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -120,42 +190,46 @@
         ]
       },
       "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-10-29T23:39:31.466152Z"
+      "published": "2026-10-29T23:43:27.117380Z"
     },
     {
-      "id": "e8e969c596158244cc7d6071ed69248d",
-      "title": "Nasdaq Futures Fall as Tech Struggles on Earnings: Markets Wrap",
-      "summary": "Technology stocks looked set for further losses as another round of disappointing earnings fueled a rotation out of the artificial intelligence trade, with heavy spending raising doubts about returns from those investments.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-29/stock-market-today-dow-s-p-live-updates",
+      "id": "875d403870c9bb8545f95b3ceb68f563",
+      "title": "JPMorgan Asset Sees Yuan Gaining 10% as Global Push Deepens",
+      "summary": "China\u2019s push to internationalize the yuan has entered a \u201csteady, slow, but nonstop\u201d phase that is likely to support further gains in the currency, according to JPMorgan Asset Management.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-29/jpmorgan-asset-sees-yuan-gaining-10-as-global-push-deepens",
       "source": "Bloomberg",
-      "score": 18,
+      "score": 19,
       "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [
-        "QQQ"
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
       ],
-      "regions": [],
       "assets": [
-        "AI",
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-29T23:38:36.445771Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-29T23:43:27.117440Z"
     },
     {
-      "id": "13e4c8b14002777932a30b454595359b",
-      "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
-      "summary": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
-      "source": "BleepingComputer",
+      "id": "fcdbb85487600cbb8605abc8f5f5a913",
+      "title": "ANA holdings to fully acquire parent of two midsize airlines",
+      "summary": "ANA Holdings is exploring the possibility of operating the two airlines under the ANA brand in the medium term.",
+      "link": "https://www.japantimes.co.jp/business/2026/10/29/companies/ana-acquisitions-midsize-airlines/",
+      "source": "Japan Times",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
@@ -173,7 +247,7 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-10-29T23:39:33.087442Z"
+      "published": "2026-10-29T23:44:20.560425Z"
     }
   ]
 }
