@@ -1,62 +1,63 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-10-30T03:20:27.474133Z",
+  "generated_at": "2026-10-30T03:29:46.519827Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 2,
     "high_alerts": 1,
-    "last_updated": "2026-10-30T03:20:27.474149Z"
+    "last_updated": "2026-10-30T03:29:46.519844Z"
   },
   "top_signals": [
     {
-      "id": "66a416b19955d7f34330d5b357a1cf1a",
-      "title": "Stocks Drop, Bonds Gain as Tech Results Underwhelm: Markets Wrap",
-      "summary": "Technology shares led a global stock selloff as another round of disappointing earnings accelerated a rotation out of the artificial intelligence trade and drove investors toward haven assets such as Treasuries. Crude oil gained.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-29/stock-market-today-dow-s-p-live-updates",
+      "id": "6c53ecf8e4aca9e895026916251ee5a1",
+      "title": "Yen Holds Gains Against Dollar After BOJ Keeps Rates Steady",
+      "summary": "The yen held gains against the dollar after the Bank of Japan kept interest rates unchanged as expected and indicated that the price trend reaches 2% for the first time.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-30/yen-holds-gains-against-dollar-after-boj-keeps-rates-steady",
       "source": "Bloomberg",
-      "score": 36,
+      "score": 38,
       "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "DXY",
+        "JPY"
       ],
-      "regions": [],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [
         "AI",
-        "COMMODITIES",
-        "EQUITIES"
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
           "DXY",
-          "DEFENSE"
+          "JPY"
         ],
         "bearish": [
+          "TLT",
           "SPY",
-          "QQQ",
-          "AIRLINES"
+          "QQQ"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-30T03:18:39.897601Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-30T03:28:47.634505Z"
     },
     {
-      "id": "dc7b1d636a1f2c0e2dcc83c885b0563e",
-      "title": "Bank of Japan holds rates steady even as inflation ticks up",
-      "summary": "Consumer prices are rising more than 2% a year, a rate that the bank has said is its target.",
-      "link": "https://www.japantimes.co.jp/business/2026/10/30/economy/boj-rates-steady-inflation/",
-      "source": "Japan Times",
-      "score": 27,
+      "id": "28b24889052e9d2974941ec68ec7ee29",
+      "title": "Further support for Ukraine",
+      "summary": "The Chancellor has announced a new package of over \u00a310bn in economic and military support for Ukraine.",
+      "link": "https://www.gov.uk/government/news/further-support-for-ukraine",
+      "source": "HM Treasury",
+      "score": 28,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "UK",
+        "UKRAINE"
       ],
       "assets": [
         "AI"
@@ -65,28 +66,127 @@
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-10-30T03:19:47.882865Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-30T03:29:36.827718Z"
     },
     {
-      "id": "d67db39991f1cf604e1c27bc29f6f733",
-      "title": "US-Owned Startup Plans $600 Million Malaysia Rare-Earth Refinery",
-      "summary": "A US majority-owned startup plans to invest $600 million in a rare-earth refinery in Malaysia, seeking to develop a new source of the critical minerals as Washington pushes to reduce its reliance on China.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-30/us-owned-startup-plans-600-million-malaysia-rare-earth-refinery",
-      "source": "Bloomberg",
-      "score": 15,
+      "id": "a4c022f6d50d87b4fe407323046aca62",
+      "title": "BOJ holds rates as inflation aligns with 2% target for first time since 2013",
+      "summary": "The BOJ declared that its underlying inflation target of 2% has been met, the first time the central bank has done so since it set the target in 2013.",
+      "link": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html",
+      "source": "CNBC",
+      "score": 22,
       "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-30T03:28:50.698021Z"
+    },
+    {
+      "id": "24d2bef6e91856d553a24dc32d8c7335",
+      "title": "Uproar in Alaska sparks Democratic fears for Senate majority",
+      "summary": "Campaign mishaps and infighting could undermine party\u2019s push to take Republican strongholds",
+      "link": "https://www.ft.com/content/4894285b-40dc-4a8d-a685-2696f3292bc9?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-30T03:28:50.024141Z"
+    },
+    {
+      "id": "d5970e7902dac1bcce605615decb7075",
+      "title": "U.S. fires senior army general over alleged leaks: reports",
+      "summary": "Since returning to office early last year, Trump has overseen a purge of top military personnel, including the chairman of the Joint Chiefs of Staff.",
+      "link": "https://www.japantimes.co.jp/news/2026/10/30/world/us-fires-general-over-leaks/",
+      "source": "Japan Times",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-30T03:29:38.318338Z"
+    },
+    {
+      "id": "2c0efce04e5d3ce730c186fc2cd1fae0",
+      "title": "What killed Weil Gotshal?",
+      "summary": "Partners were stunned by the realisation that a profitable 95-year-old firm with 1,200 lawyers could be felled by a string of departures",
+      "link": "https://www.ft.com/content/98dfc71b-19eb-4194-8c6a-bb6d9b463074?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-30T03:28:49.455457Z"
+    },
+    {
+      "id": "45f64a363f4f9e60f89418830fc6fc61",
+      "title": "Netanyahu bloc finishes ahead in Israel vote, but well short of majority",
+      "summary": "The results set the stage for tough coalition talks or potentially another vote.",
+      "link": "https://www.japantimes.co.jp/news/2026/10/30/world/politics/netanyahu-no-majority-israel-election/",
+      "source": "Japan Times",
+      "score": 8,
+      "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "CHINA"
+        "MIDDLE_EAST"
       ],
       "assets": [],
       "market_impact": {
@@ -103,140 +203,101 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-30T03:18:39.897662Z"
+      "published": "2026-10-30T03:29:38.318261Z"
     },
     {
-      "id": "919c056e958de072ad54a3ef51359507",
-      "title": "Inside the world's largest overseas US military base",
-      "summary": "",
-      "link": "https://asia.nikkei.com/politics/defense/inside-the-world-s-largest-overseas-us-military-base",
-      "source": "Nikkei Asia",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-30T03:19:47.650395Z"
-    },
-    {
-      "id": "d770435692a331dddd1492c83d2c2839",
-      "title": "Polymarket brings ultra-short crypto prediction markets to U.S. platform",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/10/29/polymarket-brings-ultra-short-crypto-prediction-markets-to-u-s-platform",
-      "source": "CoinDesk",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-10-30T03:20:23.808718Z"
-    },
-    {
-      "id": "8f64990f28b9fe1b0790e4488a89d769",
-      "title": "Live updates: Binance says $6.3B hack involved compromised engineer\u2019s laptop",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Live updates: Binance says $6.3B hack involved compromised engineer\u2019s laptop\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M64RM2NG4HTR1FTZN6XKT10N/trying-to-open-monitor.jpg\" /></p><p>Follow live updates as Binance says $6.3 billion in assets has been stolen in a major hack. Around $3 billion in stolen funds have been frozen. </p>",
-      "link": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
+      "id": "b736c4942a4d8552c10b2d3303bb5798",
+      "title": "Commission greenlights Czechia's seventh and final payment request for \u20ac951 million under NextGenerationEU",
+      "summary": "European Commission Press release Brussels, 29 Oct 2026 Today, the European Commission greenlighted Czechia's seventh payment request worth \u20ac951 million under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU.",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2294",
+      "source": "European Commission",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-30T03:20:23.956685Z"
+      "published": "2026-10-30T03:29:35.287348Z"
     },
     {
-      "id": "6d4c257684e39cbb2fe8ac573e9c7491",
-      "title": "ING Launches Buyback But Flags Job Cuts and Unit Restructuring - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOdGpZM0FLbGdhOUdJa0RwUFh6RE5RZEczcVB3ZjRVUWhsa0IyLTl2aUducGk5QlplZVBvTjRzeWo4VV80WHRZTW55emhjUUsySm5EMndWaHpaWG5zSUR0Y0tDZ2NweE9mVXJhY3hEU3EzelNhS1dnWEtrcUFDZmdmZ2ZQd3NLekdfX0x4NGJvb1FEUXNjbWEzcUhERjMxMFJudnZGZWNPdUQwd1VOemc?oc=5\" target=\"_blank\">ING Launches Buyback But Flags Job Cuts and Unit Restructuring</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdGpZM0FLbGdhOUdJa0RwUFh6RE5RZEczcVB3ZjRVUWhsa0IyLTl2aUducGk5QlplZVBvTjRzeWo4VV80WHRZTW55emhjUUsySm5EMndWaHpaWG5zSUR0Y0tDZ2NweE9mVXJhY3hEU3EzelNhS1dnWEtrcUFDZmdmZ2ZQd3NLekdfX0x4NGJvb1FEUXNjbWEzcUhERjMxMFJudnZGZWNPdUQwd1VOemc?oc=5",
-      "source": "Google Macro",
+      "id": "5579b514a115f63818e2f98dc48a4055",
+      "title": "Address by Commissioner Valdis Dombrovskis to the 111th conference of Directors General of the National Statistical Institutes",
+      "summary": "European Commission Speech Brussels, 28 Oct 2026 Presidents and Directors General, distinguished guests, ladies and gentlemen.\u00a0Good morning.\nThank you for inviting me to the 111th conference of Directors Gener...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2279",
+      "source": "European Commission",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-30T03:20:26.961201Z"
+      "published": "2026-10-30T03:29:35.287481Z"
     }
   ],
   "alerts": [
     {
-      "id": "66a416b19955d7f34330d5b357a1cf1a",
-      "title": "Stocks Drop, Bonds Gain as Tech Results Underwhelm: Markets Wrap",
-      "summary": "Technology shares led a global stock selloff as another round of disappointing earnings accelerated a rotation out of the artificial intelligence trade and drove investors toward haven assets such as Treasuries. Crude oil gained.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-29/stock-market-today-dow-s-p-live-updates",
+      "id": "6c53ecf8e4aca9e895026916251ee5a1",
+      "title": "Yen Holds Gains Against Dollar After BOJ Keeps Rates Steady",
+      "summary": "The yen held gains against the dollar after the Bank of Japan kept interest rates unchanged as expected and indicated that the price trend reaches 2% for the first time.",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-30/yen-holds-gains-against-dollar-after-boj-keeps-rates-steady",
       "source": "Bloomberg",
-      "score": 36,
+      "score": 38,
       "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "DXY",
+        "JPY"
       ],
-      "regions": [],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [
         "AI",
-        "COMMODITIES",
-        "EQUITIES"
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
           "DXY",
-          "DEFENSE"
+          "JPY"
         ],
         "bearish": [
+          "TLT",
           "SPY",
-          "QQQ",
-          "AIRLINES"
+          "QQQ"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-30T03:18:39.897601Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-30T03:28:47.634505Z"
     },
     {
-      "id": "dc7b1d636a1f2c0e2dcc83c885b0563e",
-      "title": "Bank of Japan holds rates steady even as inflation ticks up",
-      "summary": "Consumer prices are rising more than 2% a year, a rate that the bank has said is its target.",
-      "link": "https://www.japantimes.co.jp/business/2026/10/30/economy/boj-rates-steady-inflation/",
-      "source": "Japan Times",
-      "score": 27,
+      "id": "28b24889052e9d2974941ec68ec7ee29",
+      "title": "Further support for Ukraine",
+      "summary": "The Chancellor has announced a new package of over \u00a310bn in economic and military support for Ukraine.",
+      "link": "https://www.gov.uk/government/news/further-support-for-ukraine",
+      "source": "HM Treasury",
+      "score": 28,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "UK",
+        "UKRAINE"
       ],
       "assets": [
         "AI"
@@ -245,28 +306,127 @@
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-10-30T03:19:47.882865Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-30T03:29:36.827718Z"
     },
     {
-      "id": "d67db39991f1cf604e1c27bc29f6f733",
-      "title": "US-Owned Startup Plans $600 Million Malaysia Rare-Earth Refinery",
-      "summary": "A US majority-owned startup plans to invest $600 million in a rare-earth refinery in Malaysia, seeking to develop a new source of the critical minerals as Washington pushes to reduce its reliance on China.",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-30/us-owned-startup-plans-600-million-malaysia-rare-earth-refinery",
-      "source": "Bloomberg",
-      "score": 15,
+      "id": "a4c022f6d50d87b4fe407323046aca62",
+      "title": "BOJ holds rates as inflation aligns with 2% target for first time since 2013",
+      "summary": "The BOJ declared that its underlying inflation target of 2% has been met, the first time the central bank has done so since it set the target in 2013.",
+      "link": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html",
+      "source": "CNBC",
+      "score": 22,
       "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-10-30T03:28:50.698021Z"
+    },
+    {
+      "id": "24d2bef6e91856d553a24dc32d8c7335",
+      "title": "Uproar in Alaska sparks Democratic fears for Senate majority",
+      "summary": "Campaign mishaps and infighting could undermine party\u2019s push to take Republican strongholds",
+      "link": "https://www.ft.com/content/4894285b-40dc-4a8d-a685-2696f3292bc9?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-10-30T03:28:50.024141Z"
+    },
+    {
+      "id": "d5970e7902dac1bcce605615decb7075",
+      "title": "U.S. fires senior army general over alleged leaks: reports",
+      "summary": "Since returning to office early last year, Trump has overseen a purge of top military personnel, including the chairman of the Joint Chiefs of Staff.",
+      "link": "https://www.japantimes.co.jp/news/2026/10/30/world/us-fires-general-over-leaks/",
+      "source": "Japan Times",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-10-30T03:29:38.318338Z"
+    },
+    {
+      "id": "2c0efce04e5d3ce730c186fc2cd1fae0",
+      "title": "What killed Weil Gotshal?",
+      "summary": "Partners were stunned by the realisation that a profitable 95-year-old firm with 1,200 lawyers could be felled by a string of departures",
+      "link": "https://www.ft.com/content/98dfc71b-19eb-4194-8c6a-bb6d9b463074?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-10-30T03:28:49.455457Z"
+    },
+    {
+      "id": "45f64a363f4f9e60f89418830fc6fc61",
+      "title": "Netanyahu bloc finishes ahead in Israel vote, but well short of majority",
+      "summary": "The results set the stage for tough coalition talks or potentially another vote.",
+      "link": "https://www.japantimes.co.jp/news/2026/10/30/world/politics/netanyahu-no-majority-israel-election/",
+      "source": "Japan Times",
+      "score": 8,
+      "severity": "MEDIUM",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "CHINA"
+        "MIDDLE_EAST"
       ],
       "assets": [],
       "market_impact": {
@@ -283,91 +443,51 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-30T03:18:39.897662Z"
+      "published": "2026-10-30T03:29:38.318261Z"
     },
     {
-      "id": "919c056e958de072ad54a3ef51359507",
-      "title": "Inside the world's largest overseas US military base",
-      "summary": "",
-      "link": "https://asia.nikkei.com/politics/defense/inside-the-world-s-largest-overseas-us-military-base",
-      "source": "Nikkei Asia",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-10-30T03:19:47.650395Z"
-    },
-    {
-      "id": "d770435692a331dddd1492c83d2c2839",
-      "title": "Polymarket brings ultra-short crypto prediction markets to U.S. platform",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/10/29/polymarket-brings-ultra-short-crypto-prediction-markets-to-u-s-platform",
-      "source": "CoinDesk",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-10-30T03:20:23.808718Z"
-    },
-    {
-      "id": "8f64990f28b9fe1b0790e4488a89d769",
-      "title": "Live updates: Binance says $6.3B hack involved compromised engineer\u2019s laptop",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Live updates: Binance says $6.3B hack involved compromised engineer\u2019s laptop\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M64RM2NG4HTR1FTZN6XKT10N/trying-to-open-monitor.jpg\" /></p><p>Follow live updates as Binance says $6.3 billion in assets has been stolen in a major hack. Around $3 billion in stolen funds have been frozen. </p>",
-      "link": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
+      "id": "b736c4942a4d8552c10b2d3303bb5798",
+      "title": "Commission greenlights Czechia's seventh and final payment request for \u20ac951 million under NextGenerationEU",
+      "summary": "European Commission Press release Brussels, 29 Oct 2026 Today, the European Commission greenlighted Czechia's seventh payment request worth \u20ac951 million under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU.",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2294",
+      "source": "European Commission",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-30T03:20:23.956685Z"
+      "published": "2026-10-30T03:29:35.287348Z"
     },
     {
-      "id": "6d4c257684e39cbb2fe8ac573e9c7491",
-      "title": "ING Launches Buyback But Flags Job Cuts and Unit Restructuring - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOdGpZM0FLbGdhOUdJa0RwUFh6RE5RZEczcVB3ZjRVUWhsa0IyLTl2aUducGk5QlplZVBvTjRzeWo4VV80WHRZTW55emhjUUsySm5EMndWaHpaWG5zSUR0Y0tDZ2NweE9mVXJhY3hEU3EzelNhS1dnWEtrcUFDZmdmZ2ZQd3NLekdfX0x4NGJvb1FEUXNjbWEzcUhERjMxMFJudnZGZWNPdUQwd1VOemc?oc=5\" target=\"_blank\">ING Launches Buyback But Flags Job Cuts and Unit Restructuring</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdGpZM0FLbGdhOUdJa0RwUFh6RE5RZEczcVB3ZjRVUWhsa0IyLTl2aUducGk5QlplZVBvTjRzeWo4VV80WHRZTW55emhjUUsySm5EMndWaHpaWG5zSUR0Y0tDZ2NweE9mVXJhY3hEU3EzelNhS1dnWEtrcUFDZmdmZ2ZQd3NLekdfX0x4NGJvb1FEUXNjbWEzcUhERjMxMFJudnZGZWNPdUQwd1VOemc?oc=5",
-      "source": "Google Macro",
+      "id": "5579b514a115f63818e2f98dc48a4055",
+      "title": "Address by Commissioner Valdis Dombrovskis to the 111th conference of Directors General of the National Statistical Institutes",
+      "summary": "European Commission Speech Brussels, 28 Oct 2026 Presidents and Directors General, distinguished guests, ladies and gentlemen.\u00a0Good morning.\nThank you for inviting me to the 111th conference of Directors Gener...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2279",
+      "source": "European Commission",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-10-30T03:20:26.961201Z"
+      "published": "2026-10-30T03:29:35.287481Z"
     }
   ]
 }
