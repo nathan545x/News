@@ -1,32 +1,127 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-02T17:53:26.035164Z",
+  "generated_at": "2026-11-02T17:58:58.505803Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-11-02T17:53:26.035171Z"
+    "critical_alerts": 3,
+    "high_alerts": 2,
+    "last_updated": "2026-11-02T17:58:58.505818Z"
   },
   "top_signals": [
     {
-      "id": "e964c63e63a02ee8f091597dd420fd0d",
-      "title": "Treasury Yields Extend Past Month\u2019s Slide as Oil Prices Tumble",
-      "summary": "Treasuries rose, building on their biggest monthly advance in more than two years, as tumbling oil prices eased concern about inflation pressure leading to additional Federal Reserve interest-rate hikes.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-02/treasury-yields-extend-past-month-s-slide-as-oil-prices-tumble",
+      "id": "9148e2e610f8ec983e70c6e9400f4fd2",
+      "title": "Gold Rebounds as Iran Diplomacy Hopes Send Oil Tumbling",
+      "summary": "Gold rebounded as oil plunged on renewed hopes for diplomatic efforts to end the war in Iran.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-02/gold-climbs-back-from-one-year-low-as-dip-buyers-arrest-slide",
       "source": "Bloomberg",
-      "score": 42,
+      "score": 41,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "TLT",
+        "WTI",
+        "XAU"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-02T17:58:01.311401Z"
+    },
+    {
+      "id": "56a1d68368ea0a87ac598767daadb76d",
+      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+      "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions.",
+      "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+      "source": "KrebsOnSecurity",
+      "score": 34,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-02T17:58:55.603776Z"
+    },
+    {
+      "id": "03b8ad4608148f77a04ce3404905013a",
+      "title": "US Stocks Advance as AI-Led Selloff Eases, Oil Prices Plunge",
+      "summary": "US equities advanced as falling oil prices offered relief after a bruising week for the artificial intelligence trade.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-02/us-stock-futures-rise-as-oil-prices-drop-easing-ai-led-selloff",
+      "source": "Bloomberg",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "AI",
+      "tickers": [
         "WTI"
       ],
       "regions": [],
       "assets": [
+        "AI",
         "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-02T17:58:01.311363Z"
+    },
+    {
+      "id": "34dc33d5f1b39bfe268c75f2fbb86fa3",
+      "title": "Policy paper: Cabinet Office and HM Treasury small and medium-sized enterprise (SME) action plan: 2025 to 2028",
+      "summary": "Cabinet Office (CO) and HM Treasury (HMT) are backing your business by making it easier for small businesses to access public sector supply chains, removing unnecessary burdens and costs.",
+      "link": "https://www.gov.uk/government/publications/cabinet-office-and-hm-treasury-small-and-medium-sized-enterprise-sme-action-plan-2025-to-2028--2",
+      "source": "HM Treasury",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
         "RATES"
       ],
       "market_impact": {
@@ -41,44 +136,240 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-02T17:52:25.501190Z"
+      "published": "2026-11-02T17:58:49.700304Z"
     },
     {
-      "id": "5b36e42a3be5e9173a2ab672765349f8",
-      "title": "Three energy stocks on Josh Brown's list are outperforming as M&A activity ramps up - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPdk9EaS0tc2tvSWU1bW5PNDQ4cTgzMFN2WUh2YW9JRGdWZHZsbXoyNml4MmpnaXV4XzRpN2s2c3RGN3ZWT3F5LWg1OC1ENktoYkIyOTJVcy1DemFUVXJsRm1wdmZlVVh3S1E5REZBa05WTDlfdDdLX2ctdGt6UFBOcHhtM1JXcHFJSEYxRGxJbENUellOdXF5OVpB?oc=5\" target=\"_blank\">Three energy stocks on Josh Brown's list are outperforming as M&amp;A activity ramps up</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdk9EaS0tc2tvSWU1bW5PNDQ4cTgzMFN2WUh2YW9JRGdWZHZsbXoyNml4MmpnaXV4XzRpN2s2c3RGN3ZWT3F5LWg1OC1ENktoYkIyOTJVcy1DemFUVXJsRm1wdmZlVVh3S1E5REZBa05WTDlfdDdLX2ctdGt6UFBOcHhtM1JXcHFJSEYxRGxJbENUellOdXF5OVpB?oc=5",
+      "id": "f6a1ab7495b05c28e945ebbff45471cb",
+      "title": "Oil drops 7% as Iran signals openness to peace talks - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPeHdxcnVlWmx5T1pjbDZQS19XeXlYTW1xZmNONnJQWHk4YU1EQTRzZFZQVEJxYjd6WEJTN2pfZC10ZGlzXzVURVdHZkg1RjZGY2tjN0ZVRjNRc0p4UmQ1c2F6MUt4eEpHSml6Z3Q4WHpqV094aEo0dTlVbk00OGFBazlmdGhsWGdtckFHQjlBTVU5Q0FRR3hxUnVmcVpPeGZsTHBlWmhTdw?oc=5\" target=\"_blank\">Oil drops 7% as Iran signals openness to peace talks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeHdxcnVlWmx5T1pjbDZQS19XeXlYTW1xZmNONnJQWHk4YU1EQTRzZFZQVEJxYjd6WEJTN2pfZC10ZGlzXzVURVdHZkg1RjZGY2tjN0ZVRjNRc0p4UmQ1c2F6MUt4eEpHSml6Z3Q4WHpqV094aEo0dTlVbk00OGFBazlmdGhsWGdtckFHQjlBTVU5Q0FRR3hxUnVmcVpPeGZsTHBlWmhTdw?oc=5",
       "source": "Google Macro",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-02T17:58:56.777288Z"
+    },
+    {
+      "id": "5113e3399aa0e13c1f7210997bf6b79c",
+      "title": "Statement by President von der Leyen following the EU-Canada summit",
+      "summary": "European Commission Statement Montreal, 30 Oct 2026 Dear Mark,\nDear Ant\u00f3nio,\nGood afternoon, everyone. Et bonjour puisque nous sommes au Qu\u00e9bec.\nEt c'est tout naturel de nous retrouver ici \u00e0 Montr\u00e9al pour parler ...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2312",
+      "source": "European Commission",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "EUR",
+        "JPY"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-02T17:58:48.886848Z"
+    },
+    {
+      "id": "a1d421184219131bdeb85f83a4700870",
+      "title": "Japan's IHI wins key role in Westinghouse's new Poland nuclear plant",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/energy/japan-s-ihi-wins-key-role-in-westinghouse-s-new-poland-nuclear-plant",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-02T17:58:51.676314Z"
+    },
+    {
+      "id": "993faaf8a14a835a8909bea149a045d0",
+      "title": "U.S. International Trade in Goods and Services, August 2026",
+      "summary": "<p>The U.S. goods and services trade deficit increased in August 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $92.8 billion in July (revised) to $105.6 billion in August, as imports increased more than exports. The goods deficit increased $12.8 billion in August to $136.6 billion. The services surplus increased less than $0.1 billion in August to $31.0 billion.</p>",
+      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
+      "source": "BEA",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "EQUITIES"
-      ],
+      "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-02T17:53:26.035136Z"
+      "published": "2026-11-02T17:58:44.611617Z"
+    },
+    {
+      "id": "922ff5c4625eec0fe76bf344f2c0de9b",
+      "title": "Why rich Ireland still feels poor - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPQUkxVTdrVWVJdWFYbk9zU1BhOEZxdzBleUZUTUxWQjJBVU9QbDFYekpHR1ZRYkRSdUs5RzdmNG83bDhJOGMzSHNjcFQ4Sk54ZndmUk14OS1jMGhYZFo4UUFxaUpuSHdFSnIyODBrMzZEWjJ6WEt2OEU4NmJuSTRiS3FaRlc?oc=5\" target=\"_blank\">Why rich Ireland still feels poor</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQUkxVTdrVWVJdWFYbk9zU1BhOEZxdzBleUZUTUxWQjJBVU9QbDFYekpHR1ZRYkRSdUs5RzdmNG83bDhJOGMzSHNjcFQ4Sk54ZndmUk14OS1jMGhYZFo4UUFxaUpuSHdFSnIyODBrMzZEWjJ6WEt2OEU4NmJuSTRiS3FaRlc?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-02T17:58:57.504287Z"
     }
   ],
   "alerts": [
     {
-      "id": "e964c63e63a02ee8f091597dd420fd0d",
-      "title": "Treasury Yields Extend Past Month\u2019s Slide as Oil Prices Tumble",
-      "summary": "Treasuries rose, building on their biggest monthly advance in more than two years, as tumbling oil prices eased concern about inflation pressure leading to additional Federal Reserve interest-rate hikes.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-02/treasury-yields-extend-past-month-s-slide-as-oil-prices-tumble",
+      "id": "9148e2e610f8ec983e70c6e9400f4fd2",
+      "title": "Gold Rebounds as Iran Diplomacy Hopes Send Oil Tumbling",
+      "summary": "Gold rebounded as oil plunged on renewed hopes for diplomatic efforts to end the war in Iran.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-02/gold-climbs-back-from-one-year-low-as-dip-buyers-arrest-slide",
       "source": "Bloomberg",
-      "score": 42,
+      "score": 41,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "TLT",
+        "WTI",
+        "XAU"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-02T17:58:01.311401Z"
+    },
+    {
+      "id": "56a1d68368ea0a87ac598767daadb76d",
+      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+      "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions.",
+      "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+      "source": "KrebsOnSecurity",
+      "score": 34,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-02T17:58:55.603776Z"
+    },
+    {
+      "id": "03b8ad4608148f77a04ce3404905013a",
+      "title": "US Stocks Advance as AI-Led Selloff Eases, Oil Prices Plunge",
+      "summary": "US equities advanced as falling oil prices offered relief after a bruising week for the artificial intelligence trade.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-02/us-stock-futures-rise-as-oil-prices-drop-easing-ai-led-selloff",
+      "source": "Bloomberg",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "AI",
+      "tickers": [
         "WTI"
       ],
       "regions": [],
       "assets": [
+        "AI",
         "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-02T17:58:01.311363Z"
+    },
+    {
+      "id": "34dc33d5f1b39bfe268c75f2fbb86fa3",
+      "title": "Policy paper: Cabinet Office and HM Treasury small and medium-sized enterprise (SME) action plan: 2025 to 2028",
+      "summary": "Cabinet Office (CO) and HM Treasury (HMT) are backing your business by making it easier for small businesses to access public sector supply chains, removing unnecessary burdens and costs.",
+      "link": "https://www.gov.uk/government/publications/cabinet-office-and-hm-treasury-small-and-medium-sized-enterprise-sme-action-plan-2025-to-2028--2",
+      "source": "HM Treasury",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
         "RATES"
       ],
       "market_impact": {
@@ -93,25 +384,126 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-02T17:52:25.501190Z"
+      "published": "2026-11-02T17:58:49.700304Z"
     },
     {
-      "id": "5b36e42a3be5e9173a2ab672765349f8",
-      "title": "Three energy stocks on Josh Brown's list are outperforming as M&A activity ramps up - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPdk9EaS0tc2tvSWU1bW5PNDQ4cTgzMFN2WUh2YW9JRGdWZHZsbXoyNml4MmpnaXV4XzRpN2s2c3RGN3ZWT3F5LWg1OC1ENktoYkIyOTJVcy1DemFUVXJsRm1wdmZlVVh3S1E5REZBa05WTDlfdDdLX2ctdGt6UFBOcHhtM1JXcHFJSEYxRGxJbENUellOdXF5OVpB?oc=5\" target=\"_blank\">Three energy stocks on Josh Brown's list are outperforming as M&amp;A activity ramps up</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdk9EaS0tc2tvSWU1bW5PNDQ4cTgzMFN2WUh2YW9JRGdWZHZsbXoyNml4MmpnaXV4XzRpN2s2c3RGN3ZWT3F5LWg1OC1ENktoYkIyOTJVcy1DemFUVXJsRm1wdmZlVVh3S1E5REZBa05WTDlfdDdLX2ctdGt6UFBOcHhtM1JXcHFJSEYxRGxJbENUellOdXF5OVpB?oc=5",
+      "id": "f6a1ab7495b05c28e945ebbff45471cb",
+      "title": "Oil drops 7% as Iran signals openness to peace talks - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPeHdxcnVlWmx5T1pjbDZQS19XeXlYTW1xZmNONnJQWHk4YU1EQTRzZFZQVEJxYjd6WEJTN2pfZC10ZGlzXzVURVdHZkg1RjZGY2tjN0ZVRjNRc0p4UmQ1c2F6MUt4eEpHSml6Z3Q4WHpqV094aEo0dTlVbk00OGFBazlmdGhsWGdtckFHQjlBTVU5Q0FRR3hxUnVmcVpPeGZsTHBlWmhTdw?oc=5\" target=\"_blank\">Oil drops 7% as Iran signals openness to peace talks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeHdxcnVlWmx5T1pjbDZQS19XeXlYTW1xZmNONnJQWHk4YU1EQTRzZFZQVEJxYjd6WEJTN2pfZC10ZGlzXzVURVdHZkg1RjZGY2tjN0ZVRjNRc0p4UmQ1c2F6MUt4eEpHSml6Z3Q4WHpqV094aEo0dTlVbk00OGFBazlmdGhsWGdtckFHQjlBTVU5Q0FRR3hxUnVmcVpPeGZsTHBlWmhTdw?oc=5",
       "source": "Google Macro",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-02T17:58:56.777288Z"
+    },
+    {
+      "id": "5113e3399aa0e13c1f7210997bf6b79c",
+      "title": "Statement by President von der Leyen following the EU-Canada summit",
+      "summary": "European Commission Statement Montreal, 30 Oct 2026 Dear Mark,\nDear Ant\u00f3nio,\nGood afternoon, everyone. Et bonjour puisque nous sommes au Qu\u00e9bec.\nEt c'est tout naturel de nous retrouver ici \u00e0 Montr\u00e9al pour parler ...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2312",
+      "source": "European Commission",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "EUR",
+        "JPY"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-02T17:58:48.886848Z"
+    },
+    {
+      "id": "a1d421184219131bdeb85f83a4700870",
+      "title": "Japan's IHI wins key role in Westinghouse's new Poland nuclear plant",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/energy/japan-s-ihi-wins-key-role-in-westinghouse-s-new-poland-nuclear-plant",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-02T17:58:51.676314Z"
+    },
+    {
+      "id": "993faaf8a14a835a8909bea149a045d0",
+      "title": "U.S. International Trade in Goods and Services, August 2026",
+      "summary": "<p>The U.S. goods and services trade deficit increased in August 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $92.8 billion in July (revised) to $105.6 billion in August, as imports increased more than exports. The goods deficit increased $12.8 billion in August to $136.6 billion. The services surplus increased less than $0.1 billion in August to $31.0 billion.</p>",
+      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
+      "source": "BEA",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "EQUITIES"
-      ],
+      "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-02T17:53:26.035136Z"
+      "published": "2026-11-02T17:58:44.611617Z"
+    },
+    {
+      "id": "922ff5c4625eec0fe76bf344f2c0de9b",
+      "title": "Why rich Ireland still feels poor - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPQUkxVTdrVWVJdWFYbk9zU1BhOEZxdzBleUZUTUxWQjJBVU9QbDFYekpHR1ZRYkRSdUs5RzdmNG83bDhJOGMzSHNjcFQ4Sk54ZndmUk14OS1jMGhYZFo4UUFxaUpuSHdFSnIyODBrMzZEWjJ6WEt2OEU4NmJuSTRiS3FaRlc?oc=5\" target=\"_blank\">Why rich Ireland still feels poor</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQUkxVTdrVWVJdWFYbk9zU1BhOEZxdzBleUZUTUxWQjJBVU9QbDFYekpHR1ZRYkRSdUs5RzdmNG83bDhJOGMzSHNjcFQ4Sk54ZndmUk14OS1jMGhYZFo4UUFxaUpuSHdFSnIyODBrMzZEWjJ6WEt2OEU4NmJuSTRiS3FaRlc?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-02T17:58:57.504287Z"
     }
   ]
 }
