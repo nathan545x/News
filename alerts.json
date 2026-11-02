@@ -1,81 +1,363 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-02T18:23:55.265199Z",
+  "generated_at": "2026-11-02T18:31:32.627345Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-11-02T18:23:55.265211Z"
+    "high_alerts": 2,
+    "last_updated": "2026-11-02T18:31:32.627359Z"
   },
   "top_signals": [
     {
-      "id": "b607c56de973ec1d48dbbdef8adbdf5e",
-      "title": "Options traders are getting anxious on Palantir and Apple ahead of earnings",
-      "summary": "Apple, Palantir puts were in demand ahead of earnings.",
-      "link": "https://www.cnbc.com/2026/11/02/options-traders-are-getting-anxious-on-palantir-and-apple-ahead-of-earnings.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "6b726605470f3cf72ed897b1d3d07bef",
+      "title": "North Korea leans on China and Russia to drive 3% economic growth",
+      "summary": "",
+      "link": "https://asia.nikkei.com/economy/north-korea-leans-on-china-and-russia-to-drive-3-economic-growth",
+      "source": "Nikkei Asia",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "CHINA",
+        "RUSSIA"
+      ],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-02T18:23:05.426275Z"
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-02T18:31:25.253479Z"
     },
     {
-      "id": "ad1589e20e5b3fdbec27f458d214856d",
-      "title": "Apple reports after the bell. Options traders expect a big move",
-      "summary": "Apple reports after the bell. Options traders expect a big move.",
-      "link": "https://www.cnbc.com/2026/11/02/apple-reports-after-the-bell-options-traders-expect-a-big-move.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
+      "id": "0a64c423102683a04468dce8730c7289",
+      "title": "Israel\u2019s poll chief rebukes Netanyahu\u2019s claims of \u2018stolen\u2019 election",
+      "summary": "The head of the Central Elections Committee has insisted the elections were \u2018conducted properly\u2019",
+      "link": "https://www.ft.com/content/47427e95-69bf-4fd7-bf7f-a1bb6b11334e",
+      "source": "Financial Times",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-02T18:30:40.351915Z"
+    },
+    {
+      "id": "d3c5b7300a7cff61049c96da33bb1ed1",
+      "title": "Trump administration asks Supreme Court to block some California ballots",
+      "summary": "White House urges justices to order some mail-in votes be set aside because it claims they belong to non-citizens",
+      "link": "https://www.ft.com/content/b3619ebb-01cc-4458-bc77-b04e5b16b658?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-02T18:30:40.351871Z"
+    },
+    {
+      "id": "ec9cafbec7bc88f11ac898a06e19aae1",
+      "title": "Labour ends power-sharing deals with Greens over \u2018Zionism is racism\u2019 policy",
+      "summary": "Party pulls plug on co-operation agreements in 11 councils where it was working with the smaller party, citing recent motion",
+      "link": "https://www.ft.com/content/95132ff4-57b1-4078-8911-bdd163fe3175?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-02T18:23:05.426305Z"
+      "published": "2026-11-02T18:30:40.351787Z"
+    },
+    {
+      "id": "b572ac86fb9b2376acb84cb4ee431605",
+      "title": "Poland\u2019s struggle to restore the rule of law",
+      "summary": "The battle to undo PiS\u2019s legacy needs to be conducted within the rules",
+      "link": "https://www.ft.com/content/551ece11-bd7c-4c9a-8914-1e6d4331af70?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-02T18:30:40.351830Z"
+    },
+    {
+      "id": "e262695c415b9e235dd8d6243a21d63c",
+      "title": "US Treasury auction changes loom in 2027; dealers eye long-end cuts - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOR0tyVjBXWGhvQlpqRDVlcTV6X3JTSzc5alRUX25xcktnT3piaTlwMWhSS21KRFotMy1aY0JTckZLT2J2aUFQOUpGNTVhWUdCdUVpQmszTGp2QmFwNFZ5cnhqLXJtZk00NUExX29IYlc5N1pxSHppNWc4Y0pBVU9fbHkxN3ZjS0xhdlpnbFdSWGlGc1daZDFQUGNnTVNMcDN0b1RJdkhMUGV6RU02aV81b2g4VmFyeGs?oc=5\" target=\"_blank\">US Treasury auction changes loom in 2027; dealers eye long-end cuts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR0tyVjBXWGhvQlpqRDVlcTV6X3JTSzc5alRUX25xcktnT3piaTlwMWhSS21KRFotMy1aY0JTckZLT2J2aUFQOUpGNTVhWUdCdUVpQmszTGp2QmFwNFZ5cnhqLXJtZk00NUExX29IYlc5N1pxSHppNWc4Y0pBVU9fbHkxN3ZjS0xhdlpnbFdSWGlGc1daZDFQUGNnTVNMcDN0b1RJdkhMUGV6RU02aV81b2g4VmFyeGs?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-02T18:31:30.931100Z"
+    },
+    {
+      "id": "e967d1ab8e6c5236e1d500a68a8cd8f3",
+      "title": "EU and Canada intensify cooperation in the area of medical countermeasures for preparedness and response to combat health emergencies",
+      "summary": "European Commission Joint press release Ottawa, 30 Oct 2026 On Monday 26 October, Hadja Lahbib, EU Commissioner for Preparedness and Crisis Management, and the Honourable M\u00e9lanie Joly, Minister of Industry and Minister responsible for Canada Economic Development for Quebec Regions, met to reaffirm the strong Canada-EU partnership on health emergency preparedness and response.",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/jp_26_2309",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-02T18:31:21.948268Z"
     }
   ],
   "alerts": [
     {
-      "id": "b607c56de973ec1d48dbbdef8adbdf5e",
-      "title": "Options traders are getting anxious on Palantir and Apple ahead of earnings",
-      "summary": "Apple, Palantir puts were in demand ahead of earnings.",
-      "link": "https://www.cnbc.com/2026/11/02/options-traders-are-getting-anxious-on-palantir-and-apple-ahead-of-earnings.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "6b726605470f3cf72ed897b1d3d07bef",
+      "title": "North Korea leans on China and Russia to drive 3% economic growth",
+      "summary": "",
+      "link": "https://asia.nikkei.com/economy/north-korea-leans-on-china-and-russia-to-drive-3-economic-growth",
+      "source": "Nikkei Asia",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "CHINA",
+        "RUSSIA"
+      ],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-02T18:23:05.426275Z"
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-02T18:31:25.253479Z"
     },
     {
-      "id": "ad1589e20e5b3fdbec27f458d214856d",
-      "title": "Apple reports after the bell. Options traders expect a big move",
-      "summary": "Apple reports after the bell. Options traders expect a big move.",
-      "link": "https://www.cnbc.com/2026/11/02/apple-reports-after-the-bell-options-traders-expect-a-big-move.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
+      "id": "0a64c423102683a04468dce8730c7289",
+      "title": "Israel\u2019s poll chief rebukes Netanyahu\u2019s claims of \u2018stolen\u2019 election",
+      "summary": "The head of the Central Elections Committee has insisted the elections were \u2018conducted properly\u2019",
+      "link": "https://www.ft.com/content/47427e95-69bf-4fd7-bf7f-a1bb6b11334e",
+      "source": "Financial Times",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-02T18:30:40.351915Z"
+    },
+    {
+      "id": "d3c5b7300a7cff61049c96da33bb1ed1",
+      "title": "Trump administration asks Supreme Court to block some California ballots",
+      "summary": "White House urges justices to order some mail-in votes be set aside because it claims they belong to non-citizens",
+      "link": "https://www.ft.com/content/b3619ebb-01cc-4458-bc77-b04e5b16b658?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-02T18:30:40.351871Z"
+    },
+    {
+      "id": "ec9cafbec7bc88f11ac898a06e19aae1",
+      "title": "Labour ends power-sharing deals with Greens over \u2018Zionism is racism\u2019 policy",
+      "summary": "Party pulls plug on co-operation agreements in 11 councils where it was working with the smaller party, citing recent motion",
+      "link": "https://www.ft.com/content/95132ff4-57b1-4078-8911-bdd163fe3175?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-02T18:23:05.426305Z"
+      "published": "2026-11-02T18:30:40.351787Z"
+    },
+    {
+      "id": "b572ac86fb9b2376acb84cb4ee431605",
+      "title": "Poland\u2019s struggle to restore the rule of law",
+      "summary": "The battle to undo PiS\u2019s legacy needs to be conducted within the rules",
+      "link": "https://www.ft.com/content/551ece11-bd7c-4c9a-8914-1e6d4331af70?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-02T18:30:40.351830Z"
+    },
+    {
+      "id": "e262695c415b9e235dd8d6243a21d63c",
+      "title": "US Treasury auction changes loom in 2027; dealers eye long-end cuts - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOR0tyVjBXWGhvQlpqRDVlcTV6X3JTSzc5alRUX25xcktnT3piaTlwMWhSS21KRFotMy1aY0JTckZLT2J2aUFQOUpGNTVhWUdCdUVpQmszTGp2QmFwNFZ5cnhqLXJtZk00NUExX29IYlc5N1pxSHppNWc4Y0pBVU9fbHkxN3ZjS0xhdlpnbFdSWGlGc1daZDFQUGNnTVNMcDN0b1RJdkhMUGV6RU02aV81b2g4VmFyeGs?oc=5\" target=\"_blank\">US Treasury auction changes loom in 2027; dealers eye long-end cuts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR0tyVjBXWGhvQlpqRDVlcTV6X3JTSzc5alRUX25xcktnT3piaTlwMWhSS21KRFotMy1aY0JTckZLT2J2aUFQOUpGNTVhWUdCdUVpQmszTGp2QmFwNFZ5cnhqLXJtZk00NUExX29IYlc5N1pxSHppNWc4Y0pBVU9fbHkxN3ZjS0xhdlpnbFdSWGlGc1daZDFQUGNnTVNMcDN0b1RJdkhMUGV6RU02aV81b2g4VmFyeGs?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-02T18:31:30.931100Z"
+    },
+    {
+      "id": "e967d1ab8e6c5236e1d500a68a8cd8f3",
+      "title": "EU and Canada intensify cooperation in the area of medical countermeasures for preparedness and response to combat health emergencies",
+      "summary": "European Commission Joint press release Ottawa, 30 Oct 2026 On Monday 26 October, Hadja Lahbib, EU Commissioner for Preparedness and Crisis Management, and the Honourable M\u00e9lanie Joly, Minister of Industry and Minister responsible for Canada Economic Development for Quebec Regions, met to reaffirm the strong Canada-EU partnership on health emergency preparedness and response.",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/jp_26_2309",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-02T18:31:21.948268Z"
     }
   ]
 }
