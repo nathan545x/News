@@ -1,113 +1,525 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-10T10:34:40.364831Z",
+  "generated_at": "2026-11-10T10:40:50.876692Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-11-10T10:34:40.364842Z"
+    "critical_alerts": 3,
+    "high_alerts": 3,
+    "last_updated": "2026-11-10T10:40:50.876706Z"
   },
   "top_signals": [
     {
-      "id": "6d57840872ce6bc04e60ae43a1febb07",
-      "title": "'Marry the House, Date the Rate' Backfires for Stuck Homeowners",
-      "summary": "\u201cMarry the house, date the rate.\u201d The idea, boosted by Realtors, mortgage bankers and influencers as interest rates started rising in 2022, was that buyers shouldn\u2019t worry too much about loan costs. Focus instead on getting the house you want, then refinance when rates inevitably came down. Michelle Amponsah reports.  (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-10/-marry-the-house-date-the-rate-backfires-for-stuck-homeowners",
+      "id": "de52f5109810de7b457aa5ea1bb1d352",
+      "title": "Fed\u2019s Waller Backs December Rate Hike, Open to Larger Move",
+      "summary": "Federal Reserve Governor Christopher Waller on Tuesday said he supports an interest-rate hike in December, and warned that if inflation continues to accelerate he would support a half-percentage-point increase to protect the central bank\u2019s credibility.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-waller-backs-december-rate-hike-says-open-to-larger-move",
       "source": "Bloomberg",
-      "score": 9,
+      "score": 44,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-10T10:39:46.414953Z"
+    },
+    {
+      "id": "20784c7ddc2b9f1ff7abafe725b22468",
+      "title": "Treasury yields edge higher as traders await CPI inflation data",
+      "summary": "Treasurys moved higher as traders awaited October's CPI data.",
+      "link": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
+      "source": "CNBC",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-11-10T10:39:51.200663Z"
+    },
+    {
+      "id": "b29a3160ae08976892f857db6aaa3056",
+      "title": "Bank of Japan rate debate switches to pace and timing of future hikes",
+      "summary": "Summary of opinions from the BoJ\u2019s October meeting shows greater caution than the decision to hold rates suggests",
+      "link": "https://www.ft.com/content/b98d07ff-5d89-4782-84c0-6e1e3cb56806",
+      "source": "Financial Times",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-10T10:39:49.581631Z"
+    },
+    {
+      "id": "520bfa4df93532c17a59b33566e3ae4b",
+      "title": "Oil falls below $90 as Trump pulls back from threat to strike Iran",
+      "summary": "Falling crude prices have supported recovery in global stocks from last week\u2019s sell-off",
+      "link": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-10T10:39:49.581677Z"
+    },
+    {
+      "id": "ace440653488e4ab086afbfb0abad550",
+      "title": "Ark Invest trims Block, Bullish and its own bitcoin ETF holdings while buying Nvidia, SoFi",
+      "summary": "Cathie Wood's Ark Invest sold $6.1 million worth of Block shares and $1.13 million worth of Bullish shares through its ETFs on Monday.",
+      "link": "https://www.theblock.co/news/business/2026-11-10-ark-invest-trims-block-bullish-holdings-437003",
+      "source": "The Block",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC",
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-10T10:40:47.273652Z"
+    },
+    {
+      "id": "9e415e2a1491ccd159f338a1b186253d",
+      "title": "Thailand tightens environmental rules for large data centers",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/technology/thailand-tightens-environmental-rules-for-large-data-centers",
+      "source": "Nikkei Asia",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-10T10:40:41.054230Z"
+    },
+    {
+      "id": "a87617968a39c2a9b9626ff62a7d64b0",
+      "title": "Hedge-Fund Founder Shah Fights 12-Year Danish Jail Sentence Over Cum-Ex Tax Scam",
+      "summary": "British hedge-fund trader Sanjay Shah returned to court in Denmark to try to overturn a 12-year prison sentence for orchestrating a billion-dollar tax scam.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-10/hedge-fund-founder-shah-fights-12-year-danish-jail-sentence-over-cum-ex-tax-scam",
+      "source": "Bloomberg",
+      "score": 13,
       "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-10T10:39:46.415018Z"
+    },
+    {
+      "id": "6c3fda459b8d915343d18f8a1a8738a7",
+      "title": "Statement by President von der Leyen with Bulgarian Prime Minister Radev",
+      "summary": "European Commission Statement Varna, 10 Nov 2026 Dear Prime Minister,\nDear Rumen,\nI also want to express my deepest condolences to the victims of the multiple cars crash, the wounded, their families, but also ...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2392",
+      "source": "European Commission",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "EUR",
+        "JPY"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-10T10:40:36.436895Z"
+    },
+    {
+      "id": "c3c2ffbd3b23707c070ff6b5584a9664",
+      "title": "Budget changes could see footballers taxed extra \u00a345m per year",
+      "summary": "<p> <img alt=\"Football players and clubs will be forced to pay an additional \u00a345m in tax\" src=\"https://www.cityam.com/wp-content/uploads/2026/11/GettyImages-2304031839-e1794306231165.jpg?w=1200\" /> </p>Football players and clubs will be forced to pay an additional \u00a345m per year in tax following changes to image rights announced at the Budget. Chancellor John Healey confirmed last month that \u201cthe government will clarify that image rights payments related to an employment are taxable as employment income and taxed in the same way <a href=\"https://www.cityam.com/budget-changes-could-see-footballers-taxed-extra-45m-per-year/\">[...]</a>",
+      "link": "https://www.cityam.com/budget-changes-could-see-footballers-taxed-extra-45m-per-year/",
+      "source": "CityAM",
+      "score": 1,
+      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-10T10:33:37.433192Z"
-    },
-    {
-      "id": "e0e20b7098c848d9a3ba45cf9de935b9",
-      "title": "\u2018Nonsense Rate\u2019: Inside Weeks of Turmoil Over Key Oil Benchmark - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPdF9kQ25ZUUF6bUhRZUZPWWoxS2lnbGdUb25yNHUxYUk2V3JYT2xNQnVOTjFiU3B0R2JxaFdVbXB1aURVOURUWXJ0cGRxYm8xaXZYejl5M2V6NDk4Rk41MTlkOEt5ZmFrUmpsSFNqaXFDLVNNOU9JMTZ3Rl9sLXNQY2JmTXdnUXBHekh5Q2o3dTBRZTJWRWdaUGRJMkFoMVBvdFpGNW1pRFpCc1l5cTlvU2dKUGJzb3lHSnc?oc=5\" target=\"_blank\">\u2018Nonsense Rate\u2019: Inside Weeks of Turmoil Over Key Oil Benchmark</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdF9kQ25ZUUF6bUhRZUZPWWoxS2lnbGdUb25yNHUxYUk2V3JYT2xNQnVOTjFiU3B0R2JxaFdVbXB1aURVOURUWXJ0cGRxYm8xaXZYejl5M2V6NDk4Rk41MTlkOEt5ZmFrUmpsSFNqaXFDLVNNOU9JMTZ3Rl9sLXNQY2JmTXdnUXBHekh5Q2o3dTBRZTJWRWdaUGRJMkFoMVBvdFpGNW1pRFpCc1l5cTlvU2dKUGJzb3lHSnc?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-10T10:34:38.641057Z"
+      "published": "2026-11-10T10:40:39.302661Z"
     }
   ],
   "alerts": [
     {
-      "id": "6d57840872ce6bc04e60ae43a1febb07",
-      "title": "'Marry the House, Date the Rate' Backfires for Stuck Homeowners",
-      "summary": "\u201cMarry the house, date the rate.\u201d The idea, boosted by Realtors, mortgage bankers and influencers as interest rates started rising in 2022, was that buyers shouldn\u2019t worry too much about loan costs. Focus instead on getting the house you want, then refinance when rates inevitably came down. Michelle Amponsah reports.  (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-10/-marry-the-house-date-the-rate-backfires-for-stuck-homeowners",
+      "id": "de52f5109810de7b457aa5ea1bb1d352",
+      "title": "Fed\u2019s Waller Backs December Rate Hike, Open to Larger Move",
+      "summary": "Federal Reserve Governor Christopher Waller on Tuesday said he supports an interest-rate hike in December, and warned that if inflation continues to accelerate he would support a half-percentage-point increase to protect the central bank\u2019s credibility.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-waller-backs-december-rate-hike-says-open-to-larger-move",
       "source": "Bloomberg",
-      "score": 9,
+      "score": 44,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-10T10:39:46.414953Z"
+    },
+    {
+      "id": "20784c7ddc2b9f1ff7abafe725b22468",
+      "title": "Treasury yields edge higher as traders await CPI inflation data",
+      "summary": "Treasurys moved higher as traders awaited October's CPI data.",
+      "link": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
+      "source": "CNBC",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "INFLATION",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-11-10T10:39:51.200663Z"
+    },
+    {
+      "id": "b29a3160ae08976892f857db6aaa3056",
+      "title": "Bank of Japan rate debate switches to pace and timing of future hikes",
+      "summary": "Summary of opinions from the BoJ\u2019s October meeting shows greater caution than the decision to hold rates suggests",
+      "link": "https://www.ft.com/content/b98d07ff-5d89-4782-84c0-6e1e3cb56806",
+      "source": "Financial Times",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-10T10:39:49.581631Z"
+    },
+    {
+      "id": "520bfa4df93532c17a59b33566e3ae4b",
+      "title": "Oil falls below $90 as Trump pulls back from threat to strike Iran",
+      "summary": "Falling crude prices have supported recovery in global stocks from last week\u2019s sell-off",
+      "link": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-10T10:39:49.581677Z"
+    },
+    {
+      "id": "ace440653488e4ab086afbfb0abad550",
+      "title": "Ark Invest trims Block, Bullish and its own bitcoin ETF holdings while buying Nvidia, SoFi",
+      "summary": "Cathie Wood's Ark Invest sold $6.1 million worth of Block shares and $1.13 million worth of Bullish shares through its ETFs on Monday.",
+      "link": "https://www.theblock.co/news/business/2026-11-10-ark-invest-trims-block-bullish-holdings-437003",
+      "source": "The Block",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC",
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-10T10:40:47.273652Z"
+    },
+    {
+      "id": "9e415e2a1491ccd159f338a1b186253d",
+      "title": "Thailand tightens environmental rules for large data centers",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/technology/thailand-tightens-environmental-rules-for-large-data-centers",
+      "source": "Nikkei Asia",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-10T10:40:41.054230Z"
+    },
+    {
+      "id": "a87617968a39c2a9b9626ff62a7d64b0",
+      "title": "Hedge-Fund Founder Shah Fights 12-Year Danish Jail Sentence Over Cum-Ex Tax Scam",
+      "summary": "British hedge-fund trader Sanjay Shah returned to court in Denmark to try to overturn a 12-year prison sentence for orchestrating a billion-dollar tax scam.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-10/hedge-fund-founder-shah-fights-12-year-danish-jail-sentence-over-cum-ex-tax-scam",
+      "source": "Bloomberg",
+      "score": 13,
       "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-10T10:39:46.415018Z"
+    },
+    {
+      "id": "6c3fda459b8d915343d18f8a1a8738a7",
+      "title": "Statement by President von der Leyen with Bulgarian Prime Minister Radev",
+      "summary": "European Commission Statement Varna, 10 Nov 2026 Dear Prime Minister,\nDear Rumen,\nI also want to express my deepest condolences to the victims of the multiple cars crash, the wounded, their families, but also ...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2392",
+      "source": "European Commission",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "EUR",
+        "JPY"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-10T10:40:36.436895Z"
+    },
+    {
+      "id": "c3c2ffbd3b23707c070ff6b5584a9664",
+      "title": "Budget changes could see footballers taxed extra \u00a345m per year",
+      "summary": "<p> <img alt=\"Football players and clubs will be forced to pay an additional \u00a345m in tax\" src=\"https://www.cityam.com/wp-content/uploads/2026/11/GettyImages-2304031839-e1794306231165.jpg?w=1200\" /> </p>Football players and clubs will be forced to pay an additional \u00a345m per year in tax following changes to image rights announced at the Budget. Chancellor John Healey confirmed last month that \u201cthe government will clarify that image rights payments related to an employment are taxable as employment income and taxed in the same way <a href=\"https://www.cityam.com/budget-changes-could-see-footballers-taxed-extra-45m-per-year/\">[...]</a>",
+      "link": "https://www.cityam.com/budget-changes-could-see-footballers-taxed-extra-45m-per-year/",
+      "source": "CityAM",
+      "score": 1,
+      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-10T10:33:37.433192Z"
-    },
-    {
-      "id": "e0e20b7098c848d9a3ba45cf9de935b9",
-      "title": "\u2018Nonsense Rate\u2019: Inside Weeks of Turmoil Over Key Oil Benchmark - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPdF9kQ25ZUUF6bUhRZUZPWWoxS2lnbGdUb25yNHUxYUk2V3JYT2xNQnVOTjFiU3B0R2JxaFdVbXB1aURVOURUWXJ0cGRxYm8xaXZYejl5M2V6NDk4Rk41MTlkOEt5ZmFrUmpsSFNqaXFDLVNNOU9JMTZ3Rl9sLXNQY2JmTXdnUXBHekh5Q2o3dTBRZTJWRWdaUGRJMkFoMVBvdFpGNW1pRFpCc1l5cTlvU2dKUGJzb3lHSnc?oc=5\" target=\"_blank\">\u2018Nonsense Rate\u2019: Inside Weeks of Turmoil Over Key Oil Benchmark</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdF9kQ25ZUUF6bUhRZUZPWWoxS2lnbGdUb25yNHUxYUk2V3JYT2xNQnVOTjFiU3B0R2JxaFdVbXB1aURVOURUWXJ0cGRxYm8xaXZYejl5M2V6NDk4Rk41MTlkOEt5ZmFrUmpsSFNqaXFDLVNNOU9JMTZ3Rl9sLXNQY2JmTXdnUXBHekh5Q2o3dTBRZTJWRWdaUGRJMkFoMVBvdFpGNW1pRFpCc1l5cTlvU2dKUGJzb3lHSnc?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-10T10:34:38.641057Z"
+      "published": "2026-11-10T10:40:39.302661Z"
     }
   ]
 }
