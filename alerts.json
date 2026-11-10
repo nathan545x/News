@@ -1,73 +1,227 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-10T21:44:20.183664Z",
+  "generated_at": "2026-11-10T21:50:05.060693Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-11-10T21:44:20.183675Z"
+    "high_alerts": 1,
+    "last_updated": "2026-11-10T21:50:05.060707Z"
   },
   "top_signals": [
     {
-      "id": "afb7bf950cef6d0e857a43c8c5906d15",
-      "title": "Dollar Logs Best Day Since September as CPI Lifts Hike Bets",
-      "summary": "The dollar rallied the most since September after hotter-than-forecast US inflation reinforced expectations for a Federal Reserve interest-rate hike next month.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-10/dollar-set-for-best-day-since-september-as-cpi-lifts-hike-bets",
+      "id": "569250e9910a021c7ecad60e1c5edb19",
+      "title": "Stocks End Lower as Rate-Hike Odds Climb After Hot Inflation",
+      "summary": "US equities fell Tuesday as Treasury yields surged after Federal Reserve officials called for rate hikes in response to hotter-than-expected inflation data.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-10/us-stock-futures-trade-mixed-with-focus-on-cpi-anthropic-ipo",
       "source": "Bloomberg",
-      "score": 38,
+      "score": 34,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "RATES",
       "tickers": [
-        "DXY"
+        "TLT"
       ],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "EQUITIES",
+        "RATES"
+      ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-10T21:43:23.803318Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-10T21:49:07.021185Z"
+    },
+    {
+      "id": "1d436cf29c56fb81144732a7e74d5785",
+      "title": "Barrick Mining Files to Take North American Gold Assets Public",
+      "summary": "Barrick Mining Corp. filed for a US initial public offering of its top North American gold assets, as the Canadian miner looks to reset strategically.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-10/barrick-mining-files-to-take-north-american-gold-assets-public",
+      "source": "Bloomberg",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-10T21:49:07.021253Z"
+    },
+    {
+      "id": "5c11e2170fb2662ff941ec1615b7f13d",
+      "title": "Can crypto trust firms compete with banks in US derivatives settlements?",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Can crypto trust firms compete with banks in US derivatives settlements?\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M737F90C6VC7KHFB6CAJGABZ/hi-bank-of-international-settlements-and-crypto.png\" /></p><p>Crypto custodians are moving into a market handling billions in daily settlements, but regulatory relief and a shift in congressional control leave questions over their long-term role.</p>",
+      "link": "https://cointelegraph.com/news/crypto-trust-firms-compete-banks-us-derivatives-settlements?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-10T21:50:01.249584Z"
+    },
+    {
+      "id": "fff21b9885e61aa41033e9984d0472b8",
+      "title": "Rep. Jim Jordan, Sen. John Thune elected GOP leaders in Congress",
+      "summary": "House Speaker Mike Johnson, R-La., announced the day after Election Day he would not run for minority leader in the 120th Congress.",
+      "link": "https://www.cnbc.com/2026/11/10/jim-jordan-congress-republicans-midterm.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-10T21:49:10.526658Z"
     }
   ],
   "alerts": [
     {
-      "id": "afb7bf950cef6d0e857a43c8c5906d15",
-      "title": "Dollar Logs Best Day Since September as CPI Lifts Hike Bets",
-      "summary": "The dollar rallied the most since September after hotter-than-forecast US inflation reinforced expectations for a Federal Reserve interest-rate hike next month.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-10/dollar-set-for-best-day-since-september-as-cpi-lifts-hike-bets",
+      "id": "569250e9910a021c7ecad60e1c5edb19",
+      "title": "Stocks End Lower as Rate-Hike Odds Climb After Hot Inflation",
+      "summary": "US equities fell Tuesday as Treasury yields surged after Federal Reserve officials called for rate hikes in response to hotter-than-expected inflation data.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-10/us-stock-futures-trade-mixed-with-focus-on-cpi-anthropic-ipo",
       "source": "Bloomberg",
-      "score": 38,
+      "score": 34,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "RATES",
       "tickers": [
-        "DXY"
+        "TLT"
       ],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "EQUITIES",
+        "RATES"
+      ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-10T21:43:23.803318Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-10T21:49:07.021185Z"
+    },
+    {
+      "id": "1d436cf29c56fb81144732a7e74d5785",
+      "title": "Barrick Mining Files to Take North American Gold Assets Public",
+      "summary": "Barrick Mining Corp. filed for a US initial public offering of its top North American gold assets, as the Canadian miner looks to reset strategically.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-10/barrick-mining-files-to-take-north-american-gold-assets-public",
+      "source": "Bloomberg",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-10T21:49:07.021253Z"
+    },
+    {
+      "id": "5c11e2170fb2662ff941ec1615b7f13d",
+      "title": "Can crypto trust firms compete with banks in US derivatives settlements?",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Can crypto trust firms compete with banks in US derivatives settlements?\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M737F90C6VC7KHFB6CAJGABZ/hi-bank-of-international-settlements-and-crypto.png\" /></p><p>Crypto custodians are moving into a market handling billions in daily settlements, but regulatory relief and a shift in congressional control leave questions over their long-term role.</p>",
+      "link": "https://cointelegraph.com/news/crypto-trust-firms-compete-banks-us-derivatives-settlements?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-10T21:50:01.249584Z"
+    },
+    {
+      "id": "fff21b9885e61aa41033e9984d0472b8",
+      "title": "Rep. Jim Jordan, Sen. John Thune elected GOP leaders in Congress",
+      "summary": "House Speaker Mike Johnson, R-La., announced the day after Election Day he would not run for minority leader in the 120th Congress.",
+      "link": "https://www.cnbc.com/2026/11/10/jim-jordan-congress-republicans-midterm.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-10T21:49:10.526658Z"
     }
   ]
 }
