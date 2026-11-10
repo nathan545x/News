@@ -1,45 +1,81 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-10T11:50:02.067231Z",
+  "generated_at": "2026-11-10T11:54:56.444284Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-11-10T11:50:02.067243Z"
+    "high_alerts": 4,
+    "last_updated": "2026-11-10T11:54:56.444302Z"
   },
   "top_signals": [
     {
-      "id": "1fe69d44f48af2ef029760cfc7c618ce",
-      "title": "TSMC's October sales jump as global chip boom rolls on",
-      "summary": "TSMC reports its monthly sales figures for October on Tuesday.",
-      "link": "https://www.cnbc.com/2026/11/10/tsmcs-october-sales-.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "b932f0e15d73dd8ff4bb828e26a63c1a",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-10T11:49:09.718357Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-10T11:54:07.825875Z"
     },
     {
-      "id": "49cb52b90391aba9422ac1c859f105fc",
-      "title": "Hybrid sales rise while battery electric sales remain lower after tax credit expiration",
-      "summary": "In the third quarter of 2026 (3Q26), 23% of new light-duty vehicles sold in the United States were hybrid electric, battery electric, or plug-in hybrid electric vehicles, down slightly from 24% in 3Q25. Between 3Q25 and 3Q26, hybrid electric vehicles continued to gain market share, reaching 16% of light-duty vehicle sales. Growth of hybrid electric vehicle sales has slowed this quarter as the average transaction price for a new vehicle passed $50,000-the first time this price has been reached so far this year, according to Kelley Blue Book.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68325",
-      "source": "EIA",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
+      "id": "d579105e77e3946565fc6243ac56f423",
+      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [],
-      "regions": [
-        "US"
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-10T11:54:07.825920Z"
+    },
+    {
+      "id": "e8b48df57773d81e3682b18dfd018a9e",
+      "title": "Nvidia scandal fails to bring down the tech bulls as spy investigation widens",
+      "summary": "President Trump says FBI is \"looking into\" Huang while class action suit emerges",
+      "link": "https://www.cnbc.com/2026/11/10/nvidia-scandal-fails-to-bring-down-the-tech-bulls-as-spy-investigation-widens.html",
+      "source": "CNBC",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
       ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -52,39 +88,161 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-10T11:49:56.683352Z"
+      "published": "2026-11-10T11:54:07.663668Z"
+    },
+    {
+      "id": "a110242b479fad405419896982e262f9",
+      "title": "HIVE reports $79 million quarterly net loss as bitcoin mining revenue falls and AI business grows",
+      "summary": "HIVE reported a $78.7 million quarterly net loss and $84.9 million in revenue, including $8.8 million from its AI business.",
+      "link": "https://www.theblock.co/news/business/2026-11-10-hive-reports-79-million-quarterly-net-loss-as-bitcoin-mining-revenue-falls-and-ai-business-grows-437177",
+      "source": "The Block",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-10T11:54:53.608109Z"
+    },
+    {
+      "id": "67d2302fa15da146eea0b83d1c157fae",
+      "title": "Jim Cramer says Anthropic's IPO could make or break the AI trade. Here's why",
+      "summary": "Anthropic's initial public offering could be a crucial test of investor confidence in the AI trade, CNBC's Jim Cramer said.",
+      "link": "https://www.cnbc.com/2026/11/09/anthropic-ipo-ai-trade-jim-cramer.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-10T11:54:07.663743Z"
+    },
+    {
+      "id": "12b58419e88bae100b5294024ad2be45",
+      "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+      "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-10T11:54:07.825829Z"
+    },
+    {
+      "id": "dd3515702cc0d2468af3aad7c9749ee5",
+      "title": "Cameroon Readies for Elections as Succession Risk Nags Investors",
+      "summary": "Cameroon is preparing for its first parliamentary and municipal elections in almost seven years, with President Paul Biya facing opposition anger over a disputed presidential vote and growing questions about his succession.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-10/cameroon-readies-for-elections-as-succession-risk-nags-investors",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-10T11:54:04.857168Z"
     }
   ],
   "alerts": [
     {
-      "id": "1fe69d44f48af2ef029760cfc7c618ce",
-      "title": "TSMC's October sales jump as global chip boom rolls on",
-      "summary": "TSMC reports its monthly sales figures for October on Tuesday.",
-      "link": "https://www.cnbc.com/2026/11/10/tsmcs-october-sales-.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
+      "id": "b932f0e15d73dd8ff4bb828e26a63c1a",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-10T11:49:09.718357Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-10T11:54:07.825875Z"
     },
     {
-      "id": "49cb52b90391aba9422ac1c859f105fc",
-      "title": "Hybrid sales rise while battery electric sales remain lower after tax credit expiration",
-      "summary": "In the third quarter of 2026 (3Q26), 23% of new light-duty vehicles sold in the United States were hybrid electric, battery electric, or plug-in hybrid electric vehicles, down slightly from 24% in 3Q25. Between 3Q25 and 3Q26, hybrid electric vehicles continued to gain market share, reaching 16% of light-duty vehicle sales. Growth of hybrid electric vehicle sales has slowed this quarter as the average transaction price for a new vehicle passed $50,000-the first time this price has been reached so far this year, according to Kelley Blue Book.",
-      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68325",
-      "source": "EIA",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
+      "id": "d579105e77e3946565fc6243ac56f423",
+      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
       "tickers": [],
-      "regions": [
-        "US"
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-10T11:54:07.825920Z"
+    },
+    {
+      "id": "e8b48df57773d81e3682b18dfd018a9e",
+      "title": "Nvidia scandal fails to bring down the tech bulls as spy investigation widens",
+      "summary": "President Trump says FBI is \"looking into\" Huang while class action suit emerges",
+      "link": "https://www.cnbc.com/2026/11/10/nvidia-scandal-fails-to-bring-down-the-tech-bulls-as-spy-investigation-widens.html",
+      "source": "CNBC",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
       ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -97,7 +255,93 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-10T11:49:56.683352Z"
+      "published": "2026-11-10T11:54:07.663668Z"
+    },
+    {
+      "id": "a110242b479fad405419896982e262f9",
+      "title": "HIVE reports $79 million quarterly net loss as bitcoin mining revenue falls and AI business grows",
+      "summary": "HIVE reported a $78.7 million quarterly net loss and $84.9 million in revenue, including $8.8 million from its AI business.",
+      "link": "https://www.theblock.co/news/business/2026-11-10-hive-reports-79-million-quarterly-net-loss-as-bitcoin-mining-revenue-falls-and-ai-business-grows-437177",
+      "source": "The Block",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-10T11:54:53.608109Z"
+    },
+    {
+      "id": "67d2302fa15da146eea0b83d1c157fae",
+      "title": "Jim Cramer says Anthropic's IPO could make or break the AI trade. Here's why",
+      "summary": "Anthropic's initial public offering could be a crucial test of investor confidence in the AI trade, CNBC's Jim Cramer said.",
+      "link": "https://www.cnbc.com/2026/11/09/anthropic-ipo-ai-trade-jim-cramer.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-10T11:54:07.663743Z"
+    },
+    {
+      "id": "12b58419e88bae100b5294024ad2be45",
+      "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+      "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-10T11:54:07.825829Z"
+    },
+    {
+      "id": "dd3515702cc0d2468af3aad7c9749ee5",
+      "title": "Cameroon Readies for Elections as Succession Risk Nags Investors",
+      "summary": "Cameroon is preparing for its first parliamentary and municipal elections in almost seven years, with President Paul Biya facing opposition anger over a disputed presidential vote and growing questions about his succession.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-10/cameroon-readies-for-elections-as-succession-risk-nags-investors",
+      "source": "Bloomberg",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-10T11:54:04.857168Z"
     }
   ]
 }
