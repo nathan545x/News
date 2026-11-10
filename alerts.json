@@ -1,53 +1,118 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-10T02:34:57.586078Z",
+  "generated_at": "2026-11-10T02:40:05.693892Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 2,
-    "last_updated": "2026-11-10T02:34:57.586095Z"
+    "critical_alerts": 1,
+    "high_alerts": 1,
+    "last_updated": "2026-11-10T02:40:05.693910Z"
   },
   "top_signals": [
     {
-      "id": "29850ba3fa02a9947967f0e57d9a70e1",
-      "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
-      "source": "ECB",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
+      "id": "8316a4256b32bffe20e95c386bf4e181",
+      "title": "COMMENTARY: Middle East oil price war heralds post-conflict glut - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOWWdUbTZOMkxOdnRzOHBPdHRWSFBmNG1jZnFISWQ0MVFaWEc1MUlkTjRuNlhSQzdMQWQxaXQzYTBOTGtBd0NkYnRNTFNHaDlNZ0xwVU1JODVSMFdLZnREeGttWWlEdmE3ZnJwODdnMG5iQnJwRlZBbDZvOEU5UjczRC1UcGo5S0p4U01KZWMzcVBjNEdnWW42clRaR1U5QXpoMHh1bnE0T2phU1I1OEpUVFJJUHN2LThoMFd3WGJR?oc=5\" target=\"_blank\">COMMENTARY: Middle East oil price war heralds post-conflict glut</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWWdUbTZOMkxOdnRzOHBPdHRWSFBmNG1jZnFISWQ0MVFaWEc1MUlkTjRuNlhSQzdMQWQxaXQzYTBOTGtBd0NkYnRNTFNHaDlNZ0xwVU1JODVSMFdLZnREeGttWWlEdmE3ZnJwODdnMG5iQnJwRlZBbDZvOEU5UjczRC1UcGo5S0p4U01KZWMzcVBjNEdnWW42clRaR1U5QXpoMHh1bnE0T2phU1I1OEpUVFJJUHN2LThoMFd3WGJR?oc=5",
+      "source": "Google Macro",
+      "score": 35,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "COMMODITIES"
+      ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-10T02:34:38.547245Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-10T02:40:04.075337Z"
     },
     {
-      "id": "67dc5fdbd3ec73d36ff2205534274256",
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "summary": "<div class=\"OutlineElement Ltr SCXW266414493 BCX8\">\n<p>CISA has added four new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"><u>Known Exploited Vulnerabilities (KEV) Catalog</u></a>, based on evidence of active exploitation.&nbsp;</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-102895\" target=\"_blank\"><u>CVE-2026-102895</u></a> GPUStack Improper Authentication Vulnerability&nbsp;</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-116779\" target=\"_blank\"><u>CVE-2026-116779</u></a> SignalWire FreeSwitch Code Injection Vulnerability&nbsp;</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-123158\" target=\"_blank\"><u>CVE-2026-123158</u></a> OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability&nbsp;</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-123218\" target=\"_blank\"><u>CVE-2026-123218</u></a> IBM Aspera Faspex Incorrect Authorization Vulnerability&nbsp;</li>\n</ul>\n<p>These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&nbsp;</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\"><u>Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</u></a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA\u2019s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&nbsp;</p>\n</div>\n<div class=\"OutlineElement Ltr SCXW266414493 BCX8\">\n<p>While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"><u>KEV Catalog vulnerabilities</u></a>. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\" target=\"_blank\"><u>specified criteria</u></a>.&nbsp;</p>\n</div>\n<div class=\"OutlineElement Ltr SCXW266414493 BCX8\">\n<p>Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA\u2019s <a href=\"https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w\" target=\"_blank\"><u>KEV Nomination Form</u></a>. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&nbsp;</p>\n</div>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "source": "CISA",
-      "score": 17,
+      "id": "f49696d7a6942eeedc36ae81284ae276",
+      "title": "Rethinking Strategic Stability with China: From Coercion to Constructivism",
+      "summary": "<p>Every administration since the Cold War has been looking for a significant foreign policy breakthrough with China. Spanning containment and normalization to opening and reform, U.S. policymakers have long hoped that China would fulfill its place in the international order and transform itself into a &#8220;responsible stakeholder.&#8221; Despite years of pivots, new visions, trade arguments and agreements, and other policy swings, the lack of transformational progress is now set against the backdrop of rapidly expanding nuclear capabilities under the leadership of a Chinese general secretary doubling down on authoritarianism and revisionist history. Here, I examine a different factor that generates</p>\n<p>The post <a href=\"https://warontherocks.com/rethinking-strategic-stability-with-china-from-coercion-to-constructivism/\">Rethinking Strategic Stability with China: From Coercion to Constructivism</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/rethinking-strategic-stability-with-china-from-coercion-to-constructivism/",
+      "source": "War on the Rocks",
+      "score": 21,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-10T02:40:00.828134Z"
+    },
+    {
+      "id": "185aa59398ccc9c25261ff5bd9cc32dd",
+      "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
+      "summary": "Speech At the Bangkok Economic Festival, Reinventing Bretton Woods Committee, Bangkok, Thailand",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
+      "source": "Federal Reserve",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
       "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-10T02:39:07.883433Z"
+    },
+    {
+      "id": "3b4e250005d389a283e0e3517d9dd29c",
+      "title": "India forms commando units for close combat along China border",
+      "summary": "",
+      "link": "https://asia.nikkei.com/politics/defense/india-forms-commando-units-for-close-combat-along-china-border",
+      "source": "Nikkei Asia",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
       "assets": [],
       "market_impact": {
         "bullish": [
@@ -63,47 +128,225 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-10T02:34:54.490146Z"
+      "published": "2026-11-10T02:39:56.079727Z"
+    },
+    {
+      "id": "540f0ce4a4792b75c698c9527f700a4b",
+      "title": "Trump says he is highly unlikely to order Iran strikes if talks progress - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxONWFPcDhpSjcwTEozRGRNdHFnWWpzb1pCYXIzdnVOUWhJQ3JvaGVTcjItLWNwNktieTVDcTk0WlpKbDRiMHB3Tkl0R19Mb1NUckllcVYwenlvNUV2QTBLcjlNdGtZdFI2NEJxbnhVbmZieXg2SnNTUXNPTFZVZjFnX2o3Q3lBbC1kRzlWcnNNU3VXdFNYNW5YTTJ4SFdBaDVfai1CRU50cm1VMHBkeWd4Zkc0Q2UxTlBJcmZ6TnJR?oc=5\" target=\"_blank\">Trump says he is highly unlikely to order Iran strikes if talks progress</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONWFPcDhpSjcwTEozRGRNdHFnWWpzb1pCYXIzdnVOUWhJQ3JvaGVTcjItLWNwNktieTVDcTk0WlpKbDRiMHB3Tkl0R19Mb1NUckllcVYwenlvNUV2QTBLcjlNdGtZdFI2NEJxbnhVbmZieXg2SnNTUXNPTFZVZjFnX2o3Q3lBbC1kRzlWcnNNU3VXdFNYNW5YTTJ4SFdBaDVfai1CRU50cm1VMHBkeWd4Zkc0Q2UxTlBJcmZ6TnJR?oc=5",
+      "source": "Google Macro",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-10T02:40:04.075445Z"
+    },
+    {
+      "id": "554f05ac17a63c9018739ce817b4fee1",
+      "title": "Piero Cipollone: Shaping the future of money",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-10T02:39:46.668207Z"
+    },
+    {
+      "id": "d5a9d0114176e59fae7d61574e448e0e",
+      "title": "U.S. crude oil imports from Venezuela in July were highest since 2017",
+      "summary": "In July 2026, U.S. imports of crude oil from Venezuela averaged 701,000 barrels per day (b/d), the most since May 2017, before decreasing to 655,000 b/d in August, according to data published in our Petroleum Supply Monthly",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68425",
+      "source": "EIA",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-10T02:39:58.370631Z"
+    },
+    {
+      "id": "fa4e7c8b62344eb49038b50c6e8472f3",
+      "title": "Honda pins growth hopes on hybrids with $3bn US investment",
+      "summary": "Japanese carmaker to build first new American plant in two decades and increase annual output to 1.3mn vehicles",
+      "link": "https://www.ft.com/content/5f2aab2e-9c12-4aa1-a628-b6d021a07fd7?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN",
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-10T02:39:05.808409Z"
+    },
+    {
+      "id": "b5414ccb26207360ff078463b0303723",
+      "title": "Tata Power\u2019s Singapore woes",
+      "summary": "Also, an inauspicious Diwali for the markets",
+      "link": "https://www.ft.com/content/7fb4b61c-b707-4683-b4ec-2bc6f277dd05?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-10T02:39:05.808456Z"
     }
   ],
   "alerts": [
     {
-      "id": "29850ba3fa02a9947967f0e57d9a70e1",
-      "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
-      "summary": "",
-      "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
-      "source": "ECB",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
+      "id": "8316a4256b32bffe20e95c386bf4e181",
+      "title": "COMMENTARY: Middle East oil price war heralds post-conflict glut - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOWWdUbTZOMkxOdnRzOHBPdHRWSFBmNG1jZnFISWQ0MVFaWEc1MUlkTjRuNlhSQzdMQWQxaXQzYTBOTGtBd0NkYnRNTFNHaDlNZ0xwVU1JODVSMFdLZnREeGttWWlEdmE3ZnJwODdnMG5iQnJwRlZBbDZvOEU5UjczRC1UcGo5S0p4U01KZWMzcVBjNEdnWW42clRaR1U5QXpoMHh1bnE0T2phU1I1OEpUVFJJUHN2LThoMFd3WGJR?oc=5\" target=\"_blank\">COMMENTARY: Middle East oil price war heralds post-conflict glut</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWWdUbTZOMkxOdnRzOHBPdHRWSFBmNG1jZnFISWQ0MVFaWEc1MUlkTjRuNlhSQzdMQWQxaXQzYTBOTGtBd0NkYnRNTFNHaDlNZ0xwVU1JODVSMFdLZnREeGttWWlEdmE3ZnJwODdnMG5iQnJwRlZBbDZvOEU5UjczRC1UcGo5S0p4U01KZWMzcVBjNEdnWW42clRaR1U5QXpoMHh1bnE0T2phU1I1OEpUVFJJUHN2LThoMFd3WGJR?oc=5",
+      "source": "Google Macro",
+      "score": 35,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "COMMODITIES"
+      ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-10T02:34:38.547245Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-10T02:40:04.075337Z"
     },
     {
-      "id": "67dc5fdbd3ec73d36ff2205534274256",
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "summary": "<div class=\"OutlineElement Ltr SCXW266414493 BCX8\">\n<p>CISA has added four new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"><u>Known Exploited Vulnerabilities (KEV) Catalog</u></a>, based on evidence of active exploitation.&nbsp;</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-102895\" target=\"_blank\"><u>CVE-2026-102895</u></a> GPUStack Improper Authentication Vulnerability&nbsp;</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-116779\" target=\"_blank\"><u>CVE-2026-116779</u></a> SignalWire FreeSwitch Code Injection Vulnerability&nbsp;</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-123158\" target=\"_blank\"><u>CVE-2026-123158</u></a> OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability&nbsp;</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-123218\" target=\"_blank\"><u>CVE-2026-123218</u></a> IBM Aspera Faspex Incorrect Authorization Vulnerability&nbsp;</li>\n</ul>\n<p>These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&nbsp;</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\"><u>Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</u></a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA\u2019s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&nbsp;</p>\n</div>\n<div class=\"OutlineElement Ltr SCXW266414493 BCX8\">\n<p>While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"><u>KEV Catalog vulnerabilities</u></a>. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\" target=\"_blank\"><u>specified criteria</u></a>.&nbsp;</p>\n</div>\n<div class=\"OutlineElement Ltr SCXW266414493 BCX8\">\n<p>Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA\u2019s <a href=\"https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w\" target=\"_blank\"><u>KEV Nomination Form</u></a>. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&nbsp;</p>\n</div>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "source": "CISA",
-      "score": 17,
+      "id": "f49696d7a6942eeedc36ae81284ae276",
+      "title": "Rethinking Strategic Stability with China: From Coercion to Constructivism",
+      "summary": "<p>Every administration since the Cold War has been looking for a significant foreign policy breakthrough with China. Spanning containment and normalization to opening and reform, U.S. policymakers have long hoped that China would fulfill its place in the international order and transform itself into a &#8220;responsible stakeholder.&#8221; Despite years of pivots, new visions, trade arguments and agreements, and other policy swings, the lack of transformational progress is now set against the backdrop of rapidly expanding nuclear capabilities under the leadership of a Chinese general secretary doubling down on authoritarianism and revisionist history. Here, I examine a different factor that generates</p>\n<p>The post <a href=\"https://warontherocks.com/rethinking-strategic-stability-with-china-from-coercion-to-constructivism/\">Rethinking Strategic Stability with China: From Coercion to Constructivism</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
+      "link": "https://warontherocks.com/rethinking-strategic-stability-with-china-from-coercion-to-constructivism/",
+      "source": "War on the Rocks",
+      "score": 21,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-10T02:40:00.828134Z"
+    },
+    {
+      "id": "185aa59398ccc9c25261ff5bd9cc32dd",
+      "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
+      "summary": "Speech At the Bangkok Economic Festival, Reinventing Bretton Woods Committee, Bangkok, Thailand",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
+      "source": "Federal Reserve",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
       "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-10T02:39:07.883433Z"
+    },
+    {
+      "id": "3b4e250005d389a283e0e3517d9dd29c",
+      "title": "India forms commando units for close combat along China border",
+      "summary": "",
+      "link": "https://asia.nikkei.com/politics/defense/india-forms-commando-units-for-close-combat-along-china-border",
+      "source": "Nikkei Asia",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
       "assets": [],
       "market_impact": {
         "bullish": [
@@ -119,7 +362,120 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-10T02:34:54.490146Z"
+      "published": "2026-11-10T02:39:56.079727Z"
+    },
+    {
+      "id": "540f0ce4a4792b75c698c9527f700a4b",
+      "title": "Trump says he is highly unlikely to order Iran strikes if talks progress - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxONWFPcDhpSjcwTEozRGRNdHFnWWpzb1pCYXIzdnVOUWhJQ3JvaGVTcjItLWNwNktieTVDcTk0WlpKbDRiMHB3Tkl0R19Mb1NUckllcVYwenlvNUV2QTBLcjlNdGtZdFI2NEJxbnhVbmZieXg2SnNTUXNPTFZVZjFnX2o3Q3lBbC1kRzlWcnNNU3VXdFNYNW5YTTJ4SFdBaDVfai1CRU50cm1VMHBkeWd4Zkc0Q2UxTlBJcmZ6TnJR?oc=5\" target=\"_blank\">Trump says he is highly unlikely to order Iran strikes if talks progress</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONWFPcDhpSjcwTEozRGRNdHFnWWpzb1pCYXIzdnVOUWhJQ3JvaGVTcjItLWNwNktieTVDcTk0WlpKbDRiMHB3Tkl0R19Mb1NUckllcVYwenlvNUV2QTBLcjlNdGtZdFI2NEJxbnhVbmZieXg2SnNTUXNPTFZVZjFnX2o3Q3lBbC1kRzlWcnNNU3VXdFNYNW5YTTJ4SFdBaDVfai1CRU50cm1VMHBkeWd4Zkc0Q2UxTlBJcmZ6TnJR?oc=5",
+      "source": "Google Macro",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-10T02:40:04.075445Z"
+    },
+    {
+      "id": "554f05ac17a63c9018739ce817b4fee1",
+      "title": "Piero Cipollone: Shaping the future of money",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-10T02:39:46.668207Z"
+    },
+    {
+      "id": "d5a9d0114176e59fae7d61574e448e0e",
+      "title": "U.S. crude oil imports from Venezuela in July were highest since 2017",
+      "summary": "In July 2026, U.S. imports of crude oil from Venezuela averaged 701,000 barrels per day (b/d), the most since May 2017, before decreasing to 655,000 b/d in August, according to data published in our Petroleum Supply Monthly",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68425",
+      "source": "EIA",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-10T02:39:58.370631Z"
+    },
+    {
+      "id": "fa4e7c8b62344eb49038b50c6e8472f3",
+      "title": "Honda pins growth hopes on hybrids with $3bn US investment",
+      "summary": "Japanese carmaker to build first new American plant in two decades and increase annual output to 1.3mn vehicles",
+      "link": "https://www.ft.com/content/5f2aab2e-9c12-4aa1-a628-b6d021a07fd7?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN",
+        "US"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-10T02:39:05.808409Z"
+    },
+    {
+      "id": "b5414ccb26207360ff078463b0303723",
+      "title": "Tata Power\u2019s Singapore woes",
+      "summary": "Also, an inauspicious Diwali for the markets",
+      "link": "https://www.ft.com/content/7fb4b61c-b707-4683-b4ec-2bc6f277dd05?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-10T02:39:05.808456Z"
     }
   ]
 }
