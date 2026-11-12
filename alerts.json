@@ -1,28 +1,229 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-12T06:20:07.295114Z",
+  "generated_at": "2026-11-12T06:24:25.412001Z",
   "market_regime": {
-    "regime": "AI",
-    "dominant_driver": "AI",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-11-12T06:20:07.295127Z"
+    "critical_alerts": 1,
+    "high_alerts": 5,
+    "last_updated": "2026-11-12T06:24:25.412015Z"
   },
   "top_signals": [
     {
-      "id": "e92057816a434774d98e48975a68c912",
-      "title": "Aussie Falls to Lowest Since January on RBA Slowdown, AI Fears",
-      "summary": "Australia\u2019s dollar dropped to its lowest level in more than nine months as risk sentiment waned and the interest-rate outlook with the US diverged.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-12/aussie-falls-to-lowest-since-january-on-rba-slowdown-ai-fears",
+      "id": "b332f0cb4a8146afccfc3ebba522672a",
+      "title": "Gold Holds Below $4,000 as Market Looks Ahead to Fed Rate Hike",
+      "summary": "Gold fell for a third day, holding a drop below $4,000 an ounce as persistent US inflation and hawkish remarks from Federal Reserve officials fueled expectations for an interest-rate hike next month.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-12/gold-holds-below-4-000-as-market-looks-ahead-to-fed-rate-hike",
       "source": "Bloomberg",
-      "score": 13,
+      "score": 36,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-12T06:23:26.033419Z"
+    },
+    {
+      "id": "e82d0942f2a235fd885eeef82477d789",
+      "title": "Romanian servers targeted by Russian hackers to scoop up emails about NATO, EU",
+      "summary": "Hackers linked to Russia's FSB quietly compromised a Romanian government organization\u2019s servers to collect emails related to NATO and the EU in December 2025, a Slovak cybersecurity firm has revealed.",
+      "link": "https://www.defensenews.com/global/europe/2026/11/11/romanian-servers-targeted-by-russian-hackers-to-scoop-up-emails-about-nato-eu/",
+      "source": "Defense News",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-12T06:24:20.790240Z"
+    },
+    {
+      "id": "b932f0e15d73dd8ff4bb828e26a63c1a",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-12T06:23:30.429451Z"
+    },
+    {
+      "id": "d579105e77e3946565fc6243ac56f423",
+      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-12T06:23:30.429488Z"
+    },
+    {
+      "id": "8e8ac0230ddb286337fb986f54edc08a",
+      "title": "Want to Rent an Internet Address at the White House?",
+      "summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder's web hosting business was ground zero for cyberattacks against election systems in Arizona and Illinois in 2016.",
+      "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+      "source": "KrebsOnSecurity",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-12T06:24:22.534795Z"
+    },
+    {
+      "id": "5d8bd3e07cc2139d4fdb2848cdf8b6d5",
+      "title": "How Switzerland\u2019s rescue of a Russian bank went spectacularly wrong",
+      "summary": "A four-year saga of unpaid debts, feuding owners and legal battles",
+      "link": "https://www.ft.com/content/8d5aaf6c-e8b6-47ac-a111-a5827fce2175?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-12T06:23:28.327810Z"
+    },
+    {
+      "id": "da1ecdcfc809bbc7482521b471a21978",
+      "title": "Nvidia shares plunge almost 10% on report board may oust Jensen Huang",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-shares-plunge-almost-10-on-report-board-may-oust-jensen-huang",
+      "source": "Nikkei Asia",
+      "score": 14,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [
-        "DXY"
+        "NVDA"
       ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-12T06:24:16.733003Z"
+    },
+    {
+      "id": "b8e8af270aac0cee40fbec451bd616d6",
+      "title": "Indian shares bounce back as investors seek AI shelter",
+      "summary": "Nifty 50 is world\u2019s best-performing major market so far this quarter",
+      "link": "https://www.ft.com/content/99a27744-23bd-4cb9-92e4-7712dd658920?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
       "regions": [],
       "assets": [
         "AI"
@@ -36,22 +237,316 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-12T06:19:11.397482Z"
+      "published": "2026-11-12T06:23:28.327884Z"
+    },
+    {
+      "id": "2022759c08abd254de6442b20e2f2fa7",
+      "title": "MSCI confirms Strategy\u2019s removal from indexes at end of November",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"MSCI confirms Strategy\u2019s removal from indexes at end of November\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M76H4XXFRZZF8PWNZVYPMH4D/hi-the-bitcoin-treasury-model-is-breaking-but-microstrategys-isnt-heres-why.jpg\" /></p><p>Strategy, Metaplanet and Upexi are marked for deletion in MSCI\u2019s final list, with changes taking effect after the Nov. 30 close.</p>",
+      "link": "https://cointelegraph.com/news/msci-confirms-strategys-removal-from-indexes-end-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC",
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-12T06:24:22.018386Z"
+    },
+    {
+      "id": "12b58419e88bae100b5294024ad2be45",
+      "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+      "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-12T06:23:30.429415Z"
+    },
+    {
+      "id": "2987a86df6ccd7760ac20a9fc766d90d",
+      "title": "Chinese carmakers offer lifeline to Europe\u2019s struggling steel industry",
+      "summary": "Chief of major auto supplier Voestalpine says BYD and others will boost sector even as factories close",
+      "link": "https://www.ft.com/content/5f4e00d0-1ffd-4b3e-a510-d684eab64ac4?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-12T06:23:28.327854Z"
+    },
+    {
+      "id": "68f7c8296d3cb55da8f9cc6962f8cecb",
+      "title": "LDP, JIP and DPP submit Lower House seat-cut bill, driving contentious reform",
+      "summary": "Opposition parties have said that the move will give greater weight to single-member districts and make it harder for smaller parties to win seats.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/12/japan/politics/seat-reduction-bill-submitted/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-12T06:24:17.430144Z"
     }
   ],
   "alerts": [
     {
-      "id": "e92057816a434774d98e48975a68c912",
-      "title": "Aussie Falls to Lowest Since January on RBA Slowdown, AI Fears",
-      "summary": "Australia\u2019s dollar dropped to its lowest level in more than nine months as risk sentiment waned and the interest-rate outlook with the US diverged.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-12/aussie-falls-to-lowest-since-january-on-rba-slowdown-ai-fears",
+      "id": "b332f0cb4a8146afccfc3ebba522672a",
+      "title": "Gold Holds Below $4,000 as Market Looks Ahead to Fed Rate Hike",
+      "summary": "Gold fell for a third day, holding a drop below $4,000 an ounce as persistent US inflation and hawkish remarks from Federal Reserve officials fueled expectations for an interest-rate hike next month.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-12/gold-holds-below-4-000-as-market-looks-ahead-to-fed-rate-hike",
       "source": "Bloomberg",
-      "score": 13,
+      "score": 36,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-12T06:23:26.033419Z"
+    },
+    {
+      "id": "e82d0942f2a235fd885eeef82477d789",
+      "title": "Romanian servers targeted by Russian hackers to scoop up emails about NATO, EU",
+      "summary": "Hackers linked to Russia's FSB quietly compromised a Romanian government organization\u2019s servers to collect emails related to NATO and the EU in December 2025, a Slovak cybersecurity firm has revealed.",
+      "link": "https://www.defensenews.com/global/europe/2026/11/11/romanian-servers-targeted-by-russian-hackers-to-scoop-up-emails-about-nato-eu/",
+      "source": "Defense News",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-12T06:24:20.790240Z"
+    },
+    {
+      "id": "b932f0e15d73dd8ff4bb828e26a63c1a",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-12T06:23:30.429451Z"
+    },
+    {
+      "id": "d579105e77e3946565fc6243ac56f423",
+      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+      "source": "Federal Reserve",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-12T06:23:30.429488Z"
+    },
+    {
+      "id": "8e8ac0230ddb286337fb986f54edc08a",
+      "title": "Want to Rent an Internet Address at the White House?",
+      "summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder's web hosting business was ground zero for cyberattacks against election systems in Arizona and Illinois in 2016.",
+      "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+      "source": "KrebsOnSecurity",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-12T06:24:22.534795Z"
+    },
+    {
+      "id": "5d8bd3e07cc2139d4fdb2848cdf8b6d5",
+      "title": "How Switzerland\u2019s rescue of a Russian bank went spectacularly wrong",
+      "summary": "A four-year saga of unpaid debts, feuding owners and legal battles",
+      "link": "https://www.ft.com/content/8d5aaf6c-e8b6-47ac-a111-a5827fce2175?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-12T06:23:28.327810Z"
+    },
+    {
+      "id": "da1ecdcfc809bbc7482521b471a21978",
+      "title": "Nvidia shares plunge almost 10% on report board may oust Jensen Huang",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-shares-plunge-almost-10-on-report-board-may-oust-jensen-huang",
+      "source": "Nikkei Asia",
+      "score": 14,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [
-        "DXY"
+        "NVDA"
       ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-12T06:24:16.733003Z"
+    },
+    {
+      "id": "b8e8af270aac0cee40fbec451bd616d6",
+      "title": "Indian shares bounce back as investors seek AI shelter",
+      "summary": "Nifty 50 is world\u2019s best-performing major market so far this quarter",
+      "link": "https://www.ft.com/content/99a27744-23bd-4cb9-92e4-7712dd658920?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
       "regions": [],
       "assets": [
         "AI"
@@ -65,7 +560,100 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-12T06:19:11.397482Z"
+      "published": "2026-11-12T06:23:28.327884Z"
+    },
+    {
+      "id": "2022759c08abd254de6442b20e2f2fa7",
+      "title": "MSCI confirms Strategy\u2019s removal from indexes at end of November",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"MSCI confirms Strategy\u2019s removal from indexes at end of November\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M76H4XXFRZZF8PWNZVYPMH4D/hi-the-bitcoin-treasury-model-is-breaking-but-microstrategys-isnt-heres-why.jpg\" /></p><p>Strategy, Metaplanet and Upexi are marked for deletion in MSCI\u2019s final list, with changes taking effect after the Nov. 30 close.</p>",
+      "link": "https://cointelegraph.com/news/msci-confirms-strategys-removal-from-indexes-end-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC",
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-12T06:24:22.018386Z"
+    },
+    {
+      "id": "12b58419e88bae100b5294024ad2be45",
+      "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+      "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-12T06:23:30.429415Z"
+    },
+    {
+      "id": "2987a86df6ccd7760ac20a9fc766d90d",
+      "title": "Chinese carmakers offer lifeline to Europe\u2019s struggling steel industry",
+      "summary": "Chief of major auto supplier Voestalpine says BYD and others will boost sector even as factories close",
+      "link": "https://www.ft.com/content/5f4e00d0-1ffd-4b3e-a510-d684eab64ac4?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-12T06:23:28.327854Z"
+    },
+    {
+      "id": "68f7c8296d3cb55da8f9cc6962f8cecb",
+      "title": "LDP, JIP and DPP submit Lower House seat-cut bill, driving contentious reform",
+      "summary": "Opposition parties have said that the move will give greater weight to single-member districts and make it harder for smaller parties to win seats.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/12/japan/politics/seat-reduction-bill-submitted/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-12T06:24:17.430144Z"
     }
   ]
 }
