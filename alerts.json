@@ -1,73 +1,303 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-13T03:18:44.570677Z",
+  "generated_at": "2026-11-13T03:23:37.431117Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-11-13T03:18:44.570685Z"
+    "critical_alerts": 1,
+    "high_alerts": 1,
+    "last_updated": "2026-11-13T03:23:37.431129Z"
   },
   "top_signals": [
     {
-      "id": "f6bf8fc72ff158de3208833af97ec9db",
-      "title": "Cravath Employee Is Charged With Insider Trading Using Confidential Deal Information - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNQUkteDNEYnV5YWxaLWJDN1luZ01lY2RhOTViaXNzNy1sUTV1N1F1cDNpYUs0Q3poOVN1ZnlEU2E3SDNkWDY1b3ZsUW1rdDJUbDRoN00taUxBNzkyTzRKREVJaEs5dFNxcTJVekxYUUNmU2hyTGNVOVIzR2s2eHRiaXZUdlBPcEJDdkJZNVFsdDY0aUtRMnlueDdPb0hhREZnUnF1cXZQR0NQZlZRQ1htYVdBWDM0ZC11X21weE9FOHBIYUZYcHhuMWQ1TGw?oc=5\" target=\"_blank\">Cravath Employee Is Charged With Insider Trading Using Confidential Deal Information</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQUkteDNEYnV5YWxaLWJDN1luZ01lY2RhOTViaXNzNy1sUTV1N1F1cDNpYUs0Q3poOVN1ZnlEU2E3SDNkWDY1b3ZsUW1rdDJUbDRoN00taUxBNzkyTzRKREVJaEs5dFNxcTJVekxYUUNmU2hyTGNVOVIzR2s2eHRiaXZUdlBPcEJDdkJZNVFsdDY0aUtRMnlueDdPb0hhREZnUnF1cXZQR0NQZlZRQ1htYVdBWDM0ZC11X21weE9FOHBIYUZYcHhuMWQ1TGw?oc=5",
-      "source": "Google Macro",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [
-        "UK"
+      "id": "5c2be925ed26cdb05f988f66122a7a69",
+      "title": "Japan Bonds Fall as Treasury Rout Extends on Fed-Hike Bets",
+      "summary": "Japanese government bonds slumped on Friday, tracking Treasuries which saw a second straight session of losses as traders increased wagers on aggressive Federal Reserve interest-rate hikes.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-13/japan-bonds-fall-as-treasury-rout-extends-on-fed-hike-bets",
+      "source": "Bloomberg",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
       ],
-      "assets": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-13T03:22:37.239066Z"
+    },
+    {
+      "id": "45f1f8c6b80f724e070c0d7a7c841855",
+      "title": "Meta, chat app Line help Taiwan combat online fraud",
+      "summary": "",
+      "link": "https://asia.nikkei.com/spotlight/society/crime/meta-chat-app-line-help-taiwan-combat-online-fraud",
+      "source": "Nikkei Asia",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-13T03:18:44.034103Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-13T03:23:28.716604Z"
+    },
+    {
+      "id": "8c7cc507dd3da62587b1b4cfeea49917",
+      "title": "Policy paper: Joint Statement: EU-UK Financial Regulatory Forum, November 2026",
+      "summary": "HM Treasury and European Commission joint statement on the sixth EU-UK Financial Regulatory Forum.",
+      "link": "https://www.gov.uk/government/publications/joint-statement-eu-uk-financial-regulatory-forum-november-2026",
+      "source": "HM Treasury",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "EUR",
+        "TLT"
+      ],
+      "regions": [
+        "EUROPE",
+        "UK"
+      ],
+      "assets": [
+        "FX",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-13T03:23:26.426780Z"
+    },
+    {
+      "id": "f3b14aabb69c866cd7250725b8b4bc6f",
+      "title": "America Can Do Good\u2014and Do Well",
+      "summary": "The strategic logic of foreign aid.",
+      "link": "https://www.foreignaffairs.com/united-states/america-can-do-good-and-do-well",
+      "source": "Foreign Affairs",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-13T03:23:32.825093Z"
+    },
+    {
+      "id": "a42d1936504d688534ca78ebea9a6b36",
+      "title": "The Paradox of Dollar Dominance",
+      "summary": "How Technology Is\u2014and Isn\u2019t\u2014Changing the Global Economy",
+      "link": "https://www.foreignaffairs.com/economics/paradox-dollar-dominance",
+      "source": "Foreign Affairs",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-13T03:23:32.825124Z"
     }
   ],
   "alerts": [
     {
-      "id": "f6bf8fc72ff158de3208833af97ec9db",
-      "title": "Cravath Employee Is Charged With Insider Trading Using Confidential Deal Information - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNQUkteDNEYnV5YWxaLWJDN1luZ01lY2RhOTViaXNzNy1sUTV1N1F1cDNpYUs0Q3poOVN1ZnlEU2E3SDNkWDY1b3ZsUW1rdDJUbDRoN00taUxBNzkyTzRKREVJaEs5dFNxcTJVekxYUUNmU2hyTGNVOVIzR2s2eHRiaXZUdlBPcEJDdkJZNVFsdDY0aUtRMnlueDdPb0hhREZnUnF1cXZQR0NQZlZRQ1htYVdBWDM0ZC11X21weE9FOHBIYUZYcHhuMWQ1TGw?oc=5\" target=\"_blank\">Cravath Employee Is Charged With Insider Trading Using Confidential Deal Information</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQUkteDNEYnV5YWxaLWJDN1luZ01lY2RhOTViaXNzNy1sUTV1N1F1cDNpYUs0Q3poOVN1ZnlEU2E3SDNkWDY1b3ZsUW1rdDJUbDRoN00taUxBNzkyTzRKREVJaEs5dFNxcTJVekxYUUNmU2hyTGNVOVIzR2s2eHRiaXZUdlBPcEJDdkJZNVFsdDY0aUtRMnlueDdPb0hhREZnUnF1cXZQR0NQZlZRQ1htYVdBWDM0ZC11X21weE9FOHBIYUZYcHhuMWQ1TGw?oc=5",
-      "source": "Google Macro",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [
-        "UK"
+      "id": "5c2be925ed26cdb05f988f66122a7a69",
+      "title": "Japan Bonds Fall as Treasury Rout Extends on Fed-Hike Bets",
+      "summary": "Japanese government bonds slumped on Friday, tracking Treasuries which saw a second straight session of losses as traders increased wagers on aggressive Federal Reserve interest-rate hikes.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-13/japan-bonds-fall-as-treasury-rout-extends-on-fed-hike-bets",
+      "source": "Bloomberg",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
       ],
-      "assets": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-13T03:22:37.239066Z"
+    },
+    {
+      "id": "45f1f8c6b80f724e070c0d7a7c841855",
+      "title": "Meta, chat app Line help Taiwan combat online fraud",
+      "summary": "",
+      "link": "https://asia.nikkei.com/spotlight/society/crime/meta-chat-app-line-help-taiwan-combat-online-fraud",
+      "source": "Nikkei Asia",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-13T03:18:44.034103Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-13T03:23:28.716604Z"
+    },
+    {
+      "id": "8c7cc507dd3da62587b1b4cfeea49917",
+      "title": "Policy paper: Joint Statement: EU-UK Financial Regulatory Forum, November 2026",
+      "summary": "HM Treasury and European Commission joint statement on the sixth EU-UK Financial Regulatory Forum.",
+      "link": "https://www.gov.uk/government/publications/joint-statement-eu-uk-financial-regulatory-forum-november-2026",
+      "source": "HM Treasury",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "EUR",
+        "TLT"
+      ],
+      "regions": [
+        "EUROPE",
+        "UK"
+      ],
+      "assets": [
+        "FX",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-13T03:23:26.426780Z"
+    },
+    {
+      "id": "f3b14aabb69c866cd7250725b8b4bc6f",
+      "title": "America Can Do Good\u2014and Do Well",
+      "summary": "The strategic logic of foreign aid.",
+      "link": "https://www.foreignaffairs.com/united-states/america-can-do-good-and-do-well",
+      "source": "Foreign Affairs",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-13T03:23:32.825093Z"
+    },
+    {
+      "id": "a42d1936504d688534ca78ebea9a6b36",
+      "title": "The Paradox of Dollar Dominance",
+      "summary": "How Technology Is\u2014and Isn\u2019t\u2014Changing the Global Economy",
+      "link": "https://www.foreignaffairs.com/economics/paradox-dollar-dominance",
+      "source": "Foreign Affairs",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-13T03:23:32.825124Z"
     }
   ]
 }
