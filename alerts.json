@@ -1,77 +1,599 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-13T10:23:31.633318Z",
+  "generated_at": "2026-11-13T10:29:11.018771Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-11-13T10:23:31.633326Z"
+    "high_alerts": 3,
+    "last_updated": "2026-11-13T10:29:11.018781Z"
   },
   "top_signals": [
     {
-      "id": "b1426e9cc766a9cbfbb401f6f31fe720",
-      "title": "US Stocks Drift as Fed Bets Face Inflation Test: Markets Wrap",
-      "summary": "US stocks struggled for direction ahead of inflation data that will cap a dramatic week in which traders ramped up bets on Federal Reserve interest-rate hikes and Jensen Huang was ousted from Nvidia Corp.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-12/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 37,
+      "id": "d7ff8e71d3e883c22560375b39b09040",
+      "title": "Global refinery inputs fell sharply in the second quarter of 2026 before modest recovery",
+      "summary": "Global crude oil refinery inputs fell by 4.8 million barrels per day (b/d) in the second quarter of 2026 (2Q26), or 6%, following the start of conflict in late February in the Middle East, according to data from Kpler. Throughput then increased by 1.8 million b/d in the third quarter, primarily as refiners in the region adjusted to new trade flows.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68404",
+      "source": "EIA",
+      "score": 25,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "NVDA"
+        "WTI"
       ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-13T10:29:06.075701Z"
+    },
+    {
+      "id": "4d4c292cfcd8fc981cd12e759e1f5080",
+      "title": "House passes bill to expand benefits for combat-injured veterans",
+      "summary": "The House approved legislation Thursday that would allow combat-injured military retirees with less than 20 years of service to collect their full military retirement pay and Department of Veterans Affairs disability compensation.",
+      "link": "https://www.defensenews.com/news/2026/11/12/house-passes-bill-to-expand-benefits-for-combat-injured-veterans/",
+      "source": "Defense News",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-13T10:29:07.296388Z"
+    },
+    {
+      "id": "6c52ddf456df5f3b867420b37e355c7d",
+      "title": "Here\u2019s what happened in crypto today",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here\u2019s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg\" /></p><p>Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.</p>",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-13T10:29:07.899362Z"
+    },
+    {
+      "id": "2ac2ab7b423214537be2e4b700816845",
+      "title": "Nvidia\u2019s turmoil is prompting a rotation across chip stocks. Here's what we know - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOX2YyRTZFMWhVUzZfU0hiQTlZR3U4M3MxbG5Hbk83cHJUYThyWnNYcWY5RlBtcW1jOHpVN1ltbzRsSFlndjhYMXE1TEp1N2RoMU1OYkRESlNpclVST3haa25hQ183bDQ5Y01jTXpFTTFaUDVTSGlkUG9QOXlrX2N0Y1YxUHJ3dVltS2fSAY8BQVVfeXFMTWRwQjNxWEtubmFzbms0UTJNTUZVMi1NNDY3NXJMQWpwNnlDMDluRXZUemNkZE1fS2w0M3hJQS1DVHFTUzA2YVRmM3ZqcHVraTJaVHdZd3hVT1JDd2J6dWNyRnNPR3FmbTRvSnRGRlQ4TEQtSGRnc3QwT0l5NjIyR1BreVQwQzNScC1ZQ2ROWVU?oc=5\" target=\"_blank\">Nvidia\u2019s turmoil is prompting a rotation across chip stocks. Here's what we know</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOX2YyRTZFMWhVUzZfU0hiQTlZR3U4M3MxbG5Hbk83cHJUYThyWnNYcWY5RlBtcW1jOHpVN1ltbzRsSFlndjhYMXE1TEp1N2RoMU1OYkRESlNpclVST3haa25hQ183bDQ5Y01jTXpFTTFaUDVTSGlkUG9QOXlrX2N0Y1YxUHJ3dVltS2fSAY8BQVVfeXFMTWRwQjNxWEtubmFzbms0UTJNTUZVMi1NNDY3NXJMQWpwNnlDMDluRXZUemNkZE1fS2w0M3hJQS1DVHFTUzA2YVRmM3ZqcHVraTJaVHdZd3hVT1JDd2J6dWNyRnNPR3FmbTRvSnRGRlQ4TEQtSGRnc3QwT0l5NjIyR1BreVQwQzNScC1ZQ2ROWVU?oc=5",
+      "source": "Google Macro",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "NVDA",
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-13T10:29:11.018701Z"
+    },
+    {
+      "id": "08ccadb986adb33f2c7463ea21f6ac44",
+      "title": "Refineries have shifted production away from gasoline to middle distillates",
+      "summary": "Particularly high refinery margins for distillate fuel oil and jet fuel have contributed to shifts in the refinery yields of major products in 2026. Data from our latest Petroleum Supply Monthly\u2014which includes data through August 2026\u2014indicate refinery yields of gasoline have decreased significantly this year to support increased production of distillate fuel oil and jet fuel, sometimes referred to as middle distillates due to their relative cut points in the oil refining process.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68424",
+      "source": "EIA",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-13T10:29:06.075642Z"
+    },
+    {
+      "id": "5c2314148596dc2efdd0ea41c2fe1add",
+      "title": "US Stocks Drift Before Inflation Test of Fed Bets: Markets Wrap - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPTmVnUHB5bWw0Y052NTU5ZkNsOGdwUXVCWnIwczVnQWJKWmJiaUZta09PNGhNYVZWSENvOFVReWJIVldFcDJNcmlOQ3RyMWhHQThNcmtnU0FIZldHWHJ4NldqbkVrYUlseVNBN0xycmRrUjdFVWRQQll6MzhBUHNOS2NidGtDc01LeWlNd01WNGJxcm5E?oc=5\" target=\"_blank\">US Stocks Drift Before Inflation Test of Fed Bets: Markets Wrap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTmVnUHB5bWw0Y052NTU5ZkNsOGdwUXVCWnIwczVnQWJKWmJiaUZta09PNGhNYVZWSENvOFVReWJIVldFcDJNcmlOQ3RyMWhHQThNcmtnU0FIZldHWHJ4NldqbkVrYUlseVNBN0xycmRrUjdFVWRQQll6MzhBUHNOS2NidGtDc01LeWlNd01WNGJxcm5E?oc=5",
+      "source": "Google Macro",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
       "regions": [],
       "assets": [
         "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "XAU",
+          "WTI",
+          "COMMODITIES"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-13T10:22:34.395483Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-11-13T10:29:09.013105Z"
+    },
+    {
+      "id": "df5a3474bafe8b210b9f66840cd4a21e",
+      "title": "Small Modular Reactors for Maritime Shipping: A Nuclear Propulsion Pathway",
+      "summary": "Nuclear power has already crossed oceans. The harder question is whether modern small modular reactors can be integrated, licensed and financed for merchant ships, and where they make sense first.In 2023 the International Maritime Organization\u2026",
+      "link": "https://www.marinelink.com/news/small-modular-reactors-maritime-shipping-544329",
+      "source": "MarineLink",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-11-13T10:29:07.176354Z"
+    },
+    {
+      "id": "bbc69d3ebebb889459327466aa6a0347",
+      "title": "ASEAN, Quad leaders meet at Manila summits: 5 things to watch",
+      "summary": "",
+      "link": "https://asia.nikkei.com/politics/international-relations/asean-quad-leaders-meet-at-manila-summits-5-things-to-watch",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-13T10:29:04.585875Z"
+    },
+    {
+      "id": "7ceae1f17454a383790bdb1ec30e01ec",
+      "title": "Widespread Microsoft outage takes down Outlook and other 365 services",
+      "summary": "A Microsoft outage on Thursday affected users of services like Outlook, Teams and 365.",
+      "link": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-13T10:28:21.910088Z"
+    },
+    {
+      "id": "9404dc243ea7401f8ad0b1816bd09509",
+      "title": "The share of solar generation with co-located battery storage is increasing",
+      "summary": "Utility-scale solar developers are increasingly co-locating battery storage with new solar photovoltaic capacity. As of September 2026, over 16% of new utility-scale solar capacity added this year is co-located with operable battery storage, compared with 2% in 2017, according to data reported to EIA by operators.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68384",
+      "source": "EIA",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-13T10:29:06.075778Z"
+    },
+    {
+      "id": "0888bf9ff1e44ec05373ae671e385eef",
+      "title": "LNG imports make up increasing share of Colombia's natural gas supply",
+      "summary": "Colombia is importing more liquefied natural gas (LNG) as domestic production continues to fall. A potential drought this fall and winter could limit the availability of hydroelectric generation and boost the country's demand for natural gas power generation. Colombia's government has declared a national disaster in anticipation of a drought resulting from an expected strong El Ni\u00f1o.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68364",
+      "source": "EIA",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-13T10:29:06.075842Z"
     }
   ],
   "alerts": [
     {
-      "id": "b1426e9cc766a9cbfbb401f6f31fe720",
-      "title": "US Stocks Drift as Fed Bets Face Inflation Test: Markets Wrap",
-      "summary": "US stocks struggled for direction ahead of inflation data that will cap a dramatic week in which traders ramped up bets on Federal Reserve interest-rate hikes and Jensen Huang was ousted from Nvidia Corp.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-12/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 37,
+      "id": "d7ff8e71d3e883c22560375b39b09040",
+      "title": "Global refinery inputs fell sharply in the second quarter of 2026 before modest recovery",
+      "summary": "Global crude oil refinery inputs fell by 4.8 million barrels per day (b/d) in the second quarter of 2026 (2Q26), or 6%, following the start of conflict in late February in the Middle East, according to data from Kpler. Throughput then increased by 1.8 million b/d in the third quarter, primarily as refiners in the region adjusted to new trade flows.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68404",
+      "source": "EIA",
+      "score": 25,
       "severity": "CRITICAL",
-      "regime": "RATES",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "NVDA"
+        "WTI"
       ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-13T10:29:06.075701Z"
+    },
+    {
+      "id": "4d4c292cfcd8fc981cd12e759e1f5080",
+      "title": "House passes bill to expand benefits for combat-injured veterans",
+      "summary": "The House approved legislation Thursday that would allow combat-injured military retirees with less than 20 years of service to collect their full military retirement pay and Department of Veterans Affairs disability compensation.",
+      "link": "https://www.defensenews.com/news/2026/11/12/house-passes-bill-to-expand-benefits-for-combat-injured-veterans/",
+      "source": "Defense News",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-13T10:29:07.296388Z"
+    },
+    {
+      "id": "6c52ddf456df5f3b867420b37e355c7d",
+      "title": "Here\u2019s what happened in crypto today",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here\u2019s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg\" /></p><p>Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.</p>",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-13T10:29:07.899362Z"
+    },
+    {
+      "id": "2ac2ab7b423214537be2e4b700816845",
+      "title": "Nvidia\u2019s turmoil is prompting a rotation across chip stocks. Here's what we know - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOX2YyRTZFMWhVUzZfU0hiQTlZR3U4M3MxbG5Hbk83cHJUYThyWnNYcWY5RlBtcW1jOHpVN1ltbzRsSFlndjhYMXE1TEp1N2RoMU1OYkRESlNpclVST3haa25hQ183bDQ5Y01jTXpFTTFaUDVTSGlkUG9QOXlrX2N0Y1YxUHJ3dVltS2fSAY8BQVVfeXFMTWRwQjNxWEtubmFzbms0UTJNTUZVMi1NNDY3NXJMQWpwNnlDMDluRXZUemNkZE1fS2w0M3hJQS1DVHFTUzA2YVRmM3ZqcHVraTJaVHdZd3hVT1JDd2J6dWNyRnNPR3FmbTRvSnRGRlQ4TEQtSGRnc3QwT0l5NjIyR1BreVQwQzNScC1ZQ2ROWVU?oc=5\" target=\"_blank\">Nvidia\u2019s turmoil is prompting a rotation across chip stocks. Here's what we know</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOX2YyRTZFMWhVUzZfU0hiQTlZR3U4M3MxbG5Hbk83cHJUYThyWnNYcWY5RlBtcW1jOHpVN1ltbzRsSFlndjhYMXE1TEp1N2RoMU1OYkRESlNpclVST3haa25hQ183bDQ5Y01jTXpFTTFaUDVTSGlkUG9QOXlrX2N0Y1YxUHJ3dVltS2fSAY8BQVVfeXFMTWRwQjNxWEtubmFzbms0UTJNTUZVMi1NNDY3NXJMQWpwNnlDMDluRXZUemNkZE1fS2w0M3hJQS1DVHFTUzA2YVRmM3ZqcHVraTJaVHdZd3hVT1JDd2J6dWNyRnNPR3FmbTRvSnRGRlQ4TEQtSGRnc3QwT0l5NjIyR1BreVQwQzNScC1ZQ2ROWVU?oc=5",
+      "source": "Google Macro",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "NVDA",
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-13T10:29:11.018701Z"
+    },
+    {
+      "id": "08ccadb986adb33f2c7463ea21f6ac44",
+      "title": "Refineries have shifted production away from gasoline to middle distillates",
+      "summary": "Particularly high refinery margins for distillate fuel oil and jet fuel have contributed to shifts in the refinery yields of major products in 2026. Data from our latest Petroleum Supply Monthly\u2014which includes data through August 2026\u2014indicate refinery yields of gasoline have decreased significantly this year to support increased production of distillate fuel oil and jet fuel, sometimes referred to as middle distillates due to their relative cut points in the oil refining process.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68424",
+      "source": "EIA",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-13T10:29:06.075642Z"
+    },
+    {
+      "id": "5c2314148596dc2efdd0ea41c2fe1add",
+      "title": "US Stocks Drift Before Inflation Test of Fed Bets: Markets Wrap - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPTmVnUHB5bWw0Y052NTU5ZkNsOGdwUXVCWnIwczVnQWJKWmJiaUZta09PNGhNYVZWSENvOFVReWJIVldFcDJNcmlOQ3RyMWhHQThNcmtnU0FIZldHWHJ4NldqbkVrYUlseVNBN0xycmRrUjdFVWRQQll6MzhBUHNOS2NidGtDc01LeWlNd01WNGJxcm5E?oc=5\" target=\"_blank\">US Stocks Drift Before Inflation Test of Fed Bets: Markets Wrap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTmVnUHB5bWw0Y052NTU5ZkNsOGdwUXVCWnIwczVnQWJKWmJiaUZta09PNGhNYVZWSENvOFVReWJIVldFcDJNcmlOQ3RyMWhHQThNcmtnU0FIZldHWHJ4NldqbkVrYUlseVNBN0xycmRrUjdFVWRQQll6MzhBUHNOS2NidGtDc01LeWlNd01WNGJxcm5E?oc=5",
+      "source": "Google Macro",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
       "regions": [],
       "assets": [
         "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "XAU",
+          "WTI",
+          "COMMODITIES"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-13T10:22:34.395483Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-11-13T10:29:09.013105Z"
+    },
+    {
+      "id": "df5a3474bafe8b210b9f66840cd4a21e",
+      "title": "Small Modular Reactors for Maritime Shipping: A Nuclear Propulsion Pathway",
+      "summary": "Nuclear power has already crossed oceans. The harder question is whether modern small modular reactors can be integrated, licensed and financed for merchant ships, and where they make sense first.In 2023 the International Maritime Organization\u2026",
+      "link": "https://www.marinelink.com/news/small-modular-reactors-maritime-shipping-544329",
+      "source": "MarineLink",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-11-13T10:29:07.176354Z"
+    },
+    {
+      "id": "bbc69d3ebebb889459327466aa6a0347",
+      "title": "ASEAN, Quad leaders meet at Manila summits: 5 things to watch",
+      "summary": "",
+      "link": "https://asia.nikkei.com/politics/international-relations/asean-quad-leaders-meet-at-manila-summits-5-things-to-watch",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-13T10:29:04.585875Z"
+    },
+    {
+      "id": "7ceae1f17454a383790bdb1ec30e01ec",
+      "title": "Widespread Microsoft outage takes down Outlook and other 365 services",
+      "summary": "A Microsoft outage on Thursday affected users of services like Outlook, Teams and 365.",
+      "link": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+      "source": "CNBC",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-13T10:28:21.910088Z"
+    },
+    {
+      "id": "9404dc243ea7401f8ad0b1816bd09509",
+      "title": "The share of solar generation with co-located battery storage is increasing",
+      "summary": "Utility-scale solar developers are increasingly co-locating battery storage with new solar photovoltaic capacity. As of September 2026, over 16% of new utility-scale solar capacity added this year is co-located with operable battery storage, compared with 2% in 2017, according to data reported to EIA by operators.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68384",
+      "source": "EIA",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-13T10:29:06.075778Z"
+    },
+    {
+      "id": "0888bf9ff1e44ec05373ae671e385eef",
+      "title": "LNG imports make up increasing share of Colombia's natural gas supply",
+      "summary": "Colombia is importing more liquefied natural gas (LNG) as domestic production continues to fall. A potential drought this fall and winter could limit the availability of hydroelectric generation and boost the country's demand for natural gas power generation. Colombia's government has declared a national disaster in anticipation of a drought resulting from an expected strong El Ni\u00f1o.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68364",
+      "source": "EIA",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-13T10:29:06.075842Z"
     }
   ]
 }
