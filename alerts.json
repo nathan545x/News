@@ -1,49 +1,674 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-14T12:43:46.916006Z",
+  "generated_at": "2026-11-14T12:50:01.959224Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-11-14T12:43:46.916017Z"
+    "critical_alerts": 1,
+    "high_alerts": 4,
+    "last_updated": "2026-11-14T12:50:01.959245Z"
   },
   "top_signals": [
     {
-      "id": "ad832f3a165ff9855591601027684662",
-      "title": "Treat prediction markets like futures trading - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE1ybTZtaDNHQmFrMkxIc1lTZTh0RVZfR25ORVA5ZG8tS0ZRbUZmREhlR3JSRGotOEQwaFJ0a3pHR2dNOGx2MFM4TC1fX21FeGd1UVhmWXZJemExZlBtQTd2R0VhZGhka1J2WTVtLVI4Skw?oc=5\" target=\"_blank\">Treat prediction markets like futures trading</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ybTZtaDNHQmFrMkxIc1lTZTh0RVZfR25ORVA5ZG8tS0ZRbUZmREhlR3JSRGotOEQwaFJ0a3pHR2dNOGx2MFM4TC1fX21FeGd1UVhmWXZJemExZlBtQTd2R0VhZGhka1J2WTVtLVI4Skw?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
+      "id": "8b5c6f8e4f0719e562022569795b5950",
+      "title": "Nvidia scandal sparks Washington blame game over China chip exports",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-scandal-sparks-washington-blame-game-over-china-chip-exports",
+      "source": "Nikkei Asia",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-14T12:49:54.785267Z"
+    },
+    {
+      "id": "cc449c5dbffa591284a25cb290b357e4",
+      "title": "Regulators explore credit union reforms to support growth, innovation and better outcomes for members",
+      "summary": "Credit unions could benefit from several ideas put forward today by the Prudential Regulation Authority and Financial Conduct Authority aimed at helping the sector grow, innovate and meet the changing needs of their members.",
+      "link": "https://www.bankofengland.co.uk/news/2026/november/regulators-explore-credit-union-reforms-to-support-growth-innovation-and-better-outcomes-for-members",
+      "source": "Bank of England",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-14T12:49:52.265577Z"
+    },
+    {
+      "id": "08be044ae394aa356caf1c4f3f387f8b",
+      "title": "Who Runs the Ransomware Group Qilin?",
+      "summary": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over the last decade that all point to a 36-year-old man living in St. Petersburg, Russia.",
+      "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+      "source": "KrebsOnSecurity",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-14T12:49:59.147179Z"
+    },
+    {
+      "id": "730b8f51373ad7c358bb5f1334aa61c5",
+      "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+      "summary": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-14T12:49:13.083407Z"
+    },
+    {
+      "id": "6392b8be7868011a6d8a237bbc5ff001",
+      "title": "Japan and Philippines to ink deal on oil reserve cooperation",
+      "summary": "Under the partnership, Japan will help the Philippines develop a national oil reserve system as part of measures to enhance its energy security.",
+      "link": "https://www.japantimes.co.jp/business/2026/11/14/japan-philippines-oil-reserve-deal/",
+      "source": "Japan Times",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-14T12:49:55.076754Z"
+    },
+    {
+      "id": "2d42f61114f350590c85ff6b496da002",
+      "title": "Central Bank independence in today\u2019s world - Speech by Andrew Bailey",
+      "summary": "Given at the SIAF Lecture Series, Zurich University",
+      "link": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series",
+      "source": "Bank of England",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-14T12:49:52.406269Z"
+    },
+    {
+      "id": "1aedb7439cde93eb3bf7ecdbc03f3242",
+      "title": "Alice Huang tied to Nvidia\u2019s biggest Chinese competitor",
+      "summary": "The woman with whom Jensen Huang reportedly had a relationship also owned stakes in companies that provided computing power to Huawei, a key Nvidia competitor.",
+      "link": "https://www.cnbc.com/2026/11/12/alice-huang-jensen-huang-nvidia-huawei.html",
+      "source": "CNBC",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-14T12:49:12.985892Z"
+    },
+    {
+      "id": "c5a5fad1bb99a666114694ee15181f0b",
+      "title": "Germany Eyes \u20ac4 Billion Buyout of RWE and E.ON\u2019s Urenco Stake",
+      "summary": "Germany\u2019s government plans to buy RWE and E.ON\u2019s one-third stake in uranium enrichment company Urenco for up to \u20ac4 billion, German newspapers reported, in a deal Britain requested to keep the stake in European hands as it prepares to use Urenco to make fuel for its military reactors, including those powering its nuclear submarines. Die Welt first reported on Thursday evening that a new line had appeared in the Bundestag\u2019s final deliberations on the 2027 draft budget, setting aside \u20ac4 billion for \u201cthe acquisition\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Germany-Eyes-4-Billion-Buyout-of-RWE-and-EONs-Urenco-Stake.html",
+      "source": "OilPrice",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BUND",
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "GERMANY",
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "FX",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-14T12:49:56.688348Z"
+    },
+    {
+      "id": "855629b3f8080ef0a49c824e2e2b3e58",
+      "title": "Microsoft says November security updates cause printing issues",
+      "summary": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-14T12:49:58.940023Z"
+    },
+    {
+      "id": "c79e6e4c72b0e243e2d9b34ba7295c9d",
+      "title": "Summary of the RTGS CHAPS Industry Forum - 13 October 2026",
+      "summary": "The second meeting of the RTGS CHAPS Industry Forum",
+      "link": "https://www.bankofengland.co.uk/minutes/2026/october/rtgs-chaps-industry-forum-13-october-2026",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-14T12:43:45.853756Z"
+      "published": "2026-11-14T12:49:52.265516Z"
+    },
+    {
+      "id": "db1651671447d66a524347793eb7f584",
+      "title": "Principals and Agents \u2013 speech by Jonathan Hall",
+      "summary": "Given at CFM-Imperial Workshop on Quantitative Finance (hosted by Deutsche Bank)",
+      "link": "https://www.bankofengland.co.uk/speech/2026/november/jon-hall-speech-at-cf-imperial-workshop",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-14T12:49:52.406208Z"
+    },
+    {
+      "id": "454cdf6346bd23a19a92b3eeec64be6f",
+      "title": "Affordable finance access for tens of thousands more people",
+      "summary": "Government announces further reforms to credit unions to allow members who move away from the area to refer their relatives for membership.",
+      "link": "https://www.gov.uk/government/news/affordable-finance-access-for-tens-of-thousands-more-people",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-14T12:49:52.869365Z"
     }
   ],
   "alerts": [
     {
-      "id": "ad832f3a165ff9855591601027684662",
-      "title": "Treat prediction markets like futures trading - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE1ybTZtaDNHQmFrMkxIc1lTZTh0RVZfR25ORVA5ZG8tS0ZRbUZmREhlR3JSRGotOEQwaFJ0a3pHR2dNOGx2MFM4TC1fX21FeGd1UVhmWXZJemExZlBtQTd2R0VhZGhka1J2WTVtLVI4Skw?oc=5\" target=\"_blank\">Treat prediction markets like futures trading</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ybTZtaDNHQmFrMkxIc1lTZTh0RVZfR25ORVA5ZG8tS0ZRbUZmREhlR3JSRGotOEQwaFJ0a3pHR2dNOGx2MFM4TC1fX21FeGd1UVhmWXZJemExZlBtQTd2R0VhZGhka1J2WTVtLVI4Skw?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
+      "id": "8b5c6f8e4f0719e562022569795b5950",
+      "title": "Nvidia scandal sparks Washington blame game over China chip exports",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-scandal-sparks-washington-blame-game-over-china-chip-exports",
+      "source": "Nikkei Asia",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-14T12:49:54.785267Z"
+    },
+    {
+      "id": "cc449c5dbffa591284a25cb290b357e4",
+      "title": "Regulators explore credit union reforms to support growth, innovation and better outcomes for members",
+      "summary": "Credit unions could benefit from several ideas put forward today by the Prudential Regulation Authority and Financial Conduct Authority aimed at helping the sector grow, innovate and meet the changing needs of their members.",
+      "link": "https://www.bankofengland.co.uk/news/2026/november/regulators-explore-credit-union-reforms-to-support-growth-innovation-and-better-outcomes-for-members",
+      "source": "Bank of England",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-14T12:49:52.265577Z"
+    },
+    {
+      "id": "08be044ae394aa356caf1c4f3f387f8b",
+      "title": "Who Runs the Ransomware Group Qilin?",
+      "summary": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over the last decade that all point to a 36-year-old man living in St. Petersburg, Russia.",
+      "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+      "source": "KrebsOnSecurity",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-14T12:49:59.147179Z"
+    },
+    {
+      "id": "730b8f51373ad7c358bb5f1334aa61c5",
+      "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+      "summary": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-14T12:49:13.083407Z"
+    },
+    {
+      "id": "6392b8be7868011a6d8a237bbc5ff001",
+      "title": "Japan and Philippines to ink deal on oil reserve cooperation",
+      "summary": "Under the partnership, Japan will help the Philippines develop a national oil reserve system as part of measures to enhance its energy security.",
+      "link": "https://www.japantimes.co.jp/business/2026/11/14/japan-philippines-oil-reserve-deal/",
+      "source": "Japan Times",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-14T12:49:55.076754Z"
+    },
+    {
+      "id": "2d42f61114f350590c85ff6b496da002",
+      "title": "Central Bank independence in today\u2019s world - Speech by Andrew Bailey",
+      "summary": "Given at the SIAF Lecture Series, Zurich University",
+      "link": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series",
+      "source": "Bank of England",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-14T12:49:52.406269Z"
+    },
+    {
+      "id": "1aedb7439cde93eb3bf7ecdbc03f3242",
+      "title": "Alice Huang tied to Nvidia\u2019s biggest Chinese competitor",
+      "summary": "The woman with whom Jensen Huang reportedly had a relationship also owned stakes in companies that provided computing power to Huawei, a key Nvidia competitor.",
+      "link": "https://www.cnbc.com/2026/11/12/alice-huang-jensen-huang-nvidia-huawei.html",
+      "source": "CNBC",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-14T12:49:12.985892Z"
+    },
+    {
+      "id": "c5a5fad1bb99a666114694ee15181f0b",
+      "title": "Germany Eyes \u20ac4 Billion Buyout of RWE and E.ON\u2019s Urenco Stake",
+      "summary": "Germany\u2019s government plans to buy RWE and E.ON\u2019s one-third stake in uranium enrichment company Urenco for up to \u20ac4 billion, German newspapers reported, in a deal Britain requested to keep the stake in European hands as it prepares to use Urenco to make fuel for its military reactors, including those powering its nuclear submarines. Die Welt first reported on Thursday evening that a new line had appeared in the Bundestag\u2019s final deliberations on the 2027 draft budget, setting aside \u20ac4 billion for \u201cthe acquisition\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Germany-Eyes-4-Billion-Buyout-of-RWE-and-EONs-Urenco-Stake.html",
+      "source": "OilPrice",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BUND",
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "GERMANY",
+        "UK"
+      ],
+      "assets": [
+        "AI",
+        "FX",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-14T12:49:56.688348Z"
+    },
+    {
+      "id": "855629b3f8080ef0a49c824e2e2b3e58",
+      "title": "Microsoft says November security updates cause printing issues",
+      "summary": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-14T12:49:58.940023Z"
+    },
+    {
+      "id": "c79e6e4c72b0e243e2d9b34ba7295c9d",
+      "title": "Summary of the RTGS CHAPS Industry Forum - 13 October 2026",
+      "summary": "The second meeting of the RTGS CHAPS Industry Forum",
+      "link": "https://www.bankofengland.co.uk/minutes/2026/october/rtgs-chaps-industry-forum-13-october-2026",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-14T12:43:45.853756Z"
+      "published": "2026-11-14T12:49:52.265516Z"
+    },
+    {
+      "id": "db1651671447d66a524347793eb7f584",
+      "title": "Principals and Agents \u2013 speech by Jonathan Hall",
+      "summary": "Given at CFM-Imperial Workshop on Quantitative Finance (hosted by Deutsche Bank)",
+      "link": "https://www.bankofengland.co.uk/speech/2026/november/jon-hall-speech-at-cf-imperial-workshop",
+      "source": "Bank of England",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-14T12:49:52.406208Z"
+    },
+    {
+      "id": "454cdf6346bd23a19a92b3eeec64be6f",
+      "title": "Affordable finance access for tens of thousands more people",
+      "summary": "Government announces further reforms to credit unions to allow members who move away from the area to refer their relatives for membership.",
+      "link": "https://www.gov.uk/government/news/affordable-finance-access-for-tens-of-thousands-more-people",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-14T12:49:52.869365Z"
+    },
+    {
+      "id": "04bae33ebe90d3de1351dbd6bc68f193",
+      "title": "Statement by President von der Leyen at the joint press conference with President Costa following the informal meeting of the European Council of November 2026",
+      "summary": "European Commission Statement Dublin, 13 Nov 2026 First of all, I also want to thank you dear Taoiseach, dear Miche\u00e1l for the fantastic hospitality and the fantastic atmosphere in which we spent the last two da...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2441",
+      "source": "European Commission",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "EUR",
+        "JPY"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-14T12:49:51.980529Z"
     }
   ]
 }
