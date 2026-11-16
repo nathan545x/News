@@ -1,27 +1,31 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-16T16:44:28.409828Z",
+  "generated_at": "2026-11-16T16:50:37.143050Z",
   "market_regime": {
     "regime": "GEO-SHOCK",
     "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-11-16T16:44:28.409840Z"
+    "critical_alerts": 1,
+    "high_alerts": 3,
+    "last_updated": "2026-11-16T16:50:37.143065Z"
   },
   "top_signals": [
     {
-      "id": "fa9b38f6fedccd88730ef5114c038d14",
-      "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
-      "summary": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive. [...]",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
-      "source": "BleepingComputer",
-      "score": 15,
-      "severity": "HIGH",
+      "id": "26d3488223d4b4a32ad2e0e503f477e3",
+      "title": "China confirms Xi-Trump-Putin historic summit. What will be on the agenda?",
+      "summary": "The talks are expected to focus on issues including nuclear non-proliferation, the Middle East war, trade policies and, possibly, the Ukraine war.",
+      "link": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html",
+      "source": "CNBC",
+      "score": 43,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "CHINA",
+        "UK",
+        "UKRAINE"
+      ],
       "assets": [
         "AI"
       ],
@@ -39,22 +43,77 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-16T16:44:24.809309Z"
+      "published": "2026-11-16T16:49:29.483292Z"
     },
     {
-      "id": "3e29172cc8681a81deeb0585cfe171c8",
-      "title": "Philippe Diallo: Uefa pins hopes on French chief to oust Infantino at Fifa",
-      "summary": "<p> <img alt=\"Diallo has been president of the French Football Federation since 2023\" src=\"https://www.cityam.com/wp-content/uploads/2026/11/GettyImages-2045968228-1.jpg?w=1201\" /> </p>Uefa has backed French football chief Philippe Diallo to restore unity and trust in Fifa after he accepted the invitation to stand against Gianni Infantino. The 63-year-old, who only became president of the French Football Federation in 2023, emerged as Uefa\u2019s surprise last-minute choice to run in next year\u2019s Fifa election and is set to <a href=\"https://www.cityam.com/philippe-diallo-uefa-pins-hopes-on-french-chief-to-oust-infantino-at-fifa/\">[...]</a>",
-      "link": "https://www.cityam.com/philippe-diallo-uefa-pins-hopes-on-french-chief-to-oust-infantino-at-fifa/",
-      "source": "CityAM",
-      "score": 11,
-      "severity": "MEDIUM",
+      "id": "580285cadec05584cc652af1c79ae74c",
+      "title": "Boris Johnson backs tokenization months after likening bitcoin to a \u2018Ponzi scheme\u2019",
+      "summary": "Boris Johnson backed blockchain and tokenization at Solana Breakpoint but reiterated his concerns about crypto speculation.",
+      "link": "https://www.theblock.co/news/regulation/2026-11-16-boris-johnson-backs-tokenization-months-after-bitcoin-to-ponzi-scheme-441368",
+      "source": "The Block",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-16T16:50:34.011777Z"
+    },
+    {
+      "id": "f60fd56e7b4b6c7ab29aa2fb9032fcdd",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul type=\"disc\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-19868\" target=\"_blank\">CVE-2026-19868</a> SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA\u2019s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.</p>\n<p>While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a>. CISA will continue to add vulnerabilities to the catalog that meet the&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.</p>\n<p>Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA\u2019s&nbsp;<a href=\"https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w\" target=\"_blank\">KEV Nomination Form</a>. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-16T16:50:34.601540Z"
+    },
+    {
+      "id": "eebfe3a7fe6733dbad138471ca115739",
+      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "AI"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -67,75 +126,107 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-16T16:44:17.110734Z"
+      "published": "2026-11-16T16:49:29.820061Z"
     },
     {
-      "id": "9340b7d364d1eab91a29bde6f006f3e4",
-      "title": "Lighter suspends all withdrawals after $10.4 million crypto exploit",
-      "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit",
-      "source": "CoinDesk",
-      "score": 11,
+      "id": "975215140d6fb91e1b5dd20e7d0eabf5",
+      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
       "severity": "MEDIUM",
-      "regime": "CRYPTO",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-16T16:44:24.360402Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-16T16:49:29.690653Z"
     },
     {
-      "id": "2333081ac65e4ddc16d751863b530452",
-      "title": "Gold Futures Kept Down by Strong U.S. Dollar - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPbTE2b1VGTzdfTFVtWm9sdThyMHZlclA1RU9Ebnk5RF9lYTdfN1Jwdm9iZFZzaEhOSVo3T2M2M0RmcTRGNUtaWjNGSmJiS2luMjRNNThWN3dRRmExc3ZhUlJDZUVkRVZvM1NNOFRGQnFzX2g5dGc2TGxBM2NoUW1OV0Vxd0tYaDRjN1FfY1pQd2ZUMXd1MWc?oc=5\" target=\"_blank\">Gold Futures Kept Down by Strong U.S. Dollar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbTE2b1VGTzdfTFVtWm9sdThyMHZlclA1RU9Ebnk5RF9lYTdfN1Jwdm9iZFZzaEhOSVo3T2M2M0RmcTRGNUtaWjNGSmJiS2luMjRNNThWN3dRRmExc3ZhUlJDZUVkRVZvM1NNOFRGQnFzX2g5dGc2TGxBM2NoUW1OV0Vxd0tYaDRjN1FfY1pQd2ZUMXd1MWc?oc=5",
-      "source": "Google Macro",
+      "id": "94d1c6257525550b8d0956b1c1064572",
+      "title": "UK Trade Tariff: duty suspensions and autonomous tariff quotas",
+      "summary": "Temporary duty suspensions and autonomous tariff quotas (ATQs) for importing goods into the UK.",
+      "link": "https://www.gov.uk/guidance/duty-suspensions-and-tariff-quotas",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-16T16:50:16.751622Z"
+    },
+    {
+      "id": "77730098869be2541e1d0ef502394b36",
+      "title": "A Russian bribe the size of Europe",
+      "summary": "Vladimir Putin has a long record of betraying his business partners, and once he gets what he wants from Trump, Europe will be his next target.",
+      "link": "https://www.japantimes.co.jp/commentary/2026/11/16/world/russian-trump-bribe/",
+      "source": "Japan Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "RUSSIA"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-16T16:50:19.227887Z"
+    },
+    {
+      "id": "2ae1e7a2af59c0f678f481ec5bab4cb4",
+      "title": "Japan's wagyu prices hit record high on ranch closures, overseas demand",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/food-beverage/japan-s-wagyu-prices-hit-record-high-on-ranch-closures-overseas-demand",
+      "source": "Nikkei Asia",
       "score": 7,
       "severity": "LOW",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "DXY",
-        "XAU"
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
       ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-16T16:44:27.687962Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-16T16:50:18.921676Z"
     },
     {
-      "id": "fab2edb91270f9245d9d6d170e51d71f",
-      "title": "Corporate raider or corporate saviour: Who is Poundland-owner Gordon Brothers?",
-      "summary": "<p> <img alt=\"Gordon Brothers executive Mark Newton-Jones was hauled into Parliament last week\" src=\"https://www.cityam.com/wp-content/uploads/2026/11/1211-Mark-Newton-Jones-3.jpg?w=1200\" /> </p>Poundland-owner Gordon Brothers has attracted fierce criticism in recent weeks over its attempted sale of the discount retailer. Felix Armstrong asks: who are the owners and what do they want? To Liam Byrne, chair of Parliament\u2019s business select committee, Gordon Brothers is \u201clike a wolf on Wall Street, ravaging the British high street\u201d. In its <a href=\"https://www.cityam.com/corporate-raider-or-corporate-saviour-who-is-poundland-owner-gordon-brothers/\">[...]</a>",
-      "link": "https://www.cityam.com/corporate-raider-or-corporate-saviour-who-is-poundland-owner-gordon-brothers/",
-      "source": "CityAM",
+      "id": "94db5cd91c659854f68dc2f0fd2a5a1e",
+      "title": "A New Kind of Foreign Agent",
+      "summary": "How AI is reshaping influence operations in America.",
+      "link": "https://www.foreignaffairs.com/china/new-kind-foreign-agent",
+      "source": "Foreign Affairs",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [
-        "UK"
+        "US"
       ],
       "assets": [
         "AI"
@@ -149,37 +240,25 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-16T16:44:17.110650Z"
-    },
-    {
-      "id": "07ae65692fcb7886cdae98a045d070dd",
-      "title": "Robert Pattinson as James Bond is bad for Hollywood",
-      "summary": "<p> <img alt=\"Robert Pattinson will be a great James Bond \u2013 but it&#039;s bad news for Hollywood\" src=\"https://www.cityam.com/wp-content/uploads/2026/11/Robert-Pattinson-James-Bond.jpeg?w=1200\" /> </p>Robert Pattinson will be a great Bond \u2013 but his casting is bad news for Hollywood In new stills released today it has been announced that Twilight and Batman actor Robert Pattinson will be the seventh actor to officially drink freezing cold vodka and a tiny bit of vermouth to play orphaned, traumatised, fashionable, perenially <a href=\"https://www.cityam.com/robert-pattinson-as-james-bond-is-bad-for-hollywood/\">[...]</a>",
-      "link": "https://www.cityam.com/robert-pattinson-as-james-bond-is-bad-for-hollywood/",
-      "source": "CityAM",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-16T16:44:17.110551Z"
+      "published": "2026-11-16T16:50:32.464260Z"
     }
   ],
   "alerts": [
     {
-      "id": "fa9b38f6fedccd88730ef5114c038d14",
-      "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
-      "summary": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive. [...]",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
-      "source": "BleepingComputer",
-      "score": 15,
-      "severity": "HIGH",
+      "id": "26d3488223d4b4a32ad2e0e503f477e3",
+      "title": "China confirms Xi-Trump-Putin historic summit. What will be on the agenda?",
+      "summary": "The talks are expected to focus on issues including nuclear non-proliferation, the Middle East war, trade policies and, possibly, the Ukraine war.",
+      "link": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html",
+      "source": "CNBC",
+      "score": 43,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "CHINA",
+        "UK",
+        "UKRAINE"
+      ],
       "assets": [
         "AI"
       ],
@@ -197,22 +276,77 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-16T16:44:24.809309Z"
+      "published": "2026-11-16T16:49:29.483292Z"
     },
     {
-      "id": "3e29172cc8681a81deeb0585cfe171c8",
-      "title": "Philippe Diallo: Uefa pins hopes on French chief to oust Infantino at Fifa",
-      "summary": "<p> <img alt=\"Diallo has been president of the French Football Federation since 2023\" src=\"https://www.cityam.com/wp-content/uploads/2026/11/GettyImages-2045968228-1.jpg?w=1201\" /> </p>Uefa has backed French football chief Philippe Diallo to restore unity and trust in Fifa after he accepted the invitation to stand against Gianni Infantino. The 63-year-old, who only became president of the French Football Federation in 2023, emerged as Uefa\u2019s surprise last-minute choice to run in next year\u2019s Fifa election and is set to <a href=\"https://www.cityam.com/philippe-diallo-uefa-pins-hopes-on-french-chief-to-oust-infantino-at-fifa/\">[...]</a>",
-      "link": "https://www.cityam.com/philippe-diallo-uefa-pins-hopes-on-french-chief-to-oust-infantino-at-fifa/",
-      "source": "CityAM",
-      "score": 11,
-      "severity": "MEDIUM",
+      "id": "580285cadec05584cc652af1c79ae74c",
+      "title": "Boris Johnson backs tokenization months after likening bitcoin to a \u2018Ponzi scheme\u2019",
+      "summary": "Boris Johnson backed blockchain and tokenization at Solana Breakpoint but reiterated his concerns about crypto speculation.",
+      "link": "https://www.theblock.co/news/regulation/2026-11-16-boris-johnson-backs-tokenization-months-after-bitcoin-to-ponzi-scheme-441368",
+      "source": "The Block",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-16T16:50:34.011777Z"
+    },
+    {
+      "id": "f60fd56e7b4b6c7ab29aa2fb9032fcdd",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul type=\"disc\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-19868\" target=\"_blank\">CVE-2026-19868</a> SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA\u2019s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.</p>\n<p>While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a>. CISA will continue to add vulnerabilities to the catalog that meet the&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.</p>\n<p>Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA\u2019s&nbsp;<a href=\"https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w\" target=\"_blank\">KEV Nomination Form</a>. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-16T16:50:34.601540Z"
+    },
+    {
+      "id": "eebfe3a7fe6733dbad138471ca115739",
+      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "AI"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "DXY",
@@ -225,75 +359,107 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-16T16:44:17.110734Z"
+      "published": "2026-11-16T16:49:29.820061Z"
     },
     {
-      "id": "9340b7d364d1eab91a29bde6f006f3e4",
-      "title": "Lighter suspends all withdrawals after $10.4 million crypto exploit",
-      "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit",
-      "source": "CoinDesk",
-      "score": 11,
+      "id": "975215140d6fb91e1b5dd20e7d0eabf5",
+      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
       "severity": "MEDIUM",
-      "regime": "CRYPTO",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-16T16:44:24.360402Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-16T16:49:29.690653Z"
     },
     {
-      "id": "2333081ac65e4ddc16d751863b530452",
-      "title": "Gold Futures Kept Down by Strong U.S. Dollar - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPbTE2b1VGTzdfTFVtWm9sdThyMHZlclA1RU9Ebnk5RF9lYTdfN1Jwdm9iZFZzaEhOSVo3T2M2M0RmcTRGNUtaWjNGSmJiS2luMjRNNThWN3dRRmExc3ZhUlJDZUVkRVZvM1NNOFRGQnFzX2g5dGc2TGxBM2NoUW1OV0Vxd0tYaDRjN1FfY1pQd2ZUMXd1MWc?oc=5\" target=\"_blank\">Gold Futures Kept Down by Strong U.S. Dollar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbTE2b1VGTzdfTFVtWm9sdThyMHZlclA1RU9Ebnk5RF9lYTdfN1Jwdm9iZFZzaEhOSVo3T2M2M0RmcTRGNUtaWjNGSmJiS2luMjRNNThWN3dRRmExc3ZhUlJDZUVkRVZvM1NNOFRGQnFzX2g5dGc2TGxBM2NoUW1OV0Vxd0tYaDRjN1FfY1pQd2ZUMXd1MWc?oc=5",
-      "source": "Google Macro",
+      "id": "94d1c6257525550b8d0956b1c1064572",
+      "title": "UK Trade Tariff: duty suspensions and autonomous tariff quotas",
+      "summary": "Temporary duty suspensions and autonomous tariff quotas (ATQs) for importing goods into the UK.",
+      "link": "https://www.gov.uk/guidance/duty-suspensions-and-tariff-quotas",
+      "source": "HM Treasury",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-16T16:50:16.751622Z"
+    },
+    {
+      "id": "77730098869be2541e1d0ef502394b36",
+      "title": "A Russian bribe the size of Europe",
+      "summary": "Vladimir Putin has a long record of betraying his business partners, and once he gets what he wants from Trump, Europe will be his next target.",
+      "link": "https://www.japantimes.co.jp/commentary/2026/11/16/world/russian-trump-bribe/",
+      "source": "Japan Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "RUSSIA"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-16T16:50:19.227887Z"
+    },
+    {
+      "id": "2ae1e7a2af59c0f678f481ec5bab4cb4",
+      "title": "Japan's wagyu prices hit record high on ranch closures, overseas demand",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/food-beverage/japan-s-wagyu-prices-hit-record-high-on-ranch-closures-overseas-demand",
+      "source": "Nikkei Asia",
       "score": 7,
       "severity": "LOW",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "DXY",
-        "XAU"
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
       ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-16T16:44:27.687962Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-16T16:50:18.921676Z"
     },
     {
-      "id": "fab2edb91270f9245d9d6d170e51d71f",
-      "title": "Corporate raider or corporate saviour: Who is Poundland-owner Gordon Brothers?",
-      "summary": "<p> <img alt=\"Gordon Brothers executive Mark Newton-Jones was hauled into Parliament last week\" src=\"https://www.cityam.com/wp-content/uploads/2026/11/1211-Mark-Newton-Jones-3.jpg?w=1200\" /> </p>Poundland-owner Gordon Brothers has attracted fierce criticism in recent weeks over its attempted sale of the discount retailer. Felix Armstrong asks: who are the owners and what do they want? To Liam Byrne, chair of Parliament\u2019s business select committee, Gordon Brothers is \u201clike a wolf on Wall Street, ravaging the British high street\u201d. In its <a href=\"https://www.cityam.com/corporate-raider-or-corporate-saviour-who-is-poundland-owner-gordon-brothers/\">[...]</a>",
-      "link": "https://www.cityam.com/corporate-raider-or-corporate-saviour-who-is-poundland-owner-gordon-brothers/",
-      "source": "CityAM",
+      "id": "94db5cd91c659854f68dc2f0fd2a5a1e",
+      "title": "A New Kind of Foreign Agent",
+      "summary": "How AI is reshaping influence operations in America.",
+      "link": "https://www.foreignaffairs.com/china/new-kind-foreign-agent",
+      "source": "Foreign Affairs",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [
-        "UK"
+        "US"
       ],
       "assets": [
         "AI"
@@ -307,23 +473,7 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-16T16:44:17.110650Z"
-    },
-    {
-      "id": "07ae65692fcb7886cdae98a045d070dd",
-      "title": "Robert Pattinson as James Bond is bad for Hollywood",
-      "summary": "<p> <img alt=\"Robert Pattinson will be a great James Bond \u2013 but it&#039;s bad news for Hollywood\" src=\"https://www.cityam.com/wp-content/uploads/2026/11/Robert-Pattinson-James-Bond.jpeg?w=1200\" /> </p>Robert Pattinson will be a great Bond \u2013 but his casting is bad news for Hollywood In new stills released today it has been announced that Twilight and Batman actor Robert Pattinson will be the seventh actor to officially drink freezing cold vodka and a tiny bit of vermouth to play orphaned, traumatised, fashionable, perenially <a href=\"https://www.cityam.com/robert-pattinson-as-james-bond-is-bad-for-hollywood/\">[...]</a>",
-      "link": "https://www.cityam.com/robert-pattinson-as-james-bond-is-bad-for-hollywood/",
-      "source": "CityAM",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-16T16:44:17.110551Z"
+      "published": "2026-11-16T16:50:32.464260Z"
     }
   ]
 }
