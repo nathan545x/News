@@ -1,28 +1,59 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-16T06:14:23.227624Z",
+  "generated_at": "2026-11-16T06:20:29.507433Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "AI",
+    "dominant_driver": "AI",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-11-16T06:14:23.227632Z"
+    "critical_alerts": 1,
+    "high_alerts": 2,
+    "last_updated": "2026-11-16T06:20:29.507448Z"
   },
   "top_signals": [
     {
-      "id": "c5fd39c4726772808994ae0a72411291",
-      "title": "Russia hopes to reduce its isolation by securing posts at U.N. telecoms agency",
-      "summary": "Unwillingness to oppose Russia has been slowly building at the U.N., diplomats say, with some countries starting to rebuild relations with Moscow.",
-      "link": "https://www.japantimes.co.jp/news/2026/11/16/world/politics/russia-un-telecoms-agency/",
-      "source": "Japan Times",
-      "score": 8,
-      "severity": "MEDIUM",
+      "id": "21b034681908a94af57da268f2dadcbf",
+      "title": "Stocks Slide as Tech Selloff Worsens, Oil Steady: Markets Wrap",
+      "summary": "Global equities were hit by a selloff in technology shares ahead of this week\u2019s earnings from Nvidia Corp. and Anthropic PBC\u2019s expected listing, two events that are likely to influence the near-term course of an increasingly volatile AI trade.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-15/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "AI",
+      "tickers": [
+        "NVDA",
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-16T06:19:37.894796Z"
+    },
+    {
+      "id": "1e1d7faad2dc4cd3fdf5ba807f654d45",
+      "title": "Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
+      "summary": "Energy subsidies for households had reportedly expired in September, exposing the economy to the higher energy prices brought about by the Iran war.",
+      "link": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+      "source": "CNBC",
+      "score": 24,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "RUSSIA"
+        "JAPAN",
+        "MIDDLE_EAST"
       ],
       "assets": [],
       "market_impact": {
@@ -39,24 +70,52 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-16T06:14:16.457735Z"
+      "published": "2026-11-16T06:19:39.797024Z"
     },
     {
-      "id": "29d78d7eff8062be7144642c6737ab44",
-      "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxOa01uZk9qV2Rxd1NnaGlxbGpwNlRMMUJUMzZDXzJDcDhDQ1hidlFqOHo5Qm5ZTXBSUXdFQzJDd21LVmwzOTJOT20zUG9kVmRZS09LbkZ6RkxyUW9DVUJ1VE1aaWpZc1ZqdmVNUk1ORUI5dmVMZjhWS0dJaDAxN2NCQlp0Mmh3UHBueWRuOGc1UQ?oc=5\" target=\"_blank\">Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa01uZk9qV2Rxd1NnaGlxbGpwNlRMMUJUMzZDXzJDcDhDQ1hidlFqOHo5Qm5ZTXBSUXdFQzJDd21LVmwzOTJOT20zUG9kVmRZS09LbkZ6RkxyUW9DVUJ1VE1aaWpZc1ZqdmVNUk1ORUI5dmVMZjhWS0dJaDAxN2NCQlp0Mmh3UHBueWRuOGc1UQ?oc=5",
-      "source": "Google Macro",
-      "score": 8,
+      "id": "9bf729274cc9e3f31d3bdaa3bb8264a2",
+      "title": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
+      "summary": "U.S. spot crypto ETFs lost about $1.55 billion combined, and Avalanche funds' $227,000 was the only weekly inflow among the 15 categories SoSoValue tracks.",
+      "link": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337",
+      "source": "The Block",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-16T06:20:26.838153Z"
+    },
+    {
+      "id": "5d5384a5763160a53e83a08f6f1e1f56",
+      "title": "Jensen Huang weighs Nvidia comeback days after shock exit: FT",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Jensen Huang weighs Nvidia comeback days after shock exit: FT\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7GS2G61SYB3FQX1TYFRT8TR/nvidia-knock.jpg\" /></p><p>Silicon Valley executives are reportedly organizing a campaign to bring Huang back and are looking to gain White House support. </p>",
+      "link": "https://cointelegraph.com/news/jensen-huang-weighs-nvidia-comeback-days-after-shock-exit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 12,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [
         "NVDA"
       ],
-      "regions": [
-        "UK"
+      "regions": [],
+      "assets": [
+        "AI"
       ],
-      "assets": [],
       "market_impact": {
         "bullish": [
           "NVDA",
@@ -66,40 +125,126 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-16T06:14:23.227608Z"
+      "published": "2026-11-16T06:20:26.797676Z"
     },
     {
-      "id": "699e084a52a84b2e7b57dbaee3cdbad8",
-      "title": "Japan's Fugaku supercomputer hit by unauthorized external access",
-      "summary": "",
-      "link": "https://asia.nikkei.com/spotlight/cybersecurity/japan-s-fugaku-supercomputer-hit-by-unauthorized-external-access",
-      "source": "Nikkei Asia",
-      "score": 7,
+      "id": "c106e62510fcde5ba96195bf8c733505",
+      "title": "How Rockstar's 'GTA VI' release could reshape gaming, streaming and even paid time off",
+      "summary": "\"Grand Theft Auto VI\" launches Nov. 19 with huge expectations. Its impact could reach creators, streaming, music, workplace time off, food delivery and tourism.",
+      "link": "https://www.cnbc.com/2026/11/14/gta-6-grand-theft-auto-launch.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-16T06:19:39.797074Z"
+    },
+    {
+      "id": "a83fc9eab0e1986e2747c08fee9fbe27",
+      "title": "Electrifying Ambitions Meet Tough Reality in Europe",
+      "summary": "European Union leaders are among the most enthusiastic proponents of maximum electrification to reduce dependence on imported energy commodities. A lot of EU policy pursues precisely that. Yet EU electricity prices last week surged to over 600 euros per MWh on a wind drought, and the bloc still gets over 70% of its final energy consumption from hydrocarbons. Electrification is much easier said than done. In July this year, the European Commission released a plan to turn Europe into the first \u201celectro continent\u201d by boosting the share\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Electrifying-Ambitions-Meet-Tough-Reality-in-Europe.html",
+      "source": "OilPrice",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-16T06:20:25.969439Z"
+    },
+    {
+      "id": "5dd7b65875f68d2392f41c08bd888a35",
+      "title": "Hoping to Sell Your Home in the Spring? It\u2019s Not Looking Good - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNMUhyRTV5bndaZTMtZDRlQmpycTFveGZuVU1CcXNEUkxHTnF2RElWalJkMGRiTUc5cUhqakpuQ1BGaTdLelRWa1NyZVZzVzUwQnJIS203ck0zbnFid3EtNTJjU0RFWGIzNXhxRzZ4RVFIZ280WC1TYnZYdzFUVU1WX3J5Qk1KOWhfN1BmbkdkcVdNVl9NSFYxQlFTVUFoRjctTFZKOXBn?oc=5\" target=\"_blank\">Hoping to Sell Your Home in the Spring? It\u2019s Not Looking Good</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMUhyRTV5bndaZTMtZDRlQmpycTFveGZuVU1CcXNEUkxHTnF2RElWalJkMGRiTUc5cUhqakpuQ1BGaTdLelRWa1NyZVZzVzUwQnJIS203ck0zbnFid3EtNTJjU0RFWGIzNXhxRzZ4RVFIZ280WC1TYnZYdzFUVU1WX3J5Qk1KOWhfN1BmbkdkcVdNVl9NSFYxQlFTVUFoRjctTFZKOXBn?oc=5",
+      "source": "Google Macro",
+      "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "UK"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-16T06:14:16.195410Z"
+      "published": "2026-11-16T06:20:29.024305Z"
     }
   ],
   "alerts": [
     {
-      "id": "c5fd39c4726772808994ae0a72411291",
-      "title": "Russia hopes to reduce its isolation by securing posts at U.N. telecoms agency",
-      "summary": "Unwillingness to oppose Russia has been slowly building at the U.N., diplomats say, with some countries starting to rebuild relations with Moscow.",
-      "link": "https://www.japantimes.co.jp/news/2026/11/16/world/politics/russia-un-telecoms-agency/",
-      "source": "Japan Times",
-      "score": 8,
-      "severity": "MEDIUM",
+      "id": "21b034681908a94af57da268f2dadcbf",
+      "title": "Stocks Slide as Tech Selloff Worsens, Oil Steady: Markets Wrap",
+      "summary": "Global equities were hit by a selloff in technology shares ahead of this week\u2019s earnings from Nvidia Corp. and Anthropic PBC\u2019s expected listing, two events that are likely to influence the near-term course of an increasingly volatile AI trade.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-15/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "AI",
+      "tickers": [
+        "NVDA",
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-16T06:19:37.894796Z"
+    },
+    {
+      "id": "1e1d7faad2dc4cd3fdf5ba807f654d45",
+      "title": "Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
+      "summary": "Energy subsidies for households had reportedly expired in September, exposing the economy to the higher energy prices brought about by the Iran war.",
+      "link": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+      "source": "CNBC",
+      "score": 24,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "RUSSIA"
+        "JAPAN",
+        "MIDDLE_EAST"
       ],
       "assets": [],
       "market_impact": {
@@ -116,24 +261,52 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-16T06:14:16.457735Z"
+      "published": "2026-11-16T06:19:39.797024Z"
     },
     {
-      "id": "29d78d7eff8062be7144642c6737ab44",
-      "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxOa01uZk9qV2Rxd1NnaGlxbGpwNlRMMUJUMzZDXzJDcDhDQ1hidlFqOHo5Qm5ZTXBSUXdFQzJDd21LVmwzOTJOT20zUG9kVmRZS09LbkZ6RkxyUW9DVUJ1VE1aaWpZc1ZqdmVNUk1ORUI5dmVMZjhWS0dJaDAxN2NCQlp0Mmh3UHBueWRuOGc1UQ?oc=5\" target=\"_blank\">Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa01uZk9qV2Rxd1NnaGlxbGpwNlRMMUJUMzZDXzJDcDhDQ1hidlFqOHo5Qm5ZTXBSUXdFQzJDd21LVmwzOTJOT20zUG9kVmRZS09LbkZ6RkxyUW9DVUJ1VE1aaWpZc1ZqdmVNUk1ORUI5dmVMZjhWS0dJaDAxN2NCQlp0Mmh3UHBueWRuOGc1UQ?oc=5",
-      "source": "Google Macro",
-      "score": 8,
+      "id": "9bf729274cc9e3f31d3bdaa3bb8264a2",
+      "title": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
+      "summary": "U.S. spot crypto ETFs lost about $1.55 billion combined, and Avalanche funds' $227,000 was the only weekly inflow among the 15 categories SoSoValue tracks.",
+      "link": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337",
+      "source": "The Block",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-16T06:20:26.838153Z"
+    },
+    {
+      "id": "5d5384a5763160a53e83a08f6f1e1f56",
+      "title": "Jensen Huang weighs Nvidia comeback days after shock exit: FT",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Jensen Huang weighs Nvidia comeback days after shock exit: FT\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7GS2G61SYB3FQX1TYFRT8TR/nvidia-knock.jpg\" /></p><p>Silicon Valley executives are reportedly organizing a campaign to bring Huang back and are looking to gain White House support. </p>",
+      "link": "https://cointelegraph.com/news/jensen-huang-weighs-nvidia-comeback-days-after-shock-exit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 12,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [
         "NVDA"
       ],
-      "regions": [
-        "UK"
+      "regions": [],
+      "assets": [
+        "AI"
       ],
-      "assets": [],
       "market_impact": {
         "bullish": [
           "NVDA",
@@ -143,25 +316,80 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-16T06:14:23.227608Z"
+      "published": "2026-11-16T06:20:26.797676Z"
     },
     {
-      "id": "699e084a52a84b2e7b57dbaee3cdbad8",
-      "title": "Japan's Fugaku supercomputer hit by unauthorized external access",
-      "summary": "",
-      "link": "https://asia.nikkei.com/spotlight/cybersecurity/japan-s-fugaku-supercomputer-hit-by-unauthorized-external-access",
-      "source": "Nikkei Asia",
-      "score": 7,
+      "id": "c106e62510fcde5ba96195bf8c733505",
+      "title": "How Rockstar's 'GTA VI' release could reshape gaming, streaming and even paid time off",
+      "summary": "\"Grand Theft Auto VI\" launches Nov. 19 with huge expectations. Its impact could reach creators, streaming, music, workplace time off, food delivery and tourism.",
+      "link": "https://www.cnbc.com/2026/11/14/gta-6-grand-theft-auto-launch.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-16T06:19:39.797074Z"
+    },
+    {
+      "id": "a83fc9eab0e1986e2747c08fee9fbe27",
+      "title": "Electrifying Ambitions Meet Tough Reality in Europe",
+      "summary": "European Union leaders are among the most enthusiastic proponents of maximum electrification to reduce dependence on imported energy commodities. A lot of EU policy pursues precisely that. Yet EU electricity prices last week surged to over 600 euros per MWh on a wind drought, and the bloc still gets over 70% of its final energy consumption from hydrocarbons. Electrification is much easier said than done. In July this year, the European Commission released a plan to turn Europe into the first \u201celectro continent\u201d by boosting the share\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Electrifying-Ambitions-Meet-Tough-Reality-in-Europe.html",
+      "source": "OilPrice",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-16T06:20:25.969439Z"
+    },
+    {
+      "id": "5dd7b65875f68d2392f41c08bd888a35",
+      "title": "Hoping to Sell Your Home in the Spring? It\u2019s Not Looking Good - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNMUhyRTV5bndaZTMtZDRlQmpycTFveGZuVU1CcXNEUkxHTnF2RElWalJkMGRiTUc5cUhqakpuQ1BGaTdLelRWa1NyZVZzVzUwQnJIS203ck0zbnFid3EtNTJjU0RFWGIzNXhxRzZ4RVFIZ280WC1TYnZYdzFUVU1WX3J5Qk1KOWhfN1BmbkdkcVdNVl9NSFYxQlFTVUFoRjctTFZKOXBn?oc=5\" target=\"_blank\">Hoping to Sell Your Home in the Spring? It\u2019s Not Looking Good</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMUhyRTV5bndaZTMtZDRlQmpycTFveGZuVU1CcXNEUkxHTnF2RElWalJkMGRiTUc5cUhqakpuQ1BGaTdLelRWa1NyZVZzVzUwQnJIS203ck0zbnFid3EtNTJjU0RFWGIzNXhxRzZ4RVFIZ280WC1TYnZYdzFUVU1WX3J5Qk1KOWhfN1BmbkdkcVdNVl9NSFYxQlFTVUFoRjctTFZKOXBn?oc=5",
+      "source": "Google Macro",
+      "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "UK"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-16T06:14:16.195410Z"
+      "published": "2026-11-16T06:20:29.024305Z"
     }
   ]
 }
