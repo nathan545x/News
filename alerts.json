@@ -1,71 +1,83 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-17T22:49:23.350916Z",
+  "generated_at": "2026-11-17T22:54:30.725713Z",
   "market_regime": {
-    "regime": "AI",
-    "dominant_driver": "AI",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-11-17T22:49:23.350930Z"
+    "high_alerts": 1,
+    "last_updated": "2026-11-17T22:54:30.725722Z"
   },
   "top_signals": [
     {
-      "id": "5726a9e9b62f615607ed18af5bd76186",
-      "title": "Jensen Huang says he is open to Nvidia return",
-      "summary": "<p> <img alt=\"Former Nvidia CEO Jensen Huang says he\u2019s open to returning in statement\" src=\"https://www.cityam.com/wp-content/uploads/2026/11/Jensen-Huang-Nvidia-2026-e1794921040713.jpg?w=1200\" /> </p>Jensen Huang has said he would be willing to return as Nvidia chief executive if asked by the board, breaking his silence five days after resigning amid allegations of extramarital affairs and links to a suspected Chinese intelligence operative. The billionaire co-founder said he had been overwhelmed by calls from employees, investors and tech executives <a href=\"https://www.cityam.com/jensen-huang-says-he-is-open-to-nvidia-return/\">[...]</a>",
-      "link": "https://www.cityam.com/jensen-huang-says-he-is-open-to-nvidia-return/",
-      "source": "CityAM",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
+      "id": "86d3ccd923e7f3bf70b5121541506e50",
+      "title": "Critical Java Vulnerability Requires Immediate Patching",
+      "summary": "<h2><strong>Purpose</strong></h2>\n<p>CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114938\" target=\"_blank\">CVE-2026-114938</a>. This critical memory-corruption vulnerability, known as \u201cJava4Shell,\u201d affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution.</p>\n<h2><strong>Actions to take</strong></h2>\n<p>CISA urges organizations to take the following actions:</p>\n<ul>\n<li>Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, including those bundled with third-party applications or included in container images and appliances. <strong>Note:</strong> JDKs and Java runtimes may not appear as separate entries in software inventories.</li>\n<li>Apply relevant Java and vendor patches as soon as they are available, prioritizing internet-facing systems.\n<ul>\n<li>If immediate patching is not feasible, implement temporary compensating controls, such as restricting and validating Base64 input at the application boundary, enforcing input-size limits, and limiting unauthenticated access.</li>\n</ul>\n</li>\n<li>Review <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Oracle\u2019s security advisory</a> for guidance on patching and affected products and versions.</li>\n<li>&nbsp;Monitor for indicators of suspicious activity, including rogue runtimes, unexpected JVM crashes, and suspicious Java processes.</li>\n</ul>\n<h2><strong>Resources</strong></h2>\n<p>CISA urges network defenders to review the following resource and apply necessary updates:</p>\n<h3>Vendor Guidance</h3>\n<ul>\n<li>Oracle\u2019s Security Advisory: <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Critical Security Patch Update \u2013 November 2026</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.</p>\n<h2><strong>Acknowledgements&nbsp;</strong></h2>\n<p>The Canadian Centre for Cyber Security (Cyber Centre) contributed to this Alert.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+      "source": "CISA",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "NVDA"
+        "BUND"
       ],
       "regions": [],
       "assets": [
-        "AI"
+        "AI",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-17T22:49:13.294928Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T22:54:28.156985Z"
     }
   ],
   "alerts": [
     {
-      "id": "5726a9e9b62f615607ed18af5bd76186",
-      "title": "Jensen Huang says he is open to Nvidia return",
-      "summary": "<p> <img alt=\"Former Nvidia CEO Jensen Huang says he\u2019s open to returning in statement\" src=\"https://www.cityam.com/wp-content/uploads/2026/11/Jensen-Huang-Nvidia-2026-e1794921040713.jpg?w=1200\" /> </p>Jensen Huang has said he would be willing to return as Nvidia chief executive if asked by the board, breaking his silence five days after resigning amid allegations of extramarital affairs and links to a suspected Chinese intelligence operative. The billionaire co-founder said he had been overwhelmed by calls from employees, investors and tech executives <a href=\"https://www.cityam.com/jensen-huang-says-he-is-open-to-nvidia-return/\">[...]</a>",
-      "link": "https://www.cityam.com/jensen-huang-says-he-is-open-to-nvidia-return/",
-      "source": "CityAM",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
+      "id": "86d3ccd923e7f3bf70b5121541506e50",
+      "title": "Critical Java Vulnerability Requires Immediate Patching",
+      "summary": "<h2><strong>Purpose</strong></h2>\n<p>CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114938\" target=\"_blank\">CVE-2026-114938</a>. This critical memory-corruption vulnerability, known as \u201cJava4Shell,\u201d affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution.</p>\n<h2><strong>Actions to take</strong></h2>\n<p>CISA urges organizations to take the following actions:</p>\n<ul>\n<li>Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, including those bundled with third-party applications or included in container images and appliances. <strong>Note:</strong> JDKs and Java runtimes may not appear as separate entries in software inventories.</li>\n<li>Apply relevant Java and vendor patches as soon as they are available, prioritizing internet-facing systems.\n<ul>\n<li>If immediate patching is not feasible, implement temporary compensating controls, such as restricting and validating Base64 input at the application boundary, enforcing input-size limits, and limiting unauthenticated access.</li>\n</ul>\n</li>\n<li>Review <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Oracle\u2019s security advisory</a> for guidance on patching and affected products and versions.</li>\n<li>&nbsp;Monitor for indicators of suspicious activity, including rogue runtimes, unexpected JVM crashes, and suspicious Java processes.</li>\n</ul>\n<h2><strong>Resources</strong></h2>\n<p>CISA urges network defenders to review the following resource and apply necessary updates:</p>\n<h3>Vendor Guidance</h3>\n<ul>\n<li>Oracle\u2019s Security Advisory: <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Critical Security Patch Update \u2013 November 2026</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.</p>\n<h2><strong>Acknowledgements&nbsp;</strong></h2>\n<p>The Canadian Centre for Cyber Security (Cyber Centre) contributed to this Alert.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+      "source": "CISA",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "NVDA"
+        "BUND"
       ],
       "regions": [],
       "assets": [
-        "AI"
+        "AI",
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-17T22:49:13.294928Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T22:54:28.156985Z"
     }
   ]
 }
