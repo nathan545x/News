@@ -1,75 +1,57 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-17T07:08:40.306321Z",
+  "generated_at": "2026-11-17T07:15:32.171153Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 3,
-    "last_updated": "2026-11-17T07:08:40.306329Z"
+    "critical_alerts": 1,
+    "high_alerts": 5,
+    "last_updated": "2026-11-17T07:15:32.171169Z"
   },
   "top_signals": [
     {
-      "id": "5b7f470eb87a45e3e82414daf1c54965",
-      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-      "summary": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
+      "id": "7847a1978919319385dc83e7a877ab10",
+      "title": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
+      "summary": "The U.S. Commerce Department is making moves to tighten export controls.",
+      "link": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
+      "source": "CNBC",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-17T07:07:44.957057Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T07:14:29.495164Z"
     },
     {
-      "id": "b74036ca716c9d2af1feeb8c6f568847",
-      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-      "summary": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-17T07:07:45.010214Z"
-    },
-    {
-      "id": "b8f50d69c4a63f006ef65e7dda5f8a0e",
-      "title": "Aschenbrenner\u2019s Situational Awareness made AI bets again before October rout - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQbDF4NjMtSmtZNmxYUmVvZXRoMEIyU2VnZlVBcFByN1ZNY29KeEtkd3BDNl95VUstczItTTBfbi01eDk2S0VXV3MxSWM2SlVnMFpGMC12ZzlyRGUwNWZtVVRZM3lFSHZmQ2RJdUR4YV9kSElka0VDbnZ6eFJfZGZlY3pZWHRKTWJHazBnaNIBkgFBVV95cUxNRXVHTnM5dW4xWlpHUEZBMU5ySDVwbjE3cW1pLTRrcGtnVzNOendMcjgwdFhvN1pkQU40RGFYVk9wVzdSR2dZQWFZR3g3U2hhYUlnQ3dadWxiU2RDcnpqMUd6MG5NNkhjQmw4VVFSSnM4ZmI3QWgyTHRTX2lMR1R0YkhoSkZhaWx5Q3ZUSEdQNnk1dw?oc=5\" target=\"_blank\">Aschenbrenner\u2019s Situational Awareness made AI bets again before October rout</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbDF4NjMtSmtZNmxYUmVvZXRoMEIyU2VnZlVBcFByN1ZNY29KeEtkd3BDNl95VUstczItTTBfbi01eDk2S0VXV3MxSWM2SlVnMFpGMC12ZzlyRGUwNWZtVVRZM3lFSHZmQ2RJdUR4YV9kSElka0VDbnZ6eFJfZGZlY3pZWHRKTWJHazBnaNIBkgFBVV95cUxNRXVHTnM5dW4xWlpHUEZBMU5ySDVwbjE3cW1pLTRrcGtnVzNOendMcjgwdFhvN1pkQU40RGFYVk9wVzdSR2dZQWFZR3g3U2hhYUlnQ3dadWxiU2RDcnpqMUd6MG5NNkhjQmw4VVFSSnM4ZmI3QWgyTHRTX2lMR1R0YkhoSkZhaWx5Q3ZUSEdQNnk1dw?oc=5",
-      "source": "Google Macro",
-      "score": 15,
+      "id": "4c6d51e4d875db128f54c42288ff5b4a",
+      "title": "Hackers inject credit card, crypto-stealing malware into 178 major websites",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Hackers inject credit card, crypto-stealing malware into 178 major websites\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7KGB8P723WG4K1R3Q3WMM6J/hi-how-cybercriminals-use-youtube-and-github-to-spread-crypto-malware.jpg\" /></p><p>Ledger and Coinpass were among the businesses whose websites served malware designed to steal visitors\u2019 crypto and credit card details, according to security researchers.</p>",
+      "link": "https://cointelegraph.com/news/hackers-inject-malware-into-178-major-websites?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 20,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
@@ -91,27 +73,183 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-17T07:08:40.306299Z"
+      "published": "2026-11-17T07:15:29.147693Z"
     },
     {
-      "id": "025aaaa2ca432fbaba5a2f71ef2c028e",
-      "title": "European Stocks Fall as AI Worries Spread",
+      "id": "2a086579ed40e907b583b78b90f49fb2",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul type=\"disc\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2024-27834\" target=\"_blank\">CVE-2024-27834</a> Apple Multiple Products Improper Authentication Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA\u2019s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.</p>\n<p>While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a>. CISA will continue to add vulnerabilities to the catalog that meet the&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.</p>\n<p>Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA\u2019s&nbsp;<a href=\"https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w\" target=\"_blank\">KEV Nomination Form</a>. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T07:15:29.774130Z"
+    },
+    {
+      "id": "b6f315936c3fcd8be2f823f8f8beb1b0",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul type=\"disc\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-119977\" target=\"_blank\">CVE-2026-119977</a> WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA\u2019s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.</p>\n<p>While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a>. CISA will continue to add vulnerabilities to the catalog that meet the&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.</p>\n<p>Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA\u2019s&nbsp;<a href=\"https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w\" target=\"_blank\">KEV Nomination Form</a>. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T07:15:29.774407Z"
+    },
+    {
+      "id": "9656e041ef801eed4f68d37f5d1c2b55",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-111357\" target=\"_blank\">CVE-2026-111357</a> Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-118527\" target=\"_blank\">CVE-2026-118527</a> Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&nbsp;</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA\u2019s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&nbsp;</p>\n<p>While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a>. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.&nbsp;</p>\n<p>Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA\u2019s <a href=\"https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w\" target=\"_blank\">KEV Nomination Form</a>. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T07:15:29.774709Z"
+    },
+    {
+      "id": "90643538d10f1607a14f3b80c4d40139",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary": "<p>CISA has added two new vulnerabilities to its <a href=\"https://edit.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul type=\"disc\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-97229\" target=\"_blank\">CVE-2026-97229</a> GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-76418\">CVE-2026-76418</a> Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&nbsp;</p>\n<p><a href=\"https://edit.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA\u2019s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&nbsp;</p>\n<p>While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of <a href=\"https://edit.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a>. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://edit.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.&nbsp;</p>\n<p>Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA\u2019s <a class=\"ext\" href=\"https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w\" target=\"_blank\">KEV Nomination Form</a>. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T07:15:29.775026Z"
+    },
+    {
+      "id": "96c6b7a113438e5eb4e1f78cbd788edb",
+      "title": "Frank Elderson: Smart supervision for small banks",
       "summary": "",
-      "link": "https://www.bloomberg.com/news/live-blog/2026-11-17/what-s-moving-uk-markets-right-now-markets-today-mwkc7vf0",
-      "source": "Bloomberg",
-      "score": 13,
+      "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261116_1~11dd7f62af.en.html",
+      "source": "ECB",
+      "score": 10,
       "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T07:15:07.134971Z"
+    },
+    {
+      "id": "f6ba5c0cef5ebb610e2cfdead11e2070",
+      "title": "German lender processed $582mn of suspicious payments linked to Epstein",
+      "summary": "Figure revealed by internal documents is substantially higher than previously known",
+      "link": "https://www.ft.com/content/72ac6fee-55f3-4db5-a1e3-873ef39c0b96?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T07:14:28.018527Z"
+    },
+    {
+      "id": "62578efb761e0eaa2c03bb666b066556",
+      "title": "U.S. Senate Democrats tell CFTC to back off its demand prediction markets defy bans",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/11/16/u-s-senate-democrats-tell-cftc-to-back-off-its-demand-prediction-markets-defy-bans",
+      "source": "CoinDesk",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T07:15:29.035316Z"
+    },
+    {
+      "id": "50bb210d17ef01ba9f7af258bac46bcd",
+      "title": "Princess Aiko leaves for official visit to Singapore",
+      "summary": "The trip, which coincides with Japan and Singapore's 60th anniversary of diplomatic relations, is her second official visit overseas.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/17/japan/japan-princess-aiko-singapore-visit/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
+      "tickers": [],
       "regions": [
-        "EUROPE"
+        "JAPAN"
       ],
       "assets": [
-        "AI",
-        "EQUITIES",
-        "FX"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -122,119 +260,78 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-17T07:07:41.557699Z"
+      "published": "2026-11-17T07:15:19.800165Z"
     },
     {
-      "id": "a0cc7c2d6703308d39fe71b7a18049e4",
-      "title": "Why Iraq Just Fast-Tracked Chevron\u2019s Takeover Of A 14-Billion-Barrel Supergiant",
-      "summary": "U.S. supermajor Chevron has moved from open-ended negotiations under its previous USD200 million exclusivity window to finalising commercial terms for Iraq\u2019s supergiant West Qurna 2 oilfield. Whilst the American firm originally had until February 2027 to use its one-year exclusivity window, following a very recent meeting between Iraqi Oil Minister Basim Mohammed Khudair Al-Abadi and Chevron\u2019s vice president of business development Joe Cook, the two sides confirmed that contract terms for West Qurna 2 have now been agreed. As it stands,\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/Why-Iraq-Just-Fast-Tracked-Chevrons-Takeover-Of-A-14-Billion-Barrel-Supergiant.html",
-      "source": "OilPrice",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
+      "id": "f6ad2ed9bca06bd4b968a7bea57aa046",
+      "title": "Solflare CEO says AI security reviews are essential, touts \u2018bunker mode\u2019 and MoneyGram deal",
+      "summary": "Vidor Gencel says AI catches chained exploits humans miss, and details the wallet's \"bunker mode,\" privacy mode, and MoneyGram USDC cash-out.",
+      "link": "https://www.theblock.co/news/defi/2026-11-16-solflare-ceo-ai-security-reviews-bunker-mode-moneygram-441396",
+      "source": "The Block",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
       "tickers": [
-        "DXY",
-        "WTI"
+        "DXY"
       ],
-      "regions": [
-        "US"
-      ],
+      "regions": [],
       "assets": [
-        "AI",
-        "COMMODITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-17T07:08:35.129945Z"
-    },
-    {
-      "id": "03e6005ac7df7d702db5b2304db321aa",
-      "title": "Jefferson, New Technology, Old Questions: Productivity Puzzles  and the Macroeconomy",
-      "summary": "Speech At the University of California, San Diego Economic Roundtable, San Diego, California",
-      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-17T07:07:45.107864Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-17T07:15:29.234425Z"
     }
   ],
   "alerts": [
     {
-      "id": "5b7f470eb87a45e3e82414daf1c54965",
-      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-      "summary": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
+      "id": "7847a1978919319385dc83e7a877ab10",
+      "title": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
+      "summary": "The U.S. Commerce Department is making moves to tighten export controls.",
+      "link": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
+      "source": "CNBC",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-17T07:07:44.957057Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T07:14:29.495164Z"
     },
     {
-      "id": "b74036ca716c9d2af1feeb8c6f568847",
-      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-      "summary": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-17T07:07:45.010214Z"
-    },
-    {
-      "id": "b8f50d69c4a63f006ef65e7dda5f8a0e",
-      "title": "Aschenbrenner\u2019s Situational Awareness made AI bets again before October rout - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQbDF4NjMtSmtZNmxYUmVvZXRoMEIyU2VnZlVBcFByN1ZNY29KeEtkd3BDNl95VUstczItTTBfbi01eDk2S0VXV3MxSWM2SlVnMFpGMC12ZzlyRGUwNWZtVVRZM3lFSHZmQ2RJdUR4YV9kSElka0VDbnZ6eFJfZGZlY3pZWHRKTWJHazBnaNIBkgFBVV95cUxNRXVHTnM5dW4xWlpHUEZBMU5ySDVwbjE3cW1pLTRrcGtnVzNOendMcjgwdFhvN1pkQU40RGFYVk9wVzdSR2dZQWFZR3g3U2hhYUlnQ3dadWxiU2RDcnpqMUd6MG5NNkhjQmw4VVFSSnM4ZmI3QWgyTHRTX2lMR1R0YkhoSkZhaWx5Q3ZUSEdQNnk1dw?oc=5\" target=\"_blank\">Aschenbrenner\u2019s Situational Awareness made AI bets again before October rout</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbDF4NjMtSmtZNmxYUmVvZXRoMEIyU2VnZlVBcFByN1ZNY29KeEtkd3BDNl95VUstczItTTBfbi01eDk2S0VXV3MxSWM2SlVnMFpGMC12ZzlyRGUwNWZtVVRZM3lFSHZmQ2RJdUR4YV9kSElka0VDbnZ6eFJfZGZlY3pZWHRKTWJHazBnaNIBkgFBVV95cUxNRXVHTnM5dW4xWlpHUEZBMU5ySDVwbjE3cW1pLTRrcGtnVzNOendMcjgwdFhvN1pkQU40RGFYVk9wVzdSR2dZQWFZR3g3U2hhYUlnQ3dadWxiU2RDcnpqMUd6MG5NNkhjQmw4VVFSSnM4ZmI3QWgyTHRTX2lMR1R0YkhoSkZhaWx5Q3ZUSEdQNnk1dw?oc=5",
-      "source": "Google Macro",
-      "score": 15,
+      "id": "4c6d51e4d875db128f54c42288ff5b4a",
+      "title": "Hackers inject credit card, crypto-stealing malware into 178 major websites",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Hackers inject credit card, crypto-stealing malware into 178 major websites\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7KGB8P723WG4K1R3Q3WMM6J/hi-how-cybercriminals-use-youtube-and-github-to-spread-crypto-malware.jpg\" /></p><p>Ledger and Coinpass were among the businesses whose websites served malware designed to steal visitors\u2019 crypto and credit card details, according to security researchers.</p>",
+      "link": "https://cointelegraph.com/news/hackers-inject-malware-into-178-major-websites?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 20,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
@@ -256,27 +353,183 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-17T07:08:40.306299Z"
+      "published": "2026-11-17T07:15:29.147693Z"
     },
     {
-      "id": "025aaaa2ca432fbaba5a2f71ef2c028e",
-      "title": "European Stocks Fall as AI Worries Spread",
+      "id": "2a086579ed40e907b583b78b90f49fb2",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul type=\"disc\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2024-27834\" target=\"_blank\">CVE-2024-27834</a> Apple Multiple Products Improper Authentication Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA\u2019s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.</p>\n<p>While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a>. CISA will continue to add vulnerabilities to the catalog that meet the&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.</p>\n<p>Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA\u2019s&nbsp;<a href=\"https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w\" target=\"_blank\">KEV Nomination Form</a>. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T07:15:29.774130Z"
+    },
+    {
+      "id": "b6f315936c3fcd8be2f823f8f8beb1b0",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul type=\"disc\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-119977\" target=\"_blank\">CVE-2026-119977</a> WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA\u2019s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.</p>\n<p>While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a>. CISA will continue to add vulnerabilities to the catalog that meet the&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.</p>\n<p>Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA\u2019s&nbsp;<a href=\"https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w\" target=\"_blank\">KEV Nomination Form</a>. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T07:15:29.774407Z"
+    },
+    {
+      "id": "9656e041ef801eed4f68d37f5d1c2b55",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-111357\" target=\"_blank\">CVE-2026-111357</a> Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-118527\" target=\"_blank\">CVE-2026-118527</a> Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&nbsp;</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA\u2019s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&nbsp;</p>\n<p>While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a>. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.&nbsp;</p>\n<p>Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA\u2019s <a href=\"https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w\" target=\"_blank\">KEV Nomination Form</a>. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T07:15:29.774709Z"
+    },
+    {
+      "id": "90643538d10f1607a14f3b80c4d40139",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary": "<p>CISA has added two new vulnerabilities to its <a href=\"https://edit.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul type=\"disc\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-97229\" target=\"_blank\">CVE-2026-97229</a> GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-76418\">CVE-2026-76418</a> Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&nbsp;</p>\n<p><a href=\"https://edit.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA\u2019s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&nbsp;</p>\n<p>While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of <a href=\"https://edit.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a>. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://edit.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.&nbsp;</p>\n<p>Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA\u2019s <a class=\"ext\" href=\"https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w\" target=\"_blank\">KEV Nomination Form</a>. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&nbsp;</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T07:15:29.775026Z"
+    },
+    {
+      "id": "96c6b7a113438e5eb4e1f78cbd788edb",
+      "title": "Frank Elderson: Smart supervision for small banks",
       "summary": "",
-      "link": "https://www.bloomberg.com/news/live-blog/2026-11-17/what-s-moving-uk-markets-right-now-markets-today-mwkc7vf0",
-      "source": "Bloomberg",
-      "score": 13,
+      "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261116_1~11dd7f62af.en.html",
+      "source": "ECB",
+      "score": 10,
       "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T07:15:07.134971Z"
+    },
+    {
+      "id": "f6ba5c0cef5ebb610e2cfdead11e2070",
+      "title": "German lender processed $582mn of suspicious payments linked to Epstein",
+      "summary": "Figure revealed by internal documents is substantially higher than previously known",
+      "link": "https://www.ft.com/content/72ac6fee-55f3-4db5-a1e3-873ef39c0b96?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T07:14:28.018527Z"
+    },
+    {
+      "id": "62578efb761e0eaa2c03bb666b066556",
+      "title": "U.S. Senate Democrats tell CFTC to back off its demand prediction markets defy bans",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/11/16/u-s-senate-democrats-tell-cftc-to-back-off-its-demand-prediction-markets-defy-bans",
+      "source": "CoinDesk",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T07:15:29.035316Z"
+    },
+    {
+      "id": "50bb210d17ef01ba9f7af258bac46bcd",
+      "title": "Princess Aiko leaves for official visit to Singapore",
+      "summary": "The trip, which coincides with Japan and Singapore's 60th anniversary of diplomatic relations, is her second official visit overseas.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/17/japan/japan-princess-aiko-singapore-visit/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
+      "tickers": [],
       "regions": [
-        "EUROPE"
+        "JAPAN"
       ],
       "assets": [
-        "AI",
-        "EQUITIES",
-        "FX"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -287,57 +540,34 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-17T07:07:41.557699Z"
+      "published": "2026-11-17T07:15:19.800165Z"
     },
     {
-      "id": "a0cc7c2d6703308d39fe71b7a18049e4",
-      "title": "Why Iraq Just Fast-Tracked Chevron\u2019s Takeover Of A 14-Billion-Barrel Supergiant",
-      "summary": "U.S. supermajor Chevron has moved from open-ended negotiations under its previous USD200 million exclusivity window to finalising commercial terms for Iraq\u2019s supergiant West Qurna 2 oilfield. Whilst the American firm originally had until February 2027 to use its one-year exclusivity window, following a very recent meeting between Iraqi Oil Minister Basim Mohammed Khudair Al-Abadi and Chevron\u2019s vice president of business development Joe Cook, the two sides confirmed that contract terms for West Qurna 2 have now been agreed. As it stands,\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/Why-Iraq-Just-Fast-Tracked-Chevrons-Takeover-Of-A-14-Billion-Barrel-Supergiant.html",
-      "source": "OilPrice",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
+      "id": "f6ad2ed9bca06bd4b968a7bea57aa046",
+      "title": "Solflare CEO says AI security reviews are essential, touts \u2018bunker mode\u2019 and MoneyGram deal",
+      "summary": "Vidor Gencel says AI catches chained exploits humans miss, and details the wallet's \"bunker mode,\" privacy mode, and MoneyGram USDC cash-out.",
+      "link": "https://www.theblock.co/news/defi/2026-11-16-solflare-ceo-ai-security-reviews-bunker-mode-moneygram-441396",
+      "source": "The Block",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
       "tickers": [
-        "DXY",
-        "WTI"
+        "DXY"
       ],
-      "regions": [
-        "US"
-      ],
+      "regions": [],
       "assets": [
-        "AI",
-        "COMMODITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-17T07:08:35.129945Z"
-    },
-    {
-      "id": "03e6005ac7df7d702db5b2304db321aa",
-      "title": "Jefferson, New Technology, Old Questions: Productivity Puzzles  and the Macroeconomy",
-      "summary": "Speech At the University of California, San Diego Economic Roundtable, San Diego, California",
-      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-17T07:07:45.107864Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-17T07:15:29.234425Z"
     }
   ]
 }
