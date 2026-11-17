@@ -1,32 +1,31 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-17T22:54:30.725713Z",
+  "generated_at": "2026-11-17T23:02:05.856157Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-11-17T22:54:30.725722Z"
+    "critical_alerts": 1,
+    "high_alerts": 4,
+    "last_updated": "2026-11-17T23:02:05.856174Z"
   },
   "top_signals": [
     {
-      "id": "86d3ccd923e7f3bf70b5121541506e50",
-      "title": "Critical Java Vulnerability Requires Immediate Patching",
-      "summary": "<h2><strong>Purpose</strong></h2>\n<p>CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114938\" target=\"_blank\">CVE-2026-114938</a>. This critical memory-corruption vulnerability, known as \u201cJava4Shell,\u201d affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution.</p>\n<h2><strong>Actions to take</strong></h2>\n<p>CISA urges organizations to take the following actions:</p>\n<ul>\n<li>Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, including those bundled with third-party applications or included in container images and appliances. <strong>Note:</strong> JDKs and Java runtimes may not appear as separate entries in software inventories.</li>\n<li>Apply relevant Java and vendor patches as soon as they are available, prioritizing internet-facing systems.\n<ul>\n<li>If immediate patching is not feasible, implement temporary compensating controls, such as restricting and validating Base64 input at the application boundary, enforcing input-size limits, and limiting unauthenticated access.</li>\n</ul>\n</li>\n<li>Review <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Oracle\u2019s security advisory</a> for guidance on patching and affected products and versions.</li>\n<li>&nbsp;Monitor for indicators of suspicious activity, including rogue runtimes, unexpected JVM crashes, and suspicious Java processes.</li>\n</ul>\n<h2><strong>Resources</strong></h2>\n<p>CISA urges network defenders to review the following resource and apply necessary updates:</p>\n<h3>Vendor Guidance</h3>\n<ul>\n<li>Oracle\u2019s Security Advisory: <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Critical Security Patch Update \u2013 November 2026</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.</p>\n<h2><strong>Acknowledgements&nbsp;</strong></h2>\n<p>The Canadian Centre for Cyber Security (Cyber Centre) contributed to this Alert.</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-      "source": "CISA",
-      "score": 20,
-      "severity": "HIGH",
+      "id": "709180bdfd7ed28617de2b770cf0d337",
+      "title": "Trump on Iran's reported DC dirty bomb plan: 'We take it very seriously'",
+      "summary": "\"This is why they can't have a nuclear weapon,\" Trump added, reiterating his main rationale for launching the Iran war.",
+      "link": "https://www.cnbc.com/2026/11/17/trump-iran-dirty-bomb-washington.html",
+      "source": "CNBC",
+      "score": 28,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
-      "tickers": [
-        "BUND"
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
       ],
-      "regions": [],
       "assets": [
-        "AI",
-        "RATES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -42,26 +41,317 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-17T22:54:28.156985Z"
+      "published": "2026-11-17T23:01:07.675562Z"
+    },
+    {
+      "id": "c771a0dde510fd565c48a4e28cf82aac",
+      "title": "Bitcoin drops 2.5% as Nvidia stock risks new 5-month lows into Q3 earnings",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin drops 2.5% as Nvidia stock risks new 5-month lows into Q3 earnings\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7N46854SJGNK5GMN2W9MWH0/article-covers-256498-bitcoin-hints-regime-shift-btc-price-dips-69-5k-iran-nerves-960x640.webp\" /></p><p>Bitcoin price downside sees local lows of $63,269 as Nvidia stock targets $150 as traders brace for volatility over Q3 earnings.</p>",
+      "link": "https://cointelegraph.com/markets/bitcoin-drops-25-nvidia-stock-risks-new-5-month-low-q3-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BTC",
+        "NVDA"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T23:02:02.527662Z"
+    },
+    {
+      "id": "2415ab76ca8efce8789b1c439975a197",
+      "title": "Waller, The Economic Outlook and Some Thoughts on Labor Market Dynamism",
+      "summary": "Speech At the Bank of England Watchers Conference  King\u2019s Business School and Money, Macro and Finance Society, London, United Kingdom",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
+      "source": "Federal Reserve",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-17T23:01:07.930120Z"
+    },
+    {
+      "id": "eebfe3a7fe6733dbad138471ca115739",
+      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-17T23:01:07.891545Z"
+    },
+    {
+      "id": "93cbc3e040f8199edf4a01602a5a520a",
+      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+      "summary": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-17T23:01:07.891595Z"
+    },
+    {
+      "id": "4e6db19b632a58afb8709619c47c1c14",
+      "title": "Nvidia board says Jensen Huang will not return as CEO",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/tech/semiconductors/nvidia-board-says-jensen-huang-will-not-return-as-ceo",
+      "source": "Nikkei Asia",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-17T23:01:58.691718Z"
+    },
+    {
+      "id": "77f2ebe91e781853512987741000f1e1",
+      "title": "ECB Urges Overhauls to Protect Financial System From AI, Government Debt - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPTXBJVmZaTXVPNG94RVM2QXZXT1YtaDVlOWhsR2FyM1FCdFJlRmFKM25KQ3J2cWt3dm44dTlsT1hTNjhGZThJNlowQjFkSWxZVm1tOWZpQ0dFM0ZyMEhzQnVhc2I2UVF0WDFLTnczc1g5ZkpsNkZ3ZUZLZUpuQ1l1TGhwVlhXS1dWX1dTbERrdmY2ZGtZNmtwN1RXQU9tYVZmSFp5c293dTRvdnd3TDRRMWZmblo5QzRSZWsxZw?oc=5\" target=\"_blank\">ECB Urges Overhauls to Protect Financial System From AI, Government Debt</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTXBJVmZaTXVPNG94RVM2QXZXT1YtaDVlOWhsR2FyM1FCdFJlRmFKM25KQ3J2cWt3dm44dTlsT1hTNjhGZThJNlowQjFkSWxZVm1tOWZpQ0dFM0ZyMEhzQnVhc2I2UVF0WDFLTnczc1g5ZkpsNkZ3ZUZLZUpuQ1l1TGhwVlhXS1dWX1dTbERrdmY2ZGtZNmtwN1RXQU9tYVZmSFp5c293dTRvdnd3TDRRMWZmblo5QzRSZWsxZw?oc=5",
+      "source": "Google Macro",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-17T23:02:05.278693Z"
+    },
+    {
+      "id": "7ca4801b86fdf12b28951a61c924e5d0",
+      "title": "Cuba\u2019s Energy Crisis Turns Into a Goldmine for U.S. Fuel Exporters",
+      "summary": "The Trump administration earlier this year forced a naval blockade on Cuba that brought the island nation to the brink. Now, the U.S. has become Cuba's largest fuel supplier. The blockade has benefited fuel traders. When Washington blocked Cuban ports in January this year, an energy crunch was one of the goals\u2014a shortage of energy commodities, the reasoning went, would prompt regime change, which the Trump administration has openly advocated for. So far, this has not happened, but things in Cuba are certainly not rosy. Besides the blockade,\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Cubas-Energy-Crisis-Turns-Into-a-Goldmine-for-US-Fuel-Exporters.html",
+      "source": "OilPrice",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-17T23:02:00.345476Z"
+    },
+    {
+      "id": "fbeba40ebc10af6f759a3b088c6a6fcc",
+      "title": "US and allies sign accord to protect AI supply chains from China - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPeVM3Y2hkVkZKUTFFcUhkRUJlX3pWbFBGZlZ6QW1tMjJTUUZ5WUgtS0lWMmh5V3YweURabUtma0pDeTBNM0M1cTYtUkQwcDhrODFmM0RPdmoxYzNZYldpdmxKN0ROTVNmMFhOZ3dpVFpnQ2VSUkRyOWtnaG9udTNpbTdRemg?oc=5\" target=\"_blank\">US and allies sign accord to protect AI supply chains from China</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeVM3Y2hkVkZKUTFFcUhkRUJlX3pWbFBGZlZ6QW1tMjJTUUZ5WUgtS0lWMmh5V3YweURabUtma0pDeTBNM0M1cTYtUkQwcDhrODFmM0RPdmoxYzNZYldpdmxKN0ROTVNmMFhOZ3dpVFpnQ2VSUkRyOWtnaG9udTNpbTdRemg?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA",
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T23:02:04.754256Z"
+    },
+    {
+      "id": "975215140d6fb91e1b5dd20e7d0eabf5",
+      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T23:01:07.851939Z"
+    },
+    {
+      "id": "de219978dcff2f1a33474cca2c4acba8",
+      "title": "Samsung chip testing supplier Micronics Japan poised to ramp up capacity",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/tech/semiconductors/samsung-chip-testing-supplier-micronics-japan-poised-to-ramp-up-capacity",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T23:01:58.691683Z"
+    },
+    {
+      "id": "950144ca14c71661e37fe20b7d2c2df4",
+      "title": "AI Stocks Resume Their Slide - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE1jMVRGNmM2LXVUalRrSEREd3VLUDl4alRBLTZDaEhhWjdCbXZJQlNxZnBhQWdvS2lrLVRESjg3LUZLRkpEQ0wtUFZVLWcwNllRX190Vm5PcHlEcndfODBubE9HZDVHVkMyYWFiMlo0YkpkVWpCdXhLaGhHZG8?oc=5\" target=\"_blank\">AI Stocks Resume Their Slide</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jMVRGNmM2LXVUalRrSEREd3VLUDl4alRBLTZDaEhhWjdCbXZJQlNxZnBhQWdvS2lrLVRESjg3LUZLRkpEQ0wtUFZVLWcwNllRX190Vm5PcHlEcndfODBubE9HZDVHVkMyYWFiMlo0YkpkVWpCdXhLaGhHZG8?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-17T23:02:05.278626Z"
     }
   ],
   "alerts": [
     {
-      "id": "86d3ccd923e7f3bf70b5121541506e50",
-      "title": "Critical Java Vulnerability Requires Immediate Patching",
-      "summary": "<h2><strong>Purpose</strong></h2>\n<p>CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114938\" target=\"_blank\">CVE-2026-114938</a>. This critical memory-corruption vulnerability, known as \u201cJava4Shell,\u201d affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution.</p>\n<h2><strong>Actions to take</strong></h2>\n<p>CISA urges organizations to take the following actions:</p>\n<ul>\n<li>Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, including those bundled with third-party applications or included in container images and appliances. <strong>Note:</strong> JDKs and Java runtimes may not appear as separate entries in software inventories.</li>\n<li>Apply relevant Java and vendor patches as soon as they are available, prioritizing internet-facing systems.\n<ul>\n<li>If immediate patching is not feasible, implement temporary compensating controls, such as restricting and validating Base64 input at the application boundary, enforcing input-size limits, and limiting unauthenticated access.</li>\n</ul>\n</li>\n<li>Review <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Oracle\u2019s security advisory</a> for guidance on patching and affected products and versions.</li>\n<li>&nbsp;Monitor for indicators of suspicious activity, including rogue runtimes, unexpected JVM crashes, and suspicious Java processes.</li>\n</ul>\n<h2><strong>Resources</strong></h2>\n<p>CISA urges network defenders to review the following resource and apply necessary updates:</p>\n<h3>Vendor Guidance</h3>\n<ul>\n<li>Oracle\u2019s Security Advisory: <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Critical Security Patch Update \u2013 November 2026</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.</p>\n<h2><strong>Acknowledgements&nbsp;</strong></h2>\n<p>The Canadian Centre for Cyber Security (Cyber Centre) contributed to this Alert.</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-      "source": "CISA",
-      "score": 20,
-      "severity": "HIGH",
+      "id": "709180bdfd7ed28617de2b770cf0d337",
+      "title": "Trump on Iran's reported DC dirty bomb plan: 'We take it very seriously'",
+      "summary": "\"This is why they can't have a nuclear weapon,\" Trump added, reiterating his main rationale for launching the Iran war.",
+      "link": "https://www.cnbc.com/2026/11/17/trump-iran-dirty-bomb-washington.html",
+      "source": "CNBC",
+      "score": 28,
+      "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
-      "tickers": [
-        "BUND"
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST"
       ],
-      "regions": [],
       "assets": [
-        "AI",
-        "RATES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -77,7 +367,343 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-17T22:54:28.156985Z"
+      "published": "2026-11-17T23:01:07.675562Z"
+    },
+    {
+      "id": "c771a0dde510fd565c48a4e28cf82aac",
+      "title": "Bitcoin drops 2.5% as Nvidia stock risks new 5-month lows into Q3 earnings",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin drops 2.5% as Nvidia stock risks new 5-month lows into Q3 earnings\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7N46854SJGNK5GMN2W9MWH0/article-covers-256498-bitcoin-hints-regime-shift-btc-price-dips-69-5k-iran-nerves-960x640.webp\" /></p><p>Bitcoin price downside sees local lows of $63,269 as Nvidia stock targets $150 as traders brace for volatility over Q3 earnings.</p>",
+      "link": "https://cointelegraph.com/markets/bitcoin-drops-25-nvidia-stock-risks-new-5-month-low-q3-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BTC",
+        "NVDA"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T23:02:02.527662Z"
+    },
+    {
+      "id": "2415ab76ca8efce8789b1c439975a197",
+      "title": "Waller, The Economic Outlook and Some Thoughts on Labor Market Dynamism",
+      "summary": "Speech At the Bank of England Watchers Conference  King\u2019s Business School and Money, Macro and Finance Society, London, United Kingdom",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
+      "source": "Federal Reserve",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-17T23:01:07.930120Z"
+    },
+    {
+      "id": "eebfe3a7fe6733dbad138471ca115739",
+      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-17T23:01:07.891545Z"
+    },
+    {
+      "id": "93cbc3e040f8199edf4a01602a5a520a",
+      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+      "summary": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-17T23:01:07.891595Z"
+    },
+    {
+      "id": "4e6db19b632a58afb8709619c47c1c14",
+      "title": "Nvidia board says Jensen Huang will not return as CEO",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/tech/semiconductors/nvidia-board-says-jensen-huang-will-not-return-as-ceo",
+      "source": "Nikkei Asia",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-17T23:01:58.691718Z"
+    },
+    {
+      "id": "77f2ebe91e781853512987741000f1e1",
+      "title": "ECB Urges Overhauls to Protect Financial System From AI, Government Debt - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPTXBJVmZaTXVPNG94RVM2QXZXT1YtaDVlOWhsR2FyM1FCdFJlRmFKM25KQ3J2cWt3dm44dTlsT1hTNjhGZThJNlowQjFkSWxZVm1tOWZpQ0dFM0ZyMEhzQnVhc2I2UVF0WDFLTnczc1g5ZkpsNkZ3ZUZLZUpuQ1l1TGhwVlhXS1dWX1dTbERrdmY2ZGtZNmtwN1RXQU9tYVZmSFp5c293dTRvdnd3TDRRMWZmblo5QzRSZWsxZw?oc=5\" target=\"_blank\">ECB Urges Overhauls to Protect Financial System From AI, Government Debt</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTXBJVmZaTXVPNG94RVM2QXZXT1YtaDVlOWhsR2FyM1FCdFJlRmFKM25KQ3J2cWt3dm44dTlsT1hTNjhGZThJNlowQjFkSWxZVm1tOWZpQ0dFM0ZyMEhzQnVhc2I2UVF0WDFLTnczc1g5ZkpsNkZ3ZUZLZUpuQ1l1TGhwVlhXS1dWX1dTbERrdmY2ZGtZNmtwN1RXQU9tYVZmSFp5c293dTRvdnd3TDRRMWZmblo5QzRSZWsxZw?oc=5",
+      "source": "Google Macro",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-17T23:02:05.278693Z"
+    },
+    {
+      "id": "7ca4801b86fdf12b28951a61c924e5d0",
+      "title": "Cuba\u2019s Energy Crisis Turns Into a Goldmine for U.S. Fuel Exporters",
+      "summary": "The Trump administration earlier this year forced a naval blockade on Cuba that brought the island nation to the brink. Now, the U.S. has become Cuba's largest fuel supplier. The blockade has benefited fuel traders. When Washington blocked Cuban ports in January this year, an energy crunch was one of the goals\u2014a shortage of energy commodities, the reasoning went, would prompt regime change, which the Trump administration has openly advocated for. So far, this has not happened, but things in Cuba are certainly not rosy. Besides the blockade,\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Cubas-Energy-Crisis-Turns-Into-a-Goldmine-for-US-Fuel-Exporters.html",
+      "source": "OilPrice",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-17T23:02:00.345476Z"
+    },
+    {
+      "id": "fbeba40ebc10af6f759a3b088c6a6fcc",
+      "title": "US and allies sign accord to protect AI supply chains from China - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPeVM3Y2hkVkZKUTFFcUhkRUJlX3pWbFBGZlZ6QW1tMjJTUUZ5WUgtS0lWMmh5V3YweURabUtma0pDeTBNM0M1cTYtUkQwcDhrODFmM0RPdmoxYzNZYldpdmxKN0ROTVNmMFhOZ3dpVFpnQ2VSUkRyOWtnaG9udTNpbTdRemg?oc=5\" target=\"_blank\">US and allies sign accord to protect AI supply chains from China</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeVM3Y2hkVkZKUTFFcUhkRUJlX3pWbFBGZlZ6QW1tMjJTUUZ5WUgtS0lWMmh5V3YweURabUtma0pDeTBNM0M1cTYtUkQwcDhrODFmM0RPdmoxYzNZYldpdmxKN0ROTVNmMFhOZ3dpVFpnQ2VSUkRyOWtnaG9udTNpbTdRemg?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA",
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T23:02:04.754256Z"
+    },
+    {
+      "id": "975215140d6fb91e1b5dd20e7d0eabf5",
+      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T23:01:07.851939Z"
+    },
+    {
+      "id": "de219978dcff2f1a33474cca2c4acba8",
+      "title": "Samsung chip testing supplier Micronics Japan poised to ramp up capacity",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/tech/semiconductors/samsung-chip-testing-supplier-micronics-japan-poised-to-ramp-up-capacity",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T23:01:58.691683Z"
+    },
+    {
+      "id": "950144ca14c71661e37fe20b7d2c2df4",
+      "title": "AI Stocks Resume Their Slide - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE1jMVRGNmM2LXVUalRrSEREd3VLUDl4alRBLTZDaEhhWjdCbXZJQlNxZnBhQWdvS2lrLVRESjg3LUZLRkpEQ0wtUFZVLWcwNllRX190Vm5PcHlEcndfODBubE9HZDVHVkMyYWFiMlo0YkpkVWpCdXhLaGhHZG8?oc=5\" target=\"_blank\">AI Stocks Resume Their Slide</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jMVRGNmM2LXVUalRrSEREd3VLUDl4alRBLTZDaEhhWjdCbXZJQlNxZnBhQWdvS2lrLVRESjg3LUZLRkpEQ0wtUFZVLWcwNllRX190Vm5PcHlEcndfODBubE9HZDVHVkMyYWFiMlo0YkpkVWpCdXhLaGhHZG8?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-17T23:02:05.278626Z"
+    },
+    {
+      "id": "33c50093529c6e4d44f0f0a9ea617710",
+      "title": "Press point by Commissioner Glenn Micallef on the Communication on reinforcing the European Sport Model",
+      "summary": "European Commission Statement Brussels, 17 Nov 2026 Look, Europe wins at sport.\nThis vision, this communication that we've adopted today will ensure that Europe keeps winning at sport.\nWe're the continent that is...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2480",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T23:01:56.169988Z"
+    },
+    {
+      "id": "a7ea36cc2cabd472bee895a5b527ae56",
+      "title": "Commission partially greenlights Croatia's final payment request for \u20ac2.67 billion under NextGenerationEU",
+      "summary": "European Commission Press release Brussels, 17 Nov 2026 Today, the European Commission partially greenlighted Croatia's ninth and final payment request worth \u20ac2.67 billion under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2478",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T23:01:56.170068Z"
     }
   ]
 }
