@@ -1,25 +1,25 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-17T20:02:02.904108Z",
+  "generated_at": "2026-11-17T20:10:53.811273Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 0,
-    "last_updated": "2026-11-17T20:02:02.904122Z"
+    "critical_alerts": 2,
+    "high_alerts": 2,
+    "last_updated": "2026-11-17T20:10:53.811289Z"
   },
   "top_signals": [
     {
-      "id": "57a0e043fc2487d481287f6d295fcccf",
-      "title": "Fed's Williams Doesn't See Need for 'Dramatic Action' on Rates",
-      "summary": "Federal Reserve Bank of New York President John Williams says he's seeing drivers pushing up inflation, including AI, but not necessarily a broadening of it at the Axios BFD Annual Summit. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-17/fed-s-williams-no-need-for-dramatic-action-on-rates-video",
+      "id": "dd3e2488f49f4e4e7dc094b1d4a17b71",
+      "title": "Fed Officials Debate Pace of Rate Hikes as Williams Urges Measured Action",
+      "summary": "Federal Reserve Bank of New York President John Williams said the central bank still has work to do to bring inflation back to its 2% goal, but dismissed the suggestion the Fed needs to consider an outsized rate hike.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-17/fed-s-williams-says-no-need-for-dramatic-rate-move",
       "source": "Bloomberg",
-      "score": 26,
+      "score": 34,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -27,25 +27,116 @@
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-17T19:59:42.075376Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-17T20:09:52.274714Z"
     },
     {
-      "id": "e4033de51879dfaa7c70e35e4b49c3fc",
-      "title": "AI grapples with the return of the \u2018Antichrist\u2019",
-      "summary": "Tech titans doubled down on Trump and now find themselves in the crosshairs of voters who reject progress at any cost",
-      "link": "https://www.ft.com/content/551f078e-4cd5-4302-8143-96b8ed5c9eeb?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
+      "id": "b3a94a780f50710c89bb7c9411d9ff45",
+      "title": "Eastern Europe crypto flows fall 7.9% as Ukraine draws $12B in stablecoins",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Eastern Europe crypto flows fall 7.9% as Ukraine draws $12B in stablecoins\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7N9V9STHF6S9E0M81Y5Q7RA/hi-eastern-europe.png\" /></p><p>Chainalysis found that Eastern Europe recorded the steepest decline in crypto activity of any region, while cross-border stablecoin transfers to Ukraine continued amid the ongoing war.</p>",
+      "link": "https://cointelegraph.com/news/eastern-europe-crypto-activity-decline-chainalysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 34,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T20:10:50.425859Z"
+    },
+    {
+      "id": "7d1cd0b643ebf01b31307efcd4326936",
+      "title": "One of the Biggest Weeks in the AI Industry\u2019s History",
+      "summary": "The ripple effects of a Jensen-less Nvidia are starting to show up.",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-11-17/one-of-the-biggest-weeks-in-the-ai-industry-s-history",
+      "source": "Bloomberg",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-17T20:09:52.274762Z"
+    },
+    {
+      "id": "16fcf046fabc8e09790c7881aec60d4f",
+      "title": "Bitwise launches ZDAY, its first non-crypto ETF, to bet on AI cyber defense",
+      "summary": "Bitwise's first non-crypto ETF, ZDAY, trades on the NYSE with a 0.75% fee, holding 10\u201330 AI security stocks like CrowdStrike and Palo Alto.",
+      "link": "https://www.theblock.co/news/markets/2026-11-17-bitwise-zday-ai-cyber-defense-etf-442062",
+      "source": "The Block",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-17T20:10:50.516128Z"
+    },
+    {
+      "id": "82f68c8ca0f0f8b1e92f7f0b8bf82b02",
+      "title": "Barclays\u00a0Sees 2027 Muni Bond Supply Reaching Up to $600 Billion",
+      "summary": "Barclays Plc anticipates between $580 billion and $600 billion of municipal-bond issuance next year, pushing the market\u2019s size closer to $5 trillion by the end of 2027, according to analysts led by Mikhail Foux.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-17/barclays-sees-2027-muni-bond-supply-reaching-up-to-600-billion",
+      "source": "Bloomberg",
+      "score": 13,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
@@ -62,14 +153,14 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-17T19:59:43.726584Z"
+      "published": "2026-11-17T20:09:52.274816Z"
     },
     {
-      "id": "afa29008844b759390347d6c947ac88f",
-      "title": "Guidance: Preston guidance: October 2026",
-      "summary": "Preston factors (earnings and interest factors) are provided for employers.",
-      "link": "https://www.gov.uk/government/publications/preston-guidance-october-2026",
-      "source": "HM Treasury",
+      "id": "a5504673c438ae29161023afe2129e37",
+      "title": "Exchange of letters between the Governor and the Chancellor on the Asset Purchase Facility - November 2026",
+      "summary": "Exchange of letters between the Governor and the Chancellor",
+      "link": "https://www.bankofengland.co.uk/letter/2026/asset-purchase-facility-november-2026",
+      "source": "Bank of England",
       "score": 10,
       "severity": "MEDIUM",
       "regime": "GENERAL",
@@ -78,14 +169,118 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-17T20:01:06.827823Z"
+      "published": "2026-11-17T20:10:41.289917Z"
     },
     {
-      "id": "f8400a46b59172991d84fbed23b0c83d",
-      "title": "Supertanker rates plunge more than 60% from record highs - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPY0ZJYjdxQndHZmhXNXpBLTVhN0p2NmtoMXliTHZFeURJMU05VVpzQW16STBtZzNuMnUyelRkTzRPODgxR21pdm9YY2JIaUhPbmM2MVVDMVlPSkp5UjY1VjVkbVkzQmhmZGR5TXFiMTRuMkc1SWF5a1hVVGZQdUlFUjA0Y3Z6YnJtX1BKTkF3TXpuMXc5Nk9OMTRjTVp4eXAtanJkOA?oc=5\" target=\"_blank\">Supertanker rates plunge more than 60% from record highs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY0ZJYjdxQndHZmhXNXpBLTVhN0p2NmtoMXliTHZFeURJMU05VVpzQW16STBtZzNuMnUyelRkTzRPODgxR21pdm9YY2JIaUhPbmM2MVVDMVlPSkp5UjY1VjVkbVkzQmhmZGR5TXFiMTRuMkc1SWF5a1hVVGZQdUlFUjA0Y3Z6YnJtX1BKTkF3TXpuMXc5Nk9OMTRjTVp4eXAtanJkOA?oc=5",
-      "source": "Google Macro",
+      "id": "c91f1f2e0447935ce60cc205ca68b9fc",
+      "title": "Police recover $4.5 million in stolen vehicles bound for West Africa, arrest 12",
+      "summary": "<p>Project Cadetta uncovered 96 stolen vehicles and produced hundreds of charges, with two more suspects still wanted.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/police-recover-4-5-million-in-stolen-vehicles-bound-for-west-africa-arrest-12\">Police recover $4.5 million in stolen vehicles bound for West Africa, arrest 12</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/police-recover-4-5-million-in-stolen-vehicles-bound-for-west-africa-arrest-12",
+      "source": "FreightWaves",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-17T20:10:47.556837Z"
+    },
+    {
+      "id": "2021bd850b92e64a9a91e73d349fa195",
+      "title": "Meta pays Nevoya to put 25 electric trucks on I-10",
+      "summary": "<p>Meta will buy environmental attribute certificates tied to 25 Nevoya battery-electric trucks running between San Bernardino and Phoenix starting in 2027.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/meta-nevoya-electric-trucks-i-10\">Meta pays Nevoya to put 25 electric trucks on I-10</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/meta-nevoya-electric-trucks-i-10",
+      "source": "FreightWaves",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-17T20:10:47.556891Z"
+    },
+    {
+      "id": "fd0e0a7685034d46fc998dd0eed89c8b",
+      "title": "Bracken Prize for Young Authors 2026: the finalists",
+      "summary": "Cyber scamming, cocoa markets and the future of Arctic commerce are tackled by the three competitors",
+      "link": "https://www.ft.com/content/bd6b318c-ca23-4d5e-9b2d-5cf82284b163",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T20:09:54.665317Z"
+    },
+    {
+      "id": "192480b19ebcce9fd4203f2516e5586e",
+      "title": "Don't pin Nidec's scandal on its founder alone",
+      "summary": "",
+      "link": "https://asia.nikkei.com/opinion/don-t-pin-nidec-s-scandal-on-its-founder-alone",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T20:10:44.029853Z"
+    },
+    {
+      "id": "4ca2a2383b2a44abfcad12e2adf846c8",
+      "title": "Trump meets Quad leaders, says 4 nations agree on 'critical mineral deals'",
+      "summary": "",
+      "link": "https://asia.nikkei.com/politics/international-relations/indo-pacific/trump-meets-quad-leaders-says-4-nations-agree-on-critical-mineral-deals",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T20:10:44.029914Z"
+    },
+    {
+      "id": "5e8dcee878924fb5fe24ed922f8dd219",
+      "title": "How does EIA account for small differences between energy supply and demand data?",
+      "summary": "EIA uses over 60 surveys to collect data on the U.S. energy sector's supply and demand. In theory, supply and demand should balance. In practice, we often have small differences between our total supply and total demand figures.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68464",
+      "source": "EIA",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -94,35 +289,19 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-17T20:02:01.488447Z"
-    },
-    {
-      "id": "917324b444d98fd35e71d22d558d3dc1",
-      "title": "Why Putin, Trump and Xi cannot be the new \u2018big three\u2019 - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPY1V5NnQ3N1NkdmhRT2Vrdy15VWhDeS1sREkzYkI5Ulo0UmVWVjNPMDF4ZXJZcnlrT1k0MmZiZkxrbk16cnhKUXJjSEJzNktGNDMxd0Z2ZE9XaUtRU3R6bC15eHJrR3Rfdl9jSTRvRE1RRG9tLTdXWnNDdEY1UnRuYkdEcHA?oc=5\" target=\"_blank\">Why Putin, Trump and Xi cannot be the new \u2018big three\u2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY1V5NnQ3N1NkdmhRT2Vrdy15VWhDeS1sREkzYkI5Ulo0UmVWVjNPMDF4ZXJZcnlrT1k0MmZiZkxrbk16cnhKUXJjSEJzNktGNDMxd0Z2ZE9XaUtRU3R6bC15eHJrR3Rfdl9jSTRvRE1RRG9tLTdXWnNDdEY1UnRuYkdEcHA?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-17T20:02:01.992768Z"
+      "published": "2026-11-17T20:10:45.945630Z"
     }
   ],
   "alerts": [
     {
-      "id": "57a0e043fc2487d481287f6d295fcccf",
-      "title": "Fed's Williams Doesn't See Need for 'Dramatic Action' on Rates",
-      "summary": "Federal Reserve Bank of New York President John Williams says he's seeing drivers pushing up inflation, including AI, but not necessarily a broadening of it at the Axios BFD Annual Summit. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-17/fed-s-williams-no-need-for-dramatic-action-on-rates-video",
+      "id": "dd3e2488f49f4e4e7dc094b1d4a17b71",
+      "title": "Fed Officials Debate Pace of Rate Hikes as Williams Urges Measured Action",
+      "summary": "Federal Reserve Bank of New York President John Williams said the central bank still has work to do to bring inflation back to its 2% goal, but dismissed the suggestion the Fed needs to consider an outsized rate hike.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-17/fed-s-williams-says-no-need-for-dramatic-rate-move",
       "source": "Bloomberg",
-      "score": 26,
+      "score": 34,
       "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
       "assets": [
@@ -130,25 +309,116 @@
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-17T19:59:42.075376Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-17T20:09:52.274714Z"
     },
     {
-      "id": "e4033de51879dfaa7c70e35e4b49c3fc",
-      "title": "AI grapples with the return of the \u2018Antichrist\u2019",
-      "summary": "Tech titans doubled down on Trump and now find themselves in the crosshairs of voters who reject progress at any cost",
-      "link": "https://www.ft.com/content/551f078e-4cd5-4302-8143-96b8ed5c9eeb?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
+      "id": "b3a94a780f50710c89bb7c9411d9ff45",
+      "title": "Eastern Europe crypto flows fall 7.9% as Ukraine draws $12B in stablecoins",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Eastern Europe crypto flows fall 7.9% as Ukraine draws $12B in stablecoins\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7N9V9STHF6S9E0M81Y5Q7RA/hi-eastern-europe.png\" /></p><p>Chainalysis found that Eastern Europe recorded the steepest decline in crypto activity of any region, while cross-border stablecoin transfers to Ukraine continued amid the ongoing war.</p>",
+      "link": "https://cointelegraph.com/news/eastern-europe-crypto-activity-decline-chainalysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 34,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T20:10:50.425859Z"
+    },
+    {
+      "id": "7d1cd0b643ebf01b31307efcd4326936",
+      "title": "One of the Biggest Weeks in the AI Industry\u2019s History",
+      "summary": "The ripple effects of a Jensen-less Nvidia are starting to show up.",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-11-17/one-of-the-biggest-weeks-in-the-ai-industry-s-history",
+      "source": "Bloomberg",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-17T20:09:52.274762Z"
+    },
+    {
+      "id": "16fcf046fabc8e09790c7881aec60d4f",
+      "title": "Bitwise launches ZDAY, its first non-crypto ETF, to bet on AI cyber defense",
+      "summary": "Bitwise's first non-crypto ETF, ZDAY, trades on the NYSE with a 0.75% fee, holding 10\u201330 AI security stocks like CrowdStrike and Palo Alto.",
+      "link": "https://www.theblock.co/news/markets/2026-11-17-bitwise-zday-ai-cyber-defense-etf-442062",
+      "source": "The Block",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-17T20:10:50.516128Z"
+    },
+    {
+      "id": "82f68c8ca0f0f8b1e92f7f0b8bf82b02",
+      "title": "Barclays\u00a0Sees 2027 Muni Bond Supply Reaching Up to $600 Billion",
+      "summary": "Barclays Plc anticipates between $580 billion and $600 billion of municipal-bond issuance next year, pushing the market\u2019s size closer to $5 trillion by the end of 2027, according to analysts led by Mikhail Foux.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-17/barclays-sees-2027-muni-bond-supply-reaching-up-to-600-billion",
+      "source": "Bloomberg",
+      "score": 13,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
@@ -165,14 +435,14 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-17T19:59:43.726584Z"
+      "published": "2026-11-17T20:09:52.274816Z"
     },
     {
-      "id": "afa29008844b759390347d6c947ac88f",
-      "title": "Guidance: Preston guidance: October 2026",
-      "summary": "Preston factors (earnings and interest factors) are provided for employers.",
-      "link": "https://www.gov.uk/government/publications/preston-guidance-october-2026",
-      "source": "HM Treasury",
+      "id": "a5504673c438ae29161023afe2129e37",
+      "title": "Exchange of letters between the Governor and the Chancellor on the Asset Purchase Facility - November 2026",
+      "summary": "Exchange of letters between the Governor and the Chancellor",
+      "link": "https://www.bankofengland.co.uk/letter/2026/asset-purchase-facility-november-2026",
+      "source": "Bank of England",
       "score": 10,
       "severity": "MEDIUM",
       "regime": "GENERAL",
@@ -181,14 +451,118 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-17T20:01:06.827823Z"
+      "published": "2026-11-17T20:10:41.289917Z"
     },
     {
-      "id": "f8400a46b59172991d84fbed23b0c83d",
-      "title": "Supertanker rates plunge more than 60% from record highs - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPY0ZJYjdxQndHZmhXNXpBLTVhN0p2NmtoMXliTHZFeURJMU05VVpzQW16STBtZzNuMnUyelRkTzRPODgxR21pdm9YY2JIaUhPbmM2MVVDMVlPSkp5UjY1VjVkbVkzQmhmZGR5TXFiMTRuMkc1SWF5a1hVVGZQdUlFUjA0Y3Z6YnJtX1BKTkF3TXpuMXc5Nk9OMTRjTVp4eXAtanJkOA?oc=5\" target=\"_blank\">Supertanker rates plunge more than 60% from record highs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY0ZJYjdxQndHZmhXNXpBLTVhN0p2NmtoMXliTHZFeURJMU05VVpzQW16STBtZzNuMnUyelRkTzRPODgxR21pdm9YY2JIaUhPbmM2MVVDMVlPSkp5UjY1VjVkbVkzQmhmZGR5TXFiMTRuMkc1SWF5a1hVVGZQdUlFUjA0Y3Z6YnJtX1BKTkF3TXpuMXc5Nk9OMTRjTVp4eXAtanJkOA?oc=5",
-      "source": "Google Macro",
+      "id": "c91f1f2e0447935ce60cc205ca68b9fc",
+      "title": "Police recover $4.5 million in stolen vehicles bound for West Africa, arrest 12",
+      "summary": "<p>Project Cadetta uncovered 96 stolen vehicles and produced hundreds of charges, with two more suspects still wanted.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/police-recover-4-5-million-in-stolen-vehicles-bound-for-west-africa-arrest-12\">Police recover $4.5 million in stolen vehicles bound for West Africa, arrest 12</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/police-recover-4-5-million-in-stolen-vehicles-bound-for-west-africa-arrest-12",
+      "source": "FreightWaves",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-17T20:10:47.556837Z"
+    },
+    {
+      "id": "2021bd850b92e64a9a91e73d349fa195",
+      "title": "Meta pays Nevoya to put 25 electric trucks on I-10",
+      "summary": "<p>Meta will buy environmental attribute certificates tied to 25 Nevoya battery-electric trucks running between San Bernardino and Phoenix starting in 2027.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/meta-nevoya-electric-trucks-i-10\">Meta pays Nevoya to put 25 electric trucks on I-10</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/meta-nevoya-electric-trucks-i-10",
+      "source": "FreightWaves",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-17T20:10:47.556891Z"
+    },
+    {
+      "id": "fd0e0a7685034d46fc998dd0eed89c8b",
+      "title": "Bracken Prize for Young Authors 2026: the finalists",
+      "summary": "Cyber scamming, cocoa markets and the future of Arctic commerce are tackled by the three competitors",
+      "link": "https://www.ft.com/content/bd6b318c-ca23-4d5e-9b2d-5cf82284b163",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T20:09:54.665317Z"
+    },
+    {
+      "id": "192480b19ebcce9fd4203f2516e5586e",
+      "title": "Don't pin Nidec's scandal on its founder alone",
+      "summary": "",
+      "link": "https://asia.nikkei.com/opinion/don-t-pin-nidec-s-scandal-on-its-founder-alone",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T20:10:44.029853Z"
+    },
+    {
+      "id": "4ca2a2383b2a44abfcad12e2adf846c8",
+      "title": "Trump meets Quad leaders, says 4 nations agree on 'critical mineral deals'",
+      "summary": "",
+      "link": "https://asia.nikkei.com/politics/international-relations/indo-pacific/trump-meets-quad-leaders-says-4-nations-agree-on-critical-mineral-deals",
+      "source": "Nikkei Asia",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T20:10:44.029914Z"
+    },
+    {
+      "id": "5e8dcee878924fb5fe24ed922f8dd219",
+      "title": "How does EIA account for small differences between energy supply and demand data?",
+      "summary": "EIA uses over 60 surveys to collect data on the U.S. energy sector's supply and demand. In theory, supply and demand should balance. In practice, we often have small differences between our total supply and total demand figures.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68464",
+      "source": "EIA",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -197,23 +571,7 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-17T20:02:01.488447Z"
-    },
-    {
-      "id": "917324b444d98fd35e71d22d558d3dc1",
-      "title": "Why Putin, Trump and Xi cannot be the new \u2018big three\u2019 - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPY1V5NnQ3N1NkdmhRT2Vrdy15VWhDeS1sREkzYkI5Ulo0UmVWVjNPMDF4ZXJZcnlrT1k0MmZiZkxrbk16cnhKUXJjSEJzNktGNDMxd0Z2ZE9XaUtRU3R6bC15eHJrR3Rfdl9jSTRvRE1RRG9tLTdXWnNDdEY1UnRuYkdEcHA?oc=5\" target=\"_blank\">Why Putin, Trump and Xi cannot be the new \u2018big three\u2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY1V5NnQ3N1NkdmhRT2Vrdy15VWhDeS1sREkzYkI5Ulo0UmVWVjNPMDF4ZXJZcnlrT1k0MmZiZkxrbk16cnhKUXJjSEJzNktGNDMxd0Z2ZE9XaUtRU3R6bC15eHJrR3Rfdl9jSTRvRE1RRG9tLTdXWnNDdEY1UnRuYkdEcHA?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-17T20:02:01.992768Z"
+      "published": "2026-11-17T20:10:45.945630Z"
     }
   ]
 }
