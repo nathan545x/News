@@ -1,60 +1,106 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-17T13:06:27.865363Z",
+  "generated_at": "2026-11-17T13:14:15.629346Z",
   "market_regime": {
-    "regime": "INFLATION",
-    "dominant_driver": "INFLATION",
+    "regime": "AI",
+    "dominant_driver": "AI",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 3,
-    "last_updated": "2026-11-17T13:06:27.865379Z"
+    "critical_alerts": 0,
+    "high_alerts": 4,
+    "last_updated": "2026-11-17T13:14:15.629356Z"
   },
   "top_signals": [
     {
-      "id": "1c8869f0aa8af7f984aef69421be9473",
-      "title": "Gold Steadies as Dip Buyers Cushion Slump Driven by Fed Concerns",
-      "summary": "Gold steadied as dip buyers brought some relief to a slump driven by concerns with stubborn US inflation and the AI selloff.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-16/gold-steadies-near-14-month-low-as-inflation-pressure-persists",
-      "source": "Bloomberg",
-      "score": 32,
-      "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "id": "e2057f2e3a98873d0958a1eb504da218",
+      "title": "'Big Short' investor Steve Eisman to discuss Nvidia, Anthropic and AI bull on CNBC",
+      "summary": "Steve Eisman is appearing on \"Squawk Box\" on Tuesday.",
+      "link": "https://www.cnbc.com/2026/11/17/big-short-investor-steve-eisman-to-discuss-nvidia-anthropic-and-ai-bull-on-cnbc.html",
+      "source": "CNBC",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "AI",
       "tickers": [
-        "XAU"
+        "NVDA"
       ],
       "regions": [],
       "assets": [
-        "AI",
-        "COMMODITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-17T13:05:27.709946Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-17T13:13:24.588835Z"
     },
     {
-      "id": "115ee685eb8ad285909edf6bd27f98ca",
-      "title": "December interest rate rise \u2018difficult to avoid\u2019 after employment jump",
-      "summary": "<p> <img alt=\"The Bank of England is expected to raise rates again (John Walton/PA Wire)\" src=\"https://www.cityam.com/wp-content/uploads/2026/09/01KV2FHDD2DDMAP3CXNRJTGZGQ-1-e1789636729655.jpg?w=1200\" /> </p>A second consecutive interest rate rise will be &#8220;difficult to avoid&#8221; in December, economists have said, after official jobs market data revealed a jump in employment and persistent upward pressure on wages. The Office for National Statistics found unemployment fell to 4.6 per cent in the three months to September, taking the proportion of Brits <a href=\"https://www.cityam.com/interest-rate-hike-difficult-do-avoid/\">[...]</a>",
-      "link": "https://www.cityam.com/interest-rate-hike-difficult-do-avoid/",
-      "source": "CityAM",
-      "score": 23,
+      "id": "5b7f470eb87a45e3e82414daf1c54965",
+      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "summary": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-17T13:13:24.760106Z"
+    },
+    {
+      "id": "b74036ca716c9d2af1feeb8c6f568847",
+      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+      "summary": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-17T13:13:24.791186Z"
+    },
+    {
+      "id": "b8f50d69c4a63f006ef65e7dda5f8a0e",
+      "title": "Aschenbrenner\u2019s Situational Awareness made AI bets again before October rout - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQbDF4NjMtSmtZNmxYUmVvZXRoMEIyU2VnZlVBcFByN1ZNY29KeEtkd3BDNl95VUstczItTTBfbi01eDk2S0VXV3MxSWM2SlVnMFpGMC12ZzlyRGUwNWZtVVRZM3lFSHZmQ2RJdUR4YV9kSElka0VDbnZ6eFJfZGZlY3pZWHRKTWJHazBnaNIBkgFBVV95cUxNRXVHTnM5dW4xWlpHUEZBMU5ySDVwbjE3cW1pLTRrcGtnVzNOendMcjgwdFhvN1pkQU40RGFYVk9wVzdSR2dZQWFZR3g3U2hhYUlnQ3dadWxiU2RDcnpqMUd6MG5NNkhjQmw4VVFSSnM4ZmI3QWgyTHRTX2lMR1R0YkhoSkZhaWx5Q3ZUSEdQNnk1dw?oc=5\" target=\"_blank\">Aschenbrenner\u2019s Situational Awareness made AI bets again before October rout</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbDF4NjMtSmtZNmxYUmVvZXRoMEIyU2VnZlVBcFByN1ZNY29KeEtkd3BDNl95VUstczItTTBfbi01eDk2S0VXV3MxSWM2SlVnMFpGMC12ZzlyRGUwNWZtVVRZM3lFSHZmQ2RJdUR4YV9kSElka0VDbnZ6eFJfZGZlY3pZWHRKTWJHazBnaNIBkgFBVV95cUxNRXVHTnM5dW4xWlpHUEZBMU5ySDVwbjE3cW1pLTRrcGtnVzNOendMcjgwdFhvN1pkQU40RGFYVk9wVzdSR2dZQWFZR3g3U2hhYUlnQ3dadWxiU2RDcnpqMUd6MG5NNkhjQmw4VVFSSnM4ZmI3QWgyTHRTX2lMR1R0YkhoSkZhaWx5Q3ZUSEdQNnk1dw?oc=5",
+      "source": "Google Macro",
+      "score": 15,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -72,50 +118,48 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-17T13:06:17.552058Z"
+      "published": "2026-11-17T13:14:15.629337Z"
     },
     {
-      "id": "167c3e3acaa0fe5ec5b91bed0d13827e",
-      "title": "Hungary Holds Key Interest Rate as Global Risks Support Caution",
-      "summary": "Hungary left its key interest rate steady for a third month as central bankers assess an uptick in inflation against the backdrop of higher borrowing costs across the world.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-17/hungary-holds-key-interest-rate-as-global-risks-support-caution",
-      "source": "Bloomberg",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
+      "id": "1a53d499ef58f34299f1e75acad43ec8",
+      "title": "Investors look to Nvidia's earnings and Anthropic's IPO to refresh the tech rally",
+      "summary": "How the market set-up is more favorable for the Anthropic IPO than the lead-up to SpaceX's debut.",
+      "link": "https://www.cnbc.com/2026/11/17/nvidia-earnings-anthropic-ipo-tech-rally.html",
+      "source": "CNBC",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
       ],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-17T13:05:27.709897Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-17T13:13:24.588868Z"
     },
     {
-      "id": "6be40ef222f7045fdd0184db97797e47",
-      "title": "Japan proposes \u2018Asian IEA\u2019 to manage oil stockpiles",
-      "summary": "Tokyo hopes joint reserves would insulate import-dependent region against future energy shocks",
-      "link": "https://www.ft.com/content/208b3dff-5d7a-4250-989a-821fb70fb896?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 20,
-      "severity": "HIGH",
+      "id": "a0cc7c2d6703308d39fe71b7a18049e4",
+      "title": "Why Iraq Just Fast-Tracked Chevron\u2019s Takeover Of A 14-Billion-Barrel Supergiant",
+      "summary": "U.S. supermajor Chevron has moved from open-ended negotiations under its previous USD200 million exclusivity window to finalising commercial terms for Iraq\u2019s supergiant West Qurna 2 oilfield. Whilst the American firm originally had until February 2027 to use its one-year exclusivity window, following a very recent meeting between Iraqi Oil Minister Basim Mohammed Khudair Al-Abadi and Chevron\u2019s vice president of business development Joe Cook, the two sides confirmed that contract terms for West Qurna 2 have now been agreed. As it stands,\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Why-Iraq-Just-Fast-Tracked-Chevrons-Takeover-Of-A-14-Billion-Barrel-Supergiant.html",
+      "source": "OilPrice",
+      "score": 13,
+      "severity": "MEDIUM",
       "regime": "COMMODITIES",
       "tickers": [
+        "DXY",
         "WTI"
       ],
       "regions": [
-        "JAPAN"
+        "US"
       ],
       "assets": [
         "AI",
@@ -133,19 +177,19 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-17T13:05:30.414037Z"
+      "published": "2026-11-17T13:14:11.800295Z"
     },
     {
-      "id": "9a89da12978577071978dbc6582c76f0",
-      "title": "Making the US dollar great again",
-      "summary": "On recent USD strength",
-      "link": "https://www.ft.com/content/2c8ebea3-f202-44b6-8319-e7a466c51981?syn-25a6b1a6=1",
-      "source": "Financial Times",
+      "id": "96b83f6024c9821e20d5c1767cde1423",
+      "title": "The Debate: Should Nvidia take back Jensen Huang?",
+      "summary": "<p> <img alt=\"A campaign to reinstate Nvidia CEO Jensen Huang has garnered significant support\" src=\"https://www.cityam.com/wp-content/uploads/2026/11/Jensen-Huang-Nvidia-2026-e1794921040713.jpg?w=1200\" /> </p>Silicon Valley are backing the return of Jensen Huang, but should Nvidia really take back the rogue CEO? We hear the case for and against.",
+      "link": "https://www.cityam.com/the-debate-should-nvidia-take-back-jensen-huang/",
+      "source": "CityAM",
       "score": 12,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [
-        "DXY"
+        "NVDA"
       ],
       "regions": [],
       "assets": [
@@ -160,22 +204,22 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-17T13:05:30.414072Z"
+      "published": "2026-11-17T13:14:08.769340Z"
     },
     {
-      "id": "fe70a0fbf9ef83e92a93bf4cefa36cba",
-      "title": "Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps",
-      "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/11/17/ethereum-s-glamsterdam-upgrade-risks-breaking-up-to-15-000-contracts",
-      "source": "CoinDesk",
+      "id": "fb1c88acc31ca5fae94b16bacf802660",
+      "title": "Stablecoin infrastructure firm Avenia raises $25 million in Series A extension",
+      "summary": "Lightspeed Faction led the equity round, bringing Avenia's total funding to $44.6 million as it plans new products and acquisitions.",
+      "link": "https://www.theblock.co/news/deals/2026-11-17-avenia-funding-stablecoin-crypto-infrastructure-442119",
+      "source": "The Block",
       "score": 11,
       "severity": "MEDIUM",
       "regime": "CRYPTO",
-      "tickers": [
-        "ETH"
-      ],
+      "tickers": [],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "BTC",
@@ -186,15 +230,15 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-17T13:06:24.082764Z"
+      "published": "2026-11-17T13:14:12.963252Z"
     },
     {
-      "id": "e7f8dd3d6544c084052ae45fdcede712",
-      "title": "Disney Profit Beats With Marvel Films Powering Streaming",
-      "summary": "Walt Disney Co. reported sales and earnings that exceeded analysts\u2019 expectations, with a particularly strong result in its streaming TV unit.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-17/disney-profit-beats-with-marvel-films-powering-streaming",
-      "source": "Bloomberg",
-      "score": 9,
+      "id": "03e6005ac7df7d702db5b2304db321aa",
+      "title": "Jefferson, New Technology, Old Questions: Productivity Puzzles  and the Macroeconomy",
+      "summary": "Speech At the University of California, San Diego Economic Roundtable, San Diego, California",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
       "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
@@ -202,84 +246,49 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-17T13:05:27.710007Z"
+      "published": "2026-11-17T13:13:24.819406Z"
     },
     {
-      "id": "e02686062cc894b5bea302dec41cf40c",
-      "title": "Private Equity Finds a Year-End Window to Take Cash Out of Firms",
-      "summary": "Private equity\u2019s buyout machine may be idling as the year draws to a close, but sponsors are still finding ways to mint cash from the companies they own.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-17/private-equity-finds-a-year-end-window-to-take-cash-out-of-firms",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-17T13:05:27.710055Z"
-    },
-    {
-      "id": "8afc6d49d54979525f1b203e86d82258",
-      "title": "China\u2019s robot makers have more to offer than viral backflip videos - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOYnBNdW5UN3BOQ3FDdjVhdm5EbWFUaUFBWjdQSEhiYml2TWl1Uk01Yy1jdlVqbmF6WEdMejFvWWhEOXByZ09ic0hXLVFLMjdyQkxrQnBWclNPZHhwNFhaLW9EZGttcjEwRHQ2VjdBcGVVWHhXVjZzWVVoZHcxT0FaVS1sN2o?oc=5\" target=\"_blank\">China\u2019s robot makers have more to offer than viral backflip videos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYnBNdW5UN3BOQ3FDdjVhdm5EbWFUaUFBWjdQSEhiYml2TWl1Uk01Yy1jdlVqbmF6WEdMejFvWWhEOXByZ09ic0hXLVFLMjdyQkxrQnBWclNPZHhwNFhaLW9EZGttcjEwRHQ2VjdBcGVVWHhXVjZzWVVoZHcxT0FaVS1sN2o?oc=5",
+      "id": "c7dad02b8ab8d13bf11c3c8135a0f28a",
+      "title": "Euro Zone to Grow Robustly as It Shrugs Off Inflation, EU Says - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPTndkVXgwNDhmZzRXa1U3bWZMd243eU5GTEhfS0x3TmdMejktRklDeTMwb3JHZ0VLbGlBdFR6SVJ1Rmh3bkVJZEcySFBwWkxHRlpZclNFS0VZMV9XT0VDLWJrdk1xSUl5LVNrM0Y3bVloMmNReDI0V3dMLUh6Ri1WLXlQWjhfa0IzQUtRRTlwdmxoUHBVN1k4XzBRNU9NdEUzdXFBRTBIQUxySHRPeUpYajBn?oc=5\" target=\"_blank\">Euro Zone to Grow Robustly as It Shrugs Off Inflation, EU Says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTndkVXgwNDhmZzRXa1U3bWZMd243eU5GTEhfS0x3TmdMejktRklDeTMwb3JHZ0VLbGlBdFR6SVJ1Rmh3bkVJZEcySFBwWkxHRlpZclNFS0VZMV9XT0VDLWJrdk1xSUl5LVNrM0Y3bVloMmNReDI0V3dMLUh6Ri1WLXlQWjhfa0IzQUtRRTlwdmxoUHBVN1k4XzBRNU9NdEUzdXFBRTBIQUxySHRPeUpYajBn?oc=5",
       "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "CHINA",
-        "UK"
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [
+        "EUR"
       ],
-      "assets": [],
+      "regions": [],
+      "assets": [
+        "FX"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "COMMODITIES"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-17T13:06:26.853211Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-11-17T13:14:13.683688Z"
     },
     {
-      "id": "dca88979569a2e42f3113d262a08691a",
-      "title": "Decentralized exchange Grvt looks to makes commodity trading more predictable with stable funding perps",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/11/17/decentralized-exchange-grvt-makes-commodity-trading-more-predictable-with-stable-funding-perps",
-      "source": "CoinDesk",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-17T13:06:24.082811Z"
-    },
-    {
-      "id": "031bdff1b7b05de5ea9c551d84988473",
-      "title": "Baltic Dry Index falls to 2893 down 28 points",
-      "summary": "Today, Tuesday, November 17 2026, the Baltic Dry Index decreased by 28 points, reaching 2893 points. Baltic Dry Index is compiled by the London-based Baltic Exchange and covers prices for transported cargo such as coal, grain and iron ore. The index is based on a daily survey of agents all over the world. Baltic Dry ...",
-      "link": "https://www.hellenicshippingnews.com/baltic-dry-index-falls-to-2893-down-28-points/",
-      "source": "Hellenic Shipping",
+      "id": "6b8fc9d59ad730dc9402f1c7f1cfbad8",
+      "title": "Interferry2026: Global Ferry Leaders Convened in Bangkok for 50th Annual Conference",
+      "summary": "The global ferry industry convened on the banks of the Chao Phraya River in Bangkok, Thailand, for the 50th annual Interferry conference. Half a century after its founding, the trade association brought together executives from major ferry groups\u2026",
+      "link": "https://www.marinelink.com/news/interferry-global-ferry-leaders-convened-544413",
+      "source": "MarineLink",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
       "tickers": [],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -292,70 +301,100 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-17T13:06:22.243762Z"
-    },
-    {
-      "id": "07ae65692fcb7886cdae98a045d070dd",
-      "title": "Robert Pattinson as James Bond is bad for Hollywood",
-      "summary": "<p> <img alt=\"Robert Pattinson will be a great James Bond \u2013 but it&#039;s bad news for Hollywood\" src=\"https://www.cityam.com/wp-content/uploads/2026/11/Robert-Pattinson-James-Bond.jpeg?w=1200\" /> </p>Robert Pattinson will be a great Bond \u2013 but his casting is bad news for Hollywood and its diminishing reputation for turning out new leading men In new stills released today it has been announced that Twilight and Batman actor Robert Pattinson will be the seventh actor to officially drink freezing cold vodka and a <a href=\"https://www.cityam.com/robert-pattinson-as-james-bond-is-bad-for-hollywood/\">[...]</a>",
-      "link": "https://www.cityam.com/robert-pattinson-as-james-bond-is-bad-for-hollywood/",
-      "source": "CityAM",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-17T13:06:17.551942Z"
+      "published": "2026-11-17T13:14:12.284871Z"
     }
   ],
   "alerts": [
     {
-      "id": "1c8869f0aa8af7f984aef69421be9473",
-      "title": "Gold Steadies as Dip Buyers Cushion Slump Driven by Fed Concerns",
-      "summary": "Gold steadied as dip buyers brought some relief to a slump driven by concerns with stubborn US inflation and the AI selloff.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-16/gold-steadies-near-14-month-low-as-inflation-pressure-persists",
-      "source": "Bloomberg",
-      "score": 32,
-      "severity": "CRITICAL",
-      "regime": "INFLATION",
+      "id": "e2057f2e3a98873d0958a1eb504da218",
+      "title": "'Big Short' investor Steve Eisman to discuss Nvidia, Anthropic and AI bull on CNBC",
+      "summary": "Steve Eisman is appearing on \"Squawk Box\" on Tuesday.",
+      "link": "https://www.cnbc.com/2026/11/17/big-short-investor-steve-eisman-to-discuss-nvidia-anthropic-and-ai-bull-on-cnbc.html",
+      "source": "CNBC",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "AI",
       "tickers": [
-        "XAU"
+        "NVDA"
       ],
       "regions": [],
       "assets": [
-        "AI",
-        "COMMODITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-17T13:05:27.709946Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-17T13:13:24.588835Z"
     },
     {
-      "id": "115ee685eb8ad285909edf6bd27f98ca",
-      "title": "December interest rate rise \u2018difficult to avoid\u2019 after employment jump",
-      "summary": "<p> <img alt=\"The Bank of England is expected to raise rates again (John Walton/PA Wire)\" src=\"https://www.cityam.com/wp-content/uploads/2026/09/01KV2FHDD2DDMAP3CXNRJTGZGQ-1-e1789636729655.jpg?w=1200\" /> </p>A second consecutive interest rate rise will be &#8220;difficult to avoid&#8221; in December, economists have said, after official jobs market data revealed a jump in employment and persistent upward pressure on wages. The Office for National Statistics found unemployment fell to 4.6 per cent in the three months to September, taking the proportion of Brits <a href=\"https://www.cityam.com/interest-rate-hike-difficult-do-avoid/\">[...]</a>",
-      "link": "https://www.cityam.com/interest-rate-hike-difficult-do-avoid/",
-      "source": "CityAM",
-      "score": 23,
+      "id": "5b7f470eb87a45e3e82414daf1c54965",
+      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "summary": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-17T13:13:24.760106Z"
+    },
+    {
+      "id": "b74036ca716c9d2af1feeb8c6f568847",
+      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+      "summary": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-17T13:13:24.791186Z"
+    },
+    {
+      "id": "b8f50d69c4a63f006ef65e7dda5f8a0e",
+      "title": "Aschenbrenner\u2019s Situational Awareness made AI bets again before October rout - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQbDF4NjMtSmtZNmxYUmVvZXRoMEIyU2VnZlVBcFByN1ZNY29KeEtkd3BDNl95VUstczItTTBfbi01eDk2S0VXV3MxSWM2SlVnMFpGMC12ZzlyRGUwNWZtVVRZM3lFSHZmQ2RJdUR4YV9kSElka0VDbnZ6eFJfZGZlY3pZWHRKTWJHazBnaNIBkgFBVV95cUxNRXVHTnM5dW4xWlpHUEZBMU5ySDVwbjE3cW1pLTRrcGtnVzNOendMcjgwdFhvN1pkQU40RGFYVk9wVzdSR2dZQWFZR3g3U2hhYUlnQ3dadWxiU2RDcnpqMUd6MG5NNkhjQmw4VVFSSnM4ZmI3QWgyTHRTX2lMR1R0YkhoSkZhaWx5Q3ZUSEdQNnk1dw?oc=5\" target=\"_blank\">Aschenbrenner\u2019s Situational Awareness made AI bets again before October rout</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbDF4NjMtSmtZNmxYUmVvZXRoMEIyU2VnZlVBcFByN1ZNY29KeEtkd3BDNl95VUstczItTTBfbi01eDk2S0VXV3MxSWM2SlVnMFpGMC12ZzlyRGUwNWZtVVRZM3lFSHZmQ2RJdUR4YV9kSElka0VDbnZ6eFJfZGZlY3pZWHRKTWJHazBnaNIBkgFBVV95cUxNRXVHTnM5dW4xWlpHUEZBMU5ySDVwbjE3cW1pLTRrcGtnVzNOendMcjgwdFhvN1pkQU40RGFYVk9wVzdSR2dZQWFZR3g3U2hhYUlnQ3dadWxiU2RDcnpqMUd6MG5NNkhjQmw4VVFSSnM4ZmI3QWgyTHRTX2lMR1R0YkhoSkZhaWx5Q3ZUSEdQNnk1dw?oc=5",
+      "source": "Google Macro",
+      "score": 15,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -373,50 +412,48 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-17T13:06:17.552058Z"
+      "published": "2026-11-17T13:14:15.629337Z"
     },
     {
-      "id": "167c3e3acaa0fe5ec5b91bed0d13827e",
-      "title": "Hungary Holds Key Interest Rate as Global Risks Support Caution",
-      "summary": "Hungary left its key interest rate steady for a third month as central bankers assess an uptick in inflation against the backdrop of higher borrowing costs across the world.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-17/hungary-holds-key-interest-rate-as-global-risks-support-caution",
-      "source": "Bloomberg",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
+      "id": "1a53d499ef58f34299f1e75acad43ec8",
+      "title": "Investors look to Nvidia's earnings and Anthropic's IPO to refresh the tech rally",
+      "summary": "How the market set-up is more favorable for the Anthropic IPO than the lead-up to SpaceX's debut.",
+      "link": "https://www.cnbc.com/2026/11/17/nvidia-earnings-anthropic-ipo-tech-rally.html",
+      "source": "CNBC",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
       ],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-17T13:05:27.709897Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-17T13:13:24.588868Z"
     },
     {
-      "id": "6be40ef222f7045fdd0184db97797e47",
-      "title": "Japan proposes \u2018Asian IEA\u2019 to manage oil stockpiles",
-      "summary": "Tokyo hopes joint reserves would insulate import-dependent region against future energy shocks",
-      "link": "https://www.ft.com/content/208b3dff-5d7a-4250-989a-821fb70fb896?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 20,
-      "severity": "HIGH",
+      "id": "a0cc7c2d6703308d39fe71b7a18049e4",
+      "title": "Why Iraq Just Fast-Tracked Chevron\u2019s Takeover Of A 14-Billion-Barrel Supergiant",
+      "summary": "U.S. supermajor Chevron has moved from open-ended negotiations under its previous USD200 million exclusivity window to finalising commercial terms for Iraq\u2019s supergiant West Qurna 2 oilfield. Whilst the American firm originally had until February 2027 to use its one-year exclusivity window, following a very recent meeting between Iraqi Oil Minister Basim Mohammed Khudair Al-Abadi and Chevron\u2019s vice president of business development Joe Cook, the two sides confirmed that contract terms for West Qurna 2 have now been agreed. As it stands,\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Why-Iraq-Just-Fast-Tracked-Chevrons-Takeover-Of-A-14-Billion-Barrel-Supergiant.html",
+      "source": "OilPrice",
+      "score": 13,
+      "severity": "MEDIUM",
       "regime": "COMMODITIES",
       "tickers": [
+        "DXY",
         "WTI"
       ],
       "regions": [
-        "JAPAN"
+        "US"
       ],
       "assets": [
         "AI",
@@ -434,19 +471,19 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-17T13:05:30.414037Z"
+      "published": "2026-11-17T13:14:11.800295Z"
     },
     {
-      "id": "9a89da12978577071978dbc6582c76f0",
-      "title": "Making the US dollar great again",
-      "summary": "On recent USD strength",
-      "link": "https://www.ft.com/content/2c8ebea3-f202-44b6-8319-e7a466c51981?syn-25a6b1a6=1",
-      "source": "Financial Times",
+      "id": "96b83f6024c9821e20d5c1767cde1423",
+      "title": "The Debate: Should Nvidia take back Jensen Huang?",
+      "summary": "<p> <img alt=\"A campaign to reinstate Nvidia CEO Jensen Huang has garnered significant support\" src=\"https://www.cityam.com/wp-content/uploads/2026/11/Jensen-Huang-Nvidia-2026-e1794921040713.jpg?w=1200\" /> </p>Silicon Valley are backing the return of Jensen Huang, but should Nvidia really take back the rogue CEO? We hear the case for and against.",
+      "link": "https://www.cityam.com/the-debate-should-nvidia-take-back-jensen-huang/",
+      "source": "CityAM",
       "score": 12,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [
-        "DXY"
+        "NVDA"
       ],
       "regions": [],
       "assets": [
@@ -461,22 +498,22 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-17T13:05:30.414072Z"
+      "published": "2026-11-17T13:14:08.769340Z"
     },
     {
-      "id": "fe70a0fbf9ef83e92a93bf4cefa36cba",
-      "title": "Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps",
-      "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/11/17/ethereum-s-glamsterdam-upgrade-risks-breaking-up-to-15-000-contracts",
-      "source": "CoinDesk",
+      "id": "fb1c88acc31ca5fae94b16bacf802660",
+      "title": "Stablecoin infrastructure firm Avenia raises $25 million in Series A extension",
+      "summary": "Lightspeed Faction led the equity round, bringing Avenia's total funding to $44.6 million as it plans new products and acquisitions.",
+      "link": "https://www.theblock.co/news/deals/2026-11-17-avenia-funding-stablecoin-crypto-infrastructure-442119",
+      "source": "The Block",
       "score": 11,
       "severity": "MEDIUM",
       "regime": "CRYPTO",
-      "tickers": [
-        "ETH"
-      ],
+      "tickers": [],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "BTC",
@@ -487,15 +524,15 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-17T13:06:24.082764Z"
+      "published": "2026-11-17T13:14:12.963252Z"
     },
     {
-      "id": "e7f8dd3d6544c084052ae45fdcede712",
-      "title": "Disney Profit Beats With Marvel Films Powering Streaming",
-      "summary": "Walt Disney Co. reported sales and earnings that exceeded analysts\u2019 expectations, with a particularly strong result in its streaming TV unit.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-17/disney-profit-beats-with-marvel-films-powering-streaming",
-      "source": "Bloomberg",
-      "score": 9,
+      "id": "03e6005ac7df7d702db5b2304db321aa",
+      "title": "Jefferson, New Technology, Old Questions: Productivity Puzzles  and the Macroeconomy",
+      "summary": "Speech At the University of California, San Diego Economic Roundtable, San Diego, California",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
       "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
@@ -503,84 +540,49 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-17T13:05:27.710007Z"
+      "published": "2026-11-17T13:13:24.819406Z"
     },
     {
-      "id": "e02686062cc894b5bea302dec41cf40c",
-      "title": "Private Equity Finds a Year-End Window to Take Cash Out of Firms",
-      "summary": "Private equity\u2019s buyout machine may be idling as the year draws to a close, but sponsors are still finding ways to mint cash from the companies they own.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-17/private-equity-finds-a-year-end-window-to-take-cash-out-of-firms",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-17T13:05:27.710055Z"
-    },
-    {
-      "id": "8afc6d49d54979525f1b203e86d82258",
-      "title": "China\u2019s robot makers have more to offer than viral backflip videos - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOYnBNdW5UN3BOQ3FDdjVhdm5EbWFUaUFBWjdQSEhiYml2TWl1Uk01Yy1jdlVqbmF6WEdMejFvWWhEOXByZ09ic0hXLVFLMjdyQkxrQnBWclNPZHhwNFhaLW9EZGttcjEwRHQ2VjdBcGVVWHhXVjZzWVVoZHcxT0FaVS1sN2o?oc=5\" target=\"_blank\">China\u2019s robot makers have more to offer than viral backflip videos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYnBNdW5UN3BOQ3FDdjVhdm5EbWFUaUFBWjdQSEhiYml2TWl1Uk01Yy1jdlVqbmF6WEdMejFvWWhEOXByZ09ic0hXLVFLMjdyQkxrQnBWclNPZHhwNFhaLW9EZGttcjEwRHQ2VjdBcGVVWHhXVjZzWVVoZHcxT0FaVS1sN2o?oc=5",
+      "id": "c7dad02b8ab8d13bf11c3c8135a0f28a",
+      "title": "Euro Zone to Grow Robustly as It Shrugs Off Inflation, EU Says - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPTndkVXgwNDhmZzRXa1U3bWZMd243eU5GTEhfS0x3TmdMejktRklDeTMwb3JHZ0VLbGlBdFR6SVJ1Rmh3bkVJZEcySFBwWkxHRlpZclNFS0VZMV9XT0VDLWJrdk1xSUl5LVNrM0Y3bVloMmNReDI0V3dMLUh6Ri1WLXlQWjhfa0IzQUtRRTlwdmxoUHBVN1k4XzBRNU9NdEUzdXFBRTBIQUxySHRPeUpYajBn?oc=5\" target=\"_blank\">Euro Zone to Grow Robustly as It Shrugs Off Inflation, EU Says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTndkVXgwNDhmZzRXa1U3bWZMd243eU5GTEhfS0x3TmdMejktRklDeTMwb3JHZ0VLbGlBdFR6SVJ1Rmh3bkVJZEcySFBwWkxHRlpZclNFS0VZMV9XT0VDLWJrdk1xSUl5LVNrM0Y3bVloMmNReDI0V3dMLUh6Ri1WLXlQWjhfa0IzQUtRRTlwdmxoUHBVN1k4XzBRNU9NdEUzdXFBRTBIQUxySHRPeUpYajBn?oc=5",
       "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "CHINA",
-        "UK"
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [
+        "EUR"
       ],
-      "assets": [],
+      "regions": [],
+      "assets": [
+        "FX"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "COMMODITIES"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-17T13:06:26.853211Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-11-17T13:14:13.683688Z"
     },
     {
-      "id": "dca88979569a2e42f3113d262a08691a",
-      "title": "Decentralized exchange Grvt looks to makes commodity trading more predictable with stable funding perps",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/11/17/decentralized-exchange-grvt-makes-commodity-trading-more-predictable-with-stable-funding-perps",
-      "source": "CoinDesk",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-17T13:06:24.082811Z"
-    },
-    {
-      "id": "031bdff1b7b05de5ea9c551d84988473",
-      "title": "Baltic Dry Index falls to 2893 down 28 points",
-      "summary": "Today, Tuesday, November 17 2026, the Baltic Dry Index decreased by 28 points, reaching 2893 points. Baltic Dry Index is compiled by the London-based Baltic Exchange and covers prices for transported cargo such as coal, grain and iron ore. The index is based on a daily survey of agents all over the world. Baltic Dry ...",
-      "link": "https://www.hellenicshippingnews.com/baltic-dry-index-falls-to-2893-down-28-points/",
-      "source": "Hellenic Shipping",
+      "id": "6b8fc9d59ad730dc9402f1c7f1cfbad8",
+      "title": "Interferry2026: Global Ferry Leaders Convened in Bangkok for 50th Annual Conference",
+      "summary": "The global ferry industry convened on the banks of the Chao Phraya River in Bangkok, Thailand, for the 50th annual Interferry conference. Half a century after its founding, the trade association brought together executives from major ferry groups\u2026",
+      "link": "https://www.marinelink.com/news/interferry-global-ferry-leaders-convened-544413",
+      "source": "MarineLink",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
       "tickers": [],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -593,39 +595,7 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-17T13:06:22.243762Z"
-    },
-    {
-      "id": "07ae65692fcb7886cdae98a045d070dd",
-      "title": "Robert Pattinson as James Bond is bad for Hollywood",
-      "summary": "<p> <img alt=\"Robert Pattinson will be a great James Bond \u2013 but it&#039;s bad news for Hollywood\" src=\"https://www.cityam.com/wp-content/uploads/2026/11/Robert-Pattinson-James-Bond.jpeg?w=1200\" /> </p>Robert Pattinson will be a great Bond \u2013 but his casting is bad news for Hollywood and its diminishing reputation for turning out new leading men In new stills released today it has been announced that Twilight and Batman actor Robert Pattinson will be the seventh actor to officially drink freezing cold vodka and a <a href=\"https://www.cityam.com/robert-pattinson-as-james-bond-is-bad-for-hollywood/\">[...]</a>",
-      "link": "https://www.cityam.com/robert-pattinson-as-james-bond-is-bad-for-hollywood/",
-      "source": "CityAM",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-17T13:06:17.551942Z"
-    },
-    {
-      "id": "4218fe0faa563c13dd92d916dee7c5c5",
-      "title": "Grvt launches RWA perpetuals with funding tied to traditional markets",
-      "summary": "Grvt\u2019s Stable Funding Perps debut across seven commodity markets, with funding rates linked to market makers\u2019 financing costs.",
-      "link": "https://www.theblock.co/news/ecosystems/2026-11-17-grvt-launches-rwa-perpetuals-with-funding-tied-to-traditional-markets-442089",
-      "source": "The Block",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-17T13:06:24.303089Z"
+      "published": "2026-11-17T13:14:12.284871Z"
     }
   ]
 }
