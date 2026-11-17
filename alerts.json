@@ -1,115 +1,212 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-17T23:36:01.231664Z",
+  "generated_at": "2026-11-17T23:44:31.854816Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 1,
-    "high_alerts": 4,
-    "last_updated": "2026-11-17T23:36:01.231681Z"
+    "critical_alerts": 3,
+    "high_alerts": 1,
+    "last_updated": "2026-11-17T23:44:31.854825Z"
   },
   "top_signals": [
     {
-      "id": "de6b895187c66758f26885cb48338a9c",
-      "title": "Latest Oil Market News and Analysis for Nov. 18",
-      "summary": "Oil steadied as traders assessed renewed fighting in the Middle East against signs of recovering supplies and higher US inventories.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-17/latest-oil-market-news-and-analysis-for-nov-18",
+      "id": "1f3e284d4b6ec2c9afba6e14a56d990d",
+      "title": "Gold Steadies Near 14-Month Low as Rate-Hike Pressure Mounts",
+      "summary": "Gold was steady near a 14-month low, after Federal Reserve officials argued the case for more rate hikes to tackle stubborn inflation.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-17/gold-steadies-near-14-month-low-as-rate-hike-pressure-mounts",
       "source": "Bloomberg",
-      "score": 35,
+      "score": 36,
       "severity": "CRITICAL",
-      "regime": "COMMODITIES",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "XAU"
       ],
       "regions": [],
       "assets": [
-        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-17T23:35:03.295420Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-17T23:43:33.674968Z"
     },
     {
-      "id": "0b0e758962f0f05b345e5031a7c6af20",
-      "title": "Russian Crude Exports Hit Four-Month High",
-      "summary": "Russia loaded more than 30 million barrels of crude onto tankers last week as Ukrainian drone strikes forced more oil away from domestic refineries and into export markets. The 39 tankers that loaded Russian crude in the week ending November 15 carried 30.27 million barrels, up from 23.6 million barrels on 31 ships the previous week, according to Bloomberg's vessel-tracking data. Weekly exports jumped by 950,000 barrels per day (bpd) to 4.32 million bpd, the highest since June. On a four-week average, shipments reached 3.9 million bpd, their highest\u2026",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Crude-Exports-Hit-Four-Month-High.html",
-      "source": "OilPrice",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "id": "5898aaca923fca76b3c51bec1bb8972f",
+      "title": "Trump\u2019s sudden Ukraine push leaves Europe walking a tightrope",
+      "summary": "U.S. envoys are pressing Russian and Ukrainian officials to consider new proposals on NATO rules, military assets and troop placements across Europe.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/18/world/politics/trump-ukraine-push-europe/",
+      "source": "Japan Times",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "WTI"
+        "EUR"
       ],
       "regions": [
+        "EUROPE",
         "RUSSIA",
-        "UK"
+        "UK",
+        "UKRAINE"
       ],
       "assets": [
         "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T23:44:23.144570Z"
+    },
+    {
+      "id": "6a06015046f333f8b0c1a752d7b96708",
+      "title": "Fed\u2019s Waller cites Binance hack in warning over tokenized finance",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Fed\u2019s Waller cites Binance hack in warning over tokenized finance\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7N66YD4VEG6WKSNQ9ZJSDDF/hi-impact-of-fed-interest-rates-on-crypto-holders-stablecoin-2.png\" /></p><p>Fed Governor Christopher Waller questioned who bears responsibility for fraud, compromised keys and failed transactions as traditional financial assets move onto blockchains.</p>",
+      "link": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 32,
+      "severity": "CRITICAL",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-17T23:44:28.257202Z"
+    },
+    {
+      "id": "afc9bc4aa0111df2fcf49fb1a00b7490",
+      "title": "Druckenmiller says he is short copper, warns of economic weakness in 2027",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/11/17/druckenmiller-says-he-is-short-copper-warns-of-economic-weakness-in-2027",
+      "source": "CoinDesk",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "COPPER"
+      ],
+      "regions": [],
+      "assets": [
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-17T23:35:56.120576Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T23:44:28.126633Z"
     },
     {
-      "id": "c5dd48f8f7eebf012442d3dc31222a96",
-      "title": "New pact positions the Philippines as a defense hub for Australian troops",
-      "summary": "Top officials from Australia and the Philippines have inked a defense pact to accelerate military coordination, paving the way for rotational troop deployment and Australian investments in Philippine military infrastructure.",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/17/new-pact-positions-the-philippines-as-a-defense-hub-for-australian-troops/",
-      "source": "Defense News",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
+      "id": "545b860ca2538371c028c34000a2fb8a",
+      "title": "Five further Critical Third Parties designated",
+      "summary": "HM Treasury has designated five further third-party suppliers as Critical Third Parties.",
+      "link": "https://www.gov.uk/government/news/five-further-critical-third-parties-designated",
+      "source": "HM Treasury",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-17T23:44:20.979841Z"
+    },
+    {
+      "id": "e410704895a701d580338cb2a0e90404",
+      "title": "Odds improve on Trump-Kim meeting on APEC sidelines, analysts say",
+      "summary": "Views are shifting after the Kremlin said a meeting between Kim and Russian President Vladimir Putin was possible.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/17/asia-pacific/politics/trump-kim-meeting-odds-rise/",
+      "source": "Japan Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-17T23:35:57.096994Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T23:44:23.144643Z"
     },
     {
-      "id": "1a64e9e22330f98dca8dd9f7a864ad2c",
-      "title": "Nvidia's Kress faces earnings test after stock drags Wall Street into the red",
-      "summary": "Futures hold the flatline as investors await key results from Nvidia and Disney",
-      "link": "https://www.cnbc.com/2026/11/17/nvidias-kress-faces-earnings-test-after-stock-drags-wall-street-into-the-red.html",
-      "source": "CNBC",
-      "score": 17,
-      "severity": "HIGH",
+      "id": "4878da33ab227a747a8e4c3a8c7aaf6e",
+      "title": "Everyone is Trading Tokenized Nvidia Derivatives",
+      "summary": "NVDA Speculatooors onchain On the off chance you haven\u2019t heard, Nvidia CEO and co-founder Jensen Huang resigned from his post after admitting he was unfaithful to his wife. Needless to say, markets have reacted violently. Onchain perpetuals traded $8.7 billion on Nov. 12, the day Jensen Huang resigned as CEO, roughly 20x the daily average [\u2026]",
+      "link": "https://www.theblock.co/newsletters/data-and-insights/2026-11-17-everyone-is-trading-tokenized-nvidia-derivatives-442818",
+      "source": "The Block",
+      "score": 12,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [
         "NVDA"
@@ -127,68 +224,13 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-17T23:35:06.768282Z"
+      "published": "2026-11-17T23:44:28.387701Z"
     },
     {
-      "id": "f294c1f858578a4448991369f582510f",
-      "title": "Israeli opposition succeeds in electing a new parliamentary Speaker",
-      "summary": "Appointment of Matan Kahana is a setback for Benjamin Netanyahu\u2019s far-right coalition",
-      "link": "https://www.ft.com/content/71ee2ad4-cc7d-4618-9df8-e58aa3c79b81?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-17T23:35:06.013681Z"
-    },
-    {
-      "id": "6073f8f68782d5ce5f3c8d7a6ca35f27",
-      "title": "Fidelity Says Even at 6% Treasuries Fail to Be \u2018Massively Cheap\u2019",
-      "summary": "The recent selloff in Treasuries has sparked debate about buying opportunities, but Fidelity International\u2019s Salman Ahmed reckons that even a 6% yield wouldn\u2019t make the 10-year note \u201cmassively cheap.\u201d",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-17/fidelity-says-even-at-6-treasuries-fail-to-be-massively-cheap",
-      "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-17T23:35:03.295489Z"
-    },
-    {
-      "id": "83685c452582109ab42b620134004b81",
-      "title": "Trump\u2019s CFTC picks face Senate scrutiny as prediction market turf war heats up",
-      "summary": "President Donald Trump\u2019s nominees to the CFTC revealed how they view the hotly contested issue of how to regulate sports betting.",
-      "link": "https://www.theblock.co/news/regulation/2026-11-17-trumps-cftc-picks-face-senate-scrutiny-as-prediction-market-turf-war-heats-up-442909",
+      "id": "e6cec58c3e81a7a4ef8b07e767115bdb",
+      "title": "Fomo pays creators $30 million, sharing \u2018lion\u2019s share\u2019 of revenue, Se Yong Park says",
+      "summary": "Fomo rewards traders who hold the assets they discuss and share the reasoning behind their investments.",
+      "link": "https://www.theblock.co/news/business/2026-11-17-fomo-pays-creators-30-million-sharing-lions-share-revenue-park-says-442332",
       "source": "The Block",
       "score": 11,
       "severity": "MEDIUM",
@@ -210,13 +252,13 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-17T23:35:58.528204Z"
+      "published": "2026-11-17T23:44:28.387640Z"
     },
     {
-      "id": "45436a60171b857420be68470f5efdcd",
-      "title": "JPMorgan is working on AI agent transactions that don\u2019t involve humans",
-      "summary": "JPMorgan and Hyundai Card are looking to expand the use of AI agents in financial transactions.",
-      "link": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html",
+      "id": "4a4e8324993e5803fc6c48bc0254c402",
+      "title": "South Korea will suspend all aircraft operation for 35 minutes and markets will open late. Here\u2019s why",
+      "summary": "South Korea will suspend aircraft takeoffs and landings nationwide for 35 minutes on Thursday to minimize noise during a college entrance exam.",
+      "link": "https://www.cnbc.com/2026/11/17/south-korea-suspend-aircraft-exam-markets.html",
       "source": "CNBC",
       "score": 10,
       "severity": "MEDIUM",
@@ -235,134 +277,224 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-17T23:35:06.913727Z"
+      "published": "2026-11-17T23:43:37.091813Z"
     },
     {
-      "id": "499ca6c7535befdd033739282a62f980",
-      "title": "California fines Hertz $1.5 million for breaking state data privacy law",
-      "summary": "Hertz agreed to the fine and said it would change its business practices, according to a court filing shared by the regulator, the California Privacy Protection Agency (CPPA).",
-      "link": "https://therecord.media/california-fines-hertz-state-data-privacy-law",
-      "source": "The Record",
-      "score": 5,
+      "id": "08343a304905062f9a5b8d97e0cad6ef",
+      "title": "Kalshi takes down controversial Trump 'mention' markets at CFTC's request - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQNzlabGl0UTl6T0hGcF8xMHQ5ZmRlaWpPUk1KV3AyeC1OZS1Bdm9MTC1XQk9aWHgwOWQtTTBqMjgxejhPU0JsOFZOMVVDQU0zMGxfZUNrWEprdGJHbkNscGhhOXl2U1UySVJucFBVNUZmVnRYNDZPcFR3N2hFWFZIWF930gGHAUFVX3lxTFBBbHA1dTZFeHJ5MFdOUVJQRWdzM0hEVU1rMjZMMzNFc2JSWWRmNEJlT1lHdC1iZmJKZEpYNjRQRzh1dDk1OGFRUExQZjUwNkM1ZUlVWnh5NFpnd09IWjdTSXdrdjZKdmZ2WmdtZW9SN2xaekRlTDJRel94U1BkWEx1M3lNUkRGYw?oc=5\" target=\"_blank\">Kalshi takes down controversial Trump 'mention' markets at CFTC's request</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNzlabGl0UTl6T0hGcF8xMHQ5ZmRlaWpPUk1KV3AyeC1OZS1Bdm9MTC1XQk9aWHgwOWQtTTBqMjgxejhPU0JsOFZOMVVDQU0zMGxfZUNrWEprdGJHbkNscGhhOXl2U1UySVJucFBVNUZmVnRYNDZPcFR3N2hFWFZIWF930gGHAUFVX3lxTFBBbHA1dTZFeHJ5MFdOUVJQRWdzM0hEVU1rMjZMMzNFc2JSWWRmNEJlT1lHdC1iZmJKZEpYNjRQRzh1dDk1OGFRUExQZjUwNkM1ZUlVWnh5NFpnd09IWjdTSXdrdjZKdmZ2WmdtZW9SN2xaekRlTDJRel94U1BkWEx1M3lNUkRGYw?oc=5",
+      "source": "Google Macro",
+      "score": 1,
       "severity": "LOW",
-      "regime": "AI",
+      "regime": "GENERAL",
       "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
+      "regions": [
+        "UK"
       ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-17T23:35:59.018417Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T23:44:31.854772Z"
     }
   ],
   "alerts": [
     {
-      "id": "de6b895187c66758f26885cb48338a9c",
-      "title": "Latest Oil Market News and Analysis for Nov. 18",
-      "summary": "Oil steadied as traders assessed renewed fighting in the Middle East against signs of recovering supplies and higher US inventories.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-17/latest-oil-market-news-and-analysis-for-nov-18",
+      "id": "1f3e284d4b6ec2c9afba6e14a56d990d",
+      "title": "Gold Steadies Near 14-Month Low as Rate-Hike Pressure Mounts",
+      "summary": "Gold was steady near a 14-month low, after Federal Reserve officials argued the case for more rate hikes to tackle stubborn inflation.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-17/gold-steadies-near-14-month-low-as-rate-hike-pressure-mounts",
       "source": "Bloomberg",
-      "score": 35,
+      "score": 36,
       "severity": "CRITICAL",
-      "regime": "COMMODITIES",
+      "regime": "RATES",
       "tickers": [
-        "WTI"
+        "XAU"
       ],
       "regions": [],
       "assets": [
-        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-17T23:35:03.295420Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-17T23:43:33.674968Z"
     },
     {
-      "id": "0b0e758962f0f05b345e5031a7c6af20",
-      "title": "Russian Crude Exports Hit Four-Month High",
-      "summary": "Russia loaded more than 30 million barrels of crude onto tankers last week as Ukrainian drone strikes forced more oil away from domestic refineries and into export markets. The 39 tankers that loaded Russian crude in the week ending November 15 carried 30.27 million barrels, up from 23.6 million barrels on 31 ships the previous week, according to Bloomberg's vessel-tracking data. Weekly exports jumped by 950,000 barrels per day (bpd) to 4.32 million bpd, the highest since June. On a four-week average, shipments reached 3.9 million bpd, their highest\u2026",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Crude-Exports-Hit-Four-Month-High.html",
-      "source": "OilPrice",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
+      "id": "5898aaca923fca76b3c51bec1bb8972f",
+      "title": "Trump\u2019s sudden Ukraine push leaves Europe walking a tightrope",
+      "summary": "U.S. envoys are pressing Russian and Ukrainian officials to consider new proposals on NATO rules, military assets and troop placements across Europe.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/18/world/politics/trump-ukraine-push-europe/",
+      "source": "Japan Times",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "WTI"
+        "EUR"
       ],
       "regions": [
+        "EUROPE",
         "RUSSIA",
-        "UK"
+        "UK",
+        "UKRAINE"
       ],
       "assets": [
         "AI",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T23:44:23.144570Z"
+    },
+    {
+      "id": "6a06015046f333f8b0c1a752d7b96708",
+      "title": "Fed\u2019s Waller cites Binance hack in warning over tokenized finance",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Fed\u2019s Waller cites Binance hack in warning over tokenized finance\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7N66YD4VEG6WKSNQ9ZJSDDF/hi-impact-of-fed-interest-rates-on-crypto-holders-stablecoin-2.png\" /></p><p>Fed Governor Christopher Waller questioned who bears responsibility for fraud, compromised keys and failed transactions as traditional financial assets move onto blockchains.</p>",
+      "link": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 32,
+      "severity": "CRITICAL",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-17T23:44:28.257202Z"
+    },
+    {
+      "id": "afc9bc4aa0111df2fcf49fb1a00b7490",
+      "title": "Druckenmiller says he is short copper, warns of economic weakness in 2027",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/11/17/druckenmiller-says-he-is-short-copper-warns-of-economic-weakness-in-2027",
+      "source": "CoinDesk",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "COPPER"
+      ],
+      "regions": [],
+      "assets": [
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "WTI",
           "XAU",
-          "MINERS"
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-17T23:35:56.120576Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T23:44:28.126633Z"
     },
     {
-      "id": "c5dd48f8f7eebf012442d3dc31222a96",
-      "title": "New pact positions the Philippines as a defense hub for Australian troops",
-      "summary": "Top officials from Australia and the Philippines have inked a defense pact to accelerate military coordination, paving the way for rotational troop deployment and Australian investments in Philippine military infrastructure.",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/17/new-pact-positions-the-philippines-as-a-defense-hub-for-australian-troops/",
-      "source": "Defense News",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
+      "id": "545b860ca2538371c028c34000a2fb8a",
+      "title": "Five further Critical Third Parties designated",
+      "summary": "HM Treasury has designated five further third-party suppliers as Critical Third Parties.",
+      "link": "https://www.gov.uk/government/news/five-further-critical-third-parties-designated",
+      "source": "HM Treasury",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-17T23:44:20.979841Z"
+    },
+    {
+      "id": "e410704895a701d580338cb2a0e90404",
+      "title": "Odds improve on Trump-Kim meeting on APEC sidelines, analysts say",
+      "summary": "Views are shifting after the Kremlin said a meeting between Kim and Russian President Vladimir Putin was possible.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/17/asia-pacific/politics/trump-kim-meeting-odds-rise/",
+      "source": "Japan Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA"
+      ],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
           "WTI",
-          "COMMODITIES"
+          "DXY",
+          "DEFENSE"
         ],
         "bearish": [
-          "BONDS",
-          "GROWTH"
+          "SPY",
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-17T23:35:57.096994Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-17T23:44:23.144643Z"
     },
     {
-      "id": "1a64e9e22330f98dca8dd9f7a864ad2c",
-      "title": "Nvidia's Kress faces earnings test after stock drags Wall Street into the red",
-      "summary": "Futures hold the flatline as investors await key results from Nvidia and Disney",
-      "link": "https://www.cnbc.com/2026/11/17/nvidias-kress-faces-earnings-test-after-stock-drags-wall-street-into-the-red.html",
-      "source": "CNBC",
-      "score": 17,
-      "severity": "HIGH",
+      "id": "4878da33ab227a747a8e4c3a8c7aaf6e",
+      "title": "Everyone is Trading Tokenized Nvidia Derivatives",
+      "summary": "NVDA Speculatooors onchain On the off chance you haven\u2019t heard, Nvidia CEO and co-founder Jensen Huang resigned from his post after admitting he was unfaithful to his wife. Needless to say, markets have reacted violently. Onchain perpetuals traded $8.7 billion on Nov. 12, the day Jensen Huang resigned as CEO, roughly 20x the daily average [\u2026]",
+      "link": "https://www.theblock.co/newsletters/data-and-insights/2026-11-17-everyone-is-trading-tokenized-nvidia-derivatives-442818",
+      "source": "The Block",
+      "score": 12,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [
         "NVDA"
@@ -380,68 +512,13 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-17T23:35:06.768282Z"
+      "published": "2026-11-17T23:44:28.387701Z"
     },
     {
-      "id": "f294c1f858578a4448991369f582510f",
-      "title": "Israeli opposition succeeds in electing a new parliamentary Speaker",
-      "summary": "Appointment of Matan Kahana is a setback for Benjamin Netanyahu\u2019s far-right coalition",
-      "link": "https://www.ft.com/content/71ee2ad4-cc7d-4618-9df8-e58aa3c79b81?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-17T23:35:06.013681Z"
-    },
-    {
-      "id": "6073f8f68782d5ce5f3c8d7a6ca35f27",
-      "title": "Fidelity Says Even at 6% Treasuries Fail to Be \u2018Massively Cheap\u2019",
-      "summary": "The recent selloff in Treasuries has sparked debate about buying opportunities, but Fidelity International\u2019s Salman Ahmed reckons that even a 6% yield wouldn\u2019t make the 10-year note \u201cmassively cheap.\u201d",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-17/fidelity-says-even-at-6-treasuries-fail-to-be-massively-cheap",
-      "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-17T23:35:03.295489Z"
-    },
-    {
-      "id": "83685c452582109ab42b620134004b81",
-      "title": "Trump\u2019s CFTC picks face Senate scrutiny as prediction market turf war heats up",
-      "summary": "President Donald Trump\u2019s nominees to the CFTC revealed how they view the hotly contested issue of how to regulate sports betting.",
-      "link": "https://www.theblock.co/news/regulation/2026-11-17-trumps-cftc-picks-face-senate-scrutiny-as-prediction-market-turf-war-heats-up-442909",
+      "id": "e6cec58c3e81a7a4ef8b07e767115bdb",
+      "title": "Fomo pays creators $30 million, sharing \u2018lion\u2019s share\u2019 of revenue, Se Yong Park says",
+      "summary": "Fomo rewards traders who hold the assets they discuss and share the reasoning behind their investments.",
+      "link": "https://www.theblock.co/news/business/2026-11-17-fomo-pays-creators-30-million-sharing-lions-share-revenue-park-says-442332",
       "source": "The Block",
       "score": 11,
       "severity": "MEDIUM",
@@ -463,13 +540,13 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-17T23:35:58.528204Z"
+      "published": "2026-11-17T23:44:28.387640Z"
     },
     {
-      "id": "45436a60171b857420be68470f5efdcd",
-      "title": "JPMorgan is working on AI agent transactions that don\u2019t involve humans",
-      "summary": "JPMorgan and Hyundai Card are looking to expand the use of AI agents in financial transactions.",
-      "link": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html",
+      "id": "4a4e8324993e5803fc6c48bc0254c402",
+      "title": "South Korea will suspend all aircraft operation for 35 minutes and markets will open late. Here\u2019s why",
+      "summary": "South Korea will suspend aircraft takeoffs and landings nationwide for 35 minutes on Thursday to minimize noise during a college entrance exam.",
+      "link": "https://www.cnbc.com/2026/11/17/south-korea-suspend-aircraft-exam-markets.html",
       "source": "CNBC",
       "score": 10,
       "severity": "MEDIUM",
@@ -488,32 +565,25 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-17T23:35:06.913727Z"
+      "published": "2026-11-17T23:43:37.091813Z"
     },
     {
-      "id": "499ca6c7535befdd033739282a62f980",
-      "title": "California fines Hertz $1.5 million for breaking state data privacy law",
-      "summary": "Hertz agreed to the fine and said it would change its business practices, according to a court filing shared by the regulator, the California Privacy Protection Agency (CPPA).",
-      "link": "https://therecord.media/california-fines-hertz-state-data-privacy-law",
-      "source": "The Record",
-      "score": 5,
+      "id": "08343a304905062f9a5b8d97e0cad6ef",
+      "title": "Kalshi takes down controversial Trump 'mention' markets at CFTC's request - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQNzlabGl0UTl6T0hGcF8xMHQ5ZmRlaWpPUk1KV3AyeC1OZS1Bdm9MTC1XQk9aWHgwOWQtTTBqMjgxejhPU0JsOFZOMVVDQU0zMGxfZUNrWEprdGJHbkNscGhhOXl2U1UySVJucFBVNUZmVnRYNDZPcFR3N2hFWFZIWF930gGHAUFVX3lxTFBBbHA1dTZFeHJ5MFdOUVJQRWdzM0hEVU1rMjZMMzNFc2JSWWRmNEJlT1lHdC1iZmJKZEpYNjRQRzh1dDk1OGFRUExQZjUwNkM1ZUlVWnh5NFpnd09IWjdTSXdrdjZKdmZ2WmdtZW9SN2xaekRlTDJRel94U1BkWEx1M3lNUkRGYw?oc=5\" target=\"_blank\">Kalshi takes down controversial Trump 'mention' markets at CFTC's request</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNzlabGl0UTl6T0hGcF8xMHQ5ZmRlaWpPUk1KV3AyeC1OZS1Bdm9MTC1XQk9aWHgwOWQtTTBqMjgxejhPU0JsOFZOMVVDQU0zMGxfZUNrWEprdGJHbkNscGhhOXl2U1UySVJucFBVNUZmVnRYNDZPcFR3N2hFWFZIWF930gGHAUFVX3lxTFBBbHA1dTZFeHJ5MFdOUVJQRWdzM0hEVU1rMjZMMzNFc2JSWWRmNEJlT1lHdC1iZmJKZEpYNjRQRzh1dDk1OGFRUExQZjUwNkM1ZUlVWnh5NFpnd09IWjdTSXdrdjZKdmZ2WmdtZW9SN2xaekRlTDJRel94U1BkWEx1M3lNUkRGYw?oc=5",
+      "source": "Google Macro",
+      "score": 1,
       "severity": "LOW",
-      "regime": "AI",
+      "regime": "GENERAL",
       "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
+      "regions": [
+        "UK"
       ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-17T23:35:59.018417Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-17T23:44:31.854772Z"
     }
   ]
 }
