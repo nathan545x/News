@@ -1,32 +1,117 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-18T16:05:58.816482Z",
+  "generated_at": "2026-11-18T16:14:37.004089Z",
   "market_regime": {
-    "regime": "AI",
-    "dominant_driver": "AI",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
-    "high_alerts": 1,
-    "last_updated": "2026-11-18T16:05:58.816496Z"
+    "high_alerts": 2,
+    "last_updated": "2026-11-18T16:14:37.004102Z"
   },
   "top_signals": [
     {
-      "id": "94a55dca60ba57ba21700ec593e74267",
-      "title": "Copper Plunges Over 5% as AI Trade Unravels in Metals Markets",
-      "summary": "Copper plunged in a broad selloff across London, New York and Shanghai, as bullish investors bailed on bets tied to the AI boom and others turned outright bearish even as extreme squeezes roil metals markets.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-18/copper-prices-industrial-metal-dollar-lme",
+      "id": "75651c7addbaecf7603a905176dcf203",
+      "title": "Treasuries Higher for a Third Day as Risk Appetite Ebbs",
+      "summary": "Benchmark US Treasuries rose for a third day with support from setbacks for US stocks, falling oil prices and speculation that most of the Federal Reserve\u2019s upcoming interest-rate hikes are already priced in.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-18/treasuries-ust-bond-yields-risk-appetite-falters",
       "source": "Bloomberg",
-      "score": 27,
+      "score": 31,
       "severity": "CRITICAL",
-      "regime": "COMMODITIES",
+      "regime": "RATES",
       "tickers": [
-        "COPPER",
         "WTI"
       ],
-      "regions": [
-        "UK"
+      "regions": [],
+      "assets": [
+        "COMMODITIES",
+        "EQUITIES"
       ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-18T16:13:35.221192Z"
+    },
+    {
+      "id": "a8f1d5cc9001393dcf0aeb1c7b7c4623",
+      "title": "Was Jensen Huang\u2019s Exit Premature?",
+      "summary": "Did Nvidia\u2019s board move too soon in ruling out Jensen Huang\u2019s return? New Street Tech Infrastructure Analyst Antoine Chkaiban joined Bloomberg Open Interest to argue that the decision could hurt shareholders, employees, and Nvidia\u2019s long-term edge. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-18/was-jensen-huang-s-exit-premature-video",
+      "source": "Bloomberg",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-18T16:13:35.221140Z"
+    },
+    {
+      "id": "9cf4ad1f688050abe943611fbe866f18",
+      "title": "Hanwha transforms ship into floating multi-rocket launcher",
+      "summary": "South Korean defense giant Hanwha said it successfully launched missiles from a palletizable multi-pod launcher system at sea.",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/11/17/hanwha-transforms-ship-into-floating-multi-rocket-launcher/",
+      "source": "Defense News",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-18T16:14:32.619199Z"
+    },
+    {
+      "id": "bccac2ce9523523807e08fa637287357",
+      "title": "ADNOC Ship Attacked in Hormuz as Maritime Security Risks Rise",
+      "summary": "ADNOC Logistics & Services, a unit of Abu Dhabi\u2019s national oil company ADNOC, confirmed on Wednesday that one of its vessels was attacked while transiting the Strait of Hormuz on the evening of November 17, as attacks on tankers in the area have intensified in recent weeks. Following the attack on the ADNOC ship, one crew member remains unaccounted for as of early Wednesday, while all other crew members have been safely evacuated from the vessel. Eleven sustained injuries and, where required, are receiving medical care, ADNOC Logistics\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Ship-Attacked-in-Hormuz-as-Maritime-Security-Risks-Rise.html",
+      "source": "OilPrice",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
       "assets": [
         "AI",
         "COMMODITIES"
@@ -43,113 +128,32 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-18T16:04:46.217984Z"
+      "published": "2026-11-18T16:14:31.403996Z"
     },
     {
-      "id": "aead5d366be3ecce94c6373b607ed257",
-      "title": "Blackstone\u2019s Jon Gray Calls Concerns About AI Bubble Overblown",
-      "summary": "Blackstone Inc. President Jon Gray reiterated his view that fears of a bubble in artificial intelligence are overblown and that AI infrastructure supply still lags far behind demand.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-18/blackstone-s-jon-gray-calls-concerns-about-ai-bubble-overblown",
-      "source": "Bloomberg",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-18T16:04:46.218101Z"
-    },
-    {
-      "id": "5856e9780d172ec5074443614f18b8fa",
-      "title": "Credit Selloff Lures Bargain Hunters to \u2018Stock Picker\u2019s Market\u2019",
-      "summary": "Credit has become a hunting ground for investors brave enough to swoop in on beaten-up securities.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-18/credit-selloff-lures-bargain-hunters-to-stock-picker-s-market",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "4a175d5b5281030fa3b9b76e9da2b1ee",
+      "title": "Official Statistics: Forecasts for the UK economy: November 2026",
+      "summary": "A comparison of independent forecasts for the UK economy in November 2026.",
+      "link": "https://www.gov.uk/government/statistics/forecasts-for-the-uk-economy-november-2026",
+      "source": "HM Treasury",
+      "score": 10,
       "severity": "MEDIUM",
-      "regime": "AI",
+      "regime": "GENERAL",
       "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
+      "regions": [
+        "UK"
       ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-18T16:04:46.218045Z"
-    },
-    {
-      "id": "c72452628428e44e34deeb693fef1110",
-      "title": "NYC Comptroller \u2018Not Done Fighting Yet\u2019 on Anthropic IPO",
-      "summary": "New York City Comptroller Mark Levine called it \u2018disappointing\u201d that Anthropic is moving ahead with its initial public offering this week despite calls for the company to pause the listing over AI safety concerns. He speaks on \u201cBloomberg Surveillance.\u201d (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-18/nyc-comptroller-not-done-fighting-yet-on-anthropic-ipo-video",
-      "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-18T16:04:46.218164Z"
-    },
-    {
-      "id": "123be359ea552fd343d65754e4bae1be",
-      "title": "Crypto Long & Short: Crypto exchanges shouldn\u2019t double as the vault",
-      "summary": "",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/11/18/crypto-long-and-short-crypto-exchanges-shouldn-t-double-as-the-vault",
-      "source": "CoinDesk",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [],
       "assets": [],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-18T16:05:54.926487Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-18T16:14:23.558461Z"
     },
     {
-      "id": "8bf19c2b5fdf030af77bf170b793b548",
-      "title": "How Venezuela Has Changed With US Pulling the Strings - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPVmlsZHRvT2Z6WnlMbUJMNExnSFQ4NHpYbEhyUVNPS1hwM3lrT3ZCSlNNMkpFbTNsdk5LTGpsNHlmZEtjcklZNmo3TGd5NDEyNHMtUXpnTzItSTl3UHNzZHZFX0VlWXlLdXhSRTRuQ09JeUY2TngwY3hwempTRm9tWjhyb3kta0JDaHBHMG42V3lKOGlmYnI3aTJ3dw?oc=5\" target=\"_blank\">How Venezuela Has Changed With US Pulling the Strings</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVmlsZHRvT2Z6WnlMbUJMNExnSFQ4NHpYbEhyUVNPS1hwM3lrT3ZCSlNNMkpFbTNsdk5LTGpsNHlmZEtjcklZNmo3TGd5NDEyNHMtUXpnTzItSTl3UHNzZHZFX0VlWXlLdXhSRTRuQ09JeUY2TngwY3hwempTRm9tWjhyb3kta0JDaHBHMG42V3lKOGlmYnI3aTJ3dw?oc=5",
-      "source": "Google Macro",
+      "id": "b8b6a87f27534ff16cb76f3bc6946f71",
+      "title": "Floating Production Outlook: Pipeline Looks Huge, But Not All Projects Are Created Equal",
+      "summary": "Global floating hydrocarbons and electricity production and storage infrastructure (floating units) has a sizeable development pipeline through 2035, but the gap between identified projects and committed work is substantial. Intelatus Global Partners tracks 711 floating units worldwide\u2026",
+      "link": "https://www.marinelink.com/news/floating-production-outlook-pipeline-544447",
+      "source": "MarineLink",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -158,26 +162,111 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-18T16:05:56.322875Z"
+      "published": "2026-11-18T16:14:32.442201Z"
     }
   ],
   "alerts": [
     {
-      "id": "94a55dca60ba57ba21700ec593e74267",
-      "title": "Copper Plunges Over 5% as AI Trade Unravels in Metals Markets",
-      "summary": "Copper plunged in a broad selloff across London, New York and Shanghai, as bullish investors bailed on bets tied to the AI boom and others turned outright bearish even as extreme squeezes roil metals markets.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-18/copper-prices-industrial-metal-dollar-lme",
+      "id": "75651c7addbaecf7603a905176dcf203",
+      "title": "Treasuries Higher for a Third Day as Risk Appetite Ebbs",
+      "summary": "Benchmark US Treasuries rose for a third day with support from setbacks for US stocks, falling oil prices and speculation that most of the Federal Reserve\u2019s upcoming interest-rate hikes are already priced in.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-18/treasuries-ust-bond-yields-risk-appetite-falters",
       "source": "Bloomberg",
-      "score": 27,
+      "score": 31,
       "severity": "CRITICAL",
-      "regime": "COMMODITIES",
+      "regime": "RATES",
       "tickers": [
-        "COPPER",
         "WTI"
       ],
-      "regions": [
-        "UK"
+      "regions": [],
+      "assets": [
+        "COMMODITIES",
+        "EQUITIES"
       ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-18T16:13:35.221192Z"
+    },
+    {
+      "id": "a8f1d5cc9001393dcf0aeb1c7b7c4623",
+      "title": "Was Jensen Huang\u2019s Exit Premature?",
+      "summary": "Did Nvidia\u2019s board move too soon in ruling out Jensen Huang\u2019s return? New Street Tech Infrastructure Analyst Antoine Chkaiban joined Bloomberg Open Interest to argue that the decision could hurt shareholders, employees, and Nvidia\u2019s long-term edge. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-18/was-jensen-huang-s-exit-premature-video",
+      "source": "Bloomberg",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-18T16:13:35.221140Z"
+    },
+    {
+      "id": "9cf4ad1f688050abe943611fbe866f18",
+      "title": "Hanwha transforms ship into floating multi-rocket launcher",
+      "summary": "South Korean defense giant Hanwha said it successfully launched missiles from a palletizable multi-pod launcher system at sea.",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/11/17/hanwha-transforms-ship-into-floating-multi-rocket-launcher/",
+      "source": "Defense News",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-18T16:14:32.619199Z"
+    },
+    {
+      "id": "bccac2ce9523523807e08fa637287357",
+      "title": "ADNOC Ship Attacked in Hormuz as Maritime Security Risks Rise",
+      "summary": "ADNOC Logistics & Services, a unit of Abu Dhabi\u2019s national oil company ADNOC, confirmed on Wednesday that one of its vessels was attacked while transiting the Strait of Hormuz on the evening of November 17, as attacks on tankers in the area have intensified in recent weeks. Following the attack on the ADNOC ship, one crew member remains unaccounted for as of early Wednesday, while all other crew members have been safely evacuated from the vessel. Eleven sustained injuries and, where required, are receiving medical care, ADNOC Logistics\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Ship-Attacked-in-Hormuz-as-Maritime-Security-Risks-Rise.html",
+      "source": "OilPrice",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
       "assets": [
         "AI",
         "COMMODITIES"
@@ -194,113 +283,32 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-18T16:04:46.217984Z"
+      "published": "2026-11-18T16:14:31.403996Z"
     },
     {
-      "id": "aead5d366be3ecce94c6373b607ed257",
-      "title": "Blackstone\u2019s Jon Gray Calls Concerns About AI Bubble Overblown",
-      "summary": "Blackstone Inc. President Jon Gray reiterated his view that fears of a bubble in artificial intelligence are overblown and that AI infrastructure supply still lags far behind demand.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-18/blackstone-s-jon-gray-calls-concerns-about-ai-bubble-overblown",
-      "source": "Bloomberg",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-18T16:04:46.218101Z"
-    },
-    {
-      "id": "5856e9780d172ec5074443614f18b8fa",
-      "title": "Credit Selloff Lures Bargain Hunters to \u2018Stock Picker\u2019s Market\u2019",
-      "summary": "Credit has become a hunting ground for investors brave enough to swoop in on beaten-up securities.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-18/credit-selloff-lures-bargain-hunters-to-stock-picker-s-market",
-      "source": "Bloomberg",
-      "score": 13,
+      "id": "4a175d5b5281030fa3b9b76e9da2b1ee",
+      "title": "Official Statistics: Forecasts for the UK economy: November 2026",
+      "summary": "A comparison of independent forecasts for the UK economy in November 2026.",
+      "link": "https://www.gov.uk/government/statistics/forecasts-for-the-uk-economy-november-2026",
+      "source": "HM Treasury",
+      "score": 10,
       "severity": "MEDIUM",
-      "regime": "AI",
+      "regime": "GENERAL",
       "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
+      "regions": [
+        "UK"
       ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-18T16:04:46.218045Z"
-    },
-    {
-      "id": "c72452628428e44e34deeb693fef1110",
-      "title": "NYC Comptroller \u2018Not Done Fighting Yet\u2019 on Anthropic IPO",
-      "summary": "New York City Comptroller Mark Levine called it \u2018disappointing\u201d that Anthropic is moving ahead with its initial public offering this week despite calls for the company to pause the listing over AI safety concerns. He speaks on \u201cBloomberg Surveillance.\u201d (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-18/nyc-comptroller-not-done-fighting-yet-on-anthropic-ipo-video",
-      "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-18T16:04:46.218164Z"
-    },
-    {
-      "id": "123be359ea552fd343d65754e4bae1be",
-      "title": "Crypto Long & Short: Crypto exchanges shouldn\u2019t double as the vault",
-      "summary": "",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/11/18/crypto-long-and-short-crypto-exchanges-shouldn-t-double-as-the-vault",
-      "source": "CoinDesk",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [],
       "assets": [],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-18T16:05:54.926487Z"
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-18T16:14:23.558461Z"
     },
     {
-      "id": "8bf19c2b5fdf030af77bf170b793b548",
-      "title": "How Venezuela Has Changed With US Pulling the Strings - Bloomberg.com",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPVmlsZHRvT2Z6WnlMbUJMNExnSFQ4NHpYbEhyUVNPS1hwM3lrT3ZCSlNNMkpFbTNsdk5LTGpsNHlmZEtjcklZNmo3TGd5NDEyNHMtUXpnTzItSTl3UHNzZHZFX0VlWXlLdXhSRTRuQ09JeUY2TngwY3hwempTRm9tWjhyb3kta0JDaHBHMG42V3lKOGlmYnI3aTJ3dw?oc=5\" target=\"_blank\">How Venezuela Has Changed With US Pulling the Strings</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVmlsZHRvT2Z6WnlMbUJMNExnSFQ4NHpYbEhyUVNPS1hwM3lrT3ZCSlNNMkpFbTNsdk5LTGpsNHlmZEtjcklZNmo3TGd5NDEyNHMtUXpnTzItSTl3UHNzZHZFX0VlWXlLdXhSRTRuQ09JeUY2TngwY3hwempTRm9tWjhyb3kta0JDaHBHMG42V3lKOGlmYnI3aTJ3dw?oc=5",
-      "source": "Google Macro",
+      "id": "b8b6a87f27534ff16cb76f3bc6946f71",
+      "title": "Floating Production Outlook: Pipeline Looks Huge, But Not All Projects Are Created Equal",
+      "summary": "Global floating hydrocarbons and electricity production and storage infrastructure (floating units) has a sizeable development pipeline through 2035, but the gap between identified projects and committed work is substantial. Intelatus Global Partners tracks 711 floating units worldwide\u2026",
+      "link": "https://www.marinelink.com/news/floating-production-outlook-pipeline-544447",
+      "source": "MarineLink",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -309,7 +317,7 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-18T16:05:56.322875Z"
+      "published": "2026-11-18T16:14:32.442201Z"
     }
   ]
 }
