@@ -1,337 +1,145 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-18T04:54:29.962905Z",
+  "generated_at": "2026-11-18T04:59:52.239747Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-11-18T04:54:29.962917Z"
+    "high_alerts": 2,
+    "last_updated": "2026-11-18T04:59:52.239760Z"
   },
   "top_signals": [
     {
-      "id": "ed97346a7a395100c19bd129a346feda",
-      "title": "Bank of Japan governor says central bank should keep raising rates - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNLXVIT0VoOTAtWnNpWjBvTlRGS0o1aEp1RklzQjZLTVFOb1pha3FPSUJJaFJrMjIzQzZ5WGtOUG5OUl9VM2paLTZ3aEY4d3ZLMFN5NUdkSU5aT09EOWs1MFp1eUVSbzh6VVkyaEFuTWo0cS1Tb1RGVlJKdWdoSXlsbkZJRFJnT2tDMHNINXhGSDlDVzZnWTVkV2pYWGcwZnhjMEk1RHZQSWlsQkJCNW5KbGJR?oc=5\" target=\"_blank\">Bank of Japan governor says central bank should keep raising rates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLXVIT0VoOTAtWnNpWjBvTlRGS0o1aEp1RklzQjZLTVFOb1pha3FPSUJJaFJrMjIzQzZ5WGtOUG5OUl9VM2paLTZ3aEY4d3ZLMFN5NUdkSU5aT09EOWs1MFp1eUVSbzh6VVkyaEFuTWo0cS1Tb1RGVlJKdWdoSXlsbkZJRFJnT2tDMHNINXhGSDlDVzZnWTVkV2pYWGcwZnhjMEk1RHZQSWlsQkJCNW5KbGJR?oc=5",
-      "source": "Google Macro",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "RATES",
+      "id": "86d3ccd923e7f3bf70b5121541506e50",
+      "title": "Critical Java Vulnerability Requires Immediate Patching",
+      "summary": "<h2><strong>Purpose</strong></h2>\n<p>CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114938\" target=\"_blank\">CVE-2026-114938</a>. This critical memory-corruption vulnerability, known as \u201cJava4Shell,\u201d affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution.</p>\n<h2><strong>Actions to take</strong></h2>\n<p>CISA urges organizations to take the following actions:</p>\n<ul>\n<li>Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, including those bundled with third-party applications or included in container images and appliances. <strong>Note:</strong> JDKs and Java runtimes may not appear as separate entries in software inventories.</li>\n<li>Apply relevant Java and vendor patches as soon as they are available, prioritizing internet-facing systems.\n<ul>\n<li>If immediate patching is not feasible, implement temporary compensating controls, such as restricting and validating Base64 input at the application boundary, enforcing input-size limits, and limiting unauthenticated access.</li>\n</ul>\n</li>\n<li>Review <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Oracle\u2019s security advisory</a> for guidance on patching and affected products and versions.</li>\n<li>&nbsp;Monitor for indicators of suspicious activity, including rogue runtimes, unexpected JVM crashes, and suspicious Java processes.</li>\n</ul>\n<h2><strong>Resources</strong></h2>\n<p>CISA urges network defenders to review the following resource and apply necessary updates:</p>\n<h3>Vendor Guidance</h3>\n<ul>\n<li>Oracle\u2019s Security Advisory: <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Critical Security Patch Update \u2013 November 2026</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.</p>\n<h2><strong>Acknowledgements&nbsp;</strong></h2>\n<p>The Canadian Centre for Cyber Security (Cyber Centre) contributed to this Alert.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+      "source": "CISA",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BUND"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-18T04:59:15.119431Z"
+    },
+    {
+      "id": "b954f8b1744648bacd7cee74ca1b293d",
+      "title": "Gulf nations on alert after U.S. strikes Iranian island",
+      "summary": "U.S. fighter jets struck an Islamic Revolutionary Guard Corps missile launch site on Qeshm Island, according to an American official.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/18/world/politics/gulf-us-strikes-iran-island/",
+      "source": "Japan Times",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "MIDDLE_EAST",
+        "US"
       ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-18T04:54:28.555938Z"
-    },
-    {
-      "id": "862d14f7092b468b45d7bcbe806e5de4",
-      "title": "US 10-Year Yield Set for Historic Run Above 5% on Fed Cycle - Bloomberg",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOOTJ3VWxtanltWDFIdk5Jc2U5eFdaUFp6aG1PVVkwVVNpNVZxRFRvQllPcjYwVGh1OVlpVG9pQ1QyX283NldTUnBMa0NxRllJd1E3UDVacklIdTh0MmxsQnc2LTRfaGFFR092OHZZNnUwNEFGLVBFaFF5M0paNFo5d0t4YUIyUDNOVnV5UVVyRTlJRmN6azkxTmNjR251eU8yaDVmX2tJdGpFNkdIekVRbndoMEo?oc=5\" target=\"_blank\">US 10-Year Yield Set for Historic Run Above 5% on Fed Cycle</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOTJ3VWxtanltWDFIdk5Jc2U5eFdaUFp6aG1PVVkwVVNpNVZxRFRvQllPcjYwVGh1OVlpVG9pQ1QyX283NldTUnBMa0NxRllJd1E3UDVacklIdTh0MmxsQnc2LTRfaGFFR092OHZZNnUwNEFGLVBFaFF5M0paNFo5d0t4YUIyUDNOVnV5UVVyRTlJRmN6azkxTmNjR251eU8yaDVmX2tJdGpFNkdIekVRbndoMEo?oc=5",
-      "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-18T04:54:28.052116Z"
-    },
-    {
-      "id": "739c50a209c6cae183220d9de31c7b7c",
-      "title": "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/11/18/bitcoin-s-rare-12-crash-through-its-200-week-average-has-a-bullish-track-record",
-      "source": "CoinDesk",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-18T04:54:26.944606Z"
-    },
-    {
-      "id": "6efb08674a752b614c7156da71db86c1",
-      "title": "Oil Steadies as Renewed Mideast Fighting Tests Supply Recovery - Bloomberg",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNX0Y1MlJBNWwyU2pkSkpneldlNzR5NzdWMjhHY28tMFItb3l1QzlURWZyYmp4SWFmMlJncUFJcURYU0w0U3lLaVIwVVljQWRmRWF6TnFMOGs2NmQ1cmRhUTR1RGh2Q2FYZ1JLY08xVjFNS3RKQTJXY1lWWnF2bmcta1dKMl9TMXhLY3RjcWtLemxKRTVGdlM0NkJIU25wUQ?oc=5\" target=\"_blank\">Oil Steadies as Renewed Mideast Fighting Tests Supply Recovery</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNX0Y1MlJBNWwyU2pkSkpneldlNzR5NzdWMjhHY28tMFItb3l1QzlURWZyYmp4SWFmMlJncUFJcURYU0w0U3lLaVIwVVljQWRmRWF6TnFMOGs2NmQ1cmRhUTR1RGh2Q2FYZ1JLY08xVjFNS3RKQTJXY1lWWnF2bmcta1dKMl9TMXhLY3RjcWtLemxKRTVGdlM0NkJIU25wUQ?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-18T04:54:28.052174Z"
-    },
-    {
-      "id": "250eb09818bde7c76babc8ccf93b7e7c",
-      "title": "Chinese dominate Portugal tech show, as companies shrug off EU curbs",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/technology/chinese-dominate-portugal-tech-show-as-companies-shrug-off-eu-curbs",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-18T04:54:20.586410Z"
-    },
-    {
-      "id": "ba4411b2ffe29b400410a2a016e5f595",
-      "title": "Gold Steadies Near 14-Month Low as Rate-Hike Pressure Mounts - Bloomberg",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOMmlWeXc5bFpQUDI1bkQyQVVEMmpSRC1ZUWpkZDczNDU5RUxoNFBzOXpreXZnOTctS0s1NGRBcW5Bb2ZUVGxMSWRiZU5ydWpKYkpaM1EteFZsdHF2Q1JVN1hWOW9aQm13ZlFmVWVuWVI5S0xJVFdUaERVT0hab2tCOUpBSzhvM2ZvczNFd0hNYndoREJ2d3llcVRRdVZ2VUFqZ1VBSGVYY0d5MVREZEp1MA?oc=5\" target=\"_blank\">Gold Steadies Near 14-Month Low as Rate-Hike Pressure Mounts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMmlWeXc5bFpQUDI1bkQyQVVEMmpSRC1ZUWpkZDczNDU5RUxoNFBzOXpreXZnOTctS0s1NGRBcW5Bb2ZUVGxMSWRiZU5ydWpKYkpaM1EteFZsdHF2Q1JVN1hWOW9aQm13ZlFmVWVuWVI5S0xJVFdUaERVT0hab2tCOUpBSzhvM2ZvczNFd0hNYndoREJ2d3llcVRRdVZ2VUFqZ1VBSGVYY0d5MVREZEp1MA?oc=5",
-      "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "XAU"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-18T04:54:28.052233Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-18T04:59:09.944021Z"
     }
   ],
   "alerts": [
     {
-      "id": "ed97346a7a395100c19bd129a346feda",
-      "title": "Bank of Japan governor says central bank should keep raising rates - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNLXVIT0VoOTAtWnNpWjBvTlRGS0o1aEp1RklzQjZLTVFOb1pha3FPSUJJaFJrMjIzQzZ5WGtOUG5OUl9VM2paLTZ3aEY4d3ZLMFN5NUdkSU5aT09EOWs1MFp1eUVSbzh6VVkyaEFuTWo0cS1Tb1RGVlJKdWdoSXlsbkZJRFJnT2tDMHNINXhGSDlDVzZnWTVkV2pYWGcwZnhjMEk1RHZQSWlsQkJCNW5KbGJR?oc=5\" target=\"_blank\">Bank of Japan governor says central bank should keep raising rates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLXVIT0VoOTAtWnNpWjBvTlRGS0o1aEp1RklzQjZLTVFOb1pha3FPSUJJaFJrMjIzQzZ5WGtOUG5OUl9VM2paLTZ3aEY4d3ZLMFN5NUdkSU5aT09EOWs1MFp1eUVSbzh6VVkyaEFuTWo0cS1Tb1RGVlJKdWdoSXlsbkZJRFJnT2tDMHNINXhGSDlDVzZnWTVkV2pYWGcwZnhjMEk1RHZQSWlsQkJCNW5KbGJR?oc=5",
-      "source": "Google Macro",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "RATES",
+      "id": "86d3ccd923e7f3bf70b5121541506e50",
+      "title": "Critical Java Vulnerability Requires Immediate Patching",
+      "summary": "<h2><strong>Purpose</strong></h2>\n<p>CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114938\" target=\"_blank\">CVE-2026-114938</a>. This critical memory-corruption vulnerability, known as \u201cJava4Shell,\u201d affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution.</p>\n<h2><strong>Actions to take</strong></h2>\n<p>CISA urges organizations to take the following actions:</p>\n<ul>\n<li>Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, including those bundled with third-party applications or included in container images and appliances. <strong>Note:</strong> JDKs and Java runtimes may not appear as separate entries in software inventories.</li>\n<li>Apply relevant Java and vendor patches as soon as they are available, prioritizing internet-facing systems.\n<ul>\n<li>If immediate patching is not feasible, implement temporary compensating controls, such as restricting and validating Base64 input at the application boundary, enforcing input-size limits, and limiting unauthenticated access.</li>\n</ul>\n</li>\n<li>Review <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Oracle\u2019s security advisory</a> for guidance on patching and affected products and versions.</li>\n<li>&nbsp;Monitor for indicators of suspicious activity, including rogue runtimes, unexpected JVM crashes, and suspicious Java processes.</li>\n</ul>\n<h2><strong>Resources</strong></h2>\n<p>CISA urges network defenders to review the following resource and apply necessary updates:</p>\n<h3>Vendor Guidance</h3>\n<ul>\n<li>Oracle\u2019s Security Advisory: <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Critical Security Patch Update \u2013 November 2026</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.</p>\n<h2><strong>Acknowledgements&nbsp;</strong></h2>\n<p>The Canadian Centre for Cyber Security (Cyber Centre) contributed to this Alert.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+      "source": "CISA",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BUND"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-18T04:59:15.119431Z"
+    },
+    {
+      "id": "b954f8b1744648bacd7cee74ca1b293d",
+      "title": "Gulf nations on alert after U.S. strikes Iranian island",
+      "summary": "U.S. fighter jets struck an Islamic Revolutionary Guard Corps missile launch site on Qeshm Island, according to an American official.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/18/world/politics/gulf-us-strikes-iran-island/",
+      "source": "Japan Times",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "JAPAN"
+        "MIDDLE_EAST",
+        "US"
       ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-18T04:54:28.555938Z"
-    },
-    {
-      "id": "862d14f7092b468b45d7bcbe806e5de4",
-      "title": "US 10-Year Yield Set for Historic Run Above 5% on Fed Cycle - Bloomberg",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOOTJ3VWxtanltWDFIdk5Jc2U5eFdaUFp6aG1PVVkwVVNpNVZxRFRvQllPcjYwVGh1OVlpVG9pQ1QyX283NldTUnBMa0NxRllJd1E3UDVacklIdTh0MmxsQnc2LTRfaGFFR092OHZZNnUwNEFGLVBFaFF5M0paNFo5d0t4YUIyUDNOVnV5UVVyRTlJRmN6azkxTmNjR251eU8yaDVmX2tJdGpFNkdIekVRbndoMEo?oc=5\" target=\"_blank\">US 10-Year Yield Set for Historic Run Above 5% on Fed Cycle</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOTJ3VWxtanltWDFIdk5Jc2U5eFdaUFp6aG1PVVkwVVNpNVZxRFRvQllPcjYwVGh1OVlpVG9pQ1QyX283NldTUnBMa0NxRllJd1E3UDVacklIdTh0MmxsQnc2LTRfaGFFR092OHZZNnUwNEFGLVBFaFF5M0paNFo5d0t4YUIyUDNOVnV5UVVyRTlJRmN6azkxTmNjR251eU8yaDVmX2tJdGpFNkdIekVRbndoMEo?oc=5",
-      "source": "Google Macro",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
       "assets": [],
       "market_impact": {
         "bullish": [
+          "XAU",
+          "WTI",
           "DXY",
-          "JPY"
+          "DEFENSE"
         ],
         "bearish": [
-          "TLT",
           "SPY",
-          "QQQ"
+          "QQQ",
+          "AIRLINES"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-18T04:54:28.052116Z"
-    },
-    {
-      "id": "739c50a209c6cae183220d9de31c7b7c",
-      "title": "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/11/18/bitcoin-s-rare-12-crash-through-its-200-week-average-has-a-bullish-track-record",
-      "source": "CoinDesk",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "CRYPTO"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-18T04:54:26.944606Z"
-    },
-    {
-      "id": "6efb08674a752b614c7156da71db86c1",
-      "title": "Oil Steadies as Renewed Mideast Fighting Tests Supply Recovery - Bloomberg",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNX0Y1MlJBNWwyU2pkSkpneldlNzR5NzdWMjhHY28tMFItb3l1QzlURWZyYmp4SWFmMlJncUFJcURYU0w0U3lLaVIwVVljQWRmRWF6TnFMOGs2NmQ1cmRhUTR1RGh2Q2FYZ1JLY08xVjFNS3RKQTJXY1lWWnF2bmcta1dKMl9TMXhLY3RjcWtLemxKRTVGdlM0NkJIU25wUQ?oc=5\" target=\"_blank\">Oil Steadies as Renewed Mideast Fighting Tests Supply Recovery</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNX0Y1MlJBNWwyU2pkSkpneldlNzR5NzdWMjhHY28tMFItb3l1QzlURWZyYmp4SWFmMlJncUFJcURYU0w0U3lLaVIwVVljQWRmRWF6TnFMOGs2NmQ1cmRhUTR1RGh2Q2FYZ1JLY08xVjFNS3RKQTJXY1lWWnF2bmcta1dKMl9TMXhLY3RjcWtLemxKRTVGdlM0NkJIU25wUQ?oc=5",
-      "source": "Google Macro",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-18T04:54:28.052174Z"
-    },
-    {
-      "id": "250eb09818bde7c76babc8ccf93b7e7c",
-      "title": "Chinese dominate Portugal tech show, as companies shrug off EU curbs",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/technology/chinese-dominate-portugal-tech-show-as-companies-shrug-off-eu-curbs",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-18T04:54:20.586410Z"
-    },
-    {
-      "id": "ba4411b2ffe29b400410a2a016e5f595",
-      "title": "Gold Steadies Near 14-Month Low as Rate-Hike Pressure Mounts - Bloomberg",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOMmlWeXc5bFpQUDI1bkQyQVVEMmpSRC1ZUWpkZDczNDU5RUxoNFBzOXpreXZnOTctS0s1NGRBcW5Bb2ZUVGxMSWRiZU5ydWpKYkpaM1EteFZsdHF2Q1JVN1hWOW9aQm13ZlFmVWVuWVI5S0xJVFdUaERVT0hab2tCOUpBSzhvM2ZvczNFd0hNYndoREJ2d3llcVRRdVZ2VUFqZ1VBSGVYY0d5MVREZEp1MA?oc=5\" target=\"_blank\">Gold Steadies Near 14-Month Low as Rate-Hike Pressure Mounts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMmlWeXc5bFpQUDI1bkQyQVVEMmpSRC1ZUWpkZDczNDU5RUxoNFBzOXpreXZnOTctS0s1NGRBcW5Bb2ZUVGxMSWRiZU5ydWpKYkpaM1EteFZsdHF2Q1JVN1hWOW9aQm13ZlFmVWVuWVI5S0xJVFdUaERVT0hab2tCOUpBSzhvM2ZvczNFd0hNYndoREJ2d3llcVRRdVZ2VUFqZ1VBSGVYY0d5MVREZEp1MA?oc=5",
-      "source": "Google Macro",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "XAU"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-18T04:54:28.052233Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-18T04:59:09.944021Z"
     }
   ]
 }
