@@ -1,52 +1,25 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-18T11:55:28.534053Z",
+  "generated_at": "2026-11-18T12:05:49.445082Z",
   "market_regime": {
-    "regime": "AI",
-    "dominant_driver": "AI",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 3,
     "high_alerts": 1,
-    "last_updated": "2026-11-18T11:55:28.534062Z"
+    "last_updated": "2026-11-18T12:05:49.445096Z"
   },
   "top_signals": [
     {
-      "id": "8941f479c334cffe040c0d67335ba245",
-      "title": "Wall Street set to open higher after Nvidia results reassure investors",
-      "summary": "Chip group raises forecast and new chief says \u2018it\u2019s business as usual\u2019 after revelations of Huang\u2019s affairs triggered sell-off",
-      "link": "https://www.ft.com/content/f085b811-fc20-425f-88d8-9f98e178636a?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [
-        "NVDA"
-      ],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-18T11:54:26.564147Z"
-    },
-    {
-      "id": "330ba284f41a69eca22ad857b739dce2",
-      "title": "Commission sets up new EU Sanctions Office and appoints new EU Sanctions Envoy",
-      "summary": "European Commission Press release Brussels, 18 Nov 2026 Today, the Commission has created the EU Sanctions Office to bring together the Commission's expertise on the entire sanctions lifecycle, from policy design to implementation, enforcement, and anti-circumvention, including outreach to and engagement with third countries.",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2499",
-      "source": "European Commission",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
+      "id": "002c71f5387dbf68ce5f1d5887fee591",
+      "title": "ECB's Vujcic Says December Rate Hike Looks 'Very Likely'",
+      "summary": "European Central Bank Vice President\u00a0Boris Vujcic says a December rate hike looks highly probable and more increases may follow in 2027 as inflation broadens. He made the comments during an interview with Bloomberg's Mark Schroers. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-18/ecb-s-vujcic-says-december-rate-hike-looks-very-likely-video",
+      "source": "Bloomberg",
+      "score": 40,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
         "EUR"
       ],
@@ -55,6 +28,70 @@
       ],
       "assets": [
         "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-18T12:04:45.454968Z"
+    },
+    {
+      "id": "3056b9510fd045ca742d763c94f46fd1",
+      "title": "Gold Slumps Below $3,800 as Fed Officials Signal More Rate Hikes",
+      "summary": "Gold dropped below $3,800 an ounce for the first time since September 2025 after Federal Reserve officials made the case for more interest-rate hikes to tackle stubborn inflation.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-17/gold-steadies-near-14-month-low-as-rate-hike-pressure-mounts",
+      "source": "Bloomberg",
+      "score": 36,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-18T12:04:45.455030Z"
+    },
+    {
+      "id": "2c502ffc62145fe70441143e351d4ad0",
+      "title": "Oil Prices Drop Despite Escalating U.S.-Iran Conflict",
+      "summary": "Crude oil prices extended their decline today, following the Tuesday release of the American Petroleum Institute oil stock report, which showed a build across crude and fuels. At the time of writing, Brent crude was trading at $92.49 per barrel, with West Texas Intermediate at $84.73 per barrel, both down sharply from a month ago when Brent crude was trading at over $100 per barrel, and WTI was at over $98. The American Petroleum Institute estimated that crude oil inventories in the United States rose by 5.3 million barrels in the week ending November\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Drop-Despite-Escalating-US-Iran-Conflict.html",
+      "source": "OilPrice",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST",
+        "US"
+      ],
+      "assets": [
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -70,46 +107,48 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-18T11:55:13.467423Z"
+      "published": "2026-11-18T12:05:43.359910Z"
     },
     {
-      "id": "0da2d9b70c3685ffb40dee0e5afdf59b",
-      "title": "Remarks by Commissioner Hoekstra at EU press conference at COP31",
-      "summary": "European Commission Speech Antalya, 18 Nov 2026 Ladies and gentlemen, good to see you again.\nDear Lidia, many thanks for being on stage with me again as we do at every COP.\nI want to salute the European Parli...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2502",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
+      "id": "a27736f12c1447a3970cbdc3155e8899",
+      "title": "Global energy watchdog warns \u2018no credible way\u2019 back to pre-Iran war energy markets",
+      "summary": "<p> <img alt=\"Fatih Birol, executive director of International Energy Agency\" src=\"https://www.cityam.com/wp-content/uploads/2026/11/Fatih-Birol-IEA-boss.jpg?w=1201\" /> </p>The boss of the global energy watchdog has warned there is \u201cno credible pathway\u201d back to the energy market as it stood before the disruption caused by the Iran war. Fiath Birol, the executive director of the International Energy Agency, said risks of further blockages to flows through the Strait of Hormuz could happen again <a href=\"https://www.cityam.com/global-energy-watchdog-warns-no-credible-way-back-to-pre-iran-war-energy-markets/\">[...]</a>",
+      "link": "https://www.cityam.com/global-energy-watchdog-warns-no-credible-way-back-to-pre-iran-war-energy-markets/",
+      "source": "CityAM",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
       "regions": [
-        "EUROPE"
+        "MIDDLE_EAST"
       ],
       "assets": [
-        "AI",
-        "FX"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-18T11:55:13.467349Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-18T12:05:35.808958Z"
     },
     {
-      "id": "d7c272254f375a1fdf35e91c5c69d708",
-      "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
-      "summary": "The Alliance for Creativity and Entertainment (ACE) has announced the shutdown of Dizigom, one of Turkey's largest piracy sites, after a settlement agreement with the site's operators. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
-      "source": "BleepingComputer",
-      "score": 5,
-      "severity": "LOW",
+      "id": "a957ab1cc8a033499d941023a5577ebe",
+      "title": "Lowe's posts strong online sales, raises outlook despite slow housing market",
+      "summary": "Lowe's said it saw strength in online sales during its quarter that contributed to a guidance raise for the full year.",
+      "link": "https://www.cnbc.com/2026/11/18/lowes-low-q3-2026-earnings.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -125,64 +164,35 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-18T11:55:25.279582Z"
+      "published": "2026-11-18T12:04:49.400043Z"
     },
     {
-      "id": "08343a304905062f9a5b8d97e0cad6ef",
-      "title": "Kalshi takes down controversial Trump 'mention' markets at CFTC's request - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQNzlabGl0UTl6T0hGcF8xMHQ5ZmRlaWpPUk1KV3AyeC1OZS1Bdm9MTC1XQk9aWHgwOWQtTTBqMjgxejhPU0JsOFZOMVVDQU0zMGxfZUNrWEprdGJHbkNscGhhOXl2U1UySVJucFBVNUZmVnRYNDZPcFR3N2hFWFZIWF930gGHAUFVX3lxTFBBbHA1dTZFeHJ5MFdOUVJQRWdzM0hEVU1rMjZMMzNFc2JSWWRmNEJlT1lHdC1iZmJKZEpYNjRQRzh1dDk1OGFRUExQZjUwNkM1ZUlVWnh5NFpnd09IWjdTSXdrdjZKdmZ2WmdtZW9SN2xaekRlTDJRel94U1BkWEx1M3lNUkRGYw?oc=5\" target=\"_blank\">Kalshi takes down controversial Trump 'mention' markets at CFTC's request</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNzlabGl0UTl6T0hGcF8xMHQ5ZmRlaWpPUk1KV3AyeC1OZS1Bdm9MTC1XQk9aWHgwOWQtTTBqMjgxejhPU0JsOFZOMVVDQU0zMGxfZUNrWEprdGJHbkNscGhhOXl2U1UySVJucFBVNUZmVnRYNDZPcFR3N2hFWFZIWF930gGHAUFVX3lxTFBBbHA1dTZFeHJ5MFdOUVJQRWdzM0hEVU1rMjZMMzNFc2JSWWRmNEJlT1lHdC1iZmJKZEpYNjRQRzh1dDk1OGFRUExQZjUwNkM1ZUlVWnh5NFpnd09IWjdTSXdrdjZKdmZ2WmdtZW9SN2xaekRlTDJRel94U1BkWEx1M3lNUkRGYw?oc=5",
-      "source": "Google Macro",
-      "score": 1,
+      "id": "ab686dfa92e6543a6bf14463f4ca36ff",
+      "title": "Gamers 'become' New Zealanders for first access to new 'Grand Theft Auto'",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/media-entertainment/gamers-become-new-zealanders-for-first-access-to-new-grand-theft-auto",
+      "source": "Nikkei Asia",
+      "score": 7,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-18T11:55:28.534015Z"
+      "published": "2026-11-18T12:05:38.157205Z"
     }
   ],
   "alerts": [
     {
-      "id": "8941f479c334cffe040c0d67335ba245",
-      "title": "Wall Street set to open higher after Nvidia results reassure investors",
-      "summary": "Chip group raises forecast and new chief says \u2018it\u2019s business as usual\u2019 after revelations of Huang\u2019s affairs triggered sell-off",
-      "link": "https://www.ft.com/content/f085b811-fc20-425f-88d8-9f98e178636a?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [
-        "NVDA"
-      ],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-18T11:54:26.564147Z"
-    },
-    {
-      "id": "330ba284f41a69eca22ad857b739dce2",
-      "title": "Commission sets up new EU Sanctions Office and appoints new EU Sanctions Envoy",
-      "summary": "European Commission Press release Brussels, 18 Nov 2026 Today, the Commission has created the EU Sanctions Office to bring together the Commission's expertise on the entire sanctions lifecycle, from policy design to implementation, enforcement, and anti-circumvention, including outreach to and engagement with third countries.",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2499",
-      "source": "European Commission",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
+      "id": "002c71f5387dbf68ce5f1d5887fee591",
+      "title": "ECB's Vujcic Says December Rate Hike Looks 'Very Likely'",
+      "summary": "European Central Bank Vice President\u00a0Boris Vujcic says a December rate hike looks highly probable and more increases may follow in 2027 as inflation broadens. He made the comments during an interview with Bloomberg's Mark Schroers. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-18/ecb-s-vujcic-says-december-rate-hike-looks-very-likely-video",
+      "source": "Bloomberg",
+      "score": 40,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [
         "EUR"
       ],
@@ -191,6 +201,70 @@
       ],
       "assets": [
         "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-18T12:04:45.454968Z"
+    },
+    {
+      "id": "3056b9510fd045ca742d763c94f46fd1",
+      "title": "Gold Slumps Below $3,800 as Fed Officials Signal More Rate Hikes",
+      "summary": "Gold dropped below $3,800 an ounce for the first time since September 2025 after Federal Reserve officials made the case for more interest-rate hikes to tackle stubborn inflation.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-17/gold-steadies-near-14-month-low-as-rate-hike-pressure-mounts",
+      "source": "Bloomberg",
+      "score": 36,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-18T12:04:45.455030Z"
+    },
+    {
+      "id": "2c502ffc62145fe70441143e351d4ad0",
+      "title": "Oil Prices Drop Despite Escalating U.S.-Iran Conflict",
+      "summary": "Crude oil prices extended their decline today, following the Tuesday release of the American Petroleum Institute oil stock report, which showed a build across crude and fuels. At the time of writing, Brent crude was trading at $92.49 per barrel, with West Texas Intermediate at $84.73 per barrel, both down sharply from a month ago when Brent crude was trading at over $100 per barrel, and WTI was at over $98. The American Petroleum Institute estimated that crude oil inventories in the United States rose by 5.3 million barrels in the week ending November\u2026",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Drop-Despite-Escalating-US-Iran-Conflict.html",
+      "source": "OilPrice",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST",
+        "US"
+      ],
+      "assets": [
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -206,46 +280,48 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-18T11:55:13.467423Z"
+      "published": "2026-11-18T12:05:43.359910Z"
     },
     {
-      "id": "0da2d9b70c3685ffb40dee0e5afdf59b",
-      "title": "Remarks by Commissioner Hoekstra at EU press conference at COP31",
-      "summary": "European Commission Speech Antalya, 18 Nov 2026 Ladies and gentlemen, good to see you again.\nDear Lidia, many thanks for being on stage with me again as we do at every COP.\nI want to salute the European Parli...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2502",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
+      "id": "a27736f12c1447a3970cbdc3155e8899",
+      "title": "Global energy watchdog warns \u2018no credible way\u2019 back to pre-Iran war energy markets",
+      "summary": "<p> <img alt=\"Fatih Birol, executive director of International Energy Agency\" src=\"https://www.cityam.com/wp-content/uploads/2026/11/Fatih-Birol-IEA-boss.jpg?w=1201\" /> </p>The boss of the global energy watchdog has warned there is \u201cno credible pathway\u201d back to the energy market as it stood before the disruption caused by the Iran war. Fiath Birol, the executive director of the International Energy Agency, said risks of further blockages to flows through the Strait of Hormuz could happen again <a href=\"https://www.cityam.com/global-energy-watchdog-warns-no-credible-way-back-to-pre-iran-war-energy-markets/\">[...]</a>",
+      "link": "https://www.cityam.com/global-energy-watchdog-warns-no-credible-way-back-to-pre-iran-war-energy-markets/",
+      "source": "CityAM",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
       "regions": [
-        "EUROPE"
+        "MIDDLE_EAST"
       ],
       "assets": [
-        "AI",
-        "FX"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
         ],
-        "bearish": []
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-18T11:55:13.467349Z"
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-18T12:05:35.808958Z"
     },
     {
-      "id": "d7c272254f375a1fdf35e91c5c69d708",
-      "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
-      "summary": "The Alliance for Creativity and Entertainment (ACE) has announced the shutdown of Dizigom, one of Turkey's largest piracy sites, after a settlement agreement with the site's operators. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
-      "source": "BleepingComputer",
-      "score": 5,
-      "severity": "LOW",
+      "id": "a957ab1cc8a033499d941023a5577ebe",
+      "title": "Lowe's posts strong online sales, raises outlook despite slow housing market",
+      "summary": "Lowe's said it saw strength in online sales during its quarter that contributed to a guidance raise for the full year.",
+      "link": "https://www.cnbc.com/2026/11/18/lowes-low-q3-2026-earnings.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -261,25 +337,23 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-18T11:55:25.279582Z"
+      "published": "2026-11-18T12:04:49.400043Z"
     },
     {
-      "id": "08343a304905062f9a5b8d97e0cad6ef",
-      "title": "Kalshi takes down controversial Trump 'mention' markets at CFTC's request - CNBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQNzlabGl0UTl6T0hGcF8xMHQ5ZmRlaWpPUk1KV3AyeC1OZS1Bdm9MTC1XQk9aWHgwOWQtTTBqMjgxejhPU0JsOFZOMVVDQU0zMGxfZUNrWEprdGJHbkNscGhhOXl2U1UySVJucFBVNUZmVnRYNDZPcFR3N2hFWFZIWF930gGHAUFVX3lxTFBBbHA1dTZFeHJ5MFdOUVJQRWdzM0hEVU1rMjZMMzNFc2JSWWRmNEJlT1lHdC1iZmJKZEpYNjRQRzh1dDk1OGFRUExQZjUwNkM1ZUlVWnh5NFpnd09IWjdTSXdrdjZKdmZ2WmdtZW9SN2xaekRlTDJRel94U1BkWEx1M3lNUkRGYw?oc=5\" target=\"_blank\">Kalshi takes down controversial Trump 'mention' markets at CFTC's request</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNzlabGl0UTl6T0hGcF8xMHQ5ZmRlaWpPUk1KV3AyeC1OZS1Bdm9MTC1XQk9aWHgwOWQtTTBqMjgxejhPU0JsOFZOMVVDQU0zMGxfZUNrWEprdGJHbkNscGhhOXl2U1UySVJucFBVNUZmVnRYNDZPcFR3N2hFWFZIWF930gGHAUFVX3lxTFBBbHA1dTZFeHJ5MFdOUVJQRWdzM0hEVU1rMjZMMzNFc2JSWWRmNEJlT1lHdC1iZmJKZEpYNjRQRzh1dDk1OGFRUExQZjUwNkM1ZUlVWnh5NFpnd09IWjdTSXdrdjZKdmZ2WmdtZW9SN2xaekRlTDJRel94U1BkWEx1M3lNUkRGYw?oc=5",
-      "source": "Google Macro",
-      "score": 1,
+      "id": "ab686dfa92e6543a6bf14463f4ca36ff",
+      "title": "Gamers 'become' New Zealanders for first access to new 'Grand Theft Auto'",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/media-entertainment/gamers-become-new-zealanders-for-first-access-to-new-grand-theft-auto",
+      "source": "Nikkei Asia",
+      "score": 7,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-18T11:55:28.534015Z"
+      "published": "2026-11-18T12:05:38.157205Z"
     }
   ]
 }
