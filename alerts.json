@@ -1,38 +1,32 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-19T23:15:36.515041Z",
+  "generated_at": "2026-11-19T23:24:33.944893Z",
   "market_regime": {
-    "regime": "AI",
-    "dominant_driver": "AI",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
-    "signal_density": "HIGH",
-    "critical_alerts": 2,
-    "high_alerts": 5,
-    "last_updated": "2026-11-19T23:15:36.515059Z"
+    "signal_density": "LOW",
+    "critical_alerts": 0,
+    "high_alerts": 4,
+    "last_updated": "2026-11-19T23:24:33.944909Z"
   },
   "top_signals": [
     {
-      "id": "96bd196d969f0813d7b4018ac16c38a8",
-      "title": "The Atlantic Brief: After the U.S. Midterms, Trans-Atlantic Defense Cooperation",
-      "summary": "<p>For this edition of The Atlantic Brief, the Royal United Services Institute and War on the Rocks present a dialogue on the future of trans-Atlantic defense cooperation following the U.S. midterm elections. Participating experts from the United Kingdom, continental Europe, and the United States bring decades of first-hand experience in the armed forces, diplomacy, and foreign policy.The panel will explore what the midterms mean for U.S. force posture, NATO, and support for Ukraine. It will also cover European investment in defense capabilities, the questions of strained supply chains, and whether NATO or the European Union should lead in countering Russian</p>\n<p>The post <a href=\"https://warontherocks.com/the-atlantic-brief-after-the-u-s-midterms-trans-atlantic-defense-cooperation/\">The Atlantic Brief: After the U.S. Midterms, Trans-Atlantic Defense Cooperation</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
-      "link": "https://warontherocks.com/the-atlantic-brief-after-the-u-s-midterms-trans-atlantic-defense-cooperation/",
-      "source": "War on the Rocks",
-      "score": 37,
-      "severity": "CRITICAL",
+      "id": "86d3ccd923e7f3bf70b5121541506e50",
+      "title": "Critical Java Vulnerability Requires Immediate Patching",
+      "summary": "<h2><strong>Purpose</strong></h2>\n<p>CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114938\" target=\"_blank\">CVE-2026-114938</a>. This critical memory-corruption vulnerability, known as \u201cJava4Shell,\u201d affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution.</p>\n<h2><strong>Actions to take</strong></h2>\n<p>CISA urges organizations to take the following actions:</p>\n<ul>\n<li>Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, including those bundled with third-party applications or included in container images and appliances. <strong>Note:</strong> JDKs and Java runtimes may not appear as separate entries in software inventories.</li>\n<li>Apply relevant Java and vendor patches as soon as they are available, prioritizing internet-facing systems.\n<ul>\n<li>If immediate patching is not feasible, implement temporary compensating controls, such as restricting and validating Base64 input at the application boundary, enforcing input-size limits, and limiting unauthenticated access.</li>\n</ul>\n</li>\n<li>Review <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Oracle\u2019s security advisory</a> for guidance on patching and affected products and versions.</li>\n<li>&nbsp;Monitor for indicators of suspicious activity, including rogue runtimes, unexpected JVM crashes, and suspicious Java processes.</li>\n</ul>\n<h2><strong>Resources</strong></h2>\n<p>CISA urges network defenders to review the following resource and apply necessary updates:</p>\n<h3>Vendor Guidance</h3>\n<ul>\n<li>Oracle\u2019s Security Advisory: <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Critical Security Patch Update \u2013 November 2026</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.</p>\n<h2><strong>Acknowledgements&nbsp;</strong></h2>\n<p>The Canadian Centre for Cyber Security (Cyber Centre) contributed to this Alert.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+      "source": "CISA",
+      "score": 20,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [
-        "EUR"
+        "BUND"
       ],
-      "regions": [
-        "EUROPE",
-        "RUSSIA",
-        "UK",
-        "UKRAINE",
-        "US"
-      ],
+      "regions": [],
       "assets": [
         "AI",
-        "FX"
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -48,50 +42,15 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-19T23:15:31.999861Z"
+      "published": "2026-11-19T23:24:31.219113Z"
     },
     {
-      "id": "a41477788659c09ee7e980c96f50fb61",
-      "title": "Latest Oil Market News and Analysis for Nov. 20",
-      "summary": "Oil edged higher after a volatile session on Thursday, with futures on track for a third weekly decline as traders weigh the risk of renewed US strikes on Iran against signs of ample supply.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-19/latest-oil-market-news-and-analysis-for-nov-20",
-      "source": "Bloomberg",
-      "score": 29,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-19T23:14:27.465764Z"
-    },
-    {
-      "id": "3dd495f36f231bd2bccc964b658a6545",
-      "title": "Federal Reserve issues FOMC statement",
-      "summary": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "id": "eebfe3a7fe6733dbad138471ca115739",
+      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
       "source": "Federal Reserve",
-      "score": 23,
+      "score": 16,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
@@ -109,53 +68,81 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-19T23:14:31.789092Z"
+      "published": "2026-11-19T23:23:37.344310Z"
     },
     {
-      "id": "0830ce29c49395f0cbf0823c00f1b6a1",
-      "title": "One of the world's most contested seas is proving too much for Asia's leaders to resolve",
-      "summary": "The ASEAN summit in the Philippines failed to conclude the Code of Conduct for the South China Sea despite Manila pledging it would happen this year.",
-      "link": "https://www.cnbc.com/2026/11/19/south-china-sea-china-asean-coc.html",
-      "source": "CNBC",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [
-        "CHINA"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-19T23:14:31.633399Z"
-    },
-    {
-      "id": "85bf14fb596c200f5c6bc91259ab3c74",
-      "title": "The Bank of England, the Monetary Authority of Singapore, and the Bank of Thailand: Project Meridian FX APAC",
-      "summary": "Joint media release",
-      "link": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release",
-      "source": "Bank of England",
-      "score": 22,
+      "id": "93cbc3e040f8199edf4a01602a5a520a",
+      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+      "summary": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
       "severity": "HIGH",
       "regime": "RATES",
       "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-19T23:23:37.344352Z"
+    },
+    {
+      "id": "4740f38e638ecb672198f99c5232e62e",
+      "title": "Tokenized Stocks Shrug Off the Crypto Selloff",
+      "summary": "Tokenized Stocks Shrug Off the Crypto Selloff Bitcoin fell as low as $62k late Saturday, its sixth straight weekly decline. Meanwhile, tokenized stocks crossed $4 billion in onchain value for the first time on Nov 11. Tokenized stocks are now roughly five times their value on January 1. Tokenized stocks track equity prices, not crypto, [\u2026]",
+      "link": "https://www.theblock.co/newsletters/tokenization-briefing/2026-11-19-tokenized-stocks-shrug-off-crypto-selloff-442829",
+      "source": "The Block",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-19T23:24:30.217522Z"
+    },
+    {
+      "id": "fdccf8abd10692cc392a6138263b76f9",
+      "title": "Correspondence: Study to examine skills retention in UK financial services",
+      "summary": "Letter from the Economic Secretary to the Treasury commissioning Progress Together to examine skills retention and talent flows in UK financial services.",
+      "link": "https://www.gov.uk/government/publications/study-to-examine-skills-retention-in-uk-financial-services",
+      "source": "HM Treasury",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
       "regions": [
         "UK"
       ],
       "assets": [
-        "AI"
+        "RATES"
       ],
       "market_impact": {
         "bullish": [
@@ -169,561 +156,16 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-19T23:15:24.586242Z"
+      "published": "2026-11-19T23:24:22.042902Z"
     },
     {
-      "id": "7e6ffe206a316216f6daec647836efa7",
-      "title": "California attorney general issues Nvidia subpoena in probe of China chip diversion",
-      "summary": "The investigation by California Attorney General Rob Bonta comes on the heels of the resignation of Nvidia CEO Jensen Huang.",
-      "link": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
+      "id": "f55f9afaf74dae1a14c24838688b7115",
+      "title": "Anthropic was supposed to save the AI trade. What went wrong?",
+      "summary": "Technology stocks tanked despite one of the most hotly anticipated tech IPOs in years. Why Anthropic couldn't revive AI animal spirits.",
+      "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
       "source": "CNBC",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [
-        "NVDA"
-      ],
-      "regions": [
-        "CHINA"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T23:14:31.278128Z"
-    },
-    {
-      "id": "8e8b245e2ff372e307589bbc9a31960b",
-      "title": "Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test",
-      "summary": "India\u2019s inflation, which has been on the rise for 12 straight months, is becoming a risk to growth and to the reversal of foreign inflows.",
-      "link": "https://www.cnbc.com/2026/11/19/india-inflation-foreign-investor-nifty50.html",
-      "source": "CNBC",
-      "score": 17,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-19T23:14:31.633461Z"
-    },
-    {
-      "id": "6a152129040a3f90adcd0ce97f96cac3",
-      "title": "Stock Losses to Extend in Asia, Nasdaq Futures Dip: Markets Wrap",
-      "summary": "A global stock selloff was set to deepen in Asia as Anthropic PBC\u2019s solid market debut failed to reverse pessimism around the artificial-intelligence trade and stem a broader retreat from technology shares.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-19/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 13,
+      "score": 10,
       "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [
-        "QQQ"
-      ],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T23:14:27.465710Z"
-    },
-    {
-      "id": "939cc798ca57731e207ed9924ef3119d",
-      "title": "The dangers of AI \u2018handoverism\u2019",
-      "summary": "Even some of Silicon Valley\u2019s most enthusiastic capitalists are alarmed about how far and fast the technology is moving",
-      "link": "https://www.ft.com/content/45194ea4-4fa7-4c38-a5b2-137eb7402d57?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T23:14:29.716193Z"
-    },
-    {
-      "id": "2b974030af25081361be46a0f54b07ae",
-      "title": "Personal Income and Outlays, September 2026",
-      "summary": "<p>Personal income increased $54.5 billion (0.2 percent at a monthly rate) in September, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)&ndash;personal income less personal current taxes&ndash;increased $52.7 billion (0.2 percent), and personal consumption expenditures (PCE) increased $113.1 billion (0.5 percent). Personal outlays&ndash;the sum of PCE, personal interest payments, and personal current transfer payments&ndash;increased $113.0 billion in September. Personal saving was $911.1 billion, and the personal saving rate&ndash;personal saving as a percentage of DPI&ndash;was 3.8 percent.\n</p>",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
-      "source": "BEA",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-19T23:15:10.890280Z"
-    },
-    {
-      "id": "dcf5de88508b404bdd3006aa650fbabc",
-      "title": "Kash Patel skips House hearing after Mar-a-Lago gala with $50,000 access",
-      "summary": "Kash Patel missed a congressional hearing after appearing the night before at a Mar-a-Lago gala offering donors of $50,000 access to top officials.",
-      "link": "https://www.cnbc.com/2026/11/18/kash-patel-hearing-mar-a-lago-gala.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-19T23:14:31.278179Z"
-    },
-    {
-      "id": "5f1a9b1af6a13329c3b9b3a22ff639fd",
-      "title": "Daily News 19 / 11 / 2026",
-      "summary": "European Commission Daily news Brussels, 19 Nov 2026 Commission adopts its November infringement procedures\nTo help citizens and businesses benefit fully from the European Union's legislation, the Commission maint...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2516",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T23:15:23.925689Z"
-    }
-  ],
-  "alerts": [
-    {
-      "id": "96bd196d969f0813d7b4018ac16c38a8",
-      "title": "The Atlantic Brief: After the U.S. Midterms, Trans-Atlantic Defense Cooperation",
-      "summary": "<p>For this edition of The Atlantic Brief, the Royal United Services Institute and War on the Rocks present a dialogue on the future of trans-Atlantic defense cooperation following the U.S. midterm elections. Participating experts from the United Kingdom, continental Europe, and the United States bring decades of first-hand experience in the armed forces, diplomacy, and foreign policy.The panel will explore what the midterms mean for U.S. force posture, NATO, and support for Ukraine. It will also cover European investment in defense capabilities, the questions of strained supply chains, and whether NATO or the European Union should lead in countering Russian</p>\n<p>The post <a href=\"https://warontherocks.com/the-atlantic-brief-after-the-u-s-midterms-trans-atlantic-defense-cooperation/\">The Atlantic Brief: After the U.S. Midterms, Trans-Atlantic Defense Cooperation</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
-      "link": "https://warontherocks.com/the-atlantic-brief-after-the-u-s-midterms-trans-atlantic-defense-cooperation/",
-      "source": "War on the Rocks",
-      "score": 37,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE",
-        "RUSSIA",
-        "UK",
-        "UKRAINE",
-        "US"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-19T23:15:31.999861Z"
-    },
-    {
-      "id": "a41477788659c09ee7e980c96f50fb61",
-      "title": "Latest Oil Market News and Analysis for Nov. 20",
-      "summary": "Oil edged higher after a volatile session on Thursday, with futures on track for a third weekly decline as traders weigh the risk of renewed US strikes on Iran against signs of ample supply.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-19/latest-oil-market-news-and-analysis-for-nov-20",
-      "source": "Bloomberg",
-      "score": 29,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "MIDDLE_EAST"
-      ],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-19T23:14:27.465764Z"
-    },
-    {
-      "id": "3dd495f36f231bd2bccc964b658a6545",
-      "title": "Federal Reserve issues FOMC statement",
-      "summary": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-      "source": "Federal Reserve",
-      "score": 23,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-19T23:14:31.789092Z"
-    },
-    {
-      "id": "0830ce29c49395f0cbf0823c00f1b6a1",
-      "title": "One of the world's most contested seas is proving too much for Asia's leaders to resolve",
-      "summary": "The ASEAN summit in the Philippines failed to conclude the Code of Conduct for the South China Sea despite Manila pledging it would happen this year.",
-      "link": "https://www.cnbc.com/2026/11/19/south-china-sea-china-asean-coc.html",
-      "source": "CNBC",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [
-        "CHINA"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-19T23:14:31.633399Z"
-    },
-    {
-      "id": "85bf14fb596c200f5c6bc91259ab3c74",
-      "title": "The Bank of England, the Monetary Authority of Singapore, and the Bank of Thailand: Project Meridian FX APAC",
-      "summary": "Joint media release",
-      "link": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release",
-      "source": "Bank of England",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-19T23:15:24.586242Z"
-    },
-    {
-      "id": "7e6ffe206a316216f6daec647836efa7",
-      "title": "California attorney general issues Nvidia subpoena in probe of China chip diversion",
-      "summary": "The investigation by California Attorney General Rob Bonta comes on the heels of the resignation of Nvidia CEO Jensen Huang.",
-      "link": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
-      "source": "CNBC",
-      "score": 19,
-      "severity": "HIGH",
-      "regime": "AI",
-      "tickers": [
-        "NVDA"
-      ],
-      "regions": [
-        "CHINA"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T23:14:31.278128Z"
-    },
-    {
-      "id": "8e8b245e2ff372e307589bbc9a31960b",
-      "title": "Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test",
-      "summary": "India\u2019s inflation, which has been on the rise for 12 straight months, is becoming a risk to growth and to the reversal of foreign inflows.",
-      "link": "https://www.cnbc.com/2026/11/19/india-inflation-foreign-investor-nifty50.html",
-      "source": "CNBC",
-      "score": 17,
-      "severity": "HIGH",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-19T23:14:31.633461Z"
-    },
-    {
-      "id": "6a152129040a3f90adcd0ce97f96cac3",
-      "title": "Stock Losses to Extend in Asia, Nasdaq Futures Dip: Markets Wrap",
-      "summary": "A global stock selloff was set to deepen in Asia as Anthropic PBC\u2019s solid market debut failed to reverse pessimism around the artificial-intelligence trade and stem a broader retreat from technology shares.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-19/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "score": 13,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [
-        "QQQ"
-      ],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T23:14:27.465710Z"
-    },
-    {
-      "id": "939cc798ca57731e207ed9924ef3119d",
-      "title": "The dangers of AI \u2018handoverism\u2019",
-      "summary": "Even some of Silicon Valley\u2019s most enthusiastic capitalists are alarmed about how far and fast the technology is moving",
-      "link": "https://www.ft.com/content/45194ea4-4fa7-4c38-a5b2-137eb7402d57?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T23:14:29.716193Z"
-    },
-    {
-      "id": "2b974030af25081361be46a0f54b07ae",
-      "title": "Personal Income and Outlays, September 2026",
-      "summary": "<p>Personal income increased $54.5 billion (0.2 percent at a monthly rate) in September, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)&ndash;personal income less personal current taxes&ndash;increased $52.7 billion (0.2 percent), and personal consumption expenditures (PCE) increased $113.1 billion (0.5 percent). Personal outlays&ndash;the sum of PCE, personal interest payments, and personal current transfer payments&ndash;increased $113.0 billion in September. Personal saving was $911.1 billion, and the personal saving rate&ndash;personal saving as a percentage of DPI&ndash;was 3.8 percent.\n</p>",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
-      "source": "BEA",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-19T23:15:10.890280Z"
-    },
-    {
-      "id": "dcf5de88508b404bdd3006aa650fbabc",
-      "title": "Kash Patel skips House hearing after Mar-a-Lago gala with $50,000 access",
-      "summary": "Kash Patel missed a congressional hearing after appearing the night before at a Mar-a-Lago gala offering donors of $50,000 access to top officials.",
-      "link": "https://www.cnbc.com/2026/11/18/kash-patel-hearing-mar-a-lago-gala.html",
-      "source": "CNBC",
-      "score": 6,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-19T23:14:31.278179Z"
-    },
-    {
-      "id": "5f1a9b1af6a13329c3b9b3a22ff639fd",
-      "title": "Daily News 19 / 11 / 2026",
-      "summary": "European Commission Daily news Brussels, 19 Nov 2026 Commission adopts its November infringement procedures\nTo help citizens and businesses benefit fully from the European Union's legislation, the Commission maint...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2516",
-      "source": "European Commission",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T23:15:23.925689Z"
-    },
-    {
-      "id": "1959a49305d39848f69656e111e45717",
-      "title": "Long-awaited pensions dashboard expected to launch in summer 2027",
-      "summary": "<p> <img alt=\"The pension dashboard is set to launch next summer \" src=\"https://www.cityam.com/wp-content/uploads/2025/09/01K0P5Z5Q30W14Q0FN2M0GR5JW-e1756718452748.jpg?w=1200\" /> </p>Pensions minister Torsten Bell has confirmed the pension dashboard is set to become publicly available next summer, bringing to an end the wait for the service. Speaking at an event on Thursday, Bell said that there is now less than a year to go to the launch of the first dashboard, which is expected to <a href=\"https://www.cityam.com/long-awaited-pensions-dashboard-expected-to-launch-in-summer-2027/\">[...]</a>",
-      "link": "https://www.cityam.com/long-awaited-pensions-dashboard-expected-to-launch-in-summer-2027/",
-      "source": "CityAM",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T23:15:25.718979Z"
-    },
-    {
-      "id": "b74a6ced0e80a07af0fcd4a9d4e7c8a3",
-      "title": "Anthropic tops $2trillion valuation after blockbuster IPO",
-      "summary": "<p> <img alt=\"Anthropic&#039;s long-awaited IPO has arrived\" src=\"https://www.cityam.com/wp-content/uploads/2026/11/Claude-maker-Anthropic.jpg?w=1200\" /> </p>Anthropic&#8217;s valuation surged above $2trillion after its shares began trading in New York on Thursday, following the Claude-maker&#8217;s record-breaking IPO. The company&#8217;s stock opened 33.4 per cent higher than its IPO price when trading began nearly three hours after Wall Street open, surpassing initial expectations from grey markets where investors speculated on the price of <a href=\"https://www.cityam.com/us-stocks-open-higher-as-anthropic-makes-blockbuster-debut/\">[...]</a>",
-      "link": "https://www.cityam.com/us-stocks-open-higher-as-anthropic-makes-blockbuster-debut/",
-      "source": "CityAM",
-      "score": 5,
-      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [],
@@ -740,145 +182,254 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T23:15:25.719076Z"
+      "published": "2026-11-19T23:23:36.937723Z"
     },
     {
-      "id": "9aab4c6512098416d33d27f560df2e64",
-      "title": "How Energy Security Is Reshaping Global Investment Decisions",
-      "summary": "Energy security has traditionally been viewed as a policy issue, but we're seeing a fundamental shift. It's increasingly becoming a capital allocation decision, with significant implications for the banks, investors, and companies financing the energy sector. Over the past five years, global energy markets have experienced two major crises: the energy crisis of 2022 and the 2026 disruption through the Strait of Hormuz. History has shown us that the duration of a crisis and the amount of supply disrupted often determine whether it leads to lasting\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/How-Energy-Security-Is-Reshaping-Global-Investment-Decisions.html",
-      "source": "OilPrice",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
+      "id": "975215140d6fb91e1b5dd20e7d0eabf5",
+      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
       "tickers": [],
       "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T23:15:29.905524Z"
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-19T23:23:37.287662Z"
     },
     {
-      "id": "2e291066b0aba5da921a619ade97faf5",
-      "title": "EXCLUSIVE: Saudis preparing for Yemen campaign to last well into 2027 - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa0txUndxQmRJNU1nMUZSVFc5d29OSDkwSWMyOHB5VC1iVVZwY3IwaEs3VlRkbEtHVGRmazVueE1YSjA4N0N4OElZRVdfM0trQ0dnaVptanRtRWVoWERLMWlUUjlac2ozVlRjMWdqMDQ1ODBOZEtPb2FKVFA0UXJpeGdjck1OMDMzdEhhQ2piTDd4QnFXcm12Vlh2MHVKcXNQUTdJWVZlV1E?oc=5\" target=\"_blank\">EXCLUSIVE: Saudis preparing for Yemen campaign to last well into 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa0txUndxQmRJNU1nMUZSVFc5d29OSDkwSWMyOHB5VC1iVVZwY3IwaEs3VlRkbEtHVGRmazVueE1YSjA4N0N4OElZRVdfM0trQ0dnaVptanRtRWVoWERLMWlUUjlac2ozVlRjMWdqMDQ1ODBOZEtPb2FKVFA0UXJpeGdjck1OMDMzdEhhQ2piTDd4QnFXcm12Vlh2MHVKcXNQUTdJWVZlV1E?oc=5",
+      "id": "a8cbbfd75ac6c620ab7ebedbe01c1ef7",
+      "title": "Canada\u2019s Banking Regulator Moves to Level Playing Field for Smaller Lenders - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQWEdMckltLVpQY0YwdURFR3BHWG56NzFjRFlMeXZJV3ZTdjhaM0NrNEcxN3RuSHduX0VlWTNNeDBZZmVFUV9sVjFBeUg1NVNzTlB4cE9BaVNuSDRIZXNxeS1VQWhGZkhoelg0UkFiWWdrVVlSNE9oeWRIcWJJZXdyUFFQNmRPLXZnNERlamlmRGZsbmZvUm42LWRfS1B6UXB6c1dHd3BsaUtTWEUxdm9XS1pBcHNBaUJWRUVhbDVJTQ?oc=5\" target=\"_blank\">Canada\u2019s Banking Regulator Moves to Level Playing Field for Smaller Lenders</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWEdMckltLVpQY0YwdURFR3BHWG56NzFjRFlMeXZJV3ZTdjhaM0NrNEcxN3RuSHduX0VlWTNNeDBZZmVFUV9sVjFBeUg1NVNzTlB4cE9BaVNuSDRIZXNxeS1VQWhGZkhoelg0UkFiWWdrVVlSNE9oeWRIcWJJZXdyUFFQNmRPLXZnNERlamlmRGZsbmZvUm42LWRfS1B6UXB6c1dHd3BsaUtTWEUxdm9XS1pBcHNBaUJWRUVhbDVJTQ?oc=5",
       "source": "Google Macro",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T23:15:34.893443Z"
-    },
-    {
-      "id": "e266c7b3c959d5d0e610491a331d21fe",
-      "title": "U.S. International Trade in Goods and Services, September 2026",
-      "summary": "<p>The U.S. goods and services trade deficit decreased in September 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $105.7 billion in August (revised) to $105.0 billion in September, as exports increased more than imports. The goods deficit decreased $0.7 billion in September to $135.9 billion. The services surplus decreased less than $0.1 billion in September to $30.9 billion.</p>",
-      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-september-2026",
-      "source": "BEA",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-19T23:15:10.890109Z"
-    },
-    {
-      "id": "8d74d9c8a3940f97dcf507ae6ac15ac8",
-      "title": "GDP (Advance Estimate), 3rd Quarter 2026",
-      "summary": "<p>Real gross domestic product (GDP) increased at an annual rate of 3.4 percent in the third quarter of 2026 (July, August, and September), according to the advance estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the second quarter, real GDP increased 2.2 percent. The contributors to the increase in real GDP in the third quarter were increases in investment, consumer spending, and government spending that were partly offset by a decrease in exports. Imports, which are a subtraction in the calculation of GDP, increased. </p>",
-      "link": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
-      "source": "BEA",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-19T23:15:10.890190Z"
-    },
-    {
-      "id": "f3ad19484c6fecbaf044ea6d0b25af3e",
-      "title": "Commissioner Roswall's opening speech at the EPP Group Hearing, \u2018From Stress Test to Solutions \u2013 Practical Lessons for the Birds and Habitats Directives'",
-      "summary": "European Commission Speech Brussels, 19 Nov 2026 Dear Norbert, Honourable Members, ladies and gentlemen,\nI am delighted to join you today.\nLet me begin by thanking the EPP Group for organising this hearing on ...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2519",
-      "source": "European Commission",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-19T23:15:23.925632Z"
-    },
-    {
-      "id": "f1496675abcfbeb692423f571b082747",
-      "title": "1inch integrates Hyperliquid\u2019s perpetual futures contracts into its dApp and wallet platform",
-      "summary": "Users can fund a position with a token they already hold on 1inch, which will be routed to USDC and deposited to a balance on Hyperliquid.",
-      "link": "https://www.theblock.co/news/web3/2026-11-19-1inch-integrates-hyperliquid-perpetual-futures-443574",
-      "source": "The Block",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [
         "DXY"
       ],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-19T23:15:32.869599Z"
+      "published": "2026-11-19T23:24:33.399794Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "86d3ccd923e7f3bf70b5121541506e50",
+      "title": "Critical Java Vulnerability Requires Immediate Patching",
+      "summary": "<h2><strong>Purpose</strong></h2>\n<p>CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114938\" target=\"_blank\">CVE-2026-114938</a>. This critical memory-corruption vulnerability, known as \u201cJava4Shell,\u201d affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution.</p>\n<h2><strong>Actions to take</strong></h2>\n<p>CISA urges organizations to take the following actions:</p>\n<ul>\n<li>Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, including those bundled with third-party applications or included in container images and appliances. <strong>Note:</strong> JDKs and Java runtimes may not appear as separate entries in software inventories.</li>\n<li>Apply relevant Java and vendor patches as soon as they are available, prioritizing internet-facing systems.\n<ul>\n<li>If immediate patching is not feasible, implement temporary compensating controls, such as restricting and validating Base64 input at the application boundary, enforcing input-size limits, and limiting unauthenticated access.</li>\n</ul>\n</li>\n<li>Review <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Oracle\u2019s security advisory</a> for guidance on patching and affected products and versions.</li>\n<li>&nbsp;Monitor for indicators of suspicious activity, including rogue runtimes, unexpected JVM crashes, and suspicious Java processes.</li>\n</ul>\n<h2><strong>Resources</strong></h2>\n<p>CISA urges network defenders to review the following resource and apply necessary updates:</p>\n<h3>Vendor Guidance</h3>\n<ul>\n<li>Oracle\u2019s Security Advisory: <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Critical Security Patch Update \u2013 November 2026</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.</p>\n<h2><strong>Acknowledgements&nbsp;</strong></h2>\n<p>The Canadian Centre for Cyber Security (Cyber Centre) contributed to this Alert.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+      "source": "CISA",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BUND"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-19T23:24:31.219113Z"
     },
     {
-      "id": "fb2d99aa5e09e5e614aff5c6880e5876",
-      "title": "CISA nominee LoSapio vows to bolster cyber defenses while denying Jan. 6 Capitol attack",
-      "summary": "President Donald Trump\u2019s pick to lead the Cybersecurity and Infrastructure Security Agency pledged to lawmakers to uncover any \u201cgaps\u201d within the organization while also denying the Capitol came under attack on January 6, 2021.",
-      "link": "https://therecord.media/cisa-losapio-nomination-trump",
-      "source": "The Record",
-      "score": 1,
-      "severity": "LOW",
+      "id": "eebfe3a7fe6733dbad138471ca115739",
+      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-19T23:23:37.344310Z"
+    },
+    {
+      "id": "93cbc3e040f8199edf4a01602a5a520a",
+      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+      "summary": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-19T23:23:37.344352Z"
+    },
+    {
+      "id": "4740f38e638ecb672198f99c5232e62e",
+      "title": "Tokenized Stocks Shrug Off the Crypto Selloff",
+      "summary": "Tokenized Stocks Shrug Off the Crypto Selloff Bitcoin fell as low as $62k late Saturday, its sixth straight weekly decline. Meanwhile, tokenized stocks crossed $4 billion in onchain value for the first time on Nov 11. Tokenized stocks are now roughly five times their value on January 1. Tokenized stocks track equity prices, not crypto, [\u2026]",
+      "link": "https://www.theblock.co/newsletters/tokenization-briefing/2026-11-19-tokenized-stocks-shrug-off-crypto-selloff-442829",
+      "source": "The Block",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-19T23:24:30.217522Z"
+    },
+    {
+      "id": "fdccf8abd10692cc392a6138263b76f9",
+      "title": "Correspondence: Study to examine skills retention in UK financial services",
+      "summary": "Letter from the Economic Secretary to the Treasury commissioning Progress Together to examine skills retention and talent flows in UK financial services.",
+      "link": "https://www.gov.uk/government/publications/study-to-examine-skills-retention-in-uk-financial-services",
+      "source": "HM Treasury",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-19T23:24:22.042902Z"
+    },
+    {
+      "id": "f55f9afaf74dae1a14c24838688b7115",
+      "title": "Anthropic was supposed to save the AI trade. What went wrong?",
+      "summary": "Technology stocks tanked despite one of the most hotly anticipated tech IPOs in years. Why Anthropic couldn't revive AI animal spirits.",
+      "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
+      "source": "CNBC",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-19T23:23:36.937723Z"
+    },
+    {
+      "id": "975215140d6fb91e1b5dd20e7d0eabf5",
+      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
+      "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-19T23:15:33.580687Z"
+      "published": "2026-11-19T23:23:37.287662Z"
+    },
+    {
+      "id": "a8cbbfd75ac6c620ab7ebedbe01c1ef7",
+      "title": "Canada\u2019s Banking Regulator Moves to Level Playing Field for Smaller Lenders - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQWEdMckltLVpQY0YwdURFR3BHWG56NzFjRFlMeXZJV3ZTdjhaM0NrNEcxN3RuSHduX0VlWTNNeDBZZmVFUV9sVjFBeUg1NVNzTlB4cE9BaVNuSDRIZXNxeS1VQWhGZkhoelg0UkFiWWdrVVlSNE9oeWRIcWJJZXdyUFFQNmRPLXZnNERlamlmRGZsbmZvUm42LWRfS1B6UXB6c1dHd3BsaUtTWEUxdm9XS1pBcHNBaUJWRUVhbDVJTQ?oc=5\" target=\"_blank\">Canada\u2019s Banking Regulator Moves to Level Playing Field for Smaller Lenders</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWEdMckltLVpQY0YwdURFR3BHWG56NzFjRFlMeXZJV3ZTdjhaM0NrNEcxN3RuSHduX0VlWTNNeDBZZmVFUV9sVjFBeUg1NVNzTlB4cE9BaVNuSDRIZXNxeS1VQWhGZkhoelg0UkFiWWdrVVlSNE9oeWRIcWJJZXdyUFFQNmRPLXZnNERlamlmRGZsbmZvUm42LWRfS1B6UXB6c1dHd3BsaUtTWEUxdm9XS1pBcHNBaUJWRUVhbDVJTQ?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-19T23:24:33.399794Z"
     }
   ]
 }
