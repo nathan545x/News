@@ -1,707 +1,91 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-19T11:14:00.246074Z",
+  "generated_at": "2026-11-19T11:20:37.304354Z",
   "market_regime": {
     "regime": "GEO-SHOCK",
     "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
     "critical_alerts": 1,
-    "high_alerts": 6,
-    "last_updated": "2026-11-19T11:14:00.246090Z"
+    "high_alerts": 1,
+    "last_updated": "2026-11-19T11:20:37.304369Z"
   },
   "top_signals": [
     {
-      "id": "9dd450df708edb075aaa8c631f28bebf",
-      "title": "Equinor Hack Adds to Wave of Cyberattacks on Energy Companies",
-      "summary": "Equinor, the largest supplier of pipeline gas to Europe, is fighting an ongoing cyberattack on its IT systems while the Hormuz crisis keeps European gas prices nearly triple last year\u2019s level. The FBI warned last week that state-aligned hackers and criminals are using an AI-powered tool to break into corporate networks in under three hours. In the past two years, hackers aligned with Russia and Iran have opened a valve at a Norwegian dam, damaged the controls at more than 30 Polish wind and solar farms and switched off safety alarms at a\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/Equinor-Hack-Adds-to-Wave-of-Cyberattacks-on-Energy-Companies.html",
-      "source": "OilPrice",
-      "score": 30,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE",
-        "MIDDLE_EAST",
-        "RUSSIA"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-19T11:13:54.554943Z"
-    },
-    {
-      "id": "e5354cbca54e914226c2fbf538e395af",
-      "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
-      "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
-      "source": "BleepingComputer",
-      "score": 23,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "UK",
-        "UKRAINE"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-19T11:13:57.167157Z"
-    },
-    {
-      "id": "7f83b5e2784973609db7faecabc06adf",
-      "title": "Energy markets can \u2018manage without\u2019 the Strait of Hormuz, says IEA",
-      "summary": "Watchdog says it is possible to balance oil markets without restoring flows through the strait, but will take time and investment",
-      "link": "https://www.ft.com/content/1e00aad2-0007-4328-8492-0fea09aa69ad?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-19T11:13:04.450071Z"
-    },
-    {
-      "id": "86d3ccd923e7f3bf70b5121541506e50",
-      "title": "Critical Java Vulnerability Requires Immediate Patching",
-      "summary": "<h2><strong>Purpose</strong></h2>\n<p>CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114938\" target=\"_blank\">CVE-2026-114938</a>. This critical memory-corruption vulnerability, known as \u201cJava4Shell,\u201d affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution.</p>\n<h2><strong>Actions to take</strong></h2>\n<p>CISA urges organizations to take the following actions:</p>\n<ul>\n<li>Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, including those bundled with third-party applications or included in container images and appliances. <strong>Note:</strong> JDKs and Java runtimes may not appear as separate entries in software inventories.</li>\n<li>Apply relevant Java and vendor patches as soon as they are available, prioritizing internet-facing systems.\n<ul>\n<li>If immediate patching is not feasible, implement temporary compensating controls, such as restricting and validating Base64 input at the application boundary, enforcing input-size limits, and limiting unauthenticated access.</li>\n</ul>\n</li>\n<li>Review <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Oracle\u2019s security advisory</a> for guidance on patching and affected products and versions.</li>\n<li>&nbsp;Monitor for indicators of suspicious activity, including rogue runtimes, unexpected JVM crashes, and suspicious Java processes.</li>\n</ul>\n<h2><strong>Resources</strong></h2>\n<p>CISA urges network defenders to review the following resource and apply necessary updates:</p>\n<h3>Vendor Guidance</h3>\n<ul>\n<li>Oracle\u2019s Security Advisory: <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Critical Security Patch Update \u2013 November 2026</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.</p>\n<h2><strong>Acknowledgements&nbsp;</strong></h2>\n<p>The Canadian Centre for Cyber Security (Cyber Centre) contributed to this Alert.</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-      "source": "CISA",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "BUND"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-19T11:13:57.534253Z"
-    },
-    {
-      "id": "2415ab76ca8efce8789b1c439975a197",
-      "title": "Waller, The Economic Outlook and Some Thoughts on Labor Market Dynamism",
-      "summary": "Speech At the Bank of England Watchers Conference  King\u2019s Business School and Money, Macro and Finance Society, London, United Kingdom",
-      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
-      "source": "Federal Reserve",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-19T11:13:05.846974Z"
-    },
-    {
-      "id": "eebfe3a7fe6733dbad138471ca115739",
-      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-19T11:13:05.790588Z"
-    },
-    {
-      "id": "93cbc3e040f8199edf4a01602a5a520a",
-      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "summary": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-19T11:13:05.790628Z"
-    },
-    {
-      "id": "fdccf8abd10692cc392a6138263b76f9",
-      "title": "Correspondence: Study to examine skills retention in UK financial services",
-      "summary": "Letter from the Economic Secretary to the Treasury commissioning Progress Together to examine skills retention and talent flows in UK financial services.",
-      "link": "https://www.gov.uk/government/publications/study-to-examine-skills-retention-in-uk-financial-services",
-      "source": "HM Treasury",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-19T11:13:50.085011Z"
-    },
-    {
-      "id": "300d1bba75d5505e3fdc6923e8d97d6f",
-      "title": "Anthropic to list on Wall Street in biggest IPO ever",
-      "summary": "Shares in maker of Claude to begin trading after raising a total of $107bn",
-      "link": "https://www.ft.com/content/7a6b211d-c73b-4953-97ee-ed92dab8ee07?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T11:13:04.171065Z"
-    },
-    {
-      "id": "ad2b3cf2c4c7dc1c8412daa8bb6411a4",
-      "title": "Angry America and its housing market",
-      "summary": "The country is failing to provide enough houses to enable people to move to where the good jobs are",
-      "link": "https://www.ft.com/content/9450175e-3da3-4df3-bd93-050683bbb98a?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "US"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T11:13:04.171117Z"
-    },
-    {
-      "id": "a69fcd79b487ae34f095c6288c52945e",
-      "title": "Anthropic\u2019s magnificent IPO",
-      "summary": "The frontier AI lab will become the newest trillion-dollar company on US public markets",
-      "link": "https://www.ft.com/content/74801528-833d-412f-b939-24f68c2c3fc1?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [
-        "DXY"
-      ],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T11:13:04.450112Z"
-    },
-    {
-      "id": "975215140d6fb91e1b5dd20e7d0eabf5",
-      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-19T11:13:05.733375Z"
-    }
-  ],
-  "alerts": [
-    {
-      "id": "9dd450df708edb075aaa8c631f28bebf",
-      "title": "Equinor Hack Adds to Wave of Cyberattacks on Energy Companies",
-      "summary": "Equinor, the largest supplier of pipeline gas to Europe, is fighting an ongoing cyberattack on its IT systems while the Hormuz crisis keeps European gas prices nearly triple last year\u2019s level. The FBI warned last week that state-aligned hackers and criminals are using an AI-powered tool to break into corporate networks in under three hours. In the past two years, hackers aligned with Russia and Iran have opened a valve at a Norwegian dam, damaged the controls at more than 30 Polish wind and solar farms and switched off safety alarms at a\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/Equinor-Hack-Adds-to-Wave-of-Cyberattacks-on-Energy-Companies.html",
-      "source": "OilPrice",
-      "score": 30,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE",
-        "MIDDLE_EAST",
-        "RUSSIA"
-      ],
-      "assets": [
-        "AI",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-19T11:13:54.554943Z"
-    },
-    {
-      "id": "e5354cbca54e914226c2fbf538e395af",
-      "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
-      "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
-      "source": "BleepingComputer",
-      "score": 23,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "UK",
-        "UKRAINE"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-19T11:13:57.167157Z"
-    },
-    {
-      "id": "7f83b5e2784973609db7faecabc06adf",
-      "title": "Energy markets can \u2018manage without\u2019 the Strait of Hormuz, says IEA",
-      "summary": "Watchdog says it is possible to balance oil markets without restoring flows through the strait, but will take time and investment",
-      "link": "https://www.ft.com/content/1e00aad2-0007-4328-8492-0fea09aa69ad?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "COMMODITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-19T11:13:04.450071Z"
-    },
-    {
-      "id": "86d3ccd923e7f3bf70b5121541506e50",
-      "title": "Critical Java Vulnerability Requires Immediate Patching",
-      "summary": "<h2><strong>Purpose</strong></h2>\n<p>CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114938\" target=\"_blank\">CVE-2026-114938</a>. This critical memory-corruption vulnerability, known as \u201cJava4Shell,\u201d affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution.</p>\n<h2><strong>Actions to take</strong></h2>\n<p>CISA urges organizations to take the following actions:</p>\n<ul>\n<li>Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, including those bundled with third-party applications or included in container images and appliances. <strong>Note:</strong> JDKs and Java runtimes may not appear as separate entries in software inventories.</li>\n<li>Apply relevant Java and vendor patches as soon as they are available, prioritizing internet-facing systems.\n<ul>\n<li>If immediate patching is not feasible, implement temporary compensating controls, such as restricting and validating Base64 input at the application boundary, enforcing input-size limits, and limiting unauthenticated access.</li>\n</ul>\n</li>\n<li>Review <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Oracle\u2019s security advisory</a> for guidance on patching and affected products and versions.</li>\n<li>&nbsp;Monitor for indicators of suspicious activity, including rogue runtimes, unexpected JVM crashes, and suspicious Java processes.</li>\n</ul>\n<h2><strong>Resources</strong></h2>\n<p>CISA urges network defenders to review the following resource and apply necessary updates:</p>\n<h3>Vendor Guidance</h3>\n<ul>\n<li>Oracle\u2019s Security Advisory: <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Critical Security Patch Update \u2013 November 2026</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.</p>\n<h2><strong>Acknowledgements&nbsp;</strong></h2>\n<p>The Canadian Centre for Cyber Security (Cyber Centre) contributed to this Alert.</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-      "source": "CISA",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "BUND"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-19T11:13:57.534253Z"
-    },
-    {
-      "id": "2415ab76ca8efce8789b1c439975a197",
-      "title": "Waller, The Economic Outlook and Some Thoughts on Labor Market Dynamism",
-      "summary": "Speech At the Bank of England Watchers Conference  King\u2019s Business School and Money, Macro and Finance Society, London, United Kingdom",
-      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
-      "source": "Federal Reserve",
-      "score": 18,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-19T11:13:05.846974Z"
-    },
-    {
-      "id": "eebfe3a7fe6733dbad138471ca115739",
-      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-19T11:13:05.790588Z"
-    },
-    {
-      "id": "93cbc3e040f8199edf4a01602a5a520a",
-      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "summary": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-19T11:13:05.790628Z"
-    },
-    {
-      "id": "fdccf8abd10692cc392a6138263b76f9",
-      "title": "Correspondence: Study to examine skills retention in UK financial services",
-      "summary": "Letter from the Economic Secretary to the Treasury commissioning Progress Together to examine skills retention and talent flows in UK financial services.",
-      "link": "https://www.gov.uk/government/publications/study-to-examine-skills-retention-in-uk-financial-services",
-      "source": "HM Treasury",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-19T11:13:50.085011Z"
-    },
-    {
-      "id": "300d1bba75d5505e3fdc6923e8d97d6f",
-      "title": "Anthropic to list on Wall Street in biggest IPO ever",
-      "summary": "Shares in maker of Claude to begin trading after raising a total of $107bn",
-      "link": "https://www.ft.com/content/7a6b211d-c73b-4953-97ee-ed92dab8ee07?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T11:13:04.171065Z"
-    },
-    {
-      "id": "ad2b3cf2c4c7dc1c8412daa8bb6411a4",
-      "title": "Angry America and its housing market",
-      "summary": "The country is failing to provide enough houses to enable people to move to where the good jobs are",
-      "link": "https://www.ft.com/content/9450175e-3da3-4df3-bd93-050683bbb98a?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [
-        "US"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T11:13:04.171117Z"
-    },
-    {
-      "id": "a69fcd79b487ae34f095c6288c52945e",
-      "title": "Anthropic\u2019s magnificent IPO",
-      "summary": "The frontier AI lab will become the newest trillion-dollar company on US public markets",
-      "link": "https://www.ft.com/content/74801528-833d-412f-b939-24f68c2c3fc1?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [
-        "DXY"
-      ],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T11:13:04.450112Z"
-    },
-    {
-      "id": "975215140d6fb91e1b5dd20e7d0eabf5",
-      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-19T11:13:05.733375Z"
-    },
-    {
-      "id": "ee9f2718a7c9ab96384c3a61f2b6bc56",
-      "title": "Anthropic\u2019s $107 billion raise set to surpass Spacex\u2019s IPO haul",
+      "id": "cdd2b784908165296ec172a145659a5f",
+      "title": "APEC live: China, US, Russia vow to increase oil supply",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/11/19/anthropic-s-usd107-billion-raise-set-to-surpass-spacex-s-ipo-haul",
-      "source": "CoinDesk",
-      "score": 10,
+      "link": "https://asia.nikkei.com/politics/international-relations/apec/apec-live-china-us-russia-vow-to-increase-oil-supply",
+      "source": "Nikkei Asia",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "CHINA",
+        "RUSSIA"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-19T11:20:29.384007Z"
+    },
+    {
+      "id": "cc418e8843e5f804a15808b6378a760c",
+      "title": "Trump, Xi, Putin conclude historic meeting on Ukraine war, nuclear arms - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdzN3ZEpqNW0wZlBtajBvdU9pSzk1MG9RQ2NhVlBuaFMwaVZBWVhkLVNiMnZHTTBRS2J6Z2xkdWkxRERWakdCc0JBdGtUUlhVbHJlR2dMcVVTV0lCNWVGNi1XSG5zVTVrRW84V0JVZUhOVGhKT0FZMk1uRTd3anM1RFhPUWxWNFdQWFF2WjhhYVFCdnpPMGlLYThjMDExVC1fVFJfeFZ2ZXM?oc=5\" target=\"_blank\">Trump, Xi, Putin conclude historic meeting on Ukraine war, nuclear arms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdzN3ZEpqNW0wZlBtajBvdU9pSzk1MG9RQ2NhVlBuaFMwaVZBWVhkLVNiMnZHTTBRS2J6Z2xkdWkxRERWakdCc0JBdGtUUlhVbHJlR2dMcVVTV0lCNWVGNi1XSG5zVTVrRW84V0JVZUhOVGhKT0FZMk1uRTd3anM1RFhPUWxWNFdQWFF2WjhhYVFCdnpPMGlLYThjMDExVC1fVFJfeFZ2ZXM?oc=5",
+      "source": "Google Macro",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-19T11:20:35.773612Z"
+    },
+    {
+      "id": "1d32b45dae93dc22f8662e269cae50cc",
+      "title": "Anthropic IPO Has Stock Bulls Dreaming of a Year-End Rally",
+      "summary": "The IPO might be moment dip buyers have been waiting for.",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-11-19/anthropic-ipo-has-stock-bulls-dreaming-of-a-year-end-rally",
+      "source": "Bloomberg",
+      "score": 13,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
@@ -718,67 +102,138 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T11:13:56.774411Z"
+      "published": "2026-11-19T11:19:25.349740Z"
     },
     {
-      "id": "2bb7062f5ca1329a5b88accafb14be62",
-      "title": "Koenigsegg Stake Sale Values Hyper-car Maker at \u20ac1.3 Billion",
-      "summary": "Koenigsegg Automotive AB, the Swedish maker of multimillion-dollar track-focused cars, has sold a minority stake to a private equity firm owned by Temasek Holdings Pte, valuing the manufacturer at about \u20ac1.3 billion ($1.4 billion) as it weighs going public.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-19/koenigsegg-stake-sale-values-hyper-car-maker-at-1-3-billion",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [
-        "DXY"
-      ],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-19T11:13:02.422208Z"
-    },
-    {
-      "id": "950144ca14c71661e37fe20b7d2c2df4",
-      "title": "AI Stocks Resume Their Slide - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE1jMVRGNmM2LXVUalRrSEREd3VLUDl4alRBLTZDaEhhWjdCbXZJQlNxZnBhQWdvS2lrLVRESjg3LUZLRkpEQ0wtUFZVLWcwNllRX190Vm5PcHlEcndfODBubE9HZDVHVkMyYWFiMlo0YkpkVWpCdXhLaGhHZG8?oc=5\" target=\"_blank\">AI Stocks Resume Their Slide</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jMVRGNmM2LXVUalRrSEREd3VLUDl4alRBLTZDaEhhWjdCbXZJQlNxZnBhQWdvS2lrLVRESjg3LUZLRkpEQ0wtUFZVLWcwNllRX190Vm5PcHlEcndfODBubE9HZDVHVkMyYWFiMlo0YkpkVWpCdXhLaGhHZG8?oc=5",
-      "source": "Google Macro",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T11:13:59.811368Z"
-    },
-    {
-      "id": "7e60120211ae17ed1bc623e06d308f27",
-      "title": "Microsoft\u2019s Agent Framework PyPI package compromised to steal credentials",
-      "summary": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' systems. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
-      "source": "BleepingComputer",
+      "id": "565afae2ceae75d87188afc271b8c232",
+      "title": "Japan government under fire for using conspiracy theory YouTuber in PR",
+      "summary": "The government says that the use of the YouTuber is intended to deepen understanding of security policy among people in their 20s and 30s.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/19/japan/conspiracy-theory-youtuber-pr/",
+      "source": "Japan Times",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "JAPAN"
+      ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-19T11:13:57.167230Z"
+      "published": "2026-11-19T11:20:29.663940Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "cdd2b784908165296ec172a145659a5f",
+      "title": "APEC live: China, US, Russia vow to increase oil supply",
+      "summary": "",
+      "link": "https://asia.nikkei.com/politics/international-relations/apec/apec-live-china-us-russia-vow-to-increase-oil-supply",
+      "source": "Nikkei Asia",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "CHINA",
+        "RUSSIA"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-19T11:20:29.384007Z"
+    },
+    {
+      "id": "cc418e8843e5f804a15808b6378a760c",
+      "title": "Trump, Xi, Putin conclude historic meeting on Ukraine war, nuclear arms - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdzN3ZEpqNW0wZlBtajBvdU9pSzk1MG9RQ2NhVlBuaFMwaVZBWVhkLVNiMnZHTTBRS2J6Z2xkdWkxRERWakdCc0JBdGtUUlhVbHJlR2dMcVVTV0lCNWVGNi1XSG5zVTVrRW84V0JVZUhOVGhKT0FZMk1uRTd3anM1RFhPUWxWNFdQWFF2WjhhYVFCdnpPMGlLYThjMDExVC1fVFJfeFZ2ZXM?oc=5\" target=\"_blank\">Trump, Xi, Putin conclude historic meeting on Ukraine war, nuclear arms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdzN3ZEpqNW0wZlBtajBvdU9pSzk1MG9RQ2NhVlBuaFMwaVZBWVhkLVNiMnZHTTBRS2J6Z2xkdWkxRERWakdCc0JBdGtUUlhVbHJlR2dMcVVTV0lCNWVGNi1XSG5zVTVrRW84V0JVZUhOVGhKT0FZMk1uRTd3anM1RFhPUWxWNFdQWFF2WjhhYVFCdnpPMGlLYThjMDExVC1fVFJfeFZ2ZXM?oc=5",
+      "source": "Google Macro",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-19T11:20:35.773612Z"
+    },
+    {
+      "id": "1d32b45dae93dc22f8662e269cae50cc",
+      "title": "Anthropic IPO Has Stock Bulls Dreaming of a Year-End Rally",
+      "summary": "The IPO might be moment dip buyers have been waiting for.",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-11-19/anthropic-ipo-has-stock-bulls-dreaming-of-a-year-end-rally",
+      "source": "Bloomberg",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-19T11:19:25.349740Z"
+    },
+    {
+      "id": "565afae2ceae75d87188afc271b8c232",
+      "title": "Japan government under fire for using conspiracy theory YouTuber in PR",
+      "summary": "The government says that the use of the YouTuber is intended to deepen understanding of security policy among people in their 20s and 30s.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/19/japan/conspiracy-theory-youtuber-pr/",
+      "source": "Japan Times",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-19T11:20:29.663940Z"
     }
   ]
 }
