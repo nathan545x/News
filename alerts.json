@@ -1,33 +1,55 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-19T23:24:33.944893Z",
+  "generated_at": "2026-11-19T23:32:26.263852Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "AI",
+    "dominant_driver": "AI",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 4,
-    "last_updated": "2026-11-19T23:24:33.944909Z"
+    "critical_alerts": 1,
+    "high_alerts": 0,
+    "last_updated": "2026-11-19T23:32:26.263861Z"
   },
   "top_signals": [
     {
-      "id": "86d3ccd923e7f3bf70b5121541506e50",
-      "title": "Critical Java Vulnerability Requires Immediate Patching",
-      "summary": "<h2><strong>Purpose</strong></h2>\n<p>CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114938\" target=\"_blank\">CVE-2026-114938</a>. This critical memory-corruption vulnerability, known as \u201cJava4Shell,\u201d affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution.</p>\n<h2><strong>Actions to take</strong></h2>\n<p>CISA urges organizations to take the following actions:</p>\n<ul>\n<li>Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, including those bundled with third-party applications or included in container images and appliances. <strong>Note:</strong> JDKs and Java runtimes may not appear as separate entries in software inventories.</li>\n<li>Apply relevant Java and vendor patches as soon as they are available, prioritizing internet-facing systems.\n<ul>\n<li>If immediate patching is not feasible, implement temporary compensating controls, such as restricting and validating Base64 input at the application boundary, enforcing input-size limits, and limiting unauthenticated access.</li>\n</ul>\n</li>\n<li>Review <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Oracle\u2019s security advisory</a> for guidance on patching and affected products and versions.</li>\n<li>&nbsp;Monitor for indicators of suspicious activity, including rogue runtimes, unexpected JVM crashes, and suspicious Java processes.</li>\n</ul>\n<h2><strong>Resources</strong></h2>\n<p>CISA urges network defenders to review the following resource and apply necessary updates:</p>\n<h3>Vendor Guidance</h3>\n<ul>\n<li>Oracle\u2019s Security Advisory: <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Critical Security Patch Update \u2013 November 2026</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.</p>\n<h2><strong>Acknowledgements&nbsp;</strong></h2>\n<p>The Canadian Centre for Cyber Security (Cyber Centre) contributed to this Alert.</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-      "source": "CISA",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
+      "id": "e69d33c416e857d66eafe3631d897767",
+      "title": "Cramer says Nvidia\u2019s woes are trumping Anthropic excitement for the rest of the AI trade",
+      "summary": "Jim Cramer warned that Nvidia's leadership crisis is overshadowing Anthropic's historic IPO.",
+      "link": "https://www.cnbc.com/2026/11/19/nvidia-anthropic-ipo-ai-trade.html",
+      "source": "CNBC",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "AI",
       "tickers": [
-        "BUND"
+        "NVDA"
       ],
       "regions": [],
       "assets": [
-        "AI",
-        "RATES"
+        "AI"
       ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-19T23:31:22.102440Z"
+    },
+    {
+      "id": "fc8da0e425afb4f692040f228f00a467",
+      "title": "Putin defends his 'Yalta', as 3-way summit draws parallels to post-war carve-up - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNS2RyVUFBbDcxYWtIYjFjd0NtUmhUMzJDSXZqbWhkTFNYYXkzU3kzRF9WZnBTTGphWmI0UmQzUFFMRk9WODN6ZmlGVk1QSXNBR01hdk93RG9SbWJrb3RObU40aWFNUjFNX1JLTnlXbmdqSmlZLUVOaWdtMFBqZVYwV3BhbmFlcS1TRTFRUnZ3YXlzN190M3dXa0QtazJ5d1NVT2huaDFGR29OSTgtVnNmLUxfVWx0R1BVeEE?oc=5\" target=\"_blank\">Putin defends his 'Yalta', as 3-way summit draws parallels to post-war carve-up</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS2RyVUFBbDcxYWtIYjFjd0NtUmhUMzJDSXZqbWhkTFNYYXkzU3kzRF9WZnBTTGphWmI0UmQzUFFMRk9WODN6ZmlGVk1QSXNBR01hdk93RG9SbWJrb3RObU40aWFNUjFNX1JLTnlXbmdqSmlZLUVOaWdtMFBqZVYwV3BhbmFlcS1TRTFRUnZ3YXlzN190M3dXa0QtazJ5d1NVT2huaDFGR29OSTgtVnNmLUxfVWx0R1BVeEE?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -42,155 +64,15 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-19T23:24:31.219113Z"
+      "published": "2026-11-19T23:32:24.692551Z"
     },
     {
-      "id": "eebfe3a7fe6733dbad138471ca115739",
-      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-19T23:23:37.344310Z"
-    },
-    {
-      "id": "93cbc3e040f8199edf4a01602a5a520a",
-      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "summary": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-19T23:23:37.344352Z"
-    },
-    {
-      "id": "4740f38e638ecb672198f99c5232e62e",
-      "title": "Tokenized Stocks Shrug Off the Crypto Selloff",
-      "summary": "Tokenized Stocks Shrug Off the Crypto Selloff Bitcoin fell as low as $62k late Saturday, its sixth straight weekly decline. Meanwhile, tokenized stocks crossed $4 billion in onchain value for the first time on Nov 11. Tokenized stocks are now roughly five times their value on January 1. Tokenized stocks track equity prices, not crypto, [\u2026]",
-      "link": "https://www.theblock.co/newsletters/tokenization-briefing/2026-11-19-tokenized-stocks-shrug-off-crypto-selloff-442829",
-      "source": "The Block",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "CRYPTO",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-19T23:24:30.217522Z"
-    },
-    {
-      "id": "fdccf8abd10692cc392a6138263b76f9",
-      "title": "Correspondence: Study to examine skills retention in UK financial services",
-      "summary": "Letter from the Economic Secretary to the Treasury commissioning Progress Together to examine skills retention and talent flows in UK financial services.",
-      "link": "https://www.gov.uk/government/publications/study-to-examine-skills-retention-in-uk-financial-services",
-      "source": "HM Treasury",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-19T23:24:22.042902Z"
-    },
-    {
-      "id": "f55f9afaf74dae1a14c24838688b7115",
-      "title": "Anthropic was supposed to save the AI trade. What went wrong?",
-      "summary": "Technology stocks tanked despite one of the most hotly anticipated tech IPOs in years. Why Anthropic couldn't revive AI animal spirits.",
-      "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
-      "source": "CNBC",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T23:23:36.937723Z"
-    },
-    {
-      "id": "975215140d6fb91e1b5dd20e7d0eabf5",
-      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
+      "id": "f8caad69bcf94c1b2281d26aa95080b1",
+      "title": "Anthropic Becomes World\u2019s 7th Most Valuable Company After IPO",
+      "summary": "Anthropic PBC\u2019s blockbuster IPO lifted the company into the ranks of the most valuable in the world, with shares closing 17% from the offer price to give it a $1.8 trillion fully diluted market value.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-becomes-world-s-7th-most-valuable-company-after-ipo",
+      "source": "Bloomberg",
+      "score": 9,
       "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
@@ -198,47 +80,99 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-19T23:23:37.287662Z"
+      "published": "2026-11-19T23:31:17.583181Z"
     },
     {
-      "id": "a8cbbfd75ac6c620ab7ebedbe01c1ef7",
-      "title": "Canada\u2019s Banking Regulator Moves to Level Playing Field for Smaller Lenders - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQWEdMckltLVpQY0YwdURFR3BHWG56NzFjRFlMeXZJV3ZTdjhaM0NrNEcxN3RuSHduX0VlWTNNeDBZZmVFUV9sVjFBeUg1NVNzTlB4cE9BaVNuSDRIZXNxeS1VQWhGZkhoelg0UkFiWWdrVVlSNE9oeWRIcWJJZXdyUFFQNmRPLXZnNERlamlmRGZsbmZvUm42LWRfS1B6UXB6c1dHd3BsaUtTWEUxdm9XS1pBcHNBaUJWRUVhbDVJTQ?oc=5\" target=\"_blank\">Canada\u2019s Banking Regulator Moves to Level Playing Field for Smaller Lenders</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWEdMckltLVpQY0YwdURFR3BHWG56NzFjRFlMeXZJV3ZTdjhaM0NrNEcxN3RuSHduX0VlWTNNeDBZZmVFUV9sVjFBeUg1NVNzTlB4cE9BaVNuSDRIZXNxeS1VQWhGZkhoelg0UkFiWWdrVVlSNE9oeWRIcWJJZXdyUFFQNmRPLXZnNERlamlmRGZsbmZvUm42LWRfS1B6UXB6c1dHd3BsaUtTWEUxdm9XS1pBcHNBaUJWRUVhbDVJTQ?oc=5",
+      "id": "a081094a8502f0e9f819c3a9cb18edc5",
+      "title": "Oil prices inch up as tanker disruptions offset surplus supply outlook - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFBtUDlUUFRpNG10b0liSVcyVlBGVVhLUDVkMURVbE5hcWhDMmNObDE0UGJWYzNOWC1ZclZQVGxxMWFiYzhpYTJOclltdjd4TE1VZ2tvSFQwUVpUNlByUDlyMnFZT3VwM2dNVkN2cGhsYzPSAXZBVV95cUxPOXR0UzdlXzhDZFRsSmFYZW1IckdsSWN3d1JQOU5WVVRBc2pqeERSbV95N0owa0J2TDdNUE5MUGlBMVJHSzRKVEprR0swb203SGt4b0FQU0xYTWhfSWdId3lnZ3hWazJ6SWhxckViUk1xdkd0dlZB?oc=5\" target=\"_blank\">Oil prices inch up as tanker disruptions offset surplus supply outlook</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBtUDlUUFRpNG10b0liSVcyVlBGVVhLUDVkMURVbE5hcWhDMmNObDE0UGJWYzNOWC1ZclZQVGxxMWFiYzhpYTJOclltdjd4TE1VZ2tvSFQwUVpUNlByUDlyMnFZT3VwM2dNVkN2cGhsYzPSAXZBVV95cUxPOXR0UzdlXzhDZFRsSmFYZW1IckdsSWN3d1JQOU5WVVRBc2pqeERSbV95N0owa0J2TDdNUE5MUGlBMVJHSzRKVEprR0swb203SGt4b0FQU0xYTWhfSWdId3lnZ3hWazJ6SWhxckViUk1xdkd0dlZB?oc=5",
       "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-19T23:32:26.263825Z"
+    },
+    {
+      "id": "565afae2ceae75d87188afc271b8c232",
+      "title": "Japan government under fire for using conspiracy theory YouTuber in PR",
+      "summary": "The government says that the use of the YouTuber is intended to deepen understanding of security policy among people in their 20s and 30s.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/19/japan/conspiracy-theory-youtuber-pr/",
+      "source": "Japan Times",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
-      "tickers": [
-        "DXY"
-      ],
+      "tickers": [],
       "regions": [
-        "UK"
+        "JAPAN"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-19T23:24:33.399794Z"
+      "published": "2026-11-19T23:32:17.805438Z"
     }
   ],
   "alerts": [
     {
-      "id": "86d3ccd923e7f3bf70b5121541506e50",
-      "title": "Critical Java Vulnerability Requires Immediate Patching",
-      "summary": "<h2><strong>Purpose</strong></h2>\n<p>CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114938\" target=\"_blank\">CVE-2026-114938</a>. This critical memory-corruption vulnerability, known as \u201cJava4Shell,\u201d affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution.</p>\n<h2><strong>Actions to take</strong></h2>\n<p>CISA urges organizations to take the following actions:</p>\n<ul>\n<li>Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, including those bundled with third-party applications or included in container images and appliances. <strong>Note:</strong> JDKs and Java runtimes may not appear as separate entries in software inventories.</li>\n<li>Apply relevant Java and vendor patches as soon as they are available, prioritizing internet-facing systems.\n<ul>\n<li>If immediate patching is not feasible, implement temporary compensating controls, such as restricting and validating Base64 input at the application boundary, enforcing input-size limits, and limiting unauthenticated access.</li>\n</ul>\n</li>\n<li>Review <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Oracle\u2019s security advisory</a> for guidance on patching and affected products and versions.</li>\n<li>&nbsp;Monitor for indicators of suspicious activity, including rogue runtimes, unexpected JVM crashes, and suspicious Java processes.</li>\n</ul>\n<h2><strong>Resources</strong></h2>\n<p>CISA urges network defenders to review the following resource and apply necessary updates:</p>\n<h3>Vendor Guidance</h3>\n<ul>\n<li>Oracle\u2019s Security Advisory: <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Critical Security Patch Update \u2013 November 2026</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.</p>\n<h2><strong>Acknowledgements&nbsp;</strong></h2>\n<p>The Canadian Centre for Cyber Security (Cyber Centre) contributed to this Alert.</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-      "source": "CISA",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
+      "id": "e69d33c416e857d66eafe3631d897767",
+      "title": "Cramer says Nvidia\u2019s woes are trumping Anthropic excitement for the rest of the AI trade",
+      "summary": "Jim Cramer warned that Nvidia's leadership crisis is overshadowing Anthropic's historic IPO.",
+      "link": "https://www.cnbc.com/2026/11/19/nvidia-anthropic-ipo-ai-trade.html",
+      "source": "CNBC",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "AI",
       "tickers": [
-        "BUND"
+        "NVDA"
       ],
       "regions": [],
       "assets": [
-        "AI",
-        "RATES"
+        "AI"
       ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-19T23:31:22.102440Z"
+    },
+    {
+      "id": "fc8da0e425afb4f692040f228f00a467",
+      "title": "Putin defends his 'Yalta', as 3-way summit draws parallels to post-war carve-up - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNS2RyVUFBbDcxYWtIYjFjd0NtUmhUMzJDSXZqbWhkTFNYYXkzU3kzRF9WZnBTTGphWmI0UmQzUFFMRk9WODN6ZmlGVk1QSXNBR01hdk93RG9SbWJrb3RObU40aWFNUjFNX1JLTnlXbmdqSmlZLUVOaWdtMFBqZVYwV3BhbmFlcS1TRTFRUnZ3YXlzN190M3dXa0QtazJ5d1NVT2huaDFGR29OSTgtVnNmLUxfVWx0R1BVeEE?oc=5\" target=\"_blank\">Putin defends his 'Yalta', as 3-way summit draws parallels to post-war carve-up</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS2RyVUFBbDcxYWtIYjFjd0NtUmhUMzJDSXZqbWhkTFNYYXkzU3kzRF9WZnBTTGphWmI0UmQzUFFMRk9WODN6ZmlGVk1QSXNBR01hdk93RG9SbWJrb3RObU40aWFNUjFNX1JLTnlXbmdqSmlZLUVOaWdtMFBqZVYwV3BhbmFlcS1TRTFRUnZ3YXlzN190M3dXa0QtazJ5d1NVT2huaDFGR29OSTgtVnNmLUxfVWx0R1BVeEE?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -253,155 +187,15 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-19T23:24:31.219113Z"
+      "published": "2026-11-19T23:32:24.692551Z"
     },
     {
-      "id": "eebfe3a7fe6733dbad138471ca115739",
-      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-19T23:23:37.344310Z"
-    },
-    {
-      "id": "93cbc3e040f8199edf4a01602a5a520a",
-      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "summary": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-19T23:23:37.344352Z"
-    },
-    {
-      "id": "4740f38e638ecb672198f99c5232e62e",
-      "title": "Tokenized Stocks Shrug Off the Crypto Selloff",
-      "summary": "Tokenized Stocks Shrug Off the Crypto Selloff Bitcoin fell as low as $62k late Saturday, its sixth straight weekly decline. Meanwhile, tokenized stocks crossed $4 billion in onchain value for the first time on Nov 11. Tokenized stocks are now roughly five times their value on January 1. Tokenized stocks track equity prices, not crypto, [\u2026]",
-      "link": "https://www.theblock.co/newsletters/tokenization-briefing/2026-11-19-tokenized-stocks-shrug-off-crypto-selloff-442829",
-      "source": "The Block",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "CRYPTO",
-      "tickers": [
-        "BTC"
-      ],
-      "regions": [],
-      "assets": [
-        "AI",
-        "CRYPTO",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-19T23:24:30.217522Z"
-    },
-    {
-      "id": "fdccf8abd10692cc392a6138263b76f9",
-      "title": "Correspondence: Study to examine skills retention in UK financial services",
-      "summary": "Letter from the Economic Secretary to the Treasury commissioning Progress Together to examine skills retention and talent flows in UK financial services.",
-      "link": "https://www.gov.uk/government/publications/study-to-examine-skills-retention-in-uk-financial-services",
-      "source": "HM Treasury",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-19T23:24:22.042902Z"
-    },
-    {
-      "id": "f55f9afaf74dae1a14c24838688b7115",
-      "title": "Anthropic was supposed to save the AI trade. What went wrong?",
-      "summary": "Technology stocks tanked despite one of the most hotly anticipated tech IPOs in years. Why Anthropic couldn't revive AI animal spirits.",
-      "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
-      "source": "CNBC",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T23:23:36.937723Z"
-    },
-    {
-      "id": "975215140d6fb91e1b5dd20e7d0eabf5",
-      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
+      "id": "f8caad69bcf94c1b2281d26aa95080b1",
+      "title": "Anthropic Becomes World\u2019s 7th Most Valuable Company After IPO",
+      "summary": "Anthropic PBC\u2019s blockbuster IPO lifted the company into the ranks of the most valuable in the world, with shares closing 17% from the offer price to give it a $1.8 trillion fully diluted market value.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-becomes-world-s-7th-most-valuable-company-after-ipo",
+      "source": "Bloomberg",
+      "score": 9,
       "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
@@ -409,27 +203,57 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-19T23:23:37.287662Z"
+      "published": "2026-11-19T23:31:17.583181Z"
     },
     {
-      "id": "a8cbbfd75ac6c620ab7ebedbe01c1ef7",
-      "title": "Canada\u2019s Banking Regulator Moves to Level Playing Field for Smaller Lenders - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQWEdMckltLVpQY0YwdURFR3BHWG56NzFjRFlMeXZJV3ZTdjhaM0NrNEcxN3RuSHduX0VlWTNNeDBZZmVFUV9sVjFBeUg1NVNzTlB4cE9BaVNuSDRIZXNxeS1VQWhGZkhoelg0UkFiWWdrVVlSNE9oeWRIcWJJZXdyUFFQNmRPLXZnNERlamlmRGZsbmZvUm42LWRfS1B6UXB6c1dHd3BsaUtTWEUxdm9XS1pBcHNBaUJWRUVhbDVJTQ?oc=5\" target=\"_blank\">Canada\u2019s Banking Regulator Moves to Level Playing Field for Smaller Lenders</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWEdMckltLVpQY0YwdURFR3BHWG56NzFjRFlMeXZJV3ZTdjhaM0NrNEcxN3RuSHduX0VlWTNNeDBZZmVFUV9sVjFBeUg1NVNzTlB4cE9BaVNuSDRIZXNxeS1VQWhGZkhoelg0UkFiWWdrVVlSNE9oeWRIcWJJZXdyUFFQNmRPLXZnNERlamlmRGZsbmZvUm42LWRfS1B6UXB6c1dHd3BsaUtTWEUxdm9XS1pBcHNBaUJWRUVhbDVJTQ?oc=5",
+      "id": "a081094a8502f0e9f819c3a9cb18edc5",
+      "title": "Oil prices inch up as tanker disruptions offset surplus supply outlook - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFBtUDlUUFRpNG10b0liSVcyVlBGVVhLUDVkMURVbE5hcWhDMmNObDE0UGJWYzNOWC1ZclZQVGxxMWFiYzhpYTJOclltdjd4TE1VZ2tvSFQwUVpUNlByUDlyMnFZT3VwM2dNVkN2cGhsYzPSAXZBVV95cUxPOXR0UzdlXzhDZFRsSmFYZW1IckdsSWN3d1JQOU5WVVRBc2pqeERSbV95N0owa0J2TDdNUE5MUGlBMVJHSzRKVEprR0swb203SGt4b0FQU0xYTWhfSWdId3lnZ3hWazJ6SWhxckViUk1xdkd0dlZB?oc=5\" target=\"_blank\">Oil prices inch up as tanker disruptions offset surplus supply outlook</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBtUDlUUFRpNG10b0liSVcyVlBGVVhLUDVkMURVbE5hcWhDMmNObDE0UGJWYzNOWC1ZclZQVGxxMWFiYzhpYTJOclltdjd4TE1VZ2tvSFQwUVpUNlByUDlyMnFZT3VwM2dNVkN2cGhsYzPSAXZBVV95cUxPOXR0UzdlXzhDZFRsSmFYZW1IckdsSWN3d1JQOU5WVVRBc2pqeERSbV95N0owa0J2TDdNUE5MUGlBMVJHSzRKVEprR0swb203SGt4b0FQU0xYTWhfSWdId3lnZ3hWazJ6SWhxckViUk1xdkd0dlZB?oc=5",
       "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-19T23:32:26.263825Z"
+    },
+    {
+      "id": "565afae2ceae75d87188afc271b8c232",
+      "title": "Japan government under fire for using conspiracy theory YouTuber in PR",
+      "summary": "The government says that the use of the YouTuber is intended to deepen understanding of security policy among people in their 20s and 30s.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/19/japan/conspiracy-theory-youtuber-pr/",
+      "source": "Japan Times",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
-      "tickers": [
-        "DXY"
-      ],
+      "tickers": [],
       "regions": [
-        "UK"
+        "JAPAN"
       ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-19T23:24:33.399794Z"
+      "published": "2026-11-19T23:32:17.805438Z"
     }
   ]
 }
