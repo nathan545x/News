@@ -1,46 +1,151 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-19T00:59:26.812716Z",
+  "generated_at": "2026-11-19T01:04:50.065950Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-11-19T00:59:26.812728Z"
+    "critical_alerts": 1,
+    "high_alerts": 3,
+    "last_updated": "2026-11-19T01:04:50.065966Z"
   },
   "top_signals": [
     {
-      "id": "2c96463076e4188177e2a212f7ae8d2d",
-      "title": "Korea Investors Buy Record Amount of Treasuries in September",
-      "summary": "South Korean investors bought a record amount of US Treasuries in September, a sharp reversal after dumping an unprecedented volume of the securities earlier this year.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-19/korea-investors-buy-record-amount-of-treasuries-in-september",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "id": "328453325d67fb82874a206a4c5864ba",
+      "title": "Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike",
+      "summary": "Continued inflation above the Fed's 2% target is pushing central bank officials into a more aggressive stance.",
+      "link": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
+      "source": "CNBC",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-19T00:58:27.563387Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-19T01:03:53.130797Z"
     },
     {
-      "id": "31a4f73a07e41ecfc86a6fadebdc36b9",
-      "title": "Xi greets Trump at Shenzhen at airport in rare move",
-      "summary": "Xi's welcome marked a reciprocation for Trump's in-person greeting for the Chinese leader when he visited the U.S. in September.",
-      "link": "https://www.japantimes.co.jp/news/2026/11/18/asia-pacific/china-xi-trump-greet-shenzhen/",
+      "id": "dedbd673287190a3fe55c5d1d920a7b5",
+      "title": "Saudis preparing for Yemen campaign to last well into 2027",
+      "summary": "Saudi officials now foresee the campaign, which has become the most active front in the wider Iran war, stretching on for up to six months.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/19/world/saudi-yemen-campaign-2027/",
       "source": "Japan Times",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI"
       ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-19T01:04:43.092703Z"
+    },
+    {
+      "id": "83cc7e0ff2e438026492a19486a6429e",
+      "title": "Permian Growth Turns Moderate Despite War",
+      "summary": "Crude oil production in the most prolific basin in the United States has remained moderate despite the war premium that pushed prices to over $100 a barrel. For some, however, the very fact of production growth in the Permian is a surprise. The Permian has been the engine driving U.S. crude oil output growth for over a decade. Annual growth in the past consistently exceeded 1 million barrels--until 2020, when pandemic lockdowns killed demand and plunged U.S. crude into negative territory briefly. Since then, shale production growth and Permian\u2026",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Permian-Growth-Turns-Moderate-Despite-War.html",
+      "source": "OilPrice",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-19T01:04:45.224932Z"
+    },
+    {
+      "id": "95b6cf754595a07ed9cad39b3669e8f4",
+      "title": "Gold Rises From 14-Month Low as Dip Buying Offsets Hawkish Fed",
+      "summary": "Gold climbed from a 14-month low as dip buyers helped cushion growing expectations that the Federal Reserve will hike interest rates.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-18/gold-steadies-near-14-month-low-as-fed-signals-more-rate-hikes",
+      "source": "Bloomberg",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-19T01:03:49.888478Z"
+    },
+    {
+      "id": "6ee27680164a5cee043c2835437305d8",
+      "title": "Blue Owl Plans $513 Million CMBS for Amazon-Leased Data Center",
+      "summary": "Blue Owl Capital Inc. is preparing to sell $513 million of commercial mortgage backed securities to fund the acquisition of a Northern Virginia data center that\u2019s fully leased to Amazon.com Inc., according to people with knowledge of the matter.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/blue-owl-plans-513-million-cmbs-for-amazon-leased-data-center",
+      "source": "Bloomberg",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "NVDA",
@@ -50,40 +155,193 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T00:59:20.814947Z"
+      "published": "2026-11-19T01:03:49.888549Z"
+    },
+    {
+      "id": "d74dc2bd09c2912687d5e3884281361a",
+      "title": "Be ready to rebuild from scratch after cyberattacks, UK watchdogs tell banks",
+      "summary": "<p> <img alt=\"PRA chief Katharine Braddick said cyber hygiene is the most significant mitigant to current risks\" src=\"https://www.cityam.com/wp-content/uploads/2026/10/kb-1200x800-1.jpeg?w=1200\" /> </p>The UK\u2019s top financial watchdogs have ordered banks to be prepared to rebuild their systems from scratch if hit by a cyberattack following an explosive rise in new threats. The Bank of England and Financial Conduct Authority (FCA) have introduced a new set of guidance that brings responsibilities for firms in line with the National <a href=\"https://www.cityam.com/banks-cyberattack-rebuild-uk-watchdogs/\">[...]</a>",
+      "link": "https://www.cityam.com/banks-cyberattack-rebuild-uk-watchdogs/",
+      "source": "CityAM",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-19T01:04:40.477718Z"
+    },
+    {
+      "id": "d76c64105c16a4fa046a387b360f4831",
+      "title": "Scotch whisky casks: Inside the overlooked business",
+      "summary": "<p> <img alt=\"Whisky casks stacked at Oakwood Cooperage, which now employs as many as 100 coopers\" src=\"https://www.cityam.com/wp-content/uploads/2026/11/whisky-cask-cooperage-coopers.jpg?w=1200\" /> </p>Whisky Business: City AM\u2019s monthly look at the world of whisky. Join The Scotch Malt Whisky Society for \u00a3100 and your first bottle, worth \u00a370, is on us. Get VIP access to whiskies from more than 150 distilleries, over 20 new single cask malts every month and the Society\u2019s Members\u2019 Rooms in Edinburgh, London and <a href=\"https://www.cityam.com/scotch-whisky-casks-business/\">[...]</a>",
+      "link": "https://www.cityam.com/scotch-whisky-casks-business/",
+      "source": "CityAM",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-19T01:04:40.477620Z"
     }
   ],
   "alerts": [
     {
-      "id": "2c96463076e4188177e2a212f7ae8d2d",
-      "title": "Korea Investors Buy Record Amount of Treasuries in September",
-      "summary": "South Korean investors bought a record amount of US Treasuries in September, a sharp reversal after dumping an unprecedented volume of the securities earlier this year.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-19/korea-investors-buy-record-amount-of-treasuries-in-september",
-      "source": "Bloomberg",
-      "score": 9,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "id": "328453325d67fb82874a206a4c5864ba",
+      "title": "Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike",
+      "summary": "Continued inflation above the Fed's 2% target is pushing central bank officials into a more aggressive stance.",
+      "link": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
+      "source": "CNBC",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "RATES",
       "tickers": [],
       "regions": [],
       "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-19T00:58:27.563387Z"
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-19T01:03:53.130797Z"
     },
     {
-      "id": "31a4f73a07e41ecfc86a6fadebdc36b9",
-      "title": "Xi greets Trump at Shenzhen at airport in rare move",
-      "summary": "Xi's welcome marked a reciprocation for Trump's in-person greeting for the Chinese leader when he visited the U.S. in September.",
-      "link": "https://www.japantimes.co.jp/news/2026/11/18/asia-pacific/china-xi-trump-greet-shenzhen/",
+      "id": "dedbd673287190a3fe55c5d1d920a7b5",
+      "title": "Saudis preparing for Yemen campaign to last well into 2027",
+      "summary": "Saudi officials now foresee the campaign, which has become the most active front in the wider Iran war, stretching on for up to six months.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/19/world/saudi-yemen-campaign-2027/",
       "source": "Japan Times",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
       "assets": [
         "AI"
       ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-19T01:04:43.092703Z"
+    },
+    {
+      "id": "83cc7e0ff2e438026492a19486a6429e",
+      "title": "Permian Growth Turns Moderate Despite War",
+      "summary": "Crude oil production in the most prolific basin in the United States has remained moderate despite the war premium that pushed prices to over $100 a barrel. For some, however, the very fact of production growth in the Permian is a surprise. The Permian has been the engine driving U.S. crude oil output growth for over a decade. Annual growth in the past consistently exceeded 1 million barrels--until 2020, when pandemic lockdowns killed demand and plunged U.S. crude into negative territory briefly. Since then, shale production growth and Permian\u2026",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Permian-Growth-Turns-Moderate-Despite-War.html",
+      "source": "OilPrice",
+      "score": 23,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "US"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-19T01:04:45.224932Z"
+    },
+    {
+      "id": "95b6cf754595a07ed9cad39b3669e8f4",
+      "title": "Gold Rises From 14-Month Low as Dip Buying Offsets Hawkish Fed",
+      "summary": "Gold climbed from a 14-month low as dip buyers helped cushion growing expectations that the Federal Reserve will hike interest rates.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-18/gold-steadies-near-14-month-low-as-fed-signals-more-rate-hikes",
+      "source": "Bloomberg",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-19T01:03:49.888478Z"
+    },
+    {
+      "id": "6ee27680164a5cee043c2835437305d8",
+      "title": "Blue Owl Plans $513 Million CMBS for Amazon-Leased Data Center",
+      "summary": "Blue Owl Capital Inc. is preparing to sell $513 million of commercial mortgage backed securities to fund the acquisition of a Northern Virginia data center that\u2019s fully leased to Amazon.com Inc., according to people with knowledge of the matter.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/blue-owl-plans-513-million-cmbs-for-amazon-leased-data-center",
+      "source": "Bloomberg",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "NVDA",
@@ -93,7 +351,55 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-19T00:59:20.814947Z"
+      "published": "2026-11-19T01:03:49.888549Z"
+    },
+    {
+      "id": "d74dc2bd09c2912687d5e3884281361a",
+      "title": "Be ready to rebuild from scratch after cyberattacks, UK watchdogs tell banks",
+      "summary": "<p> <img alt=\"PRA chief Katharine Braddick said cyber hygiene is the most significant mitigant to current risks\" src=\"https://www.cityam.com/wp-content/uploads/2026/10/kb-1200x800-1.jpeg?w=1200\" /> </p>The UK\u2019s top financial watchdogs have ordered banks to be prepared to rebuild their systems from scratch if hit by a cyberattack following an explosive rise in new threats. The Bank of England and Financial Conduct Authority (FCA) have introduced a new set of guidance that brings responsibilities for firms in line with the National <a href=\"https://www.cityam.com/banks-cyberattack-rebuild-uk-watchdogs/\">[...]</a>",
+      "link": "https://www.cityam.com/banks-cyberattack-rebuild-uk-watchdogs/",
+      "source": "CityAM",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-19T01:04:40.477718Z"
+    },
+    {
+      "id": "d76c64105c16a4fa046a387b360f4831",
+      "title": "Scotch whisky casks: Inside the overlooked business",
+      "summary": "<p> <img alt=\"Whisky casks stacked at Oakwood Cooperage, which now employs as many as 100 coopers\" src=\"https://www.cityam.com/wp-content/uploads/2026/11/whisky-cask-cooperage-coopers.jpg?w=1200\" /> </p>Whisky Business: City AM\u2019s monthly look at the world of whisky. Join The Scotch Malt Whisky Society for \u00a3100 and your first bottle, worth \u00a370, is on us. Get VIP access to whiskies from more than 150 distilleries, over 20 new single cask malts every month and the Society\u2019s Members\u2019 Rooms in Edinburgh, London and <a href=\"https://www.cityam.com/scotch-whisky-casks-business/\">[...]</a>",
+      "link": "https://www.cityam.com/scotch-whisky-casks-business/",
+      "source": "CityAM",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-19T01:04:40.477620Z"
     }
   ]
 }
