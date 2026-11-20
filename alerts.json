@@ -1,58 +1,32 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-20T00:28:46.331973Z",
+  "generated_at": "2026-11-20T00:34:45.655978Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 2,
-    "last_updated": "2026-11-20T00:28:46.331986Z"
+    "critical_alerts": 2,
+    "high_alerts": 1,
+    "last_updated": "2026-11-20T00:34:45.655991Z"
   },
   "top_signals": [
     {
-      "id": "5673399dc9519fc3462cc719f0641a82",
-      "title": "Putin says EU is losing industry, falling behind competition, ahead of meeting with Trump and Xi",
-      "summary": "Putin used the speech to emphasize Russia's economic resilience despite U.S. sanctions, and played up opportunities for APEC members in the country.",
-      "link": "https://www.cnbc.com/2026/11/18/putin-apec-eu-trump-xi-meeting.html",
-      "source": "CNBC",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "RUSSIA"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-20T00:27:46.674217Z"
-    },
-    {
-      "id": "809aff4f2765aed16e71eec4941d2dc5",
-      "title": "India\u2019s Stock Rally Faces Valuation Test as Bond Allure Grows",
-      "summary": "India\u2019s stock rebound is approaching a crucial valuation test as rising bond yields make sovereign debt an increasingly viable alternative to equities.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-20/india-s-stock-rally-faces-valuation-test-as-bond-allure-grows",
+      "id": "993c7358adc464dbdc9aecc3e3994d2c",
+      "title": "Gold Set for Worst Week Since March on Hawkish Fed",
+      "summary": "Gold fell and was heading for the biggest weekly decline since March, as a hawkish Federal Reserve signaled more interest-rate hikes and a selloff in AI stocks pushed investors to sell the metal to cover losses.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff",
       "source": "Bloomberg",
-      "score": 15,
-      "severity": "HIGH",
+      "score": 33,
+      "severity": "CRITICAL",
       "regime": "RATES",
-      "tickers": [],
+      "tickers": [
+        "XAU"
+      ],
       "regions": [],
       "assets": [
+        "AI",
+        "COMMODITIES",
         "EQUITIES"
       ],
       "market_impact": {
@@ -67,20 +41,59 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-20T00:27:43.103477Z"
+      "published": "2026-11-20T00:33:48.080009Z"
     },
     {
-      "id": "b4ddb6b0c8359ec67b3843eb284f4d31",
-      "title": "VMware patches vCenter zero-day exploited in attacks since September",
-      "summary": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
-      "source": "BleepingComputer",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
+      "id": "ec11f51f04b148b12fbb8003370831dc",
+      "title": "Dollar Heads for Fourth Week of Gains Following Anthropic IPO",
+      "summary": "The dollar is headed for a fourth straight weekly gain as demand tied to the Anthropic PBC IPO further lifts the currency that has been supported by expectations of further Federal Reserve interest-rate hikes and elevated US Treasury yields.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-20/dollar-heads-for-fourth-week-of-gains-following-anthropic-ipo",
+      "source": "Bloomberg",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "TLT"
+      ],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-20T00:33:48.080061Z"
+    },
+    {
+      "id": "1bdb8a3ec283625d167521bc73abca60",
+      "title": "Iran intensifies Hormuz tanker attacks just as oil prices slide",
+      "summary": "It remains difficult to gauge how badly vessels are being hit as producers tend to remain tight-lipped due to security concerns.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/20/world/iran-hormuz-attacks-oil-prices/",
+      "source": "Japan Times",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -95,52 +108,26 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-20T00:28:42.941958Z"
+      "published": "2026-11-20T00:34:39.140082Z"
     }
   ],
   "alerts": [
     {
-      "id": "5673399dc9519fc3462cc719f0641a82",
-      "title": "Putin says EU is losing industry, falling behind competition, ahead of meeting with Trump and Xi",
-      "summary": "Putin used the speech to emphasize Russia's economic resilience despite U.S. sanctions, and played up opportunities for APEC members in the country.",
-      "link": "https://www.cnbc.com/2026/11/18/putin-apec-eu-trump-xi-meeting.html",
-      "source": "CNBC",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
-        "RUSSIA"
-      ],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-20T00:27:46.674217Z"
-    },
-    {
-      "id": "809aff4f2765aed16e71eec4941d2dc5",
-      "title": "India\u2019s Stock Rally Faces Valuation Test as Bond Allure Grows",
-      "summary": "India\u2019s stock rebound is approaching a crucial valuation test as rising bond yields make sovereign debt an increasingly viable alternative to equities.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-20/india-s-stock-rally-faces-valuation-test-as-bond-allure-grows",
+      "id": "993c7358adc464dbdc9aecc3e3994d2c",
+      "title": "Gold Set for Worst Week Since March on Hawkish Fed",
+      "summary": "Gold fell and was heading for the biggest weekly decline since March, as a hawkish Federal Reserve signaled more interest-rate hikes and a selloff in AI stocks pushed investors to sell the metal to cover losses.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff",
       "source": "Bloomberg",
-      "score": 15,
-      "severity": "HIGH",
+      "score": 33,
+      "severity": "CRITICAL",
       "regime": "RATES",
-      "tickers": [],
+      "tickers": [
+        "XAU"
+      ],
       "regions": [],
       "assets": [
+        "AI",
+        "COMMODITIES",
         "EQUITIES"
       ],
       "market_impact": {
@@ -155,20 +142,59 @@
         ]
       },
       "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-20T00:27:43.103477Z"
+      "published": "2026-11-20T00:33:48.080009Z"
     },
     {
-      "id": "b4ddb6b0c8359ec67b3843eb284f4d31",
-      "title": "VMware patches vCenter zero-day exploited in attacks since September",
-      "summary": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
-      "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
-      "source": "BleepingComputer",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
+      "id": "ec11f51f04b148b12fbb8003370831dc",
+      "title": "Dollar Heads for Fourth Week of Gains Following Anthropic IPO",
+      "summary": "The dollar is headed for a fourth straight weekly gain as demand tied to the Anthropic PBC IPO further lifts the currency that has been supported by expectations of further Federal Reserve interest-rate hikes and elevated US Treasury yields.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-20/dollar-heads-for-fourth-week-of-gains-following-anthropic-ipo",
+      "source": "Bloomberg",
+      "score": 31,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "TLT"
+      ],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-20T00:33:48.080061Z"
+    },
+    {
+      "id": "1bdb8a3ec283625d167521bc73abca60",
+      "title": "Iran intensifies Hormuz tanker attacks just as oil prices slide",
+      "summary": "It remains difficult to gauge how badly vessels are being hit as producers tend to remain tight-lipped due to security concerns.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/20/world/iran-hormuz-attacks-oil-prices/",
+      "source": "Japan Times",
+      "score": 21,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "MIDDLE_EAST"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -183,7 +209,7 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-20T00:28:42.941958Z"
+      "published": "2026-11-20T00:34:39.140082Z"
     }
   ]
 }
