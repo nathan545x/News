@@ -1,30 +1,66 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-20T22:09:39.785868Z",
+  "generated_at": "2026-11-20T22:15:34.128087Z",
   "market_regime": {
     "regime": "AI",
     "dominant_driver": "AI",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 3,
     "high_alerts": 2,
-    "last_updated": "2026-11-20T22:09:39.785881Z"
+    "last_updated": "2026-11-20T22:15:34.128104Z"
   },
   "top_signals": [
     {
-      "id": "0c8814daea154a78e6b583c0e5bc6e8c",
-      "title": "Nvidia faces US regulator\u2019s probe into its accounting",
-      "summary": "Securities and Exchange Commission\u2019s investigation adds to difficulties facing chip group after Jensen Huang\u2019s resignation",
-      "link": "https://www.ft.com/content/9b28ed72-aac4-4291-9734-bf60b66645ab?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 15,
-      "severity": "HIGH",
+      "id": "73cd654beb45e22032e21951fcff6e29",
+      "title": "Gold Logs Worst Week Since March on Hawkish Fed, AI Selloff",
+      "summary": "Gold slid for a fifth day \u2014 notching its biggest weekly decline since March \u2014 as a hawkish Federal Reserve signaled more interest-rate hikes and a rout in AI stocks spurred selling across metals markets.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff",
+      "source": "Bloomberg",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-20T22:14:32.623654Z"
+    },
+    {
+      "id": "70ba2845125a22a00b3fb24fd428c611",
+      "title": "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged",
+      "summary": "Trump said he discussed Jensen Huang with China's Xi. Bessent said the ousted Nvidia CEO didn't come up in talks he had while in China.",
+      "link": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
+      "source": "CNBC",
+      "score": 30,
+      "severity": "CRITICAL",
       "regime": "AI",
       "tickers": [
         "NVDA"
       ],
-      "regions": [],
-      "assets": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "NVDA",
@@ -34,23 +70,113 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-20T22:08:33.677780Z"
+      "published": "2026-11-20T22:14:36.227802Z"
     },
     {
-      "id": "08fe04377e46e6b85d9b9f47a7d72aff",
-      "title": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment",
-      "source": "CoinDesk",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "CRYPTO",
+      "id": "22f57c5fdb5f75b68b0ca5b267bdd355",
+      "title": "Ukraine Hits Ninth Russian Oil Refinery Since Start of November - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQUHdjLXl3WFY2c1NuaU9fLUJERHJGNHJQSlFKWVBoX2xLa2JYWC1lVllWLWxLU0EtSl9Hd3pTa19yZ1lwSGxJdXJfZXlpbTE5dnRzcTJxcjRwSC0xdnlPTmFFX3RvdG1hTDMyWDRsQld1QlBiWklUVzA4QlF4SmNkVkhqY1FoNnpsMHJVTmNWMG41MW1USWJqQi1EV2JDdFZvSWpNbEJaUkFZcU4xTE1FM0ZtVzE?oc=5\" target=\"_blank\">Ukraine Hits Ninth Russian Oil Refinery Since Start of November</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUHdjLXl3WFY2c1NuaU9fLUJERHJGNHJQSlFKWVBoX2xLa2JYWC1lVllWLWxLU0EtSl9Hd3pTa19yZ1lwSGxJdXJfZXlpbTE5dnRzcTJxcjRwSC0xdnlPTmFFX3RvdG1hTDMyWDRsQld1QlBiWklUVzA4QlF4SmNkVkhqY1FoNnpsMHJVTmNWMG41MW1USWJqQi1EV2JDdFZvSWpNbEJaUkFZcU4xTE1FM0ZtVzE?oc=5",
+      "source": "Google Macro",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "ETH"
+        "WTI"
+      ],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-20T22:15:32.012228Z"
+    },
+    {
+      "id": "b0561406c2dbf131df909b58c56ea4c5",
+      "title": "US Senate advances prediction market restrictions with DEATH BETS Act",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"US Senate advances prediction market restrictions with DEATH BETS Act\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7WS7SH44A7MXA0Q21TD4GY8/hi-when-will-the-prediction-market-take-place-and-what-effect-is-it-having-on-crypto-2.png\" /></p><p>The Senate-approved bill would ban prediction market contracts tied to war, assassination and death amid concerns over potential insider trading on military events.</p>",
+      "link": "https://cointelegraph.com/news/us-senate-advances-prediction-market-restrictions-with-death-bets-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-20T22:15:30.704072Z"
+    },
+    {
+      "id": "65c2c27fc7b63245d36bb8425755f6ad",
+      "title": "Nvidia Plunges as SEC Probe Deepens AI Market Selloff | Closing Bell",
+      "summary": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-20/nvidia-plunges-on-sec-probe-closing-bell-video",
+      "source": "Bloomberg",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
       ],
       "regions": [],
       "assets": [
         "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-20T22:14:32.623713Z"
+    },
+    {
+      "id": "d40aa3a8f787ad0ca751b67b30790087",
+      "title": "Fear and \u2018Hot Sauce\u2019: Young Investors Want To Catch Up",
+      "summary": "Buzzy stocks, leveraged ETFs, and a generation feeling left behind. BlackRock\u2019s Gargi Chaudhuri discusses ways investors can dabble in risky products while also leaning into time-proven strategies. On this week\u2019s \u201cBloomberg Money\u201d, she joins Tom Keene and Scarlet Fu, who gives a shoutout to @Eric Balchunas and his coverage of \u2018hot sauce\u2019 investment products. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-20/fear-and-hot-sauce-young-investors-want-to-catch-up-video",
+      "source": "Bloomberg",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -62,13 +188,100 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-20T22:09:36.539526Z"
+      "published": "2026-11-20T22:14:32.623806Z"
     },
     {
-      "id": "aced8ac87e85f1ee42014b210011bd21",
-      "title": "Grand Theft Auto VI smashes records with $3.8bn in sales",
-      "summary": "Consumers have already spent more on the video game than the top-grossing movie",
-      "link": "https://www.ft.com/content/6648bce8-41fc-4542-8f24-ab37f8acd5d7?syn-25a6b1a6=1",
+      "id": "c0ec13fcc3b5680b670651594f41eb44",
+      "title": "Japanese see current ties with China and Russia as worst on record, survey shows",
+      "summary": "Some 93% of respondents have described Japan-China relations as poor or somewhat poor, the highest since the government began posing the question.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/20/japan/politics/japan-china-russia-ties-survey/",
+      "source": "Japan Times",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA",
+        "JAPAN",
+        "RUSSIA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-20T22:15:26.080285Z"
+    },
+    {
+      "id": "1b7367f1b4f313433eed6f14a705891f",
+      "title": "Former Point72 head of proprietary research says AI could turn data into a new asset class for Wall Street",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/11/20/former-point72-head-of-proprietary-research-says-ai-could-turn-data-into-a-new-asset-class-for-wall-street",
+      "source": "CoinDesk",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-20T22:15:30.601341Z"
+    },
+    {
+      "id": "57fd32dc13816c6e7903d65784377c5a",
+      "title": "Smaller Tankers Join Hormuz Shuttle Trade to Keep Oil Flowing - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQQTd6VTZPeTNUYS0zWGczS2hLNHotUVh0YlFXUTRpX0dkelBvekdyRnJydEFRYU5GWlNVbDFJRkhLUGp3eVBpZ0RnOXk5cmdmbUhJSExkb2gzMjhwRkFIczZnNWprRGZ5bXktaGZfMVZqZWUzT0F6WkdIdHltRE5lY01hN1h6em9pYlNkR2tnR2w0U0hzUEJZUzd5ZVRsdG5pWWNxNndvQkhlY1dZRzBpWVQ5SFE?oc=5\" target=\"_blank\">Smaller Tankers Join Hormuz Shuttle Trade to Keep Oil Flowing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQTd6VTZPeTNUYS0zWGczS2hLNHotUVh0YlFXUTRpX0dkelBvekdyRnJydEFRYU5GWlNVbDFJRkhLUGp3eVBpZ0RnOXk5cmdmbUhJSExkb2gzMjhwRkFIczZnNWprRGZ5bXktaGZfMVZqZWUzT0F6WkdIdHltRE5lY01hN1h6em9pYlNkR2tnR2w0U0hzUEJZUzd5ZVRsdG5pWWNxNndvQkhlY1dZRzBpWVQ5SFE?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-20T22:15:32.012299Z"
+    },
+    {
+      "id": "75eb141bda03745fbe77cd7400bd9e6f",
+      "title": "Andy Burnham begins to undo Brexit with landmark EU deal",
+      "summary": "Brussels agreement overshadowed by dispute over university fees and questions about where the relationship goes next",
+      "link": "https://www.ft.com/content/334b5f12-4344-4680-be04-a7554120ec60?syn-25a6b1a6=1",
       "source": "Financial Times",
       "score": 8,
       "severity": "MEDIUM",
@@ -78,40 +291,111 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-20T22:08:33.677830Z"
+      "published": "2026-11-20T22:14:34.454571Z"
     },
     {
-      "id": "38db2649602b6d030eef4283023723b3",
-      "title": "The Wall Street Journal & Breaking News, Business, Financial and Economic News, World News and Video - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiN0FVX3lxTE90Y3MxWTNmYjZIUEhwbU13WHFsQ1ZqamxiaFowSEdKeDR4LUF6QzV0UmZzX0Vjd0E?oc=5\" target=\"_blank\">The Wall Street Journal & Breaking News, Business, Financial and Economic News, World News and Video</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMiN0FVX3lxTE90Y3MxWTNmYjZIUEhwbU13WHFsQ1ZqamxiaFowSEdKeDR4LUF6QzV0UmZzX0Vjd0E?oc=5",
-      "source": "Google Macro",
-      "score": 1,
+      "id": "70f8f99698afdec01c303535882d3592",
+      "title": "NSA resumes normal operations following internal network disruptions",
+      "summary": "Certain facilities remain under \u201cCode Orange\u201d for non-essential employees, meaning delayed openings and some must check in with their supervisors.",
+      "link": "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions",
+      "source": "The Record",
+      "score": 5,
       "severity": "LOW",
-      "regime": "GENERAL",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-20T22:09:39.308758Z"
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-20T22:15:31.217183Z"
+    },
+    {
+      "id": "8beba169231bf6b2ce9ea9ce07364b17",
+      "title": "Investors Dumping AI Stocks to Buy Into Anthropic Send Tech Shares Lower - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQdFNYN21fTE9wTk80YmxDNU96RlIzdnluRmtKMklDMVAxX1dEa1hGQzBNd1g2QUpBVUdLYVFLeVltUHR2b0MzSzJNMS1LX1VCU29NWm10TWQ0cTVncXdPbU5HLTZrVk9fODh0WDZkanl0UllHRW4zaFhsYU13bGl6WklFYTRjSEVTVjJsVnItTHZQWU5ST3AxVjItR3pTZG8tUW5WTjJLOEMtRXVkZDRRRWFDT0F6X0k?oc=5\" target=\"_blank\">Investors Dumping AI Stocks to Buy Into Anthropic Send Tech Shares Lower</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdFNYN21fTE9wTk80YmxDNU96RlIzdnluRmtKMklDMVAxX1dEa1hGQzBNd1g2QUpBVUdLYVFLeVltUHR2b0MzSzJNMS1LX1VCU29NWm10TWQ0cTVncXdPbU5HLTZrVk9fODh0WDZkanl0UllHRW4zaFhsYU13bGl6WklFYTRjSEVTVjJsVnItTHZQWU5ST3AxVjItR3pTZG8tUW5WTjJLOEMtRXVkZDRRRWFDT0F6X0k?oc=5",
+      "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-20T22:15:33.602978Z"
     }
   ],
   "alerts": [
     {
-      "id": "0c8814daea154a78e6b583c0e5bc6e8c",
-      "title": "Nvidia faces US regulator\u2019s probe into its accounting",
-      "summary": "Securities and Exchange Commission\u2019s investigation adds to difficulties facing chip group after Jensen Huang\u2019s resignation",
-      "link": "https://www.ft.com/content/9b28ed72-aac4-4291-9734-bf60b66645ab?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "score": 15,
-      "severity": "HIGH",
+      "id": "73cd654beb45e22032e21951fcff6e29",
+      "title": "Gold Logs Worst Week Since March on Hawkish Fed, AI Selloff",
+      "summary": "Gold slid for a fifth day \u2014 notching its biggest weekly decline since March \u2014 as a hawkish Federal Reserve signaled more interest-rate hikes and a rout in AI stocks spurred selling across metals markets.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff",
+      "source": "Bloomberg",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-20T22:14:32.623654Z"
+    },
+    {
+      "id": "70ba2845125a22a00b3fb24fd428c611",
+      "title": "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged",
+      "summary": "Trump said he discussed Jensen Huang with China's Xi. Bessent said the ousted Nvidia CEO didn't come up in talks he had while in China.",
+      "link": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
+      "source": "CNBC",
+      "score": 30,
+      "severity": "CRITICAL",
       "regime": "AI",
       "tickers": [
         "NVDA"
       ],
-      "regions": [],
-      "assets": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
       "market_impact": {
         "bullish": [
           "NVDA",
@@ -121,23 +405,113 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-20T22:08:33.677780Z"
+      "published": "2026-11-20T22:14:36.227802Z"
     },
     {
-      "id": "08fe04377e46e6b85d9b9f47a7d72aff",
-      "title": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment",
-      "source": "CoinDesk",
-      "score": 15,
-      "severity": "HIGH",
-      "regime": "CRYPTO",
+      "id": "22f57c5fdb5f75b68b0ca5b267bdd355",
+      "title": "Ukraine Hits Ninth Russian Oil Refinery Since Start of November - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQUHdjLXl3WFY2c1NuaU9fLUJERHJGNHJQSlFKWVBoX2xLa2JYWC1lVllWLWxLU0EtSl9Hd3pTa19yZ1lwSGxJdXJfZXlpbTE5dnRzcTJxcjRwSC0xdnlPTmFFX3RvdG1hTDMyWDRsQld1QlBiWklUVzA4QlF4SmNkVkhqY1FoNnpsMHJVTmNWMG41MW1USWJqQi1EV2JDdFZvSWpNbEJaUkFZcU4xTE1FM0ZtVzE?oc=5\" target=\"_blank\">Ukraine Hits Ninth Russian Oil Refinery Since Start of November</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUHdjLXl3WFY2c1NuaU9fLUJERHJGNHJQSlFKWVBoX2xLa2JYWC1lVllWLWxLU0EtSl9Hd3pTa19yZ1lwSGxJdXJfZXlpbTE5dnRzcTJxcjRwSC0xdnlPTmFFX3RvdG1hTDMyWDRsQld1QlBiWklUVzA4QlF4SmNkVkhqY1FoNnpsMHJVTmNWMG41MW1USWJqQi1EV2JDdFZvSWpNbEJaUkFZcU4xTE1FM0ZtVzE?oc=5",
+      "source": "Google Macro",
+      "score": 28,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
       "tickers": [
-        "ETH"
+        "WTI"
+      ],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-20T22:15:32.012228Z"
+    },
+    {
+      "id": "b0561406c2dbf131df909b58c56ea4c5",
+      "title": "US Senate advances prediction market restrictions with DEATH BETS Act",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"US Senate advances prediction market restrictions with DEATH BETS Act\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7WS7SH44A7MXA0Q21TD4GY8/hi-when-will-the-prediction-market-take-place-and-what-effect-is-it-having-on-crypto-2.png\" /></p><p>The Senate-approved bill would ban prediction market contracts tied to war, assassination and death amid concerns over potential insider trading on military events.</p>",
+      "link": "https://cointelegraph.com/news/us-senate-advances-prediction-market-restrictions-with-death-bets-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-20T22:15:30.704072Z"
+    },
+    {
+      "id": "65c2c27fc7b63245d36bb8425755f6ad",
+      "title": "Nvidia Plunges as SEC Probe Deepens AI Market Selloff | Closing Bell",
+      "summary": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-20/nvidia-plunges-on-sec-probe-closing-bell-video",
+      "source": "Bloomberg",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "AI",
+      "tickers": [
+        "NVDA"
       ],
       "regions": [],
       "assets": [
         "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-20T22:14:32.623713Z"
+    },
+    {
+      "id": "d40aa3a8f787ad0ca751b67b30790087",
+      "title": "Fear and \u2018Hot Sauce\u2019: Young Investors Want To Catch Up",
+      "summary": "Buzzy stocks, leveraged ETFs, and a generation feeling left behind. BlackRock\u2019s Gargi Chaudhuri discusses ways investors can dabble in risky products while also leaning into time-proven strategies. On this week\u2019s \u201cBloomberg Money\u201d, she joins Tom Keene and Scarlet Fu, who gives a shoutout to @Eric Balchunas and his coverage of \u2018hot sauce\u2019 investment products. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-20/fear-and-hot-sauce-young-investors-want-to-catch-up-video",
+      "source": "Bloomberg",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -149,13 +523,100 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-20T22:09:36.539526Z"
+      "published": "2026-11-20T22:14:32.623806Z"
     },
     {
-      "id": "aced8ac87e85f1ee42014b210011bd21",
-      "title": "Grand Theft Auto VI smashes records with $3.8bn in sales",
-      "summary": "Consumers have already spent more on the video game than the top-grossing movie",
-      "link": "https://www.ft.com/content/6648bce8-41fc-4542-8f24-ab37f8acd5d7?syn-25a6b1a6=1",
+      "id": "c0ec13fcc3b5680b670651594f41eb44",
+      "title": "Japanese see current ties with China and Russia as worst on record, survey shows",
+      "summary": "Some 93% of respondents have described Japan-China relations as poor or somewhat poor, the highest since the government began posing the question.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/20/japan/politics/japan-china-russia-ties-survey/",
+      "source": "Japan Times",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA",
+        "JAPAN",
+        "RUSSIA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-20T22:15:26.080285Z"
+    },
+    {
+      "id": "1b7367f1b4f313433eed6f14a705891f",
+      "title": "Former Point72 head of proprietary research says AI could turn data into a new asset class for Wall Street",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/11/20/former-point72-head-of-proprietary-research-says-ai-could-turn-data-into-a-new-asset-class-for-wall-street",
+      "source": "CoinDesk",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-20T22:15:30.601341Z"
+    },
+    {
+      "id": "57fd32dc13816c6e7903d65784377c5a",
+      "title": "Smaller Tankers Join Hormuz Shuttle Trade to Keep Oil Flowing - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQQTd6VTZPeTNUYS0zWGczS2hLNHotUVh0YlFXUTRpX0dkelBvekdyRnJydEFRYU5GWlNVbDFJRkhLUGp3eVBpZ0RnOXk5cmdmbUhJSExkb2gzMjhwRkFIczZnNWprRGZ5bXktaGZfMVZqZWUzT0F6WkdIdHltRE5lY01hN1h6em9pYlNkR2tnR2w0U0hzUEJZUzd5ZVRsdG5pWWNxNndvQkhlY1dZRzBpWVQ5SFE?oc=5\" target=\"_blank\">Smaller Tankers Join Hormuz Shuttle Trade to Keep Oil Flowing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQTd6VTZPeTNUYS0zWGczS2hLNHotUVh0YlFXUTRpX0dkelBvekdyRnJydEFRYU5GWlNVbDFJRkhLUGp3eVBpZ0RnOXk5cmdmbUhJSExkb2gzMjhwRkFIczZnNWprRGZ5bXktaGZfMVZqZWUzT0F6WkdIdHltRE5lY01hN1h6em9pYlNkR2tnR2w0U0hzUEJZUzd5ZVRsdG5pWWNxNndvQkhlY1dZRzBpWVQ5SFE?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-20T22:15:32.012299Z"
+    },
+    {
+      "id": "75eb141bda03745fbe77cd7400bd9e6f",
+      "title": "Andy Burnham begins to undo Brexit with landmark EU deal",
+      "summary": "Brussels agreement overshadowed by dispute over university fees and questions about where the relationship goes next",
+      "link": "https://www.ft.com/content/334b5f12-4344-4680-be04-a7554120ec60?syn-25a6b1a6=1",
       "source": "Financial Times",
       "score": 8,
       "severity": "MEDIUM",
@@ -165,14 +626,65 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-20T22:08:33.677830Z"
+      "published": "2026-11-20T22:14:34.454571Z"
     },
     {
-      "id": "38db2649602b6d030eef4283023723b3",
-      "title": "The Wall Street Journal & Breaking News, Business, Financial and Economic News, World News and Video - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiN0FVX3lxTE90Y3MxWTNmYjZIUEhwbU13WHFsQ1ZqamxiaFowSEdKeDR4LUF6QzV0UmZzX0Vjd0E?oc=5\" target=\"_blank\">The Wall Street Journal & Breaking News, Business, Financial and Economic News, World News and Video</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMiN0FVX3lxTE90Y3MxWTNmYjZIUEhwbU13WHFsQ1ZqamxiaFowSEdKeDR4LUF6QzV0UmZzX0Vjd0E?oc=5",
+      "id": "70f8f99698afdec01c303535882d3592",
+      "title": "NSA resumes normal operations following internal network disruptions",
+      "summary": "Certain facilities remain under \u201cCode Orange\u201d for non-essential employees, meaning delayed openings and some must check in with their supervisors.",
+      "link": "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions",
+      "source": "The Record",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-20T22:15:31.217183Z"
+    },
+    {
+      "id": "8beba169231bf6b2ce9ea9ce07364b17",
+      "title": "Investors Dumping AI Stocks to Buy Into Anthropic Send Tech Shares Lower - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQdFNYN21fTE9wTk80YmxDNU96RlIzdnluRmtKMklDMVAxX1dEa1hGQzBNd1g2QUpBVUdLYVFLeVltUHR2b0MzSzJNMS1LX1VCU29NWm10TWQ0cTVncXdPbU5HLTZrVk9fODh0WDZkanl0UllHRW4zaFhsYU13bGl6WklFYTRjSEVTVjJsVnItTHZQWU5ST3AxVjItR3pTZG8tUW5WTjJLOEMtRXVkZDRRRWFDT0F6X0k?oc=5\" target=\"_blank\">Investors Dumping AI Stocks to Buy Into Anthropic Send Tech Shares Lower</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdFNYN21fTE9wTk80YmxDNU96RlIzdnluRmtKMklDMVAxX1dEa1hGQzBNd1g2QUpBVUdLYVFLeVltUHR2b0MzSzJNMS1LX1VCU29NWm10TWQ0cTVncXdPbU5HLTZrVk9fODh0WDZkanl0UllHRW4zaFhsYU13bGl6WklFYTRjSEVTVjJsVnItTHZQWU5ST3AxVjItR3pTZG8tUW5WTjJLOEMtRXVkZDRRRWFDT0F6X0k?oc=5",
       "source": "Google Macro",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-20T22:15:33.602978Z"
+    },
+    {
+      "id": "ebc36159ac480cd5a126820e571b3524",
+      "title": "Wagyu\u2019s XMR1 wrapped Monero plunges 99% after $13 million hack as founder promises refunds",
+      "summary": "Wagyu\u2019s founder pledged refunds after an attacker sold XMR1 Wrapped Monero tokens in a $13 million exploit.",
+      "link": "https://www.theblock.co/news/defi/2026-11-20-wagyus-xmr1-wrapped-monero-plunges-99-after-13-million-hack-founder-promises-refunds-444747",
+      "source": "The Block",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
@@ -181,7 +693,25 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-20T22:09:39.308758Z"
+      "published": "2026-11-20T22:15:30.800379Z"
+    },
+    {
+      "id": "6e2983c30fa0174dff6db52acac7d193",
+      "title": "Energy - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiR0FVX3lxTFBOUDIyeEZMWkdwaWNsWDA1cGlRd2NBamFWZjd2b21xMUV0TDhiUkhJM2tDSVFYZnVNSnN5cnd0WFRnR3hLNFU0?oc=5\" target=\"_blank\">Energy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBOUDIyeEZMWkdwaWNsWDA1cGlRd2NBamFWZjd2b21xMUV0TDhiUkhJM2tDSVFYZnVNSnN5cnd0WFRnR3hLNFU0?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-20T22:15:32.012142Z"
     }
   ]
 }
