@@ -1,33 +1,55 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-20T05:30:49.533525Z",
+  "generated_at": "2026-11-20T05:39:33.237103Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "AI",
+    "dominant_driver": "AI",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 4,
-    "last_updated": "2026-11-20T05:30:49.533541Z"
+    "critical_alerts": 1,
+    "high_alerts": 2,
+    "last_updated": "2026-11-20T05:39:33.237116Z"
   },
   "top_signals": [
     {
-      "id": "86d3ccd923e7f3bf70b5121541506e50",
-      "title": "Critical Java Vulnerability Requires Immediate Patching",
-      "summary": "<h2><strong>Purpose</strong></h2>\n<p>CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114938\" target=\"_blank\">CVE-2026-114938</a>. This critical memory-corruption vulnerability, known as \u201cJava4Shell,\u201d affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution.</p>\n<h2><strong>Actions to take</strong></h2>\n<p>CISA urges organizations to take the following actions:</p>\n<ul>\n<li>Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, including those bundled with third-party applications or included in container images and appliances. <strong>Note:</strong> JDKs and Java runtimes may not appear as separate entries in software inventories.</li>\n<li>Apply relevant Java and vendor patches as soon as they are available, prioritizing internet-facing systems.\n<ul>\n<li>If immediate patching is not feasible, implement temporary compensating controls, such as restricting and validating Base64 input at the application boundary, enforcing input-size limits, and limiting unauthenticated access.</li>\n</ul>\n</li>\n<li>Review <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Oracle\u2019s security advisory</a> for guidance on patching and affected products and versions.</li>\n<li>&nbsp;Monitor for indicators of suspicious activity, including rogue runtimes, unexpected JVM crashes, and suspicious Java processes.</li>\n</ul>\n<h2><strong>Resources</strong></h2>\n<p>CISA urges network defenders to review the following resource and apply necessary updates:</p>\n<h3>Vendor Guidance</h3>\n<ul>\n<li>Oracle\u2019s Security Advisory: <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Critical Security Patch Update \u2013 November 2026</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.</p>\n<h2><strong>Acknowledgements&nbsp;</strong></h2>\n<p>The Canadian Centre for Cyber Security (Cyber Centre) contributed to this Alert.</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-      "source": "CISA",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
+      "id": "e69d33c416e857d66eafe3631d897767",
+      "title": "Cramer says Nvidia\u2019s woes are trumping Anthropic excitement for the rest of the AI trade",
+      "summary": "Jim Cramer warned that Nvidia's leadership crisis is overshadowing Anthropic's historic IPO.",
+      "link": "https://www.cnbc.com/2026/11/19/nvidia-anthropic-ipo-ai-trade.html",
+      "source": "CNBC",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "AI",
       "tickers": [
-        "BUND"
+        "NVDA"
       ],
       "regions": [],
       "assets": [
-        "AI",
-        "RATES"
+        "AI"
       ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-20T05:38:37.871907Z"
+    },
+    {
+      "id": "f60fd56e7b4b6c7ab29aa2fb9032fcdd",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul type=\"disc\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-19868\" target=\"_blank\">CVE-2026-19868</a> SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA\u2019s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.</p>\n<p>While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a>. CISA will continue to add vulnerabilities to the catalog that meet the&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.</p>\n<p>Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA\u2019s&nbsp;<a href=\"https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w\" target=\"_blank\">KEV Nomination Form</a>. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -42,77 +64,55 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-20T05:30:46.662312Z"
+      "published": "2026-11-20T05:39:30.795161Z"
     },
     {
-      "id": "eebfe3a7fe6733dbad138471ca115739",
-      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
-      "source": "Federal Reserve",
+      "id": "ec258118e2db91882857f99641ff4d62",
+      "title": "FirstFT: UK and EU poised to finalise deal to \u2018reset\u2019 ties",
+      "summary": "Also in today\u2019s newsletter: Anthropic IPO and oil-bonds correlation unwinds",
+      "link": "https://www.ft.com/content/5fbbe806-37d7-42e4-8235-ce9cbb3f2cdb?syn-25a6b1a6=1",
+      "source": "Financial Times",
       "score": 16,
       "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-20T05:29:28.476871Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-20T05:38:36.685791Z"
     },
     {
-      "id": "93cbc3e040f8199edf4a01602a5a520a",
-      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "summary": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-20T05:29:28.476916Z"
-    },
-    {
-      "id": "4740f38e638ecb672198f99c5232e62e",
-      "title": "Tokenized Stocks Shrug Off the Crypto Selloff",
-      "summary": "Tokenized Stocks Shrug Off the Crypto Selloff Bitcoin fell as low as $62k late Saturday, its sixth straight weekly decline. Meanwhile, tokenized stocks crossed $4 billion in onchain value for the first time on Nov 11. Tokenized stocks are now roughly five times their value on January 1. Tokenized stocks track equity prices, not crypto, [\u2026]",
-      "link": "https://www.theblock.co/newsletters/tokenization-briefing/2026-11-19-tokenized-stocks-shrug-off-crypto-selloff-442829",
-      "source": "The Block",
-      "score": 16,
-      "severity": "HIGH",
+      "id": "aa4698f3c53736d41ecb136a578b6050",
+      "title": "This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/11/20/this-bitcoin-miner-sold-267-btc-to-clear-usd22-million-debt-it-still-may-not-survive",
+      "source": "CoinDesk",
+      "score": 12,
+      "severity": "MEDIUM",
       "regime": "CRYPTO",
       "tickers": [
         "BTC"
       ],
       "regions": [],
       "assets": [
-        "AI",
-        "CRYPTO",
-        "EQUITIES"
+        "CRYPTO"
       ],
       "market_impact": {
         "bullish": [
@@ -124,54 +124,21 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-20T05:30:46.145282Z"
+      "published": "2026-11-20T05:39:29.843663Z"
     },
     {
-      "id": "fdccf8abd10692cc392a6138263b76f9",
-      "title": "Correspondence: Study to examine skills retention in UK financial services",
-      "summary": "Letter from the Economic Secretary to the Treasury commissioning Progress Together to examine skills retention and talent flows in UK financial services.",
-      "link": "https://www.gov.uk/government/publications/study-to-examine-skills-retention-in-uk-financial-services",
-      "source": "HM Treasury",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-20T05:30:39.641429Z"
-    },
-    {
-      "id": "f55f9afaf74dae1a14c24838688b7115",
-      "title": "Anthropic was supposed to save the AI trade. What went wrong?",
-      "summary": "Technology stocks tanked despite one of the most hotly anticipated tech IPOs in years. Why Anthropic couldn't revive AI animal spirits.",
-      "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
-      "source": "CNBC",
-      "score": 10,
-      "severity": "MEDIUM",
+      "id": "6a1d71393e9e16fc95900ffb4d2dc38e",
+      "title": "DOJ, DHS partner on new unit tackling scams and cybercrime",
+      "summary": "The departments are partnering on the Threat Disruption Center to better triage victim complaints, map cybercriminal networks and provide a direct channel to private sector organizations that work with victims.",
+      "link": "https://therecord.media/doj-dhs-partner-on-new-unit-tackling-scams-cybercrime",
+      "source": "The Record",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [],
       "assets": [
-        "AI",
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -182,63 +149,65 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-20T05:29:28.181951Z"
+      "published": "2026-11-20T05:39:30.526599Z"
     },
     {
-      "id": "975215140d6fb91e1b5dd20e7d0eabf5",
-      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
+      "id": "1e969f07ab2f08f91163419b8f450148",
+      "title": "Texans rout Colts to keep playoff hopes alive",
+      "summary": "Nico Collins, Kayshon Boutte and Marlin Klein all reached the end zone in Houston's first home win of the season.",
+      "link": "https://www.japantimes.co.jp/sports/2026/11/20/more-sports/texans-rout-colts-nfl/",
+      "source": "Japan Times",
+      "score": 1,
+      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-20T05:29:28.429161Z"
-    },
-    {
-      "id": "a8cbbfd75ac6c620ab7ebedbe01c1ef7",
-      "title": "Canada\u2019s Banking Regulator Moves to Level Playing Field for Smaller Lenders - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQWEdMckltLVpQY0YwdURFR3BHWG56NzFjRFlMeXZJV3ZTdjhaM0NrNEcxN3RuSHduX0VlWTNNeDBZZmVFUV9sVjFBeUg1NVNzTlB4cE9BaVNuSDRIZXNxeS1VQWhGZkhoelg0UkFiWWdrVVlSNE9oeWRIcWJJZXdyUFFQNmRPLXZnNERlamlmRGZsbmZvUm42LWRfS1B6UXB6c1dHd3BsaUtTWEUxdm9XS1pBcHNBaUJWRUVhbDVJTQ?oc=5\" target=\"_blank\">Canada\u2019s Banking Regulator Moves to Level Playing Field for Smaller Lenders</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWEdMckltLVpQY0YwdURFR3BHWG56NzFjRFlMeXZJV3ZTdjhaM0NrNEcxN3RuSHduX0VlWTNNeDBZZmVFUV9sVjFBeUg1NVNzTlB4cE9BaVNuSDRIZXNxeS1VQWhGZkhoelg0UkFiWWdrVVlSNE9oeWRIcWJJZXdyUFFQNmRPLXZnNERlamlmRGZsbmZvUm42LWRfS1B6UXB6c1dHd3BsaUtTWEUxdm9XS1pBcHNBaUJWRUVhbDVJTQ?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [
-        "DXY"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-20T05:30:48.975812Z"
+      "published": "2026-11-20T05:39:26.189547Z"
     }
   ],
   "alerts": [
     {
-      "id": "86d3ccd923e7f3bf70b5121541506e50",
-      "title": "Critical Java Vulnerability Requires Immediate Patching",
-      "summary": "<h2><strong>Purpose</strong></h2>\n<p>CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114938\" target=\"_blank\">CVE-2026-114938</a>. This critical memory-corruption vulnerability, known as \u201cJava4Shell,\u201d affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution.</p>\n<h2><strong>Actions to take</strong></h2>\n<p>CISA urges organizations to take the following actions:</p>\n<ul>\n<li>Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, including those bundled with third-party applications or included in container images and appliances. <strong>Note:</strong> JDKs and Java runtimes may not appear as separate entries in software inventories.</li>\n<li>Apply relevant Java and vendor patches as soon as they are available, prioritizing internet-facing systems.\n<ul>\n<li>If immediate patching is not feasible, implement temporary compensating controls, such as restricting and validating Base64 input at the application boundary, enforcing input-size limits, and limiting unauthenticated access.</li>\n</ul>\n</li>\n<li>Review <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Oracle\u2019s security advisory</a> for guidance on patching and affected products and versions.</li>\n<li>&nbsp;Monitor for indicators of suspicious activity, including rogue runtimes, unexpected JVM crashes, and suspicious Java processes.</li>\n</ul>\n<h2><strong>Resources</strong></h2>\n<p>CISA urges network defenders to review the following resource and apply necessary updates:</p>\n<h3>Vendor Guidance</h3>\n<ul>\n<li>Oracle\u2019s Security Advisory: <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Critical Security Patch Update \u2013 November 2026</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.</p>\n<h2><strong>Acknowledgements&nbsp;</strong></h2>\n<p>The Canadian Centre for Cyber Security (Cyber Centre) contributed to this Alert.</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-      "source": "CISA",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "GEO-SHOCK",
+      "id": "e69d33c416e857d66eafe3631d897767",
+      "title": "Cramer says Nvidia\u2019s woes are trumping Anthropic excitement for the rest of the AI trade",
+      "summary": "Jim Cramer warned that Nvidia's leadership crisis is overshadowing Anthropic's historic IPO.",
+      "link": "https://www.cnbc.com/2026/11/19/nvidia-anthropic-ipo-ai-trade.html",
+      "source": "CNBC",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "AI",
       "tickers": [
-        "BUND"
+        "NVDA"
       ],
       "regions": [],
       "assets": [
-        "AI",
-        "RATES"
+        "AI"
       ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-20T05:38:37.871907Z"
+    },
+    {
+      "id": "f60fd56e7b4b6c7ab29aa2fb9032fcdd",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul type=\"disc\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-19868\" target=\"_blank\">CVE-2026-19868</a> SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA\u2019s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.</p>\n<p>While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a>. CISA will continue to add vulnerabilities to the catalog that meet the&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.</p>\n<p>Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA\u2019s&nbsp;<a href=\"https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w\" target=\"_blank\">KEV Nomination Form</a>. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "score": 17,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -253,77 +222,55 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-20T05:30:46.662312Z"
+      "published": "2026-11-20T05:39:30.795161Z"
     },
     {
-      "id": "eebfe3a7fe6733dbad138471ca115739",
-      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
-      "source": "Federal Reserve",
+      "id": "ec258118e2db91882857f99641ff4d62",
+      "title": "FirstFT: UK and EU poised to finalise deal to \u2018reset\u2019 ties",
+      "summary": "Also in today\u2019s newsletter: Anthropic IPO and oil-bonds correlation unwinds",
+      "link": "https://www.ft.com/content/5fbbe806-37d7-42e4-8235-ce9cbb3f2cdb?syn-25a6b1a6=1",
+      "source": "Financial Times",
       "score": 16,
       "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "COMMODITIES"
+      ],
       "market_impact": {
         "bullish": [
-          "DXY",
-          "JPY"
+          "WTI",
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-20T05:29:28.476871Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-20T05:38:36.685791Z"
     },
     {
-      "id": "93cbc3e040f8199edf4a01602a5a520a",
-      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "summary": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
-      "source": "Federal Reserve",
-      "score": 16,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-20T05:29:28.476916Z"
-    },
-    {
-      "id": "4740f38e638ecb672198f99c5232e62e",
-      "title": "Tokenized Stocks Shrug Off the Crypto Selloff",
-      "summary": "Tokenized Stocks Shrug Off the Crypto Selloff Bitcoin fell as low as $62k late Saturday, its sixth straight weekly decline. Meanwhile, tokenized stocks crossed $4 billion in onchain value for the first time on Nov 11. Tokenized stocks are now roughly five times their value on January 1. Tokenized stocks track equity prices, not crypto, [\u2026]",
-      "link": "https://www.theblock.co/newsletters/tokenization-briefing/2026-11-19-tokenized-stocks-shrug-off-crypto-selloff-442829",
-      "source": "The Block",
-      "score": 16,
-      "severity": "HIGH",
+      "id": "aa4698f3c53736d41ecb136a578b6050",
+      "title": "This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/11/20/this-bitcoin-miner-sold-267-btc-to-clear-usd22-million-debt-it-still-may-not-survive",
+      "source": "CoinDesk",
+      "score": 12,
+      "severity": "MEDIUM",
       "regime": "CRYPTO",
       "tickers": [
         "BTC"
       ],
       "regions": [],
       "assets": [
-        "AI",
-        "CRYPTO",
-        "EQUITIES"
+        "CRYPTO"
       ],
       "market_impact": {
         "bullish": [
@@ -335,54 +282,21 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-20T05:30:46.145282Z"
+      "published": "2026-11-20T05:39:29.843663Z"
     },
     {
-      "id": "fdccf8abd10692cc392a6138263b76f9",
-      "title": "Correspondence: Study to examine skills retention in UK financial services",
-      "summary": "Letter from the Economic Secretary to the Treasury commissioning Progress Together to examine skills retention and talent flows in UK financial services.",
-      "link": "https://www.gov.uk/government/publications/study-to-examine-skills-retention-in-uk-financial-services",
-      "source": "HM Treasury",
-      "score": 14,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "TLT"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "RATES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-20T05:30:39.641429Z"
-    },
-    {
-      "id": "f55f9afaf74dae1a14c24838688b7115",
-      "title": "Anthropic was supposed to save the AI trade. What went wrong?",
-      "summary": "Technology stocks tanked despite one of the most hotly anticipated tech IPOs in years. Why Anthropic couldn't revive AI animal spirits.",
-      "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
-      "source": "CNBC",
-      "score": 10,
-      "severity": "MEDIUM",
+      "id": "6a1d71393e9e16fc95900ffb4d2dc38e",
+      "title": "DOJ, DHS partner on new unit tackling scams and cybercrime",
+      "summary": "The departments are partnering on the Threat Disruption Center to better triage victim complaints, map cybercriminal networks and provide a direct channel to private sector organizations that work with victims.",
+      "link": "https://therecord.media/doj-dhs-partner-on-new-unit-tackling-scams-cybercrime",
+      "source": "The Record",
+      "score": 5,
+      "severity": "LOW",
       "regime": "AI",
       "tickers": [],
       "regions": [],
       "assets": [
-        "AI",
-        "EQUITIES"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -393,43 +307,23 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-20T05:29:28.181951Z"
+      "published": "2026-11-20T05:39:30.526599Z"
     },
     {
-      "id": "975215140d6fb91e1b5dd20e7d0eabf5",
-      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
+      "id": "1e969f07ab2f08f91163419b8f450148",
+      "title": "Texans rout Colts to keep playoff hopes alive",
+      "summary": "Nico Collins, Kayshon Boutte and Marlin Klein all reached the end zone in Houston's first home win of the season.",
+      "link": "https://www.japantimes.co.jp/sports/2026/11/20/more-sports/texans-rout-colts-nfl/",
+      "source": "Japan Times",
+      "score": 1,
+      "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
       "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-20T05:29:28.429161Z"
-    },
-    {
-      "id": "a8cbbfd75ac6c620ab7ebedbe01c1ef7",
-      "title": "Canada\u2019s Banking Regulator Moves to Level Playing Field for Smaller Lenders - WSJ",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQWEdMckltLVpQY0YwdURFR3BHWG56NzFjRFlMeXZJV3ZTdjhaM0NrNEcxN3RuSHduX0VlWTNNeDBZZmVFUV9sVjFBeUg1NVNzTlB4cE9BaVNuSDRIZXNxeS1VQWhGZkhoelg0UkFiWWdrVVlSNE9oeWRIcWJJZXdyUFFQNmRPLXZnNERlamlmRGZsbmZvUm42LWRfS1B6UXB6c1dHd3BsaUtTWEUxdm9XS1pBcHNBaUJWRUVhbDVJTQ?oc=5\" target=\"_blank\">Canada\u2019s Banking Regulator Moves to Level Playing Field for Smaller Lenders</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWEdMckltLVpQY0YwdURFR3BHWG56NzFjRFlMeXZJV3ZTdjhaM0NrNEcxN3RuSHduX0VlWTNNeDBZZmVFUV9sVjFBeUg1NVNzTlB4cE9BaVNuSDRIZXNxeS1VQWhGZkhoelg0UkFiWWdrVVlSNE9oeWRIcWJJZXdyUFFQNmRPLXZnNERlamlmRGZsbmZvUm42LWRfS1B6UXB6c1dHd3BsaUtTWEUxdm9XS1pBcHNBaUJWRUVhbDVJTQ?oc=5",
-      "source": "Google Macro",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [
-        "DXY"
-      ],
-      "regions": [
-        "UK"
-      ],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-20T05:30:48.975812Z"
+      "published": "2026-11-20T05:39:26.189547Z"
     }
   ]
 }
