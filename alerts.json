@@ -1,38 +1,32 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-20T17:29:14.301141Z",
+  "generated_at": "2026-11-20T17:35:00.683554Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 2,
+    "critical_alerts": 0,
     "high_alerts": 3,
-    "last_updated": "2026-11-20T17:29:14.301160Z"
+    "last_updated": "2026-11-20T17:35:00.683571Z"
   },
   "top_signals": [
     {
-      "id": "96bd196d969f0813d7b4018ac16c38a8",
-      "title": "The Atlantic Brief: After the U.S. Midterms, Trans-Atlantic Defense Cooperation",
-      "summary": "<p>For this edition of The Atlantic Brief, the Royal United Services Institute and War on the Rocks present a dialogue on the future of trans-Atlantic defense cooperation following the U.S. midterm elections. Participating experts from the United Kingdom, continental Europe, and the United States bring decades of first-hand experience in the armed forces, diplomacy, and foreign policy.The panel will explore what the midterms mean for U.S. force posture, NATO, and support for Ukraine. It will also cover European investment in defense capabilities, the questions of strained supply chains, and whether NATO or the European Union should lead in countering Russian</p>\n<p>The post <a href=\"https://warontherocks.com/the-atlantic-brief-after-the-u-s-midterms-trans-atlantic-defense-cooperation/\">The Atlantic Brief: After the U.S. Midterms, Trans-Atlantic Defense Cooperation</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
-      "link": "https://warontherocks.com/the-atlantic-brief-after-the-u-s-midterms-trans-atlantic-defense-cooperation/",
-      "source": "War on the Rocks",
-      "score": 37,
-      "severity": "CRITICAL",
+      "id": "bd02838e18e5e55446b41629d52401c1",
+      "title": "Trump seeks Ukraine peace deal before January",
+      "summary": "US officials keen to secure agreement between Vladimir Putin and Volodymyr Zelenskyy before Democrats take over Congress",
+      "link": "https://www.ft.com/content/6c1b8a64-35f9-4aba-8605-45a4abdce6b8?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 20,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR"
-      ],
+      "tickers": [],
       "regions": [
-        "EUROPE",
-        "RUSSIA",
         "UK",
-        "UKRAINE",
-        "US"
+        "UKRAINE"
       ],
       "assets": [
-        "AI",
-        "FX"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -48,23 +42,169 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-20T17:29:11.177247Z"
+      "published": "2026-11-20T17:33:51.744610Z"
     },
     {
-      "id": "88a5d132c0a49eabe2faff448c8cabee",
-      "title": "AI Selloff Boosts Haven Demand for Yen, Franc as Dollar Slips",
-      "summary": "The Japanese yen and Swiss franc outperformed their major peers as growing doubts about the sustainability of the artificial intelligence boom drove demand for havens and put pressure on the US dollar.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-20/ai-selloff-boosts-haven-demand-for-yen-franc-as-dollar-slips",
+      "id": "86d3ccd923e7f3bf70b5121541506e50",
+      "title": "Critical Java Vulnerability Requires Immediate Patching",
+      "summary": "<h2><strong>Purpose</strong></h2>\n<p>CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114938\" target=\"_blank\">CVE-2026-114938</a>. This critical memory-corruption vulnerability, known as \u201cJava4Shell,\u201d affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution.</p>\n<h2><strong>Actions to take</strong></h2>\n<p>CISA urges organizations to take the following actions:</p>\n<ul>\n<li>Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, including those bundled with third-party applications or included in container images and appliances. <strong>Note:</strong> JDKs and Java runtimes may not appear as separate entries in software inventories.</li>\n<li>Apply relevant Java and vendor patches as soon as they are available, prioritizing internet-facing systems.\n<ul>\n<li>If immediate patching is not feasible, implement temporary compensating controls, such as restricting and validating Base64 input at the application boundary, enforcing input-size limits, and limiting unauthenticated access.</li>\n</ul>\n</li>\n<li>Review <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Oracle\u2019s security advisory</a> for guidance on patching and affected products and versions.</li>\n<li>&nbsp;Monitor for indicators of suspicious activity, including rogue runtimes, unexpected JVM crashes, and suspicious Java processes.</li>\n</ul>\n<h2><strong>Resources</strong></h2>\n<p>CISA urges network defenders to review the following resource and apply necessary updates:</p>\n<h3>Vendor Guidance</h3>\n<ul>\n<li>Oracle\u2019s Security Advisory: <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Critical Security Patch Update \u2013 November 2026</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.</p>\n<h2><strong>Acknowledgements&nbsp;</strong></h2>\n<p>The Canadian Centre for Cyber Security (Cyber Centre) contributed to this Alert.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+      "source": "CISA",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BUND"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-20T17:34:58.425439Z"
+    },
+    {
+      "id": "f972888c172aa37ff29216c5fbc2efc5",
+      "title": "The UK takes a step back towards the EU",
+      "summary": "Welcome reset deal highlights hard choices on the road to a closer relationship",
+      "link": "https://www.ft.com/content/ceb1b3fd-f113-4ff7-93ac-aecbf7ebca90",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-20T17:33:51.744543Z"
+    },
+    {
+      "id": "a0753c897514a358f13a7d9f80a8b2c3",
+      "title": "Eurotrash \u2014 Ben Whishaw and Kathryn Hunter lead a pill-popping Swiss odyssey",
+      "summary": "A mother-and-son story and a confronting of the country\u2019s Nazi past meet in the Young Vic\u2019s adaptation of Christian Kracht\u2019s novel",
+      "link": "https://www.ft.com/content/688949b0-f395-4d56-82ea-b55789849c33?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-11-20T17:33:51.744581Z"
+    },
+    {
+      "id": "7b0cd3fe2ebec997fa4efc8a5dfe7920",
+      "title": "What\u2019s in the UK-EU Deal To Deepen Ties",
+      "summary": "The UK and EU struck a deal to reset relations after Brexit, opening opportunities for young people and easing restrictions on food and agriculture.\n\nOliver Crook explains what\u2019s in the deal \u2014 and what\u2019s not. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-20/what-s-in-the-uk-eu-deal-to-deepen-ties-video",
       "source": "Bloomberg",
-      "score": 25,
-      "severity": "CRITICAL",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-20T17:33:49.374630Z"
+    },
+    {
+      "id": "a61ecfa7a8227868597c86d9c106f2e1",
+      "title": "US tech rout deepens as Anthropic shares tumble",
+      "summary": "Investors rush for havens as AI-linked stocks endure heavy wave of selling",
+      "link": "https://www.ft.com/content/23fa83d8-e078-4853-959e-bd1f19d14ff5?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-20T17:33:51.300252Z"
+    },
+    {
+      "id": "919a058528dc1ae8487ed2b510af0c4e",
+      "title": "British universities relieved as tuition fee decision delayed until next year",
+      "summary": "Dispute over lower fees for European students had threatened to derail the EU-UK summit in Brussels",
+      "link": "https://www.ft.com/content/77cb4ec6-4f03-4328-b566-0f1fd74b81ae?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [
-        "DXY",
-        "JPY"
+        "EUR"
       ],
       "regions": [
-        "JAPAN"
+        "EUROPE",
+        "UK"
       ],
       "assets": [
         "AI",
@@ -79,164 +219,21 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-20T17:28:26.061823Z"
+      "published": "2026-11-20T17:33:51.744472Z"
     },
     {
-      "id": "3dd495f36f231bd2bccc964b658a6545",
-      "title": "Federal Reserve issues FOMC statement",
-      "summary": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-      "source": "Federal Reserve",
-      "score": 23,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-20T17:28:28.130797Z"
-    },
-    {
-      "id": "85bf14fb596c200f5c6bc91259ab3c74",
-      "title": "The Bank of England, the Monetary Authority of Singapore, and the Bank of Thailand: Project Meridian FX APAC",
-      "summary": "Joint media release",
-      "link": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release",
-      "source": "Bank of England",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-20T17:29:06.992940Z"
-    },
-    {
-      "id": "9a2e410f1087085e4c736bc519826ad9",
-      "title": "Econowind Turns Ten As Maritime Players Embrace Wind-Assisted Ship Propulsion To Tackle Rising Fuel Costs",
-      "summary": "From wooden prototypes on a car roof to more than 170 VentoFoil units sold, the Dutch wind-assisted ship propulsion (WASP) specialist looks back on a decade of practical engineering and a changing industry. ZEEWOLDE, 19 November 2026 \u2013 Econowind is celebrating its tenth anniversary, with more than 170 VentoFoil units sold to shipping companies around ...",
-      "link": "https://www.hellenicshippingnews.com/econowind-turns-ten-as-maritime-players-embrace-wind-assisted-ship-propulsion-to-tackle-rising-fuel-costs/",
-      "source": "Hellenic Shipping",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-20T17:29:10.833401Z"
-    },
-    {
-      "id": "734a489cd06bb03ab3c59a0c937b1780",
-      "title": "Decision time on carbon pricing for global shipping at the UN",
-      "summary": "Governments are set to decide on the future of the Net-Zero Framework (NZF) for global shipping, a landmark climate agreement introducing the world\u2019s first global carbon pricing on any industry. The negotiations are planned to take place at the International Maritime Organization (IMO) as a three-part summit: technical working group talks (ISWG-GHG-23) on 23-27 November, ...",
-      "link": "https://www.hellenicshippingnews.com/decision-time-on-carbon-pricing-for-global-shipping-at-the-un/",
-      "source": "Hellenic Shipping",
+      "id": "41a15d0b58b375310b0efb74990a4100",
+      "title": "Jamie Dimon vows to claw back \u2018unfair\u2019 UK bank tax",
+      "summary": "Boss of US lender says he will find ways to offset the increase announced by the government last month",
+      "link": "https://www.ft.com/content/4dd143d0-0b10-4bb8-ac15-e04702fa8b9a?syn-25a6b1a6=1",
+      "source": "Financial Times",
       "score": 12,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-20T17:29:10.833217Z"
-    },
-    {
-      "id": "e4a4b1ae29917b73b1e76c9bf7ae0cab",
-      "title": "UK-EU reset must reduce costs for trade and shipping",
-      "summary": "The UK Chamber of Shipping is calling on the UK and EU to use the reset talks on 20 November to reduce barriers to trade, minimise unnecessary regulatory costs and support shipping\u2019s transition to net zero while protecting vital connectivity. Shipping is the physical link between the UK and its largest trading partner. For ship ...",
-      "link": "https://www.hellenicshippingnews.com/uk-eu-reset-must-reduce-costs-for-trade-and-shipping/",
-      "source": "Hellenic Shipping",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-20T17:29:10.833337Z"
-    },
-    {
-      "id": "71c283d67986a2e80355090fddfc26b4",
-      "title": "Gap stock soars as retailer says Old Navy turnaround shows signs of improvement",
-      "summary": "Gap on Thursday announced Ashley Kechter as the new CEO of Athleta. The retailer also reported mixed fiscal third-quarter earnings.",
-      "link": "https://www.cnbc.com/2026/11/19/gap-gap-q3-2026-earnings.html",
-      "source": "CNBC",
-      "score": 10,
       "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [
         "AI"
       ],
@@ -249,142 +246,46 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-20T17:28:27.893504Z"
+      "published": "2026-11-20T17:33:51.744517Z"
     },
     {
-      "id": "2b974030af25081361be46a0f54b07ae",
-      "title": "Personal Income and Outlays, September 2026",
-      "summary": "<p>Personal income increased $54.5 billion (0.2 percent at a monthly rate) in September, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)&ndash;personal income less personal current taxes&ndash;increased $52.7 billion (0.2 percent), and personal consumption expenditures (PCE) increased $113.1 billion (0.5 percent). Personal outlays&ndash;the sum of PCE, personal interest payments, and personal current transfer payments&ndash;increased $113.0 billion in September. Personal saving was $911.1 billion, and the personal saving rate&ndash;personal saving as a percentage of DPI&ndash;was 3.8 percent.\n</p>",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
-      "source": "BEA",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-20T17:29:03.658100Z"
-    },
-    {
-      "id": "9b669daa003b6a8d2e11f4fa4fe74924",
-      "title": "The EU and the United Kingdom turn closeness into common strength and prosperity at second bilateral summit",
-      "summary": "European Commission News Brussels, 20 Nov 2026 \nCommission President Ursula\u00a0von der Leyen and European Council President Ant\u00f3nio Costa hosted British Prime Minister Andy Burnham in Brussels today for the sec...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2555",
-      "source": "European Commission",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "EUR",
-        "JPY"
-      ],
-      "regions": [
-        "EUROPE",
-        "UK"
-      ],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-20T17:29:06.941366Z"
-    },
-    {
-      "id": "a318486aa9dc598e513a29905450a863",
-      "title": "Hanwha Ocean Wins Two VLCC Orders",
-      "summary": "Deal Brings Yearly Tally to 47 Vessels and $8.54 Billion, Emphasizing Eco-Friendly High-Value Ships Hanwha Ocean has won an order for two Very Large Crude Carriers (VLCCs) from a shipowner in Oceania. In a regulatory filing on Nov. 19, Hanwha Ocean said it had signed a shipbuilding contract worth a total of 364.2 billion won ...",
-      "link": "https://www.hellenicshippingnews.com/hanwha-ocean-wins-two-vlcc-orders/",
-      "source": "Hellenic Shipping",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-20T17:29:10.833505Z"
-    },
-    {
-      "id": "2e291066b0aba5da921a619ade97faf5",
-      "title": "EXCLUSIVE: Saudis preparing for Yemen campaign to last well into 2027 - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa0txUndxQmRJNU1nMUZSVFc5d29OSDkwSWMyOHB5VC1iVVZwY3IwaEs3VlRkbEtHVGRmazVueE1YSjA4N0N4OElZRVdfM0trQ0dnaVptanRtRWVoWERLMWlUUjlac2ozVlRjMWdqMDQ1ODBOZEtPb2FKVFA0UXJpeGdjck1OMDMzdEhhQ2piTDd4QnFXcm12Vlh2MHVKcXNQUTdJWVZlV1E?oc=5\" target=\"_blank\">EXCLUSIVE: Saudis preparing for Yemen campaign to last well into 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa0txUndxQmRJNU1nMUZSVFc5d29OSDkwSWMyOHB5VC1iVVZwY3IwaEs3VlRkbEtHVGRmazVueE1YSjA4N0N4OElZRVdfM0trQ0dnaVptanRtRWVoWERLMWlUUjlac2ozVlRjMWdqMDQ1ODBOZEtPb2FKVFA0UXJpeGdjck1OMDMzdEhhQ2piTDd4QnFXcm12Vlh2MHVKcXNQUTdJWVZlV1E?oc=5",
+      "id": "a8cbbfd75ac6c620ab7ebedbe01c1ef7",
+      "title": "Canada\u2019s Banking Regulator Moves to Level Playing Field for Smaller Lenders - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQWEdMckltLVpQY0YwdURFR3BHWG56NzFjRFlMeXZJV3ZTdjhaM0NrNEcxN3RuSHduX0VlWTNNeDBZZmVFUV9sVjFBeUg1NVNzTlB4cE9BaVNuSDRIZXNxeS1VQWhGZkhoelg0UkFiWWdrVVlSNE9oeWRIcWJJZXdyUFFQNmRPLXZnNERlamlmRGZsbmZvUm42LWRfS1B6UXB6c1dHd3BsaUtTWEUxdm9XS1pBcHNBaUJWRUVhbDVJTQ?oc=5\" target=\"_blank\">Canada\u2019s Banking Regulator Moves to Level Playing Field for Smaller Lenders</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWEdMckltLVpQY0YwdURFR3BHWG56NzFjRFlMeXZJV3ZTdjhaM0NrNEcxN3RuSHduX0VlWTNNeDBZZmVFUV9sVjFBeUg1NVNzTlB4cE9BaVNuSDRIZXNxeS1VQWhGZkhoelg0UkFiWWdrVVlSNE9oeWRIcWJJZXdyUFFQNmRPLXZnNERlamlmRGZsbmZvUm42LWRfS1B6UXB6c1dHd3BsaUtTWEUxdm9XS1pBcHNBaUJWRUVhbDVJTQ?oc=5",
       "source": "Google Macro",
-      "score": 5,
+      "score": 1,
       "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
+      "regime": "GENERAL",
+      "tickers": [
+        "DXY"
       ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-20T17:29:12.779292Z"
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-20T17:35:00.249604Z"
     }
   ],
   "alerts": [
     {
-      "id": "96bd196d969f0813d7b4018ac16c38a8",
-      "title": "The Atlantic Brief: After the U.S. Midterms, Trans-Atlantic Defense Cooperation",
-      "summary": "<p>For this edition of The Atlantic Brief, the Royal United Services Institute and War on the Rocks present a dialogue on the future of trans-Atlantic defense cooperation following the U.S. midterm elections. Participating experts from the United Kingdom, continental Europe, and the United States bring decades of first-hand experience in the armed forces, diplomacy, and foreign policy.The panel will explore what the midterms mean for U.S. force posture, NATO, and support for Ukraine. It will also cover European investment in defense capabilities, the questions of strained supply chains, and whether NATO or the European Union should lead in countering Russian</p>\n<p>The post <a href=\"https://warontherocks.com/the-atlantic-brief-after-the-u-s-midterms-trans-atlantic-defense-cooperation/\">The Atlantic Brief: After the U.S. Midterms, Trans-Atlantic Defense Cooperation</a> appeared first on <a href=\"https://warontherocks.com\">War on the Rocks</a>.</p>",
-      "link": "https://warontherocks.com/the-atlantic-brief-after-the-u-s-midterms-trans-atlantic-defense-cooperation/",
-      "source": "War on the Rocks",
-      "score": 37,
-      "severity": "CRITICAL",
+      "id": "bd02838e18e5e55446b41629d52401c1",
+      "title": "Trump seeks Ukraine peace deal before January",
+      "summary": "US officials keen to secure agreement between Vladimir Putin and Volodymyr Zelenskyy before Democrats take over Congress",
+      "link": "https://www.ft.com/content/6c1b8a64-35f9-4aba-8605-45a4abdce6b8?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 20,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR"
-      ],
+      "tickers": [],
       "regions": [
-        "EUROPE",
-        "RUSSIA",
         "UK",
-        "UKRAINE",
-        "US"
+        "UKRAINE"
       ],
       "assets": [
-        "AI",
-        "FX"
+        "AI"
       ],
       "market_impact": {
         "bullish": [
@@ -400,23 +301,169 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-20T17:29:11.177247Z"
+      "published": "2026-11-20T17:33:51.744610Z"
     },
     {
-      "id": "88a5d132c0a49eabe2faff448c8cabee",
-      "title": "AI Selloff Boosts Haven Demand for Yen, Franc as Dollar Slips",
-      "summary": "The Japanese yen and Swiss franc outperformed their major peers as growing doubts about the sustainability of the artificial intelligence boom drove demand for havens and put pressure on the US dollar.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-20/ai-selloff-boosts-haven-demand-for-yen-franc-as-dollar-slips",
+      "id": "86d3ccd923e7f3bf70b5121541506e50",
+      "title": "Critical Java Vulnerability Requires Immediate Patching",
+      "summary": "<h2><strong>Purpose</strong></h2>\n<p>CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114938\" target=\"_blank\">CVE-2026-114938</a>. This critical memory-corruption vulnerability, known as \u201cJava4Shell,\u201d affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution.</p>\n<h2><strong>Actions to take</strong></h2>\n<p>CISA urges organizations to take the following actions:</p>\n<ul>\n<li>Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, including those bundled with third-party applications or included in container images and appliances. <strong>Note:</strong> JDKs and Java runtimes may not appear as separate entries in software inventories.</li>\n<li>Apply relevant Java and vendor patches as soon as they are available, prioritizing internet-facing systems.\n<ul>\n<li>If immediate patching is not feasible, implement temporary compensating controls, such as restricting and validating Base64 input at the application boundary, enforcing input-size limits, and limiting unauthenticated access.</li>\n</ul>\n</li>\n<li>Review <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Oracle\u2019s security advisory</a> for guidance on patching and affected products and versions.</li>\n<li>&nbsp;Monitor for indicators of suspicious activity, including rogue runtimes, unexpected JVM crashes, and suspicious Java processes.</li>\n</ul>\n<h2><strong>Resources</strong></h2>\n<p>CISA urges network defenders to review the following resource and apply necessary updates:</p>\n<h3>Vendor Guidance</h3>\n<ul>\n<li>Oracle\u2019s Security Advisory: <a href=\"https://www.oracle.com/security-alerts/cspunov2026.html\" target=\"_blank\">Critical Security Patch Update \u2013 November 2026</a></li>\n</ul>\n<h2><strong>Disclaimer</strong></h2>\n<p>The information in this report is being provided \u201cas is\u201d for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.</p>\n<h2><strong>Acknowledgements&nbsp;</strong></h2>\n<p>The Canadian Centre for Cyber Security (Cyber Centre) contributed to this Alert.</p>",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+      "source": "CISA",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BUND"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-20T17:34:58.425439Z"
+    },
+    {
+      "id": "f972888c172aa37ff29216c5fbc2efc5",
+      "title": "The UK takes a step back towards the EU",
+      "summary": "Welcome reset deal highlights hard choices on the road to a closer relationship",
+      "link": "https://www.ft.com/content/ceb1b3fd-f113-4ff7-93ac-aecbf7ebca90",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-20T17:33:51.744543Z"
+    },
+    {
+      "id": "a0753c897514a358f13a7d9f80a8b2c3",
+      "title": "Eurotrash \u2014 Ben Whishaw and Kathryn Hunter lead a pill-popping Swiss odyssey",
+      "summary": "A mother-and-son story and a confronting of the country\u2019s Nazi past meet in the Young Vic\u2019s adaptation of Christian Kracht\u2019s novel",
+      "link": "https://www.ft.com/content/688949b0-f395-4d56-82ea-b55789849c33?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "INFLATION",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-11-20T17:33:51.744581Z"
+    },
+    {
+      "id": "7b0cd3fe2ebec997fa4efc8a5dfe7920",
+      "title": "What\u2019s in the UK-EU Deal To Deepen Ties",
+      "summary": "The UK and EU struck a deal to reset relations after Brexit, opening opportunities for young people and easing restrictions on food and agriculture.\n\nOliver Crook explains what\u2019s in the deal \u2014 and what\u2019s not. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-20/what-s-in-the-uk-eu-deal-to-deepen-ties-video",
       "source": "Bloomberg",
-      "score": 25,
-      "severity": "CRITICAL",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-20T17:33:49.374630Z"
+    },
+    {
+      "id": "a61ecfa7a8227868597c86d9c106f2e1",
+      "title": "US tech rout deepens as Anthropic shares tumble",
+      "summary": "Investors rush for havens as AI-linked stocks endure heavy wave of selling",
+      "link": "https://www.ft.com/content/23fa83d8-e078-4853-959e-bd1f19d14ff5?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-20T17:33:51.300252Z"
+    },
+    {
+      "id": "919a058528dc1ae8487ed2b510af0c4e",
+      "title": "British universities relieved as tuition fee decision delayed until next year",
+      "summary": "Dispute over lower fees for European students had threatened to derail the EU-UK summit in Brussels",
+      "link": "https://www.ft.com/content/77cb4ec6-4f03-4328-b566-0f1fd74b81ae?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
       "regime": "AI",
       "tickers": [
-        "DXY",
-        "JPY"
+        "EUR"
       ],
       "regions": [
-        "JAPAN"
+        "EUROPE",
+        "UK"
       ],
       "assets": [
         "AI",
@@ -431,165 +478,22 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-20T17:28:26.061823Z"
+      "published": "2026-11-20T17:33:51.744472Z"
     },
     {
-      "id": "3dd495f36f231bd2bccc964b658a6545",
-      "title": "Federal Reserve issues FOMC statement",
-      "summary": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-      "source": "Federal Reserve",
-      "score": 23,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-20T17:28:28.130797Z"
-    },
-    {
-      "id": "85bf14fb596c200f5c6bc91259ab3c74",
-      "title": "The Bank of England, the Monetary Authority of Singapore, and the Bank of Thailand: Project Meridian FX APAC",
-      "summary": "Joint media release",
-      "link": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release",
-      "source": "Bank of England",
-      "score": 22,
-      "severity": "HIGH",
-      "regime": "RATES",
-      "tickers": [],
-      "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-20T17:29:06.992940Z"
-    },
-    {
-      "id": "9a2e410f1087085e4c736bc519826ad9",
-      "title": "Econowind Turns Ten As Maritime Players Embrace Wind-Assisted Ship Propulsion To Tackle Rising Fuel Costs",
-      "summary": "From wooden prototypes on a car roof to more than 170 VentoFoil units sold, the Dutch wind-assisted ship propulsion (WASP) specialist looks back on a decade of practical engineering and a changing industry. ZEEWOLDE, 19 November 2026 \u2013 Econowind is celebrating its tenth anniversary, with more than 170 VentoFoil units sold to shipping companies around ...",
-      "link": "https://www.hellenicshippingnews.com/econowind-turns-ten-as-maritime-players-embrace-wind-assisted-ship-propulsion-to-tackle-rising-fuel-costs/",
-      "source": "Hellenic Shipping",
-      "score": 20,
-      "severity": "HIGH",
-      "regime": "COMMODITIES",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [],
-      "assets": [
-        "COMMODITIES",
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "WTI",
-          "XAU",
-          "MINERS"
-        ],
-        "bearish": [
-          "AIRLINES",
-          "TRANSPORT"
-        ]
-      },
-      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-20T17:29:10.833401Z"
-    },
-    {
-      "id": "734a489cd06bb03ab3c59a0c937b1780",
-      "title": "Decision time on carbon pricing for global shipping at the UN",
-      "summary": "Governments are set to decide on the future of the Net-Zero Framework (NZF) for global shipping, a landmark climate agreement introducing the world\u2019s first global carbon pricing on any industry. The negotiations are planned to take place at the International Maritime Organization (IMO) as a three-part summit: technical working group talks (ISWG-GHG-23) on 23-27 November, ...",
-      "link": "https://www.hellenicshippingnews.com/decision-time-on-carbon-pricing-for-global-shipping-at-the-un/",
-      "source": "Hellenic Shipping",
+      "id": "41a15d0b58b375310b0efb74990a4100",
+      "title": "Jamie Dimon vows to claw back \u2018unfair\u2019 UK bank tax",
+      "summary": "Boss of US lender says he will find ways to offset the increase announced by the government last month",
+      "link": "https://www.ft.com/content/4dd143d0-0b10-4bb8-ac15-e04702fa8b9a?syn-25a6b1a6=1",
+      "source": "Financial Times",
       "score": 12,
       "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-20T17:29:10.833217Z"
-    },
-    {
-      "id": "e4a4b1ae29917b73b1e76c9bf7ae0cab",
-      "title": "UK-EU reset must reduce costs for trade and shipping",
-      "summary": "The UK Chamber of Shipping is calling on the UK and EU to use the reset talks on 20 November to reduce barriers to trade, minimise unnecessary regulatory costs and support shipping\u2019s transition to net zero while protecting vital connectivity. Shipping is the physical link between the UK and its largest trading partner. For ship ...",
-      "link": "https://www.hellenicshippingnews.com/uk-eu-reset-must-reduce-costs-for-trade-and-shipping/",
-      "source": "Hellenic Shipping",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
+      "regime": "AI",
       "tickers": [],
       "regions": [
         "UK"
       ],
       "assets": [
-        "SHIPPING"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-20T17:29:10.833337Z"
-    },
-    {
-      "id": "71c283d67986a2e80355090fddfc26b4",
-      "title": "Gap stock soars as retailer says Old Navy turnaround shows signs of improvement",
-      "summary": "Gap on Thursday announced Ashley Kechter as the new CEO of Athleta. The retailer also reported mixed fiscal third-quarter earnings.",
-      "link": "https://www.cnbc.com/2026/11/19/gap-gap-q3-2026-earnings.html",
-      "source": "CNBC",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
         "AI"
       ],
       "market_impact": {
@@ -601,213 +505,27 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-20T17:28:27.893504Z"
+      "published": "2026-11-20T17:33:51.744517Z"
     },
     {
-      "id": "2b974030af25081361be46a0f54b07ae",
-      "title": "Personal Income and Outlays, September 2026",
-      "summary": "<p>Personal income increased $54.5 billion (0.2 percent at a monthly rate) in September, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)&ndash;personal income less personal current taxes&ndash;increased $52.7 billion (0.2 percent), and personal consumption expenditures (PCE) increased $113.1 billion (0.5 percent). Personal outlays&ndash;the sum of PCE, personal interest payments, and personal current transfer payments&ndash;increased $113.0 billion in September. Personal saving was $911.1 billion, and the personal saving rate&ndash;personal saving as a percentage of DPI&ndash;was 3.8 percent.\n</p>",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
-      "source": "BEA",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "INFLATION",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
-        ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
-      },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-20T17:29:03.658100Z"
-    },
-    {
-      "id": "9b669daa003b6a8d2e11f4fa4fe74924",
-      "title": "The EU and the United Kingdom turn closeness into common strength and prosperity at second bilateral summit",
-      "summary": "European Commission News Brussels, 20 Nov 2026 \nCommission President Ursula\u00a0von der Leyen and European Council President Ant\u00f3nio Costa hosted British Prime Minister Andy Burnham in Brussels today for the sec...",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2555",
-      "source": "European Commission",
-      "score": 8,
-      "severity": "MEDIUM",
-      "regime": "RATES",
-      "tickers": [
-        "EUR",
-        "JPY"
-      ],
-      "regions": [
-        "EUROPE",
-        "UK"
-      ],
-      "assets": [
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-20T17:29:06.941366Z"
-    },
-    {
-      "id": "a318486aa9dc598e513a29905450a863",
-      "title": "Hanwha Ocean Wins Two VLCC Orders",
-      "summary": "Deal Brings Yearly Tally to 47 Vessels and $8.54 Billion, Emphasizing Eco-Friendly High-Value Ships Hanwha Ocean has won an order for two Very Large Crude Carriers (VLCCs) from a shipowner in Oceania. In a regulatory filing on Nov. 19, Hanwha Ocean said it had signed a shipbuilding contract worth a total of 364.2 billion won ...",
-      "link": "https://www.hellenicshippingnews.com/hanwha-ocean-wins-two-vlcc-orders/",
-      "source": "Hellenic Shipping",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-20T17:29:10.833505Z"
-    },
-    {
-      "id": "2e291066b0aba5da921a619ade97faf5",
-      "title": "EXCLUSIVE: Saudis preparing for Yemen campaign to last well into 2027 - Reuters",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa0txUndxQmRJNU1nMUZSVFc5d29OSDkwSWMyOHB5VC1iVVZwY3IwaEs3VlRkbEtHVGRmazVueE1YSjA4N0N4OElZRVdfM0trQ0dnaVptanRtRWVoWERLMWlUUjlac2ozVlRjMWdqMDQ1ODBOZEtPb2FKVFA0UXJpeGdjck1OMDMzdEhhQ2piTDd4QnFXcm12Vlh2MHVKcXNQUTdJWVZlV1E?oc=5\" target=\"_blank\">EXCLUSIVE: Saudis preparing for Yemen campaign to last well into 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa0txUndxQmRJNU1nMUZSVFc5d29OSDkwSWMyOHB5VC1iVVZwY3IwaEs3VlRkbEtHVGRmazVueE1YSjA4N0N4OElZRVdfM0trQ0dnaVptanRtRWVoWERLMWlUUjlac2ozVlRjMWdqMDQ1ODBOZEtPb2FKVFA0UXJpeGdjck1OMDMzdEhhQ2piTDd4QnFXcm12Vlh2MHVKcXNQUTdJWVZlV1E?oc=5",
-      "source": "Google Macro",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-20T17:29:12.779292Z"
-    },
-    {
-      "id": "e266c7b3c959d5d0e610491a331d21fe",
-      "title": "U.S. International Trade in Goods and Services, September 2026",
-      "summary": "<p>The U.S. goods and services trade deficit decreased in September 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $105.7 billion in August (revised) to $105.0 billion in September, as exports increased more than imports. The goods deficit decreased $0.7 billion in September to $135.9 billion. The services surplus decreased less than $0.1 billion in September to $30.9 billion.</p>",
-      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-september-2026",
-      "source": "BEA",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-20T17:29:03.657939Z"
-    },
-    {
-      "id": "8d74d9c8a3940f97dcf507ae6ac15ac8",
-      "title": "GDP (Advance Estimate), 3rd Quarter 2026",
-      "summary": "<p>Real gross domestic product (GDP) increased at an annual rate of 3.4 percent in the third quarter of 2026 (July, August, and September), according to the advance estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the second quarter, real GDP increased 2.2 percent. The contributors to the increase in real GDP in the third quarter were increases in investment, consumer spending, and government spending that were partly offset by a decrease in exports. Imports, which are a subtraction in the calculation of GDP, increased. </p>",
-      "link": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
-      "source": "BEA",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-20T17:29:03.658018Z"
-    },
-    {
-      "id": "5e75553a82351f237420052d0aaf216d",
-      "title": "TEN, Ltd. Reports Record Profits for the Nine Months and Third Quarter of 2026",
-      "summary": "TEN, Ltd. reported results (unaudited) for the nine months and the third quarter ended September 30, 2026. NINE MONTHS 2026 SUMMARY RESULTS During the first nine months of 2026, TEN, with an average in-the-water fleet of 63 vessels, generated gross revenues of $851 million, a near $274 million increase from the nine months of 2025. ...",
-      "link": "https://www.hellenicshippingnews.com/ten-ltd-reports-record-profits-for-the-nine-months-and-third-quarter-of-2026/",
-      "source": "Hellenic Shipping",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-20T17:29:10.833129Z"
-    },
-    {
-      "id": "4cc4e20017b1f82349ec264e1fd031b9",
-      "title": "LR approves new Rules for nuclear-powered ships and offshore units",
-      "summary": "Lloyd\u2019s Register (LR) has approved Rules for the Classification of Ships and Offshore Units Integrated with Nuclear Power, providing a common classification framework to support the assessment of nuclear technologies for maritime use. They are believed to be the first Rules developed by a class society that are suitable for all types of ship and ...",
-      "link": "https://www.hellenicshippingnews.com/lr-approves-new-rules-for-nuclear-powered-ships-and-offshore-units/",
-      "source": "Hellenic Shipping",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-20T17:29:10.833278Z"
-    },
-    {
-      "id": "f3c46f70337eca96de3e6e49ef193a78",
-      "title": "Everllence\u2019s 175D Engine Capable of 1,500 Hours of Unmanned Operation",
-      "summary": "Everllence has reached an important milestone in the development of propulsion solutions for unmanned surface vessels (USVs) with the announcement that its 175D high-speed marine engine will now be used in a prototype project supporting up to 1,500 hours of unmanned vessel operation. USVs are crewless vessels that can be remotely controlled, semi-autonomous, or fully ...",
-      "link": "https://www.hellenicshippingnews.com/everllences-175d-engine-capable-of-1500-hours-of-unmanned-operation/",
-      "source": "Hellenic Shipping",
-      "score": 1,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-20T17:29:10.833461Z"
-    },
-    {
-      "id": "3ccf891ea1ec054bd7489deba3b6d7d8",
-      "title": "Vladimir Putin pushes \u2018Eurasian\u2019 order ahead of meeting with Xi and Trump - Financial Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPdmlxdXREZlBlbWU3TTRjY25EU1BaOFV5Wk5iNnpDa2RicGwxSERlSVFMTzlhQXp2S2gyeEgtLUVFaTEySU1oNmw2NUlhRmFDMnFhOURCTzdYOG1XZGctMnlmaktWYWUxQ1FLNFFhVEtCRFFsX01rZ1VkR3pFekF0QzFtZTc?oc=5\" target=\"_blank\">Vladimir Putin pushes \u2018Eurasian\u2019 order ahead of meeting with Xi and Trump</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdmlxdXREZlBlbWU3TTRjY25EU1BaOFV5Wk5iNnpDa2RicGwxSERlSVFMTzlhQXp2S2gyeEgtLUVFaTEySU1oNmw2NUlhRmFDMnFhOURCTzdYOG1XZGctMnlmaktWYWUxQ1FLNFFhVEtCRFFsX01rZ1VkR3pFekF0QzFtZTc?oc=5",
+      "id": "a8cbbfd75ac6c620ab7ebedbe01c1ef7",
+      "title": "Canada\u2019s Banking Regulator Moves to Level Playing Field for Smaller Lenders - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQWEdMckltLVpQY0YwdURFR3BHWG56NzFjRFlMeXZJV3ZTdjhaM0NrNEcxN3RuSHduX0VlWTNNeDBZZmVFUV9sVjFBeUg1NVNzTlB4cE9BaVNuSDRIZXNxeS1VQWhGZkhoelg0UkFiWWdrVVlSNE9oeWRIcWJJZXdyUFFQNmRPLXZnNERlamlmRGZsbmZvUm42LWRfS1B6UXB6c1dHd3BsaUtTWEUxdm9XS1pBcHNBaUJWRUVhbDVJTQ?oc=5\" target=\"_blank\">Canada\u2019s Banking Regulator Moves to Level Playing Field for Smaller Lenders</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWEdMckltLVpQY0YwdURFR3BHWG56NzFjRFlMeXZJV3ZTdjhaM0NrNEcxN3RuSHduX0VlWTNNeDBZZmVFUV9sVjFBeUg1NVNzTlB4cE9BaVNuSDRIZXNxeS1VQWhGZkhoelg0UkFiWWdrVVlSNE9oeWRIcWJJZXdyUFFQNmRPLXZnNERlamlmRGZsbmZvUm42LWRfS1B6UXB6c1dHd3BsaUtTWEUxdm9XS1pBcHNBaUJWRUVhbDVJTQ?oc=5",
       "source": "Google Macro",
       "score": 1,
       "severity": "LOW",
       "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
+      "tickers": [
+        "DXY"
+      ],
+      "regions": [
+        "UK"
+      ],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-20T17:29:13.342024Z"
+      "published": "2026-11-20T17:35:00.249604Z"
     }
   ]
 }
