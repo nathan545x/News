@@ -1,23 +1,117 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-21T05:50:29.439530Z",
+  "generated_at": "2026-11-21T06:05:43.459331Z",
   "market_regime": {
     "regime": "GEO-SHOCK",
     "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 2,
-    "last_updated": "2026-11-21T05:50:29.439542Z"
+    "critical_alerts": 3,
+    "high_alerts": 7,
+    "last_updated": "2026-11-21T06:05:43.459345Z"
   },
   "top_signals": [
     {
-      "id": "f60fd56e7b4b6c7ab29aa2fb9032fcdd",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul type=\"disc\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-19868\" target=\"_blank\">CVE-2026-19868</a> SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA\u2019s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.</p>\n<p>While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a>. CISA will continue to add vulnerabilities to the catalog that meet the&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.</p>\n<p>Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA\u2019s&nbsp;<a href=\"https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w\" target=\"_blank\">KEV Nomination Form</a>. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "score": 17,
+      "id": "e3f0be0dbc1d365ab30f18058e3a3493",
+      "title": "Oil Prices Caught Between a Looming Glut and Middle East Turmoil",
+      "summary": "Oil prices have traded in a narrow range over the past few sessions as forecasts of a coming surplus collide with continued attacks and stalled diplomacy in the Middle East. A run of agency reports this month has pushed expectations toward oversupply and weighed on crude. Brent crude was up 0.22% at $92.18 per barrel in early trade on Friday, well below its October levels above $110 but little changed from the start of the week, while WTI crude had gained 0.35% to $82.73 per barrel. The International Energy Agency (IEA) said in its November Oil\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Caught-Between-a-Looming-Glut-and-Middle-East-Turmoil.html",
+      "source": "OilPrice",
+      "score": 32,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-21T06:05:39.056791Z"
+    },
+    {
+      "id": "3c9eb92846558c87ee29931de06af9d5",
+      "title": "Warsh, Opening Remarks",
+      "summary": "Speech At the Productivity and Jobs Task Force Conference, hosted by the Federal Reserve Board and the Federal Reserve Bank of San Francisco, San Francisco, California",
+      "link": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",
+      "source": "Federal Reserve",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-21T06:04:54.639979Z"
+    },
+    {
+      "id": "d7ff8e71d3e883c22560375b39b09040",
+      "title": "Global refinery inputs fell sharply in the second quarter of 2026 before modest recovery",
+      "summary": "Global crude oil refinery inputs fell by 4.8 million barrels per day (b/d) in the second quarter of 2026 (2Q26), or 6%, following the start of conflict in late February in the Middle East, according to data from Kpler. Throughput then increased by 1.8 million b/d in the third quarter, primarily as refiners in the region adjusted to new trade flows.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68404",
+      "source": "EIA",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-21T06:05:38.802226Z"
+    },
+    {
+      "id": "aaf607d6035dab63d4e3438a9f39142a",
+      "title": "Australian Energy Officials Warned of Data Center Risk, Age Says",
+      "summary": "Australian energy authorities warned the government that its plan to attract more data centers to Victoria would present a \u201cmajor structural challenge\u201d to the southern state\u2019s electricity system, The Age reported, citing official documents.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-21/australian-energy-officials-warned-of-data-center-risk-age-says",
+      "source": "Bloomberg",
+      "score": 24,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
@@ -37,24 +131,23 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-21T05:50:26.960216Z"
+      "published": "2026-11-21T06:04:50.305782Z"
     },
     {
-      "id": "99002cd19d3f2af8967ceb446bac7b78",
-      "title": "Brexit: Rejoin and leave campaigns can\u2019t win with yesterday\u2019s arguments",
-      "summary": "<p> <img alt=\"Most polling now suggests a plurality of Britons favour rejoining the EU\" src=\"https://www.cityam.com/wp-content/uploads/2024/12/23-Brexit-protest.jpg?w=1200\" /> </p>Brexit is back on the agenda, but research shows leave and rejoin campaigners will need new arguments to win over today\u2019s voters, says Morgan Jones Today, as you will likely be aware, the EU-UK summit will be taking place in. It\u2019s the most tangible step so far in Andy Burnham\u2019s re-opening of the conversation about <a href=\"https://www.cityam.com/brexit-rejoin-leave-campaigns-yesterdays-arguments/\">[...]</a>",
-      "link": "https://www.cityam.com/brexit-rejoin-leave-campaigns-yesterdays-arguments/",
-      "source": "CityAM",
-      "score": 15,
+      "id": "0dd0de37fe7b24aa77761952bae469f4",
+      "title": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+      "summary": "Trump spoke at the White House after meeting with Chinese President Xi Jinping and Russian President Vladimir Putin for a historic trilateral summit in China.",
+      "link": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+      "source": "CNBC",
+      "score": 24,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "UK"
+        "CHINA",
+        "RUSSIA"
       ],
-      "assets": [
-        "AI"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -69,23 +162,22 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-21T05:50:16.921521Z"
+      "published": "2026-11-21T06:04:53.451713Z"
     },
     {
-      "id": "8d32fc534391dad9aeee31557bd1e3c3",
-      "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
-      "summary": "A China-linked threat actor used the open source AI penetration testing tool Cairn to persistently attack two universities, and in one case, possibly discover a zero-day bug, researchers said.",
-      "link": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
-      "source": "The Record",
-      "score": 11,
-      "severity": "MEDIUM",
+      "id": "1dc3c3ec743e4322715ac59206660d38",
+      "title": "Groundtruth launches AI platform to automate freight billing with J.B. Hunt partnership",
+      "summary": "<p>Groundtruth aims to reduce manual invoice reconciliation by using AI to validate freight charges before bills reach customers. The startup is nearly fully deployed across J.B. Hunt and is now offering its platform to carriers, brokers and freight forwarders.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/groundtruth-launches-ai-platform-to-automate-freight-billing-with-j-b-hunt-partnership\">Groundtruth launches AI platform to automate freight billing with J.B. Hunt partnership</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/groundtruth-launches-ai-platform-to-automate-freight-billing-with-j-b-hunt-partnership",
+      "source": "FreightWaves",
+      "score": 24,
+      "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
-      "regions": [
-        "CHINA"
-      ],
+      "regions": [],
       "assets": [
-        "AI"
+        "AI",
+        "SHIPPING"
       ],
       "market_impact": {
         "bullish": [
@@ -101,20 +193,28 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-21T05:50:26.678411Z"
+      "published": "2026-11-21T06:05:39.569704Z"
     },
     {
-      "id": "a42830fb87256d92a1ad61e6c2f07f53",
-      "title": "Hong Kong pushes to bring crypto custodians, advisers under licensing rules",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Hong Kong pushes to bring crypto custodians, advisers under licensing rules\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7Y9VC5TT6XQ46DCK68VGC0X/regulation-hong-kong.jpg\" /></p><p>Hong Kong\u2019s securities regulator says the proposal would strengthen investor protections, with the bill set for its first reading in the Legislative Council on Dec. 2.</p>",
-      "link": "https://cointelegraph.com/news/hong-kong-crypto-custody-advisory-licensing-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 6,
-      "severity": "LOW",
+      "id": "80f2a9897db23f81cd77097a6fbc2909",
+      "title": "Bitcoin sell-off: Crypto is failing the 'digital gold' test again as it sinks with stocks - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE02OVNPeVBBRWFNM0RxSndNZ2NPQnE3amxmMEpmenlKMm9COUdneHlXbUNTaXFwdjVsQnFQbGg1dTctVXZ0cDd4VTZTY1ZWYThiMFZrTGtuY0hSSWlNS1B2b1FlUFJENkZkQzkzTzZGdzFMUXlxTmhr0gF8QVVfeXFMTkVKRDJKTmVUSkU3SW1TejV5aUFtVzA1N0JKSkY0NWNDZmprbnBycGJJOXg0SzV1UjBoNWM4RWwxUDZ6OHV1X0tfY0VMbzlIMmZlVnZLcjdYeUNTWjg1UWxZOW0xTTNHZ25GejJ0SmRIQ1pGREtjbDVKUUJ3Ng?oc=5\" target=\"_blank\">Bitcoin sell-off: Crypto is failing the 'digital gold' test again as it sinks with stocks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE02OVNPeVBBRWFNM0RxSndNZ2NPQnE3amxmMEpmenlKMm9COUdneHlXbUNTaXFwdjVsQnFQbGg1dTctVXZ0cDd4VTZTY1ZWYThiMFZrTGtuY0hSSWlNS1B2b1FlUFJENkZkQzkzTzZGdzFMUXlxTmhr0gF8QVVfeXFMTkVKRDJKTmVUSkU3SW1TejV5aUFtVzA1N0JKSkY0NWNDZmprbnBycGJJOXg0SzV1UjBoNWM4RWwxUDZ6OHV1X0tfY0VMbzlIMmZlVnZLcjdYeUNTWjg1UWxZOW0xTTNHZ25GejJ0SmRIQ1pGREtjbDVKUUJ3Ng?oc=5",
+      "source": "Google Macro",
+      "score": 22,
+      "severity": "HIGH",
       "regime": "CRYPTO",
-      "tickers": [],
+      "tickers": [
+        "BTC",
+        "XAU"
+      ],
       "regions": [],
-      "assets": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "CRYPTO",
+        "EQUITIES"
+      ],
       "market_impact": {
         "bullish": [
           "BTC",
@@ -125,17 +225,261 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-21T05:50:26.043684Z"
+      "published": "2026-11-21T06:05:43.459234Z"
+    },
+    {
+      "id": "2830a1b9815296c34f272d9807dc9c94",
+      "title": "Trump, Xi agreed that military AI decisions should involve humans, Bessent says",
+      "summary": "The agreement was among the major achievements of Trump's trip to Asia, Treasury Secretary Scott Bessent said.",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/20/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says/",
+      "source": "Defense News",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-21T06:05:39.873024Z"
+    },
+    {
+      "id": "4ae2291b9ccca3025e74b954e577cee4",
+      "title": "Congress struggles to avert US shutdown as Iran war divides lawmakers - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUDZZTmpNTGpqLUMwR0JBZUJuaVBuMDAwYVpVanpkNTJDSGpNMEkxdXlSX1JkSDJpaG1SNUlmMnJZTHZ2Y192UmFKSjlGazN5UE9hZEJfcmFwdzVGWFE0QWk3OXBGWEpudkV5bTdiLVEwWjJicDFrTHJWVGVQT2RNMlBYZ3pMMmhQTHhKRnJ1QktWbGhVWWxRb0paRGZvdVNDdlRJNEd1N1lEbG9LOU1mTURPZE9CZlVvUk5j?oc=5\" target=\"_blank\">Congress struggles to avert US shutdown as Iran war divides lawmakers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUDZZTmpNTGpqLUMwR0JBZUJuaVBuMDAwYVpVanpkNTJDSGpNMEkxdXlSX1JkSDJpaG1SNUlmMnJZTHZ2Y192UmFKSjlGazN5UE9hZEJfcmFwdzVGWFE0QWk3OXBGWEpudkV5bTdiLVEwWjJicDFrTHJWVGVQT2RNMlBYZ3pMMmhQTHhKRnJ1QktWbGhVWWxRb0paRGZvdVNDdlRJNEd1N1lEbG9LOU1mTURPZE9CZlVvUk5j?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-21T06:05:41.987703Z"
+    },
+    {
+      "id": "5a16369f28e07ae7609e50e25731beda",
+      "title": "China\u2019s Top Planner Seeks Faster Construction of State Projects",
+      "summary": "China\u2019s top planning agency urged local authorities to speed up the construction of government investment projects and disbursement of funds in a bid to spur growth in the world\u2019s second-largest economy.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-21/china-s-top-planner-seeks-faster-construction-of-state-projects",
+      "source": "Bloomberg",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-21T06:04:50.305713Z"
+    },
+    {
+      "id": "08ccadb986adb33f2c7463ea21f6ac44",
+      "title": "Refineries have shifted production away from gasoline to middle distillates",
+      "summary": "Particularly high refinery margins for distillate fuel oil and jet fuel have contributed to shifts in the refinery yields of major products in 2026. Data from our latest Petroleum Supply Monthly\u2014which includes data through August 2026\u2014indicate refinery yields of gasoline have decreased significantly this year to support increased production of distillate fuel oil and jet fuel, sometimes referred to as middle distillates due to their relative cut points in the oil refining process.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68424",
+      "source": "EIA",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-21T06:05:38.802156Z"
+    },
+    {
+      "id": "b2afda23adf2fad87d1533b9de782006",
+      "title": "Anthropic shares slide as tech stocks tumble",
+      "summary": "Blockbuster debut from developer of Claude fails to ease concerns over AI capex spending boom",
+      "link": "https://www.ft.com/content/c7ad2e0c-efd1-40c2-a5a8-819ced8acf5b?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-21T06:04:52.276139Z"
     }
   ],
   "alerts": [
     {
-      "id": "f60fd56e7b4b6c7ab29aa2fb9032fcdd",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul type=\"disc\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-19868\" target=\"_blank\">CVE-2026-19868</a> SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA\u2019s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.</p>\n<p>While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">KEV Catalog vulnerabilities</a>. CISA will continue to add vulnerabilities to the catalog that meet the&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\">specified criteria</a>.</p>\n<p>Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA\u2019s&nbsp;<a href=\"https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w\" target=\"_blank\">KEV Nomination Form</a>. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.</p>",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "score": 17,
+      "id": "e3f0be0dbc1d365ab30f18058e3a3493",
+      "title": "Oil Prices Caught Between a Looming Glut and Middle East Turmoil",
+      "summary": "Oil prices have traded in a narrow range over the past few sessions as forecasts of a coming surplus collide with continued attacks and stalled diplomacy in the Middle East. A run of agency reports this month has pushed expectations toward oversupply and weighed on crude. Brent crude was up 0.22% at $92.18 per barrel in early trade on Friday, well below its October levels above $110 but little changed from the start of the week, while WTI crude had gained 0.35% to $82.73 per barrel. The International Energy Agency (IEA) said in its November Oil\u2026",
+      "link": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Caught-Between-a-Looming-Glut-and-Middle-East-Turmoil.html",
+      "source": "OilPrice",
+      "score": 32,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "BRENT",
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-21T06:05:39.056791Z"
+    },
+    {
+      "id": "3c9eb92846558c87ee29931de06af9d5",
+      "title": "Warsh, Opening Remarks",
+      "summary": "Speech At the Productivity and Jobs Task Force Conference, hosted by the Federal Reserve Board and the Federal Reserve Bank of San Francisco, San Francisco, California",
+      "link": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",
+      "source": "Federal Reserve",
+      "score": 26,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-21T06:04:54.639979Z"
+    },
+    {
+      "id": "d7ff8e71d3e883c22560375b39b09040",
+      "title": "Global refinery inputs fell sharply in the second quarter of 2026 before modest recovery",
+      "summary": "Global crude oil refinery inputs fell by 4.8 million barrels per day (b/d) in the second quarter of 2026 (2Q26), or 6%, following the start of conflict in late February in the Middle East, according to data from Kpler. Throughput then increased by 1.8 million b/d in the third quarter, primarily as refiners in the region adjusted to new trade flows.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68404",
+      "source": "EIA",
+      "score": 25,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-21T06:05:38.802226Z"
+    },
+    {
+      "id": "aaf607d6035dab63d4e3438a9f39142a",
+      "title": "Australian Energy Officials Warned of Data Center Risk, Age Says",
+      "summary": "Australian energy authorities warned the government that its plan to attract more data centers to Victoria would present a \u201cmajor structural challenge\u201d to the southern state\u2019s electricity system, The Age reported, citing official documents.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-21/australian-energy-officials-warned-of-data-center-risk-age-says",
+      "source": "Bloomberg",
+      "score": 24,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
@@ -155,56 +499,180 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-21T05:50:26.960216Z"
+      "published": "2026-11-21T06:04:50.305782Z"
     },
     {
-      "id": "99002cd19d3f2af8967ceb446bac7b78",
-      "title": "Brexit: Rejoin and leave campaigns can\u2019t win with yesterday\u2019s arguments",
-      "summary": "<p> <img alt=\"Most polling now suggests a plurality of Britons favour rejoining the EU\" src=\"https://www.cityam.com/wp-content/uploads/2024/12/23-Brexit-protest.jpg?w=1200\" /> </p>Brexit is back on the agenda, but research shows leave and rejoin campaigners will need new arguments to win over today\u2019s voters, says Morgan Jones Today, as you will likely be aware, the EU-UK summit will be taking place in. It\u2019s the most tangible step so far in Andy Burnham\u2019s re-opening of the conversation about <a href=\"https://www.cityam.com/brexit-rejoin-leave-campaigns-yesterdays-arguments/\">[...]</a>",
-      "link": "https://www.cityam.com/brexit-rejoin-leave-campaigns-yesterdays-arguments/",
-      "source": "CityAM",
+      "id": "0dd0de37fe7b24aa77761952bae469f4",
+      "title": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+      "summary": "Trump spoke at the White House after meeting with Chinese President Xi Jinping and Russian President Vladimir Putin for a historic trilateral summit in China.",
+      "link": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+      "source": "CNBC",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA",
+        "RUSSIA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-21T06:04:53.451713Z"
+    },
+    {
+      "id": "1dc3c3ec743e4322715ac59206660d38",
+      "title": "Groundtruth launches AI platform to automate freight billing with J.B. Hunt partnership",
+      "summary": "<p>Groundtruth aims to reduce manual invoice reconciliation by using AI to validate freight charges before bills reach customers. The startup is nearly fully deployed across J.B. Hunt and is now offering its platform to carriers, brokers and freight forwarders.</p>\n<p>The post <a href=\"https://www.freightwaves.com/news/groundtruth-launches-ai-platform-to-automate-freight-billing-with-j-b-hunt-partnership\">Groundtruth launches AI platform to automate freight billing with J.B. Hunt partnership</a> appeared first on <a href=\"https://www.freightwaves.com\">FreightWaves</a>.</p>",
+      "link": "https://www.freightwaves.com/news/groundtruth-launches-ai-platform-to-automate-freight-billing-with-j-b-hunt-partnership",
+      "source": "FreightWaves",
+      "score": 24,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "SHIPPING"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-21T06:05:39.569704Z"
+    },
+    {
+      "id": "80f2a9897db23f81cd77097a6fbc2909",
+      "title": "Bitcoin sell-off: Crypto is failing the 'digital gold' test again as it sinks with stocks - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE02OVNPeVBBRWFNM0RxSndNZ2NPQnE3amxmMEpmenlKMm9COUdneHlXbUNTaXFwdjVsQnFQbGg1dTctVXZ0cDd4VTZTY1ZWYThiMFZrTGtuY0hSSWlNS1B2b1FlUFJENkZkQzkzTzZGdzFMUXlxTmhr0gF8QVVfeXFMTkVKRDJKTmVUSkU3SW1TejV5aUFtVzA1N0JKSkY0NWNDZmprbnBycGJJOXg0SzV1UjBoNWM4RWwxUDZ6OHV1X0tfY0VMbzlIMmZlVnZLcjdYeUNTWjg1UWxZOW0xTTNHZ25GejJ0SmRIQ1pGREtjbDVKUUJ3Ng?oc=5\" target=\"_blank\">Bitcoin sell-off: Crypto is failing the 'digital gold' test again as it sinks with stocks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE02OVNPeVBBRWFNM0RxSndNZ2NPQnE3amxmMEpmenlKMm9COUdneHlXbUNTaXFwdjVsQnFQbGg1dTctVXZ0cDd4VTZTY1ZWYThiMFZrTGtuY0hSSWlNS1B2b1FlUFJENkZkQzkzTzZGdzFMUXlxTmhr0gF8QVVfeXFMTkVKRDJKTmVUSkU3SW1TejV5aUFtVzA1N0JKSkY0NWNDZmprbnBycGJJOXg0SzV1UjBoNWM4RWwxUDZ6OHV1X0tfY0VMbzlIMmZlVnZLcjdYeUNTWjg1UWxZOW0xTTNHZ25GejJ0SmRIQ1pGREtjbDVKUUJ3Ng?oc=5",
+      "source": "Google Macro",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC",
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "CRYPTO",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-21T06:05:43.459234Z"
+    },
+    {
+      "id": "2830a1b9815296c34f272d9807dc9c94",
+      "title": "Trump, Xi agreed that military AI decisions should involve humans, Bessent says",
+      "summary": "The agreement was among the major achievements of Trump's trip to Asia, Treasury Secretary Scott Bessent said.",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/20/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says/",
+      "source": "Defense News",
+      "score": 20,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "TLT"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-21T06:05:39.873024Z"
+    },
+    {
+      "id": "4ae2291b9ccca3025e74b954e577cee4",
+      "title": "Congress struggles to avert US shutdown as Iran war divides lawmakers - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUDZZTmpNTGpqLUMwR0JBZUJuaVBuMDAwYVpVanpkNTJDSGpNMEkxdXlSX1JkSDJpaG1SNUlmMnJZTHZ2Y192UmFKSjlGazN5UE9hZEJfcmFwdzVGWFE0QWk3OXBGWEpudkV5bTdiLVEwWjJicDFrTHJWVGVQT2RNMlBYZ3pMMmhQTHhKRnJ1QktWbGhVWWxRb0paRGZvdVNDdlRJNEd1N1lEbG9LOU1mTURPZE9CZlVvUk5j?oc=5\" target=\"_blank\">Congress struggles to avert US shutdown as Iran war divides lawmakers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUDZZTmpNTGpqLUMwR0JBZUJuaVBuMDAwYVpVanpkNTJDSGpNMEkxdXlSX1JkSDJpaG1SNUlmMnJZTHZ2Y192UmFKSjlGazN5UE9hZEJfcmFwdzVGWFE0QWk3OXBGWEpudkV5bTdiLVEwWjJicDFrTHJWVGVQT2RNMlBYZ3pMMmhQTHhKRnJ1QktWbGhVWWxRb0paRGZvdVNDdlRJNEd1N1lEbG9LOU1mTURPZE9CZlVvUk5j?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "MIDDLE_EAST",
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-21T06:05:41.987703Z"
+    },
+    {
+      "id": "5a16369f28e07ae7609e50e25731beda",
+      "title": "China\u2019s Top Planner Seeks Faster Construction of State Projects",
+      "summary": "China\u2019s top planning agency urged local authorities to speed up the construction of government investment projects and disbursement of funds in a bid to spur growth in the world\u2019s second-largest economy.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-21/china-s-top-planner-seeks-faster-construction-of-state-projects",
+      "source": "Bloomberg",
       "score": 15,
       "severity": "HIGH",
       "regime": "GEO-SHOCK",
       "tickers": [],
       "regions": [
-        "UK"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-21T05:50:16.921521Z"
-    },
-    {
-      "id": "8d32fc534391dad9aeee31557bd1e3c3",
-      "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
-      "summary": "A China-linked threat actor used the open source AI penetration testing tool Cairn to persistently attack two universities, and in one case, possibly discover a zero-day bug, researchers said.",
-      "link": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
-      "source": "The Record",
-      "score": 11,
-      "severity": "MEDIUM",
-      "regime": "GEO-SHOCK",
-      "tickers": [],
-      "regions": [
         "CHINA"
       ],
-      "assets": [
-        "AI"
-      ],
+      "assets": [],
       "market_impact": {
         "bullish": [
           "XAU",
@@ -219,16 +687,100 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-21T05:50:26.678411Z"
+      "published": "2026-11-21T06:04:50.305713Z"
     },
     {
-      "id": "a42830fb87256d92a1ad61e6c2f07f53",
-      "title": "Hong Kong pushes to bring crypto custodians, advisers under licensing rules",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Hong Kong pushes to bring crypto custodians, advisers under licensing rules\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7Y9VC5TT6XQ46DCK68VGC0X/regulation-hong-kong.jpg\" /></p><p>Hong Kong\u2019s securities regulator says the proposal would strengthen investor protections, with the bill set for its first reading in the Legislative Council on Dec. 2.</p>",
-      "link": "https://cointelegraph.com/news/hong-kong-crypto-custody-advisory-licensing-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "score": 6,
-      "severity": "LOW",
+      "id": "08ccadb986adb33f2c7463ea21f6ac44",
+      "title": "Refineries have shifted production away from gasoline to middle distillates",
+      "summary": "Particularly high refinery margins for distillate fuel oil and jet fuel have contributed to shifts in the refinery yields of major products in 2026. Data from our latest Petroleum Supply Monthly\u2014which includes data through August 2026\u2014indicate refinery yields of gasoline have decreased significantly this year to support increased production of distillate fuel oil and jet fuel, sometimes referred to as middle distillates due to their relative cut points in the oil refining process.",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=68424",
+      "source": "EIA",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-21T06:05:38.802156Z"
+    },
+    {
+      "id": "b2afda23adf2fad87d1533b9de782006",
+      "title": "Anthropic shares slide as tech stocks tumble",
+      "summary": "Blockbuster debut from developer of Claude fails to ease concerns over AI capex spending boom",
+      "link": "https://www.ft.com/content/c7ad2e0c-efd1-40c2-a5a8-819ced8acf5b?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-21T06:04:52.276139Z"
+    },
+    {
+      "id": "4682ed5e710b52b7e237b7fe148f79dc",
+      "title": "Exclusive: Timms welfare review to dismiss change to Pip eligibility",
+      "summary": "<p> <img alt=\"Burnham has pledged to bring the welfare bill down.\" src=\"https://www.cityam.com/wp-content/uploads/2026/07/Burnham.jpg?w=1200\" /> </p>A government-led review into disability payments will not demand a tightening on eligibility to claims, according to people briefed on the matter, setting Andy Burnham up for a clash between welfare reform for under 25-year-olds and other adults.&#160; Sir Stephen Timms\u2019 welfare review, which is set to be published on Tuesday, will suggest that claimants <a href=\"https://www.cityam.com/exclusive-timms-welfare-review-to-dismiss-change-to-pip-eligibility/\">[...]</a>",
+      "link": "https://www.cityam.com/exclusive-timms-welfare-review-to-dismiss-change-to-pip-eligibility/",
+      "source": "CityAM",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-21T06:05:35.740822Z"
+    },
+    {
+      "id": "ce6f1bc76609e878d898f27562b5906a",
+      "title": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
+      "source": "CoinDesk",
+      "score": 11,
+      "severity": "MEDIUM",
       "regime": "CRYPTO",
       "tickers": [],
       "regions": [],
@@ -243,7 +795,81 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-21T05:50:26.043684Z"
+      "published": "2026-11-21T06:05:40.600898Z"
+    },
+    {
+      "id": "0e9c5c583f9486da2a144df989773444",
+      "title": "Anthropic IPO 'exactly what the markets need,' but analysts warn of volatility - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTFBZOEFpTi1iUmxaWVoyVm5zUWNuRm14dXA2MUozdFNBNy1BSDlWY0tDekwzUE96MFJTUHd5RHBmNGM1b29fc3J3VkxqbDhQVGNnaXA1bkhOZTI1b1h4ckhhM2JIZTRkRDBwaFpQdTg5NkJaZ9IBd0FVX3lxTFA2cTBDSlRPdGV5ekoyRElpLUV1TDRiMWtGUy04NmgxdXRFc0xqWGhjcl8wYS01ekVheGk1Tzg1blF1RUlDNzdyeWJUSjFhRjNSMkhPcmFXNDJVOUFpNWxNazV4VXRxeTQ4Y3V6TUtERHgyakZuUEFr?oc=5\" target=\"_blank\">Anthropic IPO 'exactly what the markets need,' but analysts warn of volatility</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZOEFpTi1iUmxaWVoyVm5zUWNuRm14dXA2MUozdFNBNy1BSDlWY0tDekwzUE96MFJTUHd5RHBmNGM1b29fc3J3VkxqbDhQVGNnaXA1bkhOZTI1b1h4ckhhM2JIZTRkRDBwaFpQdTg5NkJaZ9IBd0FVX3lxTFA2cTBDSlRPdGV5ekoyRElpLUV1TDRiMWtGUy04NmgxdXRFc0xqWGhjcl8wYS01ekVheGk1Tzg1blF1RUlDNzdyeWJUSjFhRjNSMkhPcmFXNDJVOUFpNWxNazV4VXRxeTQ4Y3V6TUtERHgyakZuUEFr?oc=5",
+      "source": "Google Macro",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-21T06:05:43.459306Z"
+    },
+    {
+      "id": "7bad41c38556c4948d2d0d563bd4332f",
+      "title": "China prepares to restart US private equity investments after pullback - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNWmdmcDR5dl9KYy1rUjY0VWkyLWFndlNmUHcyamtsQzFwTDNFZ2VvUmhWckxEcjFxNWdtSmQydDVEaDJNY0VLYnJaUVRhZEk2WXA0ZkFFMHpwRVJXUTJiSHJHLWpObnZHb0FHNTIxaExYeEJZTUpqd3Q1cllORFEyY0k5b0M?oc=5\" target=\"_blank\">China prepares to restart US private equity investments after pullback</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWmdmcDR5dl9KYy1rUjY0VWkyLWFndlNmUHcyamtsQzFwTDNFZ2VvUmhWckxEcjFxNWdtSmQydDVEaDJNY0VLYnJaUVRhZEk2WXA0ZkFFMHpwRVJXUTJiSHJHLWpObnZHb0FHNTIxaExYeEJZTUpqd3Q1cllORFEyY0k5b0M?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-21T06:05:42.468280Z"
+    },
+    {
+      "id": "ffe4b8e53d888f19d6f6b9e3e39e40aa",
+      "title": "Dutch defense-industry plan targets 40% growth, \u20ac15 billion revenue by 2030",
+      "summary": "The nation of 18 million punches above its weight in several key defense technology areas.",
+      "link": "https://www.defensenews.com/global/europe/2026/11/20/dutch-defense-industry-plan-targets-40-growth-e15-billion-revenue-by-2030/",
+      "source": "Defense News",
+      "score": 6,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-21T06:05:39.873088Z"
     }
   ]
 }
