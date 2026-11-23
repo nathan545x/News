@@ -1,32 +1,69 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-23T02:39:15.904441Z",
+  "generated_at": "2026-11-23T02:43:54.005573Z",
   "market_regime": {
-    "regime": "COMMODITIES",
-    "dominant_driver": "COMMODITIES",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 1,
-    "last_updated": "2026-11-23T02:39:15.904455Z"
+    "critical_alerts": 2,
+    "high_alerts": 3,
+    "last_updated": "2026-11-23T02:43:54.005583Z"
   },
   "top_signals": [
     {
-      "id": "6150ff7926ef20f4668011aa6a713f72",
-      "title": "India\u2019s Nifty Stands Apart as Global Stocks, Gold Suffer Rare Joint Selloff",
-      "summary": "India\u2019s equity benchmark climbed as the S&amp;P 500, MSCI\u2019s Asia gauge and gold each lost more than 5% last week.",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-11-23/india-s-nifty-stands-apart-as-global-stocks-gold-suffer-rare-joint-selloff",
+      "id": "8a25d93da49b8f96a575a544bc33e2b8",
+      "title": "Policy paper: HM Treasury Market Engagement Group summary minutes \u2013 November 2026",
+      "summary": "A senior level forum for financial market participants to share their views on UK-related developments in financial markets, including gilts and sterling, and broader market themes with the Chancellor of the Exchequer.",
+      "link": "https://www.gov.uk/government/publications/hm-treasury-market-engagement-group-summary-minutes-november-2026",
+      "source": "HM Treasury",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "GBP",
+        "TLT",
+        "UK_GILTS"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "FX",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-23T02:43:42.644072Z"
+    },
+    {
+      "id": "e12dfbcf872ce3dd9e4afcc414998b15",
+      "title": "Copper Falls Below $12,000 in London as Metals Turmoil Deepens",
+      "summary": "Copper sank below $12,000 a ton on the London Metal Exchange, deepening a sharp selloff as doubts grow about demand from artificial intelligence.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-23/copper-rises-after-falling-more-than-9-last-week-on-ai-gloom",
       "source": "Bloomberg",
-      "score": 15,
-      "severity": "HIGH",
+      "score": 28,
+      "severity": "CRITICAL",
       "regime": "COMMODITIES",
       "tickers": [
-        "XAU"
+        "COPPER",
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [
-        "COMMODITIES",
-        "EQUITIES"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -40,15 +77,127 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-23T02:38:24.804375Z"
+      "published": "2026-11-23T02:42:55.440765Z"
     },
     {
-      "id": "76c0328df373b617cc46c1a6a276239b",
-      "title": "Tata Steel to Acquire 26.4% in APL Apollo Tubes for $1.7 Billion",
-      "summary": "Tata Steel Ltd. has agreed to acquire a 26.4% stake in APL Apollo Tubes Ltd. for as much as 155.1 billion rupees ($1.7 billion), deepening its presence in India\u2019s structural steel products market.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-23/tata-steel-to-acquire-26-4-in-apl-apollo-tubes-for-1-7-billion",
-      "source": "Bloomberg",
-      "score": 9,
+      "id": "e3c26e142cac7f9332e466e7dac61b3a",
+      "title": "Minutes of the Market Participants Group meeting \u2013 18 November 2026",
+      "summary": "The Market Participants Group (MPG) is a senior-level forum for financial market participants to share their views on relevant themes and narratives in financial markets with members of the Bank of England\u2019s Monetary Policy Committee.",
+      "link": "https://www.bankofengland.co.uk/minutes/2026/november/market-participants-group-meeting-18-november-2026",
+      "source": "Bank of England",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-23T02:43:42.061828Z"
+    },
+    {
+      "id": "5b7f470eb87a45e3e82414daf1c54965",
+      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "summary": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-23T02:42:59.709778Z"
+    },
+    {
+      "id": "f3084414b801b624eb286577acd0a7a4",
+      "title": "US-India energy ties tighten as New Delhi snaps up Venezuelan oil",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/energy/us-india-energy-ties-tighten-as-new-delhi-snaps-up-venezuelan-oil",
+      "source": "Nikkei Asia",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-23T02:43:45.501468Z"
+    },
+    {
+      "id": "ccafc56411b2206c751a9584c1eff5d0",
+      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+      "summary": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-23T02:43:50.576616Z"
+    },
+    {
+      "id": "03e6005ac7df7d702db5b2304db321aa",
+      "title": "Jefferson, New Technology, Old Questions: Productivity Puzzles  and the Macroeconomy",
+      "summary": "Speech At the University of California, San Diego Economic Roundtable, San Diego, California",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
       "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
@@ -56,18 +205,50 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-23T02:38:24.804432Z"
+      "published": "2026-11-23T02:42:59.950034Z"
     },
     {
-      "id": "aac856813a89ef1ee88b0eb7115a5eae",
-      "title": "Hiroshima joins forces with bus operators to redraw local routes",
-      "summary": "The public-private partnership involving eight operators aims to optimize the network in the face of declining ridership and financial challenges.",
-      "link": "https://www.japantimes.co.jp/news/2026/11/23/japan/society/hiroshima-bus-network-revamp/",
-      "source": "Japan Times",
+      "id": "78eca24341ae4b241bef0d20831abb7a",
+      "title": "Gold's bad year is getting worse. Why its price keeps falling - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFBzVTZVem9vcm02QmpsTmpncE9tZVV6MUJqMkJyM2lUTUhPNmlFdThJTExTS193aWV2LW9PTmVjQjdaSTZ1eTNYbVF2Q1U5QWtyaHBZX2xQcFBNNjAxVW9zWjlMR2ZQSkcyNWJCNnNTaml6RU9KTUdHYkRn?oc=5\" target=\"_blank\">Gold's bad year is getting worse. Why its price keeps falling</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzVTZVem9vcm02QmpsTmpncE9tZVV6MUJqMkJyM2lUTUhPNmlFdThJTExTS193aWV2LW9PTmVjQjdaSTZ1eTNYbVF2Q1U5QWtyaHBZX2xQcFBNNjAxVW9zWjlMR2ZQSkcyNWJCNnNTaml6RU9KTUdHYkRn?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-23T02:43:54.005558Z"
+    },
+    {
+      "id": "5a8e248bfe8768f954e2f112a6161107",
+      "title": "The future of onchain FX could start with users, not institutional liquidity",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"The future of onchain FX could start with users, not institutional liquidity\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7HXR8PX0V9ND83QRBCRCYJB/hi-international-association-of-trusted-blockchain-applications-dollar.jpg\" /></p><p>Onchain FX does not need to recreate the trillion-dollar institutional market to become useful. Real demand can make smaller markets work first.</p>",
+      "link": "https://cointelegraph.com/opinion/future-onchain-fx-could-start-with-users-not-institutional-liquidity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
-      "tickers": [],
+      "tickers": [
+        "DXY"
+      ],
       "regions": [],
       "assets": [
         "AI"
@@ -81,26 +262,79 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-23T02:39:11.114696Z"
+      "published": "2026-11-23T02:43:50.379210Z"
+    },
+    {
+      "id": "4fc18e81fb7e857e75605f662df3c8cf",
+      "title": "Tarik Skubal agrees to record 9-year deal with Mets worth $450 million",
+      "summary": "The $50 million average annual value would make the deal a record for pitchers, surpassing the $43.3 million annual value of contracts for Max Scherzer and Justin Verlander.",
+      "link": "https://www.japantimes.co.jp/sports/2026/11/23/baseball/mlb/tarik-skubal-mets-dead/",
+      "source": "Japan Times",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-23T02:43:46.173791Z"
     }
   ],
   "alerts": [
     {
-      "id": "6150ff7926ef20f4668011aa6a713f72",
-      "title": "India\u2019s Nifty Stands Apart as Global Stocks, Gold Suffer Rare Joint Selloff",
-      "summary": "India\u2019s equity benchmark climbed as the S&amp;P 500, MSCI\u2019s Asia gauge and gold each lost more than 5% last week.",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-11-23/india-s-nifty-stands-apart-as-global-stocks-gold-suffer-rare-joint-selloff",
+      "id": "8a25d93da49b8f96a575a544bc33e2b8",
+      "title": "Policy paper: HM Treasury Market Engagement Group summary minutes \u2013 November 2026",
+      "summary": "A senior level forum for financial market participants to share their views on UK-related developments in financial markets, including gilts and sterling, and broader market themes with the Chancellor of the Exchequer.",
+      "link": "https://www.gov.uk/government/publications/hm-treasury-market-engagement-group-summary-minutes-november-2026",
+      "source": "HM Treasury",
+      "score": 33,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "GBP",
+        "TLT",
+        "UK_GILTS"
+      ],
+      "regions": [
+        "UK"
+      ],
+      "assets": [
+        "FX",
+        "RATES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-23T02:43:42.644072Z"
+    },
+    {
+      "id": "e12dfbcf872ce3dd9e4afcc414998b15",
+      "title": "Copper Falls Below $12,000 in London as Metals Turmoil Deepens",
+      "summary": "Copper sank below $12,000 a ton on the London Metal Exchange, deepening a sharp selloff as doubts grow about demand from artificial intelligence.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-23/copper-rises-after-falling-more-than-9-last-week-on-ai-gloom",
       "source": "Bloomberg",
-      "score": 15,
-      "severity": "HIGH",
+      "score": 28,
+      "severity": "CRITICAL",
       "regime": "COMMODITIES",
       "tickers": [
-        "XAU"
+        "COPPER",
+        "WTI"
       ],
-      "regions": [],
+      "regions": [
+        "UK"
+      ],
       "assets": [
-        "COMMODITIES",
-        "EQUITIES"
+        "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
@@ -114,15 +348,127 @@
         ]
       },
       "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
-      "published": "2026-11-23T02:38:24.804375Z"
+      "published": "2026-11-23T02:42:55.440765Z"
     },
     {
-      "id": "76c0328df373b617cc46c1a6a276239b",
-      "title": "Tata Steel to Acquire 26.4% in APL Apollo Tubes for $1.7 Billion",
-      "summary": "Tata Steel Ltd. has agreed to acquire a 26.4% stake in APL Apollo Tubes Ltd. for as much as 155.1 billion rupees ($1.7 billion), deepening its presence in India\u2019s structural steel products market.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-23/tata-steel-to-acquire-26-4-in-apl-apollo-tubes-for-1-7-billion",
-      "source": "Bloomberg",
-      "score": 9,
+      "id": "e3c26e142cac7f9332e466e7dac61b3a",
+      "title": "Minutes of the Market Participants Group meeting \u2013 18 November 2026",
+      "summary": "The Market Participants Group (MPG) is a senior-level forum for financial market participants to share their views on relevant themes and narratives in financial markets with members of the Bank of England\u2019s Monetary Policy Committee.",
+      "link": "https://www.bankofengland.co.uk/minutes/2026/november/market-participants-group-meeting-18-november-2026",
+      "source": "Bank of England",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-23T02:43:42.061828Z"
+    },
+    {
+      "id": "5b7f470eb87a45e3e82414daf1c54965",
+      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "summary": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+      "source": "Federal Reserve",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-23T02:42:59.709778Z"
+    },
+    {
+      "id": "f3084414b801b624eb286577acd0a7a4",
+      "title": "US-India energy ties tighten as New Delhi snaps up Venezuelan oil",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/energy/us-india-energy-ties-tighten-as-new-delhi-snaps-up-venezuelan-oil",
+      "source": "Nikkei Asia",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-23T02:43:45.501468Z"
+    },
+    {
+      "id": "ccafc56411b2206c751a9584c1eff5d0",
+      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+      "summary": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+      "source": "BleepingComputer",
+      "score": 11,
+      "severity": "MEDIUM",
+      "regime": "RATES",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-23T02:43:50.576616Z"
+    },
+    {
+      "id": "03e6005ac7df7d702db5b2304db321aa",
+      "title": "Jefferson, New Technology, Old Questions: Productivity Puzzles  and the Macroeconomy",
+      "summary": "Speech At the University of California, San Diego Economic Roundtable, San Diego, California",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
+      "source": "Federal Reserve",
+      "score": 10,
       "severity": "MEDIUM",
       "regime": "GENERAL",
       "tickers": [],
@@ -130,18 +476,50 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-23T02:38:24.804432Z"
+      "published": "2026-11-23T02:42:59.950034Z"
     },
     {
-      "id": "aac856813a89ef1ee88b0eb7115a5eae",
-      "title": "Hiroshima joins forces with bus operators to redraw local routes",
-      "summary": "The public-private partnership involving eight operators aims to optimize the network in the face of declining ridership and financial challenges.",
-      "link": "https://www.japantimes.co.jp/news/2026/11/23/japan/society/hiroshima-bus-network-revamp/",
-      "source": "Japan Times",
+      "id": "78eca24341ae4b241bef0d20831abb7a",
+      "title": "Gold's bad year is getting worse. Why its price keeps falling - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFBzVTZVem9vcm02QmpsTmpncE9tZVV6MUJqMkJyM2lUTUhPNmlFdThJTExTS193aWV2LW9PTmVjQjdaSTZ1eTNYbVF2Q1U5QWtyaHBZX2xQcFBNNjAxVW9zWjlMR2ZQSkcyNWJCNnNTaml6RU9KTUdHYkRn?oc=5\" target=\"_blank\">Gold's bad year is getting worse. Why its price keeps falling</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzVTZVem9vcm02QmpsTmpncE9tZVV6MUJqMkJyM2lUTUhPNmlFdThJTExTS193aWV2LW9PTmVjQjdaSTZ1eTNYbVF2Q1U5QWtyaHBZX2xQcFBNNjAxVW9zWjlMR2ZQSkcyNWJCNnNTaml6RU9KTUdHYkRn?oc=5",
+      "source": "Google Macro",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-23T02:43:54.005558Z"
+    },
+    {
+      "id": "5a8e248bfe8768f954e2f112a6161107",
+      "title": "The future of onchain FX could start with users, not institutional liquidity",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"The future of onchain FX could start with users, not institutional liquidity\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7HXR8PX0V9ND83QRBCRCYJB/hi-international-association-of-trusted-blockchain-applications-dollar.jpg\" /></p><p>Onchain FX does not need to recreate the trillion-dollar institutional market to become useful. Real demand can make smaller markets work first.</p>",
+      "link": "https://cointelegraph.com/opinion/future-onchain-fx-could-start-with-users-not-institutional-liquidity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
       "score": 5,
       "severity": "LOW",
       "regime": "AI",
-      "tickers": [],
+      "tickers": [
+        "DXY"
+      ],
       "regions": [],
       "assets": [
         "AI"
@@ -155,7 +533,23 @@
         "bearish": []
       },
       "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-23T02:39:11.114696Z"
+      "published": "2026-11-23T02:43:50.379210Z"
+    },
+    {
+      "id": "4fc18e81fb7e857e75605f662df3c8cf",
+      "title": "Tarik Skubal agrees to record 9-year deal with Mets worth $450 million",
+      "summary": "The $50 million average annual value would make the deal a record for pitchers, surpassing the $43.3 million annual value of contracts for Max Scherzer and Justin Verlander.",
+      "link": "https://www.japantimes.co.jp/sports/2026/11/23/baseball/mlb/tarik-skubal-mets-dead/",
+      "source": "Japan Times",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-23T02:43:46.173791Z"
     }
   ]
 }
