@@ -1,32 +1,64 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-25T12:00:53.080793Z",
+  "generated_at": "2026-11-25T12:09:29.801962Z",
   "market_regime": {
-    "regime": "GEO-SHOCK",
-    "dominant_driver": "GEO-SHOCK",
+    "regime": "RATES",
+    "dominant_driver": "RATES",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 3,
-    "high_alerts": 1,
-    "last_updated": "2026-11-25T12:00:53.080812Z"
+    "critical_alerts": 2,
+    "high_alerts": 2,
+    "last_updated": "2026-11-25T12:09:29.801980Z"
   },
   "top_signals": [
     {
-      "id": "002ef2adfd21c3c338e3aaad0021ddb2",
-      "title": "Oil Prices Slide Despite Mounting Threats in the Strait of Hormuz",
-      "summary": "Crude oil prices moved lower in early Asian trading on Wednesday, extending the recent downward trend despite reports of increasingly frequent incidents involving tankers in the Strait of Hormuz, with Iranian authorities attributing them to mines and other sources suggesting strikes with projectiles. At the time of writing, Brent crude was trading at $90.10 per barrel, with West Texas Intermediate at $80.71, after the American Petroleum Institute reported a modest build in U.S. crude oil inventories, at 126,000 barrels for the week to November\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Slide-Despite-Mounting-Threats-in-the-Strait-of-Hormuz.html",
-      "source": "OilPrice",
+      "id": "d2c51c2fd8b58ace94d3f32c9716e520",
+      "title": "Gold Slumps Below $3,500 an Ounce To Lowest in More Than a Year",
+      "summary": "Gold tumbled below $3,500 an ounce to its lowest point in more than a year, as a selloff in stocks continued and investors waited for a key inflation print that could shape expectations of further Federal Reserve rate hikes.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-decline-as-us-tariff-plans-reinforce-rate-hike-bets",
+      "source": "Bloomberg",
+      "score": 40,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-25T12:08:38.293561Z"
+    },
+    {
+      "id": "d117dff5f1b993f268508d1bbbe845d7",
+      "title": "Russia\u2019s Elevated Oil Exports Add\u00a0to Global Supply Surplus",
+      "summary": "<p>Exports this year&nbsp;top all annual averages&nbsp;since the 2022&nbsp;full-scale invasion of Ukraine</p>",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-25/russia-s-elevated-oil-exports-add-to-global-supply-surplus",
+      "source": "Bloomberg",
       "score": 36,
       "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
       "tickers": [
-        "BRENT",
         "WTI"
       ],
       "regions": [
-        "MIDDLE_EAST",
-        "US"
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
       ],
       "assets": [
         "AI",
@@ -46,21 +78,19 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-25T12:00:46.371154Z"
+      "published": "2026-11-25T12:08:38.293631Z"
     },
     {
-      "id": "c775a9ebe44cc9cf7775c7d7f7a23aa6",
-      "title": "UK Energy Price Cap Jumps 26% in January, Highest Since 2023",
-      "summary": "Energy prices for UK households will surge by 26% from January 1 as the Middle East war is pushing wholesale gas prices higher, the UK\u2019s energy regulator Ofgem said in its quarterly energy cap announcement on Wednesday. The UK has a so-called Energy Price Cap in place, which protects households from excessively high bills by capping the price that energy utility providers can pass on to them. The price cap is a limit on what suppliers can charge domestic consumers per kilowatt-hour of energy used. Every three months, the regulator reviews\u2026",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/UK-Energy-Price-Cap-Jumps-26-in-January-Highest-Since-2023.html",
-      "source": "OilPrice",
-      "score": 30,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "id": "9524a894f85f1435a82aa0580762dd9a",
+      "title": "Secondhand shopping is going mainstream this holiday season as consumers seek value",
+      "summary": "More consumers are shopping secondhand this holiday season as they emphasize value and uniqueness in their purchases.",
+      "link": "https://www.cnbc.com/2026/11/25/secondhand-holiday-shopping-grows-as-shoppers-seek-value.html",
+      "source": "CNBC",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
       "tickers": [],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -68,171 +98,96 @@
         "bullish": [
           "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "COMMODITIES"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-25T12:00:46.371008Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-11-25T12:08:40.928224Z"
     },
     {
-      "id": "f0563676b9b0c9285f677816caf5d8f9",
-      "title": "Tech Selloff Rolls On as AI Worries Persist",
-      "summary": "A global selloff in technology stocks is showing no sign of letting up as questions about the outlook for artificial intelligence pile up, with investors turning to bonds for safety. While technology stocks underperformed in Europe, the region\u2019s greater exposure to defensive and cyclical stocks pushed the Stoxx 600 higher.\n\nThe Opening Trade has everything you need to know as markets open across Europe. With analysis you won't find anywhere else, we break down the biggest stories of the day and speak to top guests who have skin in the game. Hosted by Anna Edwards, Guy Johnson and Tom Mackenzie. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-25/the-opening-trade-11-25-2026-video",
-      "source": "Bloomberg",
-      "score": 28,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "EQUITIES",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-25T11:59:35.705412Z"
-    },
-    {
-      "id": "6924fc4e3fafa7f7260b5c3ff6671f55",
-      "title": "Japan\u2019s SBI, SMFG launch Solana venture for stablecoins, tokenization",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Japan\u2019s SBI, SMFG launch Solana venture for stablecoins, tokenization\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M896PHE1PD4MWC6ATP71JDFZ/sol-jjapan.png\" /></p><p>SBI Solana Global plans to develop stablecoin payment infrastructure, explore AI agent micropayments and tokenize financial assets.</p>",
-      "link": "https://cointelegraph.com/news/sbi-smfg-solana-global-stablecoin-tokenization?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
+      "id": "74ad9476750f2026fd7028c42dc748cf",
+      "title": "Bitcoin, ether get CFTC staff nod for expense requirements, Ethereum Foundation doubles security team, and more",
+      "summary": "In today's newsletter, bitcoin, ether gain recognition under CFTC financial requirements; Ethereum Foundation doubles security team as AI risks grow; and more.",
+      "link": "https://www.theblock.co/newsletters/the-daily/2026-11-25-bitcoin-ether-cftc-staff-nod-ethereum-foundation-doubles-security-team-more-crypto-news-446074",
+      "source": "The Block",
       "score": 16,
       "severity": "HIGH",
       "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-25T12:00:49.022076Z"
-    },
-    {
-      "id": "98fe3d1da5458350dff67e42453dae1c",
-      "title": "Ether, DeFi fall twice as hard as bitcoin as equities selloff resumes",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/11/25/ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes",
-      "source": "CoinDesk",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
       "tickers": [
-        "BTC"
+        "BTC",
+        "ETH"
       ],
-      "regions": [],
-      "assets": [
-        "CRYPTO",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-25T12:00:48.895225Z"
-    },
-    {
-      "id": "efbdfd56cae87118f115adcda756a113",
-      "title": "Jim Cramer says Tuesday's market pullback is an encouraging sign. Here's why",
-      "summary": "Jim Cramer said Tuesday's market action following Monday's massive rally is an encouraging sign that stocks are on the path to a more sustainable recovery.",
-      "link": "https://www.cnbc.com/2026/11/24/jim-cramer-market-pullback.html",
-      "source": "CNBC",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
       "regions": [],
       "assets": [
         "AI",
-        "EQUITIES"
+        "CRYPTO"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "BTC",
+          "ETH"
         ],
-        "bearish": []
+        "bearish": [
+          "USD"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-25T11:59:39.527898Z"
-    },
-    {
-      "id": "28826a486adc98e77d7f03715019a646",
-      "title": "India\u2019s BEML targets developing tunnel machines within \u2018couple of years\u2019",
-      "summary": "",
-      "link": "https://asia.nikkei.com/editor-s-picks/interview/india-s-beml-targets-developing-tunnel-machines-within-couple-of-years",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-25T12:00:43.782920Z"
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-25T12:09:26.860449Z"
     }
   ],
   "alerts": [
     {
-      "id": "002ef2adfd21c3c338e3aaad0021ddb2",
-      "title": "Oil Prices Slide Despite Mounting Threats in the Strait of Hormuz",
-      "summary": "Crude oil prices moved lower in early Asian trading on Wednesday, extending the recent downward trend despite reports of increasingly frequent incidents involving tankers in the Strait of Hormuz, with Iranian authorities attributing them to mines and other sources suggesting strikes with projectiles. At the time of writing, Brent crude was trading at $90.10 per barrel, with West Texas Intermediate at $80.71, after the American Petroleum Institute reported a modest build in U.S. crude oil inventories, at 126,000 barrels for the week to November\u2026",
-      "link": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Slide-Despite-Mounting-Threats-in-the-Strait-of-Hormuz.html",
-      "source": "OilPrice",
+      "id": "d2c51c2fd8b58ace94d3f32c9716e520",
+      "title": "Gold Slumps Below $3,500 an Ounce To Lowest in More Than a Year",
+      "summary": "Gold tumbled below $3,500 an ounce to its lowest point in more than a year, as a selloff in stocks continued and investors waited for a key inflation print that could shape expectations of further Federal Reserve rate hikes.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-decline-as-us-tariff-plans-reinforce-rate-hike-bets",
+      "source": "Bloomberg",
+      "score": 40,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "XAU"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "COMMODITIES",
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-25T12:08:38.293561Z"
+    },
+    {
+      "id": "d117dff5f1b993f268508d1bbbe845d7",
+      "title": "Russia\u2019s Elevated Oil Exports Add\u00a0to Global Supply Surplus",
+      "summary": "<p>Exports this year&nbsp;top all annual averages&nbsp;since the 2022&nbsp;full-scale invasion of Ukraine</p>",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-25/russia-s-elevated-oil-exports-add-to-global-supply-surplus",
+      "source": "Bloomberg",
       "score": 36,
       "severity": "CRITICAL",
       "regime": "GEO-SHOCK",
       "tickers": [
-        "BRENT",
         "WTI"
       ],
       "regions": [
-        "MIDDLE_EAST",
-        "US"
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
       ],
       "assets": [
         "AI",
@@ -252,21 +207,19 @@
         ]
       },
       "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-25T12:00:46.371154Z"
+      "published": "2026-11-25T12:08:38.293631Z"
     },
     {
-      "id": "c775a9ebe44cc9cf7775c7d7f7a23aa6",
-      "title": "UK Energy Price Cap Jumps 26% in January, Highest Since 2023",
-      "summary": "Energy prices for UK households will surge by 26% from January 1 as the Middle East war is pushing wholesale gas prices higher, the UK\u2019s energy regulator Ofgem said in its quarterly energy cap announcement on Wednesday. The UK has a so-called Energy Price Cap in place, which protects households from excessively high bills by capping the price that energy utility providers can pass on to them. The price cap is a limit on what suppliers can charge domestic consumers per kilowatt-hour of energy used. Every three months, the regulator reviews\u2026",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/UK-Energy-Price-Cap-Jumps-26-in-January-Highest-Since-2023.html",
-      "source": "OilPrice",
-      "score": 30,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
+      "id": "9524a894f85f1435a82aa0580762dd9a",
+      "title": "Secondhand shopping is going mainstream this holiday season as consumers seek value",
+      "summary": "More consumers are shopping secondhand this holiday season as they emphasize value and uniqueness in their purchases.",
+      "link": "https://www.cnbc.com/2026/11/25/secondhand-holiday-shopping-grows-as-shoppers-seek-value.html",
+      "source": "CNBC",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "INFLATION",
       "tickers": [],
-      "regions": [
-        "UK"
-      ],
+      "regions": [],
       "assets": [
         "AI"
       ],
@@ -274,152 +227,45 @@
         "bullish": [
           "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "COMMODITIES"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "BONDS",
+          "GROWTH"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-25T12:00:46.371008Z"
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-11-25T12:08:40.928224Z"
     },
     {
-      "id": "f0563676b9b0c9285f677816caf5d8f9",
-      "title": "Tech Selloff Rolls On as AI Worries Persist",
-      "summary": "A global selloff in technology stocks is showing no sign of letting up as questions about the outlook for artificial intelligence pile up, with investors turning to bonds for safety. While technology stocks underperformed in Europe, the region\u2019s greater exposure to defensive and cyclical stocks pushed the Stoxx 600 higher.\n\nThe Opening Trade has everything you need to know as markets open across Europe. With analysis you won't find anywhere else, we break down the biggest stories of the day and speak to top guests who have skin in the game. Hosted by Anna Edwards, Guy Johnson and Tom Mackenzie. (Source: Bloomberg)",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-25/the-opening-trade-11-25-2026-video",
-      "source": "Bloomberg",
-      "score": 28,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "EUR"
-      ],
-      "regions": [
-        "EUROPE"
-      ],
-      "assets": [
-        "AI",
-        "EQUITIES",
-        "FX"
-      ],
-      "market_impact": {
-        "bullish": [
-          "XAU",
-          "WTI",
-          "DXY",
-          "DEFENSE"
-        ],
-        "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
-        ]
-      },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-25T11:59:35.705412Z"
-    },
-    {
-      "id": "6924fc4e3fafa7f7260b5c3ff6671f55",
-      "title": "Japan\u2019s SBI, SMFG launch Solana venture for stablecoins, tokenization",
-      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Japan\u2019s SBI, SMFG launch Solana venture for stablecoins, tokenization\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M896PHE1PD4MWC6ATP71JDFZ/sol-jjapan.png\" /></p><p>SBI Solana Global plans to develop stablecoin payment infrastructure, explore AI agent micropayments and tokenize financial assets.</p>",
-      "link": "https://cointelegraph.com/news/sbi-smfg-solana-global-stablecoin-tokenization?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
+      "id": "74ad9476750f2026fd7028c42dc748cf",
+      "title": "Bitcoin, ether get CFTC staff nod for expense requirements, Ethereum Foundation doubles security team, and more",
+      "summary": "In today's newsletter, bitcoin, ether gain recognition under CFTC financial requirements; Ethereum Foundation doubles security team as AI risks grow; and more.",
+      "link": "https://www.theblock.co/newsletters/the-daily/2026-11-25-bitcoin-ether-cftc-staff-nod-ethereum-foundation-doubles-security-team-more-crypto-news-446074",
+      "source": "The Block",
       "score": 16,
       "severity": "HIGH",
       "regime": "CRYPTO",
-      "tickers": [],
-      "regions": [
-        "JAPAN"
-      ],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-25T12:00:49.022076Z"
-    },
-    {
-      "id": "98fe3d1da5458350dff67e42453dae1c",
-      "title": "Ether, DeFi fall twice as hard as bitcoin as equities selloff resumes",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/11/25/ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes",
-      "source": "CoinDesk",
-      "score": 12,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
       "tickers": [
-        "BTC"
+        "BTC",
+        "ETH"
       ],
-      "regions": [],
-      "assets": [
-        "CRYPTO",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "BTC",
-          "ETH"
-        ],
-        "bearish": [
-          "USD"
-        ]
-      },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-25T12:00:48.895225Z"
-    },
-    {
-      "id": "efbdfd56cae87118f115adcda756a113",
-      "title": "Jim Cramer says Tuesday's market pullback is an encouraging sign. Here's why",
-      "summary": "Jim Cramer said Tuesday's market action following Monday's massive rally is an encouraging sign that stocks are on the path to a more sustainable recovery.",
-      "link": "https://www.cnbc.com/2026/11/24/jim-cramer-market-pullback.html",
-      "source": "CNBC",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "AI",
-      "tickers": [],
       "regions": [],
       "assets": [
         "AI",
-        "EQUITIES"
+        "CRYPTO"
       ],
       "market_impact": {
         "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
+          "BTC",
+          "ETH"
         ],
-        "bearish": []
+        "bearish": [
+          "USD"
+        ]
       },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-25T11:59:39.527898Z"
-    },
-    {
-      "id": "28826a486adc98e77d7f03715019a646",
-      "title": "India\u2019s BEML targets developing tunnel machines within \u2018couple of years\u2019",
-      "summary": "",
-      "link": "https://asia.nikkei.com/editor-s-picks/interview/india-s-beml-targets-developing-tunnel-machines-within-couple-of-years",
-      "source": "Nikkei Asia",
-      "score": 7,
-      "severity": "LOW",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-25T12:00:43.782920Z"
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-25T12:09:26.860449Z"
     }
   ]
 }
