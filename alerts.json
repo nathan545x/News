@@ -1,125 +1,115 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-25T12:09:29.801962Z",
+  "generated_at": "2026-11-25T12:14:40.749014Z",
   "market_regime": {
-    "regime": "RATES",
-    "dominant_driver": "RATES",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 2,
-    "high_alerts": 2,
-    "last_updated": "2026-11-25T12:09:29.801980Z"
+    "critical_alerts": 0,
+    "high_alerts": 6,
+    "last_updated": "2026-11-25T12:14:40.749032Z"
   },
   "top_signals": [
     {
-      "id": "d2c51c2fd8b58ace94d3f32c9716e520",
-      "title": "Gold Slumps Below $3,500 an Ounce To Lowest in More Than a Year",
-      "summary": "Gold tumbled below $3,500 an ounce to its lowest point in more than a year, as a selloff in stocks continued and investors waited for a key inflation print that could shape expectations of further Federal Reserve rate hikes.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-decline-as-us-tariff-plans-reinforce-rate-hike-bets",
-      "source": "Bloomberg",
-      "score": 40,
-      "severity": "CRITICAL",
-      "regime": "RATES",
+      "id": "ac8101478fbcd2b35fc7075e0ef9c385",
+      "title": "\u2018Don\u2019t mess with X,\u2019 Elon Musk says after platform secures default judgment in alleged bitcoin content-farm case",
+      "summary": "X secured a default judgment against two defendants in its lawsuit over an alleged $271,000 creator-payout scheme.",
+      "link": "https://www.theblock.co/news/regulation/2026-11-25-dont-mess-with-x-elon-musk-says-after-platform-secures-default-judgment-in-alleged-bitcoin-content-farm-case-446151",
+      "source": "The Block",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "SYSTEMIC",
       "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "JPY"
+        ],
+        "bearish": [
+          "BANKS",
+          "SPY"
+        ]
+      },
+      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
+      "published": "2026-11-25T12:14:37.783144Z"
+    },
+    {
+      "id": "ce5d2916a33ee9460adf885f492d741e",
+      "title": "Gold, Silver Futures Rebound as Markets Get Nvidia Boost - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPUUp2UDBCTFlrSzhHd19iLU0zX3JqX1ByTHhkakJ5LVdoUGRzZzVkRTBLX0Q1SG9XQXZYQ0hmeTJocm1OdHlweFFtYkdWZzh5dHNTc185R3NYdTRpQkxMenowS2hGMFhKZVNwZG5ra0dEZmlUM1N3a1ZRUURFdHNwazI5YnEtSGxqUU4zVk9LWlpOTldramRYbXo3VQ?oc=5\" target=\"_blank\">Gold, Silver Futures Rebound as Markets Get Nvidia Boost</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUUp2UDBCTFlrSzhHd19iLU0zX3JqX1ByTHhkakJ5LVdoUGRzZzVkRTBLX0Q1SG9XQXZYQ0hmeTJocm1OdHlweFFtYkdWZzh5dHNTc185R3NYdTRpQkxMenowS2hGMFhKZVNwZG5ra0dEZmlUM1N3a1ZRUURFdHNwazI5YnEtSGxqUU4zVk9LWlpOTldramRYbXo3VQ?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "NVDA",
+        "SILVER",
         "XAU"
       ],
       "regions": [],
       "assets": [
-        "AI",
-        "COMMODITIES",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-25T12:08:38.293561Z"
-    },
-    {
-      "id": "d117dff5f1b993f268508d1bbbe845d7",
-      "title": "Russia\u2019s Elevated Oil Exports Add\u00a0to Global Supply Surplus",
-      "summary": "<p>Exports this year&nbsp;top all annual averages&nbsp;since the 2022&nbsp;full-scale invasion of Ukraine</p>",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-25/russia-s-elevated-oil-exports-add-to-global-supply-surplus",
-      "source": "Bloomberg",
-      "score": 36,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "RUSSIA",
-        "UK",
-        "UKRAINE"
-      ],
-      "assets": [
-        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-25T12:08:38.293631Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-25T12:14:40.141825Z"
     },
     {
-      "id": "9524a894f85f1435a82aa0580762dd9a",
-      "title": "Secondhand shopping is going mainstream this holiday season as consumers seek value",
-      "summary": "More consumers are shopping secondhand this holiday season as they emphasize value and uniqueness in their purchases.",
-      "link": "https://www.cnbc.com/2026/11/25/secondhand-holiday-shopping-grows-as-shoppers-seek-value.html",
-      "source": "CNBC",
-      "score": 16,
+      "id": "7b56b1b21f92988b59bb0a0dd493d8ce",
+      "title": "US Tech Stocks Set to Extend Declines on Lingering AI Worries",
+      "summary": "US technology stocks were set to decline for a second day as investors worried about the payoff from hefty investments in the artificial intelligence buildout.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-25/us-stock-index-futures-slide-as-ai-worries-fuel-tech-losses",
+      "source": "Bloomberg",
+      "score": 18,
       "severity": "HIGH",
-      "regime": "INFLATION",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
       "assets": [
-        "AI"
+        "AI",
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-25T12:08:40.928224Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-25T12:13:40.623443Z"
     },
     {
-      "id": "74ad9476750f2026fd7028c42dc748cf",
-      "title": "Bitcoin, ether get CFTC staff nod for expense requirements, Ethereum Foundation doubles security team, and more",
-      "summary": "In today's newsletter, bitcoin, ether gain recognition under CFTC financial requirements; Ethereum Foundation doubles security team as AI risks grow; and more.",
-      "link": "https://www.theblock.co/newsletters/the-daily/2026-11-25-bitcoin-ether-cftc-staff-nod-ethereum-foundation-doubles-security-team-more-crypto-news-446074",
-      "source": "The Block",
+      "id": "1720fae7eebcf7657ebb2981cfae6386",
+      "title": "Italy\u2019s UniCredit launches six-year bitcoin certificate with gains capped at 65%",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/11/25/italy-s-unicredit-debuts-six-year-bitcoin-certificate-with-100-capital-protection-and-65-cap",
+      "source": "CoinDesk",
       "score": 16,
       "severity": "HIGH",
       "regime": "CRYPTO",
       "tickers": [
-        "BTC",
-        "ETH"
+        "BTC"
       ],
       "regions": [],
       "assets": [
@@ -136,119 +126,248 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-25T12:09:26.860449Z"
+      "published": "2026-11-25T12:14:31.805681Z"
+    },
+    {
+      "id": "9b5bee3c8b1481800e466e32387a3e83",
+      "title": "Radware discloses breach exposing customer cloud access keys",
+      "summary": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left exposed online. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-25T12:14:37.835591Z"
+    },
+    {
+      "id": "ec12f04e9f7782c1239bfca3188fe80c",
+      "title": "Lawmakers warn ID verification companies to bolster security after September hack",
+      "summary": "A bicameral, bipartisan letter from lawmakers said identity verification companies still have significant security work to do in the wake of a data breach at IDscan in September.",
+      "link": "https://therecord.media/idscan-data-breach-warning-congressional-letter",
+      "source": "The Record",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-25T12:14:38.124754Z"
+    },
+    {
+      "id": "f3055e2130c88d105328a8f0c486adb3",
+      "title": "Nasdaq Futures Sink 3% as Tech Selloff Rolls On: Markets Wrap",
+      "summary": "A global selloff in technology stocks is showing no sign of letting up as questions about the outlook for the artificial intelligence trade pile up, with investors turning to bonds for safety.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-24/asian-stocks-to-slide-as-ai-trade-doubts-resurface-markets-wrap",
+      "source": "Bloomberg",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "QQQ"
+      ],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-25T12:13:40.623395Z"
+    },
+    {
+      "id": "068fe30e7500dcd83e03746d10762159",
+      "title": "China's YMTC boosted by Samsung and SK Hynix adopting its memory technology",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/tech/semiconductors/china-s-ymtc-boosted-by-samsung-and-sk-hynix-adopting-its-memory-technology",
+      "source": "Nikkei Asia",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-25T12:14:27.683378Z"
+    },
+    {
+      "id": "178b18a57b00ea151a205fa5e1a8f4e5",
+      "title": "Speech by Commissioner Lahbib on the Humanitarian Situation in Gaza at the European Parliament",
+      "summary": "European Commission Speech Strasbourg, 24 Nov 2026 I would like to start by paying tribute to the humanitarian workers, UN agencies, international NGOs and local organisations who continue to deliver assistance ...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2581",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-25T12:14:25.194061Z"
     }
   ],
   "alerts": [
     {
-      "id": "d2c51c2fd8b58ace94d3f32c9716e520",
-      "title": "Gold Slumps Below $3,500 an Ounce To Lowest in More Than a Year",
-      "summary": "Gold tumbled below $3,500 an ounce to its lowest point in more than a year, as a selloff in stocks continued and investors waited for a key inflation print that could shape expectations of further Federal Reserve rate hikes.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-decline-as-us-tariff-plans-reinforce-rate-hike-bets",
-      "source": "Bloomberg",
-      "score": 40,
-      "severity": "CRITICAL",
-      "regime": "RATES",
+      "id": "ac8101478fbcd2b35fc7075e0ef9c385",
+      "title": "\u2018Don\u2019t mess with X,\u2019 Elon Musk says after platform secures default judgment in alleged bitcoin content-farm case",
+      "summary": "X secured a default judgment against two defendants in its lawsuit over an alleged $271,000 creator-payout scheme.",
+      "link": "https://www.theblock.co/news/regulation/2026-11-25-dont-mess-with-x-elon-musk-says-after-platform-secures-default-judgment-in-alleged-bitcoin-content-farm-case-446151",
+      "source": "The Block",
+      "score": 22,
+      "severity": "HIGH",
+      "regime": "SYSTEMIC",
       "tickers": [
+        "BTC"
+      ],
+      "regions": [],
+      "assets": [
+        "AI",
+        "CRYPTO"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "JPY"
+        ],
+        "bearish": [
+          "BANKS",
+          "SPY"
+        ]
+      },
+      "why_it_matters": "Potential liquidity or banking-system instability affecting financial conditions.",
+      "published": "2026-11-25T12:14:37.783144Z"
+    },
+    {
+      "id": "ce5d2916a33ee9460adf885f492d741e",
+      "title": "Gold, Silver Futures Rebound as Markets Get Nvidia Boost - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPUUp2UDBCTFlrSzhHd19iLU0zX3JqX1ByTHhkakJ5LVdoUGRzZzVkRTBLX0Q1SG9XQXZYQ0hmeTJocm1OdHlweFFtYkdWZzh5dHNTc185R3NYdTRpQkxMenowS2hGMFhKZVNwZG5ra0dEZmlUM1N3a1ZRUURFdHNwazI5YnEtSGxqUU4zVk9LWlpOTldramRYbXo3VQ?oc=5\" target=\"_blank\">Gold, Silver Futures Rebound as Markets Get Nvidia Boost</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUUp2UDBCTFlrSzhHd19iLU0zX3JqX1ByTHhkakJ5LVdoUGRzZzVkRTBLX0Q1SG9XQXZYQ0hmeTJocm1OdHlweFFtYkdWZzh5dHNTc185R3NYdTRpQkxMenowS2hGMFhKZVNwZG5ra0dEZmlUM1N3a1ZRUURFdHNwazI5YnEtSGxqUU4zVk9LWlpOTldramRYbXo3VQ?oc=5",
+      "source": "Google Macro",
+      "score": 19,
+      "severity": "HIGH",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "NVDA",
+        "SILVER",
         "XAU"
       ],
       "regions": [],
       "assets": [
-        "AI",
-        "COMMODITIES",
-        "EQUITIES"
-      ],
-      "market_impact": {
-        "bullish": [
-          "DXY",
-          "JPY"
-        ],
-        "bearish": [
-          "TLT",
-          "SPY",
-          "QQQ"
-        ]
-      },
-      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
-      "published": "2026-11-25T12:08:38.293561Z"
-    },
-    {
-      "id": "d117dff5f1b993f268508d1bbbe845d7",
-      "title": "Russia\u2019s Elevated Oil Exports Add\u00a0to Global Supply Surplus",
-      "summary": "<p>Exports this year&nbsp;top all annual averages&nbsp;since the 2022&nbsp;full-scale invasion of Ukraine</p>",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-25/russia-s-elevated-oil-exports-add-to-global-supply-surplus",
-      "source": "Bloomberg",
-      "score": 36,
-      "severity": "CRITICAL",
-      "regime": "GEO-SHOCK",
-      "tickers": [
-        "WTI"
-      ],
-      "regions": [
-        "RUSSIA",
-        "UK",
-        "UKRAINE"
-      ],
-      "assets": [
-        "AI",
         "COMMODITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
           "WTI",
-          "DXY",
-          "DEFENSE"
+          "XAU",
+          "MINERS"
         ],
         "bearish": [
-          "SPY",
-          "QQQ",
-          "AIRLINES"
+          "AIRLINES",
+          "TRANSPORT"
         ]
       },
-      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
-      "published": "2026-11-25T12:08:38.293631Z"
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-25T12:14:40.141825Z"
     },
     {
-      "id": "9524a894f85f1435a82aa0580762dd9a",
-      "title": "Secondhand shopping is going mainstream this holiday season as consumers seek value",
-      "summary": "More consumers are shopping secondhand this holiday season as they emphasize value and uniqueness in their purchases.",
-      "link": "https://www.cnbc.com/2026/11/25/secondhand-holiday-shopping-grows-as-shoppers-seek-value.html",
-      "source": "CNBC",
-      "score": 16,
+      "id": "7b56b1b21f92988b59bb0a0dd493d8ce",
+      "title": "US Tech Stocks Set to Extend Declines on Lingering AI Worries",
+      "summary": "US technology stocks were set to decline for a second day as investors worried about the payoff from hefty investments in the artificial intelligence buildout.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-25/us-stock-index-futures-slide-as-ai-worries-fuel-tech-losses",
+      "source": "Bloomberg",
+      "score": 18,
       "severity": "HIGH",
-      "regime": "INFLATION",
+      "regime": "AI",
       "tickers": [],
       "regions": [],
       "assets": [
-        "AI"
+        "AI",
+        "EQUITIES"
       ],
       "market_impact": {
         "bullish": [
-          "XAU",
-          "WTI",
-          "COMMODITIES"
+          "NVDA",
+          "SEMIS",
+          "QQQ"
         ],
-        "bearish": [
-          "BONDS",
-          "GROWTH"
-        ]
+        "bearish": []
       },
-      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
-      "published": "2026-11-25T12:08:40.928224Z"
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-25T12:13:40.623443Z"
     },
     {
-      "id": "74ad9476750f2026fd7028c42dc748cf",
-      "title": "Bitcoin, ether get CFTC staff nod for expense requirements, Ethereum Foundation doubles security team, and more",
-      "summary": "In today's newsletter, bitcoin, ether gain recognition under CFTC financial requirements; Ethereum Foundation doubles security team as AI risks grow; and more.",
-      "link": "https://www.theblock.co/newsletters/the-daily/2026-11-25-bitcoin-ether-cftc-staff-nod-ethereum-foundation-doubles-security-team-more-crypto-news-446074",
-      "source": "The Block",
+      "id": "1720fae7eebcf7657ebb2981cfae6386",
+      "title": "Italy\u2019s UniCredit launches six-year bitcoin certificate with gains capped at 65%",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/11/25/italy-s-unicredit-debuts-six-year-bitcoin-certificate-with-100-capital-protection-and-65-cap",
+      "source": "CoinDesk",
       "score": 16,
       "severity": "HIGH",
       "regime": "CRYPTO",
       "tickers": [
-        "BTC",
-        "ETH"
+        "BTC"
       ],
       "regions": [],
       "assets": [
@@ -265,7 +384,146 @@
         ]
       },
       "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-25T12:09:26.860449Z"
+      "published": "2026-11-25T12:14:31.805681Z"
+    },
+    {
+      "id": "9b5bee3c8b1481800e466e32387a3e83",
+      "title": "Radware discloses breach exposing customer cloud access keys",
+      "summary": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left exposed online. [...]",
+      "link": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+      "source": "BleepingComputer",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-25T12:14:37.835591Z"
+    },
+    {
+      "id": "ec12f04e9f7782c1239bfca3188fe80c",
+      "title": "Lawmakers warn ID verification companies to bolster security after September hack",
+      "summary": "A bicameral, bipartisan letter from lawmakers said identity verification companies still have significant security work to do in the wake of a data breach at IDscan in September.",
+      "link": "https://therecord.media/idscan-data-breach-warning-congressional-letter",
+      "source": "The Record",
+      "score": 15,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-25T12:14:38.124754Z"
+    },
+    {
+      "id": "f3055e2130c88d105328a8f0c486adb3",
+      "title": "Nasdaq Futures Sink 3% as Tech Selloff Rolls On: Markets Wrap",
+      "summary": "A global selloff in technology stocks is showing no sign of letting up as questions about the outlook for the artificial intelligence trade pile up, with investors turning to bonds for safety.",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-24/asian-stocks-to-slide-as-ai-trade-doubts-resurface-markets-wrap",
+      "source": "Bloomberg",
+      "score": 14,
+      "severity": "MEDIUM",
+      "regime": "AI",
+      "tickers": [
+        "QQQ"
+      ],
+      "regions": [],
+      "assets": [
+        "EQUITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-25T12:13:40.623395Z"
+    },
+    {
+      "id": "068fe30e7500dcd83e03746d10762159",
+      "title": "China's YMTC boosted by Samsung and SK Hynix adopting its memory technology",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/tech/semiconductors/china-s-ymtc-boosted-by-samsung-and-sk-hynix-adopting-its-memory-technology",
+      "source": "Nikkei Asia",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-25T12:14:27.683378Z"
+    },
+    {
+      "id": "178b18a57b00ea151a205fa5e1a8f4e5",
+      "title": "Speech by Commissioner Lahbib on the Humanitarian Situation in Gaza at the European Parliament",
+      "summary": "European Commission Speech Strasbourg, 24 Nov 2026 I would like to start by paying tribute to the humanitarian workers, UN agencies, international NGOs and local organisations who continue to deliver assistance ...",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2581",
+      "source": "European Commission",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-25T12:14:25.194061Z"
     }
   ]
 }
