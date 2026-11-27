@@ -1,65 +1,220 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-27T01:40:38.433312Z",
+  "generated_at": "2026-11-27T01:48:55.124691Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
-    "high_alerts": 0,
-    "last_updated": "2026-11-27T01:40:38.433326Z"
+    "critical_alerts": 2,
+    "high_alerts": 2,
+    "last_updated": "2026-11-27T01:48:55.124706Z"
   },
   "top_signals": [
     {
-      "id": "06ca0295d1b25394f3970388b65f1f77",
-      "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
-      "summary": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-27T01:39:39.255018Z"
-    },
-    {
-      "id": "24377d8f9d1848ff07f7ced5010ff804",
-      "title": "\u2018The time to prepare for a cryptographic breakthrough is before it happens\u2019: Zcash team urges faster deprecation of legacy shielded pool",
-      "summary": "Zakura wants Zcash to disable Sapling deposits over speculative concerns about AI-assisted mathematical breakthroughs.",
-      "link": "https://www.theblock.co/news/ecosystems/2026-11-26-the-time-to-prepare-for-a-cryptographic-breakthrough-is-before-it-happens-zcash-team-urges-faster-deprecation-of-legacy-shielded-pool-447000",
-      "source": "The Block",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [],
+      "id": "792a5d04598206dc6de9fd07022cf0e4",
+      "title": "How Volatility is Undermining the Carry Trade",
+      "summary": "The carry trade, in which investors borrow in currencies like the yen, euro, and dollar, is becoming harder to navigate after delivering strong returns earlier in the year.  Bloomberg's Garfield Reynolds discusses how market changes are impacting the strategy's appeal. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-27/how-volatility-is-undermining-the-carry-trade-video",
+      "source": "Bloomberg",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "EUR",
+        "JPY"
+      ],
       "regions": [],
       "assets": [
-        "AI"
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "USD"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-27T01:40:34.757019Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-27T01:47:52.991128Z"
     },
     {
-      "id": "3b810d5f0bc0afdedcd0544c67a852ad",
-      "title": "Cathay reinforces position in Asian hub fight as parent Swire cashes in",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/transportation/cathay-reinforces-position-in-asian-hub-fight-as-parent-swire-cashes-in",
-      "source": "Nikkei Asia",
-      "score": 7,
+      "id": "1be0f5679bc1151c9d3bcd9d1111bead",
+      "title": "\u2018Jensanity\u2019 erupts in Taiwan and China on Nvidia founder\u2019s comeback - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPbjJtWWlsdkpJSnp1U3RPWDFDNDZNZnduNEtiRVExb0JtejRhYWR1T05TY2FORGlSUzRHeFNSdUh4RjhPMHBGaG5jZ2QtSmZzRGlTdkM4VmRYWW1iUkM4MWVfZkRHOFRCZUowc2J6ei1yNHJVSERQOWpnY0tPT1pkdXoxcDQ?oc=5\" target=\"_blank\">\u2018Jensanity\u2019 erupts in Taiwan and China on Nvidia founder\u2019s comeback</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbjJtWWlsdkpJSnp1U3RPWDFDNDZNZnduNEtiRVExb0JtejRhYWR1T05TY2FORGlSUzRHeFNSdUh4RjhPMHBGaG5jZ2QtSmZzRGlTdkM4VmRYWW1iUkM4MWVfZkRHOFRCZUowc2J6ei1yNHJVSERQOWpnY0tPT1pkdXoxcDQ?oc=5",
+      "source": "Google Macro",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [
+        "CHINA",
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-27T01:48:53.907398Z"
+    },
+    {
+      "id": "3e506db2445a9ec912832ad4532b41d4",
+      "title": "EU deal is floor \u2018not ceiling\u2019 in Brexit reset, insists Burnham cabinet ally",
+      "summary": "Douglas Alexander to say PM will reject warnings from opposition parties and push ahead with plans to rebuild ties with Brussels",
+      "link": "https://www.ft.com/content/76ca618e-82bb-4e19-ac1a-843ac48bf606?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-27T01:47:55.472854Z"
+    },
+    {
+      "id": "d54954dd27b821432193650584a0eedf",
+      "title": "China industrial profits growth surges to a 5-month high of 20.1% in October",
+      "summary": "China's economy has been running at two speeds, with AI-related manufacturing and exports powering growth while household consumption has been lagging.",
+      "link": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html",
+      "source": "CNBC",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-27T01:47:56.463350Z"
+    },
+    {
+      "id": "efd92d866a998197f82e9e5aa8412057",
+      "title": "Dangote Hires Veteran Oil Trader Jonathan Zarembok From Equinor - Bloomberg",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxObURvcEwzX3pvTWJkenladzFoNGJHQWtOc0xHODdRWDFvQ0pnVGhmM0d1MHBjdlBjY3ZQYjdXM2ptUTNtRXVfaU9zT1EtaTNMUTR3dV9sTHlzY0FsdTM2QWFBUzlHU1lqSXltd0FLRlFLWHg1U1NCY3Utb24xWWZTajFIUlNIN0NJZHlkb0pLaGt6b0JUUFNCeUdVWWdWWG93THZkMTZtQkRvVUo5bGswSmc0d1o?oc=5\" target=\"_blank\">Dangote Hires Veteran Oil Trader Jonathan Zarembok From Equinor</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObURvcEwzX3pvTWJkenladzFoNGJHQWtOc0xHODdRWDFvQ0pnVGhmM0d1MHBjdlBjY3ZQYjdXM2ptUTNtRXVfaU9zT1EtaTNMUTR3dV9sTHlzY0FsdTM2QWFBUzlHU1lqSXltd0FLRlFLWHg1U1NCY3Utb24xWWZTajFIUlNIN0NJZHlkb0pLaGt6b0JUUFNCeUdVWWdWWG93THZkMTZtQkRvVUo5bGswSmc0d1o?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-27T01:48:52.746101Z"
+    },
+    {
+      "id": "dafa503b333745784730c0e81c9cf923",
+      "title": "British and European banks have taken on a lot of France risk",
+      "summary": "Toulouse or not Toulouse",
+      "link": "https://www.ft.com/content/022fcf0c-9a7a-4bf0-b853-4de8b2ba88b9",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "FRANCE",
+        "UK"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-27T01:47:55.159851Z"
+    },
+    {
+      "id": "7f57e5c5a7f1fc490479d31e088ff4b7",
+      "title": "India\u2019s electricity demand to rise fivefold in 25 years, says Suzlon\u2019s Girish Tanti",
+      "summary": "Renewables can match coal power for reliability at lower cost, insists wind power pioneer",
+      "link": "https://www.ft.com/content/a342f53c-c323-4fa1-bdc2-16d504c1dd10?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-27T01:47:55.472800Z"
+    },
+    {
+      "id": "e92c94234a08c05b39521f67bfe631a2",
+      "title": "Robots could be doing household chores in just 1-2 years, Chinese EV firm says",
+      "summary": "Xpeng Co-President Brian Gu shared his humanoid robot predictions with CNBC in an interview Thursday.",
+      "link": "https://www.cnbc.com/2026/11/26/china-ev-xpeng-humanoid-robots-household-chores.html",
+      "source": "CNBC",
+      "score": 6,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
@@ -67,84 +222,214 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-27T01:40:28.492724Z"
-    },
-    {
-      "id": "c6c878fbbc384ff082e7cdd491406cc8",
-      "title": "Freire Shipyard Celebrates Launch of New Greenpeace Vessel",
-      "summary": "Freire Shipyard celebrated the launch ceremony of NB 737 on November 25, 2026 in Vigo, marking a milestone in the construction of Greenpeace International's new flagship vessel. Designed to support environmental campaigns and scientific research worldwide while minimizing fossil fuel consumption\u2026",
-      "link": "https://www.marinelink.com/news/freire-shipyard-celebrates-launch-new-544591",
-      "source": "MarineLink",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-27T01:40:31.988098Z"
+      "published": "2026-11-27T01:47:56.846471Z"
     }
   ],
   "alerts": [
     {
-      "id": "06ca0295d1b25394f3970388b65f1f77",
-      "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
-      "summary": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
-      "source": "Federal Reserve",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "GENERAL",
-      "tickers": [],
-      "regions": [],
-      "assets": [],
-      "market_impact": {},
-      "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-27T01:39:39.255018Z"
-    },
-    {
-      "id": "24377d8f9d1848ff07f7ced5010ff804",
-      "title": "\u2018The time to prepare for a cryptographic breakthrough is before it happens\u2019: Zcash team urges faster deprecation of legacy shielded pool",
-      "summary": "Zakura wants Zcash to disable Sapling deposits over speculative concerns about AI-assisted mathematical breakthroughs.",
-      "link": "https://www.theblock.co/news/ecosystems/2026-11-26-the-time-to-prepare-for-a-cryptographic-breakthrough-is-before-it-happens-zcash-team-urges-faster-deprecation-of-legacy-shielded-pool-447000",
-      "source": "The Block",
-      "score": 10,
-      "severity": "MEDIUM",
-      "regime": "CRYPTO",
-      "tickers": [],
+      "id": "792a5d04598206dc6de9fd07022cf0e4",
+      "title": "How Volatility is Undermining the Carry Trade",
+      "summary": "The carry trade, in which investors borrow in currencies like the yen, euro, and dollar, is becoming harder to navigate after delivering strong returns earlier in the year.  Bloomberg's Garfield Reynolds discusses how market changes are impacting the strategy's appeal. (Source: Bloomberg)",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-27/how-volatility-is-undermining-the-carry-trade-video",
+      "source": "Bloomberg",
+      "score": 29,
+      "severity": "CRITICAL",
+      "regime": "RATES",
+      "tickers": [
+        "DXY",
+        "EUR",
+        "JPY"
+      ],
       "regions": [],
       "assets": [
-        "AI"
+        "FX"
       ],
       "market_impact": {
         "bullish": [
-          "BTC",
-          "ETH"
+          "DXY",
+          "JPY"
         ],
         "bearish": [
-          "USD"
+          "TLT",
+          "SPY",
+          "QQQ"
         ]
       },
-      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
-      "published": "2026-11-27T01:40:34.757019Z"
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-27T01:47:52.991128Z"
     },
     {
-      "id": "3b810d5f0bc0afdedcd0544c67a852ad",
-      "title": "Cathay reinforces position in Asian hub fight as parent Swire cashes in",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/transportation/cathay-reinforces-position-in-asian-hub-fight-as-parent-swire-cashes-in",
-      "source": "Nikkei Asia",
-      "score": 7,
+      "id": "1be0f5679bc1151c9d3bcd9d1111bead",
+      "title": "\u2018Jensanity\u2019 erupts in Taiwan and China on Nvidia founder\u2019s comeback - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPbjJtWWlsdkpJSnp1U3RPWDFDNDZNZnduNEtiRVExb0JtejRhYWR1T05TY2FORGlSUzRHeFNSdUh4RjhPMHBGaG5jZ2QtSmZzRGlTdkM4VmRYWW1iUkM4MWVfZkRHOFRCZUowc2J6ei1yNHJVSERQOWpnY0tPT1pkdXoxcDQ?oc=5\" target=\"_blank\">\u2018Jensanity\u2019 erupts in Taiwan and China on Nvidia founder\u2019s comeback</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbjJtWWlsdkpJSnp1U3RPWDFDNDZNZnduNEtiRVExb0JtejRhYWR1T05TY2FORGlSUzRHeFNSdUh4RjhPMHBGaG5jZ2QtSmZzRGlTdkM4VmRYWW1iUkM4MWVfZkRHOFRCZUowc2J6ei1yNHJVSERQOWpnY0tPT1pkdXoxcDQ?oc=5",
+      "source": "Google Macro",
+      "score": 27,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [
+        "NVDA"
+      ],
+      "regions": [
+        "CHINA",
+        "UK"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-27T01:48:53.907398Z"
+    },
+    {
+      "id": "3e506db2445a9ec912832ad4532b41d4",
+      "title": "EU deal is floor \u2018not ceiling\u2019 in Brexit reset, insists Burnham cabinet ally",
+      "summary": "Douglas Alexander to say PM will reject warnings from opposition parties and push ahead with plans to rebuild ties with Brussels",
+      "link": "https://www.ft.com/content/76ca618e-82bb-4e19-ac1a-843ac48bf606?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 18,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-27T01:47:55.472854Z"
+    },
+    {
+      "id": "d54954dd27b821432193650584a0eedf",
+      "title": "China industrial profits growth surges to a 5-month high of 20.1% in October",
+      "summary": "China's economy has been running at two speeds, with AI-related manufacturing and exports powering growth while household consumption has been lagging.",
+      "link": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html",
+      "source": "CNBC",
+      "score": 16,
+      "severity": "HIGH",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-27T01:47:56.463350Z"
+    },
+    {
+      "id": "efd92d866a998197f82e9e5aa8412057",
+      "title": "Dangote Hires Veteran Oil Trader Jonathan Zarembok From Equinor - Bloomberg",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxObURvcEwzX3pvTWJkenladzFoNGJHQWtOc0xHODdRWDFvQ0pnVGhmM0d1MHBjdlBjY3ZQYjdXM2ptUTNtRXVfaU9zT1EtaTNMUTR3dV9sTHlzY0FsdTM2QWFBUzlHU1lqSXltd0FLRlFLWHg1U1NCY3Utb24xWWZTajFIUlNIN0NJZHlkb0pLaGt6b0JUUFNCeUdVWWdWWG93THZkMTZtQkRvVUo5bGswSmc0d1o?oc=5\" target=\"_blank\">Dangote Hires Veteran Oil Trader Jonathan Zarembok From Equinor</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObURvcEwzX3pvTWJkenladzFoNGJHQWtOc0xHODdRWDFvQ0pnVGhmM0d1MHBjdlBjY3ZQYjdXM2ptUTNtRXVfaU9zT1EtaTNMUTR3dV9sTHlzY0FsdTM2QWFBUzlHU1lqSXltd0FLRlFLWHg1U1NCY3Utb24xWWZTajFIUlNIN0NJZHlkb0pLaGt6b0JUUFNCeUdVWWdWWG93THZkMTZtQkRvVUo5bGswSmc0d1o?oc=5",
+      "source": "Google Macro",
+      "score": 9,
+      "severity": "MEDIUM",
+      "regime": "COMMODITIES",
+      "tickers": [
+        "WTI"
+      ],
+      "regions": [],
+      "assets": [
+        "COMMODITIES"
+      ],
+      "market_impact": {
+        "bullish": [
+          "WTI",
+          "XAU",
+          "MINERS"
+        ],
+        "bearish": [
+          "AIRLINES",
+          "TRANSPORT"
+        ]
+      },
+      "why_it_matters": "Commodity repricing impacting inflation expectations and industrial supply chains.",
+      "published": "2026-11-27T01:48:52.746101Z"
+    },
+    {
+      "id": "dafa503b333745784730c0e81c9cf923",
+      "title": "British and European banks have taken on a lot of France risk",
+      "summary": "Toulouse or not Toulouse",
+      "link": "https://www.ft.com/content/022fcf0c-9a7a-4bf0-b853-4de8b2ba88b9",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE",
+        "FRANCE",
+        "UK"
+      ],
+      "assets": [
+        "FX"
+      ],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-27T01:47:55.159851Z"
+    },
+    {
+      "id": "7f57e5c5a7f1fc490479d31e088ff4b7",
+      "title": "India\u2019s electricity demand to rise fivefold in 25 years, says Suzlon\u2019s Girish Tanti",
+      "summary": "Renewables can match coal power for reliability at lower cost, insists wind power pioneer",
+      "link": "https://www.ft.com/content/a342f53c-c323-4fa1-bdc2-16d504c1dd10?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 8,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-27T01:47:55.472800Z"
+    },
+    {
+      "id": "e92c94234a08c05b39521f67bfe631a2",
+      "title": "Robots could be doing household chores in just 1-2 years, Chinese EV firm says",
+      "summary": "Xpeng Co-President Brian Gu shared his humanoid robot predictions with CNBC in an interview Thursday.",
+      "link": "https://www.cnbc.com/2026/11/26/china-ev-xpeng-humanoid-robots-household-chores.html",
+      "source": "CNBC",
+      "score": 6,
       "severity": "LOW",
       "regime": "GENERAL",
       "tickers": [],
@@ -152,32 +437,7 @@
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-27T01:40:28.492724Z"
-    },
-    {
-      "id": "c6c878fbbc384ff082e7cdd491406cc8",
-      "title": "Freire Shipyard Celebrates Launch of New Greenpeace Vessel",
-      "summary": "Freire Shipyard celebrated the launch ceremony of NB 737 on November 25, 2026 in Vigo, marking a milestone in the construction of Greenpeace International's new flagship vessel. Designed to support environmental campaigns and scientific research worldwide while minimizing fossil fuel consumption\u2026",
-      "link": "https://www.marinelink.com/news/freire-shipyard-celebrates-launch-new-544591",
-      "source": "MarineLink",
-      "score": 5,
-      "severity": "LOW",
-      "regime": "AI",
-      "tickers": [],
-      "regions": [],
-      "assets": [
-        "AI"
-      ],
-      "market_impact": {
-        "bullish": [
-          "NVDA",
-          "SEMIS",
-          "QQQ"
-        ],
-        "bearish": []
-      },
-      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
-      "published": "2026-11-27T01:40:31.988098Z"
+      "published": "2026-11-27T01:47:56.846471Z"
     }
   ]
 }
