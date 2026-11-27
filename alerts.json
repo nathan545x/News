@@ -1,53 +1,545 @@
 {
   "terminal": "Institutional Macro Terminal",
-  "generated_at": "2026-11-27T00:38:37.841334Z",
+  "generated_at": "2026-11-27T00:45:43.635439Z",
   "market_regime": {
-    "regime": "GENERAL",
-    "dominant_driver": "GENERAL",
+    "regime": "GEO-SHOCK",
+    "dominant_driver": "GEO-SHOCK",
     "secondary_driver": "GENERAL",
     "signal_density": "LOW",
-    "critical_alerts": 0,
+    "critical_alerts": 1,
     "high_alerts": 0,
-    "last_updated": "2026-11-27T00:38:37.841344Z"
+    "last_updated": "2026-11-27T00:45:43.635454Z"
   },
   "top_signals": [
     {
-      "id": "cc0c3dafe4ddc1fe70d508db0cef1c03",
-      "title": "Japan GPIF to Brief on Every Asset-Mix Review, Not Just Some",
-      "summary": "Japan\u2019s Government Pension Investment Fund is now reporting the results of every review of its strategic asset allocation to its board, rather than only sometimes when deemed necessary.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-27/japan-gpif-to-brief-on-every-asset-mix-review-not-just-some",
-      "source": "Bloomberg",
-      "score": 9,
+      "id": "b9dec5608ca32a6e6440c37cf156290b",
+      "title": "Italy\u2019s PM rebukes Ukraine for attacks on Russian ships in Mediterranean",
+      "summary": "\u2018This war must not, cannot spread to the Mediterranean,\u2019 Giorgia Meloni says at EU summit",
+      "link": "https://www.ft.com/content/7461793f-6983-45ea-8ba2-8b1824df9379?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 37,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-27T00:44:38.853029Z"
+    },
+    {
+      "id": "5c4d2fc644d823db8a976e051d7c0dd7",
+      "title": "Trump doubles down on his tariff agenda",
+      "summary": "New import levies on 14 partners defy voters and add to price pressures",
+      "link": "https://www.ft.com/content/17a849f1-7e64-4f56-b756-ccf12662ebff?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 14,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-11-27T00:44:38.852970Z"
+    },
+    {
+      "id": "5ce5bc3921a7e2d6c9b355a6ea5b3137",
+      "title": "Nissan poised to import cars from China to Japan for first time",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/automobiles/nissan-poised-to-import-cars-from-china-to-japan-for-first-time",
+      "source": "Nikkei Asia",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA",
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-27T00:45:34.710840Z"
+    },
+    {
+      "id": "73429a0599c4bb64005271f1fcf89703",
+      "title": "Japan firms say rate hikes are starting to bite, new study shows",
+      "summary": "Almost 59% of companies said the negative effects of higher rates are greater than the positive ones.",
+      "link": "https://www.japantimes.co.jp/business/2026/11/26/economy/japan-firms-hikes-bite/",
+      "source": "Japan Times",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "RATES",
       "tickers": [],
       "regions": [
         "JAPAN"
       ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-27T00:45:34.928351Z"
+    },
+    {
+      "id": "47c15146220f598becfdd65c503487f0",
+      "title": "Europe\u2019s only spot bitcoin ETF starts trading in Switzerland, BIT says",
+      "summary": "BIT Asset Management's BBIT fund debuted on SIX Swiss Exchange with 350 BTC in assets and a 0.19% annual expense ratio.",
+      "link": "https://www.theblock.co/news/markets/2026-11-26-swiss-bitcoin-etf-bbit-begins-trading-europes-only-446724",
+      "source": "The Block",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC",
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "CRYPTO",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-27T00:45:40.143810Z"
+    },
+    {
+      "id": "a394bbcbf7284d49a779e7e09b057650",
+      "title": "Meeting of 28-29 October 2026",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261126~ccf28c8071.en.html",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-27T00:37:38.298382Z"
+      "published": "2026-11-27T00:45:19.707301Z"
+    },
+    {
+      "id": "6eb0ac809bc12c970fc9b6cfac56ef2e",
+      "title": "Spain moves to grant financial watchdog power to freeze crypto accounts",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Spain moves to grant financial watchdog power to freeze crypto accounts\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M8CCD2RN9Y8M1ZHAA60WA1ZA/frozen-token-with-spanish-flag.png\" /></p><p>A new decree would allow Spain\u2019s financial intelligence unit to suspend crypto accounts, with firms facing fines for noncompliance.</p>",
+      "link": "https://cointelegraph.com/news/spain-moves-grant-financial-watchdog-power-freeze-crypto-accounts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-27T00:45:40.043519Z"
+    },
+    {
+      "id": "a4cb111b09714f5aa0f6e914f320b0a1",
+      "title": "Privacy coins face diverging fortunes as KuCoin moves to drop Monero",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Privacy coins face diverging fortunes as KuCoin moves to drop Monero\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M8CWT0VSVGTZXTJSC0TTYCYY/red-graphs-removed.png\" /></p><p>As KuCoin joins exchanges dropping Monero ahead of new EU restrictions, Grayscale argues that Zcash\u2019s privacy design sets it apart.</p>",
+      "link": "https://cointelegraph.com/news/privacy-coins-kucoin-drop-monero-grayscale-zcash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-11-27T00:45:40.043385Z"
+    },
+    {
+      "id": "9076228223973f6510d1e8df0d68b0a2",
+      "title": "Vietnam must explain \u2018abduction\u2019 of activists: U.N. experts",
+      "summary": "Vietnam permits little to no dissent within its borders and critics say its security apparatus stretches abroad.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/vietnam-activists-un-experts/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-27T00:45:34.928304Z"
+    },
+    {
+      "id": "116a60746cc7dae701d2c966b4d5700a",
+      "title": "The invisible strength of the UK economy - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQQU5xY1IwRFdwZmZ3Y1NZWmh5dGJzSC1WNHBZSUxXUXgzb1BiR1ZhejBNaGc2UURxcXp5YXJlZEV4aElkQXNYX0ROdmVWY0U5M3JJZzRNbFJWQkdyaE5CNzRVRVl5NFJyUlFubGNyeHVDRm4zTDZtLTI1SzB1ZEh2dEJETjg?oc=5\" target=\"_blank\">The invisible strength of the UK economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQU5xY1IwRFdwZmZ3Y1NZWmh5dGJzSC1WNHBZSUxXUXgzb1BiR1ZhejBNaGc2UURxcXp5YXJlZEV4aElkQXNYX0ROdmVWY0U5M3JJZzRNbFJWQkdyaE5CNzRVRVl5NFJyUlFubGNyeHVDRm4zTDZtLTI1SzB1ZEh2dEJETjg?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-27T00:45:42.525138Z"
     }
   ],
   "alerts": [
     {
-      "id": "cc0c3dafe4ddc1fe70d508db0cef1c03",
-      "title": "Japan GPIF to Brief on Every Asset-Mix Review, Not Just Some",
-      "summary": "Japan\u2019s Government Pension Investment Fund is now reporting the results of every review of its strategic asset allocation to its board, rather than only sometimes when deemed necessary.",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-27/japan-gpif-to-brief-on-every-asset-mix-review-not-just-some",
-      "source": "Bloomberg",
-      "score": 9,
+      "id": "b9dec5608ca32a6e6440c37cf156290b",
+      "title": "Italy\u2019s PM rebukes Ukraine for attacks on Russian ships in Mediterranean",
+      "summary": "\u2018This war must not, cannot spread to the Mediterranean,\u2019 Giorgia Meloni says at EU summit",
+      "link": "https://www.ft.com/content/7461793f-6983-45ea-8ba2-8b1824df9379?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 37,
+      "severity": "CRITICAL",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "RUSSIA",
+        "UK",
+        "UKRAINE"
+      ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-27T00:44:38.853029Z"
+    },
+    {
+      "id": "5c4d2fc644d823db8a976e051d7c0dd7",
+      "title": "Trump doubles down on his tariff agenda",
+      "summary": "New import levies on 14 partners defy voters and add to price pressures",
+      "link": "https://www.ft.com/content/17a849f1-7e64-4f56-b756-ccf12662ebff?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "score": 14,
       "severity": "MEDIUM",
-      "regime": "GENERAL",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-11-27T00:44:38.852970Z"
+    },
+    {
+      "id": "5ce5bc3921a7e2d6c9b355a6ea5b3137",
+      "title": "Nissan poised to import cars from China to Japan for first time",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/automobiles/nissan-poised-to-import-cars-from-china-to-japan-for-first-time",
+      "source": "Nikkei Asia",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "GEO-SHOCK",
+      "tickers": [],
+      "regions": [
+        "CHINA",
+        "JAPAN"
+      ],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "DXY",
+          "DEFENSE"
+        ],
+        "bearish": [
+          "SPY",
+          "QQQ",
+          "AIRLINES"
+        ]
+      },
+      "why_it_matters": "Geopolitical escalation affecting commodities, shipping and cross-asset volatility.",
+      "published": "2026-11-27T00:45:34.710840Z"
+    },
+    {
+      "id": "73429a0599c4bb64005271f1fcf89703",
+      "title": "Japan firms say rate hikes are starting to bite, new study shows",
+      "summary": "Almost 59% of companies said the negative effects of higher rates are greater than the positive ones.",
+      "link": "https://www.japantimes.co.jp/business/2026/11/26/economy/japan-firms-hikes-bite/",
+      "source": "Japan Times",
+      "score": 13,
+      "severity": "MEDIUM",
+      "regime": "RATES",
       "tickers": [],
       "regions": [
         "JAPAN"
       ],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "DXY",
+          "JPY"
+        ],
+        "bearish": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ]
+      },
+      "why_it_matters": "Central-bank repricing affecting yields, FX, liquidity and equities.",
+      "published": "2026-11-27T00:45:34.928351Z"
+    },
+    {
+      "id": "47c15146220f598becfdd65c503487f0",
+      "title": "Europe\u2019s only spot bitcoin ETF starts trading in Switzerland, BIT says",
+      "summary": "BIT Asset Management's BBIT fund debuted on SIX Swiss Exchange with 350 BTC in assets and a 0.19% annual expense ratio.",
+      "link": "https://www.theblock.co/news/markets/2026-11-26-swiss-bitcoin-etf-bbit-begins-trading-europes-only-446724",
+      "source": "The Block",
+      "score": 12,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [
+        "BTC",
+        "EUR"
+      ],
+      "regions": [
+        "EUROPE"
+      ],
+      "assets": [
+        "CRYPTO",
+        "FX"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-27T00:45:40.143810Z"
+    },
+    {
+      "id": "a394bbcbf7284d49a779e7e09b057650",
+      "title": "Meeting of 28-29 October 2026",
+      "summary": "",
+      "link": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261126~ccf28c8071.en.html",
+      "source": "ECB",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [],
       "assets": [],
       "market_impact": {},
       "why_it_matters": "Macro-sensitive market development.",
-      "published": "2026-11-27T00:37:38.298382Z"
+      "published": "2026-11-27T00:45:19.707301Z"
+    },
+    {
+      "id": "6eb0ac809bc12c970fc9b6cfac56ef2e",
+      "title": "Spain moves to grant financial watchdog power to freeze crypto accounts",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Spain moves to grant financial watchdog power to freeze crypto accounts\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M8CCD2RN9Y8M1ZHAA60WA1ZA/frozen-token-with-spanish-flag.png\" /></p><p>A new decree would allow Spain\u2019s financial intelligence unit to suspend crypto accounts, with firms facing fines for noncompliance.</p>",
+      "link": "https://cointelegraph.com/news/spain-moves-grant-financial-watchdog-power-freeze-crypto-accounts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 10,
+      "severity": "MEDIUM",
+      "regime": "CRYPTO",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "BTC",
+          "ETH"
+        ],
+        "bearish": [
+          "USD"
+        ]
+      },
+      "why_it_matters": "Digital asset volatility and institutional crypto positioning changes.",
+      "published": "2026-11-27T00:45:40.043519Z"
+    },
+    {
+      "id": "a4cb111b09714f5aa0f6e914f320b0a1",
+      "title": "Privacy coins face diverging fortunes as KuCoin moves to drop Monero",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Privacy coins face diverging fortunes as KuCoin moves to drop Monero\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M8CWT0VSVGTZXTJSC0TTYCYY/red-graphs-removed.png\" /></p><p>As KuCoin joins exchanges dropping Monero ahead of new EU restrictions, Grayscale argues that Zcash\u2019s privacy design sets it apart.</p>",
+      "link": "https://cointelegraph.com/news/privacy-coins-kucoin-drop-monero-grayscale-zcash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "score": 7,
+      "severity": "LOW",
+      "regime": "INFLATION",
+      "tickers": [],
+      "regions": [],
+      "assets": [],
+      "market_impact": {
+        "bullish": [
+          "XAU",
+          "WTI",
+          "COMMODITIES"
+        ],
+        "bearish": [
+          "BONDS",
+          "GROWTH"
+        ]
+      },
+      "why_it_matters": "Inflation expectations impacting rate path, bonds and global risk assets.",
+      "published": "2026-11-27T00:45:40.043385Z"
+    },
+    {
+      "id": "9076228223973f6510d1e8df0d68b0a2",
+      "title": "Vietnam must explain \u2018abduction\u2019 of activists: U.N. experts",
+      "summary": "Vietnam permits little to no dissent within its borders and critics say its security apparatus stretches abroad.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/vietnam-activists-un-experts/",
+      "source": "Japan Times",
+      "score": 5,
+      "severity": "LOW",
+      "regime": "AI",
+      "tickers": [],
+      "regions": [],
+      "assets": [
+        "AI"
+      ],
+      "market_impact": {
+        "bullish": [
+          "NVDA",
+          "SEMIS",
+          "QQQ"
+        ],
+        "bearish": []
+      },
+      "why_it_matters": "AI and semiconductor developments impacting technology leadership and capex cycles.",
+      "published": "2026-11-27T00:45:34.928304Z"
+    },
+    {
+      "id": "116a60746cc7dae701d2c966b4d5700a",
+      "title": "The invisible strength of the UK economy - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQQU5xY1IwRFdwZmZ3Y1NZWmh5dGJzSC1WNHBZSUxXUXgzb1BiR1ZhejBNaGc2UURxcXp5YXJlZEV4aElkQXNYX0ROdmVWY0U5M3JJZzRNbFJWQkdyaE5CNzRVRVl5NFJyUlFubGNyeHVDRm4zTDZtLTI1SzB1ZEh2dEJETjg?oc=5\" target=\"_blank\">The invisible strength of the UK economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQU5xY1IwRFdwZmZ3Y1NZWmh5dGJzSC1WNHBZSUxXUXgzb1BiR1ZhejBNaGc2UURxcXp5YXJlZEV4aElkQXNYX0ROdmVWY0U5M3JJZzRNbFJWQkdyaE5CNzRVRVl5NFJyUlFubGNyeHVDRm4zTDZtLTI1SzB1ZEh2dEJETjg?oc=5",
+      "source": "Google Macro",
+      "score": 1,
+      "severity": "LOW",
+      "regime": "GENERAL",
+      "tickers": [],
+      "regions": [
+        "UK"
+      ],
+      "assets": [],
+      "market_impact": {},
+      "why_it_matters": "Macro-sensitive market development.",
+      "published": "2026-11-27T00:45:42.525138Z"
     }
   ]
 }
